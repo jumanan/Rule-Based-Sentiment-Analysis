@@ -1,0 +1,687 @@
+
+----------------------------------
+original sentence: 
+U.S., U.K.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), (',', ','), ('U.K', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE U.S./NNP) ,/, U.K/JJ ./.)
+----------------------------------
+original sentence: 
+Investigate Bribe Case Tied to Alcoa WSJ.com
+Bribe Case Focuses On Negotiator for Alcoa
+
+ Please see Corrections & Amplifications item U.S. and U.K. prosecutors are investigating a prominent Canadian businessman for criminal money laundering and bribery as part of a two year investigation centering on  Inc., the metals giant, according to people familiar with the matter.
+
+POS tagged sentence: 
+[('Investigate', 'NNP'), ('Bribe', 'NNP'), ('Case', 'NNP'), ('Tied', 'NNP'), ('to', 'TO'), ('Alcoa', 'NNP'), ('WSJ.com', 'NNP'), ('Bribe', 'NNP'), ('Case', 'NNP'), ('Focuses', 'NNP'), ('On', 'NNP'), ('Negotiator', 'NNP'), ('for', 'IN'), ('Alcoa', 'NNP'), ('Please', 'NNP'), ('see', 'VB'), ('Corrections', 'NNS'), ('&', 'CC'), ('Amplifications', 'NNS'), ('item', 'VBP'), ('U.S.', 'NNP'), ('and', 'CC'), ('U.K.', 'NNP'), ('prosecutors', 'NNS'), ('are', 'VBP'), ('investigating', 'VBG'), ('a', 'DT'), ('prominent', 'NN'), ('Canadian', 'JJ'), ('businessman', 'NN'), ('for', 'IN'), ('criminal', 'JJ'), ('money', 'NN'), ('laundering', 'VBG'), ('and', 'CC'), ('bribery', 'NN'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('a', 'DT'), ('two', 'CD'), ('year', 'NN'), ('investigation', 'NN'), ('centering', 'VBG'), ('on', 'IN'), ('Inc.', 'NNP'), (',', ','), ('the', 'DT'), ('metals', 'NNS'), ('giant', 'VBP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investigate/NNP   (PERSON Bribe/NNP Case/NNP Tied/NNP)   to/TO   (PERSON     Alcoa/NNP     WSJ.com/NNP     Bribe/NNP     Case/NNP     Focuses/NNP     On/NNP     Negotiator/NNP)   for/IN   (PERSON Alcoa/NNP Please/NNP)   see/VB   Corrections/NNS   &/CC   Amplifications/NNS   item/VBP   (GPE U.S./NNP)   and/CC   U.K./NNP   prosecutors/NNS   are/VBP   investigating/VBG   a/DT   prominent/NN   (GPE Canadian/JJ)   businessman/NN   for/IN   criminal/JJ   money/NN   laundering/VBG   and/CC   bribery/NN   as/IN   part/NN   of/IN   a/DT   two/CD   year/NN   investigation/NN   centering/VBG   on/IN   Inc./NNP   ,/,   the/DT   metals/NNS   giant/VBP   ,/,   according/VBG   to/TO   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB Corrections/NNS)
+	(VERB item/VBP U.S./NNP)
+	(VERB   are/VBP   investigating/VBG   a/DT   prominent/NN   Canadian/JJ   businessman/NN   for/IN   criminal/JJ   money/NN)
+	(VERB laundering/VBG)
+	(VERB centering/VBG on/IN Inc./NNP)
+	(VERB giant/VBP)
+	(VERB   according/VBG   to/TO   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN)
+noun phrases to consider:
+	(NOUN Investigate/NNP Bribe/NNP Case/NNP Tied/NNP)
+	(NOUN Alcoa/NNP WSJ.com/NNP Bribe/NNP Case/NNP)
+
+tagged sentence:
+	 Alcoa WSJ.com Bribe Case	res:-1
+	(NOUN Focuses/NNP On/NNP Negotiator/NNP)
+	(NOUN Alcoa/NNP Please/NNP)
+
+tagged sentence:
+	 Alcoa Please	res:1
+	(NOUN Amplifications/NNS)
+	(NOUN U.K./NNP prosecutors/NNS)
+	(NOUN bribery/NN)
+	(NOUN part/NN)
+	(NOUN two/CD year/NN investigation/NN)
+	(NOUN metals/NNS)
+
+----------------------------------
+original sentence: 
+The prosecutors have unearthed new documents that they believe show the involvement of Victor Dahdaleh, a longtime agent of Alcoa who helped negotiate contracts with companies in the Middle East and elsewhere, according to the people familiar with the matter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('prosecutors', 'NNS'), ('have', 'VBP'), ('unearthed', 'VBN'), ('new', 'JJ'), ('documents', 'NNS'), ('that', 'WDT'), ('they', 'PRP'), ('believe', 'VBP'), ('show', 'NN'), ('the', 'DT'), ('involvement', 'NN'), ('of', 'IN'), ('Victor', 'NNP'), ('Dahdaleh', 'NNP'), (',', ','), ('a', 'DT'), ('longtime', 'NN'), ('agent', 'NN'), ('of', 'IN'), ('Alcoa', 'NNP'), ('who', 'WP'), ('helped', 'VBD'), ('negotiate', 'VBP'), ('contracts', 'NNS'), ('with', 'IN'), ('companies', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Middle', 'NNP'), ('East', 'NNP'), ('and', 'CC'), ('elsewhere', 'RB'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   prosecutors/NNS   have/VBP   unearthed/VBN   new/JJ   documents/NNS   that/WDT   they/PRP   believe/VBP   show/NN   the/DT   involvement/NN   of/IN   (PERSON Victor/NNP Dahdaleh/NNP)   ,/,   a/DT   longtime/NN   agent/NN   of/IN   Alcoa/NNP   who/WP   helped/VBD   negotiate/VBP   contracts/NNS   with/IN   companies/NNS   in/IN   the/DT   (GPE Middle/NNP East/NNP)   and/CC   elsewhere/RB   ,/,   according/VBG   to/TO   the/DT   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP unearthed/VBN new/JJ documents/NNS)
+	(VERB   believe/VBP   show/NN   the/DT   involvement/NN   of/IN   Victor/NNP   Dahdaleh/NNP)
+	(VERB   helped/VBD   negotiate/VBP   contracts/NNS   with/IN   companies/NNS   in/IN   the/DT   Middle/NNP   East/NNP)
+	(VERB   according/VBG   to/TO   the/DT   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN)
+noun phrases to consider:
+	(NOUN prosecutors/NNS)
+	(NOUN longtime/NN agent/NN)
+	(NOUN Alcoa/NNP)
+
+----------------------------------
+original sentence: 
+No charges have been filed against Mr. Dahdaleh, a Canadian citizen in his 60s who lives in London.
+
+POS tagged sentence: 
+[('No', 'DT'), ('charges', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('filed', 'VBN'), ('against', 'IN'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), (',', ','), ('a', 'DT'), ('Canadian', 'JJ'), ('citizen', 'NN'), ('in', 'IN'), ('his', 'PRP$'), ('60s', 'CD'), ('who', 'WP'), ('lives', 'NNS'), ('in', 'IN'), ('London', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   No/DT   charges/NNS   have/VBP   been/VBN   filed/VBN   against/IN   (PERSON Mr./NNP Dahdaleh/NNP)   ,/,   a/DT   (GPE Canadian/JJ)   citizen/NN   in/IN   his/PRP$   60s/CD   who/WP   lives/NNS   in/IN   (GPE London/NNP)   ./.)
+----------------------------------
+original sentence: 
+His lawyer declined comment.
+
+POS tagged sentence: 
+[('His', 'PRP$'), ('lawyer', 'NN'), ('declined', 'VBD'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S His/PRP$ lawyer/NN declined/VBD comment/NN ./.)
+----------------------------------
+original sentence: 
+Since 2008, U.S. prosecutors have been investigating whether Pittsburgh based Alcoa was involved in bribing government officials in the Persian Gulf state of Bahrain in exchange for business in possible violation of the 1977 U.S. Foreign Corrupt Practices Act, according to people familiar with the matter.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('2008', 'CD'), (',', ','), ('U.S.', 'NNP'), ('prosecutors', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('investigating', 'VBG'), ('whether', 'IN'), ('Pittsburgh', 'NNP'), ('based', 'VBN'), ('Alcoa', 'NNP'), ('was', 'VBD'), ('involved', 'VBN'), ('in', 'IN'), ('bribing', 'NN'), ('government', 'NN'), ('officials', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Persian', 'NNP'), ('Gulf', 'NNP'), ('state', 'NN'), ('of', 'IN'), ('Bahrain', 'NNP'), ('in', 'IN'), ('exchange', 'NN'), ('for', 'IN'), ('business', 'NN'), ('in', 'IN'), ('possible', 'JJ'), ('violation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('1977', 'CD'), ('U.S.', 'NNP'), ('Foreign', 'NNP'), ('Corrupt', 'NNP'), ('Practices', 'NNPS'), ('Act', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   2008/CD   ,/,   (GPE U.S./NNP)   prosecutors/NNS   have/VBP   been/VBN   investigating/VBG   whether/IN   (PERSON Pittsburgh/NNP)   based/VBN   (PERSON Alcoa/NNP)   was/VBD   involved/VBN   in/IN   bribing/NN   government/NN   officials/NNS   in/IN   the/DT   (LOCATION Persian/NNP Gulf/NNP)   state/NN   of/IN   (GPE Bahrain/NNP)   in/IN   exchange/NN   for/IN   business/NN   in/IN   possible/JJ   violation/NN   of/IN   the/DT   1977/CD   (GPE U.S./NNP)   Foreign/NNP   (ORGANIZATION Corrupt/NNP Practices/NNPS Act/NNP)   ,/,   according/VBG   to/TO   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP been/VBN investigating/VBG whether/IN Pittsburgh/NNP)
+	(VERB based/VBN Alcoa/NNP)
+	(VERB   was/VBD   involved/VBN   in/IN   bribing/NN   government/NN   officials/NNS   in/IN   the/DT   Persian/NNP   Gulf/NNP   state/NN   of/IN   Bahrain/NNP   in/IN   exchange/NN   for/IN   business/NN   in/IN   possible/JJ   violation/NN   of/IN   the/DT   1977/CD   U.S./NNP   Foreign/NNP   Corrupt/NNP   Practices/NNPS   Act/NNP)
+
+tagged sentence:
+	 was involved in bribing government officials in the Persian Gulf state of Bahrain in exchange for business in possible violation of the 1977 U.S. Foreign Corrupt Practices Act	res:-1
+	(VERB   according/VBG   to/TO   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN)
+noun phrases to consider:
+	(NOUN U.S./NNP prosecutors/NNS)
+
+----------------------------------
+original sentence: 
+Prosecutors are looking at Alcoa's relationship with Aluminum Bahrain BSC, a Bahrain government owned manufacturing company also known as Alba, these people said.
+
+POS tagged sentence: 
+[('Prosecutors', 'NNS'), ('are', 'VBP'), ('looking', 'VBG'), ('at', 'IN'), ('Alcoa', 'NNP'), ("'s", 'POS'), ('relationship', 'NN'), ('with', 'IN'), ('Aluminum', 'NNP'), ('Bahrain', 'NNP'), ('BSC', 'NNP'), (',', ','), ('a', 'DT'), ('Bahrain', 'NNP'), ('government', 'NN'), ('owned', 'VBD'), ('manufacturing', 'VBG'), ('company', 'NN'), ('also', 'RB'), ('known', 'VBN'), ('as', 'IN'), ('Alba', 'NNP'), (',', ','), ('these', 'DT'), ('people', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prosecutors/NNS   are/VBP   looking/VBG   at/IN   (ORGANIZATION Alcoa/NNP)   's/POS   relationship/NN   with/IN   (PERSON Aluminum/NNP Bahrain/NNP BSC/NNP)   ,/,   a/DT   (GPE Bahrain/NNP)   government/NN   owned/VBD   manufacturing/VBG   company/NN   also/RB   known/VBN   as/IN   (PERSON Alba/NNP)   ,/,   these/DT   people/NNS   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP looking/VBG at/IN Alcoa/NNP)
+	(VERB owned/VBD manufacturing/VBG company/NN also/RB)
+	(VERB known/VBN as/IN Alba/NNP)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Prosecutors/NNS)
+	(NOUN relationship/NN)
+	(NOUN Aluminum/NNP Bahrain/NNP BSC/NNP)
+	(NOUN Bahrain/NNP government/NN)
+	(NOUN people/NNS)
+
+----------------------------------
+original sentence: 
+Alba has one of the world's largest aluminum smelters and bought raw materials from Alcoa.
+
+POS tagged sentence: 
+[('Alba', 'NNP'), ('has', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('aluminum', 'NN'), ('smelters', 'NNS'), ('and', 'CC'), ('bought', 'VBD'), ('raw', 'NN'), ('materials', 'NNS'), ('from', 'IN'), ('Alcoa', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alba/NNP)   has/VBZ   one/CD   of/IN   the/DT   world/NN   's/POS   largest/JJS   aluminum/NN   smelters/NNS   and/CC   bought/VBD   raw/NN   materials/NNS   from/IN   (GPE Alcoa/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ one/CD of/IN the/DT world/NN)
+	(VERB bought/VBD raw/NN materials/NNS from/IN Alcoa/NNP)
+noun phrases to consider:
+	(NOUN Alba/NNP)
+	(NOUN largest/JJS aluminum/NN smelters/NNS)
+
+----------------------------------
+original sentence: 
+Representatives of Alcoa and Alba said they are cooperating with authorities.
+
+POS tagged sentence: 
+[('Representatives', 'NNS'), ('of', 'IN'), ('Alcoa', 'NNP'), ('and', 'CC'), ('Alba', 'NNP'), ('said', 'VBD'), ('they', 'PRP'), ('are', 'VBP'), ('cooperating', 'VBG'), ('with', 'IN'), ('authorities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Representatives/NNS   of/IN   (GPE Alcoa/NNP)   and/CC   (PERSON Alba/NNP)   said/VBD   they/PRP   are/VBP   cooperating/VBG   with/IN   authorities/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD they/PRP)
+	(VERB are/VBP cooperating/VBG with/IN authorities/NNS)
+noun phrases to consider:
+	(NOUN Representatives/NNS)
+	(NOUN Alcoa/NNP)
+	(NOUN Alba/NNP)
+
+----------------------------------
+original sentence: 
+A spokeswoman for the U.S. Justice Department and a spokesman for the U.K.'s Serious Fraud Office declined to comment.
+
+POS tagged sentence: 
+[('A', 'DT'), ('spokeswoman', 'NN'), ('for', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Justice', 'NNP'), ('Department', 'NNP'), ('and', 'CC'), ('a', 'DT'), ('spokesman', 'NN'), ('for', 'IN'), ('the', 'DT'), ('U.K.', 'NNP'), ("'s", 'POS'), ('Serious', 'NNP'), ('Fraud', 'NNP'), ('Office', 'NNP'), ('declined', 'VBD'), ('to', 'TO'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   spokeswoman/NN   for/IN   the/DT   (GPE U.S./NNP)   (ORGANIZATION Justice/NNP Department/NNP)   and/CC   a/DT   spokesman/NN   for/IN   the/DT   U.K./NNP   's/POS   (PERSON Serious/NNP Fraud/NNP)   Office/NNP   declined/VBD   to/TO   comment/NN   ./.)
+----------------------------------
+original sentence: 
+Prosecutors now have private financial records that they believe show that from 2001 to 2005, a company controlled by Mr. Dahdaleh made several million dollars in payments to the personal bank account of a former Alba senior executive, according to the people familiar with the matter.
+
+POS tagged sentence: 
+[('Prosecutors', 'NNS'), ('now', 'RB'), ('have', 'VBP'), ('private', 'JJ'), ('financial', 'JJ'), ('records', 'NNS'), ('that', 'WDT'), ('they', 'PRP'), ('believe', 'VBP'), ('show', 'NN'), ('that', 'IN'), ('from', 'IN'), ('2001', 'CD'), ('to', 'TO'), ('2005', 'CD'), (',', ','), ('a', 'DT'), ('company', 'NN'), ('controlled', 'VBN'), ('by', 'IN'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('made', 'VBD'), ('several', 'JJ'), ('million', 'CD'), ('dollars', 'NNS'), ('in', 'IN'), ('payments', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('personal', 'JJ'), ('bank', 'NN'), ('account', 'NN'), ('of', 'IN'), ('a', 'DT'), ('former', 'JJ'), ('Alba', 'NNP'), ('senior', 'JJ'), ('executive', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prosecutors/NNS   now/RB   have/VBP   private/JJ   financial/JJ   records/NNS   that/WDT   they/PRP   believe/VBP   show/NN   that/IN   from/IN   2001/CD   to/TO   2005/CD   ,/,   a/DT   company/NN   controlled/VBN   by/IN   (PERSON Mr./NNP Dahdaleh/NNP)   made/VBD   several/JJ   million/CD   dollars/NNS   in/IN   payments/NNS   to/TO   the/DT   personal/JJ   bank/NN   account/NN   of/IN   a/DT   former/JJ   (PERSON Alba/NNP)   senior/JJ   executive/NN   ,/,   according/VBG   to/TO   the/DT   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)
+----------------------------------
+original sentence: 
+Prosecutors in Washington and London, who are sharing information, also have a witness who claims that the payments were bribes, these people said.
+
+POS tagged sentence: 
+[('Prosecutors', 'NNS'), ('in', 'IN'), ('Washington', 'NNP'), ('and', 'CC'), ('London', 'NNP'), (',', ','), ('who', 'WP'), ('are', 'VBP'), ('sharing', 'VBG'), ('information', 'NN'), (',', ','), ('also', 'RB'), ('have', 'VBP'), ('a', 'DT'), ('witness', 'NN'), ('who', 'WP'), ('claims', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('payments', 'NNS'), ('were', 'VBD'), ('bribes', 'NNS'), (',', ','), ('these', 'DT'), ('people', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prosecutors/NNS   in/IN   (GPE Washington/NNP)   and/CC   (GPE London/NNP)   ,/,   who/WP   are/VBP   sharing/VBG   information/NN   ,/,   also/RB   have/VBP   a/DT   witness/NN   who/WP   claims/VBZ   that/IN   the/DT   payments/NNS   were/VBD   bribes/NNS   ,/,   these/DT   people/NNS   said/VBD   ./.)
+----------------------------------
+original sentence: 
+They are investigating whether employees of Alcoa were aware of the payments, the people said.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('are', 'VBP'), ('investigating', 'VBG'), ('whether', 'IN'), ('employees', 'NNS'), ('of', 'IN'), ('Alcoa', 'NNP'), ('were', 'VBD'), ('aware', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('payments', 'NNS'), (',', ','), ('the', 'DT'), ('people', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   are/VBP   investigating/VBG   whether/IN   employees/NNS   of/IN   (PERSON Alcoa/NNP)   were/VBD   aware/JJ   of/IN   the/DT   payments/NNS   ,/,   the/DT   people/NNS   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   investigating/VBG   whether/IN   employees/NNS   of/IN   Alcoa/NNP)
+	(VERB were/VBD aware/JJ of/IN the/DT payments/NNS)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN people/NNS)
+
+----------------------------------
+original sentence: 
+U.K. authorities executed a search of Mr. Dahdaleh's London residence near Belgrave Square late last year in connection with the investigation, the people added.
+
+POS tagged sentence: 
+[('U.K.', 'NNP'), ('authorities', 'NNS'), ('executed', 'VBD'), ('a', 'DT'), ('search', 'NN'), ('of', 'IN'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ("'s", 'POS'), ('London', 'NNP'), ('residence', 'NN'), ('near', 'IN'), ('Belgrave', 'NNP'), ('Square', 'NNP'), ('late', 'RB'), ('last', 'JJ'), ('year', 'NN'), ('in', 'IN'), ('connection', 'NN'), ('with', 'IN'), ('the', 'DT'), ('investigation', 'NN'), (',', ','), ('the', 'DT'), ('people', 'NNS'), ('added', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   U.K./NNP   authorities/NNS   executed/VBD   a/DT   search/NN   of/IN   (PERSON Mr./NNP Dahdaleh/NNP)   's/POS   (GPE London/NNP)   residence/NN   near/IN   (PERSON Belgrave/NNP Square/NNP)   late/RB   last/JJ   year/NN   in/IN   connection/NN   with/IN   the/DT   investigation/NN   ,/,   the/DT   people/NNS   added/VBD   ./.)
+----------------------------------
+original sentence: 
+The Alcoa investigation is among the most high profile matters involving the Foreign Corrupt Practices Act, which makes it a crime for U.S. companies or companies with U.S. subsidiaries to pay kickbacks abroad.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Alcoa', 'NNP'), ('investigation', 'NN'), ('is', 'VBZ'), ('among', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('high', 'JJ'), ('profile', 'NN'), ('matters', 'NNS'), ('involving', 'VBG'), ('the', 'DT'), ('Foreign', 'NNP'), ('Corrupt', 'NNP'), ('Practices', 'NNPS'), ('Act', 'NNP'), (',', ','), ('which', 'WDT'), ('makes', 'VBZ'), ('it', 'PRP'), ('a', 'DT'), ('crime', 'NN'), ('for', 'IN'), ('U.S.', 'NNP'), ('companies', 'NNS'), ('or', 'CC'), ('companies', 'NNS'), ('with', 'IN'), ('U.S.', 'NNP'), ('subsidiaries', 'NNS'), ('to', 'TO'), ('pay', 'VB'), ('kickbacks', 'NNS'), ('abroad', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Alcoa/NNP)   investigation/NN   is/VBZ   among/IN   the/DT   most/RBS   high/JJ   profile/NN   matters/NNS   involving/VBG   the/DT   (ORGANIZATION Foreign/NNP Corrupt/NNP Practices/NNPS Act/NNP)   ,/,   which/WDT   makes/VBZ   it/PRP   a/DT   crime/NN   for/IN   (GPE U.S./NNP)   companies/NNS   or/CC   companies/NNS   with/IN   (GPE U.S./NNP)   subsidiaries/NNS   to/TO   pay/VB   kickbacks/NNS   abroad/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ among/IN the/DT)
+	(VERB   involving/VBG   the/DT   Foreign/NNP   Corrupt/NNP   Practices/NNPS   Act/NNP)
+
+tagged sentence:
+	 involving the Foreign Corrupt Practices Act	res:-1
+	(VERB makes/VBZ it/PRP a/DT crime/NN for/IN U.S./NNP companies/NNS)
+	(VERB pay/VB kickbacks/NNS abroad/RB)
+noun phrases to consider:
+	(NOUN Alcoa/NNP investigation/NN)
+	(NOUN high/JJ profile/NN matters/NNS)
+
+tagged sentence:
+	 high profile matters	res:1
+	(NOUN companies/NNS)
+	(NOUN U.S./NNP subsidiaries/NNS)
+
+----------------------------------
+original sentence: 
+U.S. authorities have significantly increased enforcement efforts in recent years and worked on some investigations with prosecutors in the U.K., which has a similar antibribery law.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('authorities', 'NNS'), ('have', 'VBP'), ('significantly', 'RB'), ('increased', 'VBN'), ('enforcement', 'NN'), ('efforts', 'NNS'), ('in', 'IN'), ('recent', 'JJ'), ('years', 'NNS'), ('and', 'CC'), ('worked', 'VBD'), ('on', 'IN'), ('some', 'DT'), ('investigations', 'NNS'), ('with', 'IN'), ('prosecutors', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.K.', 'NNP'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('a', 'DT'), ('similar', 'JJ'), ('antibribery', 'NN'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   authorities/NNS   have/VBP   significantly/RB   increased/VBN   enforcement/NN   efforts/NNS   in/IN   recent/JJ   years/NNS   and/CC   worked/VBD   on/IN   some/DT   investigations/NNS   with/IN   prosecutors/NNS   in/IN   the/DT   U.K./NNP   ,/,   which/WDT   has/VBZ   a/DT   similar/JJ   antibribery/NN   law/NN   ./.)
+----------------------------------
+original sentence: 
+In February, the British defense company  PLC reached settlements totaling almost $500 million with both governments.
+
+POS tagged sentence: 
+[('In', 'IN'), ('February', 'NNP'), (',', ','), ('the', 'DT'), ('British', 'JJ'), ('defense', 'NN'), ('company', 'NN'), ('PLC', 'NNP'), ('reached', 'VBD'), ('settlements', 'NNS'), ('totaling', 'VBG'), ('almost', 'RB'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), ('with', 'IN'), ('both', 'DT'), ('governments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   February/NNP   ,/,   the/DT   (GPE British/JJ)   defense/NN   company/NN   (ORGANIZATION PLC/NNP)   reached/VBD   settlements/NNS   totaling/VBG   almost/RB   $/$   500/CD   million/CD   with/IN   both/DT   governments/NNS   ./.)
+----------------------------------
+original sentence: 
+Bahrain in recent years has cracked down on corrupt officials as part of an effort to attract foreign investment.
+
+POS tagged sentence: 
+[('Bahrain', 'NNP'), ('in', 'IN'), ('recent', 'JJ'), ('years', 'NNS'), ('has', 'VBZ'), ('cracked', 'VBN'), ('down', 'RP'), ('on', 'IN'), ('corrupt', 'JJ'), ('officials', 'NNS'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('an', 'DT'), ('effort', 'NN'), ('to', 'TO'), ('attract', 'VB'), ('foreign', 'JJ'), ('investment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bahrain/NNP)   in/IN   recent/JJ   years/NNS   has/VBZ   cracked/VBN   down/RP   on/IN   corrupt/JJ   officials/NNS   as/IN   part/NN   of/IN   an/DT   effort/NN   to/TO   attract/VB   foreign/JJ   investment/NN   ./.)
+----------------------------------
+original sentence: 
+The country has charged two former Alba employees with accepting bribes from other companies.
+
+POS tagged sentence: 
+[('The', 'DT'), ('country', 'NN'), ('has', 'VBZ'), ('charged', 'VBN'), ('two', 'CD'), ('former', 'JJ'), ('Alba', 'NNP'), ('employees', 'NNS'), ('with', 'IN'), ('accepting', 'VBG'), ('bribes', 'NNS'), ('from', 'IN'), ('other', 'JJ'), ('companies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   country/NN   has/VBZ   charged/VBN   two/CD   former/JJ   (ORGANIZATION Alba/NNP)   employees/NNS   with/IN   accepting/VBG   bribes/NNS   from/IN   other/JJ   companies/NNS   ./.)
+----------------------------------
+original sentence: 
+The employees have pleaded not guilty, and their case is pending.
+
+POS tagged sentence: 
+[('The', 'DT'), ('employees', 'NNS'), ('have', 'VBP'), ('pleaded', 'VBN'), ('not', 'RB'), ('guilty', 'JJ'), (',', ','), ('and', 'CC'), ('their', 'PRP$'), ('case', 'NN'), ('is', 'VBZ'), ('pending', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   employees/NNS   have/VBP   pleaded/VBN   not/RB   guilty/JJ   ,/,   and/CC   their/PRP$   case/NN   is/VBZ   pending/VBG   ./.)
+----------------------------------
+original sentence: 
+The criminal investigation involving Alcoa was triggered by a 2008 private civil lawsuit filed by Alba in the U.S.
+
+POS tagged sentence: 
+[('The', 'DT'), ('criminal', 'JJ'), ('investigation', 'NN'), ('involving', 'VBG'), ('Alcoa', 'NNP'), ('was', 'VBD'), ('triggered', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('2008', 'CD'), ('private', 'JJ'), ('civil', 'NN'), ('lawsuit', 'NN'), ('filed', 'VBN'), ('by', 'IN'), ('Alba', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('U.S', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   criminal/JJ   investigation/NN   involving/VBG   (PERSON Alcoa/NNP)   was/VBD   triggered/VBN   by/IN   a/DT   2008/CD   private/JJ   civil/NN   lawsuit/NN   filed/VBN   by/IN   (PERSON Alba/NNP)   in/IN   the/DT   U.S/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB involving/VBG Alcoa/NNP)
+	(VERB   was/VBD   triggered/VBN   by/IN   a/DT   2008/CD   private/JJ   civil/NN   lawsuit/NN)
+	(VERB filed/VBN by/IN Alba/NNP in/IN the/DT U.S/JJ)
+noun phrases to consider:
+	(NOUN The/DT criminal/JJ investigation/NN)
+
+tagged sentence:
+	 The criminal investigation	res:-1
+
+----------------------------------
+original sentence: 
+The suit, which sought monetary damages, accused Alcoa and Mr. Dahdaleh of conspiring to overcharge Alba for its purchase of thousands of tons of alumina, which is used to make aluminum.
+
+POS tagged sentence: 
+[('The', 'DT'), ('suit', 'NN'), (',', ','), ('which', 'WDT'), ('sought', 'VBN'), ('monetary', 'JJ'), ('damages', 'NNS'), (',', ','), ('accused', 'VBD'), ('Alcoa', 'NNP'), ('and', 'CC'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('of', 'IN'), ('conspiring', 'VBG'), ('to', 'TO'), ('overcharge', 'VB'), ('Alba', 'NNP'), ('for', 'IN'), ('its', 'PRP$'), ('purchase', 'NN'), ('of', 'IN'), ('thousands', 'NNS'), ('of', 'IN'), ('tons', 'NNS'), ('of', 'IN'), ('alumina', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('used', 'VBN'), ('to', 'TO'), ('make', 'VB'), ('aluminum', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   suit/NN   ,/,   which/WDT   sought/VBN   monetary/JJ   damages/NNS   ,/,   accused/VBD   (PERSON Alcoa/NNP)   and/CC   (PERSON Mr./NNP Dahdaleh/NNP)   of/IN   conspiring/VBG   to/TO   overcharge/VB   (PERSON Alba/NNP)   for/IN   its/PRP$   purchase/NN   of/IN   thousands/NNS   of/IN   tons/NNS   of/IN   alumina/NN   ,/,   which/WDT   is/VBZ   used/VBN   to/TO   make/VB   aluminum/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sought/VBN monetary/JJ damages/NNS)
+
+tagged sentence:
+	 sought monetary damages	res:-1
+	(VERB accused/VBD Alcoa/NNP)
+
+tagged sentence:
+	 accused Alcoa	res:-1
+	(VERB   conspiring/VBG   to/TO   overcharge/VB   Alba/NNP   for/IN   its/PRP$   purchase/NN   of/IN   thousands/NNS   of/IN   tons/NNS   of/IN   alumina/NN)
+	(VERB is/VBZ used/VBN)
+	(VERB make/VB aluminum/NN)
+noun phrases to consider:
+	(NOUN suit/NN)
+	(NOUN Mr./NNP Dahdaleh/NNP)
+
+----------------------------------
+original sentence: 
+At the time, a spokesman for Mr. Dahdaleh said he would be "vigorously contesting" the charges.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('time', 'NN'), (',', ','), ('a', 'DT'), ('spokesman', 'NN'), ('for', 'IN'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('said', 'VBD'), ('he', 'PRP'), ('would', 'MD'), ('be', 'VB'), ('"', ':'), ('vigorously', 'RB'), ('contesting', 'VBG'), ('"', ':'), ('the', 'DT'), ('charges', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   time/NN   ,/,   a/DT   spokesman/NN   for/IN   (PERSON Mr./NNP Dahdaleh/NNP)   said/VBD   he/PRP   would/MD   be/VB   "/:   vigorously/RB   contesting/VBG   "/:   the/DT   charges/NNS   ./.)
+----------------------------------
+original sentence: 
+An Alcoa spokesman said the company would "vigorously defend" itself.
+
+POS tagged sentence: 
+[('An', 'DT'), ('Alcoa', 'NNP'), ('spokesman', 'NN'), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('would', 'MD'), ('"', 'VB'), ('vigorously', 'RB'), ('defend', 'VB'), ('"', ':'), ('itself', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   Alcoa/NNP   spokesman/NN   said/VBD   the/DT   company/NN   would/MD   "/VB   vigorously/RB   defend/VB   "/:   itself/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD the/DT company/NN)
+	(VERB "/VB vigorously/RB defend/VB)
+
+tagged sentence:
+	 " vigorously defend	res:-1
+noun phrases to consider:
+	(NOUN Alcoa/NNP spokesman/NN)
+
+----------------------------------
+original sentence: 
+The overpayments totaled hundreds of millions of dollars over 15 years, Alba alleged.
+
+POS tagged sentence: 
+[('The', 'DT'), ('overpayments', 'NNS'), ('totaled', 'VBD'), ('hundreds', 'NNS'), ('of', 'IN'), ('millions', 'NNS'), ('of', 'IN'), ('dollars', 'NNS'), ('over', 'IN'), ('15', 'CD'), ('years', 'NNS'), (',', ','), ('Alba', 'NNP'), ('alleged', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   overpayments/NNS   totaled/VBD   hundreds/NNS   of/IN   millions/NNS   of/IN   dollars/NNS   over/IN   15/CD   years/NNS   ,/,   (PERSON Alba/NNP)   alleged/VBD   ./.)
+----------------------------------
+original sentence: 
+In exchange for the overpayments, Alcoa and Mr. Dahdaleh allegedly paid kickbacks to at least one senior official at Alba, according to the lawsuit.
+
+POS tagged sentence: 
+[('In', 'IN'), ('exchange', 'NN'), ('for', 'IN'), ('the', 'DT'), ('overpayments', 'NNS'), (',', ','), ('Alcoa', 'NNP'), ('and', 'CC'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('allegedly', 'RB'), ('paid', 'VBD'), ('kickbacks', 'NNS'), ('to', 'TO'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('senior', 'JJ'), ('official', 'NN'), ('at', 'IN'), ('Alba', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('lawsuit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   exchange/NN   for/IN   the/DT   overpayments/NNS   ,/,   (PERSON Alcoa/NNP)   and/CC   (PERSON Mr./NNP Dahdaleh/NNP)   allegedly/RB   paid/VBD   kickbacks/NNS   to/TO   at/IN   least/JJS   one/CD   senior/JJ   official/NN   at/IN   (ORGANIZATION Alba/NNP)   ,/,   according/VBG   to/TO   the/DT   lawsuit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB paid/VBD kickbacks/NNS)
+	(VERB according/VBG to/TO the/DT lawsuit/NN)
+noun phrases to consider:
+	(NOUN exchange/NN)
+	(NOUN overpayments/NNS)
+
+tagged sentence:
+	 overpayments	res:-1
+	(NOUN Alcoa/NNP)
+	(NOUN Mr./NNP Dahdaleh/NNP)
+	(NOUN least/JJS one/CD)
+	(NOUN senior/JJ official/NN)
+	(NOUN Alba/NNP)
+
+----------------------------------
+original sentence: 
+A federal judge halted the suit pending the outcome of the Justice Department's criminal investigation.
+
+POS tagged sentence: 
+[('A', 'DT'), ('federal', 'JJ'), ('judge', 'NN'), ('halted', 'VBD'), ('the', 'DT'), ('suit', 'NN'), ('pending', 'VBG'), ('the', 'DT'), ('outcome', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Justice', 'NNP'), ('Department', 'NNP'), ("'s", 'POS'), ('criminal', 'JJ'), ('investigation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   federal/JJ   judge/NN   halted/VBD   the/DT   suit/NN   pending/VBG   the/DT   outcome/NN   of/IN   the/DT   (ORGANIZATION Justice/NNP Department/NNP)   's/POS   criminal/JJ   investigation/NN   ./.)
+----------------------------------
+original sentence: 
+Mr. Dahdaleh has links to prominent U.K. Labor Party politicians and former President Bill Clinton, according to public records.
+
+POS tagged sentence: 
+[('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('has', 'VBZ'), ('links', 'NNS'), ('to', 'TO'), ('prominent', 'VB'), ('U.K.', 'NNP'), ('Labor', 'NNP'), ('Party', 'NNP'), ('politicians', 'VBZ'), ('and', 'CC'), ('former', 'JJ'), ('President', 'NNP'), ('Bill', 'NNP'), ('Clinton', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('public', 'JJ'), ('records', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mr./NNP)   (ORGANIZATION Dahdaleh/NNP)   has/VBZ   links/NNS   to/TO   prominent/VB   U.K./NNP   (PERSON Labor/NNP Party/NNP)   politicians/VBZ   and/CC   former/JJ   President/NNP   (PERSON Bill/NNP Clinton/NNP)   ,/,   according/VBG   to/TO   public/JJ   records/NNS   ./.)
+----------------------------------
+original sentence: 
+He has supported groups affiliated with the U.K. Labor Party financially and has ties to Peter Mandelson, currently the U.K. secretary of state for business, according to the records.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('has', 'VBZ'), ('supported', 'VBN'), ('groups', 'NNS'), ('affiliated', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('U.K.', 'NNP'), ('Labor', 'NNP'), ('Party', 'NNP'), ('financially', 'RB'), ('and', 'CC'), ('has', 'VBZ'), ('ties', 'NNS'), ('to', 'TO'), ('Peter', 'NNP'), ('Mandelson', 'NNP'), (',', ','), ('currently', 'RB'), ('the', 'DT'), ('U.K.', 'NNP'), ('secretary', 'NN'), ('of', 'IN'), ('state', 'NN'), ('for', 'IN'), ('business', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('records', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   has/VBZ   supported/VBN   groups/NNS   affiliated/VBN   with/IN   the/DT   U.K./NNP   (PERSON Labor/NNP Party/NNP)   financially/RB   and/CC   has/VBZ   ties/NNS   to/TO   (PERSON Peter/NNP Mandelson/NNP)   ,/,   currently/RB   the/DT   U.K./NNP   secretary/NN   of/IN   state/NN   for/IN   business/NN   ,/,   according/VBG   to/TO   the/DT   records/NNS   ./.)
+----------------------------------
+original sentence: 
+Until 2008, Mr. Dahdaleh was president of a group that promotes business ties between the U.K. and Canada, according to the group's Web site.
+
+POS tagged sentence: 
+[('Until', 'IN'), ('2008', 'CD'), (',', ','), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('was', 'VBD'), ('president', 'NN'), ('of', 'IN'), ('a', 'DT'), ('group', 'NN'), ('that', 'WDT'), ('promotes', 'VBZ'), ('business', 'NN'), ('ties', 'NNS'), ('between', 'IN'), ('the', 'DT'), ('U.K.', 'NNP'), ('and', 'CC'), ('Canada', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('group', 'NN'), ("'s", 'POS'), ('Web', 'NNP'), ('site', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Until/IN   2008/CD   ,/,   (PERSON Mr./NNP Dahdaleh/NNP)   was/VBD   president/NN   of/IN   a/DT   group/NN   that/WDT   promotes/VBZ   business/NN   ties/NNS   between/IN   the/DT   U.K./NNP   and/CC   (GPE Canada/NNP)   ,/,   according/VBG   to/TO   the/DT   group/NN   's/POS   Web/NNP   site/NN   ./.)
+----------------------------------
+original sentence: 
+In a 2006 speech to the group, Mr. Mandelson referred to Mr. Dahdaleh as a friend and called him "a business dynamo, a public spirited figure, and a big hearted personality all rolled into one," according to the site.
+
+POS tagged sentence: 
+[('In', 'IN'), ('a', 'DT'), ('2006', 'CD'), ('speech', 'NN'), ('to', 'TO'), ('the', 'DT'), ('group', 'NN'), (',', ','), ('Mr.', 'NNP'), ('Mandelson', 'NNP'), ('referred', 'VBD'), ('to', 'TO'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('friend', 'NN'), ('and', 'CC'), ('called', 'VBN'), ('him', 'PRP'), ('"', ':'), ('a', 'DT'), ('business', 'NN'), ('dynamo', 'NN'), (',', ','), ('a', 'DT'), ('public', 'JJ'), ('spirited', 'VBN'), ('figure', 'NN'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('big', 'JJ'), ('hearted', 'VBN'), ('personality', 'NN'), ('all', 'DT'), ('rolled', 'VBN'), ('into', 'IN'), ('one', 'CD'), (',', ','), ('"', 'NNP'), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('site', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   a/DT   2006/CD   speech/NN   to/TO   the/DT   group/NN   ,/,   (PERSON Mr./NNP Mandelson/NNP)   referred/VBD   to/TO   (PERSON Mr./NNP Dahdaleh/NNP)   as/IN   a/DT   friend/NN   and/CC   called/VBN   him/PRP   "/:   a/DT   business/NN   dynamo/NN   ,/,   a/DT   public/JJ   spirited/VBN   figure/NN   ,/,   and/CC   a/DT   big/JJ   hearted/VBN   personality/NN   all/DT   rolled/VBN   into/IN   one/CD   ,/,   "/NNP   according/VBG   to/TO   the/DT   site/NN   ./.)
+----------------------------------
+original sentence: 
+A spokesman for Mr. Mandelson said: "These words should not be overinterpreted.
+
+POS tagged sentence: 
+[('A', 'DT'), ('spokesman', 'NN'), ('for', 'IN'), ('Mr.', 'NNP'), ('Mandelson', 'NNP'), ('said', 'VBD'), (':', ':'), ('"', 'JJ'), ('These', 'DT'), ('words', 'NNS'), ('should', 'MD'), ('not', 'RB'), ('be', 'VB'), ('overinterpreted', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   spokesman/NN   for/IN   (PERSON Mr./NNP Mandelson/NNP)   said/VBD   :/:   "/JJ   These/DT   words/NNS   should/MD   not/RB   be/VB   overinterpreted/VBN   ./.)
+----------------------------------
+original sentence: 
+Peter Mandelson is generally gracious toward the host, sponsor or chairman of whatever event he had been invited to address.
+
+POS tagged sentence: 
+[('Peter', 'NNP'), ('Mandelson', 'NNP'), ('is', 'VBZ'), ('generally', 'RB'), ('gracious', 'JJ'), ('toward', 'NN'), ('the', 'DT'), ('host', 'NN'), (',', ','), ('sponsor', 'NN'), ('or', 'CC'), ('chairman', 'NN'), ('of', 'IN'), ('whatever', 'NN'), ('event', 'NN'), ('he', 'PRP'), ('had', 'VBD'), ('been', 'VBN'), ('invited', 'VBN'), ('to', 'TO'), ('address', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Peter/NNP)   (PERSON Mandelson/NNP)   is/VBZ   generally/RB   gracious/JJ   toward/NN   the/DT   host/NN   ,/,   sponsor/NN   or/CC   chairman/NN   of/IN   whatever/NN   event/NN   he/PRP   had/VBD   been/VBN   invited/VBN   to/TO   address/NN   ./.)
+----------------------------------
+original sentence: 
+"
+Mr. Dahdaleh also was a trustee of the William J. Clinton Presidential Foundation and a member of its largest program, the Clinton Global Initiative, the foundation has said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Mr.', 'NNP'), ('Dahdaleh', 'NNP'), ('also', 'RB'), ('was', 'VBD'), ('a', 'DT'), ('trustee', 'NN'), ('of', 'IN'), ('the', 'DT'), ('William', 'NNP'), ('J.', 'NNP'), ('Clinton', 'NNP'), ('Presidential', 'NNP'), ('Foundation', 'NNP'), ('and', 'CC'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('largest', 'JJS'), ('program', 'NN'), (',', ','), ('the', 'DT'), ('Clinton', 'NNP'), ('Global', 'NNP'), ('Initiative', 'NNP'), (',', ','), ('the', 'DT'), ('foundation', 'NN'), ('has', 'VBZ'), ('said', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Mr./NNP Dahdaleh/NNP)   also/RB   was/VBD   a/DT   trustee/NN   of/IN   the/DT   (PERSON William/NNP J./NNP)   (PERSON Clinton/NNP Presidential/NNP Foundation/NNP)   and/CC   a/DT   member/NN   of/IN   its/PRP$   largest/JJS   program/NN   ,/,   the/DT   (PERSON Clinton/NNP Global/NNP Initiative/NNP)   ,/,   the/DT   foundation/NN   has/VBZ   said/VBN   ./.)
+----------------------------------
+original sentence: 
+He donated between $1 million and $5 million to the foundation, according to foundation records.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('donated', 'VBD'), ('between', 'IN'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('and', 'CC'), ('$', '$'), ('5', 'CD'), ('million', 'CD'), ('to', 'TO'), ('the', 'DT'), ('foundation', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('foundation', 'NN'), ('records', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   donated/VBD   between/IN   $/$   1/CD   million/CD   and/CC   $/$   5/CD   million/CD   to/TO   the/DT   foundation/NN   ,/,   according/VBG   to/TO   foundation/NN   records/NNS   ./.)
+----------------------------------
+original sentence: 
+Spokesmen for Mr. Clinton didn't respond to requests for comment.
+
+POS tagged sentence: 
+[('Spokesmen', 'NNS'), ('for', 'IN'), ('Mr.', 'NNP'), ('Clinton', 'NNP'), ('did', 'VBD'), ("n't", 'RB'), ('respond', 'VB'), ('to', 'TO'), ('requests', 'NNS'), ('for', 'IN'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Spokesmen/NNS   for/IN   (PERSON Mr./NNP Clinton/NNP)   did/VBD   n't/RB   respond/VB   to/TO   requests/NNS   for/IN   comment/NN   ./.)
+----------------------------------
+original sentence: 
+&mdash;Alistair MacDonald contributed to this article.
+
+POS tagged sentence: 
+[('&mdash', 'JJ'), (';', ':'), ('Alistair', 'NNP'), ('MacDonald', 'NNP'), ('contributed', 'VBD'), ('to', 'TO'), ('this', 'DT'), ('article', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &mdash/JJ   ;/:   (PERSON Alistair/NNP MacDonald/NNP)   contributed/VBD   to/TO   this/DT   article/NN   ./.)
+----------------------------------
+original sentence: 
+Amir Efrati at Corrections & Amplifications
+ BAE Systems PLC pleaded guilty in March to misleading the U.S. government about the steps it took to comply with an anti bribery law.
+
+POS tagged sentence: 
+[('Amir', 'NNP'), ('Efrati', 'NNP'), ('at', 'IN'), ('Corrections', 'NNPS'), ('&', 'CC'), ('Amplifications', 'NNS'), ('BAE', 'NNP'), ('Systems', 'NNP'), ('PLC', 'NNP'), ('pleaded', 'VBD'), ('guilty', 'JJ'), ('in', 'IN'), ('March', 'NNP'), ('to', 'TO'), ('misleading', 'VBG'), ('the', 'DT'), ('U.S.', 'NNP'), ('government', 'NN'), ('about', 'IN'), ('the', 'DT'), ('steps', 'NNS'), ('it', 'PRP'), ('took', 'VBD'), ('to', 'TO'), ('comply', 'RB'), ('with', 'IN'), ('an', 'DT'), ('anti', 'NN'), ('bribery', 'NN'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Amir/NNP)   (ORGANIZATION Efrati/NNP)   at/IN   (ORGANIZATION Corrections/NNPS)   &/CC   Amplifications/NNS   (ORGANIZATION BAE/NNP Systems/NNP)   PLC/NNP   pleaded/VBD   guilty/JJ   in/IN   March/NNP   to/TO   misleading/VBG   the/DT   (GPE U.S./NNP)   government/NN   about/IN   the/DT   steps/NNS   it/PRP   took/VBD   to/TO   comply/RB   with/IN   an/DT   anti/NN   bribery/NN   law/NN   ./.)
+----------------------------------
+original sentence: 
+As part of a plea agreement, BAE admitted that it made payments to intermediaries even though there was a "high probability" some of the money would be used to curry favor with foreign governments that granted defense contracts.
+
+POS tagged sentence: 
+[('As', 'IN'), ('part', 'NN'), ('of', 'IN'), ('a', 'DT'), ('plea', 'NN'), ('agreement', 'NN'), (',', ','), ('BAE', 'NNP'), ('admitted', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('made', 'VBD'), ('payments', 'NNS'), ('to', 'TO'), ('intermediaries', 'NNS'), ('even', 'RB'), ('though', 'IN'), ('there', 'EX'), ('was', 'VBD'), ('a', 'DT'), ('"', 'NN'), ('high', 'NN'), ('probability', 'NN'), ('"', ':'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('money', 'NN'), ('would', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('to', 'TO'), ('curry', 'VB'), ('favor', 'NN'), ('with', 'IN'), ('foreign', 'JJ'), ('governments', 'NNS'), ('that', 'WDT'), ('granted', 'VBN'), ('defense', 'NN'), ('contracts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   part/NN   of/IN   a/DT   plea/NN   agreement/NN   ,/,   (ORGANIZATION BAE/NNP)   admitted/VBD   that/IN   it/PRP   made/VBD   payments/NNS   to/TO   intermediaries/NNS   even/RB   though/IN   there/EX   was/VBD   a/DT   "/NN   high/NN   probability/NN   "/:   some/DT   of/IN   the/DT   money/NN   would/MD   be/VB   used/VBN   to/TO   curry/VB   favor/NN   with/IN   foreign/JJ   governments/NNS   that/WDT   granted/VBN   defense/NN   contracts/NNS   ./.)
+----------------------------------
+original sentence: 
+A previous version of this article incorrectly said BAE admitted it paid bribes.
+
+POS tagged sentence: 
+[('A', 'DT'), ('previous', 'JJ'), ('version', 'NN'), ('of', 'IN'), ('this', 'DT'), ('article', 'NN'), ('incorrectly', 'RB'), ('said', 'VBD'), ('BAE', 'NNP'), ('admitted', 'VBD'), ('it', 'PRP'), ('paid', 'VBD'), ('bribes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   previous/JJ   version/NN   of/IN   this/DT   article/NN   incorrectly/RB   said/VBD   (ORGANIZATION BAE/NNP)   admitted/VBD   it/PRP   paid/VBD   bribes/NNS   ./.)
+----------------------------------
+original sentence: 
+Copyright 2009 Dow Jones & Company, Inc. All Rights Reserved
+This copy is for your personal, non commercial use only.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2009', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('This', 'NNP'), ('copy', 'NN'), ('is', 'VBZ'), ('for', 'IN'), ('your', 'PRP$'), ('personal', 'JJ'), (',', ','), ('non', 'NN'), ('commercial', 'JJ'), ('use', 'NN'), ('only', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Copyright/NNP   2009/CD   Dow/NNP   Jones/NNP   &/CC   (ORGANIZATION Company/NNP)   ,/,   Inc./NNP   All/NNP   Rights/NNP   Reserved/NNP   This/NNP   copy/NN   is/VBZ   for/IN   your/PRP$   personal/JJ   ,/,   non/NN   commercial/JJ   use/NN   only/RB   ./.)
+----------------------------------
+original sentence: 
+Distribution and use of this material are governed by our Subscriber Agreement
+ and by copyright law.
+
+POS tagged sentence: 
+[('Distribution', 'NN'), ('and', 'CC'), ('use', 'VBP'), ('of', 'IN'), ('this', 'DT'), ('material', 'NN'), ('are', 'VBP'), ('governed', 'VBN'), ('by', 'IN'), ('our', 'PRP$'), ('Subscriber', 'NNP'), ('Agreement', 'NNP'), ('and', 'CC'), ('by', 'IN'), ('copyright', 'NN'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Distribution/NN)   and/CC   use/VBP   of/IN   this/DT   material/NN   are/VBP   governed/VBN   by/IN   our/PRP$   Subscriber/NNP   Agreement/NNP   and/CC   by/IN   copyright/NN   law/NN   ./.)
+----------------------------------
+original sentence: 
+For non personal use or to order multiple copies, please contact Dow Jones Reprints at 1 800 843 0008 or visit
+Email Newsletters and Alerts
+The latest news and analysis delivered to your in box.
+
+POS tagged sentence: 
+[('For', 'IN'), ('non', 'NN'), ('personal', 'JJ'), ('use', 'NN'), ('or', 'CC'), ('to', 'TO'), ('order', 'NN'), ('multiple', 'NN'), ('copies', 'NNS'), (',', ','), ('please', 'VB'), ('contact', 'NN'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Reprints', 'NNP'), ('at', 'IN'), ('1', 'CD'), ('800', 'CD'), ('843', 'CD'), ('0008', 'CD'), ('or', 'CC'), ('visit', 'NN'), ('Email', 'NNP'), ('Newsletters', 'NNP'), ('and', 'CC'), ('Alerts', 'NNP'), ('The', 'NNP'), ('latest', 'JJS'), ('news', 'NN'), ('and', 'CC'), ('analysis', 'NN'), ('delivered', 'VBD'), ('to', 'TO'), ('your', 'PRP$'), ('in', 'IN'), ('box', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   non/NN   personal/JJ   use/NN   or/CC   to/TO   order/NN   multiple/NN   copies/NNS   ,/,   please/VB   contact/NN   (PERSON Dow/NNP Jones/NNP Reprints/NNP)   at/IN   1/CD   800/CD   843/CD   0008/CD   or/CC   visit/NN   (PERSON Email/NNP Newsletters/NNP)   and/CC   (PERSON Alerts/NNP The/NNP)   latest/JJS   news/NN   and/CC   analysis/NN   delivered/VBD   to/TO   your/PRP$   in/IN   box/NN   ./.)
+----------------------------------
+original sentence: 
+Check the boxes below to sign up.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('the', 'DT'), ('boxes', 'NNS'), ('below', 'IN'), ('to', 'TO'), ('sign', 'VB'), ('up', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Check/NNP) the/DT boxes/NNS below/IN to/TO sign/VB up/IN ./.)
+----------------------------------
+original sentence: 
+WSJ.com Email Features
+ Law Blog Newsletter
+ News Alert
+ In Today's Paper
+ The email address  is already associated with another account.
+
+POS tagged sentence: 
+[('WSJ.com', 'NN'), ('Email', 'NNP'), ('Features', 'NNP'), ('Law', 'NNP'), ('Blog', 'NNP'), ('Newsletter', 'NNP'), ('News', 'NNP'), ('Alert', 'NNP'), ('In', 'NNP'), ('Today', 'NNP'), ("'s", 'POS'), ('Paper', 'NNP'), ('The', 'NNP'), ('email', 'NN'), ('address', 'NN'), ('is', 'VBZ'), ('already', 'RB'), ('associated', 'VBN'), ('with', 'IN'), ('another', 'DT'), ('account', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   WSJ.com/NN   (PERSON     Email/NNP     Features/NNP     Law/NNP     Blog/NNP     Newsletter/NNP     News/NNP     Alert/NNP)   In/NNP   Today/NNP   's/POS   (PERSON Paper/NNP)   The/NNP   email/NN   address/NN   is/VBZ   already/RB   associated/VBN   with/IN   another/DT   account/NN   ./.)
+----------------------------------
+original sentence: 
+Please enter a different email address: Email Newsletters and Alerts
+The latest news and analysis delivered to your in box.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('enter', 'NN'), ('a', 'DT'), ('different', 'JJ'), ('email', 'NN'), ('address', 'NN'), (':', ':'), ('Email', 'NNP'), ('Newsletters', 'NNPS'), ('and', 'CC'), ('Alerts', 'NNPS'), ('The', 'DT'), ('latest', 'JJS'), ('news', 'NN'), ('and', 'CC'), ('analysis', 'NN'), ('delivered', 'VBD'), ('to', 'TO'), ('your', 'PRP$'), ('in', 'IN'), ('box', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   enter/NN   a/DT   different/JJ   email/NN   address/NN   :/:   Email/NNP   Newsletters/NNPS   and/CC   Alerts/NNPS   The/DT   latest/JJS   news/NN   and/CC   analysis/NN   delivered/VBD   to/TO   your/PRP$   in/IN   box/NN   ./.)
+----------------------------------
+original sentence: 
+Check the boxes below to sign up.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('the', 'DT'), ('boxes', 'NNS'), ('below', 'IN'), ('to', 'TO'), ('sign', 'VB'), ('up', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Check/NNP) the/DT boxes/NNS below/IN to/TO sign/VB up/IN ./.)
+----------------------------------
+original sentence: 
+WSJ.com Email Features
+ Law Blog Newsletter
+ This Week's Most Popular
+ On the Editorial Page
+ The email address  is already associated with another account.
+
+POS tagged sentence: 
+[('WSJ.com', 'NN'), ('Email', 'NNP'), ('Features', 'NNP'), ('Law', 'NNP'), ('Blog', 'NNP'), ('Newsletter', 'NNP'), ('This', 'NNP'), ('Week', 'NNP'), ("'s", 'POS'), ('Most', 'NNP'), ('Popular', 'NNP'), ('On', 'NNP'), ('the', 'DT'), ('Editorial', 'NNP'), ('Page', 'NNP'), ('The', 'NNP'), ('email', 'NN'), ('address', 'NN'), ('is', 'VBZ'), ('already', 'RB'), ('associated', 'VBN'), ('with', 'IN'), ('another', 'DT'), ('account', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   WSJ.com/NN   (PERSON Email/NNP Features/NNP Law/NNP Blog/NNP Newsletter/NNP)   This/NNP   Week/NNP   's/POS   (ORGANIZATION Most/NNP Popular/NNP)   On/NNP   the/DT   (ORGANIZATION Editorial/NNP)   Page/NNP   The/NNP   email/NN   address/NN   is/VBZ   already/RB   associated/VBN   with/IN   another/DT   account/NN   ./.)
+----------------------------------
+original sentence: 
+Please enter a different email address: Companies within this Article
+Most Popular In Europe
+Your question to the Journal Community Your comments on articles will show your real name
+ and not a username.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('enter', 'NN'), ('a', 'DT'), ('different', 'JJ'), ('email', 'NN'), ('address', 'NN'), (':', ':'), ('Companies', 'NNS'), ('within', 'IN'), ('this', 'DT'), ('Article', 'NNP'), ('Most', 'NNP'), ('Popular', 'NNP'), ('In', 'NNP'), ('Europe', 'NNP'), ('Your', 'NNP'), ('question', 'NN'), ('to', 'TO'), ('the', 'DT'), ('Journal', 'NNP'), ('Community', 'NNP'), ('Your', 'NNP'), ('comments', 'VBZ'), ('on', 'IN'), ('articles', 'NNS'), ('will', 'MD'), ('show', 'VB'), ('your', 'PRP$'), ('real', 'JJ'), ('name', 'NN'), ('and', 'CC'), ('not', 'RB'), ('a', 'DT'), ('username', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   enter/NN   a/DT   different/JJ   email/NN   address/NN   :/:   Companies/NNS   within/IN   this/DT   Article/NNP   Most/NNP   Popular/NNP   In/NNP   (GPE Europe/NNP)   Your/NNP   question/NN   to/TO   the/DT   (ORGANIZATION Journal/NNP)   Community/NNP   Your/NNP   comments/VBZ   on/IN   articles/NNS   will/MD   show/VB   your/PRP$   real/JJ   name/NN   and/CC   not/RB   a/DT   username/NN   ./.)
+----------------------------------
+original sentence: 
+Why use your real name?
+
+POS tagged sentence: 
+[('Why', 'WRB'), ('use', 'NN'), ('your', 'PRP$'), ('real', 'JJ'), ('name', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Why/WRB use/NN your/PRP$ real/JJ name/NN ?/.)
+----------------------------------
+original sentence: 
+The Journal Community encourages thoughtful dialogue and meaningful connections between real people.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Journal', 'NNP'), ('Community', 'NNP'), ('encourages', 'VBZ'), ('thoughtful', 'JJ'), ('dialogue', 'NN'), ('and', 'CC'), ('meaningful', 'JJ'), ('connections', 'NNS'), ('between', 'IN'), ('real', 'JJ'), ('people', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Journal/NNP)   Community/NNP   encourages/VBZ   thoughtful/JJ   dialogue/NN   and/CC   meaningful/JJ   connections/NNS   between/IN   real/JJ   people/NNS   ./.)
+----------------------------------
+original sentence: 
+We require the use of your full name to authenticate your identity.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('require', 'VBP'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('your', 'PRP$'), ('full', 'JJ'), ('name', 'NN'), ('to', 'TO'), ('authenticate', 'VB'), ('your', 'PRP$'), ('identity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   require/VBP   the/DT   use/NN   of/IN   your/PRP$   full/JJ   name/NN   to/TO   authenticate/VB   your/PRP$   identity/NN   ./.)
+----------------------------------
+original sentence: 
+The quality of conversations can deteriorate when real identities are not provided.
+
+POS tagged sentence: 
+[('The', 'DT'), ('quality', 'NN'), ('of', 'IN'), ('conversations', 'NNS'), ('can', 'MD'), ('deteriorate', 'VB'), ('when', 'WRB'), ('real', 'JJ'), ('identities', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('provided', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   quality/NN   of/IN   conversations/NNS   can/MD   deteriorate/VB   when/WRB   real/JJ   identities/NNS   are/VBP   not/RB   provided/VBN   ./.)
+----------------------------------
+original sentence: 
+Please enter your first and last name
+ profile to avoid this message in the future.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('enter', 'NN'), ('your', 'PRP$'), ('first', 'JJ'), ('and', 'CC'), ('last', 'JJ'), ('name', 'NN'), ('profile', 'IN'), ('to', 'TO'), ('avoid', 'VB'), ('this', 'DT'), ('message', 'NN'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   enter/NN   your/PRP$   first/JJ   and/CC   last/JJ   name/NN   profile/IN   to/TO   avoid/VB   this/DT   message/NN   in/IN   the/DT   future/NN   ./.)
+----------------------------------
+original sentence: 
+As a member you agree to use your  when participating in the Journal Community Your participation access with Journal Community has been disabled due to violation of Journal Community Guidelines.
+
+POS tagged sentence: 
+[('As', 'IN'), ('a', 'DT'), ('member', 'NN'), ('you', 'PRP'), ('agree', 'VBP'), ('to', 'TO'), ('use', 'VB'), ('your', 'PRP$'), ('when', 'WRB'), ('participating', 'VBG'), ('in', 'IN'), ('the', 'DT'), ('Journal', 'NNP'), ('Community', 'NNP'), ('Your', 'NNP'), ('participation', 'NN'), ('access', 'NN'), ('with', 'IN'), ('Journal', 'NNP'), ('Community', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('disabled', 'VBN'), ('due', 'JJ'), ('to', 'TO'), ('violation', 'NN'), ('of', 'IN'), ('Journal', 'NNP'), ('Community', 'NNP'), ('Guidelines', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   a/DT   member/NN   you/PRP   agree/VBP   to/TO   use/VB   your/PRP$   when/WRB   participating/VBG   in/IN   the/DT   (ORGANIZATION Journal/NNP)   Community/NNP   Your/NNP   participation/NN   access/NN   with/IN   (PERSON Journal/NNP Community/NNP)   has/VBZ   been/VBN   disabled/VBN   due/JJ   to/TO   violation/NN   of/IN   (ORGANIZATION Journal/NNP)   Community/NNP   Guidelines/NNP   ./.)
+----------------------------------
+original sentence: 
+If you feel you have reached this status change in error, please contact Please log in or register for free to use Save This.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('feel', 'VBP'), ('you', 'PRP'), ('have', 'VBP'), ('reached', 'VBN'), ('this', 'DT'), ('status', 'NN'), ('change', 'NN'), ('in', 'IN'), ('error', 'NN'), (',', ','), ('please', 'NN'), ('contact', 'NN'), ('Please', 'NNP'), ('log', 'NN'), ('in', 'IN'), ('or', 'CC'), ('register', 'NN'), ('for', 'IN'), ('free', 'JJ'), ('to', 'TO'), ('use', 'VB'), ('Save', 'NNP'), ('This', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   feel/VBP   you/PRP   have/VBP   reached/VBN   this/DT   status/NN   change/NN   in/IN   error/NN   ,/,   please/NN   contact/NN   Please/NNP   log/NN   in/IN   or/CC   register/NN   for/IN   free/JJ   to/TO   use/VB   (PERSON Save/NNP This/NNP)   ./.)
+----------------------------------
+original sentence: 
+Name your new Collection and click save.
+
+
+POS tagged sentence: 
+[('Name', 'NNP'), ('your', 'PRP$'), ('new', 'JJ'), ('Collection', 'NNP'), ('and', 'CC'), ('click', 'VB'), ('save', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Name/NNP   your/PRP$   new/JJ   Collection/NNP   and/CC   click/VB   save/JJ   ./.)
+
+veryneg:0	neg:8	pos:2	verypos:0	total:5

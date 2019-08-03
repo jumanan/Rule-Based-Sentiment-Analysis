@@ -1,0 +1,170 @@
+
+----------------------------------
+original sentence: 
+ Travel News | Travel News Online | Travel Daily UK Get Our Free Newsletter!
+
+POS tagged sentence: 
+[('Travel', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Travel', 'NNP'), ('News', 'NNP'), ('Online', 'NNP'), ('|', 'NNP'), ('Travel', 'NNP'), ('Daily', 'NNP'), ('UK', 'NNP'), ('Get', 'NNP'), ('Our', 'NNP'), ('Free', 'NNP'), ('Newsletter', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Travel/NNP)   (ORGANIZATION News/NNP)   |/NNP   (PERSON Travel/NNP News/NNP Online/NNP)   |/NNP   (PERSON     Travel/NNP     Daily/NNP     UK/NNP     Get/NNP     Our/NNP     Free/NNP     Newsletter/NNP)   !/.)
+----------------------------------
+original sentence: 
+TDUK Features
+ Staff Movements  Travel Trade Shows  World News Links  Blog   Advertisements
+ You are here:
+Virgin Atlantic partners with Disney
+3/29/2010 2:48:00 PM
+Virgin Atlantic has announced a partnership with The Walt Disney Company UK to bring a selection of children‚Äôs programmes to its television channels.
+
+POS tagged sentence: 
+[('TDUK', 'NNP'), ('Features', 'NNP'), ('Staff', 'NNP'), ('Movements', 'NNP'), ('Travel', 'NNP'), ('Trade', 'NNP'), ('Shows', 'NNP'), ('World', 'NNP'), ('News', 'NNP'), ('Links', 'NNP'), ('Blog', 'NNP'), ('Advertisements', 'NNP'), ('You', 'NNP'), ('are', 'VBP'), ('here', 'RB'), (':', ':'), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('partners', 'NNS'), ('with', 'IN'), ('Disney', 'NNP'), ('3/29/2010', 'CD'), ('2', 'CD'), (':', ':'), ('48', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('has', 'VBZ'), ('announced', 'VBN'), ('a', 'DT'), ('partnership', 'NN'), ('with', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('UK', 'NNP'), ('to', 'TO'), ('bring', 'VB'), ('a', 'DT'), ('selection', 'NN'), ('of', 'IN'), ('children', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('programmes', 'VBZ'), ('to', 'TO'), ('its', 'PRP$'), ('television', 'NN'), ('channels', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION TDUK/NNP)   (PERSON     Features/NNP     Staff/NNP     Movements/NNP     Travel/NNP     Trade/NNP     Shows/NNP)   World/NNP   News/NNP   (PERSON Links/NNP Blog/NNP Advertisements/NNP)   You/NNP   are/VBP   here/RB   :/:   (PERSON Virgin/NNP Atlantic/NNP)   partners/NNS   with/IN   (ORGANIZATION Disney/NNP)   3/29/2010/CD   2/CD   :/:   48/CD   :/:   00/CD   PM/NNP   (PERSON Virgin/NNP Atlantic/NNP)   has/VBZ   announced/VBN   a/DT   partnership/NN   with/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   UK/NNP   to/TO   bring/VB   a/DT   selection/NN   of/IN   children/NNS   ‚/:   Ä/:   ô/:   s/NNS   programmes/VBZ   to/TO   its/PRP$   television/NN   channels/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP here/RB)
+	(VERB   has/VBZ   announced/VBN   a/DT   partnership/NN   with/IN   The/DT   Walt/NNP   Disney/NNP   Company/NNP   UK/NNP)
+
+tagged sentence:
+	 has announced a partnership with The Walt Disney Company UK	res:1
+	(VERB bring/VB a/DT selection/NN of/IN children/NNS)
+	(VERB programmes/VBZ to/TO its/PRP$ television/NN channels/NNS)
+noun phrases to consider:
+	(NOUN TDUK/NNP Features/NNP Staff/NNP Movements/NNP)
+	(NOUN Travel/NNP Trade/NNP Shows/NNP World/NNP)
+	(NOUN News/NNP Links/NNP Blog/NNP Advertisements/NNP)
+	(NOUN You/NNP)
+	(NOUN Virgin/NNP Atlantic/NNP partners/NNS)
+	(NOUN Disney/NNP)
+	(NOUN 00/CD PM/NNP Virgin/NNP Atlantic/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+From the end of this month, a mixture of Disney Channel, Playhouse Disney and Disney XD content will be available as part of Virgin Atlantic‚Äôs inflight entertainment from March.
+
+POS tagged sentence: 
+[('From', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('this', 'DT'), ('month', 'NN'), (',', ','), ('a', 'DT'), ('mixture', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('Channel', 'NNP'), (',', ','), ('Playhouse', 'NNP'), ('Disney', 'NNP'), ('and', 'CC'), ('Disney', 'NNP'), ('XD', 'NNP'), ('content', 'NN'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('inflight', 'NN'), ('entertainment', 'NN'), ('from', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   From/IN   the/DT   end/NN   of/IN   this/DT   month/NN   ,/,   a/DT   mixture/NN   of/IN   (ORGANIZATION Disney/NNP Channel/NNP)   ,/,   (PERSON Playhouse/NNP Disney/NNP)   and/CC   (ORGANIZATION Disney/NNP)   XD/NNP   content/NN   will/MD   be/VB   available/JJ   as/IN   part/NN   of/IN   (PERSON Virgin/NNP Atlantic/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   inflight/NN   entertainment/NN   from/IN   March/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   be/VB   available/JJ   as/IN   part/NN   of/IN   Virgin/NNP   Atlantic/NNP   ‚/NNP   Ä/NNP   ô/NNP)
+	(VERB s/VBZ inflight/NN entertainment/NN from/IN March/NNP)
+noun phrases to consider:
+	(NOUN end/NN)
+	(NOUN month/NN)
+	(NOUN mixture/NN)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN Playhouse/NNP Disney/NNP)
+	(NOUN Disney/NNP XD/NNP content/NN)
+
+----------------------------------
+original sentence: 
+Simon Soni, Virgin Atlantic Head of In flight services commented: "We are delighted to team up with Disney Channels, who we feel produce some of the best children‚Äôs programming around today.
+
+POS tagged sentence: 
+[('Simon', 'NNP'), ('Soni', 'NNP'), (',', ','), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('Head', 'NNP'), ('of', 'IN'), ('In', 'NNP'), ('flight', 'NN'), ('services', 'NNS'), ('commented', 'VBD'), (':', ':'), ('"', ':'), ('We', 'PRP'), ('are', 'VBP'), ('delighted', 'VBN'), ('to', 'TO'), ('team', 'VB'), ('up', 'RP'), ('with', 'IN'), ('Disney', 'NNP'), ('Channels', 'NNP'), (',', ','), ('who', 'WP'), ('we', 'PRP'), ('feel', 'VBP'), ('produce', 'NN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('best', 'JJS'), ('children', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('programming', 'VBG'), ('around', 'IN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Simon/NNP)   (GPE Soni/NNP)   ,/,   (PERSON Virgin/NNP Atlantic/NNP Head/NNP)   of/IN   In/NNP   flight/NN   services/NNS   commented/VBD   :/:   "/:   We/PRP   are/VBP   delighted/VBN   to/TO   team/VB   up/RP   with/IN   (PERSON Disney/NNP Channels/NNP)   ,/,   who/WP   we/PRP   feel/VBP   produce/NN   some/DT   of/IN   the/DT   best/JJS   children/NNS   ‚/:   Ä/:   ô/:   s/NNS   programming/VBG   around/IN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB commented/VBD)
+	(VERB are/VBP delighted/VBN)
+	(VERB team/VB)
+	(VERB feel/VBP produce/NN some/DT of/IN the/DT best/JJS children/NNS)
+	(VERB programming/VBG around/IN today/NN)
+noun phrases to consider:
+	(NOUN Simon/NNP Soni/NNP)
+	(NOUN Virgin/NNP Atlantic/NNP Head/NNP)
+	(NOUN In/NNP flight/NN services/NNS)
+	(NOUN Disney/NNP Channels/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+It‚Äôs a great brand association for us and a fantastic opportunity for our passengers to see top kids‚Äô television as part of our award winning in flight entertainment line up.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('a', 'DT'), ('great', 'JJ'), ('brand', 'NN'), ('association', 'NN'), ('for', 'IN'), ('us', 'PRP'), ('and', 'CC'), ('a', 'DT'), ('fantastic', 'JJ'), ('opportunity', 'NN'), ('for', 'IN'), ('our', 'PRP$'), ('passengers', 'NNS'), ('to', 'TO'), ('see', 'VB'), ('top', 'JJ'), ('kids', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('television', 'NN'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('award', 'NN'), ('winning', 'VBG'), ('in', 'IN'), ('flight', 'NN'), ('entertainment', 'NN'), ('line', 'NN'), ('up', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   ‚/VBP   Ä/:   ô/:   s/NNS   a/DT   great/JJ   brand/NN   association/NN   for/IN   us/PRP   and/CC   a/DT   fantastic/JJ   opportunity/NN   for/IN   our/PRP$   passengers/NNS   to/TO   see/VB   top/JJ   kids/NNS   ‚/:   Ä/:   ô/:   television/NN   as/IN   part/NN   of/IN   our/PRP$   award/NN   winning/VBG   in/IN   flight/NN   entertainment/NN   line/NN   up/IN   ./.)
+----------------------------------
+original sentence: 
+" The selection of programmes include titles such as Hannah Montana, Wizards of Waverly Place, Mickey Mouse Clubhouse, Handy Manny, Phineas and Ferb and Zeke and Luther.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('selection', 'NN'), ('of', 'IN'), ('programmes', 'NNS'), ('include', 'VBP'), ('titles', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Hannah', 'NNP'), ('Montana', 'NNP'), (',', ','), ('Wizards', 'NNP'), ('of', 'IN'), ('Waverly', 'NNP'), ('Place', 'NNP'), (',', ','), ('Mickey', 'NNP'), ('Mouse', 'NNP'), ('Clubhouse', 'NNP'), (',', ','), ('Handy', 'NNP'), ('Manny', 'NNP'), (',', ','), ('Phineas', 'NNP'), ('and', 'CC'), ('Ferb', 'NNP'), ('and', 'CC'), ('Zeke', 'NNP'), ('and', 'CC'), ('Luther', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   selection/NN   of/IN   programmes/NNS   include/VBP   titles/NNS   such/JJ   as/IN   (PERSON Hannah/NNP Montana/NNP)   ,/,   (PERSON Wizards/NNP)   of/IN   (ORGANIZATION Waverly/NNP Place/NNP)   ,/,   (PERSON Mickey/NNP Mouse/NNP Clubhouse/NNP)   ,/,   (PERSON Handy/NNP Manny/NNP)   ,/,   (PERSON Phineas/NNP)   and/CC   (PERSON Ferb/NNP)   and/CC   (PERSON Zeke/NNP)   and/CC   (PERSON Luther/NNP)   ./.)
+----------------------------------
+original sentence: 
+All available programming can be viewed at www.virginatlantic.com.
+
+POS tagged sentence: 
+[('All', 'DT'), ('available', 'JJ'), ('programming', 'NN'), ('can', 'MD'), ('be', 'VB'), ('viewed', 'VBN'), ('at', 'IN'), ('www.virginatlantic.com', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   available/JJ   programming/NN   can/MD   be/VB   viewed/VBN   at/IN   www.virginatlantic.com/NNP   ./.)
+----------------------------------
+original sentence: 
+Boel Ferguson, General Manager, Disney Channels UK & Ireland, added: ‚ÄúDisney Channels UK is thrilled to partner with Virgin Atlantic and to be involved with such an innovative platform.
+
+POS tagged sentence: 
+[('Boel', 'NNP'), ('Ferguson', 'NNP'), (',', ','), ('General', 'NNP'), ('Manager', 'NNP'), (',', ','), ('Disney', 'NNP'), ('Channels', 'NNP'), ('UK', 'NNP'), ('&', 'CC'), ('Ireland', 'NNP'), (',', ','), ('added', 'VBD'), (':', ':'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('Disney', 'NNP'), ('Channels', 'NNP'), ('UK', 'NNP'), ('is', 'VBZ'), ('thrilled', 'VBN'), ('to', 'TO'), ('partner', 'NN'), ('with', 'IN'), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('and', 'CC'), ('to', 'TO'), ('be', 'VB'), ('involved', 'VBN'), ('with', 'IN'), ('such', 'JJ'), ('an', 'DT'), ('innovative', 'JJ'), ('platform', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Boel/NNP Ferguson/NNP)   ,/,   (ORGANIZATION General/NNP Manager/NNP)   ,/,   (PERSON Disney/NNP Channels/NNP UK/NNP)   &/CC   (GPE Ireland/NNP)   ,/,   added/VBD   :/:   ‚/:   Ä/:   ú/:   (PERSON Disney/NNP Channels/NNP UK/NNP)   is/VBZ   thrilled/VBN   to/TO   partner/NN   with/IN   (PERSON Virgin/NNP Atlantic/NNP)   and/CC   to/TO   be/VB   involved/VBN   with/IN   such/JJ   an/DT   innovative/JJ   platform/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB added/VBD)
+	(VERB is/VBZ thrilled/VBN)
+	(VERB   be/VB   involved/VBN   with/IN   such/JJ   an/DT   innovative/JJ   platform/NN)
+noun phrases to consider:
+	(NOUN Boel/NNP Ferguson/NNP)
+	(NOUN General/NNP Manager/NNP)
+	(NOUN Disney/NNP Channels/NNP UK/NNP)
+	(NOUN Ireland/NNP)
+	(NOUN Disney/NNP Channels/NNP UK/NNP)
+	(NOUN partner/NN)
+
+tagged sentence:
+	 partner	res:2
+	(NOUN Virgin/NNP Atlantic/NNP)
+
+----------------------------------
+original sentence: 
+We look forward to bringing our compelling array of content to Virgin Atlantic‚Äôs young passengers.‚Äù
+Return to previous page
+  Advertisements
+  Glasgow a City of Vast Cultural Heritage
+ Beach Holidays in Malta, Algarve and Barcelona
+ |  |  |  |  |  |  |  |  |  ¬©2010 Travel Daily UK.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('look', 'VBP'), ('forward', 'RB'), ('to', 'TO'), ('bringing', 'VBG'), ('our', 'PRP$'), ('compelling', 'JJ'), ('array', 'NN'), ('of', 'IN'), ('content', 'NN'), ('to', 'TO'), ('Virgin', 'NNP'), ('Atlantic', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('young', 'JJ'), ('passengers.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('Return', 'NNP'), ('to', 'TO'), ('previous', 'JJ'), ('page', 'NN'), ('Advertisements', 'NNS'), ('Glasgow', 'NNP'), ('a', 'DT'), ('City', 'NNP'), ('of', 'IN'), ('Vast', 'NNP'), ('Cultural', 'NNP'), ('Heritage', 'NNP'), ('Beach', 'NNP'), ('Holidays', 'NNP'), ('in', 'IN'), ('Malta', 'NNP'), (',', ','), ('Algarve', 'NNP'), ('and', 'CC'), ('Barcelona', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('\xc2', 'NNP'), ('\xa9', 'NNP'), ('2010', 'CD'), ('Travel', 'NNP'), ('Daily', 'NNP'), ('UK', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   look/VBP   forward/RB   to/TO   bringing/VBG   our/PRP$   compelling/JJ   array/NN   of/IN   content/NN   to/TO   (PERSON Virgin/NNP Atlantic/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   young/JJ   passengers./NNP   ‚/NNP   Ä/NNP   ù/NNP   Return/NNP   to/TO   previous/JJ   page/NN   Advertisements/NNS   Glasgow/NNP   a/DT   City/NNP   of/IN   (PERSON Vast/NNP Cultural/NNP Heritage/NNP Beach/NNP Holidays/NNP)   in/IN   (GPE Malta/NNP)   ,/,   (PERSON Algarve/NNP)   and/CC   (PERSON Barcelona/NNP)   |/NNP   |/NNP   |/NNP   |/NNP   |/NNP   |/NNP   |/NNP   |/NNP   |/NNP   ¬/NNP   ©/NNP   2010/CD   (PERSON Travel/NNP Daily/NNP UK/NNP)   ./.)
+----------------------------------
+original sentence: 
+All Rights Reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT Rights/NNS Reserved/VBN ./.)
+----------------------------------
+original sentence: 
+Read our . 
+
+POS tagged sentence: 
+[('Read', 'NNP'), ('our', 'PRP$'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Read/NNP our/PRP$ ./.)
+
+veryneg:0	neg:0	pos:1	verypos:1	total:2

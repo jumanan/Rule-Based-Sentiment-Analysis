@@ -1,0 +1,238 @@
+
+----------------------------------
+original sentence: 
+Reckitt Benckiser Buys Suboxone, Subutex Rights For GBP100 Million FOXBusiness.com
+Existing users please login
+ Remember me on this computer
+Friday, March 19, 2010
+Reckitt Benckiser Buys Suboxone, Subutex Rights For GBP100 Million
+ LONDON Dow Jones Reckitt Benckiser Group PLC RB.LN , which provides household, health and personal care products, said Friday it is buying back the sales and marketing rights to the buprenorphine containing products Suboxone, Subutex and Temgesic from Merck & Co., Inc  for GBP100 million.
+
+POS tagged sentence: 
+[('Reckitt', 'NNP'), ('Benckiser', 'NNP'), ('Buys', 'NNP'), ('Suboxone', 'NNP'), (',', ','), ('Subutex', 'NNP'), ('Rights', 'NNP'), ('For', 'NNP'), ('GBP100', 'NNP'), ('Million', 'NNP'), ('FOXBusiness.com', 'NNP'), ('Existing', 'NNP'), ('users', 'NNS'), ('please', 'VB'), ('login', 'NN'), ('Remember', 'NNP'), ('me', 'PRP'), ('on', 'IN'), ('this', 'DT'), ('computer', 'NN'), ('Friday', 'NNP'), (',', ','), ('March', 'NNP'), ('19', 'CD'), (',', ','), ('2010', 'CD'), ('Reckitt', 'NNP'), ('Benckiser', 'NNP'), ('Buys', 'NNP'), ('Suboxone', 'NNP'), (',', ','), ('Subutex', 'NNP'), ('Rights', 'NNP'), ('For', 'NNP'), ('GBP100', 'NNP'), ('Million', 'NNP'), ('LONDON', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Reckitt', 'NNP'), ('Benckiser', 'NNP'), ('Group', 'NNP'), ('PLC', 'NNP'), ('RB.LN', 'NNP'), (',', ','), ('which', 'WDT'), ('provides', 'VBZ'), ('household', 'NN'), (',', ','), ('health', 'NN'), ('and', 'CC'), ('personal', 'JJ'), ('care', 'NN'), ('products', 'NNS'), (',', ','), ('said', 'VBD'), ('Friday', 'NNP'), ('it', 'PRP'), ('is', 'VBZ'), ('buying', 'VBG'), ('back', 'RB'), ('the', 'DT'), ('sales', 'NNS'), ('and', 'CC'), ('marketing', 'NN'), ('rights', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('buprenorphine', 'NN'), ('containing', 'VBG'), ('products', 'NNS'), ('Suboxone', 'NNP'), (',', ','), ('Subutex', 'NNP'), ('and', 'CC'), ('Temgesic', 'NNP'), ('from', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('for', 'IN'), ('GBP100', 'NNP'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Reckitt/NNP)   (PERSON Benckiser/NNP Buys/NNP Suboxone/NNP)   ,/,   (PERSON Subutex/NNP Rights/NNP For/NNP)   (ORGANIZATION GBP100/NNP Million/NNP)   FOXBusiness.com/NNP   Existing/NNP   users/NNS   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Friday/NNP   ,/,   March/NNP   19/CD   ,/,   2010/CD   (PERSON Reckitt/NNP Benckiser/NNP Buys/NNP Suboxone/NNP)   ,/,   (PERSON Subutex/NNP Rights/NNP For/NNP)   (ORGANIZATION GBP100/NNP Million/NNP)   (ORGANIZATION     LONDON/NNP     Dow/NNP     Jones/NNP     Reckitt/NNP     Benckiser/NNP     Group/NNP)   (ORGANIZATION PLC/NNP)   RB.LN/NNP   ,/,   which/WDT   provides/VBZ   household/NN   ,/,   health/NN   and/CC   personal/JJ   care/NN   products/NNS   ,/,   said/VBD   Friday/NNP   it/PRP   is/VBZ   buying/VBG   back/RB   the/DT   sales/NNS   and/CC   marketing/NN   rights/NNS   to/TO   the/DT   buprenorphine/NN   containing/VBG   products/NNS   (PERSON Suboxone/NNP)   ,/,   (PERSON Subutex/NNP)   and/CC   (PERSON Temgesic/NNP)   from/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   (PERSON Inc/NNP)   for/IN   (ORGANIZATION GBP100/NNP)   million/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Friday/NNP)
+	(VERB provides/VBZ household/NN)
+	(VERB said/VBD Friday/NNP it/PRP)
+	(VERB is/VBZ buying/VBG back/RB the/DT sales/NNS)
+	(VERB containing/VBG products/NNS Suboxone/NNP)
+noun phrases to consider:
+	(NOUN Reckitt/NNP Benckiser/NNP Buys/NNP Suboxone/NNP)
+	(NOUN Subutex/NNP Rights/NNP For/NNP GBP100/NNP)
+	(NOUN Million/NNP FOXBusiness.com/NNP Existing/NNP users/NNS)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Reckitt/NNP Benckiser/NNP Buys/NNP Suboxone/NNP)
+	(NOUN Subutex/NNP Rights/NNP For/NNP GBP100/NNP)
+	(NOUN Million/NNP LONDON/NNP Dow/NNP Jones/NNP)
+	(NOUN Reckitt/NNP Benckiser/NNP Group/NNP PLC/NNP)
+	(NOUN RB.LN/NNP)
+	(NOUN health/NN)
+	(NOUN personal/JJ care/NN products/NNS)
+	(NOUN marketing/NN rights/NNS)
+	(NOUN buprenorphine/NN)
+	(NOUN Subutex/NNP)
+	(NOUN Temgesic/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+	(NOUN GBP100/NNP)
+
+----------------------------------
+original sentence: 
+The rights were due to revert to RB mid 2012; the majority will now revert from July 1.
+
+POS tagged sentence: 
+[('The', 'DT'), ('rights', 'NNS'), ('were', 'VBD'), ('due', 'JJ'), ('to', 'TO'), ('revert', 'VB'), ('to', 'TO'), ('RB', 'NNP'), ('mid', 'NN'), ('2012', 'CD'), (';', ':'), ('the', 'DT'), ('majority', 'NN'), ('will', 'MD'), ('now', 'RB'), ('revert', 'VB'), ('from', 'IN'), ('July', 'NNP'), ('1', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   rights/NNS   were/VBD   due/JJ   to/TO   revert/VB   to/TO   RB/NNP   mid/NN   2012/CD   ;/:   the/DT   majority/NN   will/MD   now/RB   revert/VB   from/IN   July/NNP   1/CD   ./.)
+----------------------------------
+original sentence: 
+The incremental net revenue to RB associated with these rights would have been GBP80 million for full year 2009, if RB had owned them.
+
+POS tagged sentence: 
+[('The', 'DT'), ('incremental', 'JJ'), ('net', 'NN'), ('revenue', 'NN'), ('to', 'TO'), ('RB', 'NNP'), ('associated', 'VBN'), ('with', 'IN'), ('these', 'DT'), ('rights', 'NNS'), ('would', 'MD'), ('have', 'VB'), ('been', 'VBN'), ('GBP80', 'NNP'), ('million', 'CD'), ('for', 'IN'), ('full', 'JJ'), ('year', 'NN'), ('2009', 'CD'), (',', ','), ('if', 'IN'), ('RB', 'NNP'), ('had', 'VBD'), ('owned', 'VBN'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   incremental/JJ   net/NN   revenue/NN   to/TO   RB/NNP   associated/VBN   with/IN   these/DT   rights/NNS   would/MD   have/VB   been/VBN   (ORGANIZATION GBP80/NNP)   million/CD   for/IN   full/JJ   year/NN   2009/CD   ,/,   if/IN   (ORGANIZATION RB/NNP)   had/VBD   owned/VBN   them/PRP   ./.)
+----------------------------------
+original sentence: 
+RB currently has management control of the sales and marketing of these products in only two sizeable markets, namely the U.S. and Australia.
+
+POS tagged sentence: 
+[('RB', 'NNP'), ('currently', 'RB'), ('has', 'VBZ'), ('management', 'NN'), ('control', 'NN'), ('of', 'IN'), ('the', 'DT'), ('sales', 'NNS'), ('and', 'CC'), ('marketing', 'NN'), ('of', 'IN'), ('these', 'DT'), ('products', 'NNS'), ('in', 'IN'), ('only', 'RB'), ('two', 'CD'), ('sizeable', 'JJ'), ('markets', 'NNS'), (',', ','), ('namely', 'RB'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('Australia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   RB/NNP   currently/RB   has/VBZ   management/NN   control/NN   of/IN   the/DT   sales/NNS   and/CC   marketing/NN   of/IN   these/DT   products/NNS   in/IN   only/RB   two/CD   sizeable/JJ   markets/NNS   ,/,   namely/RB   the/DT   (GPE U.S./NNP)   and/CC   (GPE Australia/NNP)   ./.)
+----------------------------------
+original sentence: 
+RB will have a wholly owned international franchise for Suboxone and Subutex.
+
+POS tagged sentence: 
+[('RB', 'NNP'), ('will', 'MD'), ('have', 'VB'), ('a', 'DT'), ('wholly', 'RB'), ('owned', 'VBN'), ('international', 'JJ'), ('franchise', 'NN'), ('for', 'IN'), ('Suboxone', 'NNP'), ('and', 'CC'), ('Subutex', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   RB/NNP   will/MD   have/VB   a/DT   wholly/RB   owned/VBN   international/JJ   franchise/NN   for/IN   (ORGANIZATION Suboxone/NNP)   and/CC   (PERSON Subutex/NNP)   ./.)
+----------------------------------
+original sentence: 
+RB and Merck's MSD will work closely to ensure a smooth transition.
+
+POS tagged sentence: 
+[('RB', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ("'s", 'POS'), ('MSD', 'NNP'), ('will', 'MD'), ('work', 'VB'), ('closely', 'RB'), ('to', 'TO'), ('ensure', 'VB'), ('a', 'DT'), ('smooth', 'NN'), ('transition', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   RB/NNP   and/CC   (PERSON Merck/NNP)   's/POS   (ORGANIZATION MSD/NNP)   will/MD   work/VB   closely/RB   to/TO   ensure/VB   a/DT   smooth/NN   transition/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   work/VB   closely/RB   to/TO   ensure/VB   a/DT   smooth/NN   transition/NN)
+noun phrases to consider:
+	(NOUN RB/NNP)
+	(NOUN Merck/NNP)
+	(NOUN MSD/NNP)
+
+----------------------------------
+original sentence: 
+Company will invest in additional sales and marketing capability.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('will', 'MD'), ('invest', 'VB'), ('in', 'IN'), ('additional', 'JJ'), ('sales', 'NNS'), ('and', 'CC'), ('marketing', 'NN'), ('capability', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   will/MD   invest/VB   in/IN   additional/JJ   sales/NNS   and/CC   marketing/NN   capability/NN   ./.)
+----------------------------------
+original sentence: 
+Given the current scale of the business outside of the U.S. and the investment needed, the impact of this transaction on RB's financial results in 2010 will be limited.
+
+POS tagged sentence: 
+[('Given', 'RB'), ('the', 'DT'), ('current', 'JJ'), ('scale', 'NN'), ('of', 'IN'), ('the', 'DT'), ('business', 'NN'), ('outside', 'IN'), ('of', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('investment', 'NN'), ('needed', 'VBD'), (',', ','), ('the', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('this', 'DT'), ('transaction', 'NN'), ('on', 'IN'), ('RB', 'NNP'), ("'s", 'POS'), ('financial', 'JJ'), ('results', 'NNS'), ('in', 'IN'), ('2010', 'CD'), ('will', 'MD'), ('be', 'VB'), ('limited', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Given/RB   the/DT   current/JJ   scale/NN   of/IN   the/DT   business/NN   outside/IN   of/IN   the/DT   (GPE U.S./NNP)   and/CC   the/DT   investment/NN   needed/VBD   ,/,   the/DT   impact/NN   of/IN   this/DT   transaction/NN   on/IN   (ORGANIZATION RB/NNP)   's/POS   financial/JJ   results/NNS   in/IN   2010/CD   will/MD   be/VB   limited/VBN   ./.)
+----------------------------------
+original sentence: 
+RB shares at 1410 GMT up 40 pence, or 1.1%, at 3556 pence valuing the company at GBP25.69 billion.
+
+POS tagged sentence: 
+[('RB', 'NNP'), ('shares', 'NNS'), ('at', 'IN'), ('1410', 'CD'), ('GMT', 'NNP'), ('up', 'IN'), ('40', 'CD'), ('pence', 'NN'), (',', ','), ('or', 'CC'), ('1.1', 'CD'), ('%', 'NN'), (',', ','), ('at', 'IN'), ('3556', 'CD'), ('pence', 'NN'), ('valuing', 'VBG'), ('the', 'DT'), ('company', 'NN'), ('at', 'IN'), ('GBP25.69', 'NNP'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   RB/NNP   shares/NNS   at/IN   1410/CD   GMT/NNP   up/IN   40/CD   pence/NN   ,/,   or/CC   1.1/CD   %/NN   ,/,   at/IN   3556/CD   pence/NN   valuing/VBG   the/DT   company/NN   at/IN   GBP25.69/NNP   billion/CD   ./.)
+----------------------------------
+original sentence: 
+Copyright &copy; 2009 Dow Jones Newswires
+Personal Finance Investing Financial News Business News Stock Market Quotes & News Small Business
+Jobs at FOX Business Network
+.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2009', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Newswires', 'NNP'), ('Personal', 'NNP'), ('Finance', 'NNP'), ('Investing', 'NNP'), ('Financial', 'NNP'), ('News', 'NNP'), ('Business', 'NNP'), ('News', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Quotes', 'NNP'), ('&', 'CC'), ('News', 'NNP'), ('Small', 'NNP'), ('Business', 'NNP'), ('Jobs', 'NNP'), ('at', 'IN'), ('FOX', 'NNP'), ('Business', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   2009/CD   Dow/NNP   (PERSON     Jones/NNP     Newswires/NNP     Personal/NNP     Finance/NNP     Investing/NNP     Financial/NNP     News/NNP     Business/NNP     News/NNP     Stock/NNP     Market/NNP     Quotes/NNP)   &/CC   (ORGANIZATION News/NNP Small/NNP Business/NNP Jobs/NNP)   at/IN   (ORGANIZATION FOX/NNP Business/NNP Network/NNP)   ./.)
+----------------------------------
+original sentence: 
+For FOXBusiness.com technical issues write to foxbusinessonline@foxbusiness.com
+; for all other feedback, write to feedback@foxbusiness.com
+Quotes delayed at least 15 minutes.
+
+POS tagged sentence: 
+[('For', 'IN'), ('FOXBusiness.com', 'JJ'), ('technical', 'JJ'), ('issues', 'NNS'), ('write', 'VBP'), ('to', 'TO'), ('foxbusinessonline', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), (';', ':'), ('for', 'IN'), ('all', 'PDT'), ('other', 'JJ'), ('feedback', 'NN'), (',', ','), ('write', 'JJ'), ('to', 'TO'), ('feedback', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), ('Quotes', 'NNS'), ('delayed', 'VBN'), ('at', 'IN'), ('least', 'JJS'), ('15', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   FOXBusiness.com/JJ   technical/JJ   issues/NNS   write/VBP   to/TO   foxbusinessonline/VB   @/:   foxbusiness.com/JJ   ;/:   for/IN   all/PDT   other/JJ   feedback/NN   ,/,   write/JJ   to/TO   feedback/VB   @/:   foxbusiness.com/JJ   Quotes/NNS   delayed/VBN   at/IN   least/JJS   15/CD   minutes/NNS   ./.)
+----------------------------------
+original sentence: 
+Market Data provided by Interactive Data  .
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Data', 'NNP'), ('provided', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Market/NN)   (PERSON Data/NNP)   provided/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP)   ./.)
+----------------------------------
+original sentence: 
+Powered and implemented by Interactive Data Managed Solutions
+.
+
+POS tagged sentence: 
+[('Powered', 'NNP'), ('and', 'CC'), ('implemented', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('Managed', 'NNP'), ('Solutions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Powered/NNP)   and/CC   implemented/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP Managed/NNP Solutions/NNP)   ./.)
+----------------------------------
+original sentence: 
+Company fundamental data provided by .
+
+POS tagged sentence: 
+[('Company', 'NN'), ('fundamental', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Company/NN) fundamental/NN data/NNS provided/VBN by/IN ./.)
+----------------------------------
+original sentence: 
+Earnings estimates data provided by Zacks.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('estimates', 'VBZ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   estimates/VBZ   data/NNS   provided/VBN   by/IN   (PERSON Zacks/NNP)   ./.)
+----------------------------------
+original sentence: 
+Mutual fund data provided by Lipper.
+
+POS tagged sentence: 
+[('Mutual', 'JJ'), ('fund', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Lipper', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mutual/JJ)   fund/NN   data/NNS   provided/VBN   by/IN   (PERSON Lipper/NNP)   ./.)
+----------------------------------
+original sentence: 
+Economic data provided by Econoday.
+
+POS tagged sentence: 
+[('Economic', 'JJ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Econoday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Economic/JJ data/NNS provided/VBN by/IN Econoday/NNP ./.)
+----------------------------------
+original sentence: 
+Dow Jones & Company Terms & Conditions.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), ('Terms', 'NNP'), ('&', 'CC'), ('Conditions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Jones/NNP)   &/CC   (ORGANIZATION Company/NNP Terms/NNP)   &/CC   (ORGANIZATION Conditions/NNP)   ./.)
+----------------------------------
+original sentence: 
+This material may not be published, broadcast, rewritten, or redistributed.
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), (',', ','), ('broadcast', 'JJ'), (',', ','), ('rewritten', 'RB'), (',', ','), ('or', 'CC'), ('redistributed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   may/MD   not/RB   be/VB   published/VBN   ,/,   broadcast/JJ   ,/,   rewritten/RB   ,/,   or/CC   redistributed/VBN   ./.)
+----------------------------------
+original sentence: 
+&copy;2010 FOX News Network, LLC.
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('FOX', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &copy/JJ   ;/:   2010/CD   (ORGANIZATION FOX/NNP News/NNP Network/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

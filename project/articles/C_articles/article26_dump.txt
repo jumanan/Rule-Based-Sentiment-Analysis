@@ -1,0 +1,393 @@
+
+----------------------------------
+original sentence: 
+Citi Announces $320.4 Million Initial Public Offering of Primerica | Business Wire
+ March 31, 2010 09:35 PM Eastern Daylight Time Citi Announces $320.4 Million Initial Public Offering of Primerica
+Upsized Offering Establishes Primerica as New Public Company, Continues Citi‚Äôs Reduction of Non Core Assets
+ Citi today announced the $320.4 million initial public offering of Primerica, Inc.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('Announces', 'NNPS'), ('$', '$'), ('320.4', 'CD'), ('Million', 'CD'), ('Initial', 'JJ'), ('Public', 'JJ'), ('Offering', 'NNP'), ('of', 'IN'), ('Primerica', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('31', 'CD'), (',', ','), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('35', 'CD'), ('PM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Citi', 'NNP'), ('Announces', 'NNPS'), ('$', '$'), ('320.4', 'CD'), ('Million', 'CD'), ('Initial', 'JJ'), ('Public', 'JJ'), ('Offering', 'NNP'), ('of', 'IN'), ('Primerica', 'NNP'), ('Upsized', 'NNP'), ('Offering', 'NNP'), ('Establishes', 'NNP'), ('Primerica', 'NNP'), ('as', 'IN'), ('New', 'NNP'), ('Public', 'NNP'), ('Company', 'NNP'), (',', ','), ('Continues', 'NNP'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Reduction', 'NNP'), ('of', 'IN'), ('Non', 'NNP'), ('Core', 'NNP'), ('Assets', 'NNPS'), ('Citi', 'NNP'), ('today', 'NN'), ('announced', 'VBD'), ('the', 'DT'), ('$', '$'), ('320.4', 'CD'), ('million', 'CD'), ('initial', 'JJ'), ('public', 'JJ'), ('offering', 'NN'), ('of', 'IN'), ('Primerica', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   Announces/NNPS   $/$   320.4/CD   Million/CD   Initial/JJ   (ORGANIZATION Public/JJ)   Offering/NNP   of/IN   (ORGANIZATION Primerica/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   31/CD   ,/,   2010/CD   09/CD   :/:   35/CD   PM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Citi/NNP   Announces/NNPS   $/$   320.4/CD   Million/CD   Initial/JJ   (ORGANIZATION Public/JJ)   Offering/NNP   of/IN   (ORGANIZATION Primerica/NNP Upsized/NNP)   Offering/NNP   Establishes/NNP   Primerica/NNP   as/IN   (GPE New/NNP)   Public/NNP   Company/NNP   ,/,   (PERSON Continues/NNP Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   Reduction/NNP   of/IN   (ORGANIZATION Non/NNP Core/NNP Assets/NNPS Citi/NNP)   today/NN   announced/VBD   the/DT   $/$   320.4/CD   million/CD   initial/JJ   public/JJ   offering/NN   of/IN   (GPE Primerica/NNP)   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   s/VBZ   Reduction/NNP   of/IN   Non/NNP   Core/NNP   Assets/NNPS   Citi/NNP   today/NN)
+	(VERB announced/VBD the/DT)
+noun phrases to consider:
+	(NOUN Citi/NNP Announces/NNPS)
+	(NOUN Million/CD Initial/JJ Public/JJ Offering/NNP)
+	(NOUN Primerica/NNP |/NNP Business/NNP Wire/NNP)
+	(NOUN March/NNP)
+	(NOUN 35/CD PM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Citi/NNP Announces/NNPS)
+	(NOUN Million/CD Initial/JJ Public/JJ Offering/NNP)
+	(NOUN Primerica/NNP Upsized/NNP Offering/NNP Establishes/NNP)
+	(NOUN Primerica/NNP)
+	(NOUN New/NNP Public/NNP Company/NNP)
+	(NOUN Continues/NNP Citi/NNP ‚/NNP Ä/NNP)
+	(NOUN ô/NNP)
+	(NOUN million/CD initial/JJ public/JJ offering/NN)
+	(NOUN Primerica/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+In the offering, approximately 21.4 million shares of Primerica common stock were sold at $15 per share.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('offering', 'NN'), (',', ','), ('approximately', 'RB'), ('21.4', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), ('were', 'VBD'), ('sold', 'VBN'), ('at', 'IN'), ('$', '$'), ('15', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   offering/NN   ,/,   approximately/RB   21.4/CD   million/CD   shares/NNS   of/IN   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   were/VBD   sold/VBN   at/IN   $/$   15/CD   per/IN   share/NN   ./.)
+----------------------------------
+original sentence: 
+The shares of common stock are expected to begin trading tomorrow, April 1, 2010 on the New York Stock Exchange under the symbol ‚ÄúPRI.‚Äù Citi has granted an over allotment option to the underwriters to purchase up to an additional approximately 3.2 million shares of Primerica common stock.
+
+POS tagged sentence: 
+[('The', 'DT'), ('shares', 'NNS'), ('of', 'IN'), ('common', 'JJ'), ('stock', 'NN'), ('are', 'VBP'), ('expected', 'VBN'), ('to', 'TO'), ('begin', 'VB'), ('trading', 'NN'), ('tomorrow', 'NN'), (',', ','), ('April', 'NNP'), ('1', 'CD'), (',', ','), ('2010', 'CD'), ('on', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Stock', 'NNP'), ('Exchange', 'NNP'), ('under', 'IN'), ('the', 'DT'), ('symbol', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('PRI.', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Citi', 'NNP'), ('has', 'VBZ'), ('granted', 'VBN'), ('an', 'DT'), ('over', 'IN'), ('allotment', 'NN'), ('option', 'NN'), ('to', 'TO'), ('the', 'DT'), ('underwriters', 'NNS'), ('to', 'TO'), ('purchase', 'VB'), ('up', 'RP'), ('to', 'TO'), ('an', 'DT'), ('additional', 'JJ'), ('approximately', 'RB'), ('3.2', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   shares/NNS   of/IN   common/JJ   stock/NN   are/VBP   expected/VBN   to/TO   begin/VB   trading/NN   tomorrow/NN   ,/,   April/NNP   1/CD   ,/,   2010/CD   on/IN   the/DT   (GPE New/NNP York/NNP)   Stock/NNP   Exchange/NNP   under/IN   the/DT   symbol/NN   ‚/:   Ä/:   ú/:   PRI./NNP   ‚/:   Ä/:   ù/:   (PERSON Citi/NNP)   has/VBZ   granted/VBN   an/DT   over/IN   allotment/NN   option/NN   to/TO   the/DT   underwriters/NNS   to/TO   purchase/VB   up/RP   to/TO   an/DT   additional/JJ   approximately/RB   3.2/CD   million/CD   shares/NNS   of/IN   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP expected/VBN)
+	(VERB begin/VB trading/NN tomorrow/NN)
+	(VERB has/VBZ granted/VBN an/DT over/IN allotment/NN option/NN)
+	(VERB purchase/VB)
+noun phrases to consider:
+	(NOUN shares/NNS)
+	(NOUN common/JJ stock/NN)
+	(NOUN April/NNP)
+	(NOUN New/NNP York/NNP Stock/NNP Exchange/NNP)
+	(NOUN symbol/NN)
+	(NOUN PRI./NNP)
+	(NOUN Citi/NNP)
+	(NOUN underwriters/NNS)
+	(NOUN an/DT additional/JJ)
+	(NOUN million/CD shares/NNS)
+	(NOUN Primerica/NNP common/JJ stock/NN)
+
+----------------------------------
+original sentence: 
+Primerica will not receive any proceeds from the transaction.
+
+POS tagged sentence: 
+[('Primerica', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('receive', 'VB'), ('any', 'DT'), ('proceeds', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Primerica/NNP)   will/MD   not/RB   receive/VB   any/DT   proceeds/NNS   from/IN   the/DT   transaction/NN   ./.)
+----------------------------------
+original sentence: 
+Immediately following the public offering, and after giving effect to the February 8, 2010 agreement to sell shares of Primerica common stock, plus warrants to purchase Primerica common stock, to private equity funds managed by Warburg Pincus LLC, Citi will beneficially own approximately 43% of Primerica‚Äôs common stock.
+
+POS tagged sentence: 
+[('Immediately', 'RB'), ('following', 'VBG'), ('the', 'DT'), ('public', 'NN'), ('offering', 'NN'), (',', ','), ('and', 'CC'), ('after', 'IN'), ('giving', 'VBG'), ('effect', 'NN'), ('to', 'TO'), ('the', 'DT'), ('February', 'NNP'), ('8', 'CD'), (',', ','), ('2010', 'CD'), ('agreement', 'NN'), ('to', 'TO'), ('sell', 'VB'), ('shares', 'NNS'), ('of', 'IN'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), (',', ','), ('plus', 'CC'), ('warrants', 'NNS'), ('to', 'TO'), ('purchase', 'VB'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), (',', ','), ('to', 'TO'), ('private', 'JJ'), ('equity', 'NN'), ('funds', 'NNS'), ('managed', 'VBN'), ('by', 'IN'), ('Warburg', 'NNP'), ('Pincus', 'NNP'), ('LLC', 'NNP'), (',', ','), ('Citi', 'NNP'), ('will', 'MD'), ('beneficially', 'RB'), ('own', 'VB'), ('approximately', 'RB'), ('43', 'CD'), ('%', 'NN'), ('of', 'IN'), ('Primerica', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('common', 'JJ'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Immediately/RB   following/VBG   the/DT   public/NN   offering/NN   ,/,   and/CC   after/IN   giving/VBG   effect/NN   to/TO   the/DT   February/NNP   8/CD   ,/,   2010/CD   agreement/NN   to/TO   sell/VB   shares/NNS   of/IN   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   ,/,   plus/CC   warrants/NNS   to/TO   purchase/VB   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   ,/,   to/TO   private/JJ   equity/NN   funds/NNS   managed/VBN   by/IN   (PERSON Warburg/NNP Pincus/NNP LLC/NNP)   ,/,   (PERSON Citi/NNP)   will/MD   beneficially/RB   own/VB   approximately/RB   43/CD   %/NN   of/IN   (ORGANIZATION Primerica/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   common/JJ   stock/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB following/VBG the/DT public/NN offering/NN)
+	(VERB giving/VBG effect/NN)
+	(VERB sell/VB shares/NNS of/IN Primerica/NNP common/JJ stock/NN)
+	(VERB purchase/VB Primerica/NNP common/JJ stock/NN)
+
+tagged sentence:
+	 purchase Primerica common stock	res:2
+	(VERB managed/VBN by/IN Warburg/NNP Pincus/NNP LLC/NNP)
+	(VERB own/VB)
+	(VERB s/VBZ common/JJ stock/NN)
+noun phrases to consider:
+	(NOUN February/NNP)
+	(NOUN 2010/CD agreement/NN)
+	(NOUN warrants/NNS)
+	(NOUN private/JJ equity/NN funds/NNS)
+	(NOUN Citi/NNP)
+	(NOUN %/NN)
+	(NOUN Primerica/NNP ‚/NNP Ä/NNP ô/NNP)
+
+----------------------------------
+original sentence: 
+If the underwriters exercise their full over allotment option, Citi‚Äôs ownership of Primerica common stock will be approximately 39%.
+
+POS tagged sentence: 
+[('If', 'IN'), ('the', 'DT'), ('underwriters', 'NNS'), ('exercise', 'VBP'), ('their', 'PRP$'), ('full', 'JJ'), ('over', 'IN'), ('allotment', 'NN'), ('option', 'NN'), (',', ','), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('ownership', 'NN'), ('of', 'IN'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), ('will', 'MD'), ('be', 'VB'), ('approximately', 'RB'), ('39', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   the/DT   underwriters/NNS   exercise/VBP   their/PRP$   full/JJ   over/IN   allotment/NN   option/NN   ,/,   (PERSON Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   ownership/NN   of/IN   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   will/MD   be/VB   approximately/RB   39/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB exercise/VBP their/PRP$ full/JJ over/IN allotment/NN option/NN)
+	(VERB s/VBZ ownership/NN of/IN Primerica/NNP common/JJ stock/NN)
+	(VERB be/VB)
+noun phrases to consider:
+	(NOUN underwriters/NNS)
+	(NOUN Citi/NNP ‚/NNP Ä/NNP ô/NNP)
+	(NOUN %/NN)
+
+----------------------------------
+original sentence: 
+Citi intends to divest its remaining interest in Primerica as soon as is practicable, subject to market and other conditions.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('intends', 'NNS'), ('to', 'TO'), ('divest', 'VB'), ('its', 'PRP$'), ('remaining', 'VBG'), ('interest', 'NN'), ('in', 'IN'), ('Primerica', 'NNP'), ('as', 'IN'), ('soon', 'RB'), ('as', 'IN'), ('is', 'VBZ'), ('practicable', 'JJ'), (',', ','), ('subject', 'JJ'), ('to', 'TO'), ('market', 'NN'), ('and', 'CC'), ('other', 'JJ'), ('conditions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   intends/NNS   to/TO   divest/VB   its/PRP$   remaining/VBG   interest/NN   in/IN   (GPE Primerica/NNP)   as/IN   soon/RB   as/IN   is/VBZ   practicable/JJ   ,/,   subject/JJ   to/TO   market/NN   and/CC   other/JJ   conditions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB divest/VB its/PRP$)
+	(VERB   remaining/VBG   interest/NN   in/IN   Primerica/NNP   as/IN   soon/RB   as/IN)
+	(VERB is/VBZ practicable/JJ)
+noun phrases to consider:
+	(NOUN Citi/NNP intends/NNS)
+	(NOUN subject/JJ)
+	(NOUN market/NN)
+	(NOUN other/JJ conditions/NNS)
+
+----------------------------------
+original sentence: 
+It is expected that this public offering and private sale will reduce Citi‚Äôs GAAP assets by approximately $5 billion during the second quarter of 2010.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('expected', 'VBN'), ('that', 'IN'), ('this', 'DT'), ('public', 'NN'), ('offering', 'NN'), ('and', 'CC'), ('private', 'JJ'), ('sale', 'NN'), ('will', 'MD'), ('reduce', 'VB'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('GAAP', 'NNP'), ('assets', 'NNS'), ('by', 'IN'), ('approximately', 'RB'), ('$', '$'), ('5', 'CD'), ('billion', 'CD'), ('during', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   expected/VBN   that/IN   this/DT   public/NN   offering/NN   and/CC   private/JJ   sale/NN   will/MD   reduce/VB   (PERSON Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   (ORGANIZATION GAAP/NNP)   assets/NNS   by/IN   approximately/RB   $/$   5/CD   billion/CD   during/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ expected/VBN that/IN this/DT public/NN offering/NN)
+	(VERB reduce/VB Citi/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ GAAP/NNP assets/NNS by/IN approximately/RB)
+noun phrases to consider:
+	(NOUN private/JJ sale/NN)
+	(NOUN the/DT second/JJ quarter/NN)
+
+----------------------------------
+original sentence: 
+The Primerica public offering and private sale are in line with Citi‚Äôs strategy to reduce non core assets, tightly manage risks and optimize the value of assets in Citi Holdings, while working to generate long term profitability and growth from Citicorp, which comprises the company‚Äôs core businesses.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Primerica', 'NNP'), ('public', 'NN'), ('offering', 'NN'), ('and', 'CC'), ('private', 'JJ'), ('sale', 'NN'), ('are', 'VBP'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('strategy', 'NN'), ('to', 'TO'), ('reduce', 'VB'), ('non', 'NN'), ('core', 'NN'), ('assets', 'NNS'), (',', ','), ('tightly', 'RB'), ('manage', 'NN'), ('risks', 'NNS'), ('and', 'CC'), ('optimize', 'VB'), ('the', 'DT'), ('value', 'NN'), ('of', 'IN'), ('assets', 'NNS'), ('in', 'IN'), ('Citi', 'NNP'), ('Holdings', 'NNP'), (',', ','), ('while', 'IN'), ('working', 'VBG'), ('to', 'TO'), ('generate', 'VB'), ('long', 'JJ'), ('term', 'NN'), ('profitability', 'NN'), ('and', 'CC'), ('growth', 'NN'), ('from', 'IN'), ('Citicorp', 'NNP'), (',', ','), ('which', 'WDT'), ('comprises', 'NNS'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('core', 'VBP'), ('businesses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Primerica/NNP)   public/NN   offering/NN   and/CC   private/JJ   sale/NN   are/VBP   in/IN   line/NN   with/IN   (PERSON Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   strategy/NN   to/TO   reduce/VB   non/NN   core/NN   assets/NNS   ,/,   tightly/RB   manage/NN   risks/NNS   and/CC   optimize/VB   the/DT   value/NN   of/IN   assets/NNS   in/IN   (GPE Citi/NNP Holdings/NNP)   ,/,   while/IN   working/VBG   to/TO   generate/VB   long/JJ   term/NN   profitability/NN   and/CC   growth/NN   from/IN   (GPE Citicorp/NNP)   ,/,   which/WDT   comprises/NNS   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   core/VBP   businesses/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP in/IN line/NN with/IN Citi/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ strategy/NN)
+	(VERB reduce/VB non/NN core/NN assets/NNS)
+	(VERB   optimize/VB   the/DT   value/NN   of/IN   assets/NNS   in/IN   Citi/NNP   Holdings/NNP)
+	(VERB working/VBG to/TO generate/VB long/JJ term/NN profitability/NN)
+	(VERB core/VBP businesses/NNS)
+noun phrases to consider:
+	(NOUN Primerica/NNP public/NN offering/NN)
+	(NOUN private/JJ sale/NN)
+	(NOUN manage/NN risks/NNS)
+	(NOUN growth/NN)
+	(NOUN Citicorp/NNP)
+	(NOUN comprises/NNS)
+	(NOUN company/NN)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Citigroup Global Markets Inc. was sole bookrunner on the transaction.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('Global', 'NNP'), ('Markets', 'NNPS'), ('Inc.', 'NNP'), ('was', 'VBD'), ('sole', 'JJ'), ('bookrunner', 'NN'), ('on', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   (ORGANIZATION Global/NNP Markets/NNPS Inc./NNP)   was/VBD   sole/JJ   bookrunner/NN   on/IN   the/DT   transaction/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD sole/JJ bookrunner/NN on/IN the/DT transaction/NN)
+noun phrases to consider:
+	(NOUN Citigroup/NNP Global/NNP Markets/NNPS Inc./NNP)
+
+----------------------------------
+original sentence: 
+A copy of the prospectus relating to the securities to be sold in the public offering may be obtained, when available, from: Citi, Brooklyn Army Terminal, 140 58th Street, 8th floor, Brooklyn, NY 11220.
+
+POS tagged sentence: 
+[('A', 'DT'), ('copy', 'NN'), ('of', 'IN'), ('the', 'DT'), ('prospectus', 'NN'), ('relating', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('securities', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('sold', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('public', 'NN'), ('offering', 'NN'), ('may', 'MD'), ('be', 'VB'), ('obtained', 'VBN'), (',', ','), ('when', 'WRB'), ('available', 'JJ'), (',', ','), ('from', 'IN'), (':', ':'), ('Citi', 'NNP'), (',', ','), ('Brooklyn', 'NNP'), ('Army', 'NNP'), ('Terminal', 'NNP'), (',', ','), ('140', 'CD'), ('58th', 'CD'), ('Street', 'NNP'), (',', ','), ('8th', 'JJ'), ('floor', 'NN'), (',', ','), ('Brooklyn', 'NNP'), (',', ','), ('NY', 'NNP'), ('11220', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   copy/NN   of/IN   the/DT   prospectus/NN   relating/VBG   to/TO   the/DT   securities/NNS   to/TO   be/VB   sold/VBN   in/IN   the/DT   public/NN   offering/NN   may/MD   be/VB   obtained/VBN   ,/,   when/WRB   available/JJ   ,/,   from/IN   :/:   (PERSON Citi/NNP)   ,/,   (PERSON Brooklyn/NNP Army/NNP Terminal/NNP)   ,/,   140/CD   58th/CD   Street/NNP   ,/,   8th/JJ   floor/NN   ,/,   (GPE Brooklyn/NNP)   ,/,   NY/NNP   11220/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB relating/VBG to/TO the/DT securities/NNS)
+	(VERB be/VB sold/VBN in/IN the/DT public/NN offering/NN)
+	(VERB be/VB obtained/VBN)
+noun phrases to consider:
+	(NOUN copy/NN)
+	(NOUN prospectus/NN)
+	(NOUN available/JJ)
+	(NOUN Citi/NNP)
+	(NOUN Brooklyn/NNP Army/NNP Terminal/NNP)
+	(NOUN 58th/CD Street/NNP)
+	(NOUN 8th/JJ floor/NN)
+	(NOUN Brooklyn/NNP)
+	(NOUN NY/NNP)
+
+----------------------------------
+original sentence: 
+Telephone: 800 831 9146 or email to: batprospectusdepartment@citi.com
+ Citi, the leading global financial services company, has approximately 200 million customer accounts and does business in more than 140 countries.
+
+POS tagged sentence: 
+[('Telephone', 'NNP'), (':', ':'), ('800', 'CD'), ('831', 'CD'), ('9146', 'CD'), ('or', 'CC'), ('email', 'NN'), ('to', 'TO'), (':', ':'), ('batprospectusdepartment', 'NN'), ('@', ':'), ('citi.com', 'JJ'), ('Citi', 'NNP'), (',', ','), ('the', 'DT'), ('leading', 'VBG'), ('global', 'JJ'), ('financial', 'JJ'), ('services', 'NNS'), ('company', 'NN'), (',', ','), ('has', 'VBZ'), ('approximately', 'RB'), ('200', 'CD'), ('million', 'CD'), ('customer', 'NN'), ('accounts', 'NNS'), ('and', 'CC'), ('does', 'VBZ'), ('business', 'NN'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('140', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Telephone/NNP)   :/:   800/CD   831/CD   9146/CD   or/CC   email/NN   to/TO   :/:   batprospectusdepartment/NN   @/:   citi.com/JJ   Citi/NNP   ,/,   the/DT   leading/VBG   global/JJ   financial/JJ   services/NNS   company/NN   ,/,   has/VBZ   approximately/RB   200/CD   million/CD   customer/NN   accounts/NNS   and/CC   does/VBZ   business/NN   in/IN   more/JJR   than/IN   140/CD   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB leading/VBG global/JJ financial/JJ services/NNS company/NN)
+	(VERB has/VBZ)
+	(VERB   does/VBZ   business/NN   in/IN   more/JJR   than/IN   140/CD   countries/NNS)
+noun phrases to consider:
+	(NOUN Telephone/NNP)
+	(NOUN email/NN)
+	(NOUN batprospectusdepartment/NN)
+	(NOUN citi.com/JJ Citi/NNP)
+	(NOUN million/CD customer/NN accounts/NNS)
+
+----------------------------------
+original sentence: 
+Through Citicorp and Citi Holdings, Citi provides consumers, corporations, governments and institutions with a broad range of financial products and services, including consumer banking and credit, corporate and investment banking, securities brokerage, transaction services, and wealth management.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('Citicorp', 'NNP'), ('and', 'CC'), ('Citi', 'NNP'), ('Holdings', 'NNP'), (',', ','), ('Citi', 'NNP'), ('provides', 'VBZ'), ('consumers', 'NNS'), (',', ','), ('corporations', 'NNS'), (',', ','), ('governments', 'NNS'), ('and', 'CC'), ('institutions', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('financial', 'JJ'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), (',', ','), ('including', 'VBG'), ('consumer', 'NN'), ('banking', 'VBG'), ('and', 'CC'), ('credit', 'NN'), (',', ','), ('corporate', 'JJ'), ('and', 'CC'), ('investment', 'NN'), ('banking', 'NN'), (',', ','), ('securities', 'NNS'), ('brokerage', 'VBP'), (',', ','), ('transaction', 'NN'), ('services', 'NNS'), (',', ','), ('and', 'CC'), ('wealth', 'NN'), ('management', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   (ORGANIZATION Citicorp/NNP)   and/CC   (PERSON Citi/NNP Holdings/NNP)   ,/,   (PERSON Citi/NNP)   provides/VBZ   consumers/NNS   ,/,   corporations/NNS   ,/,   governments/NNS   and/CC   institutions/NNS   with/IN   a/DT   broad/JJ   range/NN   of/IN   financial/JJ   products/NNS   and/CC   services/NNS   ,/,   including/VBG   consumer/NN   banking/VBG   and/CC   credit/NN   ,/,   corporate/JJ   and/CC   investment/NN   banking/NN   ,/,   securities/NNS   brokerage/VBP   ,/,   transaction/NN   services/NNS   ,/,   and/CC   wealth/NN   management/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provides/VBZ consumers/NNS)
+	(VERB including/VBG consumer/NN)
+	(VERB banking/VBG)
+	(VERB brokerage/VBP)
+noun phrases to consider:
+	(NOUN Citicorp/NNP)
+	(NOUN Citi/NNP Holdings/NNP)
+	(NOUN Citi/NNP)
+	(NOUN corporations/NNS)
+	(NOUN governments/NNS)
+	(NOUN institutions/NNS)
+	(NOUN a/DT broad/JJ range/NN)
+	(NOUN financial/JJ products/NNS)
+	(NOUN services/NNS)
+	(NOUN credit/NN)
+	(NOUN corporate/JJ)
+	(NOUN investment/NN banking/NN)
+	(NOUN securities/NNS)
+	(NOUN transaction/NN services/NNS)
+	(NOUN wealth/NN management/NN)
+
+----------------------------------
+original sentence: 
+Additional information may be found at  Primerica, a leading distributor of financial products to middle income households in North America, has approximately 100,000 licensed sales representatives who assist clients in meeting their needs for term life insurance, which Primerica underwrites, as well as mutual funds, variable annuities, loans and other financial products.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('may', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Primerica', 'NNP'), (',', ','), ('a', 'DT'), ('leading', 'VBG'), ('distributor', 'NN'), ('of', 'IN'), ('financial', 'JJ'), ('products', 'NNS'), ('to', 'TO'), ('middle', 'VB'), ('income', 'NN'), ('households', 'NNS'), ('in', 'IN'), ('North', 'NNP'), ('America', 'NNP'), (',', ','), ('has', 'VBZ'), ('approximately', 'RB'), ('100,000', 'CD'), ('licensed', 'VBN'), ('sales', 'NNS'), ('representatives', 'NNS'), ('who', 'WP'), ('assist', 'NN'), ('clients', 'VBZ'), ('in', 'IN'), ('meeting', 'NN'), ('their', 'PRP$'), ('needs', 'NNS'), ('for', 'IN'), ('term', 'NN'), ('life', 'NN'), ('insurance', 'NN'), (',', ','), ('which', 'WDT'), ('Primerica', 'NNP'), ('underwrites', 'VBZ'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('mutual', 'JJ'), ('funds', 'NNS'), (',', ','), ('variable', 'JJ'), ('annuities', 'NNS'), (',', ','), ('loans', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('financial', 'JJ'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   may/MD   be/VB   found/VBN   at/IN   (ORGANIZATION Primerica/NNP)   ,/,   a/DT   leading/VBG   distributor/NN   of/IN   financial/JJ   products/NNS   to/TO   middle/VB   income/NN   households/NNS   in/IN   (GPE North/NNP America/NNP)   ,/,   has/VBZ   approximately/RB   100,000/CD   licensed/VBN   sales/NNS   representatives/NNS   who/WP   assist/NN   clients/VBZ   in/IN   meeting/NN   their/PRP$   needs/NNS   for/IN   term/NN   life/NN   insurance/NN   ,/,   which/WDT   (ORGANIZATION Primerica/NNP)   underwrites/VBZ   ,/,   as/IN   well/RB   as/IN   mutual/JJ   funds/NNS   ,/,   variable/JJ   annuities/NNS   ,/,   loans/NNS   and/CC   other/JJ   financial/JJ   products/NNS   ./.)
+----------------------------------
+original sentence: 
+Additional information may be found at  Certain statements in this release, including without limitation the completion of the February 8, 2010 agreement, Citi‚Äôs beneficial ownership of Primerica common stock upon completion of the transactions and the anticipated impact of the transactions on Citi's GAAP assets, are "forward looking statements" within the meaning of the Private Securities Litigation Reform Act of 1995.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('may', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Certain', 'NNP'), ('statements', 'NNS'), ('in', 'IN'), ('this', 'DT'), ('release', 'NN'), (',', ','), ('including', 'VBG'), ('without', 'IN'), ('limitation', 'NN'), ('the', 'DT'), ('completion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('February', 'NNP'), ('8', 'CD'), (',', ','), ('2010', 'CD'), ('agreement', 'NN'), (',', ','), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('beneficial', 'JJ'), ('ownership', 'NN'), ('of', 'IN'), ('Primerica', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), ('upon', 'IN'), ('completion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('transactions', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('anticipated', 'JJ'), ('impact', 'NN'), ('of', 'IN'), ('the', 'DT'), ('transactions', 'NNS'), ('on', 'IN'), ('Citi', 'NNP'), ("'s", 'POS'), ('GAAP', 'NNP'), ('assets', 'NNS'), (',', ','), ('are', 'VBP'), ('"', ':'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), ('"', ':'), ('within', 'IN'), ('the', 'DT'), ('meaning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Private', 'NNP'), ('Securities', 'NNP'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   may/MD   be/VB   found/VBN   at/IN   (GPE Certain/NNP)   statements/NNS   in/IN   this/DT   release/NN   ,/,   including/VBG   without/IN   limitation/NN   the/DT   completion/NN   of/IN   the/DT   February/NNP   8/CD   ,/,   2010/CD   agreement/NN   ,/,   (PERSON Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   beneficial/JJ   ownership/NN   of/IN   (ORGANIZATION Primerica/NNP)   common/JJ   stock/NN   upon/IN   completion/NN   of/IN   the/DT   transactions/NNS   and/CC   the/DT   anticipated/JJ   impact/NN   of/IN   the/DT   transactions/NNS   on/IN   (PERSON Citi/NNP)   's/POS   (ORGANIZATION GAAP/NNP)   assets/NNS   ,/,   are/VBP   "/:   forward/RB   looking/VBG   statements/NNS   "/:   within/IN   the/DT   meaning/NN   of/IN   the/DT   (ORGANIZATION Private/NNP)   Securities/NNP   Litigation/NNP   Reform/NNP   Act/NNP   of/IN   1995/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   be/VB   found/VBN   at/IN   Certain/NNP   statements/NNS   in/IN   this/DT   release/NN)
+	(VERB   including/VBG   without/IN   limitation/NN   the/DT   completion/NN   of/IN   the/DT   February/NNP   8/CD)
+	(VERB   s/VBZ   beneficial/JJ   ownership/NN   of/IN   Primerica/NNP   common/JJ   stock/NN   upon/IN   completion/NN   of/IN   the/DT   transactions/NNS)
+	(VERB are/VBP)
+	(VERB looking/VBG statements/NNS)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN 2010/CD agreement/NN)
+	(NOUN Citi/NNP ‚/NNP Ä/NNP ô/NNP)
+	(NOUN the/DT anticipated/JJ impact/NN)
+	(NOUN transactions/NNS)
+	(NOUN Citi/NNP)
+	(NOUN GAAP/NNP assets/NNS)
+	(NOUN meaning/NN)
+	(NOUN Private/NNP Securities/NNP Litigation/NNP Reform/NNP)
+	(NOUN Act/NNP)
+
+----------------------------------
+original sentence: 
+These statements are based on management's current expectations and are subject to uncertainty and changes in circumstances.
+
+POS tagged sentence: 
+[('These', 'DT'), ('statements', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('on', 'IN'), ('management', 'NN'), ("'s", 'POS'), ('current', 'JJ'), ('expectations', 'NNS'), ('and', 'CC'), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('uncertainty', 'NN'), ('and', 'CC'), ('changes', 'NNS'), ('in', 'IN'), ('circumstances', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   statements/NNS   are/VBP   based/VBN   on/IN   management/NN   's/POS   current/JJ   expectations/NNS   and/CC   are/VBP   subject/JJ   to/TO   uncertainty/NN   and/CC   changes/NNS   in/IN   circumstances/NNS   ./.)
+----------------------------------
+original sentence: 
+Actual results may differ materially from those included in these statements due to a variety of factors, including the actual completion of the proposed transactions, prevailing conditions in the capital markets and prevailing economic, political and market factors affecting the demand for Primerica's common stock and the final analysis of the financial and accounting impact of the transactions to Citi.
+
+POS tagged sentence: 
+[('Actual', 'JJ'), ('results', 'NNS'), ('may', 'MD'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('included', 'VBD'), ('in', 'IN'), ('these', 'DT'), ('statements', 'NNS'), ('due', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('variety', 'NN'), ('of', 'IN'), ('factors', 'NNS'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('actual', 'JJ'), ('completion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('proposed', 'VBN'), ('transactions', 'NNS'), (',', ','), ('prevailing', 'VBG'), ('conditions', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('capital', 'NN'), ('markets', 'NNS'), ('and', 'CC'), ('prevailing', 'VBG'), ('economic', 'JJ'), (',', ','), ('political', 'JJ'), ('and', 'CC'), ('market', 'NN'), ('factors', 'NNS'), ('affecting', 'VBG'), ('the', 'DT'), ('demand', 'NN'), ('for', 'IN'), ('Primerica', 'NNP'), ("'s", 'POS'), ('common', 'JJ'), ('stock', 'NN'), ('and', 'CC'), ('the', 'DT'), ('final', 'JJ'), ('analysis', 'NN'), ('of', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('and', 'CC'), ('accounting', 'VBG'), ('impact', 'NN'), ('of', 'IN'), ('the', 'DT'), ('transactions', 'NNS'), ('to', 'TO'), ('Citi', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Actual/JJ)   results/NNS   may/MD   differ/VB   materially/RB   from/IN   those/DT   included/VBD   in/IN   these/DT   statements/NNS   due/JJ   to/TO   a/DT   variety/NN   of/IN   factors/NNS   ,/,   including/VBG   the/DT   actual/JJ   completion/NN   of/IN   the/DT   proposed/VBN   transactions/NNS   ,/,   prevailing/VBG   conditions/NNS   in/IN   the/DT   capital/NN   markets/NNS   and/CC   prevailing/VBG   economic/JJ   ,/,   political/JJ   and/CC   market/NN   factors/NNS   affecting/VBG   the/DT   demand/NN   for/IN   (ORGANIZATION Primerica/NNP)   's/POS   common/JJ   stock/NN   and/CC   the/DT   final/JJ   analysis/NN   of/IN   the/DT   financial/JJ   and/CC   accounting/VBG   impact/NN   of/IN   the/DT   transactions/NNS   to/TO   (GPE Citi/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB differ/VB materially/RB from/IN those/DT)
+	(VERB included/VBD in/IN these/DT statements/NNS due/JJ)
+	(VERB including/VBG the/DT actual/JJ completion/NN of/IN the/DT)
+	(VERB proposed/VBN transactions/NNS)
+	(VERB   prevailing/VBG   conditions/NNS   in/IN   the/DT   capital/NN   markets/NNS)
+	(VERB prevailing/VBG economic/JJ)
+	(VERB affecting/VBG the/DT demand/NN for/IN Primerica/NNP)
+	(VERB accounting/VBG impact/NN of/IN the/DT transactions/NNS)
+noun phrases to consider:
+	(NOUN Actual/JJ results/NNS)
+	(NOUN variety/NN)
+	(NOUN factors/NNS)
+	(NOUN political/JJ)
+	(NOUN market/NN factors/NNS)
+	(NOUN common/JJ stock/NN)
+	(NOUN the/DT final/JJ analysis/NN)
+	(NOUN the/DT financial/JJ)
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+For a discussion of additional risks and uncertainties that may affect Citi's future results, see Citi's periodic reports filed with the SEC and available on  Contacts  Citigroup Inc.
+Stephen Cohen, 212 793 0181
+Shannon Bell, 212 793 6206
+John Andrews, 212 559 2718
+Fixed Income Investors:
+Ilene Fiszel Bieler, 212 559 5091  http://www.businesswire.com/news/home/20100331007103/en/Citi Announces 320.4 Million Initial Public Offering
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('For', 'IN'), ('a', 'DT'), ('discussion', 'NN'), ('of', 'IN'), ('additional', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('that', 'WDT'), ('may', 'MD'), ('affect', 'VB'), ('Citi', 'NNP'), ("'s", 'POS'), ('future', 'JJ'), ('results', 'NNS'), (',', ','), ('see', 'VBP'), ('Citi', 'NNP'), ("'s", 'POS'), ('periodic', 'JJ'), ('reports', 'NNS'), ('filed', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('SEC', 'NNP'), ('and', 'CC'), ('available', 'JJ'), ('on', 'IN'), ('Contacts', 'NNS'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('Stephen', 'NNP'), ('Cohen', 'NNP'), (',', ','), ('212', 'CD'), ('793', 'CD'), ('0181', 'CD'), ('Shannon', 'NNP'), ('Bell', 'NNP'), (',', ','), ('212', 'CD'), ('793', 'CD'), ('6206', 'CD'), ('John', 'NNP'), ('Andrews', 'NNP'), (',', ','), ('212', 'CD'), ('559', 'CD'), ('2718', 'CD'), ('Fixed', 'NNP'), ('Income', 'NNP'), ('Investors', 'NNPS'), (':', ':'), ('Ilene', 'NNP'), ('Fiszel', 'NNP'), ('Bieler', 'NNP'), (',', ','), ('212', 'CD'), ('559', 'CD'), ('5091', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100331007103/en/Citi', 'JJ'), ('Announces', 'NNS'), ('320.4', 'CD'), ('Million', 'CD'), ('Initial', 'JJ'), ('Public', 'JJ'), ('Offering', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   For/IN   a/DT   discussion/NN   of/IN   additional/JJ   risks/NNS   and/CC   uncertainties/NNS   that/WDT   may/MD   affect/VB   (PERSON Citi/NNP)   's/POS   future/JJ   results/NNS   ,/,   see/VBP   (PERSON Citi/NNP)   's/POS   periodic/JJ   reports/NNS   filed/VBN   with/IN   the/DT   (ORGANIZATION SEC/NNP)   and/CC   available/JJ   on/IN   (ORGANIZATION Contacts/NNS Citigroup/NNP Inc/NNP)   ./.   (PERSON Stephen/NNP Cohen/NNP)   ,/,   212/CD   793/CD   0181/CD   (PERSON Shannon/NNP Bell/NNP)   ,/,   212/CD   793/CD   6206/CD   (PERSON John/NNP Andrews/NNP)   ,/,   212/CD   559/CD   2718/CD   Fixed/NNP   Income/NNP   Investors/NNPS   :/:   (PERSON Ilene/NNP Fiszel/NNP Bieler/NNP)   ,/,   212/CD   559/CD   5091/CD   http/NN   :/:   //www.businesswire.com/news/home/20100331007103/en/Citi/JJ   Announces/NNS   320.4/CD   Million/CD   Initial/JJ   (ORGANIZATION Public/JJ)   Offering/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB affect/VB Citi/NNP)
+	(VERB see/VBP Citi/NNP)
+	(VERB filed/VBN with/IN the/DT SEC/NNP)
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN discussion/NN)
+	(NOUN additional/JJ risks/NNS)
+	(NOUN uncertainties/NNS)
+	(NOUN future/JJ results/NNS)
+	(NOUN periodic/JJ reports/NNS)
+	(NOUN available/JJ)
+	(NOUN Contacts/NNS Citigroup/NNP Inc/NNP)
+	(NOUN Stephen/NNP Cohen/NNP)
+	(NOUN 0181/CD Shannon/NNP Bell/NNP)
+	(NOUN 6206/CD John/NNP Andrews/NNP)
+	(NOUN 2718/CD Fixed/NNP Income/NNP Investors/NNPS)
+	(NOUN Ilene/NNP Fiszel/NNP Bieler/NNP)
+	(NOUN 5091/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100331007103/en/Citi/JJ   Announces/NNS)
+	(NOUN   Million/CD   Initial/JJ   Public/JJ   Offering/NNP   Company/NNP   Information/NNP   Center/NNP)
+	(NOUN More/NNP Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:0	pos:0	verypos:1	total:0

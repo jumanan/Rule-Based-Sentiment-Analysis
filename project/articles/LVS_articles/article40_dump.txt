@@ -1,0 +1,223 @@
+
+----------------------------------
+original sentence: 
+Stock Market Alert on Mixed Casino Stocks MGM, LVS, WYNN, MPEL | The First Reporter
+Stock Market Alert on Mixed Casino Stocks MGM, LVS, WYNN, MPEL , March 31, 2010 Dallas, Tx &#8211; Following were among the casino companies whose shares were actively traded in Tuesday&#8217;s session.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Market', 'NN'), ('Alert', 'NNP'), ('on', 'IN'), ('Mixed', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('MGM', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('WYNN', 'NNP'), (',', ','), ('MPEL', 'NNP'), ('|', 'NNP'), ('The', 'NNP'), ('First', 'NNP'), ('Reporter', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Alert', 'NNP'), ('on', 'IN'), ('Mixed', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('MGM', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('WYNN', 'NNP'), (',', ','), ('MPEL', 'NNP'), (',', ','), ('March', 'NNP'), ('31', 'CD'), (',', ','), ('2010', 'CD'), ('Dallas', 'NNP'), (',', ','), ('Tx', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Following', 'NNP'), ('were', 'VBD'), ('among', 'IN'), ('the', 'DT'), ('casino', 'NN'), ('companies', 'NNS'), ('whose', 'WP$'), ('shares', 'NNS'), ('were', 'VBD'), ('actively', 'RB'), ('traded', 'VBN'), ('in', 'IN'), ('Tuesday&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Market/NN Alert/NNP)   on/IN   (PERSON Mixed/NNP Casino/NNP Stocks/NNP MGM/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   ,/,   (ORGANIZATION MPEL/NNP)   |/NNP   The/NNP   First/NNP   Reporter/NNP   Stock/NNP   (PERSON Market/NNP Alert/NNP)   on/IN   (PERSON Mixed/NNP Casino/NNP Stocks/NNP MGM/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   ,/,   (ORGANIZATION MPEL/NNP)   ,/,   March/NNP   31/CD   ,/,   2010/CD   (GPE Dallas/NNP)   ,/,   Tx/NNP   &/CC   #/#   8211/CD   ;/:   Following/NNP   were/VBD   among/IN   the/DT   casino/NN   companies/NNS   whose/WP$   shares/NNS   were/VBD   actively/RB   traded/VBN   in/IN   Tuesday&/NNP   #/#   8217/CD   ;/:   s/NNS   session/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD among/IN the/DT casino/NN companies/NNS)
+	(VERB were/VBD actively/RB traded/VBN in/IN Tuesday&/NNP)
+noun phrases to consider:
+	(NOUN Stock/NN Market/NN Alert/NNP)
+	(NOUN Mixed/NNP Casino/NNP Stocks/NNP MGM/NNP)
+	(NOUN LVS/NNP)
+	(NOUN WYNN/NNP)
+	(NOUN MPEL/NNP |/NNP The/NNP First/NNP)
+	(NOUN Reporter/NNP Stock/NNP Market/NNP Alert/NNP)
+	(NOUN Mixed/NNP Casino/NNP Stocks/NNP MGM/NNP)
+	(NOUN LVS/NNP)
+	(NOUN WYNN/NNP)
+	(NOUN MPEL/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Dallas/NNP)
+	(NOUN Tx/NNP)
+	(NOUN Following/NNP)
+	(NOUN shares/NNS)
+	(NOUN s/NNS session/NN)
+
+----------------------------------
+original sentence: 
+MIRAGE NYSE:MGM lost 2.16% to $12.21 on 14.86 million shares.
+
+POS tagged sentence: 
+[('MIRAGE', 'NN'), ('NYSE', 'NNP'), (':', ':'), ('MGM', 'NNP'), ('lost', 'VBD'), ('2.16', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('12.21', 'CD'), ('on', 'IN'), ('14.86', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MIRAGE/NN)   (ORGANIZATION NYSE/NNP)   :/:   (ORGANIZATION MGM/NNP)   lost/VBD   2.16/CD   %/NN   to/TO   $/$   12.21/CD   on/IN   14.86/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+The company has hired five banks for Hong Kong listing of its Macau operations, expected to raise about $500 million, sources with direct knowledge of the situation told Reuters on Tuesday.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('hired', 'VBN'), ('five', 'CD'), ('banks', 'NNS'), ('for', 'IN'), ('Hong', 'NNP'), ('Kong', 'NNP'), ('listing', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('Macau', 'NNP'), ('operations', 'NNS'), (',', ','), ('expected', 'VBN'), ('to', 'TO'), ('raise', 'VB'), ('about', 'RB'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), (',', ','), ('sources', 'NNS'), ('with', 'IN'), ('direct', 'JJ'), ('knowledge', 'NN'), ('of', 'IN'), ('the', 'DT'), ('situation', 'NN'), ('told', 'VBD'), ('Reuters', 'NNP'), ('on', 'IN'), ('Tuesday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   has/VBZ   hired/VBN   five/CD   banks/NNS   for/IN   (GPE Hong/NNP Kong/NNP)   listing/NN   of/IN   its/PRP$   Macau/NNP   operations/NNS   ,/,   expected/VBN   to/TO   raise/VB   about/RB   $/$   500/CD   million/CD   ,/,   sources/NNS   with/IN   direct/JJ   knowledge/NN   of/IN   the/DT   situation/NN   told/VBD   (ORGANIZATION Reuters/NNP)   on/IN   Tuesday/NNP   ./.)
+----------------------------------
+original sentence: 
+You can subscribe to these free stock alerts at http://www.PennyStockPickAlert.com
+Las Vegas Sands Corp. NYSE:LVS declined 2.97% to $21.21 on 36.32 million shares.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('subscribe', 'VB'), ('to', 'TO'), ('these', 'DT'), ('free', 'JJ'), ('stock', 'NN'), ('alerts', 'NNS'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.PennyStockPickAlert.com', 'JJ'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('declined', 'VBD'), ('2.97', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('21.21', 'CD'), ('on', 'IN'), ('36.32', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   subscribe/VB   to/TO   these/DT   free/JJ   stock/NN   alerts/NNS   at/IN   http/NN   :/:   //www.PennyStockPickAlert.com/JJ   Las/NNP   Vegas/NNP   Sands/NNPS   Corp./NNP   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   declined/VBD   2.97/CD   %/NN   to/TO   $/$   21.21/CD   on/IN   36.32/CD   million/CD   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   subscribe/VB   to/TO   these/DT   free/JJ   stock/NN   alerts/NNS   at/IN   http/NN)
+	(VERB declined/VBD 2.97/CD %/NN)
+noun phrases to consider:
+	(NOUN   //www.PennyStockPickAlert.com/JJ   Las/NNP   Vegas/NNP   Sands/NNPS   Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN million/CD shares/NNS)
+
+----------------------------------
+original sentence: 
+The stock is near to its 52 week high of $22.49.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('near', 'IN'), ('to', 'TO'), ('its', 'PRP$'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('of', 'IN'), ('$', '$'), ('22.49', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   is/VBZ   near/IN   to/TO   its/PRP$   52/CD   week/NN   high/JJ   of/IN   $/$   22.49/CD   ./.)
+----------------------------------
+original sentence: 
+So far the stock is up over 575% in the last one year of trading sessions.
+
+POS tagged sentence: 
+[('So', 'IN'), ('far', 'RB'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('up', 'IN'), ('over', 'IN'), ('575', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('one', 'CD'), ('year', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('sessions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   far/RB   the/DT   stock/NN   is/VBZ   up/IN   over/IN   575/CD   %/NN   in/IN   the/DT   last/JJ   one/CD   year/NN   of/IN   trading/NN   sessions/NNS   ./.)
+----------------------------------
+original sentence: 
+Wynn Resorts, Limited NASDAQ:WYNN advanced 0.53% to $77.26.
+
+POS tagged sentence: 
+[('Wynn', 'NNP'), ('Resorts', 'NNP'), (',', ','), ('Limited', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('WYNN', 'NNP'), ('advanced', 'VBD'), ('0.53', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('77.26', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wynn/NNP)   (ORGANIZATION Resorts/NNP)   ,/,   (PERSON Limited/NNP NASDAQ/NNP)   :/:   (ORGANIZATION WYNN/NNP)   advanced/VBD   0.53/CD   %/NN   to/TO   $/$   77.26/CD   ./.)
+----------------------------------
+original sentence: 
+The stock hit an intraday high and an intraday low of $77.94 and $76.11 respectively.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('hit', 'VBD'), ('an', 'DT'), ('intraday', 'NN'), ('high', 'NN'), ('and', 'CC'), ('an', 'DT'), ('intraday', 'NN'), ('low', 'JJ'), ('of', 'IN'), ('$', '$'), ('77.94', 'CD'), ('and', 'CC'), ('$', '$'), ('76.11', 'CD'), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   hit/VBD   an/DT   intraday/NN   high/NN   and/CC   an/DT   intraday/NN   low/JJ   of/IN   $/$   77.94/CD   and/CC   $/$   76.11/CD   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+In the last one year of trading sessions the stock went up over 261%.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('one', 'CD'), ('year', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('sessions', 'NNS'), ('the', 'DT'), ('stock', 'NN'), ('went', 'VBD'), ('up', 'IN'), ('over', 'IN'), ('261', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   last/JJ   one/CD   year/NN   of/IN   trading/NN   sessions/NNS   the/DT   stock/NN   went/VBD   up/IN   over/IN   261/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Melco Crown Entertainment Ltd NASDAQ:MPEL dropped 4.78% to $4.58 on 7.91 million shares.
+
+POS tagged sentence: 
+[('Melco', 'NNP'), ('Crown', 'NNP'), ('Entertainment', 'NNP'), ('Ltd', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MPEL', 'NNP'), ('dropped', 'VBD'), ('4.78', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('4.58', 'CD'), ('on', 'IN'), ('7.91', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Melco/NNP)   (PERSON Crown/NNP Entertainment/NNP Ltd/NNP)   NASDAQ/NNP   :/:   MPEL/NNP   dropped/VBD   4.78/CD   %/NN   to/TO   $/$   4.58/CD   on/IN   7.91/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+Melco Crown Entertainment Limited formerly Melco PBL Entertainment Macau Limited, is a developer, owner and, through its subsidiary Melco Crown Gaming, operator of casino gaming and entertainment resort facilities focused on the Macau market.
+
+POS tagged sentence: 
+[('Melco', 'NNP'), ('Crown', 'NNP'), ('Entertainment', 'NNP'), ('Limited', 'NNP'), ('formerly', 'RB'), ('Melco', 'NNP'), ('PBL', 'NNP'), ('Entertainment', 'NNP'), ('Macau', 'NNP'), ('Limited', 'NNP'), (',', ','), ('is', 'VBZ'), ('a', 'DT'), ('developer', 'NN'), (',', ','), ('owner', 'NN'), ('and', 'CC'), (',', ','), ('through', 'IN'), ('its', 'PRP$'), ('subsidiary', 'NN'), ('Melco', 'NNP'), ('Crown', 'NNP'), ('Gaming', 'NNP'), (',', ','), ('operator', 'NN'), ('of', 'IN'), ('casino', 'NN'), ('gaming', 'VBG'), ('and', 'CC'), ('entertainment', 'NN'), ('resort', 'NN'), ('facilities', 'NNS'), ('focused', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('Macau', 'NNP'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Melco/NNP)   (PERSON Crown/NNP Entertainment/NNP Limited/NNP)   formerly/RB   (PERSON Melco/NNP PBL/NNP Entertainment/NNP Macau/NNP Limited/NNP)   ,/,   is/VBZ   a/DT   developer/NN   ,/,   owner/NN   and/CC   ,/,   through/IN   its/PRP$   subsidiary/NN   (PERSON Melco/NNP Crown/NNP Gaming/NNP)   ,/,   operator/NN   of/IN   casino/NN   gaming/VBG   and/CC   entertainment/NN   resort/NN   facilities/NNS   focused/VBD   on/IN   the/DT   (GPE Macau/NNP)   market/NN   ./.)
+----------------------------------
+original sentence: 
+http://www.PennyStockPickAlert.com
+ Penny Stock Pick Alert provides  on various stocks of the day.
+
+POS tagged sentence: 
+[('http', 'NN'), (':', ':'), ('//www.PennyStockPickAlert.com', 'JJ'), ('Penny', 'NNP'), ('Stock', 'NNP'), ('Pick', 'NNP'), ('Alert', 'NNP'), ('provides', 'VBZ'), ('on', 'IN'), ('various', 'JJ'), ('stocks', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   http/NN   :/:   //www.PennyStockPickAlert.com/JJ   (PERSON Penny/NNP Stock/NNP Pick/NNP Alert/NNP)   provides/VBZ   on/IN   various/JJ   stocks/NNS   of/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+These alerts help investors in making the wise stock market investments.
+
+POS tagged sentence: 
+[('These', 'DT'), ('alerts', 'NNS'), ('help', 'VBP'), ('investors', 'NNS'), ('in', 'IN'), ('making', 'VBG'), ('the', 'DT'), ('wise', 'NN'), ('stock', 'NN'), ('market', 'NN'), ('investments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   alerts/NNS   help/VBP   investors/NNS   in/IN   making/VBG   the/DT   wise/NN   stock/NN   market/NN   investments/NNS   ./.)
+----------------------------------
+original sentence: 
+Till date thousands of our subscribers have made huge gains using our daily stock alerts.
+
+POS tagged sentence: 
+[('Till', 'NNP'), ('date', 'NN'), ('thousands', 'NNS'), ('of', 'IN'), ('our', 'PRP$'), ('subscribers', 'NNS'), ('have', 'VBP'), ('made', 'VBN'), ('huge', 'JJ'), ('gains', 'NNS'), ('using', 'VBG'), ('our', 'PRP$'), ('daily', 'JJ'), ('stock', 'NN'), ('alerts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Till/NNP)   date/NN   thousands/NNS   of/IN   our/PRP$   subscribers/NNS   have/VBP   made/VBN   huge/JJ   gains/NNS   using/VBG   our/PRP$   daily/JJ   stock/NN   alerts/NNS   ./.)
+----------------------------------
+original sentence: 
+We provide alerts on hot stocks, midcap &#038; smallcap penny stocks , most active stocks and much more.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('provide', 'VBP'), ('alerts', 'NNS'), ('on', 'IN'), ('hot', 'JJ'), ('stocks', 'NNS'), (',', ','), ('midcap', 'VB'), ('&', 'CC'), ('#', '#'), ('038', 'CD'), (';', ':'), ('smallcap', 'NN'), ('penny', 'NN'), ('stocks', 'NNS'), (',', ','), ('most', 'JJS'), ('active', 'JJ'), ('stocks', 'NNS'), ('and', 'CC'), ('much', 'RB'), ('more', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   provide/VBP   alerts/NNS   on/IN   hot/JJ   stocks/NNS   ,/,   midcap/VB   &/CC   #/#   038/CD   ;/:   smallcap/NN   penny/NN   stocks/NNS   ,/,   most/JJS   active/JJ   stocks/NNS   and/CC   much/RB   more/RBR   ./.)
+----------------------------------
+original sentence: 
+You can become leader in stock market by keeping track of the daily activity.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('become', 'VB'), ('leader', 'NN'), ('in', 'IN'), ('stock', 'NN'), ('market', 'NN'), ('by', 'IN'), ('keeping', 'NN'), ('track', 'NN'), ('of', 'IN'), ('the', 'DT'), ('daily', 'JJ'), ('activity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   become/VB   leader/NN   in/IN   stock/NN   market/NN   by/IN   keeping/NN   track/NN   of/IN   the/DT   daily/JJ   activity/NN   ./.)
+----------------------------------
+original sentence: 
+Press release service and press release distribution by EmailWire.Com &#8211; http://www.emailwire.com/press_release_distribution_lists.php
+PennyStockPickAlert.com
+info@pennystockpickalert.com
+Hello there!
+
+POS tagged sentence: 
+[('Press', 'NN'), ('release', 'NN'), ('service', 'NN'), ('and', 'CC'), ('press', 'NN'), ('release', 'NN'), ('distribution', 'NN'), ('by', 'IN'), ('EmailWire.Com', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('http', 'NN'), (':', ':'), ('//www.emailwire.com/press_release_distribution_lists.php', 'JJ'), ('PennyStockPickAlert.com', 'NN'), ('info', 'NN'), ('@', ':'), ('pennystockpickalert.com', 'JJ'), ('Hello', 'NNP'), ('there', 'RB'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Press/NN   release/NN   service/NN   and/CC   press/NN   release/NN   distribution/NN   by/IN   EmailWire.Com/NNP   &/CC   #/#   8211/CD   ;/:   http/NN   :/:   //www.emailwire.com/press_release_distribution_lists.php/JJ   PennyStockPickAlert.com/NN   info/NN   @/:   pennystockpickalert.com/JJ   Hello/NNP   there/RB   !/.)
+----------------------------------
+original sentence: 
+If you are new here, you might want to subscribe to the RSS feed
+ for updates on this topic.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('are', 'VBP'), ('new', 'JJ'), ('here', 'RB'), (',', ','), ('you', 'PRP'), ('might', 'MD'), ('want', 'VB'), ('to', 'TO'), ('subscribe', 'VB'), ('to', 'TO'), ('the', 'DT'), ('RSS', 'NNP'), ('feed', 'VBD'), ('for', 'IN'), ('updates', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('topic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   are/VBP   new/JJ   here/RB   ,/,   you/PRP   might/MD   want/VB   to/TO   subscribe/VB   to/TO   the/DT   (ORGANIZATION RSS/NNP)   feed/VBD   for/IN   updates/NNS   on/IN   this/DT   topic/JJ   ./.)
+----------------------------------
+original sentence: 
+Website Helps Small Businesses Connect with Customers, and Visitors Connect with Glacier National Park
+Biggest Oil & Gas Stocks Movers SWN, IOC, BEXP : by Penny Stock Pick Alert Click here to cancel reply.
+
+POS tagged sentence: 
+[('Website', 'NNP'), ('Helps', 'NNP'), ('Small', 'NNP'), ('Businesses', 'NNP'), ('Connect', 'NNP'), ('with', 'IN'), ('Customers', 'NNPS'), (',', ','), ('and', 'CC'), ('Visitors', 'NNP'), ('Connect', 'NNP'), ('with', 'IN'), ('Glacier', 'NNP'), ('National', 'NNP'), ('Park', 'NNP'), ('Biggest', 'NNP'), ('Oil', 'NNP'), ('&', 'CC'), ('Gas', 'NNP'), ('Stocks', 'NNP'), ('Movers', 'NNP'), ('SWN', 'NNP'), (',', ','), ('IOC', 'NNP'), (',', ','), ('BEXP', 'NNP'), (':', ':'), ('by', 'IN'), ('Penny', 'NNP'), ('Stock', 'NNP'), ('Pick', 'NNP'), ('Alert', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Website/NNP)   (PERSON Helps/NNP Small/NNP Businesses/NNP Connect/NNP)   with/IN   (ORGANIZATION Customers/NNPS)   ,/,   and/CC   (PERSON Visitors/NNP Connect/NNP)   with/IN   (PERSON Glacier/NNP National/NNP Park/NNP Biggest/NNP Oil/NNP)   &/CC   (PERSON Gas/NNP Stocks/NNP Movers/NNP SWN/NNP)   ,/,   (ORGANIZATION IOC/NNP)   ,/,   (ORGANIZATION BEXP/NNP)   :/:   by/IN   (PERSON Penny/NNP Stock/NNP Pick/NNP)   (PERSON Alert/NNP Click/NNP)   here/RB   to/TO   cancel/VB   reply/RB   ./.)
+----------------------------------
+original sentence: 
+Mail will not be published Required Notify me of followup comments via e mail
+Click to cancel reply
+Plugin by wpburn.com 
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('Required', 'NNP'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Click', 'NNP'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('Plugin', 'NNP'), ('by', 'IN'), ('wpburn.com', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   (PERSON Required/NNP Notify/NNP)   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   (PERSON Click/NNP)   to/TO   cancel/VB   reply/RB   Plugin/NNP   by/IN   wpburn.com/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

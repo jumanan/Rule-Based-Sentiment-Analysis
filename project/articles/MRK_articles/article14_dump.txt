@@ -1,0 +1,110 @@
+
+----------------------------------
+original sentence: 
+SmarTrend&#039;s Candlestick Scanner Detects Bearish Engulfing Pattern for Merck MRK | Benzinga.com
+SmarTrend&#039;s Candlestick Scanner Detects Bearish Engulfing Pattern for Merck MRK Posted on 04/06/10 at 7:30am by SmarTrend's candlestick pattern scanner has detected a bearish engulfing pattern for shares of Merck NYSE:  since the stock closed below $37.50.
+
+POS tagged sentence: 
+[('SmarTrend&', 'NN'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Candlestick', 'NNP'), ('Scanner', 'NNP'), ('Detects', 'NNP'), ('Bearish', 'NNP'), ('Engulfing', 'NNP'), ('Pattern', 'NNP'), ('for', 'IN'), ('Merck', 'NNP'), ('MRK', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('SmarTrend&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Candlestick', 'NNP'), ('Scanner', 'NNP'), ('Detects', 'NNP'), ('Bearish', 'NNP'), ('Engulfing', 'NNP'), ('Pattern', 'NNP'), ('for', 'IN'), ('Merck', 'NNP'), ('MRK', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/06/10', 'CD'), ('at', 'IN'), ('7', 'CD'), (':', ':'), ('30am', 'CD'), ('by', 'IN'), ('SmarTrend', 'NNP'), ("'s", 'POS'), ('candlestick', 'NN'), ('pattern', 'NN'), ('scanner', 'NN'), ('has', 'VBZ'), ('detected', 'VBN'), ('a', 'DT'), ('bearish', 'JJ'), ('engulfing', 'NN'), ('pattern', 'NN'), ('for', 'IN'), ('shares', 'NNS'), ('of', 'IN'), ('Merck', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('since', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('closed', 'VBD'), ('below', 'IN'), ('$', '$'), ('37.50', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SmarTrend&/NN   #/#   039/CD   ;/:   s/NNS   (PERSON     Candlestick/NNP     Scanner/NNP     Detects/NNP     Bearish/NNP     Engulfing/NNP     Pattern/NNP)   for/IN   (PERSON Merck/NNP MRK/NNP)   |/NNP   Benzinga.com/NNP   SmarTrend&/NNP   #/#   039/CD   ;/:   s/NNS   (PERSON     Candlestick/NNP     Scanner/NNP     Detects/NNP     Bearish/NNP     Engulfing/NNP     Pattern/NNP)   for/IN   (PERSON Merck/NNP MRK/NNP Posted/NNP)   on/IN   04/06/10/CD   at/IN   7/CD   :/:   30am/CD   by/IN   (ORGANIZATION SmarTrend/NNP)   's/POS   candlestick/NN   pattern/NN   scanner/NN   has/VBZ   detected/VBN   a/DT   bearish/JJ   engulfing/NN   pattern/NN   for/IN   shares/NNS   of/IN   (ORGANIZATION Merck/NNP)   NYSE/NNP   :/:   since/IN   the/DT   stock/NN   closed/VBD   below/IN   $/$   37.50/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   detected/VBN   a/DT   bearish/JJ   engulfing/NN   pattern/NN   for/IN   shares/NNS   of/IN   Merck/NNP   NYSE/NNP)
+	(VERB closed/VBD below/IN)
+noun phrases to consider:
+	(NOUN SmarTrend&/NN)
+	(NOUN s/NNS Candlestick/NNP Scanner/NNP Detects/NNP)
+	(NOUN Bearish/NNP Engulfing/NNP Pattern/NNP)
+	(NOUN Merck/NNP MRK/NNP |/NNP Benzinga.com/NNP)
+	(NOUN SmarTrend&/NNP)
+	(NOUN s/NNS Candlestick/NNP Scanner/NNP Detects/NNP)
+	(NOUN Bearish/NNP Engulfing/NNP Pattern/NNP)
+	(NOUN Merck/NNP MRK/NNP Posted/NNP)
+	(NOUN SmarTrend/NNP)
+	(NOUN candlestick/NN pattern/NN scanner/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Yesterday, this company traded 10,459,859 shares, versus the previous day's total volume of 10,091,832.
+
+POS tagged sentence: 
+[('Yesterday', 'NN'), (',', ','), ('this', 'DT'), ('company', 'NN'), ('traded', 'VBD'), ('10,459,859', 'CD'), ('shares', 'NNS'), (',', ','), ('versus', 'CC'), ('the', 'DT'), ('previous', 'JJ'), ('day', 'NN'), ("'s", 'POS'), ('total', 'NN'), ('volume', 'NN'), ('of', 'IN'), ('10,091,832', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Yesterday/NN   ,/,   this/DT   company/NN   traded/VBD   10,459,859/CD   shares/NNS   ,/,   versus/CC   the/DT   previous/JJ   day/NN   's/POS   total/NN   volume/NN   of/IN   10,091,832/CD   ./.)
+----------------------------------
+original sentence: 
+Heavy volume increases the reliability of this bearish candlestick pattern.
+
+POS tagged sentence: 
+[('Heavy', 'NNP'), ('volume', 'NN'), ('increases', 'NNS'), ('the', 'DT'), ('reliability', 'NN'), ('of', 'IN'), ('this', 'DT'), ('bearish', 'JJ'), ('candlestick', 'NN'), ('pattern', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Heavy/NNP)   volume/NN   increases/NNS   the/DT   reliability/NN   of/IN   this/DT   bearish/JJ   candlestick/NN   pattern/NN   ./.)
+----------------------------------
+original sentence: 
+SmarTrend issued an Uptrend alert on shares of Merck on March 18, 2010 at $38.17 per share 2% retracement since that call .
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('issued', 'VBD'), ('an', 'DT'), ('Uptrend', 'NNP'), ('alert', 'NN'), ('on', 'IN'), ('shares', 'NNS'), ('of', 'IN'), ('Merck', 'NNP'), ('on', 'IN'), ('March', 'NNP'), ('18', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('$', '$'), ('38.17', 'CD'), ('per', 'IN'), ('share', 'NN'), ('2', 'CD'), ('%', 'NN'), ('retracement', 'NN'), ('since', 'IN'), ('that', 'DT'), ('call', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   issued/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   shares/NNS   of/IN   (GPE Merck/NNP)   on/IN   March/NNP   18/CD   ,/,   2010/CD   at/IN   $/$   38.17/CD   per/IN   share/NN   2/CD   %/NN   retracement/NN   since/IN   that/DT   call/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   issued/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   shares/NNS   of/IN   Merck/NNP   on/IN   March/NNP   18/CD)
+
+tagged sentence:
+	 issued an Uptrend alert on shares of Merck on March 18	res:-1
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN share/NN)
+	(NOUN 2/CD %/NN retracement/NN)
+	(NOUN call/NN)
+
+----------------------------------
+original sentence: 
+This bearish candle pattern may point to a reversal of the previously called Uptrend.
+
+POS tagged sentence: 
+[('This', 'DT'), ('bearish', 'JJ'), ('candle', 'NN'), ('pattern', 'NN'), ('may', 'MD'), ('point', 'VB'), ('to', 'TO'), ('a', 'DT'), ('reversal', 'NN'), ('of', 'IN'), ('the', 'DT'), ('previously', 'RB'), ('called', 'VBN'), ('Uptrend', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   bearish/JJ   candle/NN   pattern/NN   may/MD   point/VB   to/TO   a/DT   reversal/NN   of/IN   the/DT   previously/RB   called/VBN   (PERSON Uptrend/NNP)   ./.)
+----------------------------------
+original sentence: 
+Write to Chip Brian at cbrian@tradethetrend.com
+ 
+SmarTrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Write', 'NNP'), ('to', 'TO'), ('Chip', 'NNP'), ('Brian', 'NNP'), ('at', 'IN'), ('cbrian', 'JJ'), ('@', 'NN'), ('tradethetrend.com', 'NN'), ('SmarTrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Write/NNP)   to/TO   (GPE Chip/NNP Brian/NNP)   at/IN   cbrian/JJ   @/NN   tradethetrend.com/NN   (ORGANIZATION SmarTrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.mysmartrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.mysmartrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.mysmartrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at: http://www.mysmartrend.com/signup
+Bookmark/Search this post with: You are not watching this post, click to start watching
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.mysmartrend.com/signup', 'JJ'), ('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('There', 'EX'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   :/:   http/NN   :/:   //www.mysmartrend.com/signup/JJ   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   There/EX   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

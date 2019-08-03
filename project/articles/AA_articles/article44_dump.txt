@@ -1,0 +1,465 @@
+
+----------------------------------
+original sentence: 
+U.S. Stock Index Futures Fall; Intel, Alcoa, Lime Energy Drop BusinessWeek
+Within the last week
+Within the last 2 weeks
+Within the last 30 days
+Within the last 60 days
+Within the last 90 days
+Within the last 180 days
+Within the last year
+Within the last two years
+Friday April 23, 2010
+U.S. Stock Index Futures Fall; Intel, Alcoa, Lime Energy Drop
+March 24, 2010, 8:36 AM EDT
+More From Businessweek
+ March 24 Bloomberg U.S. stock index futures fell on concern government deficits will hamper the global economic recovery as Fitch Ratings cut Portugal&rsquo;s credit rating and a UBS AG economist said Greece will default on its debt.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('Stock', 'NNP'), ('Index', 'NNP'), ('Futures', 'NNP'), ('Fall', 'NNP'), (';', ':'), ('Intel', 'NNP'), (',', ','), ('Alcoa', 'NNP'), (',', ','), ('Lime', 'NNP'), ('Energy', 'NNP'), ('Drop', 'NNP'), ('BusinessWeek', 'NNP'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('week', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('2', 'CD'), ('weeks', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('60', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('90', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('180', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('year', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('years', 'NNS'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('U.S.', 'NNP'), ('Stock', 'NNP'), ('Index', 'NNP'), ('Futures', 'NNP'), ('Fall', 'NNP'), (';', ':'), ('Intel', 'NNP'), (',', ','), ('Alcoa', 'NNP'), (',', ','), ('Lime', 'NNP'), ('Energy', 'NNP'), ('Drop', 'NNP'), ('March', 'NNP'), ('24', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('8', 'CD'), (':', ':'), ('36', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('More', 'NNP'), ('From', 'NNP'), ('Businessweek', 'NNP'), ('March', 'NNP'), ('24', 'CD'), ('Bloomberg', 'NNP'), ('U.S.', 'NNP'), ('stock', 'NN'), ('index', 'NN'), ('futures', 'NNS'), ('fell', 'VBD'), ('on', 'IN'), ('concern', 'NN'), ('government', 'NN'), ('deficits', 'NNS'), ('will', 'MD'), ('hamper', 'VB'), ('the', 'DT'), ('global', 'JJ'), ('economic', 'JJ'), ('recovery', 'NN'), ('as', 'IN'), ('Fitch', 'NNP'), ('Ratings', 'NNP'), ('cut', 'VBD'), ('Portugal&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('credit', 'NN'), ('rating', 'NN'), ('and', 'CC'), ('a', 'DT'), ('UBS', 'NNP'), ('AG', 'NNP'), ('economist', 'NN'), ('said', 'VBD'), ('Greece', 'NNP'), ('will', 'MD'), ('default', 'VB'), ('on', 'IN'), ('its', 'PRP$'), ('debt', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   Stock/NNP   Index/NNP   (PERSON Futures/NNP Fall/NNP)   ;/:   (ORGANIZATION Intel/NNP)   ,/,   (PERSON Alcoa/NNP)   ,/,   (PERSON Lime/NNP Energy/NNP Drop/NNP)   BusinessWeek/NNP   Within/NNP   the/DT   last/JJ   week/NN   Within/IN   the/DT   last/JJ   2/CD   weeks/NNS   Within/NNP   the/DT   last/JJ   30/CD   days/NNS   Within/NNP   the/DT   last/JJ   60/CD   days/NNS   Within/NNP   the/DT   last/JJ   90/CD   days/NNS   Within/NNP   the/DT   last/JJ   180/CD   days/NNS   Within/NNP   the/DT   last/JJ   year/NN   Within/IN   the/DT   last/JJ   two/CD   years/NNS   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   (GPE U.S./NNP)   Stock/NNP   Index/NNP   (PERSON Futures/NNP Fall/NNP)   ;/:   (ORGANIZATION Intel/NNP)   ,/,   (PERSON Alcoa/NNP)   ,/,   (PERSON Lime/NNP Energy/NNP Drop/NNP)   March/NNP   24/CD   ,/,   2010/CD   ,/,   8/CD   :/:   36/CD   AM/NNP   EDT/NNP   More/NNP   From/NNP   Businessweek/NNP   March/NNP   24/CD   (ORGANIZATION Bloomberg/NNP U.S./NNP)   stock/NN   index/NN   futures/NNS   fell/VBD   on/IN   concern/NN   government/NN   deficits/NNS   will/MD   hamper/VB   the/DT   global/JJ   economic/JJ   recovery/NN   as/IN   (PERSON Fitch/NNP Ratings/NNP)   cut/VBD   (GPE Portugal&rsquo/NNP)   ;/:   s/NNS   credit/NN   rating/NN   and/CC   a/DT   (ORGANIZATION UBS/NNP)   AG/NNP   economist/NN   said/VBD   (GPE Greece/NNP)   will/MD   default/VB   on/IN   its/PRP$   debt/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fell/VBD on/IN concern/NN government/NN deficits/NNS)
+	(VERB   hamper/VB   the/DT   global/JJ   economic/JJ   recovery/NN   as/IN   Fitch/NNP   Ratings/NNP)
+	(VERB cut/VBD Portugal&rsquo/NNP)
+	(VERB said/VBD Greece/NNP)
+	(VERB default/VB on/IN its/PRP$ debt/NN)
+noun phrases to consider:
+	(NOUN U.S./NNP Stock/NNP Index/NNP Futures/NNP)
+	(NOUN Fall/NNP)
+	(NOUN Intel/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Lime/NNP Energy/NNP Drop/NNP BusinessWeek/NNP)
+	(NOUN Within/NNP)
+	(NOUN the/DT last/JJ week/NN)
+	(NOUN the/DT last/JJ 2/CD weeks/NNS Within/NNP)
+	(NOUN the/DT last/JJ 30/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 60/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 90/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 180/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ year/NN)
+	(NOUN the/DT last/JJ two/CD years/NNS Friday/NNP April/NNP)
+	(NOUN 2010/CD U.S./NNP Stock/NNP Index/NNP Futures/NNP)
+	(NOUN Fall/NNP)
+	(NOUN Intel/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Lime/NNP Energy/NNP Drop/NNP March/NNP)
+	(NOUN 36/CD AM/NNP EDT/NNP More/NNP From/NNP)
+	(NOUN Businessweek/NNP March/NNP)
+	(NOUN 24/CD Bloomberg/NNP U.S./NNP stock/NN index/NN)
+	(NOUN futures/NNS)
+	(NOUN s/NNS credit/NN rating/NN)
+	(NOUN UBS/NNP AG/NNP economist/NN)
+
+----------------------------------
+original sentence: 
+Intel Corp., the world&rsquo;s largest semiconductor maker, and Alcoa Inc., the biggest U.S. aluminum producer, slipped in early New York trading.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('the', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('semiconductor', 'NN'), ('maker', 'NN'), (',', ','), ('and', 'CC'), ('Alcoa', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('the', 'DT'), ('biggest', 'JJS'), ('U.S.', 'NNP'), ('aluminum', 'NN'), ('producer', 'NN'), (',', ','), ('slipped', 'VBD'), ('in', 'IN'), ('early', 'JJ'), ('New', 'NNP'), ('York', 'NNP'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corp./NNP)   ,/,   the/DT   world&rsquo/NNP   ;/:   s/NNS   largest/JJS   semiconductor/NN   maker/NN   ,/,   and/CC   (PERSON Alcoa/NNP Inc./NNP)   ,/,   the/DT   biggest/JJS   (GPE U.S./NNP)   aluminum/NN   producer/NN   ,/,   slipped/VBD   in/IN   early/JJ   (GPE New/NNP York/NNP)   trading/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB slipped/VBD in/IN early/JJ New/NNP York/NNP trading/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP Corp./NNP)
+	(NOUN world&rsquo/NNP)
+	(NOUN s/NNS largest/JJS semiconductor/NN maker/NN)
+	(NOUN Alcoa/NNP Inc./NNP)
+	(NOUN the/DT biggest/JJS U.S./NNP aluminum/NN producer/NN)
+
+----------------------------------
+original sentence: 
+Adobe Systems Inc. climbed 5.5 percent after forecasting second quarter sales that beat analysts&rsquo; estimates.
+
+POS tagged sentence: 
+[('Adobe', 'NNP'), ('Systems', 'NNP'), ('Inc.', 'NNP'), ('climbed', 'VBD'), ('5.5', 'CD'), ('percent', 'NN'), ('after', 'IN'), ('forecasting', 'VBG'), ('second', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('that', 'WDT'), ('beat', 'NN'), ('analysts&rsquo', '-NONE-'), (';', ':'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Adobe/NNP)   (ORGANIZATION Systems/NNP Inc./NNP)   climbed/VBD   5.5/CD   percent/NN   after/IN   forecasting/VBG   second/JJ   quarter/NN   sales/NNS   that/WDT   beat/NN   analysts&rsquo/-NONE-   ;/:   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+ConocoPhillips gained on plans to buy back as much as $5 billion of shares and boost its dividend.
+
+POS tagged sentence: 
+[('ConocoPhillips', 'NNS'), ('gained', 'VBD'), ('on', 'IN'), ('plans', 'NNS'), ('to', 'TO'), ('buy', 'VB'), ('back', 'RP'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('$', '$'), ('5', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('shares', 'NNS'), ('and', 'CC'), ('boost', 'VB'), ('its', 'PRP$'), ('dividend', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ConocoPhillips/NNS   gained/VBD   on/IN   plans/NNS   to/TO   buy/VB   back/RP   as/IN   much/JJ   as/IN   $/$   5/CD   billion/CD   of/IN   shares/NNS   and/CC   boost/VB   its/PRP$   dividend/NN   ./.)
+----------------------------------
+original sentence: 
+S&P 500 futures expiring in June dropped 0.4 percent to 1,165.4 as of 8:32 a.m. in New York.
+
+POS tagged sentence: 
+[('S&P', 'NNP'), ('500', 'CD'), ('futures', 'NNS'), ('expiring', 'VBG'), ('in', 'IN'), ('June', 'NNP'), ('dropped', 'VBD'), ('0.4', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('1,165.4', 'CD'), ('as', 'IN'), ('of', 'IN'), ('8', 'CD'), (':', ':'), ('32', 'CD'), ('a.m.', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   S&P/NNP   500/CD   futures/NNS   expiring/VBG   in/IN   June/NNP   dropped/VBD   0.4/CD   percent/NN   to/TO   1,165.4/CD   as/IN   of/IN   8/CD   :/:   32/CD   a.m./NNP   in/IN   (GPE New/NNP York/NNP)   ./.)
+----------------------------------
+original sentence: 
+Dow Jones Industrial Average futures lost 0.3 percent to 10,797 and Nasdaq 100 Index futures decreased 0.3 percent to 1,956.5.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('futures', 'NNS'), ('lost', 'VBD'), ('0.3', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('10,797', 'CD'), ('and', 'CC'), ('Nasdaq', 'NNP'), ('100', 'CD'), ('Index', 'NNP'), ('futures', 'NNS'), ('decreased', 'VBD'), ('0.3', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('1,956.5', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Jones/NNP Industrial/NNP Average/NNP)   futures/NNS   lost/VBD   0.3/CD   percent/NN   to/TO   10,797/CD   and/CC   (ORGANIZATION Nasdaq/NNP)   100/CD   Index/NNP   futures/NNS   decreased/VBD   0.3/CD   percent/NN   to/TO   1,956.5/CD   ./.)
+----------------------------------
+original sentence: 
+&ldquo;The market may not be braced for the level of problems we are facing,&rdquo; said David Macia, U.S. fund manager at Credit Andorra&rsquo;s Credi Invest unit in Andorra La Vella, Andorra.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('market', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('braced', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('level', 'NN'), ('of', 'IN'), ('problems', 'NNS'), ('we', 'PRP'), ('are', 'VBP'), ('facing,&rdquo', '-NONE-'), (';', ':'), ('said', 'VBD'), ('David', 'NNP'), ('Macia', 'NNP'), (',', ','), ('U.S.', 'NNP'), ('fund', 'NN'), ('manager', 'NN'), ('at', 'IN'), ('Credit', 'NNP'), ('Andorra&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Credi', 'NNP'), ('Invest', 'NNP'), ('unit', 'NN'), ('in', 'IN'), ('Andorra', 'NNP'), ('La', 'NNP'), ('Vella', 'NNP'), (',', ','), ('Andorra', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   market/NN   may/MD   not/RB   be/VB   braced/VBN   for/IN   the/DT   level/NN   of/IN   problems/NNS   we/PRP   are/VBP   facing,&rdquo/-NONE-   ;/:   said/VBD   (PERSON David/NNP Macia/NNP)   ,/,   (GPE U.S./NNP)   fund/NN   manager/NN   at/IN   (ORGANIZATION Credit/NNP)   Andorra&rsquo/NNP   ;/:   s/NNS   (PERSON Credi/NNP Invest/NNP)   unit/NN   in/IN   (GPE Andorra/NNP)   La/NNP   Vella/NNP   ,/,   (PERSON Andorra/NNP)   ./.)
+----------------------------------
+original sentence: 
+His firm oversees $5.7 billion.
+
+POS tagged sentence: 
+[('His', 'PRP$'), ('firm', 'NN'), ('oversees', 'NNS'), ('$', '$'), ('5.7', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S His/PRP$ firm/NN oversees/NNS $/$ 5.7/CD billion/CD ./.)
+----------------------------------
+original sentence: 
+&ldquo;Something that should not have a big impact, such as a downgrade of Portugal, will rattle the market.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Something', 'NNP'), ('that', 'IN'), ('should', 'MD'), ('not', 'RB'), ('have', 'VB'), ('a', 'DT'), ('big', 'JJ'), ('impact', 'NN'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('a', 'DT'), ('downgrade', 'NN'), ('of', 'IN'), ('Portugal', 'NNP'), (',', ','), ('will', 'MD'), ('rattle', 'VB'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Something/NNP   that/IN   should/MD   not/RB   have/VB   a/DT   big/JJ   impact/NN   ,/,   such/JJ   as/IN   a/DT   downgrade/NN   of/IN   (GPE Portugal/NNP)   ,/,   will/MD   rattle/VB   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+The problem of fiscal shortfalls will go on for some time.
+
+POS tagged sentence: 
+[('The', 'DT'), ('problem', 'NN'), ('of', 'IN'), ('fiscal', 'JJ'), ('shortfalls', 'NNS'), ('will', 'MD'), ('go', 'VB'), ('on', 'IN'), ('for', 'IN'), ('some', 'DT'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   problem/NN   of/IN   fiscal/JJ   shortfalls/NNS   will/MD   go/VB   on/IN   for/IN   some/DT   time/NN   ./.)
+----------------------------------
+original sentence: 
+We view the current macro state in Europe with a high level of caution.&rdquo;
+ Fitch Ratings downgraded Portugal&rsquo;s long term foreign and local currency issuer default ratings to &ldquo;AA &rdquo; from &ldquo;AA,&rdquo; citing the nation&rsquo;s deteriorating public finances.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('view', 'VBP'), ('the', 'DT'), ('current', 'JJ'), ('macro', 'NN'), ('state', 'NN'), ('in', 'IN'), ('Europe', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('high', 'JJ'), ('level', 'NN'), ('of', 'IN'), ('caution.&rdquo', 'NNP'), (';', ':'), ('Fitch', 'NNP'), ('Ratings', 'NNP'), ('downgraded', 'VBD'), ('Portugal&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('long', 'RB'), ('term', 'JJ'), ('foreign', 'JJ'), ('and', 'CC'), ('local', 'JJ'), ('currency', 'NN'), ('issuer', 'NN'), ('default', 'NN'), ('ratings', 'NNS'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('AA', 'NNP'), ('&rdquo', 'NNP'), (';', ':'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('AA,&rdquo', 'NNP'), (';', ':'), ('citing', 'VBG'), ('the', 'DT'), ('nation&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('deteriorating', 'VBG'), ('public', 'JJ'), ('finances', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   view/VBP   the/DT   current/JJ   macro/NN   state/NN   in/IN   (GPE Europe/NNP)   with/IN   a/DT   high/JJ   level/NN   of/IN   caution.&rdquo/NNP   ;/:   (PERSON Fitch/NNP Ratings/NNP)   downgraded/VBD   (GPE Portugal&rsquo/NNP)   ;/:   s/NNS   long/RB   term/JJ   foreign/JJ   and/CC   local/JJ   currency/NN   issuer/NN   default/NN   ratings/NNS   to/TO   (GPE &ldquo/NNP)   ;/:   (ORGANIZATION AA/NNP)   &rdquo/NNP   ;/:   from/IN   (GPE &ldquo/NNP)   ;/:   AA,&rdquo/NNP   ;/:   citing/VBG   the/DT   nation&rsquo/NNP   ;/:   s/NNS   deteriorating/VBG   public/JJ   finances/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   view/VBP   the/DT   current/JJ   macro/NN   state/NN   in/IN   Europe/NNP   with/IN   a/DT   high/JJ   level/NN   of/IN   caution.&rdquo/NNP)
+	(VERB downgraded/VBD Portugal&rsquo/NNP)
+	(VERB citing/VBG the/DT nation&rsquo/NNP)
+	(VERB deteriorating/VBG public/JJ finances/NNS)
+
+tagged sentence:
+	 deteriorating public finances	res:-1
+noun phrases to consider:
+	(NOUN Fitch/NNP Ratings/NNP)
+	(NOUN s/NNS)
+	(NOUN long/RB term/JJ foreign/JJ)
+	(NOUN local/JJ currency/NN issuer/NN default/NN ratings/NNS)
+	(NOUN &ldquo/NNP)
+	(NOUN AA/NNP &rdquo/NNP)
+	(NOUN &ldquo/NNP)
+	(NOUN AA,&rdquo/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+The outlook remains &ldquo;negative,&rdquo; Fitch said, meaning its more likely to cut the grade further than raise it or keep it unchanged.
+
+POS tagged sentence: 
+[('The', 'DT'), ('outlook', 'NN'), ('remains', 'VBZ'), ('&ldquo', 'JJ'), (';', ':'), ('negative,&rdquo', 'JJ'), (';', ':'), ('Fitch', 'NNP'), ('said', 'VBD'), (',', ','), ('meaning', 'NN'), ('its', 'PRP$'), ('more', 'JJR'), ('likely', 'JJ'), ('to', 'TO'), ('cut', 'VB'), ('the', 'DT'), ('grade', 'NN'), ('further', 'RB'), ('than', 'IN'), ('raise', 'NN'), ('it', 'PRP'), ('or', 'CC'), ('keep', 'VB'), ('it', 'PRP'), ('unchanged', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   outlook/NN   remains/VBZ   &ldquo/JJ   ;/:   negative,&rdquo/JJ   ;/:   (PERSON Fitch/NNP)   said/VBD   ,/,   meaning/NN   its/PRP$   more/JJR   likely/JJ   to/TO   cut/VB   the/DT   grade/NN   further/RB   than/IN   raise/NN   it/PRP   or/CC   keep/VB   it/PRP   unchanged/JJ   ./.)
+----------------------------------
+original sentence: 
+Default
+ Separately, Paul Donovan, UBS Investment Bank&rsquo;s deputy head of global economics, said Greece &ldquo;is going to default at some point,&rdquo; and Europe&rsquo;s failure to answer that challenge will hurt its common currency.
+
+POS tagged sentence: 
+[('Default', 'NNP'), ('Separately', 'NNP'), (',', ','), ('Paul', 'NNP'), ('Donovan', 'NNP'), (',', ','), ('UBS', 'NNP'), ('Investment', 'NNP'), ('Bank&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('deputy', 'NN'), ('head', 'NN'), ('of', 'IN'), ('global', 'JJ'), ('economics', 'NNS'), (',', ','), ('said', 'VBD'), ('Greece', 'NNP'), ('&ldquo', 'NNP'), (';', ':'), ('is', 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('default', 'VB'), ('at', 'IN'), ('some', 'DT'), ('point,&rdquo', 'JJ'), (';', ':'), ('and', 'CC'), ('Europe&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('failure', 'VBP'), ('to', 'TO'), ('answer', 'VB'), ('that', 'IN'), ('challenge', 'NN'), ('will', 'MD'), ('hurt', 'VB'), ('its', 'PRP$'), ('common', 'JJ'), ('currency', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Default/NNP)   (ORGANIZATION Separately/NNP)   ,/,   (PERSON Paul/NNP Donovan/NNP)   ,/,   (ORGANIZATION UBS/NNP Investment/NNP)   Bank&rsquo/NNP   ;/:   s/NNS   deputy/NN   head/NN   of/IN   global/JJ   economics/NNS   ,/,   said/VBD   (PERSON Greece/NNP &ldquo/NNP)   ;/:   is/VBZ   going/VBG   to/TO   default/VB   at/IN   some/DT   point,&rdquo/JJ   ;/:   and/CC   (GPE Europe&rsquo/NNP)   ;/:   s/NNS   failure/VBP   to/TO   answer/VB   that/IN   challenge/NN   will/MD   hurt/VB   its/PRP$   common/JJ   currency/NN   ./.)
+----------------------------------
+original sentence: 
+U.S. stocks advanced yesterday as signs of growing demand for steel and semiconductors boosted confidence the economic recovery is strengthening.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('stocks', 'NNS'), ('advanced', 'VBD'), ('yesterday', 'NN'), ('as', 'IN'), ('signs', 'NNS'), ('of', 'IN'), ('growing', 'VBG'), ('demand', 'NN'), ('for', 'IN'), ('steel', 'NN'), ('and', 'CC'), ('semiconductors', 'NNS'), ('boosted', 'VBD'), ('confidence', 'NN'), ('the', 'DT'), ('economic', 'JJ'), ('recovery', 'NN'), ('is', 'VBZ'), ('strengthening', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   stocks/NNS   advanced/VBD   yesterday/NN   as/IN   signs/NNS   of/IN   growing/VBG   demand/NN   for/IN   steel/NN   and/CC   semiconductors/NNS   boosted/VBD   confidence/NN   the/DT   economic/JJ   recovery/NN   is/VBZ   strengthening/VBG   ./.)
+----------------------------------
+original sentence: 
+The S&P 500 has rallied 74 percent from a 12 year low in March 2009 as the economy returned to growth and a record long slump in earnings ended.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('has', 'VBZ'), ('rallied', 'VBN'), ('74', 'CD'), ('percent', 'NN'), ('from', 'IN'), ('a', 'DT'), ('12', 'CD'), ('year', 'NN'), ('low', 'JJ'), ('in', 'IN'), ('March', 'NNP'), ('2009', 'CD'), ('as', 'IN'), ('the', 'DT'), ('economy', 'NN'), ('returned', 'VBD'), ('to', 'TO'), ('growth', 'NN'), ('and', 'CC'), ('a', 'DT'), ('record', 'NN'), ('long', 'RB'), ('slump', 'VB'), ('in', 'IN'), ('earnings', 'NNS'), ('ended', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   500/CD   has/VBZ   rallied/VBN   74/CD   percent/NN   from/IN   a/DT   12/CD   year/NN   low/JJ   in/IN   March/NNP   2009/CD   as/IN   the/DT   economy/NN   returned/VBD   to/TO   growth/NN   and/CC   a/DT   record/NN   long/RB   slump/VB   in/IN   earnings/NNS   ended/VBD   ./.)
+----------------------------------
+original sentence: 
+The aggregate profit for companies in the S&P 500 increased in the fourth quarter from the year earlier period for the first time since the second quarter of 2007.
+
+POS tagged sentence: 
+[('The', 'DT'), ('aggregate', 'NN'), ('profit', 'NN'), ('for', 'IN'), ('companies', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('increased', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('from', 'IN'), ('the', 'DT'), ('year', 'NN'), ('earlier', 'JJR'), ('period', 'NN'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('time', 'NN'), ('since', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2007', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   aggregate/NN   profit/NN   for/IN   companies/NNS   in/IN   the/DT   S&P/NNP   500/CD   increased/VBD   in/IN   the/DT   fourth/JJ   quarter/NN   from/IN   the/DT   year/NN   earlier/JJR   period/NN   for/IN   the/DT   first/JJ   time/NN   since/IN   the/DT   second/JJ   quarter/NN   of/IN   2007/CD   ./.)
+----------------------------------
+original sentence: 
+Analysts estimate first quarter earnings will grow 30 percent, according to a Bloomberg survey.
+
+POS tagged sentence: 
+[('Analysts', 'NNS'), ('estimate', 'VBP'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('will', 'MD'), ('grow', 'VB'), ('30', 'CD'), ('percent', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('Bloomberg', 'NNP'), ('survey', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Analysts/NNS   estimate/VBP   first/JJ   quarter/NN   earnings/NNS   will/MD   grow/VB   30/CD   percent/NN   ,/,   according/VBG   to/TO   a/DT   (ORGANIZATION Bloomberg/NNP)   survey/NN   ./.)
+----------------------------------
+original sentence: 
+Intel slipped 0.2 percent to $22.62.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('slipped', 'VBD'), ('0.2', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('22.62', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   slipped/VBD   0.2/CD   percent/NN   to/TO   $/$   22.62/CD   ./.)
+----------------------------------
+original sentence: 
+Alcoa lost 0.5 percent to $14.43 in early New York trading.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('lost', 'VBD'), ('0.5', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('14.43', 'CD'), ('in', 'IN'), ('early', 'JJ'), ('New', 'NNP'), ('York', 'NNP'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   lost/VBD   0.5/CD   percent/NN   to/TO   $/$   14.43/CD   in/IN   early/JJ   (GPE New/NNP York/NNP)   trading/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lost/VBD 0.5/CD percent/NN)
+
+tagged sentence:
+	 lost 0.5 percent	res:-1
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN early/JJ New/NNP York/NNP trading/NN)
+
+----------------------------------
+original sentence: 
+&lsquo;Taking a Breather&rsquo;
+ &ldquo;We&rsquo;re taking a breather,&rdquo; said Clemence Bounaix, who helps oversee about $4.5 billion at KBL Richelieu Gestion in Paris.
+
+POS tagged sentence: 
+[('&lsquo', 'NN'), (';', ':'), ('Taking', 'NNP'), ('a', 'DT'), ('Breather&rsquo', 'NNP'), (';', ':'), ('&ldquo', 'NNP'), (';', ':'), ('We&rsquo', 'NNP'), (';', ':'), ('re', 'NN'), ('taking', 'VBG'), ('a', 'DT'), ('breather,&rdquo', 'JJ'), (';', ':'), ('said', 'VBD'), ('Clemence', 'NNP'), ('Bounaix', 'NNP'), (',', ','), ('who', 'WP'), ('helps', 'NNS'), ('oversee', 'VBP'), ('about', 'IN'), ('$', '$'), ('4.5', 'CD'), ('billion', 'CD'), ('at', 'IN'), ('KBL', 'NNP'), ('Richelieu', 'NNP'), ('Gestion', 'NNP'), ('in', 'IN'), ('Paris', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &lsquo/NN)   ;/:   Taking/NNP   a/DT   Breather&rsquo/NNP   ;/:   &ldquo/NNP   ;/:   We&rsquo/NNP   ;/:   re/NN   taking/VBG   a/DT   breather,&rdquo/JJ   ;/:   said/VBD   (PERSON Clemence/NNP Bounaix/NNP)   ,/,   who/WP   helps/NNS   oversee/VBP   about/IN   $/$   4.5/CD   billion/CD   at/IN   (ORGANIZATION KBL/NNP Richelieu/NNP Gestion/NNP)   in/IN   (GPE Paris/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Earnings didn&rsquo;t offer a lot of guidance.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Earnings', 'NNS'), ('didn&rsquo', '-NONE-'), (';', ':'), ('t', 'NN'), ('offer', 'NN'), ('a', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('guidance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Earnings/NNS   didn&rsquo/-NONE-   ;/:   t/NN   offer/NN   a/DT   lot/NN   of/IN   guidance/NN   ./.)
+----------------------------------
+original sentence: 
+Economic statistics haven&rsquo;t been that great.
+
+POS tagged sentence: 
+[('Economic', 'JJ'), ('statistics', 'NNS'), ('haven&rsquo', '-NONE-'), (';', ':'), ('t', 'NN'), ('been', 'VBN'), ('that', 'IN'), ('great', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Economic/JJ)   statistics/NNS   haven&rsquo/-NONE-   ;/:   t/NN   been/VBN   that/IN   great/JJ   ./.)
+----------------------------------
+original sentence: 
+We remain cautious.&rdquo;
+ Lime Energy Co. sank 17 percent to $4.29.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('remain', 'VBP'), ('cautious.&rdquo', '-NONE-'), (';', ':'), ('Lime', 'NNP'), ('Energy', 'NNP'), ('Co.', 'NNP'), ('sank', 'VBD'), ('17', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('4.29', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   remain/VBP   cautious.&rdquo/-NONE-   ;/:   (PERSON Lime/NNP Energy/NNP)   Co./NNP   sank/VBD   17/CD   percent/NN   to/TO   $/$   4.29/CD   ./.)
+----------------------------------
+original sentence: 
+The provider of energy efficiency engineering posted a fourth quarter loss excluding some items of 17 cents a share, wider than the 7 cent estimate from analysts in a Bloomberg survey.
+
+POS tagged sentence: 
+[('The', 'DT'), ('provider', 'NN'), ('of', 'IN'), ('energy', 'NN'), ('efficiency', 'NN'), ('engineering', 'NN'), ('posted', 'VBD'), ('a', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('loss', 'NN'), ('excluding', 'VBG'), ('some', 'DT'), ('items', 'NNS'), ('of', 'IN'), ('17', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('wider', 'NN'), ('than', 'IN'), ('the', 'DT'), ('7', 'CD'), ('cent', 'NN'), ('estimate', 'NN'), ('from', 'IN'), ('analysts', 'NNS'), ('in', 'IN'), ('a', 'DT'), ('Bloomberg', 'NNP'), ('survey', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   provider/NN   of/IN   energy/NN   efficiency/NN   engineering/NN   posted/VBD   a/DT   fourth/JJ   quarter/NN   loss/NN   excluding/VBG   some/DT   items/NNS   of/IN   17/CD   cents/NNS   a/DT   share/NN   ,/,   wider/NN   than/IN   the/DT   7/CD   cent/NN   estimate/NN   from/IN   analysts/NNS   in/IN   a/DT   (ORGANIZATION Bloomberg/NNP)   survey/NN   ./.)
+----------------------------------
+original sentence: 
+Adobe Systems jumped 5.5 percent to $37.15 in New York.
+
+POS tagged sentence: 
+[('Adobe', 'NNP'), ('Systems', 'NNP'), ('jumped', 'VBD'), ('5.5', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('37.15', 'CD'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Adobe/NNP)   (PERSON Systems/NNP)   jumped/VBD   5.5/CD   percent/NN   to/TO   $/$   37.15/CD   in/IN   (GPE New/NNP York/NNP)   ./.)
+----------------------------------
+original sentence: 
+The world&rsquo;s biggest maker of graphic design programs forecast second quarter sales that beat analysts&rsquo; estimates, a sign the company is poised to release an upgrade of its most profitable software.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('biggest', 'VBP'), ('maker', 'NN'), ('of', 'IN'), ('graphic', 'JJ'), ('design', 'NN'), ('programs', 'NNS'), ('forecast', 'VBP'), ('second', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('that', 'WDT'), ('beat', 'NN'), ('analysts&rsquo', '-NONE-'), (';', ':'), ('estimates', 'NNS'), (',', ','), ('a', 'DT'), ('sign', 'NN'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('poised', 'VBN'), ('to', 'TO'), ('release', 'VB'), ('an', 'DT'), ('upgrade', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('most', 'RBS'), ('profitable', 'JJ'), ('software', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world&rsquo/NNP   ;/:   s/NNS   biggest/VBP   maker/NN   of/IN   graphic/JJ   design/NN   programs/NNS   forecast/VBP   second/JJ   quarter/NN   sales/NNS   that/WDT   beat/NN   analysts&rsquo/-NONE-   ;/:   estimates/NNS   ,/,   a/DT   sign/NN   the/DT   company/NN   is/VBZ   poised/VBN   to/TO   release/VB   an/DT   upgrade/NN   of/IN   its/PRP$   most/RBS   profitable/JJ   software/NN   ./.)
+----------------------------------
+original sentence: 
+USEC Inc. gained 4.9 percent to $5.62.
+
+POS tagged sentence: 
+[('USEC', 'NNP'), ('Inc.', 'NNP'), ('gained', 'VBD'), ('4.9', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('5.62', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION USEC/NNP Inc./NNP)   gained/VBD   4.9/CD   percent/NN   to/TO   $/$   5.62/CD   ./.)
+----------------------------------
+original sentence: 
+The largest supplier of enriched uranium to U.S. nuclear reactors said it will receive $45 million in funding from the Department of Energy for centrifuge technology.
+
+POS tagged sentence: 
+[('The', 'DT'), ('largest', 'JJS'), ('supplier', 'NN'), ('of', 'IN'), ('enriched', 'JJ'), ('uranium', 'NN'), ('to', 'TO'), ('U.S.', 'NNP'), ('nuclear', 'NN'), ('reactors', 'NNS'), ('said', 'VBD'), ('it', 'PRP'), ('will', 'MD'), ('receive', 'VB'), ('$', '$'), ('45', 'CD'), ('million', 'CD'), ('in', 'IN'), ('funding', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Department', 'NNP'), ('of', 'IN'), ('Energy', 'NNP'), ('for', 'IN'), ('centrifuge', 'NN'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   largest/JJS   supplier/NN   of/IN   enriched/JJ   uranium/NN   to/TO   (GPE U.S./NNP)   nuclear/NN   reactors/NNS   said/VBD   it/PRP   will/MD   receive/VB   $/$   45/CD   million/CD   in/IN   funding/NN   from/IN   the/DT   (ORGANIZATION Department/NNP)   of/IN   (GPE Energy/NNP)   for/IN   centrifuge/NN   technology/NN   ./.)
+----------------------------------
+original sentence: 
+MF Global Holdings Ltd. rallied 15 percent to $8.39.
+
+POS tagged sentence: 
+[('MF', 'NNP'), ('Global', 'NNP'), ('Holdings', 'NNP'), ('Ltd.', 'NNP'), ('rallied', 'VBD'), ('15', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('8.39', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MF/NNP   Global/NNP   Holdings/NNP   Ltd./NNP   rallied/VBD   15/CD   percent/NN   to/TO   $/$   8.39/CD   ./.)
+----------------------------------
+original sentence: 
+Former New Jersey Governor Jon Corzine, who ran Goldman Sachs Group Inc. from 1994 to 1999, has accepted an offer to lead the futures and options broker.
+
+POS tagged sentence: 
+[('Former', 'JJ'), ('New', 'NNP'), ('Jersey', 'NNP'), ('Governor', 'NNP'), ('Jon', 'NNP'), ('Corzine', 'NNP'), (',', ','), ('who', 'WP'), ('ran', 'VBD'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('from', 'IN'), ('1994', 'CD'), ('to', 'TO'), ('1999', 'CD'), (',', ','), ('has', 'VBZ'), ('accepted', 'VBN'), ('an', 'DT'), ('offer', 'NN'), ('to', 'TO'), ('lead', 'VB'), ('the', 'DT'), ('futures', 'NNS'), ('and', 'CC'), ('options', 'NNS'), ('broker', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Former/JJ   (GPE New/NNP)   (PERSON Jersey/NNP Governor/NNP Jon/NNP Corzine/NNP)   ,/,   who/WP   ran/VBD   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)   from/IN   1994/CD   to/TO   1999/CD   ,/,   has/VBZ   accepted/VBN   an/DT   offer/NN   to/TO   lead/VB   the/DT   futures/NNS   and/CC   options/NNS   broker/NN   ./.)
+----------------------------------
+original sentence: 
+With assistance from Alexis Xydias in London.
+
+POS tagged sentence: 
+[('With', 'IN'), ('assistance', 'NN'), ('from', 'IN'), ('Alexis', 'NNP'), ('Xydias', 'NNP'), ('in', 'IN'), ('London', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   assistance/NN   from/IN   (PERSON Alexis/NNP Xydias/NNP)   in/IN   (GPE London/NNP)   ./.)
+----------------------------------
+original sentence: 
+Editor: Roger Neill, Michael P. Regan.
+
+POS tagged sentence: 
+[('Editor', 'NNP'), (':', ':'), ('Roger', 'NNP'), ('Neill', 'NNP'), (',', ','), ('Michael', 'NNP'), ('P.', 'NNP'), ('Regan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Editor/NNP)   :/:   (PERSON Roger/NNP Neill/NNP)   ,/,   (PERSON Michael/NNP P./NNP Regan/NNP)   ./.)
+----------------------------------
+original sentence: 
+To contact the reporter on this story: Adria Cimino in Paris at acimino1@bloomberg.net.
+
+POS tagged sentence: 
+[('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('reporter', 'NN'), ('on', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Adria', 'NNP'), ('Cimino', 'NNP'), ('in', 'IN'), ('Paris', 'NNP'), ('at', 'IN'), ('acimino1', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   contact/VB   the/DT   reporter/NN   on/IN   this/DT   story/NN   :/:   (PERSON Adria/NNP Cimino/NNP)   in/IN   (GPE Paris/NNP)   at/IN   (ORGANIZATION acimino1/NNP)   @/NNP   bloomberg.net/JJ   ./.)
+----------------------------------
+original sentence: 
+To contact the editor responsible for this story: David Merritt at dmerritt1@bloomberg.net.
+
+POS tagged sentence: 
+[('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('editor', 'NN'), ('responsible', 'JJ'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('David', 'NNP'), ('Merritt', 'NNP'), ('at', 'IN'), ('dmerritt1', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   contact/VB   the/DT   editor/NN   responsible/JJ   for/IN   this/DT   story/NN   :/:   (PERSON David/NNP Merritt/NNP)   at/IN   (ORGANIZATION dmerritt1/NNP)   @/NNP   bloomberg.net/JJ   ./.)
+----------------------------------
+original sentence: 
+Related topics in Most Popular Stories
+Stock Picks: Chipotle, eBay, Netflix, Qualcomm
+It's About Time: Adobe Divests from iPhone OS
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('Related', 'JJ'), ('topics', 'NNS'), ('in', 'IN'), ('Most', 'JJS'), ('Popular', 'JJ'), ('Stories', 'NNS'), ('Stock', 'NNP'), ('Picks', 'NNP'), (':', ':'), ('Chipotle', 'NNP'), (',', ','), ('eBay', 'NNP'), (',', ','), ('Netflix', 'NNP'), (',', ','), ('Qualcomm', 'NNP'), ('It', 'PRP'), ("'s", 'VBZ'), ('About', 'IN'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Related/JJ)   topics/NNS   in/IN   Most/JJS   Popular/JJ   Stories/NNS   (PERSON Stock/NNP Picks/NNP)   :/:   (GPE Chipotle/NNP)   ,/,   (ORGANIZATION eBay/NNP)   ,/,   (PERSON Netflix/NNP)   ,/,   Qualcomm/NNP   It/PRP   's/VBZ   About/IN   Time/NNP   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+Apple's Endless Expanding App Universe
+A Wobbly Global Debut for Apple's iPad
+RSS Feed: Most Read Stories
+Potentially Lethal Airborne Fungus May Spread to California BusinessWeek
+Can GE Still Manage?
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('Read', 'JJ'), ('Stories', 'NNS'), ('Potentially', 'RB'), ('Lethal', 'NNP'), ('Airborne', 'NNP'), ('Fungus', 'NNP'), ('May', 'NNP'), ('Spread', 'NNP'), ('to', 'TO'), ('California', 'NNP'), ('BusinessWeek', 'NNP'), ('Can', 'NNP'), ('GE', 'NNP'), ('Still', 'NNP'), ('Manage', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   Universe/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP)   RSS/NNP   Feed/NNP   :/:   Most/RBS   Read/JJ   Stories/NNS   Potentially/RB   (PERSON Lethal/NNP Airborne/NNP Fungus/NNP)   May/NNP   Spread/NNP   to/TO   (GPE California/NNP)   BusinessWeek/NNP   Can/NNP   GE/NNP   Still/NNP   Manage/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+Why Boulder Is America's Best Town for Startups BusinessWeek
+Apple's Endless Expanding App Universe BusinessWeek
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('Why', 'WRB'), ('Boulder', 'NNP'), ('Is', 'NNP'), ('America', 'NNP'), ("'s", 'POS'), ('Best', 'NNP'), ('Town', 'NNP'), ('for', 'IN'), ('Startups', 'NNP'), ('BusinessWeek', 'NNP'), ('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('BusinessWeek', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   BusinessWeek/NN   Why/WRB   (PERSON Boulder/NNP Is/NNP America/NNP)   's/POS   (PERSON Best/NNP Town/NNP)   for/IN   (PERSON Startups/NNP BusinessWeek/NNP Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   (PERSON Universe/NNP BusinessWeek/NNP)   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+RSS Feed: Most E mailed Stories
+It's About Time: Adobe Divests from iPhone OS
+A Wobbly Global Debut for Apple's iPad
+Can Meg Whitman's CEO Savvy Save California?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('E', 'NNP'), ('mailed', 'VBD'), ('Stories', 'NNP'), ('It', 'NNP'), ("'s", 'POS'), ('About', 'NNP'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('Can', 'NNP'), ('Meg', 'NNP'), ('Whitman', 'NNP'), ("'s", 'POS'), ('CEO', 'NNP'), ('Savvy', 'NNP'), ('Save', 'NNP'), ('California', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BusinessWeek/NN)   (ORGANIZATION RSS/NNP)   Feed/NNP   :/:   Most/RBS   E/NNP   mailed/VBD   (PERSON Stories/NNP It/NNP)   's/POS   (PERSON About/NNP Time/NNP)   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP Can/NNP Meg/NNP Whitman/NNP)   's/POS   (ORGANIZATION CEO/NNP Savvy/NNP Save/NNP California/NNP)   ?/.)
+----------------------------------
+original sentence: 
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('After', 'IN'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+RSS Feed: Most Discussed Stories
+
+
+POS tagged sentence: 
+[('RSS', 'NN'), ('Feed', 'VBN'), (':', ':'), ('Most', 'RBS'), ('Discussed', 'JJ'), ('Stories', 'NNS')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION RSS/NN)   Feed/VBN   :/:   Most/RBS   Discussed/JJ   Stories/NNS)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:0

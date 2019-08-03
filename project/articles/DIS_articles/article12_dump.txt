@@ -1,0 +1,364 @@
+
+----------------------------------
+original sentence: 
+Top 10 Dow Jones 30 Stocks with Highest Momentum: DIS, MCD, JNJ, CAT, UTX, HPQ, WMT, MMM, INTC, TRV Apr 02, 2010 China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Momentum', 'NNP'), (':', ':'), ('DIS', 'NNP'), (',', ','), ('MCD', 'NNP'), (',', ','), ('JNJ', 'NNP'), (',', ','), ('CAT', 'NNP'), (',', ','), ('UTX', 'NNP'), (',', ','), ('HPQ', 'NNP'), (',', ','), ('WMT', 'NNP'), (',', ','), ('MMM', 'NNP'), (',', ','), ('INTC', 'NNP'), (',', ','), ('TRV', 'NNP'), ('Apr', 'NNP'), ('02', 'CD'), (',', ','), ('2010', 'CD'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Momentum/NNP)   :/:   (ORGANIZATION DIS/NNP)   ,/,   (ORGANIZATION MCD/NNP)   ,/,   (ORGANIZATION JNJ/NNP)   ,/,   (ORGANIZATION CAT/NNP)   ,/,   (ORGANIZATION UTX/NNP)   ,/,   (ORGANIZATION HPQ/NNP)   ,/,   (ORGANIZATION WMT/NNP)   ,/,   (ORGANIZATION MMM/NNP)   ,/,   (ORGANIZATION INTC/NNP)   ,/,   (ORGANIZATION TRV/NNP)   Apr/NNP   02/CD   ,/,   2010/CD   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Momentum/NNP)
+	(NOUN DIS/NNP)
+	(NOUN MCD/NNP)
+	(NOUN JNJ/NNP)
+	(NOUN CAT/NNP)
+	(NOUN UTX/NNP)
+	(NOUN HPQ/NNP)
+	(NOUN WMT/NNP)
+	(NOUN MMM/NNP)
+	(NOUN INTC/NNP)
+	(NOUN TRV/NNP Apr/NNP)
+	(NOUN 2010/CD China/NNP Analyst/NNP News/NNP)
+	(NOUN Research/NNP)
+	(NOUN U.S/NNP)
+
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+Year to Date Performance
+Institutional Ownership
+Friday, April 02, 2010
+Top 10 Dow Jones 30 Stocks with Highest Momentum: DIS, MCD, JNJ, CAT, UTX, HPQ, WMT, MMM, INTC, TRV Apr 02, 2010 Below are the top 10 Dow 30 DJIA stocks with highest price momentum.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('Year', 'NNP'), ('to', 'TO'), ('Date', 'NNP'), ('Performance', 'NNP'), ('Institutional', 'NNP'), ('Ownership', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('02', 'CD'), (',', ','), ('2010', 'CD'), ('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Momentum', 'NNP'), (':', ':'), ('DIS', 'NNP'), (',', ','), ('MCD', 'NNP'), (',', ','), ('JNJ', 'NNP'), (',', ','), ('CAT', 'NNP'), (',', ','), ('UTX', 'NNP'), (',', ','), ('HPQ', 'NNP'), (',', ','), ('WMT', 'NNP'), (',', ','), ('MMM', 'NNP'), (',', ','), ('INTC', 'NNP'), (',', ','), ('TRV', 'NNP'), ('Apr', 'NNP'), ('02', 'CD'), (',', ','), ('2010', 'CD'), ('Below', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('top', 'JJ'), ('10', 'CD'), ('Dow', 'NNP'), ('30', 'CD'), ('DJIA', 'NNP'), ('stocks', 'NNS'), ('with', 'IN'), ('highest', 'JJS'), ('price', 'NN'), ('momentum', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   Year/NNP   to/TO   (ORGANIZATION Date/NNP Performance/NNP)   Institutional/NNP   Ownership/NNP   Friday/NNP   ,/,   April/NNP   02/CD   ,/,   2010/CD   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Momentum/NNP)   :/:   (ORGANIZATION DIS/NNP)   ,/,   (ORGANIZATION MCD/NNP)   ,/,   (ORGANIZATION JNJ/NNP)   ,/,   (ORGANIZATION CAT/NNP)   ,/,   (ORGANIZATION UTX/NNP)   ,/,   (ORGANIZATION HPQ/NNP)   ,/,   (ORGANIZATION WMT/NNP)   ,/,   (ORGANIZATION MMM/NNP)   ,/,   (ORGANIZATION INTC/NNP)   ,/,   (ORGANIZATION TRV/NNP)   Apr/NNP   02/CD   ,/,   2010/CD   Below/NNP   are/VBP   the/DT   top/JJ   10/CD   Dow/NNP   30/CD   (ORGANIZATION DJIA/NNP)   stocks/NNS   with/IN   highest/JJS   price/NN   momentum/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Listed/VBN Chinese/JJ Stocks/NNS Year/NNP)
+	(VERB   are/VBP   the/DT   top/JJ   10/CD   Dow/NNP   30/CD   DJIA/NNP   stocks/NNS   with/IN   highest/JJS   price/NN   momentum/NN)
+noun phrases to consider:
+	(NOUN Date/NNP Performance/NNP Institutional/NNP Ownership/NNP)
+	(NOUN Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Momentum/NNP)
+	(NOUN DIS/NNP)
+	(NOUN MCD/NNP)
+	(NOUN JNJ/NNP)
+	(NOUN CAT/NNP)
+	(NOUN UTX/NNP)
+	(NOUN HPQ/NNP)
+	(NOUN WMT/NNP)
+	(NOUN MMM/NNP)
+	(NOUN INTC/NNP)
+	(NOUN TRV/NNP Apr/NNP)
+	(NOUN 2010/CD Below/NNP)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company NYSE:DIS  has the 1st highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('DIS', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('1st', 'CD'), ('highest', 'JJS'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   NYSE/NNP   :/:   (ORGANIZATION DIS/NNP)   has/VBZ   the/DT   1st/CD   highest/JJS   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   the/DT   1st/CD   highest/JJS   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP NYSE/NNP)
+	(NOUN DIS/NNP)
+
+----------------------------------
+original sentence: 
+It is trading at 99.9% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.9', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.9/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 9.2% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('9.2', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   9.2/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+McDonald&#39;s Corporation NYSE:MCD  has the 2nd highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('McDonald&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MCD', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('2nd', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   McDonald&/NN   #/#   39/CD   ;/:   s/NNS   (ORGANIZATION Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION MCD/NNP)   has/VBZ   the/DT   2nd/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 99.8% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.8', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.8/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 6.5% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('6.5', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   6.5/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+Johnson & Johnson NYSE:JNJ  has the 3rd highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JNJ', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('3rd', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP NYSE/NNP)   :/:   (ORGANIZATION JNJ/NNP)   has/VBZ   the/DT   3rd/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 99.7% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.7', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.7/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 3.5% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('3.5', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   3.5/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+Caterpillar Inc. NYSE:CAT  has the 4th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('Caterpillar', 'JJ'), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('CAT', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('4th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Caterpillar/JJ Inc./NNP)   NYSE/NNP   :/:   (ORGANIZATION CAT/NNP)   has/VBZ   the/DT   4th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 99.3% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.3', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.3/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 9.5% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('9.5', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   9.5/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+United Technologies Corporation NYSE:UTX  has the 5th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('United', 'NNP'), ('Technologies', 'NNPS'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('UTX', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('5th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE United/NNP)   (ORGANIZATION Technologies/NNPS Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION UTX/NNP)   has/VBZ   the/DT   5th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 99.0% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.0', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.0/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 5.3% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('5.3', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   5.3/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+Hewlett Packard Company NYSE:HPQ  has the 6th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('Hewlett', 'NNP'), ('Packard', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('HPQ', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('6th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Hewlett/NNP)   (PERSON Packard/NNP Company/NNP)   NYSE/NNP   :/:   (ORGANIZATION HPQ/NNP)   has/VBZ   the/DT   6th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 99.0% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('99.0', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   99.0/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 3.4% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('3.4', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   3.4/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+Wal Mart Stores, Inc. NYSE:WMT  has the 7th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('Stores', 'NNPS'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('WMT', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('7th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (ORGANIZATION Mart/NNP Stores/NNPS)   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION WMT/NNP)   has/VBZ   the/DT   7th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 98.6% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('98.6', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   98.6/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 2.8% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('2.8', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   2.8/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+3M Company NYSE:MMM  has the 8th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('3M', 'CD'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MMM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('8th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   3M/CD   Company/NNP   NYSE/NNP   :/:   (ORGANIZATION MMM/NNP)   has/VBZ   the/DT   8th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 98.5% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('98.5', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   98.5/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 3.5% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('3.5', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   3.5/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+Intel Corporation NASDAQ:INTC  has the 9th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('9th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   has/VBZ   the/DT   9th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 98.4% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('98.4', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   98.4/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 9.1% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('9.1', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   9.1/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+The Travelers Companies, Inc. NYSE:TRV  has the 10th highest price momentum in this segment of the market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Travelers', 'NNPS'), ('Companies', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('TRV', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('10th', 'JJ'), ('highest', 'NN'), ('price', 'NN'), ('momentum', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Travelers/NNPS Companies/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION TRV/NNP)   has/VBZ   the/DT   10th/JJ   highest/NN   price/NN   momentum/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+It is trading at 98.3% of 52 week high.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('trading', 'VBG'), ('at', 'IN'), ('98.3', 'CD'), ('%', 'NN'), ('of', 'IN'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   trading/VBG   at/IN   98.3/CD   %/NN   of/IN   52/CD   week/NN   high/JJ   ./.)
+----------------------------------
+original sentence: 
+Its price performance was 0.7% for the last 4 weeks.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('performance', 'NN'), ('was', 'VBD'), ('0.7', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('4', 'CD'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   performance/NN   was/VBD   0.7/CD   %/NN   for/IN   the/DT   last/JJ   4/CD   weeks/NNS   ./.)
+----------------------------------
+original sentence: 
+SUBSCRIBE TO OUR FREE DAILY EMAIL UPDATES
+
+
+POS tagged sentence: 
+[('SUBSCRIBE', 'NN'), ('TO', 'TO'), ('OUR', 'NNP'), ('FREE', 'NNP'), ('DAILY', 'NNP'), ('EMAIL', 'NNP'), ('UPDATES', 'NNP')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SUBSCRIBE/NN)   TO/TO   (ORGANIZATION OUR/NNP)   FREE/NNP   DAILY/NNP   EMAIL/NNP   UPDATES/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,111 @@
+
+----------------------------------
+original sentence: 
+Citigroup NYSE: C Maintains Buy Rating on Accenture Ltd NYSE: ACN , Lowers Earnings Estimates American Banking News
+Citigroup NYSE: C Maintains Buy Rating on Accenture Ltd NYSE: ACN , Lowers Earnings Estimates
+ March 24th, 2010 &bull;  &bull; by admin  Filed Under: Citigroup NYSE: C re iterated its buy rating on Accenture Ltd NYSE: ACN , citing moves in European currencies and lowered pipeline demand.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Maintains', 'NNP'), ('Buy', 'NNP'), ('Rating', 'NNP'), ('on', 'IN'), ('Accenture', 'NNP'), ('Ltd', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ACN', 'NNP'), (',', ','), ('Lowers', 'NNP'), ('Earnings', 'NNP'), ('Estimates', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Maintains', 'NNP'), ('Buy', 'NNP'), ('Rating', 'NNP'), ('on', 'IN'), ('Accenture', 'NNP'), ('Ltd', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ACN', 'NNP'), (',', ','), ('Lowers', 'NNP'), ('Earnings', 'NNP'), ('Estimates', 'NNP'), ('March', 'NNP'), ('24th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('re', 'NN'), ('iterated', 'VBD'), ('its', 'PRP$'), ('buy', 'NN'), ('rating', 'NN'), ('on', 'IN'), ('Accenture', 'NNP'), ('Ltd', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ACN', 'NNP'), (',', ','), ('citing', 'VBG'), ('moves', 'NNS'), ('in', 'IN'), ('European', 'JJ'), ('currencies', 'NNS'), ('and', 'CC'), ('lowered', 'VBD'), ('pipeline', 'NN'), ('demand', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Maintains/NNP   Buy/NNP   Rating/NNP   on/IN   (PERSON Accenture/NNP Ltd/NNP)   NYSE/NNP   :/:   ACN/NNP   ,/,   (PERSON     Lowers/NNP     Earnings/NNP     Estimates/NNP     American/NNP     Banking/NNP     News/NNP     Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Maintains/NNP   Buy/NNP   Rating/NNP   on/IN   (PERSON Accenture/NNP Ltd/NNP)   NYSE/NNP   :/:   ACN/NNP   ,/,   (PERSON Lowers/NNP Earnings/NNP Estimates/NNP)   March/NNP   24th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   re/NN   iterated/VBD   its/PRP$   buy/NN   rating/NN   on/IN   (PERSON Accenture/NNP Ltd/NNP)   NYSE/NNP   :/:   ACN/NNP   ,/,   citing/VBG   moves/NNS   in/IN   (GPE European/JJ)   currencies/NNS   and/CC   lowered/VBD   pipeline/NN   demand/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   iterated/VBD   its/PRP$   buy/NN   rating/NN   on/IN   Accenture/NNP   Ltd/NNP   NYSE/NNP)
+	(VERB citing/VBG moves/NNS in/IN European/JJ currencies/NNS)
+	(VERB lowered/VBD pipeline/NN demand/NN)
+
+tagged sentence:
+	 lowered pipeline demand	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Maintains/NNP Buy/NNP Rating/NNP)
+	(NOUN Accenture/NNP Ltd/NNP NYSE/NNP)
+	(NOUN ACN/NNP)
+	(NOUN Lowers/NNP Earnings/NNP Estimates/NNP American/NNP)
+	(NOUN Banking/NNP News/NNP Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Maintains/NNP Buy/NNP Rating/NNP)
+	(NOUN Accenture/NNP Ltd/NNP NYSE/NNP)
+	(NOUN ACN/NNP)
+	(NOUN Lowers/NNP Earnings/NNP Estimates/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP re/NN)
+	(NOUN ACN/NNP)
+
+----------------------------------
+original sentence: 
+Citi‚Äôs equity research firm also lowered its earnings estimates for 2010 and 2011
+Citi analyst wrote, &#8220;We are lowering our estimates on ACN due to the impact of currency moves Euro, GBP .
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('equity', 'NN'), ('research', 'NN'), ('firm', 'NN'), ('also', 'RB'), ('lowered', 'VBD'), ('its', 'PRP$'), ('earnings', 'NNS'), ('estimates', 'NNS'), ('for', 'IN'), ('2010', 'CD'), ('and', 'CC'), ('2011', 'CD'), ('Citi', 'NNP'), ('analyst', 'NN'), ('wrote', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('lowering', 'VBG'), ('our', 'PRP$'), ('estimates', 'NNS'), ('on', 'IN'), ('ACN', 'NNP'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('currency', 'NN'), ('moves', 'NNS'), ('Euro', 'NNP'), (',', ','), ('GBP', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   ‚/:   Ä/:   ô/:   s/NNS   equity/NN   research/NN   firm/NN   also/RB   lowered/VBD   its/PRP$   earnings/NNS   estimates/NNS   for/IN   2010/CD   and/CC   2011/CD   Citi/NNP   analyst/NN   wrote/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   lowering/VBG   our/PRP$   estimates/NNS   on/IN   (ORGANIZATION ACN/NNP)   due/JJ   to/TO   the/DT   impact/NN   of/IN   currency/NN   moves/NNS   (GPE Euro/NNP)   ,/,   (ORGANIZATION GBP/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lowered/VBD its/PRP$ earnings/NNS estimates/NNS for/IN 2010/CD)
+	(VERB wrote/VBD)
+	(VERB   are/VBP   lowering/VBG   our/PRP$   estimates/NNS   on/IN   ACN/NNP   due/JJ)
+
+tagged sentence:
+	 are lowering our estimates on ACN due	res:-1
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN s/NNS equity/NN research/NN firm/NN)
+	(NOUN 2011/CD Citi/NNP analyst/NN)
+	(NOUN impact/NN)
+	(NOUN currency/NN moves/NNS Euro/NNP)
+	(NOUN GBP/NNP)
+
+----------------------------------
+original sentence: 
+Most investors likely have this already factored into their revenues and EPS expectations, but probably not on bookings.
+
+POS tagged sentence: 
+[('Most', 'JJS'), ('investors', 'NNS'), ('likely', 'JJ'), ('have', 'VBP'), ('this', 'DT'), ('already', 'RB'), ('factored', 'VBD'), ('into', 'IN'), ('their', 'PRP$'), ('revenues', 'NNS'), ('and', 'CC'), ('EPS', 'NNP'), ('expectations', 'NNS'), (',', ','), ('but', 'CC'), ('probably', 'RB'), ('not', 'RB'), ('on', 'IN'), ('bookings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Most/JJS   investors/NNS   likely/JJ   have/VBP   this/DT   already/RB   factored/VBD   into/IN   their/PRP$   revenues/NNS   and/CC   (ORGANIZATION EPS/NNP)   expectations/NNS   ,/,   but/CC   probably/RB   not/RB   on/IN   bookings/NNS   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, positive pipeline and CY10 demand commentary could offset tepid headline numbers somewhat, in terms of the earnings call on 3/25.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('positive', 'JJ'), ('pipeline', 'NN'), ('and', 'CC'), ('CY10', 'NNP'), ('demand', 'NN'), ('commentary', 'NN'), ('could', 'MD'), ('offset', 'VB'), ('tepid', 'JJ'), ('headline', 'NN'), ('numbers', 'NNS'), ('somewhat', 'WDT'), (',', ','), ('in', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('earnings', 'NNS'), ('call', 'VBP'), ('on', 'IN'), ('3/25', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   positive/JJ   pipeline/NN   and/CC   (ORGANIZATION CY10/NNP)   demand/NN   commentary/NN   could/MD   offset/VB   tepid/JJ   headline/NN   numbers/NNS   somewhat/WDT   ,/,   in/IN   terms/NNS   of/IN   the/DT   earnings/NNS   call/VBP   on/IN   3/25/CD   ./.)
+----------------------------------
+original sentence: 
+However, a real positive catalyst could actually be Accenture‚Äôs investor day on 4/8, when we believe we could get a more meaningful look into ACN‚Äôs longer term revenue and margin outlook ‚Äì such a look could effectively showcase ACN‚Äôs attractive ‚Äútotal return‚Äù metrics and drive the stock higher.&#8221;
+&#8220;We are lowering our F2Q and FY10 revenue and EPS estimates, primarily due to the weakening of the Euro and Pound, vs. the USD.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('a', 'DT'), ('real', 'JJ'), ('positive', 'JJ'), ('catalyst', 'NN'), ('could', 'MD'), ('actually', 'RB'), ('be', 'VB'), ('Accenture', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('investor', 'NN'), ('day', 'NN'), ('on', 'IN'), ('4/8', 'CD'), (',', ','), ('when', 'WRB'), ('we', 'PRP'), ('believe', 'VBP'), ('we', 'PRP'), ('could', 'MD'), ('get', 'VB'), ('a', 'DT'), ('more', 'RBR'), ('meaningful', 'JJ'), ('look', 'NN'), ('into', 'IN'), ('ACN', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('longer', 'JJR'), ('term', 'NN'), ('revenue', 'NN'), ('and', 'CC'), ('margin', 'NN'), ('outlook', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x93', ':'), ('such', 'JJ'), ('a', 'DT'), ('look', 'NN'), ('could', 'MD'), ('effectively', 'RB'), ('showcase', 'VB'), ('ACN', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('attractive', 'JJ'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('total', 'JJ'), ('return', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('metrics', 'NNS'), ('and', 'CC'), ('drive', 'JJ'), ('the', 'DT'), ('stock', 'NN'), ('higher.&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('lowering', 'VBG'), ('our', 'PRP$'), ('F2Q', 'NNP'), ('and', 'CC'), ('FY10', 'NNP'), ('revenue', 'NN'), ('and', 'CC'), ('EPS', 'NNP'), ('estimates', 'NNS'), (',', ','), ('primarily', 'RB'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('weakening', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Euro', 'NNP'), ('and', 'CC'), ('Pound', 'NNP'), (',', ','), ('vs.', 'NNP'), ('the', 'DT'), ('USD', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   a/DT   real/JJ   positive/JJ   catalyst/NN   could/MD   actually/RB   be/VB   (PERSON Accenture/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   investor/NN   day/NN   on/IN   4/8/CD   ,/,   when/WRB   we/PRP   believe/VBP   we/PRP   could/MD   get/VB   a/DT   more/RBR   meaningful/JJ   look/NN   into/IN   (ORGANIZATION ACN/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   longer/JJR   term/NN   revenue/NN   and/CC   margin/NN   outlook/NN   ‚/:   Ä/:   ì/:   such/JJ   a/DT   look/NN   could/MD   effectively/RB   showcase/VB   (ORGANIZATION ACN/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   attractive/JJ   ‚/NN   Ä/:   ú/:   total/JJ   return/NN   ‚/:   Ä/:   ù/:   metrics/NNS   and/CC   drive/JJ   the/DT   stock/NN   higher.&/-NONE-   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   lowering/VBG   our/PRP$   (ORGANIZATION F2Q/NNP)   and/CC   (ORGANIZATION FY10/NNP)   revenue/NN   and/CC   (ORGANIZATION EPS/NNP)   estimates/NNS   ,/,   primarily/RB   due/JJ   to/TO   the/DT   weakening/NN   of/IN   the/DT   (ORGANIZATION Euro/NNP)   and/CC   (PERSON Pound/NNP)   ,/,   vs./NNP   the/DT   (ORGANIZATION USD/NNP)   ./.)
+----------------------------------
+original sentence: 
+Our fiscal 2Q10 EPS is lower by $0.01 to $0.62 and our FY10 estimate is now $2.70, down from $2.75 both are now in line with consensus .
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('fiscal', 'JJ'), ('2Q10', 'CD'), ('EPS', 'NNP'), ('is', 'VBZ'), ('lower', 'JJR'), ('by', 'IN'), ('$', '$'), ('0.01', 'CD'), ('to', 'TO'), ('$', '$'), ('0.62', 'CD'), ('and', 'CC'), ('our', 'PRP$'), ('FY10', 'NNP'), ('estimate', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('$', '$'), ('2.70', 'CD'), (',', ','), ('down', 'IN'), ('from', 'IN'), ('$', '$'), ('2.75', 'CD'), ('both', 'DT'), ('are', 'VBP'), ('now', 'RB'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('consensus', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   fiscal/JJ   2Q10/CD   (ORGANIZATION EPS/NNP)   is/VBZ   lower/JJR   by/IN   $/$   0.01/CD   to/TO   $/$   0.62/CD   and/CC   our/PRP$   (ORGANIZATION FY10/NNP)   estimate/NN   is/VBZ   now/RB   $/$   2.70/CD   ,/,   down/IN   from/IN   $/$   2.75/CD   both/DT   are/VBP   now/RB   in/IN   line/NN   with/IN   consensus/NN   ./.)
+----------------------------------
+original sentence: 
+Our FY 2011 estimate is now $3.04, down from $3.06, as our 2011 model builds off of a lower 2010 base&#8230;We are lowering our FY10 bookings estimate to $23.7 billion from $24.1 billion.&#8221;
+blog comments powered by 
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('FY', 'NNP'), ('2011', 'CD'), ('estimate', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('$', '$'), ('3.04', 'CD'), (',', ','), ('down', 'IN'), ('from', 'IN'), ('$', '$'), ('3.06', 'CD'), (',', ','), ('as', 'IN'), ('our', 'PRP$'), ('2011', 'CD'), ('model', 'NN'), ('builds', 'NNS'), ('off', 'IN'), ('of', 'IN'), ('a', 'DT'), ('lower', 'JJR'), ('2010', 'CD'), ('base&', '-NONE-'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('lowering', 'VBG'), ('our', 'PRP$'), ('FY10', 'NNP'), ('bookings', 'NNS'), ('estimate', 'VBP'), ('to', 'TO'), ('$', '$'), ('23.7', 'CD'), ('billion', 'CD'), ('from', 'IN'), ('$', '$'), ('24.1', 'CD'), ('billion.&', 'CD'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   FY/NNP   2011/CD   estimate/NN   is/VBZ   now/RB   $/$   3.04/CD   ,/,   down/IN   from/IN   $/$   3.06/CD   ,/,   as/IN   our/PRP$   2011/CD   model/NN   builds/NNS   off/IN   of/IN   a/DT   lower/JJR   2010/CD   base&/-NONE-   #/#   8230/CD   ;/:   We/PRP   are/VBP   lowering/VBG   our/PRP$   (ORGANIZATION FY10/NNP)   bookings/NNS   estimate/VBP   to/TO   $/$   23.7/CD   billion/CD   from/IN   $/$   24.1/CD   billion.&/CD   #/#   8221/CD   ;/:   blog/NN   comments/NNS   powered/VBD   by/IN)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:0

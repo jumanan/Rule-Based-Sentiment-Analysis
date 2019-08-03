@@ -1,0 +1,93 @@
+
+----------------------------------
+original sentence: 
+Dow Hits New High, Led by Alcoa, Exxon DJI, AA, XOM | Benzinga.com
+Dow Hits New High, Led by Alcoa, Exxon DJI, AA, XOM Recent Articles by Swing Trader
+Posted on 03/17/10 at 11:46am by The Dow Jones Industrial Average DJI set a new 52 week high this morning led by Alcoa NYSE:  and Exxon Mobil NYSE: A better then expected reading on producer prices raised investor hopes that the Fed could continue its easy money policy without stoking inflation.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Hits', 'NNP'), ('New', 'NNP'), ('High', 'NNP'), (',', ','), ('Led', 'NNP'), ('by', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('Exxon', 'NNP'), ('DJI', 'NNP'), (',', ','), ('AA', 'NNP'), (',', ','), ('XOM', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Dow', 'NNP'), ('Hits', 'NNP'), ('New', 'NNP'), ('High', 'NNP'), (',', ','), ('Led', 'NNP'), ('by', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('Exxon', 'NNP'), ('DJI', 'NNP'), (',', ','), ('AA', 'NNP'), (',', ','), ('XOM', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Swing', 'NNP'), ('Trader', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/17/10', 'CD'), ('at', 'IN'), ('11', 'CD'), (':', ':'), ('46am', 'CD'), ('by', 'IN'), ('The', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('DJI', 'NNP'), ('set', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('this', 'DT'), ('morning', 'NN'), ('led', 'VBD'), ('by', 'IN'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('and', 'CC'), ('Exxon', 'NNP'), ('Mobil', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('A', 'DT'), ('better', 'JJR'), ('then', 'RB'), ('expected', 'VBN'), ('reading', 'NN'), ('on', 'IN'), ('producer', 'NN'), ('prices', 'NNS'), ('raised', 'VBD'), ('investor', 'NN'), ('hopes', 'NNS'), ('that', 'WDT'), ('the', 'DT'), ('Fed', 'NNP'), ('could', 'MD'), ('continue', 'VB'), ('its', 'PRP$'), ('easy', 'JJ'), ('money', 'NN'), ('policy', 'NN'), ('without', 'IN'), ('stoking', 'NN'), ('inflation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Hits/NNP New/NNP High/NNP)   ,/,   Led/NNP   by/IN   (PERSON Alcoa/NNP)   ,/,   (PERSON Exxon/NNP DJI/NNP)   ,/,   (ORGANIZATION AA/NNP)   ,/,   (ORGANIZATION XOM/NNP)   |/NNP   Benzinga.com/NNP   Dow/NNP   Hits/NNP   New/NNP   High/NNP   ,/,   Led/NNP   by/IN   (PERSON Alcoa/NNP)   ,/,   (PERSON Exxon/NNP DJI/NNP)   ,/,   (ORGANIZATION AA/NNP)   ,/,   (ORGANIZATION XOM/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Swing/NNP Trader/NNP Posted/NNP)   on/IN   03/17/10/CD   at/IN   11/CD   :/:   46am/CD   by/IN   The/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   DJI/NNP   set/VBD   a/DT   new/JJ   52/CD   week/NN   high/JJ   this/DT   morning/NN   led/VBD   by/IN   (PERSON Alcoa/NNP NYSE/NNP)   :/:   and/CC   (PERSON Exxon/NNP Mobil/NNP)   NYSE/NNP   :/:   A/DT   better/JJR   then/RB   expected/VBN   reading/NN   on/IN   producer/NN   prices/NNS   raised/VBD   investor/NN   hopes/NNS   that/WDT   the/DT   (ORGANIZATION Fed/NNP)   could/MD   continue/VB   its/PRP$   easy/JJ   money/NN   policy/NN   without/IN   stoking/NN   inflation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB set/VBD a/DT new/JJ 52/CD week/NN high/JJ this/DT morning/NN)
+	(VERB led/VBD by/IN Alcoa/NNP NYSE/NNP)
+	(VERB expected/VBN reading/NN on/IN producer/NN prices/NNS)
+	(VERB raised/VBD investor/NN hopes/NNS)
+	(VERB   continue/VB   its/PRP$   easy/JJ   money/NN   policy/NN   without/IN   stoking/NN   inflation/NN)
+noun phrases to consider:
+	(NOUN Dow/NNP Hits/NNP New/NNP High/NNP)
+	(NOUN Led/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Exxon/NNP DJI/NNP)
+	(NOUN AA/NNP)
+	(NOUN XOM/NNP |/NNP Benzinga.com/NNP Dow/NNP)
+	(NOUN Hits/NNP New/NNP High/NNP)
+	(NOUN Led/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Exxon/NNP DJI/NNP)
+	(NOUN AA/NNP)
+	(NOUN XOM/NNP Recent/NNP Articles/NNP)
+	(NOUN Swing/NNP Trader/NNP Posted/NNP)
+	(NOUN Dow/NNP Jones/NNP Industrial/NNP Average/NNP)
+	(NOUN DJI/NNP)
+	(NOUN Exxon/NNP Mobil/NNP NYSE/NNP)
+	(NOUN A/DT better/JJR)
+	(NOUN Fed/NNP)
+
+----------------------------------
+original sentence: 
+The Dow rose 48 points, or 0.45%, to 10,734 in mid morning trading.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('rose', 'VBD'), ('48', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.45', 'CD'), ('%', 'NN'), (',', ','), ('to', 'TO'), ('10,734', 'CD'), ('in', 'IN'), ('mid', 'JJ'), ('morning', 'NN'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP)   rose/VBD   48/CD   points/NNS   ,/,   or/CC   0.45/CD   %/NN   ,/,   to/TO   10,734/CD   in/IN   mid/JJ   morning/NN   trading/NN   ./.)
+----------------------------------
+original sentence: 
+This topped the previous 52 week high of 10,729 set on January 19.
+
+POS tagged sentence: 
+[('This', 'DT'), ('topped', 'VBD'), ('the', 'DT'), ('previous', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('of', 'IN'), ('10,729', 'CD'), ('set', 'NN'), ('on', 'IN'), ('January', 'NNP'), ('19', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   topped/VBD   the/DT   previous/JJ   52/CD   week/NN   high/JJ   of/IN   10,729/CD   set/NN   on/IN   January/NNP   19/CD   ./.)
+----------------------------------
+original sentence: 
+Alcoa, a dow component, rose 4.9% while Exxon saw its shares move up 1.4% as crude oil futures rose to over $82 a barrel.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), (',', ','), ('a', 'DT'), ('dow', 'NN'), ('component', 'NN'), (',', ','), ('rose', 'VBD'), ('4.9', 'CD'), ('%', 'NN'), ('while', 'IN'), ('Exxon', 'NNP'), ('saw', 'VBD'), ('its', 'PRP$'), ('shares', 'NNS'), ('move', 'VB'), ('up', 'RP'), ('1.4', 'CD'), ('%', 'NN'), ('as', 'IN'), ('crude', 'JJ'), ('oil', 'NN'), ('futures', 'NNS'), ('rose', 'VBD'), ('to', 'TO'), ('over', 'IN'), ('$', '$'), ('82', 'CD'), ('a', 'DT'), ('barrel', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   ,/,   a/DT   dow/NN   component/NN   ,/,   rose/VBD   4.9/CD   %/NN   while/IN   (PERSON Exxon/NNP)   saw/VBD   its/PRP$   shares/NNS   move/VB   up/RP   1.4/CD   %/NN   as/IN   crude/JJ   oil/NN   futures/NNS   rose/VBD   to/TO   over/IN   $/$   82/CD   a/DT   barrel/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD 4.9/CD %/NN while/IN Exxon/NNP)
+	(VERB saw/VBD its/PRP$ shares/NNS)
+	(VERB move/VB)
+	(VERB rose/VBD to/TO over/IN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN dow/NN component/NN)
+	(NOUN 1.4/CD %/NN)
+	(NOUN crude/JJ oil/NN futures/NNS)
+	(NOUN barrel/NN)
+
+----------------------------------
+original sentence: 
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

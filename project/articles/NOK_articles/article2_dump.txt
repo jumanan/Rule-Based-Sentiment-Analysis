@@ -1,0 +1,556 @@
+
+----------------------------------
+original sentence: 
+Options Intelligence Report: Nokia Corp.
+
+POS tagged sentence: 
+[('Options', 'NNS'), ('Intelligence', 'NNP'), ('Report', 'NNP'), (':', ':'), ('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Options/NNS   (ORGANIZATION Intelligence/NNP)   Report/NNP   :/:   (PERSON Nokia/NNP Corp/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Options/NNS Intelligence/NNP Report/NNP)
+	(NOUN Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+NOK , Abercrombie & Fitch Co. ANF & Bed Bath & Beyond, Inc. BBBY | Unusual Activity | The Options Insider
+The Options Insider Your Inside Source for Options Information
+not a member yet?
+
+POS tagged sentence: 
+[('NOK', 'NN'), (',', ','), ('Abercrombie', 'NNP'), ('&', 'CC'), ('Fitch', 'NNP'), ('Co.', 'NNP'), ('ANF', 'NNP'), ('&', 'CC'), ('Bed', 'NNP'), ('Bath', 'NNP'), ('&', 'CC'), ('Beyond', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('BBBY', 'NNP'), ('|', 'NNP'), ('Unusual', 'NNP'), ('Activity', 'NNP'), ('|', 'NNP'), ('The', 'NNP'), ('Options', 'NNPS'), ('Insider', 'NNP'), ('The', 'NNP'), ('Options', 'NNPS'), ('Insider', 'NNP'), ('Your', 'NNP'), ('Inside', 'NNP'), ('Source', 'NNP'), ('for', 'IN'), ('Options', 'NNS'), ('Information', 'NNP'), ('not', 'RB'), ('a', 'DT'), ('member', 'NN'), ('yet', 'RB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NOK/NN)   ,/,   (PERSON Abercrombie/NNP)   &/CC   (PERSON Fitch/NNP)   Co./NNP   ANF/NNP   &/CC   (PERSON Bed/NNP Bath/NNP)   &/CC   (GPE Beyond/NNP)   ,/,   Inc./NNP   BBBY/NNP   |/NNP   Unusual/NNP   Activity/NNP   |/NNP   The/NNP   Options/NNPS   Insider/NNP   The/NNP   Options/NNPS   Insider/NNP   Your/NNP   Inside/NNP   Source/NNP   for/IN   (ORGANIZATION Options/NNS Information/NNP)   not/RB   a/DT   member/NN   yet/RB   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN NOK/NN)
+	(NOUN Abercrombie/NNP)
+	(NOUN Fitch/NNP Co./NNP ANF/NNP)
+	(NOUN Bed/NNP Bath/NNP)
+	(NOUN Beyond/NNP)
+	(NOUN Inc./NNP BBBY/NNP |/NNP Unusual/NNP)
+	(NOUN Activity/NNP |/NNP The/NNP Options/NNPS)
+	(NOUN Insider/NNP The/NNP Options/NNPS Insider/NNP)
+	(NOUN Your/NNP Inside/NNP Source/NNP)
+	(NOUN Options/NNS Information/NNP)
+	(NOUN member/NN)
+
+----------------------------------
+original sentence: 
+join now for FREE!
+
+POS tagged sentence: 
+[('join', 'NN'), ('now', 'RB'), ('for', 'IN'), ('FREE', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S join/NN now/RB for/IN (ORGANIZATION FREE/NNP) !/.)
+----------------------------------
+original sentence: 
+Options Intelligence Report: Nokia Corp.
+
+POS tagged sentence: 
+[('Options', 'NNS'), ('Intelligence', 'NNP'), ('Report', 'NNP'), (':', ':'), ('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Options/NNS   (ORGANIZATION Intelligence/NNP)   Report/NNP   :/:   (PERSON Nokia/NNP Corp/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Options/NNS Intelligence/NNP Report/NNP)
+	(NOUN Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+NOK , Abercrombie & Fitch Co. ANF & Bed Bath & Beyond, Inc. BBBY Posted on 4/8/2010 in NOK &ndash; Nokia Corp.
+
+POS tagged sentence: 
+[('NOK', 'NN'), (',', ','), ('Abercrombie', 'NNP'), ('&', 'CC'), ('Fitch', 'NNP'), ('Co.', 'NNP'), ('ANF', 'NNP'), ('&', 'CC'), ('Bed', 'NNP'), ('Bath', 'NNP'), ('&', 'CC'), ('Beyond', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('BBBY', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('4/8/2010', 'CD'), ('in', 'IN'), ('NOK', 'NNP'), ('&ndash', 'JJ'), (';', ':'), ('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NOK/NN)   ,/,   (PERSON Abercrombie/NNP)   &/CC   (PERSON Fitch/NNP)   Co./NNP   ANF/NNP   &/CC   (PERSON Bed/NNP Bath/NNP)   &/CC   (GPE Beyond/NNP)   ,/,   Inc./NNP   BBBY/NNP   Posted/NNP   on/IN   4/8/2010/CD   in/IN   (ORGANIZATION NOK/NNP)   &ndash/JJ   ;/:   (PERSON Nokia/NNP Corp/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN NOK/NN)
+	(NOUN Abercrombie/NNP)
+	(NOUN Fitch/NNP Co./NNP ANF/NNP)
+	(NOUN Bed/NNP Bath/NNP)
+	(NOUN Beyond/NNP)
+	(NOUN Inc./NNP BBBY/NNP Posted/NNP)
+	(NOUN NOK/NNP &ndash/JJ)
+	(NOUN Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Within the first 20 minutes of the trading session one investor initiated a large volume bullish risk reversal transaction involving 50,000 option contracts on mobile device maker, Nokia.
+
+POS tagged sentence: 
+[('Within', 'NNP'), ('the', 'DT'), ('first', 'JJ'), ('20', 'CD'), ('minutes', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('one', 'CD'), ('investor', 'NN'), ('initiated', 'VBN'), ('a', 'DT'), ('large', 'JJ'), ('volume', 'NN'), ('bullish', 'NN'), ('risk', 'NN'), ('reversal', 'NN'), ('transaction', 'NN'), ('involving', 'VBG'), ('50,000', 'CD'), ('option', 'NN'), ('contracts', 'NNS'), ('on', 'IN'), ('mobile', 'JJ'), ('device', 'NN'), ('maker', 'NN'), (',', ','), ('Nokia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Within/NNP   the/DT   first/JJ   20/CD   minutes/NNS   of/IN   the/DT   trading/NN   session/NN   one/CD   investor/NN   initiated/VBN   a/DT   large/JJ   volume/NN   bullish/NN   risk/NN   reversal/NN   transaction/NN   involving/VBG   50,000/CD   option/NN   contracts/NNS   on/IN   mobile/JJ   device/NN   maker/NN   ,/,   (GPE Nokia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   initiated/VBN   a/DT   large/JJ   volume/NN   bullish/NN   risk/NN   reversal/NN   transaction/NN)
+	(VERB   involving/VBG   50,000/CD   option/NN   contracts/NNS   on/IN   mobile/JJ   device/NN   maker/NN)
+noun phrases to consider:
+	(NOUN Within/NNP)
+	(NOUN the/DT first/JJ 20/CD minutes/NNS)
+	(NOUN trading/NN session/NN)
+	(NOUN one/CD investor/NN)
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Perhaps the options player responsible for the trade is optimistic on the stock following news the firm is expanding its presence in the smart phone sector in emerging markets by offering unlimited music downloads through their &lsquo;Comes With Music&rsquo; mantra in China.
+
+POS tagged sentence: 
+[('Perhaps', 'RB'), ('the', 'DT'), ('options', 'NNS'), ('player', 'NN'), ('responsible', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('trade', 'NN'), ('is', 'VBZ'), ('optimistic', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('following', 'VBG'), ('news', 'NN'), ('the', 'DT'), ('firm', 'NN'), ('is', 'VBZ'), ('expanding', 'VBG'), ('its', 'PRP$'), ('presence', 'NN'), ('in', 'IN'), ('the', 'DT'), ('smart', 'NN'), ('phone', 'NN'), ('sector', 'NN'), ('in', 'IN'), ('emerging', 'VBG'), ('markets', 'NNS'), ('by', 'IN'), ('offering', 'NN'), ('unlimited', 'VBN'), ('music', 'NN'), ('downloads', 'NNS'), ('through', 'IN'), ('their', 'PRP$'), ('&lsquo', 'JJ'), (';', ':'), ('Comes', 'NNP'), ('With', 'NNP'), ('Music&rsquo', 'NNP'), (';', ':'), ('mantra', 'NN'), ('in', 'IN'), ('China', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Perhaps/RB   the/DT   options/NNS   player/NN   responsible/JJ   for/IN   the/DT   trade/NN   is/VBZ   optimistic/JJ   on/IN   the/DT   stock/NN   following/VBG   news/NN   the/DT   firm/NN   is/VBZ   expanding/VBG   its/PRP$   presence/NN   in/IN   the/DT   smart/NN   phone/NN   sector/NN   in/IN   emerging/VBG   markets/NNS   by/IN   offering/NN   unlimited/VBN   music/NN   downloads/NNS   through/IN   their/PRP$   &lsquo/JJ   ;/:   (ORGANIZATION Comes/NNP With/NNP)   Music&rsquo/NNP   ;/:   mantra/NN   in/IN   (GPE China/NNP)   ./.)
+----------------------------------
+original sentence: 
+Nokia&rsquo;s shares are currently trading slightly lower by 1% to stand at $15.33.
+
+POS tagged sentence: 
+[('Nokia&rsquo', 'NN'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('are', 'VBP'), ('currently', 'RB'), ('trading', 'VBG'), ('slightly', 'RB'), ('lower', 'JJR'), ('by', 'IN'), ('1', 'CD'), ('%', 'NN'), ('to', 'TO'), ('stand', 'VB'), ('at', 'IN'), ('$', '$'), ('15.33', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia&rsquo/NN)   ;/:   s/NNS   shares/NNS   are/VBP   currently/RB   trading/VBG   slightly/RB   lower/JJR   by/IN   1/CD   %/NN   to/TO   stand/VB   at/IN   $/$   15.33/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   currently/RB   trading/VBG   slightly/RB   lower/JJR   by/IN   1/CD   %/NN)
+
+tagged sentence:
+	 are currently trading slightly lower by 1 %	res:-1
+	(VERB stand/VB at/IN)
+noun phrases to consider:
+	(NOUN Nokia&rsquo/NN)
+	(NOUN s/NNS shares/NNS)
+
+----------------------------------
+original sentence: 
+The investor employed a bullish risk reversal strategy by selling 25,000 put options at the May $14 strike for an average premium of $0.45 apiece, marked against the purchase of 25,000 in the money call options at the higher May $15 strike for a premium of $0.79 each.
+
+POS tagged sentence: 
+[('The', 'DT'), ('investor', 'NN'), ('employed', 'VBD'), ('a', 'DT'), ('bullish', 'JJ'), ('risk', 'NN'), ('reversal', 'NN'), ('strategy', 'NN'), ('by', 'IN'), ('selling', 'NN'), ('25,000', 'CD'), ('put', 'NN'), ('options', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('May', 'NNP'), ('$', '$'), ('14', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('premium', 'NN'), ('of', 'IN'), ('$', '$'), ('0.45', 'CD'), ('apiece', 'NN'), (',', ','), ('marked', 'VBD'), ('against', 'IN'), ('the', 'DT'), ('purchase', 'NN'), ('of', 'IN'), ('25,000', 'CD'), ('in', 'IN'), ('the', 'DT'), ('money', 'NN'), ('call', 'NN'), ('options', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('higher', 'JJR'), ('May', 'NNP'), ('$', '$'), ('15', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('a', 'DT'), ('premium', 'NN'), ('of', 'IN'), ('$', '$'), ('0.79', 'CD'), ('each', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   investor/NN   employed/VBD   a/DT   bullish/JJ   risk/NN   reversal/NN   strategy/NN   by/IN   selling/NN   25,000/CD   put/NN   options/NNS   at/IN   the/DT   May/NNP   $/$   14/CD   strike/NN   for/IN   an/DT   average/JJ   premium/NN   of/IN   $/$   0.45/CD   apiece/NN   ,/,   marked/VBD   against/IN   the/DT   purchase/NN   of/IN   25,000/CD   in/IN   the/DT   money/NN   call/NN   options/NNS   at/IN   the/DT   higher/JJR   May/NNP   $/$   15/CD   strike/NN   for/IN   a/DT   premium/NN   of/IN   $/$   0.79/CD   each/DT   ./.)
+----------------------------------
+original sentence: 
+The sale of the put options reduces the cost of getting long the calls to just $0.34 per contract, thereby positioning the investor to accrue uncapped profits to the upside above the breakeven share price of $15.34 through expiration day next month.
+
+POS tagged sentence: 
+[('The', 'DT'), ('sale', 'NN'), ('of', 'IN'), ('the', 'DT'), ('put', 'NN'), ('options', 'NNS'), ('reduces', 'NNS'), ('the', 'DT'), ('cost', 'NN'), ('of', 'IN'), ('getting', 'VBG'), ('long', 'RB'), ('the', 'DT'), ('calls', 'NNS'), ('to', 'TO'), ('just', 'RB'), ('$', '$'), ('0.34', 'CD'), ('per', 'IN'), ('contract', 'NN'), (',', ','), ('thereby', 'NN'), ('positioning', 'VBG'), ('the', 'DT'), ('investor', 'NN'), ('to', 'TO'), ('accrue', 'VB'), ('uncapped', 'VBN'), ('profits', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('upside', 'NN'), ('above', 'IN'), ('the', 'DT'), ('breakeven', 'NN'), ('share', 'NN'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('15.34', 'CD'), ('through', 'IN'), ('expiration', 'NN'), ('day', 'NN'), ('next', 'IN'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   sale/NN   of/IN   the/DT   put/NN   options/NNS   reduces/NNS   the/DT   cost/NN   of/IN   getting/VBG   long/RB   the/DT   calls/NNS   to/TO   just/RB   $/$   0.34/CD   per/IN   contract/NN   ,/,   thereby/NN   positioning/VBG   the/DT   investor/NN   to/TO   accrue/VB   uncapped/VBN   profits/NNS   to/TO   the/DT   upside/NN   above/IN   the/DT   breakeven/NN   share/NN   price/NN   of/IN   $/$   15.34/CD   through/IN   expiration/NN   day/NN   next/IN   month/NN   ./.)
+----------------------------------
+original sentence: 
+ARTICLE CONTINUES BELOW
+FX Options &ndash; A New Way to Trade
+ is first online trader community exclusively dedicated to FX Options.
+
+POS tagged sentence: 
+[('ARTICLE', 'NNP'), ('CONTINUES', 'NNP'), ('BELOW', 'NNP'), ('FX', 'NNP'), ('Options', 'NNPS'), ('&ndash', 'JJ'), (';', ':'), ('A', 'DT'), ('New', 'NNP'), ('Way', 'NNP'), ('to', 'TO'), ('Trade', 'NNP'), ('is', 'VBZ'), ('first', 'JJ'), ('online', 'NN'), ('trader', 'NN'), ('community', 'NN'), ('exclusively', 'RB'), ('dedicated', 'VBN'), ('to', 'TO'), ('FX', 'NNP'), ('Options', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION ARTICLE/NNP)   (ORGANIZATION CONTINUES/NNP)   BELOW/NNP   FX/NNP   Options/NNPS   &ndash/JJ   ;/:   A/DT   (GPE New/NNP)   Way/NNP   to/TO   (GPE Trade/NNP)   is/VBZ   first/JJ   online/NN   trader/NN   community/NN   exclusively/RB   dedicated/VBN   to/TO   (ORGANIZATION FX/NNP Options/NNPS)   ./.)
+----------------------------------
+original sentence: 
+Get access to free trading ideas, tools, live webinars, virtual trading, news & commentary and the Trader Forum.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('access', 'NN'), ('to', 'TO'), ('free', 'JJ'), ('trading', 'NN'), ('ideas', 'NNS'), (',', ','), ('tools', 'NNS'), (',', ','), ('live', 'JJ'), ('webinars', 'NNS'), (',', ','), ('virtual', 'JJ'), ('trading', 'NN'), (',', ','), ('news', 'NN'), ('&', 'CC'), ('commentary', 'JJ'), ('and', 'CC'), ('the', 'DT'), ('Trader', 'NNP'), ('Forum', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Get/NN)   access/NN   to/TO   free/JJ   trading/NN   ideas/NNS   ,/,   tools/NNS   ,/,   live/JJ   webinars/NNS   ,/,   virtual/JJ   trading/NN   ,/,   news/NN   &/CC   commentary/JJ   and/CC   the/DT   (ORGANIZATION Trader/NNP Forum/NNP)   ./.)
+----------------------------------
+original sentence: 
+Everything you need to know about FX Options, right at your fingertips.
+
+POS tagged sentence: 
+[('Everything', 'NN'), ('you', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('know', 'VB'), ('about', 'IN'), ('FX', 'NNP'), ('Options', 'NNPS'), (',', ','), ('right', 'RB'), ('at', 'IN'), ('your', 'PRP$'), ('fingertips', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Everything/NN   you/PRP   need/VBP   to/TO   know/VB   about/IN   (ORGANIZATION FX/NNP Options/NNPS)   ,/,   right/RB   at/IN   your/PRP$   fingertips/NNS   ./.)
+----------------------------------
+original sentence: 
+Trade Options, Stocks and Futures in One Account at optionsXpress
+OPEN AN ACCOUNT TODAY!
+
+POS tagged sentence: 
+[('Trade', 'NNP'), ('Options', 'NNPS'), (',', ','), ('Stocks', 'NNP'), ('and', 'CC'), ('Futures', 'NNP'), ('in', 'IN'), ('One', 'CD'), ('Account', 'NNP'), ('at', 'IN'), ('optionsXpress', 'NNP'), ('OPEN', 'NNP'), ('AN', 'NNP'), ('ACCOUNT', 'NNP'), ('TODAY', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Trade/NNP)   (ORGANIZATION Options/NNPS)   ,/,   (PERSON Stocks/NNP)   and/CC   (PERSON Futures/NNP)   in/IN   One/CD   Account/NNP   at/IN   (ORGANIZATION optionsXpress/NNP)   OPEN/NNP   AN/NNP   (ORGANIZATION ACCOUNT/NNP)   TODAY/NNP   !/.)
+----------------------------------
+original sentence: 
+Advisors: See How Options Can Build Client Returns
+A recent UMass study based on 9 years of cumulative data found that a certain protective collar strategy generated superior returns.
+
+POS tagged sentence: 
+[('Advisors', 'NNS'), (':', ':'), ('See', 'NNP'), ('How', 'NNP'), ('Options', 'NNPS'), ('Can', 'NNP'), ('Build', 'NNP'), ('Client', 'NNP'), ('Returns', 'NNP'), ('A', 'NNP'), ('recent', 'JJ'), ('UMass', 'NNP'), ('study', 'NN'), ('based', 'VBN'), ('on', 'IN'), ('9', 'CD'), ('years', 'NNS'), ('of', 'IN'), ('cumulative', 'JJ'), ('data', 'NNS'), ('found', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('certain', 'JJ'), ('protective', 'JJ'), ('collar', 'NN'), ('strategy', 'NN'), ('generated', 'VBD'), ('superior', 'JJ'), ('returns', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Advisors/NNS   :/:   (PERSON See/NNP How/NNP)   Options/NNPS   Can/NNP   Build/NNP   (PERSON Client/NNP Returns/NNP)   A/NNP   recent/JJ   (ORGANIZATION UMass/NNP)   study/NN   based/VBN   on/IN   9/CD   years/NNS   of/IN   cumulative/JJ   data/NNS   found/VBD   that/IN   a/DT   certain/JJ   protective/JJ   collar/NN   strategy/NN   generated/VBD   superior/JJ   returns/NNS   ./.)
+----------------------------------
+original sentence: 
+Find out more about how this Options strategy can help you generate greater returns for your clients.
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('out', 'IN'), ('more', 'JJR'), ('about', 'IN'), ('how', 'WRB'), ('this', 'DT'), ('Options', 'NNS'), ('strategy', 'NN'), ('can', 'MD'), ('help', 'VB'), ('you', 'PRP'), ('generate', 'VB'), ('greater', 'JJR'), ('returns', 'NNS'), ('for', 'IN'), ('your', 'PRP$'), ('clients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Find/NNP)   out/IN   more/JJR   about/IN   how/WRB   this/DT   Options/NNS   strategy/NN   can/MD   help/VB   you/PRP   generate/VB   greater/JJR   returns/NNS   for/IN   your/PRP$   clients/NNS   ./.)
+----------------------------------
+original sentence: 
+READ THE COMPLETE, FREE STUDY TODAY
+ANF &ndash; Abercrombie & Fitch Co.  Shares of the teen/tween fashion retailer surrendered 2.45% of their value during the first hours of the trading session to stand at $46.42 despite reports the firm posted a 5% year to date increase in same store sales in March.
+
+POS tagged sentence: 
+[('READ', 'NNP'), ('THE', 'DT'), ('COMPLETE', 'NNP'), (',', ','), ('FREE', 'NNP'), ('STUDY', 'NNP'), ('TODAY', 'NNP'), ('ANF', 'NNP'), ('&ndash', 'NNP'), (';', ':'), ('Abercrombie', 'NNP'), ('&', 'CC'), ('Fitch', 'NNP'), ('Co.', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('teen/tween', 'JJ'), ('fashion', 'NN'), ('retailer', 'NN'), ('surrendered', 'VBD'), ('2.45', 'CD'), ('%', 'NN'), ('of', 'IN'), ('their', 'PRP$'), ('value', 'NN'), ('during', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('hours', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('to', 'TO'), ('stand', 'VB'), ('at', 'IN'), ('$', '$'), ('46.42', 'CD'), ('despite', 'IN'), ('reports', 'NNS'), ('the', 'DT'), ('firm', 'NN'), ('posted', 'VBD'), ('a', 'DT'), ('5', 'CD'), ('%', 'NN'), ('year', 'NN'), ('to', 'TO'), ('date', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('same', 'NN'), ('store', 'NN'), ('sales', 'NNS'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   READ/NNP   THE/DT   (ORGANIZATION COMPLETE/NNP)   ,/,   (ORGANIZATION FREE/NNP)   STUDY/NNP   TODAY/NNP   ANF/NNP   &ndash/NNP   ;/:   Abercrombie/NNP   &/CC   (PERSON Fitch/NNP)   Co./NNP   Shares/NNP   of/IN   the/DT   teen/tween/JJ   fashion/NN   retailer/NN   surrendered/VBD   2.45/CD   %/NN   of/IN   their/PRP$   value/NN   during/IN   the/DT   first/JJ   hours/NNS   of/IN   the/DT   trading/NN   session/NN   to/TO   stand/VB   at/IN   $/$   46.42/CD   despite/IN   reports/NNS   the/DT   firm/NN   posted/VBD   a/DT   5/CD   %/NN   year/NN   to/TO   date/NN   increase/NN   in/IN   same/NN   store/NN   sales/NNS   in/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+One bullish options investor took advantage of the current share price erosion by initiating a debit call spread to position for a rebound in shares by November expiration.
+
+POS tagged sentence: 
+[('One', 'CD'), ('bullish', 'JJ'), ('options', 'NNS'), ('investor', 'NN'), ('took', 'VBD'), ('advantage', 'NN'), ('of', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('share', 'NN'), ('price', 'NN'), ('erosion', 'NN'), ('by', 'IN'), ('initiating', 'NN'), ('a', 'DT'), ('debit', 'NN'), ('call', 'NN'), ('spread', 'NN'), ('to', 'TO'), ('position', 'NN'), ('for', 'IN'), ('a', 'DT'), ('rebound', 'NN'), ('in', 'IN'), ('shares', 'NNS'), ('by', 'IN'), ('November', 'NNP'), ('expiration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   bullish/JJ   options/NNS   investor/NN   took/VBD   advantage/NN   of/IN   the/DT   current/JJ   share/NN   price/NN   erosion/NN   by/IN   initiating/NN   a/DT   debit/NN   call/NN   spread/NN   to/TO   position/NN   for/IN   a/DT   rebound/NN   in/IN   shares/NNS   by/IN   November/NNP   expiration/NN   ./.)
+----------------------------------
+original sentence: 
+The optimistic trader purchased 1,000 calls at the November $50 strike for an average premium of $3.58 each, and sold the same number of calls at the higher November $60 strike for $1.14 apiece.
+
+POS tagged sentence: 
+[('The', 'DT'), ('optimistic', 'JJ'), ('trader', 'NN'), ('purchased', 'VBN'), ('1,000', 'CD'), ('calls', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('November', 'NNP'), ('$', '$'), ('50', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('premium', 'NN'), ('of', 'IN'), ('$', '$'), ('3.58', 'CD'), ('each', 'DT'), (',', ','), ('and', 'CC'), ('sold', 'VBD'), ('the', 'DT'), ('same', 'JJ'), ('number', 'NN'), ('of', 'IN'), ('calls', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('higher', 'JJR'), ('November', 'NNP'), ('$', '$'), ('60', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('$', '$'), ('1.14', 'CD'), ('apiece', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   optimistic/JJ   trader/NN   purchased/VBN   1,000/CD   calls/NNS   at/IN   the/DT   November/NNP   $/$   50/CD   strike/NN   for/IN   an/DT   average/JJ   premium/NN   of/IN   $/$   3.58/CD   each/DT   ,/,   and/CC   sold/VBD   the/DT   same/JJ   number/NN   of/IN   calls/NNS   at/IN   the/DT   higher/JJR   November/NNP   $/$   60/CD   strike/NN   for/IN   $/$   1.14/CD   apiece/NN   ./.)
+----------------------------------
+original sentence: 
+Net premium paid for the spread amounts to $2.44 per contract.
+
+POS tagged sentence: 
+[('Net', 'JJ'), ('premium', 'NN'), ('paid', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('spread', 'NN'), ('amounts', 'VBZ'), ('to', 'TO'), ('$', '$'), ('2.44', 'CD'), ('per', 'IN'), ('contract', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Net/JJ   premium/NN   paid/VBN   for/IN   the/DT   spread/NN   amounts/VBZ   to/TO   $/$   2.44/CD   per/IN   contract/NN   ./.)
+----------------------------------
+original sentence: 
+Thus, the investor stands ready to accumulate maximum potential profits of $7.56 per contract should ANF&rsquo;s shares surge 29.25% from the current price through $60.00 ahead of expiration day in about eight months time.
+
+POS tagged sentence: 
+[('Thus', 'RB'), (',', ','), ('the', 'DT'), ('investor', 'NN'), ('stands', 'VBZ'), ('ready', 'JJ'), ('to', 'TO'), ('accumulate', 'VB'), ('maximum', 'NN'), ('potential', 'JJ'), ('profits', 'NNS'), ('of', 'IN'), ('$', '$'), ('7.56', 'CD'), ('per', 'IN'), ('contract', 'NN'), ('should', 'MD'), ('ANF&rsquo', 'VB'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('surge', 'VBP'), ('29.25', 'CD'), ('%', 'NN'), ('from', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('price', 'NN'), ('through', 'IN'), ('$', '$'), ('60.00', 'CD'), ('ahead', 'RB'), ('of', 'IN'), ('expiration', 'NN'), ('day', 'NN'), ('in', 'IN'), ('about', 'IN'), ('eight', 'CD'), ('months', 'NNS'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Thus/RB   ,/,   the/DT   investor/NN   stands/VBZ   ready/JJ   to/TO   accumulate/VB   maximum/NN   potential/JJ   profits/NNS   of/IN   $/$   7.56/CD   per/IN   contract/NN   should/MD   ANF&rsquo/VB   ;/:   s/NNS   shares/NNS   surge/VBP   29.25/CD   %/NN   from/IN   the/DT   current/JJ   price/NN   through/IN   $/$   60.00/CD   ahead/RB   of/IN   expiration/NN   day/NN   in/IN   about/IN   eight/CD   months/NNS   time/NN   ./.)
+----------------------------------
+original sentence: 
+The call spreader starts to make money as long as Abercrombie&rsquo;s shares increase at least 12.95% to surpass the effective breakeven price of $52.44 by November expiration.
+
+POS tagged sentence: 
+[('The', 'DT'), ('call', 'NN'), ('spreader', 'NN'), ('starts', 'VBZ'), ('to', 'TO'), ('make', 'VB'), ('money', 'NN'), ('as', 'IN'), ('long', 'RB'), ('as', 'IN'), ('Abercrombie&rsquo', 'JJ'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('increase', 'VB'), ('at', 'IN'), ('least', 'JJS'), ('12.95', 'CD'), ('%', 'NN'), ('to', 'TO'), ('surpass', 'NN'), ('the', 'DT'), ('effective', 'JJ'), ('breakeven', 'NN'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('52.44', 'CD'), ('by', 'IN'), ('November', 'NNP'), ('expiration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   call/NN   spreader/NN   starts/VBZ   to/TO   make/VB   money/NN   as/IN   long/RB   as/IN   Abercrombie&rsquo/JJ   ;/:   s/NNS   shares/NNS   increase/VB   at/IN   least/JJS   12.95/CD   %/NN   to/TO   surpass/NN   the/DT   effective/JJ   breakeven/NN   price/NN   of/IN   $/$   52.44/CD   by/IN   November/NNP   expiration/NN   ./.)
+----------------------------------
+original sentence: 
+BBBY &ndash; Bed Bath & Beyond, Inc.
+
+POS tagged sentence: 
+[('BBBY', 'NNP'), ('&ndash', 'JJ'), (';', ':'), ('Bed', 'NNP'), ('Bath', 'NNP'), ('&', 'CC'), ('Beyond', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   BBBY/NNP   &ndash/JJ   ;/:   (PERSON Bed/NNP Bath/NNP)   &/CC   (GPE Beyond/NNP)   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+The home furnishings retailer&rsquo;s shares are up more than 3.50% in the first half of the trading day to secure a new 52 week high of $46.44 after reporting better than expected fourth quarter earnings after the closing bell on Wednesday.
+
+POS tagged sentence: 
+[('The', 'DT'), ('home', 'NN'), ('furnishings', 'NNS'), ('retailer&rsquo', '-NONE-'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('are', 'VBP'), ('up', 'RB'), ('more', 'RBR'), ('than', 'IN'), ('3.50', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('half', 'DT'), ('of', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('to', 'TO'), ('secure', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('of', 'IN'), ('$', '$'), ('46.44', 'CD'), ('after', 'IN'), ('reporting', 'NN'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('after', 'IN'), ('the', 'DT'), ('closing', 'JJ'), ('bell', 'NN'), ('on', 'IN'), ('Wednesday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   home/NN   furnishings/NNS   retailer&rsquo/-NONE-   ;/:   s/NNS   shares/NNS   are/VBP   up/RB   more/RBR   than/IN   3.50/CD   %/NN   in/IN   the/DT   first/JJ   half/DT   of/IN   the/DT   trading/NN   day/NN   to/TO   secure/VB   a/DT   new/JJ   52/CD   week/NN   high/JJ   of/IN   $/$   46.44/CD   after/IN   reporting/NN   better/JJR   than/IN   expected/VBN   fourth/JJ   quarter/NN   earnings/NNS   after/IN   the/DT   closing/JJ   bell/NN   on/IN   Wednesday/NNP   ./.)
+----------------------------------
+original sentence: 
+BBBY posted earnings per share of $0.86 for the quarter, which trumped average analyst expectations of $0.73 per share.
+
+POS tagged sentence: 
+[('BBBY', 'NNP'), ('posted', 'VBD'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('0.86', 'CD'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), (',', ','), ('which', 'WDT'), ('trumped', 'VBD'), ('average', 'JJ'), ('analyst', 'NN'), ('expectations', 'NNS'), ('of', 'IN'), ('$', '$'), ('0.73', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BBBY/NNP)   posted/VBD   earnings/NNS   per/IN   share/NN   of/IN   $/$   0.86/CD   for/IN   the/DT   quarter/NN   ,/,   which/WDT   trumped/VBD   average/JJ   analyst/NN   expectations/NNS   of/IN   $/$   0.73/CD   per/IN   share/NN   ./.)
+----------------------------------
+original sentence: 
+The earnings surprise prompted analysts at Barclays to up their target share price on BBBY to $47.00 from $44.00, while analysts at UBS increased their target share price for the firm to $55.00.
+
+POS tagged sentence: 
+[('The', 'DT'), ('earnings', 'NNS'), ('surprise', 'VBP'), ('prompted', 'VBN'), ('analysts', 'NNS'), ('at', 'IN'), ('Barclays', 'NNP'), ('to', 'TO'), ('up', 'VB'), ('their', 'PRP$'), ('target', 'NN'), ('share', 'NN'), ('price', 'NN'), ('on', 'IN'), ('BBBY', 'NNP'), ('to', 'TO'), ('$', '$'), ('47.00', 'CD'), ('from', 'IN'), ('$', '$'), ('44.00', 'CD'), (',', ','), ('while', 'IN'), ('analysts', 'NNS'), ('at', 'IN'), ('UBS', 'NNP'), ('increased', 'VBD'), ('their', 'PRP$'), ('target', 'NN'), ('share', 'NN'), ('price', 'NN'), ('for', 'IN'), ('the', 'DT'), ('firm', 'NN'), ('to', 'TO'), ('$', '$'), ('55.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   earnings/NNS   surprise/VBP   prompted/VBN   analysts/NNS   at/IN   (ORGANIZATION Barclays/NNP)   to/TO   up/VB   their/PRP$   target/NN   share/NN   price/NN   on/IN   (ORGANIZATION BBBY/NNP)   to/TO   $/$   47.00/CD   from/IN   $/$   44.00/CD   ,/,   while/IN   analysts/NNS   at/IN   (ORGANIZATION UBS/NNP)   increased/VBD   their/PRP$   target/NN   share/NN   price/NN   for/IN   the/DT   firm/NN   to/TO   $/$   55.00/CD   ./.)
+----------------------------------
+original sentence: 
+The new 52 week high for Bed Bath & Beyond inspired on options player to lock in the rally in shares by initiating a ratio put spread in the May contract.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('for', 'IN'), ('Bed', 'NNP'), ('Bath', 'NNP'), ('&', 'CC'), ('Beyond', 'NNP'), ('inspired', 'VBD'), ('on', 'IN'), ('options', 'NNS'), ('player', 'NN'), ('to', 'TO'), ('lock', 'VB'), ('in', 'RP'), ('the', 'DT'), ('rally', 'NN'), ('in', 'IN'), ('shares', 'NNS'), ('by', 'IN'), ('initiating', 'VBG'), ('a', 'DT'), ('ratio', 'NN'), ('put', 'VBN'), ('spread', 'NN'), ('in', 'IN'), ('the', 'DT'), ('May', 'NNP'), ('contract', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   52/CD   week/NN   high/JJ   for/IN   (PERSON Bed/NNP Bath/NNP)   &/CC   (PERSON Beyond/NNP)   inspired/VBD   on/IN   options/NNS   player/NN   to/TO   lock/VB   in/RP   the/DT   rally/NN   in/IN   shares/NNS   by/IN   initiating/VBG   a/DT   ratio/NN   put/VBN   spread/NN   in/IN   the/DT   May/NNP   contract/NN   ./.)
+----------------------------------
+original sentence: 
+The investor purchased 2,500 puts at the May $46 strike for an average premium of $1.60 apiece, spread against the sale of 5,000 puts at the lower May $44 strike for $0.80 each.
+
+POS tagged sentence: 
+[('The', 'DT'), ('investor', 'NN'), ('purchased', 'VBD'), ('2,500', 'CD'), ('puts', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('May', 'NNP'), ('$', '$'), ('46', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('premium', 'NN'), ('of', 'IN'), ('$', '$'), ('1.60', 'CD'), ('apiece', 'NN'), (',', ','), ('spread', 'NN'), ('against', 'IN'), ('the', 'DT'), ('sale', 'NN'), ('of', 'IN'), ('5,000', 'CD'), ('puts', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('lower', 'JJR'), ('May', 'NNP'), ('$', '$'), ('44', 'CD'), ('strike', 'NN'), ('for', 'IN'), ('$', '$'), ('0.80', 'CD'), ('each', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   investor/NN   purchased/VBD   2,500/CD   puts/NNS   at/IN   the/DT   May/NNP   $/$   46/CD   strike/NN   for/IN   an/DT   average/JJ   premium/NN   of/IN   $/$   1.60/CD   apiece/NN   ,/,   spread/NN   against/IN   the/DT   sale/NN   of/IN   5,000/CD   puts/NNS   at/IN   the/DT   lower/JJR   May/NNP   $/$   44/CD   strike/NN   for/IN   $/$   0.80/CD   each/DT   ./.)
+----------------------------------
+original sentence: 
+The trader put on the spread for free because of the greater proportion of sold puts at the lower strike price.
+
+POS tagged sentence: 
+[('The', 'DT'), ('trader', 'NN'), ('put', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('spread', 'NN'), ('for', 'IN'), ('free', 'JJ'), ('because', 'IN'), ('of', 'IN'), ('the', 'DT'), ('greater', 'JJR'), ('proportion', 'NN'), ('of', 'IN'), ('sold', 'VBN'), ('puts', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('lower', 'JJR'), ('strike', 'NN'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   trader/NN   put/VBD   on/IN   the/DT   spread/NN   for/IN   free/JJ   because/IN   of/IN   the/DT   greater/JJR   proportion/NN   of/IN   sold/VBN   puts/NNS   at/IN   the/DT   lower/JJR   strike/NN   price/NN   ./.)
+----------------------------------
+original sentence: 
+Therefore, the investor &ndash; who is likely holding a long position in the underlying shares &ndash; is protected in case BBBY&rsquo;s shares slip beneath $46.00 ahead of expiration day in May.
+
+POS tagged sentence: 
+[('Therefore', 'NNP'), (',', ','), ('the', 'DT'), ('investor', 'NN'), ('&ndash', 'NN'), (';', ':'), ('who', 'WP'), ('is', 'VBZ'), ('likely', 'JJ'), ('holding', 'VBG'), ('a', 'DT'), ('long', 'JJ'), ('position', 'NN'), ('in', 'IN'), ('the', 'DT'), ('underlying', 'VBG'), ('shares', 'NNS'), ('&ndash', 'JJ'), (';', ':'), ('is', 'VBZ'), ('protected', 'VBN'), ('in', 'IN'), ('case', 'NN'), ('BBBY&rsquo', '-NONE-'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('slip', 'VBP'), ('beneath', 'NN'), ('$', '$'), ('46.00', 'CD'), ('ahead', 'RB'), ('of', 'IN'), ('expiration', 'NN'), ('day', 'NN'), ('in', 'IN'), ('May', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Therefore/NNP)   ,/,   the/DT   investor/NN   &ndash/NN   ;/:   who/WP   is/VBZ   likely/JJ   holding/VBG   a/DT   long/JJ   position/NN   in/IN   the/DT   underlying/VBG   shares/NNS   &ndash/JJ   ;/:   is/VBZ   protected/VBN   in/IN   case/NN   BBBY&rsquo/-NONE-   ;/:   s/NNS   shares/NNS   slip/VBP   beneath/NN   $/$   46.00/CD   ahead/RB   of/IN   expiration/NN   day/NN   in/IN   May/NNP   ./.)
+----------------------------------
+original sentence: 
+Of course, it is possible the investor does not own the stock, in which case he is positioned to amass maximum potential profits to the downside of $2.00 per contract should shares decline to $44.00 by expiration next month.
+
+POS tagged sentence: 
+[('Of', 'IN'), ('course', 'NN'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('possible', 'JJ'), ('the', 'DT'), ('investor', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('own', 'VB'), ('the', 'DT'), ('stock', 'NN'), (',', ','), ('in', 'IN'), ('which', 'WDT'), ('case', 'NN'), ('he', 'PRP'), ('is', 'VBZ'), ('positioned', 'VBN'), ('to', 'TO'), ('amass', 'NN'), ('maximum', 'NN'), ('potential', 'NN'), ('profits', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('downside', 'NN'), ('of', 'IN'), ('$', '$'), ('2.00', 'CD'), ('per', 'IN'), ('contract', 'NN'), ('should', 'MD'), ('shares', 'NNS'), ('decline', 'VBP'), ('to', 'TO'), ('$', '$'), ('44.00', 'CD'), ('by', 'IN'), ('expiration', 'NN'), ('next', 'IN'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Of/IN   course/NN   ,/,   it/PRP   is/VBZ   possible/JJ   the/DT   investor/NN   does/VBZ   not/RB   own/VB   the/DT   stock/NN   ,/,   in/IN   which/WDT   case/NN   he/PRP   is/VBZ   positioned/VBN   to/TO   amass/NN   maximum/NN   potential/NN   profits/NNS   to/TO   the/DT   downside/NN   of/IN   $/$   2.00/CD   per/IN   contract/NN   should/MD   shares/NNS   decline/VBP   to/TO   $/$   44.00/CD   by/IN   expiration/NN   next/IN   month/NN   ./.)
+----------------------------------
+original sentence: 
+Note: The material presented in this commentary is provided for informational purposes only and is based upon information that is considered to be reliable.
+
+POS tagged sentence: 
+[('Note', 'VB'), (':', ':'), ('The', 'DT'), ('material', 'NN'), ('presented', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('commentary', 'JJ'), ('is', 'VBZ'), ('provided', 'VBN'), ('for', 'IN'), ('informational', 'JJ'), ('purposes', 'NNS'), ('only', 'RB'), ('and', 'CC'), ('is', 'VBZ'), ('based', 'VBN'), ('upon', 'IN'), ('information', 'NN'), ('that', 'IN'), ('is', 'VBZ'), ('considered', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('reliable', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Note/VB   :/:   The/DT   material/NN   presented/VBD   in/IN   this/DT   commentary/JJ   is/VBZ   provided/VBN   for/IN   informational/JJ   purposes/NNS   only/RB   and/CC   is/VBZ   based/VBN   upon/IN   information/NN   that/IN   is/VBZ   considered/VBN   to/TO   be/VB   reliable/JJ   ./.)
+----------------------------------
+original sentence: 
+However, neither Interactive Brokers LLC nor its affiliates warrant its completeness, accuracy or adequacy and it should not be relied upon as such.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('neither', 'DT'), ('Interactive', 'NNP'), ('Brokers', 'NNP'), ('LLC', 'NNP'), ('nor', 'CC'), ('its', 'PRP$'), ('affiliates', 'NNS'), ('warrant', 'JJ'), ('its', 'PRP$'), ('completeness', 'NN'), (',', ','), ('accuracy', 'NN'), ('or', 'CC'), ('adequacy', 'NN'), ('and', 'CC'), ('it', 'PRP'), ('should', 'MD'), ('not', 'RB'), ('be', 'VB'), ('relied', 'VBN'), ('upon', 'IN'), ('as', 'IN'), ('such', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   neither/DT   Interactive/NNP   (PERSON Brokers/NNP LLC/NNP)   nor/CC   its/PRP$   affiliates/NNS   warrant/JJ   its/PRP$   completeness/NN   ,/,   accuracy/NN   or/CC   adequacy/NN   and/CC   it/PRP   should/MD   not/RB   be/VB   relied/VBN   upon/IN   as/IN   such/JJ   ./.)
+----------------------------------
+original sentence: 
+Neither IB nor its affiliates are responsible for any errors or omissions or for results obtained from the use of this information.
+
+POS tagged sentence: 
+[('Neither', 'DT'), ('IB', 'NNP'), ('nor', 'CC'), ('its', 'PRP$'), ('affiliates', 'NNS'), ('are', 'VBP'), ('responsible', 'JJ'), ('for', 'IN'), ('any', 'DT'), ('errors', 'NNS'), ('or', 'CC'), ('omissions', 'NNS'), ('or', 'CC'), ('for', 'IN'), ('results', 'NNS'), ('obtained', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('this', 'DT'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Neither/DT   IB/NNP   nor/CC   its/PRP$   affiliates/NNS   are/VBP   responsible/JJ   for/IN   any/DT   errors/NNS   or/CC   omissions/NNS   or/CC   for/IN   results/NNS   obtained/VBD   from/IN   the/DT   use/NN   of/IN   this/DT   information/NN   ./.)
+----------------------------------
+original sentence: 
+Past performance is not necessarily indicative of future results.
+
+POS tagged sentence: 
+[('Past', 'JJ'), ('performance', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('necessarily', 'RB'), ('indicative', 'JJ'), ('of', 'IN'), ('future', 'JJ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Past/JJ)   performance/NN   is/VBZ   not/RB   necessarily/RB   indicative/JJ   of/IN   future/JJ   results/NNS   ./.)
+----------------------------------
+original sentence: 
+This material is not intended as an offer or solicitation for the purchase or sale of any security or other financial instrument.
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('intended', 'VBN'), ('as', 'IN'), ('an', 'DT'), ('offer', 'NN'), ('or', 'CC'), ('solicitation', 'NN'), ('for', 'IN'), ('the', 'DT'), ('purchase', 'NN'), ('or', 'CC'), ('sale', 'NN'), ('of', 'IN'), ('any', 'DT'), ('security', 'NN'), ('or', 'CC'), ('other', 'JJ'), ('financial', 'JJ'), ('instrument', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   is/VBZ   not/RB   intended/VBN   as/IN   an/DT   offer/NN   or/CC   solicitation/NN   for/IN   the/DT   purchase/NN   or/CC   sale/NN   of/IN   any/DT   security/NN   or/CC   other/JJ   financial/JJ   instrument/NN   ./.)
+----------------------------------
+original sentence: 
+Securities or other financial instruments mentioned in this material are not suitable for all investors.
+
+POS tagged sentence: 
+[('Securities', 'NNS'), ('or', 'CC'), ('other', 'JJ'), ('financial', 'JJ'), ('instruments', 'NNS'), ('mentioned', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('material', 'NN'), ('are', 'VBP'), ('not', 'RB'), ('suitable', 'JJ'), ('for', 'IN'), ('all', 'DT'), ('investors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Securities/NNS   or/CC   other/JJ   financial/JJ   instruments/NNS   mentioned/VBN   in/IN   this/DT   material/NN   are/VBP   not/RB   suitable/JJ   for/IN   all/DT   investors/NNS   ./.)
+----------------------------------
+original sentence: 
+Any opinions expressed herein are given in good faith, are subject to change without notice, and are only correct as of the stated date of their issue.
+
+POS tagged sentence: 
+[('Any', 'DT'), ('opinions', 'NNS'), ('expressed', 'VBN'), ('herein', 'NN'), ('are', 'VBP'), ('given', 'VBN'), ('in', 'IN'), ('good', 'JJ'), ('faith', 'NN'), (',', ','), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('change', 'VB'), ('without', 'IN'), ('notice', 'NN'), (',', ','), ('and', 'CC'), ('are', 'VBP'), ('only', 'RB'), ('correct', 'JJ'), ('as', 'IN'), ('of', 'IN'), ('the', 'DT'), ('stated', 'VBN'), ('date', 'NN'), ('of', 'IN'), ('their', 'PRP$'), ('issue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Any/DT   opinions/NNS   expressed/VBN   herein/NN   are/VBP   given/VBN   in/IN   good/JJ   faith/NN   ,/,   are/VBP   subject/JJ   to/TO   change/VB   without/IN   notice/NN   ,/,   and/CC   are/VBP   only/RB   correct/JJ   as/IN   of/IN   the/DT   stated/VBN   date/NN   of/IN   their/PRP$   issue/NN   ./.)
+----------------------------------
+original sentence: 
+The information contained herein does not constitute advice on the tax consequences of making any particular investment decision.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('contained', 'VBD'), ('herein', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('constitute', 'VB'), ('advice', 'NN'), ('on', 'IN'), ('the', 'DT'), ('tax', 'NN'), ('consequences', 'NNS'), ('of', 'IN'), ('making', 'VBG'), ('any', 'DT'), ('particular', 'JJ'), ('investment', 'NN'), ('decision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   contained/VBD   herein/NN   does/VBZ   not/RB   constitute/VB   advice/NN   on/IN   the/DT   tax/NN   consequences/NNS   of/IN   making/VBG   any/DT   particular/JJ   investment/NN   decision/NN   ./.)
+----------------------------------
+original sentence: 
+This material does not take into account your particular investment objectives, financial situations or needs and is not intended as a recommendation to you of any particular securities, financial instruments or strategies.
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('take', 'VB'), ('into', 'IN'), ('account', 'NN'), ('your', 'PRP$'), ('particular', 'JJ'), ('investment', 'NN'), ('objectives', 'NNS'), (',', ','), ('financial', 'JJ'), ('situations', 'NNS'), ('or', 'CC'), ('needs', 'VBZ'), ('and', 'CC'), ('is', 'VBZ'), ('not', 'RB'), ('intended', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('recommendation', 'NN'), ('to', 'TO'), ('you', 'PRP'), ('of', 'IN'), ('any', 'DT'), ('particular', 'JJ'), ('securities', 'NNS'), (',', ','), ('financial', 'JJ'), ('instruments', 'NNS'), ('or', 'CC'), ('strategies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   does/VBZ   not/RB   take/VB   into/IN   account/NN   your/PRP$   particular/JJ   investment/NN   objectives/NNS   ,/,   financial/JJ   situations/NNS   or/CC   needs/VBZ   and/CC   is/VBZ   not/RB   intended/VBN   as/IN   a/DT   recommendation/NN   to/TO   you/PRP   of/IN   any/DT   particular/JJ   securities/NNS   ,/,   financial/JJ   instruments/NNS   or/CC   strategies/NNS   ./.)
+----------------------------------
+original sentence: 
+Before investing, you should consider whether it is suitable for your particular circumstances and, as necessary, seek professional advice.
+
+POS tagged sentence: 
+[('Before', 'IN'), ('investing', 'NN'), (',', ','), ('you', 'PRP'), ('should', 'MD'), ('consider', 'VB'), ('whether', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('suitable', 'JJ'), ('for', 'IN'), ('your', 'PRP$'), ('particular', 'JJ'), ('circumstances', 'NNS'), ('and', 'CC'), (',', ','), ('as', 'IN'), ('necessary', 'JJ'), (',', ','), ('seek', 'NN'), ('professional', 'JJ'), ('advice', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Before/IN   investing/NN   ,/,   you/PRP   should/MD   consider/VB   whether/IN   it/PRP   is/VBZ   suitable/JJ   for/IN   your/PRP$   particular/JJ   circumstances/NNS   and/CC   ,/,   as/IN   necessary/JJ   ,/,   seek/NN   professional/JJ   advice/NN   ./.)
+----------------------------------
+original sentence: 
+| View more articles by Register for Our Free Newsletter and Become an Insider Today!
+
+POS tagged sentence: 
+[('|', 'NN'), ('View', 'NNP'), ('more', 'RBR'), ('articles', 'NNS'), ('by', 'IN'), ('Register', 'NNP'), ('for', 'IN'), ('Our', 'NNP'), ('Free', 'NNP'), ('Newsletter', 'NNP'), ('and', 'CC'), ('Become', 'NNP'), ('an', 'DT'), ('Insider', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   |/NN   View/NNP   more/RBR   articles/NNS   by/IN   (PERSON Register/NNP)   for/IN   Our/NNP   Free/NNP   Newsletter/NNP   and/CC   (GPE Become/NNP)   an/DT   Insider/NNP   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Enter your email address below:
+ The Comment Letter is a no holds barred look at the world of options.
+
+POS tagged sentence: 
+[('Enter', 'NNP'), ('your', 'PRP$'), ('email', 'NN'), ('address', 'NN'), ('below', 'IN'), (':', ':'), ('The', 'DT'), ('Comment', 'NNP'), ('Letter', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('no', 'DT'), ('holds', 'NNS'), ('barred', 'VBD'), ('look', 'NN'), ('at', 'IN'), ('the', 'DT'), ('world', 'NN'), ('of', 'IN'), ('options', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Enter/NNP   your/PRP$   email/NN   address/NN   below/IN   :/:   The/DT   (ORGANIZATION Comment/NNP)   Letter/NNP   is/VBZ   a/DT   no/DT   holds/NNS   barred/VBD   look/NN   at/IN   the/DT   world/NN   of/IN   options/NNS   ./.)
+----------------------------------
+original sentence: 
+If you want dry industry content, then look somewhere else.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('want', 'VBP'), ('dry', 'JJ'), ('industry', 'NN'), ('content', 'NN'), (',', ','), ('then', 'RB'), ('look', 'VB'), ('somewhere', 'RB'), ('else', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   want/VBP   dry/JJ   industry/NN   content/NN   ,/,   then/RB   look/VB   somewhere/RB   else/RB   ./.)
+----------------------------------
+original sentence: 
+If you want an informed perspective on the options markets, delivered straight from the founder of The Options Insider.com, then you've come to the right place.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('want', 'VBP'), ('an', 'DT'), ('informed', 'VBN'), ('perspective', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('options', 'NNS'), ('markets', 'NNS'), (',', ','), ('delivered', 'VBN'), ('straight', 'JJ'), ('from', 'IN'), ('the', 'DT'), ('founder', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Options', 'NNS'), ('Insider.com', '-NONE-'), (',', ','), ('then', 'RB'), ('you', 'PRP'), ("'ve", 'VBP'), ('come', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('right', 'NN'), ('place', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   want/VBP   an/DT   informed/VBN   perspective/JJ   on/IN   the/DT   options/NNS   markets/NNS   ,/,   delivered/VBN   straight/JJ   from/IN   the/DT   founder/NN   of/IN   The/DT   Options/NNS   Insider.com/-NONE-   ,/,   then/RB   you/PRP   've/VBP   come/VBN   to/TO   the/DT   right/NN   place/NN   ./.)
+----------------------------------
+original sentence: 
+Citi options have traded off the charts this month.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('options', 'NNS'), ('have', 'VBP'), ('traded', 'VBN'), ('off', 'RP'), ('the', 'DT'), ('charts', 'NNS'), ('this', 'DT'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   options/NNS   have/VBP   traded/VBN   off/RP   the/DT   charts/NNS   this/DT   month/NN   ./.)
+----------------------------------
+original sentence: 
+What&#039;s the story?
+
+POS tagged sentence: 
+[('What&', 'NN'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('the', 'DT'), ('story', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S What&/NN #/# 039/CD ;/: s/NNS the/DT story/NN ?/.)
+----------------------------------
+original sentence: 
+And what happened with the crazy drop off in Feb...
+
+POS tagged sentence: 
+[('And', 'CC'), ('what', 'WP'), ('happened', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('crazy', 'NN'), ('drop', 'NN'), ('off', 'IN'), ('in', 'IN'), ('Feb..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   what/WP   happened/VBN   with/IN   the/DT   crazy/NN   drop/NN   off/IN   in/IN   Feb../NNP   ./.)
+----------------------------------
+original sentence: 
+Broker Smackdown: Think or Swim vs. Options House vs. OptionsXpress vs. Trade King
+ What a fantastic discussion.
+
+POS tagged sentence: 
+[('Broker', 'NN'), ('Smackdown', 'NNP'), (':', ':'), ('Think', 'NNP'), ('or', 'CC'), ('Swim', 'NNP'), ('vs.', 'NNP'), ('Options', 'NNPS'), ('House', 'NNP'), ('vs.', 'NNP'), ('OptionsXpress', 'NNP'), ('vs.', 'NNP'), ('Trade', 'NNP'), ('King', 'NNP'), ('What', 'NNP'), ('a', 'DT'), ('fantastic', 'JJ'), ('discussion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Broker/NN Smackdown/NNP)   :/:   Think/NNP   or/CC   (PERSON Swim/NNP)   vs./NNP   Options/NNPS   (ORGANIZATION House/NNP)   vs./NNP   OptionsXpress/NNP   vs./NNP   (PERSON Trade/NNP King/NNP)   What/NNP   a/DT   fantastic/JJ   discussion/NN   ./.)
+----------------------------------
+original sentence: 
+Thought I&#039;d chirp in.
+
+POS tagged sentence: 
+[('Thought', 'NNP'), ('I&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('d', 'NN'), ('chirp', 'NN'), ('in', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Thought/NNP)   I&/NNP   #/#   039/CD   ;/:   d/NN   chirp/NN   in/IN   ./.)
+----------------------------------
+original sentence: 
+I am a new retail trader paper trading for 3 months, live tradin...
+
+POS tagged sentence: 
+[('I', 'PRP'), ('am', 'VBP'), ('a', 'DT'), ('new', 'JJ'), ('retail', 'NN'), ('trader', 'NN'), ('paper', 'NN'), ('trading', 'NN'), ('for', 'IN'), ('3', 'CD'), ('months', 'NNS'), (',', ','), ('live', 'VBP'), ('tradin..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   am/VBP   a/DT   new/JJ   retail/NN   trader/NN   paper/NN   trading/NN   for/IN   3/CD   months/NNS   ,/,   live/VBP   tradin../NNP   ./.)
+----------------------------------
+original sentence: 
+Broker Smackdown: Think or Swim vs. Options House vs. OptionsXpress vs. Trade King
+ Thanks for the link Felicia.
+
+POS tagged sentence: 
+[('Broker', 'NN'), ('Smackdown', 'NNP'), (':', ':'), ('Think', 'NNP'), ('or', 'CC'), ('Swim', 'NNP'), ('vs.', 'NNP'), ('Options', 'NNPS'), ('House', 'NNP'), ('vs.', 'NNP'), ('OptionsXpress', 'NNP'), ('vs.', 'NNP'), ('Trade', 'NNP'), ('King', 'NNP'), ('Thanks', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('link', 'NN'), ('Felicia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Broker/NN Smackdown/NNP)   :/:   Think/NNP   or/CC   (PERSON Swim/NNP)   vs./NNP   Options/NNPS   (ORGANIZATION House/NNP)   vs./NNP   OptionsXpress/NNP   vs./NNP   (PERSON Trade/NNP King/NNP Thanks/NNP)   for/IN   the/DT   link/NN   (PERSON Felicia/NNP)   ./.)
+----------------------------------
+original sentence: 
+There&#039;s some great info there.
+
+POS tagged sentence: 
+[('There&', 'NN'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('some', 'DT'), ('great', 'JJ'), ('info', 'NN'), ('there', 'EX'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There&/NN   #/#   039/CD   ;/:   s/NNS   some/DT   great/JJ   info/NN   there/EX   ./.)
+----------------------------------
+original sentence: 
+I think the biggest selling point for Think or Swim, at ...
+Start Discussing Now
+
+
+POS tagged sentence: 
+[('I', 'PRP'), ('think', 'VBP'), ('the', 'DT'), ('biggest', 'JJS'), ('selling', 'VBG'), ('point', 'NN'), ('for', 'IN'), ('Think', 'NNP'), ('or', 'CC'), ('Swim', 'NNP'), (',', ','), ('at', 'IN'), ('..', 'NNP'), ('.', '.'), ('Start', 'NNP'), ('Discussing', 'NNP'), ('Now', 'NNP')]
+
+
+ERTAGGED sentence: (S   I/PRP   think/VBP   the/DT   biggest/JJS   selling/VBG   point/NN   for/IN   Think/NNP   or/CC   (GPE Swim/NNP)   ,/,   at/IN   ../NNP   ./.   (PERSON Start/NNP Discussing/NNP Now/NNP))
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

@@ -1,0 +1,553 @@
+
+----------------------------------
+original sentence: 
+Articles about Vaccines Los Angeles Times
+FIND MORE STORIES ABOUT:
+'91 Memo Warned of Mercury in Shots
+ A memo from Merck & Co. shows that, nearly a decade before the first public disclosure, senior executives were concerned that infants were getting an elevated dose of mercury in vaccinations containing a widely used sterilizing agent.
+
+POS tagged sentence: 
+[('Articles', 'NNS'), ('about', 'IN'), ('Vaccines', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Times', 'NNP'), ('FIND', 'NNP'), ('MORE', 'NNP'), ('STORIES', 'NNP'), ('ABOUT', 'NNP'), (':', ':'), ("'91", '-NONE-'), ('Memo', 'NNP'), ('Warned', 'NNP'), ('of', 'IN'), ('Mercury', 'NNP'), ('in', 'IN'), ('Shots', 'NNP'), ('A', 'DT'), ('memo', 'NN'), ('from', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('shows', 'VBZ'), ('that', 'IN'), (',', ','), ('nearly', 'RB'), ('a', 'DT'), ('decade', 'NN'), ('before', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('public', 'JJ'), ('disclosure', 'NN'), (',', ','), ('senior', 'JJ'), ('executives', 'NNS'), ('were', 'VBD'), ('concerned', 'VBN'), ('that', 'IN'), ('infants', 'NNS'), ('were', 'VBD'), ('getting', 'VBG'), ('an', 'DT'), ('elevated', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('mercury', 'NN'), ('in', 'IN'), ('vaccinations', 'NNS'), ('containing', 'VBG'), ('a', 'DT'), ('widely', 'RB'), ('used', 'JJ'), ('sterilizing', 'NN'), ('agent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Articles/NNS   about/IN   (PERSON Vaccines/NNP Los/NNP Angeles/NNP Times/NNP)   FIND/NNP   MORE/NNP   STORIES/NNP   ABOUT/NNP   :/:   '91/-NONE-   (PERSON Memo/NNP Warned/NNP)   of/IN   (ORGANIZATION Mercury/NNP)   in/IN   (GPE Shots/NNP)   A/DT   memo/NN   from/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   shows/VBZ   that/IN   ,/,   nearly/RB   a/DT   decade/NN   before/IN   the/DT   first/JJ   public/JJ   disclosure/NN   ,/,   senior/JJ   executives/NNS   were/VBD   concerned/VBN   that/IN   infants/NNS   were/VBD   getting/VBG   an/DT   elevated/JJ   dose/NN   of/IN   mercury/NN   in/IN   vaccinations/NNS   containing/VBG   a/DT   widely/RB   used/JJ   sterilizing/NN   agent/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB shows/VBZ that/IN)
+	(VERB were/VBD concerned/VBN that/IN infants/NNS)
+
+tagged sentence:
+	 were concerned that infants	res:-1
+	(VERB   were/VBD   getting/VBG   an/DT   elevated/JJ   dose/NN   of/IN   mercury/NN   in/IN   vaccinations/NNS)
+	(VERB containing/VBG a/DT widely/RB used/JJ sterilizing/NN agent/NN)
+noun phrases to consider:
+	(NOUN Articles/NNS)
+	(NOUN Vaccines/NNP Los/NNP Angeles/NNP Times/NNP)
+	(NOUN FIND/NNP MORE/NNP STORIES/NNP ABOUT/NNP)
+	(NOUN Memo/NNP Warned/NNP)
+	(NOUN Mercury/NNP)
+	(NOUN Shots/NNP)
+	(NOUN memo/NN)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN decade/NN)
+	(NOUN the/DT first/JJ public/JJ disclosure/NN)
+	(NOUN senior/JJ executives/NNS)
+
+----------------------------------
+original sentence: 
+The March 1991 memo, obtained by The Times, said that 6 month old children who received their shots on schedule would get a mercury dose up to 87 times higher than guidelines for the maximum daily consumption of mercury from fish.
+
+POS tagged sentence: 
+[('The', 'DT'), ('March', 'NNP'), ('1991', 'CD'), ('memo', 'NN'), (',', ','), ('obtained', 'VBD'), ('by', 'IN'), ('The', 'DT'), ('Times', 'NNP'), (',', ','), ('said', 'VBD'), ('that', 'IN'), ('6', 'CD'), ('month', 'NN'), ('old', 'JJ'), ('children', 'NNS'), ('who', 'WP'), ('received', 'VBN'), ('their', 'PRP$'), ('shots', 'NNS'), ('on', 'IN'), ('schedule', 'NN'), ('would', 'MD'), ('get', 'VB'), ('a', 'DT'), ('mercury', 'NN'), ('dose', 'NN'), ('up', 'IN'), ('to', 'TO'), ('87', 'CD'), ('times', 'NNS'), ('higher', 'JJR'), ('than', 'IN'), ('guidelines', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('maximum', 'NN'), ('daily', 'RB'), ('consumption', 'NN'), ('of', 'IN'), ('mercury', 'NN'), ('from', 'IN'), ('fish', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   March/NNP   1991/CD   memo/NN   ,/,   obtained/VBD   by/IN   The/DT   (GPE Times/NNP)   ,/,   said/VBD   that/IN   6/CD   month/NN   old/JJ   children/NNS   who/WP   received/VBN   their/PRP$   shots/NNS   on/IN   schedule/NN   would/MD   get/VB   a/DT   mercury/NN   dose/NN   up/IN   to/TO   87/CD   times/NNS   higher/JJR   than/IN   guidelines/NNS   for/IN   the/DT   maximum/NN   daily/RB   consumption/NN   of/IN   mercury/NN   from/IN   fish/JJ   ./.)
+----------------------------------
+original sentence: 
+H1N1 vaccine a tough sell to pregnant women
+As the H1N1 influenza vaccine trickles into clinics and pharmacies over the next few weeks, public health officials and doctors desperately hope that pregnant women will be at the front of the line for the shot.
+
+POS tagged sentence: 
+[('H1N1', 'NNP'), ('vaccine', 'NN'), ('a', 'DT'), ('tough', 'JJ'), ('sell', 'NN'), ('to', 'TO'), ('pregnant', 'VB'), ('women', 'NNS'), ('As', 'IN'), ('the', 'DT'), ('H1N1', 'NNP'), ('influenza', 'NN'), ('vaccine', 'NN'), ('trickles', 'NNS'), ('into', 'IN'), ('clinics', 'NNS'), ('and', 'CC'), ('pharmacies', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('few', 'JJ'), ('weeks', 'NNS'), (',', ','), ('public', 'JJ'), ('health', 'NN'), ('officials', 'NNS'), ('and', 'CC'), ('doctors', 'NNS'), ('desperately', 'RB'), ('hope', 'VBP'), ('that', 'IN'), ('pregnant', 'JJ'), ('women', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('at', 'IN'), ('the', 'DT'), ('front', 'NN'), ('of', 'IN'), ('the', 'DT'), ('line', 'NN'), ('for', 'IN'), ('the', 'DT'), ('shot', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE H1N1/NNP)   vaccine/NN   a/DT   tough/JJ   sell/NN   to/TO   pregnant/VB   women/NNS   As/IN   the/DT   (ORGANIZATION H1N1/NNP)   influenza/NN   vaccine/NN   trickles/NNS   into/IN   clinics/NNS   and/CC   pharmacies/NNS   over/IN   the/DT   next/JJ   few/JJ   weeks/NNS   ,/,   public/JJ   health/NN   officials/NNS   and/CC   doctors/NNS   desperately/RB   hope/VBP   that/IN   pregnant/JJ   women/NNS   will/MD   be/VB   at/IN   the/DT   front/NN   of/IN   the/DT   line/NN   for/IN   the/DT   shot/NN   ./.)
+----------------------------------
+original sentence: 
+Past influenza pandemics have proved that they're at increased risk for severe complications and they appear to be even more vulnerable to this new flu strain.
+
+POS tagged sentence: 
+[('Past', 'JJ'), ('influenza', 'NN'), ('pandemics', 'NNS'), ('have', 'VBP'), ('proved', 'VBN'), ('that', 'IN'), ('they', 'PRP'), ("'re", 'VBP'), ('at', 'IN'), ('increased', 'VBN'), ('risk', 'NN'), ('for', 'IN'), ('severe', 'JJ'), ('complications', 'NNS'), ('and', 'CC'), ('they', 'PRP'), ('appear', 'VBP'), ('to', 'TO'), ('be', 'VB'), ('even', 'RB'), ('more', 'RBR'), ('vulnerable', 'JJ'), ('to', 'TO'), ('this', 'DT'), ('new', 'JJ'), ('flu', 'NN'), ('strain', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Past/JJ)   influenza/NN   pandemics/NNS   have/VBP   proved/VBN   that/IN   they/PRP   're/VBP   at/IN   increased/VBN   risk/NN   for/IN   severe/JJ   complications/NNS   and/CC   they/PRP   appear/VBP   to/TO   be/VB   even/RB   more/RBR   vulnerable/JJ   to/TO   this/DT   new/JJ   flu/NN   strain/NN   ./.)
+----------------------------------
+original sentence: 
+On Thursday, a consortium of major medical groups, including the American Medical Assn., the Centers for Disease Control and Prevention, and the American College of Obstetricians and Gynecologists, released a statement pleading with pregnant women to get both the H1N1 and seasonal flu vaccines.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Thursday', 'NNP'), (',', ','), ('a', 'DT'), ('consortium', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('medical', 'JJ'), ('groups', 'NNS'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('American', 'NNP'), ('Medical', 'NNP'), ('Assn.', 'NNP'), (',', ','), ('the', 'DT'), ('Centers', 'NNPS'), ('for', 'IN'), ('Disease', 'NNP'), ('Control', 'NNP'), ('and', 'CC'), ('Prevention', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('American', 'NNP'), ('College', 'NNP'), ('of', 'IN'), ('Obstetricians', 'NNPS'), ('and', 'CC'), ('Gynecologists', 'NNPS'), (',', ','), ('released', 'VBN'), ('a', 'DT'), ('statement', 'NN'), ('pleading', 'VBG'), ('with', 'IN'), ('pregnant', 'JJ'), ('women', 'NNS'), ('to', 'TO'), ('get', 'VB'), ('both', 'DT'), ('the', 'DT'), ('H1N1', 'NNP'), ('and', 'CC'), ('seasonal', 'JJ'), ('flu', 'NN'), ('vaccines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Thursday/NNP   ,/,   a/DT   consortium/NN   of/IN   major/JJ   medical/JJ   groups/NNS   ,/,   including/VBG   the/DT   (ORGANIZATION American/NNP Medical/NNP)   Assn./NNP   ,/,   the/DT   (ORGANIZATION Centers/NNPS)   for/IN   (PERSON Disease/NNP Control/NNP)   and/CC   Prevention/NNP   ,/,   and/CC   the/DT   (ORGANIZATION American/NNP College/NNP)   of/IN   (GPE Obstetricians/NNPS)   and/CC   Gynecologists/NNPS   ,/,   released/VBN   a/DT   statement/NN   pleading/VBG   with/IN   pregnant/JJ   women/NNS   to/TO   get/VB   both/DT   the/DT   (ORGANIZATION H1N1/NNP)   and/CC   seasonal/JJ   flu/NN   vaccines/NNS   ./.)
+----------------------------------
+original sentence: 
+Experimental Vaccine Shows Promise Against Lymphoma
+ An experimental vaccine tested on four lymphoma patients has shown promise in treating the lymph cancer, scientists said Friday.
+
+POS tagged sentence: 
+[('Experimental', 'NNP'), ('Vaccine', 'NNP'), ('Shows', 'NNP'), ('Promise', 'NNP'), ('Against', 'NNP'), ('Lymphoma', 'NNP'), ('An', 'NNP'), ('experimental', 'JJ'), ('vaccine', 'NN'), ('tested', 'VBD'), ('on', 'IN'), ('four', 'CD'), ('lymphoma', 'NN'), ('patients', 'NNS'), ('has', 'VBZ'), ('shown', 'VBN'), ('promise', 'NN'), ('in', 'IN'), ('treating', 'NN'), ('the', 'DT'), ('lymph', 'NN'), ('cancer', 'NN'), (',', ','), ('scientists', 'NNS'), ('said', 'VBD'), ('Friday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Experimental/NNP)   (PERSON     Vaccine/NNP     Shows/NNP     Promise/NNP     Against/NNP     Lymphoma/NNP     An/NNP)   experimental/JJ   vaccine/NN   tested/VBD   on/IN   four/CD   lymphoma/NN   patients/NNS   has/VBZ   shown/VBN   promise/NN   in/IN   treating/NN   the/DT   lymph/NN   cancer/NN   ,/,   scientists/NNS   said/VBD   Friday/NNP   ./.)
+----------------------------------
+original sentence: 
+The vaccine is for non Hodgkin's lymphoma, a form of lymph cancer that occurs when disease fighting antibodies known as B cells grow out of control.
+
+POS tagged sentence: 
+[('The', 'DT'), ('vaccine', 'NN'), ('is', 'VBZ'), ('for', 'IN'), ('non', 'NN'), ('Hodgkin', 'NNP'), ("'s", 'POS'), ('lymphoma', 'NN'), (',', ','), ('a', 'DT'), ('form', 'NN'), ('of', 'IN'), ('lymph', 'NN'), ('cancer', 'NN'), ('that', 'WDT'), ('occurs', 'VBZ'), ('when', 'WRB'), ('disease', 'NN'), ('fighting', 'VBG'), ('antibodies', 'NNS'), ('known', 'VBN'), ('as', 'IN'), ('B', 'NNP'), ('cells', 'NNS'), ('grow', 'VBP'), ('out', 'RP'), ('of', 'IN'), ('control', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   vaccine/NN   is/VBZ   for/IN   non/NN   (PERSON Hodgkin/NNP)   's/POS   lymphoma/NN   ,/,   a/DT   form/NN   of/IN   lymph/NN   cancer/NN   that/WDT   occurs/VBZ   when/WRB   disease/NN   fighting/VBG   antibodies/NNS   known/VBN   as/IN   B/NNP   cells/NNS   grow/VBP   out/RP   of/IN   control/NN   ./.)
+----------------------------------
+original sentence: 
+"The finding shows that we can induce lymphoma patients to have an immune response," said Dr.
+Study bolsters hopes for prostate cancer vaccine rejected by FDA
+ A controversial prostate cancer vaccine that previously had been rejected by the Food and Drug Administration improves survival of patients with the advanced form of the disease more than existing treatments and should be brought to market, researchers said Tuesday.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('finding', 'NN'), ('shows', 'VBZ'), ('that', 'IN'), ('we', 'PRP'), ('can', 'MD'), ('induce', 'VB'), ('lymphoma', 'NN'), ('patients', 'NNS'), ('to', 'TO'), ('have', 'VB'), ('an', 'DT'), ('immune', 'NN'), ('response', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Dr', 'NNP'), ('.', '.'), ('Study', 'NNP'), ('bolsters', 'NNS'), ('hopes', 'VBZ'), ('for', 'IN'), ('prostate', 'JJ'), ('cancer', 'NN'), ('vaccine', 'NN'), ('rejected', 'VBD'), ('by', 'IN'), ('FDA', 'NNP'), ('A', 'DT'), ('controversial', 'JJ'), ('prostate', 'NN'), ('cancer', 'NN'), ('vaccine', 'NN'), ('that', 'WDT'), ('previously', 'RB'), ('had', 'VBD'), ('been', 'VBN'), ('rejected', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('Food', 'NNP'), ('and', 'CC'), ('Drug', 'NNP'), ('Administration', 'NNP'), ('improves', 'VBZ'), ('survival', 'NN'), ('of', 'IN'), ('patients', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('advanced', 'JJ'), ('form', 'NN'), ('of', 'IN'), ('the', 'DT'), ('disease', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('existing', 'VBG'), ('treatments', 'NNS'), ('and', 'CC'), ('should', 'MD'), ('be', 'VB'), ('brought', 'VBN'), ('to', 'TO'), ('market', 'NN'), (',', ','), ('researchers', 'NNS'), ('said', 'VBD'), ('Tuesday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   finding/NN   shows/VBZ   that/IN   we/PRP   can/MD   induce/VB   lymphoma/NN   patients/NNS   to/TO   have/VB   an/DT   immune/NN   response/NN   ,/,   "/:   said/VBD   Dr/NNP   ./.   Study/NNP   bolsters/NNS   hopes/VBZ   for/IN   prostate/JJ   cancer/NN   vaccine/NN   rejected/VBD   by/IN   (ORGANIZATION FDA/NNP)   A/DT   controversial/JJ   prostate/NN   cancer/NN   vaccine/NN   that/WDT   previously/RB   had/VBD   been/VBN   rejected/VBN   by/IN   the/DT   (ORGANIZATION Food/NNP)   and/CC   (PERSON Drug/NNP Administration/NNP)   improves/VBZ   survival/NN   of/IN   patients/NNS   with/IN   the/DT   advanced/JJ   form/NN   of/IN   the/DT   disease/NN   more/JJR   than/IN   existing/VBG   treatments/NNS   and/CC   should/MD   be/VB   brought/VBN   to/TO   market/NN   ,/,   researchers/NNS   said/VBD   Tuesday/NNP   ./.)
+----------------------------------
+original sentence: 
+Research can't link autism, mercury
+ The prevalence of autism in California children continued to rise after most vaccine manufacturers started to remove the mercury based preservative thimerosal in 1999, suggesting that the chemical was not a primary cause of the disorder, according to a study released Monday.
+
+POS tagged sentence: 
+[('Research', 'NN'), ('ca', 'MD'), ("n't", 'RB'), ('link', 'VB'), ('autism', 'NN'), (',', ','), ('mercury', 'NN'), ('The', 'DT'), ('prevalence', 'NN'), ('of', 'IN'), ('autism', 'NN'), ('in', 'IN'), ('California', 'NNP'), ('children', 'NNS'), ('continued', 'VBD'), ('to', 'TO'), ('rise', 'VB'), ('after', 'IN'), ('most', 'JJS'), ('vaccine', 'NN'), ('manufacturers', 'NNS'), ('started', 'VBD'), ('to', 'TO'), ('remove', 'VB'), ('the', 'DT'), ('mercury', 'NN'), ('based', 'VBN'), ('preservative', 'JJ'), ('thimerosal', 'NN'), ('in', 'IN'), ('1999', 'CD'), (',', ','), ('suggesting', 'VBG'), ('that', 'IN'), ('the', 'DT'), ('chemical', 'JJ'), ('was', 'VBD'), ('not', 'RB'), ('a', 'DT'), ('primary', 'JJ'), ('cause', 'NN'), ('of', 'IN'), ('the', 'DT'), ('disorder', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('study', 'NN'), ('released', 'VBN'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Research/NN)   ca/MD   n't/RB   link/VB   autism/NN   ,/,   mercury/NN   The/DT   prevalence/NN   of/IN   autism/NN   in/IN   (GPE California/NNP)   children/NNS   continued/VBD   to/TO   rise/VB   after/IN   most/JJS   vaccine/NN   manufacturers/NNS   started/VBD   to/TO   remove/VB   the/DT   mercury/NN   based/VBN   preservative/JJ   thimerosal/NN   in/IN   1999/CD   ,/,   suggesting/VBG   that/IN   the/DT   chemical/JJ   was/VBD   not/RB   a/DT   primary/JJ   cause/NN   of/IN   the/DT   disorder/NN   ,/,   according/VBG   to/TO   a/DT   study/NN   released/VBN   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+The analysis found that from 2004 to 2007, when exposure to thimerosal dropped significantly for 3 to 5 year olds, the autism rate continued to increase in that group from 3.0 to 4.1 per 1,000 children.
+
+POS tagged sentence: 
+[('The', 'DT'), ('analysis', 'NN'), ('found', 'VBD'), ('that', 'IN'), ('from', 'IN'), ('2004', 'CD'), ('to', 'TO'), ('2007', 'CD'), (',', ','), ('when', 'WRB'), ('exposure', 'NN'), ('to', 'TO'), ('thimerosal', 'NN'), ('dropped', 'VBD'), ('significantly', 'RB'), ('for', 'IN'), ('3', 'CD'), ('to', 'TO'), ('5', 'CD'), ('year', 'NN'), ('olds', 'NNS'), (',', ','), ('the', 'DT'), ('autism', 'NN'), ('rate', 'NN'), ('continued', 'VBD'), ('to', 'TO'), ('increase', 'VB'), ('in', 'IN'), ('that', 'DT'), ('group', 'NN'), ('from', 'IN'), ('3.0', 'CD'), ('to', 'TO'), ('4.1', 'CD'), ('per', 'IN'), ('1,000', 'CD'), ('children', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   analysis/NN   found/VBD   that/IN   from/IN   2004/CD   to/TO   2007/CD   ,/,   when/WRB   exposure/NN   to/TO   thimerosal/NN   dropped/VBD   significantly/RB   for/IN   3/CD   to/TO   5/CD   year/NN   olds/NNS   ,/,   the/DT   autism/NN   rate/NN   continued/VBD   to/TO   increase/VB   in/IN   that/DT   group/NN   from/IN   3.0/CD   to/TO   4.1/CD   per/IN   1,000/CD   children/NNS   ./.)
+----------------------------------
+original sentence: 
+Pneumonia vaccine may help limit swine flu deaths
+ In years past, the nation's attempts to prevent flu related deaths have focused on limiting transmission of the virus through widespread vaccination programs.
+
+POS tagged sentence: 
+[('Pneumonia', 'NNP'), ('vaccine', 'NN'), ('may', 'MD'), ('help', 'VB'), ('limit', 'NN'), ('swine', 'NN'), ('flu', 'NN'), ('deaths', 'NNS'), ('In', 'IN'), ('years', 'NNS'), ('past', 'NN'), (',', ','), ('the', 'DT'), ('nation', 'NN'), ("'s", 'POS'), ('attempts', 'NNS'), ('to', 'TO'), ('prevent', 'VB'), ('flu', 'NN'), ('related', 'VBN'), ('deaths', 'NNS'), ('have', 'VBP'), ('focused', 'VBN'), ('on', 'IN'), ('limiting', 'NN'), ('transmission', 'NN'), ('of', 'IN'), ('the', 'DT'), ('virus', 'NN'), ('through', 'IN'), ('widespread', 'JJ'), ('vaccination', 'NN'), ('programs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Pneumonia/NNP)   vaccine/NN   may/MD   help/VB   limit/NN   swine/NN   flu/NN   deaths/NNS   In/IN   years/NNS   past/NN   ,/,   the/DT   nation/NN   's/POS   attempts/NNS   to/TO   prevent/VB   flu/NN   related/VBN   deaths/NNS   have/VBP   focused/VBN   on/IN   limiting/NN   transmission/NN   of/IN   the/DT   virus/NN   through/IN   widespread/JJ   vaccination/NN   programs/NNS   ./.)
+----------------------------------
+original sentence: 
+This year, with school starting up well before a vaccine for the pandemic H1N1 influenza virus will be available, there will be little that can slow the spread of the virus for the next few months.
+
+POS tagged sentence: 
+[('This', 'DT'), ('year', 'NN'), (',', ','), ('with', 'IN'), ('school', 'NN'), ('starting', 'VBG'), ('up', 'IN'), ('well', 'RB'), ('before', 'IN'), ('a', 'DT'), ('vaccine', 'NN'), ('for', 'IN'), ('the', 'DT'), ('pandemic', 'JJ'), ('H1N1', 'NNP'), ('influenza', 'NN'), ('virus', 'VBZ'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), (',', ','), ('there', 'EX'), ('will', 'MD'), ('be', 'VB'), ('little', 'RB'), ('that', 'IN'), ('can', 'MD'), ('slow', 'VB'), ('the', 'DT'), ('spread', 'NN'), ('of', 'IN'), ('the', 'DT'), ('virus', 'NN'), ('for', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('few', 'JJ'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   year/NN   ,/,   with/IN   school/NN   starting/VBG   up/IN   well/RB   before/IN   a/DT   vaccine/NN   for/IN   the/DT   pandemic/JJ   (ORGANIZATION H1N1/NNP)   influenza/NN   virus/VBZ   will/MD   be/VB   available/JJ   ,/,   there/EX   will/MD   be/VB   little/RB   that/IN   can/MD   slow/VB   the/DT   spread/NN   of/IN   the/DT   virus/NN   for/IN   the/DT   next/JJ   few/JJ   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Vaccines for drug addiction show promise
+Shari Roan and Karen Kaplan
+Vaccines to help people recover from such addictions as nicotine, cocaine, heroin and methamphetamines now appear scientifically and medically achievable after doctors reported Monday that a vaccine to treat cocaine dependence had produced a large enough antibody response to reduce cocaine use in 38% of addicted individuals.
+
+POS tagged sentence: 
+[('Vaccines', 'NNS'), ('for', 'IN'), ('drug', 'NN'), ('addiction', 'NN'), ('show', 'NN'), ('promise', 'NN'), ('Shari', 'NNP'), ('Roan', 'NNP'), ('and', 'CC'), ('Karen', 'NNP'), ('Kaplan', 'NNP'), ('Vaccines', 'NNP'), ('to', 'TO'), ('help', 'VB'), ('people', 'NNS'), ('recover', 'VB'), ('from', 'IN'), ('such', 'JJ'), ('addictions', 'NNS'), ('as', 'IN'), ('nicotine', 'NN'), (',', ','), ('cocaine', 'NN'), (',', ','), ('heroin', 'NN'), ('and', 'CC'), ('methamphetamines', 'NNS'), ('now', 'RB'), ('appear', 'VBP'), ('scientifically', 'RB'), ('and', 'CC'), ('medically', 'RB'), ('achievable', 'JJ'), ('after', 'IN'), ('doctors', 'NNS'), ('reported', 'VBD'), ('Monday', 'NNP'), ('that', 'IN'), ('a', 'DT'), ('vaccine', 'NN'), ('to', 'TO'), ('treat', 'VB'), ('cocaine', 'NN'), ('dependence', 'NN'), ('had', 'VBD'), ('produced', 'VBN'), ('a', 'DT'), ('large', 'JJ'), ('enough', 'RB'), ('antibody', 'JJ'), ('response', 'NN'), ('to', 'TO'), ('reduce', 'VB'), ('cocaine', 'NN'), ('use', 'NN'), ('in', 'IN'), ('38', 'CD'), ('%', 'NN'), ('of', 'IN'), ('addicted', 'VBN'), ('individuals', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Vaccines/NNS   for/IN   drug/NN   addiction/NN   show/NN   promise/NN   (PERSON Shari/NNP Roan/NNP)   and/CC   (PERSON Karen/NNP Kaplan/NNP Vaccines/NNP)   to/TO   help/VB   people/NNS   recover/VB   from/IN   such/JJ   addictions/NNS   as/IN   nicotine/NN   ,/,   cocaine/NN   ,/,   heroin/NN   and/CC   methamphetamines/NNS   now/RB   appear/VBP   scientifically/RB   and/CC   medically/RB   achievable/JJ   after/IN   doctors/NNS   reported/VBD   Monday/NNP   that/IN   a/DT   vaccine/NN   to/TO   treat/VB   cocaine/NN   dependence/NN   had/VBD   produced/VBN   a/DT   large/JJ   enough/RB   antibody/JJ   response/NN   to/TO   reduce/VB   cocaine/NN   use/NN   in/IN   38/CD   %/NN   of/IN   addicted/VBN   individuals/NNS   ./.)
+----------------------------------
+original sentence: 
+Those results come on the heels of last week's announcement that the federal government would fund a large clinical trial of a nicotine vaccine based on earlier promising studies.
+
+POS tagged sentence: 
+[('Those', 'DT'), ('results', 'NNS'), ('come', 'VBP'), ('on', 'IN'), ('the', 'DT'), ('heels', 'NNS'), ('of', 'IN'), ('last', 'JJ'), ('week', 'NN'), ("'s", 'POS'), ('announcement', 'NN'), ('that', 'IN'), ('the', 'DT'), ('federal', 'JJ'), ('government', 'NN'), ('would', 'MD'), ('fund', 'VB'), ('a', 'DT'), ('large', 'JJ'), ('clinical', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('a', 'DT'), ('nicotine', 'NN'), ('vaccine', 'NN'), ('based', 'VBN'), ('on', 'IN'), ('earlier', 'JJR'), ('promising', 'JJ'), ('studies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Those/DT   results/NNS   come/VBP   on/IN   the/DT   heels/NNS   of/IN   last/JJ   week/NN   's/POS   announcement/NN   that/IN   the/DT   federal/JJ   government/NN   would/MD   fund/VB   a/DT   large/JJ   clinical/JJ   trial/NN   of/IN   a/DT   nicotine/NN   vaccine/NN   based/VBN   on/IN   earlier/JJR   promising/JJ   studies/NNS   ./.)
+----------------------------------
+original sentence: 
+Most California voters don't plan to get swine flu vaccine, Times/USC poll finds
+Molly Hennessy Fiske
+As concern spreads about H1N1 flu, a new survey of California voters found that while most consider the vaccine safe, a majority had no plans to get vaccinated.
+
+POS tagged sentence: 
+[('Most', 'JJS'), ('California', 'NNP'), ('voters', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('plan', 'VB'), ('to', 'TO'), ('get', 'VB'), ('swine', 'NN'), ('flu', 'NN'), ('vaccine', 'NN'), (',', ','), ('Times/USC', 'JJ'), ('poll', 'NN'), ('finds', 'NNS'), ('Molly', 'RB'), ('Hennessy', 'NNP'), ('Fiske', 'NNP'), ('As', 'NNP'), ('concern', 'NN'), ('spreads', 'NNS'), ('about', 'IN'), ('H1N1', 'NNP'), ('flu', 'NN'), (',', ','), ('a', 'DT'), ('new', 'JJ'), ('survey', 'NN'), ('of', 'IN'), ('California', 'NNP'), ('voters', 'NNS'), ('found', 'VBD'), ('that', 'IN'), ('while', 'IN'), ('most', 'JJS'), ('consider', 'NN'), ('the', 'DT'), ('vaccine', 'NN'), ('safe', 'NN'), (',', ','), ('a', 'DT'), ('majority', 'NN'), ('had', 'VBD'), ('no', 'DT'), ('plans', 'NNS'), ('to', 'TO'), ('get', 'VB'), ('vaccinated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Most/JJS   (GPE California/NNP)   voters/NNS   do/VBP   n't/RB   plan/VB   to/TO   get/VB   swine/NN   flu/NN   vaccine/NN   ,/,   Times/USC/JJ   poll/NN   finds/NNS   Molly/RB   (PERSON Hennessy/NNP Fiske/NNP As/NNP)   concern/NN   spreads/NNS   about/IN   (ORGANIZATION H1N1/NNP)   flu/NN   ,/,   a/DT   new/JJ   survey/NN   of/IN   (GPE California/NNP)   voters/NNS   found/VBD   that/IN   while/IN   most/JJS   consider/NN   the/DT   vaccine/NN   safe/NN   ,/,   a/DT   majority/NN   had/VBD   no/DT   plans/NNS   to/TO   get/VB   vaccinated/VBN   ./.)
+----------------------------------
+original sentence: 
+The poll also found that blacks and Latinos are far more likely than other groups to say they believe the vaccine could be unsafe.
+
+POS tagged sentence: 
+[('The', 'DT'), ('poll', 'NN'), ('also', 'RB'), ('found', 'VBD'), ('that', 'IN'), ('blacks', 'NNS'), ('and', 'CC'), ('Latinos', 'NNP'), ('are', 'VBP'), ('far', 'RB'), ('more', 'RBR'), ('likely', 'JJ'), ('than', 'IN'), ('other', 'JJ'), ('groups', 'NNS'), ('to', 'TO'), ('say', 'VB'), ('they', 'PRP'), ('believe', 'VBP'), ('the', 'DT'), ('vaccine', 'NN'), ('could', 'MD'), ('be', 'VB'), ('unsafe', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   poll/NN   also/RB   found/VBD   that/IN   blacks/NNS   and/CC   (GPE Latinos/NNP)   are/VBP   far/RB   more/RBR   likely/JJ   than/IN   other/JJ   groups/NNS   to/TO   say/VB   they/PRP   believe/VBP   the/DT   vaccine/NN   could/MD   be/VB   unsafe/JJ   ./.)
+----------------------------------
+original sentence: 
+Only 5% of those surveyed said they already had been inoculated, a figure that remained consistent across income groups.
+
+POS tagged sentence: 
+[('Only', 'RB'), ('5', 'CD'), ('%', 'NN'), ('of', 'IN'), ('those', 'DT'), ('surveyed', 'VBN'), ('said', 'VBD'), ('they', 'PRP'), ('already', 'RB'), ('had', 'VBD'), ('been', 'VBN'), ('inoculated', 'VBN'), (',', ','), ('a', 'DT'), ('figure', 'NN'), ('that', 'WDT'), ('remained', 'VBD'), ('consistent', 'NN'), ('across', 'IN'), ('income', 'NN'), ('groups', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Only/RB   5/CD   %/NN   of/IN   those/DT   surveyed/VBN   said/VBD   they/PRP   already/RB   had/VBD   been/VBN   inoculated/VBN   ,/,   a/DT   figure/NN   that/WDT   remained/VBD   consistent/NN   across/IN   income/NN   groups/NNS   ./.)
+----------------------------------
+original sentence: 
+Of the rest, 52% said they did not plan to get vaccinated.
+
+POS tagged sentence: 
+[('Of', 'IN'), ('the', 'DT'), ('rest', 'NN'), (',', ','), ('52', 'CD'), ('%', 'NN'), ('said', 'VBD'), ('they', 'PRP'), ('did', 'VBD'), ('not', 'RB'), ('plan', 'NN'), ('to', 'TO'), ('get', 'VB'), ('vaccinated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Of/IN   the/DT   rest/NN   ,/,   52/CD   %/NN   said/VBD   they/PRP   did/VBD   not/RB   plan/NN   to/TO   get/VB   vaccinated/VBN   ./.)
+----------------------------------
+original sentence: 
+Among the 40% who said they wanted the vaccine, 12% said they already had attempted to find it but failed.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('40', 'CD'), ('%', 'NN'), ('who', 'WP'), ('said', 'VBD'), ('they', 'PRP'), ('wanted', 'VBD'), ('the', 'DT'), ('vaccine', 'NN'), (',', ','), ('12', 'CD'), ('%', 'NN'), ('said', 'VBD'), ('they', 'PRP'), ('already', 'RB'), ('had', 'VBD'), ('attempted', 'VBN'), ('to', 'TO'), ('find', 'VB'), ('it', 'PRP'), ('but', 'CC'), ('failed', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   40/CD   %/NN   who/WP   said/VBD   they/PRP   wanted/VBD   the/DT   vaccine/NN   ,/,   12/CD   %/NN   said/VBD   they/PRP   already/RB   had/VBD   attempted/VBN   to/TO   find/VB   it/PRP   but/CC   failed/VBD   ./.)
+----------------------------------
+original sentence: 
+HIV vaccine feat leaves more questions than answers
+Karen Kaplan and Thomas H. Maugh II
+Only hours after HIV vaccine researchers announced the achievement of a milestone that has eluded them for a quarter of a century, they began plotting their next steps and coming to grips with a sobering reality.
+
+POS tagged sentence: 
+[('HIV', 'NNP'), ('vaccine', 'NN'), ('feat', 'NN'), ('leaves', 'VBZ'), ('more', 'JJR'), ('questions', 'NNS'), ('than', 'IN'), ('answers', 'NNS'), ('Karen', 'NNP'), ('Kaplan', 'NNP'), ('and', 'CC'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('Only', 'NNP'), ('hours', 'NNS'), ('after', 'IN'), ('HIV', 'NNP'), ('vaccine', 'NN'), ('researchers', 'NNS'), ('announced', 'VBD'), ('the', 'DT'), ('achievement', 'NN'), ('of', 'IN'), ('a', 'DT'), ('milestone', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('eluded', 'VBN'), ('them', 'PRP'), ('for', 'IN'), ('a', 'DT'), ('quarter', 'NN'), ('of', 'IN'), ('a', 'DT'), ('century', 'NN'), (',', ','), ('they', 'PRP'), ('began', 'VBD'), ('plotting', 'VBG'), ('their', 'PRP$'), ('next', 'JJ'), ('steps', 'NNS'), ('and', 'CC'), ('coming', 'VBG'), ('to', 'TO'), ('grips', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('sobering', 'NN'), ('reality', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   HIV/NNP   vaccine/NN   feat/NN   leaves/VBZ   more/JJR   questions/NNS   than/IN   answers/NNS   (PERSON Karen/NNP Kaplan/NNP)   and/CC   (PERSON Thomas/NNP H./NNP Maugh/NNP II/NNP Only/NNP)   hours/NNS   after/IN   (ORGANIZATION HIV/NNP)   vaccine/NN   researchers/NNS   announced/VBD   the/DT   achievement/NN   of/IN   a/DT   milestone/NN   that/WDT   has/VBZ   eluded/VBN   them/PRP   for/IN   a/DT   quarter/NN   of/IN   a/DT   century/NN   ,/,   they/PRP   began/VBD   plotting/VBG   their/PRP$   next/JJ   steps/NNS   and/CC   coming/VBG   to/TO   grips/NNS   with/IN   a/DT   sobering/NN   reality/NN   ./.)
+----------------------------------
+original sentence: 
+Their ultimate goal, halting the spread of AIDS, remains far in the future.
+
+POS tagged sentence: 
+[('Their', 'PRP$'), ('ultimate', 'JJ'), ('goal', 'NN'), (',', ','), ('halting', 'VBG'), ('the', 'DT'), ('spread', 'NN'), ('of', 'IN'), ('AIDS', 'NNP'), (',', ','), ('remains', 'VBZ'), ('far', 'RB'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Their/PRP$   ultimate/JJ   goal/NN   ,/,   halting/VBG   the/DT   spread/NN   of/IN   (ORGANIZATION AIDS/NNP)   ,/,   remains/VBZ   far/RB   in/IN   the/DT   future/NN   ./.)
+----------------------------------
+original sentence: 
+A Thai and American team had announced early Thursday in Bangkok that they had found a combination of vaccines that provided modest protection against infection with HIV, offering the first proof of principle that the deadly disease could be tamed by teaching the immune system to recognize the virus and defeat it.
+
+POS tagged sentence: 
+[('A', 'DT'), ('Thai', 'NNP'), ('and', 'CC'), ('American', 'NNP'), ('team', 'NN'), ('had', 'VBD'), ('announced', 'VBN'), ('early', 'JJ'), ('Thursday', 'NNP'), ('in', 'IN'), ('Bangkok', 'NNP'), ('that', 'IN'), ('they', 'PRP'), ('had', 'VBD'), ('found', 'VBN'), ('a', 'DT'), ('combination', 'NN'), ('of', 'IN'), ('vaccines', 'NNS'), ('that', 'WDT'), ('provided', 'VBN'), ('modest', 'VBP'), ('protection', 'NN'), ('against', 'IN'), ('infection', 'NN'), ('with', 'IN'), ('HIV', 'NNP'), (',', ','), ('offering', 'NN'), ('the', 'DT'), ('first', 'JJ'), ('proof', 'NN'), ('of', 'IN'), ('principle', 'NN'), ('that', 'IN'), ('the', 'DT'), ('deadly', 'RB'), ('disease', 'NN'), ('could', 'MD'), ('be', 'VB'), ('tamed', 'VBN'), ('by', 'IN'), ('teaching', 'NN'), ('the', 'DT'), ('immune', 'NN'), ('system', 'NN'), ('to', 'TO'), ('recognize', 'VB'), ('the', 'DT'), ('virus', 'NN'), ('and', 'CC'), ('defeat', 'NN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   (GPE Thai/NNP)   and/CC   (GPE American/NNP)   team/NN   had/VBD   announced/VBN   early/JJ   Thursday/NNP   in/IN   (GPE Bangkok/NNP)   that/IN   they/PRP   had/VBD   found/VBN   a/DT   combination/NN   of/IN   vaccines/NNS   that/WDT   provided/VBN   modest/VBP   protection/NN   against/IN   infection/NN   with/IN   (ORGANIZATION HIV/NNP)   ,/,   offering/NN   the/DT   first/JJ   proof/NN   of/IN   principle/NN   that/IN   the/DT   deadly/RB   disease/NN   could/MD   be/VB   tamed/VBN   by/IN   teaching/NN   the/DT   immune/NN   system/NN   to/TO   recognize/VB   the/DT   virus/NN   and/CC   defeat/NN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Scientists around the world hailed the achievement.
+
+POS tagged sentence: 
+[('Scientists', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('hailed', 'VBD'), ('the', 'DT'), ('achievement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Scientists/NNS   around/IN   the/DT   world/NN   hailed/VBD   the/DT   achievement/NN   ./.)
+----------------------------------
+original sentence: 
+Some in California's high risk groups may not get swine flu vaccine until 2010
+Molly Hennessy Fiske
+If H1N1 flu vaccine shortages persist, California may not be able to vaccinate those most at risk by the end of December, public health officials said Thursday, amid furor over how the vaccine has been distributed so far.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('in', 'IN'), ('California', 'NNP'), ("'s", 'POS'), ('high', 'JJ'), ('risk', 'NN'), ('groups', 'NNS'), ('may', 'MD'), ('not', 'RB'), ('get', 'VB'), ('swine', 'NN'), ('flu', 'NN'), ('vaccine', 'NN'), ('until', 'IN'), ('2010', 'CD'), ('Molly', 'NNP'), ('Hennessy', 'NNP'), ('Fiske', 'NNP'), ('If', 'NNP'), ('H1N1', 'NNP'), ('flu', 'NN'), ('vaccine', 'NN'), ('shortages', 'NNS'), ('persist', 'VBP'), (',', ','), ('California', 'NNP'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('vaccinate', 'VB'), ('those', 'DT'), ('most', 'JJS'), ('at', 'IN'), ('risk', 'NN'), ('by', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('December', 'NNP'), (',', ','), ('public', 'JJ'), ('health', 'NN'), ('officials', 'NNS'), ('said', 'VBD'), ('Thursday', 'NNP'), (',', ','), ('amid', 'IN'), ('furor', 'NN'), ('over', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('vaccine', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('distributed', 'VBN'), ('so', 'RB'), ('far', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   in/IN   (GPE California/NNP)   's/POS   high/JJ   risk/NN   groups/NNS   may/MD   not/RB   get/VB   swine/NN   flu/NN   vaccine/NN   until/IN   2010/CD   Molly/NNP   (PERSON Hennessy/NNP Fiske/NNP If/NNP)   H1N1/NNP   flu/NN   vaccine/NN   shortages/NNS   persist/VBP   ,/,   (GPE California/NNP)   may/MD   not/RB   be/VB   able/JJ   to/TO   vaccinate/VB   those/DT   most/JJS   at/IN   risk/NN   by/IN   the/DT   end/NN   of/IN   December/NNP   ,/,   public/JJ   health/NN   officials/NNS   said/VBD   Thursday/NNP   ,/,   amid/IN   furor/NN   over/IN   how/WRB   the/DT   vaccine/NN   has/VBZ   been/VBN   distributed/VBN   so/RB   far/RB   ./.)
+----------------------------------
+original sentence: 
+"We believe by and large the vaccine is being given to those who should receive it," said Dr. Gil Chavez, an epidemiologist with the California Department of Public Health, but "we may not be able to meet the target if the vaccine...
+Swine flu vaccination rates vary wildly from state to state
+By Thomas H. Maugh II
+Vaccination rates for the pandemic H1N1 influenza virus have varied widely around the country, with New England having the highest rates and the South having the lowest, the federal Centers for Disease Control and Prevention reported this week.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('believe', 'VBP'), ('by', 'IN'), ('and', 'CC'), ('large', 'JJ'), ('the', 'DT'), ('vaccine', 'NN'), ('is', 'VBZ'), ('being', 'VBG'), ('given', 'VBN'), ('to', 'TO'), ('those', 'DT'), ('who', 'WP'), ('should', 'MD'), ('receive', 'VB'), ('it', 'PRP'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Dr.', 'NNP'), ('Gil', 'NNP'), ('Chavez', 'NNP'), (',', ','), ('an', 'DT'), ('epidemiologist', 'NN'), ('with', 'IN'), ('the', 'DT'), ('California', 'NNP'), ('Department', 'NNP'), ('of', 'IN'), ('Public', 'NNP'), ('Health', 'NNP'), (',', ','), ('but', 'CC'), ('"', ':'), ('we', 'PRP'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('meet', 'VB'), ('the', 'DT'), ('target', 'NN'), ('if', 'IN'), ('the', 'DT'), ('vaccine..', 'NNP'), ('.', '.'), ('Swine', 'NNP'), ('flu', 'NN'), ('vaccination', 'NN'), ('rates', 'NNS'), ('vary', 'JJ'), ('wildly', 'RB'), ('from', 'IN'), ('state', 'NN'), ('to', 'TO'), ('state', 'NN'), ('By', 'IN'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('Vaccination', 'NNP'), ('rates', 'VBZ'), ('for', 'IN'), ('the', 'DT'), ('pandemic', 'JJ'), ('H1N1', 'NNP'), ('influenza', 'NN'), ('virus', 'VBZ'), ('have', 'VB'), ('varied', 'VBN'), ('widely', 'RB'), ('around', 'IN'), ('the', 'DT'), ('country', 'NN'), (',', ','), ('with', 'IN'), ('New', 'NNP'), ('England', 'NNP'), ('having', 'VBG'), ('the', 'DT'), ('highest', 'JJS'), ('rates', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('South', 'NNP'), ('having', 'NN'), ('the', 'DT'), ('lowest', 'JJS'), (',', ','), ('the', 'DT'), ('federal', 'JJ'), ('Centers', 'NNPS'), ('for', 'IN'), ('Disease', 'NNP'), ('Control', 'NNP'), ('and', 'CC'), ('Prevention', 'NNP'), ('reported', 'VBD'), ('this', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   believe/VBP   by/IN   and/CC   large/JJ   the/DT   vaccine/NN   is/VBZ   being/VBG   given/VBN   to/TO   those/DT   who/WP   should/MD   receive/VB   it/PRP   ,/,   "/:   said/VBD   Dr./NNP   Gil/NNP   Chavez/NNP   ,/,   an/DT   epidemiologist/NN   with/IN   the/DT   (ORGANIZATION California/NNP Department/NNP)   of/IN   (ORGANIZATION Public/NNP Health/NNP)   ,/,   but/CC   "/:   we/PRP   may/MD   not/RB   be/VB   able/JJ   to/TO   meet/VB   the/DT   target/NN   if/IN   the/DT   vaccine../NNP   ./.   (PERSON Swine/NNP)   flu/NN   vaccination/NN   rates/NNS   vary/JJ   wildly/RB   from/IN   state/NN   to/TO   state/NN   By/IN   (PERSON Thomas/NNP H./NNP Maugh/NNP II/NNP)   Vaccination/NNP   rates/VBZ   for/IN   the/DT   pandemic/JJ   (ORGANIZATION H1N1/NNP)   influenza/NN   virus/VBZ   have/VB   varied/VBN   widely/RB   around/IN   the/DT   country/NN   ,/,   with/IN   (ORGANIZATION New/NNP England/NNP)   having/VBG   the/DT   highest/JJS   rates/NNS   and/CC   the/DT   (GPE South/NNP)   having/NN   the/DT   lowest/JJS   ,/,   the/DT   federal/JJ   (ORGANIZATION Centers/NNPS)   for/IN   (PERSON Disease/NNP Control/NNP)   and/CC   (ORGANIZATION Prevention/NNP)   reported/VBD   this/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Rhode Island had the highest rate of vaccination for swine flu, with about 39% of its population immunized, while Mississippi had the lowest rate, with 13% receiving the shot, according to the CDC's Morbidity and Mortality Weekly Report.
+
+POS tagged sentence: 
+[('Rhode', 'NNP'), ('Island', 'NNP'), ('had', 'VBD'), ('the', 'DT'), ('highest', 'JJS'), ('rate', 'NN'), ('of', 'IN'), ('vaccination', 'NN'), ('for', 'IN'), ('swine', 'NN'), ('flu', 'NN'), (',', ','), ('with', 'IN'), ('about', 'RB'), ('39', 'CD'), ('%', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('population', 'NN'), ('immunized', 'VBD'), (',', ','), ('while', 'IN'), ('Mississippi', 'NNP'), ('had', 'VBD'), ('the', 'DT'), ('lowest', 'JJS'), ('rate', 'NN'), (',', ','), ('with', 'IN'), ('13', 'CD'), ('%', 'NN'), ('receiving', 'NN'), ('the', 'DT'), ('shot', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('CDC', 'NNP'), ("'s", 'POS'), ('Morbidity', 'NNP'), ('and', 'CC'), ('Mortality', 'NNP'), ('Weekly', 'NNP'), ('Report', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Rhode/NNP)   (PERSON Island/NNP)   had/VBD   the/DT   highest/JJS   rate/NN   of/IN   vaccination/NN   for/IN   swine/NN   flu/NN   ,/,   with/IN   about/RB   39/CD   %/NN   of/IN   its/PRP$   population/NN   immunized/VBD   ,/,   while/IN   (PERSON Mississippi/NNP)   had/VBD   the/DT   lowest/JJS   rate/NN   ,/,   with/IN   13/CD   %/NN   receiving/NN   the/DT   shot/NN   ,/,   according/VBG   to/TO   the/DT   (ORGANIZATION CDC/NNP)   's/POS   Morbidity/NNP   and/CC   (ORGANIZATION Mortality/NNP Weekly/NNP Report/NNP)   ./.)
+----------------------------------
+original sentence: 
+Among children, Georgia had the lowest vaccination rate, at 21%.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('children', 'NNS'), (',', ','), ('Georgia', 'NNP'), ('had', 'VBD'), ('the', 'DT'), ('lowest', 'JJS'), ('vaccination', 'NN'), ('rate', 'NN'), (',', ','), ('at', 'IN'), ('21', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   children/NNS   ,/,   (PERSON Georgia/NNP)   had/VBD   the/DT   lowest/JJS   vaccination/NN   rate/NN   ,/,   at/IN   21/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Georgia now has the highest level of ongoing swine flu activity of any state.
+
+POS tagged sentence: 
+[('Georgia', 'NNP'), ('now', 'RB'), ('has', 'VBZ'), ('the', 'DT'), ('highest', 'JJS'), ('level', 'NN'), ('of', 'IN'), ('ongoing', 'JJ'), ('swine', 'NN'), ('flu', 'NN'), ('activity', 'NN'), ('of', 'IN'), ('any', 'DT'), ('state', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Georgia/NNP)   now/RB   has/VBZ   the/DT   highest/JJS   level/NN   of/IN   ongoing/JJ   swine/NN   flu/NN   activity/NN   of/IN   any/DT   state/NN   ./.)
+----------------------------------
+original sentence: 
+FDA warns against using rotavirus vaccine
+By Thomas H. Maugh II
+The Food and Drug Administration on Monday warned doctors and parents against using the Rotarix rotavirus vaccine until further testing can confirm that it is safe.
+
+POS tagged sentence: 
+[('FDA', 'NNP'), ('warns', 'VBZ'), ('against', 'IN'), ('using', 'VBG'), ('rotavirus', 'NN'), ('vaccine', 'NN'), ('By', 'IN'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('The', 'NNP'), ('Food', 'NNP'), ('and', 'CC'), ('Drug', 'NNP'), ('Administration', 'NNP'), ('on', 'IN'), ('Monday', 'NNP'), ('warned', 'VBD'), ('doctors', 'NNS'), ('and', 'CC'), ('parents', 'NNS'), ('against', 'IN'), ('using', 'VBG'), ('the', 'DT'), ('Rotarix', 'NNP'), ('rotavirus', 'VBZ'), ('vaccine', 'NN'), ('until', 'IN'), ('further', 'JJ'), ('testing', 'NN'), ('can', 'MD'), ('confirm', 'VB'), ('that', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('safe', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION FDA/NNP)   warns/VBZ   against/IN   using/VBG   rotavirus/NN   vaccine/NN   By/IN   (PERSON Thomas/NNP H./NNP Maugh/NNP)   II/NNP   The/NNP   (ORGANIZATION Food/NNP)   and/CC   (PERSON Drug/NNP Administration/NNP)   on/IN   Monday/NNP   warned/VBD   doctors/NNS   and/CC   parents/NNS   against/IN   using/VBG   the/DT   (ORGANIZATION Rotarix/NNP)   rotavirus/VBZ   vaccine/NN   until/IN   further/JJ   testing/NN   can/MD   confirm/VB   that/IN   it/PRP   is/VBZ   safe/JJ   ./.)
+----------------------------------
+original sentence: 
+The warning follows an academic research group's discovery subsequently confirmed by the FDA and Rotarix manufacturer GlaxoSmithKline that the vaccine contains a pig virus called porcine circovirus 1, or PCV1.
+
+POS tagged sentence: 
+[('The', 'DT'), ('warning', 'NN'), ('follows', 'VBZ'), ('an', 'DT'), ('academic', 'JJ'), ('research', 'NN'), ('group', 'NN'), ("'s", 'POS'), ('discovery', 'NN'), ('subsequently', 'RB'), ('confirmed', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('FDA', 'NNP'), ('and', 'CC'), ('Rotarix', 'NNP'), ('manufacturer', 'NN'), ('GlaxoSmithKline', 'NNP'), ('that', 'IN'), ('the', 'DT'), ('vaccine', 'NN'), ('contains', 'VBZ'), ('a', 'DT'), ('pig', 'NN'), ('virus', 'NN'), ('called', 'VBN'), ('porcine', 'NN'), ('circovirus', 'NN'), ('1', 'CD'), (',', ','), ('or', 'CC'), ('PCV1', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   warning/NN   follows/VBZ   an/DT   academic/JJ   research/NN   group/NN   's/POS   discovery/NN   subsequently/RB   confirmed/VBN   by/IN   the/DT   (ORGANIZATION FDA/NNP)   and/CC   (PERSON Rotarix/NNP)   manufacturer/NN   GlaxoSmithKline/NNP   that/IN   the/DT   vaccine/NN   contains/VBZ   a/DT   pig/NN   virus/NN   called/VBN   porcine/NN   circovirus/NN   1/CD   ,/,   or/CC   (ORGANIZATION PCV1/NNP)   ./.)
+----------------------------------
+original sentence: 
+The virus is not known to cause illness in humans, and no adverse effects have been observed in children vaccinated with Rotarix, but the agency decided to err on the side of caution with the warning until more information can be obtained.
+
+POS tagged sentence: 
+[('The', 'DT'), ('virus', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('known', 'VBN'), ('to', 'TO'), ('cause', 'VB'), ('illness', 'NN'), ('in', 'IN'), ('humans', 'NNS'), (',', ','), ('and', 'CC'), ('no', 'DT'), ('adverse', 'NN'), ('effects', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('observed', 'VBN'), ('in', 'IN'), ('children', 'NNS'), ('vaccinated', 'VBN'), ('with', 'IN'), ('Rotarix', 'NNP'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('agency', 'NN'), ('decided', 'VBD'), ('to', 'TO'), ('err', 'VB'), ('on', 'IN'), ('the', 'DT'), ('side', 'NN'), ('of', 'IN'), ('caution', 'NN'), ('with', 'IN'), ('the', 'DT'), ('warning', 'VBG'), ('until', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('obtained', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   virus/NN   is/VBZ   not/RB   known/VBN   to/TO   cause/VB   illness/NN   in/IN   humans/NNS   ,/,   and/CC   no/DT   adverse/NN   effects/NNS   have/VBP   been/VBN   observed/VBN   in/IN   children/NNS   vaccinated/VBN   with/IN   (PERSON Rotarix/NNP)   ,/,   but/CC   the/DT   agency/NN   decided/VBD   to/TO   err/VB   on/IN   the/DT   side/NN   of/IN   caution/NN   with/IN   the/DT   warning/VBG   until/IN   more/JJR   information/NN   can/MD   be/VB   obtained/VBN   ./.)
+----------------------------------
+original sentence: 
+Walter Plowright dies at 86; invented vaccine that eliminated serious cattle disease
+By Thomas H. Maugh II
+Dr. Walter Plowright, the British veterinarian often called one of the "heroes of the 20th century" because of the massive increase in meat and dairy products resulting from his invention of a vaccine that has almost totally eliminated the cattle disease rinderpest, died Feb. 19 in London.
+
+POS tagged sentence: 
+[('Walter', 'NNP'), ('Plowright', 'NNP'), ('dies', 'VBZ'), ('at', 'IN'), ('86', 'CD'), (';', ':'), ('invented', 'VBN'), ('vaccine', 'NN'), ('that', 'IN'), ('eliminated', 'VBN'), ('serious', 'JJ'), ('cattle', 'NN'), ('disease', 'NN'), ('By', 'IN'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('Dr.', 'NNP'), ('Walter', 'NNP'), ('Plowright', 'NNP'), (',', ','), ('the', 'DT'), ('British', 'JJ'), ('veterinarian', 'NN'), ('often', 'RB'), ('called', 'VBN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('"', 'NNP'), ('heroes', 'VBZ'), ('of', 'IN'), ('the', 'DT'), ('20th', 'JJ'), ('century', 'NN'), ('"', ':'), ('because', 'IN'), ('of', 'IN'), ('the', 'DT'), ('massive', 'JJ'), ('increase', 'NN'), ('in', 'IN'), ('meat', 'NN'), ('and', 'CC'), ('dairy', 'NN'), ('products', 'NNS'), ('resulting', 'VBG'), ('from', 'IN'), ('his', 'PRP$'), ('invention', 'NN'), ('of', 'IN'), ('a', 'DT'), ('vaccine', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('almost', 'RB'), ('totally', 'RB'), ('eliminated', 'VBN'), ('the', 'DT'), ('cattle', 'NN'), ('disease', 'NN'), ('rinderpest', 'NN'), (',', ','), ('died', 'VBD'), ('Feb.', 'NNP'), ('19', 'CD'), ('in', 'IN'), ('London', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walter/NNP)   (PERSON Plowright/NNP)   dies/VBZ   at/IN   86/CD   ;/:   invented/VBN   vaccine/NN   that/IN   eliminated/VBN   serious/JJ   cattle/NN   disease/NN   By/IN   (PERSON Thomas/NNP H./NNP Maugh/NNP II/NNP)   Dr./NNP   Walter/NNP   Plowright/NNP   ,/,   the/DT   (GPE British/JJ)   veterinarian/NN   often/RB   called/VBN   one/CD   of/IN   the/DT   "/NNP   heroes/VBZ   of/IN   the/DT   20th/JJ   century/NN   "/:   because/IN   of/IN   the/DT   massive/JJ   increase/NN   in/IN   meat/NN   and/CC   dairy/NN   products/NNS   resulting/VBG   from/IN   his/PRP$   invention/NN   of/IN   a/DT   vaccine/NN   that/WDT   has/VBZ   almost/RB   totally/RB   eliminated/VBN   the/DT   cattle/NN   disease/NN   rinderpest/NN   ,/,   died/VBD   Feb./NNP   19/CD   in/IN   (GPE London/NNP)   ./.)
+----------------------------------
+original sentence: 
+He was 86.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('was', 'VBD'), ('86', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S He/PRP was/VBD 86/CD ./.)
+----------------------------------
+original sentence: 
+Most Americans have probably never heard of rinderpest, a virus in the same family as measles that causes one of the most lethal diseases in cattle.
+
+POS tagged sentence: 
+[('Most', 'JJS'), ('Americans', 'NNPS'), ('have', 'VBP'), ('probably', 'RB'), ('never', 'RB'), ('heard', 'VBN'), ('of', 'IN'), ('rinderpest', 'JJS'), (',', ','), ('a', 'DT'), ('virus', 'NN'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('family', 'NN'), ('as', 'IN'), ('measles', 'NNS'), ('that', 'WDT'), ('causes', 'NNS'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('lethal', 'JJ'), ('diseases', 'NNS'), ('in', 'IN'), ('cattle', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Most/JJS   Americans/NNPS   have/VBP   probably/RB   never/RB   heard/VBN   of/IN   rinderpest/JJS   ,/,   a/DT   virus/NN   in/IN   the/DT   same/JJ   family/NN   as/IN   measles/NNS   that/WDT   causes/NNS   one/CD   of/IN   the/DT   most/RBS   lethal/JJ   diseases/NNS   in/IN   cattle/NN   ./.)
+----------------------------------
+original sentence: 
+It never established a foothold in the Americas and was eliminated from Europe early in the 20th century, but its introduction to Africa in 1889 in cattle shipped from India caused what some consider the most catastrophic natural disaster ever to affect that continent.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('never', 'RB'), ('established', 'VBD'), ('a', 'DT'), ('foothold', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Americas', 'NNP'), ('and', 'CC'), ('was', 'VBD'), ('eliminated', 'VBN'), ('from', 'IN'), ('Europe', 'NNP'), ('early', 'RB'), ('in', 'IN'), ('the', 'DT'), ('20th', 'JJ'), ('century', 'NN'), (',', ','), ('but', 'CC'), ('its', 'PRP$'), ('introduction', 'NN'), ('to', 'TO'), ('Africa', 'NNP'), ('in', 'IN'), ('1889', 'CD'), ('in', 'IN'), ('cattle', 'NN'), ('shipped', 'VBN'), ('from', 'IN'), ('India', 'NNP'), ('caused', 'VBD'), ('what', 'WP'), ('some', 'DT'), ('consider', 'NN'), ('the', 'DT'), ('most', 'JJS'), ('catastrophic', 'JJ'), ('natural', 'JJ'), ('disaster', 'NN'), ('ever', 'RB'), ('to', 'TO'), ('affect', 'VB'), ('that', 'IN'), ('continent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   never/RB   established/VBD   a/DT   foothold/NN   in/IN   the/DT   (ORGANIZATION Americas/NNP)   and/CC   was/VBD   eliminated/VBN   from/IN   (GPE Europe/NNP)   early/RB   in/IN   the/DT   20th/JJ   century/NN   ,/,   but/CC   its/PRP$   introduction/NN   to/TO   (GPE Africa/NNP)   in/IN   1889/CD   in/IN   cattle/NN   shipped/VBN   from/IN   (GPE India/NNP)   caused/VBD   what/WP   some/DT   consider/NN   the/DT   most/JJS   catastrophic/JJ   natural/JJ   disaster/NN   ever/RB   to/TO   affect/VB   that/IN   continent/NN   ./.)
+----------------------------------
+original sentence: 
+Swine flu danger appears to be ebbing
+By Thomas H. Maugh II
+The likelihood of a third wave of pandemic H1N1 influenza appears to be declining as all indicators of swine flu activity remain low throughout the bulk of the country, according to data released Friday by the Centers for Disease Control and Prevention.
+
+POS tagged sentence: 
+[('Swine', 'NNP'), ('flu', 'VBD'), ('danger', 'JJR'), ('appears', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('ebbing', 'VBG'), ('By', 'NNP'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('The', 'NNP'), ('likelihood', 'NN'), ('of', 'IN'), ('a', 'DT'), ('third', 'JJ'), ('wave', 'NN'), ('of', 'IN'), ('pandemic', 'JJ'), ('H1N1', 'NNP'), ('influenza', 'NN'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('declining', 'VBG'), ('as', 'IN'), ('all', 'DT'), ('indicators', 'NNS'), ('of', 'IN'), ('swine', 'NN'), ('flu', 'NN'), ('activity', 'NN'), ('remain', 'NN'), ('low', 'JJ'), ('throughout', 'IN'), ('the', 'DT'), ('bulk', 'NN'), ('of', 'IN'), ('the', 'DT'), ('country', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('data', 'NNS'), ('released', 'VBN'), ('Friday', 'NNP'), ('by', 'IN'), ('the', 'DT'), ('Centers', 'NNPS'), ('for', 'IN'), ('Disease', 'NNP'), ('Control', 'NNP'), ('and', 'CC'), ('Prevention', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Swine/NNP)   flu/VBD   danger/JJR   appears/NNS   to/TO   be/VB   ebbing/VBG   By/NNP   (PERSON Thomas/NNP H./NNP Maugh/NNP)   II/NNP   The/NNP   likelihood/NN   of/IN   a/DT   third/JJ   wave/NN   of/IN   pandemic/JJ   (ORGANIZATION H1N1/NNP)   influenza/NN   appears/VBZ   to/TO   be/VB   declining/VBG   as/IN   all/DT   indicators/NNS   of/IN   swine/NN   flu/NN   activity/NN   remain/NN   low/JJ   throughout/IN   the/DT   bulk/NN   of/IN   the/DT   country/NN   ,/,   according/VBG   to/TO   data/NNS   released/VBN   Friday/NNP   by/IN   the/DT   (ORGANIZATION Centers/NNPS)   for/IN   (PERSON Disease/NNP Control/NNP)   and/CC   Prevention/NNP   ./.)
+----------------------------------
+original sentence: 
+"Nobody can say for sure that we are totally out of the woods, but the further we go into spring and summer, the less likely we are to see another wave," said CDC spokesman Tom Skinner.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Nobody', 'NNP'), ('can', 'MD'), ('say', 'VB'), ('for', 'IN'), ('sure', 'JJ'), ('that', 'IN'), ('we', 'PRP'), ('are', 'VBP'), ('totally', 'RB'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('woods', 'NNS'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('further', 'JJ'), ('we', 'PRP'), ('go', 'VBP'), ('into', 'IN'), ('spring', 'NN'), ('and', 'CC'), ('summer', 'NN'), (',', ','), ('the', 'DT'), ('less', 'JJR'), ('likely', 'JJ'), ('we', 'PRP'), ('are', 'VBP'), ('to', 'TO'), ('see', 'VB'), ('another', 'DT'), ('wave', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('CDC', 'NNP'), ('spokesman', 'NN'), ('Tom', 'NNP'), ('Skinner', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Nobody/NNP   can/MD   say/VB   for/IN   sure/JJ   that/IN   we/PRP   are/VBP   totally/RB   out/IN   of/IN   the/DT   woods/NNS   ,/,   but/CC   the/DT   further/JJ   we/PRP   go/VBP   into/IN   spring/NN   and/CC   summer/NN   ,/,   the/DT   less/JJR   likely/JJ   we/PRP   are/VBP   to/TO   see/VB   another/DT   wave/NN   ,/,   "/:   said/VBD   (ORGANIZATION CDC/NNP)   spokesman/NN   (PERSON Tom/NNP Skinner/NNP)   ./.)
+----------------------------------
+original sentence: 
+It would not surprise the agency to see some local activity of the virus "continue to percolate along," he added.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('would', 'MD'), ('not', 'RB'), ('surprise', 'VB'), ('the', 'DT'), ('agency', 'NN'), ('to', 'TO'), ('see', 'VB'), ('some', 'DT'), ('local', 'JJ'), ('activity', 'NN'), ('of', 'IN'), ('the', 'DT'), ('virus', 'NN'), ('"', ':'), ('continue', 'NN'), ('to', 'TO'), ('percolate', 'VB'), ('along', 'IN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('added', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   would/MD   not/RB   surprise/VB   the/DT   agency/NN   to/TO   see/VB   some/DT   local/JJ   activity/NN   of/IN   the/DT   virus/NN   "/:   continue/NN   to/TO   percolate/VB   along/IN   ,/,   "/:   he/PRP   added/VBD   ./.)
+----------------------------------
+original sentence: 
+Scientists study use of tobacco plants in making flu vaccine
+Here's an idea: Rehabilitate the tobacco plant by using it to make flu vaccine.
+
+POS tagged sentence: 
+[('Scientists', 'NNS'), ('study', 'VBP'), ('use', 'NN'), ('of', 'IN'), ('tobacco', 'NN'), ('plants', 'NNS'), ('in', 'IN'), ('making', 'VBG'), ('flu', 'NN'), ('vaccine', 'NN'), ('Here', 'RB'), ("'s", 'VBZ'), ('an', 'DT'), ('idea', 'NN'), (':', ':'), ('Rehabilitate', 'NNP'), ('the', 'DT'), ('tobacco', 'NN'), ('plant', 'NN'), ('by', 'IN'), ('using', 'VBG'), ('it', 'PRP'), ('to', 'TO'), ('make', 'VB'), ('flu', 'PRP'), ('vaccine', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Scientists/NNS   study/VBP   use/NN   of/IN   tobacco/NN   plants/NNS   in/IN   making/VBG   flu/NN   vaccine/NN   Here/RB   's/VBZ   an/DT   idea/NN   :/:   Rehabilitate/NNP   the/DT   tobacco/NN   plant/NN   by/IN   using/VBG   it/PRP   to/TO   make/VB   flu/PRP   vaccine/VB   ./.)
+----------------------------------
+original sentence: 
+This may sound like a double whammy nightmare for anyone who believes that vaccines are killing us all and GMOs are killing us all, but let's put that aside and examine what the scientists are doing, and why.
+
+POS tagged sentence: 
+[('This', 'DT'), ('may', 'MD'), ('sound', 'VB'), ('like', 'IN'), ('a', 'DT'), ('double', 'JJ'), ('whammy', 'NN'), ('nightmare', 'NN'), ('for', 'IN'), ('anyone', 'NN'), ('who', 'WP'), ('believes', 'VBZ'), ('that', 'IN'), ('vaccines', 'NNS'), ('are', 'VBP'), ('killing', 'VBG'), ('us', 'PRP'), ('all', 'DT'), ('and', 'CC'), ('GMOs', 'NNP'), ('are', 'VBP'), ('killing', 'VBG'), ('us', 'PRP'), ('all', 'DT'), (',', ','), ('but', 'CC'), ('let', 'VB'), ("'s", 'VBZ'), ('put', 'VBN'), ('that', 'IN'), ('aside', 'NN'), ('and', 'CC'), ('examine', 'NN'), ('what', 'WP'), ('the', 'DT'), ('scientists', 'NNS'), ('are', 'VBP'), ('doing', 'VBG'), (',', ','), ('and', 'CC'), ('why', 'WRB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   may/MD   sound/VB   like/IN   a/DT   double/JJ   whammy/NN   nightmare/NN   for/IN   anyone/NN   who/WP   believes/VBZ   that/IN   vaccines/NNS   are/VBP   killing/VBG   us/PRP   all/DT   and/CC   (ORGANIZATION GMOs/NNP)   are/VBP   killing/VBG   us/PRP   all/DT   ,/,   but/CC   let/VB   's/VBZ   put/VBN   that/IN   aside/NN   and/CC   examine/NN   what/WP   the/DT   scientists/NNS   are/VBP   doing/VBG   ,/,   and/CC   why/WRB   ./.)
+----------------------------------
+original sentence: 
+First off, the rationale: Production of flu vaccine is rooted in old technology.
+
+POS tagged sentence: 
+[('First', 'NNP'), ('off', 'IN'), (',', ','), ('the', 'DT'), ('rationale', 'NN'), (':', ':'), ('Production', 'NN'), ('of', 'IN'), ('flu', 'NN'), ('vaccine', 'NN'), ('is', 'VBZ'), ('rooted', 'VBN'), ('in', 'IN'), ('old', 'JJ'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   First/NNP   off/IN   ,/,   the/DT   rationale/NN   :/:   Production/NN   of/IN   flu/NN   vaccine/NN   is/VBZ   rooted/VBN   in/IN   old/JJ   technology/NN   ./.)
+----------------------------------
+original sentence: 
+You need fertile chicken eggs, millions of them, for growing the flu virus before you kill it and turn it into vaccine.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('need', 'VBP'), ('fertile', 'JJ'), ('chicken', 'NNS'), ('eggs', 'NNS'), (',', ','), ('millions', 'NNS'), ('of', 'IN'), ('them', 'PRP'), (',', ','), ('for', 'IN'), ('growing', 'VBG'), ('the', 'DT'), ('flu', 'NN'), ('virus', 'VBZ'), ('before', 'IN'), ('you', 'PRP'), ('kill', 'VBP'), ('it', 'PRP'), ('and', 'CC'), ('turn', 'VB'), ('it', 'PRP'), ('into', 'IN'), ('vaccine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   need/VBP   fertile/JJ   chicken/NNS   eggs/NNS   ,/,   millions/NNS   of/IN   them/PRP   ,/,   for/IN   growing/VBG   the/DT   flu/NN   virus/VBZ   before/IN   you/PRP   kill/VBP   it/PRP   and/CC   turn/VB   it/PRP   into/IN   vaccine/NN   ./.)
+----------------------------------
+original sentence: 
+'Vaccines court' rejects mercury autism link in 3 test cases
+By Thomas H. Maugh II and Andrew Zajac
+The federal "vaccines court" ruled Friday in three separate cases that the mercury containing preservative thimerosal does not cause autism, a finding that supports the broad scientific consensus on the matter but that greatly disappointed parents who are convinced that their child's illness was caused by vaccines.
+
+POS tagged sentence: 
+[("'Vaccines", 'NNS'), ('court', 'VBP'), ("'", "''"), ('rejects', 'NNS'), ('mercury', 'VBP'), ('autism', 'NN'), ('link', 'NN'), ('in', 'IN'), ('3', 'CD'), ('test', 'NN'), ('cases', 'NNS'), ('By', 'IN'), ('Thomas', 'NNP'), ('H.', 'NNP'), ('Maugh', 'NNP'), ('II', 'NNP'), ('and', 'CC'), ('Andrew', 'NNP'), ('Zajac', 'NNP'), ('The', 'NNP'), ('federal', 'JJ'), ('"', 'NN'), ('vaccines', 'NNS'), ('court', 'NN'), ('"', ':'), ('ruled', 'VBD'), ('Friday', 'NNP'), ('in', 'IN'), ('three', 'CD'), ('separate', 'JJ'), ('cases', 'NNS'), ('that', 'WDT'), ('the', 'DT'), ('mercury', 'NN'), ('containing', 'VBG'), ('preservative', 'JJ'), ('thimerosal', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('cause', 'VB'), ('autism', 'NN'), (',', ','), ('a', 'DT'), ('finding', 'NN'), ('that', 'WDT'), ('supports', 'VBZ'), ('the', 'DT'), ('broad', 'JJ'), ('scientific', 'JJ'), ('consensus', 'NN'), ('on', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('but', 'CC'), ('that', 'IN'), ('greatly', 'RB'), ('disappointed', 'VBN'), ('parents', 'NNS'), ('who', 'WP'), ('are', 'VBP'), ('convinced', 'VBN'), ('that', 'IN'), ('their', 'PRP$'), ('child', 'NN'), ("'s", 'POS'), ('illness', 'NN'), ('was', 'VBD'), ('caused', 'VBN'), ('by', 'IN'), ('vaccines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   'Vaccines/NNS   court/VBP   '/''   rejects/NNS   mercury/VBP   autism/NN   link/NN   in/IN   3/CD   test/NN   cases/NNS   By/IN   (PERSON Thomas/NNP H./NNP Maugh/NNP II/NNP)   and/CC   (PERSON Andrew/NNP Zajac/NNP)   The/NNP   federal/JJ   "/NN   vaccines/NNS   court/NN   "/:   ruled/VBD   Friday/NNP   in/IN   three/CD   separate/JJ   cases/NNS   that/WDT   the/DT   mercury/NN   containing/VBG   preservative/JJ   thimerosal/NN   does/VBZ   not/RB   cause/VB   autism/NN   ,/,   a/DT   finding/NN   that/WDT   supports/VBZ   the/DT   broad/JJ   scientific/JJ   consensus/NN   on/IN   the/DT   matter/NN   but/CC   that/IN   greatly/RB   disappointed/VBN   parents/NNS   who/WP   are/VBP   convinced/VBN   that/IN   their/PRP$   child/NN   's/POS   illness/NN   was/VBD   caused/VBN   by/IN   vaccines/NNS   ./.)
+----------------------------------
+original sentence: 
+The court had ruled 13 months ago that a combination of the measles mumps rubella vaccine, commonly known as the MMR vaccine, and thimerosal does not cause the disorder, so the new ruling may finally close the bulk of litigation on the matter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('court', 'NN'), ('had', 'VBD'), ('ruled', 'VBN'), ('13', 'CD'), ('months', 'NNS'), ('ago', 'RB'), ('that', 'IN'), ('a', 'DT'), ('combination', 'NN'), ('of', 'IN'), ('the', 'DT'), ('measles', 'NNS'), ('mumps', 'VBZ'), ('rubella', 'NN'), ('vaccine', 'NN'), (',', ','), ('commonly', 'RB'), ('known', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('MMR', 'NNP'), ('vaccine', 'NN'), (',', ','), ('and', 'CC'), ('thimerosal', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('cause', 'VB'), ('the', 'DT'), ('disorder', 'NN'), (',', ','), ('so', 'RB'), ('the', 'DT'), ('new', 'JJ'), ('ruling', 'NN'), ('may', 'MD'), ('finally', 'RB'), ('close', 'VB'), ('the', 'DT'), ('bulk', 'NN'), ('of', 'IN'), ('litigation', 'NN'), ('on', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   court/NN   had/VBD   ruled/VBN   13/CD   months/NNS   ago/RB   that/IN   a/DT   combination/NN   of/IN   the/DT   measles/NNS   mumps/VBZ   rubella/NN   vaccine/NN   ,/,   commonly/RB   known/VBN   as/IN   the/DT   (ORGANIZATION MMR/NNP)   vaccine/NN   ,/,   and/CC   thimerosal/NN   does/VBZ   not/RB   cause/VB   the/DT   disorder/NN   ,/,   so/RB   the/DT   new/JJ   ruling/NN   may/MD   finally/RB   close/VB   the/DT   bulk/NN   of/IN   litigation/NN   on/IN   the/DT   matter/NN   ./.)
+----------------------------------
+original sentence: 
+H1N1 vaccine was unevenly distributed across L.A. County, figures show
+By Molly Hennessy Fiske
+Officials have distributed the H1N1 flu vaccine unevenly throughout Los Angeles County, with fewer doses going to medically underserved areas in the county's north and south, according to public health agency figures.
+
+POS tagged sentence: 
+[('H1N1', 'NNP'), ('vaccine', 'NN'), ('was', 'VBD'), ('unevenly', 'RB'), ('distributed', 'VBN'), ('across', 'IN'), ('L.A.', 'NNP'), ('County', 'NNP'), (',', ','), ('figures', 'NNS'), ('show', 'VBP'), ('By', 'NNP'), ('Molly', 'NNP'), ('Hennessy', 'NNP'), ('Fiske', 'NNP'), ('Officials', 'NNP'), ('have', 'VBP'), ('distributed', 'VBN'), ('the', 'DT'), ('H1N1', 'NNP'), ('flu', 'NN'), ('vaccine', 'NN'), ('unevenly', 'RB'), ('throughout', 'IN'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('County', 'NNP'), (',', ','), ('with', 'IN'), ('fewer', 'JJR'), ('doses', 'NNS'), ('going', 'VBG'), ('to', 'TO'), ('medically', 'RB'), ('underserved', 'VBN'), ('areas', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('county', 'NN'), ("'s", 'POS'), ('north', 'JJ'), ('and', 'CC'), ('south', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('public', 'JJ'), ('health', 'NN'), ('agency', 'NN'), ('figures', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE H1N1/NNP)   vaccine/NN   was/VBD   unevenly/RB   distributed/VBN   across/IN   (ORGANIZATION L.A./NNP County/NNP)   ,/,   figures/NNS   show/VBP   By/NNP   (PERSON Molly/NNP Hennessy/NNP Fiske/NNP)   Officials/NNP   have/VBP   distributed/VBN   the/DT   (ORGANIZATION H1N1/NNP)   flu/NN   vaccine/NN   unevenly/RB   throughout/IN   (GPE Los/NNP Angeles/NNP County/NNP)   ,/,   with/IN   fewer/JJR   doses/NNS   going/VBG   to/TO   medically/RB   underserved/VBN   areas/NNS   in/IN   the/DT   county/NN   's/POS   north/JJ   and/CC   south/NN   ,/,   according/VBG   to/TO   public/JJ   health/NN   agency/NN   figures/NNS   ./.)
+----------------------------------
+original sentence: 
+While there is now a surplus of vaccine countywide, northern and southern areas received a smaller share of the roughly 3 million vaccine doses distributed by the county, mainly because they are home to fewer doctors, pharmacies and other health providers, experts said.
+
+POS tagged sentence: 
+[('While', 'IN'), ('there', 'EX'), ('is', 'VBZ'), ('now', 'RB'), ('a', 'DT'), ('surplus', 'NN'), ('of', 'IN'), ('vaccine', 'NN'), ('countywide', 'NN'), (',', ','), ('northern', 'JJ'), ('and', 'CC'), ('southern', 'JJ'), ('areas', 'NNS'), ('received', 'VBD'), ('a', 'DT'), ('smaller', 'JJR'), ('share', 'NN'), ('of', 'IN'), ('the', 'DT'), ('roughly', 'RB'), ('3', 'CD'), ('million', 'CD'), ('vaccine', 'NN'), ('doses', 'NNS'), ('distributed', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('county', 'NN'), (',', ','), ('mainly', 'RB'), ('because', 'IN'), ('they', 'PRP'), ('are', 'VBP'), ('home', 'RB'), ('to', 'TO'), ('fewer', 'JJR'), ('doctors', 'NNS'), (',', ','), ('pharmacies', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('health', 'NN'), ('providers', 'NNS'), (',', ','), ('experts', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   there/EX   is/VBZ   now/RB   a/DT   surplus/NN   of/IN   vaccine/NN   countywide/NN   ,/,   northern/JJ   and/CC   southern/JJ   areas/NNS   received/VBD   a/DT   smaller/JJR   share/NN   of/IN   the/DT   roughly/RB   3/CD   million/CD   vaccine/NN   doses/NNS   distributed/VBN   by/IN   the/DT   county/NN   ,/,   mainly/RB   because/IN   they/PRP   are/VBP   home/RB   to/TO   fewer/JJR   doctors/NNS   ,/,   pharmacies/NNS   and/CC   other/JJ   health/NN   providers/NNS   ,/,   experts/NNS   said/VBD   ./.)
+----------------------------------
+original sentence: 
+We have learned a lot from the 2009 H1N1 swine flu pandemic.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('have', 'VBP'), ('learned', 'VBN'), ('a', 'DT'), ('lot', 'NN'), ('from', 'IN'), ('the', 'DT'), ('2009', 'CD'), ('H1N1', 'NNP'), ('swine', 'NN'), ('flu', 'NN'), ('pandemic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   have/VBP   learned/VBN   a/DT   lot/NN   from/IN   the/DT   2009/CD   (ORGANIZATION H1N1/NNP)   swine/NN   flu/NN   pandemic/JJ   ./.)
+----------------------------------
+original sentence: 
+We have learned, for example, that one basic assumption about pandemics was wrong: You don't need a radical mutation in a flu virus to produce a pandemic.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('have', 'VBP'), ('learned', 'VBN'), (',', ','), ('for', 'IN'), ('example', 'NN'), (',', ','), ('that', 'IN'), ('one', 'CD'), ('basic', 'JJ'), ('assumption', 'NN'), ('about', 'IN'), ('pandemics', 'NNS'), ('was', 'VBD'), ('wrong', 'JJ'), (':', ':'), ('You', 'PRP'), ('do', 'VBP'), ("n't", 'RB'), ('need', 'VB'), ('a', 'DT'), ('radical', 'JJ'), ('mutation', 'NN'), ('in', 'IN'), ('a', 'DT'), ('flu', 'NN'), ('virus', 'NN'), ('to', 'TO'), ('produce', 'VB'), ('a', 'DT'), ('pandemic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   have/VBP   learned/VBN   ,/,   for/IN   example/NN   ,/,   that/IN   one/CD   basic/JJ   assumption/NN   about/IN   pandemics/NNS   was/VBD   wrong/JJ   :/:   You/PRP   do/VBP   n't/RB   need/VB   a/DT   radical/JJ   mutation/NN   in/IN   a/DT   flu/NN   virus/NN   to/TO   produce/VB   a/DT   pandemic/JJ   ./.)
+----------------------------------
+original sentence: 
+All you need is enough change within a surface protein for a new strain to blow past acquired immunity and blaze around the world, as this one did.
+
+POS tagged sentence: 
+[('All', 'DT'), ('you', 'PRP'), ('need', 'VBP'), ('is', 'VBZ'), ('enough', 'JJ'), ('change', 'NN'), ('within', 'IN'), ('a', 'DT'), ('surface', 'NN'), ('protein', 'NN'), ('for', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('strain', 'NN'), ('to', 'TO'), ('blow', 'VB'), ('past', 'JJ'), ('acquired', 'VBN'), ('immunity', 'NN'), ('and', 'CC'), ('blaze', 'NN'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), ('as', 'IN'), ('this', 'DT'), ('one', 'CD'), ('did', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   you/PRP   need/VBP   is/VBZ   enough/JJ   change/NN   within/IN   a/DT   surface/NN   protein/NN   for/IN   a/DT   new/JJ   strain/NN   to/TO   blow/VB   past/JJ   acquired/VBN   immunity/NN   and/CC   blaze/NN   around/IN   the/DT   world/NN   ,/,   as/IN   this/DT   one/CD   did/VBD   ./.)
+----------------------------------
+original sentence: 
+And we've seen that not every pandemic strain is especially lethal.
+
+POS tagged sentence: 
+[('And', 'CC'), ('we', 'PRP'), ("'ve", 'VBP'), ('seen', 'VBN'), ('that', 'IN'), ('not', 'RB'), ('every', 'DT'), ('pandemic', 'JJ'), ('strain', 'NN'), ('is', 'VBZ'), ('especially', 'RB'), ('lethal', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   we/PRP   've/VBP   seen/VBN   that/IN   not/RB   every/DT   pandemic/JJ   strain/NN   is/VBZ   especially/RB   lethal/JJ   ./.)
+----------------------------------
+original sentence: 
+The Centers for Disease Control and Prevention in Atlanta estimated that 11,690 Americans had died of swine flu by mid January.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Centers', 'NNPS'), ('for', 'IN'), ('Disease', 'NNP'), ('Control', 'NNP'), ('and', 'CC'), ('Prevention', 'NNP'), ('in', 'IN'), ('Atlanta', 'NNP'), ('estimated', 'VBD'), ('that', 'IN'), ('11,690', 'CD'), ('Americans', 'NNS'), ('had', 'VBD'), ('died', 'VBN'), ('of', 'IN'), ('swine', 'NN'), ('flu', 'NN'), ('by', 'IN'), ('mid', 'NN'), ('January', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Centers/NNPS)   for/IN   (PERSON Disease/NNP Control/NNP)   and/CC   Prevention/NNP   in/IN   (GPE Atlanta/NNP)   estimated/VBD   that/IN   11,690/CD   Americans/NNS   had/VBD   died/VBN   of/IN   swine/NN   flu/NN   by/IN   mid/NN   January/NNP   ./.)
+----------------------------------
+original sentence: 
+FDA creates partnership to boost regulatory science
+The Food and Drug Administration and the National Institutes of Health on Wednesday announced a plan to help the FDA make swifter decisions about the safety and effectiveness of new products and procedures that flow from advanced research.
+
+POS tagged sentence: 
+[('FDA', 'NNP'), ('creates', 'VBZ'), ('partnership', 'NN'), ('to', 'TO'), ('boost', 'VB'), ('regulatory', 'JJ'), ('science', 'NN'), ('The', 'DT'), ('Food', 'NNP'), ('and', 'CC'), ('Drug', 'NNP'), ('Administration', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('National', 'NNP'), ('Institutes', 'NNPS'), ('of', 'IN'), ('Health', 'NNP'), ('on', 'IN'), ('Wednesday', 'NNP'), ('announced', 'VBD'), ('a', 'DT'), ('plan', 'NN'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('FDA', 'NNP'), ('make', 'VBP'), ('swifter', 'NN'), ('decisions', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('safety', 'NN'), ('and', 'CC'), ('effectiveness', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('products', 'NNS'), ('and', 'CC'), ('procedures', 'NNS'), ('that', 'WDT'), ('flow', 'NN'), ('from', 'IN'), ('advanced', 'JJ'), ('research', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION FDA/NNP)   creates/VBZ   partnership/NN   to/TO   boost/VB   regulatory/JJ   science/NN   The/DT   (ORGANIZATION Food/NNP)   and/CC   (PERSON Drug/NNP Administration/NNP)   and/CC   the/DT   (ORGANIZATION National/NNP Institutes/NNPS)   of/IN   (GPE Health/NNP)   on/IN   Wednesday/NNP   announced/VBD   a/DT   plan/NN   to/TO   help/VB   the/DT   (ORGANIZATION FDA/NNP)   make/VBP   swifter/NN   decisions/NNS   about/IN   the/DT   safety/NN   and/CC   effectiveness/NN   of/IN   new/JJ   products/NNS   and/CC   procedures/NNS   that/WDT   flow/NN   from/IN   advanced/JJ   research/NN   ./.)
+----------------------------------
+original sentence: 
+The new partnership will promote the development of testing and other tools that FDA regulators need in order to assess drugs and other products coming from fields such as genomics, nanotechnology and stem cell therapy.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('partnership', 'NN'), ('will', 'MD'), ('promote', 'VB'), ('the', 'DT'), ('development', 'NN'), ('of', 'IN'), ('testing', 'NN'), ('and', 'CC'), ('other', 'JJ'), ('tools', 'NNS'), ('that', 'IN'), ('FDA', 'NNP'), ('regulators', 'NNS'), ('need', 'VBP'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('assess', 'NN'), ('drugs', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('products', 'NNS'), ('coming', 'VBG'), ('from', 'IN'), ('fields', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('genomics', 'NNS'), (',', ','), ('nanotechnology', 'NN'), ('and', 'CC'), ('stem', 'NN'), ('cell', 'NN'), ('therapy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   partnership/NN   will/MD   promote/VB   the/DT   development/NN   of/IN   testing/NN   and/CC   other/JJ   tools/NNS   that/IN   (ORGANIZATION FDA/NNP)   regulators/NNS   need/VBP   in/IN   order/NN   to/TO   assess/NN   drugs/NNS   and/CC   other/JJ   products/NNS   coming/VBG   from/IN   fields/NNS   such/JJ   as/IN   genomics/NNS   ,/,   nanotechnology/NN   and/CC   stem/NN   cell/NN   therapy/NN   ./.)
+----------------------------------
+original sentence: 
+Officials from both agencies said laboratory science leading to treatments had vastly outdistanced regulatory science, which develops the methods to evaluate the safety and quality of those treatments.
+
+POS tagged sentence: 
+[('Officials', 'NNS'), ('from', 'IN'), ('both', 'DT'), ('agencies', 'NNS'), ('said', 'VBD'), ('laboratory', 'NN'), ('science', 'NN'), ('leading', 'VBG'), ('to', 'TO'), ('treatments', 'NNS'), ('had', 'VBD'), ('vastly', 'RB'), ('outdistanced', 'VBN'), ('regulatory', 'JJ'), ('science', 'NN'), (',', ','), ('which', 'WDT'), ('develops', 'NNS'), ('the', 'DT'), ('methods', 'NNS'), ('to', 'TO'), ('evaluate', 'VB'), ('the', 'DT'), ('safety', 'NN'), ('and', 'CC'), ('quality', 'NN'), ('of', 'IN'), ('those', 'DT'), ('treatments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Officials/NNS   from/IN   both/DT   agencies/NNS   said/VBD   laboratory/NN   science/NN   leading/VBG   to/TO   treatments/NNS   had/VBD   vastly/RB   outdistanced/VBN   regulatory/JJ   science/NN   ,/,   which/WDT   develops/NNS   the/DT   methods/NNS   to/TO   evaluate/VB   the/DT   safety/NN   and/CC   quality/NN   of/IN   those/DT   treatments/NNS   ./.)
+----------------------------------
+original sentence: 
+Copyright 2010 Los Angeles Times
+
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2010', 'CD'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Times', 'NNP')]
+
+
+ERTAGGED sentence: (S Copyright/NNP 2010/CD (GPE Los/NNP Angeles/NNP) Times/NNP)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

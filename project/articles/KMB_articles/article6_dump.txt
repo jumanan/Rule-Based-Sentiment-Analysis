@@ -1,0 +1,305 @@
+
+----------------------------------
+original sentence: 
+Carlson Marketing says Huggies rewards program smells like infringement, sues Kimberly Clark Minneapolis / St. Paul Business Journal:  for free extra services.
+
+POS tagged sentence: 
+[('Carlson', 'NNP'), ('Marketing', 'NNP'), ('says', 'VBZ'), ('Huggies', 'NNP'), ('rewards', 'NNS'), ('program', 'NN'), ('smells', 'NNS'), ('like', 'IN'), ('infringement', 'NN'), (',', ','), ('sues', 'NNS'), ('Kimberly', 'RB'), ('Clark', 'NNP'), ('Minneapolis', 'NNP'), ('/', 'NNP'), ('St.', 'NNP'), ('Paul', 'NNP'), ('Business', 'NNP'), ('Journal', 'NNP'), (':', ':'), ('for', 'IN'), ('free', 'JJ'), ('extra', 'JJ'), ('services', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Carlson/NNP)   Marketing/NNP   says/VBZ   (PERSON Huggies/NNP)   rewards/NNS   program/NN   smells/NNS   like/IN   infringement/NN   ,/,   sues/NNS   Kimberly/RB   (PERSON Clark/NNP Minneapolis/NNP)   //NNP   St./NNP   (PERSON Paul/NNP Business/NNP Journal/NNP)   :/:   for/IN   free/JJ   extra/JJ   services/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   says/VBZ   Huggies/NNP   rewards/NNS   program/NN   smells/NNS   like/IN   infringement/NN)
+noun phrases to consider:
+	(NOUN Carlson/NNP Marketing/NNP)
+	(NOUN sues/NNS)
+	(NOUN Clark/NNP Minneapolis/NNP //NNP St./NNP)
+	(NOUN Paul/NNP Business/NNP Journal/NNP)
+	(NOUN free/JJ extra/JJ services/NNS)
+
+----------------------------------
+original sentence: 
+Choose Another City:
+Exclusive Subscriber Content
+Most Emailed Stories
+Access Digital Edition
+News From Other Cities
+Marketing Whitepapers
+Technology Whitepapers
+Commercial Real Estate
+Advertise in the Directory
+Business Travel Center
+Mpls./St.
+
+POS tagged sentence: 
+[('Choose', 'NNP'), ('Another', 'NNP'), ('City', 'NNP'), (':', ':'), ('Exclusive', 'JJ'), ('Subscriber', 'NNP'), ('Content', 'NNP'), ('Most', 'NNP'), ('Emailed', 'NNP'), ('Stories', 'NNP'), ('Access', 'NNP'), ('Digital', 'NNP'), ('Edition', 'NNP'), ('News', 'NNP'), ('From', 'NNP'), ('Other', 'NNP'), ('Cities', 'NNPS'), ('Marketing', 'NNP'), ('Whitepapers', 'NNP'), ('Technology', 'NNP'), ('Whitepapers', 'NNP'), ('Commercial', 'NNP'), ('Real', 'NNP'), ('Estate', 'NNP'), ('Advertise', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Directory', 'NNP'), ('Business', 'NNP'), ('Travel', 'NNP'), ('Center', 'NNP'), ('Mpls./St', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Choose/NNP)   (PERSON Another/NNP City/NNP)   :/:   Exclusive/JJ   Subscriber/NNP   Content/NNP   Most/NNP   Emailed/NNP   Stories/NNP   Access/NNP   (ORGANIZATION Digital/NNP Edition/NNP News/NNP)   From/NNP   Other/NNP   Cities/NNPS   Marketing/NNP   Whitepapers/NNP   Technology/NNP   Whitepapers/NNP   Commercial/NNP   Real/NNP   Estate/NNP   Advertise/NNP   in/IN   the/DT   (ORGANIZATION Directory/NNP Business/NNP Travel/NNP Center/NNP)   Mpls./St/NNP   ./.)
+----------------------------------
+original sentence: 
+Paul City Guide
+Accounting & Consulting
+Banking & Financial Services
+Energy & the Environment
+Logistics & Transportation
+Residential Real Estate
+Retailing & Restaurants
+Subscribe to Minneapolis / St. Paul Business Journal
+Minneapolis / St. Paul
+Friday, April 2, 2010
+Carlson Marketing says Huggies rewards program smells like infringement, sues Kimberly Clark
+Minneapolis / St. Paul Business Journal by Send this story to a friend
+Email address of friend insert comma between multiple addresses :
+Enter words from the security image above:
+Carlson Worldwide Marketing Inc.
+ is raising a stink in federal court over an online diaper customer rewards program.
+
+POS tagged sentence: 
+[('Paul', 'NNP'), ('City', 'NNP'), ('Guide', 'NNP'), ('Accounting', 'NNP'), ('&', 'CC'), ('Consulting', 'NNP'), ('Banking', 'NNP'), ('&', 'CC'), ('Financial', 'NNP'), ('Services', 'NNPS'), ('Energy', 'NNP'), ('&', 'CC'), ('the', 'DT'), ('Environment', 'NNP'), ('Logistics', 'NNP'), ('&', 'CC'), ('Transportation', 'NNP'), ('Residential', 'NNP'), ('Real', 'NNP'), ('Estate', 'NNP'), ('Retailing', 'NNP'), ('&', 'CC'), ('Restaurants', 'NNP'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Minneapolis', 'NNP'), ('/', 'NNP'), ('St.', 'NNP'), ('Paul', 'NNP'), ('Business', 'NNP'), ('Journal', 'NNP'), ('Minneapolis', 'NNP'), ('/', 'NNP'), ('St.', 'NNP'), ('Paul', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('2', 'CD'), (',', ','), ('2010', 'CD'), ('Carlson', 'NNP'), ('Marketing', 'NNP'), ('says', 'VBZ'), ('Huggies', 'NNP'), ('rewards', 'NNS'), ('program', 'NN'), ('smells', 'NNS'), ('like', 'IN'), ('infringement', 'NN'), (',', ','), ('sues', 'NNS'), ('Kimberly', 'RB'), ('Clark', 'NNP'), ('Minneapolis', 'NNP'), ('/', 'NNP'), ('St.', 'NNP'), ('Paul', 'NNP'), ('Business', 'NNP'), ('Journal', 'NNP'), ('by', 'IN'), ('Send', 'NNP'), ('this', 'DT'), ('story', 'NN'), ('to', 'TO'), ('a', 'DT'), ('friend', 'NN'), ('Email', 'NNP'), ('address', 'NN'), ('of', 'IN'), ('friend', 'NN'), ('insert', 'NN'), ('comma', 'NN'), ('between', 'IN'), ('multiple', 'NN'), ('addresses', 'NNS'), (':', ':'), ('Enter', 'NNP'), ('words', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('security', 'NN'), ('image', 'NN'), ('above', 'IN'), (':', ':'), ('Carlson', 'NNP'), ('Worldwide', 'NNP'), ('Marketing', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('is', 'VBZ'), ('raising', 'VBG'), ('a', 'DT'), ('stink', 'NN'), ('in', 'IN'), ('federal', 'JJ'), ('court', 'NN'), ('over', 'IN'), ('an', 'DT'), ('online', 'NN'), ('diaper', 'NN'), ('customer', 'NN'), ('rewards', 'NNS'), ('program', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Paul/NNP)   (GPE City/NNP)   Guide/NNP   Accounting/NNP   &/CC   (ORGANIZATION Consulting/NNP)   Banking/NNP   &/CC   (ORGANIZATION Financial/NNP Services/NNPS Energy/NNP)   &/CC   the/DT   (ORGANIZATION Environment/NNP Logistics/NNP)   &/CC   (ORGANIZATION Transportation/NNP)   Residential/NNP   Real/NNP   Estate/NNP   Retailing/NNP   &/CC   (PERSON Restaurants/NNP Subscribe/NNP)   to/TO   (ORGANIZATION Minneapolis/NNP)   //NNP   St./NNP   (PERSON Paul/NNP Business/NNP Journal/NNP Minneapolis/NNP)   //NNP   St./NNP   (PERSON Paul/NNP)   Friday/NNP   ,/,   April/NNP   2/CD   ,/,   2010/CD   (PERSON Carlson/NNP Marketing/NNP)   says/VBZ   (PERSON Huggies/NNP)   rewards/NNS   program/NN   smells/NNS   like/IN   infringement/NN   ,/,   sues/NNS   Kimberly/RB   (PERSON Clark/NNP Minneapolis/NNP)   //NNP   St./NNP   (PERSON Paul/NNP Business/NNP Journal/NNP)   by/IN   (ORGANIZATION Send/NNP)   this/DT   story/NN   to/TO   a/DT   friend/NN   (PERSON Email/NNP)   address/NN   of/IN   friend/NN   insert/NN   comma/NN   between/IN   multiple/NN   addresses/NNS   :/:   Enter/NNP   words/NNS   from/IN   the/DT   security/NN   image/NN   above/IN   :/:   (PERSON Carlson/NNP Worldwide/NNP Marketing/NNP Inc/NNP)   ./.   is/VBZ   raising/VBG   a/DT   stink/NN   in/IN   federal/JJ   court/NN   over/IN   an/DT   online/NN   diaper/NN   customer/NN   rewards/NNS   program/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   says/VBZ   Huggies/NNP   rewards/NNS   program/NN   smells/NNS   like/IN   infringement/NN)
+	(VERB   is/VBZ   raising/VBG   a/DT   stink/NN   in/IN   federal/JJ   court/NN   over/IN   an/DT   online/NN   diaper/NN   customer/NN   rewards/NNS   program/NN)
+noun phrases to consider:
+	(NOUN Paul/NNP City/NNP Guide/NNP Accounting/NNP)
+	(NOUN Consulting/NNP Banking/NNP)
+	(NOUN Financial/NNP Services/NNPS Energy/NNP)
+	(NOUN Environment/NNP Logistics/NNP)
+	(NOUN Transportation/NNP Residential/NNP Real/NNP Estate/NNP)
+	(NOUN Retailing/NNP)
+	(NOUN Restaurants/NNP Subscribe/NNP)
+	(NOUN Minneapolis/NNP //NNP St./NNP Paul/NNP)
+	(NOUN Business/NNP Journal/NNP Minneapolis/NNP //NNP)
+	(NOUN St./NNP Paul/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Carlson/NNP Marketing/NNP)
+	(NOUN sues/NNS)
+	(NOUN Clark/NNP Minneapolis/NNP //NNP St./NNP)
+	(NOUN Paul/NNP Business/NNP Journal/NNP)
+	(NOUN Send/NNP)
+	(NOUN story/NN)
+	(NOUN friend/NN Email/NNP address/NN)
+	(NOUN friend/NN insert/NN comma/NN)
+	(NOUN multiple/NN addresses/NNS)
+	(NOUN Enter/NNP words/NNS)
+	(NOUN security/NN image/NN)
+	(NOUN Carlson/NNP Worldwide/NNP Marketing/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+The Plymouth based marketing agency is suing Huggies diaper maker Kimberly Clark Corp.
+ over alleged patent infringement, according to court records.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Plymouth', 'NNP'), ('based', 'VBN'), ('marketing', 'NN'), ('agency', 'NN'), ('is', 'VBZ'), ('suing', 'VBG'), ('Huggies', 'NNS'), ('diaper', 'NN'), ('maker', 'NN'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('Corp', 'NNP'), ('.', '.'), ('over', 'IN'), ('alleged', 'JJ'), ('patent', 'NN'), ('infringement', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('court', 'NN'), ('records', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Plymouth/NNP)   based/VBN   marketing/NN   agency/NN   is/VBZ   suing/VBG   Huggies/NNS   diaper/NN   maker/NN   (PERSON Kimberly/NNP Clark/NNP Corp/NNP)   ./.   over/IN   alleged/JJ   patent/NN   infringement/NN   ,/,   according/VBG   to/TO   court/NN   records/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB based/VBN marketing/NN agency/NN)
+	(VERB   is/VBZ   suing/VBG   Huggies/NNS   diaper/NN   maker/NN   Kimberly/NNP   Clark/NNP   Corp/NNP)
+
+tagged sentence:
+	 is suing Huggies diaper maker Kimberly Clark Corp	res:-1
+	(VERB according/VBG to/TO court/NN records/NNS)
+noun phrases to consider:
+	(NOUN Plymouth/NNP)
+	(NOUN alleged/JJ patent/NN infringement/NN)
+
+tagged sentence:
+	 alleged patent infringement	res:-1
+
+----------------------------------
+original sentence: 
+Huggies&#39; customer loyalty program rewards customers who buy diapers, Pull Ups and wipes.
+
+POS tagged sentence: 
+[('Huggies&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('customer', 'NN'), ('loyalty', 'NN'), ('program', 'NN'), ('rewards', 'NNS'), ('customers', 'NNS'), ('who', 'WP'), ('buy', 'VB'), ('diapers', 'NNS'), (',', ','), ('Pull', 'NNP'), ('Ups', 'NNP'), ('and', 'CC'), ('wipes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Huggies&/NN   #/#   39/CD   ;/:   customer/NN   loyalty/NN   program/NN   rewards/NNS   customers/NNS   who/WP   buy/VB   diapers/NNS   ,/,   (PERSON Pull/NNP Ups/NNP)   and/CC   wipes/NNS   ./.)
+----------------------------------
+original sentence: 
+Codes on the product packaging can be entered at the Enjoy the Ride Rewards Web site
+ for points redeemable for more Huggies products, music, toys and gift cards to retailers and restaurants.
+
+POS tagged sentence: 
+[('Codes', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('product', 'NN'), ('packaging', 'NN'), ('can', 'MD'), ('be', 'VB'), ('entered', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('Enjoy', 'NNP'), ('the', 'DT'), ('Ride', 'NNP'), ('Rewards', 'NNP'), ('Web', 'NNP'), ('site', 'NN'), ('for', 'IN'), ('points', 'NNS'), ('redeemable', 'JJ'), ('for', 'IN'), ('more', 'RBR'), ('Huggies', 'NNPS'), ('products', 'NNS'), (',', ','), ('music', 'JJ'), (',', ','), ('toys', 'NNS'), ('and', 'CC'), ('gift', 'NN'), ('cards', 'NNS'), ('to', 'TO'), ('retailers', 'NNS'), ('and', 'CC'), ('restaurants', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Codes/NNP)   on/IN   the/DT   product/NN   packaging/NN   can/MD   be/VB   entered/VBN   at/IN   the/DT   Enjoy/NNP   the/DT   (ORGANIZATION Ride/NNP Rewards/NNP)   Web/NNP   site/NN   for/IN   points/NNS   redeemable/JJ   for/IN   more/RBR   Huggies/NNPS   products/NNS   ,/,   music/JJ   ,/,   toys/NNS   and/CC   gift/NN   cards/NNS   to/TO   retailers/NNS   and/CC   restaurants/NNS   ./.)
+----------------------------------
+original sentence: 
+Defendants Kimberly Clark and promotional marketer  have run the Web site since at least April 2009, according to the suit, and use unique codes concealed on the products.
+
+POS tagged sentence: 
+[('Defendants', 'NNS'), ('Kimberly', 'RB'), ('Clark', 'NNP'), ('and', 'CC'), ('promotional', 'JJ'), ('marketer', 'NN'), ('have', 'VBP'), ('run', 'VBN'), ('the', 'DT'), ('Web', 'NNP'), ('site', 'NN'), ('since', 'IN'), ('at', 'IN'), ('least', 'JJS'), ('April', 'NNP'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('suit', 'NN'), (',', ','), ('and', 'CC'), ('use', 'VB'), ('unique', 'JJ'), ('codes', 'NNS'), ('concealed', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Defendants/NNS   Kimberly/RB   (PERSON Clark/NNP)   and/CC   promotional/JJ   marketer/NN   have/VBP   run/VBN   the/DT   Web/NNP   site/NN   since/IN   at/IN   least/JJS   April/NNP   2009/CD   ,/,   according/VBG   to/TO   the/DT   suit/NN   ,/,   and/CC   use/VB   unique/JJ   codes/NNS   concealed/VBD   on/IN   the/DT   products/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   run/VBN   the/DT   Web/NNP   site/NN   since/IN   at/IN   least/JJS   April/NNP   2009/CD)
+	(VERB according/VBG to/TO the/DT suit/NN)
+	(VERB use/VB unique/JJ codes/NNS)
+	(VERB concealed/VBD on/IN the/DT products/NNS)
+noun phrases to consider:
+	(NOUN Defendants/NNS)
+
+tagged sentence:
+	 Defendants	res:-1
+	(NOUN Clark/NNP)
+	(NOUN promotional/JJ marketer/NN)
+
+----------------------------------
+original sentence: 
+In a civil complaint filed in Minneapolis&#39; U.S. District Court Thursday, Carlson said that code technique is covered under a March 2000 patent for a &quot;method of building up a data bank containing customer data and/or for the organization of a rebate or coupon system.&quot;
+Carlson wants a federal judge to put a permanent stop to the alleged violation and award damages in excess of $50,000.
+
+POS tagged sentence: 
+[('In', 'IN'), ('a', 'DT'), ('civil', 'JJ'), ('complaint', 'NN'), ('filed', 'VBN'), ('in', 'IN'), ('Minneapolis&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('U.S.', 'NNP'), ('District', 'NNP'), ('Court', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('Carlson', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('code', 'NN'), ('technique', 'NN'), ('is', 'VBZ'), ('covered', 'VBN'), ('under', 'IN'), ('a', 'DT'), ('March', 'NNP'), ('2000', 'CD'), ('patent', 'NN'), ('for', 'IN'), ('a', 'DT'), ('&quot', 'JJ'), (';', ':'), ('method', 'NN'), ('of', 'IN'), ('building', 'NN'), ('up', 'IN'), ('a', 'DT'), ('data', 'NN'), ('bank', 'NN'), ('containing', 'VBG'), ('customer', 'NN'), ('data', 'NNS'), ('and/or', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('organization', 'NN'), ('of', 'IN'), ('a', 'DT'), ('rebate', 'JJ'), ('or', 'CC'), ('coupon', 'NN'), ('system.&quot', 'JJ'), (';', ':'), ('Carlson', 'NNP'), ('wants', 'VBZ'), ('a', 'DT'), ('federal', 'JJ'), ('judge', 'NN'), ('to', 'TO'), ('put', 'VB'), ('a', 'DT'), ('permanent', 'NN'), ('stop', 'NN'), ('to', 'TO'), ('the', 'DT'), ('alleged', 'JJ'), ('violation', 'NN'), ('and', 'CC'), ('award', 'NN'), ('damages', 'NNS'), ('in', 'IN'), ('excess', 'NN'), ('of', 'IN'), ('$', '$'), ('50,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   a/DT   civil/JJ   complaint/NN   filed/VBN   in/IN   Minneapolis&/NNP   #/#   39/CD   ;/:   (GPE U.S./NNP)   (ORGANIZATION District/NNP Court/NNP)   Thursday/NNP   ,/,   (PERSON Carlson/NNP)   said/VBD   that/IN   code/NN   technique/NN   is/VBZ   covered/VBN   under/IN   a/DT   March/NNP   2000/CD   patent/NN   for/IN   a/DT   &quot/JJ   ;/:   method/NN   of/IN   building/NN   up/IN   a/DT   data/NN   bank/NN   containing/VBG   customer/NN   data/NNS   and/or/JJ   for/IN   the/DT   organization/NN   of/IN   a/DT   rebate/JJ   or/CC   coupon/NN   system.&quot/JJ   ;/:   (PERSON Carlson/NNP)   wants/VBZ   a/DT   federal/JJ   judge/NN   to/TO   put/VB   a/DT   permanent/NN   stop/NN   to/TO   the/DT   alleged/JJ   violation/NN   and/CC   award/NN   damages/NNS   in/IN   excess/NN   of/IN   $/$   50,000/CD   ./.)
+----------------------------------
+original sentence: 
+Dallas based Kimberly Clark and Winnipeg based IC Group have not yet filed a response to the suit.
+
+POS tagged sentence: 
+[('Dallas', 'NNP'), ('based', 'VBD'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('and', 'CC'), ('Winnipeg', 'NNP'), ('based', 'VBD'), ('IC', 'NNP'), ('Group', 'NNP'), ('have', 'VBP'), ('not', 'RB'), ('yet', 'RB'), ('filed', 'VBN'), ('a', 'DT'), ('response', 'NN'), ('to', 'TO'), ('the', 'DT'), ('suit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dallas/NNP)   based/VBD   (PERSON Kimberly/NNP Clark/NNP)   and/CC   (PERSON Winnipeg/NNP)   based/VBD   (ORGANIZATION IC/NNP Group/NNP)   have/VBP   not/RB   yet/RB   filed/VBN   a/DT   response/NN   to/TO   the/DT   suit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB based/VBD Kimberly/NNP Clark/NNP)
+	(VERB based/VBD IC/NNP Group/NNP)
+	(VERB have/VBP not/RB yet/RB filed/VBN a/DT response/NN)
+noun phrases to consider:
+	(NOUN Dallas/NNP)
+	(NOUN Winnipeg/NNP)
+	(NOUN suit/NN)
+
+----------------------------------
+original sentence: 
+A Kimberly Clark spokeswoman said the company does not comment on pending litigation.
+
+POS tagged sentence: 
+[('A', 'DT'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('spokeswoman', 'NN'), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('comment', 'VB'), ('on', 'IN'), ('pending', 'VBG'), ('litigation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   (ORGANIZATION Kimberly/NNP Clark/NNP)   spokeswoman/NN   said/VBD   the/DT   company/NN   does/VBZ   not/RB   comment/VB   on/IN   pending/VBG   litigation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD the/DT company/NN)
+	(VERB does/VBZ not/RB comment/VB on/IN)
+	(VERB pending/VBG litigation/NN)
+
+tagged sentence:
+	 pending litigation	res:-1
+noun phrases to consider:
+	(NOUN Kimberly/NNP Clark/NNP spokeswoman/NN)
+
+----------------------------------
+original sentence: 
+IC Group could not be reached for comment.
+
+POS tagged sentence: 
+[('IC', 'NNP'), ('Group', 'NNP'), ('could', 'MD'), ('not', 'RB'), ('be', 'VB'), ('reached', 'VBN'), ('for', 'IN'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION IC/NNP Group/NNP)   could/MD   not/RB   be/VB   reached/VBN   for/IN   comment/NN   ./.)
+----------------------------------
+original sentence: 
+Carlson Marketing bills itself as the largest independent marketing agency in the United States, and 15th largest marketing company in the world, with 2,500 marketing professionals in 17 countries.
+
+POS tagged sentence: 
+[('Carlson', 'NNP'), ('Marketing', 'NNP'), ('bills', 'NNS'), ('itself', 'PRP'), ('as', 'IN'), ('the', 'DT'), ('largest', 'JJS'), ('independent', 'JJ'), ('marketing', 'NN'), ('agency', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('and', 'CC'), ('15th', 'JJ'), ('largest', 'JJS'), ('marketing', 'NN'), ('company', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), ('with', 'IN'), ('2,500', 'CD'), ('marketing', 'NN'), ('professionals', 'NNS'), ('in', 'IN'), ('17', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Carlson/NNP)   Marketing/NNP   bills/NNS   itself/PRP   as/IN   the/DT   largest/JJS   independent/JJ   marketing/NN   agency/NN   in/IN   the/DT   (GPE United/NNP States/NNPS)   ,/,   and/CC   15th/JJ   largest/JJS   marketing/NN   company/NN   in/IN   the/DT   world/NN   ,/,   with/IN   2,500/CD   marketing/NN   professionals/NNS   in/IN   17/CD   countries/NNS   ./.)
+----------------------------------
+original sentence: 
+Attorneys Emmett McMahon, Marta Chou and Martin Lueck of Minneapolis law firm Robins, Kaplan, Miller & Ciresi
+ filed the suit for Carlson.
+
+POS tagged sentence: 
+[('Attorneys', 'NNS'), ('Emmett', 'NNP'), ('McMahon', 'NNP'), (',', ','), ('Marta', 'NNP'), ('Chou', 'NNP'), ('and', 'CC'), ('Martin', 'NNP'), ('Lueck', 'NNP'), ('of', 'IN'), ('Minneapolis', 'NNP'), ('law', 'NN'), ('firm', 'NN'), ('Robins', 'VBZ'), (',', ','), ('Kaplan', 'NNP'), (',', ','), ('Miller', 'NNP'), ('&', 'CC'), ('Ciresi', 'NNP'), ('filed', 'VBD'), ('the', 'DT'), ('suit', 'NN'), ('for', 'IN'), ('Carlson', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Attorneys/NNS   (PERSON Emmett/NNP McMahon/NNP)   ,/,   (PERSON Marta/NNP Chou/NNP)   and/CC   (PERSON Martin/NNP Lueck/NNP)   of/IN   (GSP Minneapolis/NNP)   law/NN   firm/NN   Robins/VBZ   ,/,   (PERSON Kaplan/NNP)   ,/,   (PERSON Miller/NNP)   &/CC   (PERSON Ciresi/NNP)   filed/VBD   the/DT   suit/NN   for/IN   (PERSON Carlson/NNP)   ./.)
+----------------------------------
+original sentence: 
+The case has been assigned to Senior U.S. District Judge James Rosenbaum.
+
+POS tagged sentence: 
+[('The', 'DT'), ('case', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('assigned', 'VBN'), ('to', 'TO'), ('Senior', 'NNP'), ('U.S.', 'NNP'), ('District', 'NNP'), ('Judge', 'NNP'), ('James', 'NNP'), ('Rosenbaum', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   case/NN   has/VBZ   been/VBN   assigned/VBN   to/TO   (ORGANIZATION Senior/NNP U.S./NNP District/NNP)   Judge/NNP   (PERSON James/NNP Rosenbaum/NNP)   ./.)
+----------------------------------
+original sentence: 
+jhammerand@bizjournals.com | 612 288 2138
+
+Most Emailed Stories
+Business Pulse Survey
+Where would you spend a free week off?
+
+POS tagged sentence: 
+[('jhammerand', 'NN'), ('@', 'IN'), ('bizjournals.com', 'JJ'), ('|', 'NN'), ('612', 'CD'), ('288', 'CD'), ('2138', 'CD'), ('Most', 'NNP'), ('Emailed', 'NNP'), ('Stories', 'NNP'), ('Business', 'NNP'), ('Pulse', 'NNP'), ('Survey', 'NNP'), ('Where', 'NNP'), ('would', 'MD'), ('you', 'PRP'), ('spend', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('week', 'NN'), ('off', 'IN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   jhammerand/NN   @/IN   bizjournals.com/JJ   |/NN   612/CD   288/CD   2138/CD   Most/NNP   Emailed/NNP   Stories/NNP   Business/NNP   Pulse/NNP   Survey/NNP   Where/NNP   would/MD   you/PRP   spend/VB   a/DT   free/JJ   week/NN   off/IN   ?/.)
+----------------------------------
+original sentence: 
+sponsored by bizjournals Partners
+City Guide Spotlight Twin Cities Real Estate
+Search Press Releases
+ Search by Company, Organization, or Keyword
+Content provided by PR Newswire.
+
+POS tagged sentence: 
+[('sponsored', 'VBD'), ('by', 'IN'), ('bizjournals', 'NNS'), ('Partners', 'NNPS'), ('City', 'NNP'), ('Guide', 'NNP'), ('Spotlight', 'NNP'), ('Twin', 'NNP'), ('Cities', 'NNPS'), ('Real', 'NNP'), ('Estate', 'NNP'), ('Search', 'NNP'), ('Press', 'NNP'), ('Releases', 'NNP'), ('Search', 'NNP'), ('by', 'IN'), ('Company', 'NNP'), (',', ','), ('Organization', 'NNP'), (',', ','), ('or', 'CC'), ('Keyword', 'NNP'), ('Content', 'NNP'), ('provided', 'VBD'), ('by', 'IN'), ('PR', 'NNP'), ('Newswire', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   sponsored/VBD   by/IN   bizjournals/NNS   (ORGANIZATION Partners/NNPS City/NNP Guide/NNP)   Spotlight/NNP   Twin/NNP   Cities/NNPS   (ORGANIZATION Real/NNP Estate/NNP Search/NNP)   Press/NNP   Releases/NNP   Search/NNP   by/IN   (ORGANIZATION Company/NNP)   ,/,   (ORGANIZATION Organization/NNP)   ,/,   or/CC   (PERSON Keyword/NNP Content/NNP)   provided/VBD   by/IN   (ORGANIZATION PR/NNP Newswire/NNP)   ./.)
+----------------------------------
+original sentence: 
+Search for Jobs powered by onTargetJobs
+View Twincities Jobs 721 jobs today
+Get the latest local business news delivered to your inbox every afternoon
+ Email Address Get the Mpls./St.
+
+POS tagged sentence: 
+[('Search', 'NNP'), ('for', 'IN'), ('Jobs', 'NNP'), ('powered', 'VBD'), ('by', 'IN'), ('onTargetJobs', 'NNP'), ('View', 'NNP'), ('Twincities', 'NNPS'), ('Jobs', 'NNP'), ('721', 'CD'), ('jobs', 'NNS'), ('today', 'NN'), ('Get', 'NNP'), ('the', 'DT'), ('latest', 'JJS'), ('local', 'JJ'), ('business', 'NN'), ('news', 'NN'), ('delivered', 'VBD'), ('to', 'TO'), ('your', 'PRP$'), ('inbox', 'NN'), ('every', 'DT'), ('afternoon', 'NN'), ('Email', 'NNP'), ('Address', 'NNP'), ('Get', 'NNP'), ('the', 'DT'), ('Mpls./St', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Search/NNP)   for/IN   (PERSON Jobs/NNP)   powered/VBD   by/IN   (ORGANIZATION onTargetJobs/NNP View/NNP Twincities/NNPS)   Jobs/NNP   721/CD   jobs/NNS   today/NN   Get/NNP   the/DT   latest/JJS   local/JJ   business/NN   news/NN   delivered/VBD   to/TO   your/PRP$   inbox/NN   every/DT   afternoon/NN   (PERSON Email/NNP Address/NNP)   Get/NNP   the/DT   Mpls./St/JJ   ./.)
+----------------------------------
+original sentence: 
+Paul DailyUpdate newsletter
+Small Business Center
+ Sponsored by Visit the Small Business Center
+Entrepreneur Success Stories
+Find out how they made it
+Sign up for the Daily Update
+Featured Mpls./St.
+
+POS tagged sentence: 
+[('Paul', 'NNP'), ('DailyUpdate', 'NNP'), ('newsletter', 'NN'), ('Small', 'NNP'), ('Business', 'NNP'), ('Center', 'NNP'), ('Sponsored', 'NNP'), ('by', 'IN'), ('Visit', 'NNP'), ('the', 'DT'), ('Small', 'NNP'), ('Business', 'NNP'), ('Center', 'NNP'), ('Entrepreneur', 'NNP'), ('Success', 'NNP'), ('Stories', 'NNP'), ('Find', 'NNP'), ('out', 'IN'), ('how', 'WRB'), ('they', 'PRP'), ('made', 'VBD'), ('it', 'PRP'), ('Sign', 'NNP'), ('up', 'IN'), ('for', 'IN'), ('the', 'DT'), ('Daily', 'NNP'), ('Update', 'NNP'), ('Featured', 'NNP'), ('Mpls./St', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Paul/NNP)   (ORGANIZATION DailyUpdate/NNP)   newsletter/NN   (PERSON Small/NNP Business/NNP Center/NNP Sponsored/NNP)   by/IN   Visit/NNP   the/DT   (ORGANIZATION     Small/NNP     Business/NNP     Center/NNP     Entrepreneur/NNP     Success/NNP)   Stories/NNP   Find/NNP   out/IN   how/WRB   they/PRP   made/VBD   it/PRP   Sign/NNP   up/IN   for/IN   the/DT   (ORGANIZATION Daily/NNP Update/NNP Featured/NNP)   Mpls./St/NNP   ./.)
+----------------------------------
+original sentence: 
+Paul Jobs
+
+Use of, or registration on, this site constitutes acceptance of our 
+
+POS tagged sentence: 
+[('Paul', 'NNP'), ('Jobs', 'NNP'), ('Use', 'NNP'), ('of', 'IN'), (',', ','), ('or', 'CC'), ('registration', 'NN'), ('on', 'IN'), (',', ','), ('this', 'DT'), ('site', 'NN'), ('constitutes', 'VBZ'), ('acceptance', 'NN'), ('of', 'IN'), ('our', 'PRP$')]
+
+
+ERTAGGED sentence: (S   (PERSON Paul/NNP)   (ORGANIZATION Jobs/NNP Use/NNP)   of/IN   ,/,   or/CC   registration/NN   on/IN   ,/,   this/DT   site/NN   constitutes/VBZ   acceptance/NN   of/IN   our/PRP$)
+
+veryneg:0	neg:4	pos:0	verypos:0	total:2

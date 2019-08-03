@@ -1,0 +1,115 @@
+
+----------------------------------
+original sentence: 
+ Merck IBD Investors.com Investors.com Powered by Investors Business Daily
+Investor's Business Daily Digital Edition
+ |  To save time in the future, you may select one of the preferences below.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('IBD', 'NNP'), ('Investors.com', 'NNP'), ('Investors.com', 'NNP'), ('Powered', 'NNP'), ('by', 'IN'), ('Investors', 'NNPS'), ('Business', 'NNP'), ('Daily', 'NNP'), ('Investor', 'NNP'), ("'s", 'POS'), ('Business', 'NNP'), ('Daily', 'NNP'), ('Digital', 'NNP'), ('Edition', 'NNP'), ('|', 'NNP'), ('To', 'NNP'), ('save', 'VB'), ('time', 'NN'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), (',', ','), ('you', 'PRP'), ('may', 'MD'), ('select', 'VB'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('preferences', 'NNS'), ('below', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Merck/NNP)   (ORGANIZATION IBD/NNP)   Investors.com/NNP   Investors.com/NNP   Powered/NNP   by/IN   (ORGANIZATION Investors/NNPS Business/NNP Daily/NNP Investor/NNP)   's/POS   (ORGANIZATION Business/NNP Daily/NNP)   (ORGANIZATION Digital/NNP Edition/NNP)   |/NNP   To/NNP   save/VB   time/NN   in/IN   the/DT   future/NN   ,/,   you/PRP   may/MD   select/VB   one/CD   of/IN   the/DT   preferences/NNS   below/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB save/VB time/NN in/IN the/DT future/NN)
+	(VERB select/VB one/CD of/IN the/DT preferences/NNS below/IN)
+noun phrases to consider:
+	(NOUN Merck/NNP IBD/NNP Investors.com/NNP Investors.com/NNP)
+	(NOUN Powered/NNP)
+	(NOUN Investors/NNPS Business/NNP Daily/NNP Investor/NNP)
+	(NOUN Business/NNP Daily/NNP Digital/NNP Edition/NNP)
+	(NOUN |/NNP To/NNP)
+
+----------------------------------
+original sentence: 
+You may update your IBD preferences at any time by going into My IBD and selecting Update Your IBD Preferences.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('may', 'MD'), ('update', 'VB'), ('your', 'PRP$'), ('IBD', 'NNP'), ('preferences', 'NNS'), ('at', 'IN'), ('any', 'DT'), ('time', 'NN'), ('by', 'IN'), ('going', 'VBG'), ('into', 'IN'), ('My', 'NNP'), ('IBD', 'NNP'), ('and', 'CC'), ('selecting', 'VBG'), ('Update', 'NNP'), ('Your', 'NNP'), ('IBD', 'NNP'), ('Preferences', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   may/MD   update/VB   your/PRP$   (ORGANIZATION IBD/NNP)   preferences/NNS   at/IN   any/DT   time/NN   by/IN   going/VBG   into/IN   My/NNP   IBD/NNP   and/CC   selecting/VBG   (ORGANIZATION Update/NNP)   Your/NNP   (ORGANIZATION IBD/NNP Preferences/NNPS)   ./.)
+----------------------------------
+original sentence: 
+Set Web Based Version as Default Set PDF Version as Default Set Recent Issues as Default  Add to your lists:
+Posted 04/05/2010 06:28 PM ET
+ Featured Stocks
+ * Top Rated Company  , the drugmaker, is suing to stop rival Novartis'  Sandoz unit from selling a generic version of its antifungal drug Cancidas.
+
+POS tagged sentence: 
+[('Set', 'NNP'), ('Web', 'NNP'), ('Based', 'NNP'), ('Version', 'NNP'), ('as', 'IN'), ('Default', 'NNP'), ('Set', 'NNP'), ('PDF', 'NNP'), ('Version', 'NNP'), ('as', 'IN'), ('Default', 'NNP'), ('Set', 'NNP'), ('Recent', 'NNP'), ('Issues', 'NNPS'), ('as', 'IN'), ('Default', 'NNP'), ('Add', 'NNP'), ('to', 'TO'), ('your', 'PRP$'), ('lists', 'NNS'), (':', ':'), ('Posted', 'JJ'), ('04/05/2010', 'CD'), ('06', 'CD'), (':', ':'), ('28', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Featured', 'NNP'), ('Stocks', 'NNP'), ('*', '-NONE-'), ('Top', 'VB'), ('Rated', 'NNP'), ('Company', 'NNP'), (',', ','), ('the', 'DT'), ('drugmaker', 'NN'), (',', ','), ('is', 'VBZ'), ('suing', 'VBG'), ('to', 'TO'), ('stop', 'VB'), ('rival', 'NN'), ('Novartis', 'NNP'), ("'", "''"), ('Sandoz', 'NNP'), ('unit', 'NN'), ('from', 'IN'), ('selling', 'VBG'), ('a', 'DT'), ('generic', 'JJ'), ('version', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('antifungal', 'JJ'), ('drug', 'NN'), ('Cancidas', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Set/NNP)   Web/NNP   Based/NNP   Version/NNP   as/IN   (PERSON Default/NNP Set/NNP)   PDF/NNP   Version/NNP   as/IN   (PERSON Default/NNP Set/NNP Recent/NNP Issues/NNPS)   as/IN   (PERSON Default/NNP Add/NNP)   to/TO   your/PRP$   lists/NNS   :/:   Posted/JJ   04/05/2010/CD   06/CD   :/:   28/CD   PM/NNP   ET/NNP   Featured/NNP   Stocks/NNP   */-NONE-   Top/VB   (PERSON Rated/NNP Company/NNP)   ,/,   the/DT   drugmaker/NN   ,/,   is/VBZ   suing/VBG   to/TO   stop/VB   rival/NN   (PERSON Novartis/NNP)   '/''   (PERSON Sandoz/NNP)   unit/NN   from/IN   selling/VBG   a/DT   generic/JJ   version/NN   of/IN   its/PRP$   antifungal/JJ   drug/NN   Cancidas/NNP   ./.)
+----------------------------------
+original sentence: 
+The suit could prevent the FDA from approving Sandoz's generic for 30 months, or until the litigation is resolved.
+
+POS tagged sentence: 
+[('The', 'DT'), ('suit', 'NN'), ('could', 'MD'), ('prevent', 'VB'), ('the', 'DT'), ('FDA', 'NNP'), ('from', 'IN'), ('approving', 'VBG'), ('Sandoz', 'NNP'), ("'s", 'POS'), ('generic', 'JJ'), ('for', 'IN'), ('30', 'CD'), ('months', 'NNS'), (',', ','), ('or', 'CC'), ('until', 'IN'), ('the', 'DT'), ('litigation', 'NN'), ('is', 'VBZ'), ('resolved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   suit/NN   could/MD   prevent/VB   the/DT   (ORGANIZATION FDA/NNP)   from/IN   approving/VBG   (PERSON Sandoz/NNP)   's/POS   generic/JJ   for/IN   30/CD   months/NNS   ,/,   or/CC   until/IN   the/DT   litigation/NN   is/VBZ   resolved/VBN   ./.)
+----------------------------------
+original sentence: 
+Merck fell 0.9% to 37.39.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('fell', 'VBD'), ('0.9', 'CD'), ('%', 'NN'), ('to', 'TO'), ('37.39', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Merck/NNP) fell/VBD 0.9/CD %/NN to/TO 37.39/CD ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fell/VBD 0.9/CD %/NN)
+
+tagged sentence:
+	 fell 0.9 %	res:-1
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Comments  Leave a Comment
+ To participate in Community areas, please Registration Benefits
+Not a member?
+
+POS tagged sentence: 
+[('Comments', 'NNS'), ('Leave', 'VBP'), ('a', 'DT'), ('Comment', 'NNP'), ('To', 'NNP'), ('participate', 'VB'), ('in', 'IN'), ('Community', 'NNP'), ('areas', 'NNS'), (',', ','), ('please', 'VB'), ('Registration', 'NNP'), ('Benefits', 'NNP'), ('Not', 'NNP'), ('a', 'DT'), ('member', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Comments/NNS   Leave/VBP   a/DT   (ORGANIZATION Comment/NNP)   To/NNP   participate/VB   in/IN   (ORGANIZATION Community/NNP)   areas/NNS   ,/,   please/VB   (PERSON Registration/NNP Benefits/NNP)   Not/NNP   a/DT   member/NN   ?/.)
+----------------------------------
+original sentence: 
+Register &raquo;
+Unregistered subscriber?
+
+POS tagged sentence: 
+[('Register', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Unregistered', 'NNP'), ('subscriber', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Register/NNP)   &raquo/NNP   ;/:   Unregistered/NNP   subscriber/NN   ?/.)
+----------------------------------
+original sentence: 
+Register &raquo;
+Can't access your account?
+
+POS tagged sentence: 
+[('Register', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Ca', 'NNP'), ("n't", 'RB'), ('access', 'NN'), ('your', 'PRP$'), ('account', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Register/NNP)   &raquo/NNP   ;/:   Ca/NNP   n't/RB   access/NN   your/PRP$   account/NN   ?/.)
+----------------------------------
+original sentence: 
+&raquo;
+04/23/2010 05:00:24 PM ET
+04/23/2010 05:00:15 PM ET
+A few signs can alert you to corporate fraud.
+ 
+
+POS tagged sentence: 
+[('&raquo', 'NN'), (';', ':'), ('04/23/2010', 'CD'), ('05', 'CD'), (':', ':'), ('00', 'CD'), (':', ':'), ('24', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('04/23/2010', 'CD'), ('05', 'CD'), (':', ':'), ('00', 'CD'), (':', ':'), ('15', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('A', 'NNP'), ('few', 'JJ'), ('signs', 'NNS'), ('can', 'MD'), ('alert', 'VB'), ('you', 'PRP'), ('to', 'TO'), ('corporate', 'JJ'), ('fraud', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &raquo/NN)   ;/:   04/23/2010/CD   05/CD   :/:   00/CD   :/:   24/CD   PM/NNP   ET/NNP   04/23/2010/CD   05/CD   :/:   00/CD   :/:   15/CD   PM/NNP   ET/NNP   A/NNP   few/JJ   signs/NNS   can/MD   alert/VB   you/PRP   to/TO   corporate/JJ   fraud/NN   ./.)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

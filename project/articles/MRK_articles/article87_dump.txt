@@ -1,0 +1,443 @@
+
+----------------------------------
+original sentence: 
+CardioGenics Announces Further Update Regarding Status of Merck Agreement | TradingMarkets.com  New ETF Book by Larry Connors Click here to read more
+ CardioGenics Announces Further Update Regarding Status of Merck Agreement
+Posted on: Wed, 10 Mar 2010 10:51:00 EST
+,  Do you know when to trade  &  ?
+
+POS tagged sentence: 
+[('CardioGenics', 'NNS'), ('Announces', 'NNS'), ('Further', 'RB'), ('Update', 'NNP'), ('Regarding', 'NNP'), ('Status', 'NNP'), ('of', 'IN'), ('Merck', 'NNP'), ('Agreement', 'NNP'), ('|', 'NNP'), ('TradingMarkets.com', 'NNP'), ('New', 'NNP'), ('ETF', 'NNP'), ('Book', 'NNP'), ('by', 'IN'), ('Larry', 'NNP'), ('Connors', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('CardioGenics', 'NNP'), ('Announces', 'NNPS'), ('Further', 'NNP'), ('Update', 'NNP'), ('Regarding', 'NNP'), ('Status', 'NNP'), ('of', 'IN'), ('Merck', 'NNP'), ('Agreement', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), (':', ':'), ('Wed', 'NNP'), (',', ','), ('10', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('51', 'CD'), (':', ':'), ('00', 'CD'), ('EST', 'JJS'), (',', ','), ('Do', 'NNP'), ('you', 'PRP'), ('know', 'VB'), ('when', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('&', 'CC'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   CardioGenics/NNS   Announces/NNS   Further/RB   (ORGANIZATION Update/NNP)   Regarding/NNP   Status/NNP   of/IN   (ORGANIZATION Merck/NNP)   Agreement/NNP   |/NNP   TradingMarkets.com/NNP   New/NNP   ETF/NNP   Book/NNP   by/IN   (PERSON Larry/NNP Connors/NNP Click/NNP)   here/RB   to/TO   read/VB   more/JJR   (ORGANIZATION     CardioGenics/NNP     Announces/NNPS     Further/NNP     Update/NNP)   Regarding/NNP   Status/NNP   of/IN   (ORGANIZATION Merck/NNP)   Agreement/NNP   Posted/NNP   on/IN   :/:   Wed/NNP   ,/,   10/CD   Mar/NNP   2010/CD   10/CD   :/:   51/CD   :/:   00/CD   EST/JJS   ,/,   Do/NNP   you/PRP   know/VB   when/WRB   to/TO   trade/VB   &/CC   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   read/VB   more/JJR   CardioGenics/NNP   Announces/NNPS   Further/NNP   Update/NNP   Regarding/NNP   Status/NNP   of/IN   Merck/NNP   Agreement/NNP   Posted/NNP   on/IN)
+	(VERB know/VB)
+	(VERB trade/VB)
+noun phrases to consider:
+	(NOUN CardioGenics/NNS Announces/NNS)
+	(NOUN Update/NNP Regarding/NNP Status/NNP)
+	(NOUN Merck/NNP Agreement/NNP |/NNP TradingMarkets.com/NNP)
+	(NOUN New/NNP ETF/NNP Book/NNP)
+	(NOUN Larry/NNP Connors/NNP Click/NNP)
+	(NOUN Wed/NNP)
+	(NOUN 10/CD Mar/NNP)
+	(NOUN 00/CD EST/JJS)
+	(NOUN Do/NNP)
+
+----------------------------------
+original sentence: 
+Check for a  from TradingMarkets  MISSISSAUGA, Ontario, March 10, 2010 /PRNewswire via COMTEX/ CardioGenics Holdings Inc. OTC Bulletin Board:  , a developer of technology and products targeting the IVD segment of the Point Of Care POC diagnostic market, announced today a further update regarding the status of its agreement with Merck Chimie s.a.s.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('from', 'IN'), ('TradingMarkets', 'NNPS'), ('MISSISSAUGA', 'NNP'), (',', ','), ('Ontario', 'NNP'), (',', ','), ('March', 'NNP'), ('10', 'CD'), (',', ','), ('2010', 'CD'), ('/PRNewswire', 'JJ'), ('via', 'IN'), ('COMTEX/', 'JJ'), ('CardioGenics', 'NNS'), ('Holdings', 'NNS'), ('Inc.', 'NNP'), ('OTC', 'NNP'), ('Bulletin', 'NNP'), ('Board', 'NNP'), (':', ':'), (',', ','), ('a', 'DT'), ('developer', 'NN'), ('of', 'IN'), ('technology', 'NN'), ('and', 'CC'), ('products', 'NNS'), ('targeting', 'VBG'), ('the', 'DT'), ('IVD', 'NNP'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Point', 'NNP'), ('Of', 'NNP'), ('Care', 'NNP'), ('POC', 'NNP'), ('diagnostic', 'JJ'), ('market', 'NN'), (',', ','), ('announced', 'VBD'), ('today', 'NN'), ('a', 'DT'), ('further', 'JJ'), ('update', 'NN'), ('regarding', 'VBG'), ('the', 'DT'), ('status', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('agreement', 'NN'), ('with', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('s.a.s', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   for/IN   a/DT   from/IN   (ORGANIZATION TradingMarkets/NNPS)   (ORGANIZATION MISSISSAUGA/NNP)   ,/,   (PERSON Ontario/NNP)   ,/,   March/NNP   10/CD   ,/,   2010/CD   /PRNewswire/JJ   via/IN   COMTEX//JJ   CardioGenics/NNS   (ORGANIZATION Holdings/NNS Inc./NNP)   OTC/NNP   (PERSON Bulletin/NNP Board/NNP)   :/:   ,/,   a/DT   developer/NN   of/IN   technology/NN   and/CC   products/NNS   targeting/VBG   the/DT   (ORGANIZATION IVD/NNP)   segment/NN   of/IN   the/DT   (ORGANIZATION Point/NNP Of/NNP Care/NNP)   POC/NNP   diagnostic/JJ   market/NN   ,/,   announced/VBD   today/NN   a/DT   further/JJ   update/NN   regarding/VBG   the/DT   status/NN   of/IN   its/PRP$   agreement/NN   with/IN   (PERSON Merck/NNP Chimie/NNP)   s.a.s/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   targeting/VBG   the/DT   IVD/NNP   segment/NN   of/IN   the/DT   Point/NNP   Of/NNP   Care/NNP   POC/NNP   diagnostic/JJ   market/NN)
+	(VERB announced/VBD today/NN a/DT further/JJ update/NN)
+	(VERB   regarding/VBG   the/DT   status/NN   of/IN   its/PRP$   agreement/NN   with/IN   Merck/NNP   Chimie/NNP   s.a.s/NNP)
+noun phrases to consider:
+	(NOUN Check/NNP)
+	(NOUN TradingMarkets/NNPS MISSISSAUGA/NNP)
+	(NOUN Ontario/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD /PRNewswire/JJ)
+	(NOUN COMTEX//JJ CardioGenics/NNS Holdings/NNS Inc./NNP OTC/NNP)
+	(NOUN Bulletin/NNP Board/NNP)
+	(NOUN developer/NN)
+	(NOUN technology/NN)
+	(NOUN products/NNS)
+
+----------------------------------
+original sentence: 
+"Merck Chimie" .
+
+POS tagged sentence: 
+[('"', 'NN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('"', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S "/NN (PERSON Merck/NNP Chimie/NNP) "/NNP ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN "/NN Merck/NNP Chimie/NNP "/NNP)
+
+----------------------------------
+original sentence: 
+As mentioned in the Company's prior announcement and Current Report on Form 8 K filed on November 24, 2009, Merck Chimie completed their encapsulation of a "test batch" of CardioGenics' proprietary paramagnetic beads the "CardioGenics Beads" and targeted December 2009 for delivery of the CardioGenics Beads to the Company for "bench testing" to determine adherence of the encapsulated beads to specifications established jointly by Merck Chimie and CardioGenics for the commercial product.
+
+POS tagged sentence: 
+[('As', 'IN'), ('mentioned', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('prior', 'RB'), ('announcement', 'NN'), ('and', 'CC'), ('Current', 'NNP'), ('Report', 'NNP'), ('on', 'IN'), ('Form', 'NNP'), ('8', 'CD'), ('K', 'NNP'), ('filed', 'VBD'), ('on', 'IN'), ('November', 'NNP'), ('24', 'CD'), (',', ','), ('2009', 'CD'), (',', ','), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('completed', 'VBD'), ('their', 'PRP$'), ('encapsulation', 'NN'), ('of', 'IN'), ('a', 'DT'), ('"', 'NN'), ('test', 'NN'), ('batch', 'NN'), ('"', ':'), ('of', 'IN'), ('CardioGenics', 'NNP'), ("'", 'POS'), ('proprietary', 'JJ'), ('paramagnetic', 'JJ'), ('beads', 'NNS'), ('the', 'DT'), ('"', 'NN'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('"', 'NNP'), ('and', 'CC'), ('targeted', 'VBD'), ('December', 'NNP'), ('2009', 'CD'), ('for', 'IN'), ('delivery', 'NN'), ('of', 'IN'), ('the', 'DT'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('Company', 'NNP'), ('for', 'IN'), ('"', 'NNP'), ('bench', 'NN'), ('testing', 'NN'), ('"', ':'), ('to', 'TO'), ('determine', 'VB'), ('adherence', 'NN'), ('of', 'IN'), ('the', 'DT'), ('encapsulated', 'VBN'), ('beads', 'NNS'), ('to', 'TO'), ('specifications', 'NNS'), ('established', 'VBN'), ('jointly', 'RB'), ('by', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('and', 'CC'), ('CardioGenics', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('commercial', 'JJ'), ('product', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   mentioned/VBN   in/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   prior/RB   announcement/NN   and/CC   (PERSON Current/NNP Report/NNP)   on/IN   Form/NNP   8/CD   K/NNP   filed/VBD   on/IN   November/NNP   24/CD   ,/,   2009/CD   ,/,   (PERSON Merck/NNP Chimie/NNP)   completed/VBD   their/PRP$   encapsulation/NN   of/IN   a/DT   "/NN   test/NN   batch/NN   "/:   of/IN   (ORGANIZATION CardioGenics/NNP)   '/POS   proprietary/JJ   paramagnetic/JJ   beads/NNS   the/DT   "/NN   (ORGANIZATION CardioGenics/NNP)   Beads/NNP   "/NNP   and/CC   targeted/VBD   December/NNP   2009/CD   for/IN   delivery/NN   of/IN   the/DT   (ORGANIZATION CardioGenics/NNP Beads/NNP)   to/TO   the/DT   (ORGANIZATION Company/NNP)   for/IN   "/NNP   bench/NN   testing/NN   "/:   to/TO   determine/VB   adherence/NN   of/IN   the/DT   encapsulated/VBN   beads/NNS   to/TO   specifications/NNS   established/VBN   jointly/RB   by/IN   (PERSON Merck/NNP Chimie/NNP)   and/CC   (ORGANIZATION CardioGenics/NNP)   for/IN   the/DT   commercial/JJ   product/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB mentioned/VBN in/IN the/DT Company/NNP)
+	(VERB filed/VBD on/IN November/NNP 24/CD)
+	(VERB   completed/VBD   their/PRP$   encapsulation/NN   of/IN   a/DT   "/NN   test/NN   batch/NN)
+	(VERB   targeted/VBD   December/NNP   2009/CD   for/IN   delivery/NN   of/IN   the/DT   CardioGenics/NNP   Beads/NNP)
+	(VERB determine/VB adherence/NN of/IN the/DT)
+	(VERB encapsulated/VBN beads/NNS)
+	(VERB established/VBN jointly/RB by/IN Merck/NNP Chimie/NNP)
+noun phrases to consider:
+	(NOUN announcement/NN)
+	(NOUN Current/NNP Report/NNP)
+	(NOUN Form/NNP)
+	(NOUN 8/CD K/NNP)
+	(NOUN Merck/NNP Chimie/NNP)
+	(NOUN CardioGenics/NNP)
+	(NOUN proprietary/JJ paramagnetic/JJ beads/NNS)
+	(NOUN "/NN CardioGenics/NNP Beads/NNP "/NNP)
+	(NOUN Company/NNP)
+	(NOUN "/NNP bench/NN testing/NN)
+	(NOUN specifications/NNS)
+	(NOUN CardioGenics/NNP)
+	(NOUN the/DT commercial/JJ product/NN)
+
+----------------------------------
+original sentence: 
+In December 2009, the Company received the encapsulated "test batch" of the CardioGenics Beads from Merck Chimie and performed the necessary bench testing.
+
+POS tagged sentence: 
+[('In', 'IN'), ('December', 'NNP'), ('2009', 'CD'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('received', 'VBD'), ('the', 'DT'), ('encapsulated', 'VBN'), ('"', '-NONE-'), ('test', 'NN'), ('batch', 'NN'), ('"', ':'), ('of', 'IN'), ('the', 'DT'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('from', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('and', 'CC'), ('performed', 'VBD'), ('the', 'DT'), ('necessary', 'JJ'), ('bench', 'NN'), ('testing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   December/NNP   2009/CD   ,/,   the/DT   (ORGANIZATION Company/NNP)   received/VBD   the/DT   encapsulated/VBN   "/-NONE-   test/NN   batch/NN   "/:   of/IN   the/DT   (ORGANIZATION CardioGenics/NNP Beads/NNP)   from/IN   (PERSON Merck/NNP Chimie/NNP)   and/CC   performed/VBD   the/DT   necessary/JJ   bench/NN   testing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB received/VBD the/DT)
+	(VERB encapsulated/VBN)
+	(VERB performed/VBD the/DT necessary/JJ bench/NN testing/NN)
+noun phrases to consider:
+	(NOUN December/NNP)
+	(NOUN Company/NNP)
+	(NOUN test/NN batch/NN)
+	(NOUN CardioGenics/NNP Beads/NNP)
+	(NOUN Merck/NNP Chimie/NNP)
+
+----------------------------------
+original sentence: 
+After analyzing the bench test results, the Company reported its findings to Merck Chimie and both parties agreed that Merck Chimie would undertake technical adjustments to the encapsulation process to meet the specifications.
+
+POS tagged sentence: 
+[('After', 'IN'), ('analyzing', 'VBG'), ('the', 'DT'), ('bench', 'NN'), ('test', 'NN'), ('results', 'NNS'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('reported', 'VBD'), ('its', 'PRP$'), ('findings', 'NNS'), ('to', 'TO'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('and', 'CC'), ('both', 'DT'), ('parties', 'NNS'), ('agreed', 'VBD'), ('that', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('would', 'MD'), ('undertake', 'VB'), ('technical', 'JJ'), ('adjustments', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('encapsulation', 'NN'), ('process', 'NN'), ('to', 'TO'), ('meet', 'VB'), ('the', 'DT'), ('specifications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   analyzing/VBG   the/DT   bench/NN   test/NN   results/NNS   ,/,   the/DT   (ORGANIZATION Company/NNP)   reported/VBD   its/PRP$   findings/NNS   to/TO   (PERSON Merck/NNP Chimie/NNP)   and/CC   both/DT   parties/NNS   agreed/VBD   that/IN   (PERSON Merck/NNP Chimie/NNP)   would/MD   undertake/VB   technical/JJ   adjustments/NNS   to/TO   the/DT   encapsulation/NN   process/NN   to/TO   meet/VB   the/DT   specifications/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB analyzing/VBG the/DT bench/NN test/NN results/NNS)
+	(VERB reported/VBD its/PRP$ findings/NNS)
+	(VERB agreed/VBD that/IN Merck/NNP Chimie/NNP)
+	(VERB undertake/VB technical/JJ adjustments/NNS)
+	(VERB meet/VB the/DT specifications/NNS)
+noun phrases to consider:
+	(NOUN Company/NNP)
+	(NOUN Merck/NNP Chimie/NNP)
+	(NOUN parties/NNS)
+	(NOUN encapsulation/NN process/NN)
+
+----------------------------------
+original sentence: 
+Consistent with the Company's recommendation, Merck Chimie will now encapsulate a second "test batch" of the CardioGenics Beads, incorporating such technical adjustments, and deliver the second "test batch" of the encapsulated CardioGenics Beads to the Company for what the parties anticipate will be the final bench test.
+
+POS tagged sentence: 
+[('Consistent', 'NNP'), ('with', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('recommendation', 'NN'), (',', ','), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('will', 'MD'), ('now', 'RB'), ('encapsulate', 'VB'), ('a', 'DT'), ('second', 'JJ'), ('"', 'NN'), ('test', 'NN'), ('batch', 'NN'), ('"', ':'), ('of', 'IN'), ('the', 'DT'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), (',', ','), ('incorporating', 'VBG'), ('such', 'JJ'), ('technical', 'JJ'), ('adjustments', 'NNS'), (',', ','), ('and', 'CC'), ('deliver', 'RB'), ('the', 'DT'), ('second', 'JJ'), ('"', 'NN'), ('test', 'NN'), ('batch', 'NN'), ('"', ':'), ('of', 'IN'), ('the', 'DT'), ('encapsulated', 'VBN'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('Company', 'NNP'), ('for', 'IN'), ('what', 'WP'), ('the', 'DT'), ('parties', 'NNS'), ('anticipate', 'VBP'), ('will', 'MD'), ('be', 'VB'), ('the', 'DT'), ('final', 'JJ'), ('bench', 'NN'), ('test', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Consistent/NNP   with/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   recommendation/NN   ,/,   (PERSON Merck/NNP Chimie/NNP)   will/MD   now/RB   encapsulate/VB   a/DT   second/JJ   "/NN   test/NN   batch/NN   "/:   of/IN   the/DT   (ORGANIZATION CardioGenics/NNP Beads/NNP)   ,/,   incorporating/VBG   such/JJ   technical/JJ   adjustments/NNS   ,/,   and/CC   deliver/RB   the/DT   second/JJ   "/NN   test/NN   batch/NN   "/:   of/IN   the/DT   encapsulated/VBN   (ORGANIZATION CardioGenics/NNP Beads/NNP)   to/TO   the/DT   (ORGANIZATION Company/NNP)   for/IN   what/WP   the/DT   parties/NNS   anticipate/VBP   will/MD   be/VB   the/DT   final/JJ   bench/NN   test/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB encapsulate/VB a/DT second/JJ "/NN test/NN batch/NN)
+	(VERB incorporating/VBG such/JJ technical/JJ adjustments/NNS)
+	(VERB encapsulated/VBN CardioGenics/NNP Beads/NNP)
+	(VERB anticipate/VBP)
+	(VERB be/VB the/DT final/JJ bench/NN test/NN)
+noun phrases to consider:
+	(NOUN Consistent/NNP)
+	(NOUN Company/NNP)
+	(NOUN recommendation/NN)
+	(NOUN Merck/NNP Chimie/NNP)
+	(NOUN CardioGenics/NNP Beads/NNP)
+	(NOUN the/DT second/JJ "/NN test/NN batch/NN)
+	(NOUN Company/NNP)
+	(NOUN parties/NNS)
+
+----------------------------------
+original sentence: 
+The Company expects to receive the second "test batch" of the encapsulated CardioGenics Beads from Merck Chimie during May, 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('expects', 'VBZ'), ('to', 'TO'), ('receive', 'VB'), ('the', 'DT'), ('second', 'JJ'), ('"', 'NN'), ('test', 'NN'), ('batch', 'NN'), ('"', ':'), ('of', 'IN'), ('the', 'DT'), ('encapsulated', 'VBN'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('from', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('during', 'IN'), ('May', 'NNP'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   expects/VBZ   to/TO   receive/VB   the/DT   second/JJ   "/NN   test/NN   batch/NN   "/:   of/IN   the/DT   encapsulated/VBN   (ORGANIZATION CardioGenics/NNP Beads/NNP)   from/IN   (PERSON Merck/NNP Chimie/NNP)   during/IN   May/NNP   ,/,   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   expects/VBZ   to/TO   receive/VB   the/DT   second/JJ   "/NN   test/NN   batch/NN)
+	(VERB   encapsulated/VBN   CardioGenics/NNP   Beads/NNP   from/IN   Merck/NNP   Chimie/NNP   during/IN   May/NNP)
+noun phrases to consider:
+	(NOUN Company/NNP)
+
+----------------------------------
+original sentence: 
+The Company will shortly thereafter perform its second bench test with those beads and anticipates meeting with Merck Chimie also during May, 2010 to discuss the bench test results and Merck Chimie's efforts for "scaling up" production of the final encapsulated CardioGenics Beads for commercialization.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('will', 'MD'), ('shortly', 'RB'), ('thereafter', 'VB'), ('perform', 'NN'), ('its', 'PRP$'), ('second', 'JJ'), ('bench', 'NN'), ('test', 'NN'), ('with', 'IN'), ('those', 'DT'), ('beads', 'NNS'), ('and', 'CC'), ('anticipates', 'NNS'), ('meeting', 'VBG'), ('with', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('also', 'RB'), ('during', 'IN'), ('May', 'NNP'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('discuss', 'VB'), ('the', 'DT'), ('bench', 'NN'), ('test', 'NN'), ('results', 'NNS'), ('and', 'CC'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ("'s", 'POS'), ('efforts', 'NNS'), ('for', 'IN'), ('"', 'CD'), ('scaling', 'VBG'), ('up', 'RP'), ('"', ':'), ('production', 'NN'), ('of', 'IN'), ('the', 'DT'), ('final', 'JJ'), ('encapsulated', 'VBN'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('for', 'IN'), ('commercialization', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   will/MD   shortly/RB   thereafter/VB   perform/NN   its/PRP$   second/JJ   bench/NN   test/NN   with/IN   those/DT   beads/NNS   and/CC   anticipates/NNS   meeting/VBG   with/IN   (PERSON Merck/NNP Chimie/NNP)   also/RB   during/IN   May/NNP   ,/,   2010/CD   to/TO   discuss/VB   the/DT   bench/NN   test/NN   results/NNS   and/CC   (PERSON Merck/NNP Chimie/NNP)   's/POS   efforts/NNS   for/IN   "/CD   scaling/VBG   up/RP   "/:   production/NN   of/IN   the/DT   final/JJ   encapsulated/VBN   (ORGANIZATION CardioGenics/NNP Beads/NNP)   for/IN   commercialization/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   thereafter/VB   perform/NN   its/PRP$   second/JJ   bench/NN   test/NN   with/IN   those/DT   beads/NNS)
+	(VERB   meeting/VBG   with/IN   Merck/NNP   Chimie/NNP   also/RB   during/IN   May/NNP)
+	(VERB discuss/VB the/DT bench/NN test/NN results/NNS)
+	(VERB scaling/VBG)
+	(VERB   encapsulated/VBN   CardioGenics/NNP   Beads/NNP   for/IN   commercialization/NN)
+noun phrases to consider:
+	(NOUN Company/NNP)
+	(NOUN anticipates/NNS)
+	(NOUN Merck/NNP Chimie/NNP)
+	(NOUN efforts/NNS)
+	(NOUN production/NN)
+	(NOUN the/DT final/JJ)
+
+----------------------------------
+original sentence: 
+While being extremely close to satisfying the jointly developed specification for the commercial product, the Company nevertheless felt that some additional minor technical adjustments were necessary in the encapsulation process in order to optimize performance of the CardioGenics Beads during commercial use.
+
+POS tagged sentence: 
+[('While', 'IN'), ('being', 'VBG'), ('extremely', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('satisfying', 'VBG'), ('the', 'DT'), ('jointly', 'RB'), ('developed', 'VBD'), ('specification', 'NN'), ('for', 'IN'), ('the', 'DT'), ('commercial', 'JJ'), ('product', 'NN'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('nevertheless', 'NN'), ('felt', 'VBD'), ('that', 'IN'), ('some', 'DT'), ('additional', 'JJ'), ('minor', 'NN'), ('technical', 'JJ'), ('adjustments', 'NNS'), ('were', 'VBD'), ('necessary', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('encapsulation', 'NN'), ('process', 'NN'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('optimize', 'VB'), ('performance', 'NN'), ('of', 'IN'), ('the', 'DT'), ('CardioGenics', 'NNP'), ('Beads', 'NNP'), ('during', 'IN'), ('commercial', 'JJ'), ('use', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   being/VBG   extremely/RB   close/JJ   to/TO   satisfying/VBG   the/DT   jointly/RB   developed/VBD   specification/NN   for/IN   the/DT   commercial/JJ   product/NN   ,/,   the/DT   (ORGANIZATION Company/NNP)   nevertheless/NN   felt/VBD   that/IN   some/DT   additional/JJ   minor/NN   technical/JJ   adjustments/NNS   were/VBD   necessary/JJ   in/IN   the/DT   encapsulation/NN   process/NN   in/IN   order/NN   to/TO   optimize/VB   performance/NN   of/IN   the/DT   (ORGANIZATION CardioGenics/NNP Beads/NNP)   during/IN   commercial/JJ   use/NN   ./.)
+----------------------------------
+original sentence: 
+Dr. Yahia Gawad Chief Executive Officer of CardioGenics Holdings Inc., stated, "We are extremely satisfied with the efforts of Merck Chimie and the talent of their team who are working with our team to commercialize a superior product to meet market needs.
+
+POS tagged sentence: 
+[('Dr.', 'NNP'), ('Yahia', 'NNP'), ('Gawad', 'NNP'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Officer', 'NNP'), ('of', 'IN'), ('CardioGenics', 'NNP'), ('Holdings', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('stated', 'VBD'), (',', ','), ('"', 'NNP'), ('We', 'NNP'), ('are', 'VBP'), ('extremely', 'RB'), ('satisfied', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('efforts', 'NNS'), ('of', 'IN'), ('Merck', 'NNP'), ('Chimie', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('talent', 'NN'), ('of', 'IN'), ('their', 'PRP$'), ('team', 'NN'), ('who', 'WP'), ('are', 'VBP'), ('working', 'VBG'), ('with', 'IN'), ('our', 'PRP$'), ('team', 'NN'), ('to', 'TO'), ('commercialize', 'VB'), ('a', 'DT'), ('superior', 'JJ'), ('product', 'NN'), ('to', 'TO'), ('meet', 'VB'), ('market', 'NN'), ('needs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Dr./NNP   Yahia/NNP   Gawad/NNP   Chief/NNP   Executive/NNP   Officer/NNP   of/IN   (ORGANIZATION CardioGenics/NNP Holdings/NNP Inc./NNP)   ,/,   stated/VBD   ,/,   "/NNP   We/NNP   are/VBP   extremely/RB   satisfied/VBN   with/IN   the/DT   efforts/NNS   of/IN   (ORGANIZATION Merck/NNP Chimie/NNP)   and/CC   the/DT   talent/NN   of/IN   their/PRP$   team/NN   who/WP   are/VBP   working/VBG   with/IN   our/PRP$   team/NN   to/TO   commercialize/VB   a/DT   superior/JJ   product/NN   to/TO   meet/VB   market/NN   needs/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB stated/VBD)
+	(VERB   are/VBP   extremely/RB   satisfied/VBN   with/IN   the/DT   efforts/NNS   of/IN   Merck/NNP   Chimie/NNP)
+
+tagged sentence:
+	 are extremely satisfied with the efforts of Merck Chimie	res:2
+	(VERB are/VBP working/VBG with/IN our/PRP$ team/NN)
+	(VERB commercialize/VB a/DT superior/JJ product/NN)
+
+tagged sentence:
+	 commercialize a superior product	res:1
+	(VERB meet/VB market/NN needs/NNS)
+noun phrases to consider:
+	(NOUN Dr./NNP Yahia/NNP Gawad/NNP Chief/NNP)
+	(NOUN Executive/NNP Officer/NNP)
+	(NOUN CardioGenics/NNP Holdings/NNP Inc./NNP)
+	(NOUN "/NNP We/NNP)
+	(NOUN talent/NN)
+	(NOUN team/NN)
+
+----------------------------------
+original sentence: 
+" About CardioGenics Holdings Inc.
+
+POS tagged sentence: 
+[('"', 'NN'), ('About', 'IN'), ('CardioGenics', 'NNP'), ('Holdings', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   About/IN   (ORGANIZATION CardioGenics/NNP Holdings/NNP Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+Through its CardioGenics subsidiaries, the Company develops technology and products targeting the immunoassay segment of the In Vitro Diagnostic testing market.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('its', 'PRP$'), ('CardioGenics', 'NNP'), ('subsidiaries', 'NNS'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('develops', 'VBZ'), ('technology', 'NN'), ('and', 'CC'), ('products', 'NNS'), ('targeting', 'VBG'), ('the', 'DT'), ('immunoassay', 'NN'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('In', 'NNP'), ('Vitro', 'NNP'), ('Diagnostic', 'NNP'), ('testing', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   its/PRP$   CardioGenics/NNP   subsidiaries/NNS   ,/,   the/DT   (ORGANIZATION Company/NNP)   develops/VBZ   technology/NN   and/CC   products/NNS   targeting/VBG   the/DT   immunoassay/NN   segment/NN   of/IN   the/DT   In/NNP   Vitro/NNP   Diagnostic/NNP   testing/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+It has developed the QL Care Analyzer, a proprietary Point Of Care immuno analyzer, which will run a number of diagnostic tests under development, the first of which will be a series of cardiovascular diagnostic tests.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('developed', 'VBN'), ('the', 'DT'), ('QL', 'NNP'), ('Care', 'NNP'), ('Analyzer', 'NNP'), (',', ','), ('a', 'DT'), ('proprietary', 'JJ'), ('Point', 'NNP'), ('Of', 'NNP'), ('Care', 'NNP'), ('immuno', 'NN'), ('analyzer', 'NN'), (',', ','), ('which', 'WDT'), ('will', 'MD'), ('run', 'VB'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('diagnostic', 'JJ'), ('tests', 'NNS'), ('under', 'IN'), ('development', 'NN'), (',', ','), ('the', 'DT'), ('first', 'JJ'), ('of', 'IN'), ('which', 'WDT'), ('will', 'MD'), ('be', 'VB'), ('a', 'DT'), ('series', 'NN'), ('of', 'IN'), ('cardiovascular', 'JJ'), ('diagnostic', 'JJ'), ('tests', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   developed/VBN   the/DT   (ORGANIZATION QL/NNP Care/NNP Analyzer/NNP)   ,/,   a/DT   proprietary/JJ   Point/NNP   Of/NNP   Care/NNP   immuno/NN   analyzer/NN   ,/,   which/WDT   will/MD   run/VB   a/DT   number/NN   of/IN   diagnostic/JJ   tests/NNS   under/IN   development/NN   ,/,   the/DT   first/JJ   of/IN   which/WDT   will/MD   be/VB   a/DT   series/NN   of/IN   cardiovascular/JJ   diagnostic/JJ   tests/NNS   ./.)
+----------------------------------
+original sentence: 
+As part of its core proprietary technology, the Company has also developed a proprietary method for silver coating paramagnetic microspheres a fundamental platform component of immunoassay equipment , which improve instrument sensitivity to light.
+
+POS tagged sentence: 
+[('As', 'IN'), ('part', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('core', 'NN'), ('proprietary', 'NN'), ('technology', 'NN'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('has', 'VBZ'), ('also', 'RB'), ('developed', 'VBD'), ('a', 'DT'), ('proprietary', 'JJ'), ('method', 'NN'), ('for', 'IN'), ('silver', 'NN'), ('coating', 'VBG'), ('paramagnetic', 'JJ'), ('microspheres', 'NNS'), ('a', 'DT'), ('fundamental', 'JJ'), ('platform', 'NN'), ('component', 'NN'), ('of', 'IN'), ('immunoassay', 'NN'), ('equipment', 'NN'), (',', ','), ('which', 'WDT'), ('improve', 'VB'), ('instrument', 'NN'), ('sensitivity', 'NN'), ('to', 'TO'), ('light', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   part/NN   of/IN   its/PRP$   core/NN   proprietary/NN   technology/NN   ,/,   the/DT   (ORGANIZATION Company/NNP)   has/VBZ   also/RB   developed/VBD   a/DT   proprietary/JJ   method/NN   for/IN   silver/NN   coating/VBG   paramagnetic/JJ   microspheres/NNS   a/DT   fundamental/JJ   platform/NN   component/NN   of/IN   immunoassay/NN   equipment/NN   ,/,   which/WDT   improve/VB   instrument/NN   sensitivity/NN   to/TO   light/JJ   ./.)
+----------------------------------
+original sentence: 
+The Company's principal offices are located in Mississauga, Ontario, Canada.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('principal', 'NN'), ('offices', 'NNS'), ('are', 'VBP'), ('located', 'VBN'), ('in', 'IN'), ('Mississauga', 'NNP'), (',', ','), ('Ontario', 'NNP'), (',', ','), ('Canada', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   's/POS   principal/NN   offices/NNS   are/VBP   located/VBN   in/IN   (GPE Mississauga/NNP)   ,/,   (PERSON Ontario/NNP)   ,/,   (GPE Canada/NNP)   ./.)
+----------------------------------
+original sentence: 
+Safe Harbor Statement Certain statements made herein that are not historical are forward looking within the meaning of the Private Securities Litigation Reform Act of 1995 and may contain forward looking statements, with words such as "Anticipate, "believe," "expect," "future," "may," "will," "should," "plan," "projected," "intend," and similar expressions to identify forward looking statements.
+
+POS tagged sentence: 
+[('Safe', 'NNP'), ('Harbor', 'NNP'), ('Statement', 'NNP'), ('Certain', 'NNP'), ('statements', 'NNS'), ('made', 'VBD'), ('herein', 'NN'), ('that', 'IN'), ('are', 'VBP'), ('not', 'RB'), ('historical', 'JJ'), ('are', 'VBP'), ('forward', 'RB'), ('looking', 'VBG'), ('within', 'IN'), ('the', 'DT'), ('meaning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Private', 'NNP'), ('Securities', 'NNP'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), ('and', 'CC'), ('may', 'MD'), ('contain', 'VB'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), (',', ','), ('with', 'IN'), ('words', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('"', 'NNP'), ('Anticipate', 'NNP'), (',', ','), ('"', 'NNP'), ('believe', 'VBP'), (',', ','), ('"', 'NNP'), ('"', 'NNP'), ('expect', 'VBP'), (',', ','), ('"', 'NNP'), ('"', 'NNP'), ('future', 'JJ'), (',', ','), ('"', ':'), ('"', ':'), ('may', 'MD'), (',', ','), ('"', 'VB'), ('"', ':'), ('will', 'MD'), (',', ','), ('"', 'VB'), ('"', ':'), ('should', 'MD'), (',', ','), ('"', 'VB'), ('"', ':'), ('plan', 'NN'), (',', ','), ('"', ':'), ('"', ':'), ('projected', 'VBN'), (',', ','), ('"', 'NNP'), ('"', 'NNP'), ('intend', 'NN'), (',', ','), ('"', ':'), ('and', 'CC'), ('similar', 'JJ'), ('expressions', 'NNS'), ('to', 'TO'), ('identify', 'VB'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Safe/NNP)   (PERSON Harbor/NNP Statement/NNP Certain/NNP)   statements/NNS   made/VBD   herein/NN   that/IN   are/VBP   not/RB   historical/JJ   are/VBP   forward/RB   looking/VBG   within/IN   the/DT   meaning/NN   of/IN   the/DT   (ORGANIZATION Private/NNP)   Securities/NNP   Litigation/NNP   Reform/NNP   Act/NNP   of/IN   1995/CD   and/CC   may/MD   contain/VB   forward/RB   looking/VBG   statements/NNS   ,/,   with/IN   words/NNS   such/JJ   as/IN   "/NNP   Anticipate/NNP   ,/,   "/NNP   believe/VBP   ,/,   "/NNP   "/NNP   expect/VBP   ,/,   "/NNP   "/NNP   future/JJ   ,/,   "/:   "/:   may/MD   ,/,   "/VB   "/:   will/MD   ,/,   "/VB   "/:   should/MD   ,/,   "/VB   "/:   plan/NN   ,/,   "/:   "/:   projected/VBN   ,/,   "/NNP   "/NNP   intend/NN   ,/,   "/:   and/CC   similar/JJ   expressions/NNS   to/TO   identify/VB   forward/RB   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+These statements are based on the Company's beliefs and the assumptions it made using information currently available to it.
+
+POS tagged sentence: 
+[('These', 'DT'), ('statements', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('beliefs', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('assumptions', 'NNS'), ('it', 'PRP'), ('made', 'VBD'), ('using', 'VBG'), ('information', 'NN'), ('currently', 'RB'), ('available', 'JJ'), ('to', 'TO'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   statements/NNS   are/VBP   based/VBN   on/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   beliefs/NNS   and/CC   the/DT   assumptions/NNS   it/PRP   made/VBD   using/VBG   information/NN   currently/RB   available/JJ   to/TO   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Because these statements reflect the Company's current views concerning future events, these statements involve risks, uncertainties and assumptions.
+
+POS tagged sentence: 
+[('Because', 'IN'), ('these', 'DT'), ('statements', 'NNS'), ('reflect', 'VBP'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('current', 'JJ'), ('views', 'NNS'), ('concerning', 'VBG'), ('future', 'JJ'), ('events', 'NNS'), (',', ','), ('these', 'DT'), ('statements', 'NNS'), ('involve', 'VBP'), ('risks', 'NNS'), (',', ','), ('uncertainties', 'NNS'), ('and', 'CC'), ('assumptions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Because/IN   these/DT   statements/NNS   reflect/VBP   the/DT   (ORGANIZATION Company/NNP)   's/POS   current/JJ   views/NNS   concerning/VBG   future/JJ   events/NNS   ,/,   these/DT   statements/NNS   involve/VBP   risks/NNS   ,/,   uncertainties/NNS   and/CC   assumptions/NNS   ./.)
+----------------------------------
+original sentence: 
+The actual results could differ materially from the results discussed in the forward looking statements.
+
+POS tagged sentence: 
+[('The', 'DT'), ('actual', 'JJ'), ('results', 'NNS'), ('could', 'MD'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('the', 'DT'), ('results', 'NNS'), ('discussed', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   actual/JJ   results/NNS   could/MD   differ/VB   materially/RB   from/IN   the/DT   results/NNS   discussed/VBD   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+In any event, undue reliance should not be placed on any forward looking statements, which apply only as of the date of this press release.
+
+POS tagged sentence: 
+[('In', 'IN'), ('any', 'DT'), ('event', 'NN'), (',', ','), ('undue', 'JJ'), ('reliance', 'NN'), ('should', 'MD'), ('not', 'RB'), ('be', 'VB'), ('placed', 'VBN'), ('on', 'IN'), ('any', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), (',', ','), ('which', 'WDT'), ('apply', 'RB'), ('only', 'RB'), ('as', 'IN'), ('of', 'IN'), ('the', 'DT'), ('date', 'NN'), ('of', 'IN'), ('this', 'DT'), ('press', 'NN'), ('release', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   any/DT   event/NN   ,/,   undue/JJ   reliance/NN   should/MD   not/RB   be/VB   placed/VBN   on/IN   any/DT   forward/NN   looking/VBG   statements/NNS   ,/,   which/WDT   apply/RB   only/RB   as/IN   of/IN   the/DT   date/NN   of/IN   this/DT   press/NN   release/NN   ./.)
+----------------------------------
+original sentence: 
+Accordingly, reference should be made to the Company's periodic filings with the Securities and Exchange Commission.
+
+POS tagged sentence: 
+[('Accordingly', 'RB'), (',', ','), ('reference', 'NN'), ('should', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('periodic', 'JJ'), ('filings', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Accordingly/RB   ,/,   reference/NN   should/MD   be/VB   made/VBN   to/TO   the/DT   (ORGANIZATION Company/NNP)   's/POS   periodic/JJ   filings/NNS   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   ./.)
+----------------------------------
+original sentence: 
+SOURCE CardioGenics Holdings Inc. For full details on Merck & Co MRK .
+
+POS tagged sentence: 
+[('SOURCE', 'NN'), ('CardioGenics', 'NNP'), ('Holdings', 'NNP'), ('Inc.', 'NNP'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SOURCE/NN)   (ORGANIZATION CardioGenics/NNP Holdings/NNP Inc./NNP)   For/NNP   full/JJ   details/NNS   on/IN   (ORGANIZATION Merck/NNP)   &/CC   Co/NNP   MRK/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN SOURCE/NN CardioGenics/NNP Holdings/NNP Inc./NNP)
+	(NOUN For/NNP full/JJ details/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP)
+
+----------------------------------
+original sentence: 
+Merck & Co MRK has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co/NNP   MRK/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP)
+
+----------------------------------
+original sentence: 
+Details on Merck & Co MRK Short Term PowerRatings is available at For full details on CGNH .
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('CGNH', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION Merck/NNP)   &/CC   Co/NNP   MRK/NNP   Short/NNP   Term/NNP   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION For/NNP)   full/JJ   details/NNS   on/IN   (ORGANIZATION CGNH/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   For/NNP   full/JJ   details/NNS   on/IN   CGNH/NNP)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP Short/NNP Term/NNP)
+	(NOUN PowerRatings/NNP)
+
+----------------------------------
+original sentence: 
+CGNH has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('CGNH', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CGNH/NNP)   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)
+----------------------------------
+original sentence: 
+Details on CGNH Short Term PowerRatings is available at Learn new strategies, how to trade in this market, and the stocks you should be focusing on each day.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('CGNH', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Learn', 'NNP'), ('new', 'JJ'), ('strategies', 'NNS'), (',', ','), ('how', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stocks', 'NNS'), ('you', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION CGNH/NNP Short/NNP Term/NNP)   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION Learn/NNP)   new/JJ   strategies/NNS   ,/,   how/WRB   to/TO   trade/VB   in/IN   this/DT   market/NN   ,/,   and/CC   the/DT   stocks/NNS   you/PRP   should/MD   be/VB   focusing/VBG   on/IN   each/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Join us for our  20 minute tele seminars during the week.
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('us', 'PRP'), ('for', 'IN'), ('our', 'PRP$'), ('20', 'CD'), ('minute', 'NN'), ('tele', 'NN'), ('seminars', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Join/NNP   us/PRP   for/IN   our/PRP$   20/CD   minute/NN   tele/NN   seminars/NNS   during/IN   the/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Thursday April 29 12:30 PM Hear What Kevin Haggerty Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Thursday', 'NNP'), ('April', 'NNP'), ('29', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Kevin', 'NNP'), ('Haggerty', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Thursday/NNP   April/NNP   29/CD   12/CD   :/:   30/CD   PM/NNP   Hear/NNP   What/NNP   (PERSON Kevin/NNP Haggerty/NNP Sees/NNP)   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Wednesday April 28 01:00 PM Hear What Gary Kaltbaum Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Wednesday', 'NNP'), ('April', 'NNP'), ('28', 'CD'), ('01', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Gary', 'NNP'), ('Kaltbaum', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Wednesday/NNP   April/NNP   28/CD   01/CD   :/:   00/CD   PM/NNP   Hear/NNP   What/NNP   Gary/NNP   Kaltbaum/NNP   Sees/NNP   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+* Attendance is strictly limited and are filled on a first come, first served basis. 
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Attendance', 'VB'), ('is', 'VBZ'), ('strictly', 'RB'), ('limited', 'VBN'), ('and', 'CC'), ('are', 'VBP'), ('filled', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('first', 'JJ'), ('come', 'NN'), (',', ','), ('first', 'JJ'), ('served', 'VBD'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Attendance/VB   is/VBZ   strictly/RB   limited/VBN   and/CC   are/VBP   filled/VBN   on/IN   a/DT   first/JJ   come/NN   ,/,   first/JJ   served/VBD   basis/NN   ./.)
+
+veryneg:0	neg:0	pos:1	verypos:1	total:0

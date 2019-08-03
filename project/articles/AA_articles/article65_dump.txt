@@ -1,0 +1,132 @@
+
+----------------------------------
+original sentence: 
+The Dog Of The Dow AA | Benzinga.com
+The Dog Of The Dow AA Recent Articles by Swing Trader
+Posted on 03/10/10 at 4:12pm by  is the current "Dog of the Dow" and remains stuck in the doghouse today.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dog', 'NNP'), ('Of', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('AA', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('The', 'NNP'), ('Dog', 'NNP'), ('Of', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('AA', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Swing', 'NNP'), ('Trader', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/10/10', 'CD'), ('at', 'IN'), ('4', 'CD'), (':', ':'), ('12pm', 'CD'), ('by', 'IN'), ('is', 'VBZ'), ('the', 'DT'), ('current', 'JJ'), ('"', 'NN'), ('Dog', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('"', 'NNP'), ('and', 'CC'), ('remains', 'VBZ'), ('stuck', 'NN'), ('in', 'IN'), ('the', 'DT'), ('doghouse', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dog/NNP Of/NNP)   The/NNP   (ORGANIZATION Dow/NNP)   AA/NNP   |/NNP   Benzinga.com/NNP   The/NNP   Dog/NNP   Of/NNP   The/NNP   (ORGANIZATION Dow/NNP)   AA/NNP   Recent/NNP   Articles/NNP   by/IN   (PERSON Swing/NNP Trader/NNP Posted/NNP)   on/IN   03/10/10/CD   at/IN   4/CD   :/:   12pm/CD   by/IN   is/VBZ   the/DT   current/JJ   "/NN   Dog/NNP   of/IN   the/DT   Dow/NNP   "/NNP   and/CC   remains/VBZ   stuck/NN   in/IN   the/DT   doghouse/NN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   the/DT   current/JJ   "/NN   Dog/NNP   of/IN   the/DT   Dow/NNP   "/NNP)
+	(VERB remains/VBZ stuck/NN in/IN the/DT doghouse/NN today/NN)
+noun phrases to consider:
+	(NOUN Dog/NNP Of/NNP The/NNP Dow/NNP)
+	(NOUN AA/NNP |/NNP Benzinga.com/NNP The/NNP)
+	(NOUN Dog/NNP Of/NNP The/NNP Dow/NNP)
+	(NOUN AA/NNP Recent/NNP Articles/NNP)
+	(NOUN Swing/NNP Trader/NNP Posted/NNP)
+
+----------------------------------
+original sentence: 
+Shares of Alcoa are down roughly 14% year to date and 0.51% today to trade at $13.60.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Alcoa', 'NNP'), ('are', 'VBP'), ('down', 'RB'), ('roughly', 'RB'), ('14', 'CD'), ('%', 'NN'), ('year', 'NN'), ('to', 'TO'), ('date', 'NN'), ('and', 'CC'), ('0.51', 'CD'), ('%', 'NN'), ('today', 'NN'), ('to', 'TO'), ('trade', 'VB'), ('at', 'IN'), ('$', '$'), ('13.60', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (GPE Alcoa/NNP)   are/VBP   down/RB   roughly/RB   14/CD   %/NN   year/NN   to/TO   date/NN   and/CC   0.51/CD   %/NN   today/NN   to/TO   trade/VB   at/IN   $/$   13.60/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP down/RB)
+
+tagged sentence:
+	 are down	res:-1
+	(VERB trade/VB at/IN)
+noun phrases to consider:
+	(NOUN Shares/NNS)
+	(NOUN Alcoa/NNP)
+	(NOUN %/NN year/NN)
+	(NOUN date/NN)
+	(NOUN 0.51/CD %/NN today/NN)
+
+----------------------------------
+original sentence: 
+The world's largest aluminum maker has struggled since mid January when it disappointed investors with its fourth quarter earnings report.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('aluminum', 'NN'), ('maker', 'NN'), ('has', 'VBZ'), ('struggled', 'VBN'), ('since', 'IN'), ('mid', 'JJ'), ('January', 'NNP'), ('when', 'WRB'), ('it', 'PRP'), ('disappointed', 'VBD'), ('investors', 'NNS'), ('with', 'IN'), ('its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world/NN   's/POS   largest/JJS   aluminum/NN   maker/NN   has/VBZ   struggled/VBN   since/IN   mid/JJ   January/NNP   when/WRB   it/PRP   disappointed/VBD   investors/NNS   with/IN   its/PRP$   fourth/JJ   quarter/NN   earnings/NNS   report/NN   ./.)
+----------------------------------
+original sentence: 
+Alcoa trades at approximately 11 times next year's earnings, so it may begin to attract bargain hunters at these levels.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('trades', 'VBZ'), ('at', 'IN'), ('approximately', 'RB'), ('11', 'CD'), ('times', 'NNS'), ('next', 'JJ'), ('year', 'NN'), ("'s", 'POS'), ('earnings', 'NNS'), (',', ','), ('so', 'RB'), ('it', 'PRP'), ('may', 'MD'), ('begin', 'VB'), ('to', 'TO'), ('attract', 'VB'), ('bargain', 'NN'), ('hunters', 'NNS'), ('at', 'IN'), ('these', 'DT'), ('levels', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   trades/VBZ   at/IN   approximately/RB   11/CD   times/NNS   next/JJ   year/NN   's/POS   earnings/NNS   ,/,   so/RB   it/PRP   may/MD   begin/VB   to/TO   attract/VB   bargain/NN   hunters/NNS   at/IN   these/DT   levels/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB trades/VBZ at/IN)
+	(VERB   begin/VB   to/TO   attract/VB   bargain/NN   hunters/NNS   at/IN   these/DT   levels/NNS)
+
+tagged sentence:
+	 begin to attract bargain hunters at these levels	res:1
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN times/NNS next/JJ year/NN)
+	(NOUN earnings/NNS)
+
+----------------------------------
+original sentence: 
+The current consensus price target for Alcoa is $18.33, which is 34% higher than today's price.
+
+POS tagged sentence: 
+[('The', 'DT'), ('current', 'JJ'), ('consensus', 'NN'), ('price', 'NN'), ('target', 'NN'), ('for', 'IN'), ('Alcoa', 'NNP'), ('is', 'VBZ'), ('$', '$'), ('18.33', 'CD'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('34', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   current/JJ   consensus/NN   price/NN   target/NN   for/IN   (PERSON Alcoa/NNP)   is/VBZ   $/$   18.33/CD   ,/,   which/WDT   is/VBZ   34/CD   %/NN   higher/JJR   than/IN   today/NN   's/POS   price/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ)
+	(VERB is/VBZ 34/CD %/NN higher/JJR than/IN today/NN)
+noun phrases to consider:
+	(NOUN The/DT current/JJ consensus/NN price/NN target/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN price/NN)
+
+----------------------------------
+original sentence: 
+Also, it is scheduled to report earnings on April 12 and may catch positive momentum into its report.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('scheduled', 'VBN'), ('to', 'TO'), ('report', 'VB'), ('earnings', 'NNS'), ('on', 'IN'), ('April', 'NNP'), ('12', 'CD'), ('and', 'CC'), ('may', 'MD'), ('catch', 'VB'), ('positive', 'JJ'), ('momentum', 'NN'), ('into', 'IN'), ('its', 'PRP$'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   it/PRP   is/VBZ   scheduled/VBN   to/TO   report/VB   earnings/NNS   on/IN   April/NNP   12/CD   and/CC   may/MD   catch/VB   positive/JJ   momentum/NN   into/IN   its/PRP$   report/NN   ./.)
+----------------------------------
+original sentence: 
+Alcoa has been a dog for a few months now, but remember, every dog has its day.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('dog', 'NN'), ('for', 'IN'), ('a', 'DT'), ('few', 'JJ'), ('months', 'NNS'), ('now', 'RB'), (',', ','), ('but', 'CC'), ('remember', 'NN'), (',', ','), ('every', 'DT'), ('dog', 'NN'), ('has', 'VBZ'), ('its', 'PRP$'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   has/VBZ   been/VBN   a/DT   dog/NN   for/IN   a/DT   few/JJ   months/NNS   now/RB   ,/,   but/CC   remember/NN   ,/,   every/DT   dog/NN   has/VBZ   its/PRP$   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   a/DT   dog/NN   for/IN   a/DT   few/JJ   months/NNS   now/RB)
+	(VERB has/VBZ its/PRP$ day/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN remember/NN)
+	(NOUN dog/NN)
+
+----------------------------------
+original sentence: 
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:0

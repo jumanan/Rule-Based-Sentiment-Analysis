@@ -1,0 +1,830 @@
+
+----------------------------------
+original sentence: 
+Weekly CEO Sells Highlight: Biogen Idec Inc, American Financial Group, NVIDIA Corp., Marriott International, The Walt Disney Company GuruFocus.com
+ Audio Files of The Intelligent Investor by Benjamin Graham
+Security Analysis by Graham Analysis of Income Account, chapter 31
+High Yield George Soros Stocks
+Coldwater Creek CWTR Saves The Day
+ Highlights From Buffett Partnership Letters
+Stay out of the stock market to make money
+The Royce Funds' Jay Kaplan on Small Caps, Value Investing, Dividends and more
+Why Goldman Sachs is a Screaming Buy
+Useless Investing Variables: We Are Our Own Worst Enemy
+ Living off dividends in retirement
+Seth Klarman Amasses Significant Positions in ViaSat Inc. and Theravance Inc.
+
+POS tagged sentence: 
+[('Weekly', 'RB'), ('CEO', 'NNP'), ('Sells', 'NNP'), ('Highlight', 'NNP'), (':', ':'), ('Biogen', 'NNP'), ('Idec', 'NNP'), ('Inc', 'NNP'), (',', ','), ('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), (',', ','), ('NVIDIA', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('Marriott', 'NNP'), ('International', 'NNP'), (',', ','), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('GuruFocus.com', 'NNP'), ('Audio', 'NNP'), ('Files', 'NNP'), ('of', 'IN'), ('The', 'DT'), ('Intelligent', 'NNP'), ('Investor', 'NNP'), ('by', 'IN'), ('Benjamin', 'NNP'), ('Graham', 'NNP'), ('Security', 'NNP'), ('Analysis', 'NNP'), ('by', 'IN'), ('Graham', 'NNP'), ('Analysis', 'NNP'), ('of', 'IN'), ('Income', 'NNP'), ('Account', 'NNP'), (',', ','), ('chapter', 'NN'), ('31', 'CD'), ('High', 'NNP'), ('Yield', 'NNP'), ('George', 'NNP'), ('Soros', 'NNP'), ('Stocks', 'NNP'), ('Coldwater', 'NNP'), ('Creek', 'NNP'), ('CWTR', 'NNP'), ('Saves', 'NNP'), ('The', 'NNP'), ('Day', 'NNP'), ('Highlights', 'NNP'), ('From', 'NNP'), ('Buffett', 'NNP'), ('Partnership', 'NNP'), ('Letters', 'NNP'), ('Stay', 'NNP'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('market', 'NN'), ('to', 'TO'), ('make', 'VB'), ('money', 'NN'), ('The', 'DT'), ('Royce', 'NNP'), ('Funds', 'NNPS'), ("'", 'POS'), ('Jay', 'NNP'), ('Kaplan', 'NNP'), ('on', 'IN'), ('Small', 'NNP'), ('Caps', 'NNP'), (',', ','), ('Value', 'NNP'), ('Investing', 'NNP'), (',', ','), ('Dividends', 'NNP'), ('and', 'CC'), ('more', 'JJR'), ('Why', 'WRB'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('Screaming', 'NNP'), ('Buy', 'NNP'), ('Useless', 'NNP'), ('Investing', 'NNP'), ('Variables', 'NNP'), (':', ':'), ('We', 'PRP'), ('Are', 'VBP'), ('Our', 'NNP'), ('Own', 'NNP'), ('Worst', 'NNP'), ('Enemy', 'NNP'), ('Living', 'NNP'), ('off', 'IN'), ('dividends', 'NNS'), ('in', 'IN'), ('retirement', 'NN'), ('Seth', 'NNP'), ('Klarman', 'NNP'), ('Amasses', 'NNP'), ('Significant', 'NNP'), ('Positions', 'NNP'), ('in', 'IN'), ('ViaSat', 'NNP'), ('Inc.', 'NNP'), ('and', 'CC'), ('Theravance', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Weekly/RB   (ORGANIZATION CEO/NNP Sells/NNP)   Highlight/NNP   :/:   (PERSON Biogen/NNP Idec/NNP Inc/NNP)   ,/,   (GPE American/NNP)   Financial/NNP   Group/NNP   ,/,   (ORGANIZATION NVIDIA/NNP Corp./NNP)   ,/,   (PERSON Marriott/NNP International/NNP)   ,/,   (ORGANIZATION The/NNP Walt/NNP Disney/NNP Company/NNP)   GuruFocus.com/NNP   Audio/NNP   Files/NNP   of/IN   The/DT   (ORGANIZATION Intelligent/NNP)   Investor/NNP   by/IN   (PERSON Benjamin/NNP Graham/NNP Security/NNP Analysis/NNP)   by/IN   (PERSON Graham/NNP Analysis/NNP)   of/IN   (PERSON Income/NNP Account/NNP)   ,/,   chapter/NN   31/CD   High/NNP   Yield/NNP   (PERSON George/NNP Soros/NNP Stocks/NNP Coldwater/NNP Creek/NNP)   CWTR/NNP   Saves/NNP   The/NNP   Day/NNP   Highlights/NNP   From/NNP   (PERSON Buffett/NNP Partnership/NNP Letters/NNP Stay/NNP)   out/IN   of/IN   the/DT   stock/NN   market/NN   to/TO   make/VB   money/NN   The/DT   (ORGANIZATION Royce/NNP Funds/NNPS)   '/POS   (PERSON Jay/NNP Kaplan/NNP)   on/IN   (PERSON Small/NNP Caps/NNP)   ,/,   (PERSON Value/NNP Investing/NNP)   ,/,   (PERSON Dividends/NNP)   and/CC   more/JJR   Why/WRB   (ORGANIZATION Goldman/NNP Sachs/NNP)   is/VBZ   a/DT   Screaming/NNP   Buy/NNP   Useless/NNP   Investing/NNP   Variables/NNP   :/:   We/PRP   Are/VBP   Our/NNP   Own/NNP   Worst/NNP   (PERSON Enemy/NNP Living/NNP)   off/IN   dividends/NNS   in/IN   retirement/NN   (PERSON     Seth/NNP     Klarman/NNP     Amasses/NNP     Significant/NNP     Positions/NNP)   in/IN   (ORGANIZATION ViaSat/NNP Inc./NNP)   and/CC   Theravance/NNP   Inc/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB make/VB money/NN The/DT Royce/NNP Funds/NNPS)
+	(VERB   is/VBZ   a/DT   Screaming/NNP   Buy/NNP   Useless/NNP   Investing/NNP   Variables/NNP)
+	(VERB   Are/VBP   Our/NNP   Own/NNP   Worst/NNP   Enemy/NNP   Living/NNP   off/IN   dividends/NNS   in/IN   retirement/NN   Seth/NNP   Klarman/NNP   Amasses/NNP   Significant/NNP   Positions/NNP   in/IN   ViaSat/NNP   Inc./NNP)
+noun phrases to consider:
+	(NOUN CEO/NNP Sells/NNP Highlight/NNP)
+	(NOUN Biogen/NNP Idec/NNP Inc/NNP)
+	(NOUN American/NNP Financial/NNP Group/NNP)
+	(NOUN NVIDIA/NNP Corp./NNP)
+	(NOUN Marriott/NNP International/NNP)
+	(NOUN The/NNP Walt/NNP Disney/NNP Company/NNP)
+	(NOUN GuruFocus.com/NNP Audio/NNP Files/NNP)
+	(NOUN Intelligent/NNP Investor/NNP)
+	(NOUN Benjamin/NNP Graham/NNP Security/NNP Analysis/NNP)
+	(NOUN Graham/NNP Analysis/NNP)
+	(NOUN Income/NNP Account/NNP)
+	(NOUN chapter/NN)
+	(NOUN 31/CD High/NNP Yield/NNP George/NNP Soros/NNP)
+	(NOUN Stocks/NNP Coldwater/NNP Creek/NNP CWTR/NNP)
+	(NOUN Saves/NNP The/NNP Day/NNP Highlights/NNP)
+	(NOUN From/NNP Buffett/NNP Partnership/NNP Letters/NNP)
+	(NOUN Stay/NNP)
+	(NOUN stock/NN market/NN)
+	(NOUN Jay/NNP Kaplan/NNP)
+	(NOUN Small/NNP Caps/NNP)
+	(NOUN Value/NNP Investing/NNP)
+	(NOUN Dividends/NNP)
+	(NOUN more/JJR)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN Theravance/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+The Whole Earth is Owned; Debts Net Out to Zero
+Search Articles by Stock Symbol, Guru Names, or Keywords: All News and Columns
+Weekly CEO Sells Highlight: Biogen Idec Inc, American Financial Group, NVIDIA Corp., Marriott International, The Walt Disney Company Writers Compensation Program Writers Wanted
+GuruFocus Insider Data
+, these are the largest CEO sales during the past week.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Whole', 'NNP'), ('Earth', 'NNP'), ('is', 'VBZ'), ('Owned', 'VBN'), (';', ':'), ('Debts', 'NNP'), ('Net', 'NNP'), ('Out', 'NNP'), ('to', 'TO'), ('Zero', 'NNP'), ('Search', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Stock', 'NNP'), ('Symbol', 'NNP'), (',', ','), ('Guru', 'NNP'), ('Names', 'NNP'), (',', ','), ('or', 'CC'), ('Keywords', 'NNS'), (':', ':'), ('All', 'DT'), ('News', 'NNP'), ('and', 'CC'), ('Columns', 'NNP'), ('Weekly', 'NNP'), ('CEO', 'NNP'), ('Sells', 'NNP'), ('Highlight', 'NNP'), (':', ':'), ('Biogen', 'NNP'), ('Idec', 'NNP'), ('Inc', 'NNP'), (',', ','), ('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), (',', ','), ('NVIDIA', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('Marriott', 'NNP'), ('International', 'NNP'), (',', ','), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Writers', 'NNPS'), ('Compensation', 'NNP'), ('Program', 'NNP'), ('Writers', 'NNPS'), ('Wanted', 'NNP'), ('GuruFocus', 'NNP'), ('Insider', 'NNP'), ('Data', 'NNP'), (',', ','), ('these', 'DT'), ('are', 'VBP'), ('the', 'DT'), ('largest', 'JJS'), ('CEO', 'NNP'), ('sales', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Whole/NNP Earth/NNP)   is/VBZ   Owned/VBN   ;/:   (PERSON Debts/NNP Net/NNP Out/NNP)   to/TO   (PERSON Zero/NNP Search/NNP Articles/NNP)   by/IN   (PERSON Stock/NNP Symbol/NNP)   ,/,   (PERSON Guru/NNP Names/NNP)   ,/,   or/CC   Keywords/NNS   :/:   All/DT   News/NNP   and/CC   (PERSON Columns/NNP Weekly/NNP)   CEO/NNP   (PERSON Sells/NNP Highlight/NNP)   :/:   (PERSON Biogen/NNP Idec/NNP Inc/NNP)   ,/,   (GPE American/NNP)   Financial/NNP   Group/NNP   ,/,   (ORGANIZATION NVIDIA/NNP Corp./NNP)   ,/,   (PERSON Marriott/NNP International/NNP)   ,/,   (ORGANIZATION     The/NNP     Walt/NNP     Disney/NNP     Company/NNP     Writers/NNPS     Compensation/NNP     Program/NNP     Writers/NNPS     Wanted/NNP)   GuruFocus/NNP   Insider/NNP   Data/NNP   ,/,   these/DT   are/VBP   the/DT   largest/JJS   CEO/NNP   sales/NNS   during/IN   the/DT   past/JJ   week/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ Owned/VBN)
+	(VERB   are/VBP   the/DT   largest/JJS   CEO/NNP   sales/NNS   during/IN   the/DT   past/JJ   week/NN)
+
+tagged sentence:
+	 are the largest CEO sales during the past week	res:1
+noun phrases to consider:
+	(NOUN Whole/NNP Earth/NNP)
+	(NOUN Debts/NNP Net/NNP Out/NNP)
+	(NOUN Zero/NNP Search/NNP Articles/NNP)
+	(NOUN Stock/NNP Symbol/NNP)
+	(NOUN Guru/NNP Names/NNP)
+	(NOUN Keywords/NNS)
+	(NOUN News/NNP)
+	(NOUN Columns/NNP Weekly/NNP CEO/NNP Sells/NNP)
+	(NOUN Highlight/NNP)
+	(NOUN Biogen/NNP Idec/NNP Inc/NNP)
+	(NOUN American/NNP Financial/NNP Group/NNP)
+	(NOUN NVIDIA/NNP Corp./NNP)
+	(NOUN Marriott/NNP International/NNP)
+	(NOUN The/NNP Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Writers/NNPS Compensation/NNP Program/NNP Writers/NNPS)
+	(NOUN Wanted/NNP GuruFocus/NNP Insider/NNP Data/NNP)
+
+----------------------------------
+original sentence: 
+: CEO & President James C Mullen sold 440,500 Shares
+ CEO & President of Biogen Idec Inc  James C Mullen sold 440,500 shares on 03/22/2010 at an average price of $59.97.
+
+POS tagged sentence: 
+[(':', ':'), ('CEO', 'NNP'), ('&', 'CC'), ('President', 'NNP'), ('James', 'NNP'), ('C', 'NNP'), ('Mullen', 'NNP'), ('sold', 'VBD'), ('440,500', 'CD'), ('Shares', 'NNS'), ('CEO', 'NNP'), ('&', 'CC'), ('President', 'NNP'), ('of', 'IN'), ('Biogen', 'NNP'), ('Idec', 'NNP'), ('Inc', 'NNP'), ('James', 'NNP'), ('C', 'NNP'), ('Mullen', 'NNP'), ('sold', 'VBD'), ('440,500', 'CD'), ('shares', 'NNS'), ('on', 'IN'), ('03/22/2010', 'CD'), ('at', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('59.97', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   :/:   CEO/NNP   &/CC   President/NNP   (PERSON James/NNP)   C/NNP   (PERSON Mullen/NNP)   sold/VBD   440,500/CD   Shares/NNS   (ORGANIZATION CEO/NNP)   &/CC   President/NNP   of/IN   (ORGANIZATION Biogen/NNP Idec/NNP Inc/NNP James/NNP)   C/NNP   (PERSON Mullen/NNP)   sold/VBD   440,500/CD   shares/NNS   on/IN   03/22/2010/CD   at/IN   an/DT   average/JJ   price/NN   of/IN   $/$   59.97/CD   ./.)
+----------------------------------
+original sentence: 
+Biogen Idec Inc. is a biopharmaceutical company engaged primarily in the research, development and commercialization of targeted therapies for the treatment of cancer and autoimmune and inflammatory diseases.
+
+POS tagged sentence: 
+[('Biogen', 'NNP'), ('Idec', 'NNP'), ('Inc.', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('biopharmaceutical', 'JJ'), ('company', 'NN'), ('engaged', 'VBD'), ('primarily', 'RB'), ('in', 'IN'), ('the', 'DT'), ('research', 'NN'), (',', ','), ('development', 'NN'), ('and', 'CC'), ('commercialization', 'NN'), ('of', 'IN'), ('targeted', 'VBN'), ('therapies', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('treatment', 'NN'), ('of', 'IN'), ('cancer', 'NN'), ('and', 'CC'), ('autoimmune', 'NN'), ('and', 'CC'), ('inflammatory', 'NN'), ('diseases', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Biogen/NNP)   (ORGANIZATION Idec/NNP Inc./NNP)   is/VBZ   a/DT   biopharmaceutical/JJ   company/NN   engaged/VBD   primarily/RB   in/IN   the/DT   research/NN   ,/,   development/NN   and/CC   commercialization/NN   of/IN   targeted/VBN   therapies/NNS   for/IN   the/DT   treatment/NN   of/IN   cancer/NN   and/CC   autoimmune/NN   and/CC   inflammatory/NN   diseases/NNS   ./.)
+----------------------------------
+original sentence: 
+Biogen Idec Inc has a market cap of $15.68 billion; its shares were traded at around $58.15 with a P/E ratio of 14.5 and P/S ratio of 3.6.
+
+POS tagged sentence: 
+[('Biogen', 'NNP'), ('Idec', 'NNP'), ('Inc', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('market', 'NN'), ('cap', 'NN'), ('of', 'IN'), ('$', '$'), ('15.68', 'CD'), ('billion', 'CD'), (';', ':'), ('its', 'PRP$'), ('shares', 'NNS'), ('were', 'VBD'), ('traded', 'VBN'), ('at', 'IN'), ('around', 'IN'), ('$', '$'), ('58.15', 'CD'), ('with', 'IN'), ('a', 'DT'), ('P/E', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('14.5', 'CD'), ('and', 'CC'), ('P/S', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('3.6', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Biogen/NNP)   (ORGANIZATION Idec/NNP Inc/NNP)   has/VBZ   a/DT   market/NN   cap/NN   of/IN   $/$   15.68/CD   billion/CD   ;/:   its/PRP$   shares/NNS   were/VBD   traded/VBN   at/IN   around/IN   $/$   58.15/CD   with/IN   a/DT   P/E/JJ   ratio/NN   of/IN   14.5/CD   and/CC   P/S/JJ   ratio/NN   of/IN   3.6/CD   ./.)
+----------------------------------
+original sentence: 
+On February 9, 2010, Biogen Idec announced its full year results.
+
+POS tagged sentence: 
+[('On', 'IN'), ('February', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('Biogen', 'NNP'), ('Idec', 'NNP'), ('announced', 'VBD'), ('its', 'PRP$'), ('full', 'JJ'), ('year', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   February/NNP   9/CD   ,/,   2010/CD   ,/,   (PERSON Biogen/NNP Idec/NNP)   announced/VBD   its/PRP$   full/JJ   year/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+Its total revenues in 2009 were $4.4 billion, an increase of 7% versus that of 2008.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('total', 'NN'), ('revenues', 'NNS'), ('in', 'IN'), ('2009', 'CD'), ('were', 'VBD'), ('$', '$'), ('4.4', 'CD'), ('billion', 'CD'), (',', ','), ('an', 'DT'), ('increase', 'NN'), ('of', 'IN'), ('7', 'CD'), ('%', 'NN'), ('versus', 'NN'), ('that', 'IN'), ('of', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   total/NN   revenues/NNS   in/IN   2009/CD   were/VBD   $/$   4.4/CD   billion/CD   ,/,   an/DT   increase/NN   of/IN   7/CD   %/NN   versus/NN   that/IN   of/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+Together with this sell, CEO & President  sold 587,537 shares of BIIB stock in March and December.
+
+POS tagged sentence: 
+[('Together', 'RB'), ('with', 'IN'), ('this', 'DT'), ('sell', 'NN'), (',', ','), ('CEO', 'NNP'), ('&', 'CC'), ('President', 'NNP'), ('sold', 'VBD'), ('587,537', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('BIIB', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('and', 'CC'), ('December', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Together/RB   with/IN   this/DT   sell/NN   ,/,   (ORGANIZATION CEO/NNP)   &/CC   President/NNP   sold/VBD   587,537/CD   shares/NNS   of/IN   (ORGANIZATION BIIB/NNP)   stock/NN   in/IN   March/NNP   and/CC   December/NNP   ./.)
+----------------------------------
+original sentence: 
+SVP, Chief Accounting Officer  sold about 5,400 shares of BIIB stock in March and January.
+
+POS tagged sentence: 
+[('SVP', 'NNP'), (',', ','), ('Chief', 'NNP'), ('Accounting', 'NNP'), ('Officer', 'NNP'), ('sold', 'VBD'), ('about', 'RB'), ('5,400', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('BIIB', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('and', 'CC'), ('January', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SVP/NNP   ,/,   Chief/NNP   Accounting/NNP   Officer/NNP   sold/VBD   about/RB   5,400/CD   shares/NNS   of/IN   (ORGANIZATION BIIB/NNP)   stock/NN   in/IN   March/NNP   and/CC   January/NNP   ./.)
+----------------------------------
+original sentence: 
+EVP, HR, Public Affairs & Comm  sold about 10,800 shares of BIIB stock in March and February.
+
+POS tagged sentence: 
+[('EVP', 'NNP'), (',', ','), ('HR', 'NNP'), (',', ','), ('Public', 'NNP'), ('Affairs', 'NNP'), ('&', 'CC'), ('Comm', 'NNP'), ('sold', 'VBD'), ('about', 'IN'), ('10,800', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('BIIB', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('and', 'CC'), ('February', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   EVP/NNP   ,/,   (ORGANIZATION HR/NNP)   ,/,   (PERSON Public/NNP Affairs/NNP)   &/CC   (ORGANIZATION Comm/NNP)   sold/VBD   about/IN   10,800/CD   shares/NNS   of/IN   (ORGANIZATION BIIB/NNP)   stock/NN   in/IN   March/NNP   and/CC   February/NNP   ./.)
+----------------------------------
+original sentence: 
+COO  sold 6,600 shares of BIIB stock on 02/18/2010 at the average price of 56.16, the price of the stock has increased by 3.54% since.
+
+POS tagged sentence: 
+[('COO', 'NNP'), ('sold', 'VBD'), ('6,600', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('BIIB', 'NNP'), ('stock', 'NN'), ('on', 'IN'), ('02/18/2010', 'CD'), ('at', 'IN'), ('the', 'DT'), ('average', 'NN'), ('price', 'NN'), ('of', 'IN'), ('56.16', 'CD'), (',', ','), ('the', 'DT'), ('price', 'NN'), ('of', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('increased', 'VBN'), ('by', 'IN'), ('3.54', 'CD'), ('%', 'NN'), ('since', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION COO/NNP)   sold/VBD   6,600/CD   shares/NNS   of/IN   (ORGANIZATION BIIB/NNP)   stock/NN   on/IN   02/18/2010/CD   at/IN   the/DT   average/NN   price/NN   of/IN   56.16/CD   ,/,   the/DT   price/NN   of/IN   the/DT   stock/NN   has/VBZ   increased/VBN   by/IN   3.54/CD   %/NN   since/IN   ./.)
+----------------------------------
+original sentence: 
+American Financial Group Inc.  : Co CEO & Co President S Craig Lindner sold 200,000 Shares
+ Co CEO & Co President of American Financial Group Inc.  S Craig Lindner sold 200,000 shares on 03/23/2010 at an average price of $28.15.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), (':', ':'), ('Co', 'NNP'), ('CEO', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('President', 'NNP'), ('S', 'NNP'), ('Craig', 'NNP'), ('Lindner', 'NNP'), ('sold', 'VBD'), ('200,000', 'CD'), ('Shares', 'NNS'), ('Co', 'NNP'), ('CEO', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('President', 'NNP'), ('of', 'IN'), ('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('S', 'NNP'), ('Craig', 'NNP'), ('Lindner', 'NNP'), ('sold', 'VBD'), ('200,000', 'CD'), ('shares', 'NNS'), ('on', 'IN'), ('03/23/2010', 'CD'), ('at', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('28.15', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION Financial/NNP Group/NNP)   Inc./NNP   :/:   Co/NNP   CEO/NNP   &/CC   Co/NNP   President/NNP   S/NNP   (PERSON Craig/NNP Lindner/NNP)   sold/VBD   200,000/CD   Shares/NNS   Co/NNP   CEO/NNP   &/CC   Co/NNP   President/NNP   of/IN   (GPE American/NNP)   Financial/NNP   Group/NNP   Inc./NNP   S/NNP   (PERSON Craig/NNP Lindner/NNP)   sold/VBD   200,000/CD   shares/NNS   on/IN   03/23/2010/CD   at/IN   an/DT   average/JJ   price/NN   of/IN   $/$   28.15/CD   ./.)
+----------------------------------
+original sentence: 
+American Financial Group is a holding company which, through its subsidiaries, is engaged primarily in private passenger automobile and specialty property and casualty insurance businesses and in the sale of tax deferred annuities and certain life and supplemental health insurance products.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('holding', 'VBG'), ('company', 'NN'), ('which', 'WDT'), (',', ','), ('through', 'IN'), ('its', 'PRP$'), ('subsidiaries', 'NNS'), (',', ','), ('is', 'VBZ'), ('engaged', 'VBN'), ('primarily', 'RB'), ('in', 'IN'), ('private', 'JJ'), ('passenger', 'NN'), ('automobile', 'NN'), ('and', 'CC'), ('specialty', 'NN'), ('property', 'NN'), ('and', 'CC'), ('casualty', 'NN'), ('insurance', 'NN'), ('businesses', 'NNS'), ('and', 'CC'), ('in', 'IN'), ('the', 'DT'), ('sale', 'NN'), ('of', 'IN'), ('tax', 'NN'), ('deferred', 'VBN'), ('annuities', 'NNS'), ('and', 'CC'), ('certain', 'JJ'), ('life', 'NN'), ('and', 'CC'), ('supplemental', 'JJ'), ('health', 'NN'), ('insurance', 'NN'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION Financial/NNP Group/NNP)   is/VBZ   a/DT   holding/VBG   company/NN   which/WDT   ,/,   through/IN   its/PRP$   subsidiaries/NNS   ,/,   is/VBZ   engaged/VBN   primarily/RB   in/IN   private/JJ   passenger/NN   automobile/NN   and/CC   specialty/NN   property/NN   and/CC   casualty/NN   insurance/NN   businesses/NNS   and/CC   in/IN   the/DT   sale/NN   of/IN   tax/NN   deferred/VBN   annuities/NNS   and/CC   certain/JJ   life/NN   and/CC   supplemental/JJ   health/NN   insurance/NN   products/NNS   ./.)
+----------------------------------
+original sentence: 
+American Financial Group Inc. has a market cap of $3.19 billion; its shares were traded at around $28.46 with a P/E ratio of 6.7 and P/S ratio of 0.7.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('market', 'NN'), ('cap', 'NN'), ('of', 'IN'), ('$', '$'), ('3.19', 'CD'), ('billion', 'CD'), (';', ':'), ('its', 'PRP$'), ('shares', 'NNS'), ('were', 'VBD'), ('traded', 'VBN'), ('at', 'IN'), ('around', 'IN'), ('$', '$'), ('28.46', 'CD'), ('with', 'IN'), ('a', 'DT'), ('P/E', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('6.7', 'CD'), ('and', 'CC'), ('P/S', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('0.7', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION Financial/NNP Group/NNP Inc./NNP)   has/VBZ   a/DT   market/NN   cap/NN   of/IN   $/$   3.19/CD   billion/CD   ;/:   its/PRP$   shares/NNS   were/VBD   traded/VBN   at/IN   around/IN   $/$   28.46/CD   with/IN   a/DT   P/E/JJ   ratio/NN   of/IN   6.7/CD   and/CC   P/S/JJ   ratio/NN   of/IN   0.7/CD   ./.)
+----------------------------------
+original sentence: 
+The dividend yield of American Financial Group Inc. stocks is 2%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dividend', 'NN'), ('yield', 'NN'), ('of', 'IN'), ('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('stocks', 'NNS'), ('is', 'VBZ'), ('2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dividend/NN   yield/NN   of/IN   (GPE American/NNP)   Financial/NNP   Group/NNP   Inc./NNP   stocks/NNS   is/VBZ   2/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+American Financial Group Inc. had an annual average earning growth of 20.5% over the past 10 years.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('had', 'VBD'), ('an', 'DT'), ('annual', 'JJ'), ('average', 'NN'), ('earning', 'VBG'), ('growth', 'NN'), ('of', 'IN'), ('20.5', 'CD'), ('%', 'NN'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('10', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION Financial/NNP Group/NNP Inc./NNP)   had/VBD   an/DT   annual/JJ   average/NN   earning/VBG   growth/NN   of/IN   20.5/CD   %/NN   over/IN   the/DT   past/JJ   10/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+On February 9, 2010, American Financial Group, Inc.  reported record 2009 fourth quarter net earnings attributable to shareholders of $161 million $1.38 per share , compared to $39 million $.32 per share reported in the 2008 fourth quarter.
+
+POS tagged sentence: 
+[('On', 'IN'), ('February', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('American', 'NNP'), ('Financial', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('reported', 'VBD'), ('record', 'NN'), ('2009', 'CD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('earnings', 'NNS'), ('attributable', 'JJ'), ('to', 'TO'), ('shareholders', 'NNS'), ('of', 'IN'), ('$', '$'), ('161', 'CD'), ('million', 'CD'), ('$', '$'), ('1.38', 'CD'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('$', '$'), ('39', 'CD'), ('million', 'CD'), ('$', '$'), ('.32', 'CD'), ('per', 'IN'), ('share', 'NN'), ('reported', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('2008', 'CD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   February/NNP   9/CD   ,/,   2010/CD   ,/,   (GPE American/NNP)   Financial/NNP   Group/NNP   ,/,   (ORGANIZATION Inc./NNP)   reported/VBD   record/NN   2009/CD   fourth/JJ   quarter/NN   net/NN   earnings/NNS   attributable/JJ   to/TO   shareholders/NNS   of/IN   $/$   161/CD   million/CD   $/$   1.38/CD   per/IN   share/NN   ,/,   compared/VBN   to/TO   $/$   39/CD   million/CD   $/$   .32/CD   per/IN   share/NN   reported/VBD   in/IN   the/DT   2008/CD   fourth/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Together with this sell, Co CEO & Co President  sold 450,000 shares of AFG stock in March, February, and December.
+
+POS tagged sentence: 
+[('Together', 'RB'), ('with', 'IN'), ('this', 'DT'), ('sell', 'NN'), (',', ','), ('Co', 'NNP'), ('CEO', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('President', 'NNP'), ('sold', 'VBD'), ('450,000', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('AFG', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), (',', ','), ('February', 'NNP'), (',', ','), ('and', 'CC'), ('December', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Together/RB   with/IN   this/DT   sell/NN   ,/,   (PERSON Co/NNP CEO/NNP)   &/CC   Co/NNP   President/NNP   sold/VBD   450,000/CD   shares/NNS   of/IN   (ORGANIZATION AFG/NNP)   stock/NN   in/IN   (GPE March/NNP)   ,/,   February/NNP   ,/,   and/CC   December/NNP   ./.)
+----------------------------------
+original sentence: 
+Sr. Vice President Keith A Jensen, Sr. V.P.
+
+POS tagged sentence: 
+[('Sr.', 'NNP'), ('Vice', 'NNP'), ('President', 'NNP'), ('Keith', 'NNP'), ('A', 'NNP'), ('Jensen', 'NNP'), (',', ','), ('Sr.', 'NNP'), ('V.P', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sr./NNP   Vice/NNP   President/NNP   (PERSON Keith/NNP)   A/NNP   Jensen/NNP   ,/,   Sr./NNP   V.P/NNP   ./.)
+----------------------------------
+original sentence: 
+Taxes Thomas E Mischell and Director Terry S Jacobs together sold 67,598 shares of AFG stock in March and February.
+
+POS tagged sentence: 
+[('Taxes', 'NNS'), ('Thomas', 'NNP'), ('E', 'NNP'), ('Mischell', 'NNP'), ('and', 'CC'), ('Director', 'NNP'), ('Terry', 'NNP'), ('S', 'NNP'), ('Jacobs', 'NNP'), ('together', 'RB'), ('sold', 'VBD'), ('67,598', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('AFG', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('and', 'CC'), ('February', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Taxes/NNS   (PERSON Thomas/NNP)   E/NNP   Mischell/NNP   and/CC   (PERSON Director/NNP Terry/NNP)   S/NNP   (PERSON Jacobs/NNP)   together/RB   sold/VBD   67,598/CD   shares/NNS   of/IN   (ORGANIZATION AFG/NNP)   stock/NN   in/IN   March/NNP   and/CC   February/NNP   ./.)
+----------------------------------
+original sentence: 
+: President and CEO Jen Hsun Huang sold 150,000 Shares
+ President and CEO of NVIDIA Corp.
+
+POS tagged sentence: 
+[(':', ':'), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('Jen', 'NNP'), ('Hsun', 'NNP'), ('Huang', 'NNP'), ('sold', 'VBD'), ('150,000', 'CD'), ('Shares', 'NNS'), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('of', 'IN'), ('NVIDIA', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   :/:   President/NNP   and/CC   (ORGANIZATION CEO/NNP Jen/NNP Hsun/NNP Huang/NNP)   sold/VBD   150,000/CD   Shares/NNS   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   of/IN   (ORGANIZATION NVIDIA/NNP Corp/NNP)   ./.)
+----------------------------------
+original sentence: 
+Jen Hsun Huang sold 150,000 shares on 03/19/2010 at an average price of $17.33.
+
+POS tagged sentence: 
+[('Jen', 'NNP'), ('Hsun', 'NNP'), ('Huang', 'NNP'), ('sold', 'VBD'), ('150,000', 'CD'), ('shares', 'NNS'), ('on', 'IN'), ('03/19/2010', 'CD'), ('at', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('17.33', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Jen/NNP)   (ORGANIZATION Hsun/NNP Huang/NNP)   sold/VBD   150,000/CD   shares/NNS   on/IN   03/19/2010/CD   at/IN   an/DT   average/JJ   price/NN   of/IN   $/$   17.33/CD   ./.)
+----------------------------------
+original sentence: 
+NVIDIA Corporation designs, develops and markets 3D graphics processors, graphics processing units and related software, and features for every type of desktop personal computer user, from professional workstations to low cost computers.
+
+POS tagged sentence: 
+[('NVIDIA', 'NNP'), ('Corporation', 'NNP'), ('designs', 'VBZ'), (',', ','), ('develops', 'NNS'), ('and', 'CC'), ('markets', 'NNS'), ('3D', 'CD'), ('graphics', 'NNS'), ('processors', 'NNS'), (',', ','), ('graphics', 'NNS'), ('processing', 'VBG'), ('units', 'NNS'), ('and', 'CC'), ('related', 'JJ'), ('software', 'NN'), (',', ','), ('and', 'CC'), ('features', 'NNS'), ('for', 'IN'), ('every', 'DT'), ('type', 'NN'), ('of', 'IN'), ('desktop', 'NN'), ('personal', 'JJ'), ('computer', 'NN'), ('user', 'NN'), (',', ','), ('from', 'IN'), ('professional', 'JJ'), ('workstations', 'NNS'), ('to', 'TO'), ('low', 'JJ'), ('cost', 'NN'), ('computers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NVIDIA/NNP Corporation/NNP)   designs/VBZ   ,/,   develops/NNS   and/CC   markets/NNS   3D/CD   graphics/NNS   processors/NNS   ,/,   graphics/NNS   processing/VBG   units/NNS   and/CC   related/JJ   software/NN   ,/,   and/CC   features/NNS   for/IN   every/DT   type/NN   of/IN   desktop/NN   personal/JJ   computer/NN   user/NN   ,/,   from/IN   professional/JJ   workstations/NNS   to/TO   low/JJ   cost/NN   computers/NNS   ./.)
+----------------------------------
+original sentence: 
+Nvidia Corp. has a market cap of $9.62 billion; its shares were traded at around $17.34 with a P/E ratio of 578 and P/S ratio of 2.9.
+
+POS tagged sentence: 
+[('Nvidia', 'NNP'), ('Corp.', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('market', 'NN'), ('cap', 'NN'), ('of', 'IN'), ('$', '$'), ('9.62', 'CD'), ('billion', 'CD'), (';', ':'), ('its', 'PRP$'), ('shares', 'NNS'), ('were', 'VBD'), ('traded', 'VBN'), ('at', 'IN'), ('around', 'IN'), ('$', '$'), ('17.34', 'CD'), ('with', 'IN'), ('a', 'DT'), ('P/E', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('578', 'CD'), ('and', 'CC'), ('P/S', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('2.9', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nvidia/NNP)   (ORGANIZATION Corp./NNP)   has/VBZ   a/DT   market/NN   cap/NN   of/IN   $/$   9.62/CD   billion/CD   ;/:   its/PRP$   shares/NNS   were/VBD   traded/VBN   at/IN   around/IN   $/$   17.34/CD   with/IN   a/DT   P/E/JJ   ratio/NN   of/IN   578/CD   and/CC   P/S/JJ   ratio/NN   of/IN   2.9/CD   ./.)
+----------------------------------
+original sentence: 
+Together with this sell, President and CEO  sold 1,732,611 shares of NVDA stock from December to March.
+
+POS tagged sentence: 
+[('Together', 'RB'), ('with', 'IN'), ('this', 'DT'), ('sell', 'NN'), (',', ','), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('sold', 'VBD'), ('1,732,611', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('NVDA', 'NNP'), ('stock', 'NN'), ('from', 'IN'), ('December', 'NNP'), ('to', 'TO'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Together/RB   with/IN   this/DT   sell/NN   ,/,   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   sold/VBD   1,732,611/CD   shares/NNS   of/IN   (ORGANIZATION NVDA/NNP)   stock/NN   from/IN   December/NNP   to/TO   March/NNP   ./.)
+----------------------------------
+original sentence: 
+Director  together sold 197,502 shares of NVDA stock in March.
+
+POS tagged sentence: 
+[('Director', 'NNP'), ('together', 'RB'), ('sold', 'VBD'), ('197,502', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('NVDA', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Director/NNP   together/RB   sold/VBD   197,502/CD   shares/NNS   of/IN   (ORGANIZATION NVDA/NNP)   stock/NN   in/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+EVP, Gen.
+
+POS tagged sentence: 
+[('EVP', 'NNP'), (',', ','), ('Gen', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S EVP/NNP ,/, Gen/NNP ./.)
+----------------------------------
+original sentence: 
+Counsel, Secretary  sold 12,570 shares of NVDA stock in January and February.
+
+POS tagged sentence: 
+[('Counsel', 'NNP'), (',', ','), ('Secretary', 'NNP'), ('sold', 'VBD'), ('12,570', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('NVDA', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('January', 'NNP'), ('and', 'CC'), ('February', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Counsel/NNP)   ,/,   Secretary/NNP   sold/VBD   12,570/CD   shares/NNS   of/IN   (ORGANIZATION NVDA/NNP)   stock/NN   in/IN   January/NNP   and/CC   February/NNP   ./.)
+----------------------------------
+original sentence: 
+Marriott International Inc.  : Chairman & CEO, 10% Owner J W Jr Marriott sold 125,000 Shares
+ Chairman & CEO, 10% Owner of Marriott International Inc.  J W Jr Marriott sold 125,000 shares on 03/25/2010 at an average price of $30.54.
+
+POS tagged sentence: 
+[('Marriott', 'NNP'), ('International', 'NNP'), ('Inc.', 'NNP'), (':', ':'), ('Chairman', 'NNP'), ('&', 'CC'), ('CEO', 'NNP'), (',', ','), ('10', 'CD'), ('%', 'NN'), ('Owner', 'NNP'), ('J', 'NNP'), ('W', 'NNP'), ('Jr', 'NNP'), ('Marriott', 'NNP'), ('sold', 'VBD'), ('125,000', 'CD'), ('Shares', 'NNS'), ('Chairman', 'NNP'), ('&', 'CC'), ('CEO', 'NNP'), (',', ','), ('10', 'CD'), ('%', 'NN'), ('Owner', 'NNP'), ('of', 'IN'), ('Marriott', 'NNP'), ('International', 'NNP'), ('Inc.', 'NNP'), ('J', 'NNP'), ('W', 'NNP'), ('Jr', 'NNP'), ('Marriott', 'NNP'), ('sold', 'VBD'), ('125,000', 'CD'), ('shares', 'NNS'), ('on', 'IN'), ('03/25/2010', 'CD'), ('at', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('30.54', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Marriott/NNP)   (ORGANIZATION International/NNP)   Inc./NNP   :/:   Chairman/NNP   &/CC   (ORGANIZATION CEO/NNP)   ,/,   10/CD   %/NN   (PERSON Owner/NNP)   J/NNP   W/NNP   Jr/NNP   (PERSON Marriott/NNP)   sold/VBD   125,000/CD   Shares/NNS   Chairman/NNP   &/CC   (ORGANIZATION CEO/NNP)   ,/,   10/CD   %/NN   (PERSON Owner/NNP)   of/IN   (ORGANIZATION Marriott/NNP International/NNP Inc./NNP)   J/NNP   W/NNP   Jr/NNP   (PERSON Marriott/NNP)   sold/VBD   125,000/CD   shares/NNS   on/IN   03/25/2010/CD   at/IN   an/DT   average/JJ   price/NN   of/IN   $/$   30.54/CD   ./.)
+----------------------------------
+original sentence: 
+Marriott International, Inc. operates and franchises hotels under the Marriott, JW Marriott, The Ritz Carlton, Renaissance, Residence Inn, Courtyard, TownePlace Suites, Fairfield Inn, SpringHill Suites and Ramada International brand names.
+
+POS tagged sentence: 
+[('Marriott', 'NNP'), ('International', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('operates', 'VBZ'), ('and', 'CC'), ('franchises', 'NNS'), ('hotels', 'NNS'), ('under', 'IN'), ('the', 'DT'), ('Marriott', 'NNP'), (',', ','), ('JW', 'NNP'), ('Marriott', 'NNP'), (',', ','), ('The', 'NNP'), ('Ritz', 'NNP'), ('Carlton', 'NNP'), (',', ','), ('Renaissance', 'NNP'), (',', ','), ('Residence', 'NNP'), ('Inn', 'NNP'), (',', ','), ('Courtyard', 'NNP'), (',', ','), ('TownePlace', 'NNP'), ('Suites', 'NNP'), (',', ','), ('Fairfield', 'NNP'), ('Inn', 'NNP'), (',', ','), ('SpringHill', 'NNP'), ('Suites', 'NNP'), ('and', 'CC'), ('Ramada', 'NNP'), ('International', 'NNP'), ('brand', 'NN'), ('names', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Marriott/NNP)   (ORGANIZATION International/NNP)   ,/,   Inc./NNP   operates/VBZ   and/CC   franchises/NNS   hotels/NNS   under/IN   the/DT   (ORGANIZATION Marriott/NNP)   ,/,   (ORGANIZATION JW/NNP Marriott/NNP)   ,/,   (ORGANIZATION The/NNP Ritz/NNP Carlton/NNP)   ,/,   (GPE Renaissance/NNP)   ,/,   (PERSON Residence/NNP Inn/NNP)   ,/,   (PERSON Courtyard/NNP)   ,/,   (ORGANIZATION TownePlace/NNP Suites/NNP)   ,/,   (PERSON Fairfield/NNP Inn/NNP)   ,/,   (ORGANIZATION SpringHill/NNP Suites/NNP)   and/CC   (ORGANIZATION Ramada/NNP International/NNP)   brand/NN   names/VBZ   ./.)
+----------------------------------
+original sentence: 
+Marriott International Inc. has a market cap of $11.15 billion; its shares were traded at around $31.09 with a P/E ratio of 33.2 and P/S ratio of 1.
+
+POS tagged sentence: 
+[('Marriott', 'NNP'), ('International', 'NNP'), ('Inc.', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('market', 'NN'), ('cap', 'NN'), ('of', 'IN'), ('$', '$'), ('11.15', 'CD'), ('billion', 'CD'), (';', ':'), ('its', 'PRP$'), ('shares', 'NNS'), ('were', 'VBD'), ('traded', 'VBN'), ('at', 'IN'), ('around', 'IN'), ('$', '$'), ('31.09', 'CD'), ('with', 'IN'), ('a', 'DT'), ('P/E', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('33.2', 'CD'), ('and', 'CC'), ('P/S', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('1', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Marriott/NNP)   (ORGANIZATION International/NNP Inc./NNP)   has/VBZ   a/DT   market/NN   cap/NN   of/IN   $/$   11.15/CD   billion/CD   ;/:   its/PRP$   shares/NNS   were/VBD   traded/VBN   at/IN   around/IN   $/$   31.09/CD   with/IN   a/DT   P/E/JJ   ratio/NN   of/IN   33.2/CD   and/CC   P/S/JJ   ratio/NN   of/IN   1/CD   ./.)
+----------------------------------
+original sentence: 
+The dividend yield of Marriott International Inc. stocks is 0.5%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dividend', 'NN'), ('yield', 'NN'), ('of', 'IN'), ('Marriott', 'NNP'), ('International', 'NNP'), ('Inc.', 'NNP'), ('stocks', 'NNS'), ('is', 'VBZ'), ('0.5', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dividend/NN   yield/NN   of/IN   (ORGANIZATION Marriott/NNP International/NNP Inc./NNP)   stocks/NNS   is/VBZ   0.5/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+On March 16, Marriott International, Inc. announced that they will conduct its 2010 first quarter earnings review for the investment community and news media on Thursday, April 22, 2010 at 10 a.m. Eastern Time ET .
+
+POS tagged sentence: 
+[('On', 'IN'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('Marriott', 'NNP'), ('International', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('they', 'PRP'), ('will', 'MD'), ('conduct', 'VB'), ('its', 'PRP$'), ('2010', 'CD'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('review', 'NN'), ('for', 'IN'), ('the', 'DT'), ('investment', 'NN'), ('community', 'NN'), ('and', 'CC'), ('news', 'NN'), ('media', 'NNS'), ('on', 'IN'), ('Thursday', 'NNP'), (',', ','), ('April', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('10', 'CD'), ('a.m.', 'NNP'), ('Eastern', 'NNP'), ('Time', 'NNP'), ('ET', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   March/NNP   16/CD   ,/,   (PERSON Marriott/NNP International/NNP)   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   they/PRP   will/MD   conduct/VB   its/PRP$   2010/CD   first/JJ   quarter/NN   earnings/NNS   review/NN   for/IN   the/DT   investment/NN   community/NN   and/CC   news/NN   media/NNS   on/IN   Thursday/NNP   ,/,   April/NNP   22/CD   ,/,   2010/CD   at/IN   10/CD   a.m./NNP   Eastern/NNP   Time/NNP   ET/NNP   ./.)
+----------------------------------
+original sentence: 
+The results will be issued prior to the opening of the New York Stock Exchange on that day.
+
+POS tagged sentence: 
+[('The', 'DT'), ('results', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('issued', 'VBN'), ('prior', 'RB'), ('to', 'TO'), ('the', 'DT'), ('opening', 'VBG'), ('of', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Stock', 'NNP'), ('Exchange', 'NNP'), ('on', 'IN'), ('that', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   results/NNS   will/MD   be/VB   issued/VBN   prior/RB   to/TO   the/DT   opening/VBG   of/IN   the/DT   (GPE New/NNP York/NNP)   Stock/NNP   Exchange/NNP   on/IN   that/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Together with this sell, Chairman & CEO, 10% Owner  sold 276,350 shares of MAR stock in December and March.
+
+POS tagged sentence: 
+[('Together', 'RB'), ('with', 'IN'), ('this', 'DT'), ('sell', 'NN'), (',', ','), ('Chairman', 'NNP'), ('&', 'CC'), ('CEO', 'NNP'), (',', ','), ('10', 'CD'), ('%', 'NN'), ('Owner', 'NNP'), ('sold', 'VBD'), ('276,350', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('MAR', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('December', 'NNP'), ('and', 'CC'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Together/RB   with/IN   this/DT   sell/NN   ,/,   (PERSON Chairman/NNP)   &/CC   (ORGANIZATION CEO/NNP)   ,/,   10/CD   %/NN   (PERSON Owner/NNP)   sold/VBD   276,350/CD   shares/NNS   of/IN   (ORGANIZATION MAR/NNP)   stock/NN   in/IN   December/NNP   and/CC   March/NNP   ./.)
+----------------------------------
+original sentence: 
+Vice Chairman of the Company William Joseph Shaw, Pres & Mgr. Dir MI Lodg.
+
+POS tagged sentence: 
+[('Vice', 'NNP'), ('Chairman', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ('William', 'NNP'), ('Joseph', 'NNP'), ('Shaw', 'NNP'), (',', ','), ('Pres', 'NNP'), ('&', 'CC'), ('Mgr.', 'NNP'), ('Dir', 'NNP'), ('MI', 'NNP'), ('Lodg', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Vice/NNP   Chairman/NNP   of/IN   the/DT   (ORGANIZATION Company/NNP)   (PERSON William/NNP Joseph/NNP Shaw/NNP)   ,/,   Pres/NNP   &/CC   Mgr./NNP   Dir/NNP   MI/NNP   Lodg/NNP   ./.)
+----------------------------------
+original sentence: 
+Intl Edwin D Fuller, and 10% Owner Richard E Marriott together sold 165,936 shares of MAR stock in March.
+
+POS tagged sentence: 
+[('Intl', 'NNP'), ('Edwin', 'NNP'), ('D', 'NNP'), ('Fuller', 'NNP'), (',', ','), ('and', 'CC'), ('10', 'CD'), ('%', 'NN'), ('Owner', 'NNP'), ('Richard', 'NNP'), ('E', 'NNP'), ('Marriott', 'NNP'), ('together', 'RB'), ('sold', 'VBD'), ('165,936', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('MAR', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intl/NNP)   (PERSON Edwin/NNP)   D/NNP   (PERSON Fuller/NNP)   ,/,   and/CC   10/CD   %/NN   (PERSON Owner/NNP Richard/NNP)   E/NNP   Marriott/NNP   together/RB   sold/VBD   165,936/CD   shares/NNS   of/IN   (ORGANIZATION MAR/NNP)   stock/NN   in/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+13D Group Owning more than 10%  sold about 51,800 shares of MAR stock in March.
+
+POS tagged sentence: 
+[('13D', 'JJ'), ('Group', 'NNP'), ('Owning', 'NNP'), ('more', 'JJR'), ('than', 'IN'), ('10', 'CD'), ('%', 'NN'), ('sold', 'VBD'), ('about', 'IN'), ('51,800', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('MAR', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   13D/JJ   Group/NNP   Owning/NNP   more/JJR   than/IN   10/CD   %/NN   sold/VBD   about/IN   51,800/CD   shares/NNS   of/IN   (ORGANIZATION MAR/NNP)   stock/NN   in/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+The Walt Disney Company  : President and CEO Robert A Iger sold 550,000 Shares
+ President and CEO of The Walt Disney Company Disney  Robert A Iger sold 550,000 shares during the past week at an average price of $34.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), (':', ':'), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('Robert', 'NNP'), ('A', 'NNP'), ('Iger', 'NNP'), ('sold', 'VBD'), ('550,000', 'CD'), ('Shares', 'NNS'), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Disney', 'NNP'), ('Robert', 'NNP'), ('A', 'NNP'), ('Iger', 'NNP'), ('sold', 'VBD'), ('550,000', 'CD'), ('shares', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('week', 'NN'), ('at', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('34', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP)   Company/NNP   :/:   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   (PERSON Robert/NNP)   A/NNP   Iger/NNP   sold/VBD   550,000/CD   Shares/NNS   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP Disney/NNP)   (PERSON Robert/NNP)   A/NNP   Iger/NNP   sold/VBD   550,000/CD   shares/NNS   during/IN   the/DT   past/JJ   week/NN   at/IN   an/DT   average/JJ   price/NN   of/IN   $/$   34/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sold/VBD 550,000/CD Shares/NNS President/NNP)
+	(VERB   sold/VBD   550,000/CD   shares/NNS   during/IN   the/DT   past/JJ   week/NN   at/IN   an/DT   average/JJ   price/NN   of/IN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN President/NNP)
+	(NOUN CEO/NNP Robert/NNP A/NNP Iger/NNP)
+	(NOUN CEO/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP Disney/NNP)
+	(NOUN Robert/NNP A/NNP Iger/NNP)
+
+----------------------------------
+original sentence: 
+Walt Disney Company owns 100% of Disney Enterprises, Inc.
+
+POS tagged sentence: 
+[('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('owns', 'VBZ'), ('100', 'CD'), ('%', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('Enterprises', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walt/NNP)   (ORGANIZATION Disney/NNP Company/NNP)   owns/VBZ   100/CD   %/NN   of/IN   (ORGANIZATION Disney/NNP Enterprises/NNP)   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owns/VBZ 100/CD %/NN of/IN Disney/NNP Enterprises/NNP)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company Disney has a market cap of $68.48 billion; its shares were traded at around $35.31 with a P/E ratio of 18.8 and P/S ratio of 1.8.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Disney', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('market', 'NN'), ('cap', 'NN'), ('of', 'IN'), ('$', '$'), ('68.48', 'CD'), ('billion', 'CD'), (';', ':'), ('its', 'PRP$'), ('shares', 'NNS'), ('were', 'VBD'), ('traded', 'VBN'), ('at', 'IN'), ('around', 'IN'), ('$', '$'), ('35.31', 'CD'), ('with', 'IN'), ('a', 'DT'), ('P/E', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('18.8', 'CD'), ('and', 'CC'), ('P/S', 'JJ'), ('ratio', 'NN'), ('of', 'IN'), ('1.8', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP Disney/NNP)   has/VBZ   a/DT   market/NN   cap/NN   of/IN   $/$   68.48/CD   billion/CD   ;/:   its/PRP$   shares/NNS   were/VBD   traded/VBN   at/IN   around/IN   $/$   35.31/CD   with/IN   a/DT   P/E/JJ   ratio/NN   of/IN   18.8/CD   and/CC   P/S/JJ   ratio/NN   of/IN   1.8/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT market/NN cap/NN of/IN)
+	(VERB were/VBD traded/VBN at/IN around/IN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP Disney/NNP)
+	(NOUN shares/NNS)
+	(NOUN a/DT P/E/JJ ratio/NN)
+	(NOUN P/S/JJ ratio/NN)
+
+----------------------------------
+original sentence: 
+The dividend yield of The Walt Disney Company Disney stocks is 1%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dividend', 'NN'), ('yield', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Disney', 'NNP'), ('stocks', 'NNS'), ('is', 'VBZ'), ('1', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dividend/NN   yield/NN   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP Disney/NNP)   stocks/NNS   is/VBZ   1/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ 1/CD %/NN)
+noun phrases to consider:
+	(NOUN dividend/NN yield/NN)
+	(NOUN Walt/NNP Disney/NNP Company/NNP Disney/NNP)
+	(NOUN stocks/NNS)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company Disney had an annual average earning growth of 11.2% over the past 10 years.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Disney', 'NNP'), ('had', 'VBD'), ('an', 'DT'), ('annual', 'JJ'), ('average', 'NN'), ('earning', 'VBG'), ('growth', 'NN'), ('of', 'IN'), ('11.2', 'CD'), ('%', 'NN'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('10', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP Disney/NNP)   had/VBD   an/DT   annual/JJ   average/NN   earning/VBG   growth/NN   of/IN   11.2/CD   %/NN   over/IN   the/DT   past/JJ   10/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB had/VBD an/DT annual/JJ average/NN)
+	(VERB   earning/VBG   growth/NN   of/IN   11.2/CD   %/NN   over/IN   the/DT   past/JJ   10/CD   years/NNS)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP Disney/NNP)
+
+----------------------------------
+original sentence: 
+On March 10, shareholders of The Walt Disney Company elected 13 members of the Board of Directors and supported Board recommendations on the Company's auditor, its stock incentive plan and amendments to its Restated Certificate of Incorporation, based on preliminary results.
+
+POS tagged sentence: 
+[('On', 'IN'), ('March', 'NNP'), ('10', 'CD'), (',', ','), ('shareholders', 'NNS'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('elected', 'VBD'), ('13', 'CD'), ('members', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('Board', 'NNP'), ('of', 'IN'), ('Directors', 'NNP'), ('and', 'CC'), ('supported', 'VBD'), ('Board', 'NNP'), ('recommendations', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('auditor', 'NN'), (',', ','), ('its', 'PRP$'), ('stock', 'NN'), ('incentive', 'NN'), ('plan', 'NN'), ('and', 'CC'), ('amendments', 'NNS'), ('to', 'TO'), ('its', 'PRP$'), ('Restated', 'NNP'), ('Certificate', 'NNP'), ('of', 'IN'), ('Incorporation', 'NNP'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('preliminary', 'JJ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   March/NNP   10/CD   ,/,   shareholders/NNS   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   elected/VBD   13/CD   members/NNS   of/IN   the/DT   (ORGANIZATION Board/NNP)   of/IN   (ORGANIZATION Directors/NNP)   and/CC   supported/VBD   (ORGANIZATION Board/NNP)   recommendations/NNS   on/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   auditor/NN   ,/,   its/PRP$   stock/NN   incentive/NN   plan/NN   and/CC   amendments/NNS   to/TO   its/PRP$   Restated/NNP   Certificate/NNP   of/IN   (GPE Incorporation/NNP)   ,/,   based/VBN   on/IN   preliminary/JJ   results/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   elected/VBD   13/CD   members/NNS   of/IN   the/DT   Board/NNP   of/IN   Directors/NNP)
+	(VERB   supported/VBD   Board/NNP   recommendations/NNS   on/IN   the/DT   Company/NNP)
+	(VERB based/VBN on/IN preliminary/JJ results/NNS)
+noun phrases to consider:
+	(NOUN March/NNP)
+	(NOUN shareholders/NNS)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN auditor/NN)
+	(NOUN stock/NN incentive/NN plan/NN)
+	(NOUN amendments/NNS)
+	(NOUN Restated/NNP Certificate/NNP)
+	(NOUN Incorporation/NNP)
+
+----------------------------------
+original sentence: 
+Together with this sell, President and CEO  sold 1,750,000 shares of DIS stock from January to March.
+
+POS tagged sentence: 
+[('Together', 'RB'), ('with', 'IN'), ('this', 'DT'), ('sell', 'NN'), (',', ','), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('sold', 'VBD'), ('1,750,000', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('DIS', 'NNP'), ('stock', 'NN'), ('from', 'IN'), ('January', 'NNP'), ('to', 'TO'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Together/RB   with/IN   this/DT   sell/NN   ,/,   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   sold/VBD   1,750,000/CD   shares/NNS   of/IN   (ORGANIZATION DIS/NNP)   stock/NN   from/IN   January/NNP   to/TO   March/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   sold/VBD   1,750,000/CD   shares/NNS   of/IN   DIS/NNP   stock/NN   from/IN   January/NNP)
+noun phrases to consider:
+	(NOUN sell/NN)
+	(NOUN President/NNP)
+	(NOUN CEO/NNP)
+	(NOUN March/NNP)
+
+----------------------------------
+original sentence: 
+SVP, Planning and Control  sold 28,000 shares of DIS stock on 03/25/2010 at the average price of 35, the price of the stock has increased by 0.89% since.
+
+POS tagged sentence: 
+[('SVP', 'NNP'), (',', ','), ('Planning', 'NNP'), ('and', 'CC'), ('Control', 'NNP'), ('sold', 'VBD'), ('28,000', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('DIS', 'NNP'), ('stock', 'NN'), ('on', 'IN'), ('03/25/2010', 'CD'), ('at', 'IN'), ('the', 'DT'), ('average', 'NN'), ('price', 'NN'), ('of', 'IN'), ('35', 'CD'), (',', ','), ('the', 'DT'), ('price', 'NN'), ('of', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('increased', 'VBN'), ('by', 'IN'), ('0.89', 'CD'), ('%', 'NN'), ('since', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SVP/NNP   ,/,   Planning/NNP   and/CC   (ORGANIZATION Control/NNP)   sold/VBD   28,000/CD   shares/NNS   of/IN   (ORGANIZATION DIS/NNP)   stock/NN   on/IN   03/25/2010/CD   at/IN   the/DT   average/NN   price/NN   of/IN   35/CD   ,/,   the/DT   price/NN   of/IN   the/DT   stock/NN   has/VBZ   increased/VBN   by/IN   0.89/CD   %/NN   since/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   sold/VBD   28,000/CD   shares/NNS   of/IN   DIS/NNP   stock/NN   on/IN   03/25/2010/CD   at/IN   the/DT   average/NN   price/NN   of/IN   35/CD)
+	(VERB has/VBZ increased/VBN by/IN 0.89/CD %/NN since/IN)
+noun phrases to consider:
+	(NOUN SVP/NNP)
+	(NOUN Planning/NNP)
+	(NOUN Control/NNP)
+	(NOUN price/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+EVP Corp Fin.
+
+POS tagged sentence: 
+[('EVP', 'NNP'), ('Corp', 'NNP'), ('Fin', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION EVP/NNP Corp/NNP Fin/NNP) ./.)
+----------------------------------
+original sentence: 
+& RE & Treasurer Christine M Mccarthy
+ sold 22,500 shares of DIS stock on 03/18/2010.
+
+POS tagged sentence: 
+[('&', 'CC'), ('RE', 'NNP'), ('&', 'CC'), ('Treasurer', 'NNP'), ('Christine', 'NNP'), ('M', 'NNP'), ('Mccarthy', 'NNP'), ('sold', 'VBD'), ('22,500', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('DIS', 'NNP'), ('stock', 'NN'), ('on', 'IN'), ('03/18/2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   (ORGANIZATION RE/NNP)   &/CC   (PERSON Treasurer/NNP Christine/NNP)   M/NNP   (PERSON Mccarthy/NNP)   sold/VBD   22,500/CD   shares/NNS   of/IN   (ORGANIZATION DIS/NNP)   stock/NN   on/IN   03/18/2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   sold/VBD   22,500/CD   shares/NNS   of/IN   DIS/NNP   stock/NN   on/IN   03/18/2010/CD)
+noun phrases to consider:
+	(NOUN RE/NNP)
+	(NOUN Treasurer/NNP Christine/NNP M/NNP Mccarthy/NNP)
+
+----------------------------------
+original sentence: 
+SVP, Planning and Control  sold 14,500 shares of DIS stock in March.
+
+POS tagged sentence: 
+[('SVP', 'NNP'), (',', ','), ('Planning', 'NNP'), ('and', 'CC'), ('Control', 'NNP'), ('sold', 'VBD'), ('14,500', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('DIS', 'NNP'), ('stock', 'NN'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SVP/NNP   ,/,   Planning/NNP   and/CC   (ORGANIZATION Control/NNP)   sold/VBD   14,500/CD   shares/NNS   of/IN   (ORGANIZATION DIS/NNP)   stock/NN   in/IN   March/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   sold/VBD   14,500/CD   shares/NNS   of/IN   DIS/NNP   stock/NN   in/IN   March/NNP)
+noun phrases to consider:
+	(NOUN SVP/NNP)
+	(NOUN Planning/NNP)
+	(NOUN Control/NNP)
+
+----------------------------------
+original sentence: 
+For the complete list of stocks that bought by their CEOs, go to: Become a Premium Member to See This: Take a Free Trial of Premium Membership
+Click to see which Gurus bought Please Leave Your Comment:
+More Articles by guruat:
+More Articles about BIIB:
+If you like this page, you will love Our Premium Membership
+Tell your friends about This Page:
+Your friends' emails:  Your email address:
+Investor Questions Podcast with Geoff Gannon:
+ now hosts the Investor Questions Podcast.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('complete', 'JJ'), ('list', 'NN'), ('of', 'IN'), ('stocks', 'NNS'), ('that', 'WDT'), ('bought', 'VBD'), ('by', 'IN'), ('their', 'PRP$'), ('CEOs', 'NNP'), (',', ','), ('go', 'VBP'), ('to', 'TO'), (':', ':'), ('Become', 'DT'), ('a', 'DT'), ('Premium', 'NNP'), ('Member', 'NNP'), ('to', 'TO'), ('See', 'NNP'), ('This', 'DT'), (':', ':'), ('Take', 'NNP'), ('a', 'DT'), ('Free', 'NNP'), ('Trial', 'NNP'), ('of', 'IN'), ('Premium', 'NNP'), ('Membership', 'NNP'), ('Click', 'NNP'), ('to', 'TO'), ('see', 'VB'), ('which', 'WDT'), ('Gurus', 'NNP'), ('bought', 'VBD'), ('Please', 'NNP'), ('Leave', 'NNP'), ('Your', 'NNP'), ('Comment', 'NNP'), (':', ':'), ('More', 'JJR'), ('Articles', 'NNS'), ('by', 'IN'), ('guruat', 'NN'), (':', ':'), ('More', 'RBR'), ('Articles', 'NNS'), ('about', 'IN'), ('BIIB', 'NNP'), (':', ':'), ('If', 'IN'), ('you', 'PRP'), ('like', 'VBP'), ('this', 'DT'), ('page', 'NN'), (',', ','), ('you', 'PRP'), ('will', 'MD'), ('love', 'VB'), ('Our', 'NNP'), ('Premium', 'NNP'), ('Membership', 'NNP'), ('Tell', 'NNP'), ('your', 'PRP$'), ('friends', 'NNS'), ('about', 'IN'), ('This', 'DT'), ('Page', 'NNP'), (':', ':'), ('Your', 'PRP$'), ('friends', 'NNS'), ("'", 'POS'), ('emails', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), ('address', 'NN'), (':', ':'), ('Investor', 'NNP'), ('Questions', 'NNPS'), ('Podcast', 'NNP'), ('with', 'IN'), ('Geoff', 'NNP'), ('Gannon', 'NNP'), (':', ':'), ('now', 'RB'), ('hosts', 'VBZ'), ('the', 'DT'), ('Investor', 'NNP'), ('Questions', 'NNP'), ('Podcast', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   complete/JJ   list/NN   of/IN   stocks/NNS   that/WDT   bought/VBD   by/IN   their/PRP$   (ORGANIZATION CEOs/NNP)   ,/,   go/VBP   to/TO   :/:   Become/DT   a/DT   Premium/NNP   Member/NNP   to/TO   (GPE See/NNP)   This/DT   :/:   Take/NNP   a/DT   Free/NNP   Trial/NNP   of/IN   Premium/NNP   Membership/NNP   (PERSON Click/NNP)   to/TO   see/VB   which/WDT   (PERSON Gurus/NNP)   bought/VBD   (PERSON Please/NNP Leave/NNP)   Your/NNP   Comment/NNP   :/:   More/JJR   Articles/NNS   by/IN   guruat/NN   :/:   More/RBR   Articles/NNS   about/IN   (ORGANIZATION BIIB/NNP)   :/:   If/IN   you/PRP   like/VBP   this/DT   page/NN   ,/,   you/PRP   will/MD   love/VB   Our/NNP   Premium/NNP   Membership/NNP   Tell/NNP   your/PRP$   friends/NNS   about/IN   This/DT   Page/NNP   :/:   Your/PRP$   friends/NNS   '/POS   emails/NNS   :/:   Your/NNP   email/NN   address/NN   :/:   Investor/NNP   Questions/NNPS   Podcast/NNP   with/IN   (PERSON Geoff/NNP Gannon/NNP)   :/:   now/RB   hosts/VBZ   the/DT   Investor/NNP   Questions/NNP   Podcast/NNP   ./.)
+----------------------------------
+original sentence: 
+The show that answers questions from investors like you.
+
+POS tagged sentence: 
+[('The', 'DT'), ('show', 'NN'), ('that', 'IN'), ('answers', 'NNS'), ('questions', 'NNS'), ('from', 'IN'), ('investors', 'NNS'), ('like', 'IN'), ('you', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   show/NN   that/IN   answers/NNS   questions/NNS   from/IN   investors/NNS   like/IN   you/PRP   ./.)
+----------------------------------
+original sentence: 
+If you have an investing question you want answered call 1 800 604 1929.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('have', 'VBP'), ('an', 'DT'), ('investing', 'VBG'), ('question', 'NN'), ('you', 'PRP'), ('want', 'VBP'), ('answered', 'VBN'), ('call', 'NN'), ('1', 'CD'), ('800', 'CD'), ('604', 'CD'), ('1929', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   have/VBP   an/DT   investing/VBG   question/NN   you/PRP   want/VBP   answered/VBN   call/NN   1/CD   800/CD   604/CD   1929/CD   ./.)
+----------------------------------
+original sentence: 
+Geoff Gannon Investor Questions Podcast #10: How Do You Avoid Falling into a Value Trap?
+
+POS tagged sentence: 
+[('Geoff', 'IN'), ('Gannon', 'NNP'), ('Investor', 'NNP'), ('Questions', 'NNP'), ('Podcast', 'NNP'), ('#', '#'), ('10', 'CD'), (':', ':'), ('How', 'WRB'), ('Do', 'NNP'), ('You', 'NNP'), ('Avoid', 'NNP'), ('Falling', 'NNP'), ('into', 'IN'), ('a', 'DT'), ('Value', 'NNP'), ('Trap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Geoff/IN   (PERSON Gannon/NNP Investor/NNP Questions/NNP Podcast/NNP)   #/#   10/CD   :/:   How/WRB   Do/NNP   You/NNP   (PERSON Avoid/NNP Falling/NNP)   into/IN   a/DT   Value/NNP   Trap/NNP   ?/.)
+----------------------------------
+original sentence: 
+Geoff Gannon Investor Questions Podcast #9: How Do You Calculate a Bank's Intrinsic Value?
+
+POS tagged sentence: 
+[('Geoff', 'IN'), ('Gannon', 'NNP'), ('Investor', 'NNP'), ('Questions', 'NNP'), ('Podcast', 'NNP'), ('#', '#'), ('9', 'CD'), (':', ':'), ('How', 'WRB'), ('Do', 'NNP'), ('You', 'NNP'), ('Calculate', 'NNP'), ('a', 'DT'), ('Bank', 'NNP'), ("'s", 'POS'), ('Intrinsic', 'NNP'), ('Value', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Geoff/IN   (PERSON Gannon/NNP Investor/NNP Questions/NNP Podcast/NNP)   #/#   9/CD   :/:   How/WRB   Do/NNP   You/NNP   Calculate/NNP   a/DT   (ORGANIZATION Bank/NNP)   's/POS   (ORGANIZATION Intrinsic/NNP Value/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Geoff Gannon Investor Questions Podcast #8: Why Did Warren Buffett Buy Costco Stock?
+
+POS tagged sentence: 
+[('Geoff', 'IN'), ('Gannon', 'NNP'), ('Investor', 'NNP'), ('Questions', 'NNP'), ('Podcast', 'NNP'), ('#', '#'), ('8', 'CD'), (':', ':'), ('Why', 'WRB'), ('Did', 'NNP'), ('Warren', 'NNP'), ('Buffett', 'NNP'), ('Buy', 'NNP'), ('Costco', 'NNP'), ('Stock', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Geoff/IN   (PERSON Gannon/NNP Investor/NNP Questions/NNP Podcast/NNP)   #/#   8/CD   :/:   Why/WRB   (PERSON     Did/NNP     Warren/NNP     Buffett/NNP     Buy/NNP     Costco/NNP     Stock/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Geoff Gannon Investor Questions Podcast #7: Does Warren Buffett Use Pre Tax Earnings or Free Cash Flow to Value a Stock?
+
+POS tagged sentence: 
+[('Geoff', 'IN'), ('Gannon', 'NNP'), ('Investor', 'NNP'), ('Questions', 'NNP'), ('Podcast', 'NNP'), ('#', '#'), ('7', 'CD'), (':', ':'), ('Does', 'VBZ'), ('Warren', 'NNP'), ('Buffett', 'NNP'), ('Use', 'NNP'), ('Pre', 'NNP'), ('Tax', 'NNP'), ('Earnings', 'NNP'), ('or', 'CC'), ('Free', 'NNP'), ('Cash', 'NNP'), ('Flow', 'NNP'), ('to', 'TO'), ('Value', 'NNP'), ('a', 'DT'), ('Stock', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Geoff/IN   (PERSON Gannon/NNP Investor/NNP Questions/NNP Podcast/NNP)   #/#   7/CD   :/:   Does/VBZ   (PERSON Warren/NNP Buffett/NNP Use/NNP)   Pre/NNP   Tax/NNP   Earnings/NNP   or/CC   (PERSON Free/NNP Cash/NNP Flow/NNP)   to/TO   Value/NNP   a/DT   Stock/NNP   ?/.)
+----------------------------------
+original sentence: 
+More Investor Questions Podcast with Geoff Gannon &raquo;&raquo;
+Re: Audio Files of The Intelligent....
+Re: Milton Friedman explains role ....
+Re: Why Apple Inc. AAPL is Worth....
+
+POS tagged sentence: 
+[('More', 'JJR'), ('Investor', 'NNP'), ('Questions', 'NNPS'), ('Podcast', 'NNP'), ('with', 'IN'), ('Geoff', 'NNP'), ('Gannon', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('&raquo', 'NNP'), (';', ':'), ('Re', 'NNP'), (':', ':'), ('Audio', 'NNP'), ('Files', 'NNP'), ('of', 'IN'), ('The', 'DT'), ('Intelligent...', 'NNP'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('Milton', 'NNP'), ('Friedman', 'NNP'), ('explains', 'VBZ'), ('role', 'NN'), ('...', ':'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('Why', 'WRB'), ('Apple', 'NNP'), ('Inc.', 'NNP'), ('AAPL', 'NNP'), ('is', 'VBZ'), ('Worth...', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   Investor/NNP   Questions/NNPS   Podcast/NNP   with/IN   (PERSON Geoff/NNP Gannon/NNP)   &raquo/NNP   ;/:   &raquo/NNP   ;/:   Re/NNP   :/:   (PERSON Audio/NNP Files/NNP)   of/IN   The/DT   Intelligent.../NNP   ./.   Re/NNP   :/:   (PERSON Milton/NNP Friedman/NNP)   explains/VBZ   role/NN   .../:   ./.   Re/NNP   :/:   Why/WRB   (PERSON Apple/NNP Inc./NNP)   AAPL/NNP   is/VBZ   Worth.../NNP   ./.)
+----------------------------------
+original sentence: 
+Comment for Buffett Munger Screener...
+Re: The St. Joe Company: Berkowitz....
+Re: Useless Investing Variables: W....
+
+POS tagged sentence: 
+[('Comment', 'NNP'), ('for', 'IN'), ('Buffett', 'NNP'), ('Munger', 'NNP'), ('Screener..', 'NNP'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('The', 'DT'), ('St.', 'NNP'), ('Joe', 'NNP'), ('Company', 'NNP'), (':', ':'), ('Berkowitz...', 'NNP'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('Useless', 'NNP'), ('Investing', 'NNP'), ('Variables', 'NNP'), (':', ':'), ('W...', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Comment/NNP   for/IN   (PERSON Buffett/NNP Munger/NNP)   Screener../NNP   ./.   Re/NNP   :/:   The/DT   (ORGANIZATION St./NNP Joe/NNP)   Company/NNP   :/:   Berkowitz.../NNP   ./.   Re/NNP   :/:   (PERSON Useless/NNP Investing/NNP Variables/NNP)   :/:   W.../NNP   ./.)
+----------------------------------
+original sentence: 
+The bull case for Conn's
+Re: Hedge Fund Lone Pine Capital B....
+Re: Cornell Companies â€“ Donâ€™t ....
+Re: Living off dividends in retir....
+Pfizer Over The Long Haul
+Re: "Of Permanent Value The Story...
+
+POS tagged sentence: 
+[('The', 'DT'), ('bull', 'NN'), ('case', 'NN'), ('for', 'IN'), ('Conn', 'NNP'), ("'s", 'POS'), ('Re', 'NNP'), (':', ':'), ('Hedge', 'NNP'), ('Fund', 'NNP'), ('Lone', 'NNP'), ('Pine', 'NNP'), ('Capital', 'NNP'), ('B...', 'NNP'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('Cornell', 'NNP'), ('Companies', 'NNPS'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x93', 'NNP'), ('Don', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('t', 'NN'), ('...', ':'), ('.', '.'), ('Re', 'NNP'), (':', ':'), ('Living', 'NNP'), ('off', 'IN'), ('dividends', 'NNS'), ('in', 'IN'), ('retir...', 'NNP'), ('.', '.'), ('Pfizer', 'NNP'), ('Over', 'NNP'), ('The', 'NNP'), ('Long', 'NNP'), ('Haul', 'NNP'), ('Re', 'NNP'), (':', ':'), ('"', ':'), ('Of', 'IN'), ('Permanent', 'NNP'), ('Value', 'NNP'), ('The', 'NNP'), ('Story..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   bull/NN   case/NN   for/IN   (ORGANIZATION Conn/NNP)   's/POS   Re/NNP   :/:   (PERSON Hedge/NNP Fund/NNP Lone/NNP Pine/NNP Capital/NNP)   B.../NNP   ./.   Re/NNP   :/:   (ORGANIZATION Cornell/NNP Companies/NNPS)   â/NNP   €/NNP   “/NNP   Don/NNP   â/NNP   €/NNP   ™/NNP   t/NN   .../:   ./.   Re/NNP   :/:   Living/NNP   off/IN   dividends/NNS   in/IN   retir.../NNP   ./.   (PERSON Pfizer/NNP)   Over/NNP   The/NNP   (ORGANIZATION Long/NNP Haul/NNP)   Re/NNP   :/:   "/:   Of/IN   (ORGANIZATION Permanent/NNP)   Value/NNP   The/NNP   Story../NNP   ./.)
+----------------------------------
+original sentence: 
+Contributing Authors
+&copy; 2004 2010 GuruFocus.com, LLC.
+
+POS tagged sentence: 
+[('Contributing', 'VBG'), ('Authors', 'NNS'), ('&copy', 'JJ'), (';', ':'), ('2004', 'CD'), ('2010', 'CD'), ('GuruFocus.com', 'JJ'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Contributing/VBG   Authors/NNS   &copy/JJ   ;/:   2004/CD   2010/CD   GuruFocus.com/JJ   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+All Rights Reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT Rights/NNS Reserved/VBN ./.)
+----------------------------------
+original sentence: 
+GuruFocus.com is not operated by a broker, a dealer, or a registered investment adviser.
+
+POS tagged sentence: 
+[('GuruFocus.com', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('operated', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('broker', 'NN'), (',', ','), ('a', 'DT'), ('dealer', 'NN'), (',', ','), ('or', 'CC'), ('a', 'DT'), ('registered', 'VBN'), ('investment', 'NN'), ('adviser', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GuruFocus.com/NN   is/VBZ   not/RB   operated/VBN   by/IN   a/DT   broker/NN   ,/,   a/DT   dealer/NN   ,/,   or/CC   a/DT   registered/VBN   investment/NN   adviser/NN   ./.)
+----------------------------------
+original sentence: 
+Under no circumstances does any information posted on GuruFocus.com represent a recommendation to buy or sell a security.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('no', 'DT'), ('circumstances', 'NNS'), ('does', 'VBZ'), ('any', 'DT'), ('information', 'NN'), ('posted', 'VBD'), ('on', 'IN'), ('GuruFocus.com', 'JJ'), ('represent', 'NN'), ('a', 'DT'), ('recommendation', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('or', 'CC'), ('sell', 'VB'), ('a', 'DT'), ('security', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   no/DT   circumstances/NNS   does/VBZ   any/DT   information/NN   posted/VBD   on/IN   GuruFocus.com/JJ   represent/NN   a/DT   recommendation/NN   to/TO   buy/VB   or/CC   sell/VB   a/DT   security/NN   ./.)
+----------------------------------
+original sentence: 
+The information on this site, and in its related newsletters, is not intended to be, nor does it constitute, investment advice or recommendations.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('on', 'IN'), ('this', 'DT'), ('site', 'NN'), (',', ','), ('and', 'CC'), ('in', 'IN'), ('its', 'PRP$'), ('related', 'JJ'), ('newsletters', 'NNS'), (',', ','), ('is', 'VBZ'), ('not', 'RB'), ('intended', 'VBN'), ('to', 'TO'), ('be', 'VB'), (',', ','), ('nor', 'CC'), ('does', 'VBZ'), ('it', 'PRP'), ('constitute', 'VB'), (',', ','), ('investment', 'NN'), ('advice', 'NN'), ('or', 'CC'), ('recommendations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   on/IN   this/DT   site/NN   ,/,   and/CC   in/IN   its/PRP$   related/JJ   newsletters/NNS   ,/,   is/VBZ   not/RB   intended/VBN   to/TO   be/VB   ,/,   nor/CC   does/VBZ   it/PRP   constitute/VB   ,/,   investment/NN   advice/NN   or/CC   recommendations/NNS   ./.)
+----------------------------------
+original sentence: 
+The gurus may buy and sell securities before and after any particular article and report and information herein is published, with respect to the securities discussed in any article and report posted herein.
+
+POS tagged sentence: 
+[('The', 'DT'), ('gurus', 'NN'), ('may', 'MD'), ('buy', 'VB'), ('and', 'CC'), ('sell', 'VB'), ('securities', 'NNS'), ('before', 'IN'), ('and', 'CC'), ('after', 'IN'), ('any', 'DT'), ('particular', 'JJ'), ('article', 'NN'), ('and', 'CC'), ('report', 'NN'), ('and', 'CC'), ('information', 'NN'), ('herein', 'NN'), ('is', 'VBZ'), ('published', 'VBN'), (',', ','), ('with', 'IN'), ('respect', 'NN'), ('to', 'TO'), ('the', 'DT'), ('securities', 'NNS'), ('discussed', 'VBD'), ('in', 'IN'), ('any', 'DT'), ('article', 'NN'), ('and', 'CC'), ('report', 'NN'), ('posted', 'VBD'), ('herein', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   gurus/NN   may/MD   buy/VB   and/CC   sell/VB   securities/NNS   before/IN   and/CC   after/IN   any/DT   particular/JJ   article/NN   and/CC   report/NN   and/CC   information/NN   herein/NN   is/VBZ   published/VBN   ,/,   with/IN   respect/NN   to/TO   the/DT   securities/NNS   discussed/VBD   in/IN   any/DT   article/NN   and/CC   report/NN   posted/VBD   herein/NN   ./.)
+----------------------------------
+original sentence: 
+In no event shall GuruFocus.com be liable to any member, guest or third party for any damages of any kind arising out of the use of any content or other material published or available on GuruFocus.com, or relating to the use of, or inability to use, GuruFocus.com or any content, including, without limitation, any investment losses, lost profits, lost opportunity, special, incidental, indirect, consequential or punitive damages.
+
+POS tagged sentence: 
+[('In', 'IN'), ('no', 'DT'), ('event', 'NN'), ('shall', 'MD'), ('GuruFocus.com', 'VB'), ('be', 'VB'), ('liable', 'JJ'), ('to', 'TO'), ('any', 'DT'), ('member', 'NN'), (',', ','), ('guest', 'NN'), ('or', 'CC'), ('third', 'JJ'), ('party', 'NN'), ('for', 'IN'), ('any', 'DT'), ('damages', 'NNS'), ('of', 'IN'), ('any', 'DT'), ('kind', 'NN'), ('arising', 'VBG'), ('out', 'RP'), ('of', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('any', 'DT'), ('content', 'NN'), ('or', 'CC'), ('other', 'JJ'), ('material', 'NN'), ('published', 'VBD'), ('or', 'CC'), ('available', 'JJ'), ('on', 'IN'), ('GuruFocus.com', 'JJ'), (',', ','), ('or', 'CC'), ('relating', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), (',', ','), ('or', 'CC'), ('inability', 'NN'), ('to', 'TO'), ('use', 'VB'), (',', ','), ('GuruFocus.com', 'NNP'), ('or', 'CC'), ('any', 'DT'), ('content', 'NN'), (',', ','), ('including', 'VBG'), (',', ','), ('without', 'IN'), ('limitation', 'NN'), (',', ','), ('any', 'DT'), ('investment', 'NN'), ('losses', 'NNS'), (',', ','), ('lost', 'VBD'), ('profits', 'NNS'), (',', ','), ('lost', 'VBD'), ('opportunity', 'NN'), (',', ','), ('special', 'JJ'), (',', ','), ('incidental', 'JJ'), (',', ','), ('indirect', 'JJ'), (',', ','), ('consequential', 'JJ'), ('or', 'CC'), ('punitive', 'JJ'), ('damages', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   no/DT   event/NN   shall/MD   GuruFocus.com/VB   be/VB   liable/JJ   to/TO   any/DT   member/NN   ,/,   guest/NN   or/CC   third/JJ   party/NN   for/IN   any/DT   damages/NNS   of/IN   any/DT   kind/NN   arising/VBG   out/RP   of/IN   the/DT   use/NN   of/IN   any/DT   content/NN   or/CC   other/JJ   material/NN   published/VBD   or/CC   available/JJ   on/IN   GuruFocus.com/JJ   ,/,   or/CC   relating/VBG   to/TO   the/DT   use/NN   of/IN   ,/,   or/CC   inability/NN   to/TO   use/VB   ,/,   GuruFocus.com/NNP   or/CC   any/DT   content/NN   ,/,   including/VBG   ,/,   without/IN   limitation/NN   ,/,   any/DT   investment/NN   losses/NNS   ,/,   lost/VBD   profits/NNS   ,/,   lost/VBD   opportunity/NN   ,/,   special/JJ   ,/,   incidental/JJ   ,/,   indirect/JJ   ,/,   consequential/JJ   or/CC   punitive/JJ   damages/NNS   ./.)
+----------------------------------
+original sentence: 
+Past performance is a poor indicator of future performance.
+
+POS tagged sentence: 
+[('Past', 'JJ'), ('performance', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('poor', 'JJ'), ('indicator', 'NN'), ('of', 'IN'), ('future', 'JJ'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Past/JJ)   performance/NN   is/VBZ   a/DT   poor/JJ   indicator/NN   of/IN   future/JJ   performance/NN   ./.)
+----------------------------------
+original sentence: 
+The information on this site, and in its related newsletters, is not intended to be, nor does it constitute, investment advice or recommendations.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('on', 'IN'), ('this', 'DT'), ('site', 'NN'), (',', ','), ('and', 'CC'), ('in', 'IN'), ('its', 'PRP$'), ('related', 'JJ'), ('newsletters', 'NNS'), (',', ','), ('is', 'VBZ'), ('not', 'RB'), ('intended', 'VBN'), ('to', 'TO'), ('be', 'VB'), (',', ','), ('nor', 'CC'), ('does', 'VBZ'), ('it', 'PRP'), ('constitute', 'VB'), (',', ','), ('investment', 'NN'), ('advice', 'NN'), ('or', 'CC'), ('recommendations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   on/IN   this/DT   site/NN   ,/,   and/CC   in/IN   its/PRP$   related/JJ   newsletters/NNS   ,/,   is/VBZ   not/RB   intended/VBN   to/TO   be/VB   ,/,   nor/CC   does/VBZ   it/PRP   constitute/VB   ,/,   investment/NN   advice/NN   or/CC   recommendations/NNS   ./.)
+----------------------------------
+original sentence: 
+The information on this site is in no way guaranteed for completeness, accuracy or in any other way.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('on', 'IN'), ('this', 'DT'), ('site', 'NN'), ('is', 'VBZ'), ('in', 'IN'), ('no', 'DT'), ('way', 'NN'), ('guaranteed', 'VBN'), ('for', 'IN'), ('completeness', 'NN'), (',', ','), ('accuracy', 'NN'), ('or', 'CC'), ('in', 'IN'), ('any', 'DT'), ('other', 'JJ'), ('way', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   on/IN   this/DT   site/NN   is/VBZ   in/IN   no/DT   way/NN   guaranteed/VBN   for/IN   completeness/NN   ,/,   accuracy/NN   or/CC   in/IN   any/DT   other/JJ   way/NN   ./.)
+----------------------------------
+original sentence: 
+The gurus listed in this website are not affiliated with GuruFocus.com, LLC.
+
+POS tagged sentence: 
+[('The', 'DT'), ('gurus', 'NN'), ('listed', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('website', 'NN'), ('are', 'VBP'), ('not', 'RB'), ('affiliated', 'VBN'), ('with', 'IN'), ('GuruFocus.com', 'JJ'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   gurus/NN   listed/VBN   in/IN   this/DT   website/NN   are/VBP   not/RB   affiliated/VBN   with/IN   GuruFocus.com/JJ   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+Daily updates provided by QuoteMedia, Inc. CSI .
+
+POS tagged sentence: 
+[('Daily', 'RB'), ('updates', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('QuoteMedia', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('CSI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Daily/RB   updates/VBZ   provided/VBN   by/IN   (ORGANIZATION QuoteMedia/NNP)   ,/,   Inc./NNP   CSI/NNP   ./.)
+----------------------------------
+original sentence: 
+Fundamental company data provided by Zacks, Inc. 
+
+POS tagged sentence: 
+[('Fundamental', 'NNP'), ('company', 'NN'), ('data', 'NNS'), ('provided', 'VBD'), ('by', 'IN'), ('Zacks', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Fundamental/NNP)   company/NN   data/NNS   provided/VBD   by/IN   (PERSON Zacks/NNP)   ,/,   (PERSON Inc/NNP)   ./.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

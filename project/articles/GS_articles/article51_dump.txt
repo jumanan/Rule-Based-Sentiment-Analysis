@@ -1,0 +1,434 @@
+
+----------------------------------
+original sentence: 
+Stock Picks: AIG Up, EQT Down Investing Stocks SmartMoney.com
+Friday April 23, 2010 BUILD YOUR LIFE PLAN: Get control of your finances with our interactive planner.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Picks', 'NNS'), (':', ':'), ('AIG', 'NNP'), ('Up', 'NNP'), (',', ','), ('EQT', 'NNP'), ('Down', 'NNP'), ('Investing', 'NNP'), ('Stocks', 'NNP'), ('SmartMoney.com', 'NNP'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('BUILD', 'NNP'), ('YOUR', 'NNP'), ('LIFE', 'NNP'), ('PLAN', 'NNP'), (':', ':'), ('Get', 'NNP'), ('control', 'NN'), ('of', 'IN'), ('your', 'PRP$'), ('finances', 'NNS'), ('with', 'IN'), ('our', 'PRP$'), ('interactive', 'JJ'), ('planner', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Picks/NNS)   :/:   AIG/NNP   Up/NNP   ,/,   (ORGANIZATION EQT/NNP Down/NNP)   Investing/NNP   Stocks/NNP   SmartMoney.com/NNP   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   (ORGANIZATION BUILD/NNP)   YOUR/NNP   LIFE/NNP   PLAN/NNP   :/:   Get/NNP   control/NN   of/IN   your/PRP$   finances/NNS   with/IN   our/PRP$   interactive/JJ   planner/NN   ./.)
+----------------------------------
+original sentence: 
+Published March 10, 2010 |  Market Movers by  Stock Picks: AIG Up, EQT Down
+American International Group Up
+American International Group
+ stock was rising Wednesday, just after European Union leaders indicated support for a ban on speculative bets gains.
+
+POS tagged sentence: 
+[('Published', 'JJ'), ('March', 'NNP'), ('10', 'CD'), (',', ','), ('2010', 'CD'), ('|', ':'), ('Market', 'NNP'), ('Movers', 'NNP'), ('by', 'IN'), ('Stock', 'NNP'), ('Picks', 'NNP'), (':', ':'), ('AIG', 'NNP'), ('Up', 'NNP'), (',', ','), ('EQT', 'NNP'), ('Down', 'NNP'), ('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('Up', 'NNP'), ('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('stock', 'NN'), ('was', 'VBD'), ('rising', 'VBG'), ('Wednesday', 'NNP'), (',', ','), ('just', 'RB'), ('after', 'IN'), ('European', 'JJ'), ('Union', 'NNP'), ('leaders', 'NNS'), ('indicated', 'VBD'), ('support', 'NN'), ('for', 'IN'), ('a', 'DT'), ('ban', 'NN'), ('on', 'IN'), ('speculative', 'JJ'), ('bets', 'NNS'), ('gains', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Published/JJ   March/NNP   10/CD   ,/,   2010/CD   |/:   (PERSON Market/NNP Movers/NNP)   by/IN   (PERSON Stock/NNP Picks/NNP)   :/:   AIG/NNP   Up/NNP   ,/,   (ORGANIZATION     EQT/NNP     Down/NNP     American/NNP     International/NNP     Group/NNP     Up/NNP     American/NNP     International/NNP     Group/NNP)   stock/NN   was/VBD   rising/VBG   Wednesday/NNP   ,/,   just/RB   after/IN   (GPE European/JJ)   (ORGANIZATION Union/NNP)   leaders/NNS   indicated/VBD   support/NN   for/IN   a/DT   ban/NN   on/IN   speculative/JJ   bets/NNS   gains/NNS   ./.)
+----------------------------------
+original sentence: 
+On Tuesday, German Chancellor Angela Merkel &mdash; together with Greece and France &mdash; agreed to back an initiative to curb the use of credit default swaps, the insurance like contracts that are often blamed for the near collapse of AIG.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('German', 'NNP'), ('Chancellor', 'NNP'), ('Angela', 'NNP'), ('Merkel', 'NNP'), ('&mdash', 'NNP'), (';', ':'), ('together', 'RB'), ('with', 'IN'), ('Greece', 'NNP'), ('and', 'CC'), ('France', 'NNP'), ('&mdash', 'JJ'), (';', ':'), ('agreed', 'NN'), ('to', 'TO'), ('back', 'VB'), ('an', 'DT'), ('initiative', 'JJ'), ('to', 'TO'), ('curb', 'VB'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('credit', 'NN'), ('default', 'NN'), ('swaps', 'NNS'), (',', ','), ('the', 'DT'), ('insurance', 'NN'), ('like', 'IN'), ('contracts', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('often', 'RB'), ('blamed', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('near', 'NN'), ('collapse', 'NN'), ('of', 'IN'), ('AIG', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Tuesday/NNP   ,/,   (PERSON German/NNP Chancellor/NNP Angela/NNP Merkel/NNP)   &mdash/NNP   ;/:   together/RB   with/IN   (GPE Greece/NNP)   and/CC   (GPE France/NNP)   &mdash/JJ   ;/:   agreed/NN   to/TO   back/VB   an/DT   initiative/JJ   to/TO   curb/VB   the/DT   use/NN   of/IN   credit/NN   default/NN   swaps/NNS   ,/,   the/DT   insurance/NN   like/IN   contracts/NNS   that/WDT   are/VBP   often/RB   blamed/VBN   for/IN   the/DT   near/NN   collapse/NN   of/IN   (ORGANIZATION AIG/NNP)   ./.)
+----------------------------------
+original sentence: 
+Also that day, Gary Gensler, the chairman of the U.S. Commodity Futures Trading Commission, criticized credit default swaps in a speech.
+
+POS tagged sentence: 
+[('Also', 'RB'), ('that', 'IN'), ('day', 'NN'), (',', ','), ('Gary', 'NNP'), ('Gensler', 'NNP'), (',', ','), ('the', 'DT'), ('chairman', 'NN'), ('of', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Commodity', 'NNP'), ('Futures', 'NNP'), ('Trading', 'NNP'), ('Commission', 'NNP'), (',', ','), ('criticized', 'VBD'), ('credit', 'NN'), ('default', 'NN'), ('swaps', 'NNS'), ('in', 'IN'), ('a', 'DT'), ('speech', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   that/IN   day/NN   ,/,   (PERSON Gary/NNP Gensler/NNP)   ,/,   the/DT   chairman/NN   of/IN   the/DT   (GPE U.S./NNP)   Commodity/NNP   (PERSON Futures/NNP Trading/NNP Commission/NNP)   ,/,   criticized/VBD   credit/NN   default/NN   swaps/NNS   in/IN   a/DT   speech/NN   ./.)
+----------------------------------
+original sentence: 
+Although neither the U.S. nor Europe have said that they would eliminate the hedging instruments entirely, if investors feel they have fewer protections against declines in bond prices, the borrowing costs for various nations could rise.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('neither', 'DT'), ('the', 'DT'), ('U.S.', 'NNP'), ('nor', 'CC'), ('Europe', 'NNP'), ('have', 'VBP'), ('said', 'VBN'), ('that', 'IN'), ('they', 'PRP'), ('would', 'MD'), ('eliminate', 'VB'), ('the', 'DT'), ('hedging', 'NN'), ('instruments', 'NNS'), ('entirely', 'RB'), (',', ','), ('if', 'IN'), ('investors', 'NNS'), ('feel', 'VBP'), ('they', 'PRP'), ('have', 'VBP'), ('fewer', 'JJR'), ('protections', 'NNS'), ('against', 'IN'), ('declines', 'NNS'), ('in', 'IN'), ('bond', 'NN'), ('prices', 'NNS'), (',', ','), ('the', 'DT'), ('borrowing', 'NN'), ('costs', 'VBZ'), ('for', 'IN'), ('various', 'JJ'), ('nations', 'NNS'), ('could', 'MD'), ('rise', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   neither/DT   the/DT   (GPE U.S./NNP)   nor/CC   (GPE Europe/NNP)   have/VBP   said/VBN   that/IN   they/PRP   would/MD   eliminate/VB   the/DT   hedging/NN   instruments/NNS   entirely/RB   ,/,   if/IN   investors/NNS   feel/VBP   they/PRP   have/VBP   fewer/JJR   protections/NNS   against/IN   declines/NNS   in/IN   bond/NN   prices/NNS   ,/,   the/DT   borrowing/NN   costs/VBZ   for/IN   various/JJ   nations/NNS   could/MD   rise/VB   ./.)
+----------------------------------
+original sentence: 
+&ldquo;It always gets complicated when there are contradictions like this,&rdquo; says Timothy Bestler, senior managing director for When2Trade Group.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('It', 'PRP'), ('always', 'RB'), ('gets', 'VBZ'), ('complicated', 'VBN'), ('when', 'WRB'), ('there', 'EX'), ('are', 'VBP'), ('contradictions', 'NNS'), ('like', 'IN'), ('this,&rdquo', 'NNP'), (';', ':'), ('says', 'VBZ'), ('Timothy', 'NNP'), ('Bestler', 'NNP'), (',', ','), ('senior', 'JJ'), ('managing', 'VBG'), ('director', 'NN'), ('for', 'IN'), ('When2Trade', 'NNP'), ('Group', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   It/PRP   always/RB   gets/VBZ   complicated/VBN   when/WRB   there/EX   are/VBP   contradictions/NNS   like/IN   this,&rdquo/NNP   ;/:   says/VBZ   (PERSON Timothy/NNP Bestler/NNP)   ,/,   senior/JJ   managing/VBG   director/NN   for/IN   (ORGANIZATION When2Trade/NNP Group/NNP)   ./.)
+----------------------------------
+original sentence: 
+An investor might think that eliminating part of what a company does would have a negative effect on that company&rsquo;s share price.
+
+POS tagged sentence: 
+[('An', 'DT'), ('investor', 'NN'), ('might', 'MD'), ('think', 'VB'), ('that', 'IN'), ('eliminating', 'VBG'), ('part', 'NN'), ('of', 'IN'), ('what', 'WP'), ('a', 'DT'), ('company', 'NN'), ('does', 'VBZ'), ('would', 'MD'), ('have', 'VB'), ('a', 'DT'), ('negative', 'JJ'), ('effect', 'NN'), ('on', 'IN'), ('that', 'DT'), ('company&rsquo', 'JJ'), (';', ':'), ('s', 'NNS'), ('share', 'VBP'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   investor/NN   might/MD   think/VB   that/IN   eliminating/VBG   part/NN   of/IN   what/WP   a/DT   company/NN   does/VBZ   would/MD   have/VB   a/DT   negative/JJ   effect/NN   on/IN   that/DT   company&rsquo/JJ   ;/:   s/NNS   share/VBP   price/NN   ./.)
+----------------------------------
+original sentence: 
+However, a battered company like AIG may actually benefit from taking fewer risks, he says.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('a', 'DT'), ('battered', 'VBN'), ('company', 'NN'), ('like', 'IN'), ('AIG', 'NNP'), ('may', 'MD'), ('actually', 'RB'), ('benefit', 'VB'), ('from', 'IN'), ('taking', 'VBG'), ('fewer', 'JJR'), ('risks', 'NNS'), (',', ','), ('he', 'PRP'), ('says', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   a/DT   battered/VBN   company/NN   like/IN   (ORGANIZATION AIG/NNP)   may/MD   actually/RB   benefit/VB   from/IN   taking/VBG   fewer/JJR   risks/NNS   ,/,   he/PRP   says/VBZ   ./.)
+----------------------------------
+original sentence: 
+&ldquo;The impact of recent moves to curb credit default swaps has more to do with the political aspects of a zombie corporation.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('recent', 'JJ'), ('moves', 'NNS'), ('to', 'TO'), ('curb', 'VB'), ('credit', 'NN'), ('default', 'NN'), ('swaps', 'NNS'), ('has', 'VBZ'), ('more', 'JJR'), ('to', 'TO'), ('do', 'VB'), ('with', 'IN'), ('the', 'DT'), ('political', 'JJ'), ('aspects', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('zombie', 'NN'), ('corporation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   impact/NN   of/IN   recent/JJ   moves/NNS   to/TO   curb/VB   credit/NN   default/NN   swaps/NNS   has/VBZ   more/JJR   to/TO   do/VB   with/IN   the/DT   political/JJ   aspects/NNS   of/IN   a/DT   zombie/NN   corporation/NN   ./.)
+----------------------------------
+original sentence: 
+The same is true for [General Motors] &mdash; that is, political impacts outweigh the market impact,&rdquo; says Bestler.
+
+POS tagged sentence: 
+[('The', 'DT'), ('same', 'JJ'), ('is', 'VBZ'), ('true', 'JJ'), ('for', 'IN'), ('[', 'NN'), ('General', 'NNP'), ('Motors', 'NNPS'), (']', 'NNP'), ('&mdash', 'NNP'), (';', ':'), ('that', 'DT'), ('is', 'VBZ'), (',', ','), ('political', 'JJ'), ('impacts', 'NNS'), ('outweigh', 'JJ'), ('the', 'DT'), ('market', 'NN'), ('impact,&rdquo', 'NN'), (';', ':'), ('says', 'VBZ'), ('Bestler', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   same/JJ   is/VBZ   true/JJ   for/IN   [/NN   (ORGANIZATION General/NNP Motors/NNPS)   ]/NNP   &mdash/NNP   ;/:   that/DT   is/VBZ   ,/,   political/JJ   impacts/NNS   outweigh/JJ   the/DT   market/NN   impact,&rdquo/NN   ;/:   says/VBZ   (PERSON Bestler/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;The companies that would likely face hardship if a ban does progress, are the originators like  shares dipped on the news that it plans to issue new stock to fund expansion.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('companies', 'NNS'), ('that', 'WDT'), ('would', 'MD'), ('likely', 'RB'), ('face', 'VB'), ('hardship', 'NN'), ('if', 'IN'), ('a', 'DT'), ('ban', 'NN'), ('does', 'VBZ'), ('progress', 'NN'), (',', ','), ('are', 'VBP'), ('the', 'DT'), ('originators', 'NNS'), ('like', 'IN'), ('shares', 'NNS'), ('dipped', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('news', 'NN'), ('that', 'IN'), ('it', 'PRP'), ('plans', 'VBZ'), ('to', 'TO'), ('issue', 'VB'), ('new', 'JJ'), ('stock', 'NN'), ('to', 'TO'), ('fund', 'VB'), ('expansion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   companies/NNS   that/WDT   would/MD   likely/RB   face/VB   hardship/NN   if/IN   a/DT   ban/NN   does/VBZ   progress/NN   ,/,   are/VBP   the/DT   originators/NNS   like/IN   shares/NNS   dipped/VBD   on/IN   the/DT   news/NN   that/IN   it/PRP   plans/VBZ   to/TO   issue/VB   new/JJ   stock/NN   to/TO   fund/VB   expansion/NN   ./.)
+----------------------------------
+original sentence: 
+On Tuesday, EQT Corp., a natural gas explorer in Pittsburgh, raised its 2010 production sales growth guidance from 20% to 26%.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('EQT', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('a', 'DT'), ('natural', 'JJ'), ('gas', 'NN'), ('explorer', 'NN'), ('in', 'IN'), ('Pittsburgh', 'NNP'), (',', ','), ('raised', 'VBD'), ('its', 'PRP$'), ('2010', 'CD'), ('production', 'NN'), ('sales', 'NNS'), ('growth', 'NN'), ('guidance', 'NN'), ('from', 'IN'), ('20', 'CD'), ('%', 'NN'), ('to', 'TO'), ('26', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Tuesday/NNP   ,/,   (ORGANIZATION EQT/NNP Corp./NNP)   ,/,   a/DT   natural/JJ   gas/NN   explorer/NN   in/IN   (GPE Pittsburgh/NNP)   ,/,   raised/VBD   its/PRP$   2010/CD   production/NN   sales/NNS   growth/NN   guidance/NN   from/IN   20/CD   %/NN   to/TO   26/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+However, to fund that growth, EQT also announced its plans to offer 12.5 million shares of its common stock.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('to', 'TO'), ('fund', 'VB'), ('that', 'IN'), ('growth', 'NN'), (',', ','), ('EQT', 'NNP'), ('also', 'RB'), ('announced', 'VBD'), ('its', 'PRP$'), ('plans', 'NNS'), ('to', 'TO'), ('offer', 'VB'), ('12.5', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('its', 'PRP$'), ('common', 'JJ'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   to/TO   fund/VB   that/IN   growth/NN   ,/,   (ORGANIZATION EQT/NNP)   also/RB   announced/VBD   its/PRP$   plans/NNS   to/TO   offer/VB   12.5/CD   million/CD   shares/NNS   of/IN   its/PRP$   common/JJ   stock/NN   ./.)
+----------------------------------
+original sentence: 
+With the proceeds from the offering, EQT intends to accelerate development of its Marcellus shale site, as well as its Huron, Berea shale sites, which are located in Southeast Ohio, West Virginia and Northwest Kentucky.
+
+POS tagged sentence: 
+[('With', 'IN'), ('the', 'DT'), ('proceeds', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('offering', 'NN'), (',', ','), ('EQT', 'NNP'), ('intends', 'NNS'), ('to', 'TO'), ('accelerate', 'VB'), ('development', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('Marcellus', 'NNP'), ('shale', 'NN'), ('site', 'NN'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('its', 'PRP$'), ('Huron', 'NNP'), (',', ','), ('Berea', 'NNP'), ('shale', 'NN'), ('sites', 'VBZ'), (',', ','), ('which', 'WDT'), ('are', 'VBP'), ('located', 'VBN'), ('in', 'IN'), ('Southeast', 'NNP'), ('Ohio', 'NNP'), (',', ','), ('West', 'NNP'), ('Virginia', 'NNP'), ('and', 'CC'), ('Northwest', 'NNP'), ('Kentucky', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   the/DT   proceeds/NNS   from/IN   the/DT   offering/NN   ,/,   (ORGANIZATION EQT/NNP)   intends/NNS   to/TO   accelerate/VB   development/NN   of/IN   its/PRP$   Marcellus/NNP   shale/NN   site/NN   ,/,   as/IN   well/RB   as/IN   its/PRP$   (PERSON Huron/NNP)   ,/,   (PERSON Berea/NNP)   shale/NN   sites/VBZ   ,/,   which/WDT   are/VBP   located/VBN   in/IN   (LOCATION Southeast/NNP Ohio/NNP)   ,/,   (GPE West/NNP Virginia/NNP)   and/CC   (PERSON Northwest/NNP Kentucky/NNP)   ./.)
+----------------------------------
+original sentence: 
+EQT has said that it is working on a plan to re engineer an existing pipeline network to feed Marcellus gas to East Coast markets, which would likely level a boost to investors if the plan works out.
+
+POS tagged sentence: 
+[('EQT', 'NN'), ('has', 'VBZ'), ('said', 'VBN'), ('that', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('working', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('plan', 'NN'), ('to', 'TO'), ('re', 'VB'), ('engineer', 'NN'), ('an', 'DT'), ('existing', 'VBG'), ('pipeline', 'NN'), ('network', 'NN'), ('to', 'TO'), ('feed', 'VB'), ('Marcellus', 'NNP'), ('gas', 'NN'), ('to', 'TO'), ('East', 'NNP'), ('Coast', 'NNP'), ('markets', 'NNS'), (',', ','), ('which', 'WDT'), ('would', 'MD'), ('likely', 'RB'), ('level', 'VB'), ('a', 'DT'), ('boost', 'NN'), ('to', 'TO'), ('investors', 'NNS'), ('if', 'IN'), ('the', 'DT'), ('plan', 'NN'), ('works', 'VBZ'), ('out', 'RP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION EQT/NN)   has/VBZ   said/VBN   that/IN   it/PRP   is/VBZ   working/VBG   on/IN   a/DT   plan/NN   to/TO   re/VB   engineer/NN   an/DT   existing/VBG   pipeline/NN   network/NN   to/TO   feed/VB   (PERSON Marcellus/NNP)   gas/NN   to/TO   (GPE East/NNP)   Coast/NNP   markets/NNS   ,/,   which/WDT   would/MD   likely/RB   level/VB   a/DT   boost/NN   to/TO   investors/NNS   if/IN   the/DT   plan/NN   works/VBZ   out/RP   ./.)
+----------------------------------
+original sentence: 
+The cost of this action is the main deterrent, however.
+
+POS tagged sentence: 
+[('The', 'DT'), ('cost', 'NN'), ('of', 'IN'), ('this', 'DT'), ('action', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('main', 'JJ'), ('deterrent', 'NN'), (',', ','), ('however', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   cost/NN   of/IN   this/DT   action/NN   is/VBZ   the/DT   main/JJ   deterrent/NN   ,/,   however/RB   ./.)
+----------------------------------
+original sentence: 
+The company is raising its capital expenditures estimate for 2010 from $850 million to $1.2 billion.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('raising', 'VBG'), ('its', 'PRP$'), ('capital', 'NN'), ('expenditures', 'NNS'), ('estimate', 'VBP'), ('for', 'IN'), ('2010', 'CD'), ('from', 'IN'), ('$', '$'), ('850', 'CD'), ('million', 'CD'), ('to', 'TO'), ('$', '$'), ('1.2', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   is/VBZ   raising/VBG   its/PRP$   capital/NN   expenditures/NNS   estimate/VBP   for/IN   2010/CD   from/IN   $/$   850/CD   million/CD   to/TO   $/$   1.2/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+EQT&rsquo;s new estimate includes $900 million for drilling wells, $260 million for pipeline and compression to gather and transport the gas to markets and $40 million for distribution infrastructure projects and other corporate items.
+
+POS tagged sentence: 
+[('EQT&rsquo', 'NN'), (';', ':'), ('s', 'NNS'), ('new', 'JJ'), ('estimate', 'NN'), ('includes', 'VBZ'), ('$', '$'), ('900', 'CD'), ('million', 'CD'), ('for', 'IN'), ('drilling', 'NN'), ('wells', 'NNS'), (',', ','), ('$', '$'), ('260', 'CD'), ('million', 'CD'), ('for', 'IN'), ('pipeline', 'NN'), ('and', 'CC'), ('compression', 'NN'), ('to', 'TO'), ('gather', 'VB'), ('and', 'CC'), ('transport', 'VB'), ('the', 'DT'), ('gas', 'NN'), ('to', 'TO'), ('markets', 'NNS'), ('and', 'CC'), ('$', '$'), ('40', 'CD'), ('million', 'CD'), ('for', 'IN'), ('distribution', 'NN'), ('infrastructure', 'NN'), ('projects', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('corporate', 'JJ'), ('items', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE EQT&rsquo/NN)   ;/:   s/NNS   new/JJ   estimate/NN   includes/VBZ   $/$   900/CD   million/CD   for/IN   drilling/NN   wells/NNS   ,/,   $/$   260/CD   million/CD   for/IN   pipeline/NN   and/CC   compression/NN   to/TO   gather/VB   and/CC   transport/VB   the/DT   gas/NN   to/TO   markets/NNS   and/CC   $/$   40/CD   million/CD   for/IN   distribution/NN   infrastructure/NN   projects/NNS   and/CC   other/JJ   corporate/JJ   items/NNS   ./.)
+----------------------------------
+original sentence: 
+That expense hike has some investors feeling nervous, says Cathy Milostan, an equity analyst for Morningstar.
+
+POS tagged sentence: 
+[('That', 'DT'), ('expense', 'NN'), ('hike', 'NN'), ('has', 'VBZ'), ('some', 'DT'), ('investors', 'NNS'), ('feeling', 'VBG'), ('nervous', 'JJ'), (',', ','), ('says', 'VBZ'), ('Cathy', 'NNP'), ('Milostan', 'NNP'), (',', ','), ('an', 'DT'), ('equity', 'NN'), ('analyst', 'NN'), ('for', 'IN'), ('Morningstar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   expense/NN   hike/NN   has/VBZ   some/DT   investors/NNS   feeling/VBG   nervous/JJ   ,/,   says/VBZ   (PERSON Cathy/NNP Milostan/NNP)   ,/,   an/DT   equity/NN   analyst/NN   for/IN   (ORGANIZATION Morningstar/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;I think they have some good, low cost Appalachian properties to develop, multiple years of drilling sites in Appalachia and they&rsquo;ve just started to expand drilling activity in the Marcellus region.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('I', 'PRP'), ('think', 'VBP'), ('they', 'PRP'), ('have', 'VBP'), ('some', 'DT'), ('good', 'JJ'), (',', ','), ('low', 'JJ'), ('cost', 'NN'), ('Appalachian', 'JJ'), ('properties', 'NNS'), ('to', 'TO'), ('develop', 'VB'), (',', ','), ('multiple', 'NN'), ('years', 'NNS'), ('of', 'IN'), ('drilling', 'VBG'), ('sites', 'NNS'), ('in', 'IN'), ('Appalachia', 'NNP'), ('and', 'CC'), ('they&rsquo', 'NNP'), (';', ':'), ('ve', 'VB'), ('just', 'RB'), ('started', 'VBN'), ('to', 'TO'), ('expand', 'VB'), ('drilling', 'NN'), ('activity', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Marcellus', 'NNP'), ('region', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   I/PRP   think/VBP   they/PRP   have/VBP   some/DT   good/JJ   ,/,   low/JJ   cost/NN   (GPE Appalachian/JJ)   properties/NNS   to/TO   develop/VB   ,/,   multiple/NN   years/NNS   of/IN   drilling/VBG   sites/NNS   in/IN   (LOCATION Appalachia/NNP)   and/CC   they&rsquo/NNP   ;/:   ve/VB   just/RB   started/VBN   to/TO   expand/VB   drilling/NN   activity/NN   in/IN   the/DT   (ORGANIZATION Marcellus/NNP)   region/NN   ./.)
+----------------------------------
+original sentence: 
+But the question is: Could those properties be developed successfully?&rdquo;
+ &ldquo;What we need to see as investors is for them to show that they can successfully drill for gas in the shale deposits in the Marcellus,&rdquo; says Milostan.
+
+POS tagged sentence: 
+[('But', 'CC'), ('the', 'DT'), ('question', 'NN'), ('is', 'VBZ'), (':', ':'), ('Could', 'MD'), ('those', 'VB'), ('properties', 'NNS'), ('be', 'VB'), ('developed', 'VBN'), ('successfully', 'RB'), ('?', '.'), ('&rdquo', '-NONE-'), (';', ':'), ('&ldquo', 'NNP'), (';', ':'), ('What', 'WP'), ('we', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('see', 'VB'), ('as', 'IN'), ('investors', 'NNS'), ('is', 'VBZ'), ('for', 'IN'), ('them', 'PRP'), ('to', 'TO'), ('show', 'VB'), ('that', 'IN'), ('they', 'PRP'), ('can', 'MD'), ('successfully', 'RB'), ('drill', 'VB'), ('for', 'IN'), ('gas', 'NN'), ('in', 'IN'), ('the', 'DT'), ('shale', 'NN'), ('deposits', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Marcellus,&rdquo', 'NNP'), (';', ':'), ('says', 'VBZ'), ('Milostan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   the/DT   question/NN   is/VBZ   :/:   Could/MD   those/VB   properties/NNS   be/VB   developed/VBN   successfully/RB   ?/.   &rdquo/-NONE-   ;/:   &ldquo/NNP   ;/:   What/WP   we/PRP   need/VBP   to/TO   see/VB   as/IN   investors/NNS   is/VBZ   for/IN   them/PRP   to/TO   show/VB   that/IN   they/PRP   can/MD   successfully/RB   drill/VB   for/IN   gas/NN   in/IN   the/DT   shale/NN   deposits/NNS   in/IN   the/DT   Marcellus,&rdquo/NNP   ;/:   says/VBZ   (PERSON Milostan/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;They would need to test wells in the new acreage and drill successfully with a sufficient gas production rate that would be economic and give evidence that it would be worth their while to increase drilling in that area.&rdquo;
+Broker Talk: Looking Beyond Goldman
+The Virtues of Slow and Sturdy
+Greece Extends Its Hand for a Bailout
+ Find More Articles About:
+ Follow SmartMoney on  & More: Trackback URL for this story:
+http://www.smartmoney.com/tb/Jdir8NY.3D
+What is a Trackback?
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('They', 'PRP'), ('would', 'MD'), ('need', 'VB'), ('to', 'TO'), ('test', 'NN'), ('wells', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('acreage', 'NN'), ('and', 'CC'), ('drill', 'NN'), ('successfully', 'RB'), ('with', 'IN'), ('a', 'DT'), ('sufficient', 'NN'), ('gas', 'NN'), ('production', 'NN'), ('rate', 'NN'), ('that', 'IN'), ('would', 'MD'), ('be', 'VB'), ('economic', 'JJ'), ('and', 'CC'), ('give', 'JJ'), ('evidence', 'NN'), ('that', 'IN'), ('it', 'PRP'), ('would', 'MD'), ('be', 'VB'), ('worth', 'JJ'), ('their', 'PRP$'), ('while', 'IN'), ('to', 'TO'), ('increase', 'VB'), ('drilling', 'NN'), ('in', 'IN'), ('that', 'DT'), ('area.&rdquo', 'JJ'), (';', ':'), ('Broker', 'NNP'), ('Talk', 'NNP'), (':', ':'), ('Looking', 'NNP'), ('Beyond', 'NNP'), ('Goldman', 'NNP'), ('The', 'NNP'), ('Virtues', 'NNP'), ('of', 'IN'), ('Slow', 'NNP'), ('and', 'CC'), ('Sturdy', 'NNP'), ('Greece', 'NNP'), ('Extends', 'NNPS'), ('Its', 'NNP'), ('Hand', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('Bailout', 'NNP'), ('Find', 'NNP'), ('More', 'NNP'), ('Articles', 'NNP'), ('About', 'NNP'), (':', ':'), ('Follow', 'NNP'), ('SmartMoney', 'NNP'), ('on', 'IN'), ('&', 'CC'), ('More', 'NNP'), (':', ':'), ('Trackback', 'NNP'), ('URL', 'NNP'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.smartmoney.com/tb/Jdir8NY.3D', 'JJ'), ('What', 'WP'), ('is', 'VBZ'), ('a', 'DT'), ('Trackback', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   They/PRP   would/MD   need/VB   to/TO   test/NN   wells/NNS   in/IN   the/DT   new/JJ   acreage/NN   and/CC   drill/NN   successfully/RB   with/IN   a/DT   sufficient/NN   gas/NN   production/NN   rate/NN   that/IN   would/MD   be/VB   economic/JJ   and/CC   give/JJ   evidence/NN   that/IN   it/PRP   would/MD   be/VB   worth/JJ   their/PRP$   while/IN   to/TO   increase/VB   drilling/NN   in/IN   that/DT   area.&rdquo/JJ   ;/:   (PERSON Broker/NNP Talk/NNP)   :/:   Looking/NNP   Beyond/NNP   Goldman/NNP   The/NNP   (ORGANIZATION Virtues/NNP)   of/IN   (GPE Slow/NNP)   and/CC   (PERSON Sturdy/NNP Greece/NNP Extends/NNPS Its/NNP Hand/NNP)   for/IN   a/DT   (ORGANIZATION Bailout/NNP Find/NNP More/NNP Articles/NNP)   About/NNP   :/:   (PERSON Follow/NNP SmartMoney/NNP)   on/IN   &/CC   More/NNP   :/:   Trackback/NNP   URL/NNP   for/IN   this/DT   story/NN   :/:   http/NN   :/:   //www.smartmoney.com/tb/Jdir8NY.3D/JJ   What/WP   is/VBZ   a/DT   Trackback/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB need/VB to/TO test/NN wells/NNS in/IN the/DT new/JJ acreage/NN)
+	(VERB be/VB economic/JJ)
+	(VERB be/VB worth/JJ their/PRP$ while/IN)
+	(VERB increase/VB drilling/NN in/IN that/DT area.&rdquo/JJ)
+	(VERB is/VBZ a/DT Trackback/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN drill/NN)
+	(NOUN sufficient/NN gas/NN production/NN rate/NN)
+	(NOUN give/JJ evidence/NN)
+	(NOUN Broker/NNP Talk/NNP)
+	(NOUN Looking/NNP Beyond/NNP Goldman/NNP The/NNP)
+	(NOUN Virtues/NNP)
+	(NOUN Slow/NNP)
+	(NOUN Sturdy/NNP Greece/NNP Extends/NNPS Its/NNP)
+	(NOUN Hand/NNP)
+	(NOUN Bailout/NNP Find/NNP More/NNP Articles/NNP)
+	(NOUN About/NNP)
+	(NOUN Follow/NNP SmartMoney/NNP)
+	(NOUN More/NNP)
+	(NOUN Trackback/NNP URL/NNP)
+	(NOUN story/NN)
+	(NOUN http/NN)
+	(NOUN //www.smartmoney.com/tb/Jdir8NY.3D/JJ)
+
+----------------------------------
+original sentence: 
+It is a way to tell us that you have published something that references this story.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('a', 'DT'), ('way', 'NN'), ('to', 'TO'), ('tell', 'VB'), ('us', 'PRP'), ('that', 'IN'), ('you', 'PRP'), ('have', 'VBP'), ('published', 'VBN'), ('something', 'NN'), ('that', 'IN'), ('references', 'NNS'), ('this', 'DT'), ('story', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   a/DT   way/NN   to/TO   tell/VB   us/PRP   that/IN   you/PRP   have/VBP   published/VBN   something/NN   that/IN   references/NNS   this/DT   story/NN   ./.)
+----------------------------------
+original sentence: 
+How do I send a Trackback?
+
+POS tagged sentence: 
+[('How', 'WRB'), ('do', 'VBP'), ('I', 'PRP'), ('send', 'VBP'), ('a', 'DT'), ('Trackback', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S How/WRB do/VBP I/PRP send/VBP a/DT Trackback/NNP ?/.)
+----------------------------------
+original sentence: 
+If you blog or mention this story on your website, you can use this Trackback URL to notify us about it.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('blog', 'VBP'), ('or', 'CC'), ('mention', 'NN'), ('this', 'DT'), ('story', 'NN'), ('on', 'IN'), ('your', 'PRP$'), ('website', 'NN'), (',', ','), ('you', 'PRP'), ('can', 'MD'), ('use', 'VB'), ('this', 'DT'), ('Trackback', 'NNP'), ('URL', 'NNP'), ('to', 'TO'), ('notify', 'VB'), ('us', 'PRP'), ('about', 'IN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   blog/VBP   or/CC   mention/NN   this/DT   story/NN   on/IN   your/PRP$   website/NN   ,/,   you/PRP   can/MD   use/VB   this/DT   Trackback/NNP   URL/NNP   to/TO   notify/VB   us/PRP   about/IN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Some blogging software programs can help in sending a Trackback to us.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('blogging', 'VBG'), ('software', 'NN'), ('programs', 'NNS'), ('can', 'MD'), ('help', 'VB'), ('in', 'IN'), ('sending', 'NN'), ('a', 'DT'), ('Trackback', 'NNP'), ('to', 'TO'), ('us', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   blogging/VBG   software/NN   programs/NNS   can/MD   help/VB   in/IN   sending/NN   a/DT   Trackback/NNP   to/TO   us/PRP   ./.)
+----------------------------------
+original sentence: 
+to read more about Trackbacks.
+
+POS tagged sentence: 
+[('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('Trackbacks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S to/TO read/VB more/JJR about/IN (ORGANIZATION Trackbacks/NNS) ./.)
+----------------------------------
+original sentence: 
+The first rule of investing?
+
+POS tagged sentence: 
+[('The', 'DT'), ('first', 'JJ'), ('rule', 'NN'), ('of', 'IN'), ('investing', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S The/DT first/JJ rule/NN of/IN investing/NN ?/.)
+----------------------------------
+original sentence: 
+Investors rule.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('rule', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Investors/NNS rule/VBP ./.)
+----------------------------------
+original sentence: 
+Get the help and straightforward pricing investors deserve at Schwab.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('help', 'NN'), ('and', 'CC'), ('straightforward', 'VB'), ('pricing', 'NN'), ('investors', 'NNS'), ('deserve', 'VBP'), ('at', 'IN'), ('Schwab', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   help/NN   and/CC   straightforward/VB   pricing/NN   investors/NNS   deserve/VBP   at/IN   (ORGANIZATION Schwab/NNP)   ./.)
+----------------------------------
+original sentence: 
+Offer employees Aflac and improve your benefits package at no direct cost.
+
+POS tagged sentence: 
+[('Offer', 'NNP'), ('employees', 'NNS'), ('Aflac', 'NNP'), ('and', 'CC'), ('improve', 'VB'), ('your', 'PRP$'), ('benefits', 'NNS'), ('package', 'NN'), ('at', 'IN'), ('no', 'DT'), ('direct', 'JJ'), ('cost', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Offer/NNP)   employees/NNS   (PERSON Aflac/NNP)   and/CC   improve/VB   your/PRP$   benefits/NNS   package/NN   at/IN   no/DT   direct/JJ   cost/NN   ./.)
+----------------------------------
+original sentence: 
+Ally Bank competitive rates to help you save more.
+
+POS tagged sentence: 
+[('Ally', 'RB'), ('Bank', 'NNP'), ('competitive', 'JJ'), ('rates', 'NNS'), ('to', 'TO'), ('help', 'VB'), ('you', 'PRP'), ('save', 'VB'), ('more', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Ally/RB   (ORGANIZATION Bank/NNP)   competitive/JJ   rates/NNS   to/TO   help/VB   you/PRP   save/VB   more/JJR   ./.)
+----------------------------------
+original sentence: 
+FDIC insured.
+
+POS tagged sentence: 
+[('FDIC', 'NNP'), ('insured', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION FDIC/NNP) insured/VBD ./.)
+----------------------------------
+original sentence: 
+Economy Survey Corp International Country Reports
+Learn how AXA can help your retirement income keep pace with changing interest rates.
+
+POS tagged sentence: 
+[('Economy', 'NNP'), ('Survey', 'NNP'), ('Corp', 'NNP'), ('International', 'NNP'), ('Country', 'NNP'), ('Reports', 'NNPS'), ('Learn', 'NNP'), ('how', 'WRB'), ('AXA', 'NNP'), ('can', 'MD'), ('help', 'VB'), ('your', 'PRP$'), ('retirement', 'NN'), ('income', 'NN'), ('keep', 'VB'), ('pace', 'NN'), ('with', 'IN'), ('changing', 'VBG'), ('interest', 'NN'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Economy/NNP)   Survey/NNP   (ORGANIZATION     Corp/NNP     International/NNP     Country/NNP     Reports/NNPS     Learn/NNP)   how/WRB   (ORGANIZATION AXA/NNP)   can/MD   help/VB   your/PRP$   retirement/NN   income/NN   keep/VB   pace/NN   with/IN   changing/VBG   interest/NN   rates/NNS   ./.)
+----------------------------------
+original sentence: 
+MFSÂ®.
+
+POS tagged sentence: 
+[('MFS', 'NNS'), ('\xc2', 'VBP'), ('\xae', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S MFS/NNS Â/VBP ®/: ./.)
+----------------------------------
+original sentence: 
+A broad range of funds for advisors and their clients.
+
+POS tagged sentence: 
+[('A', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('funds', 'NNS'), ('for', 'IN'), ('advisors', 'NNS'), ('and', 'CC'), ('their', 'PRP$'), ('clients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   broad/JJ   range/NN   of/IN   funds/NNS   for/IN   advisors/NNS   and/CC   their/PRP$   clients/NNS   ./.)
+----------------------------------
+original sentence: 
+Since 1924.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('1924', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Since/IN 1924/CD ./.)
+----------------------------------
+original sentence: 
+SmartMoney Magazine A smart investment.
+
+POS tagged sentence: 
+[('SmartMoney', 'NN'), ('Magazine', 'NN'), ('A', 'DT'), ('smart', 'NN'), ('investment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmartMoney/NN Magazine/NN)   A/DT   smart/NN   investment/NN   ./.)
+----------------------------------
+original sentence: 
+Subscribe for only $1 an issue.
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('for', 'IN'), ('only', 'RB'), ('$', '$'), ('1', 'CD'), ('an', 'DT'), ('issue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Subscribe/NNP) for/IN only/RB $/$ 1/CD an/DT issue/NN ./.)
+----------------------------------
+original sentence: 
+MetLife Variable Annuities can provide income for life.
+
+POS tagged sentence: 
+[('MetLife', 'NNP'), ('Variable', 'NNP'), ('Annuities', 'NNPS'), ('can', 'MD'), ('provide', 'VB'), ('income', 'NN'), ('for', 'IN'), ('life', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MetLife/NNP)   (ORGANIZATION Variable/NNP Annuities/NNPS)   can/MD   provide/VB   income/NN   for/IN   life/NN   ./.)
+----------------------------------
+original sentence: 
+Find out how.
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('out', 'IN'), ('how', 'WRB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Find/NNP) out/IN how/WRB ./.)
+----------------------------------
+original sentence: 
+See how you can save money with Sallie Mae'sÂ® Smart Option Student LoanÂ®
+Trade Options, Stocks and Futures in One Account at optionsXpress
+John Hancock: Find helpful answers to important financial questions
+View all charts for tickers in this story
+ See how the stocks on this page stack up.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('how', 'WRB'), ('you', 'PRP'), ('can', 'MD'), ('save', 'VB'), ('money', 'NN'), ('with', 'IN'), ('Sallie', 'NNP'), ('Mae', 'NNP'), ("'s", 'POS'), ('\xc2', 'NNP'), ('\xae', 'NNP'), ('Smart', 'NNP'), ('Option', 'NNP'), ('Student', 'NNP'), ('Loan', 'NNP'), ('\xc2', 'NNP'), ('\xae', 'NNP'), ('Trade', 'NNP'), ('Options', 'NNPS'), (',', ','), ('Stocks', 'NNP'), ('and', 'CC'), ('Futures', 'NNP'), ('in', 'IN'), ('One', 'CD'), ('Account', 'NNP'), ('at', 'IN'), ('optionsXpress', 'NNP'), ('John', 'NNP'), ('Hancock', 'NNP'), (':', ':'), ('Find', 'NNP'), ('helpful', 'JJ'), ('answers', 'NNS'), ('to', 'TO'), ('important', 'JJ'), ('financial', 'JJ'), ('questions', 'NNS'), ('View', 'NNP'), ('all', 'DT'), ('charts', 'NNS'), ('for', 'IN'), ('tickers', 'NNS'), ('in', 'IN'), ('this', 'DT'), ('story', 'NN'), ('See', 'NNP'), ('how', 'WRB'), ('the', 'DT'), ('stocks', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('page', 'NN'), ('stack', 'NN'), ('up', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE See/NNP)   how/WRB   you/PRP   can/MD   save/VB   money/NN   with/IN   (PERSON Sallie/NNP Mae/NNP)   's/POS   Â/NNP   ®/NNP   (PERSON Smart/NNP Option/NNP Student/NNP Loan/NNP)   Â/NNP   ®/NNP   Trade/NNP   Options/NNPS   ,/,   (PERSON Stocks/NNP)   and/CC   (PERSON Futures/NNP)   in/IN   One/CD   Account/NNP   at/IN   (ORGANIZATION optionsXpress/NNP)   (PERSON John/NNP Hancock/NNP)   :/:   Find/NNP   helpful/JJ   answers/NNS   to/TO   important/JJ   financial/JJ   questions/NNS   View/NNP   all/DT   charts/NNS   for/IN   tickers/NNS   in/IN   this/DT   story/NN   See/NNP   how/WRB   the/DT   stocks/NNS   on/IN   this/DT   page/NN   stack/NN   up/IN   ./.)
+----------------------------------
+original sentence: 
+More on DailyFinance >
+
+
+POS tagged sentence: 
+[('More', 'JJR'), ('on', 'IN'), ('DailyFinance', 'NNP'), ('>', 'NNP')]
+
+
+ERTAGGED sentence: (S More/JJR on/IN (ORGANIZATION DailyFinance/NNP) >/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

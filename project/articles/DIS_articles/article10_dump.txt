@@ -1,0 +1,501 @@
+
+----------------------------------
+original sentence: 
+The Disney Channel is Nearly 7% of Disney&#8217;s Stock &laquo; Note of the Day
+&laquo; Back to &#8220;Note of the Day &mdash; A Collection of Ideas&#8221;
+The Disney Channel is Nearly 7% of Disney&#8217;s Stock
+The Disney Channel, owned by  NYSE:DIS , carries programming targeted at children and constitutes nearly 7% of our $37 Trefis price estimate for Disney&#8217;s stock
+.Â  In comparison, Disney owned ESPN constitutes about 32% of the company&#8217;s value while channels like ABC Family and Lifetime each represent about 3% of the stock.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('is', 'VBZ'), ('Nearly', 'NNP'), ('7', 'CD'), ('%', 'NN'), ('of', 'IN'), ('Disney&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Stock', 'NNP'), ('&laquo', 'NNP'), (';', ':'), ('Note', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Day', 'NNP'), ('&laquo', 'NNP'), (';', ':'), ('Back', 'NNP'), ('to', 'TO'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Note', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Day', 'NNP'), ('&mdash', 'NNP'), (';', ':'), ('A', 'DT'), ('Collection', 'NNP'), ('of', 'IN'), ('Ideas&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('The', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('is', 'VBZ'), ('Nearly', 'NNP'), ('7', 'CD'), ('%', 'NN'), ('of', 'IN'), ('Disney&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Stock', 'NNP'), ('The', 'NNP'), ('Disney', 'NNP'), ('Channel', 'NNP'), (',', ','), ('owned', 'VBN'), ('by', 'IN'), ('NYSE', 'NNP'), (':', ':'), ('DIS', 'NNP'), (',', ','), ('carries', 'VBZ'), ('programming', 'NN'), ('targeted', 'VBN'), ('at', 'IN'), ('children', 'NNS'), ('and', 'CC'), ('constitutes', 'NNS'), ('nearly', 'RB'), ('7', 'CD'), ('%', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('$', '$'), ('37', 'CD'), ('Trefis', 'NNP'), ('price', 'NN'), ('estimate', 'NN'), ('for', 'IN'), ('Disney&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('stock', 'NN'), ('.', '.'), ('\xc2', 'NN'), ('\xa0', ':'), ('In', 'NNP'), ('comparison', 'NN'), (',', ','), ('Disney', 'NNP'), ('owned', 'VBD'), ('ESPN', 'NNP'), ('constitutes', 'NNS'), ('about', 'IN'), ('32', 'CD'), ('%', 'NN'), ('of', 'IN'), ('the', 'DT'), ('company&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('value', 'VBP'), ('while', 'IN'), ('channels', 'NNS'), ('like', 'IN'), ('ABC', 'NNP'), ('Family', 'NNP'), ('and', 'CC'), ('Lifetime', 'NNP'), ('each', 'DT'), ('represent', 'NN'), ('about', 'IN'), ('3', 'CD'), ('%', 'NN'), ('of', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   is/VBZ   Nearly/NNP   7/CD   %/NN   of/IN   Disney&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Stock/NNP &laquo/NNP)   ;/:   Note/NNP   of/IN   the/DT   Day/NNP   &laquo/NNP   ;/:   Back/NNP   to/TO   &/CC   #/#   8220/CD   ;/:   Note/NNP   of/IN   the/DT   Day/NNP   &mdash/NNP   ;/:   A/DT   Collection/NNP   of/IN   Ideas&/NNP   #/#   8221/CD   ;/:   The/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   is/VBZ   Nearly/NNP   7/CD   %/NN   of/IN   Disney&/NNP   #/#   8217/CD   ;/:   s/NNS   Stock/NNP   The/NNP   (ORGANIZATION Disney/NNP Channel/NNP)   ,/,   owned/VBN   by/IN   (ORGANIZATION NYSE/NNP)   :/:   (ORGANIZATION DIS/NNP)   ,/,   carries/VBZ   programming/NN   targeted/VBN   at/IN   children/NNS   and/CC   constitutes/NNS   nearly/RB   7/CD   %/NN   of/IN   our/PRP$   $/$   37/CD   Trefis/NNP   price/NN   estimate/NN   for/IN   Disney&/NN   #/#   8217/CD   ;/:   s/NNS   stock/NN   ./.   Â/NN    /:   In/NNP   comparison/NN   ,/,   (PERSON Disney/NNP)   owned/VBD   (ORGANIZATION ESPN/NNP)   constitutes/NNS   about/IN   32/CD   %/NN   of/IN   the/DT   company&/JJ   #/#   8217/CD   ;/:   s/NNS   value/VBP   while/IN   channels/NNS   like/IN   (ORGANIZATION ABC/NNP Family/NNP)   and/CC   Lifetime/NNP   each/DT   represent/NN   about/IN   3/CD   %/NN   of/IN   the/DT   stock/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ Nearly/NNP 7/CD %/NN of/IN Disney&/NNP)
+	(VERB is/VBZ Nearly/NNP 7/CD %/NN of/IN Disney&/NNP)
+	(VERB owned/VBN by/IN NYSE/NNP)
+	(VERB carries/VBZ programming/NN)
+	(VERB targeted/VBN at/IN children/NNS)
+	(VERB   owned/VBD   ESPN/NNP   constitutes/NNS   about/IN   32/CD   %/NN   of/IN   the/DT   company&/JJ)
+	(VERB value/VBP while/IN channels/NNS like/IN ABC/NNP Family/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN s/NNS Stock/NNP &laquo/NNP)
+	(NOUN Note/NNP)
+	(NOUN Day/NNP &laquo/NNP)
+	(NOUN Back/NNP)
+	(NOUN Note/NNP)
+	(NOUN Day/NNP &mdash/NNP)
+	(NOUN Collection/NNP)
+	(NOUN Ideas&/NNP)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN s/NNS Stock/NNP The/NNP Disney/NNP)
+	(NOUN Channel/NNP)
+	(NOUN DIS/NNP)
+	(NOUN constitutes/NNS)
+	(NOUN %/NN)
+	(NOUN 37/CD Trefis/NNP price/NN estimate/NN)
+	(NOUN Disney&/NN)
+	(NOUN s/NNS stock/NN)
+	(NOUN Â/NN)
+	(NOUN In/NNP comparison/NN)
+	(NOUN Disney/NNP)
+	(NOUN s/NNS)
+	(NOUN Lifetime/NNP)
+	(NOUN represent/NN)
+	(NOUN 3/CD %/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+The Disney Channel airs popular programs, such as  and competes with other children&#8217;s channels like  NYSE:VIA Nickelodeon and  NYSE:TWX Cartoon Network.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('airs', 'NNS'), ('popular', 'JJ'), ('programs', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('and', 'CC'), ('competes', 'NNS'), ('with', 'IN'), ('other', 'JJ'), ('children&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('channels', 'NNS'), ('like', 'IN'), ('NYSE', 'NNP'), (':', ':'), ('VIA', 'NNP'), ('Nickelodeon', 'NNP'), ('and', 'CC'), ('NYSE', 'NNP'), (':', ':'), ('TWX', 'NNP'), ('Cartoon', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   airs/NNS   popular/JJ   programs/NNS   ,/,   such/JJ   as/IN   and/CC   competes/NNS   with/IN   other/JJ   children&/JJ   #/#   8217/CD   ;/:   s/NNS   channels/NNS   like/IN   (ORGANIZATION NYSE/NNP)   :/:   (ORGANIZATION VIA/NNP Nickelodeon/NNP)   and/CC   (ORGANIZATION NYSE/NNP)   :/:   (ORGANIZATION TWX/NNP Cartoon/NNP Network/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN The/DT Disney/NNP Channel/NNP airs/NNS popular/JJ programs/NNS)
+
+tagged sentence:
+	 The Disney Channel airs popular programs	res:1
+	(NOUN such/JJ)
+	(NOUN competes/NNS)
+	(NOUN other/JJ children&/JJ)
+	(NOUN s/NNS channels/NNS)
+	(NOUN NYSE/NNP)
+	(NOUN VIA/NNP Nickelodeon/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN TWX/NNP Cartoon/NNP Network/NNP)
+
+----------------------------------
+original sentence: 
+The Disney Channel is ad free and makes money by charging a subscriber fee to its customers which are the cable companies and satellite companies Comcast, Dish that provide the Disney Channel to their subscribers.Â  Historically,
+ the Disney Channel&#8217;s fee per subscriber
+ per month has risen from about 78 cents in 2005 to about 86 cents in 2009.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('is', 'VBZ'), ('ad', 'NN'), ('free', 'JJ'), ('and', 'CC'), ('makes', 'VBZ'), ('money', 'NN'), ('by', 'IN'), ('charging', 'NN'), ('a', 'DT'), ('subscriber', 'NN'), ('fee', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('customers', 'NNS'), ('which', 'WDT'), ('are', 'VBP'), ('the', 'DT'), ('cable', 'JJ'), ('companies', 'NNS'), ('and', 'CC'), ('satellite', 'JJ'), ('companies', 'NNS'), ('Comcast', 'NNP'), (',', ','), ('Dish', 'NNP'), ('that', 'IN'), ('provide', 'NN'), ('the', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('to', 'TO'), ('their', 'PRP$'), ('subscribers.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Historically', 'NNP'), (',', ','), ('the', 'DT'), ('Disney', 'NNP'), ('Channel&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('fee', 'VBP'), ('per', 'IN'), ('subscriber', 'NN'), ('per', 'IN'), ('month', 'NN'), ('has', 'VBZ'), ('risen', 'VBN'), ('from', 'IN'), ('about', 'IN'), ('78', 'CD'), ('cents', 'NNS'), ('in', 'IN'), ('2005', 'CD'), ('to', 'TO'), ('about', 'IN'), ('86', 'CD'), ('cents', 'NNS'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   is/VBZ   ad/NN   free/JJ   and/CC   makes/VBZ   money/NN   by/IN   charging/NN   a/DT   subscriber/NN   fee/NN   to/TO   its/PRP$   customers/NNS   which/WDT   are/VBP   the/DT   cable/JJ   companies/NNS   and/CC   satellite/JJ   companies/NNS   (ORGANIZATION Comcast/NNP)   ,/,   (GPE Dish/NNP)   that/IN   provide/NN   the/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   to/TO   their/PRP$   subscribers./NNP   Â/NNP    /NNP   Historically/NNP   ,/,   the/DT   (ORGANIZATION Disney/NNP)   Channel&/NNP   #/#   8217/CD   ;/:   s/NNS   fee/VBP   per/IN   subscriber/NN   per/IN   month/NN   has/VBZ   risen/VBN   from/IN   about/IN   78/CD   cents/NNS   in/IN   2005/CD   to/TO   about/IN   86/CD   cents/NNS   in/IN   2009/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ ad/NN free/JJ)
+	(VERB makes/VBZ money/NN by/IN charging/NN a/DT subscriber/NN fee/NN)
+	(VERB are/VBP the/DT cable/JJ companies/NNS)
+	(VERB fee/VBP per/IN subscriber/NN per/IN month/NN)
+	(VERB   has/VBZ   risen/VBN   from/IN   about/IN   78/CD   cents/NNS   in/IN   2005/CD)
+noun phrases to consider:
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN customers/NNS)
+	(NOUN satellite/JJ companies/NNS Comcast/NNP)
+	(NOUN Dish/NNP)
+	(NOUN provide/NN)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN subscribers./NNP Â/NNP  /NNP Historically/NNP)
+	(NOUN Disney/NNP Channel&/NNP)
+	(NOUN s/NNS)
+	(NOUN 86/CD cents/NNS)
+
+----------------------------------
+original sentence: 
+We expect this figure to continue to rise at historical rates and reach close to $1 by the end of our Trefis forecast period.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('expect', 'VBP'), ('this', 'DT'), ('figure', 'NN'), ('to', 'TO'), ('continue', 'VB'), ('to', 'TO'), ('rise', 'VB'), ('at', 'IN'), ('historical', 'JJ'), ('rates', 'NNS'), ('and', 'CC'), ('reach', 'VBP'), ('close', 'JJ'), ('to', 'TO'), ('$', '$'), ('1', 'CD'), ('by', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('Trefis', 'NNP'), ('forecast', 'NN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   expect/VBP   this/DT   figure/NN   to/TO   continue/VB   to/TO   rise/VB   at/IN   historical/JJ   rates/NNS   and/CC   reach/VBP   close/JJ   to/TO   $/$   1/CD   by/IN   the/DT   end/NN   of/IN   our/PRP$   Trefis/NNP   forecast/NN   period/NN   ./.)
+----------------------------------
+original sentence: 
+We expect the Disney Channelâ€™s fee per subscriber to trend based on the following factors:
+1 High demand for Disney channel
+The Disney Channel has household penetration
+ of more than 96% in the US and caters to the audience in the age group of 6 11 years.Â  The popularity of the channel among children helps Disney maintain pricing growth and charge a premium over competitors like Viacom&#8217;s Nickelodeon and Time Warner&#8217;s Cartoon Network.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('expect', 'VBP'), ('the', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('fee', 'NN'), ('per', 'IN'), ('subscriber', 'NN'), ('to', 'TO'), ('trend', 'VB'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('following', 'JJ'), ('factors', 'NNS'), (':', ':'), ('1', 'LS'), ('High', 'JJ'), ('demand', 'NN'), ('for', 'IN'), ('Disney', 'NNP'), ('channel', 'NN'), ('The', 'DT'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('has', 'VBZ'), ('household', 'VBN'), ('penetration', 'NN'), ('of', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('96', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('US', 'NNP'), ('and', 'CC'), ('caters', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('audience', 'NN'), ('in', 'IN'), ('the', 'DT'), ('age', 'NN'), ('group', 'NN'), ('of', 'IN'), ('6', 'CD'), ('11', 'CD'), ('years.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('popularity', 'NN'), ('of', 'IN'), ('the', 'DT'), ('channel', 'NN'), ('among', 'IN'), ('children', 'NNS'), ('helps', 'NNS'), ('Disney', 'NNP'), ('maintain', 'NN'), ('pricing', 'NN'), ('growth', 'NN'), ('and', 'CC'), ('charge', 'VB'), ('a', 'DT'), ('premium', 'NN'), ('over', 'IN'), ('competitors', 'NNS'), ('like', 'IN'), ('Viacom&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Nickelodeon', 'NNP'), ('and', 'CC'), ('Time', 'NNP'), ('Warner&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Cartoon', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   expect/VBP   the/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   â/NNP   €/NNP   ™/NNP   s/VBZ   fee/NN   per/IN   subscriber/NN   to/TO   trend/VB   based/VBN   on/IN   the/DT   following/JJ   factors/NNS   :/:   1/LS   High/JJ   demand/NN   for/IN   (ORGANIZATION Disney/NNP)   channel/NN   The/DT   (ORGANIZATION Disney/NNP)   Channel/NNP   has/VBZ   household/VBN   penetration/NN   of/IN   more/JJR   than/IN   96/CD   %/NN   in/IN   the/DT   (ORGANIZATION US/NNP)   and/CC   caters/NNS   to/TO   the/DT   audience/NN   in/IN   the/DT   age/NN   group/NN   of/IN   6/CD   11/CD   years./NNP   Â/NNP    /NNP   The/NNP   popularity/NN   of/IN   the/DT   channel/NN   among/IN   children/NNS   helps/NNS   (ORGANIZATION Disney/NNP)   maintain/NN   pricing/NN   growth/NN   and/CC   charge/VB   a/DT   premium/NN   over/IN   competitors/NNS   like/IN   Viacom&/NN   #/#   8217/CD   ;/:   s/NNS   (PERSON Nickelodeon/NNP)   and/CC   (PERSON Time/NNP)   Warner&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Cartoon/NNP Network/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expect/VBP the/DT Disney/NNP Channel/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ fee/NN per/IN subscriber/NN)
+	(VERB trend/VB based/VBN on/IN the/DT following/JJ factors/NNS)
+	(VERB   has/VBZ   household/VBN   penetration/NN   of/IN   more/JJR   than/IN   96/CD   %/NN   in/IN   the/DT   US/NNP)
+	(VERB   charge/VB   a/DT   premium/NN   over/IN   competitors/NNS   like/IN   Viacom&/NN)
+noun phrases to consider:
+	(NOUN High/JJ demand/NN)
+
+tagged sentence:
+	 High demand	res:1
+	(NOUN Disney/NNP channel/NN)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN caters/NNS)
+	(NOUN audience/NN)
+	(NOUN age/NN group/NN)
+	(NOUN 11/CD years./NNP Â/NNP  /NNP The/NNP)
+	(NOUN popularity/NN)
+	(NOUN channel/NN)
+	(NOUN children/NNS helps/NNS Disney/NNP maintain/NN)
+	(NOUN pricing/NN growth/NN)
+	(NOUN s/NNS Nickelodeon/NNP)
+	(NOUN Time/NNP Warner&/NNP)
+	(NOUN s/NNS Cartoon/NNP Network/NNP)
+
+----------------------------------
+original sentence: 
+2 Ad free quality content reduces unfavorable exposure of kids to offensive commercials
+With complete ad free content and popular shows like , kids are exposed to content that can be better monitored by parents.Â  This creates demand and confidence among parents who are concerned about the influence of advertising on children.
+
+POS tagged sentence: 
+[('2', 'LS'), ('Ad', 'NNP'), ('free', 'JJ'), ('quality', 'NN'), ('content', 'NN'), ('reduces', 'NNS'), ('unfavorable', 'JJ'), ('exposure', 'NN'), ('of', 'IN'), ('kids', 'NNS'), ('to', 'TO'), ('offensive', 'VB'), ('commercials', 'NNS'), ('With', 'IN'), ('complete', 'JJ'), ('ad', 'NN'), ('free', 'JJ'), ('content', 'NN'), ('and', 'CC'), ('popular', 'JJ'), ('shows', 'NNS'), ('like', 'IN'), (',', ','), ('kids', 'NNS'), ('are', 'VBP'), ('exposed', 'VBN'), ('to', 'TO'), ('content', 'NN'), ('that', 'IN'), ('can', 'MD'), ('be', 'VB'), ('better', 'JJR'), ('monitored', 'VBN'), ('by', 'IN'), ('parents.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('This', 'NNP'), ('creates', 'VBZ'), ('demand', 'NN'), ('and', 'CC'), ('confidence', 'NN'), ('among', 'IN'), ('parents', 'NNS'), ('who', 'WP'), ('are', 'VBP'), ('concerned', 'VBN'), ('about', 'IN'), ('the', 'DT'), ('influence', 'NN'), ('of', 'IN'), ('advertising', 'NN'), ('on', 'IN'), ('children', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   2/LS   Ad/NNP   free/JJ   quality/NN   content/NN   reduces/NNS   unfavorable/JJ   exposure/NN   of/IN   kids/NNS   to/TO   offensive/VB   commercials/NNS   With/IN   complete/JJ   ad/NN   free/JJ   content/NN   and/CC   popular/JJ   shows/NNS   like/IN   ,/,   kids/NNS   are/VBP   exposed/VBN   to/TO   content/NN   that/IN   can/MD   be/VB   better/JJR   monitored/VBN   by/IN   (ORGANIZATION parents./NNP)   Â/NNP    /NNP   This/NNP   creates/VBZ   demand/NN   and/CC   confidence/NN   among/IN   parents/NNS   who/WP   are/VBP   concerned/VBN   about/IN   the/DT   influence/NN   of/IN   advertising/NN   on/IN   children/NNS   ./.)
+----------------------------------
+original sentence: 
+The Disney Channel&#8217;s fee is much higher when compared to its direct competitors.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Channel&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('fee', 'VBP'), ('is', 'VBZ'), ('much', 'RB'), ('higher', 'JJR'), ('when', 'WRB'), ('compared', 'VBN'), ('to', 'TO'), ('its', 'PRP$'), ('direct', 'JJ'), ('competitors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP)   Channel&/NNP   #/#   8217/CD   ;/:   s/NNS   fee/VBP   is/VBZ   much/RB   higher/JJR   when/WRB   compared/VBN   to/TO   its/PRP$   direct/JJ   competitors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fee/VBP is/VBZ much/RB higher/JJR)
+	(VERB compared/VBN to/TO its/PRP$ direct/JJ competitors/NNS)
+noun phrases to consider:
+	(NOUN Disney/NNP Channel&/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Disney&#8217;s fee of about 86 cents is twice that of Nickelodeonâ€™s 44 cents
+ and about five times that of Cartoon Networkâ€™s 17 cents
+.Â  However, unlike Disney, its competitors also make money from advertising, and hence are able to lower their subscriber fee.
+
+POS tagged sentence: 
+[('Disney&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('fee', 'VBP'), ('of', 'IN'), ('about', 'IN'), ('86', 'CD'), ('cents', 'NNS'), ('is', 'VBZ'), ('twice', 'NN'), ('that', 'IN'), ('of', 'IN'), ('Nickelodeon', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('44', 'CD'), ('cents', 'NNS'), ('and', 'CC'), ('about', 'IN'), ('five', 'CD'), ('times', 'NNS'), ('that', 'WDT'), ('of', 'IN'), ('Cartoon', 'NNP'), ('Network', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('17', 'CD'), ('cents', 'NNS'), ('.', '.'), ('\xc2', 'NN'), ('\xa0', ':'), ('However', 'RB'), (',', ','), ('unlike', 'IN'), ('Disney', 'NNP'), (',', ','), ('its', 'PRP$'), ('competitors', 'NNS'), ('also', 'RB'), ('make', 'VBP'), ('money', 'NN'), ('from', 'IN'), ('advertising', 'NN'), (',', ','), ('and', 'CC'), ('hence', 'NN'), ('are', 'VBP'), ('able', 'JJ'), ('to', 'TO'), ('lower', 'JJR'), ('their', 'PRP$'), ('subscriber', 'NN'), ('fee', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Disney&/NN   #/#   8217/CD   ;/:   s/NNS   fee/VBP   of/IN   about/IN   86/CD   cents/NNS   is/VBZ   twice/NN   that/IN   of/IN   (PERSON Nickelodeon/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   44/CD   cents/NNS   and/CC   about/IN   five/CD   times/NNS   that/WDT   of/IN   (PERSON Cartoon/NNP Network/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   17/CD   cents/NNS   ./.   Â/NN    /:   However/RB   ,/,   unlike/IN   (GPE Disney/NNP)   ,/,   its/PRP$   competitors/NNS   also/RB   make/VBP   money/NN   from/IN   advertising/NN   ,/,   and/CC   hence/NN   are/VBP   able/JJ   to/TO   lower/JJR   their/PRP$   subscriber/NN   fee/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fee/VBP of/IN about/IN 86/CD cents/NNS)
+	(VERB   is/VBZ   twice/NN   that/IN   of/IN   Nickelodeon/NNP   â/NNP   €/NNP   ™/NNP)
+	(VERB s/VBZ 44/CD cents/NNS)
+	(VERB s/VBZ 17/CD cents/NNS)
+	(VERB make/VBP money/NN from/IN advertising/NN)
+	(VERB are/VBP able/JJ)
+
+tagged sentence:
+	 are able	res:1
+noun phrases to consider:
+	(NOUN Disney&/NN)
+	(NOUN s/NNS)
+	(NOUN five/CD times/NNS)
+	(NOUN Cartoon/NNP Network/NNP â/NNP €/NNP)
+	(NOUN ™/NNP)
+	(NOUN Â/NN)
+	(NOUN Disney/NNP)
+	(NOUN competitors/NNS)
+	(NOUN hence/NN)
+	(NOUN lower/JJR)
+
+tagged sentence:
+	 lower	res:-1
+	(NOUN subscriber/NN fee/NN)
+
+----------------------------------
+original sentence: 
+We believe that that with its strategy of quality content and no ads, Disney will continue to command a premium and sustain a 2% growth in subscriber fee.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('believe', 'VBP'), ('that', 'IN'), ('that', 'IN'), ('with', 'IN'), ('its', 'PRP$'), ('strategy', 'NN'), ('of', 'IN'), ('quality', 'NN'), ('content', 'NN'), ('and', 'CC'), ('no', 'DT'), ('ads', 'NNS'), (',', ','), ('Disney', 'NNP'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('command', 'VB'), ('a', 'DT'), ('premium', 'NN'), ('and', 'CC'), ('sustain', 'NN'), ('a', 'DT'), ('2', 'CD'), ('%', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('subscriber', 'NN'), ('fee', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   believe/VBP   that/IN   that/IN   with/IN   its/PRP$   strategy/NN   of/IN   quality/NN   content/NN   and/CC   no/DT   ads/NNS   ,/,   (PERSON Disney/NNP)   will/MD   continue/VB   to/TO   command/VB   a/DT   premium/NN   and/CC   sustain/NN   a/DT   2/CD   %/NN   growth/NN   in/IN   subscriber/NN   fee/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   believe/VBP   that/IN   that/IN   with/IN   its/PRP$   strategy/NN   of/IN   quality/NN   content/NN)
+	(VERB continue/VB to/TO command/VB a/DT premium/NN)
+noun phrases to consider:
+	(NOUN ads/NNS)
+	(NOUN Disney/NNP)
+	(NOUN sustain/NN)
+	(NOUN 2/CD %/NN growth/NN)
+	(NOUN subscriber/NN fee/NN)
+
+----------------------------------
+original sentence: 
+For additional analysis and forecasts, here is our complete model for Disney&#8217;s stock
+Time Warner&#8217;s Stock Depends on Modest Subscriber Fee Growth for TNT Channel
+Nickelodeon or MTV &#8211; which TV Channel is worth more to Viacom?
+
+POS tagged sentence: 
+[('For', 'IN'), ('additional', 'JJ'), ('analysis', 'NN'), ('and', 'CC'), ('forecasts', 'NNS'), (',', ','), ('here', 'RB'), ('is', 'VBZ'), ('our', 'PRP$'), ('complete', 'JJ'), ('model', 'NN'), ('for', 'IN'), ('Disney&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('stock', 'NN'), ('Time', 'NNP'), ('Warner&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Stock', 'NNP'), ('Depends', 'NNP'), ('on', 'IN'), ('Modest', 'NNP'), ('Subscriber', 'NNP'), ('Fee', 'NNP'), ('Growth', 'NNP'), ('for', 'IN'), ('TNT', 'NNP'), ('Channel', 'NNP'), ('Nickelodeon', 'NNP'), ('or', 'CC'), ('MTV', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('which', 'WDT'), ('TV', 'NN'), ('Channel', 'NNP'), ('is', 'VBZ'), ('worth', 'JJ'), ('more', 'RBR'), ('to', 'TO'), ('Viacom', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   additional/JJ   analysis/NN   and/CC   forecasts/NNS   ,/,   here/RB   is/VBZ   our/PRP$   complete/JJ   model/NN   for/IN   Disney&/NN   #/#   8217/CD   ;/:   s/NNS   stock/NN   (PERSON Time/NNP)   Warner&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Stock/NNP Depends/NNP)   on/IN   (PERSON Modest/NNP Subscriber/NNP Fee/NNP Growth/NNP)   for/IN   (ORGANIZATION TNT/NNP)   Channel/NNP   Nickelodeon/NNP   or/CC   (ORGANIZATION MTV/NNP)   &/CC   #/#   8211/CD   ;/:   which/WDT   TV/NN   (ORGANIZATION Channel/NNP)   is/VBZ   worth/JJ   more/RBR   to/TO   (GPE Viacom/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ our/PRP$ complete/JJ model/NN for/IN Disney&/NN)
+	(VERB is/VBZ worth/JJ)
+noun phrases to consider:
+	(NOUN additional/JJ analysis/NN)
+	(NOUN forecasts/NNS)
+	(NOUN s/NNS stock/NN Time/NNP Warner&/NNP)
+	(NOUN s/NNS Stock/NNP Depends/NNP)
+	(NOUN Modest/NNP Subscriber/NNP Fee/NNP Growth/NNP)
+	(NOUN TNT/NNP Channel/NNP Nickelodeon/NNP)
+	(NOUN MTV/NNP)
+	(NOUN TV/NN Channel/NNP)
+	(NOUN Viacom/NNP)
+
+----------------------------------
+original sentence: 
+Disney&#8217;s ABC TV channel weakened by low margins
+Higher iPad App Pricing Has Little Impact on Apple&#8217;s Stock NASDAQ:AAPL Microsoft, Apple and Google the Three Most Valuable Stocks on Trefis
+Click here to cancel reply.
+
+POS tagged sentence: 
+[('Disney&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ABC', 'NNP'), ('TV', 'NNP'), ('channel', 'NN'), ('weakened', 'VBD'), ('by', 'IN'), ('low', 'JJ'), ('margins', 'NNS'), ('Higher', 'JJR'), ('iPad', 'NNP'), ('App', 'NNP'), ('Pricing', 'NNP'), ('Has', 'NNP'), ('Little', 'NNP'), ('Impact', 'NNP'), ('on', 'IN'), ('Apple&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Stock', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), ('Microsoft', 'NNP'), (',', ','), ('Apple', 'NNP'), ('and', 'CC'), ('Google', 'NNP'), ('the', 'DT'), ('Three', 'NNP'), ('Most', 'NNP'), ('Valuable', 'NNP'), ('Stocks', 'NNP'), ('on', 'IN'), ('Trefis', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Disney&/NN   #/#   8217/CD   ;/:   s/NNS   (ORGANIZATION ABC/NNP)   TV/NNP   channel/NN   weakened/VBD   by/IN   low/JJ   margins/NNS   Higher/JJR   (ORGANIZATION iPad/NNP App/NNP)   Pricing/NNP   Has/NNP   Little/NNP   Impact/NNP   on/IN   Apple&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Stock/NNP NASDAQ/NNP)   :/:   (ORGANIZATION AAPL/NNP Microsoft/NNP)   ,/,   (PERSON Apple/NNP)   and/CC   Google/NNP   the/DT   Three/NNP   Most/NNP   Valuable/NNP   Stocks/NNP   on/IN   (PERSON Trefis/NNP Click/NNP)   here/RB   to/TO   cancel/VB   reply/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   weakened/VBD   by/IN   low/JJ   margins/NNS   Higher/JJR   iPad/NNP   App/NNP   Pricing/NNP   Has/NNP   Little/NNP   Impact/NNP   on/IN   Apple&/NNP)
+	(VERB cancel/VB reply/RB)
+noun phrases to consider:
+	(NOUN Disney&/NN)
+	(NOUN s/NNS ABC/NNP TV/NNP channel/NN)
+	(NOUN s/NNS Stock/NNP NASDAQ/NNP)
+	(NOUN AAPL/NNP Microsoft/NNP)
+	(NOUN Apple/NNP)
+	(NOUN Google/NNP)
+	(NOUN Three/NNP Most/NNP Valuable/NNP Stocks/NNP)
+	(NOUN Trefis/NNP Click/NNP)
+
+----------------------------------
+original sentence: 
+Mail will not be published required  This article was posted on Monday, April 5th, 2010 and is filed under .
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('This', 'DT'), ('article', 'NN'), ('was', 'VBD'), ('posted', 'VBN'), ('on', 'IN'), ('Monday', 'NNP'), (',', ','), ('April', 'NNP'), ('5th', 'CD'), (',', ','), ('2010', 'CD'), ('and', 'CC'), ('is', 'VBZ'), ('filed', 'VBN'), ('under', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   This/DT   article/NN   was/VBD   posted/VBN   on/IN   Monday/NNP   ,/,   April/NNP   5th/CD   ,/,   2010/CD   and/CC   is/VBZ   filed/VBN   under/IN   ./.)
+----------------------------------
+original sentence: 
+You can follow any responses to this entry through the  feed.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('follow', 'VB'), ('any', 'DT'), ('responses', 'NNS'), ('to', 'TO'), ('this', 'DT'), ('entry', 'NN'), ('through', 'IN'), ('the', 'DT'), ('feed', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   follow/VB   any/DT   responses/NNS   to/TO   this/DT   entry/NN   through/IN   the/DT   feed/NN   ./.)
+----------------------------------
+original sentence: 
+You can skip to the end and leave a response.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('skip', 'VB'), ('to', 'TO'), ('the', 'DT'), ('end', 'NN'), ('and', 'CC'), ('leave', 'VB'), ('a', 'DT'), ('response', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   skip/VB   to/TO   the/DT   end/NN   and/CC   leave/VB   a/DT   response/NN   ./.)
+----------------------------------
+original sentence: 
+Pinging is currently not allowed.
+
+POS tagged sentence: 
+[('Pinging', 'VBG'), ('is', 'VBZ'), ('currently', 'RB'), ('not', 'RB'), ('allowed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Pinging/VBG is/VBZ currently/RB not/RB allowed/VBN ./.)
+----------------------------------
+original sentence: 
+Like what you see?
+
+POS tagged sentence: 
+[('Like', 'IN'), ('what', 'WP'), ('you', 'PRP'), ('see', 'VBP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Like/IN what/WP you/PRP see/VBP ?/.)
+----------------------------------
+original sentence: 
+Think something could be improved?
+
+POS tagged sentence: 
+[('Think', 'NNP'), ('something', 'NN'), ('could', 'MD'), ('be', 'VB'), ('improved', 'VBN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S (GPE Think/NNP) something/NN could/MD be/VB improved/VBN ?/.)
+----------------------------------
+original sentence: 
+Send us your feedback!
+
+POS tagged sentence: 
+[('Send', 'NN'), ('us', 'PRP'), ('your', 'PRP$'), ('feedback', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S Send/NN us/PRP your/PRP$ feedback/NN !/.)
+----------------------------------
+original sentence: 
+&copy; 2010 Insight Guru, Inc. |  By using the Site, you agree to be bound by our .
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('Insight', 'NNP'), ('Guru', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('|', 'NNP'), ('By', 'NNP'), ('using', 'NN'), ('the', 'DT'), ('Site', 'NNP'), (',', ','), ('you', 'PRP'), ('agree', 'VBP'), ('to', 'TO'), ('be', 'VB'), ('bound', 'VBN'), ('by', 'IN'), ('our', 'PRP$'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &copy/JJ   ;/:   2010/CD   Insight/NNP   Guru/NNP   ,/,   Inc./NNP   |/NNP   By/NNP   using/NN   the/DT   (FACILITY Site/NNP)   ,/,   you/PRP   agree/VBP   to/TO   be/VB   bound/VBN   by/IN   our/PRP$   ./.)
+----------------------------------
+original sentence: 
+Financial Market Data powered by .
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('Market', 'NN'), ('Data', 'NNP'), ('powered', 'VBD'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Financial/JJ (PERSON Market/NN Data/NNP) powered/VBD by/IN ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+View the Terms of Use
+.
+
+POS tagged sentence: 
+[('View', 'NNP'), ('the', 'DT'), ('Terms', 'NNP'), ('of', 'IN'), ('Use', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   View/NNP   the/DT   (ORGANIZATION Terms/NNP)   of/IN   (ORGANIZATION Use/NNP)   ./.)
+----------------------------------
+original sentence: 
+NYSE/AMEX data delayed 20 minutes.
+
+POS tagged sentence: 
+[('NYSE/AMEX', 'NN'), ('data', 'NNS'), ('delayed', 'VBD'), ('20', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S NYSE/AMEX/NN data/NNS delayed/VBD 20/CD minutes/NNS ./.)
+----------------------------------
+original sentence: 
+NASDAQ and other data delayed 15 minutes unless indicated.
+
+POS tagged sentence: 
+[('NASDAQ', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('data', 'NNS'), ('delayed', 'VBD'), ('15', 'CD'), ('minutes', 'NNS'), ('unless', 'IN'), ('indicated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NASDAQ/NNP)   and/CC   other/JJ   data/NNS   delayed/VBD   15/CD   minutes/NNS   unless/IN   indicated/VBN   ./.)
+----------------------------------
+original sentence: 
+This site requires JavaScript to function properly.
+
+POS tagged sentence: 
+[('This', 'DT'), ('site', 'NN'), ('requires', 'VBZ'), ('JavaScript', 'NNP'), ('to', 'TO'), ('function', 'NN'), ('properly', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   site/NN   requires/VBZ   (ORGANIZATION JavaScript/NNP)   to/TO   function/NN   properly/RB   ./.)
+----------------------------------
+original sentence: 
+For help enabling JavaScript  You can learn more about Trefis Save & View My Profile
+ Add a link to your  stream, or personal / corporate home page.
+
+POS tagged sentence: 
+[('For', 'IN'), ('help', 'NN'), ('enabling', 'VBG'), ('JavaScript', 'NNP'), ('You', 'NNP'), ('can', 'MD'), ('learn', 'VB'), ('more', 'RBR'), ('about', 'IN'), ('Trefis', 'NNP'), ('Save', 'NNP'), ('&', 'CC'), ('View', 'NNP'), ('My', 'NNP'), ('Profile', 'NNP'), ('Add', 'NNP'), ('a', 'DT'), ('link', 'NN'), ('to', 'TO'), ('your', 'PRP$'), ('stream', 'NN'), (',', ','), ('or', 'CC'), ('personal', 'JJ'), ('/', 'NN'), ('corporate', 'JJ'), ('home', 'NN'), ('page', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   help/NN   enabling/VBG   (ORGANIZATION JavaScript/NNP)   You/NNP   can/MD   learn/VB   more/RBR   about/IN   (PERSON Trefis/NNP Save/NNP)   &/CC   (PERSON View/NNP My/NNP)   Profile/NNP   Add/NNP   a/DT   link/NN   to/TO   your/PRP$   stream/NN   ,/,   or/CC   personal/JJ   //NN   corporate/JJ   home/NN   page/NN   ./.)
+----------------------------------
+original sentence: 
+Have a Facebook or Twitter account?
+
+POS tagged sentence: 
+[('Have', 'NNP'), ('a', 'DT'), ('Facebook', 'NNP'), ('or', 'CC'), ('Twitter', 'NNP'), ('account', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Have/NNP a/DT Facebook/NNP or/CC Twitter/NNP account/NN ?/.)
+----------------------------------
+original sentence: 
+Import Profile from Facebook
+Import Profile from Twitter
+ Send me Trefis updates and notes : Email me when other users ask me questions
+Email me when I am followed
+Link to your Facebook & Twitter Accounts
+ Have a Facebook or Twitter account?
+
+POS tagged sentence: 
+[('Import', 'NN'), ('Profile', 'NNP'), ('from', 'IN'), ('Facebook', 'NNP'), ('Import', 'NNP'), ('Profile', 'NNP'), ('from', 'IN'), ('Twitter', 'NNP'), ('Send', 'NNP'), ('me', 'PRP'), ('Trefis', 'NNP'), ('updates', 'VBZ'), ('and', 'CC'), ('notes', 'NNS'), (':', ':'), ('Email', 'NNP'), ('me', 'PRP'), ('when', 'WRB'), ('other', 'JJ'), ('users', 'NNS'), ('ask', 'VBP'), ('me', 'PRP'), ('questions', 'NNS'), ('Email', 'NNP'), ('me', 'PRP'), ('when', 'WRB'), ('I', 'PRP'), ('am', 'VBP'), ('followed', 'VBN'), ('Link', 'NNP'), ('to', 'TO'), ('your', 'PRP$'), ('Facebook', 'NNP'), ('&', 'CC'), ('Twitter', 'NNP'), ('Accounts', 'NNP'), ('Have', 'NNP'), ('a', 'DT'), ('Facebook', 'NNP'), ('or', 'CC'), ('Twitter', 'NNP'), ('account', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Import/NN Profile/NNP)   from/IN   (PERSON Facebook/NNP Import/NNP)   Profile/NNP   from/IN   (PERSON Twitter/NNP Send/NNP)   me/PRP   (PERSON Trefis/NNP)   updates/VBZ   and/CC   notes/NNS   :/:   Email/NNP   me/PRP   when/WRB   other/JJ   users/NNS   ask/VBP   me/PRP   questions/NNS   Email/NNP   me/PRP   when/WRB   I/PRP   am/VBP   followed/VBN   (PERSON Link/NNP)   to/TO   your/PRP$   Facebook/NNP   &/CC   (PERSON Twitter/NNP Accounts/NNP)   Have/NNP   a/DT   Facebook/NNP   or/CC   Twitter/NNP   account/NN   ?/.)
+----------------------------------
+original sentence: 
+Want comments you post on Trefis and your forecast changes to automatically appear there?
+
+POS tagged sentence: 
+[('Want', 'NNP'), ('comments', 'NNS'), ('you', 'PRP'), ('post', 'VBP'), ('on', 'IN'), ('Trefis', 'NNP'), ('and', 'CC'), ('your', 'PRP$'), ('forecast', 'NN'), ('changes', 'NNS'), ('to', 'TO'), ('automatically', 'RB'), ('appear', 'JJ'), ('there', 'EX'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Want/NNP)   comments/NNS   you/PRP   post/VBP   on/IN   (PERSON Trefis/NNP)   and/CC   your/PRP$   forecast/NN   changes/NNS   to/TO   automatically/RB   appear/JJ   there/EX   ?/.)
+----------------------------------
+original sentence: 
+Link your accounts below.
+
+POS tagged sentence: 
+[('Link', 'NNP'), ('your', 'PRP$'), ('accounts', 'NNS'), ('below', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Link/NNP) your/PRP$ accounts/NNS below/IN ./.)
+----------------------------------
+original sentence: 
+Set Up Facebook Link
+Post my comments on my Facebook wall
+Post my model changes on my Facebook wall
+Unlink from Facebook
+ Tweet my model changes  Unlink from Twitter  Unlink will open a window to the twitter website where you can revoke our access.
+
+POS tagged sentence: 
+[('Set', 'NNP'), ('Up', 'NNP'), ('Facebook', 'NNP'), ('Link', 'NNP'), ('Post', 'NNP'), ('my', 'PRP$'), ('comments', 'NNS'), ('on', 'IN'), ('my', 'PRP$'), ('Facebook', 'NNP'), ('wall', 'NN'), ('Post', 'NNP'), ('my', 'PRP$'), ('model', 'NN'), ('changes', 'NNS'), ('on', 'IN'), ('my', 'PRP$'), ('Facebook', 'NNP'), ('wall', 'NN'), ('Unlink', 'NNP'), ('from', 'IN'), ('Facebook', 'NNP'), ('Tweet', 'NNP'), ('my', 'PRP$'), ('model', 'NN'), ('changes', 'NNS'), ('Unlink', 'NNP'), ('from', 'IN'), ('Twitter', 'NNP'), ('Unlink', 'NNP'), ('will', 'MD'), ('open', 'VB'), ('a', 'DT'), ('window', 'NN'), ('to', 'TO'), ('the', 'DT'), ('twitter', 'NN'), ('website', 'NN'), ('where', 'WRB'), ('you', 'PRP'), ('can', 'MD'), ('revoke', 'VB'), ('our', 'PRP$'), ('access', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Set/NNP Up/NNP Facebook/NNP Link/NNP)   Post/NNP   my/PRP$   comments/NNS   on/IN   my/PRP$   Facebook/NNP   wall/NN   Post/NNP   my/PRP$   model/NN   changes/NNS   on/IN   my/PRP$   Facebook/NNP   wall/NN   Unlink/NNP   from/IN   (PERSON Facebook/NNP Tweet/NNP)   my/PRP$   model/NN   changes/NNS   Unlink/NNP   from/IN   (PERSON Twitter/NNP Unlink/NNP)   will/MD   open/VB   a/DT   window/NN   to/TO   the/DT   twitter/NN   website/NN   where/WRB   you/PRP   can/MD   revoke/VB   our/PRP$   access/NN   ./.)
+----------------------------------
+original sentence: 
+We will also proactively remove our access.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('will', 'MD'), ('also', 'RB'), ('proactively', 'RB'), ('remove', 'VB'), ('our', 'PRP$'), ('access', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   will/MD   also/RB   proactively/RB   remove/VB   our/PRP$   access/NN   ./.)
+----------------------------------
+original sentence: 
+How likely is it that you would recommend Trefis to a friend or colleague?
+
+POS tagged sentence: 
+[('How', 'WRB'), ('likely', 'JJ'), ('is', 'VBZ'), ('it', 'PRP'), ('that', 'IN'), ('you', 'PRP'), ('would', 'MD'), ('recommend', 'VB'), ('Trefis', 'NNP'), ('to', 'TO'), ('a', 'DT'), ('friend', 'NN'), ('or', 'CC'), ('colleague', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   How/WRB   likely/JJ   is/VBZ   it/PRP   that/IN   you/PRP   would/MD   recommend/VB   (PERSON Trefis/NNP)   to/TO   a/DT   friend/NN   or/CC   colleague/NN   ?/.)
+----------------------------------
+original sentence: 
+0 = not at all likely, 10 = extremely likely Please contact me with a resolution
+
+
+POS tagged sentence: 
+[('0', '-NONE-'), ('=', '``'), ('not', 'RB'), ('at', 'IN'), ('all', 'DT'), ('likely', 'JJ'), (',', ','), ('10', 'CD'), ('=', ':'), ('extremely', 'RB'), ('likely', 'JJ'), ('Please', 'NNP'), ('contact', 'NN'), ('me', 'PRP'), ('with', 'IN'), ('a', 'DT'), ('resolution', 'NN')]
+
+
+ERTAGGED sentence: (S   0/-NONE-   =/``   not/RB   at/IN   all/DT   likely/JJ   ,/,   10/CD   =/:   extremely/RB   likely/JJ   Please/NNP   contact/NN   me/PRP   with/IN   a/DT   resolution/NN)
+
+veryneg:0	neg:1	pos:3	verypos:0	total:3

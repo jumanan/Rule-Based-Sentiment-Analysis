@@ -1,0 +1,165 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Above Resistance Disney | Trading Ideas
+ Above Resistance Disney  Written by Christoper Lynn  Monday, 15 March 2010 09:32 New York, March 15th TradersHuddle.com Shares of Walt Disney Co. NYSE:DIS closed the trading session at $33.69 just above calculated resistance at $33.50 effectively breaking out, grabbing the attention of momentum traders, which could eventually push the stock to different trading range
+The Walt Disney Company, the largest media company in the world, conducts operations in media networks, studio entertainment, theme parks and resorts, consumer products, and Internet and direct marketing.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Above', 'IN'), ('Resistance', 'NNP'), ('Disney', 'NNP'), ('|', 'NNP'), ('Trading', 'NNP'), ('Ideas', 'NNP'), ('Above', 'NNP'), ('Resistance', 'NNP'), ('Disney', 'NNP'), ('Written', 'NNP'), ('by', 'IN'), ('Christoper', 'NNP'), ('Lynn', 'NNP'), ('Monday', 'NNP'), (',', ','), ('15', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('32', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('March', 'NNP'), ('15th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('DIS', 'NNP'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('$', '$'), ('33.69', 'CD'), ('just', 'RB'), ('above', 'IN'), ('calculated', 'VBN'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('33.50', 'CD'), ('effectively', 'RB'), ('breaking', 'VBG'), ('out', 'RP'), (',', ','), ('grabbing', 'VBG'), ('the', 'DT'), ('attention', 'NN'), ('of', 'IN'), ('momentum', 'NN'), ('traders', 'NNS'), (',', ','), ('which', 'WDT'), ('could', 'MD'), ('eventually', 'RB'), ('push', 'VB'), ('the', 'DT'), ('stock', 'NN'), ('to', 'TO'), ('different', 'JJ'), ('trading', 'NN'), ('range', 'NN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), (',', ','), ('the', 'DT'), ('largest', 'JJS'), ('media', 'NNS'), ('company', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), ('conducts', 'NNS'), ('operations', 'NNS'), ('in', 'IN'), ('media', 'NNS'), ('networks', 'NNS'), (',', ','), ('studio', 'NN'), ('entertainment', 'NN'), (',', ','), ('theme', 'NN'), ('parks', 'NNS'), ('and', 'CC'), ('resorts', 'NNS'), (',', ','), ('consumer', 'NN'), ('products', 'NNS'), (',', ','), ('and', 'CC'), ('Internet', 'NNP'), ('and', 'CC'), ('direct', 'JJ'), ('marketing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Above/IN   (ORGANIZATION Resistance/NNP Disney/NNP)   |/NNP   Trading/NNP   Ideas/NNP   Above/NNP   Resistance/NNP   Disney/NNP   Written/NNP   by/IN   (PERSON Christoper/NNP Lynn/NNP)   Monday/NNP   ,/,   15/CD   March/NNP   2010/CD   09/CD   :/:   32/CD   (GPE New/NNP York/NNP)   ,/,   March/NNP   15th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (ORGANIZATION Walt/NNP Disney/NNP)   Co./NNP   NYSE/NNP   :/:   (ORGANIZATION DIS/NNP)   closed/VBD   the/DT   trading/NN   session/NN   at/IN   $/$   33.69/CD   just/RB   above/IN   calculated/VBN   resistance/NN   at/IN   $/$   33.50/CD   effectively/RB   breaking/VBG   out/RP   ,/,   grabbing/VBG   the/DT   attention/NN   of/IN   momentum/NN   traders/NNS   ,/,   which/WDT   could/MD   eventually/RB   push/VB   the/DT   stock/NN   to/TO   different/JJ   trading/NN   range/NN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   ,/,   the/DT   largest/JJS   media/NNS   company/NN   in/IN   the/DT   world/NN   ,/,   conducts/NNS   operations/NNS   in/IN   media/NNS   networks/NNS   ,/,   studio/NN   entertainment/NN   ,/,   theme/NN   parks/NNS   and/CC   resorts/NNS   ,/,   consumer/NN   products/NNS   ,/,   and/CC   Internet/NNP   and/CC   direct/JJ   marketing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB closed/VBD the/DT trading/NN session/NN at/IN)
+	(VERB calculated/VBN resistance/NN at/IN)
+	(VERB breaking/VBG)
+	(VERB grabbing/VBG the/DT attention/NN of/IN momentum/NN traders/NNS)
+	(VERB push/VB the/DT stock/NN)
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN)
+	(NOUN Resistance/NNP Disney/NNP |/NNP Trading/NNP)
+	(NOUN Ideas/NNP Above/NNP Resistance/NNP Disney/NNP)
+
+tagged sentence:
+	 Ideas Above Resistance Disney	res:1
+	(NOUN Written/NNP)
+	(NOUN Christoper/NNP Lynn/NNP Monday/NNP)
+	(NOUN 15/CD March/NNP)
+	(NOUN 32/CD New/NNP York/NNP)
+	(NOUN March/NNP)
+	(NOUN 15th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Walt/NNP Disney/NNP Co./NNP NYSE/NNP)
+	(NOUN DIS/NNP)
+	(NOUN different/JJ trading/NN range/NN)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN the/DT largest/JJS media/NNS company/NN)
+
+tagged sentence:
+	 the largest media company	res:1
+	(NOUN world/NN)
+	(NOUN conducts/NNS operations/NNS)
+	(NOUN media/NNS networks/NNS)
+	(NOUN studio/NN entertainment/NN)
+	(NOUN theme/NN parks/NNS)
+	(NOUN resorts/NNS)
+	(NOUN consumer/NN products/NNS)
+	(NOUN Internet/NNP)
+	(NOUN direct/JJ marketing/NN)
+
+----------------------------------
+original sentence: 
+The Company produces motion pictures, television programs, and musical recordings, as well as publishes books and magazines.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('produces', 'VBZ'), ('motion', 'NN'), ('pictures', 'NNS'), (',', ','), ('television', 'NN'), ('programs', 'NNS'), (',', ','), ('and', 'CC'), ('musical', 'JJ'), ('recordings', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('publishes', 'NNS'), ('books', 'NNS'), ('and', 'CC'), ('magazines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   produces/VBZ   motion/NN   pictures/NNS   ,/,   television/NN   programs/NNS   ,/,   and/CC   musical/JJ   recordings/NNS   ,/,   as/IN   well/RB   as/IN   publishes/NNS   books/NNS   and/CC   magazines/NNS   ./.)
+----------------------------------
+original sentence: 
+Disney also operates ABC radio and television, cable channels and theme parks around the world.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('also', 'RB'), ('operates', 'VBZ'), ('ABC', 'NNP'), ('radio', 'NN'), ('and', 'CC'), ('television', 'NN'), (',', ','), ('cable', 'JJ'), ('channels', 'NNS'), ('and', 'CC'), ('theme', 'NN'), ('parks', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   also/RB   operates/VBZ   (ORGANIZATION ABC/NNP)   radio/NN   and/CC   television/NN   ,/,   cable/JJ   channels/NNS   and/CC   theme/NN   parks/NNS   around/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB operates/VBZ ABC/NNP radio/NN)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN television/NN)
+	(NOUN cable/JJ channels/NNS)
+	(NOUN theme/NN parks/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+Disney owns the most watch and valuable sports network in cable, ESPN.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('owns', 'VBZ'), ('the', 'DT'), ('most', 'RBS'), ('watch', 'JJ'), ('and', 'CC'), ('valuable', 'JJ'), ('sports', 'NNS'), ('network', 'NN'), ('in', 'IN'), ('cable', 'JJ'), (',', ','), ('ESPN', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   owns/VBZ   the/DT   most/RBS   watch/JJ   and/CC   valuable/JJ   sports/NNS   network/NN   in/IN   cable/JJ   ,/,   (ORGANIZATION ESPN/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owns/VBZ the/DT)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN watch/JJ)
+	(NOUN valuable/JJ sports/NNS network/NN)
+
+tagged sentence:
+	 valuable sports network	res:1
+	(NOUN cable/JJ)
+	(NOUN ESPN/NNP)
+
+----------------------------------
+original sentence: 
+The entretainment company was founded by Mr. Walt Disney in 1923 and its based in Burbank, CA.
+Disney's stock was trading in a well defined range with support at $28.99 and resistance at $33.50, given that this range was broken traders will be closely monitoring the stock?s price action for clues of direction.
+
+POS tagged sentence: 
+[('The', 'DT'), ('entretainment', 'NN'), ('company', 'NN'), ('was', 'VBD'), ('founded', 'VBN'), ('by', 'IN'), ('Mr.', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('in', 'IN'), ('1923', 'CD'), ('and', 'CC'), ('its', 'PRP$'), ('based', 'VBN'), ('in', 'IN'), ('Burbank', 'NNP'), (',', ','), ('CA', 'NNP'), ('.', '.'), ('Disney', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('was', 'VBD'), ('trading', 'NN'), ('in', 'IN'), ('a', 'DT'), ('well', 'RB'), ('defined', 'VBN'), ('range', 'NN'), ('with', 'IN'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('28.99', 'CD'), ('and', 'CC'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('33.50', 'CD'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('this', 'DT'), ('range', 'NN'), ('was', 'VBD'), ('broken', 'VBN'), ('traders', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('closely', 'RB'), ('monitoring', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('?', '.'), ('s', 'NNS'), ('price', 'NN'), ('action', 'NN'), ('for', 'IN'), ('clues', 'NNS'), ('of', 'IN'), ('direction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   entretainment/NN   company/NN   was/VBD   founded/VBN   by/IN   (PERSON Mr./NNP Walt/NNP Disney/NNP)   in/IN   1923/CD   and/CC   its/PRP$   based/VBN   in/IN   (GPE Burbank/NNP)   ,/,   (ORGANIZATION CA/NNP)   ./.   (PERSON Disney/NNP)   's/POS   stock/NN   was/VBD   trading/NN   in/IN   a/DT   well/RB   defined/VBN   range/NN   with/IN   support/NN   at/IN   $/$   28.99/CD   and/CC   resistance/NN   at/IN   $/$   33.50/CD   ,/,   given/VBN   that/IN   this/DT   range/NN   was/VBD   broken/VBN   traders/NNS   will/MD   be/VB   closely/RB   monitoring/VBG   the/DT   stock/NN   ?/.   s/NNS   price/NN   action/NN   for/IN   clues/NNS   of/IN   direction/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   founded/VBN   by/IN   Mr./NNP   Walt/NNP   Disney/NNP   in/IN   1923/CD)
+	(VERB based/VBN in/IN Burbank/NNP)
+	(VERB was/VBD trading/NN in/IN a/DT well/RB)
+	(VERB defined/VBN range/NN with/IN support/NN at/IN)
+	(VERB given/VBN that/IN this/DT range/NN)
+	(VERB was/VBD broken/VBN traders/NNS)
+
+tagged sentence:
+	 was broken traders	res:-1
+	(VERB be/VB closely/RB monitoring/VBG the/DT stock/NN)
+noun phrases to consider:
+	(NOUN entretainment/NN company/NN)
+	(NOUN CA/NNP)
+	(NOUN Disney/NNP)
+	(NOUN stock/NN)
+	(NOUN resistance/NN)
+	(NOUN s/NNS price/NN action/NN)
+	(NOUN clues/NNS)
+	(NOUN direction/NN)
+
+----------------------------------
+original sentence: 
+From a technical perspective it can be expected that previous resistance becomes support, as the new range gets defined, however, given that Disney's stock is still near the broken resistance level, traders will be focusing on $33.50 to see if the stock holds the breakout without rolling over.
+
+POS tagged sentence: 
+[('From', 'IN'), ('a', 'DT'), ('technical', 'JJ'), ('perspective', 'NN'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('expected', 'VBN'), ('that', 'DT'), ('previous', 'JJ'), ('resistance', 'NN'), ('becomes', 'VBZ'), ('support', 'NN'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('range', 'NN'), ('gets', 'NNS'), ('defined', 'VBD'), (',', ','), ('however', 'RB'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('Disney', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('is', 'VBZ'), ('still', 'RB'), ('near', 'IN'), ('the', 'DT'), ('broken', 'NN'), ('resistance', 'NN'), ('level', 'NN'), (',', ','), ('traders', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('$', '$'), ('33.50', 'CD'), ('to', 'TO'), ('see', 'VB'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('holds', 'NNS'), ('the', 'DT'), ('breakout', 'NN'), ('without', 'IN'), ('rolling', 'NN'), ('over', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   From/IN   a/DT   technical/JJ   perspective/NN   it/PRP   can/MD   be/VB   expected/VBN   that/DT   previous/JJ   resistance/NN   becomes/VBZ   support/NN   ,/,   as/IN   the/DT   new/JJ   range/NN   gets/NNS   defined/VBD   ,/,   however/RB   ,/,   given/VBN   that/IN   (PERSON Disney/NNP)   's/POS   stock/NN   is/VBZ   still/RB   near/IN   the/DT   broken/NN   resistance/NN   level/NN   ,/,   traders/NNS   will/MD   be/VB   focusing/VBG   on/IN   $/$   33.50/CD   to/TO   see/VB   if/IN   the/DT   stock/NN   holds/NNS   the/DT   breakout/NN   without/IN   rolling/NN   over/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB expected/VBN that/DT previous/JJ resistance/NN)
+	(VERB becomes/VBZ support/NN)
+	(VERB defined/VBD)
+	(VERB given/VBN that/IN Disney/NNP)
+	(VERB   is/VBZ   still/RB   near/IN   the/DT   broken/NN   resistance/NN   level/NN)
+
+tagged sentence:
+	 is still near the broken resistance level	res:-1
+	(VERB be/VB focusing/VBG on/IN)
+	(VERB   see/VB   if/IN   the/DT   stock/NN   holds/NNS   the/DT   breakout/NN   without/IN   rolling/NN   over/IN)
+noun phrases to consider:
+	(NOUN a/DT technical/JJ perspective/NN)
+	(NOUN the/DT new/JJ range/NN gets/NNS)
+	(NOUN stock/NN)
+	(NOUN traders/NNS)
+
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:2	pos:3	verypos:0	total:3

@@ -1,0 +1,191 @@
+
+----------------------------------
+original sentence: 
+Bank of America, POT, IPI, SVU, BWEN, AMLN, ANN, CTRN Popular Stocks | Ub News
+ Ub News Bank of America, POT, IPI, SVU, BWEN, AMLN, ANN, CTRN Popular Stocks U.S. stocks trade mixed Friday as the Dow Jones Industrial Average rose 11 points to 10623, the S&#038;P 500 jumped less than one point to 1151 but the Nasdaq Composite slid less than one point to 2368.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), (',', ','), ('POT', 'NNP'), (',', ','), ('IPI', 'NNP'), (',', ','), ('SVU', 'NNP'), (',', ','), ('BWEN', 'NNP'), (',', ','), ('AMLN', 'NNP'), (',', ','), ('ANN', 'NNP'), (',', ','), ('CTRN', 'NNP'), ('Popular', 'NNP'), ('Stocks', 'NNP'), ('|', 'NNP'), ('Ub', 'NNP'), ('News', 'NNP'), ('Ub', 'NNP'), ('News', 'NNP'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), (',', ','), ('POT', 'NNP'), (',', ','), ('IPI', 'NNP'), (',', ','), ('SVU', 'NNP'), (',', ','), ('BWEN', 'NNP'), (',', ','), ('AMLN', 'NNP'), (',', ','), ('ANN', 'NNP'), (',', ','), ('CTRN', 'NNP'), ('Popular', 'NNP'), ('Stocks', 'NNP'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('trade', 'VBP'), ('mixed', 'VBN'), ('Friday', 'NNP'), ('as', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('rose', 'VBD'), ('11', 'CD'), ('points', 'NNS'), ('to', 'TO'), ('10623', 'CD'), (',', ','), ('the', 'DT'), ('S&', 'NNP'), ('#', '#'), ('038', 'CD'), (';', ':'), ('P', 'NNP'), ('500', 'CD'), ('jumped', 'VBD'), ('less', 'RBR'), ('than', 'IN'), ('one', 'CD'), ('point', 'NN'), ('to', 'TO'), ('1151', 'CD'), ('but', 'CC'), ('the', 'DT'), ('Nasdaq', 'NNP'), ('Composite', 'NNP'), ('slid', 'VBD'), ('less', 'JJR'), ('than', 'IN'), ('one', 'CD'), ('point', 'NN'), ('to', 'TO'), ('2368', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   of/IN   (GPE America/NNP)   ,/,   (ORGANIZATION POT/NNP)   ,/,   (ORGANIZATION IPI/NNP)   ,/,   (ORGANIZATION SVU/NNP)   ,/,   (ORGANIZATION BWEN/NNP)   ,/,   (ORGANIZATION AMLN/NNP)   ,/,   (ORGANIZATION ANN/NNP)   ,/,   (ORGANIZATION CTRN/NNP Popular/NNP Stocks/NNP)   |/NNP   Ub/NNP   News/NNP   Ub/NNP   News/NNP   Bank/NNP   of/IN   (GPE America/NNP)   ,/,   (ORGANIZATION POT/NNP)   ,/,   (ORGANIZATION IPI/NNP)   ,/,   (ORGANIZATION SVU/NNP)   ,/,   (ORGANIZATION BWEN/NNP)   ,/,   (ORGANIZATION AMLN/NNP)   ,/,   (ORGANIZATION ANN/NNP)   ,/,   (ORGANIZATION CTRN/NNP Popular/NNP Stocks/NNP U.S./NNP)   stocks/NNS   trade/VBP   mixed/VBN   Friday/NNP   as/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   rose/VBD   11/CD   points/NNS   to/TO   10623/CD   ,/,   the/DT   S&/NNP   #/#   038/CD   ;/:   P/NNP   500/CD   jumped/VBD   less/RBR   than/IN   one/CD   point/NN   to/TO   1151/CD   but/CC   the/DT   (ORGANIZATION Nasdaq/NNP Composite/NNP)   slid/VBD   less/JJR   than/IN   one/CD   point/NN   to/TO   2368/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   trade/VBP   mixed/VBN   Friday/NNP   as/IN   the/DT   Dow/NNP   Jones/NNP   Industrial/NNP   Average/NNP)
+	(VERB rose/VBD 11/CD points/NNS)
+	(VERB jumped/VBD)
+	(VERB slid/VBD less/JJR than/IN one/CD point/NN)
+noun phrases to consider:
+	(NOUN Bank/NNP)
+	(NOUN America/NNP)
+	(NOUN POT/NNP)
+	(NOUN IPI/NNP)
+	(NOUN SVU/NNP)
+	(NOUN BWEN/NNP)
+	(NOUN AMLN/NNP)
+	(NOUN ANN/NNP)
+	(NOUN CTRN/NNP Popular/NNP Stocks/NNP |/NNP)
+	(NOUN Ub/NNP News/NNP Ub/NNP News/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP)
+	(NOUN POT/NNP)
+	(NOUN IPI/NNP)
+	(NOUN SVU/NNP)
+	(NOUN BWEN/NNP)
+	(NOUN AMLN/NNP)
+	(NOUN ANN/NNP)
+	(NOUN CTRN/NNP Popular/NNP Stocks/NNP U.S./NNP)
+	(NOUN stocks/NNS)
+	(NOUN S&/NNP)
+	(NOUN P/NNP)
+	(NOUN one/CD point/NN)
+	(NOUN Nasdaq/NNP Composite/NNP)
+
+----------------------------------
+original sentence: 
+Bank of America NYSE:BAC, $17.01, $0.11, 0.64% has completed nearly 21,000 mortgage modifications under the federal government&#8217;s Home Affordable Modification Program HAMP , according to the bank&#8217;s latest monthly progress report to the Department of Treasury.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), (',', ','), ('$', '$'), ('17.01', 'CD'), (',', ','), ('$', '$'), ('0.11', 'CD'), (',', ','), ('0.64', 'CD'), ('%', 'NN'), ('has', 'VBZ'), ('completed', 'VBN'), ('nearly', 'RB'), ('21,000', 'CD'), ('mortgage', 'NN'), ('modifications', 'NNS'), ('under', 'IN'), ('the', 'DT'), ('federal', 'JJ'), ('government&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Home', 'NNP'), ('Affordable', 'NNP'), ('Modification', 'NNP'), ('Program', 'NNP'), ('HAMP', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('bank&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('latest', 'JJS'), ('monthly', 'JJ'), ('progress', 'NN'), ('report', 'NN'), ('to', 'TO'), ('the', 'DT'), ('Department', 'NNP'), ('of', 'IN'), ('Treasury', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   of/IN   (GPE America/NNP)   NYSE/NNP   :/:   BAC/NNP   ,/,   $/$   17.01/CD   ,/,   $/$   0.11/CD   ,/,   0.64/CD   %/NN   has/VBZ   completed/VBN   nearly/RB   21,000/CD   mortgage/NN   modifications/NNS   under/IN   the/DT   federal/JJ   government&/NN   #/#   8217/CD   ;/:   s/NNS   (PERSON Home/NNP Affordable/NNP)   Modification/NNP   Program/NNP   HAMP/NNP   ,/,   according/VBG   to/TO   the/DT   bank&/NN   #/#   8217/CD   ;/:   s/NNS   latest/JJS   monthly/JJ   progress/NN   report/NN   to/TO   the/DT   (ORGANIZATION Department/NNP)   of/IN   (ORGANIZATION Treasury/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares in Canadaâ€™s potash NYSE:POT, $126.18, +$9.25, 7.91% companies soared on Friday after the countryâ€™s biggest producer forecast a record quarter for North American sales volume.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('in', 'IN'), ('Canada', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('potash', 'NN'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), (',', ','), ('$', '$'), ('126.18', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('9.25', 'CD'), (',', ','), ('7.91', 'CD'), ('%', 'NN'), ('companies', 'NNS'), ('soared', 'VBD'), ('on', 'IN'), ('Friday', 'NNP'), ('after', 'IN'), ('the', 'DT'), ('country', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('biggest', 'JJS'), ('producer', 'NN'), ('forecast', 'NN'), ('a', 'DT'), ('record', 'NN'), ('quarter', 'NN'), ('for', 'IN'), ('North', 'NNP'), ('American', 'NNP'), ('sales', 'NNS'), ('volume', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Shares/NNS)   in/IN   (GPE Canada/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   potash/NN   NYSE/NNP   :/:   POT/NNP   ,/,   $/$   126.18/CD   ,/,   +/:   $/$   9.25/CD   ,/,   7.91/CD   %/NN   companies/NNS   soared/VBD   on/IN   Friday/NNP   after/IN   the/DT   country/NN   â/:   €/:   ™/:   s/NNS   biggest/JJS   producer/NN   forecast/NN   a/DT   record/NN   quarter/NN   for/IN   (GPE North/NNP American/NNP)   sales/NNS   volume/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ potash/NN NYSE/NNP)
+	(VERB soared/VBD on/IN Friday/NNP after/IN the/DT country/NN)
+noun phrases to consider:
+	(NOUN Shares/NNS)
+	(NOUN Canada/NNP â/NNP €/NNP ™/NNP)
+	(NOUN POT/NNP)
+	(NOUN 7.91/CD %/NN companies/NNS)
+	(NOUN s/NNS biggest/JJS producer/NN forecast/NN)
+	(NOUN record/NN quarter/NN)
+	(NOUN North/NNP American/NNP sales/NNS volume/NN)
+
+----------------------------------
+original sentence: 
+Earnings will be $1.30 to $1.50 a share, higher than a January forecast of as much as $1, the company said in a statement yesterday after the close of regular trading and Intrepid Potash NYSE:IPI, $31.74, +$3.32, 11.68% also gained.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('$', '$'), ('1.30', 'CD'), ('to', 'TO'), ('$', '$'), ('1.50', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('higher', 'JJR'), ('than', 'IN'), ('a', 'DT'), ('January', 'NNP'), ('forecast', 'NN'), ('of', 'IN'), ('as', 'RB'), ('much', 'JJ'), ('as', 'IN'), ('$', '$'), ('1', 'CD'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('statement', 'NN'), ('yesterday', 'NN'), ('after', 'IN'), ('the', 'DT'), ('close', 'NN'), ('of', 'IN'), ('regular', 'JJ'), ('trading', 'NN'), ('and', 'CC'), ('Intrepid', 'NNP'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('IPI', 'NNP'), (',', ','), ('$', '$'), ('31.74', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('3.32', 'CD'), (',', ','), ('11.68', 'CD'), ('%', 'NN'), ('also', 'RB'), ('gained', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   will/MD   be/VB   $/$   1.30/CD   to/TO   $/$   1.50/CD   a/DT   share/NN   ,/,   higher/JJR   than/IN   a/DT   January/NNP   forecast/NN   of/IN   as/RB   much/JJ   as/IN   $/$   1/CD   ,/,   the/DT   company/NN   said/VBD   in/IN   a/DT   statement/NN   yesterday/NN   after/IN   the/DT   close/NN   of/IN   regular/JJ   trading/NN   and/CC   (ORGANIZATION Intrepid/NNP Potash/NNP)   NYSE/NNP   :/:   (ORGANIZATION IPI/NNP)   ,/,   $/$   31.74/CD   ,/,   +/:   $/$   3.32/CD   ,/,   11.68/CD   %/NN   also/RB   gained/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB)
+	(VERB   said/VBD   in/IN   a/DT   statement/NN   yesterday/NN   after/IN   the/DT   close/NN   of/IN   regular/JJ   trading/NN)
+	(VERB gained/VBD)
+noun phrases to consider:
+	(NOUN Earnings/NNS)
+	(NOUN share/NN)
+	(NOUN higher/JJR)
+	(NOUN January/NNP forecast/NN)
+	(NOUN as/RB much/JJ)
+	(NOUN company/NN)
+	(NOUN Intrepid/NNP Potash/NNP NYSE/NNP)
+	(NOUN IPI/NNP)
+	(NOUN 11.68/CD %/NN)
+
+----------------------------------
+original sentence: 
+Shares of Supervalu Inc NYSE:SVU, $16.99, +$0.92, 5.72% gained as much as 11 percent in heavy trading Friday morning as rumors circulated that the supermarket operator could be poised for a leveraged buyout.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Supervalu', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SVU', 'NNP'), (',', ','), ('$', '$'), ('16.99', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('0.92', 'CD'), (',', ','), ('5.72', 'CD'), ('%', 'NN'), ('gained', 'VBD'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('11', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('heavy', 'JJ'), ('trading', 'NN'), ('Friday', 'NNP'), ('morning', 'NN'), ('as', 'IN'), ('rumors', 'NNS'), ('circulated', 'VBN'), ('that', 'IN'), ('the', 'DT'), ('supermarket', 'NN'), ('operator', 'NN'), ('could', 'MD'), ('be', 'VB'), ('poised', 'VBN'), ('for', 'IN'), ('a', 'DT'), ('leveraged', 'JJ'), ('buyout', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION Supervalu/NNP Inc/NNP)   NYSE/NNP   :/:   SVU/NNP   ,/,   $/$   16.99/CD   ,/,   +/:   $/$   0.92/CD   ,/,   5.72/CD   %/NN   gained/VBD   as/IN   much/JJ   as/IN   11/CD   percent/NN   in/IN   heavy/JJ   trading/NN   Friday/NNP   morning/NN   as/IN   rumors/NNS   circulated/VBN   that/IN   the/DT   supermarket/NN   operator/NN   could/MD   be/VB   poised/VBN   for/IN   a/DT   leveraged/JJ   buyout/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;The rumor making the rounds is that Supervalu could be the target of a leveraged buyout.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('rumor', 'NN'), ('making', 'VBG'), ('the', 'DT'), ('rounds', 'NNS'), ('is', 'VBZ'), ('that', 'IN'), ('Supervalu', 'NNP'), ('could', 'MD'), ('be', 'VB'), ('the', 'DT'), ('target', 'NN'), ('of', 'IN'), ('a', 'DT'), ('leveraged', 'JJ'), ('buyout', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   The/DT   rumor/NN   making/VBG   the/DT   rounds/NNS   is/VBZ   that/IN   (PERSON Supervalu/NNP)   could/MD   be/VB   the/DT   target/NN   of/IN   a/DT   leveraged/JJ   buyout/NN   ./.)
+----------------------------------
+original sentence: 
+Rumor is they could fetch $22.50 a share.&#8221;
+Broadwind Energy Inc.&#8217;s NASDAQ:BWEN, $4.53, $1.15, 20.25% reported fourth quarter loss widened sharply, hurt primarily by lower revenues and a significant rise in goodwill and intangible impairment charges.
+
+POS tagged sentence: 
+[('Rumor', 'NNP'), ('is', 'VBZ'), ('they', 'PRP'), ('could', 'MD'), ('fetch', 'VB'), ('$', '$'), ('22.50', 'CD'), ('a', 'DT'), ('share.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Broadwind', 'NNP'), ('Energy', 'NNP'), ('Inc.&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('NASDAQ', 'NNP'), (':', ':'), ('BWEN', 'NNP'), (',', ','), ('$', '$'), ('4.53', 'CD'), (',', ','), ('$', '$'), ('1.15', 'CD'), (',', ','), ('20.25', 'CD'), ('%', 'NN'), ('reported', 'VBD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('loss', 'NN'), ('widened', 'VBD'), ('sharply', 'RB'), (',', ','), ('hurt', 'VBN'), ('primarily', 'RB'), ('by', 'IN'), ('lower', 'JJR'), ('revenues', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('significant', 'JJ'), ('rise', 'NN'), ('in', 'IN'), ('goodwill', 'NN'), ('and', 'CC'), ('intangible', 'JJ'), ('impairment', 'NN'), ('charges', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Rumor/NNP)   is/VBZ   they/PRP   could/MD   fetch/VB   $/$   22.50/CD   a/DT   share.&/JJ   #/#   8221/CD   ;/:   (PERSON Broadwind/NNP Energy/NNP)   Inc.&/NNP   #/#   8217/CD   ;/:   s/NNS   (ORGANIZATION NASDAQ/NNP)   :/:   BWEN/NNP   ,/,   $/$   4.53/CD   ,/,   $/$   1.15/CD   ,/,   20.25/CD   %/NN   reported/VBD   fourth/JJ   quarter/NN   loss/NN   widened/VBD   sharply/RB   ,/,   hurt/VBN   primarily/RB   by/IN   lower/JJR   revenues/NNS   and/CC   a/DT   significant/JJ   rise/NN   in/IN   goodwill/NN   and/CC   intangible/JJ   impairment/NN   charges/NNS   ./.)
+----------------------------------
+original sentence: 
+For the fourth quarter, the Naperville, Illinois based company&#8217;s net loss was $92.60 million or $0.96 per share as compared with a loss of $12.37 million or $0.13 per share in the prior year period.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), (',', ','), ('the', 'DT'), ('Naperville', 'NNP'), (',', ','), ('Illinois', 'NNP'), ('based', 'VBN'), ('company&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('net', 'JJ'), ('loss', 'NN'), ('was', 'VBD'), ('$', '$'), ('92.60', 'CD'), ('million', 'CD'), ('or', 'CC'), ('$', '$'), ('0.96', 'CD'), ('per', 'IN'), ('share', 'NN'), ('as', 'IN'), ('compared', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('loss', 'NN'), ('of', 'IN'), ('$', '$'), ('12.37', 'CD'), ('million', 'CD'), ('or', 'CC'), ('$', '$'), ('0.13', 'CD'), ('per', 'IN'), ('share', 'NN'), ('in', 'IN'), ('the', 'DT'), ('prior', 'NN'), ('year', 'NN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   fourth/JJ   quarter/NN   ,/,   the/DT   (ORGANIZATION Naperville/NNP)   ,/,   (PERSON Illinois/NNP)   based/VBN   company&/-NONE-   #/#   8217/CD   ;/:   s/NNS   net/JJ   loss/NN   was/VBD   $/$   92.60/CD   million/CD   or/CC   $/$   0.96/CD   per/IN   share/NN   as/IN   compared/VBN   with/IN   a/DT   loss/NN   of/IN   $/$   12.37/CD   million/CD   or/CC   $/$   0.13/CD   per/IN   share/NN   in/IN   the/DT   prior/NN   year/NN   period/NN   ./.)
+----------------------------------
+original sentence: 
+Shares of Amylin Pharmaceuticals NASDAQ:AMLN, $20.70, $0.49, 2.31% fell after that US FDA releases inspection report ahead of an expected decision on the company&#8217;s key drug.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Amylin', 'NNP'), ('Pharmaceuticals', 'NNPS'), ('NASDAQ', 'NNP'), (':', ':'), ('AMLN', 'NNP'), (',', ','), ('$', '$'), ('20.70', 'CD'), (',', ','), ('$', '$'), ('0.49', 'CD'), (',', ','), ('2.31', 'CD'), ('%', 'NN'), ('fell', 'VBD'), ('after', 'IN'), ('that', 'DT'), ('US', 'NNP'), ('FDA', 'NNP'), ('releases', 'NNS'), ('inspection', 'NN'), ('report', 'NN'), ('ahead', 'RB'), ('of', 'IN'), ('an', 'DT'), ('expected', 'VBN'), ('decision', 'NN'), ('on', 'IN'), ('the', 'DT'), ('company&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('key', 'VBP'), ('drug', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION Amylin/NNP Pharmaceuticals/NNPS)   NASDAQ/NNP   :/:   AMLN/NNP   ,/,   $/$   20.70/CD   ,/,   $/$   0.49/CD   ,/,   2.31/CD   %/NN   fell/VBD   after/IN   that/DT   (ORGANIZATION US/NNP)   FDA/NNP   releases/NNS   inspection/NN   report/NN   ahead/RB   of/IN   an/DT   expected/VBN   decision/NN   on/IN   the/DT   company&/NNP   #/#   8217/CD   ;/:   s/NNS   key/VBP   drug/NN   ./.)
+----------------------------------
+original sentence: 
+Women&#8217;s clothing retailer, AnnTaylor Stores Corp. NYSE:ANN, $19.08, $0.37, 1.90% posted surprise profit in its fiscal fourth quarter as it recorded reduced expenses and lower charges.
+
+POS tagged sentence: 
+[('Women&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('clothing', 'VBG'), ('retailer', 'NN'), (',', ','), ('AnnTaylor', 'NNP'), ('Stores', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ANN', 'NNP'), (',', ','), ('$', '$'), ('19.08', 'CD'), (',', ','), ('$', '$'), ('0.37', 'CD'), (',', ','), ('1.90', 'CD'), ('%', 'NN'), ('posted', 'VBD'), ('surprise', 'NN'), ('profit', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('fourth', 'JJ'), ('quarter', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('recorded', 'VBD'), ('reduced', 'VBN'), ('expenses', 'NNS'), ('and', 'CC'), ('lower', 'JJR'), ('charges', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Women&/NN   #/#   8217/CD   ;/:   s/NNS   clothing/VBG   retailer/NN   ,/,   (ORGANIZATION AnnTaylor/NNP Stores/NNPS Corp./NNP)   NYSE/NNP   :/:   ANN/NNP   ,/,   $/$   19.08/CD   ,/,   $/$   0.37/CD   ,/,   1.90/CD   %/NN   posted/VBD   surprise/NN   profit/NN   in/IN   its/PRP$   fiscal/JJ   fourth/JJ   quarter/NN   as/IN   it/PRP   recorded/VBD   reduced/VBN   expenses/NNS   and/CC   lower/JJR   charges/NNS   ./.)
+----------------------------------
+original sentence: 
+The retailer posted fourth quarter net income of $41 thousand or breakeven per share, compared to a net loss of $375.61 million or $6.66 per share in the same quarter last year.
+
+POS tagged sentence: 
+[('The', 'DT'), ('retailer', 'NN'), ('posted', 'VBD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('income', 'NN'), ('of', 'IN'), ('$', '$'), ('41', 'CD'), ('thousand', 'CD'), ('or', 'CC'), ('breakeven', 'CD'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('a', 'DT'), ('net', 'JJ'), ('loss', 'NN'), ('of', 'IN'), ('$', '$'), ('375.61', 'CD'), ('million', 'CD'), ('or', 'CC'), ('$', '$'), ('6.66', 'CD'), ('per', 'IN'), ('share', 'NN'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('quarter', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   retailer/NN   posted/VBD   fourth/JJ   quarter/NN   net/NN   income/NN   of/IN   $/$   41/CD   thousand/CD   or/CC   breakeven/CD   per/IN   share/NN   ,/,   compared/VBN   to/TO   a/DT   net/JJ   loss/NN   of/IN   $/$   375.61/CD   million/CD   or/CC   $/$   6.66/CD   per/IN   share/NN   in/IN   the/DT   same/JJ   quarter/NN   last/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Clothing retailer, Citi Trends Inc.&#8217;s NASDAQ:CTRN, $30.71, +$0.77, 2.57% fiscal fourth quarter earnings rose 12% on continued sales growth.
+
+POS tagged sentence: 
+[('Clothing', 'VBG'), ('retailer', 'NN'), (',', ','), ('Citi', 'NNP'), ('Trends', 'NNPS'), ('Inc.&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('NASDAQ', 'NNP'), (':', ':'), ('CTRN', 'NNP'), (',', ','), ('$', '$'), ('30.71', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('0.77', 'CD'), (',', ','), ('2.57', 'CD'), ('%', 'NN'), ('fiscal', 'JJ'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('rose', 'VBD'), ('12', 'CD'), ('%', 'NN'), ('on', 'IN'), ('continued', 'VBN'), ('sales', 'NNS'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Clothing/VBG   retailer/NN   ,/,   (ORGANIZATION Citi/NNP Trends/NNPS)   Inc.&/NNP   #/#   8217/CD   ;/:   s/NNS   (ORGANIZATION NASDAQ/NNP)   :/:   CTRN/NNP   ,/,   $/$   30.71/CD   ,/,   +/:   $/$   0.77/CD   ,/,   2.57/CD   %/NN   fiscal/JJ   fourth/JJ   quarter/NN   earnings/NNS   rose/VBD   12/CD   %/NN   on/IN   continued/VBN   sales/NNS   growth/NN   ./.)
+----------------------------------
+original sentence: 
+Earnings rose 12 percent to $11.3 million, or 78 cents per share, for the three months ended Jan. 30 compared with $10.1 million, or 69 cents per share, a year earlier.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('rose', 'VBD'), ('12', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('11.3', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('78', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('for', 'IN'), ('the', 'DT'), ('three', 'CD'), ('months', 'NNS'), ('ended', 'VBD'), ('Jan.', 'NNP'), ('30', 'CD'), ('compared', 'VBN'), ('with', 'IN'), ('$', '$'), ('10.1', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('69', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('a', 'DT'), ('year', 'NN'), ('earlier', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   rose/VBD   12/CD   percent/NN   to/TO   $/$   11.3/CD   million/CD   ,/,   or/CC   78/CD   cents/NNS   per/IN   share/NN   ,/,   for/IN   the/DT   three/CD   months/NNS   ended/VBD   Jan./NNP   30/CD   compared/VBN   with/IN   $/$   10.1/CD   million/CD   ,/,   or/CC   69/CD   cents/NNS   per/IN   share/NN   ,/,   a/DT   year/NN   earlier/JJR   ./.)
+----------------------------------
+original sentence: 
+Name required Mail will not be published required Bank of America, Citigroup, JPM, NSM, TRA, CF Stk Future Mixed Before the Bell
+HIBB, PSUN, ARO, AIRM, SCHW, ZUMZ, KIRK, SEAC Popular Stocks
+
+
+POS tagged sentence: 
+[('Name', 'NNP'), ('required', 'VBD'), ('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), (',', ','), ('Citigroup', 'NNP'), (',', ','), ('JPM', 'NNP'), (',', ','), ('NSM', 'NNP'), (',', ','), ('TRA', 'NNP'), (',', ','), ('CF', 'NNP'), ('Stk', 'NNP'), ('Future', 'NNP'), ('Mixed', 'NNP'), ('Before', 'NNP'), ('the', 'DT'), ('Bell', 'NNP'), ('HIBB', 'NNP'), (',', ','), ('PSUN', 'NNP'), (',', ','), ('ARO', 'NNP'), (',', ','), ('AIRM', 'NNP'), (',', ','), ('SCHW', 'NNP'), (',', ','), ('ZUMZ', 'NNP'), (',', ','), ('KIRK', 'NNP'), (',', ','), ('SEAC', 'NNP'), ('Popular', 'NNP'), ('Stocks', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Name/NNP)   required/VBD   (PERSON Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   ,/,   (PERSON Citigroup/NNP)   ,/,   (ORGANIZATION JPM/NNP)   ,/,   (ORGANIZATION NSM/NNP)   ,/,   (ORGANIZATION TRA/NNP)   ,/,   (ORGANIZATION CF/NNP Stk/NNP Future/NNP Mixed/NNP)   Before/NNP   the/DT   (ORGANIZATION Bell/NNP)   HIBB/NNP   ,/,   (ORGANIZATION PSUN/NNP)   ,/,   (ORGANIZATION ARO/NNP)   ,/,   (ORGANIZATION AIRM/NNP)   ,/,   (ORGANIZATION SCHW/NNP)   ,/,   (ORGANIZATION ZUMZ/NNP)   ,/,   (ORGANIZATION KIRK/NNP)   ,/,   (ORGANIZATION SEAC/NNP Popular/NNP Stocks/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

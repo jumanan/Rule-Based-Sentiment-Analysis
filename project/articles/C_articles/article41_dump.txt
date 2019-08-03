@@ -1,0 +1,482 @@
+
+----------------------------------
+original sentence: 
+Financial Stocks Rise On Bernanke Comments, Jobless Data FOXBusiness.com
+Existing users please login
+ Remember me on this computer
+Thursday, March 25, 2010
+Financial Stocks Rise On Bernanke Comments, Jobless Data
+ NEW YORK Dow Jones Financial stocks were the strongest performers in the Standard & Poor's 500 Index Thursday as comments from Federal Reserve Chairman Ben Bernanke, employment data and news from several big banks helped push shares higher.
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('Stocks', 'NNS'), ('Rise', 'NNP'), ('On', 'NNP'), ('Bernanke', 'NNP'), ('Comments', 'NNP'), (',', ','), ('Jobless', 'NNP'), ('Data', 'NNP'), ('FOXBusiness.com', 'NNP'), ('Existing', 'NNP'), ('users', 'NNS'), ('please', 'VB'), ('login', 'NN'), ('Remember', 'NNP'), ('me', 'PRP'), ('on', 'IN'), ('this', 'DT'), ('computer', 'NN'), ('Thursday', 'NNP'), (',', ','), ('March', 'NNP'), ('25', 'CD'), (',', ','), ('2010', 'CD'), ('Financial', 'NNP'), ('Stocks', 'NNP'), ('Rise', 'NNP'), ('On', 'NNP'), ('Bernanke', 'NNP'), ('Comments', 'NNP'), (',', ','), ('Jobless', 'NNP'), ('Data', 'NNP'), ('NEW', 'NNP'), ('YORK', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Financial', 'NNP'), ('stocks', 'NNS'), ('were', 'VBD'), ('the', 'DT'), ('strongest', 'JJS'), ('performers', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Standard', 'NNP'), ('&', 'CC'), ('Poor', 'NNP'), ("'s", 'POS'), ('500', 'CD'), ('Index', 'NN'), ('Thursday', 'NNP'), ('as', 'IN'), ('comments', 'NNS'), ('from', 'IN'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Chairman', 'NNP'), ('Ben', 'NNP'), ('Bernanke', 'NNP'), (',', ','), ('employment', 'NN'), ('data', 'NNS'), ('and', 'CC'), ('news', 'NN'), ('from', 'IN'), ('several', 'JJ'), ('big', 'JJ'), ('banks', 'NNS'), ('helped', 'VBD'), ('push', 'JJ'), ('shares', 'NNS'), ('higher', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Financial/JJ   Stocks/NNS   (PERSON Rise/NNP On/NNP Bernanke/NNP Comments/NNP)   ,/,   (PERSON Jobless/NNP Data/NNP)   FOXBusiness.com/NNP   Existing/NNP   users/NNS   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Thursday/NNP   ,/,   March/NNP   25/CD   ,/,   2010/CD   Financial/NNP   Stocks/NNP   Rise/NNP   On/NNP   Bernanke/NNP   Comments/NNP   ,/,   (PERSON Jobless/NNP Data/NNP)   (ORGANIZATION NEW/NNP)   YORK/NNP   Dow/NNP   (PERSON Jones/NNP Financial/NNP)   stocks/NNS   were/VBD   the/DT   strongest/JJS   performers/NNS   in/IN   the/DT   (ORGANIZATION Standard/NNP)   &/CC   (PERSON Poor/NNP)   's/POS   500/CD   Index/NN   Thursday/NNP   as/IN   comments/NNS   from/IN   (ORGANIZATION Federal/NNP Reserve/NNP)   Chairman/NNP   (PERSON Ben/NNP Bernanke/NNP)   ,/,   employment/NN   data/NNS   and/CC   news/NN   from/IN   several/JJ   big/JJ   banks/NNS   helped/VBD   push/JJ   shares/NNS   higher/JJR   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Thursday/NNP)
+	(VERB   were/VBD   the/DT   strongest/JJS   performers/NNS   in/IN   the/DT   Standard/NNP)
+	(VERB helped/VBD push/JJ shares/NNS higher/JJR)
+noun phrases to consider:
+	(NOUN Financial/JJ Stocks/NNS Rise/NNP On/NNP Bernanke/NNP)
+	(NOUN Comments/NNP)
+	(NOUN Jobless/NNP Data/NNP FOXBusiness.com/NNP Existing/NNP)
+	(NOUN users/NNS)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Financial/NNP Stocks/NNP Rise/NNP On/NNP)
+	(NOUN Bernanke/NNP Comments/NNP)
+	(NOUN Jobless/NNP Data/NNP NEW/NNP YORK/NNP)
+	(NOUN Dow/NNP Jones/NNP Financial/NNP stocks/NNS)
+	(NOUN Poor/NNP)
+	(NOUN 500/CD Index/NN Thursday/NNP)
+	(NOUN comments/NNS)
+	(NOUN Federal/NNP Reserve/NNP Chairman/NNP Ben/NNP)
+	(NOUN Bernanke/NNP)
+	(NOUN employment/NN data/NNS)
+	(NOUN news/NN)
+	(NOUN several/JJ big/JJ banks/NNS)
+
+tagged sentence:
+	 several big banks	res:-1
+
+----------------------------------
+original sentence: 
+The head of the central bank, in written remarks prepared for the House Financial Services Committee, said the Fed still believes low interest rates are needed to support the U.S. economy, but the Fed will be ready to tighten credit when needed to prevent inflation.
+
+POS tagged sentence: 
+[('The', 'DT'), ('head', 'NN'), ('of', 'IN'), ('the', 'DT'), ('central', 'JJ'), ('bank', 'NN'), (',', ','), ('in', 'IN'), ('written', 'VBN'), ('remarks', 'NNS'), ('prepared', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('House', 'NNP'), ('Financial', 'NNP'), ('Services', 'NNPS'), ('Committee', 'NNP'), (',', ','), ('said', 'VBD'), ('the', 'DT'), ('Fed', 'NNP'), ('still', 'RB'), ('believes', 'VBZ'), ('low', 'JJ'), ('interest', 'NN'), ('rates', 'NNS'), ('are', 'VBP'), ('needed', 'VBN'), ('to', 'TO'), ('support', 'VB'), ('the', 'DT'), ('U.S.', 'NNP'), ('economy', 'NN'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('Fed', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('ready', 'RB'), ('to', 'TO'), ('tighten', 'VB'), ('credit', 'NN'), ('when', 'WRB'), ('needed', 'VBN'), ('to', 'TO'), ('prevent', 'VB'), ('inflation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   head/NN   of/IN   the/DT   central/JJ   bank/NN   ,/,   in/IN   written/VBN   remarks/NNS   prepared/VBN   for/IN   the/DT   (ORGANIZATION House/NNP)   Financial/NNP   Services/NNPS   (ORGANIZATION Committee/NNP)   ,/,   said/VBD   the/DT   (ORGANIZATION Fed/NNP)   still/RB   believes/VBZ   low/JJ   interest/NN   rates/NNS   are/VBP   needed/VBN   to/TO   support/VB   the/DT   (GPE U.S./NNP)   economy/NN   ,/,   but/CC   the/DT   (ORGANIZATION Fed/NNP)   will/MD   be/VB   ready/RB   to/TO   tighten/VB   credit/NN   when/WRB   needed/VBN   to/TO   prevent/VB   inflation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB written/VBN remarks/NNS)
+	(VERB   prepared/VBN   for/IN   the/DT   House/NNP   Financial/NNP   Services/NNPS   Committee/NNP)
+	(VERB said/VBD the/DT Fed/NNP still/RB)
+	(VERB believes/VBZ low/JJ interest/NN rates/NNS)
+	(VERB are/VBP needed/VBN)
+	(VERB support/VB the/DT U.S./NNP economy/NN)
+	(VERB be/VB ready/RB to/TO tighten/VB credit/NN)
+	(VERB needed/VBN to/TO prevent/VB inflation/NN)
+noun phrases to consider:
+	(NOUN head/NN)
+	(NOUN the/DT central/JJ bank/NN)
+	(NOUN Fed/NNP)
+
+----------------------------------
+original sentence: 
+Low interest rates help banks because they make more interest on loans than they pay on borrowings.
+
+POS tagged sentence: 
+[('Low', 'NNP'), ('interest', 'NN'), ('rates', 'NNS'), ('help', 'VBP'), ('banks', 'NNS'), ('because', 'IN'), ('they', 'PRP'), ('make', 'VBP'), ('more', 'RBR'), ('interest', 'NN'), ('on', 'IN'), ('loans', 'NNS'), ('than', 'IN'), ('they', 'PRP'), ('pay', 'VBP'), ('on', 'IN'), ('borrowings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Low/NNP)   interest/NN   rates/NNS   help/VBP   banks/NNS   because/IN   they/PRP   make/VBP   more/RBR   interest/NN   on/IN   loans/NNS   than/IN   they/PRP   pay/VBP   on/IN   borrowings/NNS   ./.)
+----------------------------------
+original sentence: 
+The S&P 500's financial sector was recently up 1.9%, well above the next biggest gainer, the consumer discretionary sector, which was up 1.5%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ("'s", 'POS'), ('financial', 'JJ'), ('sector', 'NN'), ('was', 'VBD'), ('recently', 'RB'), ('up', 'RP'), ('1.9', 'CD'), ('%', 'NN'), (',', ','), ('well', 'RB'), ('above', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('biggest', 'NN'), ('gainer', 'NN'), (',', ','), ('the', 'DT'), ('consumer', 'NN'), ('discretionary', 'NN'), ('sector', 'NN'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('up', 'RB'), ('1.5', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   500/CD   's/POS   financial/JJ   sector/NN   was/VBD   recently/RB   up/RP   1.9/CD   %/NN   ,/,   well/RB   above/IN   the/DT   next/JJ   biggest/NN   gainer/NN   ,/,   the/DT   consumer/NN   discretionary/NN   sector/NN   ,/,   which/WDT   was/VBD   up/RB   1.5/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+All segments of financials were rising, including big banks, regional banks, insurers and real estate investment trusts.
+
+POS tagged sentence: 
+[('All', 'DT'), ('segments', 'NNS'), ('of', 'IN'), ('financials', 'NNS'), ('were', 'VBD'), ('rising', 'VBG'), (',', ','), ('including', 'VBG'), ('big', 'JJ'), ('banks', 'NNS'), (',', ','), ('regional', 'JJ'), ('banks', 'NNS'), (',', ','), ('insurers', 'NNS'), ('and', 'CC'), ('real', 'JJ'), ('estate', 'NN'), ('investment', 'NN'), ('trusts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   segments/NNS   of/IN   financials/NNS   were/VBD   rising/VBG   ,/,   including/VBG   big/JJ   banks/NNS   ,/,   regional/JJ   banks/NNS   ,/,   insurers/NNS   and/CC   real/JJ   estate/NN   investment/NN   trusts/NNS   ./.)
+----------------------------------
+original sentence: 
+Oppenheimer & Co. analyst Terry McEvoy, who covers regional banks, said a gradual increase in rates would be beneficial to banks' margins, though if rates go up too quickly, it could be a challenge.
+
+POS tagged sentence: 
+[('Oppenheimer', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('analyst', 'NN'), ('Terry', 'NNP'), ('McEvoy', 'NNP'), (',', ','), ('who', 'WP'), ('covers', 'NNS'), ('regional', 'VBP'), ('banks', 'NNS'), (',', ','), ('said', 'VBD'), ('a', 'DT'), ('gradual', 'JJ'), ('increase', 'NN'), ('in', 'IN'), ('rates', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('beneficial', 'JJ'), ('to', 'TO'), ('banks', 'NNS'), ("'", 'POS'), ('margins', 'NNS'), (',', ','), ('though', 'IN'), ('if', 'IN'), ('rates', 'NNS'), ('go', 'VBP'), ('up', 'RP'), ('too', 'RB'), ('quickly', 'RB'), (',', ','), ('it', 'PRP'), ('could', 'MD'), ('be', 'VB'), ('a', 'DT'), ('challenge', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Oppenheimer/NNP   &/CC   Co./NNP   analyst/NN   (PERSON Terry/NNP McEvoy/NNP)   ,/,   who/WP   covers/NNS   regional/VBP   banks/NNS   ,/,   said/VBD   a/DT   gradual/JJ   increase/NN   in/IN   rates/NNS   would/MD   be/VB   beneficial/JJ   to/TO   banks/NNS   '/POS   margins/NNS   ,/,   though/IN   if/IN   rates/NNS   go/VBP   up/RP   too/RB   quickly/RB   ,/,   it/PRP   could/MD   be/VB   a/DT   challenge/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB regional/VBP banks/NNS)
+	(VERB said/VBD a/DT gradual/JJ increase/NN in/IN rates/NNS)
+	(VERB be/VB beneficial/JJ)
+	(VERB go/VBP)
+	(VERB be/VB a/DT challenge/NN)
+noun phrases to consider:
+	(NOUN Oppenheimer/NNP)
+	(NOUN Co./NNP analyst/NN Terry/NNP McEvoy/NNP)
+	(NOUN covers/NNS)
+	(NOUN banks/NNS)
+	(NOUN margins/NNS)
+	(NOUN rates/NNS)
+
+----------------------------------
+original sentence: 
+Low rates also give commercial borrowers more time to wait for the economic picture to improve, he said.
+
+POS tagged sentence: 
+[('Low', 'NNP'), ('rates', 'NNS'), ('also', 'RB'), ('give', 'VBP'), ('commercial', 'JJ'), ('borrowers', 'NNS'), ('more', 'RBR'), ('time', 'NN'), ('to', 'TO'), ('wait', 'VB'), ('for', 'IN'), ('the', 'DT'), ('economic', 'JJ'), ('picture', 'NN'), ('to', 'TO'), ('improve', 'VB'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Low/NNP)   rates/NNS   also/RB   give/VBP   commercial/JJ   borrowers/NNS   more/RBR   time/NN   to/TO   wait/VB   for/IN   the/DT   economic/JJ   picture/NN   to/TO   improve/VB   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+And U.S. jobless claims data showed new claims for jobless benefits fell last week by more than expected and continuing claims fell to their lowest level since December 2008.
+
+POS tagged sentence: 
+[('And', 'CC'), ('U.S.', 'NNP'), ('jobless', 'NN'), ('claims', 'VBZ'), ('data', 'NNS'), ('showed', 'VBD'), ('new', 'JJ'), ('claims', 'NNS'), ('for', 'IN'), ('jobless', 'NN'), ('benefits', 'NNS'), ('fell', 'VBD'), ('last', 'JJ'), ('week', 'NN'), ('by', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('expected', 'VBN'), ('and', 'CC'), ('continuing', 'VBG'), ('claims', 'NNS'), ('fell', 'VBD'), ('to', 'TO'), ('their', 'PRP$'), ('lowest', 'JJS'), ('level', 'NN'), ('since', 'IN'), ('December', 'NNP'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   (GPE U.S./NNP)   jobless/NN   claims/VBZ   data/NNS   showed/VBD   new/JJ   claims/NNS   for/IN   jobless/NN   benefits/NNS   fell/VBD   last/JJ   week/NN   by/IN   more/RBR   than/IN   expected/VBN   and/CC   continuing/VBG   claims/NNS   fell/VBD   to/TO   their/PRP$   lowest/JJS   level/NN   since/IN   December/NNP   2008/CD   ./.)
+----------------------------------
+original sentence: 
+That's a positive report for bank stocks, McEvoy said, as it gives investors greater confidence in the economic recovery, and bank shares are extremely sensitive to the overall economy.
+
+POS tagged sentence: 
+[('That', 'DT'), ("'s", 'VBZ'), ('a', 'DT'), ('positive', 'JJ'), ('report', 'NN'), ('for', 'IN'), ('bank', 'NN'), ('stocks', 'NNS'), (',', ','), ('McEvoy', 'NNP'), ('said', 'VBD'), (',', ','), ('as', 'IN'), ('it', 'PRP'), ('gives', 'VBZ'), ('investors', 'NNS'), ('greater', 'JJR'), ('confidence', 'NN'), ('in', 'IN'), ('the', 'DT'), ('economic', 'JJ'), ('recovery', 'NN'), (',', ','), ('and', 'CC'), ('bank', 'NN'), ('shares', 'NNS'), ('are', 'VBP'), ('extremely', 'RB'), ('sensitive', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('overall', 'JJ'), ('economy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   's/VBZ   a/DT   positive/JJ   report/NN   for/IN   bank/NN   stocks/NNS   ,/,   (ORGANIZATION McEvoy/NNP)   said/VBD   ,/,   as/IN   it/PRP   gives/VBZ   investors/NNS   greater/JJR   confidence/NN   in/IN   the/DT   economic/JJ   recovery/NN   ,/,   and/CC   bank/NN   shares/NNS   are/VBP   extremely/RB   sensitive/JJ   to/TO   the/DT   overall/JJ   economy/NN   ./.)
+----------------------------------
+original sentence: 
+For regional banks especially, which often have high exposure to commercial real estate, the jobless numbers give a boost.
+
+POS tagged sentence: 
+[('For', 'IN'), ('regional', 'JJ'), ('banks', 'NNS'), ('especially', 'RB'), (',', ','), ('which', 'WDT'), ('often', 'RB'), ('have', 'VBP'), ('high', 'JJ'), ('exposure', 'NN'), ('to', 'TO'), ('commercial', 'JJ'), ('real', 'JJ'), ('estate', 'NN'), (',', ','), ('the', 'DT'), ('jobless', 'NN'), ('numbers', 'NNS'), ('give', 'VBP'), ('a', 'DT'), ('boost', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   regional/JJ   banks/NNS   especially/RB   ,/,   which/WDT   often/RB   have/VBP   high/JJ   exposure/NN   to/TO   commercial/JJ   real/JJ   estate/NN   ,/,   the/DT   jobless/NN   numbers/NNS   give/VBP   a/DT   boost/NN   ./.)
+----------------------------------
+original sentence: 
+As more people get back to work, McEvoy said, companies are able to fill empty office buildings and people spend more at the mall, which means stores are able to pay their rent.
+
+POS tagged sentence: 
+[('As', 'IN'), ('more', 'JJR'), ('people', 'NNS'), ('get', 'VBP'), ('back', 'RB'), ('to', 'TO'), ('work', 'VB'), (',', ','), ('McEvoy', 'NNP'), ('said', 'VBD'), (',', ','), ('companies', 'NNS'), ('are', 'VBP'), ('able', 'JJ'), ('to', 'TO'), ('fill', 'VB'), ('empty', 'JJ'), ('office', 'NN'), ('buildings', 'NNS'), ('and', 'CC'), ('people', 'NNS'), ('spend', 'VBP'), ('more', 'JJR'), ('at', 'IN'), ('the', 'DT'), ('mall', 'NN'), (',', ','), ('which', 'WDT'), ('means', 'VBZ'), ('stores', 'NNS'), ('are', 'VBP'), ('able', 'JJ'), ('to', 'TO'), ('pay', 'VB'), ('their', 'PRP$'), ('rent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   more/JJR   people/NNS   get/VBP   back/RB   to/TO   work/VB   ,/,   (ORGANIZATION McEvoy/NNP)   said/VBD   ,/,   companies/NNS   are/VBP   able/JJ   to/TO   fill/VB   empty/JJ   office/NN   buildings/NNS   and/CC   people/NNS   spend/VBP   more/JJR   at/IN   the/DT   mall/NN   ,/,   which/WDT   means/VBZ   stores/NNS   are/VBP   able/JJ   to/TO   pay/VB   their/PRP$   rent/NN   ./.)
+----------------------------------
+original sentence: 
+Marshall & Ilsley Corp.  rose 3.2% to $8.29, while BB&T Corp.  rose 2.2% to $32.81 and Huntington Bancshares Inc.  rose 3.1% to $5.65.
+
+POS tagged sentence: 
+[('Marshall', 'NNP'), ('&', 'CC'), ('Ilsley', 'NNP'), ('Corp.', 'NNP'), ('rose', 'VBD'), ('3.2', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('8.29', 'CD'), (',', ','), ('while', 'IN'), ('BB&T', 'JJ'), ('Corp.', 'NNP'), ('rose', 'VBD'), ('2.2', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('32.81', 'CD'), ('and', 'CC'), ('Huntington', 'NNP'), ('Bancshares', 'NNP'), ('Inc.', 'NNP'), ('rose', 'VBD'), ('3.1', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('5.65', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Marshall/NNP   &/CC   (PERSON Ilsley/NNP)   Corp./NNP   rose/VBD   3.2/CD   %/NN   to/TO   $/$   8.29/CD   ,/,   while/IN   (ORGANIZATION BB&T/JJ Corp./NNP)   rose/VBD   2.2/CD   %/NN   to/TO   $/$   32.81/CD   and/CC   (PERSON Huntington/NNP Bancshares/NNP)   Inc./NNP   rose/VBD   3.1/CD   %/NN   to/TO   $/$   5.65/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD 3.2/CD %/NN)
+	(VERB rose/VBD 2.2/CD %/NN)
+	(VERB rose/VBD 3.1/CD %/NN)
+noun phrases to consider:
+	(NOUN Marshall/NNP)
+	(NOUN Ilsley/NNP Corp./NNP)
+	(NOUN BB&T/JJ Corp./NNP)
+	(NOUN Huntington/NNP Bancshares/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+McEvoy said it's a consistent trend Thursday, with both banks considered strong and banks that have had their share of credit woes and losses gaining.
+
+POS tagged sentence: 
+[('McEvoy', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ("'s", 'VBZ'), ('a', 'DT'), ('consistent', 'JJ'), ('trend', 'NN'), ('Thursday', 'NNP'), (',', ','), ('with', 'IN'), ('both', 'DT'), ('banks', 'NNS'), ('considered', 'VBN'), ('strong', 'JJ'), ('and', 'CC'), ('banks', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('had', 'VBD'), ('their', 'PRP$'), ('share', 'NN'), ('of', 'IN'), ('credit', 'NN'), ('woes', 'VBZ'), ('and', 'CC'), ('losses', 'NNS'), ('gaining', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON McEvoy/NNP)   said/VBD   it/PRP   's/VBZ   a/DT   consistent/JJ   trend/NN   Thursday/NNP   ,/,   with/IN   both/DT   banks/NNS   considered/VBN   strong/JJ   and/CC   banks/NNS   that/WDT   have/VBP   had/VBD   their/PRP$   share/NN   of/IN   credit/NN   woes/VBZ   and/CC   losses/NNS   gaining/VBG   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, Citigroup Inc.  earlier Thursday joined several big bank peers including Bank of America Corp.  , JPMorgan Chase & Co.,  and Wells Fargo & Co.  saying it plans to participate in the second mortgage modification program as part of the government's Home Affordable Modification Program, providing additional help to struggling homeowners.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('earlier', 'JJR'), ('Thursday', 'NNP'), ('joined', 'VBD'), ('several', 'JJ'), ('big', 'JJ'), ('bank', 'NN'), ('peers', 'NNS'), ('including', 'VBG'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('and', 'CC'), ('Wells', 'NNP'), ('Fargo', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('saying', 'VBG'), ('it', 'PRP'), ('plans', 'VBZ'), ('to', 'TO'), ('participate', 'VB'), ('in', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('mortgage', 'NN'), ('modification', 'NN'), ('program', 'NN'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('government', 'NN'), ("'s", 'POS'), ('Home', 'NNP'), ('Affordable', 'NNP'), ('Modification', 'NNP'), ('Program', 'NNP'), (',', ','), ('providing', 'VBG'), ('additional', 'JJ'), ('help', 'NN'), ('to', 'TO'), ('struggling', 'VB'), ('homeowners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   (ORGANIZATION Citigroup/NNP)   Inc./NNP   earlier/JJR   Thursday/NNP   joined/VBD   several/JJ   big/JJ   bank/NN   peers/NNS   including/VBG   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp./NNP)   ,/,   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   &/CC   Co./NNP   ,/,   and/CC   (PERSON Wells/NNP Fargo/NNP)   &/CC   Co./NNP   saying/VBG   it/PRP   plans/VBZ   to/TO   participate/VB   in/IN   the/DT   second/JJ   mortgage/NN   modification/NN   program/NN   as/IN   part/NN   of/IN   the/DT   government/NN   's/POS   Home/NNP   Affordable/NNP   Modification/NNP   Program/NNP   ,/,   providing/VBG   additional/JJ   help/NN   to/TO   struggling/VB   homeowners/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB joined/VBD several/JJ big/JJ bank/NN peers/NNS)
+
+tagged sentence:
+	 joined several big bank peers	res:-1
+	(VERB including/VBG Bank/NNP of/IN America/NNP Corp./NNP)
+	(VERB saying/VBG it/PRP)
+	(VERB   plans/VBZ   to/TO   participate/VB   in/IN   the/DT   second/JJ   mortgage/NN   modification/NN   program/NN   as/IN   part/NN   of/IN   the/DT   government/NN)
+	(VERB providing/VBG additional/JJ help/NN)
+	(VERB struggling/VB homeowners/NNS)
+
+tagged sentence:
+	 struggling homeowners	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP Inc./NNP earlier/JJR Thursday/NNP)
+	(NOUN JPMorgan/NNP Chase/NNP)
+	(NOUN Co./NNP)
+	(NOUN Wells/NNP Fargo/NNP)
+	(NOUN Co./NNP)
+	(NOUN Home/NNP Affordable/NNP Modification/NNP Program/NNP)
+
+----------------------------------
+original sentence: 
+That news followed on the heels of Bank of America's announcement Wednesday that it would make principal forgiveness a priority for certain subprime mortgages.
+
+POS tagged sentence: 
+[('That', 'DT'), ('news', 'NN'), ('followed', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('heels', 'NNS'), ('of', 'IN'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ("'s", 'POS'), ('announcement', 'NN'), ('Wednesday', 'NNP'), ('that', 'IN'), ('it', 'PRP'), ('would', 'MD'), ('make', 'VB'), ('principal', 'JJ'), ('forgiveness', 'NN'), ('a', 'DT'), ('priority', 'NN'), ('for', 'IN'), ('certain', 'JJ'), ('subprime', 'NN'), ('mortgages', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   news/NN   followed/VBD   on/IN   the/DT   heels/NNS   of/IN   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   's/POS   announcement/NN   Wednesday/NNP   that/IN   it/PRP   would/MD   make/VB   principal/JJ   forgiveness/NN   a/DT   priority/NN   for/IN   certain/JJ   subprime/NN   mortgages/NNS   ./.)
+----------------------------------
+original sentence: 
+Citi and Bank of America were among the top gainers, rising 5.3% to $4.37 and 4.1% to $18.29, respectively.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('and', 'CC'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('were', 'VBD'), ('among', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('gainers', 'NNS'), (',', ','), ('rising', 'VBG'), ('5.3', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('4.37', 'CD'), ('and', 'CC'), ('4.1', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('18.29', 'CD'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   and/CC   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   were/VBD   among/IN   the/DT   top/JJ   gainers/NNS   ,/,   rising/VBG   5.3/CD   %/NN   to/TO   $/$   4.37/CD   and/CC   4.1/CD   %/NN   to/TO   $/$   18.29/CD   ,/,   respectively/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD among/IN the/DT top/JJ gainers/NNS)
+	(VERB rising/VBG 5.3/CD %/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP)
+	(NOUN 4.1/CD %/NN)
+
+----------------------------------
+original sentence: 
+Wells Fargo gained 3.3% to $31.89, while JPMorgan was up 2.3% at $45.97.
+
+POS tagged sentence: 
+[('Wells', 'NNS'), ('Fargo', 'NNP'), ('gained', 'VBD'), ('3.3', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('31.89', 'CD'), (',', ','), ('while', 'IN'), ('JPMorgan', 'NNP'), ('was', 'VBD'), ('up', 'IN'), ('2.3', 'CD'), ('%', 'NN'), ('at', 'IN'), ('$', '$'), ('45.97', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Wells/NNS   (PERSON Fargo/NNP)   gained/VBD   3.3/CD   %/NN   to/TO   $/$   31.89/CD   ,/,   while/IN   (ORGANIZATION JPMorgan/NNP)   was/VBD   up/IN   2.3/CD   %/NN   at/IN   $/$   45.97/CD   ./.)
+----------------------------------
+original sentence: 
+Raymond James analyst Anthony Polini said that loan modification news is a bit psychological, but it also points to "a softer landing for the housing market," as losses will be spread out over a couple of years instead of a couple of quarters.
+
+POS tagged sentence: 
+[('Raymond', 'NNP'), ('James', 'NNP'), ('analyst', 'NN'), ('Anthony', 'NNP'), ('Polini', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('loan', 'NN'), ('modification', 'NN'), ('news', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('bit', 'NN'), ('psychological', 'JJ'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ('also', 'RB'), ('points', 'VBZ'), ('to', 'TO'), ('"', 'VB'), ('a', 'DT'), ('softer', 'JJR'), ('landing', 'NN'), ('for', 'IN'), ('the', 'DT'), ('housing', 'NN'), ('market', 'NN'), (',', ','), ('"', ':'), ('as', 'IN'), ('losses', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('spread', 'VBN'), ('out', 'RP'), ('over', 'IN'), ('a', 'DT'), ('couple', 'NN'), ('of', 'IN'), ('years', 'NNS'), ('instead', 'RB'), ('of', 'IN'), ('a', 'DT'), ('couple', 'NN'), ('of', 'IN'), ('quarters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Raymond/NNP)   (PERSON James/NNP)   analyst/NN   (PERSON Anthony/NNP Polini/NNP)   said/VBD   that/IN   loan/NN   modification/NN   news/NN   is/VBZ   a/DT   bit/NN   psychological/JJ   ,/,   but/CC   it/PRP   also/RB   points/VBZ   to/TO   "/VB   a/DT   softer/JJR   landing/NN   for/IN   the/DT   housing/NN   market/NN   ,/,   "/:   as/IN   losses/NNS   will/MD   be/VB   spread/VBN   out/RP   over/IN   a/DT   couple/NN   of/IN   years/NNS   instead/RB   of/IN   a/DT   couple/NN   of/IN   quarters/NNS   ./.)
+----------------------------------
+original sentence: 
+He added the banks' first quarter reporting dates are moving closer, with JPMorgan set to kick off bank earnings season April 14. Credit quality is likely to be a positive catalyst in banks' results for the quarter, he said.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('added', 'VBD'), ('the', 'DT'), ('banks', 'NNS'), ("'", 'POS'), ('first', 'JJ'), ('quarter', 'NN'), ('reporting', 'VBG'), ('dates', 'NNS'), ('are', 'VBP'), ('moving', 'VBG'), ('closer', 'RBR'), (',', ','), ('with', 'IN'), ('JPMorgan', 'NNP'), ('set', 'NN'), ('to', 'TO'), ('kick', 'VB'), ('off', 'RP'), ('bank', 'NN'), ('earnings', 'NNS'), ('season', 'NN'), ('April', 'NNP'), ('14.', 'CD'), ('Credit', 'NNP'), ('quality', 'NN'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('positive', 'JJ'), ('catalyst', 'NN'), ('in', 'IN'), ('banks', 'NNS'), ("'", 'POS'), ('results', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   added/VBD   the/DT   banks/NNS   '/POS   first/JJ   quarter/NN   reporting/VBG   dates/NNS   are/VBP   moving/VBG   closer/RBR   ,/,   with/IN   (ORGANIZATION JPMorgan/NNP)   set/NN   to/TO   kick/VB   off/RP   bank/NN   earnings/NNS   season/NN   April/NNP   14./CD   (ORGANIZATION Credit/NNP)   quality/NN   is/VBZ   likely/JJ   to/TO   be/VB   a/DT   positive/JJ   catalyst/NN   in/IN   banks/NNS   '/POS   results/NNS   for/IN   the/DT   quarter/NN   ,/,   he/PRP   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB added/VBD the/DT banks/NNS)
+	(VERB reporting/VBG dates/NNS)
+	(VERB are/VBP moving/VBG)
+	(VERB kick/VB)
+	(VERB is/VBZ likely/JJ)
+	(VERB be/VB a/DT positive/JJ catalyst/NN in/IN banks/NNS)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN first/JJ quarter/NN)
+	(NOUN JPMorgan/NNP set/NN)
+	(NOUN bank/NN earnings/NNS season/NN April/NNP)
+	(NOUN 14./CD Credit/NNP quality/NN)
+	(NOUN results/NNS)
+	(NOUN quarter/NN)
+
+----------------------------------
+original sentence: 
+Insurers posted gains, led by American International Group Inc.  , which rose 6.3% to $35.27.
+
+POS tagged sentence: 
+[('Insurers', 'NNS'), ('posted', 'VBD'), ('gains', 'NNS'), (',', ','), ('led', 'VBN'), ('by', 'IN'), ('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('which', 'WDT'), ('rose', 'VBD'), ('6.3', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('35.27', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Insurers/NNS   posted/VBD   gains/NNS   ,/,   led/VBN   by/IN   (ORGANIZATION American/NNP International/NNP Group/NNP Inc./NNP)   ,/,   which/WDT   rose/VBD   6.3/CD   %/NN   to/TO   $/$   35.27/CD   ./.)
+----------------------------------
+original sentence: 
+Progressive Corp.  rose 3.3% to $19.09 after an upgrade from Janney Capital Markets earlier in the day.
+
+POS tagged sentence: 
+[('Progressive', 'JJ'), ('Corp.', 'NNP'), ('rose', 'VBD'), ('3.3', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('19.09', 'CD'), ('after', 'IN'), ('an', 'DT'), ('upgrade', 'NN'), ('from', 'IN'), ('Janney', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), ('earlier', 'JJR'), ('in', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Progressive/JJ   Corp./NNP   rose/VBD   3.3/CD   %/NN   to/TO   $/$   19.09/CD   after/IN   an/DT   upgrade/NN   from/IN   (PERSON Janney/NNP Capital/NNP Markets/NNPS)   earlier/JJR   in/IN   the/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD 3.3/CD %/NN)
+noun phrases to consider:
+	(NOUN Progressive/JJ Corp./NNP)
+	(NOUN upgrade/NN)
+	(NOUN Janney/NNP Capital/NNP Markets/NNPS earlier/JJR)
+	(NOUN day/NN)
+
+----------------------------------
+original sentence: 
+REITS also rose, with Pennsylvania Real Estate Investment Trust  leading gainers, up 4.8% to $12.99.
+
+POS tagged sentence: 
+[('REITS', 'NNS'), ('also', 'RB'), ('rose', 'VBD'), (',', ','), ('with', 'IN'), ('Pennsylvania', 'NNP'), ('Real', 'NNP'), ('Estate', 'NNP'), ('Investment', 'NNP'), ('Trust', 'NNP'), ('leading', 'VBG'), ('gainers', 'NNS'), (',', ','), ('up', 'RB'), ('4.8', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('12.99', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   REITS/NNS   also/RB   rose/VBD   ,/,   with/IN   (PERSON Pennsylvania/NNP Real/NNP Estate/NNP)   Investment/NNP   Trust/NNP   leading/VBG   gainers/NNS   ,/,   up/RB   4.8/CD   %/NN   to/TO   $/$   12.99/CD   ./.)
+----------------------------------
+original sentence: 
+Diamondrock Hospitality Co.  rose 4.3% to $10.12, while SL Green Realty Corp.  gained 3.9% to $56.94.
+
+POS tagged sentence: 
+[('Diamondrock', 'NNP'), ('Hospitality', 'NNP'), ('Co.', 'NNP'), ('rose', 'VBD'), ('4.3', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('10.12', 'CD'), (',', ','), ('while', 'IN'), ('SL', 'NNP'), ('Green', 'NNP'), ('Realty', 'NNP'), ('Corp.', 'NNP'), ('gained', 'VBD'), ('3.9', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('56.94', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Diamondrock/NNP)   (ORGANIZATION Hospitality/NNP)   Co./NNP   rose/VBD   4.3/CD   %/NN   to/TO   $/$   10.12/CD   ,/,   while/IN   (ORGANIZATION SL/NNP Green/NNP Realty/NNP Corp./NNP)   gained/VBD   3.9/CD   %/NN   to/TO   $/$   56.94/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD 4.3/CD %/NN)
+	(VERB gained/VBD 3.9/CD %/NN)
+noun phrases to consider:
+	(NOUN Diamondrock/NNP Hospitality/NNP Co./NNP)
+	(NOUN SL/NNP Green/NNP Realty/NNP Corp./NNP)
+
+----------------------------------
+original sentence: 
+Copyright &copy; 2009 Dow Jones Newswires
+Personal Finance Investing Financial News Business News Stock Market Quotes & News Small Business
+Jobs at FOX Business Network
+.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2009', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Newswires', 'NNP'), ('Personal', 'NNP'), ('Finance', 'NNP'), ('Investing', 'NNP'), ('Financial', 'NNP'), ('News', 'NNP'), ('Business', 'NNP'), ('News', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Quotes', 'NNP'), ('&', 'CC'), ('News', 'NNP'), ('Small', 'NNP'), ('Business', 'NNP'), ('Jobs', 'NNP'), ('at', 'IN'), ('FOX', 'NNP'), ('Business', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   2009/CD   Dow/NNP   (PERSON     Jones/NNP     Newswires/NNP     Personal/NNP     Finance/NNP     Investing/NNP     Financial/NNP     News/NNP     Business/NNP     News/NNP     Stock/NNP     Market/NNP     Quotes/NNP)   &/CC   (ORGANIZATION News/NNP Small/NNP Business/NNP Jobs/NNP)   at/IN   (ORGANIZATION FOX/NNP Business/NNP Network/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Copyright/NNP &copy/NNP)
+	(NOUN 2009/CD Dow/NNP Jones/NNP Newswires/NNP Personal/NNP)
+	(NOUN Finance/NNP Investing/NNP Financial/NNP News/NNP)
+	(NOUN Business/NNP News/NNP Stock/NNP Market/NNP)
+	(NOUN Quotes/NNP)
+	(NOUN News/NNP Small/NNP Business/NNP Jobs/NNP)
+	(NOUN FOX/NNP Business/NNP Network/NNP)
+
+----------------------------------
+original sentence: 
+For FOXBusiness.com technical issues write to foxbusinessonline@foxbusiness.com
+; for all other feedback, write to feedback@foxbusiness.com
+Quotes delayed at least 15 minutes.
+
+POS tagged sentence: 
+[('For', 'IN'), ('FOXBusiness.com', 'JJ'), ('technical', 'JJ'), ('issues', 'NNS'), ('write', 'VBP'), ('to', 'TO'), ('foxbusinessonline', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), (';', ':'), ('for', 'IN'), ('all', 'PDT'), ('other', 'JJ'), ('feedback', 'NN'), (',', ','), ('write', 'JJ'), ('to', 'TO'), ('feedback', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), ('Quotes', 'NNS'), ('delayed', 'VBN'), ('at', 'IN'), ('least', 'JJS'), ('15', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   FOXBusiness.com/JJ   technical/JJ   issues/NNS   write/VBP   to/TO   foxbusinessonline/VB   @/:   foxbusiness.com/JJ   ;/:   for/IN   all/PDT   other/JJ   feedback/NN   ,/,   write/JJ   to/TO   feedback/VB   @/:   foxbusiness.com/JJ   Quotes/NNS   delayed/VBN   at/IN   least/JJS   15/CD   minutes/NNS   ./.)
+----------------------------------
+original sentence: 
+Market Data provided by Interactive Data  .
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Data', 'NNP'), ('provided', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Market/NN)   (PERSON Data/NNP)   provided/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP)   ./.)
+----------------------------------
+original sentence: 
+Powered and implemented by Interactive Data Managed Solutions
+.
+
+POS tagged sentence: 
+[('Powered', 'NNP'), ('and', 'CC'), ('implemented', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('Managed', 'NNP'), ('Solutions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Powered/NNP)   and/CC   implemented/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP Managed/NNP Solutions/NNP)   ./.)
+----------------------------------
+original sentence: 
+Company fundamental data provided by .
+
+POS tagged sentence: 
+[('Company', 'NN'), ('fundamental', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Company/NN) fundamental/NN data/NNS provided/VBN by/IN ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provided/VBN by/IN)
+noun phrases to consider:
+	(NOUN Company/NN fundamental/NN data/NNS)
+
+----------------------------------
+original sentence: 
+Earnings estimates data provided by Zacks.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('estimates', 'VBZ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   estimates/VBZ   data/NNS   provided/VBN   by/IN   (PERSON Zacks/NNP)   ./.)
+----------------------------------
+original sentence: 
+Mutual fund data provided by Lipper.
+
+POS tagged sentence: 
+[('Mutual', 'JJ'), ('fund', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Lipper', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mutual/JJ)   fund/NN   data/NNS   provided/VBN   by/IN   (PERSON Lipper/NNP)   ./.)
+----------------------------------
+original sentence: 
+Economic data provided by Econoday.
+
+POS tagged sentence: 
+[('Economic', 'JJ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Econoday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Economic/JJ data/NNS provided/VBN by/IN Econoday/NNP ./.)
+----------------------------------
+original sentence: 
+Dow Jones & Company Terms & Conditions.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), ('Terms', 'NNP'), ('&', 'CC'), ('Conditions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Jones/NNP)   &/CC   (ORGANIZATION Company/NNP Terms/NNP)   &/CC   (ORGANIZATION Conditions/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Dow/NNP Jones/NNP)
+	(NOUN Company/NNP Terms/NNP)
+	(NOUN Conditions/NNP)
+
+----------------------------------
+original sentence: 
+This material may not be published, broadcast, rewritten, or redistributed.
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), (',', ','), ('broadcast', 'JJ'), (',', ','), ('rewritten', 'RB'), (',', ','), ('or', 'CC'), ('redistributed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   may/MD   not/RB   be/VB   published/VBN   ,/,   broadcast/JJ   ,/,   rewritten/RB   ,/,   or/CC   redistributed/VBN   ./.)
+----------------------------------
+original sentence: 
+&copy;2010 FOX News Network, LLC.
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('FOX', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &copy/JJ   ;/:   2010/CD   (ORGANIZATION FOX/NNP News/NNP Network/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN &copy/JJ)
+	(NOUN 2010/CD FOX/NNP News/NNP Network/NNP)
+	(NOUN LLC/NNP)
+
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:3	pos:0	verypos:0	total:1

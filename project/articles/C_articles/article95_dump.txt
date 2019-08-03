@@ -1,0 +1,109 @@
+
+----------------------------------
+original sentence: 
+Citibank NYSE: C Lowers Price Target for National Semiconductor NYSE: NSM American Banking News
+Citibank NYSE: C Lowers Price Target for National Semiconductor NYSE: NSM  March 12th, 2010 &bull;  &bull; by admin  Filed Under: Citibank NYSE: C maintained its buy rating on National Semiconductor NYSE: NSM and lowered its price target to $22, down from $23.00 citing lower comparable multiples.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Lowers', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('for', 'IN'), ('National', 'NNP'), ('Semiconductor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('NSM', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Lowers', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('for', 'IN'), ('National', 'NNP'), ('Semiconductor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('NSM', 'NNP'), ('March', 'NNP'), ('12th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('maintained', 'VBD'), ('its', 'PRP$'), ('buy', 'NN'), ('rating', 'NN'), ('on', 'IN'), ('National', 'NNP'), ('Semiconductor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('NSM', 'NNP'), ('and', 'CC'), ('lowered', 'VBD'), ('its', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('$', '$'), ('22', 'CD'), (',', ','), ('down', 'IN'), ('from', 'IN'), ('$', '$'), ('23.00', 'CD'), ('citing', 'VBG'), ('lower', 'JJR'), ('comparable', 'JJ'), ('multiples', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Lowers/NNPS   Price/NNP   Target/NNP   for/IN   (ORGANIZATION National/NNP Semiconductor/NNP)   NYSE/NNP   :/:   (ORGANIZATION NSM/NNP American/NNP)   Banking/NNP   News/NNP   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   Lowers/NNPS   Price/NNP   Target/NNP   for/IN   (ORGANIZATION National/NNP Semiconductor/NNP)   NYSE/NNP   :/:   (ORGANIZATION NSM/NNP)   March/NNP   12th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   maintained/VBD   its/PRP$   buy/NN   rating/NN   on/IN   (ORGANIZATION National/NNP Semiconductor/NNP)   NYSE/NNP   :/:   NSM/NNP   and/CC   lowered/VBD   its/PRP$   price/NN   target/NN   to/TO   $/$   22/CD   ,/,   down/IN   from/IN   $/$   23.00/CD   citing/VBG   lower/JJR   comparable/JJ   multiples/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   maintained/VBD   its/PRP$   buy/NN   rating/NN   on/IN   National/NNP   Semiconductor/NNP   NYSE/NNP)
+	(VERB lowered/VBD its/PRP$ price/NN target/NN)
+
+tagged sentence:
+	 lowered its price target	res:-1
+	(VERB citing/VBG lower/JJR comparable/JJ multiples/NNS)
+
+tagged sentence:
+	 citing lower comparable multiples	res:-1
+noun phrases to consider:
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Lowers/NNPS Price/NNP Target/NNP)
+	(NOUN National/NNP Semiconductor/NNP NYSE/NNP)
+	(NOUN NSM/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Lowers/NNPS Price/NNP Target/NNP)
+	(NOUN National/NNP Semiconductor/NNP NYSE/NNP)
+	(NOUN NSM/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN NSM/NNP)
+
+----------------------------------
+original sentence: 
+Citibank Analyst Terence Whalen said, &#8220;New CEO Macleod formerly COO spent his first 3 mos lobbying large distributors and OEMs.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('Analyst', 'NNP'), ('Terence', 'NNP'), ('Whalen', 'NNP'), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('New', 'NNP'), ('CEO', 'NNP'), ('Macleod', 'NNP'), ('formerly', 'RB'), ('COO', 'NNP'), ('spent', 'NN'), ('his', 'PRP$'), ('first', 'JJ'), ('3', 'CD'), ('mos', 'NNS'), ('lobbying', 'VBG'), ('large', 'JJ'), ('distributors', 'NNS'), ('and', 'CC'), ('OEMs', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   (PERSON Analyst/NNP Terence/NNP Whalen/NNP)   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   (GPE New/NNP)   CEO/NNP   Macleod/NNP   formerly/RB   (ORGANIZATION COO/NNP)   spent/NN   his/PRP$   first/JJ   3/CD   mos/NNS   lobbying/VBG   large/JJ   distributors/NNS   and/CC   (ORGANIZATION OEMs/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB lobbying/VBG large/JJ distributors/NNS)
+noun phrases to consider:
+	(NOUN Citibank/NNP Analyst/NNP Terence/NNP Whalen/NNP)
+	(NOUN New/NNP CEO/NNP Macleod/NNP)
+	(NOUN COO/NNP spent/NN)
+	(NOUN first/JJ 3/CD mos/NNS)
+	(NOUN OEMs/NNP)
+
+----------------------------------
+original sentence: 
+NSM is known as a solid technology and fulfillment partner, but Macleod must extend an olive branch to customers after NSM rolled out unsympathetic price increases in prior years under CEO Halla&#8217;s tenure.
+
+POS tagged sentence: 
+[('NSM', 'NNP'), ('is', 'VBZ'), ('known', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('solid', 'JJ'), ('technology', 'NN'), ('and', 'CC'), ('fulfillment', 'NN'), ('partner', 'NN'), (',', ','), ('but', 'CC'), ('Macleod', 'NNP'), ('must', 'MD'), ('extend', 'VB'), ('an', 'DT'), ('olive', 'JJ'), ('branch', 'NN'), ('to', 'TO'), ('customers', 'NNS'), ('after', 'IN'), ('NSM', 'NNP'), ('rolled', 'VBD'), ('out', 'RP'), ('unsympathetic', 'JJ'), ('price', 'NN'), ('increases', 'NNS'), ('in', 'IN'), ('prior', 'JJ'), ('years', 'NNS'), ('under', 'IN'), ('CEO', 'NNP'), ('Halla&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('tenure', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NSM/NNP)   is/VBZ   known/VBN   as/IN   a/DT   solid/JJ   technology/NN   and/CC   fulfillment/NN   partner/NN   ,/,   but/CC   (PERSON Macleod/NNP)   must/MD   extend/VB   an/DT   olive/JJ   branch/NN   to/TO   customers/NNS   after/IN   (ORGANIZATION NSM/NNP)   rolled/VBD   out/RP   unsympathetic/JJ   price/NN   increases/NNS   in/IN   prior/JJ   years/NNS   under/IN   (ORGANIZATION CEO/NNP)   Halla&/NNP   #/#   8217/CD   ;/:   s/NNS   tenure/VBP   ./.)
+----------------------------------
+original sentence: 
+In essence, NSM is attempting to accelerate sales growth while maintaining its 65% to 70% target GM range.
+
+POS tagged sentence: 
+[('In', 'IN'), ('essence', 'NN'), (',', ','), ('NSM', 'NNP'), ('is', 'VBZ'), ('attempting', 'VBG'), ('to', 'TO'), ('accelerate', 'VB'), ('sales', 'NNS'), ('growth', 'NN'), ('while', 'IN'), ('maintaining', 'VBG'), ('its', 'PRP$'), ('65', 'CD'), ('%', 'NN'), ('to', 'TO'), ('70', 'CD'), ('%', 'NN'), ('target', 'NN'), ('GM', 'NNP'), ('range', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   essence/NN   ,/,   (ORGANIZATION NSM/NNP)   is/VBZ   attempting/VBG   to/TO   accelerate/VB   sales/NNS   growth/NN   while/IN   maintaining/VBG   its/PRP$   65/CD   %/NN   to/TO   70/CD   %/NN   target/NN   GM/NNP   range/NN   ./.)
+----------------------------------
+original sentence: 
+To do this, it must re engage as a cooperative partner, and win select pools of lower priced business that previously were too low margin, but now are accessible because of recent cost reductions.&#8221;
+The bank expects the company to report 2010 earnings per share of $0.82 versus consensus estimates of $0.72.
+
+POS tagged sentence: 
+[('To', 'TO'), ('do', 'VB'), ('this', 'DT'), (',', ','), ('it', 'PRP'), ('must', 'MD'), ('re', 'VB'), ('engage', 'NN'), ('as', 'IN'), ('a', 'DT'), ('cooperative', 'JJ'), ('partner', 'NN'), (',', ','), ('and', 'CC'), ('win', 'VB'), ('select', 'NN'), ('pools', 'NNS'), ('of', 'IN'), ('lower', 'JJR'), ('priced', 'VBN'), ('business', 'NN'), ('that', 'IN'), ('previously', 'RB'), ('were', 'VBD'), ('too', 'RB'), ('low', 'JJ'), ('margin', 'NN'), (',', ','), ('but', 'CC'), ('now', 'RB'), ('are', 'VBP'), ('accessible', 'JJ'), ('because', 'IN'), ('of', 'IN'), ('recent', 'JJ'), ('cost', 'NN'), ('reductions.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('The', 'DT'), ('bank', 'NN'), ('expects', 'VBZ'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('report', 'VB'), ('2010', 'CD'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('0.82', 'CD'), ('versus', 'NNS'), ('consensus', 'VBZ'), ('estimates', 'NNS'), ('of', 'IN'), ('$', '$'), ('0.72', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   do/VB   this/DT   ,/,   it/PRP   must/MD   re/VB   engage/NN   as/IN   a/DT   cooperative/JJ   partner/NN   ,/,   and/CC   win/VB   select/NN   pools/NNS   of/IN   lower/JJR   priced/VBN   business/NN   that/IN   previously/RB   were/VBD   too/RB   low/JJ   margin/NN   ,/,   but/CC   now/RB   are/VBP   accessible/JJ   because/IN   of/IN   recent/JJ   cost/NN   reductions.&/NN   #/#   8221/CD   ;/:   The/DT   bank/NN   expects/VBZ   the/DT   company/NN   to/TO   report/VB   2010/CD   earnings/NNS   per/IN   share/NN   of/IN   $/$   0.82/CD   versus/NNS   consensus/VBZ   estimates/NNS   of/IN   $/$   0.72/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB do/VB this/DT)
+	(VERB re/VB engage/NN as/IN a/DT cooperative/JJ partner/NN)
+	(VERB win/VB select/NN pools/NNS of/IN lower/JJR)
+	(VERB priced/VBN business/NN that/IN previously/RB)
+	(VERB were/VBD too/RB low/JJ margin/NN)
+	(VERB   are/VBP   accessible/JJ   because/IN   of/IN   recent/JJ   cost/NN   reductions.&/NN)
+	(VERB expects/VBZ the/DT company/NN)
+	(VERB report/VB 2010/CD earnings/NNS per/IN share/NN of/IN)
+	(VERB consensus/VBZ estimates/NNS of/IN)
+noun phrases to consider:
+	(NOUN bank/NN)
+	(NOUN 0.82/CD versus/NNS)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:0

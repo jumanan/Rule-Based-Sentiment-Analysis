@@ -1,0 +1,397 @@
+
+----------------------------------
+original sentence: 
+Moody&#039;s Down on Alcoa Analyst Blog | Benzinga.com
+Moody&#039;s Down on Alcoa Analyst Blog
+Recent Articles by Zacks
+Posted on 03/31/10 at 1:17pm by Moody's Investors Service
+ has reaffirmed its "Baa3" rating on  Australian affiliate and assigned a â€œNegative" outlook, reports AP.
+
+POS tagged sentence: 
+[('Moody&', 'NN'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Down', 'NNP'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Moody&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Down', 'NNP'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Zacks', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/31/10', 'CD'), ('at', 'IN'), ('1', 'CD'), (':', ':'), ('17pm', 'CD'), ('by', 'IN'), ('Moody', 'NNP'), ("'s", 'POS'), ('Investors', 'NNPS'), ('Service', 'NNP'), ('has', 'VBZ'), ('reaffirmed', 'VBN'), ('its', 'PRP$'), ('"', 'NNP'), ('Baa3', 'NNP'), ('"', 'NNP'), ('rating', 'NN'), ('on', 'IN'), ('Australian', 'JJ'), ('affiliate', 'NN'), ('and', 'CC'), ('assigned', 'VBD'), ('a', 'DT'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('Negative', 'JJ'), ('"', 'NN'), ('outlook', 'NN'), (',', ','), ('reports', 'VBZ'), ('AP', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Moody&/NN   #/#   039/CD   ;/:   s/NNS   (PERSON Down/NNP)   on/IN   (PERSON Alcoa/NNP Analyst/NNP Blog/NNP)   |/NNP   Benzinga.com/NNP   Moody&/NNP   #/#   039/CD   ;/:   s/NNS   (PERSON Down/NNP)   on/IN   (PERSON Alcoa/NNP Analyst/NNP Blog/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Zacks/NNP Posted/NNP)   on/IN   03/31/10/CD   at/IN   1/CD   :/:   17pm/CD   by/IN   (PERSON Moody/NNP)   's/POS   (ORGANIZATION Investors/NNPS Service/NNP)   has/VBZ   reaffirmed/VBN   its/PRP$   "/NNP   Baa3/NNP   "/NNP   rating/NN   on/IN   (GPE Australian/JJ)   affiliate/NN   and/CC   assigned/VBD   a/DT   â/NN   €/:   œ/:   Negative/JJ   "/NN   outlook/NN   ,/,   reports/VBZ   (ORGANIZATION AP/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   reaffirmed/VBN   its/PRP$   "/NNP   Baa3/NNP   "/NNP   rating/NN   on/IN   Australian/JJ   affiliate/NN)
+	(VERB assigned/VBD a/DT â/NN)
+	(VERB reports/VBZ AP/NNP)
+noun phrases to consider:
+	(NOUN Moody&/NN)
+	(NOUN s/NNS Down/NNP)
+	(NOUN Alcoa/NNP Analyst/NNP Blog/NNP |/NNP)
+	(NOUN Benzinga.com/NNP Moody&/NNP)
+	(NOUN s/NNS Down/NNP)
+	(NOUN Alcoa/NNP Analyst/NNP Blog/NNP Recent/NNP)
+	(NOUN Articles/NNP)
+	(NOUN Zacks/NNP Posted/NNP)
+	(NOUN Moody/NNP)
+	(NOUN Investors/NNPS Service/NNP)
+	(NOUN Negative/JJ "/NN outlook/NN)
+
+----------------------------------
+original sentence: 
+Moodyâ€™s judges obligations rated â€œBaa" to have moderate credit risk.
+
+POS tagged sentence: 
+[('Moody', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('judges', 'NNS'), ('obligations', 'NNS'), ('rated', 'VBD'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('Baa', 'NNP'), ('"', 'NNP'), ('to', 'TO'), ('have', 'VB'), ('moderate', 'JJ'), ('credit', 'NN'), ('risk', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Moody/NNP)   â/:   €/:   ™/:   s/NNS   judges/NNS   obligations/NNS   rated/VBD   â/CD   €/CD   œ/CD   Baa/NNP   "/NNP   to/TO   have/VB   moderate/JJ   credit/NN   risk/NN   ./.)
+----------------------------------
+original sentence: 
+The agency considers such debt as medium grade.
+
+POS tagged sentence: 
+[('The', 'DT'), ('agency', 'NN'), ('considers', 'NNS'), ('such', 'JJ'), ('debt', 'NN'), ('as', 'IN'), ('medium', 'NN'), ('grade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   agency/NN   considers/NNS   such/JJ   debt/NN   as/IN   medium/NN   grade/NN   ./.)
+----------------------------------
+original sentence: 
+Alcoaâ€™s debt equity ratio has hovered around 60% in 2009, with return on equity being consistently negative.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('debt', 'NN'), ('equity', 'NN'), ('ratio', 'NN'), ('has', 'VBZ'), ('hovered', 'VBN'), ('around', 'IN'), ('60', 'CD'), ('%', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('with', 'IN'), ('return', 'NN'), ('on', 'IN'), ('equity', 'NN'), ('being', 'VBG'), ('consistently', 'RB'), ('negative', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   â/:   €/:   ™/:   s/NNS   debt/NN   equity/NN   ratio/NN   has/VBZ   hovered/VBN   around/IN   60/CD   %/NN   in/IN   2009/CD   ,/,   with/IN   return/NN   on/IN   equity/NN   being/VBG   consistently/RB   negative/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ hovered/VBN around/IN 60/CD %/NN in/IN 2009/CD)
+	(VERB being/VBG consistently/RB negative/JJ)
+
+tagged sentence:
+	 being consistently negative	res:-1
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS debt/NN equity/NN ratio/NN)
+	(NOUN return/NN)
+	(NOUN equity/NN)
+
+----------------------------------
+original sentence: 
+Moodyâ€™s is skeptic on Alcoaâ€™s high inventories and the possible decline in aluminum prices.
+
+POS tagged sentence: 
+[('Moody', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('is', 'VBZ'), ('skeptic', 'JJ'), ('on', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('high', 'JJ'), ('inventories', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('possible', 'JJ'), ('decline', 'NN'), ('in', 'IN'), ('aluminum', 'NN'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Moody/NNP)   â/:   €/:   ™/:   s/NNS   is/VBZ   skeptic/JJ   on/IN   (PERSON Alcoa/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   high/JJ   inventories/NNS   and/CC   the/DT   possible/JJ   decline/NN   in/IN   aluminum/NN   prices/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ skeptic/JJ on/IN Alcoa/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ high/JJ inventories/NNS)
+
+tagged sentence:
+	 s high inventories	res:1
+noun phrases to consider:
+	(NOUN Moody/NNP)
+	(NOUN s/NNS)
+	(NOUN the/DT possible/JJ decline/NN)
+
+tagged sentence:
+	 the possible decline	res:-1
+	(NOUN aluminum/NN prices/NNS)
+
+----------------------------------
+original sentence: 
+The rating agencyâ€™s negative outlook on the stock reflects the irregular recovery in the aluminum markets.
+
+POS tagged sentence: 
+[('The', 'DT'), ('rating', 'NN'), ('agency', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('negative', 'VBP'), ('outlook', 'NN'), ('on', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('reflects', 'VBZ'), ('the', 'DT'), ('irregular', 'JJ'), ('recovery', 'NN'), ('in', 'IN'), ('the', 'DT'), ('aluminum', 'NN'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   rating/NN   agency/NN   â/:   €/:   ™/:   s/NNS   negative/VBP   outlook/NN   on/IN   the/DT   stock/NN   reflects/VBZ   the/DT   irregular/JJ   recovery/NN   in/IN   the/DT   aluminum/NN   markets/NNS   ./.)
+----------------------------------
+original sentence: 
+The recession during 2009 left a severe impact on the automobile and construction industry, the major consumer segment for Alcoaâ€™s aluminum output.
+
+POS tagged sentence: 
+[('The', 'DT'), ('recession', 'NN'), ('during', 'IN'), ('2009', 'CD'), ('left', 'VBN'), ('a', 'DT'), ('severe', 'JJ'), ('impact', 'NN'), ('on', 'IN'), ('the', 'DT'), ('automobile', 'NN'), ('and', 'CC'), ('construction', 'NN'), ('industry', 'NN'), (',', ','), ('the', 'DT'), ('major', 'JJ'), ('consumer', 'NN'), ('segment', 'NN'), ('for', 'IN'), ('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('aluminum', 'VBP'), ('output', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   recession/NN   during/IN   2009/CD   left/VBN   a/DT   severe/JJ   impact/NN   on/IN   the/DT   automobile/NN   and/CC   construction/NN   industry/NN   ,/,   the/DT   major/JJ   consumer/NN   segment/NN   for/IN   (PERSON Alcoa/NNP)   â/:   €/:   ™/:   s/NNS   aluminum/VBP   output/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB left/VBN a/DT severe/JJ impact/NN on/IN the/DT automobile/NN)
+
+tagged sentence:
+	 left a severe impact on the automobile	res:-1
+	(VERB aluminum/VBP output/VBN)
+noun phrases to consider:
+	(NOUN recession/NN)
+
+tagged sentence:
+	 recession	res:-1
+	(NOUN construction/NN industry/NN)
+
+tagged sentence:
+	 construction industry	res:1
+	(NOUN the/DT major/JJ consumer/NN segment/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+With a sharp decline in demand, the company was forced to shut down operation and sell non core businesses.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('sharp', 'JJ'), ('decline', 'NN'), ('in', 'IN'), ('demand', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('was', 'VBD'), ('forced', 'VBN'), ('to', 'TO'), ('shut', 'VB'), ('down', 'RP'), ('operation', 'NN'), ('and', 'CC'), ('sell', 'NN'), ('non', 'NN'), ('core', 'NN'), ('businesses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   sharp/JJ   decline/NN   in/IN   demand/NN   ,/,   the/DT   company/NN   was/VBD   forced/VBN   to/TO   shut/VB   down/RP   operation/NN   and/CC   sell/NN   non/NN   core/NN   businesses/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD forced/VBN)
+	(VERB shut/VB)
+noun phrases to consider:
+	(NOUN a/DT sharp/JJ decline/NN)
+	(NOUN demand/NN)
+	(NOUN company/NN)
+	(NOUN operation/NN)
+	(NOUN sell/NN non/NN core/NN businesses/NNS)
+
+----------------------------------
+original sentence: 
+However, 2010 has showed signs of improvement.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('2010', 'CD'), ('has', 'VBZ'), ('showed', 'VBN'), ('signs', 'NNS'), ('of', 'IN'), ('improvement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   2010/CD   has/VBZ   showed/VBN   signs/NNS   of/IN   improvement/NN   ./.)
+----------------------------------
+original sentence: 
+Moodyâ€™s is hopeful that Alcoaâ€™s end markets would recover and rebuild the lost demand in the aluminum industry.
+
+POS tagged sentence: 
+[('Moody', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('is', 'VBZ'), ('hopeful', 'JJ'), ('that', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('end', 'NN'), ('markets', 'NNS'), ('would', 'MD'), ('recover', 'VB'), ('and', 'CC'), ('rebuild', 'VB'), ('the', 'DT'), ('lost', 'JJS'), ('demand', 'NN'), ('in', 'IN'), ('the', 'DT'), ('aluminum', 'NN'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Moody/NNP)   â/:   €/:   ™/:   s/NNS   is/VBZ   hopeful/JJ   that/IN   (PERSON Alcoa/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   end/NN   markets/NNS   would/MD   recover/VB   and/CC   rebuild/VB   the/DT   lost/JJS   demand/NN   in/IN   the/DT   aluminum/NN   industry/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ hopeful/JJ that/IN Alcoa/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ end/NN markets/NNS)
+	(VERB recover/VB)
+	(VERB   rebuild/VB   the/DT   lost/JJS   demand/NN   in/IN   the/DT   aluminum/NN   industry/NN)
+
+tagged sentence:
+	 rebuild the lost demand in the aluminum industry	res:-1
+noun phrases to consider:
+	(NOUN Moody/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Moodyâ€™s is also positive on Alcoaâ€™s cost control strategies and the strong market position in alumina and bauxite.
+
+POS tagged sentence: 
+[('Moody', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('is', 'VBZ'), ('also', 'RB'), ('positive', 'JJ'), ('on', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('cost', 'NN'), ('control', 'NN'), ('strategies', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('strong', 'JJ'), ('market', 'NN'), ('position', 'NN'), ('in', 'IN'), ('alumina', 'NN'), ('and', 'CC'), ('bauxite', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Moody/NNP)   â/:   €/:   ™/:   s/NNS   is/VBZ   also/RB   positive/JJ   on/IN   (PERSON Alcoa/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   cost/NN   control/NN   strategies/NNS   and/CC   the/DT   strong/JJ   market/NN   position/NN   in/IN   alumina/NN   and/CC   bauxite/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ also/RB positive/JJ on/IN Alcoa/NNP â/NNP €/NNP ™/NNP)
+
+tagged sentence:
+	 is also positive on Alcoa â € ™	res:1
+	(VERB s/VBZ cost/NN control/NN strategies/NNS)
+
+tagged sentence:
+	 s cost control strategies	res:-1
+noun phrases to consider:
+	(NOUN Moody/NNP)
+	(NOUN s/NNS)
+	(NOUN the/DT strong/JJ market/NN position/NN)
+
+tagged sentence:
+	 the strong market position	res:1
+	(NOUN alumina/NN)
+	(NOUN bauxite/JJ)
+
+----------------------------------
+original sentence: 
+The rating agency expects the company to generate considerable cost synergies, which would drive results at its business heads.
+
+POS tagged sentence: 
+[('The', 'DT'), ('rating', 'NN'), ('agency', 'NN'), ('expects', 'VBZ'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('generate', 'VB'), ('considerable', 'JJ'), ('cost', 'NN'), ('synergies', 'NNS'), (',', ','), ('which', 'WDT'), ('would', 'MD'), ('drive', 'VB'), ('results', 'NNS'), ('at', 'IN'), ('its', 'PRP$'), ('business', 'NN'), ('heads', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   rating/NN   agency/NN   expects/VBZ   the/DT   company/NN   to/TO   generate/VB   considerable/JJ   cost/NN   synergies/NNS   ,/,   which/WDT   would/MD   drive/VB   results/NNS   at/IN   its/PRP$   business/NN   heads/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expects/VBZ the/DT company/NN)
+	(VERB generate/VB considerable/JJ cost/NN synergies/NNS)
+	(VERB drive/VB results/NNS at/IN its/PRP$ business/NN heads/NNS)
+noun phrases to consider:
+	(NOUN rating/NN agency/NN)
+
+----------------------------------
+original sentence: 
+Alcoa operates under four major heads âˆ’ Flat Rolled Products, Primary Metals, Engineered Products & Solutions, and Alumina.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('operates', 'VBZ'), ('under', 'IN'), ('four', 'CD'), ('major', 'JJ'), ('heads', 'NNS'), ('\xe2', ':'), ('\x88', ':'), ('\x92', ':'), ('Flat', 'JJ'), ('Rolled', 'NNP'), ('Products', 'NNP'), (',', ','), ('Primary', 'NNP'), ('Metals', 'NNPS'), (',', ','), ('Engineered', 'NNP'), ('Products', 'NNPS'), ('&', 'CC'), ('Solutions', 'NNS'), (',', ','), ('and', 'CC'), ('Alumina', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   operates/VBZ   under/IN   four/CD   major/JJ   heads/NNS   â/:   ˆ/:   ’/:   (PERSON Flat/JJ Rolled/NNP Products/NNP)   ,/,   (ORGANIZATION Primary/NNP Metals/NNPS)   ,/,   (ORGANIZATION Engineered/NNP Products/NNPS)   &/CC   Solutions/NNS   ,/,   and/CC   (GPE Alumina/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB operates/VBZ under/IN four/CD major/JJ heads/NNS)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN Flat/JJ Rolled/NNP Products/NNP)
+	(NOUN Primary/NNP Metals/NNPS)
+	(NOUN Engineered/NNP Products/NNPS)
+	(NOUN Solutions/NNS)
+	(NOUN Alumina/NNP)
+
+----------------------------------
+original sentence: 
+The principal business of Alcoaâ€™s Flat Rolled Products segment is the production of aluminum plate, sheet, foil and hard alloy extrusions, which serve the packaging and consumer, transportation, building and construction, distribution, aerospace and automotive markets.
+
+POS tagged sentence: 
+[('The', 'DT'), ('principal', 'JJ'), ('business', 'NN'), ('of', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Flat', 'NNP'), ('Rolled', 'NNP'), ('Products', 'NNPS'), ('segment', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('production', 'NN'), ('of', 'IN'), ('aluminum', 'NN'), ('plate', 'NN'), (',', ','), ('sheet', 'NN'), (',', ','), ('foil', 'NN'), ('and', 'CC'), ('hard', 'JJ'), ('alloy', 'NN'), ('extrusions', 'NNS'), (',', ','), ('which', 'WDT'), ('serve', 'VB'), ('the', 'DT'), ('packaging', 'NN'), ('and', 'CC'), ('consumer', 'NN'), (',', ','), ('transportation', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('distribution', 'NN'), (',', ','), ('aerospace', 'NN'), ('and', 'CC'), ('automotive', 'JJ'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   principal/JJ   business/NN   of/IN   (PERSON Alcoa/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   (PERSON Flat/NNP Rolled/NNP)   Products/NNPS   segment/NN   is/VBZ   the/DT   production/NN   of/IN   aluminum/NN   plate/NN   ,/,   sheet/NN   ,/,   foil/NN   and/CC   hard/JJ   alloy/NN   extrusions/NNS   ,/,   which/WDT   serve/VB   the/DT   packaging/NN   and/CC   consumer/NN   ,/,   transportation/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   distribution/NN   ,/,   aerospace/NN   and/CC   automotive/JJ   markets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ Flat/NNP Rolled/NNP Products/NNPS segment/NN)
+	(VERB is/VBZ the/DT production/NN of/IN aluminum/NN plate/NN)
+	(VERB serve/VB the/DT packaging/NN)
+noun phrases to consider:
+	(NOUN The/DT principal/JJ business/NN)
+	(NOUN Alcoa/NNP â/NNP €/NNP ™/NNP)
+	(NOUN sheet/NN)
+	(NOUN foil/NN)
+	(NOUN hard/JJ alloy/NN extrusions/NNS)
+	(NOUN consumer/NN)
+	(NOUN transportation/NN)
+	(NOUN building/NN)
+	(NOUN construction/NN)
+	(NOUN distribution/NN)
+	(NOUN aerospace/NN)
+	(NOUN automotive/JJ markets/NNS)
+
+----------------------------------
+original sentence: 
+Alcoaâ€™s Engineered Products & Solutions segment is engaged in the production of titanium, aluminum and super alloy investment castings, forgings and fasteners, aluminum wheels, integrated aluminum structural systems and architectural extrusions serving the aerospace, automotive, building and construction, commercial transportation and power generation markets.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Engineered', 'NNP'), ('Products', 'NNP'), ('&', 'CC'), ('Solutions', 'NNP'), ('segment', 'NN'), ('is', 'VBZ'), ('engaged', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('production', 'NN'), ('of', 'IN'), ('titanium', 'NN'), (',', ','), ('aluminum', 'NN'), ('and', 'CC'), ('super', 'NN'), ('alloy', 'NN'), ('investment', 'NN'), ('castings', 'NNS'), (',', ','), ('forgings', 'NNS'), ('and', 'CC'), ('fasteners', 'NNS'), (',', ','), ('aluminum', 'NN'), ('wheels', 'NNS'), (',', ','), ('integrated', 'VBD'), ('aluminum', 'NN'), ('structural', 'JJ'), ('systems', 'NNS'), ('and', 'CC'), ('architectural', 'JJ'), ('extrusions', 'NNS'), ('serving', 'VBG'), ('the', 'DT'), ('aerospace', 'NN'), (',', ','), ('automotive', 'JJ'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), ('and', 'CC'), ('power', 'NN'), ('generation', 'NN'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   â/:   €/:   ™/:   s/NNS   (PERSON Engineered/NNP Products/NNP)   &/CC   (GPE Solutions/NNP)   segment/NN   is/VBZ   engaged/VBN   in/IN   the/DT   production/NN   of/IN   titanium/NN   ,/,   aluminum/NN   and/CC   super/NN   alloy/NN   investment/NN   castings/NNS   ,/,   forgings/NNS   and/CC   fasteners/NNS   ,/,   aluminum/NN   wheels/NNS   ,/,   integrated/VBD   aluminum/NN   structural/JJ   systems/NNS   and/CC   architectural/JJ   extrusions/NNS   serving/VBG   the/DT   aerospace/NN   ,/,   automotive/JJ   ,/,   building/NN   and/CC   construction/NN   ,/,   commercial/JJ   transportation/NN   and/CC   power/NN   generation/NN   markets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   engaged/VBN   in/IN   the/DT   production/NN   of/IN   titanium/NN)
+	(VERB integrated/VBD aluminum/NN structural/JJ systems/NNS)
+	(VERB serving/VBG the/DT aerospace/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS Engineered/NNP Products/NNP)
+	(NOUN Solutions/NNP segment/NN)
+	(NOUN aluminum/NN)
+	(NOUN super/NN alloy/NN investment/NN castings/NNS)
+	(NOUN forgings/NNS)
+	(NOUN fasteners/NNS)
+	(NOUN aluminum/NN wheels/NNS)
+	(NOUN architectural/JJ extrusions/NNS)
+	(NOUN automotive/JJ)
+	(NOUN building/NN)
+	(NOUN construction/NN)
+	(NOUN commercial/JJ transportation/NN)
+	(NOUN power/NN generation/NN markets/NNS)
+
+----------------------------------
+original sentence: 
+Alcoa also has bauxite mining interests in Australia, Brazil, Guinea, Jamaica and Suriname.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('also', 'RB'), ('has', 'VBZ'), ('bauxite', 'JJ'), ('mining', 'NN'), ('interests', 'NNS'), ('in', 'IN'), ('Australia', 'NNP'), (',', ','), ('Brazil', 'NNP'), (',', ','), ('Guinea', 'NNP'), (',', ','), ('Jamaica', 'NNP'), ('and', 'CC'), ('Suriname', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   also/RB   has/VBZ   bauxite/JJ   mining/NN   interests/NNS   in/IN   (GPE Australia/NNP)   ,/,   (GPE Brazil/NNP)   ,/,   (GPE Guinea/NNP)   ,/,   (PERSON Jamaica/NNP)   and/CC   Suriname/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ bauxite/JJ mining/NN interests/NNS in/IN Australia/NNP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN Brazil/NNP)
+	(NOUN Guinea/NNP)
+	(NOUN Jamaica/NNP)
+	(NOUN Suriname/NNP)
+
+----------------------------------
+original sentence: 
+It has a collaboration agreement with CIMC Vehicle Shandong Co. Ltd. to design and develop an aluminum fuel tanker trailer for the Asian market, besides a strategic cooperation agreement with the Peoples Government of Henan Province in China to jointly establish projects for the fabricated and primary aluminum industry.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('a', 'DT'), ('collaboration', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('CIMC', 'NNP'), ('Vehicle', 'NNP'), ('Shandong', 'NNP'), ('Co.', 'NNP'), ('Ltd.', 'NNP'), ('to', 'TO'), ('design', 'VB'), ('and', 'CC'), ('develop', 'VB'), ('an', 'DT'), ('aluminum', 'NN'), ('fuel', 'NN'), ('tanker', 'NN'), ('trailer', 'NN'), ('for', 'IN'), ('the', 'DT'), ('Asian', 'JJ'), ('market', 'NN'), (',', ','), ('besides', 'VBZ'), ('a', 'DT'), ('strategic', 'JJ'), ('cooperation', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('the', 'DT'), ('Peoples', 'NNP'), ('Government', 'NNP'), ('of', 'IN'), ('Henan', 'NNP'), ('Province', 'NNP'), ('in', 'IN'), ('China', 'NNP'), ('to', 'TO'), ('jointly', 'RB'), ('establish', 'JJ'), ('projects', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('fabricated', 'VBN'), ('and', 'CC'), ('primary', 'JJ'), ('aluminum', 'NN'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   a/DT   collaboration/NN   agreement/NN   with/IN   (ORGANIZATION CIMC/NNP Vehicle/NNP Shandong/NNP)   Co./NNP   Ltd./NNP   to/TO   design/VB   and/CC   develop/VB   an/DT   aluminum/NN   fuel/NN   tanker/NN   trailer/NN   for/IN   the/DT   (GPE Asian/JJ)   market/NN   ,/,   besides/VBZ   a/DT   strategic/JJ   cooperation/NN   agreement/NN   with/IN   the/DT   (ORGANIZATION Peoples/NNP)   Government/NNP   of/IN   (PERSON Henan/NNP Province/NNP)   in/IN   (GPE China/NNP)   to/TO   jointly/RB   establish/JJ   projects/NNS   for/IN   the/DT   fabricated/VBN   and/CC   primary/JJ   aluminum/NN   industry/NN   ./.)
+----------------------------------
+original sentence: 
+Markets reacted negatively to the Moodyâ€™s â€œNegative" outlook on Alcoa.
+
+POS tagged sentence: 
+[('Markets', 'NNS'), ('reacted', 'VBD'), ('negatively', 'RB'), ('to', 'TO'), ('the', 'DT'), ('Moody', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('Negative', 'JJ'), ('"', 'NN'), ('outlook', 'NN'), ('on', 'IN'), ('Alcoa', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Markets/NNS)   reacted/VBD   negatively/RB   to/TO   the/DT   (ORGANIZATION Moody/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   â/:   €/:   œ/:   Negative/JJ   "/NN   outlook/NN   on/IN   (GPE Alcoa/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   reacted/VBD   negatively/RB   to/TO   the/DT   Moody/NNP   â/NNP   €/NNP   ™/NNP)
+	(VERB s/VBZ)
+noun phrases to consider:
+	(NOUN Markets/NNS)
+	(NOUN Negative/JJ "/NN outlook/NN)
+	(NOUN Alcoa/NNP)
+
+----------------------------------
+original sentence: 
+Shares of Alcoa fell 7 cents to $14.37 in afternoon trading post the announcement.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Alcoa', 'NNP'), ('fell', 'VBD'), ('7', 'CD'), ('cents', 'NNS'), ('to', 'TO'), ('$', '$'), ('14.37', 'CD'), ('in', 'IN'), ('afternoon', 'NN'), ('trading', 'NN'), ('post', 'NN'), ('the', 'DT'), ('announcement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (PERSON Alcoa/NNP)   fell/VBD   7/CD   cents/NNS   to/TO   $/$   14.37/CD   in/IN   afternoon/NN   trading/NN   post/NN   the/DT   announcement/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fell/VBD 7/CD cents/NNS)
+
+tagged sentence:
+	 fell 7 cents	res:-1
+noun phrases to consider:
+	(NOUN Shares/NNS)
+	(NOUN Alcoa/NNP)
+	(NOUN afternoon/NN trading/NN post/NN)
+	(NOUN announcement/NN)
+
+----------------------------------
+original sentence: 
+Read the full analyst report on "MCO"
+Read the full analyst report on "AA"
+Zacks Investment Research
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+There are 7 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('MCO', 'NNP'), ('"', 'NNP'), ('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('AA', 'NNP'), ('"', 'NNP'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), ('Bookmark/Search', 'NNP'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('There', 'EX'), ('are', 'VBP'), ('7', 'CD'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   MCO/NNP   "/NNP   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   AA/NNP   "/NNP   (PERSON Zacks/NNP Investment/NNP Research/NNP)   Bookmark/Search/NNP   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   There/EX   are/VBP   7/CD   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP not/RB watching/VBG this/DT post/NN)
+	(VERB start/VB watching/NN)
+	(VERB are/VBP 7/CD comments/NNS Receive/NNP Benzinga&/NNP)
+noun phrases to consider:
+	(NOUN Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP MCO/NNP "/NNP Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP AA/NNP "/NNP Zacks/NNP)
+	(NOUN Investment/NNP Research/NNP Bookmark/Search/NNP)
+	(NOUN post/NN)
+	(NOUN click/NN)
+	(NOUN s/NNS Trading/NN Ideas/NNS)
+	(NOUN s/NNS Best/JJS 2010/CD Stock/NNP Idea/NNP)
+
+
+veryneg:0	neg:7	pos:4	verypos:0	total:4

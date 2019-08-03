@@ -1,0 +1,107 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+Intel Corp. INTC Initiated Coverage Alert, Watch for 7.5% Technical Uptrend Reversal
+Thursday, March 18, 2010 10:10
+Thu, 03/18/2010 10:10
+ initiated as Neutral at Macquarie.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('INTC', 'NNP'), ('Initiated', 'NNP'), ('Coverage', 'NNP'), ('Alert', 'NNP'), (',', ','), ('Watch', 'NNP'), ('for', 'IN'), ('7.5', 'CD'), ('%', 'NN'), ('Technical', 'NNP'), ('Uptrend', 'NNP'), ('Reversal', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('March', 'NNP'), ('18', 'CD'), (',', ','), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('10', 'CD'), ('Thu', 'NNP'), (',', ','), ('03/18/2010', 'CD'), ('10', 'CD'), (':', ':'), ('10', 'CD'), ('initiated', 'VBN'), ('as', 'RB'), ('Neutral', 'NNP'), ('at', 'IN'), ('Macquarie', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION SmarTrend/NNP Alert/NNP)   (ORGANIZATION Intel/NNP Corp./NNP)   (ORGANIZATION INTC/NNP)   Initiated/NNP   Coverage/NNP   (PERSON Alert/NNP)   ,/,   (GPE Watch/NNP)   for/IN   7.5/CD   %/NN   (PERSON Technical/NNP Uptrend/NNP Reversal/NNP)   Thursday/NNP   ,/,   March/NNP   18/CD   ,/,   2010/CD   10/CD   :/:   10/CD   Thu/NNP   ,/,   03/18/2010/CD   10/CD   :/:   10/CD   initiated/VBN   as/RB   Neutral/NNP   at/IN   (ORGANIZATION Macquarie/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB initiated/VBN as/RB Neutral/NNP at/IN Macquarie/NNP)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Intel/NNP)
+
+tagged sentence:
+	 Comtex SmarTrend Alert Intel	res:-1
+	(NOUN Corp./NNP INTC/NNP Initiated/NNP Coverage/NNP)
+	(NOUN Alert/NNP)
+	(NOUN Watch/NNP)
+	(NOUN 7.5/CD %/NN Technical/NNP Uptrend/NNP Reversal/NNP)
+	(NOUN Thursday/NNP)
+	(NOUN March/NNP)
+	(NOUN 10/CD Thu/NNP)
+
+----------------------------------
+original sentence: 
+The stock closed yesterday at $22.24 on volume of 77,779,812 shares, above average daily volume of 61,600,209.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('closed', 'VBD'), ('yesterday', 'NN'), ('at', 'IN'), ('$', '$'), ('22.24', 'CD'), ('on', 'IN'), ('volume', 'NN'), ('of', 'IN'), ('77,779,812', 'CD'), ('shares', 'NNS'), (',', ','), ('above', 'IN'), ('average', 'JJ'), ('daily', 'JJ'), ('volume', 'NN'), ('of', 'IN'), ('61,600,209', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   closed/VBD   yesterday/NN   at/IN   $/$   22.24/CD   on/IN   volume/NN   of/IN   77,779,812/CD   shares/NNS   ,/,   above/IN   average/JJ   daily/JJ   volume/NN   of/IN   61,600,209/CD   ./.)
+----------------------------------
+original sentence: 
+Intel is currently above its 50 day moving average of $20.55 and above its 200 day moving average of $19.29.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('is', 'VBZ'), ('currently', 'RB'), ('above', 'RB'), ('its', 'PRP$'), ('50', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('of', 'IN'), ('$', '$'), ('20.55', 'CD'), ('and', 'CC'), ('above', 'IN'), ('its', 'PRP$'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('of', 'IN'), ('$', '$'), ('19.29', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   is/VBZ   currently/RB   above/RB   its/PRP$   50/CD   day/NN   moving/VBG   average/NN   of/IN   $/$   20.55/CD   and/CC   above/IN   its/PRP$   200/CD   day/NN   moving/VBG   average/NN   of/IN   $/$   19.29/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ currently/RB above/RB its/PRP$ 50/CD day/NN)
+
+tagged sentence:
+	 is currently above its 50 day	res:1
+	(VERB moving/VBG average/NN of/IN)
+	(VERB moving/VBG average/NN of/IN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN 200/CD day/NN)
+
+----------------------------------
+original sentence: 
+SmarTrend is bullish on shares of INTC and our subscribers received an Uptrend alert on February 16, 2010 at $20.70, which has returned 7.5% to date.
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('is', 'VBZ'), ('bullish', 'JJ'), ('on', 'IN'), ('shares', 'NNS'), ('of', 'IN'), ('INTC', 'NNP'), ('and', 'CC'), ('our', 'PRP$'), ('subscribers', 'NNS'), ('received', 'VBD'), ('an', 'DT'), ('Uptrend', 'NNP'), ('alert', 'NN'), ('on', 'IN'), ('February', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('$', '$'), ('20.70', 'CD'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('returned', 'VBN'), ('7.5', 'CD'), ('%', 'NN'), ('to', 'TO'), ('date', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   is/VBZ   bullish/JJ   on/IN   shares/NNS   of/IN   (ORGANIZATION INTC/NNP)   and/CC   our/PRP$   subscribers/NNS   received/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   February/NNP   16/CD   ,/,   2010/CD   at/IN   $/$   20.70/CD   ,/,   which/WDT   has/VBZ   returned/VBN   7.5/CD   %/NN   to/TO   date/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ bullish/JJ on/IN shares/NNS of/IN INTC/NNP)
+	(VERB   received/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   February/NNP   16/CD)
+	(VERB has/VBZ returned/VBN 7.5/CD %/NN)
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN subscribers/NNS)
+	(NOUN date/NN)
+
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

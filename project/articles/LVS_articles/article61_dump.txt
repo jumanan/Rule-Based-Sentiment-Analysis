@@ -1,0 +1,187 @@
+
+----------------------------------
+original sentence: 
+Tuesday`s Top 5 Active Stock Losers KBH, GS, BEC, ONTY, LVS | The First Reporter
+Tuesday`s Top 5 Active Stock Losers KBH, GS, BEC, ONTY, LVS , March 23, 2010 Dallas, Tx &#8211; KB Home NYSE:KBH lost 2.58% to $16.99 on 2.87 million shares.
+
+POS tagged sentence: 
+[('Tuesday', 'NNP'), ('`', '``'), ('s', 'NNS'), ('Top', 'NNP'), ('5', 'CD'), ('Active', 'NNP'), ('Stock', 'NNP'), ('Losers', 'NNP'), ('KBH', 'NNP'), (',', ','), ('GS', 'NNP'), (',', ','), ('BEC', 'NNP'), (',', ','), ('ONTY', 'NNP'), (',', ','), ('LVS', 'NNP'), ('|', 'NNP'), ('The', 'NNP'), ('First', 'NNP'), ('Reporter', 'NNP'), ('Tuesday', 'NNP'), ('`', '``'), ('s', 'NNS'), ('Top', 'NNP'), ('5', 'CD'), ('Active', 'NNP'), ('Stock', 'NNP'), ('Losers', 'NNP'), ('KBH', 'NNP'), (',', ','), ('GS', 'NNP'), (',', ','), ('BEC', 'NNP'), (',', ','), ('ONTY', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('March', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('Dallas', 'NNP'), (',', ','), ('Tx', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('KB', 'NNP'), ('Home', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('KBH', 'NNP'), ('lost', 'VBD'), ('2.58', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('16.99', 'CD'), ('on', 'IN'), ('2.87', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Tuesday/NNP   `/``   s/NNS   Top/NNP   5/CD   Active/NNP   Stock/NNP   Losers/NNP   KBH/NNP   ,/,   (ORGANIZATION GS/NNP)   ,/,   (ORGANIZATION BEC/NNP)   ,/,   (ORGANIZATION ONTY/NNP)   ,/,   (ORGANIZATION LVS/NNP)   |/NNP   The/NNP   First/NNP   Reporter/NNP   Tuesday/NNP   `/``   s/NNS   Top/NNP   5/CD   Active/NNP   Stock/NNP   Losers/NNP   KBH/NNP   ,/,   (ORGANIZATION GS/NNP)   ,/,   (ORGANIZATION BEC/NNP)   ,/,   (ORGANIZATION ONTY/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   March/NNP   23/CD   ,/,   2010/CD   (GPE Dallas/NNP)   ,/,   Tx/NNP   &/CC   #/#   8211/CD   ;/:   (ORGANIZATION KB/NNP Home/NNP)   NYSE/NNP   :/:   (ORGANIZATION KBH/NNP)   lost/VBD   2.58/CD   %/NN   to/TO   $/$   16.99/CD   on/IN   2.87/CD   million/CD   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lost/VBD 2.58/CD %/NN)
+noun phrases to consider:
+	(NOUN Tuesday/NNP)
+	(NOUN s/NNS Top/NNP)
+	(NOUN 5/CD Active/NNP Stock/NNP Losers/NNP KBH/NNP)
+	(NOUN GS/NNP)
+	(NOUN BEC/NNP)
+	(NOUN ONTY/NNP)
+	(NOUN LVS/NNP |/NNP The/NNP First/NNP)
+	(NOUN Reporter/NNP Tuesday/NNP)
+	(NOUN s/NNS Top/NNP)
+	(NOUN 5/CD Active/NNP Stock/NNP Losers/NNP KBH/NNP)
+	(NOUN GS/NNP)
+	(NOUN BEC/NNP)
+	(NOUN ONTY/NNP)
+	(NOUN LVS/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Dallas/NNP)
+	(NOUN Tx/NNP)
+	(NOUN KB/NNP Home/NNP NYSE/NNP)
+	(NOUN KBH/NNP)
+	(NOUN million/CD shares/NNS)
+
+----------------------------------
+original sentence: 
+The company today reported financial results for its first quarter ended February 28, 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('today', 'NN'), ('reported', 'VBD'), ('financial', 'JJ'), ('results', 'NNS'), ('for', 'IN'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('ended', 'VBN'), ('February', 'NNP'), ('28', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   today/NN   reported/VBD   financial/JJ   results/NNS   for/IN   its/PRP$   first/JJ   quarter/NN   ended/VBN   February/NNP   28/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+The Company reported a net loss of $54.7 million, or $.71 per diluted share, for the quarter, compared to a net loss of $58.1 million, or $.75 per diluted share, for the year earlier quarter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('reported', 'VBD'), ('a', 'DT'), ('net', 'JJ'), ('loss', 'NN'), ('of', 'IN'), ('$', '$'), ('54.7', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('$', '$'), ('.71', 'CD'), ('per', 'IN'), ('diluted', 'JJ'), ('share', 'NN'), (',', ','), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('a', 'DT'), ('net', 'JJ'), ('loss', 'NN'), ('of', 'IN'), ('$', '$'), ('58.1', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('$', '$'), ('.75', 'CD'), ('per', 'IN'), ('diluted', 'JJ'), ('share', 'NN'), (',', ','), ('for', 'IN'), ('the', 'DT'), ('year', 'NN'), ('earlier', 'JJR'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   reported/VBD   a/DT   net/JJ   loss/NN   of/IN   $/$   54.7/CD   million/CD   ,/,   or/CC   $/$   .71/CD   per/IN   diluted/JJ   share/NN   ,/,   for/IN   the/DT   quarter/NN   ,/,   compared/VBN   to/TO   a/DT   net/JJ   loss/NN   of/IN   $/$   58.1/CD   million/CD   ,/,   or/CC   $/$   .75/CD   per/IN   diluted/JJ   share/NN   ,/,   for/IN   the/DT   year/NN   earlier/JJR   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Subscribe to daily free stock newsletter by visiting: http://www.PennyStockPickReport.com
+Goldman Sachs Group, Inc. NYSE:GS drops 0.73% to $174.87 on 1.99 million shares.
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('daily', 'JJ'), ('free', 'JJ'), ('stock', 'NN'), ('newsletter', 'NN'), ('by', 'IN'), ('visiting', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.PennyStockPickReport.com', 'JJ'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), ('drops', 'NNS'), ('0.73', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('174.87', 'CD'), ('on', 'IN'), ('1.99', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   daily/JJ   free/JJ   stock/NN   newsletter/NN   by/IN   visiting/NN   :/:   http/NN   :/:   //www.PennyStockPickReport.com/JJ   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   GS/NNP   drops/NNS   0.73/CD   %/NN   to/TO   $/$   174.87/CD   on/IN   1.99/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+The stock is up over 56% in the last one year of trading sessions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('up', 'IN'), ('over', 'IN'), ('56', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('one', 'CD'), ('year', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('sessions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   is/VBZ   up/IN   over/IN   56/CD   %/NN   in/IN   the/DT   last/JJ   one/CD   year/NN   of/IN   trading/NN   sessions/NNS   ./.)
+----------------------------------
+original sentence: 
+Beckman Coulter, Inc. NYSE:BEC decreases 6.26% to $64.78 on 1.83 million shares.
+
+POS tagged sentence: 
+[('Beckman', 'NNP'), ('Coulter', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BEC', 'NNP'), ('decreases', 'NNS'), ('6.26', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('64.78', 'CD'), ('on', 'IN'), ('1.83', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Beckman/NNP)   (ORGANIZATION Coulter/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   BEC/NNP   decreases/NNS   6.26/CD   %/NN   to/TO   $/$   64.78/CD   on/IN   1.83/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+Oncothyreon Inc. NASDAQ:ONTY falls 26.16% to $3.53 on 1.53 million shares.
+
+POS tagged sentence: 
+[('Oncothyreon', 'NNP'), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('ONTY', 'NNP'), ('falls', 'NNS'), ('26.16', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('3.53', 'CD'), ('on', 'IN'), ('1.53', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Oncothyreon/NNP)   (ORGANIZATION Inc./NNP)   NASDAQ/NNP   :/:   ONTY/NNP   falls/NNS   26.16/CD   %/NN   to/TO   $/$   3.53/CD   on/IN   1.53/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+Merck KgaA which is investigating the use of Stimuvax vaccine in the treatment of non small cell lung cancer and breast cancer, said that it has temporarily suspended the clinical program of the vaccine as a result of a suspected unexpected serious adverse reaction.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('KgaA', 'NNP'), ('which', 'WDT'), ('is', 'VBZ'), ('investigating', 'VBG'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('Stimuvax', 'NNP'), ('vaccine', 'NN'), ('in', 'IN'), ('the', 'DT'), ('treatment', 'NN'), ('of', 'IN'), ('non', 'NN'), ('small', 'JJ'), ('cell', 'NN'), ('lung', 'NN'), ('cancer', 'NN'), ('and', 'CC'), ('breast', 'JJ'), ('cancer', 'NN'), (',', ','), ('said', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('temporarily', 'RB'), ('suspended', 'VBN'), ('the', 'DT'), ('clinical', 'JJ'), ('program', 'NN'), ('of', 'IN'), ('the', 'DT'), ('vaccine', 'NN'), ('as', 'IN'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('a', 'DT'), ('suspected', 'VBN'), ('unexpected', 'VBN'), ('serious', 'JJ'), ('adverse', 'NN'), ('reaction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Merck/NNP)   (ORGANIZATION KgaA/NNP)   which/WDT   is/VBZ   investigating/VBG   the/DT   use/NN   of/IN   (GPE Stimuvax/NNP)   vaccine/NN   in/IN   the/DT   treatment/NN   of/IN   non/NN   small/JJ   cell/NN   lung/NN   cancer/NN   and/CC   breast/JJ   cancer/NN   ,/,   said/VBD   that/IN   it/PRP   has/VBZ   temporarily/RB   suspended/VBN   the/DT   clinical/JJ   program/NN   of/IN   the/DT   vaccine/NN   as/IN   a/DT   result/NN   of/IN   a/DT   suspected/VBN   unexpected/VBN   serious/JJ   adverse/NN   reaction/NN   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands Corp. NYSE:LVS declines 1.26% to $21.16 on 22.10 million shares.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('declines', 'VBZ'), ('1.26', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('21.16', 'CD'), ('on', 'IN'), ('22.10', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   declines/VBZ   1.26/CD   %/NN   to/TO   $/$   21.16/CD   on/IN   22.10/CD   million/CD   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB declines/VBZ 1.26/CD %/NN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN million/CD shares/NNS)
+
+----------------------------------
+original sentence: 
+http://www.PennyStockPickReport.com
+Penny Stock Pick Report offers a stock newsletter on OTC, PINKSHEETS ,OTCBB, AMEX, NASDAQ and NYSE stock exchange.
+
+POS tagged sentence: 
+[('http', 'NN'), (':', ':'), ('//www.PennyStockPickReport.com', 'JJ'), ('Penny', 'NNP'), ('Stock', 'NNP'), ('Pick', 'NNP'), ('Report', 'NNP'), ('offers', 'VBZ'), ('a', 'DT'), ('stock', 'NN'), ('newsletter', 'NN'), ('on', 'IN'), ('OTC', 'NNP'), (',', ','), ('PINKSHEETS', 'NNP'), (',OTCBB', 'NNP'), (',', ','), ('AMEX', 'NNP'), (',', ','), ('NASDAQ', 'NNP'), ('and', 'CC'), ('NYSE', 'NNP'), ('stock', 'NN'), ('exchange', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   http/NN   :/:   //www.PennyStockPickReport.com/JJ   (PERSON Penny/NNP Stock/NNP Pick/NNP Report/NNP)   offers/VBZ   a/DT   stock/NN   newsletter/NN   on/IN   (ORGANIZATION OTC/NNP)   ,/,   (ORGANIZATION PINKSHEETS/NNP)   ,OTCBB/NNP   ,/,   (ORGANIZATION AMEX/NNP)   ,/,   (ORGANIZATION NASDAQ/NNP)   and/CC   (ORGANIZATION NYSE/NNP)   stock/NN   exchange/NN   ./.)
+----------------------------------
+original sentence: 
+Our subscribers receive daily up to date  on hot stocks ,most active movers, top gainers, penny stocks and much more.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('subscribers', 'NNS'), ('receive', 'VBP'), ('daily', 'JJ'), ('up', 'IN'), ('to', 'TO'), ('date', 'NN'), ('on', 'IN'), ('hot', 'JJ'), ('stocks', 'NNS'), (',most', 'JJ'), ('active', 'JJ'), ('movers', 'NNS'), (',', ','), ('top', 'JJ'), ('gainers', 'NNS'), (',', ','), ('penny', 'JJ'), ('stocks', 'NNS'), ('and', 'CC'), ('much', 'RB'), ('more', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   subscribers/NNS   receive/VBP   daily/JJ   up/IN   to/TO   date/NN   on/IN   hot/JJ   stocks/NNS   ,most/JJ   active/JJ   movers/NNS   ,/,   top/JJ   gainers/NNS   ,/,   penny/JJ   stocks/NNS   and/CC   much/RB   more/RBR   ./.)
+----------------------------------
+original sentence: 
+If you wish to feature your organization on our website then you can contact us at the email given below.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('wish', 'VBP'), ('to', 'TO'), ('feature', 'VB'), ('your', 'PRP$'), ('organization', 'NN'), ('on', 'IN'), ('our', 'PRP$'), ('website', 'JJ'), ('then', 'RB'), ('you', 'PRP'), ('can', 'MD'), ('contact', 'VB'), ('us', 'PRP'), ('at', 'IN'), ('the', 'DT'), ('email', 'NN'), ('given', 'VBN'), ('below', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   wish/VBP   to/TO   feature/VB   your/PRP$   organization/NN   on/IN   our/PRP$   website/JJ   then/RB   you/PRP   can/MD   contact/VB   us/PRP   at/IN   the/DT   email/NN   given/VBN   below/IN   ./.)
+----------------------------------
+original sentence: 
+Press release service and press release distribution by EmailWire.Com &#8211; http://www.emailwire.com/press_release_distribution_lists.php
+info@PennyStockPickReport.com
+Hello there!
+
+POS tagged sentence: 
+[('Press', 'NN'), ('release', 'NN'), ('service', 'NN'), ('and', 'CC'), ('press', 'NN'), ('release', 'NN'), ('distribution', 'NN'), ('by', 'IN'), ('EmailWire.Com', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('http', 'NN'), (':', ':'), ('//www.emailwire.com/press_release_distribution_lists.php', 'JJ'), ('info', 'NN'), ('@', ':'), ('PennyStockPickReport.com', 'JJ'), ('Hello', 'NNP'), ('there', 'RB'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Press/NN   release/NN   service/NN   and/CC   press/NN   release/NN   distribution/NN   by/IN   EmailWire.Com/NNP   &/CC   #/#   8211/CD   ;/:   http/NN   :/:   //www.emailwire.com/press_release_distribution_lists.php/JJ   info/NN   @/:   PennyStockPickReport.com/JJ   Hello/NNP   there/RB   !/.)
+----------------------------------
+original sentence: 
+If you are new here, you might want to subscribe to the RSS feed
+ for updates on this topic.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('are', 'VBP'), ('new', 'JJ'), ('here', 'RB'), (',', ','), ('you', 'PRP'), ('might', 'MD'), ('want', 'VB'), ('to', 'TO'), ('subscribe', 'VB'), ('to', 'TO'), ('the', 'DT'), ('RSS', 'NNP'), ('feed', 'VBD'), ('for', 'IN'), ('updates', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('topic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   are/VBP   new/JJ   here/RB   ,/,   you/PRP   might/MD   want/VB   to/TO   subscribe/VB   to/TO   the/DT   (ORGANIZATION RSS/NNP)   feed/VBD   for/IN   updates/NNS   on/IN   this/DT   topic/JJ   ./.)
+----------------------------------
+original sentence: 
+Tuesday`s Top 5 Volatile Stock Winners SKS, CCL, Sprint, WAG, ORCL Tuesday`s Double Digit Stock Gainers SQNM, ARWR, PMI, ISSI Click here to cancel reply.
+
+POS tagged sentence: 
+[('Tuesday', 'NNP'), ('`', '``'), ('s', 'NNS'), ('Top', 'NNP'), ('5', 'CD'), ('Volatile', 'NNP'), ('Stock', 'NNP'), ('Winners', 'NNP'), ('SKS', 'NNP'), (',', ','), ('CCL', 'NNP'), (',', ','), ('Sprint', 'NNP'), (',', ','), ('WAG', 'NNP'), (',', ','), ('ORCL', 'NNP'), ('Tuesday', 'NNP'), ('`', '``'), ('s', 'NNS'), ('Double', 'NNP'), ('Digit', 'NNP'), ('Stock', 'NNP'), ('Gainers', 'NNP'), ('SQNM', 'NNP'), (',', ','), ('ARWR', 'NNP'), (',', ','), ('PMI', 'NNP'), (',', ','), ('ISSI', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Tuesday/NNP   `/``   s/NNS   Top/NNP   5/CD   Volatile/NNP   Stock/NNP   Winners/NNP   SKS/NNP   ,/,   (ORGANIZATION CCL/NNP)   ,/,   (GPE Sprint/NNP)   ,/,   (ORGANIZATION WAG/NNP)   ,/,   (ORGANIZATION ORCL/NNP)   Tuesday/NNP   `/``   s/NNS   (PERSON Double/NNP Digit/NNP Stock/NNP Gainers/NNP SQNM/NNP)   ,/,   (ORGANIZATION ARWR/NNP)   ,/,   (ORGANIZATION PMI/NNP)   ,/,   (ORGANIZATION ISSI/NNP Click/NNP)   here/RB   to/TO   cancel/VB   reply/RB   ./.)
+----------------------------------
+original sentence: 
+Mail will not be published Required Notify me of followup comments via e mail
+Click to cancel reply
+Plugin by wpburn.com 
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('Required', 'NNP'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Click', 'NNP'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('Plugin', 'NNP'), ('by', 'IN'), ('wpburn.com', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   (PERSON Required/NNP Notify/NNP)   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   (PERSON Click/NNP)   to/TO   cancel/VB   reply/RB   Plugin/NNP   by/IN   wpburn.com/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

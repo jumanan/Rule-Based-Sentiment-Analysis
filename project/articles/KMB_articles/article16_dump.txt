@@ -1,0 +1,167 @@
+
+----------------------------------
+original sentence: 
+ Filtration + Separation Kimberly Clark earns EPA 2010 Energy Star Partner of the Year  Related Links
+ Related Stories
+ Kimberly Clark earns EPA 2010 Energy Star Partner of the Year
+ The US Environmental Protection Agency EPA has named Kimberly Clark Corp as a 2010 Energy Star Partner of the Year.
+
+POS tagged sentence: 
+[('Filtration', 'NN'), ('+', '``'), ('Separation', 'NNP'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('earns', 'VBZ'), ('EPA', 'NNP'), ('2010', 'CD'), ('Energy', 'NNP'), ('Star', 'NNP'), ('Partner', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Year', 'NN'), ('Related', 'NNP'), ('Links', 'NNP'), ('Related', 'NNP'), ('Stories', 'NNP'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('earns', 'VBZ'), ('EPA', 'NNP'), ('2010', 'CD'), ('Energy', 'NNP'), ('Star', 'NNP'), ('Partner', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Year', 'NN'), ('The', 'DT'), ('US', 'NNP'), ('Environmental', 'NNP'), ('Protection', 'NNP'), ('Agency', 'NNP'), ('EPA', 'NNP'), ('has', 'VBZ'), ('named', 'VBN'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('Corp', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('2010', 'CD'), ('Energy', 'NNP'), ('Star', 'NNP'), ('Partner', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Filtration/NN   +/``   Separation/NNP   Kimberly/NNP   (PERSON Clark/NNP)   earns/VBZ   (ORGANIZATION EPA/NNP)   2010/CD   (ORGANIZATION Energy/NNP Star/NNP Partner/NNP)   of/IN   the/DT   (ORGANIZATION Year/NN Related/NNP Links/NNP Related/NNP)   Stories/NNP   Kimberly/NNP   (PERSON Clark/NNP)   earns/VBZ   (ORGANIZATION EPA/NNP)   2010/CD   (ORGANIZATION Energy/NNP Star/NNP Partner/NNP)   of/IN   the/DT   Year/NN   The/DT   (ORGANIZATION US/NNP Environmental/NNP Protection/NNP Agency/NNP)   (ORGANIZATION EPA/NNP)   has/VBZ   named/VBN   (PERSON Kimberly/NNP Clark/NNP Corp/NNP)   as/IN   a/DT   2010/CD   (ORGANIZATION Energy/NNP Star/NNP Partner/NNP)   of/IN   the/DT   Year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   earns/VBZ   EPA/NNP   2010/CD   Energy/NNP   Star/NNP   Partner/NNP   of/IN   the/DT   Year/NN   Related/NNP   Links/NNP   Related/NNP   Stories/NNP   Kimberly/NNP   Clark/NNP)
+
+tagged sentence:
+	 earns EPA 2010 Energy Star Partner of the Year Related Links Related Stories Kimberly Clark	res:2
+	(VERB   earns/VBZ   EPA/NNP   2010/CD   Energy/NNP   Star/NNP   Partner/NNP   of/IN   the/DT   Year/NN   The/DT   US/NNP   Environmental/NNP   Protection/NNP   Agency/NNP   EPA/NNP)
+	(VERB   has/VBZ   named/VBN   Kimberly/NNP   Clark/NNP   Corp/NNP   as/IN   a/DT   2010/CD   Energy/NNP   Star/NNP   Partner/NNP   of/IN   the/DT   Year/NN)
+
+tagged sentence:
+	 has named Kimberly Clark Corp as a 2010 Energy Star Partner of the Year	res:2
+noun phrases to consider:
+	(NOUN Filtration/NN)
+	(NOUN Separation/NNP Kimberly/NNP Clark/NNP)
+
+----------------------------------
+original sentence: 
+For the second consecutive year, Kimberly Clark is being recognised for its energy management practices and commitment to sustainable operations.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('consecutive', 'JJ'), ('year', 'NN'), (',', ','), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('is', 'VBZ'), ('being', 'VBG'), ('recognised', 'VBN'), ('for', 'IN'), ('its', 'PRP$'), ('energy', 'NN'), ('management', 'NN'), ('practices', 'NNS'), ('and', 'CC'), ('commitment', 'NN'), ('to', 'TO'), ('sustainable', 'JJ'), ('operations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   second/JJ   consecutive/JJ   year/NN   ,/,   (PERSON Kimberly/NNP Clark/NNP)   is/VBZ   being/VBG   recognised/VBN   for/IN   its/PRP$   energy/NN   management/NN   practices/NNS   and/CC   commitment/NN   to/TO   sustainable/JJ   operations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   being/VBG   recognised/VBN   for/IN   its/PRP$   energy/NN   management/NN   practices/NNS)
+noun phrases to consider:
+	(NOUN the/DT second/JJ consecutive/JJ year/NN)
+	(NOUN Kimberly/NNP Clark/NNP)
+	(NOUN commitment/NN)
+	(NOUN sustainable/JJ operations/NNS)
+
+----------------------------------
+original sentence: 
+Kimberly Clark estimates that it has improved its worldwide energy efficiency by 4.4% since 2005 as part of its environmental vision 2010 program.
+
+POS tagged sentence: 
+[('Kimberly', 'RB'), ('Clark', 'NNP'), ('estimates', 'NNS'), ('that', 'WDT'), ('it', 'PRP'), ('has', 'VBZ'), ('improved', 'VBN'), ('its', 'PRP$'), ('worldwide', 'NN'), ('energy', 'NN'), ('efficiency', 'NN'), ('by', 'IN'), ('4.4', 'CD'), ('%', 'NN'), ('since', 'IN'), ('2005', 'CD'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('environmental', 'JJ'), ('vision', 'NN'), ('2010', 'CD'), ('program', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Kimberly/RB   (PERSON Clark/NNP)   estimates/NNS   that/WDT   it/PRP   has/VBZ   improved/VBN   its/PRP$   worldwide/NN   energy/NN   efficiency/NN   by/IN   4.4/CD   %/NN   since/IN   2005/CD   as/IN   part/NN   of/IN   its/PRP$   environmental/JJ   vision/NN   2010/CD   program/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   improved/VBN   its/PRP$   worldwide/NN   energy/NN   efficiency/NN   by/IN   4.4/CD   %/NN   since/IN   2005/CD   as/IN   part/NN   of/IN   its/PRP$   environmental/JJ   vision/NN   2010/CD   program/NN)
+noun phrases to consider:
+	(NOUN Clark/NNP estimates/NNS)
+
+----------------------------------
+original sentence: 
+&ldquo;Kimberly Clark is leading the fight against climate change through greater energy efficiency,&rdquo; said Gina McCarthy, EPA assistant administrator for Air and Radiation.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('is', 'VBZ'), ('leading', 'VBG'), ('the', 'DT'), ('fight', 'NN'), ('against', 'IN'), ('climate', 'NN'), ('change', 'NN'), ('through', 'IN'), ('greater', 'JJR'), ('energy', 'NN'), ('efficiency,&rdquo', '-NONE-'), (';', ':'), ('said', 'VBD'), ('Gina', 'NNP'), ('McCarthy', 'NNP'), (',', ','), ('EPA', 'NNP'), ('assistant', 'NN'), ('administrator', 'NN'), ('for', 'IN'), ('Air', 'NNP'), ('and', 'CC'), ('Radiation', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   (PERSON Kimberly/NNP Clark/NNP)   is/VBZ   leading/VBG   the/DT   fight/NN   against/IN   climate/NN   change/NN   through/IN   greater/JJR   energy/NN   efficiency,&rdquo/-NONE-   ;/:   said/VBD   (PERSON Gina/NNP McCarthy/NNP)   ,/,   (ORGANIZATION EPA/NNP)   assistant/NN   administrator/NN   for/IN   (PERSON Air/NNP)   and/CC   (ORGANIZATION Radiation/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   leading/VBG   the/DT   fight/NN   against/IN   climate/NN   change/NN   through/IN   greater/JJR   energy/NN)
+
+tagged sentence:
+	 is leading the fight against climate change through greater energy	res:1
+	(VERB said/VBD Gina/NNP McCarthy/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN Kimberly/NNP Clark/NNP)
+	(NOUN EPA/NNP assistant/NN administrator/NN)
+	(NOUN Air/NNP)
+	(NOUN Radiation/NNP)
+
+----------------------------------
+original sentence: 
+&ldquo;Kimberly Clark&rsquo;s robust energy management program is a model for others and affirms that energy efficiency is our most cost effective climate strategy.&rdquo;
+&ldquo;Earning the EPA Energy Star Partner of the Year for the second consecutive year is a testament to our ongoing commitment to sustainable energy management practices throughout every aspect of our business,&rdquo; said Suhas Apte, vice president of Global Sustainability at Kimberly Clark.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Kimberly', 'NNP'), ('Clark&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('robust', 'VBP'), ('energy', 'NN'), ('management', 'NN'), ('program', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('model', 'NN'), ('for', 'IN'), ('others', 'NNS'), ('and', 'CC'), ('affirms', 'NNS'), ('that', 'WDT'), ('energy', 'NN'), ('efficiency', 'NN'), ('is', 'VBZ'), ('our', 'PRP$'), ('most', 'RBS'), ('cost', 'NN'), ('effective', 'JJ'), ('climate', 'NN'), ('strategy.&rdquo', '-NONE-'), (';', ':'), ('&ldquo', 'NNP'), (';', ':'), ('Earning', 'NNP'), ('the', 'DT'), ('EPA', 'NNP'), ('Energy', 'NNP'), ('Star', 'NNP'), ('Partner', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Year', 'NN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('consecutive', 'JJ'), ('year', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('testament', 'NN'), ('to', 'TO'), ('our', 'PRP$'), ('ongoing', 'JJ'), ('commitment', 'NN'), ('to', 'TO'), ('sustainable', 'JJ'), ('energy', 'NN'), ('management', 'NN'), ('practices', 'NNS'), ('throughout', 'IN'), ('every', 'DT'), ('aspect', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('business,&rdquo', 'JJ'), (';', ':'), ('said', 'VBD'), ('Suhas', 'NNP'), ('Apte', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('of', 'IN'), ('Global', 'NNP'), ('Sustainability', 'NNP'), ('at', 'IN'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   (PERSON Kimberly/NNP)   Clark&rsquo/NNP   ;/:   s/NNS   robust/VBP   energy/NN   management/NN   program/NN   is/VBZ   a/DT   model/NN   for/IN   others/NNS   and/CC   affirms/NNS   that/WDT   energy/NN   efficiency/NN   is/VBZ   our/PRP$   most/RBS   cost/NN   effective/JJ   climate/NN   strategy.&rdquo/-NONE-   ;/:   &ldquo/NNP   ;/:   Earning/NNP   the/DT   (ORGANIZATION EPA/NNP Energy/NNP Star/NNP Partner/NNP)   of/IN   the/DT   Year/NN   for/IN   the/DT   second/JJ   consecutive/JJ   year/NN   is/VBZ   a/DT   testament/NN   to/TO   our/PRP$   ongoing/JJ   commitment/NN   to/TO   sustainable/JJ   energy/NN   management/NN   practices/NNS   throughout/IN   every/DT   aspect/NN   of/IN   our/PRP$   business,&rdquo/JJ   ;/:   said/VBD   (PERSON Suhas/NNP Apte/NNP)   ,/,   vice/NN   president/NN   of/IN   (PERSON Global/NNP Sustainability/NNP)   at/IN   (ORGANIZATION Kimberly/NNP Clark/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB robust/VBP energy/NN management/NN program/NN)
+	(VERB is/VBZ a/DT model/NN for/IN others/NNS)
+	(VERB is/VBZ our/PRP$)
+	(VERB is/VBZ a/DT testament/NN)
+	(VERB said/VBD Suhas/NNP Apte/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN Kimberly/NNP Clark&rsquo/NNP)
+	(NOUN s/NNS)
+	(NOUN affirms/NNS)
+	(NOUN energy/NN efficiency/NN)
+	(NOUN cost/NN effective/JJ climate/NN)
+
+tagged sentence:
+	 cost effective climate	res:-1
+	(NOUN &ldquo/NNP)
+	(NOUN Earning/NNP)
+	(NOUN EPA/NNP Energy/NNP Star/NNP Partner/NNP)
+	(NOUN Year/NN)
+	(NOUN the/DT second/JJ consecutive/JJ year/NN)
+	(NOUN ongoing/JJ commitment/NN)
+	(NOUN sustainable/JJ energy/NN management/NN practices/NNS)
+	(NOUN aspect/NN)
+	(NOUN business,&rdquo/JJ)
+	(NOUN vice/NN president/NN)
+	(NOUN Global/NNP Sustainability/NNP)
+	(NOUN Kimberly/NNP Clark/NNP)
+
+----------------------------------
+original sentence: 
+&ldquo;Our partnership with Energy Star allows us to collaborate on important issues and improve our environmental stewardship through energy efficiency, which is a critical component of K C&rsquo;s sustainability strategy and long term growth plans.&rdquo;
+ This article is featured in:
+ Filter media
+  Comment on this article
+ You must be  and logged in to leave a comment about this article.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Our', 'NNP'), ('partnership', 'NN'), ('with', 'IN'), ('Energy', 'NNP'), ('Star', 'NNP'), ('allows', 'VBZ'), ('us', 'PRP'), ('to', 'TO'), ('collaborate', 'VB'), ('on', 'IN'), ('important', 'JJ'), ('issues', 'NNS'), ('and', 'CC'), ('improve', 'VB'), ('our', 'PRP$'), ('environmental', 'JJ'), ('stewardship', 'NN'), ('through', 'IN'), ('energy', 'NN'), ('efficiency', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('a', 'DT'), ('critical', 'JJ'), ('component', 'NN'), ('of', 'IN'), ('K', 'NNP'), ('C&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('sustainability', 'NN'), ('strategy', 'NN'), ('and', 'CC'), ('long', 'JJ'), ('term', 'NN'), ('growth', 'NN'), ('plans.&rdquo', '-NONE-'), (';', ':'), ('This', 'DT'), ('article', 'NN'), ('is', 'VBZ'), ('featured', 'VBN'), ('in', 'IN'), (':', ':'), ('Filter', 'NNP'), ('media', 'NNS'), ('Comment', 'NNP'), ('on', 'IN'), ('this', 'DT'), ('article', 'NN'), ('You', 'PRP'), ('must', 'MD'), ('be', 'VB'), ('and', 'CC'), ('logged', 'VBN'), ('in', 'IN'), ('to', 'TO'), ('leave', 'VB'), ('a', 'DT'), ('comment', 'NN'), ('about', 'IN'), ('this', 'DT'), ('article', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Our/NNP   partnership/NN   with/IN   (PERSON Energy/NNP Star/NNP)   allows/VBZ   us/PRP   to/TO   collaborate/VB   on/IN   important/JJ   issues/NNS   and/CC   improve/VB   our/PRP$   environmental/JJ   stewardship/NN   through/IN   energy/NN   efficiency/NN   ,/,   which/WDT   is/VBZ   a/DT   critical/JJ   component/NN   of/IN   (ORGANIZATION K/NNP)   C&rsquo/NNP   ;/:   s/NNS   sustainability/NN   strategy/NN   and/CC   long/JJ   term/NN   growth/NN   plans.&rdquo/-NONE-   ;/:   This/DT   article/NN   is/VBZ   featured/VBN   in/IN   :/:   Filter/NNP   media/NNS   (ORGANIZATION Comment/NNP)   on/IN   this/DT   article/NN   You/PRP   must/MD   be/VB   and/CC   logged/VBN   in/IN   to/TO   leave/VB   a/DT   comment/NN   about/IN   this/DT   article/NN   ./.)
+----------------------------------
+original sentence: 
+Members' Login
+ Copyright &copy; 2010
+.
+
+POS tagged sentence: 
+[('Members', 'NNS'), ("'", 'POS'), ('Login', 'NNP'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Members/NNS   '/POS   (PERSON Login/NNP Copyright/NNP)   &copy/NNP   ;/:   2010/CD   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+Terms & Conditions
+Filter Content by geographic state
+Select a state by clicking...
+ Current state : Not selected.
+
+
+POS tagged sentence: 
+[('Terms', 'NNS'), ('&', 'CC'), ('Conditions', 'NNS'), ('Filter', 'NNP'), ('Content', 'NNP'), ('by', 'IN'), ('geographic', 'JJ'), ('state', 'NN'), ('Select', 'NNP'), ('a', 'DT'), ('state', 'NN'), ('by', 'IN'), ('clicking..', 'NNP'), ('.', '.'), ('Current', 'NNP'), ('state', 'NN'), (':', ':'), ('Not', 'RB'), ('selected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Terms/NNS   &/CC   (ORGANIZATION Conditions/NNS Filter/NNP)   Content/NNP   by/IN   geographic/JJ   state/NN   Select/NNP   a/DT   state/NN   by/IN   clicking../NNP   ./.   Current/NNP   state/NN   :/:   Not/RB   selected/VBN   ./.)
+
+veryneg:0	neg:1	pos:1	verypos:2	total:1

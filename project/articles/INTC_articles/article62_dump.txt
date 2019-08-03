@@ -1,0 +1,624 @@
+
+----------------------------------
+original sentence: 
+ADDING MULTIMEDIA Intel Science Talent Search 2010 Winners Announced | Business Wire
+ March 17, 2010 02:46 AM Eastern Daylight Time ADDING MULTIMEDIA Intel Science Talent Search 2010 Winners Announced
+New Mexico Teen Erika DeBenedictis Awarded $100,000
+ Honoring the next generation of American innovators, Intel Corporation and Society for Science & the Public today announced the winners of America's oldest and most prestigious pre college science competition, the Intel Science Talent Search.
+
+POS tagged sentence: 
+[('ADDING', 'NN'), ('MULTIMEDIA', 'NNP'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), ('Winners', 'NNP'), ('Announced', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('02', 'CD'), (':', ':'), ('46', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('ADDING', 'NNP'), ('MULTIMEDIA', 'NNP'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), ('Winners', 'NNP'), ('Announced', 'NNP'), ('New', 'NNP'), ('Mexico', 'NNP'), ('Teen', 'NNP'), ('Erika', 'NNP'), ('DeBenedictis', 'NNP'), ('Awarded', 'NNP'), ('$', '$'), ('100,000', 'CD'), ('Honoring', 'NNP'), ('the', 'DT'), ('next', 'JJ'), ('generation', 'NN'), ('of', 'IN'), ('American', 'JJ'), ('innovators', 'NNS'), (',', ','), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('Society', 'NNP'), ('for', 'IN'), ('Science', 'NNP'), ('&', 'CC'), ('the', 'DT'), ('Public', 'NNP'), ('today', 'NN'), ('announced', 'VBD'), ('the', 'DT'), ('winners', 'NNS'), ('of', 'IN'), ('America', 'NNP'), ("'s", 'POS'), ('oldest', 'JJS'), ('and', 'CC'), ('most', 'JJS'), ('prestigious', 'JJ'), ('pre', 'NN'), ('college', 'NN'), ('science', 'NN'), ('competition', 'NN'), (',', ','), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ADDING/NN   (ORGANIZATION MULTIMEDIA/NNP Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   Winners/NNP   (PERSON Announced/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   17/CD   ,/,   2010/CD   02/CD   :/:   46/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   ADDING/NNP   MULTIMEDIA/NNP   Intel/NNP   Science/NNP   Talent/NNP   Search/NNP   2010/CD   Winners/NNP   (PERSON Announced/NNP New/NNP Mexico/NNP Teen/NNP Erika/NNP)   DeBenedictis/NNP   Awarded/NNP   $/$   100,000/CD   Honoring/NNP   the/DT   next/JJ   generation/NN   of/IN   (GPE American/JJ)   innovators/NNS   ,/,   (ORGANIZATION Intel/NNP Corporation/NNP)   and/CC   (ORGANIZATION Society/NNP)   for/IN   (ORGANIZATION Science/NNP)   &/CC   the/DT   (ORGANIZATION Public/NNP)   today/NN   announced/VBD   the/DT   winners/NNS   of/IN   (GPE America/NNP)   's/POS   oldest/JJS   and/CC   most/JJS   prestigious/JJ   pre/NN   college/NN   science/NN   competition/NN   ,/,   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD the/DT winners/NNS of/IN America/NNP)
+noun phrases to consider:
+	(NOUN ADDING/NN MULTIMEDIA/NNP Intel/NNP Science/NNP)
+	(NOUN Talent/NNP Search/NNP)
+	(NOUN 2010/CD Winners/NNP Announced/NNP |/NNP Business/NNP)
+
+tagged sentence:
+	 2010 Winners Announced | Business	res:1
+	(NOUN Wire/NNP March/NNP)
+	(NOUN 46/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN ADDING/NNP MULTIMEDIA/NNP Intel/NNP Science/NNP)
+	(NOUN Talent/NNP Search/NNP)
+	(NOUN 2010/CD Winners/NNP Announced/NNP New/NNP Mexico/NNP)
+
+tagged sentence:
+	 2010 Winners Announced New Mexico	res:1
+	(NOUN Teen/NNP Erika/NNP DeBenedictis/NNP Awarded/NNP)
+	(NOUN 100,000/CD Honoring/NNP)
+	(NOUN the/DT next/JJ generation/NN)
+	(NOUN American/JJ innovators/NNS)
+	(NOUN Intel/NNP Corporation/NNP)
+	(NOUN Society/NNP)
+	(NOUN Science/NNP)
+	(NOUN Public/NNP today/NN)
+	(NOUN oldest/JJS)
+	(NOUN   most/JJS   prestigious/JJ   pre/NN   college/NN   science/NN   competition/NN)
+	(NOUN Intel/NNP Science/NNP Talent/NNP Search/NNP)
+
+----------------------------------
+original sentence: 
+Erika DeBenedictis, 18, of Albuquerque, N.M., won the top award of $100,000 from the Intel Foundation for her project developing a software navigation system to help improve spacecraft travel through the solar system.
+
+POS tagged sentence: 
+[('Erika', 'NNP'), ('DeBenedictis', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Albuquerque', 'NNP'), (',', ','), ('N.M.', 'NNP'), (',', ','), ('won', 'VBD'), ('the', 'DT'), ('top', 'JJ'), ('award', 'NN'), ('of', 'IN'), ('$', '$'), ('100,000', 'CD'), ('from', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Foundation', 'NNP'), ('for', 'IN'), ('her', 'PRP'), ('project', 'VBP'), ('developing', 'VBG'), ('a', 'DT'), ('software', 'NN'), ('navigation', 'NN'), ('system', 'NN'), ('to', 'TO'), ('help', 'VB'), ('improve', 'VB'), ('spacecraft', 'NN'), ('travel', 'NN'), ('through', 'IN'), ('the', 'DT'), ('solar', 'JJ'), ('system', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Erika/NNP)   (GPE DeBenedictis/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Albuquerque/NNP)   ,/,   N.M./NNP   ,/,   won/VBD   the/DT   top/JJ   award/NN   of/IN   $/$   100,000/CD   from/IN   the/DT   (ORGANIZATION Intel/NNP Foundation/NNP)   for/IN   her/PRP   project/VBP   developing/VBG   a/DT   software/NN   navigation/NN   system/NN   to/TO   help/VB   improve/VB   spacecraft/NN   travel/NN   through/IN   the/DT   solar/JJ   system/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB won/VBD the/DT top/JJ award/NN of/IN)
+	(VERB   project/VBP   developing/VBG   a/DT   software/NN   navigation/NN   system/NN)
+	(VERB   help/VB   improve/VB   spacecraft/NN   travel/NN   through/IN   the/DT   solar/JJ   system/NN)
+
+tagged sentence:
+	 help improve spacecraft travel through the solar system	res:1
+noun phrases to consider:
+	(NOUN Erika/NNP DeBenedictis/NNP)
+	(NOUN Albuquerque/NNP)
+	(NOUN N.M./NNP)
+	(NOUN Intel/NNP Foundation/NNP)
+
+----------------------------------
+original sentence: 
+Erika&#8217;s research found that the gravity and movement of planets create &#8220;easy transit routes,&#8221; which will ultimately help spacecraft move faster and with less fuel.
+
+POS tagged sentence: 
+[('Erika&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('research', 'VBP'), ('found', 'VBN'), ('that', 'IN'), ('the', 'DT'), ('gravity', 'NN'), ('and', 'CC'), ('movement', 'NN'), ('of', 'IN'), ('planets', 'NNS'), ('create', 'VBP'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('easy', 'JJ'), ('transit', 'NN'), ('routes,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('which', 'WDT'), ('will', 'MD'), ('ultimately', 'RB'), ('help', 'VB'), ('spacecraft', 'NN'), ('move', 'VB'), ('faster', 'JJR'), ('and', 'CC'), ('with', 'IN'), ('less', 'JJR'), ('fuel', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Erika&/NN   #/#   8217/CD   ;/:   s/NNS   research/VBP   found/VBN   that/IN   the/DT   gravity/NN   and/CC   movement/NN   of/IN   planets/NNS   create/VBP   &/CC   #/#   8220/CD   ;/:   easy/JJ   transit/NN   routes,&/NN   #/#   8221/CD   ;/:   which/WDT   will/MD   ultimately/RB   help/VB   spacecraft/NN   move/VB   faster/JJR   and/CC   with/IN   less/JJR   fuel/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;These 40 Intel Science Talent Search finalists demonstrate that we have the capability in this country to cultivate the next generation of innovators, scientists and entrepreneurs&#8221;
+ Second place honors and $75,000 went to David Liu, 18, of Saratoga, Calif., for his work to develop a system to recognize and understand digital images.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('These', 'DT'), ('40', 'CD'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('finalists', 'VBZ'), ('demonstrate', 'JJ'), ('that', 'IN'), ('we', 'PRP'), ('have', 'VBP'), ('the', 'DT'), ('capability', 'NN'), ('in', 'IN'), ('this', 'DT'), ('country', 'NN'), ('to', 'TO'), ('cultivate', 'VB'), ('the', 'DT'), ('next', 'JJ'), ('generation', 'NN'), ('of', 'IN'), ('innovators', 'NNS'), (',', ','), ('scientists', 'NNS'), ('and', 'CC'), ('entrepreneurs&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Second', 'NNP'), ('place', 'NN'), ('honors', 'NNS'), ('and', 'CC'), ('$', '$'), ('75,000', 'CD'), ('went', 'VBD'), ('to', 'TO'), ('David', 'NNP'), ('Liu', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Saratoga', 'NNP'), (',', ','), ('Calif.', 'NNP'), (',', ','), ('for', 'IN'), ('his', 'PRP$'), ('work', 'NN'), ('to', 'TO'), ('develop', 'VB'), ('a', 'DT'), ('system', 'NN'), ('to', 'TO'), ('recognize', 'VB'), ('and', 'CC'), ('understand', 'VB'), ('digital', 'JJ'), ('images', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   These/DT   40/CD   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   finalists/VBZ   demonstrate/JJ   that/IN   we/PRP   have/VBP   the/DT   capability/NN   in/IN   this/DT   country/NN   to/TO   cultivate/VB   the/DT   next/JJ   generation/NN   of/IN   innovators/NNS   ,/,   scientists/NNS   and/CC   entrepreneurs&/JJ   #/#   8221/CD   ;/:   Second/NNP   place/NN   honors/NNS   and/CC   $/$   75,000/CD   went/VBD   to/TO   (PERSON David/NNP Liu/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Saratoga/NNP)   ,/,   (GPE Calif./NNP)   ,/,   for/IN   his/PRP$   work/NN   to/TO   develop/VB   a/DT   system/NN   to/TO   recognize/VB   and/CC   understand/VB   digital/JJ   images/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB finalists/VBZ demonstrate/JJ that/IN we/PRP)
+	(VERB have/VBP the/DT capability/NN in/IN this/DT country/NN)
+	(VERB cultivate/VB the/DT next/JJ generation/NN of/IN innovators/NNS)
+
+tagged sentence:
+	 cultivate the next generation of innovators	res:1
+	(VERB went/VBD to/TO David/NNP Liu/NNP)
+	(VERB develop/VB a/DT system/NN)
+	(VERB recognize/VB)
+	(VERB understand/VB digital/JJ images/NNS)
+noun phrases to consider:
+	(NOUN 40/CD Intel/NNP Science/NNP Talent/NNP Search/NNP)
+	(NOUN scientists/NNS)
+	(NOUN entrepreneurs&/JJ)
+	(NOUN Second/NNP place/NN honors/NNS)
+
+tagged sentence:
+	 Second place honors	res:1
+	(NOUN Saratoga/NNP)
+	(NOUN Calif./NNP)
+	(NOUN work/NN)
+
+----------------------------------
+original sentence: 
+David&#8217;s work has already been used to examine aerial images to identify hazards to buried oil pipelines and could also be used to enable unmanned aerial vehicles and Web based image searches.
+
+POS tagged sentence: 
+[('David&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('work', 'VBP'), ('has', 'VBZ'), ('already', 'RB'), ('been', 'VBN'), ('used', 'VBN'), ('to', 'TO'), ('examine', 'VB'), ('aerial', 'JJ'), ('images', 'NNS'), ('to', 'TO'), ('identify', 'VB'), ('hazards', 'NNS'), ('to', 'TO'), ('buried', 'JJ'), ('oil', 'NN'), ('pipelines', 'NNS'), ('and', 'CC'), ('could', 'MD'), ('also', 'RB'), ('be', 'VB'), ('used', 'VBN'), ('to', 'TO'), ('enable', 'JJ'), ('unmanned', 'VBN'), ('aerial', 'JJ'), ('vehicles', 'NNS'), ('and', 'CC'), ('Web', 'NNP'), ('based', 'VBD'), ('image', 'NN'), ('searches', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   David&/NN   #/#   8217/CD   ;/:   s/NNS   work/VBP   has/VBZ   already/RB   been/VBN   used/VBN   to/TO   examine/VB   aerial/JJ   images/NNS   to/TO   identify/VB   hazards/NNS   to/TO   buried/JJ   oil/NN   pipelines/NNS   and/CC   could/MD   also/RB   be/VB   used/VBN   to/TO   enable/JJ   unmanned/VBN   aerial/JJ   vehicles/NNS   and/CC   (PERSON Web/NNP)   based/VBD   image/NN   searches/NNS   ./.)
+----------------------------------
+original sentence: 
+Third place honors and $50,000 went to Akhil Mathew, 18, of Madison, N.J., for his math project on Deligne categories, a setting for studying a wide range of algebraic structures with ties to theoretical physics.
+
+POS tagged sentence: 
+[('Third', 'JJ'), ('place', 'NN'), ('honors', 'NNS'), ('and', 'CC'), ('$', '$'), ('50,000', 'CD'), ('went', 'VBD'), ('to', 'TO'), ('Akhil', 'NNP'), ('Mathew', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Madison', 'NNP'), (',', ','), ('N.J.', 'NNP'), (',', ','), ('for', 'IN'), ('his', 'PRP$'), ('math', 'NN'), ('project', 'NN'), ('on', 'IN'), ('Deligne', 'NNP'), ('categories', 'NNS'), (',', ','), ('a', 'DT'), ('setting', 'NN'), ('for', 'IN'), ('studying', 'VBG'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('algebraic', 'JJ'), ('structures', 'NNS'), ('with', 'IN'), ('ties', 'NNS'), ('to', 'TO'), ('theoretical', 'JJ'), ('physics', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Third/JJ   place/NN   honors/NNS   and/CC   $/$   50,000/CD   went/VBD   to/TO   (PERSON Akhil/NNP Mathew/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Madison/NNP)   ,/,   (GPE N.J./NNP)   ,/,   for/IN   his/PRP$   math/NN   project/NN   on/IN   (ORGANIZATION Deligne/NNP)   categories/NNS   ,/,   a/DT   setting/NN   for/IN   studying/VBG   a/DT   wide/JJ   range/NN   of/IN   algebraic/JJ   structures/NNS   with/IN   ties/NNS   to/TO   theoretical/JJ   physics/NNS   ./.)
+----------------------------------
+original sentence: 
+&#8220;These 40 Intel Science Talent Search finalists demonstrate that we have the capability in this country to cultivate the next generation of innovators, scientists and entrepreneurs,&#8221; said Intel President and CEO Paul Otellini.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('These', 'DT'), ('40', 'CD'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('finalists', 'VBZ'), ('demonstrate', 'JJ'), ('that', 'IN'), ('we', 'PRP'), ('have', 'VBP'), ('the', 'DT'), ('capability', 'NN'), ('in', 'IN'), ('this', 'DT'), ('country', 'NN'), ('to', 'TO'), ('cultivate', 'VB'), ('the', 'DT'), ('next', 'JJ'), ('generation', 'NN'), ('of', 'IN'), ('innovators', 'NNS'), (',', ','), ('scientists', 'NNS'), ('and', 'CC'), ('entrepreneurs,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Intel', 'NNP'), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('Paul', 'NNP'), ('Otellini', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   These/DT   40/CD   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   finalists/VBZ   demonstrate/JJ   that/IN   we/PRP   have/VBP   the/DT   capability/NN   in/IN   this/DT   country/NN   to/TO   cultivate/VB   the/DT   next/JJ   generation/NN   of/IN   innovators/NNS   ,/,   scientists/NNS   and/CC   entrepreneurs,&/JJ   #/#   8221/CD   ;/:   said/VBD   (PERSON Intel/NNP)   President/NNP   and/CC   (ORGANIZATION CEO/NNP Paul/NNP Otellini/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB finalists/VBZ demonstrate/JJ that/IN we/PRP)
+	(VERB have/VBP the/DT capability/NN in/IN this/DT country/NN)
+	(VERB cultivate/VB the/DT next/JJ generation/NN of/IN innovators/NNS)
+
+tagged sentence:
+	 cultivate the next generation of innovators	res:1
+	(VERB said/VBD Intel/NNP President/NNP)
+noun phrases to consider:
+	(NOUN 40/CD Intel/NNP Science/NNP Talent/NNP Search/NNP)
+	(NOUN scientists/NNS)
+	(NOUN entrepreneurs,&/JJ)
+	(NOUN CEO/NNP Paul/NNP Otellini/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;These young scientists are proof that curious, eager minds coupled with inspiring, knowledgeable teachers are the foundation for world changing innovation.&#8221;  Other top honors from the competition include:  Lynnelle Ye, 18, Palo Alto, Calif., received a $40,000 award for her project that provided strategies for winning at a computer game titled &#8220;Graph Chomp.&#8221;  Eric Brooks, 16, Hewlett, N.Y., received a $30,000 award for his research studying racial genetic factors that may affect the spread of prostate cancer.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('These', 'DT'), ('young', 'JJ'), ('scientists', 'NNS'), ('are', 'VBP'), ('proof', 'IN'), ('that', 'IN'), ('curious', 'JJ'), (',', ','), ('eager', 'JJ'), ('minds', 'NNS'), ('coupled', 'VBN'), ('with', 'IN'), ('inspiring', 'NN'), (',', ','), ('knowledgeable', 'JJ'), ('teachers', 'NNS'), ('are', 'VBP'), ('the', 'DT'), ('foundation', 'NN'), ('for', 'IN'), ('world', 'NN'), ('changing', 'VBG'), ('innovation.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Other', 'JJ'), ('top', 'JJ'), ('honors', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('competition', 'NN'), ('include', 'NN'), (':', ':'), ('Lynnelle', 'NNP'), ('Ye', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('Palo', 'NNP'), ('Alto', 'NNP'), (',', ','), ('Calif.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('40,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('her', 'PRP$'), ('project', 'NN'), ('that', 'WDT'), ('provided', 'VBN'), ('strategies', 'NNS'), ('for', 'IN'), ('winning', 'VBG'), ('at', 'IN'), ('a', 'DT'), ('computer', 'NN'), ('game', 'NN'), ('titled', 'VBD'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Graph', 'NNP'), ('Chomp.&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Eric', 'NNP'), ('Brooks', 'NNP'), (',', ','), ('16', 'CD'), (',', ','), ('Hewlett', 'NNP'), (',', ','), ('N.Y.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('30,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('his', 'PRP$'), ('research', 'NN'), ('studying', 'VBG'), ('racial', 'JJ'), ('genetic', 'JJ'), ('factors', 'NNS'), ('that', 'WDT'), ('may', 'MD'), ('affect', 'VB'), ('the', 'DT'), ('spread', 'NN'), ('of', 'IN'), ('prostate', 'JJ'), ('cancer', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   These/DT   young/JJ   scientists/NNS   are/VBP   proof/IN   that/IN   curious/JJ   ,/,   eager/JJ   minds/NNS   coupled/VBN   with/IN   inspiring/NN   ,/,   knowledgeable/JJ   teachers/NNS   are/VBP   the/DT   foundation/NN   for/IN   world/NN   changing/VBG   innovation.&/NN   #/#   8221/CD   ;/:   Other/JJ   top/JJ   honors/NNS   from/IN   the/DT   competition/NN   include/NN   :/:   (PERSON Lynnelle/NNP Ye/NNP)   ,/,   18/CD   ,/,   (PERSON Palo/NNP Alto/NNP)   ,/,   (GPE Calif./NNP)   ,/,   received/VBD   a/DT   $/$   40,000/CD   award/NN   for/IN   her/PRP$   project/NN   that/WDT   provided/VBN   strategies/NNS   for/IN   winning/VBG   at/IN   a/DT   computer/NN   game/NN   titled/VBD   &/CC   #/#   8220/CD   ;/:   (PERSON Graph/NNP)   Chomp.&/NNP   #/#   8221/CD   ;/:   (PERSON Eric/NNP Brooks/NNP)   ,/,   16/CD   ,/,   (PERSON Hewlett/NNP)   ,/,   (GPE N.Y./NNP)   ,/,   received/VBD   a/DT   $/$   30,000/CD   award/NN   for/IN   his/PRP$   research/NN   studying/VBG   racial/JJ   genetic/JJ   factors/NNS   that/WDT   may/MD   affect/VB   the/DT   spread/NN   of/IN   prostate/JJ   cancer/NN   ./.)
+----------------------------------
+original sentence: 
+John Capodilupo, 18, of Grand Rapids, Mich., received a $25,000 award for his project that used cluster analysis of objects in the night sky to study the structure and evolution of the early universe.
+
+POS tagged sentence: 
+[('John', 'NNP'), ('Capodilupo', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Grand', 'NNP'), ('Rapids', 'NNP'), (',', ','), ('Mich.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('25,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('his', 'PRP$'), ('project', 'NN'), ('that', 'IN'), ('used', 'VBN'), ('cluster', 'NN'), ('analysis', 'NN'), ('of', 'IN'), ('objects', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('night', 'NN'), ('sky', 'NN'), ('to', 'TO'), ('study', 'NN'), ('the', 'DT'), ('structure', 'NN'), ('and', 'CC'), ('evolution', 'NN'), ('of', 'IN'), ('the', 'DT'), ('early', 'JJ'), ('universe', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON John/NNP)   (ORGANIZATION Capodilupo/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Grand/NNP Rapids/NNP)   ,/,   Mich./NNP   ,/,   received/VBD   a/DT   $/$   25,000/CD   award/NN   for/IN   his/PRP$   project/NN   that/IN   used/VBN   cluster/NN   analysis/NN   of/IN   objects/NNS   in/IN   the/DT   night/NN   sky/NN   to/TO   study/NN   the/DT   structure/NN   and/CC   evolution/NN   of/IN   the/DT   early/JJ   universe/NN   ./.)
+----------------------------------
+original sentence: 
+Benjamen Sun, 17, of Grand Forks, N.D., received a $25,000 award for his work studying how sand, dust and other debris on city streets can adsorb** pollutants from rain and, thus, contaminate city water sources.
+
+POS tagged sentence: 
+[('Benjamen', 'NNS'), ('Sun', 'NNP'), (',', ','), ('17', 'CD'), (',', ','), ('of', 'IN'), ('Grand', 'NNP'), ('Forks', 'NNP'), (',', ','), ('N.D.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('25,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('his', 'PRP$'), ('work', 'NN'), ('studying', 'VBG'), ('how', 'WRB'), ('sand', 'NN'), (',', ','), ('dust', 'RB'), ('and', 'CC'), ('other', 'JJ'), ('debris', 'NNS'), ('on', 'IN'), ('city', 'NN'), ('streets', 'NNS'), ('can', 'MD'), ('adsorb', 'VB'), ('*', '-NONE-'), ('*', '-NONE-'), ('pollutants', 'NNS'), ('from', 'IN'), ('rain', 'NN'), ('and', 'CC'), (',', ','), ('thus', 'RB'), (',', ','), ('contaminate', 'JJ'), ('city', 'NN'), ('water', 'NN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Benjamen/NNS   (ORGANIZATION Sun/NNP)   ,/,   17/CD   ,/,   of/IN   (GPE Grand/NNP Forks/NNP)   ,/,   N.D./NNP   ,/,   received/VBD   a/DT   $/$   25,000/CD   award/NN   for/IN   his/PRP$   work/NN   studying/VBG   how/WRB   sand/NN   ,/,   dust/RB   and/CC   other/JJ   debris/NNS   on/IN   city/NN   streets/NNS   can/MD   adsorb/VB   */-NONE-   */-NONE-   pollutants/NNS   from/IN   rain/NN   and/CC   ,/,   thus/RB   ,/,   contaminate/JJ   city/NN   water/NN   sources/NNS   ./.)
+----------------------------------
+original sentence: 
+Katherine Rudolph, 18, of Naperville, Ill., received a $20,000 award for her math project that investigated dense packing of identical spheres, the results of which can be used in fields from chemistry to cryptology.
+
+POS tagged sentence: 
+[('Katherine', 'NNP'), ('Rudolph', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Naperville', 'NNP'), (',', ','), ('Ill.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('20,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('her', 'PRP$'), ('math', 'NN'), ('project', 'NN'), ('that', 'WDT'), ('investigated', 'VBN'), ('dense', 'NN'), ('packing', 'NN'), ('of', 'IN'), ('identical', 'JJ'), ('spheres', 'NNS'), (',', ','), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('which', 'WDT'), ('can', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('in', 'IN'), ('fields', 'NNS'), ('from', 'IN'), ('chemistry', 'NN'), ('to', 'TO'), ('cryptology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Katherine/NNP)   (ORGANIZATION Rudolph/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Naperville/NNP)   ,/,   Ill./NNP   ,/,   received/VBD   a/DT   $/$   20,000/CD   award/NN   for/IN   her/PRP$   math/NN   project/NN   that/WDT   investigated/VBN   dense/NN   packing/NN   of/IN   identical/JJ   spheres/NNS   ,/,   the/DT   results/NNS   of/IN   which/WDT   can/MD   be/VB   used/VBN   in/IN   fields/NNS   from/IN   chemistry/NN   to/TO   cryptology/NN   ./.)
+----------------------------------
+original sentence: 
+Yale Fan, 18, of Beaverton, Ore., received a $20,000 award for his research that demonstrated the advantages of quantum computing in performing difficult computations.
+
+POS tagged sentence: 
+[('Yale', 'NNP'), ('Fan', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Beaverton', 'NNP'), (',', ','), ('Ore.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('20,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('his', 'PRP$'), ('research', 'NN'), ('that', 'WDT'), ('demonstrated', 'VBN'), ('the', 'DT'), ('advantages', 'NNS'), ('of', 'IN'), ('quantum', 'NN'), ('computing', 'VBG'), ('in', 'IN'), ('performing', 'VBG'), ('difficult', 'NN'), ('computations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Yale/NNP)   (ORGANIZATION Fan/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Beaverton/NNP)   ,/,   Ore./NNP   ,/,   received/VBD   a/DT   $/$   20,000/CD   award/NN   for/IN   his/PRP$   research/NN   that/WDT   demonstrated/VBN   the/DT   advantages/NNS   of/IN   quantum/NN   computing/VBG   in/IN   performing/VBG   difficult/NN   computations/NNS   ./.)
+----------------------------------
+original sentence: 
+Linda Zhou, 18, of River Edge, N.J., received a $20,000 award for her project that researched how to reverse drug resistance in breast cancer cells.
+
+POS tagged sentence: 
+[('Linda', 'NNP'), ('Zhou', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('River', 'NNP'), ('Edge', 'NNP'), (',', ','), ('N.J.', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('20,000', 'CD'), ('award', 'NN'), ('for', 'IN'), ('her', 'PRP$'), ('project', 'NN'), ('that', 'WDT'), ('researched', 'VBD'), ('how', 'WRB'), ('to', 'TO'), ('reverse', 'VB'), ('drug', 'NN'), ('resistance', 'NN'), ('in', 'IN'), ('breast', 'NN'), ('cancer', 'NN'), ('cells', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Linda/NNP)   (GPE Zhou/NNP)   ,/,   18/CD   ,/,   of/IN   (PERSON River/NNP Edge/NNP)   ,/,   (GPE N.J./NNP)   ,/,   received/VBD   a/DT   $/$   20,000/CD   award/NN   for/IN   her/PRP$   project/NN   that/WDT   researched/VBD   how/WRB   to/TO   reverse/VB   drug/NN   resistance/NN   in/IN   breast/NN   cancer/NN   cells/NNS   ./.)
+----------------------------------
+original sentence: 
+The remaining 30 finalists each received at least $7,500 in awards.
+
+POS tagged sentence: 
+[('The', 'DT'), ('remaining', 'VBG'), ('30', 'CD'), ('finalists', 'NNS'), ('each', 'DT'), ('received', 'VBD'), ('at', 'IN'), ('least', 'JJS'), ('$', '$'), ('7,500', 'CD'), ('in', 'IN'), ('awards', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   remaining/VBG   30/CD   finalists/NNS   each/DT   received/VBD   at/IN   least/JJS   $/$   7,500/CD   in/IN   awards/NNS   ./.)
+----------------------------------
+original sentence: 
+This year's Intel Science Talent Search finalists hail from 18 states and represent 36 schools.
+
+POS tagged sentence: 
+[('This', 'DT'), ('year', 'NN'), ("'s", 'POS'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('finalists', 'VBZ'), ('hail', 'NN'), ('from', 'IN'), ('18', 'CD'), ('states', 'NNS'), ('and', 'CC'), ('represent', 'VBP'), ('36', 'CD'), ('schools', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   year/NN   's/POS   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   finalists/VBZ   hail/NN   from/IN   18/CD   states/NNS   and/CC   represent/VBP   36/CD   schools/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB finalists/VBZ hail/NN from/IN 18/CD states/NNS)
+	(VERB represent/VBP 36/CD schools/NNS)
+noun phrases to consider:
+	(NOUN year/NN)
+	(NOUN Intel/NNP Science/NNP Talent/NNP Search/NNP)
+
+----------------------------------
+original sentence: 
+Of the 1,736 high school seniors who entered the Intel Science Talent Search 2010, 300 were announced as semifinalists in January.
+
+POS tagged sentence: 
+[('Of', 'IN'), ('the', 'DT'), ('1,736', 'CD'), ('high', 'JJ'), ('school', 'NN'), ('seniors', 'NNS'), ('who', 'WP'), ('entered', 'VBN'), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), (',', ','), ('300', 'CD'), ('were', 'VBD'), ('announced', 'VBN'), ('as', 'IN'), ('semifinalists', 'NNS'), ('in', 'IN'), ('January', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Of/IN   the/DT   1,736/CD   high/JJ   school/NN   seniors/NNS   who/WP   entered/VBN   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   ,/,   300/CD   were/VBD   announced/VBN   as/IN   semifinalists/NNS   in/IN   January/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   entered/VBN   the/DT   Intel/NNP   Science/NNP   Talent/NNP   Search/NNP   2010/CD)
+	(VERB   were/VBD   announced/VBN   as/IN   semifinalists/NNS   in/IN   January/NNP)
+noun phrases to consider:
+	(NOUN the/DT 1,736/CD high/JJ school/NN seniors/NNS)
+
+tagged sentence:
+	 the 1,736 high school seniors	res:1
+
+----------------------------------
+original sentence: 
+Of those, 40 were chosen as finalists and invited to Washington, D.C., to compete for the top 10 awards.
+
+POS tagged sentence: 
+[('Of', 'IN'), ('those', 'DT'), (',', ','), ('40', 'CD'), ('were', 'VBD'), ('chosen', 'VBN'), ('as', 'IN'), ('finalists', 'NNS'), ('and', 'CC'), ('invited', 'VBD'), ('to', 'TO'), ('Washington', 'NNP'), (',', ','), ('D.C.', 'NNP'), (',', ','), ('to', 'TO'), ('compete', 'VB'), ('for', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('10', 'CD'), ('awards', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Of/IN   those/DT   ,/,   40/CD   were/VBD   chosen/VBN   as/IN   finalists/NNS   and/CC   invited/VBD   to/TO   (GPE Washington/NNP)   ,/,   (GPE D.C./NNP)   ,/,   to/TO   compete/VB   for/IN   the/DT   top/JJ   10/CD   awards/NNS   ./.)
+----------------------------------
+original sentence: 
+The Intel Science Talent Search encourages students to tackle challenging scientific questions and develop the skills necessary to solve the problems of tomorrow.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('encourages', 'VBZ'), ('students', 'NNS'), ('to', 'TO'), ('tackle', 'VB'), ('challenging', 'VBG'), ('scientific', 'JJ'), ('questions', 'NNS'), ('and', 'CC'), ('develop', 'VB'), ('the', 'DT'), ('skills', 'NNS'), ('necessary', 'JJ'), ('to', 'TO'), ('solve', 'VB'), ('the', 'DT'), ('problems', 'NNS'), ('of', 'IN'), ('tomorrow', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   encourages/VBZ   students/NNS   to/TO   tackle/VB   challenging/VBG   scientific/JJ   questions/NNS   and/CC   develop/VB   the/DT   skills/NNS   necessary/JJ   to/TO   solve/VB   the/DT   problems/NNS   of/IN   tomorrow/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB encourages/VBZ students/NNS)
+
+tagged sentence:
+	 encourages students	res:1
+	(VERB tackle/VB challenging/VBG scientific/JJ questions/NNS)
+
+tagged sentence:
+	 tackle challenging scientific questions	res:1
+	(VERB develop/VB the/DT skills/NNS necessary/JJ)
+	(VERB solve/VB the/DT problems/NNS of/IN tomorrow/NN)
+
+tagged sentence:
+	 solve the problems of tomorrow	res:-1
+noun phrases to consider:
+	(NOUN Intel/NNP Science/NNP Talent/NNP Search/NNP)
+
+----------------------------------
+original sentence: 
+Over the past 68 years, Science Talent Search finalists have gone on to win seven Nobel Prizes, two Fields Medals, three National Medals of Science and 11 MacArthur Foundation Fellowships.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('68', 'CD'), ('years', 'NNS'), (',', ','), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('finalists', 'VBZ'), ('have', 'VBP'), ('gone', 'VBN'), ('on', 'IN'), ('to', 'TO'), ('win', 'VB'), ('seven', 'CD'), ('Nobel', 'NNP'), ('Prizes', 'NNP'), (',', ','), ('two', 'CD'), ('Fields', 'NNS'), ('Medals', 'NNS'), (',', ','), ('three', 'CD'), ('National', 'NNP'), ('Medals', 'NNPS'), ('of', 'IN'), ('Science', 'NNP'), ('and', 'CC'), ('11', 'CD'), ('MacArthur', 'NNP'), ('Foundation', 'NNP'), ('Fellowships', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   past/JJ   68/CD   years/NNS   ,/,   (PERSON Science/NNP Talent/NNP Search/NNP)   finalists/VBZ   have/VBP   gone/VBN   on/IN   to/TO   win/VB   seven/CD   Nobel/NNP   Prizes/NNP   ,/,   two/CD   Fields/NNS   Medals/NNS   ,/,   three/CD   (ORGANIZATION National/NNP Medals/NNPS)   of/IN   (GPE Science/NNP)   and/CC   11/CD   (ORGANIZATION MacArthur/NNP Foundation/NNP Fellowships/NNP)   ./.)
+----------------------------------
+original sentence: 
+Society for Science & the Public, a nonprofit organization dedicated to public engagement in scientific research and education, has owned and administered the Science Talent Search since its inception in 1942.
+
+POS tagged sentence: 
+[('Society', 'NN'), ('for', 'IN'), ('Science', 'NNP'), ('&', 'CC'), ('the', 'DT'), ('Public', 'NNP'), (',', ','), ('a', 'DT'), ('nonprofit', 'JJ'), ('organization', 'NN'), ('dedicated', 'VBD'), ('to', 'TO'), ('public', 'JJ'), ('engagement', 'NN'), ('in', 'IN'), ('scientific', 'JJ'), ('research', 'NN'), ('and', 'CC'), ('education', 'NN'), (',', ','), ('has', 'VBZ'), ('owned', 'VBN'), ('and', 'CC'), ('administered', 'VBN'), ('the', 'DT'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('since', 'IN'), ('its', 'PRP$'), ('inception', 'NN'), ('in', 'IN'), ('1942', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Society/NN)   for/IN   (ORGANIZATION Science/NNP)   &/CC   the/DT   (ORGANIZATION Public/NNP)   ,/,   a/DT   nonprofit/JJ   organization/NN   dedicated/VBD   to/TO   public/JJ   engagement/NN   in/IN   scientific/JJ   research/NN   and/CC   education/NN   ,/,   has/VBZ   owned/VBN   and/CC   administered/VBN   the/DT   (ORGANIZATION Science/NNP)   Talent/NNP   Search/NNP   since/IN   its/PRP$   inception/NN   in/IN   1942/CD   ./.)
+----------------------------------
+original sentence: 
+&#8220;The Science Talent Search was founded on the idea that scientific accomplishment is the first step on the road toward solving the world&#8217;s most challenging problems,&#8221; said Elizabeth Marincola, the organization&#8217;s president.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('was', 'VBD'), ('founded', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('idea', 'NN'), ('that', 'IN'), ('scientific', 'JJ'), ('accomplishment', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('first', 'JJ'), ('step', 'NN'), ('on', 'IN'), ('the', 'DT'), ('road', 'NN'), ('toward', 'IN'), ('solving', 'VBG'), ('the', 'DT'), ('world&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('most', 'JJS'), ('challenging', 'VBG'), ('problems,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Elizabeth', 'NNP'), ('Marincola', 'NNP'), (',', ','), ('the', 'DT'), ('organization&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('president', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   The/DT   (ORGANIZATION Science/NNP)   Talent/NNP   Search/NNP   was/VBD   founded/VBN   on/IN   the/DT   idea/NN   that/IN   scientific/JJ   accomplishment/NN   is/VBZ   the/DT   first/JJ   step/NN   on/IN   the/DT   road/NN   toward/IN   solving/VBG   the/DT   world&/NN   #/#   8217/CD   ;/:   s/NNS   most/JJS   challenging/VBG   problems,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Elizabeth/NNP Marincola/NNP)   ,/,   the/DT   organization&/NNP   #/#   8217/CD   ;/:   s/NNS   president/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;Society for Science & the Public is proud to join Intel in congratulating Erika and all of the Intel Science Talent Search 2010 finalists.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Society', 'NNP'), ('for', 'IN'), ('Science', 'NNP'), ('&', 'CC'), ('the', 'DT'), ('Public', 'NNP'), ('is', 'VBZ'), ('proud', 'VBN'), ('to', 'TO'), ('join', 'VB'), ('Intel', 'NNP'), ('in', 'IN'), ('congratulating', 'NN'), ('Erika', 'NNP'), ('and', 'CC'), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), ('finalists', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (PERSON Society/NNP)   for/IN   (ORGANIZATION Science/NNP)   &/CC   the/DT   (ORGANIZATION Public/NNP)   is/VBZ   proud/VBN   to/TO   join/VB   (ORGANIZATION Intel/NNP)   in/IN   congratulating/NN   (PERSON Erika/NNP)   and/CC   all/DT   of/IN   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   finalists/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ proud/VBN)
+	(VERB join/VB Intel/NNP in/IN congratulating/NN Erika/NNP)
+noun phrases to consider:
+	(NOUN Society/NNP)
+	(NOUN Science/NNP)
+	(NOUN Public/NNP)
+	(NOUN Intel/NNP Science/NNP Talent/NNP Search/NNP)
+	(NOUN 2010/CD finalists/NNS)
+
+----------------------------------
+original sentence: 
+Their hard work and dedication will inspire other budding scientists to take their first steps down the road of discovery.&#8221;  More information can be found on the Intel Science Talent Search 2010 at www.intel.com/pressroom/kits/events/sts2010
+.
+
+POS tagged sentence: 
+[('Their', 'PRP$'), ('hard', 'JJ'), ('work', 'NN'), ('and', 'CC'), ('dedication', 'NN'), ('will', 'MD'), ('inspire', 'VB'), ('other', 'JJ'), ('budding', 'VBG'), ('scientists', 'NNS'), ('to', 'TO'), ('take', 'VB'), ('their', 'PRP$'), ('first', 'JJ'), ('steps', 'NNS'), ('down', 'IN'), ('the', 'DT'), ('road', 'NN'), ('of', 'IN'), ('discovery.&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('More', 'NNP'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), ('at', 'IN'), ('www.intel.com/pressroom/kits/events/sts2010', '-NONE-'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Their/PRP$   hard/JJ   work/NN   and/CC   dedication/NN   will/MD   inspire/VB   other/JJ   budding/VBG   scientists/NNS   to/TO   take/VB   their/PRP$   first/JJ   steps/NNS   down/IN   the/DT   road/NN   of/IN   discovery.&/NNP   #/#   8221/CD   ;/:   (GPE More/NNP)   information/NN   can/MD   be/VB   found/VBN   on/IN   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   at/IN   www.intel.com/pressroom/kits/events/sts2010/-NONE-   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB inspire/VB other/JJ)
+	(VERB budding/VBG scientists/NNS)
+	(VERB   take/VB   their/PRP$   first/JJ   steps/NNS   down/IN   the/DT   road/NN   of/IN   discovery.&/NNP)
+	(VERB   be/VB   found/VBN   on/IN   the/DT   Intel/NNP   Science/NNP   Talent/NNP   Search/NNP   2010/CD   at/IN)
+noun phrases to consider:
+	(NOUN hard/JJ work/NN)
+	(NOUN dedication/NN)
+	(NOUN More/NNP information/NN)
+
+----------------------------------
+original sentence: 
+To view ongoing updates about the Intel Science Talent Search 2010, join the Facebook group at www.facebook.com/pages/Inspired by Education/32855637280
+ and follow Twitter updates at www.twitter.com/intelinspire
+.
+
+POS tagged sentence: 
+[('To', 'TO'), ('view', 'VB'), ('ongoing', 'JJ'), ('updates', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), (',', ','), ('join', 'NN'), ('the', 'DT'), ('Facebook', 'NNP'), ('group', 'NN'), ('at', 'IN'), ('www.facebook.com/pages/Inspired', 'JJ'), ('by', 'IN'), ('Education/32855637280', '-NONE-'), ('and', 'CC'), ('follow', 'VB'), ('Twitter', 'NNP'), ('updates', 'NNS'), ('at', 'IN'), ('www.twitter.com/intelinspire', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   view/VB   ongoing/JJ   updates/NNS   about/IN   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   ,/,   join/NN   the/DT   (ORGANIZATION Facebook/NNP)   group/NN   at/IN   www.facebook.com/pages/Inspired/JJ   by/IN   Education/32855637280/-NONE-   and/CC   follow/VB   Twitter/NNP   updates/NNS   at/IN   www.twitter.com/intelinspire/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   view/VB   ongoing/JJ   updates/NNS   about/IN   the/DT   Intel/NNP   Science/NNP   Talent/NNP   Search/NNP   2010/CD)
+	(VERB   follow/VB   Twitter/NNP   updates/NNS   at/IN   www.twitter.com/intelinspire/JJ)
+noun phrases to consider:
+	(NOUN join/NN)
+	(NOUN Facebook/NNP group/NN)
+	(NOUN www.facebook.com/pages/Inspired/JJ)
+
+----------------------------------
+original sentence: 
+To learn more about Society for Science & the Public, visit www.societyforscience.org
+The Intel Education Initiative
+ Intel's commitment to education extends far beyond the Intel Science Talent Search.
+
+POS tagged sentence: 
+[('To', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('Society', 'NNP'), ('for', 'IN'), ('Science', 'NNP'), ('&', 'CC'), ('the', 'DT'), ('Public', 'NNP'), (',', ','), ('visit', 'NN'), ('www.societyforscience.org', '-NONE-'), ('The', 'DT'), ('Intel', 'NNP'), ('Education', 'NNP'), ('Initiative', 'NNP'), ('Intel', 'NNP'), ("'s", 'POS'), ('commitment', 'NN'), ('to', 'TO'), ('education', 'NN'), ('extends', 'NNS'), ('far', 'RB'), ('beyond', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   learn/VB   more/JJR   about/IN   (PERSON Society/NNP)   for/IN   (ORGANIZATION Science/NNP)   &/CC   the/DT   (ORGANIZATION Public/NNP)   ,/,   visit/NN   www.societyforscience.org/-NONE-   The/DT   (ORGANIZATION Intel/NNP Education/NNP Initiative/NNP Intel/NNP)   's/POS   commitment/NN   to/TO   education/NN   extends/NNS   far/RB   beyond/IN   the/DT   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB learn/VB more/JJR about/IN Society/NNP for/IN Science/NNP)
+noun phrases to consider:
+	(NOUN Public/NNP)
+	(NOUN visit/NN)
+	(NOUN Intel/NNP Education/NNP Initiative/NNP Intel/NNP)
+	(NOUN commitment/NN)
+	(NOUN education/NN extends/NNS)
+	(NOUN Intel/NNP Science/NNP Talent/NNP Search/NNP)
+
+----------------------------------
+original sentence: 
+Over the past decade alone, Intel has invested more than $1 billion, and its employees have donated more than 2.5 million hours toward improving education in 50 countries.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('decade', 'NN'), ('alone', 'NN'), (',', ','), ('Intel', 'NNP'), ('has', 'VBZ'), ('invested', 'VBN'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('1', 'CD'), ('billion', 'CD'), (',', ','), ('and', 'CC'), ('its', 'PRP$'), ('employees', 'NNS'), ('have', 'VBP'), ('donated', 'VBN'), ('more', 'RBR'), ('than', 'IN'), ('2.5', 'CD'), ('million', 'CD'), ('hours', 'NNS'), ('toward', 'IN'), ('improving', 'VBG'), ('education', 'NN'), ('in', 'IN'), ('50', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   past/JJ   decade/NN   alone/NN   ,/,   (ORGANIZATION Intel/NNP)   has/VBZ   invested/VBN   more/JJR   than/IN   $/$   1/CD   billion/CD   ,/,   and/CC   its/PRP$   employees/NNS   have/VBP   donated/VBN   more/RBR   than/IN   2.5/CD   million/CD   hours/NNS   toward/IN   improving/VBG   education/NN   in/IN   50/CD   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ invested/VBN more/JJR than/IN)
+	(VERB have/VBP donated/VBN)
+	(VERB improving/VBG education/NN in/IN 50/CD countries/NNS)
+
+tagged sentence:
+	 improving education in 50 countries	res:1
+noun phrases to consider:
+	(NOUN the/DT past/JJ decade/NN alone/NN)
+	(NOUN Intel/NNP)
+	(NOUN employees/NNS)
+	(NOUN million/CD hours/NNS)
+
+----------------------------------
+original sentence: 
+To learn more about the Intel Education Initiative, visit www.intel.com/education
+ and the CSR@Intel blog at .
+
+POS tagged sentence: 
+[('To', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Education', 'NNP'), ('Initiative', 'NNP'), (',', ','), ('visit', 'NN'), ('www.intel.com/education', 'NN'), ('and', 'CC'), ('the', 'DT'), ('CSR', 'NNP'), ('@', 'NNP'), ('Intel', 'NNP'), ('blog', 'NN'), ('at', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   learn/VB   more/JJR   about/IN   the/DT   (ORGANIZATION Intel/NNP Education/NNP Initiative/NNP)   ,/,   visit/NN   www.intel.com/education/NN   and/CC   the/DT   (ORGANIZATION CSR/NNP)   @/NNP   Intel/NNP   blog/NN   at/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   learn/VB   more/JJR   about/IN   the/DT   Intel/NNP   Education/NNP   Initiative/NNP)
+noun phrases to consider:
+	(NOUN visit/NN www.intel.com/education/NN)
+	(NOUN CSR/NNP @/NNP Intel/NNP blog/NN)
+
+----------------------------------
+original sentence: 
+To join Intel's community of people sharing their stories with the hope of becoming a catalyst for action and a voice for change in global education, visit www.inspiredbyeducation.com
+ Intel NASDAQ:INTC , the world leader in silicon innovation, develops technologies, products and initiatives to continually advance how people work and live.
+
+POS tagged sentence: 
+[('To', 'TO'), ('join', 'VB'), ('Intel', 'NNP'), ("'s", 'POS'), ('community', 'NN'), ('of', 'IN'), ('people', 'NNS'), ('sharing', 'VBG'), ('their', 'PRP$'), ('stories', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('hope', 'NN'), ('of', 'IN'), ('becoming', 'VBG'), ('a', 'DT'), ('catalyst', 'NN'), ('for', 'IN'), ('action', 'NN'), ('and', 'CC'), ('a', 'DT'), ('voice', 'NN'), ('for', 'IN'), ('change', 'NN'), ('in', 'IN'), ('global', 'JJ'), ('education', 'NN'), (',', ','), ('visit', 'NN'), ('www.inspiredbyeducation.com', '-NONE-'), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('silicon', 'NN'), ('innovation', 'NN'), (',', ','), ('develops', 'VBZ'), ('technologies', 'NNS'), (',', ','), ('products', 'NNS'), ('and', 'CC'), ('initiatives', 'NNS'), ('to', 'TO'), ('continually', 'RB'), ('advance', 'NN'), ('how', 'WRB'), ('people', 'NNS'), ('work', 'VBP'), ('and', 'CC'), ('live', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   join/VB   (ORGANIZATION Intel/NNP)   's/POS   community/NN   of/IN   people/NNS   sharing/VBG   their/PRP$   stories/NNS   with/IN   the/DT   hope/NN   of/IN   becoming/VBG   a/DT   catalyst/NN   for/IN   action/NN   and/CC   a/DT   voice/NN   for/IN   change/NN   in/IN   global/JJ   education/NN   ,/,   visit/NN   www.inspiredbyeducation.com/-NONE-   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   the/DT   world/NN   leader/NN   in/IN   silicon/NN   innovation/NN   ,/,   develops/VBZ   technologies/NNS   ,/,   products/NNS   and/CC   initiatives/NNS   to/TO   continually/RB   advance/NN   how/WRB   people/NNS   work/VBP   and/CC   live/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB join/VB Intel/NNP)
+	(VERB   sharing/VBG   their/PRP$   stories/NNS   with/IN   the/DT   hope/NN   of/IN)
+	(VERB becoming/VBG a/DT catalyst/NN for/IN action/NN)
+	(VERB develops/VBZ technologies/NNS)
+	(VERB work/VBP)
+noun phrases to consider:
+	(NOUN community/NN)
+	(NOUN people/NNS)
+	(NOUN voice/NN)
+	(NOUN change/NN)
+	(NOUN global/JJ education/NN)
+	(NOUN visit/NN)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN world/NN leader/NN)
+	(NOUN silicon/NN innovation/NN)
+	(NOUN products/NNS)
+	(NOUN initiatives/NNS)
+	(NOUN advance/NN)
+	(NOUN people/NNS)
+	(NOUN live/JJ)
+
+----------------------------------
+original sentence: 
+Additional information about Intel is available at www.intel.com/pressroom
+ Intel and the Intel logo are trademarks of Intel Corporation in the United States and other countries.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('about', 'IN'), ('Intel', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/pressroom', 'JJ'), ('Intel', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Intel', 'NNP'), ('logo', 'NN'), ('are', 'VBP'), ('trademarks', 'NNS'), ('of', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   about/IN   (ORGANIZATION Intel/NNP)   is/VBZ   available/JJ   at/IN   www.intel.com/pressroom/JJ   (ORGANIZATION Intel/NNP)   and/CC   the/DT   (ORGANIZATION Intel/NNP)   logo/NN   are/VBP   trademarks/NNS   of/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   in/IN   the/DT   (GPE United/NNP States/NNPS)   and/CC   other/JJ   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN www.intel.com/pressroom/JJ Intel/NNP)
+	(VERB   are/VBP   trademarks/NNS   of/IN   Intel/NNP   Corporation/NNP   in/IN   the/DT   United/NNP   States/NNPS)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN Intel/NNP)
+	(NOUN Intel/NNP logo/NN)
+	(NOUN other/JJ countries/NNS)
+
+----------------------------------
+original sentence: 
+* Other names and brands may be claimed as the property of others.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Other', 'JJ'), ('names', 'NNS'), ('and', 'CC'), ('brands', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('claimed', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('property', 'NN'), ('of', 'IN'), ('others', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Other/JJ   names/NNS   and/CC   brands/NNS   may/MD   be/VB   claimed/VBN   as/IN   the/DT   property/NN   of/IN   others/NNS   ./.)
+----------------------------------
+original sentence: 
+**Note to Editors: &#8220;adsorb&#8221; is cq.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('*', '-NONE-'), ('Note', 'VB'), ('to', 'TO'), ('Editors', 'NNP'), (':', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('adsorb&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('is', 'VBZ'), ('cq', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   */-NONE-   Note/VB   to/TO   (GPE Editors/NNP)   :/:   &/CC   #/#   8220/CD   ;/:   adsorb&/JJ   #/#   8221/CD   ;/:   is/VBZ   cq/NN   ./.)
+----------------------------------
+original sentence: 
+Photos/Multimedia&#160;Gallery Available: http://www.businesswire.com/cgi bin/mmg.cgi?eid=6217187&lang=en
+ Contacts  Intel Corporation
+Gail Dundas, 503 816 2382
+gail.dundas@intel.com
+Rick Bates, 202 872 5136
+rbates@societyforscience.org
+Burson Marsteller, for Intel
+Rob Miller, 718 290 4459
+robert.miller@bm.com
+ http://www.businesswire.com/news/home/20100316007305/en/ADDING MULTIMEDIA Intel Science Talent Search 2010
+ Smart Multimedia Gallery Erika DeBenedictis, 18, of Albuquerque, New Mexico, wins the top award and $100,000 at the 2010 Intel Science Talent Search for her project developing a software navigation system to help improve spacecraft travel through the solar system.
+
+POS tagged sentence: 
+[('Photos/Multimedia&', 'NN'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Gallery', 'NNP'), ('Available', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/cgi', 'JJ'), ('bin/mmg.cgi', 'NN'), ('?', '.'), ('eid', 'NN'), ('=', ':'), ('6217187&lang', 'CD'), ('=', 'CD'), ('en', 'CD'), ('Contacts', 'NNS'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Gail', 'NNP'), ('Dundas', 'NNP'), (',', ','), ('503', 'CD'), ('816', 'CD'), ('2382', 'CD'), ('gail.dundas', 'JJ'), ('@', 'NN'), ('intel.com', 'NN'), ('Rick', 'NNP'), ('Bates', 'NNP'), (',', ','), ('202', 'CD'), ('872', 'CD'), ('5136', 'CD'), ('rbates', 'NNS'), ('@', ':'), ('societyforscience.org', 'JJ'), ('Burson', 'NNP'), ('Marsteller', 'NNP'), (',', ','), ('for', 'IN'), ('Intel', 'NNP'), ('Rob', 'NNP'), ('Miller', 'NNP'), (',', ','), ('718', 'CD'), ('290', 'CD'), ('4459', 'CD'), ('robert.miller', 'JJ'), ('@', 'NN'), ('bm.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100316007305/en/ADDING', 'JJ'), ('MULTIMEDIA', 'NNP'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('2010', 'CD'), ('Smart', 'NNP'), ('Multimedia', 'NNP'), ('Gallery', 'NNP'), ('Erika', 'NNP'), ('DeBenedictis', 'NNP'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Albuquerque', 'NNP'), (',', ','), ('New', 'NNP'), ('Mexico', 'NNP'), (',', ','), ('wins', 'VBZ'), ('the', 'DT'), ('top', 'JJ'), ('award', 'NN'), ('and', 'CC'), ('$', '$'), ('100,000', 'CD'), ('at', 'IN'), ('the', 'DT'), ('2010', 'CD'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('for', 'IN'), ('her', 'PRP'), ('project', 'VBP'), ('developing', 'VBG'), ('a', 'DT'), ('software', 'NN'), ('navigation', 'NN'), ('system', 'NN'), ('to', 'TO'), ('help', 'VB'), ('improve', 'VB'), ('spacecraft', 'NN'), ('travel', 'NN'), ('through', 'IN'), ('the', 'DT'), ('solar', 'JJ'), ('system', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Photos/Multimedia&/NN   #/#   160/CD   ;/:   (PERSON Gallery/NNP Available/NNP)   :/:   http/NN   :/:   //www.businesswire.com/cgi/JJ   bin/mmg.cgi/NN   ?/.   eid/NN   =/:   6217187&lang/CD   =/CD   en/CD   Contacts/NNS   (ORGANIZATION Intel/NNP Corporation/NNP Gail/NNP Dundas/NNP)   ,/,   503/CD   816/CD   2382/CD   gail.dundas/JJ   @/NN   intel.com/NN   (PERSON Rick/NNP Bates/NNP)   ,/,   202/CD   872/CD   5136/CD   rbates/NNS   @/:   societyforscience.org/JJ   (PERSON Burson/NNP Marsteller/NNP)   ,/,   for/IN   (ORGANIZATION Intel/NNP Rob/NNP Miller/NNP)   ,/,   718/CD   290/CD   4459/CD   robert.miller/JJ   @/NN   bm.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100316007305/en/ADDING/JJ   (ORGANIZATION MULTIMEDIA/NNP Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   2010/CD   (PERSON     Smart/NNP     Multimedia/NNP     Gallery/NNP     Erika/NNP     DeBenedictis/NNP)   ,/,   18/CD   ,/,   of/IN   (GPE Albuquerque/NNP)   ,/,   (GPE New/NNP Mexico/NNP)   ,/,   wins/VBZ   the/DT   top/JJ   award/NN   and/CC   $/$   100,000/CD   at/IN   the/DT   2010/CD   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   for/IN   her/PRP   project/VBP   developing/VBG   a/DT   software/NN   navigation/NN   system/NN   to/TO   help/VB   improve/VB   spacecraft/NN   travel/NN   through/IN   the/DT   solar/JJ   system/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB wins/VBZ the/DT top/JJ award/NN)
+	(VERB   project/VBP   developing/VBG   a/DT   software/NN   navigation/NN   system/NN)
+	(VERB   help/VB   improve/VB   spacecraft/NN   travel/NN   through/IN   the/DT   solar/JJ   system/NN)
+
+tagged sentence:
+	 help improve spacecraft travel through the solar system	res:1
+noun phrases to consider:
+	(NOUN Photos/Multimedia&/NN)
+	(NOUN Gallery/NNP Available/NNP)
+	(NOUN http/NN)
+	(NOUN //www.businesswire.com/cgi/JJ bin/mmg.cgi/NN)
+	(NOUN eid/NN)
+	(NOUN en/CD Contacts/NNS Intel/NNP Corporation/NNP Gail/NNP)
+	(NOUN Dundas/NNP)
+	(NOUN 2382/CD gail.dundas/JJ @/NN intel.com/NN Rick/NNP Bates/NNP)
+	(NOUN 5136/CD rbates/NNS)
+	(NOUN societyforscience.org/JJ Burson/NNP Marsteller/NNP)
+	(NOUN Intel/NNP Rob/NNP Miller/NNP)
+	(NOUN 4459/CD robert.miller/JJ @/NN bm.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100316007305/en/ADDING/JJ   MULTIMEDIA/NNP   Intel/NNP   Science/NNP   Talent/NNP)
+	(NOUN Search/NNP)
+	(NOUN 2010/CD Smart/NNP Multimedia/NNP Gallery/NNP Erika/NNP)
+	(NOUN DeBenedictis/NNP)
+	(NOUN Albuquerque/NNP)
+	(NOUN New/NNP Mexico/NNP)
+	(NOUN 2010/CD Intel/NNP Science/NNP Talent/NNP Search/NNP)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More The top three winners of the 2010 Intel Science Talent Search pose with their medals at this year's awards gala.
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('The', 'NNP'), ('top', 'JJ'), ('three', 'CD'), ('winners', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('2010', 'CD'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('pose', 'NN'), ('with', 'IN'), ('their', 'PRP$'), ('medals', 'NNS'), ('at', 'IN'), ('this', 'DT'), ('year', 'NN'), ("'s", 'POS'), ('awards', 'NNS'), ('gala', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   The/NNP   top/JJ   three/CD   winners/NNS   of/IN   the/DT   2010/CD   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   pose/NN   with/IN   their/PRP$   medals/NNS   at/IN   this/DT   year/NN   's/POS   awards/NNS   gala/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gala/VBP)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP The/NNP top/JJ three/CD winners/NNS)
+	(NOUN 2010/CD Intel/NNP Science/NNP Talent/NNP Search/NNP)
+	(NOUN pose/NN)
+
+tagged sentence:
+	 pose	res:-1
+	(NOUN medals/NNS)
+	(NOUN year/NN)
+	(NOUN awards/NNS)
+
+tagged sentence:
+	 awards	res:1
+
+----------------------------------
+original sentence: 
+Erika DeBenedictis middle , 18, of Albuquerque, New Mexico, took home top honors and $100,000 from the Intel Foundation; David Liu right , 18, of San Jose, California, took home second place and $75,000; and Akhil Mathew left , 18, from Madison, New Jersey placed third and received a $50,000 award.
+
+POS tagged sentence: 
+[('Erika', 'NNP'), ('DeBenedictis', 'NNP'), ('middle', 'NN'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('Albuquerque', 'NNP'), (',', ','), ('New', 'NNP'), ('Mexico', 'NNP'), (',', ','), ('took', 'VBD'), ('home', 'NN'), ('top', 'NN'), ('honors', 'NNS'), ('and', 'CC'), ('$', '$'), ('100,000', 'CD'), ('from', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Foundation', 'NNP'), (';', ':'), ('David', 'NNP'), ('Liu', 'NNP'), ('right', 'NN'), (',', ','), ('18', 'CD'), (',', ','), ('of', 'IN'), ('San', 'NNP'), ('Jose', 'NNP'), (',', ','), ('California', 'NNP'), (',', ','), ('took', 'VBD'), ('home', 'NN'), ('second', 'NN'), ('place', 'NN'), ('and', 'CC'), ('$', '$'), ('75,000', 'CD'), (';', ':'), ('and', 'CC'), ('Akhil', 'NNP'), ('Mathew', 'NNP'), ('left', 'VBD'), (',', ','), ('18', 'CD'), (',', ','), ('from', 'IN'), ('Madison', 'NNP'), (',', ','), ('New', 'NNP'), ('Jersey', 'NNP'), ('placed', 'VBD'), ('third', 'JJ'), ('and', 'CC'), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('50,000', 'CD'), ('award', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Erika/NNP)   (ORGANIZATION DeBenedictis/NNP)   middle/NN   ,/,   18/CD   ,/,   of/IN   (GPE Albuquerque/NNP)   ,/,   (GPE New/NNP Mexico/NNP)   ,/,   took/VBD   home/NN   top/NN   honors/NNS   and/CC   $/$   100,000/CD   from/IN   the/DT   (ORGANIZATION Intel/NNP Foundation/NNP)   ;/:   (PERSON David/NNP Liu/NNP)   right/NN   ,/,   18/CD   ,/,   of/IN   (GPE San/NNP Jose/NNP)   ,/,   (GPE California/NNP)   ,/,   took/VBD   home/NN   second/NN   place/NN   and/CC   $/$   75,000/CD   ;/:   and/CC   (PERSON Akhil/NNP Mathew/NNP)   left/VBD   ,/,   18/CD   ,/,   from/IN   (GPE Madison/NNP)   ,/,   (GPE New/NNP Jersey/NNP)   placed/VBD   third/JJ   and/CC   received/VBD   a/DT   $/$   50,000/CD   award/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB took/VBD home/NN top/NN honors/NNS)
+	(VERB took/VBD home/NN second/NN place/NN)
+	(VERB left/VBD)
+	(VERB placed/VBD third/JJ)
+	(VERB received/VBD a/DT)
+noun phrases to consider:
+	(NOUN Erika/NNP DeBenedictis/NNP middle/NN)
+	(NOUN Albuquerque/NNP)
+	(NOUN New/NNP Mexico/NNP)
+	(NOUN Intel/NNP Foundation/NNP)
+	(NOUN David/NNP Liu/NNP right/NN)
+	(NOUN San/NNP Jose/NNP)
+	(NOUN California/NNP)
+	(NOUN Akhil/NNP Mathew/NNP)
+	(NOUN Madison/NNP)
+	(NOUN New/NNP Jersey/NNP)
+	(NOUN 50,000/CD award/NN)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More New Mexico Teen, Erika DeBenedictis, Wins Top Honors and Awarded $100,000 at 2010 Intel Science Talent Search Photo: Business Wire  Download Formats  More  Download Formats  More Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('New', 'NNP'), ('Mexico', 'NNP'), ('Teen', 'NNP'), (',', ','), ('Erika', 'NNP'), ('DeBenedictis', 'NNP'), (',', ','), ('Wins', 'NNP'), ('Top', 'NNP'), ('Honors', 'NNP'), ('and', 'CC'), ('Awarded', 'NNP'), ('$', '$'), ('100,000', 'CD'), ('at', 'IN'), ('2010', 'CD'), ('Intel', 'NNP'), ('Science', 'NNP'), ('Talent', 'NNP'), ('Search', 'NNP'), ('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   New/NNP   (PERSON Mexico/NNP Teen/NNP)   ,/,   (PERSON Erika/NNP DeBenedictis/NNP)   ,/,   (PERSON Wins/NNP Top/NNP Honors/NNP)   and/CC   Awarded/NNP   $/$   100,000/CD   at/IN   2010/CD   (ORGANIZATION Intel/NNP Science/NNP)   Talent/NNP   Search/NNP   Photo/NNP   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Download/NNP   Formats/NNPS   More/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP New/NNP Mexico/NNP Teen/NNP)
+	(NOUN Erika/NNP DeBenedictis/NNP)
+	(NOUN Wins/NNP Top/NNP Honors/NNP)
+	(NOUN Awarded/NNP)
+	(NOUN 2010/CD Intel/NNP Science/NNP Talent/NNP Search/NNP)
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Download/NNP Formats/NNPS More/NNP)
+	(NOUN Company/NNP Information/NNP Center/NNP More/NNP)
+	(NOUN Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:2	pos:12	verypos:0	total:6

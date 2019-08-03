@@ -1,0 +1,451 @@
+
+----------------------------------
+original sentence: 
+Las Vegas Sands, Merck, Petrohawk, Pfizer: U.S. Equity Movers BusinessWeek
+Within the last week
+Within the last 2 weeks
+Within the last 30 days
+Within the last 60 days
+Within the last 90 days
+Within the last 180 days
+Within the last year
+Within the last two years
+Friday April 23, 2010
+Las Vegas Sands, Merck, Petrohawk, Pfizer: U.S. Equity Movers
+March 22, 2010, 4:38 PM EDT
+More From Businessweek
+ March 22 Bloomberg Shares of the following companies had unusual moves in U.S. trading.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), (',', ','), ('Merck', 'NNP'), (',', ','), ('Petrohawk', 'NNP'), (',', ','), ('Pfizer', 'NNP'), (':', ':'), ('U.S.', 'NNP'), ('Equity', 'NNP'), ('Movers', 'NNP'), ('BusinessWeek', 'NNP'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('week', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('2', 'CD'), ('weeks', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('60', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('90', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('180', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('year', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('years', 'NNS'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), (',', ','), ('Merck', 'NNP'), (',', ','), ('Petrohawk', 'NNP'), (',', ','), ('Pfizer', 'NNP'), (':', ':'), ('U.S.', 'NNP'), ('Equity', 'NNP'), ('Movers', 'NNP'), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('38', 'CD'), ('PM', 'NNP'), ('EDT', 'NNP'), ('More', 'NNP'), ('From', 'NNP'), ('Businessweek', 'NNP'), ('March', 'NNP'), ('22', 'CD'), ('Bloomberg', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('following', 'JJ'), ('companies', 'NNS'), ('had', 'VBD'), ('unusual', 'JJ'), ('moves', 'NNS'), ('in', 'IN'), ('U.S.', 'NNP'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   ,/,   (PERSON Merck/NNP)   ,/,   (PERSON Petrohawk/NNP)   ,/,   (PERSON Pfizer/NNP)   :/:   (GPE U.S./NNP)   Equity/NNP   Movers/NNP   BusinessWeek/NNP   Within/NNP   the/DT   last/JJ   week/NN   Within/IN   the/DT   last/JJ   2/CD   weeks/NNS   Within/NNP   the/DT   last/JJ   30/CD   days/NNS   Within/NNP   the/DT   last/JJ   60/CD   days/NNS   Within/NNP   the/DT   last/JJ   90/CD   days/NNS   Within/NNP   the/DT   last/JJ   180/CD   days/NNS   Within/NNP   the/DT   last/JJ   year/NN   Within/IN   the/DT   last/JJ   two/CD   years/NNS   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   Las/NNP   Vegas/NNP   Sands/NNPS   ,/,   (PERSON Merck/NNP)   ,/,   (PERSON Petrohawk/NNP)   ,/,   (PERSON Pfizer/NNP)   :/:   (GPE U.S./NNP)   Equity/NNP   Movers/NNP   March/NNP   22/CD   ,/,   2010/CD   ,/,   4/CD   :/:   38/CD   PM/NNP   EDT/NNP   More/NNP   From/NNP   Businessweek/NNP   March/NNP   22/CD   (ORGANIZATION Bloomberg/NNP Shares/NNP)   of/IN   the/DT   following/JJ   companies/NNS   had/VBD   unusual/JJ   moves/NNS   in/IN   (GPE U.S./NNP)   trading/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB had/VBD unusual/JJ moves/NNS in/IN U.S./NNP trading/NN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN Merck/NNP)
+	(NOUN Petrohawk/NNP)
+	(NOUN Pfizer/NNP)
+	(NOUN U.S./NNP Equity/NNP Movers/NNP BusinessWeek/NNP)
+	(NOUN Within/NNP)
+	(NOUN the/DT last/JJ week/NN)
+	(NOUN the/DT last/JJ 2/CD weeks/NNS Within/NNP)
+	(NOUN the/DT last/JJ 30/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 60/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 90/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 180/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ year/NN)
+	(NOUN the/DT last/JJ two/CD years/NNS Friday/NNP April/NNP)
+	(NOUN 2010/CD Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN Merck/NNP)
+	(NOUN Petrohawk/NNP)
+	(NOUN Pfizer/NNP)
+	(NOUN U.S./NNP Equity/NNP Movers/NNP March/NNP)
+	(NOUN 38/CD PM/NNP EDT/NNP More/NNP From/NNP)
+	(NOUN Businessweek/NNP March/NNP)
+	(NOUN 22/CD Bloomberg/NNP Shares/NNP)
+	(NOUN the/DT following/JJ companies/NNS)
+
+----------------------------------
+original sentence: 
+Stock symbols are in parentheses.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('symbols', 'NNS'), ('are', 'VBP'), ('in', 'IN'), ('parentheses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Stock/NN) symbols/NNS are/VBP in/IN parentheses/NNS ./.)
+----------------------------------
+original sentence: 
+Prices are as of 4 p.m. in New York.
+
+POS tagged sentence: 
+[('Prices', 'NNS'), ('are', 'VBP'), ('as', 'RB'), ('of', 'IN'), ('4', 'CD'), ('p.m.', 'NN'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prices/NNS   are/VBP   as/RB   of/IN   4/CD   p.m./NN   in/IN   (GPE New/NNP York/NNP)   ./.)
+----------------------------------
+original sentence: 
+Health care shares rose after the House of Representatives passed an overhaul of the industry that will ensure tens of millions of uninsured Americans will get medical coverage.
+
+POS tagged sentence: 
+[('Health', 'NNP'), ('care', 'NN'), ('shares', 'NNS'), ('rose', 'VBD'), ('after', 'IN'), ('the', 'DT'), ('House', 'NNP'), ('of', 'IN'), ('Representatives', 'NNPS'), ('passed', 'VBD'), ('an', 'DT'), ('overhaul', 'NN'), ('of', 'IN'), ('the', 'DT'), ('industry', 'NN'), ('that', 'IN'), ('will', 'MD'), ('ensure', 'VB'), ('tens', 'NNS'), ('of', 'IN'), ('millions', 'NNS'), ('of', 'IN'), ('uninsured', 'VBN'), ('Americans', 'NNPS'), ('will', 'MD'), ('get', 'VB'), ('medical', 'JJ'), ('coverage', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Health/NNP)   care/NN   shares/NNS   rose/VBD   after/IN   the/DT   (ORGANIZATION House/NNP)   of/IN   (ORGANIZATION Representatives/NNPS)   passed/VBD   an/DT   overhaul/NN   of/IN   the/DT   industry/NN   that/IN   will/MD   ensure/VB   tens/NNS   of/IN   millions/NNS   of/IN   uninsured/VBN   (GPE Americans/NNPS)   will/MD   get/VB   medical/JJ   coverage/NN   ./.)
+----------------------------------
+original sentence: 
+Drugmakers gained.
+
+POS tagged sentence: 
+[('Drugmakers', 'NNS'), ('gained', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Drugmakers/NNS gained/VBD ./.)
+----------------------------------
+original sentence: 
+Merck & Co. MRK US rose 0.6 percent to $38.30.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('MRK', 'NNP'), ('US', 'NNP'), ('rose', 'VBD'), ('0.6', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('38.30', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   MRK/NNP   US/NNP   rose/VBD   0.6/CD   percent/NN   to/TO   $/$   38.30/CD   ./.)
+----------------------------------
+original sentence: 
+Pfizer Inc. PFE US climbed 1.4 percent to $17.15.
+
+POS tagged sentence: 
+[('Pfizer', 'NNP'), ('Inc.', 'NNP'), ('PFE', 'NNP'), ('US', 'NNP'), ('climbed', 'VBD'), ('1.4', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('17.15', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Pfizer/NNP)   (ORGANIZATION Inc./NNP)   PFE/NNP   US/NNP   climbed/VBD   1.4/CD   percent/NN   to/TO   $/$   17.15/CD   ./.)
+----------------------------------
+original sentence: 
+Hospital stocks also advanced.
+
+POS tagged sentence: 
+[('Hospital', 'NNP'), ('stocks', 'NNS'), ('also', 'RB'), ('advanced', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Hospital/NNP) stocks/NNS also/RB advanced/VBD ./.)
+----------------------------------
+original sentence: 
+Tenet Healthcare Corp. THC US rallied 9 percent to $6.27 for the biggest increase in the Standard & Poor&rsquo;s 500 Index.
+
+POS tagged sentence: 
+[('Tenet', 'NNP'), ('Healthcare', 'NNP'), ('Corp.', 'NNP'), ('THC', 'NNP'), ('US', 'NNP'), ('rallied', 'VBD'), ('9', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('6.27', 'CD'), ('for', 'IN'), ('the', 'DT'), ('biggest', 'JJS'), ('increase', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Standard', 'NNP'), ('&', 'CC'), ('Poor&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('500', 'CD'), ('Index', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Tenet/NNP)   (ORGANIZATION Healthcare/NNP Corp./NNP)   THC/NNP   US/NNP   rallied/VBD   9/CD   percent/NN   to/TO   $/$   6.27/CD   for/IN   the/DT   biggest/JJS   increase/NN   in/IN   the/DT   (ORGANIZATION Standard/NNP)   &/CC   Poor&rsquo/NNP   ;/:   s/NNS   500/CD   Index/NN   ./.)
+----------------------------------
+original sentence: 
+Health Management Associates Inc. HMA US climbed 11 percent to $9.05.
+
+POS tagged sentence: 
+[('Health', 'NNP'), ('Management', 'NNP'), ('Associates', 'NNP'), ('Inc.', 'NNP'), ('HMA', 'NNP'), ('US', 'NNP'), ('climbed', 'VBD'), ('11', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('9.05', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Health/NNP)   (ORGANIZATION Management/NNP Associates/NNP Inc./NNP)   HMA/NNP   US/NNP   climbed/VBD   11/CD   percent/NN   to/TO   $/$   9.05/CD   ./.)
+----------------------------------
+original sentence: 
+Community Health Systems Inc. CYH US increased 6.2 percent to $40.51.
+
+POS tagged sentence: 
+[('Community', 'NN'), ('Health', 'NNP'), ('Systems', 'NNPS'), ('Inc.', 'NNP'), ('CYH', 'NNP'), ('US', 'NNP'), ('increased', 'VBD'), ('6.2', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('40.51', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Community/NN)   (ORGANIZATION Health/NNP Systems/NNPS Inc./NNP)   CYH/NNP   US/NNP   increased/VBD   6.2/CD   percent/NN   to/TO   $/$   40.51/CD   ./.)
+----------------------------------
+original sentence: 
+SunLink Health Systems Inc. SSY US jumped 38 percent to $2.19.
+
+POS tagged sentence: 
+[('SunLink', 'NN'), ('Health', 'NNP'), ('Systems', 'NNPS'), ('Inc.', 'NNP'), ('SSY', 'NNP'), ('US', 'NNP'), ('jumped', 'VBD'), ('38', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('2.19', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SunLink/NN)   (ORGANIZATION Health/NNP Systems/NNPS Inc./NNP)   SSY/NNP   US/NNP   jumped/VBD   38/CD   percent/NN   to/TO   $/$   2.19/CD   ./.)
+----------------------------------
+original sentence: 
+Autoliv Inc. ALV US climbed 6 percent to $51.94, the highest price since June 2008.
+
+POS tagged sentence: 
+[('Autoliv', 'NNP'), ('Inc.', 'NNP'), ('ALV', 'NNP'), ('US', 'NNP'), ('climbed', 'VBD'), ('6', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('51.94', 'CD'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('June', 'NNP'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Autoliv/NNP)   (ORGANIZATION Inc./NNP)   ALV/NNP   US/NNP   climbed/VBD   6/CD   percent/NN   to/TO   $/$   51.94/CD   ,/,   the/DT   highest/JJS   price/NN   since/IN   June/NNP   2008/CD   ./.)
+----------------------------------
+original sentence: 
+The world&rsquo;s largest maker of automotive seat belts and air bags increased its forecast for first quarter sales and operating margin.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('maker', 'NN'), ('of', 'IN'), ('automotive', 'JJ'), ('seat', 'NN'), ('belts', 'NNS'), ('and', 'CC'), ('air', 'JJ'), ('bags', 'NNS'), ('increased', 'VBD'), ('its', 'PRP$'), ('forecast', 'NN'), ('for', 'IN'), ('first', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('and', 'CC'), ('operating', 'NN'), ('margin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world&rsquo/NNP   ;/:   s/NNS   largest/JJS   maker/NN   of/IN   automotive/JJ   seat/NN   belts/NNS   and/CC   air/JJ   bags/NNS   increased/VBD   its/PRP$   forecast/NN   for/IN   first/JJ   quarter/NN   sales/NNS   and/CC   operating/NN   margin/NN   ./.)
+----------------------------------
+original sentence: 
+Boeing Co. BA US rose 1.7 percent to $71.91.
+
+POS tagged sentence: 
+[('Boeing', 'NNP'), ('Co.', 'NNP'), ('BA', 'NNP'), ('US', 'NNP'), ('rose', 'VBD'), ('1.7', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('71.91', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Boeing/NNP   Co./NNP   BA/NNP   US/NNP   rose/VBD   1.7/CD   percent/NN   to/TO   $/$   71.91/CD   ./.)
+----------------------------------
+original sentence: 
+The world&rsquo;s second largest commercial planemaker was raised to &ldquo;outperform&rdquo; at Oppenheimer & Co. and Cowen & Co.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('second', 'VBP'), ('largest', 'JJS'), ('commercial', 'JJ'), ('planemaker', 'NN'), ('was', 'VBD'), ('raised', 'VBN'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('outperform&rdquo', 'NNP'), (';', ':'), ('at', 'IN'), ('Oppenheimer', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('and', 'CC'), ('Cowen', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world&rsquo/NNP   ;/:   s/NNS   second/VBP   largest/JJS   commercial/JJ   planemaker/NN   was/VBD   raised/VBN   to/TO   (GPE &ldquo/NNP)   ;/:   outperform&rdquo/NNP   ;/:   at/IN   (ORGANIZATION Oppenheimer/NNP)   &/CC   Co./NNP   and/CC   (PERSON Cowen/NNP)   &/CC   Co/NNP   ./.)
+----------------------------------
+original sentence: 
+Cell Therapeutics Inc. CTIC US plunged 48 percent, the most since March 1998, to 47 cents.
+
+POS tagged sentence: 
+[('Cell', 'NNP'), ('Therapeutics', 'NNP'), ('Inc.', 'NNP'), ('CTIC', 'NNP'), ('US', 'NNP'), ('plunged', 'VBD'), ('48', 'CD'), ('percent', 'NN'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('since', 'IN'), ('March', 'NNP'), ('1998', 'CD'), (',', ','), ('to', 'TO'), ('47', 'CD'), ('cents', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Cell/NNP)   Therapeutics/NNP   Inc./NNP   CTIC/NNP   US/NNP   plunged/VBD   48/CD   percent/NN   ,/,   the/DT   most/RBS   since/IN   March/NNP   1998/CD   ,/,   to/TO   47/CD   cents/NNS   ./.)
+----------------------------------
+original sentence: 
+The drugmaker failed to win a U.S. panel&rsquo;s backing to sell its experimental drug Pixuvri for aggressive non Hodgkin&rsquo;s lymphoma.
+
+POS tagged sentence: 
+[('The', 'DT'), ('drugmaker', 'NN'), ('failed', 'VBD'), ('to', 'TO'), ('win', 'VB'), ('a', 'DT'), ('U.S.', 'NNP'), ('panel&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('backing', 'VBG'), ('to', 'TO'), ('sell', 'VB'), ('its', 'PRP$'), ('experimental', 'JJ'), ('drug', 'NN'), ('Pixuvri', 'NNP'), ('for', 'IN'), ('aggressive', 'JJ'), ('non', 'NN'), ('Hodgkin&rsquo', '-NONE-'), (';', ':'), ('s', 'NNS'), ('lymphoma', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   drugmaker/NN   failed/VBD   to/TO   win/VB   a/DT   (GPE U.S./NNP)   panel&rsquo/NNP   ;/:   s/NNS   backing/VBG   to/TO   sell/VB   its/PRP$   experimental/JJ   drug/NN   (PERSON Pixuvri/NNP)   for/IN   aggressive/JJ   non/NN   Hodgkin&rsquo/-NONE-   ;/:   s/NNS   lymphoma/VBP   ./.)
+----------------------------------
+original sentence: 
+GameStop Corp. GME US jumped 2.3 percent to $21.60, the highest price since Jan. 6.
+
+POS tagged sentence: 
+[('GameStop', 'NNP'), ('Corp.', 'NNP'), ('GME', 'NNP'), ('US', 'NNP'), ('jumped', 'VBD'), ('2.3', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('21.60', 'CD'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('Jan.', 'NNP'), ('6', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GameStop/NNP)   Corp./NNP   GME/NNP   US/NNP   jumped/VBD   2.3/CD   percent/NN   to/TO   $/$   21.60/CD   ,/,   the/DT   highest/JJS   price/NN   since/IN   Jan./NNP   6/CD   ./.)
+----------------------------------
+original sentence: 
+The largest U.S. video game retailer may rise to $30 during the next year as growth in its used video game business boosts profit, Barron&rsquo;s reported yesterday, citing Ross Margolies of Stelliam Investment Management in New York.
+
+POS tagged sentence: 
+[('The', 'DT'), ('largest', 'JJS'), ('U.S.', 'NNP'), ('video', 'NN'), ('game', 'NN'), ('retailer', 'NN'), ('may', 'MD'), ('rise', 'VB'), ('to', 'TO'), ('$', '$'), ('30', 'CD'), ('during', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('year', 'NN'), ('as', 'IN'), ('growth', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('used', 'VBN'), ('video', 'NN'), ('game', 'NN'), ('business', 'NN'), ('boosts', 'VBZ'), ('profit', 'NN'), (',', ','), ('Barron&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('reported', 'VBD'), ('yesterday', 'NN'), (',', ','), ('citing', 'VBG'), ('Ross', 'NNP'), ('Margolies', 'NNPS'), ('of', 'IN'), ('Stelliam', 'NNP'), ('Investment', 'NNP'), ('Management', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   largest/JJS   (GPE U.S./NNP)   video/NN   game/NN   retailer/NN   may/MD   rise/VB   to/TO   $/$   30/CD   during/IN   the/DT   next/JJ   year/NN   as/IN   growth/NN   in/IN   its/PRP$   used/VBN   video/NN   game/NN   business/NN   boosts/VBZ   profit/NN   ,/,   (GPE Barron&rsquo/NNP)   ;/:   s/NNS   reported/VBD   yesterday/NN   ,/,   citing/VBG   (ORGANIZATION Ross/NNP Margolies/NNPS)   of/IN   (PERSON Stelliam/NNP Investment/NNP)   Management/NNP   in/IN   (GPE New/NNP York/NNP)   ./.)
+----------------------------------
+original sentence: 
+Genuine Parts Co. GPC US rose 3.1 percent to $42.87, the highest price since August 2008.
+
+POS tagged sentence: 
+[('Genuine', 'NNP'), ('Parts', 'NNP'), ('Co.', 'NNP'), ('GPC', 'NNP'), ('US', 'NNP'), ('rose', 'VBD'), ('3.1', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('42.87', 'CD'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('August', 'NNP'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Genuine/NNP)   (ORGANIZATION Parts/NNP)   Co./NNP   GPC/NNP   US/NNP   rose/VBD   3.1/CD   percent/NN   to/TO   $/$   42.87/CD   ,/,   the/DT   highest/JJS   price/NN   since/IN   August/NNP   2008/CD   ./.)
+----------------------------------
+original sentence: 
+The operator of NAPA auto parts stores was raised to &ldquo;buy&rdquo; from &ldquo;neutral&rdquo; by Goldman Sachs Group Inc.
+ Halozyme Therapeutics Inc. HALO US advanced 5.1 percent to $8.46, the highest price since November 2007.
+
+POS tagged sentence: 
+[('The', 'DT'), ('operator', 'NN'), ('of', 'IN'), ('NAPA', 'NNP'), ('auto', 'NN'), ('parts', 'NNS'), ('stores', 'NNS'), ('was', 'VBD'), ('raised', 'VBN'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('buy&rdquo', 'NNP'), (';', ':'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('neutral&rdquo', 'NNP'), (';', ':'), ('by', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('Halozyme', 'NNP'), ('Therapeutics', 'NNP'), ('Inc.', 'NNP'), ('HALO', 'NNP'), ('US', 'NNP'), ('advanced', 'VBD'), ('5.1', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('8.46', 'CD'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('November', 'NNP'), ('2007', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   operator/NN   of/IN   (ORGANIZATION NAPA/NNP)   auto/NN   parts/NNS   stores/NNS   was/VBD   raised/VBN   to/TO   (GPE &ldquo/NNP)   ;/:   buy&rdquo/NNP   ;/:   from/IN   (GPE &ldquo/NNP)   ;/:   neutral&rdquo/NNP   ;/:   by/IN   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc/NNP)   ./.   (PERSON Halozyme/NNP Therapeutics/NNP)   Inc./NNP   HALO/NNP   US/NNP   advanced/VBD   5.1/CD   percent/NN   to/TO   $/$   8.46/CD   ,/,   the/DT   highest/JJS   price/NN   since/IN   November/NNP   2007/CD   ./.)
+----------------------------------
+original sentence: 
+The biopharmaceutical company was raised to &ldquo;buy&rdquo; from &ldquo;hold&rdquo; at Brean Murray & Co.
+ Las Vegas Sands Corp. LVS US gained 9.9 percent to $21.43, the highest price since October 2008.
+
+POS tagged sentence: 
+[('The', 'DT'), ('biopharmaceutical', 'JJ'), ('company', 'NN'), ('was', 'VBD'), ('raised', 'VBN'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('buy&rdquo', 'NNP'), (';', ':'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('hold&rdquo', 'NNP'), (';', ':'), ('at', 'IN'), ('Brean', 'NNP'), ('Murray', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('LVS', 'NNP'), ('US', 'NNP'), ('gained', 'VBD'), ('9.9', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('21.43', 'CD'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('October', 'NNP'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   biopharmaceutical/JJ   company/NN   was/VBD   raised/VBN   to/TO   (GPE &ldquo/NNP)   ;/:   buy&rdquo/NNP   ;/:   from/IN   (GPE &ldquo/NNP)   ;/:   hold&rdquo/NNP   ;/:   at/IN   (FACILITY Brean/NNP Murray/NNP)   &/CC   Co/NNP   ./.   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp./NNP)   LVS/NNP   US/NNP   gained/VBD   9.9/CD   percent/NN   to/TO   $/$   21.43/CD   ,/,   the/DT   highest/JJS   price/NN   since/IN   October/NNP   2008/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD raised/VBN)
+	(VERB gained/VBD 9.9/CD percent/NN)
+
+tagged sentence:
+	 gained 9.9 percent	res:1
+noun phrases to consider:
+	(NOUN The/DT biopharmaceutical/JJ company/NN)
+	(NOUN &ldquo/NNP)
+	(NOUN buy&rdquo/NNP)
+	(NOUN &ldquo/NNP)
+	(NOUN hold&rdquo/NNP)
+	(NOUN Brean/NNP Murray/NNP)
+	(NOUN Co/NNP)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN LVS/NNP US/NNP)
+	(NOUN the/DT highest/JJS price/NN)
+	(NOUN October/NNP)
+
+----------------------------------
+original sentence: 
+The casino company&rsquo;s share price forecast was raised by $2 to $24 at Sanford C. Bernstein & Co., which said total Macau gambling revenue may jump 30 percent this year, double the firm&rsquo;s earlier 15 percent forecast.
+
+POS tagged sentence: 
+[('The', 'DT'), ('casino', 'NN'), ('company&rsquo', '-NONE-'), (';', ':'), ('s', 'NNS'), ('share', 'VBP'), ('price', 'NN'), ('forecast', 'NN'), ('was', 'VBD'), ('raised', 'VBN'), ('by', 'IN'), ('$', '$'), ('2', 'CD'), ('to', 'TO'), ('$', '$'), ('24', 'CD'), ('at', 'IN'), ('Sanford', 'NNP'), ('C.', 'NNP'), ('Bernstein', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('which', 'WDT'), ('said', 'VBD'), ('total', 'JJ'), ('Macau', 'NNP'), ('gambling', 'NN'), ('revenue', 'NN'), ('may', 'MD'), ('jump', 'VB'), ('30', 'CD'), ('percent', 'NN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('double', 'JJ'), ('the', 'DT'), ('firm&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('earlier', 'JJR'), ('15', 'CD'), ('percent', 'NN'), ('forecast', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   casino/NN   company&rsquo/-NONE-   ;/:   s/NNS   share/VBP   price/NN   forecast/NN   was/VBD   raised/VBN   by/IN   $/$   2/CD   to/TO   $/$   24/CD   at/IN   (ORGANIZATION Sanford/NNP)   C./NNP   (PERSON Bernstein/NNP)   &/CC   Co./NNP   ,/,   which/WDT   said/VBD   total/JJ   Macau/NNP   gambling/NN   revenue/NN   may/MD   jump/VB   30/CD   percent/NN   this/DT   year/NN   ,/,   double/JJ   the/DT   firm&rsquo/NNP   ;/:   s/NNS   earlier/JJR   15/CD   percent/NN   forecast/NN   ./.)
+----------------------------------
+original sentence: 
+Medtronic Inc. MDT US rose 2.3 percent, the most in a week, to $45.80.
+
+POS tagged sentence: 
+[('Medtronic', 'NNP'), ('Inc.', 'NNP'), ('MDT', 'NNP'), ('US', 'NNP'), ('rose', 'VBD'), ('2.3', 'CD'), ('percent', 'NN'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('in', 'IN'), ('a', 'DT'), ('week', 'NN'), (',', ','), ('to', 'TO'), ('$', '$'), ('45.80', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Medtronic/NNP Inc./NNP)   MDT/NNP   US/NNP   rose/VBD   2.3/CD   percent/NN   ,/,   the/DT   most/RBS   in/IN   a/DT   week/NN   ,/,   to/TO   $/$   45.80/CD   ./.)
+----------------------------------
+original sentence: 
+The biggest maker of heart rhythm devices won a U.S. panel&rsquo;s backing on March 19 to introduce the nation&rsquo;s first heart pacemaker designed to be used safely by patients undergoing magnetic resonance imaging exams.
+
+POS tagged sentence: 
+[('The', 'DT'), ('biggest', 'JJS'), ('maker', 'NN'), ('of', 'IN'), ('heart', 'NN'), ('rhythm', 'NN'), ('devices', 'NNS'), ('won', 'VBD'), ('a', 'DT'), ('U.S.', 'NNP'), ('panel&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('backing', 'VBG'), ('on', 'IN'), ('March', 'NNP'), ('19', 'CD'), ('to', 'TO'), ('introduce', 'VB'), ('the', 'DT'), ('nation&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('first', 'RB'), ('heart', 'NN'), ('pacemaker', 'NN'), ('designed', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('used', 'VBN'), ('safely', 'RB'), ('by', 'IN'), ('patients', 'NNS'), ('undergoing', 'VBG'), ('magnetic', 'JJ'), ('resonance', 'NN'), ('imaging', 'VBG'), ('exams', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   biggest/JJS   maker/NN   of/IN   heart/NN   rhythm/NN   devices/NNS   won/VBD   a/DT   (GPE U.S./NNP)   panel&rsquo/NNP   ;/:   s/NNS   backing/VBG   on/IN   March/NNP   19/CD   to/TO   introduce/VB   the/DT   nation&rsquo/NNP   ;/:   s/NNS   first/RB   heart/NN   pacemaker/NN   designed/VBN   to/TO   be/VB   used/VBN   safely/RB   by/IN   patients/NNS   undergoing/VBG   magnetic/JJ   resonance/NN   imaging/VBG   exams/NNS   ./.)
+----------------------------------
+original sentence: 
+Novell Inc. NOVL US advanced 4.4 percent to $5.89, the biggest gain since March 3.
+
+POS tagged sentence: 
+[('Novell', 'NNP'), ('Inc.', 'NNP'), ('NOVL', 'NNP'), ('US', 'NNP'), ('advanced', 'VBD'), ('4.4', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('5.89', 'CD'), (',', ','), ('the', 'DT'), ('biggest', 'JJS'), ('gain', 'NN'), ('since', 'IN'), ('March', 'NNP'), ('3', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Novell/NNP Inc./NNP)   NOVL/NNP   US/NNP   advanced/VBD   4.4/CD   percent/NN   to/TO   $/$   5.89/CD   ,/,   the/DT   biggest/JJS   gain/NN   since/IN   March/NNP   3/CD   ./.)
+----------------------------------
+original sentence: 
+The maker of Linux operating system software said yesterday a $5.75 a share acquisition offer from Elliott Associates LP is &ldquo;inadequate&rdquo; and undervalues the company.
+
+POS tagged sentence: 
+[('The', 'DT'), ('maker', 'NN'), ('of', 'IN'), ('Linux', 'NNP'), ('operating', 'NN'), ('system', 'NN'), ('software', 'NN'), ('said', 'VBD'), ('yesterday', 'NN'), ('a', 'DT'), ('$', '$'), ('5.75', 'CD'), ('a', 'DT'), ('share', 'NN'), ('acquisition', 'NN'), ('offer', 'NN'), ('from', 'IN'), ('Elliott', 'NNP'), ('Associates', 'NNPS'), ('LP', 'NNP'), ('is', 'VBZ'), ('&ldquo', 'NNP'), (';', ':'), ('inadequate&rdquo', 'NNP'), (';', ':'), ('and', 'CC'), ('undervalues', 'NNS'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   maker/NN   of/IN   (GPE Linux/NNP)   operating/NN   system/NN   software/NN   said/VBD   yesterday/NN   a/DT   $/$   5.75/CD   a/DT   share/NN   acquisition/NN   offer/NN   from/IN   (ORGANIZATION Elliott/NNP Associates/NNPS)   LP/NNP   is/VBZ   &ldquo/NNP   ;/:   inadequate&rdquo/NNP   ;/:   and/CC   undervalues/NNS   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+Petrohawk Energy Corp. HK US fell 3.7 percent to $19.56, the lowest price since July 10.
+
+POS tagged sentence: 
+[('Petrohawk', 'NNP'), ('Energy', 'NNP'), ('Corp.', 'NNP'), ('HK', 'NNP'), ('US', 'NNP'), ('fell', 'VBD'), ('3.7', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('19.56', 'CD'), (',', ','), ('the', 'DT'), ('lowest', 'JJS'), ('price', 'NN'), ('since', 'IN'), ('July', 'NNP'), ('10', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Petrohawk/NNP)   (ORGANIZATION Energy/NNP Corp./NNP)   HK/NNP   US/NNP   fell/VBD   3.7/CD   percent/NN   to/TO   $/$   19.56/CD   ,/,   the/DT   lowest/JJS   price/NN   since/IN   July/NNP   10/CD   ./.)
+----------------------------------
+original sentence: 
+The oil and natural gas producer was downgraded to &ldquo;neutral&rdquo; from &ldquo;outperform&rdquo; at Macquarie Group Ltd.
+ Popular Inc. BPOP US dropped 3.3 percent, the most since Feb. 23, to $2.64.
+
+POS tagged sentence: 
+[('The', 'DT'), ('oil', 'NN'), ('and', 'CC'), ('natural', 'JJ'), ('gas', 'NN'), ('producer', 'NN'), ('was', 'VBD'), ('downgraded', 'VBN'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('neutral&rdquo', 'NNP'), (';', ':'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('outperform&rdquo', 'NNP'), (';', ':'), ('at', 'IN'), ('Macquarie', 'NNP'), ('Group', 'NNP'), ('Ltd', 'NNP'), ('.', '.'), ('Popular', 'NNP'), ('Inc.', 'NNP'), ('BPOP', 'NNP'), ('US', 'NNP'), ('dropped', 'VBD'), ('3.3', 'CD'), ('percent', 'NN'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('since', 'IN'), ('Feb.', 'NNP'), ('23', 'CD'), (',', ','), ('to', 'TO'), ('$', '$'), ('2.64', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   oil/NN   and/CC   natural/JJ   gas/NN   producer/NN   was/VBD   downgraded/VBN   to/TO   (GPE &ldquo/NNP)   ;/:   neutral&rdquo/NNP   ;/:   from/IN   (GPE &ldquo/NNP)   ;/:   outperform&rdquo/NNP   ;/:   at/IN   (ORGANIZATION Macquarie/NNP Group/NNP Ltd/NNP)   ./.   (PERSON Popular/NNP)   Inc./NNP   BPOP/NNP   US/NNP   dropped/VBD   3.3/CD   percent/NN   ,/,   the/DT   most/RBS   since/IN   Feb./NNP   23/CD   ,/,   to/TO   $/$   2.64/CD   ./.)
+----------------------------------
+original sentence: 
+The Puerto Rican bank with branches in the U.S. was downgraded to &ldquo;neutral&rdquo; from &ldquo;buy&rdquo; at B. Riley & Co.
+ Williams Sonoma Inc. WSM US increased 12 percent, the most since April 9, to $27.10.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Puerto', 'NNP'), ('Rican', 'NNP'), ('bank', 'NN'), ('with', 'IN'), ('branches', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('was', 'VBD'), ('downgraded', 'VBN'), ('to', 'TO'), ('&ldquo', 'NNP'), (';', ':'), ('neutral&rdquo', 'NNP'), (';', ':'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('buy&rdquo', 'NNP'), (';', ':'), ('at', 'IN'), ('B.', 'NNP'), ('Riley', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Williams', 'NNP'), ('Sonoma', 'NNP'), ('Inc.', 'NNP'), ('WSM', 'NNP'), ('US', 'NNP'), ('increased', 'VBD'), ('12', 'CD'), ('percent', 'NN'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('since', 'IN'), ('April', 'NNP'), ('9', 'CD'), (',', ','), ('to', 'TO'), ('$', '$'), ('27.10', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE Puerto/NNP Rican/NNP)   bank/NN   with/IN   branches/NNS   in/IN   the/DT   (GPE U.S./NNP)   was/VBD   downgraded/VBN   to/TO   (GPE &ldquo/NNP)   ;/:   neutral&rdquo/NNP   ;/:   from/IN   (GPE &ldquo/NNP)   ;/:   buy&rdquo/NNP   ;/:   at/IN   B./NNP   Riley/NNP   &/CC   Co/NNP   ./.   (PERSON Williams/NNP Sonoma/NNP)   Inc./NNP   WSM/NNP   US/NNP   increased/VBD   12/CD   percent/NN   ,/,   the/DT   most/RBS   since/IN   April/NNP   9/CD   ,/,   to/TO   $/$   27.10/CD   ./.)
+----------------------------------
+original sentence: 
+The U.S. gourmet cookware retailer reported fourth quarter profit excluding some items of 86 cents a share, beating the average analysts&rsquo; estimate in a Bloomberg survey by 17 percent.
+
+POS tagged sentence: 
+[('The', 'DT'), ('U.S.', 'NNP'), ('gourmet', 'NN'), ('cookware', 'NN'), ('retailer', 'NN'), ('reported', 'VBD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('profit', 'NN'), ('excluding', 'VBG'), ('some', 'DT'), ('items', 'NNS'), ('of', 'IN'), ('86', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('beating', 'VBG'), ('the', 'DT'), ('average', 'JJ'), ('analysts&rsquo', 'NN'), (';', ':'), ('estimate', 'NN'), ('in', 'IN'), ('a', 'DT'), ('Bloomberg', 'NNP'), ('survey', 'NN'), ('by', 'IN'), ('17', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE U.S./NNP)   gourmet/NN   cookware/NN   retailer/NN   reported/VBD   fourth/JJ   quarter/NN   profit/NN   excluding/VBG   some/DT   items/NNS   of/IN   86/CD   cents/NNS   a/DT   share/NN   ,/,   beating/VBG   the/DT   average/JJ   analysts&rsquo/NN   ;/:   estimate/NN   in/IN   a/DT   (ORGANIZATION Bloomberg/NNP)   survey/NN   by/IN   17/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+With assistance from Lu Wang, Craig Trudell in New York.
+
+POS tagged sentence: 
+[('With', 'IN'), ('assistance', 'NN'), ('from', 'IN'), ('Lu', 'NNP'), ('Wang', 'NNP'), (',', ','), ('Craig', 'NNP'), ('Trudell', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   assistance/NN   from/IN   (PERSON Lu/NNP Wang/NNP)   ,/,   (PERSON Craig/NNP Trudell/NNP)   in/IN   (GPE New/NNP York/NNP)   ./.)
+----------------------------------
+original sentence: 
+Editors: Joanna Ossinger, Stephen Kleege
+To contact the reporter on this story: Jeff Kearns in New York at jkearns3@bloomberg.net.
+
+POS tagged sentence: 
+[('Editors', 'NNS'), (':', ':'), ('Joanna', 'NNP'), ('Ossinger', 'NNP'), (',', ','), ('Stephen', 'NNP'), ('Kleege', 'NNP'), ('To', 'NNP'), ('contact', 'NN'), ('the', 'DT'), ('reporter', 'NN'), ('on', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Jeff', 'NNP'), ('Kearns', 'NNPS'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('at', 'IN'), ('jkearns3', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Editors/NNS   :/:   (PERSON Joanna/NNP Ossinger/NNP)   ,/,   (PERSON Stephen/NNP Kleege/NNP To/NNP)   contact/NN   the/DT   reporter/NN   on/IN   this/DT   story/NN   :/:   (ORGANIZATION Jeff/NNP Kearns/NNPS)   in/IN   (GPE New/NNP York/NNP)   at/IN   (ORGANIZATION jkearns3/NNP)   @/NNP   bloomberg.net/JJ   ./.)
+----------------------------------
+original sentence: 
+To contact the editor responsible for this story: Nick Baker at nbaker7@bloomberg.net.
+
+POS tagged sentence: 
+[('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('editor', 'NN'), ('responsible', 'JJ'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Nick', 'NNP'), ('Baker', 'NNP'), ('at', 'IN'), ('nbaker7', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   contact/VB   the/DT   editor/NN   responsible/JJ   for/IN   this/DT   story/NN   :/:   (PERSON Nick/NNP Baker/NNP)   at/IN   (ORGANIZATION nbaker7/NNP)   @/NNP   bloomberg.net/JJ   ./.)
+----------------------------------
+original sentence: 
+Related topics in Most Popular Stories
+Stock Picks: Chipotle, eBay, Netflix, Qualcomm
+It's About Time: Adobe Divests from iPhone OS
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('Related', 'JJ'), ('topics', 'NNS'), ('in', 'IN'), ('Most', 'JJS'), ('Popular', 'JJ'), ('Stories', 'NNS'), ('Stock', 'NNP'), ('Picks', 'NNP'), (':', ':'), ('Chipotle', 'NNP'), (',', ','), ('eBay', 'NNP'), (',', ','), ('Netflix', 'NNP'), (',', ','), ('Qualcomm', 'NNP'), ('It', 'PRP'), ("'s", 'VBZ'), ('About', 'IN'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Related/JJ)   topics/NNS   in/IN   Most/JJS   Popular/JJ   Stories/NNS   (PERSON Stock/NNP Picks/NNP)   :/:   (GPE Chipotle/NNP)   ,/,   (ORGANIZATION eBay/NNP)   ,/,   (PERSON Netflix/NNP)   ,/,   Qualcomm/NNP   It/PRP   's/VBZ   About/IN   Time/NNP   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+Apple's Endless Expanding App Universe
+Potentially Lethal Airborne Fungus May Spread to California
+RSS Feed: Most Read Stories
+Potentially Lethal Airborne Fungus May Spread to California BusinessWeek
+Can GE Still Manage?
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('Potentially', 'NNP'), ('Lethal', 'NNP'), ('Airborne', 'NNP'), ('Fungus', 'NNP'), ('May', 'NNP'), ('Spread', 'NNP'), ('to', 'TO'), ('California', 'NNP'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('Read', 'JJ'), ('Stories', 'NNS'), ('Potentially', 'RB'), ('Lethal', 'NNP'), ('Airborne', 'NNP'), ('Fungus', 'NNP'), ('May', 'NNP'), ('Spread', 'NNP'), ('to', 'TO'), ('California', 'NNP'), ('BusinessWeek', 'NNP'), ('Can', 'NNP'), ('GE', 'NNP'), ('Still', 'NNP'), ('Manage', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   (PERSON     Universe/NNP     Potentially/NNP     Lethal/NNP     Airborne/NNP     Fungus/NNP)   May/NNP   Spread/NNP   to/TO   (GPE California/NNP)   RSS/NNP   Feed/NNP   :/:   Most/RBS   Read/JJ   Stories/NNS   Potentially/RB   (PERSON Lethal/NNP Airborne/NNP Fungus/NNP)   May/NNP   Spread/NNP   to/TO   (GPE California/NNP)   BusinessWeek/NNP   Can/NNP   GE/NNP   Still/NNP   Manage/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+Why Boulder Is America's Best Town for Startups BusinessWeek
+Apple's Endless Expanding App Universe BusinessWeek
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('Why', 'WRB'), ('Boulder', 'NNP'), ('Is', 'NNP'), ('America', 'NNP'), ("'s", 'POS'), ('Best', 'NNP'), ('Town', 'NNP'), ('for', 'IN'), ('Startups', 'NNP'), ('BusinessWeek', 'NNP'), ('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('BusinessWeek', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   BusinessWeek/NN   Why/WRB   (PERSON Boulder/NNP Is/NNP America/NNP)   's/POS   (PERSON Best/NNP Town/NNP)   for/IN   (PERSON Startups/NNP BusinessWeek/NNP Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   (PERSON Universe/NNP BusinessWeek/NNP)   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+RSS Feed: Most E mailed Stories
+It's About Time: Adobe Divests from iPhone OS
+A Wobbly Global Debut for Apple's iPad
+Can Meg Whitman's CEO Savvy Save California?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('E', 'NNP'), ('mailed', 'VBD'), ('Stories', 'NNP'), ('It', 'NNP'), ("'s", 'POS'), ('About', 'NNP'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('Can', 'NNP'), ('Meg', 'NNP'), ('Whitman', 'NNP'), ("'s", 'POS'), ('CEO', 'NNP'), ('Savvy', 'NNP'), ('Save', 'NNP'), ('California', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BusinessWeek/NN)   (ORGANIZATION RSS/NNP)   Feed/NNP   :/:   Most/RBS   E/NNP   mailed/VBD   (PERSON Stories/NNP It/NNP)   's/POS   (PERSON About/NNP Time/NNP)   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP Can/NNP Meg/NNP Whitman/NNP)   's/POS   (ORGANIZATION CEO/NNP Savvy/NNP Save/NNP California/NNP)   ?/.)
+----------------------------------
+original sentence: 
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('After', 'IN'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+RSS Feed: Most Discussed Stories
+
+
+POS tagged sentence: 
+[('RSS', 'NN'), ('Feed', 'VBN'), (':', ':'), ('Most', 'RBS'), ('Discussed', 'JJ'), ('Stories', 'NNS')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION RSS/NN)   Feed/VBN   :/:   Most/RBS   Discussed/JJ   Stories/NNS)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

@@ -1,0 +1,295 @@
+
+----------------------------------
+original sentence: 
+ Business real estate loans at issue Business real estate loans at issue
+Tuesday, March 30, 2010 11:51 AM
+ Source: Tulsa World 
+WASHINGTON Mounting losses from commercial real estate loans
+will continue to be a problem for the U.S. and especially smaller
+banks, but it can be managed, Treasury Secretary Timothy Geithner
+said Monday.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('real', 'NN'), ('estate', 'NN'), ('loans', 'NNS'), ('at', 'IN'), ('issue', 'NN'), ('Business', 'NN'), ('real', 'NN'), ('estate', 'NN'), ('loans', 'NNS'), ('at', 'IN'), ('issue', 'NN'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('30', 'CD'), (',', ','), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('51', 'CD'), ('AM', 'NNP'), ('Source', 'NNP'), (':', ':'), ('Tulsa', 'NNP'), ('World', 'NNP'), ('WASHINGTON', 'NNP'), ('Mounting', 'NNP'), ('losses', 'VBZ'), ('from', 'IN'), ('commercial', 'JJ'), ('real', 'JJ'), ('estate', 'NN'), ('loans', 'NNS'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('problem', 'NN'), ('for', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('especially', 'RB'), ('smaller', 'JJR'), ('banks', 'NNS'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('managed', 'VBN'), (',', ','), ('Treasury', 'NNP'), ('Secretary', 'NNP'), ('Timothy', 'NNP'), ('Geithner', 'NNP'), ('said', 'VBD'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   real/NN   estate/NN   loans/NNS   at/IN   issue/NN   (ORGANIZATION Business/NN)   real/NN   estate/NN   loans/NNS   at/IN   issue/NN   Tuesday/NNP   ,/,   March/NNP   30/CD   ,/,   2010/CD   11/CD   :/:   51/CD   AM/NNP   Source/NNP   :/:   (PERSON Tulsa/NNP World/NNP)   (ORGANIZATION WASHINGTON/NNP)   Mounting/NNP   losses/VBZ   from/IN   commercial/JJ   real/JJ   estate/NN   loans/NNS   will/MD   continue/VB   to/TO   be/VB   a/DT   problem/NN   for/IN   the/DT   (GPE U.S./NNP)   and/CC   especially/RB   smaller/JJR   banks/NNS   ,/,   but/CC   it/PRP   can/MD   be/VB   managed/VBN   ,/,   (ORGANIZATION Treasury/NNP)   Secretary/NNP   (PERSON Timothy/NNP Geithner/NNP)   said/VBD   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+"Commercial real estate's still going to be a problem for the
+country," Geithner said in an interview with CNBC.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Commercial', 'JJ'), ('real', 'JJ'), ('estate', 'NN'), ("'s", 'POS'), ('still', 'RB'), ('going', 'VBG'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('problem', 'NN'), ('for', 'IN'), ('the', 'DT'), ('country', 'NN'), (',', ','), ('"', 'NNP'), ('Geithner', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('an', 'DT'), ('interview', 'NN'), ('with', 'IN'), ('CNBC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (ORGANIZATION Commercial/JJ)   real/JJ   estate/NN   's/POS   still/RB   going/VBG   to/TO   be/VB   a/DT   problem/NN   for/IN   the/DT   country/NN   ,/,   "/NNP   (PERSON Geithner/NNP)   said/VBD   in/IN   an/DT   interview/NN   with/IN   (ORGANIZATION CNBC/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB going/VBG to/TO be/VB a/DT problem/NN for/IN the/DT country/NN)
+	(VERB said/VBD in/IN an/DT interview/NN with/IN CNBC/NNP)
+noun phrases to consider:
+	(NOUN "/NN Commercial/JJ real/JJ estate/NN)
+	(NOUN "/NNP Geithner/NNP)
+
+----------------------------------
+original sentence: 
+"But we can
+manage through this process.
+
+POS tagged sentence: 
+[('"', 'NN'), ('But', 'CC'), ('we', 'PRP'), ('can', 'MD'), ('manage', 'VB'), ('through', 'IN'), ('this', 'DT'), ('process', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   But/CC   we/PRP   can/MD   manage/VB   through/IN   this/DT   process/NN   ./.)
+----------------------------------
+original sentence: 
+" 
+Geithner also said the Treasury Department's announcement that it
+will begin selling the stake it owns in Citigroup Inc., which could
+net about $7.5 billion to the government, shows "how far we've come"
+in exiting the financial bailout program.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Geithner', 'NNP'), ('also', 'RB'), ('said', 'VBD'), ('the', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ("'s", 'POS'), ('announcement', 'NN'), ('that', 'IN'), ('it', 'PRP'), ('will', 'MD'), ('begin', 'VB'), ('selling', 'NN'), ('the', 'DT'), ('stake', 'NN'), ('it', 'PRP'), ('owns', 'VBZ'), ('in', 'IN'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('which', 'WDT'), ('could', 'MD'), ('net', 'VB'), ('about', 'IN'), ('$', '$'), ('7.5', 'CD'), ('billion', 'CD'), ('to', 'TO'), ('the', 'DT'), ('government', 'NN'), (',', ','), ('shows', 'VBZ'), ('"', ':'), ('how', 'WRB'), ('far', 'JJ'), ('we', 'PRP'), ("'ve", 'VBP'), ('come', 'VBN'), ('"', '-NONE-'), ('in', 'IN'), ('exiting', 'NN'), ('the', 'DT'), ('financial', 'JJ'), ('bailout', 'NN'), ('program', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Geithner/NNP)   also/RB   said/VBD   the/DT   (ORGANIZATION Treasury/NNP Department/NNP)   's/POS   announcement/NN   that/IN   it/PRP   will/MD   begin/VB   selling/NN   the/DT   stake/NN   it/PRP   owns/VBZ   in/IN   (ORGANIZATION Citigroup/NNP Inc./NNP)   ,/,   which/WDT   could/MD   net/VB   about/IN   $/$   7.5/CD   billion/CD   to/TO   the/DT   government/NN   ,/,   shows/VBZ   "/:   how/WRB   far/JJ   we/PRP   've/VBP   come/VBN   "/-NONE-   in/IN   exiting/NN   the/DT   financial/JJ   bailout/NN   program/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD the/DT Treasury/NNP Department/NNP)
+	(VERB begin/VB selling/NN the/DT stake/NN it/PRP)
+	(VERB owns/VBZ in/IN Citigroup/NNP Inc./NNP)
+	(VERB net/VB about/IN)
+	(VERB shows/VBZ)
+	(VERB 've/VBP come/VBN)
+noun phrases to consider:
+	(NOUN "/NN Geithner/NNP)
+	(NOUN announcement/NN)
+	(NOUN government/NN)
+	(NOUN far/JJ)
+	(NOUN exiting/NN)
+	(NOUN the/DT financial/JJ bailout/NN program/NN)
+
+tagged sentence:
+	 the financial bailout program	res:-1
+
+----------------------------------
+original sentence: 
+The government received 7.7 billion shares of Citigroup in
+exchange for $25 billion of the total $45 billion it gave the
+financial behemoth during the 2008 credit crisis.
+
+POS tagged sentence: 
+[('The', 'DT'), ('government', 'NN'), ('received', 'VBD'), ('7.7', 'CD'), ('billion', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('Citigroup', 'NNP'), ('in', 'IN'), ('exchange', 'NN'), ('for', 'IN'), ('$', '$'), ('25', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('the', 'DT'), ('total', 'JJ'), ('$', '$'), ('45', 'CD'), ('billion', 'CD'), ('it', 'PRP'), ('gave', 'VBD'), ('the', 'DT'), ('financial', 'JJ'), ('behemoth', 'NN'), ('during', 'IN'), ('the', 'DT'), ('2008', 'CD'), ('credit', 'NN'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   government/NN   received/VBD   7.7/CD   billion/CD   shares/NNS   of/IN   (GPE Citigroup/NNP)   in/IN   exchange/NN   for/IN   $/$   25/CD   billion/CD   of/IN   the/DT   total/JJ   $/$   45/CD   billion/CD   it/PRP   gave/VBD   the/DT   financial/JJ   behemoth/NN   during/IN   the/DT   2008/CD   credit/NN   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   received/VBD   7.7/CD   billion/CD   shares/NNS   of/IN   Citigroup/NNP   in/IN   exchange/NN   for/IN)
+	(VERB   gave/VBD   the/DT   financial/JJ   behemoth/NN   during/IN   the/DT   2008/CD   credit/NN   crisis/NN)
+
+tagged sentence:
+	 gave the financial behemoth during the 2008 credit crisis	res:-1
+noun phrases to consider:
+	(NOUN government/NN)
+	(NOUN the/DT total/JJ)
+
+----------------------------------
+original sentence: 
+The Treasury Department said Monday it would sell the shares over
+the course of this year, depending on market conditions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('said', 'VBD'), ('Monday', 'NNP'), ('it', 'PRP'), ('would', 'MD'), ('sell', 'VB'), ('the', 'DT'), ('shares', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('course', 'NN'), ('of', 'IN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('depending', 'VBG'), ('on', 'IN'), ('market', 'NN'), ('conditions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Treasury/NNP Department/NNP)   said/VBD   Monday/NNP   it/PRP   would/MD   sell/VB   the/DT   shares/NNS   over/IN   the/DT   course/NN   of/IN   this/DT   year/NN   ,/,   depending/VBG   on/IN   market/NN   conditions/NNS   ./.)
+----------------------------------
+original sentence: 
+Like any investor, the government will likely hold on to its
+shares if prices fall steeply.
+
+POS tagged sentence: 
+[('Like', 'IN'), ('any', 'DT'), ('investor', 'NN'), (',', ','), ('the', 'DT'), ('government', 'NN'), ('will', 'MD'), ('likely', 'RB'), ('hold', 'VB'), ('on', 'IN'), ('to', 'TO'), ('its', 'PRP$'), ('shares', 'NNS'), ('if', 'IN'), ('prices', 'NNS'), ('fall', 'VBP'), ('steeply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Like/IN   any/DT   investor/NN   ,/,   the/DT   government/NN   will/MD   likely/RB   hold/VB   on/IN   to/TO   its/PRP$   shares/NNS   if/IN   prices/NNS   fall/VBP   steeply/RB   ./.)
+----------------------------------
+original sentence: 
+However, Citi shares have been steadily rising with the broader
+market in recent months, which means the government is likely to
+pocket a hefty profit.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('Citi', 'NNP'), ('shares', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('steadily', 'RB'), ('rising', 'VBG'), ('with', 'IN'), ('the', 'DT'), ('broader', 'JJR'), ('market', 'NN'), ('in', 'IN'), ('recent', 'JJ'), ('months', 'NNS'), (',', ','), ('which', 'WDT'), ('means', 'VBZ'), ('the', 'DT'), ('government', 'NN'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('pocket', 'NN'), ('a', 'DT'), ('hefty', 'JJ'), ('profit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   (ORGANIZATION Citi/NNP)   shares/NNS   have/VBP   been/VBN   steadily/RB   rising/VBG   with/IN   the/DT   broader/JJR   market/NN   in/IN   recent/JJ   months/NNS   ,/,   which/WDT   means/VBZ   the/DT   government/NN   is/VBZ   likely/JJ   to/TO   pocket/NN   a/DT   hefty/JJ   profit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP been/VBN steadily/RB)
+	(VERB   rising/VBG   with/IN   the/DT   broader/JJR   market/NN   in/IN   recent/JJ   months/NNS)
+	(VERB means/VBZ the/DT government/NN)
+	(VERB is/VBZ likely/JJ)
+noun phrases to consider:
+	(NOUN Citi/NNP shares/NNS)
+	(NOUN pocket/NN)
+	(NOUN a/DT hefty/JJ profit/NN)
+
+----------------------------------
+original sentence: 
+Geithner said in the interview the government doesn't want to
+keep an ownership stake in the financial companies "a day longer
+than necessary.
+
+POS tagged sentence: 
+[('Geithner', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('interview', 'NN'), ('the', 'DT'), ('government', 'NN'), ('does', 'VBZ'), ("n't", 'RB'), ('want', 'VB'), ('to', 'TO'), ('keep', 'VB'), ('an', 'DT'), ('ownership', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('companies', 'NNS'), ('"', ':'), ('a', 'DT'), ('day', 'NN'), ('longer', 'NN'), ('than', 'IN'), ('necessary', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Geithner/NNP)   said/VBD   in/IN   the/DT   interview/NN   the/DT   government/NN   does/VBZ   n't/RB   want/VB   to/TO   keep/VB   an/DT   ownership/NN   stake/NN   in/IN   the/DT   financial/JJ   companies/NNS   "/:   a/DT   day/NN   longer/NN   than/IN   necessary/JJ   ./.)
+----------------------------------
+original sentence: 
+" 
+The government will use a "careful process" to balance two
+objectives, he said: ensuring maximum return on the taxpayers'
+investment while also getting the U.S. out of the business of owning
+private companies.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('government', 'NN'), ('will', 'MD'), ('use', 'VB'), ('a', 'DT'), ('"', 'NN'), ('careful', 'JJ'), ('process', 'NN'), ('"', ':'), ('to', 'TO'), ('balance', 'NN'), ('two', 'CD'), ('objectives', 'NNS'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), (':', ':'), ('ensuring', 'VBG'), ('maximum', 'NN'), ('return', 'NN'), ('on', 'IN'), ('the', 'DT'), ('taxpayers', 'NNS'), ("'", 'POS'), ('investment', 'NN'), ('while', 'IN'), ('also', 'RB'), ('getting', 'VBG'), ('the', 'DT'), ('U.S.', 'NNP'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('business', 'NN'), ('of', 'IN'), ('owning', 'NN'), ('private', 'JJ'), ('companies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   government/NN   will/MD   use/VB   a/DT   "/NN   careful/JJ   process/NN   "/:   to/TO   balance/NN   two/CD   objectives/NNS   ,/,   he/PRP   said/VBD   :/:   ensuring/VBG   maximum/NN   return/NN   on/IN   the/DT   taxpayers/NNS   '/POS   investment/NN   while/IN   also/RB   getting/VBG   the/DT   (GPE U.S./NNP)   out/IN   of/IN   the/DT   business/NN   of/IN   owning/NN   private/JJ   companies/NNS   ./.)
+----------------------------------
+original sentence: 
+On other subjects, Geithner said: 
+The Obama administration is optimistic that an agreement can be
+reached with Republicans on legislation to bring sweeping new
+regulations to the U.S. financial system, opening the way to
+enactment possibly within months.
+
+POS tagged sentence: 
+[('On', 'IN'), ('other', 'JJ'), ('subjects', 'NNS'), (',', ','), ('Geithner', 'NNP'), ('said', 'VBD'), (':', ':'), ('The', 'DT'), ('Obama', 'NNP'), ('administration', 'NN'), ('is', 'VBZ'), ('optimistic', 'JJ'), ('that', 'IN'), ('an', 'DT'), ('agreement', 'NN'), ('can', 'MD'), ('be', 'VB'), ('reached', 'VBN'), ('with', 'IN'), ('Republicans', 'NNPS'), ('on', 'IN'), ('legislation', 'NN'), ('to', 'TO'), ('bring', 'VB'), ('sweeping', 'JJ'), ('new', 'JJ'), ('regulations', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('U.S.', 'NNP'), ('financial', 'JJ'), ('system', 'NN'), (',', ','), ('opening', 'VBG'), ('the', 'DT'), ('way', 'NN'), ('to', 'TO'), ('enactment', 'NN'), ('possibly', 'RB'), ('within', 'IN'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   other/JJ   subjects/NNS   ,/,   (PERSON Geithner/NNP)   said/VBD   :/:   The/DT   (ORGANIZATION Obama/NNP)   administration/NN   is/VBZ   optimistic/JJ   that/IN   an/DT   agreement/NN   can/MD   be/VB   reached/VBN   with/IN   Republicans/NNPS   on/IN   legislation/NN   to/TO   bring/VB   sweeping/JJ   new/JJ   regulations/NNS   to/TO   the/DT   (GPE U.S./NNP)   financial/JJ   system/NN   ,/,   opening/VBG   the/DT   way/NN   to/TO   enactment/NN   possibly/RB   within/IN   months/NNS   ./.)
+----------------------------------
+original sentence: 
+The financial system "is in a much, much stronger position today"
+than it was three years ago in the run up to the financial crisis,
+and the U.S. economy has recovered from the crisis faster than those
+of other countries.
+
+POS tagged sentence: 
+[('The', 'DT'), ('financial', 'JJ'), ('system', 'NN'), ('"', ':'), ('is', 'VBZ'), ('in', 'IN'), ('a', 'DT'), ('much', 'JJ'), (',', ','), ('much', 'RB'), ('stronger', 'JJR'), ('position', 'NN'), ('today', 'NN'), ('"', ':'), ('than', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('three', 'CD'), ('years', 'NNS'), ('ago', 'RB'), ('in', 'IN'), ('the', 'DT'), ('run', 'NN'), ('up', 'RP'), ('to', 'TO'), ('the', 'DT'), ('financial', 'JJ'), ('crisis', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('U.S.', 'NNP'), ('economy', 'NN'), ('has', 'VBZ'), ('recovered', 'VBN'), ('from', 'IN'), ('the', 'DT'), ('crisis', 'NN'), ('faster', 'NN'), ('than', 'IN'), ('those', 'DT'), ('of', 'IN'), ('other', 'JJ'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   financial/JJ   system/NN   "/:   is/VBZ   in/IN   a/DT   much/JJ   ,/,   much/RB   stronger/JJR   position/NN   today/NN   "/:   than/IN   it/PRP   was/VBD   three/CD   years/NNS   ago/RB   in/IN   the/DT   run/NN   up/RP   to/TO   the/DT   financial/JJ   crisis/NN   ,/,   and/CC   the/DT   (GPE U.S./NNP)   economy/NN   has/VBZ   recovered/VBN   from/IN   the/DT   crisis/NN   faster/NN   than/IN   those/DT   of/IN   other/JJ   countries/NNS   ./.)
+----------------------------------
+original sentence: 
+Major U.S. financial institutions have far
+stronger capital positions than they did three years ago, but many
+of them still face daunting challenges, he said.
+
+POS tagged sentence: 
+[('Major', 'NNP'), ('U.S.', 'NNP'), ('financial', 'JJ'), ('institutions', 'NNS'), ('have', 'VBP'), ('far', 'RB'), ('stronger', 'JJR'), ('capital', 'NN'), ('positions', 'NNS'), ('than', 'IN'), ('they', 'PRP'), ('did', 'VBD'), ('three', 'CD'), ('years', 'NNS'), ('ago', 'RB'), (',', ','), ('but', 'CC'), ('many', 'JJ'), ('of', 'IN'), ('them', 'PRP'), ('still', 'RB'), ('face', 'VBP'), ('daunting', 'VBG'), ('challenges', 'NNS'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Major/NNP)   (GPE U.S./NNP)   financial/JJ   institutions/NNS   have/VBP   far/RB   stronger/JJR   capital/NN   positions/NNS   than/IN   they/PRP   did/VBD   three/CD   years/NNS   ago/RB   ,/,   but/CC   many/JJ   of/IN   them/PRP   still/RB   face/VBP   daunting/VBG   challenges/NNS   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+SUBHEAD: Losses
+grow, but the Treasury secretary says they can be managed.
+
+POS tagged sentence: 
+[('SUBHEAD', 'NNP'), (':', ':'), ('Losses', 'NNS'), ('grow', 'VBP'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('Treasury', 'NNP'), ('secretary', 'NN'), ('says', 'VBZ'), ('they', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('managed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SUBHEAD/NNP   :/:   Losses/NNS   grow/VBP   ,/,   but/CC   the/DT   (ORGANIZATION Treasury/NNP)   secretary/NN   says/VBZ   they/PRP   can/MD   be/VB   managed/VBN   ./.)
+----------------------------------
+original sentence: 
+Originally published by MARCY GORDON Associated Press.
+
+POS tagged sentence: 
+[('Originally', 'RB'), ('published', 'VBD'), ('by', 'IN'), ('MARCY', 'NNP'), ('GORDON', 'NNP'), ('Associated', 'NNP'), ('Press', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Originally/RB   published/VBD   by/IN   (ORGANIZATION MARCY/NNP)   GORDON/NNP   (ORGANIZATION Associated/NNP Press/NNP)   ./.)
+----------------------------------
+original sentence: 
+c 2010 Tulsa World.
+
+POS tagged sentence: 
+[('c', 'NN'), ('2010', 'CD'), ('Tulsa', 'NNP'), ('World', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S c/NN 2010/CD Tulsa/NNP World/NNP ./.)
+----------------------------------
+original sentence: 
+Provided by ProQuest LLC.
+
+POS tagged sentence: 
+[('Provided', 'VBN'), ('by', 'IN'), ('ProQuest', 'NNP'), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Provided/VBN by/IN (ORGANIZATION ProQuest/NNP) LLC/NNP ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Provided/VBN by/IN ProQuest/NNP LLC/NNP)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+All rights Reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS Reserved/VBN ./.)
+----------------------------------
+original sentence: 
+A service of YellowBrix, Inc.
+
+POS tagged sentence: 
+[('A', 'DT'), ('service', 'NN'), ('of', 'IN'), ('YellowBrix', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   service/NN   of/IN   (ORGANIZATION YellowBrix/NNP)   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+Subscribe to Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+  Related Press Releases
+ |  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('Related', 'NNP'), ('Press', 'NNP'), ('Releases', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   (GPE Rate/NNP)   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   (PERSON Related/NNP Press/NNP Releases/NNP)   |/NNP   |/NNP   |/NNP   Join/NNP   Blog/NNP   (PERSON Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB copryright/VBD 2010/CD all/DT rights/NNS)
+	(VERB reserved/VBN Fundamental/NNP data/NNS)
+	(VERB   is/VBZ   provided/VBN   by/IN   Zacks/NNP   Investment/NNP   Research/NNP)
+	(VERB is/VBZ provided/VBN by/IN)
+	(VERB provided/VBD by/IN)
+noun phrases to consider:
+	(NOUN Subscribe/NNP)
+	(NOUN Rate/NNP)
+	(NOUN Commentary/NNP Name/NNP)
+	(NOUN Alert/NNP)
+	(NOUN new/JJ comments/NNS)
+	(NOUN Your/NNP email/NN)
+	(NOUN Website/NNP)
+	(NOUN Title/NNP)
+	(NOUN RadEditor/NNP hidden/NN textarea/NN Related/NNP)
+	(NOUN Press/NNP Releases/NNP |/NNP |/NNP)
+	(NOUN |/NNP Join/NNP Blog/NNP Network/NNP)
+	(NOUN market/NN data/NNS)
+	(NOUN Commentary/NNP)
+	(NOUN Press/NNP Releases/NNP)
+
+
+veryneg:0	neg:2	pos:0	verypos:0	total:1

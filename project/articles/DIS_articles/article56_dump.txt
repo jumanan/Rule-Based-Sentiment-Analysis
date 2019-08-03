@@ -1,0 +1,299 @@
+
+----------------------------------
+original sentence: 
+Burbank Leader &gt; Archives &gt; Business &gt; Disney eyes happy 2010
+Wednesday, March 17, 2010
+Archives &gt; Business
+Disney eyes happy 2010
+Company expects acquisition of Marvel and other factors to equal strong season.
+
+POS tagged sentence: 
+[('Burbank', 'NNP'), ('Leader', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('Archives', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('Business', 'NNP'), ('&gt', 'NN'), (';', ':'), ('Disney', 'NNP'), ('eyes', 'VBZ'), ('happy', 'JJ'), ('2010', 'CD'), ('Wednesday', 'NNP'), (',', ','), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('Archives', 'NNS'), ('&gt', 'JJ'), (';', ':'), ('Business', 'NNP'), ('Disney', 'NNP'), ('eyes', 'VBZ'), ('happy', 'JJ'), ('2010', 'CD'), ('Company', 'NNP'), ('expects', 'VBZ'), ('acquisition', 'NN'), ('of', 'IN'), ('Marvel', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('factors', 'NNS'), ('to', 'TO'), ('equal', 'JJ'), ('strong', 'JJ'), ('season', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Burbank/NNP)   (PERSON Leader/NNP &gt/NNP)   ;/:   (PERSON Archives/NNP &gt/NNP)   ;/:   (ORGANIZATION Business/NNP)   &gt/NN   ;/:   (ORGANIZATION Disney/NNP)   eyes/VBZ   happy/JJ   2010/CD   Wednesday/NNP   ,/,   March/NNP   17/CD   ,/,   2010/CD   Archives/NNS   &gt/JJ   ;/:   (ORGANIZATION Business/NNP Disney/NNP)   eyes/VBZ   happy/JJ   2010/CD   Company/NNP   expects/VBZ   acquisition/NN   of/IN   (PERSON Marvel/NNP)   and/CC   other/JJ   factors/NNS   to/TO   equal/JJ   strong/JJ   season/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB eyes/VBZ happy/JJ 2010/CD Wednesday/NNP)
+
+tagged sentence:
+	 eyes happy 2010 Wednesday	res:1
+	(VERB eyes/VBZ happy/JJ 2010/CD Company/NNP)
+
+tagged sentence:
+	 eyes happy 2010 Company	res:1
+	(VERB expects/VBZ acquisition/NN of/IN Marvel/NNP)
+noun phrases to consider:
+	(NOUN Burbank/NNP Leader/NNP &gt/NNP)
+	(NOUN Archives/NNP &gt/NNP)
+	(NOUN Business/NNP &gt/NN)
+	(NOUN Disney/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Archives/NNS)
+	(NOUN &gt/JJ)
+	(NOUN Business/NNP Disney/NNP)
+	(NOUN other/JJ factors/NNS)
+	(NOUN equal/JJ strong/JJ season/NN)
+
+----------------------------------
+original sentence: 
+Last Updated Tuesday, March 16, 2010 10:06 PM PDT
+The Walt Disney Co. and its employees could be in for a strong year, as the Burbank media giant plans to release sequels for two juggernaut franchises and anticipates economic recovery to help it rebound from disappointing results in 2009, experts said.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('Updated', 'VBN'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('06', 'CD'), ('PM', 'NNP'), ('PDT', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co.', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('employees', 'NNS'), ('could', 'MD'), ('be', 'VB'), ('in', 'IN'), ('for', 'IN'), ('a', 'DT'), ('strong', 'JJ'), ('year', 'NN'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('Burbank', 'NNP'), ('media', 'NNS'), ('giant', 'JJ'), ('plans', 'NNS'), ('to', 'TO'), ('release', 'VB'), ('sequels', 'NNS'), ('for', 'IN'), ('two', 'CD'), ('juggernaut', 'NN'), ('franchises', 'NNS'), ('and', 'CC'), ('anticipates', 'NNS'), ('economic', 'JJ'), ('recovery', 'NN'), ('to', 'TO'), ('help', 'VB'), ('it', 'PRP'), ('rebound', 'VB'), ('from', 'IN'), ('disappointing', 'JJ'), ('results', 'NNS'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('experts', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   Updated/VBN   Tuesday/NNP   ,/,   March/NNP   16/CD   ,/,   2010/CD   10/CD   :/:   06/CD   PM/NNP   PDT/NNP   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP)   Co./NNP   and/CC   its/PRP$   employees/NNS   could/MD   be/VB   in/IN   for/IN   a/DT   strong/JJ   year/NN   ,/,   as/IN   the/DT   (ORGANIZATION Burbank/NNP)   media/NNS   giant/JJ   plans/NNS   to/TO   release/VB   sequels/NNS   for/IN   two/CD   juggernaut/NN   franchises/NNS   and/CC   anticipates/NNS   economic/JJ   recovery/NN   to/TO   help/VB   it/PRP   rebound/VB   from/IN   disappointing/JJ   results/NNS   in/IN   2009/CD   ,/,   experts/NNS   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Updated/VBN Tuesday/NNP)
+	(VERB be/VB in/IN for/IN a/DT strong/JJ year/NN)
+
+tagged sentence:
+	 be in for a strong year	res:1
+	(VERB   release/VB   sequels/NNS   for/IN   two/CD   juggernaut/NN   franchises/NNS)
+	(VERB help/VB it/PRP)
+	(VERB rebound/VB from/IN disappointing/JJ results/NNS in/IN 2009/CD)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Last/JJ)
+	(NOUN March/NNP)
+	(NOUN 06/CD PM/NNP PDT/NNP The/NNP Walt/NNP)
+	(NOUN Disney/NNP Co./NNP)
+	(NOUN employees/NNS)
+	(NOUN the/DT Burbank/NNP media/NNS giant/JJ plans/NNS)
+	(NOUN anticipates/NNS economic/JJ recovery/NN)
+	(NOUN experts/NNS)
+
+----------------------------------
+original sentence: 
+Disney, he said, is looking forward to strong performances from &ldquo;Toy Story 3&rdquo; and &ldquo;Iron Man 2,&rdquo; which recently came under the company&rsquo;s ownership after it bought Marvel Entertainment in 2009.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), (',', ','), ('is', 'VBZ'), ('looking', 'VBG'), ('forward', 'RB'), ('to', 'TO'), ('strong', 'JJ'), ('performances', 'NNS'), ('from', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('Toy', 'NNP'), ('Story', 'NNP'), ('3&rdquo', 'CD'), (';', ':'), ('and', 'CC'), ('&ldquo', 'NNP'), (';', ':'), ('Iron', 'NNP'), ('Man', 'NNP'), ('2,&rdquo', 'CD'), (';', ':'), ('which', 'WDT'), ('recently', 'RB'), ('came', 'VBD'), ('under', 'IN'), ('the', 'DT'), ('company&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('ownership', 'VBP'), ('after', 'IN'), ('it', 'PRP'), ('bought', 'VBD'), ('Marvel', 'NNP'), ('Entertainment', 'NNP'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   ,/,   he/PRP   said/VBD   ,/,   is/VBZ   looking/VBG   forward/RB   to/TO   strong/JJ   performances/NNS   from/IN   (GPE &ldquo/NNP)   ;/:   (PERSON Toy/NNP)   Story/NNP   3&rdquo/CD   ;/:   and/CC   (GPE &ldquo/NNP)   ;/:   (PERSON Iron/NNP Man/NNP)   2,&rdquo/CD   ;/:   which/WDT   recently/RB   came/VBD   under/IN   the/DT   company&rsquo/NNP   ;/:   s/NNS   ownership/VBP   after/IN   it/PRP   bought/VBD   (PERSON Marvel/NNP Entertainment/NNP)   in/IN   2009/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB is/VBZ looking/VBG forward/RB)
+	(VERB came/VBD under/IN the/DT company&rsquo/NNP)
+	(VERB ownership/VBP after/IN it/PRP)
+	(VERB bought/VBD Marvel/NNP Entertainment/NNP in/IN 2009/CD)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN strong/JJ performances/NNS)
+
+tagged sentence:
+	 strong performances	res:1
+	(NOUN &ldquo/NNP)
+	(NOUN Toy/NNP Story/NNP)
+	(NOUN &ldquo/NNP)
+	(NOUN Iron/NNP Man/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+&ldquo;I&rsquo;m very impressed with the Disney management,&rdquo; said Jason Squire, a professor at the USC School of Cinematic Arts and former executive at 20th Century Fox.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('I&rsquo', 'NNP'), (';', ':'), ('m', 'NN'), ('very', 'RB'), ('impressed', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('management,&rdquo', 'NNP'), (';', ':'), ('said', 'VBD'), ('Jason', 'NNP'), ('Squire', 'NNP'), (',', ','), ('a', 'DT'), ('professor', 'NN'), ('at', 'IN'), ('the', 'DT'), ('USC', 'NNP'), ('School', 'NNP'), ('of', 'IN'), ('Cinematic', 'NNP'), ('Arts', 'NNP'), ('and', 'CC'), ('former', 'JJ'), ('executive', 'NN'), ('at', 'IN'), ('20th', 'CD'), ('Century', 'NNP'), ('Fox', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   I&rsquo/NNP   ;/:   m/NN   very/RB   impressed/VBN   with/IN   the/DT   (ORGANIZATION Disney/NNP)   management,&rdquo/NNP   ;/:   said/VBD   (PERSON Jason/NNP Squire/NNP)   ,/,   a/DT   professor/NN   at/IN   the/DT   (ORGANIZATION USC/NNP School/NNP)   of/IN   (ORGANIZATION Cinematic/NNP Arts/NNP)   and/CC   former/JJ   executive/NN   at/IN   20th/CD   (ORGANIZATION Century/NNP Fox/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB impressed/VBN with/IN the/DT Disney/NNP management,&rdquo/NNP)
+
+tagged sentence:
+	 impressed with the Disney management,&rdquo	res:1
+	(VERB said/VBD Jason/NNP Squire/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN I&rsquo/NNP)
+	(NOUN m/NN)
+	(NOUN professor/NN)
+	(NOUN USC/NNP School/NNP)
+	(NOUN Cinematic/NNP Arts/NNP)
+	(NOUN former/JJ executive/NN)
+	(NOUN 20th/CD Century/NNP Fox/NNP)
+
+----------------------------------
+original sentence: 
+&ldquo;I think Bob Iger is really ahead of the game, and I have every confidence that his overall slate of theatrical, plus everything else that Disney is involved in, is going to generate strong returns.&rdquo;
+Still, Disney executives decided that new investments would be key in helping the studio grow, Iger said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('I', 'PRP'), ('think', 'VBP'), ('Bob', 'NNP'), ('Iger', 'NNP'), ('is', 'VBZ'), ('really', 'RB'), ('ahead', 'RB'), ('of', 'IN'), ('the', 'DT'), ('game', 'NN'), (',', ','), ('and', 'CC'), ('I', 'PRP'), ('have', 'VBP'), ('every', 'DT'), ('confidence', 'NN'), ('that', 'IN'), ('his', 'PRP$'), ('overall', 'JJ'), ('slate', 'NN'), ('of', 'IN'), ('theatrical', 'JJ'), (',', ','), ('plus', 'CC'), ('everything', 'NN'), ('else', 'RB'), ('that', 'IN'), ('Disney', 'NNP'), ('is', 'VBZ'), ('involved', 'VBN'), ('in', 'IN'), (',', ','), ('is', 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('generate', 'VB'), ('strong', 'JJ'), ('returns.&rdquo', 'JJ'), (';', ':'), ('Still', 'NNP'), (',', ','), ('Disney', 'NNP'), ('executives', 'NNS'), ('decided', 'VBD'), ('that', 'IN'), ('new', 'JJ'), ('investments', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('key', 'JJ'), ('in', 'IN'), ('helping', 'NN'), ('the', 'DT'), ('studio', 'NN'), ('grow', 'NN'), (',', ','), ('Iger', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   I/PRP   think/VBP   (PERSON Bob/NNP Iger/NNP)   is/VBZ   really/RB   ahead/RB   of/IN   the/DT   game/NN   ,/,   and/CC   I/PRP   have/VBP   every/DT   confidence/NN   that/IN   his/PRP$   overall/JJ   slate/NN   of/IN   theatrical/JJ   ,/,   plus/CC   everything/NN   else/RB   that/IN   (PERSON Disney/NNP)   is/VBZ   involved/VBN   in/IN   ,/,   is/VBZ   going/VBG   to/TO   generate/VB   strong/JJ   returns.&rdquo/JJ   ;/:   Still/NNP   ,/,   (GPE Disney/NNP)   executives/NNS   decided/VBD   that/IN   new/JJ   investments/NNS   would/MD   be/VB   key/JJ   in/IN   helping/NN   the/DT   studio/NN   grow/NN   ,/,   (PERSON Iger/NNP)   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB think/VBP Bob/NNP Iger/NNP)
+	(VERB is/VBZ really/RB ahead/RB of/IN the/DT game/NN)
+
+tagged sentence:
+	 is really ahead of the game	res:1
+	(VERB   have/VBP   every/DT   confidence/NN   that/IN   his/PRP$   overall/JJ   slate/NN   of/IN   theatrical/JJ)
+	(VERB is/VBZ involved/VBN in/IN)
+	(VERB is/VBZ going/VBG)
+	(VERB generate/VB strong/JJ returns.&rdquo/JJ)
+
+tagged sentence:
+	 generate strong returns.&rdquo	res:1
+	(VERB decided/VBD that/IN new/JJ investments/NNS)
+	(VERB be/VB key/JJ in/IN helping/NN the/DT studio/NN grow/NN)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN everything/NN)
+	(NOUN Disney/NNP)
+	(NOUN Still/NNP)
+	(NOUN Disney/NNP executives/NNS)
+	(NOUN Iger/NNP)
+
+----------------------------------
+original sentence: 
+The company&rsquo;s $4 billion acquisition of Marvel was a major part of that effort, giving the studio an extensive archive of potential projects that could become major revenue generators, experts said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('$', '$'), ('4', 'CD'), ('billion', 'CD'), ('acquisition', 'NN'), ('of', 'IN'), ('Marvel', 'NNP'), ('was', 'VBD'), ('a', 'DT'), ('major', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('that', 'DT'), ('effort', 'NN'), (',', ','), ('giving', 'VBG'), ('the', 'DT'), ('studio', 'NN'), ('an', 'DT'), ('extensive', 'JJ'), ('archive', 'JJ'), ('of', 'IN'), ('potential', 'JJ'), ('projects', 'NNS'), ('that', 'WDT'), ('could', 'MD'), ('become', 'VB'), ('major', 'JJ'), ('revenue', 'NN'), ('generators', 'NNS'), (',', ','), ('experts', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company&rsquo/NNP   ;/:   s/NNS   $/$   4/CD   billion/CD   acquisition/NN   of/IN   (PERSON Marvel/NNP)   was/VBD   a/DT   major/JJ   part/NN   of/IN   that/DT   effort/NN   ,/,   giving/VBG   the/DT   studio/NN   an/DT   extensive/JJ   archive/JJ   of/IN   potential/JJ   projects/NNS   that/WDT   could/MD   become/VB   major/JJ   revenue/NN   generators/NNS   ,/,   experts/NNS   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&ldquo;You have a very successful movie in &lsquo;The Proposal,&rsquo; but it didn&rsquo;t really call for a sequel,&rdquo; Kyser said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('You', 'PRP'), ('have', 'VBP'), ('a', 'DT'), ('very', 'RB'), ('successful', 'JJ'), ('movie', 'NN'), ('in', 'IN'), ('&lsquo', 'NNP'), (';', ':'), ('The', 'NNP'), ('Proposal,&rsquo', 'NNP'), (';', ':'), ('but', 'CC'), ('it', 'PRP'), ('didn&rsquo', '-NONE-'), (';', ':'), ('t', 'NN'), ('really', 'RB'), ('call', 'JJ'), ('for', 'IN'), ('a', 'DT'), ('sequel,&rdquo', 'JJ'), (';', ':'), ('Kyser', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   You/PRP   have/VBP   a/DT   very/RB   successful/JJ   movie/NN   in/IN   (GPE &lsquo/NNP)   ;/:   The/NNP   Proposal,&rsquo/NNP   ;/:   but/CC   it/PRP   didn&rsquo/-NONE-   ;/:   t/NN   really/RB   call/JJ   for/IN   a/DT   sequel,&rdquo/JJ   ;/:   (PERSON Kyser/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&ldquo;It doesn&rsquo;t really offer opportunities for merchandise or rides at the theme park, so what they&rsquo;re trying to do is come up with films that they can sell across all of their divisions.&rdquo;
+The strong slate of upcoming potential money making ventures, including a fourth installment of the &ldquo;Pirates of the Caribbean&rdquo; due out in 2011, sparked optimism about possible job growth after a year of uncertainty in the heavily rooted local entertainment industry, experts said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('It', 'PRP'), ('doesn&rsquo', '-NONE-'), (';', ':'), ('t', 'NN'), ('really', 'RB'), ('offer', 'VBP'), ('opportunities', 'NNS'), ('for', 'IN'), ('merchandise', 'NN'), ('or', 'CC'), ('rides', 'VBZ'), ('at', 'IN'), ('the', 'DT'), ('theme', 'NN'), ('park', 'NN'), (',', ','), ('so', 'RB'), ('what', 'WP'), ('they&rsquo', '-NONE-'), (';', ':'), ('re', 'NN'), ('trying', 'VBG'), ('to', 'TO'), ('do', 'VB'), ('is', 'VBZ'), ('come', 'VBN'), ('up', 'RP'), ('with', 'IN'), ('films', 'NNS'), ('that', 'IN'), ('they', 'PRP'), ('can', 'MD'), ('sell', 'VB'), ('across', 'RP'), ('all', 'DT'), ('of', 'IN'), ('their', 'PRP$'), ('divisions.&rdquo', 'JJ'), (';', ':'), ('The', 'DT'), ('strong', 'JJ'), ('slate', 'NN'), ('of', 'IN'), ('upcoming', 'NN'), ('potential', 'NN'), ('money', 'NN'), ('making', 'VBG'), ('ventures', 'NNS'), (',', ','), ('including', 'VBG'), ('a', 'DT'), ('fourth', 'JJ'), ('installment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('&ldquo', 'NNP'), (';', ':'), ('Pirates', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Caribbean&rdquo', 'NNP'), (';', ':'), ('due', 'JJ'), ('out', 'IN'), ('in', 'IN'), ('2011', 'CD'), (',', ','), ('sparked', 'VBD'), ('optimism', 'NN'), ('about', 'IN'), ('possible', 'JJ'), ('job', 'NN'), ('growth', 'NN'), ('after', 'IN'), ('a', 'DT'), ('year', 'NN'), ('of', 'IN'), ('uncertainty', 'NN'), ('in', 'IN'), ('the', 'DT'), ('heavily', 'NN'), ('rooted', 'VBD'), ('local', 'JJ'), ('entertainment', 'NN'), ('industry', 'NN'), (',', ','), ('experts', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   It/PRP   doesn&rsquo/-NONE-   ;/:   t/NN   really/RB   offer/VBP   opportunities/NNS   for/IN   merchandise/NN   or/CC   rides/VBZ   at/IN   the/DT   theme/NN   park/NN   ,/,   so/RB   what/WP   they&rsquo/-NONE-   ;/:   re/NN   trying/VBG   to/TO   do/VB   is/VBZ   come/VBN   up/RP   with/IN   films/NNS   that/IN   they/PRP   can/MD   sell/VB   across/RP   all/DT   of/IN   their/PRP$   divisions.&rdquo/JJ   ;/:   The/DT   strong/JJ   slate/NN   of/IN   upcoming/NN   potential/NN   money/NN   making/VBG   ventures/NNS   ,/,   including/VBG   a/DT   fourth/JJ   installment/NN   of/IN   the/DT   &ldquo/NNP   ;/:   Pirates/NNP   of/IN   the/DT   Caribbean&rdquo/NNP   ;/:   due/JJ   out/IN   in/IN   2011/CD   ,/,   sparked/VBD   optimism/NN   about/IN   possible/JJ   job/NN   growth/NN   after/IN   a/DT   year/NN   of/IN   uncertainty/NN   in/IN   the/DT   heavily/NN   rooted/VBD   local/JJ   entertainment/NN   industry/NN   ,/,   experts/NNS   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Unemployment rises locally
+Current Rating: 0 of 0 votes!
+
+POS tagged sentence: 
+[('Unemployment', 'NN'), ('rises', 'NNS'), ('locally', 'RB'), ('Current', 'JJ'), ('Rating', 'NNP'), (':', ':'), ('0', '-NONE-'), ('of', 'IN'), ('0', '-NONE-'), ('votes', 'VBZ'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Unemployment/NN   rises/NNS   locally/RB   (ORGANIZATION Current/JJ)   Rating/NNP   :/:   0/-NONE-   of/IN   0/-NONE-   votes/VBZ   !/.)
+----------------------------------
+original sentence: 
+Rate File:  The following are comments from the readers.
+
+POS tagged sentence: 
+[('Rate', 'NNP'), ('File', 'NNP'), (':', ':'), ('The', 'DT'), ('following', 'VBG'), ('are', 'VBP'), ('comments', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('readers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Rate/NNP   File/NNP   :/:   The/DT   following/VBG   are/VBP   comments/NNS   from/IN   the/DT   readers/NNS   ./.)
+----------------------------------
+original sentence: 
+In no way do they represent the view of burbankleader.com.
+
+POS tagged sentence: 
+[('In', 'IN'), ('no', 'DT'), ('way', 'NN'), ('do', 'VBP'), ('they', 'PRP'), ('represent', 'VBP'), ('the', 'DT'), ('view', 'NN'), ('of', 'IN'), ('burbankleader.com', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   no/DT   way/NN   do/VBP   they/PRP   represent/VBP   the/DT   view/NN   of/IN   burbankleader.com/NNP   ./.)
+----------------------------------
+original sentence: 
+We encourage your feedback and dialog, all comments will be reviewed by our Web staff before appearing on the Web site.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('encourage', 'VBP'), ('your', 'PRP$'), ('feedback', 'NN'), ('and', 'CC'), ('dialog', 'NN'), (',', ','), ('all', 'DT'), ('comments', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('reviewed', 'VBN'), ('by', 'IN'), ('our', 'PRP$'), ('Web', 'NNP'), ('staff', 'NN'), ('before', 'IN'), ('appearing', 'VBG'), ('on', 'IN'), ('the', 'DT'), ('Web', 'NNP'), ('site', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   encourage/VBP   your/PRP$   feedback/NN   and/CC   dialog/NN   ,/,   all/DT   comments/NNS   will/MD   be/VB   reviewed/VBN   by/IN   our/PRP$   Web/NNP   staff/NN   before/IN   appearing/VBG   on/IN   the/DT   Web/NNP   site/NN   ./.)
+----------------------------------
+original sentence: 
+Forgot Your Password?
+
+POS tagged sentence: 
+[('Forgot', 'NNP'), ('Your', 'PRP$'), ('Password', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Forgot/NNP Your/PRP$ Password/NNP ?/.)
+----------------------------------
+original sentence: 
+Not registered yet?
+
+POS tagged sentence: 
+[('Not', 'RB'), ('registered', 'VBN'), ('yet', 'RB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Not/RB registered/VBN yet/RB ?/.)
+----------------------------------
+original sentence: 
+Do not use usernames or passwords from your financial accounts!
+
+POS tagged sentence: 
+[('Do', 'NNP'), ('not', 'RB'), ('use', 'VB'), ('usernames', 'NNS'), ('or', 'CC'), ('passwords', 'NNS'), ('from', 'IN'), ('your', 'PRP$'), ('financial', 'JJ'), ('accounts', 'NNS'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Do/NNP   not/RB   use/VB   usernames/NNS   or/CC   passwords/NNS   from/IN   your/PRP$   financial/JJ   accounts/NNS   !/.)
+----------------------------------
+original sentence: 
+Note: Fields marked with an asterisk * are required!
+
+POS tagged sentence: 
+[('Note', 'VB'), (':', ':'), ('Fields', 'NNS'), ('marked', 'VBD'), ('with', 'IN'), ('an', 'DT'), ('asterisk', 'NN'), ('*', '-NONE-'), ('are', 'VBP'), ('required', 'VBN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Note/VB   :/:   (PERSON Fields/NNS)   marked/VBD   with/IN   an/DT   asterisk/NN   */-NONE-   are/VBP   required/VBN   !/.)
+----------------------------------
+original sentence: 
+*Create a Member ID:
+ children under 13 cannot register  events today.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Create', 'VB'), ('a', 'DT'), ('Member', 'NNP'), ('ID', 'NNP'), (':', ':'), ('children', 'NNS'), ('under', 'IN'), ('13', 'CD'), ('can', 'MD'), ('not', 'RB'), ('register', 'VB'), ('events', 'NNS'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Create/VB   a/DT   Member/NNP   ID/NNP   :/:   children/NNS   under/IN   13/CD   can/MD   not/RB   register/VB   events/NNS   today/NN   ./.)
+----------------------------------
+original sentence: 
+April 23rd, 2010 to April 29th, 2010
+
+Valley Porcelain Artists
+Full Details &raquo;
+Burbank Sister City Third Annual Bike a Thon
+Full Details &raquo;
+Kick a Thon to benefit St. Jude Children's Hospital
+Full Details &raquo;
+Judge throws out battery charge in airport applesauce case Luck worsens for renters Trial over airport applesauce tussel moved to Pasadena The following were taken from daily booking reports at the Burbank Police Department.
+
+POS tagged sentence: 
+[('April', 'NNP'), ('23rd', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('April', 'NNP'), ('29th', 'CD'), (',', ','), ('2010', 'CD'), ('Valley', 'NNP'), ('Porcelain', 'NNP'), ('Artists', 'NNP'), ('Full', 'NNP'), ('Details', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Burbank', 'NNP'), ('Sister', 'NNP'), ('City', 'NNP'), ('Third', 'NNP'), ('Annual', 'NNP'), ('Bike', 'NNP'), ('a', 'DT'), ('Thon', 'NNP'), ('Full', 'NNP'), ('Details', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Kick', 'NNP'), ('a', 'DT'), ('Thon', 'NNP'), ('to', 'TO'), ('benefit', 'VB'), ('St.', 'NNP'), ('Jude', 'NNP'), ('Children', 'NNP'), ("'s", 'POS'), ('Hospital', 'NNP'), ('Full', 'NNP'), ('Details', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Judge', 'NNP'), ('throws', 'VBZ'), ('out', 'RP'), ('battery', 'NN'), ('charge', 'NN'), ('in', 'IN'), ('airport', 'NN'), ('applesauce', 'NN'), ('case', 'NN'), ('Luck', 'NNP'), ('worsens', 'VBZ'), ('for', 'IN'), ('renters', 'NNS'), ('Trial', 'JJ'), ('over', 'IN'), ('airport', 'NN'), ('applesauce', 'NN'), ('tussel', 'NN'), ('moved', 'VBD'), ('to', 'TO'), ('Pasadena', 'NNP'), ('The', 'DT'), ('following', 'VBG'), ('were', 'VBD'), ('taken', 'VBN'), ('from', 'IN'), ('daily', 'JJ'), ('booking', 'NN'), ('reports', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('Burbank', 'NNP'), ('Police', 'NNP'), ('Department', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   April/NNP   23rd/CD   ,/,   2010/CD   to/TO   April/NNP   29th/CD   ,/,   2010/CD   (PERSON Valley/NNP Porcelain/NNP Artists/NNP Full/NNP Details/NNP)   &raquo/NNP   ;/:   (PERSON Burbank/NNP Sister/NNP City/NNP Third/NNP Annual/NNP)   Bike/NNP   a/DT   Thon/NNP   Full/NNP   Details/NNP   &raquo/NNP   ;/:   Kick/NNP   a/DT   Thon/NNP   to/TO   benefit/VB   (PERSON St./NNP Jude/NNP Children/NNP)   's/POS   (ORGANIZATION Hospital/NNP Full/NNP Details/NNP)   &raquo/NNP   ;/:   Judge/NNP   throws/VBZ   out/RP   battery/NN   charge/NN   in/IN   airport/NN   applesauce/NN   case/NN   (PERSON Luck/NNP)   worsens/VBZ   for/IN   renters/NNS   Trial/JJ   over/IN   airport/NN   applesauce/NN   tussel/NN   moved/VBD   to/TO   Pasadena/NNP   The/DT   following/VBG   were/VBD   taken/VBN   from/IN   daily/JJ   booking/NN   reports/NNS   at/IN   the/DT   (ORGANIZATION Burbank/NNP)   Police/NNP   Department/NNP   ./.)
+----------------------------------
+original sentence: 
+Luck worsens for renters Judge throws out battery charge in airport applesauce case Three Burbank schools get top honors Man makes signs of the times Web of representation Business Directory &rsaquo; Find a business near you
+Copyright &copy; 2010 Burbank Leader Local Criminal Defense Attorney
+Los Angeles Criminal Lawyer
+Los Angeles Criminal Defense Lawyer
+Orange County Criminal Attorney Orange County Criminal Lawyer
+Orange County DUI Attorney
+Los Angeles Bench Warrant Attorney
+ | California Medical Malpractice Attorney Los Angeles Criminal Defense Attorney
+
+
+POS tagged sentence: 
+[('Luck', 'NNP'), ('worsens', 'VBZ'), ('for', 'IN'), ('renters', 'NNS'), ('Judge', 'NNP'), ('throws', 'VBZ'), ('out', 'RP'), ('battery', 'NN'), ('charge', 'NN'), ('in', 'IN'), ('airport', 'NN'), ('applesauce', 'NN'), ('case', 'NN'), ('Three', 'CD'), ('Burbank', 'NNP'), ('schools', 'NNS'), ('get', 'VBP'), ('top', 'JJ'), ('honors', 'NNS'), ('Man', 'NNP'), ('makes', 'VBZ'), ('signs', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('times', 'NNS'), ('Web', 'NNP'), ('of', 'IN'), ('representation', 'NN'), ('Business', 'NN'), ('Directory', 'NNP'), ('&rsaquo', 'NNP'), (';', ':'), ('Find', 'NNP'), ('a', 'DT'), ('business', 'NN'), ('near', 'IN'), ('you', 'PRP'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), ('Burbank', 'NNP'), ('Leader', 'NNP'), ('Local', 'NNP'), ('Criminal', 'NNP'), ('Defense', 'NNP'), ('Attorney', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Criminal', 'NNP'), ('Lawyer', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Criminal', 'NNP'), ('Defense', 'NNP'), ('Lawyer', 'NNP'), ('Orange', 'NNP'), ('County', 'NNP'), ('Criminal', 'NNP'), ('Attorney', 'NNP'), ('Orange', 'NNP'), ('County', 'NNP'), ('Criminal', 'NNP'), ('Lawyer', 'NNP'), ('Orange', 'NNP'), ('County', 'NNP'), ('DUI', 'NNP'), ('Attorney', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Bench', 'NNP'), ('Warrant', 'NNP'), ('Attorney', 'NNP'), ('|', 'NNP'), ('California', 'NNP'), ('Medical', 'NNP'), ('Malpractice', 'NNP'), ('Attorney', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Criminal', 'NNP'), ('Defense', 'NNP'), ('Attorney', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Luck/NNP)   worsens/VBZ   for/IN   renters/NNS   Judge/NNP   throws/VBZ   out/RP   battery/NN   charge/NN   in/IN   airport/NN   applesauce/NN   case/NN   Three/CD   (GPE Burbank/NNP)   schools/NNS   get/VBP   top/JJ   honors/NNS   (PERSON Man/NNP)   makes/VBZ   signs/NNS   of/IN   the/DT   times/NNS   Web/NNP   of/IN   representation/NN   (ORGANIZATION Business/NN Directory/NNP)   &rsaquo/NNP   ;/:   Find/NNP   a/DT   business/NN   near/IN   you/PRP   (PERSON Copyright/NNP &copy/NNP)   ;/:   2010/CD   (ORGANIZATION Burbank/NNP)   Leader/NNP   (PERSON Local/NNP Criminal/NNP Defense/NNP)   Attorney/NNP   (GPE Los/NNP Angeles/NNP)   Criminal/NNP   Lawyer/NNP   (GPE Los/NNP Angeles/NNP)   Criminal/NNP   Defense/NNP   Lawyer/NNP   (PERSON Orange/NNP County/NNP)   Criminal/NNP   Attorney/NNP   (PERSON     Orange/NNP     County/NNP     Criminal/NNP     Lawyer/NNP     Orange/NNP     County/NNP)   DUI/NNP   Attorney/NNP   (GPE Los/NNP Angeles/NNP)   (PERSON Bench/NNP Warrant/NNP)   Attorney/NNP   |/NNP   California/NNP   Medical/NNP   Malpractice/NNP   Attorney/NNP   (GPE Los/NNP Angeles/NNP)   Criminal/NNP   Defense/NNP   Attorney/NNP)
+
+veryneg:0	neg:0	pos:7	verypos:0	total:1

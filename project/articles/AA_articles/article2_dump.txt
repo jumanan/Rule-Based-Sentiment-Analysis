@@ -1,0 +1,601 @@
+
+----------------------------------
+original sentence: 
+Kleinfeld, Alcoa, Recognized for Service Leadership | Business Wire
+ April 09, 2010 10:41 AM Eastern Daylight Time Kleinfeld, Alcoa, Recognized for Service Leadership
+ Alcoa NYSE:AA President and Chief Executive Officer, Klaus Kleinfeld, was last night honored for his personal commitment to national service, receiving the 2010 Ripples of Hope Award from City Year New York.
+
+POS tagged sentence: 
+[('Kleinfeld', 'NNP'), (',', ','), ('Alcoa', 'NNP'), (',', ','), ('Recognized', 'NNP'), ('for', 'IN'), ('Service', 'NNP'), ('Leadership', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('April', 'NNP'), ('09', 'CD'), (',', ','), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('41', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Kleinfeld', 'NNP'), (',', ','), ('Alcoa', 'NNP'), (',', ','), ('Recognized', 'NNP'), ('for', 'IN'), ('Service', 'NNP'), ('Leadership', 'NNP'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('President', 'NNP'), ('and', 'CC'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Officer', 'NNP'), (',', ','), ('Klaus', 'NNP'), ('Kleinfeld', 'NNP'), (',', ','), ('was', 'VBD'), ('last', 'JJ'), ('night', 'NN'), ('honored', 'VBD'), ('for', 'IN'), ('his', 'PRP$'), ('personal', 'JJ'), ('commitment', 'NN'), ('to', 'TO'), ('national', 'JJ'), ('service', 'NN'), (',', ','), ('receiving', 'VBG'), ('the', 'DT'), ('2010', 'CD'), ('Ripples', 'NNP'), ('of', 'IN'), ('Hope', 'NNP'), ('Award', 'NNP'), ('from', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Kleinfeld/NNP)   ,/,   (PERSON Alcoa/NNP)   ,/,   (ORGANIZATION Recognized/NNP)   for/IN   (ORGANIZATION Service/NNP Leadership/NNP)   |/NNP   Business/NNP   Wire/NNP   April/NNP   09/CD   ,/,   2010/CD   10/CD   :/:   41/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Kleinfeld/NNP   ,/,   (PERSON Alcoa/NNP)   ,/,   (ORGANIZATION Recognized/NNP)   for/IN   (ORGANIZATION Service/NNP Leadership/NNP Alcoa/NNP)   NYSE/NNP   :/:   AA/NNP   President/NNP   and/CC   Chief/NNP   Executive/NNP   Officer/NNP   ,/,   (PERSON Klaus/NNP Kleinfeld/NNP)   ,/,   was/VBD   last/JJ   night/NN   honored/VBD   for/IN   his/PRP$   personal/JJ   commitment/NN   to/TO   national/JJ   service/NN   ,/,   receiving/VBG   the/DT   2010/CD   Ripples/NNP   of/IN   (PERSON Hope/NNP Award/NNP)   from/IN   (FACILITY City/NNP Year/NNP New/NNP York/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD last/JJ night/NN)
+	(VERB honored/VBD for/IN his/PRP$ personal/JJ commitment/NN)
+	(VERB   receiving/VBG   the/DT   2010/CD   Ripples/NNP   of/IN   Hope/NNP   Award/NNP   from/IN   City/NNP   Year/NNP   New/NNP   York/NNP)
+noun phrases to consider:
+	(NOUN Kleinfeld/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Recognized/NNP)
+	(NOUN Service/NNP Leadership/NNP |/NNP Business/NNP)
+
+tagged sentence:
+	 Service Leadership | Business	res:1
+	(NOUN Wire/NNP April/NNP)
+	(NOUN 41/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Kleinfeld/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Recognized/NNP)
+	(NOUN Service/NNP Leadership/NNP Alcoa/NNP NYSE/NNP)
+
+tagged sentence:
+	 Service Leadership Alcoa NYSE	res:1
+	(NOUN AA/NNP President/NNP)
+	(NOUN Chief/NNP Executive/NNP Officer/NNP)
+	(NOUN Klaus/NNP Kleinfeld/NNP)
+	(NOUN national/JJ service/NN)
+
+----------------------------------
+original sentence: 
+&#8220;Alcoa‚Äôs commitment to New York City, to the education of its young students, and to the idea that young people, through a year of full time service, can tackle our nation‚Äôs greatest challenges is inspiring.&#8221;
+ The Award recognizes Kleinfeld for his passion and dedication to community service and his commitment to building a positive future for all young people.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('commitment', 'NN'), ('to', 'TO'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), (',', ','), ('to', 'TO'), ('the', 'DT'), ('education', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('young', 'JJ'), ('students', 'NNS'), (',', ','), ('and', 'CC'), ('to', 'TO'), ('the', 'DT'), ('idea', 'NN'), ('that', 'IN'), ('young', 'JJ'), ('people', 'NNS'), (',', ','), ('through', 'IN'), ('a', 'DT'), ('year', 'NN'), ('of', 'IN'), ('full', 'JJ'), ('time', 'NN'), ('service', 'NN'), (',', ','), ('can', 'MD'), ('tackle', 'VB'), ('our', 'PRP$'), ('nation', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('greatest', 'JJS'), ('challenges', 'NNS'), ('is', 'VBZ'), ('inspiring.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('The', 'DT'), ('Award', 'NNP'), ('recognizes', 'VBZ'), ('Kleinfeld', 'NNP'), ('for', 'IN'), ('his', 'PRP$'), ('passion', 'NN'), ('and', 'CC'), ('dedication', 'NN'), ('to', 'TO'), ('community', 'NN'), ('service', 'NN'), ('and', 'CC'), ('his', 'PRP$'), ('commitment', 'NN'), ('to', 'TO'), ('building', 'NN'), ('a', 'DT'), ('positive', 'JJ'), ('future', 'JJ'), ('for', 'IN'), ('all', 'DT'), ('young', 'JJ'), ('people', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (GPE Alcoa/NNP)   ‚/:   Ä/:   ô/:   s/NNS   commitment/NN   to/TO   (GPE New/NNP York/NNP City/NNP)   ,/,   to/TO   the/DT   education/NN   of/IN   its/PRP$   young/JJ   students/NNS   ,/,   and/CC   to/TO   the/DT   idea/NN   that/IN   young/JJ   people/NNS   ,/,   through/IN   a/DT   year/NN   of/IN   full/JJ   time/NN   service/NN   ,/,   can/MD   tackle/VB   our/PRP$   nation/NN   ‚/:   Ä/:   ô/:   s/NNS   greatest/JJS   challenges/NNS   is/VBZ   inspiring.&/JJ   #/#   8221/CD   ;/:   The/DT   (ORGANIZATION Award/NNP)   recognizes/VBZ   (PERSON Kleinfeld/NNP)   for/IN   his/PRP$   passion/NN   and/CC   dedication/NN   to/TO   community/NN   service/NN   and/CC   his/PRP$   commitment/NN   to/TO   building/NN   a/DT   positive/JJ   future/JJ   for/IN   all/DT   young/JJ   people/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB tackle/VB our/PRP$ nation/NN)
+	(VERB is/VBZ inspiring.&/JJ)
+	(VERB recognizes/VBZ Kleinfeld/NNP for/IN his/PRP$ passion/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS commitment/NN)
+	(NOUN New/NNP York/NNP City/NNP)
+	(NOUN education/NN)
+	(NOUN young/JJ students/NNS)
+	(NOUN idea/NN)
+	(NOUN young/JJ people/NNS)
+	(NOUN year/NN)
+	(NOUN full/JJ time/NN service/NN)
+	(NOUN s/NNS greatest/JJS challenges/NNS)
+	(NOUN Award/NNP)
+	(NOUN dedication/NN)
+	(NOUN community/NN service/NN)
+	(NOUN commitment/NN)
+	(NOUN building/NN)
+	(NOUN a/DT positive/JJ future/JJ)
+	(NOUN all/DT young/JJ people/NNS)
+
+----------------------------------
+original sentence: 
+Accepting the award at a gala New York ceremony in front of 500 corporate, community, and philanthropic leaders, including Mayor Michael Bloomberg, Kleinfeld paid homage to the Alcoa volunteers who each day give time and energy to make the world a better place.
+
+POS tagged sentence: 
+[('Accepting', 'VBG'), ('the', 'DT'), ('award', 'NN'), ('at', 'IN'), ('a', 'DT'), ('gala', 'NN'), ('New', 'NNP'), ('York', 'NNP'), ('ceremony', 'NN'), ('in', 'IN'), ('front', 'NN'), ('of', 'IN'), ('500', 'CD'), ('corporate', 'JJ'), (',', ','), ('community', 'NN'), (',', ','), ('and', 'CC'), ('philanthropic', 'JJ'), ('leaders', 'NNS'), (',', ','), ('including', 'VBG'), ('Mayor', 'NNP'), ('Michael', 'NNP'), ('Bloomberg', 'NNP'), (',', ','), ('Kleinfeld', 'NNP'), ('paid', 'VBD'), ('homage', 'NN'), ('to', 'TO'), ('the', 'DT'), ('Alcoa', 'NNP'), ('volunteers', 'NNS'), ('who', 'WP'), ('each', 'DT'), ('day', 'NN'), ('give', 'VBP'), ('time', 'NN'), ('and', 'CC'), ('energy', 'NN'), ('to', 'TO'), ('make', 'VB'), ('the', 'DT'), ('world', 'NN'), ('a', 'DT'), ('better', 'JJR'), ('place', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Accepting/VBG   the/DT   award/NN   at/IN   a/DT   gala/NN   (GPE New/NNP York/NNP)   ceremony/NN   in/IN   front/NN   of/IN   500/CD   corporate/JJ   ,/,   community/NN   ,/,   and/CC   philanthropic/JJ   leaders/NNS   ,/,   including/VBG   (PERSON Mayor/NNP Michael/NNP Bloomberg/NNP)   ,/,   (PERSON Kleinfeld/NNP)   paid/VBD   homage/NN   to/TO   the/DT   (ORGANIZATION Alcoa/NNP)   volunteers/NNS   who/WP   each/DT   day/NN   give/VBP   time/NN   and/CC   energy/NN   to/TO   make/VB   the/DT   world/NN   a/DT   better/JJR   place/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   Accepting/VBG   the/DT   award/NN   at/IN   a/DT   gala/NN   New/NNP   York/NNP   ceremony/NN   in/IN   front/NN   of/IN   500/CD   corporate/JJ)
+	(VERB including/VBG Mayor/NNP Michael/NNP Bloomberg/NNP)
+	(VERB paid/VBD homage/NN)
+	(VERB give/VBP time/NN)
+	(VERB make/VB the/DT world/NN a/DT better/JJR place/NN)
+
+tagged sentence:
+	 make the world a better place	res:1
+noun phrases to consider:
+	(NOUN community/NN)
+	(NOUN philanthropic/JJ leaders/NNS)
+	(NOUN Kleinfeld/NNP)
+	(NOUN Alcoa/NNP volunteers/NNS)
+	(NOUN day/NN)
+	(NOUN energy/NN)
+
+----------------------------------
+original sentence: 
+‚ÄúThis award from City Year belongs to all of the Alcoa employees who volunteer alongside City Year Corps members at PS 48 and at The Point Community Center in the South Bronx,‚Äù said Mr Kleinfeld.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('This', 'DT'), ('award', 'NN'), ('from', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('belongs', 'VBZ'), ('to', 'TO'), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('Alcoa', 'NNP'), ('employees', 'NNS'), ('who', 'WP'), ('volunteer', 'NN'), ('alongside', 'VBP'), ('City', 'NNP'), ('Year', 'NNP'), ('Corps', 'NNP'), ('members', 'NNS'), ('at', 'IN'), ('PS', 'NNP'), ('48', 'CD'), ('and', 'CC'), ('at', 'IN'), ('The', 'DT'), ('Point', 'NNP'), ('Community', 'NNP'), ('Center', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('South', 'NNP'), ('Bronx', 'NNP'), (',', ','), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('said', 'VBD'), ('Mr', 'NNP'), ('Kleinfeld', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   This/DT   award/NN   from/IN   (FACILITY City/NNP Year/NNP)   belongs/VBZ   to/TO   all/DT   of/IN   the/DT   (ORGANIZATION Alcoa/NNP)   employees/NNS   who/WP   volunteer/NN   alongside/VBP   (ORGANIZATION City/NNP Year/NNP Corps/NNP)   members/NNS   at/IN   (ORGANIZATION PS/NNP)   48/CD   and/CC   at/IN   (FACILITY The/DT Point/NNP Community/NNP Center/NNP)   in/IN   the/DT   (LOCATION South/NNP Bronx/NNP)   ,/,   ‚/NNP   Ä/NNP   ù/NNP   said/VBD   Mr/NNP   Kleinfeld/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB belongs/VBZ to/TO all/DT of/IN the/DT Alcoa/NNP employees/NNS)
+	(VERB   alongside/VBP   City/NNP   Year/NNP   Corps/NNP   members/NNS   at/IN   PS/NNP   48/CD)
+	(VERB said/VBD Mr/NNP Kleinfeld/NNP)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN award/NN)
+	(NOUN City/NNP Year/NNP)
+	(NOUN volunteer/NN)
+	(NOUN Point/NNP Community/NNP Center/NNP)
+	(NOUN South/NNP Bronx/NNP)
+	(NOUN ‚/NNP Ä/NNP ù/NNP)
+
+----------------------------------
+original sentence: 
+‚ÄúThe private sector has a responsibility to contribute to the communities where they operate; this has been an important Alcoa value for decades.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('The', 'DT'), ('private', 'JJ'), ('sector', 'NN'), ('has', 'VBZ'), ('a', 'DT'), ('responsibility', 'NN'), ('to', 'TO'), ('contribute', 'VB'), ('to', 'TO'), ('the', 'DT'), ('communities', 'NNS'), ('where', 'WRB'), ('they', 'PRP'), ('operate', 'VBP'), (';', ':'), ('this', 'DT'), ('has', 'VBZ'), ('been', 'VBN'), ('an', 'DT'), ('important', 'JJ'), ('Alcoa', 'NNP'), ('value', 'NN'), ('for', 'IN'), ('decades', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   The/DT   private/JJ   sector/NN   has/VBZ   a/DT   responsibility/NN   to/TO   contribute/VB   to/TO   the/DT   communities/NNS   where/WRB   they/PRP   operate/VBP   ;/:   this/DT   has/VBZ   been/VBN   an/DT   important/JJ   Alcoa/NNP   value/NN   for/IN   decades/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT responsibility/NN)
+	(VERB contribute/VB to/TO the/DT communities/NNS)
+	(VERB operate/VBP)
+	(VERB   has/VBZ   been/VBN   an/DT   important/JJ   Alcoa/NNP   value/NN   for/IN   decades/NNS)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN The/DT private/JJ sector/NN)
+
+----------------------------------
+original sentence: 
+Alcoa‚Äôs relationship with City Year New York allows us to live up to our values by partnering our employees with the talented and dedicated Corps Members to achieve lasting and positive change for New York City‚Äôs students.‚Äù unites young people for a year of full time service across the United States.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('relationship', 'NN'), ('with', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('allows', 'VBZ'), ('us', 'PRP'), ('to', 'TO'), ('live', 'VB'), ('up', 'RP'), ('to', 'TO'), ('our', 'PRP$'), ('values', 'NNS'), ('by', 'IN'), ('partnering', 'VBG'), ('our', 'PRP$'), ('employees', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('talented', 'VBN'), ('and', 'CC'), ('dedicated', 'VBN'), ('Corps', 'NNP'), ('Members', 'NNP'), ('to', 'TO'), ('achieve', 'VB'), ('lasting', 'JJ'), ('and', 'CC'), ('positive', 'JJ'), ('change', 'NN'), ('for', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('students.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('unites', 'VBZ'), ('young', 'JJ'), ('people', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('year', 'NN'), ('of', 'IN'), ('full', 'JJ'), ('time', 'NN'), ('service', 'NN'), ('across', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   ‚/:   Ä/:   ô/:   s/NNS   relationship/NN   with/IN   (ORGANIZATION City/NNP Year/NNP New/NNP York/NNP)   allows/VBZ   us/PRP   to/TO   live/VB   up/RP   to/TO   our/PRP$   values/NNS   by/IN   partnering/VBG   our/PRP$   employees/NNS   with/IN   the/DT   talented/VBN   and/CC   dedicated/VBN   (PERSON Corps/NNP Members/NNP)   to/TO   achieve/VB   lasting/JJ   and/CC   positive/JJ   change/NN   for/IN   (GPE New/NNP York/NNP City/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   students./NNP   ‚/NNP   Ä/NNP   ù/NNP   unites/VBZ   young/JJ   people/NNS   for/IN   a/DT   year/NN   of/IN   full/JJ   time/NN   service/NN   across/IN   the/DT   (GPE United/NNP States/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB allows/VBZ us/PRP)
+	(VERB live/VB)
+	(VERB partnering/VBG our/PRP$ employees/NNS with/IN the/DT)
+	(VERB talented/VBN)
+	(VERB dedicated/VBN Corps/NNP Members/NNP)
+	(VERB achieve/VB lasting/JJ)
+	(VERB s/VBZ students./NNP ‚/NNP Ä/NNP ù/NNP)
+	(VERB   unites/VBZ   young/JJ   people/NNS   for/IN   a/DT   year/NN   of/IN   full/JJ   time/NN   service/NN   across/IN   the/DT   United/NNP   States/NNPS)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS relationship/NN)
+	(NOUN City/NNP Year/NNP New/NNP York/NNP)
+	(NOUN values/NNS)
+	(NOUN positive/JJ change/NN)
+	(NOUN New/NNP York/NNP City/NNP ‚/NNP)
+	(NOUN Ä/NNP ô/NNP)
+
+----------------------------------
+original sentence: 
+They serve as tutors and mentors, running after school programs, and leading youth leadership programs.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('serve', 'VBP'), ('as', 'IN'), ('tutors', 'NNS'), ('and', 'CC'), ('mentors', 'NNS'), (',', ','), ('running', 'VBG'), ('after', 'IN'), ('school', 'NN'), ('programs', 'NNS'), (',', ','), ('and', 'CC'), ('leading', 'VBG'), ('youth', 'NN'), ('leadership', 'NN'), ('programs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   serve/VBP   as/IN   tutors/NNS   and/CC   mentors/NNS   ,/,   running/VBG   after/IN   school/NN   programs/NNS   ,/,   and/CC   leading/VBG   youth/NN   leadership/NN   programs/NNS   ./.)
+----------------------------------
+original sentence: 
+Since 2004, Alcoa Foundation funding of over $750,000 has made it possible for City Year Corp Members to make a difference in the lives of hundreds of children in the South Bronx, the poorest congressional district in the country.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('2004', 'CD'), (',', ','), ('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('funding', 'NN'), ('of', 'IN'), ('over', 'IN'), ('$', '$'), ('750,000', 'CD'), ('has', 'VBZ'), ('made', 'VBN'), ('it', 'PRP'), ('possible', 'JJ'), ('for', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('Corp', 'NNP'), ('Members', 'NNP'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('difference', 'NN'), ('in', 'IN'), ('the', 'DT'), ('lives', 'NNS'), ('of', 'IN'), ('hundreds', 'NNS'), ('of', 'IN'), ('children', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('South', 'NNP'), ('Bronx', 'NNP'), (',', ','), ('the', 'DT'), ('poorest', 'JJS'), ('congressional', 'JJ'), ('district', 'NN'), ('in', 'IN'), ('the', 'DT'), ('country', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   2004/CD   ,/,   (PERSON Alcoa/NNP Foundation/NNP)   funding/NN   of/IN   over/IN   $/$   750,000/CD   has/VBZ   made/VBN   it/PRP   possible/JJ   for/IN   (ORGANIZATION City/NNP Year/NNP Corp/NNP)   Members/NNP   to/TO   make/VB   a/DT   difference/NN   in/IN   the/DT   lives/NNS   of/IN   hundreds/NNS   of/IN   children/NNS   in/IN   the/DT   (LOCATION South/NNP Bronx/NNP)   ,/,   the/DT   poorest/JJS   congressional/JJ   district/NN   in/IN   the/DT   country/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   made/VBN   it/PRP   possible/JJ   for/IN   City/NNP   Year/NNP   Corp/NNP   Members/NNP)
+	(VERB   make/VB   a/DT   difference/NN   in/IN   the/DT   lives/NNS   of/IN   hundreds/NNS   of/IN   children/NNS   in/IN   the/DT   South/NNP   Bronx/NNP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Foundation/NNP funding/NN)
+	(NOUN the/DT poorest/JJS congressional/JJ district/NN)
+	(NOUN country/NN)
+
+----------------------------------
+original sentence: 
+The project has provided over 800 children with one on one literacy tutoring and provided a safe and welcoming after school learning space for over 200 students each day.
+
+POS tagged sentence: 
+[('The', 'DT'), ('project', 'NN'), ('has', 'VBZ'), ('provided', 'VBN'), ('over', 'IN'), ('800', 'CD'), ('children', 'NNS'), ('with', 'IN'), ('one', 'CD'), ('on', 'IN'), ('one', 'CD'), ('literacy', 'NN'), ('tutoring', 'NN'), ('and', 'CC'), ('provided', 'VBN'), ('a', 'DT'), ('safe', 'NN'), ('and', 'CC'), ('welcoming', 'VBG'), ('after', 'IN'), ('school', 'NN'), ('learning', 'VBG'), ('space', 'NN'), ('for', 'IN'), ('over', 'IN'), ('200', 'CD'), ('students', 'NNS'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   project/NN   has/VBZ   provided/VBN   over/IN   800/CD   children/NNS   with/IN   one/CD   on/IN   one/CD   literacy/NN   tutoring/NN   and/CC   provided/VBN   a/DT   safe/NN   and/CC   welcoming/VBG   after/IN   school/NN   learning/VBG   space/NN   for/IN   over/IN   200/CD   students/NNS   each/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Alcoa New York employees have been actively involved in the partnership since the beginning ‚Äì providing career counseling and mentoring to City Year volunteers, and working directly with children in the South Bronx to deliver environmental, health and safety education and improve school and after school facilities.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('employees', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('actively', 'RB'), ('involved', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('partnership', 'NN'), ('since', 'IN'), ('the', 'DT'), ('beginning', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x93', ':'), ('providing', 'VBG'), ('career', 'NN'), ('counseling', 'NN'), ('and', 'CC'), ('mentoring', 'VBG'), ('to', 'TO'), ('City', 'NNP'), ('Year', 'NNP'), ('volunteers', 'NNS'), (',', ','), ('and', 'CC'), ('working', 'VBG'), ('directly', 'RB'), ('with', 'IN'), ('children', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('South', 'NNP'), ('Bronx', 'NNP'), ('to', 'TO'), ('deliver', 'VB'), ('environmental', 'JJ'), (',', ','), ('health', 'NN'), ('and', 'CC'), ('safety', 'NN'), ('education', 'NN'), ('and', 'CC'), ('improve', 'VB'), ('school', 'NN'), ('and', 'CC'), ('after', 'IN'), ('school', 'NN'), ('facilities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (GPE New/NNP York/NNP)   employees/NNS   have/VBP   been/VBN   actively/RB   involved/VBN   in/IN   the/DT   partnership/NN   since/IN   the/DT   beginning/NN   ‚/:   Ä/:   ì/:   providing/VBG   career/NN   counseling/NN   and/CC   mentoring/VBG   to/TO   (FACILITY City/NNP Year/NNP)   volunteers/NNS   ,/,   and/CC   working/VBG   directly/RB   with/IN   children/NNS   in/IN   the/DT   (LOCATION South/NNP Bronx/NNP)   to/TO   deliver/VB   environmental/JJ   ,/,   health/NN   and/CC   safety/NN   education/NN   and/CC   improve/VB   school/NN   and/CC   after/IN   school/NN   facilities/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP been/VBN actively/RB)
+	(VERB   involved/VBN   in/IN   the/DT   partnership/NN   since/IN   the/DT   beginning/NN)
+	(VERB providing/VBG career/NN counseling/NN)
+	(VERB mentoring/VBG to/TO City/NNP Year/NNP volunteers/NNS)
+	(VERB   working/VBG   directly/RB   with/IN   children/NNS   in/IN   the/DT   South/NNP   Bronx/NNP)
+	(VERB deliver/VB environmental/JJ)
+	(VERB improve/VB school/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP New/NNP York/NNP employees/NNS)
+	(NOUN health/NN)
+	(NOUN safety/NN education/NN)
+	(NOUN school/NN facilities/NNS)
+
+----------------------------------
+original sentence: 
+In honoring Klaus, City Year New York Executive Director Itai Dinour told the crowd, ‚ÄúWe are excited to honor and celebrate Klaus Kleinfeld and our friends at Alcoa.
+
+POS tagged sentence: 
+[('In', 'IN'), ('honoring', 'NN'), ('Klaus', 'NNP'), (',', ','), ('City', 'NNP'), ('Year', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('Executive', 'NNP'), ('Director', 'NNP'), ('Itai', 'NNP'), ('Dinour', 'NNP'), ('told', 'VBD'), ('the', 'DT'), ('crowd', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('We', 'PRP'), ('are', 'VBP'), ('excited', 'VBN'), ('to', 'TO'), ('honor', 'VB'), ('and', 'CC'), ('celebrate', 'VB'), ('Klaus', 'NNP'), ('Kleinfeld', 'NNP'), ('and', 'CC'), ('our', 'PRP$'), ('friends', 'NNS'), ('at', 'IN'), ('Alcoa', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   honoring/NN   (PERSON Klaus/NNP)   ,/,   (ORGANIZATION City/NNP Year/NNP New/NNP York/NNP)   Executive/NNP   Director/NNP   (PERSON Itai/NNP Dinour/NNP)   told/VBD   the/DT   crowd/NN   ,/,   ‚/:   Ä/:   ú/:   We/PRP   are/VBP   excited/VBN   to/TO   honor/VB   and/CC   celebrate/VB   (PERSON Klaus/NNP Kleinfeld/NNP)   and/CC   our/PRP$   friends/NNS   at/IN   (ORGANIZATION Alcoa/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB told/VBD the/DT crowd/NN)
+	(VERB are/VBP excited/VBN)
+	(VERB honor/VB)
+	(VERB celebrate/VB Klaus/NNP Kleinfeld/NNP)
+noun phrases to consider:
+	(NOUN honoring/NN Klaus/NNP)
+	(NOUN City/NNP Year/NNP New/NNP York/NNP)
+	(NOUN Executive/NNP Director/NNP Itai/NNP Dinour/NNP)
+	(NOUN friends/NNS)
+	(NOUN Alcoa/NNP)
+
+----------------------------------
+original sentence: 
+Since 2004, Alcoa has served as a flagship partner investing in City Year and the Hunts Point community, to help the students of PS48 reach their academic potential.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('2004', 'CD'), (',', ','), ('Alcoa', 'NNP'), ('has', 'VBZ'), ('served', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('flagship', 'NN'), ('partner', 'NN'), ('investing', 'NN'), ('in', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Hunts', 'NNPS'), ('Point', 'NNP'), ('community', 'NN'), (',', ','), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('students', 'NNS'), ('of', 'IN'), ('PS48', 'NNP'), ('reach', 'NN'), ('their', 'PRP$'), ('academic', 'JJ'), ('potential', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   2004/CD   ,/,   (PERSON Alcoa/NNP)   has/VBZ   served/VBN   as/IN   a/DT   flagship/NN   partner/NN   investing/NN   in/IN   (FACILITY City/NNP Year/NNP)   and/CC   the/DT   (ORGANIZATION Hunts/NNPS Point/NNP)   community/NN   ,/,   to/TO   help/VB   the/DT   students/NNS   of/IN   (ORGANIZATION PS48/NNP)   reach/NN   their/PRP$   academic/JJ   potential/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   served/VBN   as/IN   a/DT   flagship/NN   partner/NN   investing/NN   in/IN   City/NNP   Year/NNP)
+
+tagged sentence:
+	 has served as a flagship partner investing in City Year	res:2
+	(VERB   help/VB   the/DT   students/NNS   of/IN   PS48/NNP   reach/NN   their/PRP$   academic/JJ   potential/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN Hunts/NNPS Point/NNP community/NN)
+
+----------------------------------
+original sentence: 
+‚ÄúAlcoa‚Äôs commitment to New York City, to the education of its young students, and to the idea that young people, through a year of full time service, can tackle our nation‚Äôs greatest challenges is inspiring.‚Äù  Alcoa is the world‚Äôs leading producer of primary aluminum, fabricated aluminum and alumina.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Alcoa', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('commitment', 'NN'), ('to', 'TO'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), (',', ','), ('to', 'TO'), ('the', 'DT'), ('education', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('young', 'JJ'), ('students', 'NNS'), (',', ','), ('and', 'CC'), ('to', 'TO'), ('the', 'DT'), ('idea', 'NN'), ('that', 'IN'), ('young', 'JJ'), ('people', 'NNS'), (',', ','), ('through', 'IN'), ('a', 'DT'), ('year', 'NN'), ('of', 'IN'), ('full', 'JJ'), ('time', 'NN'), ('service', 'NN'), (',', ','), ('can', 'MD'), ('tackle', 'VB'), ('our', 'PRP$'), ('nation', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('greatest', 'JJS'), ('challenges', 'NNS'), ('is', 'VBZ'), ('inspiring.', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Alcoa', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('producer', 'NN'), ('of', 'IN'), ('primary', 'JJ'), ('aluminum', 'NN'), (',', ','), ('fabricated', 'VBD'), ('aluminum', 'NN'), ('and', 'CC'), ('alumina', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   (PERSON Alcoa/NNP)   ‚/:   Ä/:   ô/:   s/NNS   commitment/NN   to/TO   (GPE New/NNP York/NNP City/NNP)   ,/,   to/TO   the/DT   education/NN   of/IN   its/PRP$   young/JJ   students/NNS   ,/,   and/CC   to/TO   the/DT   idea/NN   that/IN   young/JJ   people/NNS   ,/,   through/IN   a/DT   year/NN   of/IN   full/JJ   time/NN   service/NN   ,/,   can/MD   tackle/VB   our/PRP$   nation/NN   ‚/:   Ä/:   ô/:   s/NNS   greatest/JJS   challenges/NNS   is/VBZ   inspiring./NNP   ‚/:   Ä/:   ù/:   (PERSON Alcoa/NNP)   is/VBZ   the/DT   world/NN   ‚/:   Ä/:   ô/:   s/NNS   leading/VBG   producer/NN   of/IN   primary/JJ   aluminum/NN   ,/,   fabricated/VBD   aluminum/NN   and/CC   alumina/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB tackle/VB our/PRP$ nation/NN)
+	(VERB is/VBZ inspiring./NNP)
+	(VERB is/VBZ the/DT world/NN)
+	(VERB leading/VBG producer/NN of/IN primary/JJ aluminum/NN)
+	(VERB fabricated/VBD aluminum/NN)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS commitment/NN)
+	(NOUN New/NNP York/NNP City/NNP)
+	(NOUN education/NN)
+	(NOUN young/JJ students/NNS)
+	(NOUN idea/NN)
+	(NOUN young/JJ people/NNS)
+	(NOUN year/NN)
+	(NOUN full/JJ time/NN service/NN)
+	(NOUN s/NNS greatest/JJS challenges/NNS)
+
+tagged sentence:
+	 s greatest challenges	res:-1
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS)
+	(NOUN alumina/NN)
+
+----------------------------------
+original sentence: 
+In addition to inventing the modern day aluminum industry, Alcoa innovation has been behind major milestones in the aerospace, automotive, packaging, building and construction, commercial transportation, consumer electronics and industrial markets over the past 120 years.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('inventing', 'VBG'), ('the', 'DT'), ('modern', 'JJ'), ('day', 'NN'), ('aluminum', 'NN'), ('industry', 'NN'), (',', ','), ('Alcoa', 'NNP'), ('innovation', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('behind', 'IN'), ('major', 'JJ'), ('milestones', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('aerospace', 'NN'), (',', ','), ('automotive', 'JJ'), (',', ','), ('packaging', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), (',', ','), ('consumer', 'NN'), ('electronics', 'NNS'), ('and', 'CC'), ('industrial', 'JJ'), ('markets', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('120', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   inventing/VBG   the/DT   modern/JJ   day/NN   aluminum/NN   industry/NN   ,/,   (GPE Alcoa/NNP)   innovation/NN   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN   ,/,   automotive/JJ   ,/,   packaging/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   commercial/JJ   transportation/NN   ,/,   consumer/NN   electronics/NNS   and/CC   industrial/JJ   markets/NNS   over/IN   the/DT   past/JJ   120/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB inventing/VBG the/DT modern/JJ day/NN aluminum/NN industry/NN)
+
+tagged sentence:
+	 inventing the modern day aluminum industry	res:1
+	(VERB   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN)
+noun phrases to consider:
+	(NOUN addition/NN)
+	(NOUN Alcoa/NNP innovation/NN)
+
+tagged sentence:
+	 Alcoa innovation	res:1
+	(NOUN automotive/JJ)
+	(NOUN packaging/NN)
+	(NOUN building/NN)
+	(NOUN construction/NN)
+
+tagged sentence:
+	 construction	res:1
+	(NOUN commercial/JJ transportation/NN)
+	(NOUN consumer/NN electronics/NNS)
+	(NOUN industrial/JJ markets/NNS)
+	(NOUN the/DT past/JJ 120/CD years/NNS)
+
+----------------------------------
+original sentence: 
+Among the solutions Alcoa markets are flat rolled products, hard alloy extrusions, and forgings, as well as Alcoa¬Æ wheels, fastening systems, precision and investment castings, and building systems in addition to its expertise in other light metals such as titanium and nickel based super alloys.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('solutions', 'NNS'), ('Alcoa', 'NNP'), ('markets', 'NNS'), ('are', 'VBP'), ('flat', 'JJ'), ('rolled', 'VBN'), ('products', 'NNS'), (',', ','), ('hard', 'RB'), ('alloy', 'JJ'), ('extrusions', 'NNS'), (',', ','), ('and', 'CC'), ('forgings', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('Alcoa', 'NNP'), ('\xc2', 'NNP'), ('\xae', 'NNP'), ('wheels', 'VBZ'), (',', ','), ('fastening', 'VBG'), ('systems', 'NNS'), (',', ','), ('precision', 'NN'), ('and', 'CC'), ('investment', 'NN'), ('castings', 'NNS'), (',', ','), ('and', 'CC'), ('building', 'NN'), ('systems', 'NNS'), ('in', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('expertise', 'NN'), ('in', 'IN'), ('other', 'JJ'), ('light', 'JJ'), ('metals', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('titanium', 'NN'), ('and', 'CC'), ('nickel', 'NN'), ('based', 'VBN'), ('super', 'NN'), ('alloys', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   solutions/NNS   Alcoa/NNP   markets/NNS   are/VBP   flat/JJ   rolled/VBN   products/NNS   ,/,   hard/RB   alloy/JJ   extrusions/NNS   ,/,   and/CC   forgings/NNS   ,/,   as/IN   well/RB   as/IN   (PERSON Alcoa/NNP)   ¬/NNP   Æ/NNP   wheels/VBZ   ,/,   fastening/VBG   systems/NNS   ,/,   precision/NN   and/CC   investment/NN   castings/NNS   ,/,   and/CC   building/NN   systems/NNS   in/IN   addition/NN   to/TO   its/PRP$   expertise/NN   in/IN   other/JJ   light/JJ   metals/NNS   such/JJ   as/IN   titanium/NN   and/CC   nickel/NN   based/VBN   super/NN   alloys/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP flat/JJ)
+	(VERB rolled/VBN products/NNS)
+	(VERB wheels/VBZ)
+	(VERB fastening/VBG systems/NNS)
+	(VERB based/VBN super/NN alloys/NNS)
+noun phrases to consider:
+	(NOUN solutions/NNS Alcoa/NNP markets/NNS)
+	(NOUN hard/RB alloy/JJ extrusions/NNS)
+	(NOUN forgings/NNS)
+	(NOUN Alcoa/NNP ¬/NNP Æ/NNP)
+	(NOUN precision/NN)
+	(NOUN investment/NN castings/NNS)
+	(NOUN building/NN systems/NNS)
+	(NOUN addition/NN)
+	(NOUN expertise/NN)
+	(NOUN other/JJ light/JJ metals/NNS)
+	(NOUN such/JJ)
+	(NOUN titanium/NN)
+	(NOUN nickel/NN)
+
+----------------------------------
+original sentence: 
+Sustainability is an integral part of Alcoa‚Äôs operating practices and the product design and engineering it provides to customers.
+
+POS tagged sentence: 
+[('Sustainability', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('integral', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('operating', 'VBG'), ('practices', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('product', 'NN'), ('design', 'NN'), ('and', 'CC'), ('engineering', 'NN'), ('it', 'PRP'), ('provides', 'VBZ'), ('to', 'TO'), ('customers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sustainability/NN)   is/VBZ   an/DT   integral/JJ   part/NN   of/IN   (PERSON Alcoa/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   operating/VBG   practices/NNS   and/CC   the/DT   product/NN   design/NN   and/CC   engineering/NN   it/PRP   provides/VBZ   to/TO   customers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   an/DT   integral/JJ   part/NN   of/IN   Alcoa/NNP   ‚/NNP   Ä/NNP   ô/NNP)
+
+tagged sentence:
+	 is an integral part of Alcoa ‚ Ä ô	res:1
+	(VERB s/VBZ operating/VBG practices/NNS)
+	(VERB provides/VBZ to/TO customers/NNS)
+noun phrases to consider:
+	(NOUN Sustainability/NN)
+	(NOUN product/NN design/NN)
+	(NOUN engineering/NN)
+
+----------------------------------
+original sentence: 
+Alcoa has been a member of the Dow Jones Sustainability Index for eight consecutive years and approximately 75 percent of all of the aluminum ever produced since 1888 is still in active use today.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Sustainability', 'NNP'), ('Index', 'NNP'), ('for', 'IN'), ('eight', 'CD'), ('consecutive', 'JJ'), ('years', 'NNS'), ('and', 'CC'), ('approximately', 'RB'), ('75', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('aluminum', 'NN'), ('ever', 'RB'), ('produced', 'VBN'), ('since', 'IN'), ('1888', 'CD'), ('is', 'VBZ'), ('still', 'RB'), ('in', 'IN'), ('active', 'JJ'), ('use', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP)   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS   and/CC   approximately/RB   75/CD   percent/NN   of/IN   all/DT   of/IN   the/DT   aluminum/NN   ever/RB   produced/VBN   since/IN   1888/CD   is/VBZ   still/RB   in/IN   active/JJ   use/NN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   Dow/NNP   Jones/NNP   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS)
+	(VERB produced/VBN since/IN 1888/CD)
+	(VERB is/VBZ still/RB in/IN active/JJ use/NN today/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN percent/NN)
+	(NOUN aluminum/NN)
+
+----------------------------------
+original sentence: 
+Alcoa employs approximately 59,000 people in 31 countries across the world.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('employs', 'VBZ'), ('approximately', 'RB'), ('59,000', 'CD'), ('people', 'NNS'), ('in', 'IN'), ('31', 'CD'), ('countries', 'NNS'), ('across', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   employs/VBZ   approximately/RB   59,000/CD   people/NNS   in/IN   31/CD   countries/NNS   across/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB employs/VBZ)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN people/NNS)
+	(NOUN 31/CD countries/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+More information can be found at About Alcoa Foundation
+ Alcoa Foundation is a nonprofit U.S. corporate foundation with assets of approximately US$415 million.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('About', 'NNP'), ('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('nonprofit', 'JJ'), ('U.S.', 'NNP'), ('corporate', 'JJ'), ('foundation', 'NN'), ('with', 'IN'), ('assets', 'NNS'), ('of', 'IN'), ('approximately', 'RB'), ('US', 'NNP'), ('$', '$'), ('415', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   can/MD   be/VB   found/VBN   at/IN   (ORGANIZATION     About/NNP     Alcoa/NNP     Foundation/NNP     Alcoa/NNP     Foundation/NNP)   is/VBZ   a/DT   nonprofit/JJ   (GPE U.S./NNP)   corporate/JJ   foundation/NN   with/IN   assets/NNS   of/IN   approximately/RB   US/NNP   $/$   415/CD   million/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   be/VB   found/VBN   at/IN   About/NNP   Alcoa/NNP   Foundation/NNP   Alcoa/NNP   Foundation/NNP)
+	(VERB   is/VBZ   a/DT   nonprofit/JJ   U.S./NNP   corporate/JJ   foundation/NN   with/IN   assets/NNS   of/IN   approximately/RB   US/NNP)
+noun phrases to consider:
+	(NOUN More/JJR information/NN)
+
+----------------------------------
+original sentence: 
+In addition to addressing locally identified needs in communities where Alcoa operates, Alcoa Foundation is focused on unlocking solutions to critical environmental sustainability challenges, including global climate change.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('addressing', 'VBG'), ('locally', 'RB'), ('identified', 'VBD'), ('needs', 'NNS'), ('in', 'IN'), ('communities', 'NNS'), ('where', 'WRB'), ('Alcoa', 'NNP'), ('operates', 'VBZ'), (',', ','), ('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('is', 'VBZ'), ('focused', 'VBN'), ('on', 'IN'), ('unlocking', 'NN'), ('solutions', 'NNS'), ('to', 'TO'), ('critical', 'JJ'), ('environmental', 'JJ'), ('sustainability', 'NN'), ('challenges', 'NNS'), (',', ','), ('including', 'VBG'), ('global', 'JJ'), ('climate', 'NN'), ('change', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   addressing/VBG   locally/RB   identified/VBD   needs/NNS   in/IN   communities/NNS   where/WRB   (PERSON Alcoa/NNP)   operates/VBZ   ,/,   (PERSON Alcoa/NNP Foundation/NNP)   is/VBZ   focused/VBN   on/IN   unlocking/NN   solutions/NNS   to/TO   critical/JJ   environmental/JJ   sustainability/NN   challenges/NNS   ,/,   including/VBG   global/JJ   climate/NN   change/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   addressing/VBG   locally/RB   identified/VBD   needs/NNS   in/IN   communities/NNS)
+	(VERB operates/VBZ)
+	(VERB is/VBZ focused/VBN on/IN unlocking/NN solutions/NNS)
+	(VERB including/VBG global/JJ climate/NN change/NN)
+noun phrases to consider:
+	(NOUN addition/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN Alcoa/NNP Foundation/NNP)
+	(NOUN critical/JJ environmental/JJ sustainability/NN challenges/NNS)
+
+tagged sentence:
+	 critical environmental sustainability challenges	res:-1
+
+----------------------------------
+original sentence: 
+Alcoa Foundation has been a long term partner in Alcoa communities worldwide for more than fifty years, investing over US$515 million since 1952.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('long', 'JJ'), ('term', 'NN'), ('partner', 'NN'), ('in', 'IN'), ('Alcoa', 'NNP'), ('communities', 'NNS'), ('worldwide', 'VBP'), ('for', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('fifty', 'JJ'), ('years', 'NNS'), (',', ','), ('investing', 'VBG'), ('over', 'IN'), ('US', 'NNP'), ('$', '$'), ('515', 'CD'), ('million', 'CD'), ('since', 'IN'), ('1952', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Foundation/NNP)   has/VBZ   been/VBN   a/DT   long/JJ   term/NN   partner/NN   in/IN   (GPE Alcoa/NNP)   communities/NNS   worldwide/VBP   for/IN   more/JJR   than/IN   fifty/JJ   years/NNS   ,/,   investing/VBG   over/IN   (GPE US/NNP)   $/$   515/CD   million/CD   since/IN   1952/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   a/DT   long/JJ   term/NN   partner/NN   in/IN   Alcoa/NNP   communities/NNS)
+
+tagged sentence:
+	 has been a long term partner in Alcoa communities	res:2
+	(VERB worldwide/VBP for/IN more/JJR than/IN fifty/JJ years/NNS)
+	(VERB investing/VBG over/IN US/NNP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Foundation/NNP)
+
+----------------------------------
+original sentence: 
+The work of Alcoa Foundation is further enhanced by Alcoa‚Äôs thousands of employee volunteers, who in 2009 gave over 650,000 service hours to strengthen the social fabric of their communities.
+
+POS tagged sentence: 
+[('The', 'DT'), ('work', 'NN'), ('of', 'IN'), ('Alcoa', 'NNP'), ('Foundation', 'NNP'), ('is', 'VBZ'), ('further', 'JJ'), ('enhanced', 'VBN'), ('by', 'IN'), ('Alcoa', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('thousands', 'NNS'), ('of', 'IN'), ('employee', 'NN'), ('volunteers', 'NNS'), (',', ','), ('who', 'WP'), ('in', 'IN'), ('2009', 'CD'), ('gave', 'VBD'), ('over', 'IN'), ('650,000', 'CD'), ('service', 'NN'), ('hours', 'NNS'), ('to', 'TO'), ('strengthen', 'VB'), ('the', 'DT'), ('social', 'JJ'), ('fabric', 'JJ'), ('of', 'IN'), ('their', 'PRP$'), ('communities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   work/NN   of/IN   (PERSON Alcoa/NNP Foundation/NNP)   is/VBZ   further/JJ   enhanced/VBN   by/IN   (PERSON Alcoa/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   thousands/NNS   of/IN   employee/NN   volunteers/NNS   ,/,   who/WP   in/IN   2009/CD   gave/VBD   over/IN   650,000/CD   service/NN   hours/NNS   to/TO   strengthen/VB   the/DT   social/JJ   fabric/JJ   of/IN   their/PRP$   communities/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ further/JJ)
+	(VERB enhanced/VBN by/IN Alcoa/NNP ‚/NNP Ä/NNP ô/NNP)
+
+tagged sentence:
+	 enhanced by Alcoa ‚ Ä ô	res:1
+	(VERB s/VBZ thousands/NNS of/IN employee/NN volunteers/NNS)
+	(VERB gave/VBD over/IN 650,000/CD service/NN hours/NNS)
+	(VERB   strengthen/VB   the/DT   social/JJ   fabric/JJ   of/IN   their/PRP$   communities/NNS)
+
+tagged sentence:
+	 strengthen the social fabric of their communities	res:1
+noun phrases to consider:
+	(NOUN work/NN)
+	(NOUN Alcoa/NNP Foundation/NNP)
+
+----------------------------------
+original sentence: 
+More information can be found at www.alcoa.com/foundation
+About City Year New York
+ City Year New York mobilizes 17 24 year olds to combat the high school dropout crisis by serving as tutors, mentors, and role models in high need New York City public schools.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('www.alcoa.com/foundation', 'NN'), ('About', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('Year', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('mobilizes', 'VBZ'), ('17', 'CD'), ('24', 'CD'), ('year', 'NN'), ('olds', 'NNS'), ('to', 'TO'), ('combat', 'VB'), ('the', 'DT'), ('high', 'JJ'), ('school', 'NN'), ('dropout', 'IN'), ('crisis', 'NN'), ('by', 'IN'), ('serving', 'NN'), ('as', 'IN'), ('tutors', 'NNS'), (',', ','), ('mentors', 'NNS'), (',', ','), ('and', 'CC'), ('role', 'NN'), ('models', 'NNS'), ('in', 'IN'), ('high', 'JJ'), ('need', 'NN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('public', 'JJ'), ('schools', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   can/MD   be/VB   found/VBN   at/IN   www.alcoa.com/foundation/NN   About/IN   (FACILITY     City/NNP     Year/NNP     New/NNP     York/NNP     City/NNP     Year/NNP     New/NNP     York/NNP)   mobilizes/VBZ   17/CD   24/CD   year/NN   olds/NNS   to/TO   combat/VB   the/DT   high/JJ   school/NN   dropout/IN   crisis/NN   by/IN   serving/NN   as/IN   tutors/NNS   ,/,   mentors/NNS   ,/,   and/CC   role/NN   models/NNS   in/IN   high/JJ   need/NN   (GPE New/NNP York/NNP City/NNP)   public/JJ   schools/NNS   ./.)
+----------------------------------
+original sentence: 
+In partnership with school and community leaders, City Year‚Äôs diverse teams identify and employ early intervention strategies focused on the three dropout risk factors 1 poor attendance, 2 disruptive behavior, 3 failure to read and do math at grade level.
+
+POS tagged sentence: 
+[('In', 'IN'), ('partnership', 'NN'), ('with', 'IN'), ('school', 'NN'), ('and', 'CC'), ('community', 'NN'), ('leaders', 'NNS'), (',', ','), ('City', 'NNP'), ('Year', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('diverse', 'JJ'), ('teams', 'NNS'), ('identify', 'VBP'), ('and', 'CC'), ('employ', 'NN'), ('early', 'RB'), ('intervention', 'NN'), ('strategies', 'NNS'), ('focused', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('three', 'CD'), ('dropout', 'IN'), ('risk', 'NN'), ('factors', 'NNS'), ('1', 'CD'), ('poor', 'JJ'), ('attendance', 'NN'), (',', ','), ('2', 'CD'), ('disruptive', 'JJ'), ('behavior', 'NN'), (',', ','), ('3', 'CD'), ('failure', 'NN'), ('to', 'TO'), ('read', 'VB'), ('and', 'CC'), ('do', 'VB'), ('math', 'NN'), ('at', 'IN'), ('grade', 'NN'), ('level', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   partnership/NN   with/IN   school/NN   and/CC   community/NN   leaders/NNS   ,/,   (ORGANIZATION City/NNP Year/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   diverse/JJ   teams/NNS   identify/VBP   and/CC   employ/NN   early/RB   intervention/NN   strategies/NNS   focused/VBD   on/IN   the/DT   three/CD   dropout/IN   risk/NN   factors/NNS   1/CD   poor/JJ   attendance/NN   ,/,   2/CD   disruptive/JJ   behavior/NN   ,/,   3/CD   failure/NN   to/TO   read/VB   and/CC   do/VB   math/NN   at/IN   grade/NN   level/NN   ./.)
+----------------------------------
+original sentence: 
+City Year‚Äôs corps members are in elementary and middle schools from before the first bell rings through the after school program.
+
+POS tagged sentence: 
+[('City', 'NNP'), ('Year', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('corps', 'NNS'), ('members', 'NNS'), ('are', 'VBP'), ('in', 'IN'), ('elementary', 'JJ'), ('and', 'CC'), ('middle', 'JJ'), ('schools', 'NNS'), ('from', 'IN'), ('before', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('bell', 'NN'), ('rings', 'NNS'), ('through', 'IN'), ('the', 'DT'), ('after', 'NN'), ('school', 'NN'), ('program', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON City/NNP)   (ORGANIZATION Year/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   corps/NNS   members/NNS   are/VBP   in/IN   elementary/JJ   and/CC   middle/JJ   schools/NNS   from/IN   before/IN   the/DT   first/JJ   bell/NN   rings/NNS   through/IN   the/DT   after/NN   school/NN   program/NN   ./.)
+----------------------------------
+original sentence: 
+They provide small group tutoring, ensure that students show up to school and get there on time, and create a positive school environment.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('provide', 'VBP'), ('small', 'JJ'), ('group', 'NN'), ('tutoring', 'VBG'), (',', ','), ('ensure', 'NN'), ('that', 'IN'), ('students', 'NNS'), ('show', 'VBP'), ('up', 'RP'), ('to', 'TO'), ('school', 'NN'), ('and', 'CC'), ('get', 'VB'), ('there', 'EX'), ('on', 'IN'), ('time', 'NN'), (',', ','), ('and', 'CC'), ('create', 'VB'), ('a', 'DT'), ('positive', 'JJ'), ('school', 'NN'), ('environment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   provide/VBP   small/JJ   group/NN   tutoring/VBG   ,/,   ensure/NN   that/IN   students/NNS   show/VBP   up/RP   to/TO   school/NN   and/CC   get/VB   there/EX   on/IN   time/NN   ,/,   and/CC   create/VB   a/DT   positive/JJ   school/NN   environment/NN   ./.)
+----------------------------------
+original sentence: 
+Over the last three years, 12 schools that partner with City Year saw at least a 15% increase in students achieving proficiency or above on the English Language Arts Exam.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('three', 'CD'), ('years', 'NNS'), (',', ','), ('12', 'CD'), ('schools', 'NNS'), ('that', 'WDT'), ('partner', 'NN'), ('with', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('saw', 'VBD'), ('at', 'IN'), ('least', 'JJS'), ('a', 'DT'), ('15', 'CD'), ('%', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('students', 'NNS'), ('achieving', 'VBG'), ('proficiency', 'NN'), ('or', 'CC'), ('above', 'IN'), ('on', 'IN'), ('the', 'DT'), ('English', 'NNP'), ('Language', 'NNP'), ('Arts', 'NNP'), ('Exam', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   last/JJ   three/CD   years/NNS   ,/,   12/CD   schools/NNS   that/WDT   partner/NN   with/IN   (ORGANIZATION City/NNP Year/NNP)   saw/VBD   at/IN   least/JJS   a/DT   15/CD   %/NN   increase/NN   in/IN   students/NNS   achieving/VBG   proficiency/NN   or/CC   above/IN   on/IN   the/DT   (ORGANIZATION English/NNP Language/NNP Arts/NNP Exam/NNP)   ./.)
+----------------------------------
+original sentence: 
+Noteably, PS/IS 50 saw a 32% increase and PS 335 saw a 42% increase in students achieving this level.
+
+POS tagged sentence: 
+[('Noteably', 'RB'), (',', ','), ('PS/IS', 'NNP'), ('50', 'CD'), ('saw', 'VBD'), ('a', 'DT'), ('32', 'CD'), ('%', 'NN'), ('increase', 'NN'), ('and', 'CC'), ('PS', 'NNP'), ('335', 'CD'), ('saw', 'VBD'), ('a', 'DT'), ('42', 'CD'), ('%', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('students', 'NNS'), ('achieving', 'VBG'), ('this', 'DT'), ('level', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Noteably/RB   ,/,   PS/IS/NNP   50/CD   saw/VBD   a/DT   32/CD   %/NN   increase/NN   and/CC   PS/NNP   335/CD   saw/VBD   a/DT   42/CD   %/NN   increase/NN   in/IN   students/NNS   achieving/VBG   this/DT   level/NN   ./.)
+----------------------------------
+original sentence: 
+During the 2009 school year, 48 out of the 50 students tutored by City Year at PS 154 passed the ELA.
+
+POS tagged sentence: 
+[('During', 'IN'), ('the', 'DT'), ('2009', 'CD'), ('school', 'NN'), ('year', 'NN'), (',', ','), ('48', 'CD'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('50', 'CD'), ('students', 'NNS'), ('tutored', 'VBD'), ('by', 'IN'), ('City', 'NNP'), ('Year', 'NNP'), ('at', 'IN'), ('PS', 'NNP'), ('154', 'CD'), ('passed', 'VBD'), ('the', 'DT'), ('ELA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   the/DT   2009/CD   school/NN   year/NN   ,/,   48/CD   out/IN   of/IN   the/DT   50/CD   students/NNS   tutored/VBD   by/IN   (ORGANIZATION City/NNP Year/NNP)   at/IN   (ORGANIZATION PS/NNP)   154/CD   passed/VBD   the/DT   (ORGANIZATION ELA/NNP)   ./.)
+----------------------------------
+original sentence: 
+At PS/IS 50, all of the students increased their ELA scores by an average of 20%.
+
+POS tagged sentence: 
+[('At', 'IN'), ('PS/IS', 'NNP'), ('50', 'CD'), (',', ','), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('students', 'NNS'), ('increased', 'VBD'), ('their', 'PRP$'), ('ELA', 'NNP'), ('scores', 'NNS'), ('by', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('of', 'IN'), ('20', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   PS/IS/NNP   50/CD   ,/,   all/DT   of/IN   the/DT   students/NNS   increased/VBD   their/PRP$   (ORGANIZATION ELA/NNP)   scores/NNS   by/IN   an/DT   average/JJ   of/IN   20/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+More information can be found at  Contacts Kevin Lowery, 412 553 1424
+Kevin.lowery@alcoa.com
+ http://www.businesswire.com/news/home/20100409005560/en/Kleinfeld Alcoa Recognized Service Leadership
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Contacts', 'NNPS'), ('Kevin', 'NNP'), ('Lowery', 'NNP'), (',', ','), ('412', 'CD'), ('553', 'CD'), ('1424', 'CD'), ('Kevin.lowery', 'JJ'), ('@', 'NN'), ('alcoa.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100409005560/en/Kleinfeld', 'JJ'), ('Alcoa', 'NNP'), ('Recognized', 'NNP'), ('Service', 'NNP'), ('Leadership', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   can/MD   be/VB   found/VBN   at/IN   (ORGANIZATION Contacts/NNPS Kevin/NNP Lowery/NNP)   ,/,   412/CD   553/CD   1424/CD   Kevin.lowery/JJ   @/NN   alcoa.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100409005560/en/Kleinfeld/JJ   (PERSON     Alcoa/NNP     Recognized/NNP     Service/NNP     Leadership/NNP     Company/NNP)   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB found/VBN at/IN Contacts/NNPS Kevin/NNP Lowery/NNP)
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN More/JJR information/NN)
+	(NOUN 1424/CD Kevin.lowery/JJ @/NN alcoa.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100409005560/en/Kleinfeld/JJ   Alcoa/NNP   Recognized/NNP   Service/NNP   Leadership/NNP)
+
+tagged sentence:
+	 //www.businesswire.com/news/home/20100409005560/en/Kleinfeld Alcoa Recognized Service Leadership	res:1
+	(NOUN Company/NNP Information/NNP Center/NNP More/NNP)
+	(NOUN Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:2	pos:10	verypos:2	total:7

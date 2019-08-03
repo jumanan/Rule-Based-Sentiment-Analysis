@@ -1,0 +1,116 @@
+
+----------------------------------
+original sentence: 
+Analyst Shares Stock Picks With CNBC MON, DE, AGCO, TWI, POT | Benzinga.com
+Analyst Shares Stock Picks With CNBC MON, DE, AGCO, TWI, POT Recent Articles by Ed Liston
+Posted on 03/09/10 at 11:51am by In an interview with CNBC, Charlie Rentschler, agriculture, and machinery analyst at Morgan Joseph, provided his opinion on markets.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('Shares', 'NNS'), ('Stock', 'NNP'), ('Picks', 'NNP'), ('With', 'NNP'), ('CNBC', 'NNP'), ('MON', 'NNP'), (',', ','), ('DE', 'NNP'), (',', ','), ('AGCO', 'NNP'), (',', ','), ('TWI', 'NNP'), (',', ','), ('POT', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Analyst', 'NNP'), ('Shares', 'NNP'), ('Stock', 'NNP'), ('Picks', 'NNP'), ('With', 'NNP'), ('CNBC', 'NNP'), ('MON', 'NNP'), (',', ','), ('DE', 'NNP'), (',', ','), ('AGCO', 'NNP'), (',', ','), ('TWI', 'NNP'), (',', ','), ('POT', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Ed', 'NNP'), ('Liston', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/09/10', 'CD'), ('at', 'IN'), ('11', 'CD'), (':', ':'), ('51am', 'CD'), ('by', 'IN'), ('In', 'NNP'), ('an', 'DT'), ('interview', 'NN'), ('with', 'IN'), ('CNBC', 'NNP'), (',', ','), ('Charlie', 'NNP'), ('Rentschler', 'NNP'), (',', ','), ('agriculture', 'NN'), (',', ','), ('and', 'CC'), ('machinery', 'NN'), ('analyst', 'NN'), ('at', 'IN'), ('Morgan', 'NNP'), ('Joseph', 'NNP'), (',', ','), ('provided', 'VBN'), ('his', 'PRP$'), ('opinion', 'NN'), ('on', 'IN'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Analyst/NN)   (PERSON Shares/NNS Stock/NNP Picks/NNP With/NNP)   (ORGANIZATION CNBC/NNP)   MON/NNP   ,/,   (ORGANIZATION DE/NNP)   ,/,   (ORGANIZATION AGCO/NNP)   ,/,   (ORGANIZATION TWI/NNP)   ,/,   (ORGANIZATION POT/NNP)   |/NNP   Benzinga.com/NNP   Analyst/NNP   (PERSON Shares/NNP Stock/NNP Picks/NNP With/NNP)   (ORGANIZATION CNBC/NNP)   MON/NNP   ,/,   (ORGANIZATION DE/NNP)   ,/,   (ORGANIZATION AGCO/NNP)   ,/,   (ORGANIZATION TWI/NNP)   ,/,   (ORGANIZATION POT/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Ed/NNP Liston/NNP Posted/NNP)   on/IN   03/09/10/CD   at/IN   11/CD   :/:   51am/CD   by/IN   In/NNP   an/DT   interview/NN   with/IN   (ORGANIZATION CNBC/NNP)   ,/,   (PERSON Charlie/NNP Rentschler/NNP)   ,/,   agriculture/NN   ,/,   and/CC   machinery/NN   analyst/NN   at/IN   (ORGANIZATION Morgan/NNP Joseph/NNP)   ,/,   provided/VBN   his/PRP$   opinion/NN   on/IN   markets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provided/VBN his/PRP$ opinion/NN on/IN markets/NNS)
+noun phrases to consider:
+	(NOUN Analyst/NN Shares/NNS Stock/NNP Picks/NNP)
+	(NOUN With/NNP CNBC/NNP MON/NNP)
+	(NOUN DE/NNP)
+	(NOUN AGCO/NNP)
+	(NOUN TWI/NNP)
+	(NOUN POT/NNP |/NNP Benzinga.com/NNP Analyst/NNP)
+	(NOUN Shares/NNP Stock/NNP Picks/NNP With/NNP)
+	(NOUN CNBC/NNP MON/NNP)
+	(NOUN DE/NNP)
+	(NOUN AGCO/NNP)
+	(NOUN TWI/NNP)
+	(NOUN POT/NNP Recent/NNP Articles/NNP)
+	(NOUN Ed/NNP Liston/NNP Posted/NNP)
+	(NOUN In/NNP)
+	(NOUN interview/NN)
+	(NOUN CNBC/NNP)
+	(NOUN Charlie/NNP Rentschler/NNP)
+	(NOUN agriculture/NN)
+	(NOUN machinery/NN analyst/NN)
+	(NOUN Morgan/NNP Joseph/NNP)
+
+----------------------------------
+original sentence: 
+‚ÄúFarming is fundamental,‚Äù Rentschler told CNBC.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Farming', 'NNP'), ('is', 'VBZ'), ('fundamental', 'JJ'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Rentschler', 'NNP'), ('told', 'VBD'), ('CNBC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   Farming/NNP   is/VBZ   fundamental/JJ   ,/,   ‚/:   Ä/:   ù/:   (PERSON Rentschler/NNP)   told/VBD   (ORGANIZATION CNBC/NNP)   ./.)
+----------------------------------
+original sentence: 
+Yet he also warned investors about the adverse effects of government policies, commodity prices, and naturally occurring phenomenon that could hurt the market.
+
+POS tagged sentence: 
+[('Yet', 'CC'), ('he', 'PRP'), ('also', 'RB'), ('warned', 'VBD'), ('investors', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('adverse', 'NN'), ('effects', 'NNS'), ('of', 'IN'), ('government', 'NN'), ('policies', 'NNS'), (',', ','), ('commodity', 'NN'), ('prices', 'NNS'), (',', ','), ('and', 'CC'), ('naturally', 'RB'), ('occurring', 'VBG'), ('phenomenon', 'NN'), ('that', 'IN'), ('could', 'MD'), ('hurt', 'VB'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Yet/CC   he/PRP   also/RB   warned/VBD   investors/NNS   about/IN   the/DT   adverse/NN   effects/NNS   of/IN   government/NN   policies/NNS   ,/,   commodity/NN   prices/NNS   ,/,   and/CC   naturally/RB   occurring/VBG   phenomenon/NN   that/IN   could/MD   hurt/VB   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Rentschler said ethanol, the new big buyer, consumes about a third of the corn produced.
+
+POS tagged sentence: 
+[('Rentschler', 'NNP'), ('said', 'VBD'), ('ethanol', 'NN'), (',', ','), ('the', 'DT'), ('new', 'JJ'), ('big', 'JJ'), ('buyer', 'NN'), (',', ','), ('consumes', 'VBZ'), ('about', 'IN'), ('a', 'DT'), ('third', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('corn', 'NN'), ('produced', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Rentschler/NNP)   said/VBD   ethanol/NN   ,/,   the/DT   new/JJ   big/JJ   buyer/NN   ,/,   consumes/VBZ   about/IN   a/DT   third/JJ   of/IN   the/DT   corn/NN   produced/VBN   ./.)
+----------------------------------
+original sentence: 
+This now gives farmers greater purchasing power.
+
+POS tagged sentence: 
+[('This', 'DT'), ('now', 'RB'), ('gives', 'VBZ'), ('farmers', 'NNS'), ('greater', 'JJR'), ('purchasing', 'VBG'), ('power', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   now/RB   gives/VBZ   farmers/NNS   greater/JJR   purchasing/VBG   power/NN   ./.)
+----------------------------------
+original sentence: 
+Among the stocks in the sector, Rentschler likes Monsanto NYSE:  .
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('stocks', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('sector', 'NN'), (',', ','), ('Rentschler', 'NNP'), ('likes', 'VBZ'), ('Monsanto', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   stocks/NNS   in/IN   the/DT   sector/NN   ,/,   (PERSON Rentschler/NNP)   likes/VBZ   (ORGANIZATION Monsanto/NNP)   NYSE/NNP   :/:   ./.)
+----------------------------------
+original sentence: 
+Rentschler also gave a ‚Äòbuy‚Äô rating to Titan International NYSE:  , and Potash NYSE: Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Rentschler', 'NNP'), ('also', 'RB'), ('gave', 'VBD'), ('a', 'DT'), ('\xe2', 'NN'), ('\x80', ':'), ('\x98', ':'), ('buy', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('rating', 'NN'), ('to', 'TO'), ('Titan', 'NNP'), ('International', 'NNP'), ('NYSE', 'NNP'), (':', ':'), (',', ','), ('and', 'CC'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('Bookmark/Search', 'JJ'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Rentschler/NNP)   also/RB   gave/VBD   a/DT   ‚/NN   Ä/:   ò/:   buy/NN   ‚/:   Ä/:   ô/:   rating/NN   to/TO   (PERSON Titan/NNP International/NNP)   NYSE/NNP   :/:   ,/,   and/CC   (PERSON Potash/NNP NYSE/NNP)   :/:   Bookmark/Search/JJ   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gave/VBD a/DT ‚/NN)
+	(VERB are/VBP not/RB watching/VBG this/DT post/NN)
+	(VERB start/VB watching/NN)
+	(VERB   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP)
+	(VERB are/VBP)
+noun phrases to consider:
+	(NOUN Rentschler/NNP)
+	(NOUN buy/NN)
+	(NOUN rating/NN)
+	(NOUN Titan/NNP International/NNP NYSE/NNP)
+	(NOUN Potash/NNP NYSE/NNP)
+	(NOUN Bookmark/Search/JJ)
+	(NOUN post/NN)
+	(NOUN click/NN)
+	(NOUN s/NNS Trading/NN Ideas/NNS)
+	(NOUN comments/NNS Receive/NNP Benzinga&/NNP)
+	(NOUN s/NNS Best/JJS 2010/CD Stock/NNP Idea/NNP)
+
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

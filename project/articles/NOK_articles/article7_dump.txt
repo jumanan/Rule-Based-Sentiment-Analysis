@@ -1,0 +1,218 @@
+
+----------------------------------
+original sentence: 
+ Nokia: UBS Turns Bullish; Sees Play On Low End Smart Phones Tech Trader Daily Barrons.com
+News, analysis and insights from Barron's Silicon Valley bureau.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), (':', ':'), ('UBS', 'NNP'), ('Turns', 'NNP'), ('Bullish', 'NNP'), (';', ':'), ('Sees', 'NNP'), ('Play', 'NNP'), ('On', 'NNP'), ('Low', 'NNP'), ('End', 'NNP'), ('Smart', 'NNP'), ('Phones', 'NNP'), ('Tech', 'NNP'), ('Trader', 'NNP'), ('Daily', 'NNP'), ('Barrons.com', 'NNP'), ('News', 'NNP'), (',', ','), ('analysis', 'VBZ'), ('and', 'CC'), ('insights', 'NNS'), ('from', 'IN'), ('Barron', 'NNP'), ("'s", 'POS'), ('Silicon', 'NNP'), ('Valley', 'NNP'), ('bureau', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia/NNP)   :/:   (ORGANIZATION UBS/NNP Turns/NNP Bullish/NNP)   ;/:   (PERSON     Sees/NNP     Play/NNP     On/NNP     Low/NNP     End/NNP     Smart/NNP     Phones/NNP     Tech/NNP     Trader/NNP     Daily/NNP)   Barrons.com/NNP   News/NNP   ,/,   analysis/VBZ   and/CC   insights/NNS   from/IN   (PERSON Barron/NNP)   's/POS   (PERSON Silicon/NNP Valley/NNP)   bureau/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB analysis/VBZ)
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+	(NOUN UBS/NNP Turns/NNP Bullish/NNP)
+	(NOUN Sees/NNP Play/NNP On/NNP Low/NNP)
+	(NOUN End/NNP Smart/NNP Phones/NNP Tech/NNP)
+	(NOUN Trader/NNP Daily/NNP Barrons.com/NNP News/NNP)
+	(NOUN insights/NNS)
+	(NOUN Barron/NNP)
+	(NOUN Silicon/NNP Valley/NNP bureau/NN)
+
+----------------------------------
+original sentence: 
+Search Tech Trader Daily
+Nokia: UBS Turns Bullish; Sees Play On Low End Smart Phones
+UBS analyst Gareth Jenkins
+ this morning raised his rating on  to Buy from Neutral, lifting his price target to 14.50 Euros from 10.50 or in greenbacks, to $19.55, from $14.16.
+
+POS tagged sentence: 
+[('Search', 'NNP'), ('Tech', 'NNP'), ('Trader', 'NNP'), ('Daily', 'NNP'), ('Nokia', 'NNP'), (':', ':'), ('UBS', 'NNP'), ('Turns', 'NNP'), ('Bullish', 'NNP'), (';', ':'), ('Sees', 'NNP'), ('Play', 'NNP'), ('On', 'NNP'), ('Low', 'NNP'), ('End', 'NNP'), ('Smart', 'NNP'), ('Phones', 'NNP'), ('UBS', 'NNP'), ('analyst', 'NN'), ('Gareth', 'NNP'), ('Jenkins', 'NNP'), ('this', 'DT'), ('morning', 'NN'), ('raised', 'VBD'), ('his', 'PRP$'), ('rating', 'NN'), ('on', 'IN'), ('to', 'TO'), ('Buy', 'NNP'), ('from', 'IN'), ('Neutral', 'NNP'), (',', ','), ('lifting', 'VBG'), ('his', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('14.50', 'CD'), ('Euros', 'NNP'), ('from', 'IN'), ('10.50', 'CD'), ('or', 'CC'), ('in', 'IN'), ('greenbacks', 'NNS'), (',', ','), ('to', 'TO'), ('$', '$'), ('19.55', 'CD'), (',', ','), ('from', 'IN'), ('$', '$'), ('14.16', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Search/NNP)   (ORGANIZATION Tech/NNP)   Trader/NNP   (PERSON Daily/NNP Nokia/NNP)   :/:   (ORGANIZATION UBS/NNP Turns/NNP Bullish/NNP)   ;/:   (PERSON     Sees/NNP     Play/NNP     On/NNP     Low/NNP     End/NNP     Smart/NNP     Phones/NNP)   UBS/NNP   analyst/NN   (PERSON Gareth/NNP Jenkins/NNP)   this/DT   morning/NN   raised/VBD   his/PRP$   rating/NN   on/IN   to/TO   Buy/NNP   from/IN   (GPE Neutral/NNP)   ,/,   lifting/VBG   his/PRP$   price/NN   target/NN   to/TO   14.50/CD   Euros/NNP   from/IN   10.50/CD   or/CC   in/IN   greenbacks/NNS   ,/,   to/TO   $/$   19.55/CD   ,/,   from/IN   $/$   14.16/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB raised/VBD his/PRP$ rating/NN on/IN)
+	(VERB lifting/VBG his/PRP$ price/NN target/NN)
+noun phrases to consider:
+	(NOUN Search/NNP Tech/NNP Trader/NNP Daily/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN UBS/NNP Turns/NNP Bullish/NNP)
+	(NOUN Sees/NNP Play/NNP On/NNP Low/NNP)
+	(NOUN End/NNP Smart/NNP Phones/NNP UBS/NNP)
+	(NOUN analyst/NN Gareth/NNP Jenkins/NNP)
+	(NOUN morning/NN)
+	(NOUN Buy/NNP)
+	(NOUN Neutral/NNP)
+	(NOUN 14.50/CD Euros/NNP)
+	(NOUN greenbacks/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;We believe Nokia&#8217;s current valuation implies no value to its ability to transition consumers into Nokia service subscribers,&#8221; he writes in a research note.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('believe', 'VBP'), ('Nokia&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('current', 'VBP'), ('valuation', 'NN'), ('implies', 'NNS'), ('no', 'DT'), ('value', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('ability', 'NN'), ('to', 'TO'), ('transition', 'NN'), ('consumers', 'NNS'), ('into', 'IN'), ('Nokia', 'NNP'), ('service', 'NN'), ('subscribers,&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('he', 'PRP'), ('writes', 'VBZ'), ('in', 'IN'), ('a', 'DT'), ('research', 'NN'), ('note', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   believe/VBP   Nokia&/-NONE-   #/#   8217/CD   ;/:   s/NNS   current/VBP   valuation/NN   implies/NNS   no/DT   value/NN   to/TO   its/PRP$   ability/NN   to/TO   transition/NN   consumers/NNS   into/IN   (GPE Nokia/NNP)   service/NN   subscribers,&/-NONE-   #/#   8221/CD   ;/:   he/PRP   writes/VBZ   in/IN   a/DT   research/NN   note/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP)
+	(VERB current/VBP valuation/NN implies/NNS no/DT value/NN)
+	(VERB writes/VBZ in/IN a/DT research/NN note/NN)
+noun phrases to consider:
+	(NOUN s/NNS)
+	(NOUN ability/NN)
+	(NOUN transition/NN consumers/NNS)
+	(NOUN Nokia/NNP service/NN)
+
+----------------------------------
+original sentence: 
+Jenkins adds that the company is &#8220;well placed&#8221; to benefit from the growth of the smart phone market, which he sees expanding 34% in units in 2010, with 25% growth in revenue.
+
+POS tagged sentence: 
+[('Jenkins', 'NNS'), ('adds', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('well', 'RB'), ('placed&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('the', 'DT'), ('growth', 'NN'), ('of', 'IN'), ('the', 'DT'), ('smart', 'NN'), ('phone', 'NN'), ('market', 'NN'), (',', ','), ('which', 'WDT'), ('he', 'PRP'), ('sees', 'VBZ'), ('expanding', 'VBG'), ('34', 'CD'), ('%', 'NN'), ('in', 'IN'), ('units', 'NNS'), ('in', 'IN'), ('2010', 'CD'), (',', ','), ('with', 'IN'), ('25', 'CD'), ('%', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('revenue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Jenkins/NNS   adds/VBZ   that/IN   the/DT   company/NN   is/VBZ   &/CC   #/#   8220/CD   ;/:   well/RB   placed&/-NONE-   #/#   8221/CD   ;/:   to/TO   benefit/VB   from/IN   the/DT   growth/NN   of/IN   the/DT   smart/NN   phone/NN   market/NN   ,/,   which/WDT   he/PRP   sees/VBZ   expanding/VBG   34/CD   %/NN   in/IN   units/NNS   in/IN   2010/CD   ,/,   with/IN   25/CD   %/NN   growth/NN   in/IN   revenue/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;Nokia is one of few vendors who can profitably offer lower priced smart phones for the emerging markets,&#8221; he contends.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Nokia', 'NNP'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('few', 'JJ'), ('vendors', 'NNS'), ('who', 'WP'), ('can', 'MD'), ('profitably', 'RB'), ('offer', 'VB'), ('lower', 'JJR'), ('priced', 'VBN'), ('smart', 'NN'), ('phones', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('emerging', 'VBG'), ('markets,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('he', 'PRP'), ('contends', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (PERSON Nokia/NNP)   is/VBZ   one/CD   of/IN   few/JJ   vendors/NNS   who/WP   can/MD   profitably/RB   offer/VB   lower/JJR   priced/VBN   smart/NN   phones/NNS   for/IN   the/DT   emerging/VBG   markets,&/NN   #/#   8221/CD   ;/:   he/PRP   contends/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ one/CD of/IN few/JJ vendors/NNS)
+	(VERB offer/VB lower/JJR)
+
+tagged sentence:
+	 offer lower	res:-1
+	(VERB priced/VBN smart/NN phones/NNS for/IN the/DT)
+	(VERB emerging/VBG markets,&/NN)
+	(VERB contends/VBZ)
+
+tagged sentence:
+	 contends	res:-1
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;Nokia&#8217;s scale is likely to result in it continuing to be a major player in smart phones longer term and this will be enhanced as smart phones move down the price curve.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Nokia&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('scale', 'VBP'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('result', 'VB'), ('in', 'IN'), ('it', 'PRP'), ('continuing', 'VBG'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('major', 'JJ'), ('player', 'NN'), ('in', 'IN'), ('smart', 'NN'), ('phones', 'NNS'), ('longer', 'JJR'), ('term', 'NN'), ('and', 'CC'), ('this', 'DT'), ('will', 'MD'), ('be', 'VB'), ('enhanced', 'VBN'), ('as', 'IN'), ('smart', 'NN'), ('phones', 'NNS'), ('move', 'VB'), ('down', 'IN'), ('the', 'DT'), ('price', 'NN'), ('curve', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Nokia&/JJ   #/#   8217/CD   ;/:   s/NNS   scale/VBP   is/VBZ   likely/JJ   to/TO   result/VB   in/IN   it/PRP   continuing/VBG   to/TO   be/VB   a/DT   major/JJ   player/NN   in/IN   smart/NN   phones/NNS   longer/JJR   term/NN   and/CC   this/DT   will/MD   be/VB   enhanced/VBN   as/IN   smart/NN   phones/NNS   move/VB   down/IN   the/DT   price/NN   curve/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB scale/VBP is/VBZ likely/JJ)
+	(VERB result/VB in/IN it/PRP)
+	(VERB   continuing/VBG   to/TO   be/VB   a/DT   major/JJ   player/NN   in/IN   smart/NN   phones/NNS   longer/JJR   term/NN)
+	(VERB be/VB enhanced/VBN as/IN smart/NN phones/NNS)
+
+tagged sentence:
+	 be enhanced as smart phones	res:1
+	(VERB move/VB down/IN the/DT price/NN curve/NN)
+
+tagged sentence:
+	 move down the price curve	res:-1
+noun phrases to consider:
+	(NOUN Nokia&/JJ)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+On a short term note, Jenkins says that his checks indicate &#8220;a strong Q1&#8243; for Nokia in volume, mix and pricing.
+
+POS tagged sentence: 
+[('On', 'IN'), ('a', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('note', 'NN'), (',', ','), ('Jenkins', 'NNP'), ('says', 'VBZ'), ('that', 'IN'), ('his', 'PRP$'), ('checks', 'NNS'), ('indicate', 'VBP'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('a', 'DT'), ('strong', 'JJ'), ('Q1&', 'NN'), ('#', '#'), ('8243', 'CD'), (';', ':'), ('for', 'IN'), ('Nokia', 'NNP'), ('in', 'IN'), ('volume', 'NN'), (',', ','), ('mix', 'NN'), ('and', 'CC'), ('pricing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   a/DT   short/JJ   term/NN   note/NN   ,/,   (PERSON Jenkins/NNP)   says/VBZ   that/IN   his/PRP$   checks/NNS   indicate/VBP   &/CC   #/#   8220/CD   ;/:   a/DT   strong/JJ   Q1&/NN   #/#   8243/CD   ;/:   for/IN   (PERSON Nokia/NNP)   in/IN   volume/NN   ,/,   mix/NN   and/CC   pricing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB says/VBZ that/IN his/PRP$ checks/NNS)
+	(VERB indicate/VBP)
+noun phrases to consider:
+	(NOUN a/DT short/JJ term/NN note/NN)
+	(NOUN Jenkins/NNP)
+	(NOUN a/DT strong/JJ Q1&/NN)
+	(NOUN Nokia/NNP)
+	(NOUN volume/NN)
+	(NOUN mix/NN)
+	(NOUN pricing/NN)
+
+----------------------------------
+original sentence: 
+Jenkins lifts his EPS forecast for the company to 82 Euro cents a share from 76 cents for this year, and to 99 Euro cents from 84 cents for next year.
+
+POS tagged sentence: 
+[('Jenkins', 'NNS'), ('lifts', 'NNS'), ('his', 'PRP$'), ('EPS', 'NNP'), ('forecast', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('82', 'CD'), ('Euro', 'NNP'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), ('from', 'IN'), ('76', 'CD'), ('cents', 'NNS'), ('for', 'IN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('and', 'CC'), ('to', 'TO'), ('99', 'CD'), ('Euro', 'NNP'), ('cents', 'NNS'), ('from', 'IN'), ('84', 'CD'), ('cents', 'NNS'), ('for', 'IN'), ('next', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Jenkins/NNS   lifts/NNS   his/PRP$   (ORGANIZATION EPS/NNP)   forecast/NN   for/IN   the/DT   company/NN   to/TO   82/CD   Euro/NNP   cents/NNS   a/DT   share/NN   from/IN   76/CD   cents/NNS   for/IN   this/DT   year/NN   ,/,   and/CC   to/TO   99/CD   Euro/NNP   cents/NNS   from/IN   84/CD   cents/NNS   for/IN   next/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+NOK is up 8 cents, or 0.5%, at $15.64.
+
+POS tagged sentence: 
+[('NOK', 'NN'), ('is', 'VBZ'), ('up', 'IN'), ('8', 'CD'), ('cents', 'NNS'), (',', ','), ('or', 'CC'), ('0.5', 'CD'), ('%', 'NN'), (',', ','), ('at', 'IN'), ('$', '$'), ('15.64', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NOK/NN)   is/VBZ   up/IN   8/CD   cents/NNS   ,/,   or/CC   0.5/CD   %/NN   ,/,   at/IN   $/$   15.64/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ up/IN 8/CD cents/NNS)
+noun phrases to consider:
+	(NOUN NOK/NN)
+	(NOUN 0.5/CD %/NN)
+
+----------------------------------
+original sentence: 
+Tech Trader Daily HOME PAGE
+We welcome thoughtful comments from readers.
+
+POS tagged sentence: 
+[('Tech', 'NNP'), ('Trader', 'NNP'), ('Daily', 'NNP'), ('HOME', 'NNP'), ('PAGE', 'NNP'), ('We', 'NNP'), ('welcome', 'NN'), ('thoughtful', 'NN'), ('comments', 'NNS'), ('from', 'IN'), ('readers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Tech/NNP)   (PERSON Trader/NNP Daily/NNP)   HOME/NNP   PAGE/NNP   We/NNP   welcome/NN   thoughtful/NN   comments/NNS   from/IN   readers/NNS   ./.)
+----------------------------------
+original sentence: 
+Please comply with our .
+
+POS tagged sentence: 
+[('Please', 'NN'), ('comply', 'RB'), ('with', 'IN'), ('our', 'PRP$'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Please/NN) comply/RB with/IN our/PRP$ ./.)
+----------------------------------
+original sentence: 
+Our blogs do not require the use of your real name.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('blogs', 'NNS'), ('do', 'VBP'), ('not', 'RB'), ('require', 'VB'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('your', 'PRP$'), ('real', 'JJ'), ('name', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   blogs/NNS   do/VBP   not/RB   require/VB   the/DT   use/NN   of/IN   your/PRP$   real/JJ   name/NN   ./.)
+----------------------------------
+original sentence: 
+There are 2 comments
+About Tech Trader Daily
+Most Popular Blog Posts
+FROM ALL THINGS DIGITAL
+TOP TECHNOLOGY STORIES
+BARRON'S STOCKS TO WATCH BLOG
+
+
+POS tagged sentence: 
+[('There', 'EX'), ('are', 'VBP'), ('2', 'CD'), ('comments', 'NNS'), ('About', 'IN'), ('Tech', 'NNP'), ('Trader', 'NNP'), ('Daily', 'NNP'), ('Most', 'NNP'), ('Popular', 'NNP'), ('Blog', 'NNP'), ('Posts', 'NNP'), ('FROM', 'NNP'), ('ALL', 'NNP'), ('THINGS', 'NNP'), ('DIGITAL', 'NNP'), ('TOP', 'NNP'), ('TECHNOLOGY', 'NNP'), ('STORIES', 'NNP'), ('BARRON', 'NNP'), ("'S", 'POS'), ('STOCKS', 'NNP'), ('TO', 'NNP'), ('WATCH', 'NNP'), ('BLOG', 'NNP')]
+
+
+ERTAGGED sentence: (S   There/EX   are/VBP   2/CD   comments/NNS   About/IN   (PERSON     Tech/NNP     Trader/NNP     Daily/NNP     Most/NNP     Popular/NNP     Blog/NNP)   Posts/NNP   FROM/NNP   ALL/NNP   THINGS/NNP   (ORGANIZATION DIGITAL/NNP)   TOP/NNP   (ORGANIZATION TECHNOLOGY/NNP)   STORIES/NNP   (ORGANIZATION BARRON/NNP)   'S/POS   (ORGANIZATION STOCKS/NNP)   TO/NNP   WATCH/NNP   BLOG/NNP)
+
+veryneg:0	neg:3	pos:1	verypos:0	total:0

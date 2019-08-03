@@ -1,0 +1,125 @@
+
+----------------------------------
+original sentence: 
+Citibank NYSE: C Downgrades Abbot Laboratories NYSE: ABT American Banking News
+Citibank NYSE: C Downgrades Abbot Laboratories NYSE: ABT  March 12th, 2010 &bull;  &bull; by admin  Filed Under: Citibank NYSE: C has downgraded Abbot Laborites from a ‚ÄúHold‚Äù rating to a ‚ÄúSell‚Äù rating, because of signs that the company may face profitability trouble in 2010.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Downgrades', 'NNP'), ('Abbot', 'NNP'), ('Laboratories', 'NNPS'), ('NYSE', 'NNP'), (':', ':'), ('ABT', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Downgrades', 'NNP'), ('Abbot', 'NNP'), ('Laboratories', 'NNPS'), ('NYSE', 'NNP'), (':', ':'), ('ABT', 'NNP'), ('March', 'NNP'), ('12th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('has', 'VBZ'), ('downgraded', 'VBN'), ('Abbot', 'NNP'), ('Laborites', 'NNP'), ('from', 'IN'), ('a', 'DT'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('Hold', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('rating', 'NN'), ('to', 'TO'), ('a', 'DT'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('Sell', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('rating', 'NN'), (',', ','), ('because', 'IN'), ('of', 'IN'), ('signs', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('may', 'MD'), ('face', 'VB'), ('profitability', 'NN'), ('trouble', 'NN'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Downgrades/NNP   Abbot/NNP   Laboratories/NNPS   NYSE/NNP   :/:   (ORGANIZATION ABT/NNP American/NNP)   Banking/NNP   News/NNP   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   Downgrades/NNP   Abbot/NNP   Laboratories/NNPS   NYSE/NNP   :/:   (ORGANIZATION ABT/NNP)   March/NNP   12th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   has/VBZ   downgraded/VBN   (PERSON Abbot/NNP Laborites/NNP)   from/IN   a/DT   ‚/CD   Ä/CD   ú/CD   Hold/NNP   ‚/NNP   Ä/NNP   ù/NNP   rating/NN   to/TO   a/DT   ‚/NN   Ä/:   ú/:   (PERSON Sell/NNP)   ‚/:   Ä/:   ù/:   rating/NN   ,/,   because/IN   of/IN   signs/NNS   that/IN   the/DT   company/NN   may/MD   face/VB   profitability/NN   trouble/NN   in/IN   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   downgraded/VBN   Abbot/NNP   Laborites/NNP   from/IN   a/DT   ‚/CD   Ä/CD   ú/CD   Hold/NNP   ‚/NNP   Ä/NNP   ù/NNP   rating/NN)
+
+tagged sentence:
+	 has downgraded Abbot Laborites from a ‚ Ä ú Hold ‚ Ä ù rating	res:-2
+	(VERB face/VB profitability/NN trouble/NN in/IN 2010/CD)
+noun phrases to consider:
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Downgrades/NNP Abbot/NNP Laboratories/NNPS)
+	(NOUN NYSE/NNP)
+	(NOUN ABT/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Downgrades/NNP Abbot/NNP Laboratories/NNPS)
+	(NOUN NYSE/NNP)
+	(NOUN ABT/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN ‚/NN)
+	(NOUN Sell/NNP)
+	(NOUN rating/NN)
+	(NOUN signs/NNS)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+Citi simultaneously raised the company‚Äôs price target to $52.00, up from $46.00.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('simultaneously', 'RB'), ('raised', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('$', '$'), ('52.00', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('46.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   simultaneously/RB   raised/VBD   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   price/NN   target/NN   to/TO   $/$   52.00/CD   ,/,   up/RB   from/IN   $/$   46.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB raised/VBD the/DT company/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN s/NNS price/NN target/NN)
+
+----------------------------------
+original sentence: 
+Citibank analyst Matthew Dodds said, &#8220;ABT appears to be masking underlying profitability trouble in &#8216;10 with larger accretion from Solvay than forecast.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('analyst', 'NN'), ('Matthew', 'NNP'), ('Dodds', 'NNP'), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('ABT', 'NNP'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('masking', 'VBG'), ('underlying', 'VBG'), ('profitability', 'NN'), ('trouble', 'NN'), ('in', 'IN'), ('&', 'CC'), ('#', '#'), ('8216', 'CD'), (';', ':'), ('10', 'CD'), ('with', 'IN'), ('larger', 'JJR'), ('accretion', 'NN'), ('from', 'IN'), ('Solvay', 'NNP'), ('than', 'IN'), ('forecast', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citibank/NNP)   analyst/NN   (PERSON Matthew/NNP Dodds/NNP)   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   (ORGANIZATION ABT/NNP)   appears/VBZ   to/TO   be/VB   masking/VBG   underlying/VBG   profitability/NN   trouble/NN   in/IN   &/CC   #/#   8216/CD   ;/:   10/CD   with/IN   larger/JJR   accretion/NN   from/IN   (GPE Solvay/NNP)   than/IN   forecast/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB   appears/VBZ   to/TO   be/VB   masking/VBG   underlying/VBG   profitability/NN   trouble/NN   in/IN)
+noun phrases to consider:
+	(NOUN Citibank/NNP analyst/NN Matthew/NNP Dodds/NNP)
+	(NOUN ABT/NNP)
+	(NOUN larger/JJR accretion/NN)
+	(NOUN Solvay/NNP)
+	(NOUN forecast/NN)
+
+----------------------------------
+original sentence: 
+The Solvay EPS lift should trail off in &#8216;11.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Solvay', 'NNP'), ('EPS', 'NNP'), ('lift', 'NN'), ('should', 'MD'), ('trail', 'VB'), ('off', 'RP'), ('in', 'IN'), ('&', 'CC'), ('#', '#'), ('8216', 'CD'), (';', ':'), ('11', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Solvay/NNP)   EPS/NNP   lift/NN   should/MD   trail/VB   off/RP   in/IN   &/CC   #/#   8216/CD   ;/:   11/CD   ./.)
+----------------------------------
+original sentence: 
+With a thin pipeline, this only increases ABT&#8217;s dependence on Humira, in our view.&#8221;
+Dodds added, &#8220;ABT appears to be understating an overall margin slide for its base business as we calculate Solvay accretion at nearly $0.30 in 2010.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('thin', 'JJ'), ('pipeline', 'NN'), (',', ','), ('this', 'DT'), ('only', 'RB'), ('increases', 'VBZ'), ('ABT&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('dependence', 'VBP'), ('on', 'IN'), ('Humira', 'NNP'), (',', ','), ('in', 'IN'), ('our', 'PRP$'), ('view.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Dodds', 'NNP'), ('added', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('ABT', 'NNP'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('understating', 'VBG'), ('an', 'DT'), ('overall', 'JJ'), ('margin', 'NN'), ('slide', 'NN'), ('for', 'IN'), ('its', 'PRP$'), ('base', 'NN'), ('business', 'NN'), ('as', 'RB'), ('we', 'PRP'), ('calculate', 'VBP'), ('Solvay', 'NNP'), ('accretion', 'NN'), ('at', 'IN'), ('nearly', 'RB'), ('$', '$'), ('0.30', 'CD'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   thin/JJ   pipeline/NN   ,/,   this/DT   only/RB   increases/VBZ   ABT&/JJ   #/#   8217/CD   ;/:   s/NNS   dependence/VBP   on/IN   (GPE Humira/NNP)   ,/,   in/IN   our/PRP$   view.&/JJ   #/#   8221/CD   ;/:   (PERSON Dodds/NNP)   added/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   (ORGANIZATION ABT/NNP)   appears/VBZ   to/TO   be/VB   understating/VBG   an/DT   overall/JJ   margin/NN   slide/NN   for/IN   its/PRP$   base/NN   business/NN   as/RB   we/PRP   calculate/VBP   (PERSON Solvay/NNP)   accretion/NN   at/IN   nearly/RB   $/$   0.30/CD   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+This compares to management guidance of just $0.10 and we are surprised how little attention this low number has received to date.&#8221;
+For 2010, the bank expects the company to report earnings per share of $4.18, versus consensus estimates of $4.24.
+
+POS tagged sentence: 
+[('This', 'DT'), ('compares', 'VBZ'), ('to', 'TO'), ('management', 'NN'), ('guidance', 'NN'), ('of', 'IN'), ('just', 'RB'), ('$', '$'), ('0.10', 'CD'), ('and', 'CC'), ('we', 'PRP'), ('are', 'VBP'), ('surprised', 'VBN'), ('how', 'WRB'), ('little', 'JJ'), ('attention', 'NN'), ('this', 'DT'), ('low', 'JJ'), ('number', 'NN'), ('has', 'VBZ'), ('received', 'VBN'), ('to', 'TO'), ('date.&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('For', 'NNP'), ('2010', 'CD'), (',', ','), ('the', 'DT'), ('bank', 'NN'), ('expects', 'VBZ'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('report', 'VB'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('4.18', 'CD'), (',', ','), ('versus', 'CC'), ('consensus', 'NN'), ('estimates', 'NNS'), ('of', 'IN'), ('$', '$'), ('4.24', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   compares/VBZ   to/TO   management/NN   guidance/NN   of/IN   just/RB   $/$   0.10/CD   and/CC   we/PRP   are/VBP   surprised/VBN   how/WRB   little/JJ   attention/NN   this/DT   low/JJ   number/NN   has/VBZ   received/VBN   to/TO   date.&/NNP   #/#   8221/CD   ;/:   For/NNP   2010/CD   ,/,   the/DT   bank/NN   expects/VBZ   the/DT   company/NN   to/TO   report/VB   earnings/NNS   per/IN   share/NN   of/IN   $/$   4.18/CD   ,/,   versus/CC   consensus/NN   estimates/NNS   of/IN   $/$   4.24/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB compares/VBZ to/TO management/NN guidance/NN of/IN just/RB)
+	(VERB are/VBP surprised/VBN)
+	(VERB has/VBZ received/VBN)
+	(VERB expects/VBZ the/DT company/NN)
+	(VERB report/VB earnings/NNS per/IN share/NN of/IN)
+noun phrases to consider:
+	(NOUN little/JJ attention/NN)
+	(NOUN this/DT low/JJ number/NN)
+	(NOUN date.&/NNP)
+	(NOUN For/NNP)
+	(NOUN bank/NN)
+	(NOUN consensus/NN estimates/NNS)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:1	neg:0	pos:0	verypos:0	total:0

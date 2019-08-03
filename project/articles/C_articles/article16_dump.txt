@@ -1,0 +1,144 @@
+
+----------------------------------
+original sentence: 
+BlackRock NYSE: BLK Downgraded by Citigroup NYSE: C and Deutsche Bank American Banking News
+BlackRock NYSE: BLK Downgraded by Citigroup NYSE: C and Deutsche Bank
+ April 3rd, 2010 &bull;  &bull; by admin  Filed Under: Money management behemoth BlackRock NYSE: BLK was downgraded by analyst at both Citigroup Inc NYSE: C and Deutsche Bank AG, citing the belief that investors were overestimating the company‚Äôs future profits.
+
+POS tagged sentence: 
+[('BlackRock', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BLK', 'NNP'), ('Downgraded', 'NNP'), ('by', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('and', 'CC'), ('Deutsche', 'NNP'), ('Bank', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('BlackRock', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BLK', 'NNP'), ('Downgraded', 'NNP'), ('by', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('and', 'CC'), ('Deutsche', 'NNP'), ('Bank', 'NNP'), ('April', 'NNP'), ('3rd', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Money', 'NNP'), ('management', 'NN'), ('behemoth', 'NN'), ('BlackRock', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BLK', 'NNP'), ('was', 'VBD'), ('downgraded', 'VBN'), ('by', 'IN'), ('analyst', 'NN'), ('at', 'IN'), ('both', 'DT'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('and', 'CC'), ('Deutsche', 'NNP'), ('Bank', 'NNP'), ('AG', 'NNP'), (',', ','), ('citing', 'VBG'), ('the', 'DT'), ('belief', 'NN'), ('that', 'IN'), ('investors', 'NNS'), ('were', 'VBD'), ('overestimating', 'VBG'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('future', 'VBP'), ('profits', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BlackRock/NNP)   NYSE/NNP   :/:   (ORGANIZATION BLK/NNP Downgraded/NNP)   by/IN   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   and/CC   (ORGANIZATION Deutsche/NNP Bank/NNP American/NNP)   Banking/NNP   News/NNP   (ORGANIZATION BlackRock/NNP)   NYSE/NNP   :/:   (ORGANIZATION BLK/NNP Downgraded/NNP)   by/IN   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   and/CC   (ORGANIZATION Deutsche/NNP Bank/NNP)   April/NNP   3rd/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   Money/NNP   management/NN   behemoth/NN   (ORGANIZATION BlackRock/NNP)   NYSE/NNP   :/:   BLK/NNP   was/VBD   downgraded/VBN   by/IN   analyst/NN   at/IN   both/DT   (ORGANIZATION Citigroup/NNP Inc/NNP)   NYSE/NNP   :/:   C/NNP   and/CC   (ORGANIZATION Deutsche/NNP Bank/NNP)   AG/NNP   ,/,   citing/VBG   the/DT   belief/NN   that/IN   investors/NNS   were/VBD   overestimating/VBG   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   future/VBP   profits/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   downgraded/VBN   by/IN   analyst/NN   at/IN   both/DT   Citigroup/NNP   Inc/NNP   NYSE/NNP)
+
+tagged sentence:
+	 was downgraded by analyst at both Citigroup Inc NYSE	res:-2
+	(VERB citing/VBG the/DT belief/NN that/IN investors/NNS)
+	(VERB were/VBD overestimating/VBG the/DT company/NN)
+	(VERB future/VBP profits/NNS)
+noun phrases to consider:
+	(NOUN BlackRock/NNP NYSE/NNP)
+	(NOUN BLK/NNP Downgraded/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Deutsche/NNP Bank/NNP American/NNP Banking/NNP)
+	(NOUN News/NNP BlackRock/NNP NYSE/NNP)
+	(NOUN BLK/NNP Downgraded/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Deutsche/NNP Bank/NNP April/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Money/NNP management/NN behemoth/NN BlackRock/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN BLK/NNP)
+	(NOUN C/NNP)
+	(NOUN Deutsche/NNP Bank/NNP AG/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Citigroup analyst William Katz said in a research note published on Friday that investors are too optimistic about BlackRock‚Äôs December acquisition of Barclays Global Investors and are underestimating the amount of reinvestment spending at company.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('analyst', 'NN'), ('William', 'NNP'), ('Katz', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('research', 'NN'), ('note', 'NN'), ('published', 'VBD'), ('on', 'IN'), ('Friday', 'NNP'), ('that', 'IN'), ('investors', 'NNS'), ('are', 'VBP'), ('too', 'RB'), ('optimistic', 'JJ'), ('about', 'IN'), ('BlackRock', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('December', 'NNP'), ('acquisition', 'NN'), ('of', 'IN'), ('Barclays', 'NNP'), ('Global', 'NNP'), ('Investors', 'NNPS'), ('and', 'CC'), ('are', 'VBP'), ('underestimating', 'VBG'), ('the', 'DT'), ('amount', 'NN'), ('of', 'IN'), ('reinvestment', 'NN'), ('spending', 'NN'), ('at', 'IN'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   analyst/NN   (PERSON William/NNP Katz/NNP)   said/VBD   in/IN   a/DT   research/NN   note/NN   published/VBD   on/IN   Friday/NNP   that/IN   investors/NNS   are/VBP   too/RB   optimistic/JJ   about/IN   (ORGANIZATION BlackRock/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   December/NNP   acquisition/NN   of/IN   (PERSON Barclays/NNP Global/NNP)   Investors/NNPS   and/CC   are/VBP   underestimating/VBG   the/DT   amount/NN   of/IN   reinvestment/NN   spending/NN   at/IN   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD in/IN a/DT research/NN note/NN)
+	(VERB published/VBD on/IN Friday/NNP that/IN investors/NNS)
+	(VERB   are/VBP   too/RB   optimistic/JJ   about/IN   BlackRock/NNP   ‚/NNP   Ä/NNP   ô/NNP)
+
+tagged sentence:
+	 are too optimistic about BlackRock ‚ Ä ô	res:1
+	(VERB   s/VBZ   December/NNP   acquisition/NN   of/IN   Barclays/NNP   Global/NNP   Investors/NNPS)
+	(VERB   are/VBP   underestimating/VBG   the/DT   amount/NN   of/IN   reinvestment/NN   spending/NN   at/IN   company/NN)
+
+tagged sentence:
+	 are underestimating the amount of reinvestment spending at company	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP analyst/NN William/NNP Katz/NNP)
+
+----------------------------------
+original sentence: 
+Katz said that investors may be placing too much emphasis on the company‚Äôs results from the month of December in its fourth quarter earnings results.
+
+POS tagged sentence: 
+[('Katz', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('investors', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('placing', 'VBG'), ('too', 'RB'), ('much', 'RB'), ('emphasis', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('results', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('month', 'NN'), ('of', 'IN'), ('December', 'NNP'), ('in', 'IN'), ('its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Katz/NNP)   said/VBD   that/IN   investors/NNS   may/MD   be/VB   placing/VBG   too/RB   much/RB   emphasis/VBZ   on/IN   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   results/NNS   from/IN   the/DT   month/NN   of/IN   December/NNP   in/IN   its/PRP$   fourth/JJ   quarter/NN   earnings/NNS   results/NNS   ./.)
+----------------------------------
+original sentence: 
+BlackRock recently purchased BGI, owners of the iShares ETFs from London‚Äôs Barclays Plc for $15.2 billion in cash and stock to become the world‚Äôs largest asset manager.
+
+POS tagged sentence: 
+[('BlackRock', 'NNP'), ('recently', 'RB'), ('purchased', 'VBD'), ('BGI', 'NNP'), (',', ','), ('owners', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('iShares', 'NNP'), ('ETFs', 'NNP'), ('from', 'IN'), ('London', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Barclays', 'NNPS'), ('Plc', 'NNP'), ('for', 'IN'), ('$', '$'), ('15.2', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('and', 'CC'), ('stock', 'NN'), ('to', 'TO'), ('become', 'VB'), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('asset', 'NN'), ('manager', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BlackRock/NNP)   recently/RB   purchased/VBD   (ORGANIZATION BGI/NNP)   ,/,   owners/NNS   of/IN   the/DT   (ORGANIZATION iShares/NNP)   ETFs/NNP   from/IN   (GPE London/NNP)   ‚/:   Ä/:   ô/:   s/NNS   (PERSON Barclays/NNPS Plc/NNP)   for/IN   $/$   15.2/CD   billion/CD   in/IN   cash/NN   and/CC   stock/NN   to/TO   become/VB   the/DT   world/NN   ‚/:   Ä/:   ô/:   s/NNS   largest/JJS   asset/NN   manager/NN   ./.)
+----------------------------------
+original sentence: 
+‚ÄúWe believe first quarter results are likely to be a negative catalyst on the stock, particularly as investors have been recently ratcheting up‚Äù expectations, Katz wrote.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('We', 'PRP'), ('believe', 'VBP'), ('first', 'RB'), ('quarter', 'JJR'), ('results', 'NNS'), ('are', 'VBP'), ('likely', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('negative', 'JJ'), ('catalyst', 'NN'), ('on', 'IN'), ('the', 'DT'), ('stock', 'NN'), (',', ','), ('particularly', 'RB'), ('as', 'IN'), ('investors', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('recently', 'RB'), ('ratcheting', 'VBG'), ('up', 'RP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('expectations', 'NNS'), (',', ','), ('Katz', 'NNP'), ('wrote', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   We/PRP   believe/VBP   first/RB   quarter/JJR   results/NNS   are/VBP   likely/JJ   to/TO   be/VB   a/DT   negative/JJ   catalyst/NN   on/IN   the/DT   stock/NN   ,/,   particularly/RB   as/IN   investors/NNS   have/VBP   been/VBN   recently/RB   ratcheting/VBG   up/RP   ‚/:   Ä/:   ù/:   expectations/NNS   ,/,   (PERSON Katz/NNP)   wrote/VBD   ./.)
+----------------------------------
+original sentence: 
+The fourth quarter ‚Äúonly included one month stub impact from BGI, heightened by the fact that December was an overly strong month.‚Äù
+According to data from Bloomberg, Katz is the only analyst to give BlackRock a sell recommendation.
+
+POS tagged sentence: 
+[('The', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('only', 'RB'), ('included', 'VBD'), ('one', 'CD'), ('month', 'NN'), ('stub', 'NN'), ('impact', 'NN'), ('from', 'IN'), ('BGI', 'NNP'), (',', ','), ('heightened', 'VBD'), ('by', 'IN'), ('the', 'DT'), ('fact', 'NN'), ('that', 'IN'), ('December', 'NNP'), ('was', 'VBD'), ('an', 'DT'), ('overly', 'RB'), ('strong', 'JJ'), ('month.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('According', 'NNP'), ('to', 'TO'), ('data', 'NNS'), ('from', 'IN'), ('Bloomberg', 'NNP'), (',', ','), ('Katz', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('only', 'JJ'), ('analyst', 'NN'), ('to', 'TO'), ('give', 'VB'), ('BlackRock', 'NNP'), ('a', 'DT'), ('sell', 'NN'), ('recommendation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   fourth/JJ   quarter/NN   ‚/:   Ä/:   ú/:   only/RB   included/VBD   one/CD   month/NN   stub/NN   impact/NN   from/IN   (ORGANIZATION BGI/NNP)   ,/,   heightened/VBD   by/IN   the/DT   fact/NN   that/IN   December/NNP   was/VBD   an/DT   overly/RB   strong/JJ   month./NNP   ‚/NNP   Ä/NNP   ù/NNP   According/NNP   to/TO   data/NNS   from/IN   (GPE Bloomberg/NNP)   ,/,   (PERSON Katz/NNP)   is/VBZ   the/DT   only/JJ   analyst/NN   to/TO   give/VB   (ORGANIZATION BlackRock/NNP)   a/DT   sell/NN   recommendation/NN   ./.)
+----------------------------------
+original sentence: 
+12 other analyst have a buy or a hold rating on the company.
+
+POS tagged sentence: 
+[('12', 'CD'), ('other', 'JJ'), ('analyst', 'NN'), ('have', 'VBP'), ('a', 'DT'), ('buy', 'NN'), ('or', 'CC'), ('a', 'DT'), ('hold', 'JJ'), ('rating', 'NN'), ('on', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   12/CD   other/JJ   analyst/NN   have/VBP   a/DT   buy/NN   or/CC   a/DT   hold/JJ   rating/NN   on/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+Deutsche Bank‚Äôs Michael Carrier recently reduced his recommendation on BlackRock to ‚Äúhold‚Äù from ‚Äúbuy,‚Äù projecting a share price of $235 within 12 months.
+
+POS tagged sentence: 
+[('Deutsche', 'NNP'), ('Bank', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Michael', 'NNP'), ('Carrier', 'NNP'), ('recently', 'RB'), ('reduced', 'VBD'), ('his', 'PRP$'), ('recommendation', 'NN'), ('on', 'IN'), ('BlackRock', 'NNP'), ('to', 'TO'), ('\xe2', 'VB'), ('\x80', ':'), ('\x9c', ':'), ('hold', 'NN'), ('\xe2', ':'), ('\x80', 'NN'), ('\x9d', ':'), ('from', 'IN'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('buy', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('projecting', 'VBG'), ('a', 'DT'), ('share', 'NN'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('235', 'CD'), ('within', 'IN'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Deutsche/NNP)   (ORGANIZATION Bank/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   (PERSON Michael/NNP Carrier/NNP)   recently/RB   reduced/VBD   his/PRP$   recommendation/NN   on/IN   (ORGANIZATION BlackRock/NNP)   to/TO   ‚/VB   Ä/:   ú/:   hold/NN   ‚/:   Ä/NN   ù/:   from/IN   ‚/CD   Ä/CD   ú/CD   buy/NN   ,/,   ‚/:   Ä/:   ù/:   projecting/VBG   a/DT   share/NN   price/NN   of/IN   $/$   235/CD   within/IN   12/CD   months/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ Michael/NNP Carrier/NNP recently/RB)
+	(VERB reduced/VBD his/PRP$ recommendation/NN on/IN BlackRock/NNP)
+	(VERB ‚/VB)
+	(VERB projecting/VBG a/DT share/NN price/NN of/IN)
+noun phrases to consider:
+	(NOUN Deutsche/NNP Bank/NNP ‚/NNP Ä/NNP)
+	(NOUN ô/NNP)
+	(NOUN hold/NN)
+	(NOUN Ä/NN)
+	(NOUN ú/CD buy/NN)
+	(NOUN 12/CD months/NNS)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:1	neg:1	pos:1	verypos:0	total:0

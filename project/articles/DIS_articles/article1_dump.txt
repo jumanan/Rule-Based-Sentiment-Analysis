@@ -1,0 +1,586 @@
+
+----------------------------------
+original sentence: 
+Business & Financial News, Breaking US & International News | Reuters.com
+ The Walt Disney Company DIS DIS on New York Consolidated
+Price Change % chg Latest Key Developments
+ The Walt Disney Company Close To Miramax Sale For $625 Million DJ
+Wednesday, 21 Apr 2010 10:53pm EDT
+Dow Jones reported that The Walt Disney Company is close to selling the Miramax film studio for $625 million to Ron Burkle's Yucaipa Cos., Bloomberg News reported, citing unnamed sources.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('&', 'CC'), ('Financial', 'NNP'), ('News', 'NNP'), (',', ','), ('Breaking', 'NNP'), ('US', 'NNP'), ('&', 'CC'), ('International', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Reuters.com', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('DIS', 'NNP'), ('DIS', 'NNP'), ('on', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('Consolidated', 'NNP'), ('Price', 'NNP'), ('Change', 'NNP'), ('%', 'NN'), ('chg', 'NN'), ('Latest', 'NNP'), ('Key', 'NNP'), ('Developments', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Close', 'NNP'), ('To', 'NNP'), ('Miramax', 'NNP'), ('Sale', 'NNP'), ('For', 'NNP'), ('$', '$'), ('625', 'CD'), ('Million', 'CD'), ('DJ', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('21', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('53pm', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('is', 'VBZ'), ('close', 'JJ'), ('to', 'TO'), ('selling', 'VBG'), ('the', 'DT'), ('Miramax', 'NNP'), ('film', 'NN'), ('studio', 'NN'), ('for', 'IN'), ('$', '$'), ('625', 'CD'), ('million', 'CD'), ('to', 'TO'), ('Ron', 'NNP'), ('Burkle', 'NNP'), ("'s", 'POS'), ('Yucaipa', 'NNP'), ('Cos.', 'NNP'), (',', ','), ('Bloomberg', 'NNP'), ('News', 'NNP'), ('reported', 'VBD'), (',', ','), ('citing', 'VBG'), ('unnamed', 'VBN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   &/CC   (ORGANIZATION Financial/NNP News/NNP)   ,/,   (PERSON Breaking/NNP US/NNP)   &/CC   (ORGANIZATION International/NNP News/NNP)   |/NNP   Reuters.com/NNP   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   (ORGANIZATION DIS/NNP)   DIS/NNP   on/IN   (GPE New/NNP York/NNP)   Consolidated/NNP   Price/NNP   Change/NNP   %/NN   chg/NN   (PERSON Latest/NNP Key/NNP)   Developments/NNP   The/NNP   (ORGANIZATION     Walt/NNP     Disney/NNP     Company/NNP     Close/NNP     To/NNP     Miramax/NNP     Sale/NNP)   For/NNP   $/$   625/CD   Million/CD   DJ/NNP   Wednesday/NNP   ,/,   21/CD   Apr/NNP   2010/CD   10/CD   :/:   53pm/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   is/VBZ   close/JJ   to/TO   selling/VBG   the/DT   (ORGANIZATION Miramax/NNP)   film/NN   studio/NN   for/IN   $/$   625/CD   million/CD   to/TO   (PERSON Ron/NNP Burkle/NNP)   's/POS   (PERSON Yucaipa/NNP Cos./NNP)   ,/,   (ORGANIZATION Bloomberg/NNP News/NNP)   reported/VBD   ,/,   citing/VBG   unnamed/VBN   sources/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB is/VBZ close/JJ)
+	(VERB selling/VBG the/DT Miramax/NNP film/NN studio/NN for/IN)
+	(VERB reported/VBD)
+	(VERB citing/VBG unnamed/VBN sources/NNS)
+noun phrases to consider:
+	(NOUN Business/NN)
+	(NOUN Financial/NNP News/NNP)
+	(NOUN Breaking/NNP US/NNP)
+	(NOUN International/NNP News/NNP |/NNP Reuters.com/NNP)
+	(NOUN The/NNP Walt/NNP Disney/NNP Company/NNP)
+	(NOUN DIS/NNP DIS/NNP)
+	(NOUN New/NNP York/NNP Consolidated/NNP Price/NNP)
+	(NOUN Change/NNP %/NN chg/NN Latest/NNP)
+	(NOUN Key/NNP Developments/NNP The/NNP Walt/NNP)
+	(NOUN Disney/NNP Company/NNP Close/NNP To/NNP)
+	(NOUN Miramax/NNP Sale/NNP For/NNP)
+	(NOUN Million/CD DJ/NNP Wednesday/NNP)
+	(NOUN 21/CD Apr/NNP)
+	(NOUN 53pm/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN Ron/NNP Burkle/NNP)
+	(NOUN Yucaipa/NNP Cos./NNP)
+	(NOUN Bloomberg/NNP News/NNP)
+
+----------------------------------
+original sentence: 
+The agreement could be completed in the next 48 hours, the report on Bloomberg's Web site said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('agreement', 'NN'), ('could', 'MD'), ('be', 'VB'), ('completed', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('48', 'CD'), ('hours', 'NNS'), (',', ','), ('the', 'DT'), ('report', 'NN'), ('on', 'IN'), ('Bloomberg', 'NNP'), ("'s", 'POS'), ('Web', 'NNP'), ('site', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   agreement/NN   could/MD   be/VB   completed/VBN   in/IN   the/DT   next/JJ   48/CD   hours/NNS   ,/,   the/DT   report/NN   on/IN   (PERSON Bloomberg/NNP)   's/POS   Web/NNP   site/NN   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Miramax founders and brothers Bob and Harvey Weinstein will manage the library but won't hold an equity stake, reports said.
+
+POS tagged sentence: 
+[('Miramax', 'NNP'), ('founders', 'NNS'), ('and', 'CC'), ('brothers', 'NNS'), ('Bob', 'NNP'), ('and', 'CC'), ('Harvey', 'NNP'), ('Weinstein', 'NNP'), ('will', 'MD'), ('manage', 'VB'), ('the', 'DT'), ('library', 'NN'), ('but', 'CC'), ('wo', 'MD'), ("n't", 'RB'), ('hold', 'VB'), ('an', 'DT'), ('equity', 'NN'), ('stake', 'NN'), (',', ','), ('reports', 'VBZ'), ('said', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Miramax/NNP)   founders/NNS   and/CC   brothers/NNS   (PERSON Bob/NNP)   and/CC   (PERSON Harvey/NNP Weinstein/NNP)   will/MD   manage/VB   the/DT   library/NN   but/CC   wo/MD   n't/RB   hold/VB   an/DT   equity/NN   stake/NN   ,/,   reports/VBZ   said/VBN   ./.)
+----------------------------------
+original sentence: 
+The Walt Disney Company To Shut Nashville Label Lyric Street Records; Lay Off 20 25 Workers AP
+Wednesday, 14 Apr 2010 05:30pm EDT
+The Associated Press reported that The Walt Disney Company is closing its Nashville recording label, Lyric Street Records, and will transition country music band Rascal Flatts to another Disney label.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('To', 'NNP'), ('Shut', 'NNP'), ('Nashville', 'NNP'), ('Label', 'NNP'), ('Lyric', 'NNP'), ('Street', 'NNP'), ('Records', 'NNP'), (';', ':'), ('Lay', 'NNP'), ('Off', 'NNP'), ('20', 'CD'), ('25', 'CD'), ('Workers', 'NNS'), ('AP', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('14', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('30pm', 'CD'), ('EDT', 'NNP'), ('The', 'NNP'), ('Associated', 'NNP'), ('Press', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('is', 'VBZ'), ('closing', 'VBG'), ('its', 'PRP$'), ('Nashville', 'NNP'), ('recording', 'VBG'), ('label', 'NN'), (',', ','), ('Lyric', 'NNP'), ('Street', 'NNP'), ('Records', 'NNP'), (',', ','), ('and', 'CC'), ('will', 'MD'), ('transition', 'VB'), ('country', 'NN'), ('music', 'NN'), ('band', 'NN'), ('Rascal', 'NNP'), ('Flatts', 'NNP'), ('to', 'TO'), ('another', 'DT'), ('Disney', 'NNP'), ('label', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION     Walt/NNP     Disney/NNP     Company/NNP     To/NNP     Shut/NNP     Nashville/NNP     Label/NNP     Lyric/NNP     Street/NNP     Records/NNP)   ;/:   (PERSON Lay/NNP Off/NNP)   20/CD   25/CD   Workers/NNS   (ORGANIZATION AP/NNP)   Wednesday/NNP   ,/,   14/CD   Apr/NNP   2010/CD   05/CD   :/:   30pm/CD   EDT/NNP   The/NNP   (ORGANIZATION Associated/NNP)   Press/NNP   reported/VBD   that/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   is/VBZ   closing/VBG   its/PRP$   Nashville/NNP   recording/VBG   label/NN   ,/,   (PERSON Lyric/NNP Street/NNP Records/NNP)   ,/,   and/CC   will/MD   transition/VB   country/NN   music/NN   band/NN   (PERSON Rascal/NNP Flatts/NNP)   to/TO   another/DT   Disney/NNP   label/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB is/VBZ closing/VBG its/PRP$ Nashville/NNP)
+	(VERB recording/VBG label/NN)
+	(VERB   transition/VB   country/NN   music/NN   band/NN   Rascal/NNP   Flatts/NNP)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP To/NNP)
+	(NOUN Shut/NNP Nashville/NNP Label/NNP Lyric/NNP)
+
+tagged sentence:
+	 Shut Nashville Label Lyric	res:-1
+	(NOUN Street/NNP Records/NNP)
+	(NOUN Lay/NNP Off/NNP)
+	(NOUN 25/CD Workers/NNS AP/NNP Wednesday/NNP)
+	(NOUN 14/CD Apr/NNP)
+	(NOUN 30pm/CD EDT/NNP The/NNP Associated/NNP Press/NNP)
+	(NOUN Lyric/NNP Street/NNP Records/NNP)
+	(NOUN Disney/NNP label/NN)
+
+----------------------------------
+original sentence: 
+The phased shutdown will result in the layoff of about 20 to 25 employees after they finish promoting existing albums.
+
+POS tagged sentence: 
+[('The', 'DT'), ('phased', 'VBN'), ('shutdown', 'NN'), ('will', 'MD'), ('result', 'VB'), ('in', 'IN'), ('the', 'DT'), ('layoff', 'NN'), ('of', 'IN'), ('about', 'RB'), ('20', 'CD'), ('to', 'TO'), ('25', 'CD'), ('employees', 'NNS'), ('after', 'IN'), ('they', 'PRP'), ('finish', 'VBP'), ('promoting', 'VBG'), ('existing', 'VBG'), ('albums', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   phased/VBN   shutdown/NN   will/MD   result/VB   in/IN   the/DT   layoff/NN   of/IN   about/RB   20/CD   to/TO   25/CD   employees/NNS   after/IN   they/PRP   finish/VBP   promoting/VBG   existing/VBG   albums/NNS   ./.)
+----------------------------------
+original sentence: 
+It comes amid a cost cutting overhaul at Disney's studio, which oversees the music group.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('comes', 'VBZ'), ('amid', 'IN'), ('a', 'DT'), ('cost', 'NN'), ('cutting', 'VBG'), ('overhaul', 'NN'), ('at', 'IN'), ('Disney', 'NNP'), ("'s", 'POS'), ('studio', 'NN'), (',', ','), ('which', 'WDT'), ('oversees', 'NNS'), ('the', 'DT'), ('music', 'JJ'), ('group', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   comes/VBZ   amid/IN   a/DT   cost/NN   cutting/VBG   overhaul/NN   at/IN   (ORGANIZATION Disney/NNP)   's/POS   studio/NN   ,/,   which/WDT   oversees/NNS   the/DT   music/JJ   group/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB comes/VBZ amid/IN a/DT cost/NN)
+
+tagged sentence:
+	 comes amid a cost	res:-1
+	(VERB cutting/VBG overhaul/NN at/IN Disney/NNP)
+
+tagged sentence:
+	 cutting overhaul at Disney	res:-1
+noun phrases to consider:
+	(NOUN studio/NN)
+	(NOUN oversees/NNS)
+	(NOUN the/DT music/JJ group/NN)
+
+----------------------------------
+original sentence: 
+Yucaipa Submits $600 Million Bid For The Walt Disney Company 's Miramax DJ
+Thursday, 8 Apr 2010 07:54pm EDT
+Dow Jones reported that Ron Burkle's Yucaipa Cos. has submitted a $600 million bid for The Walt Disney Company's Miramax studios, Bloomberg News reported, citing unnamed sources.
+
+POS tagged sentence: 
+[('Yucaipa', 'NNP'), ('Submits', 'NNP'), ('$', '$'), ('600', 'CD'), ('Million', 'CD'), ('Bid', 'NNP'), ('For', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('DJ', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('8', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('54pm', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Ron', 'NNP'), ('Burkle', 'NNP'), ("'s", 'POS'), ('Yucaipa', 'NNP'), ('Cos.', 'NNP'), ('has', 'VBZ'), ('submitted', 'VBN'), ('a', 'DT'), ('$', '$'), ('600', 'CD'), ('million', 'CD'), ('bid', 'NN'), ('for', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('studios', 'NNS'), (',', ','), ('Bloomberg', 'NNP'), ('News', 'NNP'), ('reported', 'VBD'), (',', ','), ('citing', 'VBG'), ('unnamed', 'VBN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Yucaipa/NNP)   Submits/NNP   $/$   600/CD   Million/CD   Bid/NNP   For/NNP   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (PERSON Miramax/NNP DJ/NNP)   Thursday/NNP   ,/,   8/CD   Apr/NNP   2010/CD   07/CD   :/:   54pm/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (PERSON Ron/NNP Burkle/NNP)   's/POS   (PERSON Yucaipa/NNP)   Cos./NNP   has/VBZ   submitted/VBN   a/DT   $/$   600/CD   million/CD   bid/NN   for/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (ORGANIZATION Miramax/NNP)   studios/NNS   ,/,   (ORGANIZATION Bloomberg/NNP News/NNP)   reported/VBD   ,/,   citing/VBG   unnamed/VBN   sources/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Ron/NNP Burkle/NNP)
+	(VERB has/VBZ submitted/VBN a/DT)
+	(VERB reported/VBD)
+	(VERB citing/VBG unnamed/VBN sources/NNS)
+noun phrases to consider:
+	(NOUN Yucaipa/NNP Submits/NNP)
+	(NOUN Million/CD Bid/NNP For/NNP The/NNP Walt/NNP)
+	(NOUN Disney/NNP Company/NNP)
+	(NOUN Miramax/NNP DJ/NNP Thursday/NNP)
+	(NOUN 8/CD Apr/NNP)
+	(NOUN 54pm/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN Yucaipa/NNP Cos./NNP)
+	(NOUN million/CD bid/NN)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Miramax/NNP studios/NNS)
+	(NOUN Bloomberg/NNP News/NNP)
+
+----------------------------------
+original sentence: 
+Yucaipa bid would put Miramax founders Bob and Harvey Weinstein back in charge of the studio, responsible for cult films such as Pulp Fiction.
+
+POS tagged sentence: 
+[('Yucaipa', 'NNP'), ('bid', 'VBD'), ('would', 'MD'), ('put', 'VB'), ('Miramax', 'NNP'), ('founders', 'NNS'), ('Bob', 'NNP'), ('and', 'CC'), ('Harvey', 'NNP'), ('Weinstein', 'NNP'), ('back', 'RB'), ('in', 'IN'), ('charge', 'NN'), ('of', 'IN'), ('the', 'DT'), ('studio', 'NN'), (',', ','), ('responsible', 'JJ'), ('for', 'IN'), ('cult', 'NN'), ('films', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Pulp', 'NNP'), ('Fiction', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Yucaipa/NNP)   bid/VBD   would/MD   put/VB   (GPE Miramax/NNP)   founders/NNS   (PERSON Bob/NNP)   and/CC   (PERSON Harvey/NNP Weinstein/NNP)   back/RB   in/IN   charge/NN   of/IN   the/DT   studio/NN   ,/,   responsible/JJ   for/IN   cult/NN   films/NNS   such/JJ   as/IN   (PERSON Pulp/NNP Fiction/NNP)   ./.)
+----------------------------------
+original sentence: 
+The Walt Disney Company said it is considering bids above $650 million, the report on Bloomberg's Web site said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('is', 'VBZ'), ('considering', 'VBG'), ('bids', 'NNS'), ('above', 'IN'), ('$', '$'), ('650', 'CD'), ('million', 'CD'), (',', ','), ('the', 'DT'), ('report', 'NN'), ('on', 'IN'), ('Bloomberg', 'NNP'), ("'s", 'POS'), ('Web', 'NNP'), ('site', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   said/VBD   it/PRP   is/VBZ   considering/VBG   bids/NNS   above/IN   $/$   650/CD   million/CD   ,/,   the/DT   report/NN   on/IN   (PERSON Bloomberg/NNP)   's/POS   Web/NNP   site/NN   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD it/PRP)
+	(VERB is/VBZ considering/VBG bids/NNS above/IN)
+
+tagged sentence:
+	 is considering bids above	res:1
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN report/NN)
+	(NOUN Bloomberg/NNP)
+	(NOUN Web/NNP site/NN)
+
+----------------------------------
+original sentence: 
+Mesa Emerges As Bidder For The Walt Disney Company 's Miramax Reuters
+Wednesday, 17 Mar 2010 08:17pm EDT
+Reuters reported that Mesa Global, an investment banking firm co founded by former Creative Artists Agency executive Mark Patricof, has emerged as a potential bidder for The Walt Disney Company's Miramax film unit ahead of an offer deadline on Friday.
+
+POS tagged sentence: 
+[('Mesa', 'NNP'), ('Emerges', 'NNP'), ('As', 'NNP'), ('Bidder', 'NNP'), ('For', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('Reuters', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('17', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('17pm', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Mesa', 'NNP'), ('Global', 'NNP'), (',', ','), ('an', 'DT'), ('investment', 'NN'), ('banking', 'NN'), ('firm', 'NN'), ('co', 'NN'), ('founded', 'VBD'), ('by', 'IN'), ('former', 'JJ'), ('Creative', 'NNP'), ('Artists', 'NNP'), ('Agency', 'NNP'), ('executive', 'NN'), ('Mark', 'NNP'), ('Patricof', 'NNP'), (',', ','), ('has', 'VBZ'), ('emerged', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('potential', 'JJ'), ('bidder', 'NN'), ('for', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('film', 'NN'), ('unit', 'NN'), ('ahead', 'RB'), ('of', 'IN'), ('an', 'DT'), ('offer', 'NN'), ('deadline', 'NN'), ('on', 'IN'), ('Friday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mesa/NNP)   (PERSON     Emerges/NNP     As/NNP     Bidder/NNP     For/NNP     The/NNP     Walt/NNP     Disney/NNP     Company/NNP)   's/POS   (PERSON Miramax/NNP Reuters/NNP)   Wednesday/NNP   ,/,   17/CD   Mar/NNP   2010/CD   08/CD   :/:   17pm/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Mesa/NNP Global/NNP)   ,/,   an/DT   investment/NN   banking/NN   firm/NN   co/NN   founded/VBD   by/IN   former/JJ   (ORGANIZATION Creative/NNP Artists/NNP Agency/NNP)   executive/NN   (PERSON Mark/NNP Patricof/NNP)   ,/,   has/VBZ   emerged/VBN   as/IN   a/DT   potential/JJ   bidder/NN   for/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (ORGANIZATION Miramax/NNP)   film/NN   unit/NN   ahead/RB   of/IN   an/DT   offer/NN   deadline/NN   on/IN   Friday/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Mesa/NNP Global/NNP)
+	(VERB   founded/VBD   by/IN   former/JJ   Creative/NNP   Artists/NNP   Agency/NNP   executive/NN   Mark/NNP   Patricof/NNP)
+	(VERB   has/VBZ   emerged/VBN   as/IN   a/DT   potential/JJ   bidder/NN   for/IN   The/DT   Walt/NNP   Disney/NNP   Company/NNP)
+noun phrases to consider:
+	(NOUN Mesa/NNP Emerges/NNP As/NNP Bidder/NNP)
+	(NOUN For/NNP The/NNP Walt/NNP Disney/NNP)
+	(NOUN Company/NNP)
+	(NOUN Miramax/NNP Reuters/NNP Wednesday/NNP)
+	(NOUN 17/CD Mar/NNP)
+	(NOUN 17pm/CD EDT/NNP Reuters/NNP)
+	(NOUN investment/NN banking/NN firm/NN co/NN)
+	(NOUN Miramax/NNP film/NN unit/NN)
+	(NOUN offer/NN deadline/NN)
+	(NOUN Friday/NNP)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company And Google Inc. Eye Stake In China Bus Media Firm Reuters
+Monday, 8 Feb 2010 05:57am EST
+Reuters reported that The Walt Disney Company is in advanced talks to buy into China's in bus digital media and advertising company.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('And', 'CC'), ('Google', 'NNP'), ('Inc.', 'NNP'), ('Eye', 'NNP'), ('Stake', 'NNP'), ('In', 'NNP'), ('China', 'NNP'), ('Bus', 'NNP'), ('Media', 'NNP'), ('Firm', 'NNP'), ('Reuters', 'NNP'), ('Monday', 'NNP'), (',', ','), ('8', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('57am', 'CD'), ('EST', 'JJS'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('is', 'VBZ'), ('in', 'IN'), ('advanced', 'JJ'), ('talks', 'NNS'), ('to', 'TO'), ('buy', 'VB'), ('into', 'IN'), ('China', 'NNP'), ("'s", 'POS'), ('in', 'IN'), ('bus', 'NN'), ('digital', 'NN'), ('media', 'NNS'), ('and', 'CC'), ('advertising', 'NN'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION     Walt/NNP     Disney/NNP     Company/NNP     And/CC     Google/NNP     Inc./NNP     Eye/NNP     Stake/NNP)   In/NNP   (GPE China/NNP)   Bus/NNP   Media/NNP   Firm/NNP   Reuters/NNP   Monday/NNP   ,/,   8/CD   Feb/NNP   2010/CD   05/CD   :/:   57am/CD   EST/JJS   (ORGANIZATION Reuters/NNP)   reported/VBD   that/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   is/VBZ   in/IN   advanced/JJ   talks/NNS   to/TO   buy/VB   into/IN   (GPE China/NNP)   's/POS   in/IN   bus/NN   digital/NN   media/NNS   and/CC   advertising/NN   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB is/VBZ in/IN advanced/JJ talks/NNS)
+
+tagged sentence:
+	 is in advanced talks	res:1
+	(VERB buy/VB into/IN China/NNP)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Google/NNP Inc./NNP Eye/NNP Stake/NNP)
+	(NOUN In/NNP China/NNP Bus/NNP Media/NNP)
+	(NOUN Firm/NNP Reuters/NNP Monday/NNP)
+	(NOUN 8/CD Feb/NNP)
+	(NOUN 57am/CD EST/JJS Reuters/NNP)
+	(NOUN bus/NN digital/NN media/NNS)
+	(NOUN advertising/NN company/NN)
+
+----------------------------------
+original sentence: 
+Google Inc. was among investors in the Disney led consortium.
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Inc.', 'NNP'), ('was', 'VBD'), ('among', 'IN'), ('investors', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('led', 'VBD'), ('consortium', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (ORGANIZATION Inc./NNP)   was/VBD   among/IN   investors/NNS   in/IN   the/DT   (ORGANIZATION Disney/NNP)   led/VBD   consortium/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD among/IN investors/NNS in/IN the/DT Disney/NNP)
+	(VERB led/VBD consortium/NN)
+noun phrases to consider:
+	(NOUN Google/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+The consortium planned to buy a stake of between 30% and 40% in Bus Online for more than $100 million via a purchase of old and new shares to be issued by the company in private placements.
+
+POS tagged sentence: 
+[('The', 'DT'), ('consortium', 'NN'), ('planned', 'VBD'), ('to', 'TO'), ('buy', 'VB'), ('a', 'DT'), ('stake', 'NN'), ('of', 'IN'), ('between', 'IN'), ('30', 'CD'), ('%', 'NN'), ('and', 'CC'), ('40', 'CD'), ('%', 'NN'), ('in', 'IN'), ('Bus', 'NNP'), ('Online', 'NNP'), ('for', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('100', 'CD'), ('million', 'CD'), ('via', 'IN'), ('a', 'DT'), ('purchase', 'NN'), ('of', 'IN'), ('old', 'JJ'), ('and', 'CC'), ('new', 'JJ'), ('shares', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('issued', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('company', 'NN'), ('in', 'IN'), ('private', 'JJ'), ('placements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   consortium/NN   planned/VBD   to/TO   buy/VB   a/DT   stake/NN   of/IN   between/IN   30/CD   %/NN   and/CC   40/CD   %/NN   in/IN   (ORGANIZATION Bus/NNP Online/NNP)   for/IN   more/JJR   than/IN   $/$   100/CD   million/CD   via/IN   a/DT   purchase/NN   of/IN   old/JJ   and/CC   new/JJ   shares/NNS   to/TO   be/VB   issued/VBN   by/IN   the/DT   company/NN   in/IN   private/JJ   placements/NNS   ./.)
+----------------------------------
+original sentence: 
+Lions Gate Entertainment Corp.'s Hollywood studio Lionsgate To Buy The Walt Disney Company's Miramax Film Unit Reuters
+Monday, 8 Feb 2010 05:14am EST
+Reuters reported that according to The New York Post report, Hollywood studio Lionsgate, a unit of Lions Gate Entertainment Corp. is looking to buy The Walt Disney Company's Miramax film unit.
+
+POS tagged sentence: 
+[('Lions', 'NNS'), ('Gate', 'VBP'), ('Entertainment', 'NNP'), ('Corp.', 'NNP'), ("'s", 'POS'), ('Hollywood', 'NNP'), ('studio', 'NN'), ('Lionsgate', 'NNP'), ('To', 'TO'), ('Buy', 'NNP'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('Film', 'NNP'), ('Unit', 'NNP'), ('Reuters', 'NNP'), ('Monday', 'NNP'), (',', ','), ('8', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('14am', 'CD'), ('EST', 'JJS'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('according', 'VBG'), ('to', 'TO'), ('The', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Post', 'NNP'), ('report', 'NN'), (',', ','), ('Hollywood', 'NNP'), ('studio', 'NN'), ('Lionsgate', 'NNP'), (',', ','), ('a', 'DT'), ('unit', 'NN'), ('of', 'IN'), ('Lions', 'NNS'), ('Gate', 'NNP'), ('Entertainment', 'NNP'), ('Corp.', 'NNP'), ('is', 'VBZ'), ('looking', 'VBG'), ('to', 'TO'), ('buy', 'VB'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Miramax', 'NNP'), ('film', 'NN'), ('unit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Lions/NNS   Gate/VBP   (ORGANIZATION Entertainment/NNP Corp./NNP)   's/POS   (ORGANIZATION Hollywood/NNP)   studio/NN   Lionsgate/NNP   To/TO   Buy/NNP   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (PERSON Miramax/NNP Film/NNP Unit/NNP Reuters/NNP)   Monday/NNP   ,/,   8/CD   Feb/NNP   2010/CD   05/CD   :/:   14am/CD   EST/JJS   (ORGANIZATION Reuters/NNP)   reported/VBD   that/IN   according/VBG   to/TO   The/DT   (GPE New/NNP York/NNP Post/NNP)   report/NN   ,/,   (GPE Hollywood/NNP)   studio/NN   (ORGANIZATION Lionsgate/NNP)   ,/,   a/DT   unit/NN   of/IN   Lions/NNS   (ORGANIZATION Gate/NNP Entertainment/NNP Corp./NNP)   is/VBZ   looking/VBG   to/TO   buy/VB   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (ORGANIZATION Miramax/NNP)   film/NN   unit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Gate/VBP Entertainment/NNP Corp./NNP)
+	(VERB reported/VBD that/IN)
+	(VERB according/VBG to/TO The/DT New/NNP York/NNP Post/NNP report/NN)
+	(VERB is/VBZ looking/VBG)
+	(VERB buy/VB The/DT Walt/NNP Disney/NNP Company/NNP)
+noun phrases to consider:
+	(NOUN Lions/NNS)
+	(NOUN Hollywood/NNP studio/NN Lionsgate/NNP)
+	(NOUN Buy/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Miramax/NNP Film/NNP Unit/NNP Reuters/NNP)
+	(NOUN Monday/NNP)
+	(NOUN 8/CD Feb/NNP)
+	(NOUN 14am/CD EST/JJS Reuters/NNP)
+	(NOUN Hollywood/NNP studio/NN Lionsgate/NNP)
+	(NOUN unit/NN)
+	(NOUN Lions/NNS Gate/NNP Entertainment/NNP Corp./NNP)
+	(NOUN Miramax/NNP film/NN unit/NN)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company And The News Corporation's Fox, NBC Sued Over Patent Allegations DJ
+Wednesday, 20 Jan 2010 08:58pm EST
+Dow Jones reported that The Walt Disney Company and some of The News Corporation's Fox units and NBC Universal Inc. are being sued by a trust associated with Alcatel Lucent SA over alleged patent infringements involving video compression technology, Bloomberg News reported, citing a court filing.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('And', 'CC'), ('The', 'NNP'), ('News', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('Fox', 'NNP'), (',', ','), ('NBC', 'NNP'), ('Sued', 'NNP'), ('Over', 'NNP'), ('Patent', 'NNP'), ('Allegations', 'NNPS'), ('DJ', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('20', 'CD'), ('Jan', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('58pm', 'CD'), ('EST', 'JJS'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('some', 'DT'), ('of', 'IN'), ('The', 'DT'), ('News', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('Fox', 'NNP'), ('units', 'NNS'), ('and', 'CC'), ('NBC', 'NNP'), ('Universal', 'NNP'), ('Inc.', 'NNP'), ('are', 'VBP'), ('being', 'VBG'), ('sued', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('trust', 'NN'), ('associated', 'VBN'), ('with', 'IN'), ('Alcatel', 'NNP'), ('Lucent', 'NNP'), ('SA', 'NNP'), ('over', 'IN'), ('alleged', 'JJ'), ('patent', 'NN'), ('infringements', 'NNS'), ('involving', 'VBG'), ('video', 'NN'), ('compression', 'NN'), ('technology', 'NN'), (',', ','), ('Bloomberg', 'NNP'), ('News', 'NNP'), ('reported', 'VBD'), (',', ','), ('citing', 'VBG'), ('a', 'DT'), ('court', 'NN'), ('filing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION     Walt/NNP     Disney/NNP     Company/NNP     And/CC     The/NNP     News/NNP     Corporation/NNP)   's/POS   (PERSON Fox/NNP)   ,/,   (ORGANIZATION NBC/NNP Sued/NNP)   Over/NNP   Patent/NNP   Allegations/NNPS   DJ/NNP   Wednesday/NNP   ,/,   20/CD   Jan/NNP   2010/CD   08/CD   :/:   58pm/CD   EST/JJS   (PERSON Dow/NNP Jones/NNP)   reported/VBD   that/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   and/CC   some/DT   of/IN   The/DT   (ORGANIZATION News/NNP Corporation/NNP)   's/POS   (PERSON Fox/NNP)   units/NNS   and/CC   (ORGANIZATION NBC/NNP Universal/NNP)   Inc./NNP   are/VBP   being/VBG   sued/VBN   by/IN   a/DT   trust/NN   associated/VBN   with/IN   (PERSON Alcatel/NNP Lucent/NNP SA/NNP)   over/IN   alleged/JJ   patent/NN   infringements/NNS   involving/VBG   video/NN   compression/NN   technology/NN   ,/,   (ORGANIZATION Bloomberg/NNP News/NNP)   reported/VBD   ,/,   citing/VBG   a/DT   court/NN   filing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB are/VBP being/VBG sued/VBN by/IN a/DT trust/NN)
+	(VERB   associated/VBN   with/IN   Alcatel/NNP   Lucent/NNP   SA/NNP   over/IN   alleged/JJ   patent/NN   infringements/NNS)
+	(VERB involving/VBG video/NN compression/NN technology/NN)
+	(VERB reported/VBD)
+	(VERB citing/VBG a/DT court/NN filing/NN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN The/NNP News/NNP Corporation/NNP)
+	(NOUN Fox/NNP)
+	(NOUN NBC/NNP Sued/NNP Over/NNP Patent/NNP)
+	(NOUN Allegations/NNPS DJ/NNP Wednesday/NNP)
+	(NOUN 20/CD Jan/NNP)
+	(NOUN 58pm/CD EST/JJS Dow/NNP Jones/NNP)
+	(NOUN News/NNP Corporation/NNP)
+	(NOUN Fox/NNP units/NNS)
+	(NOUN NBC/NNP Universal/NNP Inc./NNP)
+	(NOUN Bloomberg/NNP News/NNP)
+
+----------------------------------
+original sentence: 
+Multimedia Patent Trust of which Alcatel is a 99% beneficiary claims the studios sold DVD and Blu Ray discs that infringe five patents, the report said.
+
+POS tagged sentence: 
+[('Multimedia', 'NNP'), ('Patent', 'NNP'), ('Trust', 'NNP'), ('of', 'IN'), ('which', 'WDT'), ('Alcatel', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('99', 'CD'), ('%', 'NN'), ('beneficiary', 'NN'), ('claims', 'VBZ'), ('the', 'DT'), ('studios', 'NNS'), ('sold', 'VBD'), ('DVD', 'NNP'), ('and', 'CC'), ('Blu', 'NNP'), ('Ray', 'NNP'), ('discs', 'NNS'), ('that', 'WDT'), ('infringe', 'NN'), ('five', 'CD'), ('patents', 'NNS'), (',', ','), ('the', 'DT'), ('report', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Multimedia/NNP)   (PERSON Patent/NNP Trust/NNP)   of/IN   which/WDT   (PERSON Alcatel/NNP)   is/VBZ   a/DT   99/CD   %/NN   beneficiary/NN   claims/VBZ   the/DT   studios/NNS   sold/VBD   (ORGANIZATION DVD/NNP)   and/CC   (PERSON Blu/NNP Ray/NNP)   discs/NNS   that/WDT   infringe/NN   five/CD   patents/NNS   ,/,   the/DT   report/NN   said/VBD   ./.)
+----------------------------------
+original sentence: 
+It said the trust filed the complaint this week at a federal court in San Diego, and was also suing AudioVox Corp., Toshiba Corp.'s U.S. units and Bose Corp.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('said', 'VBD'), ('the', 'DT'), ('trust', 'NN'), ('filed', 'VBD'), ('the', 'DT'), ('complaint', 'NN'), ('this', 'DT'), ('week', 'NN'), ('at', 'IN'), ('a', 'DT'), ('federal', 'JJ'), ('court', 'NN'), ('in', 'IN'), ('San', 'NNP'), ('Diego', 'NNP'), (',', ','), ('and', 'CC'), ('was', 'VBD'), ('also', 'RB'), ('suing', 'VBG'), ('AudioVox', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('Toshiba', 'NNP'), ('Corp.', 'NNP'), ("'s", 'POS'), ('U.S.', 'NNP'), ('units', 'NNS'), ('and', 'CC'), ('Bose', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   said/VBD   the/DT   trust/NN   filed/VBD   the/DT   complaint/NN   this/DT   week/NN   at/IN   a/DT   federal/JJ   court/NN   in/IN   (GPE San/NNP Diego/NNP)   ,/,   and/CC   was/VBD   also/RB   suing/VBG   (ORGANIZATION AudioVox/NNP Corp./NNP)   ,/,   (PERSON Toshiba/NNP Corp./NNP)   's/POS   (GPE U.S./NNP)   units/NNS   and/CC   (ORGANIZATION Bose/NNP Corp/NNP)   ./.)
+----------------------------------
+original sentence: 
+The report quoted a The Walt Disney Company spokeswoman as saying the lawsuit is being addressed by the Motion Picture Association of America, and referred queries to the trade group.
+
+POS tagged sentence: 
+[('The', 'DT'), ('report', 'NN'), ('quoted', 'VBD'), ('a', 'DT'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('spokeswoman', 'NN'), ('as', 'IN'), ('saying', 'VBG'), ('the', 'DT'), ('lawsuit', 'NN'), ('is', 'VBZ'), ('being', 'VBG'), ('addressed', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('Motion', 'NNP'), ('Picture', 'NNP'), ('Association', 'NNP'), ('of', 'IN'), ('America', 'NNP'), (',', ','), ('and', 'CC'), ('referred', 'VBD'), ('queries', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('trade', 'NN'), ('group', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   report/NN   quoted/VBD   a/DT   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   spokeswoman/NN   as/IN   saying/VBG   the/DT   lawsuit/NN   is/VBZ   being/VBG   addressed/VBN   by/IN   the/DT   (ORGANIZATION Motion/NNP Picture/NNP Association/NNP)   of/IN   (GPE America/NNP)   ,/,   and/CC   referred/VBD   queries/NNS   to/TO   the/DT   trade/NN   group/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   quoted/VBD   a/DT   The/NNP   Walt/NNP   Disney/NNP   Company/NNP   spokeswoman/NN   as/IN)
+	(VERB saying/VBG the/DT lawsuit/NN)
+	(VERB   is/VBZ   being/VBG   addressed/VBN   by/IN   the/DT   Motion/NNP   Picture/NNP   Association/NNP   of/IN   America/NNP)
+	(VERB referred/VBD queries/NNS)
+noun phrases to consider:
+	(NOUN report/NN)
+	(NOUN trade/NN group/NN)
+
+----------------------------------
+original sentence: 
+Elizabeth Kaltman, an MPAA spokeswoman, had no comment, the report said, while officials with Disney, NBC Universal, AudioVox and Toshiba didn't immediately return messages seeking comment, according to the report.
+
+POS tagged sentence: 
+[('Elizabeth', 'NNP'), ('Kaltman', 'NNP'), (',', ','), ('an', 'DT'), ('MPAA', 'NNP'), ('spokeswoman', 'NN'), (',', ','), ('had', 'VBD'), ('no', 'DT'), ('comment', 'NN'), (',', ','), ('the', 'DT'), ('report', 'NN'), ('said', 'VBD'), (',', ','), ('while', 'IN'), ('officials', 'NNS'), ('with', 'IN'), ('Disney', 'NNP'), (',', ','), ('NBC', 'NNP'), ('Universal', 'NNP'), (',', ','), ('AudioVox', 'NNP'), ('and', 'CC'), ('Toshiba', 'NNP'), ('did', 'VBD'), ("n't", 'RB'), ('immediately', 'RB'), ('return', 'VB'), ('messages', 'NNS'), ('seeking', 'VBG'), ('comment', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Elizabeth/NNP Kaltman/NNP)   ,/,   an/DT   (ORGANIZATION MPAA/NNP)   spokeswoman/NN   ,/,   had/VBD   no/DT   comment/NN   ,/,   the/DT   report/NN   said/VBD   ,/,   while/IN   officials/NNS   with/IN   (PERSON Disney/NNP)   ,/,   (ORGANIZATION NBC/NNP Universal/NNP)   ,/,   (ORGANIZATION AudioVox/NNP)   and/CC   (PERSON Toshiba/NNP)   did/VBD   n't/RB   immediately/RB   return/VB   messages/NNS   seeking/VBG   comment/NN   ,/,   according/VBG   to/TO   the/DT   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB had/VBD no/DT comment/NN)
+	(VERB said/VBD)
+	(VERB did/VBD n't/RB immediately/RB return/VB messages/NNS)
+	(VERB seeking/VBG comment/NN)
+	(VERB according/VBG to/TO the/DT report/NN)
+noun phrases to consider:
+	(NOUN Elizabeth/NNP Kaltman/NNP)
+	(NOUN MPAA/NNP spokeswoman/NN)
+	(NOUN report/NN)
+	(NOUN officials/NNS)
+	(NOUN Disney/NNP)
+	(NOUN NBC/NNP Universal/NNP)
+	(NOUN AudioVox/NNP)
+	(NOUN Toshiba/NNP)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company Completes Marvel Entertainment, Inc.Acquisition
+Thursday, 31 Dec 2009 04:32pm EST
+The Walt Disney Company announced that Disney has completed its acquisition of renowned character franchise company, Marvel Entertainment Inc.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Completes', 'NNP'), ('Marvel', 'NNP'), ('Entertainment', 'NNP'), (',', ','), ('Inc.Acquisition', 'NN'), ('Thursday', 'NNP'), (',', ','), ('31', 'CD'), ('Dec', 'NNP'), ('2009', 'CD'), ('04', 'CD'), (':', ':'), ('32pm', 'CD'), ('EST', 'JJS'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('Disney', 'NNP'), ('has', 'VBZ'), ('completed', 'VBN'), ('its', 'PRP$'), ('acquisition', 'NN'), ('of', 'IN'), ('renowned', 'VBN'), ('character', 'NN'), ('franchise', 'NN'), ('company', 'NN'), (',', ','), ('Marvel', 'NNP'), ('Entertainment', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION     Walt/NNP     Disney/NNP     Company/NNP     Completes/NNP     Marvel/NNP     Entertainment/NNP)   ,/,   Inc.Acquisition/NN   Thursday/NNP   ,/,   31/CD   Dec/NNP   2009/CD   04/CD   :/:   32pm/CD   EST/JJS   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   announced/VBD   that/IN   (PERSON Disney/NNP)   has/VBZ   completed/VBN   its/PRP$   acquisition/NN   of/IN   renowned/VBN   character/NN   franchise/NN   company/NN   ,/,   (PERSON Marvel/NNP Entertainment/NNP Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN Disney/NNP)
+	(VERB has/VBZ completed/VBN its/PRP$ acquisition/NN of/IN)
+	(VERB renowned/VBN character/NN franchise/NN company/NN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP Completes/NNP)
+	(NOUN Marvel/NNP Entertainment/NNP)
+	(NOUN Inc.Acquisition/NN Thursday/NNP)
+	(NOUN 31/CD Dec/NNP)
+	(NOUN 32pm/CD EST/JJS)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Marvel/NNP Entertainment/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+Under the terms of the agreement and based on the closing price of Disney on December 31, Marvel shareholders will receive a total of $30 a share in cash plus approximately 0.7452 Disney shares for each Marvel share they own.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('the', 'DT'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('agreement', 'NN'), ('and', 'CC'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('closing', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('on', 'IN'), ('December', 'NNP'), ('31', 'CD'), (',', ','), ('Marvel', 'NNP'), ('shareholders', 'NNS'), ('will', 'MD'), ('receive', 'VB'), ('a', 'DT'), ('total', 'JJ'), ('of', 'IN'), ('$', '$'), ('30', 'CD'), ('a', 'DT'), ('share', 'NN'), ('in', 'IN'), ('cash', 'NN'), ('plus', 'CC'), ('approximately', 'RB'), ('0.7452', 'CD'), ('Disney', 'NNP'), ('shares', 'NNS'), ('for', 'IN'), ('each', 'DT'), ('Marvel', 'NNP'), ('share', 'NN'), ('they', 'PRP'), ('own', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   the/DT   terms/NNS   of/IN   the/DT   agreement/NN   and/CC   based/VBN   on/IN   the/DT   closing/JJ   price/NN   of/IN   (GPE Disney/NNP)   on/IN   December/NNP   31/CD   ,/,   (PERSON Marvel/NNP)   shareholders/NNS   will/MD   receive/VB   a/DT   total/JJ   of/IN   $/$   30/CD   a/DT   share/NN   in/IN   cash/NN   plus/CC   approximately/RB   0.7452/CD   (ORGANIZATION Disney/NNP)   shares/NNS   for/IN   each/DT   Marvel/NNP   share/NN   they/PRP   own/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   based/VBN   on/IN   the/DT   closing/JJ   price/NN   of/IN   Disney/NNP   on/IN   December/NNP   31/CD)
+	(VERB receive/VB a/DT total/JJ of/IN)
+	(VERB own/VBP)
+noun phrases to consider:
+	(NOUN terms/NNS)
+	(NOUN agreement/NN)
+	(NOUN Marvel/NNP shareholders/NNS)
+	(NOUN share/NN)
+	(NOUN cash/NN)
+	(NOUN Disney/NNP shares/NNS)
+	(NOUN Marvel/NNP share/NN)
+
+----------------------------------
+original sentence: 
+CBS Corporation and The Walt Disney Company May Join Apple Inc. TV Venture Reuters
+Tuesday, 22 Dec 2009 04:23am EST
+Reuters reported that, according to the Wall Street Journal, Apple Inc.'s plan of offering television subscription via the internet might receive a boost with CBS Corporation and The Walt Disney Company probable participation in the venture.
+
+POS tagged sentence: 
+[('CBS', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('May', 'NNP'), ('Join', 'NNP'), ('Apple', 'NNP'), ('Inc.', 'NNP'), ('TV', 'NNP'), ('Venture', 'NNP'), ('Reuters', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('22', 'CD'), ('Dec', 'NNP'), ('2009', 'CD'), ('04', 'CD'), (':', ':'), ('23am', 'CD'), ('EST', 'JJS'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), (',', ','), ('Apple', 'NNP'), ('Inc.', 'NNP'), ("'s", 'POS'), ('plan', 'NN'), ('of', 'IN'), ('offering', 'NN'), ('television', 'NN'), ('subscription', 'NN'), ('via', 'IN'), ('the', 'DT'), ('internet', 'NN'), ('might', 'MD'), ('receive', 'VB'), ('a', 'DT'), ('boost', 'NN'), ('with', 'IN'), ('CBS', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('probable', 'JJ'), ('participation', 'NN'), ('in', 'IN'), ('the', 'DT'), ('venture', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CBS/NNP Corporation/NNP)   and/CC   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   May/NNP   Join/NNP   Apple/NNP   Inc./NNP   TV/NNP   Venture/NNP   Reuters/NNP   Tuesday/NNP   ,/,   22/CD   Dec/NNP   2009/CD   04/CD   :/:   23am/CD   EST/JJS   (ORGANIZATION Reuters/NNP)   reported/VBD   that/IN   ,/,   according/VBG   to/TO   the/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP)   ,/,   (PERSON Apple/NNP Inc./NNP)   's/POS   plan/NN   of/IN   offering/NN   television/NN   subscription/NN   via/IN   the/DT   internet/NN   might/MD   receive/VB   a/DT   boost/NN   with/IN   (ORGANIZATION CBS/NNP Corporation/NNP)   and/CC   The/DT   (ORGANIZATION Walt/NNP Disney/NNP)   Company/NNP   probable/JJ   participation/NN   in/IN   the/DT   venture/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN)
+	(VERB according/VBG to/TO the/DT Wall/NNP Street/NNP Journal/NNP)
+	(VERB receive/VB a/DT boost/NN with/IN CBS/NNP Corporation/NNP)
+noun phrases to consider:
+	(NOUN CBS/NNP Corporation/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP May/NNP)
+	(NOUN Join/NNP Apple/NNP Inc./NNP TV/NNP)
+	(NOUN Venture/NNP Reuters/NNP Tuesday/NNP)
+	(NOUN 22/CD Dec/NNP)
+	(NOUN 23am/CD EST/JJS Reuters/NNP)
+	(NOUN Apple/NNP Inc./NNP)
+	(NOUN plan/NN)
+	(NOUN offering/NN television/NN subscription/NN)
+	(NOUN internet/NN)
+	(NOUN   The/DT   Walt/NNP   Disney/NNP   Company/NNP   probable/JJ   participation/NN)
+	(NOUN venture/NN)
+
+----------------------------------
+original sentence: 
+The planned subscription service by Apple may offer television shows from major networks for a monthly fee, which could significantly alter the television business, the paper said, citing people familiar with the matter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('planned', 'VBN'), ('subscription', 'NN'), ('service', 'NN'), ('by', 'IN'), ('Apple', 'NNP'), ('may', 'MD'), ('offer', 'VB'), ('television', 'NN'), ('shows', 'NNS'), ('from', 'IN'), ('major', 'JJ'), ('networks', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('monthly', 'JJ'), ('fee', 'NN'), (',', ','), ('which', 'WDT'), ('could', 'MD'), ('significantly', 'RB'), ('alter', 'VB'), ('the', 'DT'), ('television', 'NN'), ('business', 'NN'), (',', ','), ('the', 'DT'), ('paper', 'NN'), ('said', 'VBD'), (',', ','), ('citing', 'NN'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   planned/VBN   subscription/NN   service/NN   by/IN   (PERSON Apple/NNP)   may/MD   offer/VB   television/NN   shows/NNS   from/IN   major/JJ   networks/NNS   for/IN   a/DT   monthly/JJ   fee/NN   ,/,   which/WDT   could/MD   significantly/RB   alter/VB   the/DT   television/NN   business/NN   ,/,   the/DT   paper/NN   said/VBD   ,/,   citing/NN   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)
+----------------------------------
+original sentence: 
+Apple is aiming to complete licensing deals and expects to introduce the subscription service in 2010.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ('is', 'VBZ'), ('aiming', 'VBG'), ('to', 'TO'), ('complete', 'VB'), ('licensing', 'NN'), ('deals', 'NNS'), ('and', 'CC'), ('expects', 'VBZ'), ('to', 'TO'), ('introduce', 'VB'), ('the', 'DT'), ('subscription', 'NN'), ('service', 'NN'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   is/VBZ   aiming/VBG   to/TO   complete/VB   licensing/NN   deals/NNS   and/CC   expects/VBZ   to/TO   introduce/VB   the/DT   subscription/NN   service/NN   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+City Telecom H.K.
+
+POS tagged sentence: 
+[('City', 'NNP'), ('Telecom', 'NNP'), ('H.K', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON City/NNP) (ORGANIZATION Telecom/NNP) H.K/NNP ./.)
+----------------------------------
+original sentence: 
+Limited's Hong Kong Broadband Network Limited Announces Partnership With The Walt Disney Company's Disney ABC International Television
+Wednesday, 16 Dec 2009 06:21am EST
+Hong Kong Broadband Network Limited HKBN , a wholly owned subsidiary of City Telecom H.K.
+
+POS tagged sentence: 
+[('Limited', 'NNP'), ("'s", 'POS'), ('Hong', 'NNP'), ('Kong', 'NNP'), ('Broadband', 'NNP'), ('Network', 'NNP'), ('Limited', 'NNP'), ('Announces', 'NNPS'), ('Partnership', 'NNP'), ('With', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ("'s", 'POS'), ('Disney', 'NNP'), ('ABC', 'NNP'), ('International', 'NNP'), ('Television', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('16', 'CD'), ('Dec', 'NNP'), ('2009', 'CD'), ('06', 'CD'), (':', ':'), ('21am', 'CD'), ('EST', 'JJS'), ('Hong', 'NNP'), ('Kong', 'NNP'), ('Broadband', 'NNP'), ('Network', 'NNP'), ('Limited', 'NNP'), ('HKBN', 'NNP'), (',', ','), ('a', 'DT'), ('wholly', 'RB'), ('owned', 'VBN'), ('subsidiary', 'NN'), ('of', 'IN'), ('City', 'NNP'), ('Telecom', 'NNP'), ('H.K', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Limited/NNP)   's/POS   (GPE Hong/NNP Kong/NNP Broadband/NNP)   (PERSON Network/NNP Limited/NNP)   (PERSON Announces/NNPS Partnership/NNP)   With/NNP   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   's/POS   (ORGANIZATION Disney/NNP)   (ORGANIZATION ABC/NNP International/NNP Television/NNP)   Wednesday/NNP   ,/,   16/CD   Dec/NNP   2009/CD   06/CD   :/:   21am/CD   EST/JJS   (GPE Hong/NNP Kong/NNP Broadband/NNP)   (PERSON Network/NNP Limited/NNP HKBN/NNP)   ,/,   a/DT   wholly/RB   owned/VBN   subsidiary/NN   of/IN   (ORGANIZATION City/NNP Telecom/NNP)   H.K/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owned/VBN subsidiary/NN of/IN City/NNP Telecom/NNP H.K/NNP)
+noun phrases to consider:
+	(NOUN Limited/NNP)
+	(NOUN Hong/NNP Kong/NNP Broadband/NNP Network/NNP)
+	(NOUN Limited/NNP Announces/NNPS Partnership/NNP With/NNP)
+	(NOUN The/NNP Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Disney/NNP ABC/NNP International/NNP Television/NNP)
+	(NOUN Wednesday/NNP)
+	(NOUN 16/CD Dec/NNP)
+	(NOUN 21am/CD EST/JJS Hong/NNP Kong/NNP Broadband/NNP Network/NNP)
+	(NOUN Limited/NNP HKBN/NNP)
+
+----------------------------------
+original sentence: 
+Limited announced a partnership with Disney ABC International Television DAIT , Asia Pacific, the integrated distribution arm of The Walt Disney Company, to launch Disney Channel and Playhouse Disney Channel starting December 16, 2009, as part of the channel package tailored for children and education on HKBN's bbTV IPTV platform.
+
+POS tagged sentence: 
+[('Limited', 'NNP'), ('announced', 'VBD'), ('a', 'DT'), ('partnership', 'NN'), ('with', 'IN'), ('Disney', 'NNP'), ('ABC', 'NNP'), ('International', 'NNP'), ('Television', 'NNP'), ('DAIT', 'NNP'), (',', ','), ('Asia', 'NNP'), ('Pacific', 'NNP'), (',', ','), ('the', 'DT'), ('integrated', 'JJ'), ('distribution', 'NN'), ('arm', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), (',', ','), ('to', 'TO'), ('launch', 'VB'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('and', 'CC'), ('Playhouse', 'NNP'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('starting', 'VBG'), ('December', 'NNP'), ('16', 'CD'), (',', ','), ('2009', 'CD'), (',', ','), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('channel', 'NN'), ('package', 'NN'), ('tailored', 'VBD'), ('for', 'IN'), ('children', 'NNS'), ('and', 'CC'), ('education', 'NN'), ('on', 'IN'), ('HKBN', 'NNP'), ("'s", 'POS'), ('bbTV', 'NNP'), ('IPTV', 'NNP'), ('platform', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Limited/NNP)   announced/VBD   a/DT   partnership/NN   with/IN   (PERSON Disney/NNP)   (ORGANIZATION ABC/NNP International/NNP Television/NNP)   DAIT/NNP   ,/,   (GPE Asia/NNP Pacific/NNP)   ,/,   the/DT   integrated/JJ   distribution/NN   arm/NN   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   ,/,   to/TO   launch/VB   (PERSON Disney/NNP Channel/NNP)   and/CC   (ORGANIZATION Playhouse/NNP Disney/NNP)   Channel/NNP   starting/VBG   December/NNP   16/CD   ,/,   2009/CD   ,/,   as/IN   part/NN   of/IN   the/DT   channel/NN   package/NN   tailored/VBD   for/IN   children/NNS   and/CC   education/NN   on/IN   (ORGANIZATION HKBN/NNP)   's/POS   (ORGANIZATION bbTV/NNP)   IPTV/NNP   platform/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   a/DT   partnership/NN   with/IN   Disney/NNP   ABC/NNP   International/NNP   Television/NNP   DAIT/NNP)
+
+tagged sentence:
+	 announced a partnership with Disney ABC International Television DAIT	res:1
+	(VERB launch/VB Disney/NNP Channel/NNP)
+	(VERB starting/VBG December/NNP 16/CD)
+	(VERB tailored/VBD for/IN children/NNS)
+noun phrases to consider:
+	(NOUN Limited/NNP)
+	(NOUN Asia/NNP Pacific/NNP)
+	(NOUN the/DT integrated/JJ distribution/NN arm/NN)
+
+tagged sentence:
+	 the integrated distribution arm	res:1
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Playhouse/NNP Disney/NNP Channel/NNP)
+	(NOUN part/NN)
+	(NOUN channel/NN package/NN)
+	(NOUN education/NN)
+	(NOUN HKBN/NNP)
+	(NOUN bbTV/NNP IPTV/NNP platform/NN)
+
+----------------------------------
+original sentence: 
+The Walt Disney Company News
+History gets adventure makeover for TV series
+LOS ANGELES Reuters Think history is something confined to books?
+
+POS tagged sentence: 
+[('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('News', 'NNP'), ('History', 'NNP'), ('gets', 'VBZ'), ('adventure', 'NN'), ('makeover', 'NN'), ('for', 'IN'), ('TV', 'NN'), ('series', 'NN'), ('LOS', 'NNP'), ('ANGELES', 'NNP'), ('Reuters', 'NNP'), ('Think', 'NNP'), ('history', 'NN'), ('is', 'VBZ'), ('something', 'NN'), ('confined', 'VBN'), ('to', 'TO'), ('books', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP News/NNP History/NNP)   gets/VBZ   adventure/NN   makeover/NN   for/IN   TV/NN   series/NN   (ORGANIZATION LOS/NNP)   ANGELES/NNP   Reuters/NNP   Think/NNP   history/NN   is/VBZ   something/NN   confined/VBN   to/TO   books/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   gets/VBZ   adventure/NN   makeover/NN   for/IN   TV/NN   series/NN   LOS/NNP   ANGELES/NNP   Reuters/NNP   Think/NNP   history/NN)
+	(VERB is/VBZ something/NN)
+	(VERB confined/VBN to/TO books/NNS)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP News/NNP)
+	(NOUN History/NNP)
+
+----------------------------------
+original sentence: 
+Think again.
+
+POS tagged sentence: 
+[('Think', 'NNP'), ('again', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Think/NNP again/RB ./.)
+----------------------------------
+original sentence: 
+&#187; More DIS News
+&#187; More Financials
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('DIS', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Financials', 'NNPS')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP)   (ORGANIZATION DIS/NNP News/NNP)   &/CC   #/#   187/CD   ;/:   (ORGANIZATION More/NNP Financials/NNPS))Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN More/NNP DIS/NNP News/NNP)
+	(NOUN More/NNP Financials/NNPS)
+
+
+veryneg:0	neg:3	pos:4	verypos:0	total:2

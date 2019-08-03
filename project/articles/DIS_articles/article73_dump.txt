@@ -1,0 +1,67 @@
+
+----------------------------------
+original sentence: 
+Disney enters production for Southern Indian audiences | News | Screen
+Disney enters production for Southern Indian audiences
+The Walt Disney Company Indiais shooting a Telugu language epic fantasy adventure, which marks the studioâ€™s first production aimed at Southern Indian audiences.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('enters', 'NNS'), ('production', 'NN'), ('for', 'IN'), ('Southern', 'NNP'), ('Indian', 'NNP'), ('audiences', 'NNS'), ('|', ':'), ('News', 'NNP'), ('|', ':'), ('Screen', 'NNP'), ('Disney', 'NNP'), ('enters', 'VBZ'), ('production', 'NN'), ('for', 'IN'), ('Southern', 'NNP'), ('Indian', 'NNP'), ('audiences', 'NNS'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('Indiais', 'NNP'), ('shooting', 'VBG'), ('a', 'DT'), ('Telugu', 'NNP'), ('language', 'NN'), ('epic', 'NN'), ('fantasy', 'NN'), ('adventure', 'NN'), (',', ','), ('which', 'WDT'), ('marks', 'NNS'), ('the', 'DT'), ('studio', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('first', 'RB'), ('production', 'NN'), ('aimed', 'VBN'), ('at', 'IN'), ('Southern', 'NNP'), ('Indian', 'NNP'), ('audiences', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   enters/NNS   production/NN   for/IN   (LOCATION Southern/NNP Indian/NNP)   audiences/NNS   |/:   News/NNP   |/:   (PERSON Screen/NNP Disney/NNP)   enters/VBZ   production/NN   for/IN   (LOCATION Southern/NNP Indian/NNP)   audiences/NNS   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   Indiais/NNP   shooting/VBG   a/DT   (GPE Telugu/NNP)   language/NN   epic/NN   fantasy/NN   adventure/NN   ,/,   which/WDT   marks/NNS   the/DT   studio/NN   â/:   €/:   ™/:   s/NNS   first/RB   production/NN   aimed/VBN   at/IN   (LOCATION Southern/NNP Indian/NNP)   audiences/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   enters/VBZ   production/NN   for/IN   Southern/NNP   Indian/NNP   audiences/NNS   The/DT   Walt/NNP   Disney/NNP   Company/NNP   Indiais/NNP)
+	(VERB   shooting/VBG   a/DT   Telugu/NNP   language/NN   epic/NN   fantasy/NN   adventure/NN)
+	(VERB aimed/VBN at/IN Southern/NNP Indian/NNP audiences/NNS)
+noun phrases to consider:
+	(NOUN Disney/NNP enters/NNS production/NN)
+	(NOUN Southern/NNP Indian/NNP audiences/NNS)
+	(NOUN News/NNP)
+	(NOUN Screen/NNP Disney/NNP)
+	(NOUN marks/NNS)
+	(NOUN studio/NN)
+	(NOUN s/NNS)
+	(NOUN production/NN)
+
+----------------------------------
+original sentence: 
+Subscriber only content
+You must be a paid subscriber to Screen International to read this article and receive complete, unrestricted access to screendaily.com
+Screen International Subscribers:
+If you are a Screen International subscriber please sign in with your email address and click submit:
+Our records show you are already a registered user.
+
+POS tagged sentence: 
+[('Subscriber', 'NNP'), ('only', 'RB'), ('content', 'JJ'), ('You', 'PRP'), ('must', 'MD'), ('be', 'VB'), ('a', 'DT'), ('paid', 'VBN'), ('subscriber', 'NN'), ('to', 'TO'), ('Screen', 'NNP'), ('International', 'NNP'), ('to', 'TO'), ('read', 'VB'), ('this', 'DT'), ('article', 'NN'), ('and', 'CC'), ('receive', 'JJ'), ('complete', 'NN'), (',', ','), ('unrestricted', 'VBD'), ('access', 'NN'), ('to', 'TO'), ('screendaily.com', 'NNP'), ('Screen', 'NNP'), ('International', 'NNP'), ('Subscribers', 'NNP'), (':', ':'), ('If', 'IN'), ('you', 'PRP'), ('are', 'VBP'), ('a', 'DT'), ('Screen', 'NNP'), ('International', 'NNP'), ('subscriber', 'NN'), ('please', 'NN'), ('sign', 'NN'), ('in', 'IN'), ('with', 'IN'), ('your', 'PRP$'), ('email', 'NN'), ('address', 'NN'), ('and', 'CC'), ('click', 'NN'), ('submit', 'NN'), (':', ':'), ('Our', 'NNP'), ('records', 'NNS'), ('show', 'VBP'), ('you', 'PRP'), ('are', 'VBP'), ('already', 'RB'), ('a', 'DT'), ('registered', 'VBN'), ('user', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Subscriber/NNP   only/RB   content/JJ   You/PRP   must/MD   be/VB   a/DT   paid/VBN   subscriber/NN   to/TO   (PERSON Screen/NNP International/NNP)   to/TO   read/VB   this/DT   article/NN   and/CC   receive/JJ   complete/NN   ,/,   unrestricted/VBD   access/NN   to/TO   screendaily.com/NNP   (PERSON Screen/NNP International/NNP Subscribers/NNP)   :/:   If/IN   you/PRP   are/VBP   a/DT   (ORGANIZATION Screen/NNP International/NNP)   subscriber/NN   please/NN   sign/NN   in/IN   with/IN   your/PRP$   email/NN   address/NN   and/CC   click/NN   submit/NN   :/:   Our/NNP   records/NNS   show/VBP   you/PRP   are/VBP   already/RB   a/DT   registered/VBN   user/NN   ./.)
+----------------------------------
+original sentence: 
+Please sign in with your password...
+Not a Screen International subscriber?
+
+POS tagged sentence: 
+[('Please', 'NN'), ('sign', 'NN'), ('in', 'IN'), ('with', 'IN'), ('your', 'PRP$'), ('password..', 'NNP'), ('.', '.'), ('Not', 'RB'), ('a', 'DT'), ('Screen', 'NNP'), ('International', 'NNP'), ('subscriber', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   sign/NN   in/IN   with/IN   your/PRP$   password../NNP   ./.   Not/RB   a/DT   (ORGANIZATION Screen/NNP International/NNP)   subscriber/NN   ?/.)
+----------------------------------
+original sentence: 
+Choose one of these options:
+ for immediate access to screendaily.com and Screen International magazine at a special introductory rate
+about all the benefits of a subscription to Screen International by clicking below
+Film industry news from around the world
+More box office news
+Keep up to date with the latest trailers from ScreenDaily.com
+Follow Screen trailers on Twitter
+
+
+POS tagged sentence: 
+[('Choose', 'NNP'), ('one', 'CD'), ('of', 'IN'), ('these', 'DT'), ('options', 'NNS'), (':', ':'), ('for', 'IN'), ('immediate', 'JJ'), ('access', 'NN'), ('to', 'TO'), ('screendaily.com', 'NNP'), ('and', 'CC'), ('Screen', 'NNP'), ('International', 'NNP'), ('magazine', 'NN'), ('at', 'IN'), ('a', 'DT'), ('special', 'JJ'), ('introductory', 'NN'), ('rate', 'NN'), ('about', 'IN'), ('all', 'DT'), ('the', 'DT'), ('benefits', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('subscription', 'NN'), ('to', 'TO'), ('Screen', 'NNP'), ('International', 'NNP'), ('by', 'IN'), ('clicking', 'VBG'), ('below', 'IN'), ('Film', 'NNP'), ('industry', 'NN'), ('news', 'NN'), ('from', 'IN'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('More', 'NNP'), ('box', 'NN'), ('office', 'NN'), ('news', 'NN'), ('Keep', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('date', 'NN'), ('with', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('trailers', 'NNS'), ('from', 'IN'), ('ScreenDaily.com', 'NNP'), ('Follow', 'NNP'), ('Screen', 'NNP'), ('trailers', 'NNS'), ('on', 'IN'), ('Twitter', 'NNP')]
+
+
+ERTAGGED sentence: (S   Choose/NNP   one/CD   of/IN   these/DT   options/NNS   :/:   for/IN   immediate/JJ   access/NN   to/TO   screendaily.com/NNP   and/CC   (ORGANIZATION Screen/NNP International/NNP)   magazine/NN   at/IN   a/DT   special/JJ   introductory/NN   rate/NN   about/IN   all/DT   the/DT   benefits/NNS   of/IN   a/DT   subscription/NN   to/TO   (PERSON Screen/NNP International/NNP)   by/IN   clicking/VBG   below/IN   (GPE Film/NNP)   industry/NN   news/NN   from/IN   around/IN   the/DT   world/NN   More/NNP   box/NN   office/NN   news/NN   Keep/NNP   up/IN   to/TO   date/NN   with/IN   the/DT   latest/JJS   trailers/NNS   from/IN   (ORGANIZATION ScreenDaily.com/NNP Follow/NNP Screen/NNP)   trailers/NNS   on/IN   Twitter/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

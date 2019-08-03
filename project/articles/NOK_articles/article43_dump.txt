@@ -1,0 +1,189 @@
+
+----------------------------------
+original sentence: 
+Nokia Corp.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Nokia/NNP) (ORGANIZATION Corp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Welcomes Analyst Initiation; NOK, QCOM, ERIC
+ Nokia Corp.
+
+POS tagged sentence: 
+[('Welcomes', 'NNP'), ('Analyst', 'NNP'), ('Initiation', 'NNP'), (';', ':'), ('NOK', 'NNP'), (',', ','), ('QCOM', 'NNP'), (',', ','), ('ERIC', 'NNP'), ('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Welcomes/NNP)   (PERSON Analyst/NNP Initiation/NNP)   ;/:   (ORGANIZATION NOK/NNP)   ,/,   (ORGANIZATION QCOM/NNP)   ,/,   (ORGANIZATION ERIC/NNP Nokia/NNP Corp/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Welcomes/NNP Analyst/NNP Initiation/NNP)
+	(NOUN NOK/NNP)
+	(NOUN QCOM/NNP)
+	(NOUN ERIC/NNP Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Welcomes Analyst Initiation; NOK, QCOM, ERIC  Tuesday, 23 March 2010 05:45 Wunderlich gave the Communication Equipment industry some good news as it announced it has initiated coverage on one of its stocks.
+
+POS tagged sentence: 
+[('Welcomes', 'NNP'), ('Analyst', 'NNP'), ('Initiation', 'NNP'), (';', ':'), ('NOK', 'NNP'), (',', ','), ('QCOM', 'NNP'), (',', ','), ('ERIC', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('23', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('45', 'CD'), ('Wunderlich', 'NNP'), ('gave', 'VBD'), ('the', 'DT'), ('Communication', 'NNP'), ('Equipment', 'NNP'), ('industry', 'NN'), ('some', 'DT'), ('good', 'JJ'), ('news', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('announced', 'VBD'), ('it', 'PRP'), ('has', 'VBZ'), ('initiated', 'VBN'), ('coverage', 'NN'), ('on', 'IN'), ('one', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('stocks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Welcomes/NNP)   (PERSON Analyst/NNP Initiation/NNP)   ;/:   (ORGANIZATION NOK/NNP)   ,/,   (ORGANIZATION QCOM/NNP)   ,/,   (ORGANIZATION ERIC/NNP)   Tuesday/NNP   ,/,   23/CD   March/NNP   2010/CD   05/CD   :/:   45/CD   (PERSON Wunderlich/NNP)   gave/VBD   the/DT   (ORGANIZATION Communication/NNP)   Equipment/NNP   industry/NN   some/DT   good/JJ   news/NN   as/IN   it/PRP   announced/VBD   it/PRP   has/VBZ   initiated/VBN   coverage/NN   on/IN   one/CD   of/IN   its/PRP$   stocks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   gave/VBD   the/DT   Communication/NNP   Equipment/NNP   industry/NN   some/DT   good/JJ   news/NN   as/IN   it/PRP)
+	(VERB announced/VBD it/PRP)
+	(VERB   has/VBZ   initiated/VBN   coverage/NN   on/IN   one/CD   of/IN   its/PRP$   stocks/NNS)
+noun phrases to consider:
+	(NOUN Welcomes/NNP Analyst/NNP Initiation/NNP)
+	(NOUN NOK/NNP)
+	(NOUN QCOM/NNP)
+	(NOUN ERIC/NNP Tuesday/NNP)
+	(NOUN 23/CD March/NNP)
+	(NOUN 45/CD Wunderlich/NNP)
+
+----------------------------------
+original sentence: 
+was given a rating of Buy on 3/23/2010 a positive sign for the stock that investors typically welcome.
+
+POS tagged sentence: 
+[('was', 'VBD'), ('given', 'VBN'), ('a', 'DT'), ('rating', 'NN'), ('of', 'IN'), ('Buy', 'NNP'), ('on', 'IN'), ('3/23/2010', 'CD'), ('a', 'DT'), ('positive', 'JJ'), ('sign', 'NN'), ('for', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('that', 'IN'), ('investors', 'NNS'), ('typically', 'RB'), ('welcome', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   was/VBD   given/VBN   a/DT   rating/NN   of/IN   (GPE Buy/NNP)   on/IN   3/23/2010/CD   a/DT   positive/JJ   sign/NN   for/IN   the/DT   stock/NN   that/IN   investors/NNS   typically/RB   welcome/VB   ./.)
+----------------------------------
+original sentence: 
+FYI, Wunderlich uses the following rating scale when analyzing stocks: Accumulate, Buy, Hold, Sell.
+
+POS tagged sentence: 
+[('FYI', 'NNP'), (',', ','), ('Wunderlich', 'NNP'), ('uses', 'VBZ'), ('the', 'DT'), ('following', 'VBG'), ('rating', 'NN'), ('scale', 'NN'), ('when', 'WRB'), ('analyzing', 'VBG'), ('stocks', 'NNS'), (':', ':'), ('Accumulate', 'NNP'), (',', ','), ('Buy', 'NNP'), (',', ','), ('Hold', 'NNP'), (',', ','), ('Sell', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   FYI/NNP   ,/,   (PERSON Wunderlich/NNP)   uses/VBZ   the/DT   following/VBG   rating/NN   scale/NN   when/WRB   analyzing/VBG   stocks/NNS   :/:   Accumulate/NNP   ,/,   (PERSON Buy/NNP)   ,/,   (PERSON Hold/NNP)   ,/,   (ORGANIZATION Sell/NNP)   ./.)
+----------------------------------
+original sentence: 
+5 Profitable Options Trades for 2010
+Review of today's action: Join Live!
+
+POS tagged sentence: 
+[('5', 'LS'), ('Profitable', 'JJ'), ('Options', 'NNS'), ('Trades', 'NNP'), ('for', 'IN'), ('2010', 'CD'), ('Review', 'NNP'), ('of', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('action', 'NN'), (':', ':'), ('Join', 'NNP'), ('Live', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   5/LS   Profitable/JJ   Options/NNS   Trades/NNP   for/IN   2010/CD   Review/NNP   of/IN   today/NN   's/POS   action/NN   :/:   (PERSON Join/NNP Live/NNP)   !/.)
+----------------------------------
+original sentence: 
+Nokia Corp. has an average analyst recommendation score of 2.6 and competes for investment dollars with LM Ericsson Telephone Co.  two other stocks in the Communication Equipment industry that have average analyst recommendation scores of 1.8 and 3.0 respectively.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Corp.', 'NNP'), ('has', 'VBZ'), ('an', 'DT'), ('average', 'JJ'), ('analyst', 'NN'), ('recommendation', 'NN'), ('score', 'NN'), ('of', 'IN'), ('2.6', 'CD'), ('and', 'CC'), ('competes', 'VBZ'), ('for', 'IN'), ('investment', 'NN'), ('dollars', 'NNS'), ('with', 'IN'), ('LM', 'NNP'), ('Ericsson', 'NNP'), ('Telephone', 'NNP'), ('Co.', 'NNP'), ('two', 'CD'), ('other', 'JJ'), ('stocks', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Communication', 'NNP'), ('Equipment', 'NNP'), ('industry', 'NN'), ('that', 'WDT'), ('have', 'VBP'), ('average', 'JJ'), ('analyst', 'NN'), ('recommendation', 'NN'), ('scores', 'NNS'), ('of', 'IN'), ('1.8', 'CD'), ('and', 'CC'), ('3.0', 'CD'), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Corp./NNP)   has/VBZ   an/DT   average/JJ   analyst/NN   recommendation/NN   score/NN   of/IN   2.6/CD   and/CC   competes/VBZ   for/IN   investment/NN   dollars/NNS   with/IN   (ORGANIZATION LM/NNP Ericsson/NNP Telephone/NNP)   Co./NNP   two/CD   other/JJ   stocks/NNS   in/IN   the/DT   (ORGANIZATION Communication/NNP)   Equipment/NNP   industry/NN   that/WDT   have/VBP   average/JJ   analyst/NN   recommendation/NN   scores/NNS   of/IN   1.8/CD   and/CC   3.0/CD   respectively/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   an/DT   average/JJ   analyst/NN   recommendation/NN   score/NN   of/IN   2.6/CD)
+	(VERB   competes/VBZ   for/IN   investment/NN   dollars/NNS   with/IN   LM/NNP   Ericsson/NNP   Telephone/NNP   Co./NNP   two/CD   other/JJ   stocks/NNS   in/IN   the/DT   Communication/NNP   Equipment/NNP   industry/NN)
+	(VERB   have/VBP   average/JJ   analyst/NN   recommendation/NN   scores/NNS   of/IN   1.8/CD)
+noun phrases to consider:
+	(NOUN Nokia/NNP Corp./NNP)
+
+----------------------------------
+original sentence: 
+Analyst recommendations are averaged and scored using the following rating scale: Why are Upgrades and Initiations Good and Downgrades Bad?
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('recommendations', 'NNS'), ('are', 'VBP'), ('averaged', 'VBN'), ('and', 'CC'), ('scored', 'VBN'), ('using', 'VBG'), ('the', 'DT'), ('following', 'VBG'), ('rating', 'NN'), ('scale', 'NN'), (':', ':'), ('Why', 'WRB'), ('are', 'VBP'), ('Upgrades', 'NNP'), ('and', 'CC'), ('Initiations', 'NNS'), ('Good', 'NNP'), ('and', 'CC'), ('Downgrades', 'NNP'), ('Bad', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Analyst/NN)   recommendations/NNS   are/VBP   averaged/VBN   and/CC   scored/VBN   using/VBG   the/DT   following/VBG   rating/NN   scale/NN   :/:   Why/WRB   are/VBP   (ORGANIZATION Upgrades/NNP)   and/CC   Initiations/NNS   (PERSON Good/NNP)   and/CC   (ORGANIZATION Downgrades/NNP Bad/NNP)   ?/.)
+----------------------------------
+original sentence: 
+One event that is almost certain to get a reaction from Wall Street is an analyst upgrade or downgrade.
+
+POS tagged sentence: 
+[('One', 'CD'), ('event', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('almost', 'RB'), ('certain', 'JJ'), ('to', 'TO'), ('get', 'VB'), ('a', 'DT'), ('reaction', 'NN'), ('from', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('analyst', 'NN'), ('upgrade', 'NN'), ('or', 'CC'), ('downgrade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   event/NN   that/WDT   is/VBZ   almost/RB   certain/JJ   to/TO   get/VB   a/DT   reaction/NN   from/IN   (FACILITY Wall/NNP Street/NNP)   is/VBZ   an/DT   analyst/NN   upgrade/NN   or/CC   downgrade/NN   ./.)
+----------------------------------
+original sentence: 
+Everyone is looking for an edge in the stock market, and quite often, traders turn to stock analysts to get that edge.
+
+POS tagged sentence: 
+[('Everyone', 'NN'), ('is', 'VBZ'), ('looking', 'VBG'), ('for', 'IN'), ('an', 'DT'), ('edge', 'NN'), ('in', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('quite', 'RB'), ('often', 'RB'), (',', ','), ('traders', 'NNS'), ('turn', 'VBP'), ('to', 'TO'), ('stock', 'NN'), ('analysts', 'NNS'), ('to', 'TO'), ('get', 'VB'), ('that', 'IN'), ('edge', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Everyone/NN)   is/VBZ   looking/VBG   for/IN   an/DT   edge/NN   in/IN   the/DT   stock/NN   market/NN   ,/,   and/CC   quite/RB   often/RB   ,/,   traders/NNS   turn/VBP   to/TO   stock/NN   analysts/NNS   to/TO   get/VB   that/IN   edge/NN   ./.)
+----------------------------------
+original sentence: 
+Upgrades and coverage initiations are typically good for stocks because they show that analysts either believe that the stock is going to perform better in the future or that the stock is worth covering and providing analysis on.
+
+POS tagged sentence: 
+[('Upgrades', 'NNP'), ('and', 'CC'), ('coverage', 'NN'), ('initiations', 'NNS'), ('are', 'VBP'), ('typically', 'RB'), ('good', 'JJ'), ('for', 'IN'), ('stocks', 'NNS'), ('because', 'IN'), ('they', 'PRP'), ('show', 'VBP'), ('that', 'IN'), ('analysts', 'NNS'), ('either', 'CC'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('perform', 'NN'), ('better', 'NN'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), ('or', 'CC'), ('that', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('worth', 'JJ'), ('covering', 'NN'), ('and', 'CC'), ('providing', 'VBG'), ('analysis', 'NN'), ('on', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Upgrades/NNP)   and/CC   coverage/NN   initiations/NNS   are/VBP   typically/RB   good/JJ   for/IN   stocks/NNS   because/IN   they/PRP   show/VBP   that/IN   analysts/NNS   either/CC   believe/VBP   that/IN   the/DT   stock/NN   is/VBZ   going/VBG   to/TO   perform/NN   better/NN   in/IN   the/DT   future/NN   or/CC   that/IN   the/DT   stock/NN   is/VBZ   worth/JJ   covering/NN   and/CC   providing/VBG   analysis/NN   on/IN   ./.)
+----------------------------------
+original sentence: 
+Downgrades are typically bad for stocks because they show that analysts believe that the stock is going to perform worse in the future.
+
+POS tagged sentence: 
+[('Downgrades', 'NNP'), ('are', 'VBP'), ('typically', 'RB'), ('bad', 'JJ'), ('for', 'IN'), ('stocks', 'NNS'), ('because', 'IN'), ('they', 'PRP'), ('show', 'VBP'), ('that', 'IN'), ('analysts', 'NNS'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('perform', 'NN'), ('worse', 'NN'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Downgrades/NNP   are/VBP   typically/RB   bad/JJ   for/IN   stocks/NNS   because/IN   they/PRP   show/VBP   that/IN   analysts/NNS   believe/VBP   that/IN   the/DT   stock/NN   is/VBZ   going/VBG   to/TO   perform/NN   worse/NN   in/IN   the/DT   future/NN   ./.)
+----------------------------------
+original sentence: 
+What is a Stock Analyst?
+
+POS tagged sentence: 
+[('What', 'WP'), ('is', 'VBZ'), ('a', 'DT'), ('Stock', 'NNP'), ('Analyst', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S What/WP is/VBZ a/DT Stock/NNP Analyst/NNP ?/.)
+----------------------------------
+original sentence: 
+Understanding Stock Analyst Research and Recommendations
+ video and article for more info.
+
+POS tagged sentence: 
+[('Understanding', 'VBG'), ('Stock', 'NN'), ('Analyst', 'NNP'), ('Research', 'NNP'), ('and', 'CC'), ('Recommendations', 'NNPS'), ('video', 'RB'), ('and', 'CC'), ('article', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('info', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Understanding/VBG   (PERSON Stock/NN Analyst/NNP Research/NNP)   and/CC   Recommendations/NNPS   video/RB   and/CC   article/NN   for/IN   more/JJR   info/NN   ./.)
+----------------------------------
+original sentence: 
+A stock analysts is a person typically employed by a large bank, investment firm or analysis company who devotes his/her life to learning and making predictions about a company and its future performance.
+
+POS tagged sentence: 
+[('A', 'DT'), ('stock', 'NN'), ('analysts', 'NNS'), ('is', 'VBZ'), ('a', 'DT'), ('person', 'NN'), ('typically', 'RB'), ('employed', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('large', 'JJ'), ('bank', 'NN'), (',', ','), ('investment', 'NN'), ('firm', 'NN'), ('or', 'CC'), ('analysis', 'NN'), ('company', 'NN'), ('who', 'WP'), ('devotes', 'VBZ'), ('his/her', 'JJ'), ('life', 'NN'), ('to', 'TO'), ('learning', 'NN'), ('and', 'CC'), ('making', 'VBG'), ('predictions', 'NNS'), ('about', 'IN'), ('a', 'DT'), ('company', 'NN'), ('and', 'CC'), ('its', 'PRP$'), ('future', 'JJ'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   stock/NN   analysts/NNS   is/VBZ   a/DT   person/NN   typically/RB   employed/VBN   by/IN   a/DT   large/JJ   bank/NN   ,/,   investment/NN   firm/NN   or/CC   analysis/NN   company/NN   who/WP   devotes/VBZ   his/her/JJ   life/NN   to/TO   learning/NN   and/CC   making/VBG   predictions/NNS   about/IN   a/DT   company/NN   and/CC   its/PRP$   future/JJ   performance/NN   ./.)
+----------------------------------
+original sentence: 
+Stock analysts sift through company reports and filings, talk to company management, probe customers and competitors and basically do whatever they can to find out if a company is healthy and growing or sick and shrinking.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('analysts', 'NNS'), ('sift', 'VBP'), ('through', 'IN'), ('company', 'NN'), ('reports', 'NNS'), ('and', 'CC'), ('filings', 'NNS'), (',', ','), ('talk', 'VBP'), ('to', 'TO'), ('company', 'NN'), ('management', 'NN'), (',', ','), ('probe', 'VB'), ('customers', 'NNS'), ('and', 'CC'), ('competitors', 'NNS'), ('and', 'CC'), ('basically', 'RB'), ('do', 'VBP'), ('whatever', 'RB'), ('they', 'PRP'), ('can', 'MD'), ('to', 'TO'), ('find', 'VB'), ('out', 'RP'), ('if', 'IN'), ('a', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('healthy', 'JJ'), ('and', 'CC'), ('growing', 'VBG'), ('or', 'CC'), ('sick', 'VB'), ('and', 'CC'), ('shrinking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   analysts/NNS   sift/VBP   through/IN   company/NN   reports/NNS   and/CC   filings/NNS   ,/,   talk/VBP   to/TO   company/NN   management/NN   ,/,   probe/VB   customers/NNS   and/CC   competitors/NNS   and/CC   basically/RB   do/VBP   whatever/RB   they/PRP   can/MD   to/TO   find/VB   out/RP   if/IN   a/DT   company/NN   is/VBZ   healthy/JJ   and/CC   growing/VBG   or/CC   sick/VB   and/CC   shrinking/VBG   ./.)
+----------------------------------
+original sentence: 
+Because this is incredibly demanding work, stock analysts typically only monitor one or two companies at a time. 
+
+POS tagged sentence: 
+[('Because', 'IN'), ('this', 'DT'), ('is', 'VBZ'), ('incredibly', 'RB'), ('demanding', 'VBG'), ('work', 'NN'), (',', ','), ('stock', 'NN'), ('analysts', 'NNS'), ('typically', 'RB'), ('only', 'RB'), ('monitor', 'NN'), ('one', 'CD'), ('or', 'CC'), ('two', 'CD'), ('companies', 'NNS'), ('at', 'IN'), ('a', 'DT'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Because/IN   this/DT   is/VBZ   incredibly/RB   demanding/VBG   work/NN   ,/,   stock/NN   analysts/NNS   typically/RB   only/RB   monitor/NN   one/CD   or/CC   two/CD   companies/NNS   at/IN   a/DT   time/NN   ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,229 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Bulls and Bears on the Trenches Las Vegas Sands | Tech Corner
+ Bulls and Bears on the Trenches Las Vegas Sands  Written by Danny Miller  Tuesday, 06 April 2010 19:49  New York, April 6th TradersHuddle.com Shares of Las Vegas Sands Corp. NYSE:LVS closed the trading day higher by $0.07 or 0.3% from its previous close.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Bulls', 'NNS'), ('and', 'CC'), ('Bears', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('Trenches', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('|', 'NNP'), ('Tech', 'NNP'), ('Corner', 'NNP'), ('Bulls', 'NNP'), ('and', 'CC'), ('Bears', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('Trenches', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Written', 'NNP'), ('by', 'IN'), ('Danny', 'NNP'), ('Miller', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('06', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('19', 'CD'), (':', ':'), ('49', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('April', 'NNP'), ('6th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('higher', 'JJR'), ('by', 'IN'), ('$', '$'), ('0.07', 'CD'), ('or', 'CC'), ('0.3', 'CD'), ('%', 'NN'), ('from', 'IN'), ('its', 'PRP$'), ('previous', 'JJ'), ('close', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Bulls/NNS   and/CC   (PERSON Bears/NNP)   on/IN   the/DT   (ORGANIZATION Trenches/NNP Las/NNP Vegas/NNP Sands/NNPS)   |/NNP   Tech/NNP   (PERSON Corner/NNP Bulls/NNP)   and/CC   (PERSON Bears/NNP)   on/IN   the/DT   (ORGANIZATION     Trenches/NNP     Las/NNP     Vegas/NNP     Sands/NNPS     Written/NNP)   by/IN   (PERSON Danny/NNP Miller/NNP)   Tuesday/NNP   ,/,   06/CD   April/NNP   2010/CD   19/CD   :/:   49/CD   (GPE New/NNP York/NNP)   ,/,   April/NNP   6th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   closed/VBD   the/DT   trading/NN   day/NN   higher/JJR   by/IN   $/$   0.07/CD   or/CC   0.3/CD   %/NN   from/IN   its/PRP$   previous/JJ   close/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB closed/VBD the/DT trading/NN day/NN higher/JJR by/IN)
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Bulls/NNS)
+	(NOUN Bears/NNP)
+	(NOUN Trenches/NNP Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN |/NNP Tech/NNP Corner/NNP Bulls/NNP)
+	(NOUN Bears/NNP)
+	(NOUN Trenches/NNP Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN Written/NNP)
+	(NOUN Danny/NNP Miller/NNP Tuesday/NNP)
+	(NOUN 06/CD April/NNP)
+	(NOUN 49/CD New/NNP York/NNP)
+	(NOUN April/NNP)
+	(NOUN 6th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN 0.3/CD %/NN)
+	(NOUN previous/JJ close/NN)
+
+----------------------------------
+original sentence: 
+Las Vegas Sands' shares price action formed what is considered to be a doji close, where the open and close prices are very close to each other, mainly signaling an indecision between buyers and sellers.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ("'", 'POS'), ('shares', 'NNS'), ('price', 'NN'), ('action', 'NN'), ('formed', 'VBN'), ('what', 'WP'), ('is', 'VBZ'), ('considered', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('doji', 'NN'), ('close', 'NN'), (',', ','), ('where', 'WRB'), ('the', 'DT'), ('open', 'JJ'), ('and', 'CC'), ('close', 'JJ'), ('prices', 'NNS'), ('are', 'VBP'), ('very', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('each', 'DT'), ('other', 'JJ'), (',', ','), ('mainly', 'RB'), ('signaling', 'VBG'), ('an', 'DT'), ('indecision', 'NN'), ('between', 'IN'), ('buyers', 'NNS'), ('and', 'CC'), ('sellers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   '/POS   shares/NNS   price/NN   action/NN   formed/VBN   what/WP   is/VBZ   considered/VBN   to/TO   be/VB   a/DT   doji/NN   close/NN   ,/,   where/WRB   the/DT   open/JJ   and/CC   close/JJ   prices/NNS   are/VBP   very/RB   close/JJ   to/TO   each/DT   other/JJ   ,/,   mainly/RB   signaling/VBG   an/DT   indecision/NN   between/IN   buyers/NNS   and/CC   sellers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB formed/VBN)
+	(VERB is/VBZ considered/VBN)
+	(VERB be/VB a/DT doji/NN close/NN)
+	(VERB are/VBP very/RB close/JJ)
+	(VERB signaling/VBG an/DT indecision/NN between/IN buyers/NNS)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN shares/NNS price/NN action/NN)
+	(NOUN the/DT open/JJ)
+	(NOUN close/JJ prices/NNS)
+	(NOUN each/DT other/JJ)
+	(NOUN sellers/NNS)
+
+----------------------------------
+original sentence: 
+Las Vegas Sands Corp. NYSE:LVS owns and operates casino resorts and convention centers.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('owns', 'VBZ'), ('and', 'CC'), ('operates', 'VBZ'), ('casino', 'NN'), ('resorts', 'NNS'), ('and', 'CC'), ('convention', 'NN'), ('centers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   owns/VBZ   and/CC   operates/VBZ   casino/NN   resorts/NNS   and/CC   convention/NN   centers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owns/VBZ)
+	(VERB operates/VBZ casino/NN resorts/NNS)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN convention/NN centers/NNS)
+
+----------------------------------
+original sentence: 
+The Company operates in United States, Macau, and Singapore and offers a wide range of gaming activities and entertainment as well as overnight accomodations in properties like the Venetian and the Palazzo in Las Vegas, NV.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('operates', 'VBZ'), ('in', 'IN'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('Macau', 'NNP'), (',', ','), ('and', 'CC'), ('Singapore', 'NNP'), ('and', 'CC'), ('offers', 'VBZ'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('gaming', 'VBG'), ('activities', 'NNS'), ('and', 'CC'), ('entertainment', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('overnight', 'JJ'), ('accomodations', 'NNS'), ('in', 'IN'), ('properties', 'NNS'), ('like', 'IN'), ('the', 'DT'), ('Venetian', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Palazzo', 'NNP'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), (',', ','), ('NV', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   operates/VBZ   in/IN   (GPE United/NNP States/NNPS)   ,/,   (PERSON Macau/NNP)   ,/,   and/CC   (GPE Singapore/NNP)   and/CC   offers/VBZ   a/DT   wide/JJ   range/NN   of/IN   gaming/VBG   activities/NNS   and/CC   entertainment/NN   as/IN   well/RB   as/IN   overnight/JJ   accomodations/NNS   in/IN   properties/NNS   like/IN   the/DT   (GPE Venetian/NNP)   and/CC   the/DT   (GPE Palazzo/NNP)   in/IN   (GPE Las/NNP Vegas/NNP)   ,/,   (ORGANIZATION NV/NNP)   ./.)
+----------------------------------
+original sentence: 
+Its expo centers host a wide range of entertainment shows, expositions, and other activities.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('expo', 'NN'), ('centers', 'NNS'), ('host', 'VBP'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('entertainment', 'NN'), ('shows', 'NNS'), (',', ','), ('expositions', 'NNS'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('activities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   expo/NN   centers/NNS   host/VBP   a/DT   wide/JJ   range/NN   of/IN   entertainment/NN   shows/NNS   ,/,   expositions/NNS   ,/,   and/CC   other/JJ   activities/NNS   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands' current stock range is defined by a trough, which marks calculated support at $20.60 and by a peak that marked the resistance point at $22.49.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ("'", 'POS'), ('current', 'JJ'), ('stock', 'NN'), ('range', 'NN'), ('is', 'VBZ'), ('defined', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('trough', 'JJ'), (',', ','), ('which', 'WDT'), ('marks', 'NNS'), ('calculated', 'VBD'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('20.60', 'CD'), ('and', 'CC'), ('by', 'IN'), ('a', 'DT'), ('peak', 'NN'), ('that', 'WDT'), ('marked', 'VBD'), ('the', 'DT'), ('resistance', 'NN'), ('point', 'NN'), ('at', 'IN'), ('$', '$'), ('22.49', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   '/POS   current/JJ   stock/NN   range/NN   is/VBZ   defined/VBN   by/IN   a/DT   trough/JJ   ,/,   which/WDT   marks/NNS   calculated/VBD   support/NN   at/IN   $/$   20.60/CD   and/CC   by/IN   a/DT   peak/NN   that/WDT   marked/VBD   the/DT   resistance/NN   point/NN   at/IN   $/$   22.49/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ defined/VBN by/IN a/DT trough/JJ)
+	(VERB calculated/VBD support/NN at/IN)
+	(VERB marked/VBD the/DT resistance/NN point/NN at/IN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN current/JJ stock/NN range/NN)
+	(NOUN marks/NNS)
+	(NOUN peak/NN)
+
+----------------------------------
+original sentence: 
+These levels are closely watched by traders managing their positions.
+
+POS tagged sentence: 
+[('These', 'DT'), ('levels', 'NNS'), ('are', 'VBP'), ('closely', 'RB'), ('watched', 'VBN'), ('by', 'IN'), ('traders', 'NNS'), ('managing', 'VBG'), ('their', 'PRP$'), ('positions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   levels/NNS   are/VBP   closely/RB   watched/VBN   by/IN   traders/NNS   managing/VBG   their/PRP$   positions/NNS   ./.)
+----------------------------------
+original sentence: 
+Traders wanting to establish a position in Las Vegas Sands or traders that are already holding the stock can use the doji close to their advantage, since the pattern present a short term pause in the stock's price action.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('wanting', 'VBG'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('position', 'NN'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('or', 'CC'), ('traders', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('already', 'RB'), ('holding', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('can', 'MD'), ('use', 'VB'), ('the', 'DT'), ('doji', 'NN'), ('close', 'NN'), ('to', 'TO'), ('their', 'PRP$'), ('advantage', 'NN'), (',', ','), ('since', 'IN'), ('the', 'DT'), ('pattern', 'NN'), ('present', 'NN'), ('a', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('pause', 'NN'), ('in', 'IN'), ('the', 'DT'), ('stock', 'NN'), ("'s", 'POS'), ('price', 'NN'), ('action', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   wanting/VBG   to/TO   establish/VB   a/DT   position/NN   in/IN   (GPE Las/NNP Vegas/NNP)   (ORGANIZATION Sands/NNPS)   or/CC   traders/NNS   that/IN   are/VBP   already/RB   holding/VBG   the/DT   stock/NN   can/MD   use/VB   the/DT   doji/NN   close/NN   to/TO   their/PRP$   advantage/NN   ,/,   since/IN   the/DT   pattern/NN   present/NN   a/DT   short/JJ   term/NN   pause/NN   in/IN   the/DT   stock/NN   's/POS   price/NN   action/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   wanting/VBG   to/TO   establish/VB   a/DT   position/NN   in/IN   Las/NNP   Vegas/NNP   Sands/NNPS)
+	(VERB are/VBP already/RB holding/VBG the/DT stock/NN)
+	(VERB use/VB the/DT doji/NN close/NN)
+noun phrases to consider:
+	(NOUN Traders/NNS)
+	(NOUN traders/NNS)
+	(NOUN advantage/NN)
+	(NOUN pattern/NN present/NN)
+	(NOUN a/DT short/JJ term/NN pause/NN)
+	(NOUN stock/NN)
+	(NOUN price/NN action/NN)
+
+----------------------------------
+original sentence: 
+This pause results in an entry point for traders depending of which way the stock resolves this short term indecision.
+
+POS tagged sentence: 
+[('This', 'DT'), ('pause', 'NN'), ('results', 'NNS'), ('in', 'IN'), ('an', 'DT'), ('entry', 'NN'), ('point', 'NN'), ('for', 'IN'), ('traders', 'NNS'), ('depending', 'VBG'), ('of', 'IN'), ('which', 'WDT'), ('way', 'NN'), ('the', 'DT'), ('stock', 'NN'), ('resolves', 'NNS'), ('this', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('indecision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   pause/NN   results/NNS   in/IN   an/DT   entry/NN   point/NN   for/IN   traders/NNS   depending/VBG   of/IN   which/WDT   way/NN   the/DT   stock/NN   resolves/NNS   this/DT   short/JJ   term/NN   indecision/NN   ./.)
+----------------------------------
+original sentence: 
+Doji are important candlesticks that provide information on their own and as components of in a number of important patterns.
+
+POS tagged sentence: 
+[('Doji', 'NNP'), ('are', 'VBP'), ('important', 'JJ'), ('candlesticks', 'NNS'), ('that', 'WDT'), ('provide', 'VB'), ('information', 'NN'), ('on', 'IN'), ('their', 'PRP$'), ('own', 'JJ'), ('and', 'CC'), ('as', 'IN'), ('components', 'NNS'), ('of', 'IN'), ('in', 'IN'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('important', 'JJ'), ('patterns', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Doji/NNP)   are/VBP   important/JJ   candlesticks/NNS   that/WDT   provide/VB   information/NN   on/IN   their/PRP$   own/JJ   and/CC   as/IN   components/NNS   of/IN   in/IN   a/DT   number/NN   of/IN   important/JJ   patterns/NNS   ./.)
+----------------------------------
+original sentence: 
+Doji form when a security's open and close are virtually equal.
+
+POS tagged sentence: 
+[('Doji', 'NNP'), ('form', 'NN'), ('when', 'WRB'), ('a', 'DT'), ('security', 'NN'), ("'s", 'POS'), ('open', 'JJ'), ('and', 'CC'), ('close', 'JJ'), ('are', 'VBP'), ('virtually', 'RB'), ('equal', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Doji/NNP)   form/NN   when/WRB   a/DT   security/NN   's/POS   open/JJ   and/CC   close/JJ   are/VBP   virtually/RB   equal/JJ   ./.)
+----------------------------------
+original sentence: 
+The length of the upper and lower shadows can vary and the resulting candlestick looks like a cross, inverted cross or plus sign.
+
+POS tagged sentence: 
+[('The', 'DT'), ('length', 'NN'), ('of', 'IN'), ('the', 'DT'), ('upper', 'JJ'), ('and', 'CC'), ('lower', 'JJR'), ('shadows', 'NNS'), ('can', 'MD'), ('vary', 'VB'), ('and', 'CC'), ('the', 'DT'), ('resulting', 'VBG'), ('candlestick', 'NN'), ('looks', 'NNS'), ('like', 'IN'), ('a', 'DT'), ('cross', 'NN'), (',', ','), ('inverted', 'VBD'), ('cross', 'NNS'), ('or', 'CC'), ('plus', 'CC'), ('sign', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   length/NN   of/IN   the/DT   upper/JJ   and/CC   lower/JJR   shadows/NNS   can/MD   vary/VB   and/CC   the/DT   resulting/VBG   candlestick/NN   looks/NNS   like/IN   a/DT   cross/NN   ,/,   inverted/VBD   cross/NNS   or/CC   plus/CC   sign/NN   ./.)
+----------------------------------
+original sentence: 
+Alone, doji are neutral patterns.
+
+POS tagged sentence: 
+[('Alone', 'NNP'), (',', ','), ('doji', 'NN'), ('are', 'VBP'), ('neutral', 'JJ'), ('patterns', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Alone/NNP) ,/, doji/NN are/VBP neutral/JJ patterns/NNS ./.)
+----------------------------------
+original sentence: 
+Any bullish or bearish bias is based on preceding price action and future confirmation.
+
+POS tagged sentence: 
+[('Any', 'DT'), ('bullish', 'JJ'), ('or', 'CC'), ('bearish', 'JJ'), ('bias', 'NN'), ('is', 'VBZ'), ('based', 'VBN'), ('on', 'IN'), ('preceding', 'NN'), ('price', 'NN'), ('action', 'NN'), ('and', 'CC'), ('future', 'JJ'), ('confirmation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Any/DT   bullish/JJ   or/CC   bearish/JJ   bias/NN   is/VBZ   based/VBN   on/IN   preceding/NN   price/NN   action/NN   and/CC   future/JJ   confirmation/NN   ./.)
+----------------------------------
+original sentence: 
+In the case of Las Vegas Sands, given that the stock finished the session higher, bulls should monitor their positions for confirmation that stock will continue higher by taking today's intraday high.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('case', 'NN'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('finished', 'VBD'), ('the', 'DT'), ('session', 'NN'), ('higher', 'JJR'), (',', ','), ('bulls', 'NNS'), ('should', 'MD'), ('monitor', 'VB'), ('their', 'PRP$'), ('positions', 'NNS'), ('for', 'IN'), ('confirmation', 'NN'), ('that', 'WDT'), ('stock', 'NN'), ('will', 'MD'), ('continue', 'VB'), ('higher', 'JJR'), ('by', 'IN'), ('taking', 'VBG'), ('today', 'NN'), ("'s", 'POS'), ('intraday', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   case/NN   of/IN   (PERSON Las/NNP Vegas/NNP Sands/NNPS)   ,/,   given/VBN   that/IN   the/DT   stock/NN   finished/VBD   the/DT   session/NN   higher/JJR   ,/,   bulls/NNS   should/MD   monitor/VB   their/PRP$   positions/NNS   for/IN   confirmation/NN   that/WDT   stock/NN   will/MD   continue/VB   higher/JJR   by/IN   taking/VBG   today/NN   's/POS   intraday/NN   high/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB given/VBN that/IN the/DT stock/NN)
+	(VERB finished/VBD the/DT session/NN higher/JJR)
+	(VERB monitor/VB their/PRP$ positions/NNS for/IN confirmation/NN)
+	(VERB continue/VB higher/JJR by/IN)
+	(VERB taking/VBG today/NN)
+noun phrases to consider:
+	(NOUN case/NN)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN bulls/NNS)
+	(NOUN stock/NN)
+	(NOUN intraday/NN high/JJ)
+
+----------------------------------
+original sentence: 
+Below a Doji illustration:
+ Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Below', 'IN'), ('a', 'DT'), ('Doji', 'NNP'), ('illustration', 'NN'), (':', ':'), ('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   Below/IN   a/DT   Doji/NNP   illustration/NN   :/:   (PERSON Google/NNP Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

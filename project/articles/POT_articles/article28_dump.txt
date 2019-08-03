@@ -1,0 +1,131 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+Buyers Accumulate Shares of Potash, Up 0.2% POT Thursday, March 18, 2010 12:00
+Thu, 03/18/2010 12:00
+ is one of today&apos;s best performing stocks, up 0.2% to $125.93.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Buyers', 'NNP'), ('Accumulate', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Potash', 'NNP'), (',', ','), ('Up', 'NNP'), ('0.2', 'CD'), ('%', 'NN'), ('POT', 'NN'), ('Thursday', 'NNP'), (',', ','), ('March', 'NNP'), ('18', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('00', 'CD'), ('Thu', 'NNP'), (',', ','), ('03/18/2010', 'CD'), ('12', 'CD'), (':', ':'), ('00', 'CD'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('today&apos', 'NNP'), (';', ':'), ('s', 'NNS'), ('best', 'JJS'), ('performing', 'VBG'), ('stocks', 'NNS'), (',', ','), ('up', 'RB'), ('0.2', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('125.93', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION     SmarTrend/NNP     Alert/NNP     Buyers/NNP     Accumulate/NNP     Shares/NNP)   of/IN   (GPE Potash/NNP)   ,/,   Up/NNP   0.2/CD   %/NN   (ORGANIZATION POT/NN)   Thursday/NNP   ,/,   March/NNP   18/CD   ,/,   2010/CD   12/CD   :/:   00/CD   Thu/NNP   ,/,   03/18/2010/CD   12/CD   :/:   00/CD   is/VBZ   one/CD   of/IN   today&apos/NNP   ;/:   s/NNS   best/JJS   performing/VBG   stocks/NNS   ,/,   up/RB   0.2/CD   %/NN   to/TO   $/$   125.93/CD   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 0.2/CD)
+
+tagged sentence:
+	 up 0.2	res:+1
+verb phrases to consider:
+	(VERB is/VBZ one/CD of/IN today&apos/NNP)
+	(VERB performing/VBG stocks/NNS)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Buyers/NNP)
+	(NOUN Accumulate/NNP Shares/NNP)
+	(NOUN Potash/NNP)
+	(NOUN Up/NNP)
+	(NOUN 0.2/CD %/NN POT/NN Thursday/NNP)
+	(NOUN March/NNP)
+	(NOUN 00/CD Thu/NNP)
+	(NOUN s/NNS best/JJS)
+	(NOUN %/NN)
+
+----------------------------------
+original sentence: 
+The S&P is currently trading 0.6% higher to 1,166 and the Dow Jones Industrial Average is trading 0.6% higher to 10,753.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), ('is', 'VBZ'), ('currently', 'RB'), ('trading', 'VBG'), ('0.6', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('to', 'TO'), ('1,166', 'CD'), ('and', 'CC'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('is', 'VBZ'), ('trading', 'VBG'), ('0.6', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('to', 'TO'), ('10,753', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   is/VBZ   currently/RB   trading/VBG   0.6/CD   %/NN   higher/JJR   to/TO   1,166/CD   and/CC   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   is/VBZ   trading/VBG   0.6/CD   %/NN   higher/JJR   to/TO   10,753/CD   ./.)
+----------------------------------
+original sentence: 
+Potash is in SmarTrend&apos;s Agricultural Chemicals industry and this industry is currently in an Uptrend according to our research.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('is', 'VBZ'), ('in', 'IN'), ('SmarTrend&apos', 'JJ'), (';', ':'), ('s', 'NNS'), ('Agricultural', 'NNP'), ('Chemicals', 'NNP'), ('industry', 'NN'), ('and', 'CC'), ('this', 'DT'), ('industry', 'NN'), ('is', 'VBZ'), ('currently', 'RB'), ('in', 'IN'), ('an', 'DT'), ('Uptrend', 'NNP'), ('according', 'VBG'), ('to', 'TO'), ('our', 'PRP$'), ('research', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Potash/NNP)   is/VBZ   in/IN   SmarTrend&apos/JJ   ;/:   s/NNS   Agricultural/NNP   Chemicals/NNP   industry/NN   and/CC   this/DT   industry/NN   is/VBZ   currently/RB   in/IN   an/DT   Uptrend/NNP   according/VBG   to/TO   our/PRP$   research/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ in/IN SmarTrend&apos/JJ)
+	(VERB is/VBZ currently/RB in/IN an/DT Uptrend/NNP)
+	(VERB according/VBG to/TO our/PRP$ research/NN)
+noun phrases to consider:
+	(NOUN Potash/NNP)
+	(NOUN s/NNS Agricultural/NNP Chemicals/NNP industry/NN)
+	(NOUN industry/NN)
+
+----------------------------------
+original sentence: 
+We are monitoring many other stocks on the move within this industry.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('are', 'VBP'), ('monitoring', 'VBG'), ('many', 'JJ'), ('other', 'JJ'), ('stocks', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('move', 'NN'), ('within', 'IN'), ('this', 'DT'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   are/VBP   monitoring/VBG   many/JJ   other/JJ   stocks/NNS   on/IN   the/DT   move/NN   within/IN   this/DT   industry/NN   ./.)
+----------------------------------
+original sentence: 
+SmarTrend is tracking trends for Potash and other fast moving stocks every day.
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('is', 'VBZ'), ('tracking', 'VBG'), ('trends', 'NNS'), ('for', 'IN'), ('Potash', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('fast', 'NN'), ('moving', 'VBG'), ('stocks', 'NNS'), ('every', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   is/VBZ   tracking/VBG   trends/NNS   for/IN   (PERSON Potash/NNP)   and/CC   other/JJ   fast/NN   moving/VBG   stocks/NNS   every/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ tracking/VBG trends/NNS for/IN Potash/NNP)
+	(VERB moving/VBG stocks/NNS every/DT day/NN)
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN other/JJ fast/NN)
+
+----------------------------------
+original sentence: 
+Visit our site for the latest trend data and alerts on Potash.
+
+POS tagged sentence: 
+[('Visit', 'NN'), ('our', 'PRP$'), ('site', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('trend', 'NN'), ('data', 'NNS'), ('and', 'CC'), ('alerts', 'NNS'), ('on', 'IN'), ('Potash', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Visit/NN)   our/PRP$   site/JJ   for/IN   the/DT   latest/JJS   trend/NN   data/NNS   and/CC   alerts/NNS   on/IN   (GPE Potash/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Visit/NN)
+	(NOUN site/JJ)
+	(NOUN the/DT latest/JJS trend/NN data/NNS)
+	(NOUN alerts/NNS)
+	(NOUN Potash/NNP)
+
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:1

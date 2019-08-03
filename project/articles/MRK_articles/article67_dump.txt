@@ -1,0 +1,406 @@
+
+----------------------------------
+original sentence: 
+ Clinical Outcomes?
+
+POS tagged sentence: 
+[('Clinical', 'JJ'), ('Outcomes', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Clinical/JJ) (ORGANIZATION Outcomes/NNP) ?/.)
+----------------------------------
+original sentence: 
+Who Needs 'Em.
+
+POS tagged sentence: 
+[('Who', 'WP'), ('Needs', 'VBZ'), ("'Em", 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Who/WP Needs/VBZ 'Em/JJ ./.)
+----------------------------------
+original sentence: 
+ABT The World's Greatest Investing Community
+The Motley Fool Clinical Outcomes?
+
+POS tagged sentence: 
+[('ABT', 'NN'), ('The', 'DT'), ('World', 'NNP'), ("'s", 'POS'), ('Greatest', 'NNP'), ('Investing', 'NNP'), ('Community', 'NNP'), ('The', 'NNP'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Clinical', 'NNP'), ('Outcomes', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   ABT/NN   The/DT   (ORGANIZATION World/NNP)   's/POS   (ORGANIZATION Greatest/NNP)   Investing/NNP   Community/NNP   The/NNP   (ORGANIZATION Motley/NNP Fool/NNP Clinical/NNP Outcomes/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Who Needs 'Em.
+
+POS tagged sentence: 
+[('Who', 'WP'), ('Needs', 'VBZ'), ("'Em", 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Who/WP Needs/VBZ 'Em/JJ ./.)
+----------------------------------
+original sentence: 
+By Brian Orelli  David Gardner called it.
+
+POS tagged sentence: 
+[('By', 'IN'), ('Brian', 'NNP'), ('Orelli', 'NNP'), ('David', 'NNP'), ('Gardner', 'NNP'), ('called', 'VBD'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   (PERSON Brian/NNP Orelli/NNP)   (PERSON David/NNP Gardner/NNP)   called/VBD   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Heâ€™s up 1,334%!
+
+POS tagged sentence: 
+[('He', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('up', 'IN'), ('1,334', 'CD'), ('%', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S He/PRP â/VBP €/: ™/: s/NNS up/IN 1,334/CD %/NN !/.)
+----------------------------------
+original sentence: 
+See what Davidâ€™s recommending that you buy NEXT.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('what', 'WP'), ('David', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('recommending', 'VBG'), ('that', 'IN'), ('you', 'PRP'), ('buy', 'VB'), ('NEXT', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   See/NNP   what/WP   (PERSON David/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   recommending/VBG   that/IN   you/PRP   buy/VB   (ORGANIZATION NEXT/NNP)   ./.)
+----------------------------------
+original sentence: 
+"Welcome to the club.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Welcome', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('club', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S "/NN (PERSON Welcome/NNP) to/TO the/DT club/NN ./.)
+----------------------------------
+original sentence: 
+"
+ Imaginary text message from  CEO Richard Clark to  CEO Miles White yesterday.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Imaginary', 'NNP'), ('text', 'NN'), ('message', 'NN'), ('from', 'IN'), ('CEO', 'NNP'), ('Richard', 'NNP'), ('Clark', 'NNP'), ('to', 'TO'), ('CEO', 'NNP'), ('Miles', 'NNP'), ('White', 'NNP'), ('yesterday', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Imaginary/NNP   text/NN   message/NN   from/IN   (ORGANIZATION CEO/NNP)   (PERSON Richard/NNP Clark/NNP)   to/TO   (ORGANIZATION CEO/NNP Miles/NNP White/NNP)   yesterday/NN   ./.)
+----------------------------------
+original sentence: 
+Like Merck's Zetia, Abbott's TriCor has been used by many patients, but neither drug has really been shown to do anything other than improve blood tests.
+
+POS tagged sentence: 
+[('Like', 'IN'), ('Merck', 'NNP'), ("'s", 'POS'), ('Zetia', 'NNP'), (',', ','), ('Abbott', 'NNP'), ("'s", 'POS'), ('TriCor', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('used', 'VBN'), ('by', 'IN'), ('many', 'JJ'), ('patients', 'NNS'), (',', ','), ('but', 'CC'), ('neither', 'DT'), ('drug', 'NN'), ('has', 'VBZ'), ('really', 'RB'), ('been', 'VBN'), ('shown', 'VBN'), ('to', 'TO'), ('do', 'VB'), ('anything', 'NN'), ('other', 'JJ'), ('than', 'IN'), ('improve', 'JJ'), ('blood', 'NN'), ('tests', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Like/IN   (PERSON Merck/NNP)   's/POS   (PERSON Zetia/NNP)   ,/,   (PERSON Abbott/NNP)   's/POS   (ORGANIZATION TriCor/NNP)   has/VBZ   been/VBN   used/VBN   by/IN   many/JJ   patients/NNS   ,/,   but/CC   neither/DT   drug/NN   has/VBZ   really/RB   been/VBN   shown/VBN   to/TO   do/VB   anything/NN   other/JJ   than/IN   improve/JJ   blood/NN   tests/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ been/VBN used/VBN by/IN many/JJ patients/NNS)
+	(VERB has/VBZ really/RB been/VBN shown/VBN)
+	(VERB   do/VB   anything/NN   other/JJ   than/IN   improve/JJ   blood/NN   tests/NNS)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Zetia/NNP)
+	(NOUN Abbott/NNP)
+	(NOUN TriCor/NNP)
+	(NOUN drug/NN)
+
+----------------------------------
+original sentence: 
+That was good enough for approval, but without positive clinical outcomes, many doctors won't be interested in continuing to use them.
+
+POS tagged sentence: 
+[('That', 'DT'), ('was', 'VBD'), ('good', 'JJ'), ('enough', 'RB'), ('for', 'IN'), ('approval', 'NN'), (',', ','), ('but', 'CC'), ('without', 'IN'), ('positive', 'JJ'), ('clinical', 'JJ'), ('outcomes', 'NNS'), (',', ','), ('many', 'JJ'), ('doctors', 'NNS'), ('wo', 'MD'), ("n't", 'RB'), ('be', 'VB'), ('interested', 'JJ'), ('in', 'IN'), ('continuing', 'VBG'), ('to', 'TO'), ('use', 'VB'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   was/VBD   good/JJ   enough/RB   for/IN   approval/NN   ,/,   but/CC   without/IN   positive/JJ   clinical/JJ   outcomes/NNS   ,/,   many/JJ   doctors/NNS   wo/MD   n't/RB   be/VB   interested/JJ   in/IN   continuing/VBG   to/TO   use/VB   them/PRP   ./.)
+----------------------------------
+original sentence: 
+Zetia lowers bad cholesterol levels, but a  published a few years ago showed that it didn't have a positive effect on plaque buildup in a neck artery.
+
+POS tagged sentence: 
+[('Zetia', 'NNP'), ('lowers', 'NNS'), ('bad', 'JJ'), ('cholesterol', 'NN'), ('levels', 'NNS'), (',', ','), ('but', 'CC'), ('a', 'DT'), ('published', 'JJ'), ('a', 'DT'), ('few', 'JJ'), ('years', 'NNS'), ('ago', 'RB'), ('showed', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('did', 'VBD'), ("n't", 'RB'), ('have', 'VB'), ('a', 'DT'), ('positive', 'JJ'), ('effect', 'NN'), ('on', 'IN'), ('plaque', 'NN'), ('buildup', 'NN'), ('in', 'IN'), ('a', 'DT'), ('neck', 'NN'), ('artery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Zetia/NNP)   lowers/NNS   bad/JJ   cholesterol/NN   levels/NNS   ,/,   but/CC   a/DT   published/JJ   a/DT   few/JJ   years/NNS   ago/RB   showed/VBD   that/IN   it/PRP   did/VBD   n't/RB   have/VB   a/DT   positive/JJ   effect/NN   on/IN   plaque/NN   buildup/NN   in/IN   a/DT   neck/NN   artery/NN   ./.)
+----------------------------------
+original sentence: 
+Merck is still holding out hope that Zetia will show a positive effect on heart problems, but the results from that trial won't be available until 2013.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('is', 'VBZ'), ('still', 'RB'), ('holding', 'VBG'), ('out', 'RP'), ('hope', 'NN'), ('that', 'IN'), ('Zetia', 'NNP'), ('will', 'MD'), ('show', 'VB'), ('a', 'DT'), ('positive', 'JJ'), ('effect', 'NN'), ('on', 'IN'), ('heart', 'NN'), ('problems', 'NNS'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('results', 'NNS'), ('from', 'IN'), ('that', 'DT'), ('trial', 'NN'), ('wo', 'MD'), ("n't", 'RB'), ('be', 'VB'), ('available', 'JJ'), ('until', 'IN'), ('2013', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   is/VBZ   still/RB   holding/VBG   out/RP   hope/NN   that/IN   (PERSON Zetia/NNP)   will/MD   show/VB   a/DT   positive/JJ   effect/NN   on/IN   heart/NN   problems/NNS   ,/,   but/CC   the/DT   results/NNS   from/IN   that/DT   trial/NN   wo/MD   n't/RB   be/VB   available/JJ   until/IN   2013/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ still/RB holding/VBG)
+	(VERB show/VB a/DT positive/JJ effect/NN on/IN heart/NN problems/NNS)
+	(VERB be/VB available/JJ until/IN 2013/CD)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN hope/NN)
+	(NOUN Zetia/NNP)
+	(NOUN results/NNS)
+	(NOUN trial/NN)
+
+----------------------------------
+original sentence: 
+TriCor works differently by lowering fat triglycerides and raising good cholesterol, but the results were the same even worse in fact.
+
+POS tagged sentence: 
+[('TriCor', 'NNP'), ('works', 'NNS'), ('differently', 'RB'), ('by', 'IN'), ('lowering', 'NN'), ('fat', 'JJ'), ('triglycerides', 'NNS'), ('and', 'CC'), ('raising', 'VBG'), ('good', 'JJ'), ('cholesterol', 'NN'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('results', 'NNS'), ('were', 'VBD'), ('the', 'DT'), ('same', 'JJ'), ('even', 'RB'), ('worse', 'JJR'), ('in', 'IN'), ('fact', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE TriCor/NNP)   works/NNS   differently/RB   by/IN   lowering/NN   fat/JJ   triglycerides/NNS   and/CC   raising/VBG   good/JJ   cholesterol/NN   ,/,   but/CC   the/DT   results/NNS   were/VBD   the/DT   same/JJ   even/RB   worse/JJR   in/IN   fact/NN   ./.)
+----------------------------------
+original sentence: 
+Data presented at the American College of Cardiology ACC meeting yesterday said that TriCor doesn't provide additional protection from heart problems like heart attacks and strokes compared to placebo in people with diabetes.
+
+POS tagged sentence: 
+[('Data', 'NNP'), ('presented', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('American', 'NNP'), ('College', 'NNP'), ('of', 'IN'), ('Cardiology', 'NNP'), ('ACC', 'NNP'), ('meeting', 'NN'), ('yesterday', 'NN'), ('said', 'VBD'), ('that', 'IN'), ('TriCor', 'NNP'), ('does', 'VBZ'), ("n't", 'RB'), ('provide', 'VB'), ('additional', 'JJ'), ('protection', 'NN'), ('from', 'IN'), ('heart', 'NN'), ('problems', 'NNS'), ('like', 'IN'), ('heart', 'NN'), ('attacks', 'NNS'), ('and', 'CC'), ('strokes', 'VBZ'), ('compared', 'VBN'), ('to', 'TO'), ('placebo', 'VB'), ('in', 'IN'), ('people', 'NNS'), ('with', 'IN'), ('diabetes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Data/NNP)   presented/VBD   at/IN   the/DT   (ORGANIZATION American/NNP College/NNP)   of/IN   (ORGANIZATION Cardiology/NNP)   ACC/NNP   meeting/NN   yesterday/NN   said/VBD   that/IN   (ORGANIZATION TriCor/NNP)   does/VBZ   n't/RB   provide/VB   additional/JJ   protection/NN   from/IN   heart/NN   problems/NNS   like/IN   heart/NN   attacks/NNS   and/CC   strokes/VBZ   compared/VBN   to/TO   placebo/VB   in/IN   people/NNS   with/IN   diabetes/NNS   ./.)
+----------------------------------
+original sentence: 
+Crestor are the clear winners here.
+
+POS tagged sentence: 
+[('Crestor', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('clear', 'JJ'), ('winners', 'NNS'), ('here', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Crestor/NNP are/VBP the/DT clear/JJ winners/NNS here/RB ./.)
+----------------------------------
+original sentence: 
+Many patients taking TriCor and Zetia are already on a statin, but some may be on generic versions of Bristol Myers Squibb
+ Pravachol or Merck's Zocor.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('patients', 'NNS'), ('taking', 'VBG'), ('TriCor', 'NNP'), ('and', 'CC'), ('Zetia', 'NNP'), ('are', 'VBP'), ('already', 'RB'), ('on', 'IN'), ('a', 'DT'), ('statin', 'NN'), (',', ','), ('but', 'CC'), ('some', 'DT'), ('may', 'MD'), ('be', 'VB'), ('on', 'IN'), ('generic', 'JJ'), ('versions', 'NNS'), ('of', 'IN'), ('Bristol', 'NNP'), ('Myers', 'NNP'), ('Squibb', 'NNP'), ('Pravachol', 'NNP'), ('or', 'CC'), ('Merck', 'NNP'), ("'s", 'POS'), ('Zocor', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   patients/NNS   taking/VBG   (ORGANIZATION TriCor/NNP)   and/CC   (GPE Zetia/NNP)   are/VBP   already/RB   on/IN   a/DT   statin/NN   ,/,   but/CC   some/DT   may/MD   be/VB   on/IN   generic/JJ   versions/NNS   of/IN   (GPE Bristol/NNP)   Myers/NNP   (PERSON Squibb/NNP Pravachol/NNP)   or/CC   (PERSON Merck/NNP)   's/POS   Zocor/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB taking/VBG TriCor/NNP)
+	(VERB are/VBP already/RB on/IN a/DT statin/NN)
+	(VERB   be/VB   on/IN   generic/JJ   versions/NNS   of/IN   Bristol/NNP   Myers/NNP   Squibb/NNP   Pravachol/NNP)
+noun phrases to consider:
+	(NOUN Many/JJ patients/NNS)
+	(NOUN Zetia/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Zocor/NNP)
+
+----------------------------------
+original sentence: 
+Lipitor and Crestor are generally considered better statins, so if doctors cut out TriCor and Zetia, they may switch patients to better working, more expensive statins.
+
+POS tagged sentence: 
+[('Lipitor', 'NNP'), ('and', 'CC'), ('Crestor', 'NNP'), ('are', 'VBP'), ('generally', 'RB'), ('considered', 'VBN'), ('better', 'RBR'), ('statins', 'NNS'), (',', ','), ('so', 'RB'), ('if', 'IN'), ('doctors', 'NNS'), ('cut', 'VBP'), ('out', 'RP'), ('TriCor', 'NNP'), ('and', 'CC'), ('Zetia', 'NNP'), (',', ','), ('they', 'PRP'), ('may', 'MD'), ('switch', 'VB'), ('patients', 'NNS'), ('to', 'TO'), ('better', 'JJR'), ('working', 'NN'), (',', ','), ('more', 'RBR'), ('expensive', 'JJ'), ('statins', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Lipitor/NNP)   and/CC   Crestor/NNP   are/VBP   generally/RB   considered/VBN   better/RBR   statins/NNS   ,/,   so/RB   if/IN   doctors/NNS   cut/VBP   out/RP   (ORGANIZATION TriCor/NNP)   and/CC   (GPE Zetia/NNP)   ,/,   they/PRP   may/MD   switch/VB   patients/NNS   to/TO   better/JJR   working/NN   ,/,   more/RBR   expensive/JJ   statins/NNS   ./.)
+----------------------------------
+original sentence: 
+Not a win or go home tournament
+Fortunately for Abbott, the ACC meeting wasn't a complete disaster.
+
+POS tagged sentence: 
+[('Not', 'RB'), ('a', 'DT'), ('win', 'NN'), ('or', 'CC'), ('go', 'VB'), ('home', 'RB'), ('tournament', 'JJ'), ('Fortunately', 'NNP'), ('for', 'IN'), ('Abbott', 'NNP'), (',', ','), ('the', 'DT'), ('ACC', 'NNP'), ('meeting', 'NN'), ('was', 'VBD'), ("n't", 'RB'), ('a', 'DT'), ('complete', 'JJ'), ('disaster', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Not/RB   a/DT   win/NN   or/CC   go/VB   home/RB   tournament/JJ   Fortunately/NNP   for/IN   (PERSON Abbott/NNP)   ,/,   the/DT   (ORGANIZATION ACC/NNP)   meeting/NN   was/VBD   n't/RB   a/DT   complete/JJ   disaster/NN   ./.)
+----------------------------------
+original sentence: 
+The company presented positive data on its new experimental heart valve device, MitraClip, which it got in the acquisition of Evalve.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('presented', 'VBD'), ('positive', 'JJ'), ('data', 'NNS'), ('on', 'IN'), ('its', 'PRP$'), ('new', 'JJ'), ('experimental', 'JJ'), ('heart', 'NN'), ('valve', 'NN'), ('device', 'NN'), (',', ','), ('MitraClip', 'NNP'), (',', ','), ('which', 'WDT'), ('it', 'PRP'), ('got', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('acquisition', 'NN'), ('of', 'IN'), ('Evalve', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   presented/VBD   positive/JJ   data/NNS   on/IN   its/PRP$   new/JJ   experimental/JJ   heart/NN   valve/NN   device/NN   ,/,   (ORGANIZATION MitraClip/NNP)   ,/,   which/WDT   it/PRP   got/VBD   in/IN   the/DT   acquisition/NN   of/IN   (GPE Evalve/NNP)   ./.)
+----------------------------------
+original sentence: 
+The device was proven safer than open heart surgery at treating damaged heart valves.
+
+POS tagged sentence: 
+[('The', 'DT'), ('device', 'NN'), ('was', 'VBD'), ('proven', 'VBN'), ('safer', 'NN'), ('than', 'IN'), ('open', 'JJ'), ('heart', 'NN'), ('surgery', 'NN'), ('at', 'IN'), ('treating', 'NN'), ('damaged', 'VBN'), ('heart', 'NN'), ('valves', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   device/NN   was/VBD   proven/VBN   safer/NN   than/IN   open/JJ   heart/NN   surgery/NN   at/IN   treating/NN   damaged/VBN   heart/NN   valves/NNS   ./.)
+----------------------------------
+original sentence: 
+Abbott also presented data for its new vascular stent that can be absorbed by the body.
+
+POS tagged sentence: 
+[('Abbott', 'NNP'), ('also', 'RB'), ('presented', 'VBD'), ('data', 'NNS'), ('for', 'IN'), ('its', 'PRP$'), ('new', 'JJ'), ('vascular', 'JJ'), ('stent', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('be', 'VB'), ('absorbed', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('body', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Abbott/NNP)   also/RB   presented/VBD   data/NNS   for/IN   its/PRP$   new/JJ   vascular/JJ   stent/NN   that/WDT   can/MD   be/VB   absorbed/VBN   by/IN   the/DT   body/NN   ./.)
+----------------------------------
+original sentence: 
+Current stents from Abbott, Johnson & Johnson
+, and others are mesh wire that can cause clogging as the body reacts to the foreign object.
+
+POS tagged sentence: 
+[('Current', 'JJ'), ('stents', 'NNS'), ('from', 'IN'), ('Abbott', 'NNP'), (',', ','), ('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), (',', ','), ('and', 'CC'), ('others', 'NNS'), ('are', 'VBP'), ('mesh', 'JJ'), ('wire', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('cause', 'VB'), ('clogging', 'VBG'), ('as', 'IN'), ('the', 'DT'), ('body', 'NN'), ('reacts', 'VBZ'), ('to', 'TO'), ('the', 'DT'), ('foreign', 'JJ'), ('object', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Current/JJ   stents/NNS   from/IN   (GPE Abbott/NNP)   ,/,   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP)   ,/,   and/CC   others/NNS   are/VBP   mesh/JJ   wire/NN   that/WDT   can/MD   cause/VB   clogging/VBG   as/IN   the/DT   body/NN   reacts/VBZ   to/TO   the/DT   foreign/JJ   object/NN   ./.)
+----------------------------------
+original sentence: 
+These up and coming products should help soften the blow from the TriCor trial, which is sure to result in some lost sales.
+
+POS tagged sentence: 
+[('These', 'DT'), ('up', 'IN'), ('and', 'CC'), ('coming', 'VBG'), ('products', 'NNS'), ('should', 'MD'), ('help', 'VB'), ('soften', 'VBN'), ('the', 'DT'), ('blow', 'NN'), ('from', 'IN'), ('the', 'DT'), ('TriCor', 'NNP'), ('trial', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('sure', 'JJ'), ('to', 'TO'), ('result', 'VB'), ('in', 'IN'), ('some', 'DT'), ('lost', 'NN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   up/IN   and/CC   coming/VBG   products/NNS   should/MD   help/VB   soften/VBN   the/DT   blow/NN   from/IN   the/DT   (ORGANIZATION TriCor/NNP)   trial/NN   ,/,   which/WDT   is/VBZ   sure/JJ   to/TO   result/VB   in/IN   some/DT   lost/NN   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Buffettâ€™s Forecast for 2010
+...On April 30, the Motley Fool Inside Value
+ team will represent you at the 2010 Berkshire Hathaway annual meeting.
+
+POS tagged sentence: 
+[('Buffett', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Forecast', 'NNP'), ('for', 'IN'), ('2010', 'CD'), ('...On', 'JJ'), ('April', 'NNP'), ('30', 'CD'), (',', ','), ('the', 'DT'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Inside', 'NNP'), ('Value', 'NNP'), ('team', 'NN'), ('will', 'MD'), ('represent', 'VB'), ('you', 'PRP'), ('at', 'IN'), ('the', 'DT'), ('2010', 'CD'), ('Berkshire', 'NNP'), ('Hathaway', 'NNP'), ('annual', 'JJ'), ('meeting', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Buffett/NNP)   â/:   €/:   ™/:   s/NNS   Forecast/NNP   for/IN   2010/CD   ...On/JJ   April/NNP   30/CD   ,/,   the/DT   (ORGANIZATION Motley/NNP Fool/NNP Inside/NNP Value/NNP)   team/NN   will/MD   represent/VB   you/PRP   at/IN   the/DT   2010/CD   (ORGANIZATION Berkshire/NNP Hathaway/NNP)   annual/JJ   meeting/NN   ./.)
+----------------------------------
+original sentence: 
+Simply enter your email address below to receive their comprehensive reports from Omaha, FREE!
+
+POS tagged sentence: 
+[('Simply', 'RB'), ('enter', 'JJR'), ('your', 'PRP$'), ('email', 'NN'), ('address', 'NN'), ('below', 'IN'), ('to', 'TO'), ('receive', 'VB'), ('their', 'PRP$'), ('comprehensive', 'JJ'), ('reports', 'NNS'), ('from', 'IN'), ('Omaha', 'NNP'), (',', ','), ('FREE', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Simply/RB   enter/JJR   your/PRP$   email/NN   address/NN   below/IN   to/TO   receive/VB   their/PRP$   comprehensive/JJ   reports/NNS   from/IN   (GPE Omaha/NNP)   ,/,   (ORGANIZATION FREE/NNP)   !/.)
+----------------------------------
+original sentence: 
+Motley Fool Inside Value
+selection.
+
+POS tagged sentence: 
+[('Motley', 'NNP'), ('Fool', 'NNP'), ('Inside', 'NNP'), ('Value', 'NNP'), ('selection', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Motley/NNP)   (ORGANIZATION Fool/NNP Inside/NNP Value/NNP)   selection/NN   ./.)
+----------------------------------
+original sentence: 
+Johnson & Johnson is an
+has recommended a buy calls position on it.
+
+POS tagged sentence: 
+[('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('has', 'VBZ'), ('recommended', 'VBN'), ('a', 'DT'), ('buy', 'NN'), ('calls', 'VBZ'), ('position', 'NN'), ('on', 'IN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP)   is/VBZ   an/DT   has/VBZ   recommended/VBN   a/DT   buy/NN   calls/VBZ   position/NN   on/IN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Try any of our Foolish newsletters today, , Ph.D., doesn't own shares of any company mentioned in this article.
+
+POS tagged sentence: 
+[('Try', 'NNP'), ('any', 'DT'), ('of', 'IN'), ('our', 'PRP$'), ('Foolish', 'JJ'), ('newsletters', 'NNS'), ('today', 'NN'), (',', ','), (',', ','), ('Ph.D.', 'NNP'), (',', ','), ('does', 'VBZ'), ("n't", 'RB'), ('own', 'VB'), ('shares', 'NNS'), ('of', 'IN'), ('any', 'DT'), ('company', 'NN'), ('mentioned', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('article', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Try/NNP)   any/DT   of/IN   our/PRP$   (GPE Foolish/JJ)   newsletters/NNS   today/NN   ,/,   ,/,   Ph.D./NNP   ,/,   does/VBZ   n't/RB   own/VB   shares/NNS   of/IN   any/DT   company/NN   mentioned/VBD   in/IN   this/DT   article/NN   ./.)
+----------------------------------
+original sentence: 
+The Fool has a
+Read/Post Comments 0  Recommended 1 Times DocumentId: 1135017, ~/Articles/ArticleHandler.aspx, 4/23/2010 5:35:13 PM
+ Use this area to report a comment that you believe is in violation of the community guidelines.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Fool', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('Read/Post', 'JJ'), ('Comments', 'NNS'), ('0', '-NONE-'), ('Recommended', 'NNP'), ('1', 'CD'), ('Times', 'NNP'), ('DocumentId', 'NNP'), (':', ':'), ('1135017', 'CD'), (',', ','), ('~', ':'), ('/Articles/ArticleHandler.aspx', 'JJ'), (',', ','), ('4/23/2010', 'CD'), ('5', 'CD'), (':', ':'), ('35', 'CD'), (':', ':'), ('13', 'CD'), ('PM', 'NNP'), ('Use', 'NNP'), ('this', 'DT'), ('area', 'NN'), ('to', 'TO'), ('report', 'VB'), ('a', 'DT'), ('comment', 'NN'), ('that', 'WDT'), ('you', 'PRP'), ('believe', 'VBP'), ('is', 'VBZ'), ('in', 'IN'), ('violation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('community', 'NN'), ('guidelines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Fool/NNP)   has/VBZ   a/DT   Read/Post/JJ   (ORGANIZATION Comments/NNS)   0/-NONE-   Recommended/NNP   1/CD   Times/NNP   DocumentId/NNP   :/:   1135017/CD   ,/,   ~/:   /Articles/ArticleHandler.aspx/JJ   ,/,   4/23/2010/CD   5/CD   :/:   35/CD   :/:   13/CD   PM/NNP   Use/NNP   this/DT   area/NN   to/TO   report/VB   a/DT   comment/NN   that/WDT   you/PRP   believe/VBP   is/VBZ   in/IN   violation/NN   of/IN   the/DT   community/NN   guidelines/NNS   ./.)
+----------------------------------
+original sentence: 
+Our team will review the entry and take any appropriate action.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('team', 'NN'), ('will', 'MD'), ('review', 'VB'), ('the', 'DT'), ('entry', 'NN'), ('and', 'CC'), ('take', 'VB'), ('any', 'DT'), ('appropriate', 'NN'), ('action', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   team/NN   will/MD   review/VB   the/DT   entry/NN   and/CC   take/VB   any/DT   appropriate/NN   action/NN   ./.)
+----------------------------------
+original sentence: 
+11,204.28 Most Popular Articles
+Why the U.S. Can't Inflate Its Way Out of Debt
+Goldman Sachs and the Art of Ripping Your Clients' Faces Off
+The Motley Fool's Testimony on Corporate Governance and Shareholder Empowerment
+Hey, Congress, Fix This Now!
+
+POS tagged sentence: 
+[('11,204.28', 'CD'), ('Most', 'RBS'), ('Popular', 'JJ'), ('Articles', 'NNP'), ('Why', 'NNP'), ('the', 'DT'), ('U.S.', 'NNP'), ('Ca', 'NNP'), ("n't", 'RB'), ('Inflate', 'NNP'), ('Its', 'NNP'), ('Way', 'NNP'), ('Out', 'NNP'), ('of', 'IN'), ('Debt', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Art', 'NNP'), ('of', 'IN'), ('Ripping', 'NNP'), ('Your', 'NNP'), ('Clients', 'NNP'), ("'", 'POS'), ('Faces', 'NNS'), ('Off', 'NNP'), ('The', 'NNP'), ('Motley', 'NNP'), ('Fool', 'NNP'), ("'s", 'POS'), ('Testimony', 'NNP'), ('on', 'IN'), ('Corporate', 'NNP'), ('Governance', 'NNP'), ('and', 'CC'), ('Shareholder', 'NNP'), ('Empowerment', 'NNP'), ('Hey', 'NNP'), (',', ','), ('Congress', 'NNP'), (',', ','), ('Fix', 'NNP'), ('This', 'NNP'), ('Now', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   11,204.28/CD   Most/RBS   (PERSON Popular/JJ Articles/NNP)   Why/NNP   the/DT   (GPE U.S./NNP)   Ca/NNP   n't/RB   (ORGANIZATION Inflate/NNP Its/NNP Way/NNP Out/NNP)   of/IN   (PERSON Debt/NNP Goldman/NNP Sachs/NNP)   and/CC   the/DT   (ORGANIZATION Art/NNP)   of/IN   (ORGANIZATION Ripping/NNP)   Your/NNP   (PERSON Clients/NNP)   '/POS   Faces/NNS   Off/NNP   The/NNP   (ORGANIZATION Motley/NNP Fool/NNP)   's/POS   (PERSON Testimony/NNP)   on/IN   (ORGANIZATION Corporate/NNP Governance/NNP)   and/CC   (PERSON Shareholder/NNP Empowerment/NNP Hey/NNP)   ,/,   (ORGANIZATION Congress/NNP)   ,/,   (PERSON Fix/NNP)   This/NNP   Now/NNP   !/.)
+----------------------------------
+original sentence: 
+This Quality Stock Is Trading Dirt Cheap
+I Wouldn't Sell This Stock if I Were You
+A Great Global Stock With a Free Kicker Will China Rip Africa's Face Off?
+
+POS tagged sentence: 
+[('This', 'DT'), ('Quality', 'NN'), ('Stock', 'NNP'), ('Is', 'NNP'), ('Trading', 'NNP'), ('Dirt', 'NNP'), ('Cheap', 'NNP'), ('I', 'NNP'), ('Would', 'NNP'), ("n't", 'RB'), ('Sell', 'NNP'), ('This', 'NNP'), ('Stock', 'NNP'), ('if', 'IN'), ('I', 'PRP'), ('Were', 'VBP'), ('You', 'PRP'), ('A', 'DT'), ('Great', 'NNP'), ('Global', 'NNP'), ('Stock', 'NNP'), ('With', 'NNP'), ('a', 'DT'), ('Free', 'NNP'), ('Kicker', 'NNP'), ('Will', 'NNP'), ('China', 'NNP'), ('Rip', 'NNP'), ('Africa', 'NNP'), ("'s", 'POS'), ('Face', 'NNP'), ('Off', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   (ORGANIZATION Quality/NN Stock/NNP Is/NNP)   Trading/NNP   Dirt/NNP   Cheap/NNP   I/NNP   Would/NNP   n't/RB   (ORGANIZATION Sell/NNP)   This/NNP   Stock/NNP   if/IN   I/PRP   Were/VBP   You/PRP   A/DT   (GPE Great/NNP)   Global/NNP   Stock/NNP   With/NNP   a/DT   (ORGANIZATION     Free/NNP     Kicker/NNP     Will/NNP     China/NNP     Rip/NNP     Africa/NNP)   's/POS   (PERSON Face/NNP Off/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Costco Books Its Day in Court
+ Related Tickers  4/23/2010 4:01 PM  Bristol Myers Squi&#8230;  CAPS Rating:  Johnson & Johnson  CAPS Rating:  Pfizer, Inc.
+
+POS tagged sentence: 
+[('Costco', 'NNP'), ('Books', 'NNP'), ('Its', 'NNP'), ('Day', 'NNP'), ('in', 'IN'), ('Court', 'NNP'), ('Related', 'NNP'), ('Tickers', 'NNP'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('01', 'CD'), ('PM', 'NNP'), ('Bristol', 'NNP'), ('Myers', 'NNP'), ('Squi&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Pfizer', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Costco/NNP)   (PERSON Books/NNP Its/NNP)   Day/NNP   in/IN   (GPE Court/NNP)   Related/NNP   Tickers/NNP   4/23/2010/CD   4/CD   :/:   01/CD   PM/NNP   Bristol/NNP   Myers/NNP   Squi&/NNP   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP CAPS/NNP)   Rating/NNP   :/:   (PERSON Pfizer/NNP)   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+CAPS Rating:  Abbott Laboratorie&#8230;  CAPS Rating:  Boston Scientific&#8230;  CAPS Rating:  Merck & Co., Inc.
+
+POS tagged sentence: 
+[('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Abbott', 'NNP'), ('Laboratorie&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Boston', 'NNP'), ('Scientific&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CAPS/NNP   Rating/NNP   :/:   (PERSON Abbott/NNP)   Laboratorie&/NNP   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   (PERSON Boston/NNP)   Scientific&/NNP   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Abbott/NNP Laboratorie&/NNP)
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Boston/NNP Scientific&/NNP)
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+CAPS Rating:  AstraZeneca plc A&#8230;  CAPS Rating:  Related Articles  Investing Wiki Pride International:  Pride International NYSE: http://caps.fool.com/Ticker/PDE.aspx PDE is an international provider of contract drilling and related services to oil and natural gas companies worldwide, operating offshore and on land.
+
+POS tagged sentence: 
+[('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('AstraZeneca', 'NNP'), ('plc', 'NN'), ('A&', '-NONE-'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Related', 'NNP'), ('Articles', 'NNP'), ('Investing', 'NNP'), ('Wiki', 'NNP'), ('Pride', 'NNP'), ('International', 'NNP'), (':', ':'), ('Pride', 'NNP'), ('International', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//caps.fool.com/Ticker/PDE.aspx', 'JJ'), ('PDE', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('international', 'JJ'), ('provider', 'NN'), ('of', 'IN'), ('contract', 'NN'), ('drilling', 'VBG'), ('and', 'CC'), ('related', 'JJ'), ('services', 'NNS'), ('to', 'TO'), ('oil', 'NN'), ('and', 'CC'), ('natural', 'JJ'), ('gas', 'NN'), ('companies', 'NNS'), ('worldwide', 'VBP'), (',', ','), ('operating', 'VBG'), ('offshore', 'NN'), ('and', 'CC'), ('on', 'IN'), ('land', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CAPS/NNP   Rating/NNP   :/:   AstraZeneca/NNP   plc/NN   A&/-NONE-   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   (PERSON Related/NNP Articles/NNP Investing/NNP Wiki/NNP Pride/NNP)   International/NNP   :/:   Pride/NNP   International/NNP   NYSE/NNP   :/:   http/NN   :/:   //caps.fool.com/Ticker/PDE.aspx/JJ   (ORGANIZATION PDE/NNP)   is/VBZ   an/DT   international/JJ   provider/NN   of/IN   contract/NN   drilling/VBG   and/CC   related/JJ   services/NNS   to/TO   oil/NN   and/CC   natural/JJ   gas/NN   companies/NNS   worldwide/VBP   ,/,   operating/VBG   offshore/NN   and/CC   on/IN   land/NN   ./.)
+----------------------------------
+original sentence: 
+Want to learn more or edit this definition?
+
+POS tagged sentence: 
+[('Want', 'NNP'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('or', 'CC'), ('edit', 'NN'), ('this', 'DT'), ('definition', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Want/NNP)   to/TO   learn/VB   more/JJR   or/CC   edit/NN   this/DT   definition/NN   ?/.)
+----------------------------------
+original sentence: 
+Click here to read more! 
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Click/NNP) here/RB to/TO read/VB more/JJR !/.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,34 @@
+
+----------------------------------
+original sentence: 
+CBS News Mobile Story Details
+No content available, please check back later.
+
+POS tagged sentence: 
+[('CBS', 'NNP'), ('News', 'NNP'), ('Mobile', 'NNP'), ('Story', 'NNP'), ('Details', 'NNP'), ('No', 'NNP'), ('content', 'NN'), ('available', 'JJ'), (',', ','), ('please', 'NN'), ('check', 'NN'), ('back', 'RB'), ('later', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CBS/NNP News/NNP Mobile/NNP)   Story/NNP   Details/NNP   No/NNP   content/NN   available/JJ   ,/,   please/NN   check/NN   back/RB   later/JJ   ./.)
+----------------------------------
+original sentence: 
+Back to Section Home
+ Visit other CBS Interactive sites:
+ &copy; MMIX CBS Interactive Inc. All rights reserved.
+
+POS tagged sentence: 
+[('Back', 'NNP'), ('to', 'TO'), ('Section', 'NNP'), ('Home', 'NNP'), ('Visit', 'NNP'), ('other', 'JJ'), ('CBS', 'NNP'), ('Interactive', 'NNP'), ('sites', 'VBZ'), (':', ':'), ('&copy', 'JJ'), (';', ':'), ('MMIX', 'NNP'), ('CBS', 'NNP'), ('Interactive', 'NNP'), ('Inc.', 'NNP'), ('All', 'NNP'), ('rights', 'NNS'), ('reserved', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Back/NNP)   to/TO   (ORGANIZATION Section/NNP Home/NNP)   Visit/NNP   other/JJ   (ORGANIZATION CBS/NNP)   Interactive/NNP   sites/VBZ   :/:   &copy/JJ   ;/:   (ORGANIZATION MMIX/NNP)   CBS/NNP   Interactive/NNP   Inc./NNP   All/NNP   rights/NNS   reserved/VBD   ./.)
+----------------------------------
+original sentence: 
+Terms & Conditions
+
+
+POS tagged sentence: 
+[('Terms', 'NNS'), ('&', 'CC'), ('Conditions', 'NNS')]
+
+
+ERTAGGED sentence: (S Terms/NNS &/CC Conditions/NNS)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

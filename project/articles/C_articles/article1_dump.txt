@@ -1,0 +1,767 @@
+
+----------------------------------
+original sentence: 
+Two former Citigroup executives apologize for crisis and bailout latimes.com
+Ariz. governor signs tough immigration measure Two former Citigroup executives apologize for crisis and bailout
+Members of the panel investigating the financial morass criticize former CEO Charles Prince and former Chairman Robert Rubin for not taking responsibility for the firm's near collapse.
+
+POS tagged sentence: 
+[('Two', 'CD'), ('former', 'JJ'), ('Citigroup', 'NNP'), ('executives', 'NNS'), ('apologize', 'VBP'), ('for', 'IN'), ('crisis', 'NN'), ('and', 'CC'), ('bailout', 'IN'), ('latimes.com', 'NNP'), ('Ariz.', 'NNP'), ('governor', 'NN'), ('signs', 'NNS'), ('tough', 'IN'), ('immigration', 'NN'), ('measure', 'NN'), ('Two', 'CD'), ('former', 'JJ'), ('Citigroup', 'NNP'), ('executives', 'NNS'), ('apologize', 'VBP'), ('for', 'IN'), ('crisis', 'NN'), ('and', 'CC'), ('bailout', 'IN'), ('Members', 'NNPS'), ('of', 'IN'), ('the', 'DT'), ('panel', 'NN'), ('investigating', 'VBG'), ('the', 'DT'), ('financial', 'JJ'), ('morass', 'NN'), ('criticize', 'NN'), ('former', 'NN'), ('CEO', 'NNP'), ('Charles', 'NNP'), ('Prince', 'NNP'), ('and', 'CC'), ('former', 'JJ'), ('Chairman', 'NNP'), ('Robert', 'NNP'), ('Rubin', 'NNP'), ('for', 'IN'), ('not', 'RB'), ('taking', 'VBG'), ('responsibility', 'NN'), ('for', 'IN'), ('the', 'DT'), ('firm', 'NN'), ("'s", 'POS'), ('near', 'NN'), ('collapse', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Two/CD   former/JJ   (ORGANIZATION Citigroup/NNP)   executives/NNS   apologize/VBP   for/IN   crisis/NN   and/CC   bailout/IN   latimes.com/NNP   Ariz./NNP   governor/NN   signs/NNS   tough/IN   immigration/NN   measure/NN   Two/CD   former/JJ   (ORGANIZATION Citigroup/NNP)   executives/NNS   apologize/VBP   for/IN   crisis/NN   and/CC   bailout/IN   (ORGANIZATION Members/NNPS)   of/IN   the/DT   panel/NN   investigating/VBG   the/DT   financial/JJ   morass/NN   criticize/NN   former/NN   (ORGANIZATION CEO/NNP)   (PERSON Charles/NNP Prince/NNP)   and/CC   former/JJ   Chairman/NNP   (PERSON Robert/NNP Rubin/NNP)   for/IN   not/RB   taking/VBG   responsibility/NN   for/IN   the/DT   firm/NN   's/POS   near/NN   collapse/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB apologize/VBP for/IN crisis/NN)
+
+tagged sentence:
+	 apologize for crisis	res:-1
+	(VERB apologize/VBP for/IN crisis/NN)
+
+tagged sentence:
+	 apologize for crisis	res:-1
+	(VERB   investigating/VBG   the/DT   financial/JJ   morass/NN   criticize/NN   former/NN   CEO/NNP   Charles/NNP   Prince/NNP)
+	(VERB taking/VBG responsibility/NN for/IN the/DT firm/NN)
+noun phrases to consider:
+	(NOUN Two/CD former/JJ Citigroup/NNP executives/NNS)
+	(NOUN latimes.com/NNP Ariz./NNP governor/NN signs/NNS)
+
+tagged sentence:
+	 latimes.com Ariz. governor signs	res:2
+	(NOUN   immigration/NN   measure/NN   Two/CD   former/JJ   Citigroup/NNP   executives/NNS)
+	(NOUN Members/NNPS)
+	(NOUN panel/NN)
+	(NOUN former/JJ Chairman/NNP Robert/NNP Rubin/NNP)
+	(NOUN near/NN collapse/NN)
+
+----------------------------------
+original sentence: 
+Citigroup's former chief executive, Charles Prince, and its former chairman, Robert Rubin, appear before the Financial Crisis Inquiry Commission.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ("'s", 'POS'), ('former', 'JJ'), ('chief', 'NN'), ('executive', 'NN'), (',', ','), ('Charles', 'NNP'), ('Prince', 'NNP'), (',', ','), ('and', 'CC'), ('its', 'PRP$'), ('former', 'JJ'), ('chairman', 'NN'), (',', ','), ('Robert', 'NNP'), ('Rubin', 'NNP'), (',', ','), ('appear', 'VBP'), ('before', 'IN'), ('the', 'DT'), ('Financial', 'NNP'), ('Crisis', 'NNP'), ('Inquiry', 'NNP'), ('Commission', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   's/POS   former/JJ   chief/NN   executive/NN   ,/,   (PERSON Charles/NNP Prince/NNP)   ,/,   and/CC   its/PRP$   former/JJ   chairman/NN   ,/,   (PERSON Robert/NNP Rubin/NNP)   ,/,   appear/VBP   before/IN   the/DT   (ORGANIZATION Financial/NNP Crisis/NNP Inquiry/NNP Commission/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   appear/VBP   before/IN   the/DT   Financial/NNP   Crisis/NNP   Inquiry/NNP   Commission/NNP)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN former/JJ chief/NN executive/NN)
+	(NOUN Charles/NNP Prince/NNP)
+	(NOUN former/JJ chairman/NN)
+	(NOUN Robert/NNP Rubin/NNP)
+
+----------------------------------
+original sentence: 
+la fi citi bailout9 2010apr09
+Reporting from Washington
+ Two former top Citigroup Inc. executives apologized Thursday for the financial crisis and the $45 billion public bailout needed to save the banking giant from collapse.
+
+POS tagged sentence: 
+[('la', 'NN'), ('fi', 'NN'), ('citi', 'NN'), ('bailout9', 'NNP'), ('2010apr09', 'CD'), ('Reporting', 'NNP'), ('from', 'IN'), ('Washington', 'NNP'), ('Two', 'CD'), ('former', 'JJ'), ('top', 'JJ'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('executives', 'NNS'), ('apologized', 'VBD'), ('Thursday', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('crisis', 'NN'), ('and', 'CC'), ('the', 'DT'), ('$', '$'), ('45', 'CD'), ('billion', 'CD'), ('public', 'JJ'), ('bailout', 'IN'), ('needed', 'JJ'), ('to', 'TO'), ('save', 'VB'), ('the', 'DT'), ('banking', 'NN'), ('giant', 'NN'), ('from', 'IN'), ('collapse', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   la/NN   fi/NN   citi/NN   (ORGANIZATION bailout9/NNP)   2010apr09/CD   Reporting/NNP   from/IN   (GPE Washington/NNP)   Two/CD   former/JJ   top/JJ   (ORGANIZATION Citigroup/NNP Inc./NNP)   executives/NNS   apologized/VBD   Thursday/NNP   for/IN   the/DT   financial/JJ   crisis/NN   and/CC   the/DT   $/$   45/CD   billion/CD   public/JJ   bailout/IN   needed/JJ   to/TO   save/VB   the/DT   banking/NN   giant/NN   from/IN   collapse/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   apologized/VBD   Thursday/NNP   for/IN   the/DT   financial/JJ   crisis/NN)
+
+tagged sentence:
+	 apologized Thursday for the financial crisis	res:-1
+	(VERB save/VB the/DT banking/NN giant/NN from/IN collapse/NN)
+
+tagged sentence:
+	 save the banking giant from collapse	res:-1
+noun phrases to consider:
+	(NOUN la/NN fi/NN citi/NN bailout9/NNP)
+	(NOUN 2010apr09/CD Reporting/NNP)
+	(NOUN   Washington/NNP   Two/CD   former/JJ   top/JJ   Citigroup/NNP   Inc./NNP   executives/NNS)
+
+tagged sentence:
+	 Washington Two former top Citigroup Inc. executives	res:1
+	(NOUN billion/CD public/JJ)
+	(NOUN needed/JJ)
+
+----------------------------------
+original sentence: 
+But Democrats and Republicans ripped the executives for not taking any responsibility for the company's dramatic fall and the nation's fiscal morass.
+
+POS tagged sentence: 
+[('But', 'CC'), ('Democrats', 'NNPS'), ('and', 'CC'), ('Republicans', 'NNPS'), ('ripped', 'VBD'), ('the', 'DT'), ('executives', 'NNS'), ('for', 'IN'), ('not', 'RB'), ('taking', 'VBG'), ('any', 'DT'), ('responsibility', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('dramatic', 'JJ'), ('fall', 'NN'), ('and', 'CC'), ('the', 'DT'), ('nation', 'NN'), ("'s", 'POS'), ('fiscal', 'JJ'), ('morass', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (ORGANIZATION Democrats/NNPS)   and/CC   Republicans/NNPS   ripped/VBD   the/DT   executives/NNS   for/IN   not/RB   taking/VBG   any/DT   responsibility/NN   for/IN   the/DT   company/NN   's/POS   dramatic/JJ   fall/NN   and/CC   the/DT   nation/NN   's/POS   fiscal/JJ   morass/NN   ./.)
+----------------------------------
+original sentence: 
+"I'm sorry that the financial crisis has had such a devastating impact on our country.
+
+POS tagged sentence: 
+[('"', 'NN'), ('I', 'PRP'), ("'m", 'VBP'), ('sorry', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('crisis', 'NN'), ('has', 'VBZ'), ('had', 'VBN'), ('such', 'JJ'), ('a', 'DT'), ('devastating', 'NN'), ('impact', 'NN'), ('on', 'IN'), ('our', 'PRP$'), ('country', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   I/PRP   'm/VBP   sorry/JJ   that/IN   the/DT   financial/JJ   crisis/NN   has/VBZ   had/VBN   such/JJ   a/DT   devastating/NN   impact/NN   on/IN   our/PRP$   country/NN   ./.)
+----------------------------------
+original sentence: 
+I'm sorry for the millions of people, average Americans who have lost their homes," Charles "Chuck" Prince, Citigroup's chief executive from 2003 to 2007, told the commission investigating the crisis.
+
+POS tagged sentence: 
+[('I', 'PRP'), ("'m", 'VBP'), ('sorry', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('millions', 'NNS'), ('of', 'IN'), ('people', 'NNS'), (',', ','), ('average', 'JJ'), ('Americans', 'NNPS'), ('who', 'WP'), ('have', 'VBP'), ('lost', 'VBN'), ('their', 'PRP$'), ('homes', 'NNS'), (',', ','), ('"', ':'), ('Charles', 'NNP'), ('"', 'NNP'), ('Chuck', 'NNP'), ('"', 'NNP'), ('Prince', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ("'s", 'POS'), ('chief', 'NN'), ('executive', 'NN'), ('from', 'IN'), ('2003', 'CD'), ('to', 'TO'), ('2007', 'CD'), (',', ','), ('told', 'VBD'), ('the', 'DT'), ('commission', 'NN'), ('investigating', 'VBG'), ('the', 'DT'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   'm/VBP   sorry/JJ   for/IN   the/DT   millions/NNS   of/IN   people/NNS   ,/,   average/JJ   Americans/NNPS   who/WP   have/VBP   lost/VBN   their/PRP$   homes/NNS   ,/,   "/:   (PERSON Charles/NNP)   "/NNP   Chuck/NNP   "/NNP   Prince/NNP   ,/,   (PERSON Citigroup/NNP)   's/POS   chief/NN   executive/NN   from/IN   2003/CD   to/TO   2007/CD   ,/,   told/VBD   the/DT   commission/NN   investigating/VBG   the/DT   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB 'm/VBP sorry/JJ for/IN the/DT millions/NNS of/IN people/NNS)
+	(VERB have/VBP lost/VBN their/PRP$ homes/NNS)
+	(VERB told/VBD the/DT commission/NN)
+	(VERB investigating/VBG the/DT crisis/NN)
+
+tagged sentence:
+	 investigating the crisis	res:-1
+noun phrases to consider:
+	(NOUN average/JJ Americans/NNPS)
+	(NOUN Charles/NNP "/NNP Chuck/NNP "/NNP)
+	(NOUN Prince/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN chief/NN executive/NN)
+
+----------------------------------
+original sentence: 
+"And I'm sorry that our management team, starting with me, like so many others, could not see the unprecedented market collapse that lay before us," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('And', 'CC'), ('I', 'PRP'), ("'m", 'VBP'), ('sorry', 'JJ'), ('that', 'IN'), ('our', 'PRP$'), ('management', 'NN'), ('team', 'NN'), (',', ','), ('starting', 'VBG'), ('with', 'IN'), ('me', 'PRP'), (',', ','), ('like', 'IN'), ('so', 'RB'), ('many', 'JJ'), ('others', 'NNS'), (',', ','), ('could', 'MD'), ('not', 'RB'), ('see', 'VB'), ('the', 'DT'), ('unprecedented', 'VBN'), ('market', 'NN'), ('collapse', 'NN'), ('that', 'IN'), ('lay', 'NN'), ('before', 'IN'), ('us', 'PRP'), (',', ','), ('"', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   And/CC   I/PRP   'm/VBP   sorry/JJ   that/IN   our/PRP$   management/NN   team/NN   ,/,   starting/VBG   with/IN   me/PRP   ,/,   like/IN   so/RB   many/JJ   others/NNS   ,/,   could/MD   not/RB   see/VB   the/DT   unprecedented/VBN   market/NN   collapse/NN   that/IN   lay/NN   before/IN   us/PRP   ,/,   "/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Prince's apology came on the second of three days of hearings by the Financial Crisis Inquiry Commission into the subprime mortgage meltdown.
+
+POS tagged sentence: 
+[('Prince', 'NN'), ("'s", 'POS'), ('apology', 'NN'), ('came', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('of', 'IN'), ('three', 'CD'), ('days', 'NNS'), ('of', 'IN'), ('hearings', 'NNS'), ('by', 'IN'), ('the', 'DT'), ('Financial', 'NNP'), ('Crisis', 'NNP'), ('Inquiry', 'NNP'), ('Commission', 'NNP'), ('into', 'IN'), ('the', 'DT'), ('subprime', 'JJ'), ('mortgage', 'NN'), ('meltdown', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Prince/NN)   's/POS   apology/NN   came/VBD   on/IN   the/DT   second/JJ   of/IN   three/CD   days/NNS   of/IN   hearings/NNS   by/IN   the/DT   (ORGANIZATION Financial/NNP Crisis/NNP Inquiry/NNP Commission/NNP)   into/IN   the/DT   subprime/JJ   mortgage/NN   meltdown/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   came/VBD   on/IN   the/DT   second/JJ   of/IN   three/CD   days/NNS   of/IN   hearings/NNS   by/IN   the/DT   Financial/NNP   Crisis/NNP   Inquiry/NNP   Commission/NNP   into/IN   the/DT   subprime/JJ   mortgage/NN   meltdown/NN)
+noun phrases to consider:
+	(NOUN Prince/NN)
+	(NOUN apology/NN)
+
+----------------------------------
+original sentence: 
+He was followed by former Citigroup Chairman Robert Rubin, who expressed regret for the failure of himself and others to see the approaching turmoil.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('was', 'VBD'), ('followed', 'VBN'), ('by', 'IN'), ('former', 'JJ'), ('Citigroup', 'NNP'), ('Chairman', 'NNP'), ('Robert', 'NNP'), ('Rubin', 'NNP'), (',', ','), ('who', 'WP'), ('expressed', 'VBN'), ('regret', 'VBP'), ('for', 'IN'), ('the', 'DT'), ('failure', 'NN'), ('of', 'IN'), ('himself', 'PRP'), ('and', 'CC'), ('others', 'NNS'), ('to', 'TO'), ('see', 'VB'), ('the', 'DT'), ('approaching', 'NN'), ('turmoil', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   was/VBD   followed/VBN   by/IN   former/JJ   (ORGANIZATION Citigroup/NNP)   Chairman/NNP   (PERSON Robert/NNP Rubin/NNP)   ,/,   who/WP   expressed/VBN   regret/VBP   for/IN   the/DT   failure/NN   of/IN   himself/PRP   and/CC   others/NNS   to/TO   see/VB   the/DT   approaching/NN   turmoil/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   followed/VBN   by/IN   former/JJ   Citigroup/NNP   Chairman/NNP   Robert/NNP   Rubin/NNP)
+	(VERB   expressed/VBN   regret/VBP   for/IN   the/DT   failure/NN   of/IN   himself/PRP)
+	(VERB see/VB the/DT approaching/NN turmoil/NN)
+
+tagged sentence:
+	 see the approaching turmoil	res:-1
+noun phrases to consider:
+	(NOUN others/NNS)
+
+----------------------------------
+original sentence: 
+"Almost all of us in the financial system including financial firms, regulators, rating agencies, analysts and commentators missed the powerful combination of forces at work and the serious possibility of a massive crisis," said Rubin, who served as Treasury secretary under President Clinton.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Almost', 'RB'), ('all', 'DT'), ('of', 'IN'), ('us', 'PRP'), ('in', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('system', 'NN'), ('including', 'VBG'), ('financial', 'JJ'), ('firms', 'NNS'), (',', ','), ('regulators', 'NNS'), (',', ','), ('rating', 'NN'), ('agencies', 'NNS'), (',', ','), ('analysts', 'NNS'), ('and', 'CC'), ('commentators', 'NNS'), ('missed', 'VBD'), ('the', 'DT'), ('powerful', 'JJ'), ('combination', 'NN'), ('of', 'IN'), ('forces', 'NNS'), ('at', 'IN'), ('work', 'NN'), ('and', 'CC'), ('the', 'DT'), ('serious', 'JJ'), ('possibility', 'NN'), ('of', 'IN'), ('a', 'DT'), ('massive', 'JJ'), ('crisis', 'NN'), (',', ','), ('"', 'NNP'), ('said', 'VBD'), ('Rubin', 'NNP'), (',', ','), ('who', 'WP'), ('served', 'VBN'), ('as', 'IN'), ('Treasury', 'NNP'), ('secretary', 'NN'), ('under', 'IN'), ('President', 'NNP'), ('Clinton', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Almost/RB   all/DT   of/IN   us/PRP   in/IN   the/DT   financial/JJ   system/NN   including/VBG   financial/JJ   firms/NNS   ,/,   regulators/NNS   ,/,   rating/NN   agencies/NNS   ,/,   analysts/NNS   and/CC   commentators/NNS   missed/VBD   the/DT   powerful/JJ   combination/NN   of/IN   forces/NNS   at/IN   work/NN   and/CC   the/DT   serious/JJ   possibility/NN   of/IN   a/DT   massive/JJ   crisis/NN   ,/,   "/NNP   said/VBD   (PERSON Rubin/NNP)   ,/,   who/WP   served/VBN   as/IN   (ORGANIZATION Treasury/NNP)   secretary/NN   under/IN   President/NNP   (PERSON Clinton/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB including/VBG financial/JJ firms/NNS)
+	(VERB   missed/VBD   the/DT   powerful/JJ   combination/NN   of/IN   forces/NNS   at/IN   work/NN)
+	(VERB said/VBD Rubin/NNP)
+	(VERB   served/VBN   as/IN   Treasury/NNP   secretary/NN   under/IN   President/NNP   Clinton/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN the/DT financial/JJ system/NN)
+	(NOUN regulators/NNS)
+	(NOUN rating/NN agencies/NNS)
+	(NOUN analysts/NNS)
+	(NOUN commentators/NNS)
+	(NOUN the/DT serious/JJ possibility/NN)
+	(NOUN a/DT massive/JJ crisis/NN)
+	(NOUN "/NNP)
+
+----------------------------------
+original sentence: 
+"We all bear responsibility for not recognizing this, and I deeply regret that," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('all', 'DT'), ('bear', 'JJ'), ('responsibility', 'NN'), ('for', 'IN'), ('not', 'RB'), ('recognizing', 'VBG'), ('this', 'DT'), (',', ','), ('and', 'CC'), ('I', 'PRP'), ('deeply', 'RB'), ('regret', 'JJ'), ('that', 'IN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   all/DT   bear/JJ   responsibility/NN   for/IN   not/RB   recognizing/VBG   this/DT   ,/,   and/CC   I/PRP   deeply/RB   regret/JJ   that/IN   ,/,   "/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+But neither Prince nor Rubin would take responsibility for the huge losses that nearly drove Citigroup into bankruptcy.
+
+POS tagged sentence: 
+[('But', 'CC'), ('neither', 'DT'), ('Prince', 'NNP'), ('nor', 'CC'), ('Rubin', 'NNP'), ('would', 'MD'), ('take', 'VB'), ('responsibility', 'NN'), ('for', 'IN'), ('the', 'DT'), ('huge', 'JJ'), ('losses', 'NNS'), ('that', 'WDT'), ('nearly', 'RB'), ('drove', 'VBP'), ('Citigroup', 'NNP'), ('into', 'IN'), ('bankruptcy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   neither/DT   Prince/NNP   nor/CC   (PERSON Rubin/NNP)   would/MD   take/VB   responsibility/NN   for/IN   the/DT   huge/JJ   losses/NNS   that/WDT   nearly/RB   drove/VBP   (PERSON Citigroup/NNP)   into/IN   bankruptcy/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB take/VB responsibility/NN for/IN the/DT huge/JJ losses/NNS)
+	(VERB drove/VBP Citigroup/NNP into/IN bankruptcy/NN)
+
+tagged sentence:
+	 drove Citigroup into bankruptcy	res:-1
+noun phrases to consider:
+	(NOUN Prince/NNP)
+	(NOUN Rubin/NNP)
+
+----------------------------------
+original sentence: 
+They said they weren't aware until fall 2007 of the high risks of the mortgage backed assets the company was holding, and they largely blamed Citi's problems on a confluence of outside market forces.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('said', 'VBD'), ('they', 'PRP'), ('were', 'VBD'), ("n't", 'RB'), ('aware', 'JJ'), ('until', 'IN'), ('fall', 'NN'), ('2007', 'CD'), ('of', 'IN'), ('the', 'DT'), ('high', 'JJ'), ('risks', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('mortgage', 'NN'), ('backed', 'VBD'), ('assets', 'NNS'), ('the', 'DT'), ('company', 'NN'), ('was', 'VBD'), ('holding', 'VBG'), (',', ','), ('and', 'CC'), ('they', 'PRP'), ('largely', 'RB'), ('blamed', 'VBN'), ('Citi', 'NNP'), ("'s", 'POS'), ('problems', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('confluence', 'NN'), ('of', 'IN'), ('outside', 'JJ'), ('market', 'NN'), ('forces', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   said/VBD   they/PRP   were/VBD   n't/RB   aware/JJ   until/IN   fall/NN   2007/CD   of/IN   the/DT   high/JJ   risks/NNS   of/IN   the/DT   mortgage/NN   backed/VBD   assets/NNS   the/DT   company/NN   was/VBD   holding/VBG   ,/,   and/CC   they/PRP   largely/RB   blamed/VBN   (PERSON Citi/NNP)   's/POS   problems/NNS   on/IN   a/DT   confluence/NN   of/IN   outside/JJ   market/NN   forces/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD they/PRP)
+	(VERB   were/VBD   n't/RB   aware/JJ   until/IN   fall/NN   2007/CD   of/IN   the/DT   high/JJ   risks/NNS   of/IN   the/DT   mortgage/NN)
+	(VERB backed/VBD assets/NNS the/DT company/NN)
+	(VERB was/VBD holding/VBG)
+	(VERB blamed/VBN Citi/NNP)
+noun phrases to consider:
+	(NOUN problems/NNS)
+	(NOUN confluence/NN)
+	(NOUN outside/JJ market/NN forces/NNS)
+
+----------------------------------
+original sentence: 
+Democrats and Republicans on the panel ripped the two executives for diverting blame.
+
+POS tagged sentence: 
+[('Democrats', 'NNS'), ('and', 'CC'), ('Republicans', 'NNPS'), ('on', 'IN'), ('the', 'DT'), ('panel', 'NN'), ('ripped', 'VBD'), ('the', 'DT'), ('two', 'CD'), ('executives', 'NNS'), ('for', 'IN'), ('diverting', 'VBG'), ('blame', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Democrats/NNS   and/CC   Republicans/NNPS   on/IN   the/DT   panel/NN   ripped/VBD   the/DT   two/CD   executives/NNS   for/IN   diverting/VBG   blame/NN   ./.)
+----------------------------------
+original sentence: 
+"At the end of the day, the two of you in charge of the organization did not seem to have a grip on what was happening," said commission Chairman Phil Angelides, a Democratic appointee.
+
+POS tagged sentence: 
+[('"', 'NN'), ('At', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), (',', ','), ('the', 'DT'), ('two', 'CD'), ('of', 'IN'), ('you', 'PRP'), ('in', 'IN'), ('charge', 'NN'), ('of', 'IN'), ('the', 'DT'), ('organization', 'NN'), ('did', 'VBD'), ('not', 'RB'), ('seem', 'VB'), ('to', 'TO'), ('have', 'VB'), ('a', 'DT'), ('grip', 'NN'), ('on', 'IN'), ('what', 'WP'), ('was', 'VBD'), ('happening', 'VBG'), (',', ','), ('"', ':'), ('said', 'VBD'), ('commission', 'NN'), ('Chairman', 'NNP'), ('Phil', 'NNP'), ('Angelides', 'NNP'), (',', ','), ('a', 'DT'), ('Democratic', 'JJ'), ('appointee', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   At/IN   the/DT   end/NN   of/IN   the/DT   day/NN   ,/,   the/DT   two/CD   of/IN   you/PRP   in/IN   charge/NN   of/IN   the/DT   organization/NN   did/VBD   not/RB   seem/VB   to/TO   have/VB   a/DT   grip/NN   on/IN   what/WP   was/VBD   happening/VBG   ,/,   "/:   said/VBD   commission/NN   Chairman/NNP   (PERSON Phil/NNP Angelides/NNP)   ,/,   a/DT   (ORGANIZATION Democratic/JJ)   appointee/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB did/VBD not/RB seem/VB)
+	(VERB have/VB a/DT grip/NN on/IN)
+	(VERB was/VBD happening/VBG)
+	(VERB said/VBD commission/NN Chairman/NNP Phil/NNP Angelides/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN end/NN)
+	(NOUN day/NN)
+	(NOUN charge/NN)
+	(NOUN organization/NN)
+	(NOUN a/DT Democratic/JJ appointee/NN)
+
+----------------------------------
+original sentence: 
+"I'm not so sure apologies are as important as assessment of responsibility.
+
+POS tagged sentence: 
+[('"', 'NN'), ('I', 'PRP'), ("'m", 'VBP'), ('not', 'RB'), ('so', 'RB'), ('sure', 'RB'), ('apologies', 'VBZ'), ('are', 'VBP'), ('as', 'RB'), ('important', 'JJ'), ('as', 'IN'), ('assessment', 'NN'), ('of', 'IN'), ('responsibility', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   I/PRP   'm/VBP   not/RB   so/RB   sure/RB   apologies/VBZ   are/VBP   as/RB   important/JJ   as/IN   assessment/NN   of/IN   responsibility/NN   ./.)
+----------------------------------
+original sentence: 
+.
+
+POS tagged sentence: 
+[('.', '.')]
+
+
+ERTAGGED sentence: (S ./.)
+----------------------------------
+original sentence: 
+.
+
+POS tagged sentence: 
+[('.', '.')]
+
+
+ERTAGGED sentence: (S ./.)
+----------------------------------
+original sentence: 
+.
+
+POS tagged sentence: 
+[('.', '.')]
+
+
+ERTAGGED sentence: (S ./.)
+----------------------------------
+original sentence: 
+Instead of asking, 'What did you know and when did you know it?
+
+POS tagged sentence: 
+[('Instead', 'RB'), ('of', 'IN'), ('asking', 'VBG'), (',', ','), ("'What", 'JJ'), ('did', 'VBD'), ('you', 'PRP'), ('know', 'VB'), ('and', 'CC'), ('when', 'WRB'), ('did', 'VBD'), ('you', 'PRP'), ('know', 'VB'), ('it', 'PRP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Instead/RB   of/IN   asking/VBG   ,/,   'What/JJ   did/VBD   you/PRP   know/VB   and/CC   when/WRB   did/VBD   you/PRP   know/VB   it/PRP   ?/.)
+----------------------------------
+original sentence: 
+' I should be asking, 'What didn't you know and why didn't you know it?
+
+POS tagged sentence: 
+[("'", 'POS'), ('I', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('asking', 'VBG'), (',', ','), ("'What", 'JJ'), ('did', 'VBD'), ("n't", 'RB'), ('you', 'PRP'), ('know', 'VB'), ('and', 'CC'), ('why', 'WRB'), ('did', 'VBD'), ("n't", 'RB'), ('you', 'PRP'), ('know', 'VB'), ('it', 'PRP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   '/POS   I/PRP   should/MD   be/VB   asking/VBG   ,/,   'What/JJ   did/VBD   n't/RB   you/PRP   know/VB   and/CC   why/WRB   did/VBD   n't/RB   you/PRP   know/VB   it/PRP   ?/.)
+----------------------------------
+original sentence: 
+' " he said.
+
+POS tagged sentence: 
+[("'", 'POS'), ('"', '``'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S '/POS "/`` he/PRP said/VBD ./.)
+----------------------------------
+original sentence: 
+The panel's vice chairman, Bill Thomas, a Republican appointee, slammed Prince and Rubin for not returning any of the tens of millions of dollars in compensation they received before Citigroup's fall.
+
+POS tagged sentence: 
+[('The', 'DT'), ('panel', 'NN'), ("'s", 'POS'), ('vice', 'NN'), ('chairman', 'NN'), (',', ','), ('Bill', 'NNP'), ('Thomas', 'NNP'), (',', ','), ('a', 'DT'), ('Republican', 'JJ'), ('appointee', 'NN'), (',', ','), ('slammed', 'VBD'), ('Prince', 'NNP'), ('and', 'CC'), ('Rubin', 'NNP'), ('for', 'IN'), ('not', 'RB'), ('returning', 'VBG'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('tens', 'NNS'), ('of', 'IN'), ('millions', 'NNS'), ('of', 'IN'), ('dollars', 'NNS'), ('in', 'IN'), ('compensation', 'NN'), ('they', 'PRP'), ('received', 'VBD'), ('before', 'IN'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('fall', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   panel/NN   's/POS   vice/NN   chairman/NN   ,/,   (PERSON Bill/NNP Thomas/NNP)   ,/,   a/DT   (ORGANIZATION Republican/JJ)   appointee/NN   ,/,   slammed/VBD   (GPE Prince/NNP)   and/CC   (PERSON Rubin/NNP)   for/IN   not/RB   returning/VBG   any/DT   of/IN   the/DT   tens/NNS   of/IN   millions/NNS   of/IN   dollars/NNS   in/IN   compensation/NN   they/PRP   received/VBD   before/IN   (PERSON Citigroup/NNP)   's/POS   fall/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB slammed/VBD Prince/NNP)
+	(VERB   returning/VBG   any/DT   of/IN   the/DT   tens/NNS   of/IN   millions/NNS   of/IN   dollars/NNS   in/IN   compensation/NN   they/PRP)
+	(VERB received/VBD before/IN Citigroup/NNP)
+noun phrases to consider:
+	(NOUN panel/NN)
+	(NOUN vice/NN chairman/NN)
+	(NOUN Bill/NNP Thomas/NNP)
+	(NOUN a/DT Republican/JJ appointee/NN)
+	(NOUN Rubin/NNP)
+	(NOUN fall/NN)
+
+tagged sentence:
+	 fall	res:-1
+
+----------------------------------
+original sentence: 
+He said a "simple apology" isn't enough, "no matter how often you feel really, really sad.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('said', 'VBD'), ('a', 'DT'), ('"', 'NN'), ('simple', 'NN'), ('apology', 'NN'), ('"', ':'), ('is', 'VBZ'), ("n't", 'RB'), ('enough', 'RB'), (',', ','), ('"', ':'), ('no', 'DT'), ('matter', 'NN'), ('how', 'WRB'), ('often', 'RB'), ('you', 'PRP'), ('feel', 'VBP'), ('really', 'RB'), (',', ','), ('really', 'RB'), ('sad', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   said/VBD   a/DT   "/NN   simple/NN   apology/NN   "/:   is/VBZ   n't/RB   enough/RB   ,/,   "/:   no/DT   matter/NN   how/WRB   often/RB   you/PRP   feel/VBP   really/RB   ,/,   really/RB   sad/JJ   ./.)
+----------------------------------
+original sentence: 
+"
+Commission members went easier on the current and former head of one of Citigroup's regulators, the Office of the Comptroller of the Currency.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Commission', 'NN'), ('members', 'NNS'), ('went', 'VBD'), ('easier', 'JJR'), ('on', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('and', 'CC'), ('former', 'JJ'), ('head', 'NN'), ('of', 'IN'), ('one', 'CD'), ('of', 'IN'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('regulators', 'NNS'), (',', ','), ('the', 'DT'), ('Office', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Comptroller', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Currency', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (ORGANIZATION Commission/NN)   members/NNS   went/VBD   easier/JJR   on/IN   the/DT   current/JJ   and/CC   former/JJ   head/NN   of/IN   one/CD   of/IN   (GPE Citigroup/NNP)   's/POS   regulators/NNS   ,/,   the/DT   Office/NNP   of/IN   the/DT   (ORGANIZATION Comptroller/NNP)   of/IN   the/DT   (ORGANIZATION Currency/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB went/VBD easier/JJR on/IN the/DT current/JJ)
+noun phrases to consider:
+	(NOUN "/NN Commission/NN members/NNS)
+	(NOUN former/JJ head/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN regulators/NNS)
+	(NOUN Office/NNP)
+	(NOUN Comptroller/NNP)
+	(NOUN Currency/NNP)
+
+----------------------------------
+original sentence: 
+That agency only oversaw Citigroup's national banking division, Citibank, which did not have as many problems as the rest of the huge multinational firm.
+
+POS tagged sentence: 
+[('That', 'DT'), ('agency', 'NN'), ('only', 'RB'), ('oversaw', 'VBD'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('national', 'JJ'), ('banking', 'NN'), ('division', 'NN'), (',', ','), ('Citibank', 'NNP'), (',', ','), ('which', 'WDT'), ('did', 'VBD'), ('not', 'RB'), ('have', 'VB'), ('as', 'RB'), ('many', 'JJ'), ('problems', 'NNS'), ('as', 'IN'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('the', 'DT'), ('huge', 'JJ'), ('multinational', 'JJ'), ('firm', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   agency/NN   only/RB   oversaw/VBD   (PERSON Citigroup/NNP)   's/POS   national/JJ   banking/NN   division/NN   ,/,   (ORGANIZATION Citibank/NNP)   ,/,   which/WDT   did/VBD   not/RB   have/VB   as/RB   many/JJ   problems/NNS   as/IN   the/DT   rest/NN   of/IN   the/DT   huge/JJ   multinational/JJ   firm/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB oversaw/VBD Citigroup/NNP)
+	(VERB   did/VBD   not/RB   have/VB   as/RB   many/JJ   problems/NNS   as/IN   the/DT   rest/NN   of/IN   the/DT   huge/JJ   multinational/JJ   firm/NN)
+noun phrases to consider:
+	(NOUN agency/NN)
+	(NOUN national/JJ banking/NN division/NN)
+	(NOUN Citibank/NNP)
+
+----------------------------------
+original sentence: 
+Comptroller John C. Dugan said the agency could have better supervised the banks, but the regulator had raised concerns with Citigroup officials starting in 2005 that its growth was taking precedence over controlling risk taking.
+
+POS tagged sentence: 
+[('Comptroller', 'NNP'), ('John', 'NNP'), ('C.', 'NNP'), ('Dugan', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('agency', 'NN'), ('could', 'MD'), ('have', 'VB'), ('better', 'JJR'), ('supervised', 'VBN'), ('the', 'DT'), ('banks', 'NNS'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('regulator', 'NN'), ('had', 'VBD'), ('raised', 'VBN'), ('concerns', 'NNS'), ('with', 'IN'), ('Citigroup', 'NNP'), ('officials', 'NNS'), ('starting', 'VBG'), ('in', 'IN'), ('2005', 'CD'), ('that', 'WDT'), ('its', 'PRP$'), ('growth', 'NN'), ('was', 'VBD'), ('taking', 'VBG'), ('precedence', 'NN'), ('over', 'IN'), ('controlling', 'VBG'), ('risk', 'NN'), ('taking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comptroller/NNP)   (PERSON John/NNP C./NNP Dugan/NNP)   said/VBD   the/DT   agency/NN   could/MD   have/VB   better/JJR   supervised/VBN   the/DT   banks/NNS   ,/,   but/CC   the/DT   regulator/NN   had/VBD   raised/VBN   concerns/NNS   with/IN   (ORGANIZATION Citigroup/NNP)   officials/NNS   starting/VBG   in/IN   2005/CD   that/WDT   its/PRP$   growth/NN   was/VBD   taking/VBG   precedence/NN   over/IN   controlling/VBG   risk/NN   taking/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD the/DT agency/NN)
+	(VERB have/VB better/JJR)
+	(VERB supervised/VBN the/DT banks/NNS)
+	(VERB   had/VBD   raised/VBN   concerns/NNS   with/IN   Citigroup/NNP   officials/NNS)
+
+tagged sentence:
+	 had raised concerns with Citigroup officials	res:-1
+	(VERB starting/VBG in/IN 2005/CD)
+	(VERB was/VBD taking/VBG precedence/NN over/IN)
+	(VERB controlling/VBG risk/NN)
+	(VERB taking/VBG)
+noun phrases to consider:
+	(NOUN Comptroller/NNP John/NNP C./NNP Dugan/NNP)
+	(NOUN regulator/NN)
+	(NOUN growth/NN)
+
+----------------------------------
+original sentence: 
+Citigroup has been the most contrite of the firms that received a major bailout and, because of the large amount of assistance it received, has been a major focus of lawmakers and the panel investigating the crisis.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('the', 'DT'), ('most', 'RBS'), ('contrite', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('firms', 'NNS'), ('that', 'WDT'), ('received', 'VBD'), ('a', 'DT'), ('major', 'JJ'), ('bailout', 'NN'), ('and', 'CC'), (',', ','), ('because', 'IN'), ('of', 'IN'), ('the', 'DT'), ('large', 'JJ'), ('amount', 'NN'), ('of', 'IN'), ('assistance', 'NN'), ('it', 'PRP'), ('received', 'VBD'), (',', ','), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('major', 'JJ'), ('focus', 'NN'), ('of', 'IN'), ('lawmakers', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('panel', 'NN'), ('investigating', 'VBG'), ('the', 'DT'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   has/VBZ   been/VBN   the/DT   most/RBS   contrite/JJ   of/IN   the/DT   firms/NNS   that/WDT   received/VBD   a/DT   major/JJ   bailout/NN   and/CC   ,/,   because/IN   of/IN   the/DT   large/JJ   amount/NN   of/IN   assistance/NN   it/PRP   received/VBD   ,/,   has/VBZ   been/VBN   a/DT   major/JJ   focus/NN   of/IN   lawmakers/NNS   and/CC   the/DT   panel/NN   investigating/VBG   the/DT   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ been/VBN the/DT)
+	(VERB received/VBD a/DT major/JJ bailout/NN)
+
+tagged sentence:
+	 received a major bailout	res:-1
+	(VERB received/VBD)
+	(VERB has/VBZ been/VBN a/DT major/JJ focus/NN of/IN lawmakers/NNS)
+	(VERB investigating/VBG the/DT crisis/NN)
+
+tagged sentence:
+	 investigating the crisis	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN contrite/JJ)
+	(NOUN firms/NNS)
+	(NOUN the/DT large/JJ amount/NN)
+	(NOUN assistance/NN)
+	(NOUN panel/NN)
+
+----------------------------------
+original sentence: 
+Last month, Chief Executive Vikram Pandit publicly thanked taxpayers for their aid.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('month', 'NN'), (',', ','), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Vikram', 'NNP'), ('Pandit', 'NNP'), ('publicly', 'RB'), ('thanked', 'VBD'), ('taxpayers', 'NNS'), ('for', 'IN'), ('their', 'PRP$'), ('aid', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   month/NN   ,/,   Chief/NNP   Executive/NNP   (PERSON Vikram/NNP Pandit/NNP)   publicly/RB   thanked/VBD   taxpayers/NNS   for/IN   their/PRP$   aid/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB thanked/VBD taxpayers/NNS for/IN their/PRP$ aid/NN)
+noun phrases to consider:
+	(NOUN Last/JJ month/NN)
+	(NOUN Chief/NNP Executive/NNP Vikram/NNP Pandit/NNP)
+
+----------------------------------
+original sentence: 
+Citigroup in December repaid $20 billion of the $45 billion bailout.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('in', 'IN'), ('December', 'NNP'), ('repaid', 'VBD'), ('$', '$'), ('20', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('the', 'DT'), ('$', '$'), ('45', 'CD'), ('billion', 'CD'), ('bailout', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   in/IN   December/NNP   repaid/VBD   $/$   20/CD   billion/CD   of/IN   the/DT   $/$   45/CD   billion/CD   bailout/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB repaid/VBD)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN December/NNP)
+
+----------------------------------
+original sentence: 
+The remaining money was converted into a government ownership stake, which Treasury officials said last week they intended to sell.
+
+POS tagged sentence: 
+[('The', 'DT'), ('remaining', 'VBG'), ('money', 'NN'), ('was', 'VBD'), ('converted', 'VBN'), ('into', 'IN'), ('a', 'DT'), ('government', 'NN'), ('ownership', 'NN'), ('stake', 'NN'), (',', ','), ('which', 'WDT'), ('Treasury', 'NNP'), ('officials', 'NNS'), ('said', 'VBD'), ('last', 'JJ'), ('week', 'NN'), ('they', 'PRP'), ('intended', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   remaining/VBG   money/NN   was/VBD   converted/VBN   into/IN   a/DT   government/NN   ownership/NN   stake/NN   ,/,   which/WDT   (ORGANIZATION Treasury/NNP)   officials/NNS   said/VBD   last/JJ   week/NN   they/PRP   intended/VBD   to/TO   sell/VB   ./.)
+----------------------------------
+original sentence: 
+Prince said risk assessments by Citigroup on about $40 billion of highly rated securities based on subprime mortgages turned out to be "dramatically wrong.
+
+POS tagged sentence: 
+[('Prince', 'NN'), ('said', 'VBD'), ('risk', 'NN'), ('assessments', 'NNS'), ('by', 'IN'), ('Citigroup', 'NNP'), ('on', 'IN'), ('about', 'IN'), ('$', '$'), ('40', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('highly', 'RB'), ('rated', 'VBN'), ('securities', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('subprime', 'NN'), ('mortgages', 'NNS'), ('turned', 'VBD'), ('out', 'RP'), ('to', 'TO'), ('be', 'VB'), ('"', ':'), ('dramatically', 'RB'), ('wrong', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Prince/NN)   said/VBD   risk/NN   assessments/NNS   by/IN   (PERSON Citigroup/NNP)   on/IN   about/IN   $/$   40/CD   billion/CD   of/IN   highly/RB   rated/VBN   securities/NNS   based/VBN   on/IN   subprime/NN   mortgages/NNS   turned/VBD   out/RP   to/TO   be/VB   "/:   dramatically/RB   wrong/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   said/VBD   risk/NN   assessments/NNS   by/IN   Citigroup/NNP   on/IN   about/IN)
+	(VERB rated/VBN securities/NNS)
+	(VERB based/VBN on/IN subprime/NN mortgages/NNS)
+	(VERB turned/VBD)
+	(VERB be/VB)
+noun phrases to consider:
+	(NOUN Prince/NN)
+	(NOUN dramatically/RB wrong/JJ)
+
+tagged sentence:
+	 dramatically wrong	res:-1
+
+----------------------------------
+original sentence: 
+" But he said he could not fault company employees for acquiring those assets because they came with the highest credit ratings.
+
+POS tagged sentence: 
+[('"', 'NN'), ('But', 'CC'), ('he', 'PRP'), ('said', 'VBD'), ('he', 'PRP'), ('could', 'MD'), ('not', 'RB'), ('fault', 'VB'), ('company', 'NN'), ('employees', 'NNS'), ('for', 'IN'), ('acquiring', 'VBG'), ('those', 'DT'), ('assets', 'NNS'), ('because', 'IN'), ('they', 'PRP'), ('came', 'VBD'), ('with', 'IN'), ('the', 'DT'), ('highest', 'JJS'), ('credit', 'NN'), ('ratings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   But/CC   he/PRP   said/VBD   he/PRP   could/MD   not/RB   fault/VB   company/NN   employees/NNS   for/IN   acquiring/VBG   those/DT   assets/NNS   because/IN   they/PRP   came/VBD   with/IN   the/DT   highest/JJS   credit/NN   ratings/NNS   ./.)
+----------------------------------
+original sentence: 
+"Having $40 billion of AAA plus rated paper on the balance sheet of a $2 trillion company would typically not raise a concern," Prince said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Having', 'VBG'), ('$', '$'), ('40', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('AAA', 'NNP'), ('plus', 'CC'), ('rated', 'VBD'), ('paper', 'NN'), ('on', 'IN'), ('the', 'DT'), ('balance', 'NN'), ('sheet', 'NN'), ('of', 'IN'), ('a', 'DT'), ('$', '$'), ('2', 'CD'), ('trillion', 'CD'), ('company', 'NN'), ('would', 'MD'), ('typically', 'RB'), ('not', 'RB'), ('raise', 'VB'), ('a', 'DT'), ('concern', 'NN'), (',', ','), ('"', ':'), ('Prince', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Having/VBG   $/$   40/CD   billion/CD   of/IN   (ORGANIZATION AAA/NNP)   plus/CC   rated/VBD   paper/NN   on/IN   the/DT   balance/NN   sheet/NN   of/IN   a/DT   $/$   2/CD   trillion/CD   company/NN   would/MD   typically/RB   not/RB   raise/VB   a/DT   concern/NN   ,/,   "/:   (PERSON Prince/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+But the value of those assets began deteriorating amid the collapse of the housing market.
+
+POS tagged sentence: 
+[('But', 'CC'), ('the', 'DT'), ('value', 'NN'), ('of', 'IN'), ('those', 'DT'), ('assets', 'NNS'), ('began', 'VBD'), ('deteriorating', 'VBG'), ('amid', 'IN'), ('the', 'DT'), ('collapse', 'NN'), ('of', 'IN'), ('the', 'DT'), ('housing', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   the/DT   value/NN   of/IN   those/DT   assets/NNS   began/VBD   deteriorating/VBG   amid/IN   the/DT   collapse/NN   of/IN   the/DT   housing/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+Prince resigned Nov. 4, 2007, after Citigroup announced $8 billion to $11 billion in write downs for those investments, which ultimately cost the company $30 billion.
+
+POS tagged sentence: 
+[('Prince', 'NN'), ('resigned', 'VBD'), ('Nov.', 'NNP'), ('4', 'CD'), (',', ','), ('2007', 'CD'), (',', ','), ('after', 'IN'), ('Citigroup', 'NNP'), ('announced', 'VBD'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('to', 'TO'), ('$', '$'), ('11', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('write', 'JJ'), ('downs', 'NNS'), ('for', 'IN'), ('those', 'DT'), ('investments', 'NNS'), (',', ','), ('which', 'WDT'), ('ultimately', 'RB'), ('cost', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('$', '$'), ('30', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Prince/NN)   resigned/VBD   Nov./NNP   4/CD   ,/,   2007/CD   ,/,   after/IN   (PERSON Citigroup/NNP)   announced/VBD   $/$   8/CD   billion/CD   to/TO   $/$   11/CD   billion/CD   in/IN   write/JJ   downs/NNS   for/IN   those/DT   investments/NNS   ,/,   which/WDT   ultimately/RB   cost/VBD   the/DT   company/NN   $/$   30/CD   billion/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB resigned/VBD Nov./NNP 4/CD)
+	(VERB announced/VBD)
+	(VERB cost/VBD the/DT company/NN)
+
+tagged sentence:
+	 cost the company	res:-1
+noun phrases to consider:
+	(NOUN Prince/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN write/JJ downs/NNS)
+	(NOUN investments/NNS)
+
+----------------------------------
+original sentence: 
+Also Wednesday, Richard Bowen, the former chief underwriter of CitiMortgage Inc., testified that he began warning company officials in 2006 about the risks being taken with securities backed by subprime mortgages.
+
+POS tagged sentence: 
+[('Also', 'RB'), ('Wednesday', 'NNP'), (',', ','), ('Richard', 'NNP'), ('Bowen', 'NNP'), (',', ','), ('the', 'DT'), ('former', 'JJ'), ('chief', 'NN'), ('underwriter', 'NN'), ('of', 'IN'), ('CitiMortgage', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('testified', 'VBD'), ('that', 'IN'), ('he', 'PRP'), ('began', 'VBD'), ('warning', 'VBG'), ('company', 'NN'), ('officials', 'NNS'), ('in', 'IN'), ('2006', 'CD'), ('about', 'IN'), ('the', 'DT'), ('risks', 'NNS'), ('being', 'VBG'), ('taken', 'VBN'), ('with', 'IN'), ('securities', 'NNS'), ('backed', 'VBN'), ('by', 'IN'), ('subprime', 'NN'), ('mortgages', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   Wednesday/NNP   ,/,   (PERSON Richard/NNP Bowen/NNP)   ,/,   the/DT   former/JJ   chief/NN   underwriter/NN   of/IN   (ORGANIZATION CitiMortgage/NNP Inc./NNP)   ,/,   testified/VBD   that/IN   he/PRP   began/VBD   warning/VBG   company/NN   officials/NNS   in/IN   2006/CD   about/IN   the/DT   risks/NNS   being/VBG   taken/VBN   with/IN   securities/NNS   backed/VBN   by/IN   subprime/NN   mortgages/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB testified/VBD that/IN he/PRP)
+	(VERB   began/VBD   warning/VBG   company/NN   officials/NNS   in/IN   2006/CD   about/IN   the/DT   risks/NNS)
+	(VERB being/VBG taken/VBN with/IN securities/NNS)
+	(VERB backed/VBN by/IN subprime/NN mortgages/NNS)
+noun phrases to consider:
+	(NOUN Wednesday/NNP)
+	(NOUN Richard/NNP Bowen/NNP)
+	(NOUN the/DT former/JJ chief/NN underwriter/NN)
+	(NOUN CitiMortgage/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+He sent an e mail Nov. 3, 2007, to Rubin and other top officials warning of "significant but possibly unrecognized financial losses.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('sent', 'VBD'), ('an', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('Nov.', 'NNP'), ('3', 'CD'), (',', ','), ('2007', 'CD'), (',', ','), ('to', 'TO'), ('Rubin', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('top', 'JJ'), ('officials', 'NNS'), ('warning', 'VBG'), ('of', 'IN'), ('"', 'NNP'), ('significant', 'JJ'), ('but', 'CC'), ('possibly', 'RB'), ('unrecognized', 'VBN'), ('financial', 'JJ'), ('losses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   sent/VBD   an/DT   e/NN   mail/NN   Nov./NNP   3/CD   ,/,   2007/CD   ,/,   to/TO   (PERSON Rubin/NNP)   and/CC   other/JJ   top/JJ   officials/NNS   warning/VBG   of/IN   "/NNP   significant/JJ   but/CC   possibly/RB   unrecognized/VBN   financial/JJ   losses/NNS   ./.)
+----------------------------------
+original sentence: 
+"
+Rubin said Thursday that he referred the e mail to the appropriate company officials and that it "was acted on promptly.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Rubin', 'NNP'), ('said', 'VBD'), ('Thursday', 'NNP'), ('that', 'IN'), ('he', 'PRP'), ('referred', 'VBD'), ('the', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('to', 'TO'), ('the', 'DT'), ('appropriate', 'NN'), ('company', 'NN'), ('officials', 'NNS'), ('and', 'CC'), ('that', 'IN'), ('it', 'PRP'), ('"', 'VBP'), ('was', 'VBD'), ('acted', 'VBN'), ('on', 'IN'), ('promptly', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Rubin/NNP)   said/VBD   Thursday/NNP   that/IN   he/PRP   referred/VBD   the/DT   e/NN   mail/NN   to/TO   the/DT   appropriate/NN   company/NN   officials/NNS   and/CC   that/IN   it/PRP   "/VBP   was/VBD   acted/VBN   on/IN   promptly/RB   ./.)
+----------------------------------
+original sentence: 
+" Angelides asked Rubin to submit details on who acted on it and how.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Angelides', 'NNP'), ('asked', 'VBD'), ('Rubin', 'NNP'), ('to', 'TO'), ('submit', 'VB'), ('details', 'NNS'), ('on', 'IN'), ('who', 'WP'), ('acted', 'VBN'), ('on', 'IN'), ('it', 'PRP'), ('and', 'CC'), ('how', 'WRB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Angelides/NNP)   asked/VBD   (PERSON Rubin/NNP)   to/TO   submit/VB   details/NNS   on/IN   who/WP   acted/VBN   on/IN   it/PRP   and/CC   how/WRB   ./.)
+----------------------------------
+original sentence: 
+Copyright &copy; 2010, The Los Angeles Times
+ If you are under 13 years of age you may read this message board, but you may not participate.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), (',', ','), ('The', 'DT'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Times', 'NNP'), ('If', 'NNP'), ('you', 'PRP'), ('are', 'VBP'), ('under', 'IN'), ('13', 'CD'), ('years', 'NNS'), ('of', 'IN'), ('age', 'NN'), ('you', 'PRP'), ('may', 'MD'), ('read', 'VB'), ('this', 'DT'), ('message', 'NN'), ('board', 'NN'), (',', ','), ('but', 'CC'), ('you', 'PRP'), ('may', 'MD'), ('not', 'RB'), ('participate', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   2010/CD   ,/,   The/DT   (GPE Los/NNP Angeles/NNP)   Times/NNP   If/NNP   you/PRP   are/VBP   under/IN   13/CD   years/NNS   of/IN   age/NN   you/PRP   may/MD   read/VB   this/DT   message/NN   board/NN   ,/,   but/CC   you/PRP   may/MD   not/RB   participate/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP under/IN 13/CD years/NNS of/IN age/NN you/PRP)
+	(VERB read/VB this/DT message/NN board/NN)
+	(VERB participate/VB)
+noun phrases to consider:
+	(NOUN Copyright/NNP &copy/NNP)
+	(NOUN Los/NNP Angeles/NNP Times/NNP If/NNP)
+
+----------------------------------
+original sentence: 
+Comments are filtered for language and registration is required.
+
+POS tagged sentence: 
+[('Comments', 'NNS'), ('are', 'VBP'), ('filtered', 'VBN'), ('for', 'IN'), ('language', 'NN'), ('and', 'CC'), ('registration', 'NN'), ('is', 'VBZ'), ('required', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Comments/NNS   are/VBP   filtered/VBN   for/IN   language/NN   and/CC   registration/NN   is/VBZ   required/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP filtered/VBN for/IN language/NN)
+	(VERB is/VBZ required/VBN)
+noun phrases to consider:
+	(NOUN Comments/NNS)
+	(NOUN registration/NN)
+
+----------------------------------
+original sentence: 
+Readers may report comments by clicking report abuse.
+
+POS tagged sentence: 
+[('Readers', 'NNS'), ('may', 'MD'), ('report', 'VB'), ('comments', 'NNS'), ('by', 'IN'), ('clicking', 'VBG'), ('report', 'NN'), ('abuse', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Readers/NNS   may/MD   report/VB   comments/NNS   by/IN   clicking/VBG   report/NN   abuse/NN   ./.)
+----------------------------------
+original sentence: 
+Once a comment has been flagged, a Los Angeles Times staffer will investigate.
+
+POS tagged sentence: 
+[('Once', 'RB'), ('a', 'DT'), ('comment', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('flagged', 'VBN'), (',', ','), ('a', 'DT'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Times', 'NNP'), ('staffer', 'NN'), ('will', 'MD'), ('investigate', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Once/RB   a/DT   comment/NN   has/VBZ   been/VBN   flagged/VBN   ,/,   a/DT   (GPE Los/NNP Angeles/NNP Times/NNP)   staffer/NN   will/MD   investigate/VB   ./.)
+----------------------------------
+original sentence: 
+Readers are reminded to post comments that are germane to the article and write in a common language that steers clear of personal attacks and/or vulgarities.
+
+POS tagged sentence: 
+[('Readers', 'NNS'), ('are', 'VBP'), ('reminded', 'VBN'), ('to', 'TO'), ('post', 'VB'), ('comments', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('germane', 'VBP'), ('to', 'TO'), ('the', 'DT'), ('article', 'NN'), ('and', 'CC'), ('write', 'VB'), ('in', 'IN'), ('a', 'DT'), ('common', 'JJ'), ('language', 'NN'), ('that', 'IN'), ('steers', 'NNS'), ('clear', 'VBP'), ('of', 'IN'), ('personal', 'JJ'), ('attacks', 'NNS'), ('and/or', 'JJ'), ('vulgarities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Readers/NNS   are/VBP   reminded/VBN   to/TO   post/VB   comments/NNS   that/WDT   are/VBP   germane/VBP   to/TO   the/DT   article/NN   and/CC   write/VB   in/IN   a/DT   common/JJ   language/NN   that/IN   steers/NNS   clear/VBP   of/IN   personal/JJ   attacks/NNS   and/or/JJ   vulgarities/NNS   ./.)
+----------------------------------
+original sentence: 
+Note: Comments are moderated and will not appear until they have been reviewed by Times staff.
+
+POS tagged sentence: 
+[('Note', 'VB'), (':', ':'), ('Comments', 'NNS'), ('are', 'VBP'), ('moderated', 'VBN'), ('and', 'CC'), ('will', 'MD'), ('not', 'RB'), ('appear', 'VB'), ('until', 'IN'), ('they', 'PRP'), ('have', 'VBP'), ('been', 'VBN'), ('reviewed', 'VBN'), ('by', 'IN'), ('Times', 'NNP'), ('staff', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Note/VB   :/:   Comments/NNS   are/VBP   moderated/VBN   and/CC   will/MD   not/RB   appear/VB   until/IN   they/PRP   have/VBP   been/VBN   reviewed/VBN   by/IN   (PERSON Times/NNP)   staff/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Note/VB)
+	(VERB are/VBP moderated/VBN)
+	(VERB appear/VB until/IN they/PRP)
+	(VERB have/VBP been/VBN reviewed/VBN by/IN Times/NNP staff/NN)
+noun phrases to consider:
+	(NOUN Comments/NNS)
+
+----------------------------------
+original sentence: 
+Here are the full legal terms you agree to by using this comment form
+as of 04:02PM ET 4/23/2010
+4/23/2010 4:02:00 PM
+4/23/2010 4:41:00 PM
+4/23/2010 4:46:00 PM
+Receive alerts on your mobile phone.
+
+POS tagged sentence: 
+[('Here', 'RB'), ('are', 'VBP'), ('the', 'DT'), ('full', 'JJ'), ('legal', 'JJ'), ('terms', 'NNS'), ('you', 'PRP'), ('agree', 'VBP'), ('to', 'TO'), ('by', 'IN'), ('using', 'NN'), ('this', 'DT'), ('comment', 'NN'), ('form', 'NN'), ('as', 'IN'), ('of', 'IN'), ('04', 'CD'), (':', ':'), ('02PM', 'CD'), ('ET', 'NNP'), ('4/23/2010', 'CD'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('02', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('41', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('46', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Receive', 'NNP'), ('alerts', 'VBZ'), ('on', 'IN'), ('your', 'PRP$'), ('mobile', 'JJ'), ('phone', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Here/RB   are/VBP   the/DT   full/JJ   legal/JJ   terms/NNS   you/PRP   agree/VBP   to/TO   by/IN   using/NN   this/DT   comment/NN   form/NN   as/IN   of/IN   04/CD   :/:   02PM/CD   ET/NNP   4/23/2010/CD   4/23/2010/CD   4/CD   :/:   02/CD   :/:   00/CD   PM/NNP   4/23/2010/CD   4/CD   :/:   41/CD   :/:   00/CD   PM/NNP   4/23/2010/CD   4/CD   :/:   46/CD   :/:   00/CD   PM/NNP   Receive/NNP   alerts/VBZ   on/IN   your/PRP$   mobile/JJ   phone/NN   ./.)
+----------------------------------
+original sentence: 
+Text BREAKING to 52669.
+
+POS tagged sentence: 
+[('Text', 'NNP'), ('BREAKING', 'NNP'), ('to', 'TO'), ('52669', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Text/NNP) BREAKING/NNP to/TO 52669/CD ./.)
+----------------------------------
+original sentence: 
+Milan Furniture Fair &raquo;
+The bold and sometimes bizarre: The world's design greats showcase their work.
+
+POS tagged sentence: 
+[('Milan', 'NNP'), ('Furniture', 'NNP'), ('Fair', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('The', 'NNP'), ('bold', 'NN'), ('and', 'CC'), ('sometimes', 'RB'), ('bizarre', 'VB'), (':', ':'), ('The', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('design', 'NN'), ('greats', 'NNS'), ('showcase', 'NN'), ('their', 'PRP$'), ('work', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Milan/NNP)   (PERSON Furniture/NNP Fair/NNP)   &raquo/NNP   ;/:   The/NNP   bold/NN   and/CC   sometimes/RB   bizarre/VB   :/:   The/DT   world/NN   's/POS   design/NN   greats/NNS   showcase/NN   their/PRP$   work/NN   ./.)
+----------------------------------
+original sentence: 
+Do's and Dont's of Yoga &raquo;
+A few techniques can make the difference between a sore back and a strong, healthy one.
+
+POS tagged sentence: 
+[('Do', 'NNP'), ("'s", 'POS'), ('and', 'CC'), ('Dont', 'NNP'), ("'s", 'POS'), ('of', 'IN'), ('Yoga', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('A', 'DT'), ('few', 'JJ'), ('techniques', 'NNS'), ('can', 'MD'), ('make', 'VB'), ('the', 'DT'), ('difference', 'NN'), ('between', 'IN'), ('a', 'DT'), ('sore', 'NN'), ('back', 'RB'), ('and', 'CC'), ('a', 'DT'), ('strong', 'JJ'), (',', ','), ('healthy', 'JJ'), ('one', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Do/NNP)   's/POS   and/CC   (PERSON Dont/NNP)   's/POS   of/IN   (PERSON Yoga/NNP &raquo/NNP)   ;/:   A/DT   few/JJ   techniques/NNS   can/MD   make/VB   the/DT   difference/NN   between/IN   a/DT   sore/NN   back/RB   and/CC   a/DT   strong/JJ   ,/,   healthy/JJ   one/CD   ./.)
+----------------------------------
+original sentence: 
+Enjoy more stories like this for .
+
+POS tagged sentence: 
+[('Enjoy', 'NNP'), ('more', 'JJR'), ('stories', 'NNS'), ('like', 'IN'), ('this', 'DT'), ('for', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Enjoy/NNP) more/JJR stories/NNS like/IN this/DT for/IN ./.)
+----------------------------------
+original sentence: 
+Click here to order The Times
+
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('order', 'NN'), ('The', 'DT'), ('Times', 'NNP')]
+
+
+ERTAGGED sentence: (S (PERSON Click/NNP) here/RB to/TO order/NN The/DT Times/NNP)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Click/NNP)
+	(NOUN order/NN)
+	(NOUN Times/NNP)
+
+
+veryneg:0	neg:13	pos:1	verypos:1	total:5

@@ -1,0 +1,625 @@
+
+----------------------------------
+original sentence: 
+HP and Intel Detail Technology Advances to Fuel Business Transformation for Workstation Customers | Business Wire
+ March 24, 2010 04:05 PM Eastern Daylight Time  HP and Intel Detail Technology Advances to Fuel Business Transformation for Workstation Customers  DreamWorks Animation Leads Its Business Transformation With Multicore Workstations  Today at a press event on the DreamWorks Animation SKG, Inc. NASDAQ:DWA campus, HP NYSE:HPQ and Intel detailed a path toward performance increases that will help workstation customers transform computing workflows and, ultimately, their businesses.
+
+POS tagged sentence: 
+[('HP', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('Detail', 'NNP'), ('Technology', 'NNP'), ('Advances', 'NNPS'), ('to', 'TO'), ('Fuel', 'NNP'), ('Business', 'NNP'), ('Transformation', 'NNP'), ('for', 'IN'), ('Workstation', 'NNP'), ('Customers', 'NNPS'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('24', 'CD'), (',', ','), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('05', 'CD'), ('PM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('HP', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('Detail', 'NNP'), ('Technology', 'NNP'), ('Advances', 'NNPS'), ('to', 'TO'), ('Fuel', 'NNP'), ('Business', 'NNP'), ('Transformation', 'NNP'), ('for', 'IN'), ('Workstation', 'NNP'), ('Customers', 'NNPS'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('Leads', 'NNP'), ('Its', 'NNP'), ('Business', 'NNP'), ('Transformation', 'NNP'), ('With', 'NNP'), ('Multicore', 'NNP'), ('Workstations', 'NNP'), ('Today', 'NNP'), ('at', 'IN'), ('a', 'DT'), ('press', 'NN'), ('event', 'NN'), ('on', 'IN'), ('the', 'DT'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('SKG', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('DWA', 'NNP'), ('campus', 'NN'), (',', ','), ('HP', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('HPQ', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('detailed', 'VBD'), ('a', 'DT'), ('path', 'NN'), ('toward', 'IN'), ('performance', 'NN'), ('increases', 'NNS'), ('that', 'WDT'), ('will', 'MD'), ('help', 'VB'), ('workstation', 'NN'), ('customers', 'NNS'), ('transform', 'NN'), ('computing', 'VBG'), ('workflows', 'NNS'), ('and', 'CC'), (',', ','), ('ultimately', 'RB'), (',', ','), ('their', 'PRP$'), ('businesses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   HP/NNP   and/CC   (ORGANIZATION Intel/NNP Detail/NNP Technology/NNP Advances/NNPS)   to/TO   (PERSON Fuel/NNP Business/NNP)   Transformation/NNP   for/IN   (ORGANIZATION Workstation/NNP Customers/NNPS)   |/NNP   Business/NNP   Wire/NNP   March/NNP   24/CD   ,/,   2010/CD   04/CD   :/:   05/CD   PM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   HP/NNP   and/CC   (ORGANIZATION Intel/NNP Detail/NNP Technology/NNP Advances/NNPS)   to/TO   (PERSON Fuel/NNP Business/NNP)   Transformation/NNP   for/IN   (ORGANIZATION Workstation/NNP Customers/NNPS)   (ORGANIZATION     DreamWorks/NNP     Animation/NNP     Leads/NNP     Its/NNP     Business/NNP)   Transformation/NNP   With/NNP   (PERSON Multicore/NNP Workstations/NNP)   Today/NNP   at/IN   a/DT   press/NN   event/NN   on/IN   the/DT   (ORGANIZATION DreamWorks/NNP Animation/NNP)   SKG/NNP   ,/,   Inc./NNP   NASDAQ/NNP   :/:   DWA/NNP   campus/NN   ,/,   (ORGANIZATION HP/NNP)   NYSE/NNP   :/:   HPQ/NNP   and/CC   (ORGANIZATION Intel/NNP)   detailed/VBD   a/DT   path/NN   toward/IN   performance/NN   increases/NNS   that/WDT   will/MD   help/VB   workstation/NN   customers/NNS   transform/NN   computing/VBG   workflows/NNS   and/CC   ,/,   ultimately/RB   ,/,   their/PRP$   businesses/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   detailed/VBD   a/DT   path/NN   toward/IN   performance/NN   increases/NNS)
+
+tagged sentence:
+	 detailed a path toward performance increases	res:1
+	(VERB help/VB workstation/NN customers/NNS transform/NN)
+	(VERB computing/VBG workflows/NNS)
+noun phrases to consider:
+	(NOUN HP/NNP)
+	(NOUN Intel/NNP Detail/NNP Technology/NNP Advances/NNPS)
+
+tagged sentence:
+	 Intel Detail Technology Advances	res:1
+	(NOUN Fuel/NNP Business/NNP Transformation/NNP)
+	(NOUN Workstation/NNP Customers/NNPS |/NNP Business/NNP)
+	(NOUN Wire/NNP March/NNP)
+	(NOUN 05/CD PM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN HP/NNP)
+	(NOUN Intel/NNP Detail/NNP Technology/NNP Advances/NNPS)
+
+tagged sentence:
+	 Intel Detail Technology Advances	res:1
+	(NOUN Fuel/NNP Business/NNP Transformation/NNP)
+	(NOUN Workstation/NNP Customers/NNPS DreamWorks/NNP Animation/NNP)
+	(NOUN Leads/NNP Its/NNP Business/NNP Transformation/NNP)
+	(NOUN With/NNP Multicore/NNP Workstations/NNP Today/NNP)
+	(NOUN press/NN event/NN)
+	(NOUN DreamWorks/NNP Animation/NNP SKG/NNP)
+	(NOUN Inc./NNP NASDAQ/NNP)
+	(NOUN DWA/NNP campus/NN)
+	(NOUN HP/NNP NYSE/NNP)
+	(NOUN HPQ/NNP)
+	(NOUN Intel/NNP)
+	(NOUN businesses/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;We will release an unprecedented three films this year, each of them with the aspiration to push the state of the art in CG computer generated filmmaking.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('will', 'MD'), ('release', 'VB'), ('an', 'DT'), ('unprecedented', 'VBN'), ('three', 'CD'), ('films', 'NNS'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('each', 'DT'), ('of', 'IN'), ('them', 'PRP'), ('with', 'IN'), ('the', 'DT'), ('aspiration', 'NN'), ('to', 'TO'), ('push', 'VB'), ('the', 'DT'), ('state', 'NN'), ('of', 'IN'), ('the', 'DT'), ('art', 'NN'), ('in', 'IN'), ('CG', 'NNP'), ('computer', 'NN'), ('generated', 'VBD'), ('filmmaking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   will/MD   release/VB   an/DT   unprecedented/VBN   three/CD   films/NNS   this/DT   year/NN   ,/,   each/DT   of/IN   them/PRP   with/IN   the/DT   aspiration/NN   to/TO   push/VB   the/DT   state/NN   of/IN   the/DT   art/NN   in/IN   (GPE CG/NNP)   computer/NN   generated/VBD   filmmaking/VBG   ./.)
+----------------------------------
+original sentence: 
+Redesigning our software to tap the power of multicore will ensure our artists have the very best technology to practice their craft&#8221;
+ DreamWorks Animation announced it is leading a business transformation based on the scalable multicore innovations provided by HP and Intel to enable the next generation of filmmakers and beyond.
+
+POS tagged sentence: 
+[('Redesigning', 'VBG'), ('our', 'PRP$'), ('software', 'NN'), ('to', 'TO'), ('tap', 'VB'), ('the', 'DT'), ('power', 'NN'), ('of', 'IN'), ('multicore', 'JJR'), ('will', 'MD'), ('ensure', 'VB'), ('our', 'PRP$'), ('artists', 'NNS'), ('have', 'VBP'), ('the', 'DT'), ('very', 'RB'), ('best', 'JJS'), ('technology', 'NN'), ('to', 'TO'), ('practice', 'NN'), ('their', 'PRP$'), ('craft&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('announced', 'VBD'), ('it', 'PRP'), ('is', 'VBZ'), ('leading', 'VBG'), ('a', 'DT'), ('business', 'NN'), ('transformation', 'NN'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('scalable', 'JJ'), ('multicore', 'NN'), ('innovations', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('HP', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('to', 'TO'), ('enable', 'VB'), ('the', 'DT'), ('next', 'JJ'), ('generation', 'NN'), ('of', 'IN'), ('filmmakers', 'NNS'), ('and', 'CC'), ('beyond', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Redesigning/VBG   our/PRP$   software/NN   to/TO   tap/VB   the/DT   power/NN   of/IN   multicore/JJR   will/MD   ensure/VB   our/PRP$   artists/NNS   have/VBP   the/DT   very/RB   best/JJS   technology/NN   to/TO   practice/NN   their/PRP$   craft&/NN   #/#   8221/CD   ;/:   (ORGANIZATION DreamWorks/NNP Animation/NNP)   announced/VBD   it/PRP   is/VBZ   leading/VBG   a/DT   business/NN   transformation/NN   based/VBN   on/IN   the/DT   scalable/JJ   multicore/NN   innovations/NNS   provided/VBN   by/IN   (ORGANIZATION HP/NNP)   and/CC   (ORGANIZATION Intel/NNP)   to/TO   enable/VB   the/DT   next/JJ   generation/NN   of/IN   filmmakers/NNS   and/CC   beyond/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Redesigning/VBG our/PRP$ software/NN)
+	(VERB tap/VB the/DT power/NN of/IN multicore/JJR)
+	(VERB ensure/VB our/PRP$ artists/NNS)
+	(VERB have/VBP the/DT very/RB best/JJS technology/NN)
+	(VERB announced/VBD it/PRP)
+	(VERB is/VBZ leading/VBG a/DT business/NN transformation/NN)
+	(VERB   based/VBN   on/IN   the/DT   scalable/JJ   multicore/NN   innovations/NNS)
+	(VERB provided/VBN by/IN HP/NNP)
+	(VERB enable/VB the/DT next/JJ generation/NN of/IN filmmakers/NNS)
+
+tagged sentence:
+	 enable the next generation of filmmakers	res:1
+noun phrases to consider:
+	(NOUN practice/NN)
+	(NOUN craft&/NN)
+	(NOUN DreamWorks/NNP Animation/NNP)
+	(NOUN Intel/NNP)
+
+----------------------------------
+original sentence: 
+By placing tools that are dramatically faster in the hands of artists, DreamWorks Animation hopes to inspire a new generation of filmmaking.
+
+POS tagged sentence: 
+[('By', 'IN'), ('placing', 'NN'), ('tools', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('dramatically', 'RB'), ('faster', 'JJR'), ('in', 'IN'), ('the', 'DT'), ('hands', 'NNS'), ('of', 'IN'), ('artists', 'NNS'), (',', ','), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('hopes', 'VBZ'), ('to', 'TO'), ('inspire', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('generation', 'NN'), ('of', 'IN'), ('filmmaking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   placing/NN   tools/NNS   that/WDT   are/VBP   dramatically/RB   faster/JJR   in/IN   the/DT   hands/NNS   of/IN   artists/NNS   ,/,   (ORGANIZATION DreamWorks/NNP Animation/NNP)   hopes/VBZ   to/TO   inspire/VB   a/DT   new/JJ   generation/NN   of/IN   filmmaking/VBG   ./.)
+----------------------------------
+original sentence: 
+&#8220;The multiplier effects of multicore processing in HP workstations will be transformational, turning hours into seconds, days into minutes and years into quarters,&#8221; said Jim Zafarana, vice president and general manager, Workstations, HP.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('multiplier', 'NN'), ('effects', 'NNS'), ('of', 'IN'), ('multicore', 'JJR'), ('processing', 'NN'), ('in', 'IN'), ('HP', 'NNP'), ('workstations', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('transformational', 'JJ'), (',', ','), ('turning', 'VBG'), ('hours', 'NNS'), ('into', 'IN'), ('seconds', 'NNS'), (',', ','), ('days', 'NNS'), ('into', 'IN'), ('minutes', 'NNS'), ('and', 'CC'), ('years', 'NNS'), ('into', 'IN'), ('quarters,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Jim', 'NNP'), ('Zafarana', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('general', 'JJ'), ('manager', 'NN'), (',', ','), ('Workstations', 'NNS'), (',', ','), ('HP', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   The/DT   multiplier/NN   effects/NNS   of/IN   multicore/JJR   processing/NN   in/IN   HP/NNP   workstations/NNS   will/MD   be/VB   transformational/JJ   ,/,   turning/VBG   hours/NNS   into/IN   seconds/NNS   ,/,   days/NNS   into/IN   minutes/NNS   and/CC   years/NNS   into/IN   quarters,&/JJ   #/#   8221/CD   ;/:   said/VBD   (PERSON Jim/NNP Zafarana/NNP)   ,/,   vice/NN   president/NN   and/CC   general/JJ   manager/NN   ,/,   Workstations/NNS   ,/,   (ORGANIZATION HP/NNP)   ./.)
+----------------------------------
+original sentence: 
+&#8220;The spec wars are over &#8211; multicore parallel processing is steamrolling all previous processes and changing the way we assess compute power.&#8221;  &#8220;We will release an unprecedented three films this year, each of them with the aspiration to push the state of the art in CG computer generated filmmaking.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('spec', 'NN'), ('wars', 'NNS'), ('are', 'VBP'), ('over', 'IN'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('multicore', 'JJR'), ('parallel', 'NN'), ('processing', 'NN'), ('is', 'VBZ'), ('steamrolling', 'VBG'), ('all', 'DT'), ('previous', 'JJ'), ('processes', 'NNS'), ('and', 'CC'), ('changing', 'VBG'), ('the', 'DT'), ('way', 'NN'), ('we', 'PRP'), ('assess', 'VBZ'), ('compute', 'JJ'), ('power.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('will', 'MD'), ('release', 'VB'), ('an', 'DT'), ('unprecedented', 'VBN'), ('three', 'CD'), ('films', 'NNS'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('each', 'DT'), ('of', 'IN'), ('them', 'PRP'), ('with', 'IN'), ('the', 'DT'), ('aspiration', 'NN'), ('to', 'TO'), ('push', 'VB'), ('the', 'DT'), ('state', 'NN'), ('of', 'IN'), ('the', 'DT'), ('art', 'NN'), ('in', 'IN'), ('CG', 'NNP'), ('computer', 'NN'), ('generated', 'VBD'), ('filmmaking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   The/DT   spec/NN   wars/NNS   are/VBP   over/IN   &/CC   #/#   8211/CD   ;/:   multicore/JJR   parallel/NN   processing/NN   is/VBZ   steamrolling/VBG   all/DT   previous/JJ   processes/NNS   and/CC   changing/VBG   the/DT   way/NN   we/PRP   assess/VBZ   compute/JJ   power.&/NN   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   We/PRP   will/MD   release/VB   an/DT   unprecedented/VBN   three/CD   films/NNS   this/DT   year/NN   ,/,   each/DT   of/IN   them/PRP   with/IN   the/DT   aspiration/NN   to/TO   push/VB   the/DT   state/NN   of/IN   the/DT   art/NN   in/IN   (GPE CG/NNP)   computer/NN   generated/VBD   filmmaking/VBG   ./.)
+----------------------------------
+original sentence: 
+Redesigning our software to tap the power of multicore will ensure our artists have the very best technology to practice their craft,&#8221; said Ed Leonard, chief technology officer, DreamWorks Animation.
+
+POS tagged sentence: 
+[('Redesigning', 'VBG'), ('our', 'PRP$'), ('software', 'NN'), ('to', 'TO'), ('tap', 'VB'), ('the', 'DT'), ('power', 'NN'), ('of', 'IN'), ('multicore', 'JJR'), ('will', 'MD'), ('ensure', 'VB'), ('our', 'PRP$'), ('artists', 'NNS'), ('have', 'VBP'), ('the', 'DT'), ('very', 'RB'), ('best', 'JJS'), ('technology', 'NN'), ('to', 'TO'), ('practice', 'NN'), ('their', 'PRP$'), ('craft,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Ed', 'NNP'), ('Leonard', 'NNP'), (',', ','), ('chief', 'NN'), ('technology', 'NN'), ('officer', 'NN'), (',', ','), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Redesigning/VBG   our/PRP$   software/NN   to/TO   tap/VB   the/DT   power/NN   of/IN   multicore/JJR   will/MD   ensure/VB   our/PRP$   artists/NNS   have/VBP   the/DT   very/RB   best/JJS   technology/NN   to/TO   practice/NN   their/PRP$   craft,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Ed/NNP Leonard/NNP)   ,/,   chief/NN   technology/NN   officer/NN   ,/,   (ORGANIZATION DreamWorks/NNP Animation/NNP)   ./.)
+----------------------------------
+original sentence: 
+&#8220;Our rearchitecture effort is the largest technology initiative we&#8217;ve ever taken on and one that has the most promise to transform our core business.&#8221;  The proprietary software used by DreamWorks Animation artists in the process of content creation and animation touches everything from character creation and cinematography to lighting, special effects, environments and stereoscopic 3 D.  Most software today is designed to run on one core at a time, limiting the user&#8217;s ability to improve workflow.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Our', 'NNP'), ('rearchitecture', 'NN'), ('effort', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('largest', 'JJS'), ('technology', 'NN'), ('initiative', 'NN'), ('we&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('ve', 'JJ'), ('ever', 'NN'), ('taken', 'VBN'), ('on', 'IN'), ('and', 'CC'), ('one', 'CD'), ('that', 'WDT'), ('has', 'VBZ'), ('the', 'DT'), ('most', 'RBS'), ('promise', 'NN'), ('to', 'TO'), ('transform', 'NN'), ('our', 'PRP$'), ('core', 'NN'), ('business.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('The', 'DT'), ('proprietary', 'JJ'), ('software', 'NN'), ('used', 'VBN'), ('by', 'IN'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('artists', 'VBZ'), ('in', 'IN'), ('the', 'DT'), ('process', 'NN'), ('of', 'IN'), ('content', 'NN'), ('creation', 'NN'), ('and', 'CC'), ('animation', 'NN'), ('touches', 'NNS'), ('everything', 'VBG'), ('from', 'IN'), ('character', 'NN'), ('creation', 'NN'), ('and', 'CC'), ('cinematography', 'NN'), ('to', 'TO'), ('lighting', 'NN'), (',', ','), ('special', 'JJ'), ('effects', 'NNS'), (',', ','), ('environments', 'NNS'), ('and', 'CC'), ('stereoscopic', 'JJ'), ('3', 'CD'), ('D.', 'NNP'), ('Most', 'NNP'), ('software', 'NN'), ('today', 'NN'), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('run', 'VB'), ('on', 'IN'), ('one', 'CD'), ('core', 'NN'), ('at', 'IN'), ('a', 'DT'), ('time', 'NN'), (',', ','), ('limiting', 'VBG'), ('the', 'DT'), ('user&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ability', 'NN'), ('to', 'TO'), ('improve', 'VB'), ('workflow', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Our/NNP   rearchitecture/NN   effort/NN   is/VBZ   the/DT   largest/JJS   technology/NN   initiative/NN   we&/NN   #/#   8217/CD   ;/:   ve/JJ   ever/NN   taken/VBN   on/IN   and/CC   one/CD   that/WDT   has/VBZ   the/DT   most/RBS   promise/NN   to/TO   transform/NN   our/PRP$   core/NN   business.&/NN   #/#   8221/CD   ;/:   The/DT   proprietary/JJ   software/NN   used/VBN   by/IN   (ORGANIZATION DreamWorks/NNP Animation/NNP)   artists/VBZ   in/IN   the/DT   process/NN   of/IN   content/NN   creation/NN   and/CC   animation/NN   touches/NNS   everything/VBG   from/IN   character/NN   creation/NN   and/CC   cinematography/NN   to/TO   lighting/NN   ,/,   special/JJ   effects/NNS   ,/,   environments/NNS   and/CC   stereoscopic/JJ   3/CD   D./NNP   Most/NNP   software/NN   today/NN   is/VBZ   designed/VBN   to/TO   run/VB   on/IN   one/CD   core/NN   at/IN   a/DT   time/NN   ,/,   limiting/VBG   the/DT   user&/NN   #/#   8217/CD   ;/:   s/NNS   ability/NN   to/TO   improve/VB   workflow/JJ   ./.)
+----------------------------------
+original sentence: 
+DreamWorks Animation&#8217;s ambition is to rewrite its software to take advantage of the power of Intel&#8217;s multicore technology using industry leading HP Z Series Workstations
+.
+
+POS tagged sentence: 
+[('DreamWorks', 'NNS'), ('Animation&', 'VBP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ambition', 'NN'), ('is', 'VBZ'), ('to', 'TO'), ('rewrite', 'VB'), ('its', 'PRP$'), ('software', 'NN'), ('to', 'TO'), ('take', 'VB'), ('advantage', 'NN'), ('of', 'IN'), ('the', 'DT'), ('power', 'NN'), ('of', 'IN'), ('Intel&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('multicore', 'VBP'), ('technology', 'NN'), ('using', 'VBG'), ('industry', 'NN'), ('leading', 'VBG'), ('HP', 'NNP'), ('Z', 'NNP'), ('Series', 'NNP'), ('Workstations', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   DreamWorks/NNS   Animation&/VBP   #/#   8217/CD   ;/:   s/NNS   ambition/NN   is/VBZ   to/TO   rewrite/VB   its/PRP$   software/NN   to/TO   take/VB   advantage/NN   of/IN   the/DT   power/NN   of/IN   Intel&/JJ   #/#   8217/CD   ;/:   s/NNS   multicore/VBP   technology/NN   using/VBG   industry/NN   leading/VBG   (ORGANIZATION HP/NNP)   Z/NNP   Series/NNP   Workstations/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Animation&/VBP)
+	(VERB is/VBZ to/TO rewrite/VB its/PRP$ software/NN)
+	(VERB take/VB advantage/NN of/IN the/DT power/NN of/IN Intel&/JJ)
+
+tagged sentence:
+	 take advantage of the power of Intel&	res:1
+	(VERB multicore/VBP technology/NN)
+	(VERB using/VBG industry/NN)
+	(VERB leading/VBG HP/NNP Z/NNP Series/NNP Workstations/NNP)
+noun phrases to consider:
+	(NOUN DreamWorks/NNS)
+	(NOUN s/NNS ambition/NN)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+The ability to scale solutions to efficiently utilize many cores is creating a new class of high performance workstation applications, and DreamWorks Animation and HP are leading the way.
+
+POS tagged sentence: 
+[('The', 'DT'), ('ability', 'NN'), ('to', 'TO'), ('scale', 'VB'), ('solutions', 'NNS'), ('to', 'TO'), ('efficiently', 'RB'), ('utilize', 'VB'), ('many', 'JJ'), ('cores', 'NNS'), ('is', 'VBZ'), ('creating', 'VBG'), ('a', 'DT'), ('new', 'JJ'), ('class', 'NN'), ('of', 'IN'), ('high', 'JJ'), ('performance', 'NN'), ('workstation', 'NN'), ('applications', 'NNS'), (',', ','), ('and', 'CC'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('and', 'CC'), ('HP', 'NNP'), ('are', 'VBP'), ('leading', 'VBG'), ('the', 'DT'), ('way', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   ability/NN   to/TO   scale/VB   solutions/NNS   to/TO   efficiently/RB   utilize/VB   many/JJ   cores/NNS   is/VBZ   creating/VBG   a/DT   new/JJ   class/NN   of/IN   high/JJ   performance/NN   workstation/NN   applications/NNS   ,/,   and/CC   (ORGANIZATION DreamWorks/NNP Animation/NNP)   and/CC   HP/NNP   are/VBP   leading/VBG   the/DT   way/NN   ./.)
+----------------------------------
+original sentence: 
+By rewriting its suite of software to run parallel projects using HP Z Workstations with up to 12 cores and potentially more in the future , DreamWorks is turning upside down the economics of its filmmaking machine.
+
+POS tagged sentence: 
+[('By', 'IN'), ('rewriting', 'NN'), ('its', 'PRP$'), ('suite', 'NN'), ('of', 'IN'), ('software', 'NN'), ('to', 'TO'), ('run', 'VB'), ('parallel', 'JJ'), ('projects', 'NNS'), ('using', 'VBG'), ('HP', 'NNP'), ('Z', 'NNP'), ('Workstations', 'NNP'), ('with', 'IN'), ('up', 'IN'), ('to', 'TO'), ('12', 'CD'), ('cores', 'NNS'), ('and', 'CC'), ('potentially', 'RB'), ('more', 'RBR'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), (',', ','), ('DreamWorks', 'NNP'), ('is', 'VBZ'), ('turning', 'VBG'), ('upside', 'RB'), ('down', 'IN'), ('the', 'DT'), ('economics', 'NNS'), ('of', 'IN'), ('its', 'PRP$'), ('filmmaking', 'NN'), ('machine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   rewriting/NN   its/PRP$   suite/NN   of/IN   software/NN   to/TO   run/VB   parallel/JJ   projects/NNS   using/VBG   (ORGANIZATION HP/NNP)   Z/NNP   Workstations/NNP   with/IN   up/IN   to/TO   12/CD   cores/NNS   and/CC   potentially/RB   more/RBR   in/IN   the/DT   future/NN   ,/,   (ORGANIZATION DreamWorks/NNP)   is/VBZ   turning/VBG   upside/RB   down/IN   the/DT   economics/NNS   of/IN   its/PRP$   filmmaking/NN   machine/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;It&#8217;s rewarding to see how quickly DreamWorks Animation is benefiting from rearchitecting and optimizing their software flow using Intel&#174; Software Development Products and engineering talent,&#8221; said Anthony Neal Graves, general manager, Workstations, Intel.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('It&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('rewarding', 'VBG'), ('to', 'TO'), ('see', 'VB'), ('how', 'WRB'), ('quickly', 'RB'), ('DreamWorks', 'VBZ'), ('Animation', 'NNP'), ('is', 'VBZ'), ('benefiting', 'VBG'), ('from', 'IN'), ('rearchitecting', 'VBG'), ('and', 'CC'), ('optimizing', 'VBG'), ('their', 'PRP$'), ('software', 'NN'), ('flow', 'NN'), ('using', 'VBG'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Software', 'NNP'), ('Development', 'NNP'), ('Products', 'NNPS'), ('and', 'CC'), ('engineering', 'NN'), ('talent,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Anthony', 'NNP'), ('Neal', 'NNP'), ('Graves', 'NNP'), (',', ','), ('general', 'JJ'), ('manager', 'NN'), (',', ','), ('Workstations', 'NNS'), (',', ','), ('Intel', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   It&/JJ   #/#   8217/CD   ;/:   s/NNS   rewarding/VBG   to/TO   see/VB   how/WRB   quickly/RB   (ORGANIZATION DreamWorks/VBZ Animation/NNP)   is/VBZ   benefiting/VBG   from/IN   rearchitecting/VBG   and/CC   optimizing/VBG   their/PRP$   software/NN   flow/NN   using/VBG   Intel&/NN   #/#   174/CD   ;/:   (PERSON Software/NNP Development/NNP)   Products/NNPS   and/CC   engineering/NN   talent,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Anthony/NNP Neal/NNP Graves/NNP)   ,/,   general/JJ   manager/NN   ,/,   Workstations/NNS   ,/,   (ORGANIZATION Intel/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rewarding/VBG to/TO see/VB)
+	(VERB DreamWorks/VBZ Animation/NNP)
+	(VERB is/VBZ benefiting/VBG from/IN)
+	(VERB rearchitecting/VBG)
+	(VERB optimizing/VBG their/PRP$ software/NN flow/NN)
+	(VERB using/VBG Intel&/NN)
+	(VERB said/VBD Anthony/NNP Neal/NNP Graves/NNP)
+noun phrases to consider:
+	(NOUN It&/JJ)
+	(NOUN s/NNS)
+	(NOUN Software/NNP Development/NNP Products/NNPS)
+	(NOUN engineering/NN talent,&/NN)
+	(NOUN general/JJ manager/NN)
+	(NOUN Workstations/NNS)
+	(NOUN Intel/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;Through this collaboration and the efficiency gain on Intel multicore processor based platforms from HP, we&#8217;re moving animators closer to their goal of seeing the results of their creative efforts in real time.&#8221;  &#8220;Providing our customers with tools to dramatically increase productivity and create engaging experiences is a top priority for us,&#8221; said Bill Hensler, chief technologist, Creative Suite Business Unit, Adobe.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Through', 'NNP'), ('this', 'DT'), ('collaboration', 'NN'), ('and', 'CC'), ('the', 'DT'), ('efficiency', 'NN'), ('gain', 'NN'), ('on', 'IN'), ('Intel', 'NNP'), ('multicore', 'NN'), ('processor', 'NN'), ('based', 'VBN'), ('platforms', 'NNS'), ('from', 'IN'), ('HP', 'NNP'), (',', ','), ('we&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('re', 'NN'), ('moving', 'VBG'), ('animators', 'NNS'), ('closer', 'JJR'), ('to', 'TO'), ('their', 'PRP$'), ('goal', 'NN'), ('of', 'IN'), ('seeing', 'VBG'), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('their', 'PRP$'), ('creative', 'JJ'), ('efforts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Providing', 'NNP'), ('our', 'PRP$'), ('customers', 'NNS'), ('with', 'IN'), ('tools', 'NNS'), ('to', 'TO'), ('dramatically', 'RB'), ('increase', 'VB'), ('productivity', 'NN'), ('and', 'CC'), ('create', 'VB'), ('engaging', 'JJ'), ('experiences', 'NNS'), ('is', 'VBZ'), ('a', 'DT'), ('top', 'JJ'), ('priority', 'NN'), ('for', 'IN'), ('us,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Bill', 'NNP'), ('Hensler', 'NNP'), (',', ','), ('chief', 'NN'), ('technologist', 'NN'), (',', ','), ('Creative', 'NNP'), ('Suite', 'NNP'), ('Business', 'NNP'), ('Unit', 'NNP'), (',', ','), ('Adobe', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Through/NNP   this/DT   collaboration/NN   and/CC   the/DT   efficiency/NN   gain/NN   on/IN   (ORGANIZATION Intel/NNP)   multicore/NN   processor/NN   based/VBN   platforms/NNS   from/IN   (ORGANIZATION HP/NNP)   ,/,   we&/NNP   #/#   8217/CD   ;/:   re/NN   moving/VBG   animators/NNS   closer/JJR   to/TO   their/PRP$   goal/NN   of/IN   seeing/VBG   the/DT   results/NNS   of/IN   their/PRP$   creative/JJ   efforts/NNS   in/IN   real/JJ   time.&/NN   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   Providing/NNP   our/PRP$   customers/NNS   with/IN   tools/NNS   to/TO   dramatically/RB   increase/VB   productivity/NN   and/CC   create/VB   engaging/JJ   experiences/NNS   is/VBZ   a/DT   top/JJ   priority/NN   for/IN   us,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Bill/NNP Hensler/NNP)   ,/,   chief/NN   technologist/NN   ,/,   (PERSON Creative/NNP Suite/NNP Business/NNP Unit/NNP)   ,/,   (PERSON Adobe/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB based/VBN platforms/NNS from/IN HP/NNP)
+	(VERB moving/VBG animators/NNS closer/JJR)
+	(VERB   seeing/VBG   the/DT   results/NNS   of/IN   their/PRP$   creative/JJ   efforts/NNS   in/IN   real/JJ   time.&/NN)
+	(VERB increase/VB productivity/NN)
+	(VERB create/VB engaging/JJ experiences/NNS)
+	(VERB is/VBZ a/DT top/JJ priority/NN for/IN us,&/NN)
+	(VERB said/VBD Bill/NNP Hensler/NNP)
+noun phrases to consider:
+	(NOUN Through/NNP)
+	(NOUN collaboration/NN)
+
+tagged sentence:
+	 collaboration	res:1
+	(NOUN efficiency/NN gain/NN)
+
+tagged sentence:
+	 efficiency gain	res:1
+	(NOUN Intel/NNP multicore/NN processor/NN)
+	(NOUN we&/NNP)
+	(NOUN re/NN)
+	(NOUN goal/NN)
+	(NOUN Providing/NNP)
+	(NOUN customers/NNS)
+	(NOUN tools/NNS)
+	(NOUN chief/NN technologist/NN)
+	(NOUN Creative/NNP Suite/NNP Business/NNP Unit/NNP)
+	(NOUN Adobe/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;Adobe Creative Suite software takes full advantage of multicore systems, allowing users to benefit from HP&#8217;s and Intel&#8217;s new advances in computing power and save valuable time.&#8221;  Danish computer aided design and manufacturing company and event presenter HSMWorks ApS expressed excitement over the new technologies.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Adobe', 'NNP'), ('Creative', 'NNP'), ('Suite', 'NNP'), ('software', 'NN'), ('takes', 'VBZ'), ('full', 'JJ'), ('advantage', 'NN'), ('of', 'IN'), ('multicore', 'NN'), ('systems', 'NNS'), (',', ','), ('allowing', 'VBG'), ('users', 'NNS'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('HP&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('and', 'CC'), ('Intel&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('new', 'JJ'), ('advances', 'NNS'), ('in', 'IN'), ('computing', 'NN'), ('power', 'NN'), ('and', 'CC'), ('save', 'VB'), ('valuable', 'JJ'), ('time.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Danish', 'NNP'), ('computer', 'NN'), ('aided', 'VBD'), ('design', 'NN'), ('and', 'CC'), ('manufacturing', 'VBG'), ('company', 'NN'), ('and', 'CC'), ('event', 'NN'), ('presenter', 'NN'), ('HSMWorks', 'NNS'), ('ApS', 'NNP'), ('expressed', 'VBD'), ('excitement', 'NN'), ('over', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('technologies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (PERSON Adobe/NNP Creative/NNP Suite/NNP)   software/NN   takes/VBZ   full/JJ   advantage/NN   of/IN   multicore/NN   systems/NNS   ,/,   allowing/VBG   users/NNS   to/TO   benefit/VB   from/IN   HP&/NNP   #/#   8217/CD   ;/:   s/NNS   and/CC   Intel&/JJ   #/#   8217/CD   ;/:   s/NNS   new/JJ   advances/NNS   in/IN   computing/NN   power/NN   and/CC   save/VB   valuable/JJ   time.&/NN   #/#   8221/CD   ;/:   (GPE Danish/NNP)   computer/NN   aided/VBD   design/NN   and/CC   manufacturing/VBG   company/NN   and/CC   event/NN   presenter/NN   (ORGANIZATION HSMWorks/NNS)   (ORGANIZATION ApS/NNP)   expressed/VBD   excitement/NN   over/IN   the/DT   new/JJ   technologies/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB takes/VBZ full/JJ advantage/NN of/IN multicore/NN systems/NNS)
+	(VERB allowing/VBG users/NNS)
+	(VERB benefit/VB from/IN HP&/NNP)
+	(VERB save/VB valuable/JJ time.&/NN)
+
+tagged sentence:
+	 save valuable time.&	res:1
+	(VERB aided/VBD design/NN)
+	(VERB manufacturing/VBG company/NN)
+	(VERB   expressed/VBD   excitement/NN   over/IN   the/DT   new/JJ   technologies/NNS)
+noun phrases to consider:
+	(NOUN Adobe/NNP Creative/NNP Suite/NNP software/NN)
+	(NOUN s/NNS)
+	(NOUN Intel&/JJ)
+	(NOUN s/NNS new/JJ advances/NNS)
+	(NOUN computing/NN power/NN)
+	(NOUN Danish/NNP computer/NN)
+	(NOUN event/NN presenter/NN HSMWorks/NNS ApS/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;We are already seeing major performance gains with the new HP Z workstations and advances in multicore from Intel,&#8221; said Tom Mortensen, founder and chief executive officer, HSMWorks ApS.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('already', 'RB'), ('seeing', 'VBG'), ('major', 'JJ'), ('performance', 'NN'), ('gains', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('HP', 'NNP'), ('Z', 'NNP'), ('workstations', 'NNS'), ('and', 'CC'), ('advances', 'NNS'), ('in', 'IN'), ('multicore', 'NN'), ('from', 'IN'), ('Intel,&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Tom', 'NNP'), ('Mortensen', 'NNP'), (',', ','), ('founder', 'NN'), ('and', 'CC'), ('chief', 'NN'), ('executive', 'NN'), ('officer', 'NN'), (',', ','), ('HSMWorks', 'NNP'), ('ApS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   already/RB   seeing/VBG   major/JJ   performance/NN   gains/NNS   with/IN   the/DT   new/JJ   HP/NNP   Z/NNP   workstations/NNS   and/CC   advances/NNS   in/IN   multicore/NN   from/IN   Intel,&/NNP   #/#   8221/CD   ;/:   said/VBD   (PERSON Tom/NNP Mortensen/NNP)   ,/,   founder/NN   and/CC   chief/NN   executive/NN   officer/NN   ,/,   (ORGANIZATION HSMWorks/NNP)   ApS/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   already/RB   seeing/VBG   major/JJ   performance/NN   gains/NNS   with/IN   the/DT   new/JJ   HP/NNP   Z/NNP   workstations/NNS)
+
+tagged sentence:
+	 are already seeing major performance gains with the new HP Z workstations	res:1
+	(VERB said/VBD Tom/NNP Mortensen/NNP)
+noun phrases to consider:
+	(NOUN advances/NNS)
+
+tagged sentence:
+	 advances	res:1
+	(NOUN multicore/NN)
+	(NOUN Intel,&/NNP)
+	(NOUN founder/NN)
+	(NOUN chief/NN executive/NN officer/NN)
+	(NOUN HSMWorks/NNP ApS/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;HSMWorks was designed from the ground up to fully utilize multiple cores, so without us having to change a single line of code, we expect customers who upgrade to the new Z workstations supporting six core processors will immediately see a reduction in processing times of machining tool paths.&#8221;  Intel NASDAQ:INTC , the world leader in silicon innovation, develops technologies, products and initiatives to continually advance how people work and live.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('HSMWorks', 'NNP'), ('was', 'VBD'), ('designed', 'VBN'), ('from', 'IN'), ('the', 'DT'), ('ground', 'NN'), ('up', 'RP'), ('to', 'TO'), ('fully', 'RB'), ('utilize', 'VB'), ('multiple', 'JJ'), ('cores', 'NNS'), (',', ','), ('so', 'RB'), ('without', 'IN'), ('us', 'PRP'), ('having', 'VBG'), ('to', 'TO'), ('change', 'VB'), ('a', 'DT'), ('single', 'JJ'), ('line', 'NN'), ('of', 'IN'), ('code', 'NN'), (',', ','), ('we', 'PRP'), ('expect', 'VBP'), ('customers', 'NNS'), ('who', 'WP'), ('upgrade', 'NN'), ('to', 'TO'), ('the', 'DT'), ('new', 'JJ'), ('Z', 'NNP'), ('workstations', 'NNS'), ('supporting', 'VBG'), ('six', 'CD'), ('core', 'NN'), ('processors', 'NNS'), ('will', 'MD'), ('immediately', 'RB'), ('see', 'VB'), ('a', 'DT'), ('reduction', 'NN'), ('in', 'IN'), ('processing', 'NN'), ('times', 'NNS'), ('of', 'IN'), ('machining', 'VBG'), ('tool', 'NN'), ('paths.&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('silicon', 'NN'), ('innovation', 'NN'), (',', ','), ('develops', 'VBZ'), ('technologies', 'NNS'), (',', ','), ('products', 'NNS'), ('and', 'CC'), ('initiatives', 'NNS'), ('to', 'TO'), ('continually', 'RB'), ('advance', 'NN'), ('how', 'WRB'), ('people', 'NNS'), ('work', 'VBP'), ('and', 'CC'), ('live', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (ORGANIZATION HSMWorks/NNP)   was/VBD   designed/VBN   from/IN   the/DT   ground/NN   up/RP   to/TO   fully/RB   utilize/VB   multiple/JJ   cores/NNS   ,/,   so/RB   without/IN   us/PRP   having/VBG   to/TO   change/VB   a/DT   single/JJ   line/NN   of/IN   code/NN   ,/,   we/PRP   expect/VBP   customers/NNS   who/WP   upgrade/NN   to/TO   the/DT   new/JJ   Z/NNP   workstations/NNS   supporting/VBG   six/CD   core/NN   processors/NNS   will/MD   immediately/RB   see/VB   a/DT   reduction/NN   in/IN   processing/NN   times/NNS   of/IN   machining/VBG   tool/NN   paths.&/-NONE-   #/#   8221/CD   ;/:   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   the/DT   world/NN   leader/NN   in/IN   silicon/NN   innovation/NN   ,/,   develops/VBZ   technologies/NNS   ,/,   products/NNS   and/CC   initiatives/NNS   to/TO   continually/RB   advance/NN   how/WRB   people/NNS   work/VBP   and/CC   live/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD designed/VBN from/IN the/DT ground/NN)
+	(VERB utilize/VB multiple/JJ cores/NNS)
+	(VERB   having/VBG   to/TO   change/VB   a/DT   single/JJ   line/NN   of/IN   code/NN)
+	(VERB expect/VBP customers/NNS)
+	(VERB supporting/VBG six/CD core/NN processors/NNS)
+	(VERB see/VB a/DT reduction/NN in/IN processing/NN times/NNS of/IN)
+	(VERB machining/VBG tool/NN)
+	(VERB develops/VBZ technologies/NNS)
+	(VERB work/VBP)
+noun phrases to consider:
+	(NOUN HSMWorks/NNP)
+	(NOUN upgrade/NN)
+	(NOUN the/DT new/JJ Z/NNP workstations/NNS)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN world/NN leader/NN)
+	(NOUN silicon/NN innovation/NN)
+	(NOUN products/NNS)
+	(NOUN initiatives/NNS)
+	(NOUN advance/NN)
+	(NOUN people/NNS)
+	(NOUN live/JJ)
+
+----------------------------------
+original sentence: 
+Additional information about Intel is available at www.intel.com/pressroom
+About DreamWorks Animation
+ DreamWorks Animation creates high quality entertainment, including CG animated feature films, television specials and series, live entertainment properties and online virtual worlds, meant for audiences around the world.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('about', 'IN'), ('Intel', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/pressroom', 'JJ'), ('About', 'IN'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('creates', 'VBZ'), ('high', 'JJ'), ('quality', 'NN'), ('entertainment', 'NN'), (',', ','), ('including', 'VBG'), ('CG', 'NNP'), ('animated', 'VBD'), ('feature', 'NN'), ('films', 'NNS'), (',', ','), ('television', 'NN'), ('specials', 'NNS'), ('and', 'CC'), ('series', 'NNS'), (',', ','), ('live', 'JJ'), ('entertainment', 'NN'), ('properties', 'NNS'), ('and', 'CC'), ('online', 'NN'), ('virtual', 'JJ'), ('worlds', 'NNS'), (',', ','), ('meant', 'JJ'), ('for', 'IN'), ('audiences', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   about/IN   (ORGANIZATION Intel/NNP)   is/VBZ   available/JJ   at/IN   www.intel.com/pressroom/JJ   About/IN   (ORGANIZATION DreamWorks/NNP Animation/NNP)   (ORGANIZATION DreamWorks/NNP Animation/NNP)   creates/VBZ   high/JJ   quality/NN   entertainment/NN   ,/,   including/VBG   (ORGANIZATION CG/NNP)   animated/VBD   feature/NN   films/NNS   ,/,   television/NN   specials/NNS   and/CC   series/NNS   ,/,   live/JJ   entertainment/NN   properties/NNS   and/CC   online/NN   virtual/JJ   worlds/NNS   ,/,   meant/JJ   for/IN   audiences/NNS   around/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   www.intel.com/pressroom/JJ   About/IN   DreamWorks/NNP   Animation/NNP   DreamWorks/NNP   Animation/NNP)
+	(VERB creates/VBZ high/JJ quality/NN entertainment/NN)
+	(VERB including/VBG CG/NNP)
+	(VERB animated/VBD feature/NN films/NNS)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN Intel/NNP)
+	(NOUN television/NN specials/NNS)
+	(NOUN series/NNS)
+	(NOUN live/JJ entertainment/NN properties/NNS)
+	(NOUN online/NN virtual/JJ worlds/NNS)
+	(NOUN meant/JJ)
+	(NOUN audiences/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+The Company has world class creative talent, a strong and experienced management team and advanced filmmaking technology and techniques.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('has', 'VBZ'), ('world', 'VBN'), ('class', 'NN'), ('creative', 'NN'), ('talent', 'NN'), (',', ','), ('a', 'DT'), ('strong', 'JJ'), ('and', 'CC'), ('experienced', 'VBD'), ('management', 'NN'), ('team', 'NN'), ('and', 'CC'), ('advanced', 'VBD'), ('filmmaking', 'VBG'), ('technology', 'NN'), ('and', 'CC'), ('techniques', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   has/VBZ   world/VBN   class/NN   creative/NN   talent/NN   ,/,   a/DT   strong/JJ   and/CC   experienced/VBD   management/NN   team/NN   and/CC   advanced/VBD   filmmaking/VBG   technology/NN   and/CC   techniques/NNS   ./.)
+----------------------------------
+original sentence: 
+DreamWorks Animation has been named one of the &#8220;100 Best Companies to Work For&#8221; by FORTUNE&#174; Magazine for two consecutive years.
+
+POS tagged sentence: 
+[('DreamWorks', 'NNS'), ('Animation', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('named', 'VBN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('100', 'CD'), ('Best', 'JJS'), ('Companies', 'NNS'), ('to', 'TO'), ('Work', 'NNP'), ('For&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('by', 'IN'), ('FORTUNE&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Magazine', 'NNP'), ('for', 'IN'), ('two', 'CD'), ('consecutive', 'JJ'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION DreamWorks/NNS Animation/NNP)   has/VBZ   been/VBN   named/VBN   one/CD   of/IN   the/DT   &/CC   #/#   8220/CD   ;/:   100/CD   Best/JJS   Companies/NNS   to/TO   (PERSON Work/NNP)   For&/NNP   #/#   8221/CD   ;/:   by/IN   FORTUNE&/NN   #/#   174/CD   ;/:   (PERSON Magazine/NNP)   for/IN   two/CD   consecutive/JJ   years/NNS   ./.)
+----------------------------------
+original sentence: 
+In 2010, DreamWorks Animation ranks #6 on the list.
+
+POS tagged sentence: 
+[('In', 'IN'), ('2010', 'CD'), (',', ','), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('ranks', 'VBZ'), ('#', '#'), ('6', 'CD'), ('on', 'IN'), ('the', 'DT'), ('list', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   2010/CD   ,/,   (ORGANIZATION DreamWorks/NNP Animation/NNP)   ranks/VBZ   #/#   6/CD   on/IN   the/DT   list/NN   ./.)
+----------------------------------
+original sentence: 
+All of DreamWorks Animation&#8217;s feature films are now being produced in 3D.
+
+POS tagged sentence: 
+[('All', 'DT'), ('of', 'IN'), ('DreamWorks', 'NNP'), ('Animation&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('feature', 'VBP'), ('films', 'NNS'), ('are', 'VBP'), ('now', 'RB'), ('being', 'VBG'), ('produced', 'VBN'), ('in', 'IN'), ('3D', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   of/IN   (ORGANIZATION DreamWorks/NNP)   Animation&/NNP   #/#   8217/CD   ;/:   s/NNS   feature/VBP   films/NNS   are/VBP   now/RB   being/VBG   produced/VBN   in/IN   3D/JJ   ./.)
+----------------------------------
+original sentence: 
+The Company has theatrically released a total of 18 animated feature films, including the franchise properties, Shrek, Madagascar and Kung Fu Panda.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('has', 'VBZ'), ('theatrically', 'RB'), ('released', 'VBN'), ('a', 'DT'), ('total', 'NN'), ('of', 'IN'), ('18', 'CD'), ('animated', 'VBN'), ('feature', 'NN'), ('films', 'NNS'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('franchise', 'NN'), ('properties', 'NNS'), (',', ','), ('Shrek', 'NNP'), (',', ','), ('Madagascar', 'NNP'), ('and', 'CC'), ('Kung', 'NNP'), ('Fu', 'NNP'), ('Panda', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   has/VBZ   theatrically/RB   released/VBN   a/DT   total/NN   of/IN   18/CD   animated/VBN   feature/NN   films/NNS   ,/,   including/VBG   the/DT   franchise/NN   properties/NNS   ,/,   (PERSON Shrek/NNP)   ,/,   (GPE Madagascar/NNP)   and/CC   (PERSON Kung/NNP Fu/NNP Panda/NNP)   ./.)
+----------------------------------
+original sentence: 
+DreamWorks Animation&#8217;s three feature film releases in 2010 are How to Train Your Dragon
+ HP creates new possibilities for technology to have a meaningful impact on people, businesses, governments and society.
+
+POS tagged sentence: 
+[('DreamWorks', 'NNS'), ('Animation&', 'VBP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('three', 'CD'), ('feature', 'NN'), ('film', 'NN'), ('releases', 'NNS'), ('in', 'IN'), ('2010', 'CD'), ('are', 'VBP'), ('How', 'NNP'), ('to', 'TO'), ('Train', 'NNP'), ('Your', 'NNP'), ('Dragon', 'NNP'), ('HP', 'NNP'), ('creates', 'VBZ'), ('new', 'JJ'), ('possibilities', 'NNS'), ('for', 'IN'), ('technology', 'NN'), ('to', 'TO'), ('have', 'VB'), ('a', 'DT'), ('meaningful', 'JJ'), ('impact', 'NN'), ('on', 'IN'), ('people', 'NNS'), (',', ','), ('businesses', 'NNS'), (',', ','), ('governments', 'NNS'), ('and', 'CC'), ('society', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   DreamWorks/NNS   Animation&/VBP   #/#   8217/CD   ;/:   s/NNS   three/CD   feature/NN   film/NN   releases/NNS   in/IN   2010/CD   are/VBP   (PERSON How/NNP)   to/TO   (PERSON Train/NNP Your/NNP Dragon/NNP HP/NNP)   creates/VBZ   new/JJ   possibilities/NNS   for/IN   technology/NN   to/TO   have/VB   a/DT   meaningful/JJ   impact/NN   on/IN   people/NNS   ,/,   businesses/NNS   ,/,   governments/NNS   and/CC   society/NN   ./.)
+----------------------------------
+original sentence: 
+The world&#8217;s largest technology company, HP brings together a portfolio that spans printing, personal computing, software, services and IT infrastructure to solve customer problems.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('technology', 'NN'), ('company', 'NN'), (',', ','), ('HP', 'NNP'), ('brings', 'VBZ'), ('together', 'RP'), ('a', 'DT'), ('portfolio', 'NN'), ('that', 'WDT'), ('spans', 'VBZ'), ('printing', 'VBG'), (',', ','), ('personal', 'JJ'), ('computing', 'NN'), (',', ','), ('software', 'NN'), (',', ','), ('services', 'NNS'), ('and', 'CC'), ('IT', 'PRP'), ('infrastructure', 'VBP'), ('to', 'TO'), ('solve', 'VB'), ('customer', 'NN'), ('problems', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world&/NN   #/#   8217/CD   ;/:   s/NNS   largest/JJS   technology/NN   company/NN   ,/,   (ORGANIZATION HP/NNP)   brings/VBZ   together/RP   a/DT   portfolio/NN   that/WDT   spans/VBZ   printing/VBG   ,/,   personal/JJ   computing/NN   ,/,   software/NN   ,/,   services/NNS   and/CC   IT/PRP   infrastructure/VBP   to/TO   solve/VB   customer/NN   problems/NNS   ./.)
+----------------------------------
+original sentence: 
+More information about HP is available at Caution Concerning Forward Looking Statements
+ This document includes certain forward looking statements within the meaning of the Private Securities Litigation Reform Act of 1995.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('about', 'IN'), ('HP', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Caution', 'NNP'), ('Concerning', 'NNP'), ('Forward', 'NNP'), ('Looking', 'NNP'), ('Statements', 'NNP'), ('This', 'NNP'), ('document', 'NN'), ('includes', 'VBZ'), ('certain', 'JJ'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('within', 'IN'), ('the', 'DT'), ('meaning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Private', 'NNP'), ('Securities', 'NNP'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   about/IN   (ORGANIZATION HP/NNP)   is/VBZ   available/JJ   at/IN   (ORGANIZATION Caution/NNP Concerning/NNP Forward/NNP)   Looking/NNP   Statements/NNP   This/NNP   document/NN   includes/VBZ   certain/JJ   forward/NN   looking/VBG   statements/NNS   within/IN   the/DT   meaning/NN   of/IN   the/DT   (ORGANIZATION Private/NNP)   Securities/NNP   Litigation/NNP   Reform/NNP   Act/NNP   of/IN   1995/CD   ./.)
+----------------------------------
+original sentence: 
+The Company&#8217;s plans, prospects, strategies, proposals and our beliefs and expectations concerning performance of our current and future releases and anticipated talent, directors and storyline for our upcoming films and other projects, constitute forward looking statements.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('plans', 'VBZ'), (',', ','), ('prospects', 'NNS'), (',', ','), ('strategies', 'NNS'), (',', ','), ('proposals', 'NNS'), ('and', 'CC'), ('our', 'PRP$'), ('beliefs', 'NNS'), ('and', 'CC'), ('expectations', 'NNS'), ('concerning', 'VBG'), ('performance', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('current', 'JJ'), ('and', 'CC'), ('future', 'JJ'), ('releases', 'NNS'), ('and', 'CC'), ('anticipated', 'VBD'), ('talent', 'NN'), (',', ','), ('directors', 'NNS'), ('and', 'CC'), ('storyline', 'NN'), ('for', 'IN'), ('our', 'PRP$'), ('upcoming', 'NN'), ('films', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('projects', 'NNS'), (',', ','), ('constitute', 'VBP'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   Company&/NN   #/#   8217/CD   ;/:   s/NNS   plans/VBZ   ,/,   prospects/NNS   ,/,   strategies/NNS   ,/,   proposals/NNS   and/CC   our/PRP$   beliefs/NNS   and/CC   expectations/NNS   concerning/VBG   performance/NN   of/IN   our/PRP$   current/JJ   and/CC   future/JJ   releases/NNS   and/CC   anticipated/VBD   talent/NN   ,/,   directors/NNS   and/CC   storyline/NN   for/IN   our/PRP$   upcoming/NN   films/NNS   and/CC   other/JJ   projects/NNS   ,/,   constitute/VBP   forward/RB   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+These statements are based on current expectations, estimates, forecasts and projections about the industry in which we operate and management&#8217;s beliefs and assumptions.
+
+POS tagged sentence: 
+[('These', 'DT'), ('statements', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('on', 'IN'), ('current', 'JJ'), ('expectations', 'NNS'), (',', ','), ('estimates', 'NNS'), (',', ','), ('forecasts', 'NNS'), ('and', 'CC'), ('projections', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('industry', 'NN'), ('in', 'IN'), ('which', 'WDT'), ('we', 'PRP'), ('operate', 'VBP'), ('and', 'CC'), ('management&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('beliefs', 'VBZ'), ('and', 'CC'), ('assumptions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   statements/NNS   are/VBP   based/VBN   on/IN   current/JJ   expectations/NNS   ,/,   estimates/NNS   ,/,   forecasts/NNS   and/CC   projections/NNS   about/IN   the/DT   industry/NN   in/IN   which/WDT   we/PRP   operate/VBP   and/CC   management&/NNP   #/#   8217/CD   ;/:   s/NNS   beliefs/VBZ   and/CC   assumptions/NNS   ./.)
+----------------------------------
+original sentence: 
+These statements are not guarantees of future performance and involve risks, uncertainties and assumptions which are difficult to predict.
+
+POS tagged sentence: 
+[('These', 'DT'), ('statements', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('guarantees', 'NNS'), ('of', 'IN'), ('future', 'JJ'), ('performance', 'NN'), ('and', 'CC'), ('involve', 'VB'), ('risks', 'NNS'), (',', ','), ('uncertainties', 'NNS'), ('and', 'CC'), ('assumptions', 'NNS'), ('which', 'WDT'), ('are', 'VBP'), ('difficult', 'JJ'), ('to', 'TO'), ('predict', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   statements/NNS   are/VBP   not/RB   guarantees/NNS   of/IN   future/JJ   performance/NN   and/CC   involve/VB   risks/NNS   ,/,   uncertainties/NNS   and/CC   assumptions/NNS   which/WDT   are/VBP   difficult/JJ   to/TO   predict/VB   ./.)
+----------------------------------
+original sentence: 
+Actual results may vary materially from those expressed or implied by the statements herein due to changes in economic, business, competitive, technological and/or regulatory factors, and other risks and uncertainties affecting the operation of the business of DreamWorks Animation SKG, Inc.
+
+POS tagged sentence: 
+[('Actual', 'JJ'), ('results', 'NNS'), ('may', 'MD'), ('vary', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('expressed', 'VBN'), ('or', 'CC'), ('implied', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('statements', 'NNS'), ('herein', 'VBP'), ('due', 'JJ'), ('to', 'TO'), ('changes', 'NNS'), ('in', 'IN'), ('economic', 'JJ'), (',', ','), ('business', 'NN'), (',', ','), ('competitive', 'JJ'), (',', ','), ('technological', 'JJ'), ('and/or', 'NN'), ('regulatory', 'NN'), ('factors', 'NNS'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('affecting', 'VBG'), ('the', 'DT'), ('operation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('business', 'NN'), ('of', 'IN'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('SKG', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Actual/JJ)   results/NNS   may/MD   vary/VB   materially/RB   from/IN   those/DT   expressed/VBN   or/CC   implied/VBN   by/IN   the/DT   statements/NNS   herein/VBP   due/JJ   to/TO   changes/NNS   in/IN   economic/JJ   ,/,   business/NN   ,/,   competitive/JJ   ,/,   technological/JJ   and/or/NN   regulatory/NN   factors/NNS   ,/,   and/CC   other/JJ   risks/NNS   and/CC   uncertainties/NNS   affecting/VBG   the/DT   operation/NN   of/IN   the/DT   business/NN   of/IN   (ORGANIZATION DreamWorks/NNP Animation/NNP)   SKG/NNP   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+These risks and uncertainties include: audience acceptance of our films, our dependence on the success of a limited number of releases each year, the increasing cost of producing and marketing feature films, piracy of motion pictures, the effect of rapid technological change or alternative forms of entertainment and our need to protect our proprietary technology and enhance or develop new technology.
+
+POS tagged sentence: 
+[('These', 'DT'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('include', 'VBP'), (':', ':'), ('audience', 'NN'), ('acceptance', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('films', 'NNS'), (',', ','), ('our', 'PRP$'), ('dependence', 'NN'), ('on', 'IN'), ('the', 'DT'), ('success', 'NN'), ('of', 'IN'), ('a', 'DT'), ('limited', 'VBN'), ('number', 'NN'), ('of', 'IN'), ('releases', 'NNS'), ('each', 'DT'), ('year', 'NN'), (',', ','), ('the', 'DT'), ('increasing', 'VBG'), ('cost', 'NN'), ('of', 'IN'), ('producing', 'VBG'), ('and', 'CC'), ('marketing', 'NN'), ('feature', 'NN'), ('films', 'NNS'), (',', ','), ('piracy', 'NN'), ('of', 'IN'), ('motion', 'NN'), ('pictures', 'NNS'), (',', ','), ('the', 'DT'), ('effect', 'NN'), ('of', 'IN'), ('rapid', 'JJ'), ('technological', 'JJ'), ('change', 'NN'), ('or', 'CC'), ('alternative', 'JJ'), ('forms', 'NNS'), ('of', 'IN'), ('entertainment', 'NN'), ('and', 'CC'), ('our', 'PRP$'), ('need', 'NN'), ('to', 'TO'), ('protect', 'VB'), ('our', 'PRP$'), ('proprietary', 'JJ'), ('technology', 'NN'), ('and', 'CC'), ('enhance', 'NN'), ('or', 'CC'), ('develop', 'VB'), ('new', 'JJ'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   risks/NNS   and/CC   uncertainties/NNS   include/VBP   :/:   audience/NN   acceptance/NN   of/IN   our/PRP$   films/NNS   ,/,   our/PRP$   dependence/NN   on/IN   the/DT   success/NN   of/IN   a/DT   limited/VBN   number/NN   of/IN   releases/NNS   each/DT   year/NN   ,/,   the/DT   increasing/VBG   cost/NN   of/IN   producing/VBG   and/CC   marketing/NN   feature/NN   films/NNS   ,/,   piracy/NN   of/IN   motion/NN   pictures/NNS   ,/,   the/DT   effect/NN   of/IN   rapid/JJ   technological/JJ   change/NN   or/CC   alternative/JJ   forms/NNS   of/IN   entertainment/NN   and/CC   our/PRP$   need/NN   to/TO   protect/VB   our/PRP$   proprietary/JJ   technology/NN   and/CC   enhance/NN   or/CC   develop/VB   new/JJ   technology/NN   ./.)
+----------------------------------
+original sentence: 
+In addition, due to the uncertainties and risks involved in the development and production of animated feature projects, the release dates for the projects described in this document may be delayed.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('uncertainties', 'NNS'), ('and', 'CC'), ('risks', 'NNS'), ('involved', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('development', 'NN'), ('and', 'CC'), ('production', 'NN'), ('of', 'IN'), ('animated', 'VBN'), ('feature', 'NN'), ('projects', 'NNS'), (',', ','), ('the', 'DT'), ('release', 'NN'), ('dates', 'VBZ'), ('for', 'IN'), ('the', 'DT'), ('projects', 'NNS'), ('described', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('document', 'NN'), ('may', 'MD'), ('be', 'VB'), ('delayed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   due/JJ   to/TO   the/DT   uncertainties/NNS   and/CC   risks/NNS   involved/VBD   in/IN   the/DT   development/NN   and/CC   production/NN   of/IN   animated/VBN   feature/NN   projects/NNS   ,/,   the/DT   release/NN   dates/VBZ   for/IN   the/DT   projects/NNS   described/VBD   in/IN   this/DT   document/NN   may/MD   be/VB   delayed/VBN   ./.)
+----------------------------------
+original sentence: 
+For a further list and description of such risks and uncertainties, see the reports filed by us with the Securities and Exchange Commission, including our most recent annual report on Form 10 K and our most recent quarterly reports on Form 10 Q. DreamWorks Animation is under no obligation to, and expressly disclaims any obligation to, update or alter its forward looking statements, whether as a result of new information, future events, changes in assumptions or otherwise.
+
+POS tagged sentence: 
+[('For', 'IN'), ('a', 'DT'), ('further', 'JJ'), ('list', 'NN'), ('and', 'CC'), ('description', 'NN'), ('of', 'IN'), ('such', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), (',', ','), ('see', 'VBP'), ('the', 'DT'), ('reports', 'NNS'), ('filed', 'VBD'), ('by', 'IN'), ('us', 'PRP'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), (',', ','), ('including', 'VBG'), ('our', 'PRP$'), ('most', 'JJS'), ('recent', 'JJ'), ('annual', 'JJ'), ('report', 'NN'), ('on', 'IN'), ('Form', 'NN'), ('10', 'CD'), ('K', 'NNP'), ('and', 'CC'), ('our', 'PRP$'), ('most', 'RBS'), ('recent', 'JJ'), ('quarterly', 'JJ'), ('reports', 'NNS'), ('on', 'IN'), ('Form', 'NNP'), ('10', 'CD'), ('Q.', 'NNP'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('is', 'VBZ'), ('under', 'IN'), ('no', 'DT'), ('obligation', 'NN'), ('to', 'TO'), (',', ','), ('and', 'CC'), ('expressly', 'RB'), ('disclaims', 'VBZ'), ('any', 'DT'), ('obligation', 'NN'), ('to', 'TO'), (',', ','), ('update', 'VB'), ('or', 'CC'), ('alter', 'JJR'), ('its', 'PRP$'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), (',', ','), ('whether', 'IN'), ('as', 'IN'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('information', 'NN'), (',', ','), ('future', 'JJ'), ('events', 'NNS'), (',', ','), ('changes', 'NNS'), ('in', 'IN'), ('assumptions', 'NNS'), ('or', 'CC'), ('otherwise', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   a/DT   further/JJ   list/NN   and/CC   description/NN   of/IN   such/JJ   risks/NNS   and/CC   uncertainties/NNS   ,/,   see/VBP   the/DT   reports/NNS   filed/VBD   by/IN   us/PRP   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   ,/,   including/VBG   our/PRP$   most/JJS   recent/JJ   annual/JJ   report/NN   on/IN   Form/NN   10/CD   K/NNP   and/CC   our/PRP$   most/RBS   recent/JJ   quarterly/JJ   reports/NNS   on/IN   Form/NNP   10/CD   Q./NNP   DreamWorks/NNP   Animation/NNP   is/VBZ   under/IN   no/DT   obligation/NN   to/TO   ,/,   and/CC   expressly/RB   disclaims/VBZ   any/DT   obligation/NN   to/TO   ,/,   update/VB   or/CC   alter/JJR   its/PRP$   forward/NN   looking/VBG   statements/NNS   ,/,   whether/IN   as/IN   a/DT   result/NN   of/IN   new/JJ   information/NN   ,/,   future/JJ   events/NNS   ,/,   changes/NNS   in/IN   assumptions/NNS   or/CC   otherwise/RB   ./.)
+----------------------------------
+original sentence: 
+This news release contains forward looking statements that involve risks, uncertainties and assumptions.
+
+POS tagged sentence: 
+[('This', 'DT'), ('news', 'NN'), ('release', 'NN'), ('contains', 'VBZ'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), ('that', 'WDT'), ('involve', 'VB'), ('risks', 'NNS'), (',', ','), ('uncertainties', 'NNS'), ('and', 'CC'), ('assumptions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   news/NN   release/NN   contains/VBZ   forward/RB   looking/VBG   statements/NNS   that/WDT   involve/VB   risks/NNS   ,/,   uncertainties/NNS   and/CC   assumptions/NNS   ./.)
+----------------------------------
+original sentence: 
+If such risks or uncertainties materialize or such assumptions prove incorrect, the results of HP and its consolidated subsidiaries could differ materially from those expressed or implied by such forward looking statements and assumptions.
+
+POS tagged sentence: 
+[('If', 'IN'), ('such', 'JJ'), ('risks', 'NNS'), ('or', 'CC'), ('uncertainties', 'NNS'), ('materialize', 'VBP'), ('or', 'CC'), ('such', 'JJ'), ('assumptions', 'NNS'), ('prove', 'VBP'), ('incorrect', 'JJ'), (',', ','), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('HP', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('consolidated', 'VBN'), ('subsidiaries', 'NNS'), ('could', 'MD'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('expressed', 'VBN'), ('or', 'CC'), ('implied', 'VBN'), ('by', 'IN'), ('such', 'JJ'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('and', 'CC'), ('assumptions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   such/JJ   risks/NNS   or/CC   uncertainties/NNS   materialize/VBP   or/CC   such/JJ   assumptions/NNS   prove/VBP   incorrect/JJ   ,/,   the/DT   results/NNS   of/IN   (ORGANIZATION HP/NNP)   and/CC   its/PRP$   consolidated/VBN   subsidiaries/NNS   could/MD   differ/VB   materially/RB   from/IN   those/DT   expressed/VBN   or/CC   implied/VBN   by/IN   such/JJ   forward/NN   looking/VBG   statements/NNS   and/CC   assumptions/NNS   ./.)
+----------------------------------
+original sentence: 
+All statements other than statements of historical fact are statements that could be deemed forward looking statements, including but not limited to statements of the plans, strategies and objectives of management for future operations; any statements concerning expected development, performance or market share relating to products and services; any statements regarding anticipated operational and financial results; any statements of expectation or belief; and any statements of assumptions underlying any of the foregoing.
+
+POS tagged sentence: 
+[('All', 'DT'), ('statements', 'NNS'), ('other', 'JJ'), ('than', 'IN'), ('statements', 'NNS'), ('of', 'IN'), ('historical', 'JJ'), ('fact', 'NN'), ('are', 'VBP'), ('statements', 'NNS'), ('that', 'IN'), ('could', 'MD'), ('be', 'VB'), ('deemed', 'VBN'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), (',', ','), ('including', 'VBG'), ('but', 'CC'), ('not', 'RB'), ('limited', 'VBN'), ('to', 'TO'), ('statements', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('plans', 'NNS'), (',', ','), ('strategies', 'NNS'), ('and', 'CC'), ('objectives', 'NNS'), ('of', 'IN'), ('management', 'NN'), ('for', 'IN'), ('future', 'JJ'), ('operations', 'NNS'), (';', ':'), ('any', 'DT'), ('statements', 'NNS'), ('concerning', 'VBG'), ('expected', 'VBN'), ('development', 'NN'), (',', ','), ('performance', 'NN'), ('or', 'CC'), ('market', 'NN'), ('share', 'NN'), ('relating', 'VBG'), ('to', 'TO'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), (';', ':'), ('any', 'DT'), ('statements', 'NNS'), ('regarding', 'VBG'), ('anticipated', 'VBN'), ('operational', 'JJ'), ('and', 'CC'), ('financial', 'JJ'), ('results', 'NNS'), (';', ':'), ('any', 'DT'), ('statements', 'NNS'), ('of', 'IN'), ('expectation', 'NN'), ('or', 'CC'), ('belief', 'NN'), (';', ':'), ('and', 'CC'), ('any', 'DT'), ('statements', 'NNS'), ('of', 'IN'), ('assumptions', 'NNS'), ('underlying', 'VBG'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('foregoing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   statements/NNS   other/JJ   than/IN   statements/NNS   of/IN   historical/JJ   fact/NN   are/VBP   statements/NNS   that/IN   could/MD   be/VB   deemed/VBN   forward/RB   looking/VBG   statements/NNS   ,/,   including/VBG   but/CC   not/RB   limited/VBN   to/TO   statements/NNS   of/IN   the/DT   plans/NNS   ,/,   strategies/NNS   and/CC   objectives/NNS   of/IN   management/NN   for/IN   future/JJ   operations/NNS   ;/:   any/DT   statements/NNS   concerning/VBG   expected/VBN   development/NN   ,/,   performance/NN   or/CC   market/NN   share/NN   relating/VBG   to/TO   products/NNS   and/CC   services/NNS   ;/:   any/DT   statements/NNS   regarding/VBG   anticipated/VBN   operational/JJ   and/CC   financial/JJ   results/NNS   ;/:   any/DT   statements/NNS   of/IN   expectation/NN   or/CC   belief/NN   ;/:   and/CC   any/DT   statements/NNS   of/IN   assumptions/NNS   underlying/VBG   any/DT   of/IN   the/DT   foregoing/NN   ./.)
+----------------------------------
+original sentence: 
+Risks, uncertainties and assumptions include macroeconomic and geopolitical trends and events; the execution and performance of contracts by HP and its customers, suppliers and partners; the achievement of expected operational and financial results; and other risks that are described in HP&#8217;s Quarterly Report on Form 10 Q for the fiscal quarter ended January 31, 2010 and HP&#8217;s other filings with the Securities and Exchange Commission, including but not limited to HP&#8217;s Annual Report on Form 10 K for the fiscal year ended October 31, 2009.
+
+POS tagged sentence: 
+[('Risks', 'NNS'), (',', ','), ('uncertainties', 'NNS'), ('and', 'CC'), ('assumptions', 'NNS'), ('include', 'VBP'), ('macroeconomic', 'JJ'), ('and', 'CC'), ('geopolitical', 'JJ'), ('trends', 'NNS'), ('and', 'CC'), ('events', 'NNS'), (';', ':'), ('the', 'DT'), ('execution', 'NN'), ('and', 'CC'), ('performance', 'NN'), ('of', 'IN'), ('contracts', 'NNS'), ('by', 'IN'), ('HP', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('customers', 'NNS'), (',', ','), ('suppliers', 'NNS'), ('and', 'CC'), ('partners', 'NNS'), (';', ':'), ('the', 'DT'), ('achievement', 'NN'), ('of', 'IN'), ('expected', 'VBN'), ('operational', 'JJ'), ('and', 'CC'), ('financial', 'JJ'), ('results', 'NNS'), (';', ':'), ('and', 'CC'), ('other', 'JJ'), ('risks', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('described', 'VBN'), ('in', 'IN'), ('HP&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Quarterly', 'RB'), ('Report', 'NNP'), ('on', 'IN'), ('Form', 'NNP'), ('10', 'CD'), ('Q', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('fiscal', 'JJ'), ('quarter', 'NN'), ('ended', 'VBD'), ('January', 'NNP'), ('31', 'CD'), (',', ','), ('2010', 'CD'), ('and', 'CC'), ('HP&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('other', 'JJ'), ('filings', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), (',', ','), ('including', 'VBG'), ('but', 'CC'), ('not', 'RB'), ('limited', 'VBN'), ('to', 'TO'), ('HP&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Annual', 'NNP'), ('Report', 'NNP'), ('on', 'IN'), ('Form', 'NNP'), ('10', 'CD'), ('K', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('fiscal', 'JJ'), ('year', 'NN'), ('ended', 'VBD'), ('October', 'NNP'), ('31', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Risks/NNS   ,/,   uncertainties/NNS   and/CC   assumptions/NNS   include/VBP   macroeconomic/JJ   and/CC   geopolitical/JJ   trends/NNS   and/CC   events/NNS   ;/:   the/DT   execution/NN   and/CC   performance/NN   of/IN   contracts/NNS   by/IN   (ORGANIZATION HP/NNP)   and/CC   its/PRP$   customers/NNS   ,/,   suppliers/NNS   and/CC   partners/NNS   ;/:   the/DT   achievement/NN   of/IN   expected/VBN   operational/JJ   and/CC   financial/JJ   results/NNS   ;/:   and/CC   other/JJ   risks/NNS   that/IN   are/VBP   described/VBN   in/IN   HP&/NNP   #/#   8217/CD   ;/:   s/NNS   Quarterly/RB   Report/NNP   on/IN   Form/NNP   10/CD   Q/NNP   for/IN   the/DT   fiscal/JJ   quarter/NN   ended/VBD   January/NNP   31/CD   ,/,   2010/CD   and/CC   HP&/JJ   #/#   8217/CD   ;/:   s/NNS   other/JJ   filings/NNS   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   ,/,   including/VBG   but/CC   not/RB   limited/VBN   to/TO   HP&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Annual/NNP Report/NNP)   on/IN   Form/NNP   10/CD   K/NNP   for/IN   the/DT   fiscal/JJ   year/NN   ended/VBD   October/NNP   31/CD   ,/,   2009/CD   ./.)
+----------------------------------
+original sentence: 
+HP assumes no obligation and does not intend to update these forward looking statements.
+
+POS tagged sentence: 
+[('HP', 'NNP'), ('assumes', 'VBZ'), ('no', 'DT'), ('obligation', 'NN'), ('and', 'CC'), ('does', 'VBZ'), ('not', 'RB'), ('intend', 'VB'), ('to', 'TO'), ('update', 'VB'), ('these', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   HP/NNP   assumes/VBZ   no/DT   obligation/NN   and/CC   does/VBZ   not/RB   intend/VB   to/TO   update/VB   these/DT   forward/NN   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+&#169; 2010 Hewlett Packard Development Company, L.P.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('169', 'CD'), (';', ':'), ('2010', 'CD'), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('Development', 'NNP'), ('Company', 'NNP'), (',', ','), ('L.P', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   169/CD   ;/:   2010/CD   (PERSON Hewlett/NNP Packard/NNP Development/NNP Company/NNP)   ,/,   L.P/NNP   ./.)
+----------------------------------
+original sentence: 
+The information contained herein is subject to change without notice.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('contained', 'VBD'), ('herein', 'NN'), ('is', 'VBZ'), ('subject', 'JJ'), ('to', 'TO'), ('change', 'VB'), ('without', 'IN'), ('notice', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   contained/VBD   herein/NN   is/VBZ   subject/JJ   to/TO   change/VB   without/IN   notice/NN   ./.)
+----------------------------------
+original sentence: 
+The only warranties for HP products and services are set forth in the express warranty statements accompanying such products and services.
+
+POS tagged sentence: 
+[('The', 'DT'), ('only', 'JJ'), ('warranties', 'NNS'), ('for', 'IN'), ('HP', 'NNP'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), ('are', 'VBP'), ('set', 'VBN'), ('forth', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('express', 'NN'), ('warranty', 'NN'), ('statements', 'NNS'), ('accompanying', 'VBG'), ('such', 'JJ'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   only/JJ   warranties/NNS   for/IN   (ORGANIZATION HP/NNP)   products/NNS   and/CC   services/NNS   are/VBP   set/VBN   forth/JJ   in/IN   the/DT   express/NN   warranty/NN   statements/NNS   accompanying/VBG   such/JJ   products/NNS   and/CC   services/NNS   ./.)
+----------------------------------
+original sentence: 
+Nothing herein should be construed as constituting an additional warranty.
+
+POS tagged sentence: 
+[('Nothing', 'NN'), ('herein', 'NN'), ('should', 'MD'), ('be', 'VB'), ('construed', 'VBN'), ('as', 'IN'), ('constituting', 'NN'), ('an', 'DT'), ('additional', 'JJ'), ('warranty', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nothing/NN)   herein/NN   should/MD   be/VB   construed/VBN   as/IN   constituting/NN   an/DT   additional/JJ   warranty/NN   ./.)
+----------------------------------
+original sentence: 
+HP shall not be liable for technical or editorial errors or omissions contained herein.
+
+POS tagged sentence: 
+[('HP', 'NNP'), ('shall', 'MD'), ('not', 'RB'), ('be', 'VB'), ('liable', 'JJ'), ('for', 'IN'), ('technical', 'JJ'), ('or', 'CC'), ('editorial', 'JJ'), ('errors', 'NNS'), ('or', 'CC'), ('omissions', 'NNS'), ('contained', 'VBD'), ('herein', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   HP/NNP   shall/MD   not/RB   be/VB   liable/JJ   for/IN   technical/JJ   or/CC   editorial/JJ   errors/NNS   or/CC   omissions/NNS   contained/VBD   herein/NN   ./.)
+----------------------------------
+original sentence: 
+Contacts Jim Christensen, +1 408 309 0186
+jim.christensen@hp.com
+A&R Edelman for HP
+Amy Reardon, +1 303 596 0041
+amy.reardon@edelman.com
+DreamWorks Animation
+Shannon Olivas, +1 818 695 3658
+shannon.olivas@dreamworks.com
+Burson Marsteller for Intel
+Samantha Saephan, +1 415 591 4023
+samantha.saephan@bm.com
+ http://www.businesswire.com/news/home/20100324005480/en/HP Intel Detail Technology Advances Fuel Business
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Contacts', 'NNS'), ('Jim', 'NNP'), ('Christensen', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('408', 'CD'), ('309', 'CD'), ('0186', 'CD'), ('jim.christensen', 'JJ'), ('@', 'NN'), ('hp.com', 'NN'), ('A&R', 'NN'), ('Edelman', 'NNP'), ('for', 'IN'), ('HP', 'NNP'), ('Amy', 'NNP'), ('Reardon', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('303', 'CD'), ('596', 'CD'), ('0041', 'CD'), ('amy.reardon', 'JJ'), ('@', 'NN'), ('edelman.com', 'NN'), ('DreamWorks', 'NNS'), ('Animation', 'NNP'), ('Shannon', 'NNP'), ('Olivas', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('818', 'CD'), ('695', 'CD'), ('3658', 'CD'), ('shannon.olivas', 'JJ'), ('@', 'NN'), ('dreamworks.com', 'NN'), ('Burson', 'NNP'), ('Marsteller', 'NNP'), ('for', 'IN'), ('Intel', 'NNP'), ('Samantha', 'NNP'), ('Saephan', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('415', 'CD'), ('591', 'CD'), ('4023', 'CD'), ('samantha.saephan', 'JJ'), ('@', 'NN'), ('bm.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100324005480/en/HP', 'JJ'), ('Intel', 'NNP'), ('Detail', 'NNP'), ('Technology', 'NNP'), ('Advances', 'NNPS'), ('Fuel', 'NNP'), ('Business', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Contacts/NNS   (PERSON Jim/NNP Christensen/NNP)   ,/,   +/NNP   1/CD   408/CD   309/CD   0186/CD   jim.christensen/JJ   @/NN   hp.com/NN   A&R/NN   (PERSON Edelman/NNP)   for/IN   (ORGANIZATION HP/NNP Amy/NNP Reardon/NNP)   ,/,   +/NNP   1/CD   303/CD   596/CD   0041/CD   amy.reardon/JJ   @/NN   edelman.com/NN   (ORGANIZATION DreamWorks/NNS Animation/NNP Shannon/NNP Olivas/NNP)   ,/,   +/NNP   1/CD   818/CD   695/CD   3658/CD   shannon.olivas/JJ   @/NN   dreamworks.com/NN   (PERSON Burson/NNP Marsteller/NNP)   for/IN   (ORGANIZATION Intel/NNP Samantha/NNP Saephan/NNP)   ,/,   +/NNP   1/CD   415/CD   591/CD   4023/CD   samantha.saephan/JJ   @/NN   bm.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100324005480/en/HP/JJ   (ORGANIZATION     Intel/NNP     Detail/NNP     Technology/NNP     Advances/NNPS     Fuel/NNP     Business/NNP     Company/NNP     Information/NNP     Center/NNP     More/NNP     Business/NNP     Wire/NNP)   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Contacts/NNS Jim/NNP Christensen/NNP)
+	(NOUN +/NNP)
+	(NOUN 0186/CD jim.christensen/JJ @/NN hp.com/NN A&R/NN Edelman/NNP)
+	(NOUN HP/NNP Amy/NNP Reardon/NNP)
+	(NOUN +/NNP)
+	(NOUN   0041/CD   amy.reardon/JJ   @/NN   edelman.com/NN   DreamWorks/NNS   Animation/NNP)
+	(NOUN Shannon/NNP Olivas/NNP)
+	(NOUN +/NNP)
+	(NOUN   3658/CD   shannon.olivas/JJ   @/NN   dreamworks.com/NN   Burson/NNP   Marsteller/NNP)
+	(NOUN Intel/NNP Samantha/NNP Saephan/NNP)
+	(NOUN +/NNP)
+	(NOUN 4023/CD samantha.saephan/JJ @/NN bm.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100324005480/en/HP/JJ   Intel/NNP   Detail/NNP   Technology/NNP   Advances/NNPS)
+
+tagged sentence:
+	 //www.businesswire.com/news/home/20100324005480/en/HP Intel Detail Technology Advances	res:1
+	(NOUN Fuel/NNP Business/NNP Company/NNP Information/NNP)
+	(NOUN Center/NNP More/NNP Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:0	pos:11	verypos:0	total:6

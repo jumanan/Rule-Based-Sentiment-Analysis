@@ -1,0 +1,323 @@
+
+----------------------------------
+original sentence: 
+Citigroup, Williams Sonoma, Tiffany, AIG, Kimberly Clark and Credit Suisse Stk Future Mixed Before the Bell | Ub News
+ Ub News Citigroup, Williams Sonoma, Tiffany, AIG, Kimberly Clark and Credit Suisse Stk Future Mixed Before the Bell U.S. stock futures dropped Monday morning, indicating a weaker start for Wall Street as investors digest a sweeping health care reform bill passed late Sunday by the House.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), (',', ','), ('Williams', 'NNP'), ('Sonoma', 'NNP'), (',', ','), ('Tiffany', 'NNP'), (',', ','), ('AIG', 'NNP'), (',', ','), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('and', 'CC'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('Stk', 'NNP'), ('Future', 'NNP'), ('Mixed', 'NNP'), ('Before', 'NNP'), ('the', 'DT'), ('Bell', 'NNP'), ('|', 'NNP'), ('Ub', 'NNP'), ('News', 'NNP'), ('Ub', 'NNP'), ('News', 'NNP'), ('Citigroup', 'NNP'), (',', ','), ('Williams', 'NNP'), ('Sonoma', 'NNP'), (',', ','), ('Tiffany', 'NNP'), (',', ','), ('AIG', 'NNP'), (',', ','), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('and', 'CC'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('Stk', 'NNP'), ('Future', 'NNP'), ('Mixed', 'NNP'), ('Before', 'NNP'), ('the', 'DT'), ('Bell', 'NNP'), ('U.S.', 'NNP'), ('stock', 'NN'), ('futures', 'NNS'), ('dropped', 'VBD'), ('Monday', 'NNP'), ('morning', 'NN'), (',', ','), ('indicating', 'VBG'), ('a', 'DT'), ('weaker', 'NN'), ('start', 'NN'), ('for', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('as', 'IN'), ('investors', 'NNS'), ('digest', 'VBP'), ('a', 'DT'), ('sweeping', 'JJ'), ('health', 'NN'), ('care', 'NN'), ('reform', 'NN'), ('bill', 'NN'), ('passed', 'VBN'), ('late', 'JJ'), ('Sunday', 'NNP'), ('by', 'IN'), ('the', 'DT'), ('House', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   ,/,   (PERSON Williams/NNP Sonoma/NNP)   ,/,   (GPE Tiffany/NNP)   ,/,   (ORGANIZATION AIG/NNP)   ,/,   (PERSON Kimberly/NNP Clark/NNP)   and/CC   (ORGANIZATION Credit/NNP Suisse/NNP Stk/NNP Future/NNP Mixed/NNP)   Before/NNP   the/DT   (ORGANIZATION Bell/NNP)   |/NNP   Ub/NNP   News/NNP   Ub/NNP   News/NNP   Citigroup/NNP   ,/,   (PERSON Williams/NNP Sonoma/NNP)   ,/,   (GPE Tiffany/NNP)   ,/,   (ORGANIZATION AIG/NNP)   ,/,   (PERSON Kimberly/NNP Clark/NNP)   and/CC   (ORGANIZATION Credit/NNP Suisse/NNP Stk/NNP Future/NNP Mixed/NNP)   Before/NNP   the/DT   (ORGANIZATION Bell/NNP U.S./NNP)   stock/NN   futures/NNS   dropped/VBD   Monday/NNP   morning/NN   ,/,   indicating/VBG   a/DT   weaker/NN   start/NN   for/IN   (FACILITY Wall/NNP Street/NNP)   as/IN   investors/NNS   digest/VBP   a/DT   sweeping/JJ   health/NN   care/NN   reform/NN   bill/NN   passed/VBN   late/JJ   Sunday/NNP   by/IN   the/DT   (ORGANIZATION House/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB dropped/VBD Monday/NNP morning/NN)
+	(VERB   indicating/VBG   a/DT   weaker/NN   start/NN   for/IN   Wall/NNP   Street/NNP   as/IN   investors/NNS)
+	(VERB   digest/VBP   a/DT   sweeping/JJ   health/NN   care/NN   reform/NN   bill/NN)
+	(VERB passed/VBN late/JJ Sunday/NNP by/IN the/DT House/NNP)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN Williams/NNP Sonoma/NNP)
+	(NOUN Tiffany/NNP)
+	(NOUN AIG/NNP)
+	(NOUN Kimberly/NNP Clark/NNP)
+	(NOUN Credit/NNP Suisse/NNP Stk/NNP Future/NNP)
+	(NOUN Mixed/NNP Before/NNP)
+	(NOUN Bell/NNP |/NNP Ub/NNP News/NNP)
+	(NOUN Ub/NNP News/NNP Citigroup/NNP)
+	(NOUN Williams/NNP Sonoma/NNP)
+	(NOUN Tiffany/NNP)
+	(NOUN AIG/NNP)
+	(NOUN Kimberly/NNP Clark/NNP)
+	(NOUN Credit/NNP Suisse/NNP Stk/NNP Future/NNP)
+	(NOUN Mixed/NNP Before/NNP)
+	(NOUN Bell/NNP U.S./NNP stock/NN futures/NNS)
+
+----------------------------------
+original sentence: 
+S&P 500 futures fell 7.6 points to 1,148.70 and Nasdaq 100 futures dropped 10.75 points to 1,921.50.
+
+POS tagged sentence: 
+[('S&P', 'NNP'), ('500', 'CD'), ('futures', 'NNS'), ('fell', 'VBD'), ('7.6', 'CD'), ('points', 'NNS'), ('to', 'TO'), ('1,148.70', 'CD'), ('and', 'CC'), ('Nasdaq', 'NNP'), ('100', 'CD'), ('futures', 'NNS'), ('dropped', 'VBD'), ('10.75', 'CD'), ('points', 'NNS'), ('to', 'TO'), ('1,921.50', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   S&P/NNP   500/CD   futures/NNS   fell/VBD   7.6/CD   points/NNS   to/TO   1,148.70/CD   and/CC   (ORGANIZATION Nasdaq/NNP)   100/CD   futures/NNS   dropped/VBD   10.75/CD   points/NNS   to/TO   1,921.50/CD   ./.)
+----------------------------------
+original sentence: 
+Futures on the Dow Jones Industrial Average fell 53 points.
+
+POS tagged sentence: 
+[('Futures', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('fell', 'VBD'), ('53', 'CD'), ('points', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Futures/NNS   on/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   fell/VBD   53/CD   points/NNS   ./.)
+----------------------------------
+original sentence: 
+Reuters reported, Citigroup Inc. hired Colin Banfield from Nomura Holdings Inc as head of mergers and acquisitions for the Asia Pacific region.
+
+POS tagged sentence: 
+[('Reuters', 'NNP'), ('reported', 'VBD'), (',', ','), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('hired', 'VBD'), ('Colin', 'NNP'), ('Banfield', 'NNP'), ('from', 'IN'), ('Nomura', 'NNP'), ('Holdings', 'NNP'), ('Inc', 'NNP'), ('as', 'IN'), ('head', 'NN'), ('of', 'IN'), ('mergers', 'NNS'), ('and', 'CC'), ('acquisitions', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('Asia', 'NNP'), ('Pacific', 'NNP'), ('region', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Reuters/NNP)   reported/VBD   ,/,   (ORGANIZATION Citigroup/NNP Inc./NNP)   hired/VBD   (PERSON Colin/NNP Banfield/NNP)   from/IN   (PERSON Nomura/NNP Holdings/NNP Inc/NNP)   as/IN   head/NN   of/IN   mergers/NNS   and/CC   acquisitions/NNS   for/IN   the/DT   (GPE Asia/NNP)   Pacific/NNP   region/NN   ./.)
+----------------------------------
+original sentence: 
+Citigroup Inc. NYSE:C, $3.90, $0.12, 2.99% fell 0.51 percent to $3.88 on Monday morning pre market trading session, even on last week of Friday, shares of Citigroup declined 2.99 percent, closed on $3.90.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('$', '$'), ('3.90', 'CD'), (',', ','), ('$', '$'), ('0.12', 'CD'), (',', ','), ('2.99', 'CD'), ('%', 'NN'), ('fell', 'VBD'), ('0.51', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('3.88', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('even', 'RB'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('shares', 'NNS'), ('of', 'IN'), ('Citigroup', 'NNP'), ('declined', 'VBD'), ('2.99', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('3.90', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   (ORGANIZATION Inc./NNP)   NYSE/NNP   :/:   C/NNP   ,/,   $/$   3.90/CD   ,/,   $/$   0.12/CD   ,/,   2.99/CD   %/NN   fell/VBD   0.51/CD   percent/NN   to/TO   $/$   3.88/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   even/RB   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   shares/NNS   of/IN   (PERSON Citigroup/NNP)   declined/VBD   2.99/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   3.90/CD   ./.)
+----------------------------------
+original sentence: 
+The houseware and home decor seller Williams Sonoma Inc.&#8217;s WSM fiscal fourth quarter earnings higher than expected on lower costs and strong holiday sales.
+
+POS tagged sentence: 
+[('The', 'DT'), ('houseware', 'NN'), ('and', 'CC'), ('home', 'NN'), ('decor', 'NN'), ('seller', 'NN'), ('Williams', 'NNP'), ('Sonoma', 'NNP'), ('Inc.&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('WSM', 'NNP'), ('fiscal', 'JJ'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('higher', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('on', 'IN'), ('lower', 'JJR'), ('costs', 'NNS'), ('and', 'CC'), ('strong', 'JJ'), ('holiday', 'NN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   houseware/NN   and/CC   home/NN   decor/NN   seller/NN   (PERSON Williams/NNP Sonoma/NNP)   Inc.&/NNP   #/#   8217/CD   ;/:   s/NNS   (ORGANIZATION WSM/NNP)   fiscal/JJ   fourth/JJ   quarter/NN   earnings/NNS   higher/JJR   than/IN   expected/VBN   on/IN   lower/JJR   costs/NNS   and/CC   strong/JJ   holiday/NN   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+It expects net revenue in the current year to rise by 3 percent to 6 percent and earnings per share, before items, to rise by 22 percent to 33 percent.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('expects', 'VBZ'), ('net', 'JJ'), ('revenue', 'NN'), ('in', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('year', 'NN'), ('to', 'TO'), ('rise', 'VB'), ('by', 'IN'), ('3', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('6', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('before', 'IN'), ('items', 'NNS'), (',', ','), ('to', 'TO'), ('rise', 'VB'), ('by', 'IN'), ('22', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('33', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   expects/VBZ   net/JJ   revenue/NN   in/IN   the/DT   current/JJ   year/NN   to/TO   rise/VB   by/IN   3/CD   percent/NN   to/TO   6/CD   percent/NN   and/CC   earnings/NNS   per/IN   share/NN   ,/,   before/IN   items/NNS   ,/,   to/TO   rise/VB   by/IN   22/CD   percent/NN   to/TO   33/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+Williams Sonoma, Inc. NYSE:WSM, $24.14, $0.31, 1.27% jumped 4.18 percent to $25.15 on Monday morning pre market trading session, while on last week of Friday, Williams Sonoma shares dropped 1.27 percent, closed on $24.14.
+
+POS tagged sentence: 
+[('Williams', 'NNP'), ('Sonoma', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('WSM', 'NNP'), (',', ','), ('$', '$'), ('24.14', 'CD'), (',', ','), ('$', '$'), ('0.31', 'CD'), (',', ','), ('1.27', 'CD'), ('%', 'NN'), ('jumped', 'VBD'), ('4.18', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('25.15', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('while', 'IN'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('Williams', 'NNP'), ('Sonoma', 'NNP'), ('shares', 'NNS'), ('dropped', 'VBD'), ('1.27', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('24.14', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Williams/NNP)   (GPE Sonoma/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   WSM/NNP   ,/,   $/$   24.14/CD   ,/,   $/$   0.31/CD   ,/,   1.27/CD   %/NN   jumped/VBD   4.18/CD   percent/NN   to/TO   $/$   25.15/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   while/IN   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   (PERSON Williams/NNP Sonoma/NNP)   shares/NNS   dropped/VBD   1.27/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   24.14/CD   ./.)
+----------------------------------
+original sentence: 
+On Monday, Tiffany & Co., the worldâ€™s second largest luxury jewelry retailer said its fiscal fourth quarter earnings more than quadrupled as sales climbed.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Monday', 'NNP'), (',', ','), ('Tiffany', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('second', 'JJ'), ('largest', 'JJS'), ('luxury', 'NN'), ('jewelry', 'NN'), ('retailer', 'NN'), ('said', 'VBD'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('more', 'RBR'), ('than', 'IN'), ('quadrupled', 'VBN'), ('as', 'IN'), ('sales', 'NNS'), ('climbed', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Monday/NNP   ,/,   (PERSON Tiffany/NNP)   &/CC   Co./NNP   ,/,   the/DT   world/NN   â/:   €/:   ™/:   s/NNS   second/JJ   largest/JJS   luxury/NN   jewelry/NN   retailer/NN   said/VBD   its/PRP$   fiscal/JJ   fourth/JJ   quarter/NN   earnings/NNS   more/RBR   than/IN   quadrupled/VBN   as/IN   sales/NNS   climbed/VBD   ./.)
+----------------------------------
+original sentence: 
+Its fourth quarter net earnings were $140.4 million or $1.10 per share, up from $31.1 million or $0.25 per share, in last year&#8217;s fourth quarter.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('earnings', 'NNS'), ('were', 'VBD'), ('$', '$'), ('140.4', 'CD'), ('million', 'CD'), ('or', 'CC'), ('$', '$'), ('1.10', 'CD'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('31.1', 'CD'), ('million', 'CD'), ('or', 'CC'), ('$', '$'), ('0.25', 'CD'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('in', 'IN'), ('last', 'JJ'), ('year&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('fourth', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   fourth/JJ   quarter/NN   net/NN   earnings/NNS   were/VBD   $/$   140.4/CD   million/CD   or/CC   $/$   1.10/CD   per/IN   share/NN   ,/,   up/RB   from/IN   $/$   31.1/CD   million/CD   or/CC   $/$   0.25/CD   per/IN   share/NN   ,/,   in/IN   last/JJ   year&/NN   #/#   8217/CD   ;/:   s/NNS   fourth/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Tiffany & Co. NYSE:TIF, $47.25, $0.33, 0.69% fell 5.02 percent to $44.88 on Monday morning pre market trading session, even on last week of Friday, shares of Tiffany declined 0.69 percent, closed on $47.25.
+
+POS tagged sentence: 
+[('Tiffany', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('TIF', 'NNP'), (',', ','), ('$', '$'), ('47.25', 'CD'), (',', ','), ('$', '$'), ('0.33', 'CD'), (',', ','), ('0.69', 'CD'), ('%', 'NN'), ('fell', 'VBD'), ('5.02', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('44.88', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('even', 'RB'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('shares', 'NNS'), ('of', 'IN'), ('Tiffany', 'NNP'), ('declined', 'VBD'), ('0.69', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('47.25', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Tiffany/NNP)   &/CC   Co./NNP   NYSE/NNP   :/:   TIF/NNP   ,/,   $/$   47.25/CD   ,/,   $/$   0.33/CD   ,/,   0.69/CD   %/NN   fell/VBD   5.02/CD   percent/NN   to/TO   $/$   44.88/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   even/RB   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   shares/NNS   of/IN   (PERSON Tiffany/NNP)   declined/VBD   0.69/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   47.25/CD   ./.)
+----------------------------------
+original sentence: 
+The former chief executive of American International Group Inc, Maurice &#8220;Hank&#8221; Greenberg agreed to sell shares he holds in the struggling insurer to a UBS AG unit for $278 million.
+
+POS tagged sentence: 
+[('The', 'DT'), ('former', 'JJ'), ('chief', 'NN'), ('executive', 'NN'), ('of', 'IN'), ('American', 'JJ'), ('International', 'NNP'), ('Group', 'NNP'), ('Inc', 'NNP'), (',', ','), ('Maurice', 'NNP'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Hank&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Greenberg', 'NNP'), ('agreed', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('shares', 'NNS'), ('he', 'PRP'), ('holds', 'VBZ'), ('in', 'IN'), ('the', 'DT'), ('struggling', 'NN'), ('insurer', 'NN'), ('to', 'TO'), ('a', 'DT'), ('UBS', 'NNP'), ('AG', 'NNP'), ('unit', 'NN'), ('for', 'IN'), ('$', '$'), ('278', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   former/JJ   chief/NN   executive/NN   of/IN   (ORGANIZATION American/JJ)   (ORGANIZATION International/NNP Group/NNP Inc/NNP)   ,/,   (ORGANIZATION Maurice/NNP)   &/CC   #/#   8220/CD   ;/:   Hank&/JJ   #/#   8221/CD   ;/:   (GPE Greenberg/NNP)   agreed/VBD   to/TO   sell/VB   shares/NNS   he/PRP   holds/VBZ   in/IN   the/DT   struggling/NN   insurer/NN   to/TO   a/DT   (ORGANIZATION UBS/NNP)   AG/NNP   unit/NN   for/IN   $/$   278/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+American International Group, Inc. NYSE:AIG, $34.80, +$0.16, 0.46% dropped 2.59 percent to $33.90 on Monday morning pre market trading session, while on last week of Friday, AIG shares jumped 0.46 percent, closed on $34.80.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AIG', 'NNP'), (',', ','), ('$', '$'), ('34.80', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('0.16', 'CD'), (',', ','), ('0.46', 'CD'), ('%', 'NN'), ('dropped', 'VBD'), ('2.59', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('33.90', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('while', 'IN'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('AIG', 'NNP'), ('shares', 'NNS'), ('jumped', 'VBD'), ('0.46', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('34.80', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION International/NNP Group/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   AIG/NNP   ,/,   $/$   34.80/CD   ,/,   +/:   $/$   0.16/CD   ,/,   0.46/CD   %/NN   dropped/VBD   2.59/CD   percent/NN   to/TO   $/$   33.90/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   while/IN   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   (ORGANIZATION AIG/NNP)   shares/NNS   jumped/VBD   0.46/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   34.80/CD   ./.)
+----------------------------------
+original sentence: 
+Household products maker Kimberly Clark Corp KMB will cut as much as $500 million in costs through 2013.
+
+POS tagged sentence: 
+[('Household', 'NNP'), ('products', 'NNS'), ('maker', 'NN'), ('Kimberly', 'RB'), ('Clark', 'NNP'), ('Corp', 'NNP'), ('KMB', 'NNP'), ('will', 'MD'), ('cut', 'VB'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), ('in', 'IN'), ('costs', 'NNS'), ('through', 'IN'), ('2013', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Household/NNP)   products/NNS   maker/NN   Kimberly/RB   (PERSON Clark/NNP Corp/NNP)   KMB/NNP   will/MD   cut/VB   as/IN   much/JJ   as/IN   $/$   500/CD   million/CD   in/IN   costs/NNS   through/IN   2013/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB cut/VB as/IN much/JJ as/IN)
+
+tagged sentence:
+	 cut as much as	res:-1
+noun phrases to consider:
+	(NOUN Household/NNP products/NNS maker/NN)
+	(NOUN Clark/NNP Corp/NNP KMB/NNP)
+	(NOUN costs/NNS)
+
+tagged sentence:
+	 costs	res:-1
+
+----------------------------------
+original sentence: 
+The company, best known for Kleenex tissues and Huggies diapers, also outlined a plan to save $400 million to $500 million from 2011 to 2013.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), (',', ','), ('best', 'JJS'), ('known', 'VBN'), ('for', 'IN'), ('Kleenex', 'NNP'), ('tissues', 'NNS'), ('and', 'CC'), ('Huggies', 'NNPS'), ('diapers', 'NNS'), (',', ','), ('also', 'RB'), ('outlined', 'VBD'), ('a', 'DT'), ('plan', 'NN'), ('to', 'TO'), ('save', 'VB'), ('$', '$'), ('400', 'CD'), ('million', 'CD'), ('to', 'TO'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), ('from', 'IN'), ('2011', 'CD'), ('to', 'TO'), ('2013', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   ,/,   best/JJS   known/VBN   for/IN   (ORGANIZATION Kleenex/NNP)   tissues/NNS   and/CC   (ORGANIZATION Huggies/NNPS)   diapers/NNS   ,/,   also/RB   outlined/VBD   a/DT   plan/NN   to/TO   save/VB   $/$   400/CD   million/CD   to/TO   $/$   500/CD   million/CD   from/IN   2011/CD   to/TO   2013/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB known/VBN for/IN Kleenex/NNP tissues/NNS)
+	(VERB outlined/VBD a/DT plan/NN)
+	(VERB save/VB)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN best/JJS)
+	(NOUN Huggies/NNPS diapers/NNS)
+
+----------------------------------
+original sentence: 
+Kimberly Clark Corp. NYSE:KMB, $61.43, +$0.14, 0.23% fell 0.54 percent to $61.43 on Monday morning pre market trading session, while on last week of Friday, shares of Kimberly ClarK rose 0.23 percent, closed on $61.43.
+
+POS tagged sentence: 
+[('Kimberly', 'RB'), ('Clark', 'NNP'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('KMB', 'NNP'), (',', ','), ('$', '$'), ('61.43', 'CD'), (',', ','), ('+', ':'), ('$', '$'), ('0.14', 'CD'), (',', ','), ('0.23', 'CD'), ('%', 'NN'), ('fell', 'VBD'), ('0.54', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('61.43', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('while', 'IN'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('shares', 'NNS'), ('of', 'IN'), ('Kimberly', 'NNP'), ('ClarK', 'NNP'), ('rose', 'VBD'), ('0.23', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('61.43', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Kimberly/RB   (PERSON Clark/NNP)   Corp./NNP   NYSE/NNP   :/:   KMB/NNP   ,/,   $/$   61.43/CD   ,/,   +/:   $/$   0.14/CD   ,/,   0.23/CD   %/NN   fell/VBD   0.54/CD   percent/NN   to/TO   $/$   61.43/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   while/IN   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   shares/NNS   of/IN   (PERSON Kimberly/NNP ClarK/NNP)   rose/VBD   0.23/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   61.43/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fell/VBD 0.54/CD percent/NN)
+
+tagged sentence:
+	 fell 0.54 percent	res:-1
+	(VERB rose/VBD 0.23/CD percent/NN)
+	(VERB closed/VBD on/IN)
+noun phrases to consider:
+	(NOUN Clark/NNP Corp./NNP NYSE/NNP)
+	(NOUN KMB/NNP)
+	(NOUN 0.23/CD %/NN)
+	(NOUN Monday/NNP morning/NN pre/NN market/NN)
+	(NOUN trading/NN session/NN)
+	(NOUN last/JJ week/NN)
+	(NOUN Friday/NNP)
+	(NOUN shares/NNS)
+	(NOUN Kimberly/NNP ClarK/NNP)
+
+----------------------------------
+original sentence: 
+Bloomberg reported, Credit Suisse Group AG is limiting travel by its private bankers to Germany after the European neighbor opened investigations into 1,100 suspected cases of tax evasion, including unidentified employees of the bank.
+
+POS tagged sentence: 
+[('Bloomberg', 'NNP'), ('reported', 'VBD'), (',', ','), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('Group', 'NNP'), ('AG', 'NNP'), ('is', 'VBZ'), ('limiting', 'VBG'), ('travel', 'NN'), ('by', 'IN'), ('its', 'PRP$'), ('private', 'JJ'), ('bankers', 'NNS'), ('to', 'TO'), ('Germany', 'NNP'), ('after', 'IN'), ('the', 'DT'), ('European', 'NNP'), ('neighbor', 'NN'), ('opened', 'VBD'), ('investigations', 'NNS'), ('into', 'IN'), ('1,100', 'CD'), ('suspected', 'VBN'), ('cases', 'NNS'), ('of', 'IN'), ('tax', 'NN'), ('evasion', 'NN'), (',', ','), ('including', 'VBG'), ('unidentified', 'VBN'), ('employees', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('bank', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Bloomberg/NNP)   reported/VBD   ,/,   (ORGANIZATION Credit/NNP Suisse/NNP Group/NNP)   AG/NNP   is/VBZ   limiting/VBG   travel/NN   by/IN   its/PRP$   private/JJ   bankers/NNS   to/TO   (GPE Germany/NNP)   after/IN   the/DT   (GPE European/NNP)   neighbor/NN   opened/VBD   investigations/NNS   into/IN   1,100/CD   suspected/VBN   cases/NNS   of/IN   tax/NN   evasion/NN   ,/,   including/VBG   unidentified/VBN   employees/NNS   of/IN   the/DT   bank/NN   ./.)
+----------------------------------
+original sentence: 
+Credit Suisse Group AG NYSE:CS, $51.45, $0.45, 0.87% dropped 3.93 percent to $49.43 on Monday morning pre market trading session, even on last week of Friday, Credit Suisse shares were down 0.87 percent, closed on $51.45.
+
+POS tagged sentence: 
+[('Credit', 'NN'), ('Suisse', 'NNP'), ('Group', 'NNP'), ('AG', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('CS', 'NNP'), (',', ','), ('$', '$'), ('51.45', 'CD'), (',', ','), ('$', '$'), ('0.45', 'CD'), (',', ','), ('0.87', 'CD'), ('%', 'NN'), ('dropped', 'VBD'), ('3.93', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('49.43', 'CD'), ('on', 'IN'), ('Monday', 'NNP'), ('morning', 'NN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('even', 'RB'), ('on', 'IN'), ('last', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('Friday', 'NNP'), (',', ','), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('shares', 'NNS'), ('were', 'VBD'), ('down', 'RB'), ('0.87', 'CD'), ('percent', 'NN'), (',', ','), ('closed', 'VBD'), ('on', 'IN'), ('$', '$'), ('51.45', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Credit/NN)   (ORGANIZATION Suisse/NNP Group/NNP)   AG/NNP   NYSE/NNP   :/:   CS/NNP   ,/,   $/$   51.45/CD   ,/,   $/$   0.45/CD   ,/,   0.87/CD   %/NN   dropped/VBD   3.93/CD   percent/NN   to/TO   $/$   49.43/CD   on/IN   Monday/NNP   morning/NN   pre/NN   market/NN   trading/NN   session/NN   ,/,   even/RB   on/IN   last/JJ   week/NN   of/IN   Friday/NNP   ,/,   (ORGANIZATION Credit/NNP Suisse/NNP)   shares/NNS   were/VBD   down/RB   0.87/CD   percent/NN   ,/,   closed/VBD   on/IN   $/$   51.45/CD   ./.)
+----------------------------------
+original sentence: 
+One Response to &#8220; Citigroup, Williams Sonoma, Tiffany, AIG, Kimberly Clark and Credit Suisse Stk Future Mixed Before the Bell &#8221;
+ March 22nd, 2010 at 8:56 pm Citi group bank at this point not profitable yet but Citi bank survived the severe recession.
+
+POS tagged sentence: 
+[('One', 'CD'), ('Response', 'NN'), ('to', 'TO'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Citigroup', 'NNP'), (',', ','), ('Williams', 'NNP'), ('Sonoma', 'NNP'), (',', ','), ('Tiffany', 'NNP'), (',', ','), ('AIG', 'NNP'), (',', ','), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('and', 'CC'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('Stk', 'NNP'), ('Future', 'NNP'), ('Mixed', 'NNP'), ('Before', 'NNP'), ('the', 'DT'), ('Bell', 'NNP'), ('&', 'CC'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('March', 'NNP'), ('22nd', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('8', 'CD'), (':', ':'), ('56', 'CD'), ('pm', 'NN'), ('Citi', 'NNP'), ('group', 'NN'), ('bank', 'NN'), ('at', 'IN'), ('this', 'DT'), ('point', 'NN'), ('not', 'RB'), ('profitable', 'JJ'), ('yet', 'RB'), ('but', 'CC'), ('Citi', 'NNP'), ('bank', 'NN'), ('survived', 'VBD'), ('the', 'DT'), ('severe', 'JJ'), ('recession', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   Response/NN   to/TO   &/CC   #/#   8220/CD   ;/:   (GPE Citigroup/NNP)   ,/,   (PERSON Williams/NNP Sonoma/NNP)   ,/,   (GPE Tiffany/NNP)   ,/,   (ORGANIZATION AIG/NNP)   ,/,   (PERSON Kimberly/NNP Clark/NNP)   and/CC   (ORGANIZATION Credit/NNP Suisse/NNP Stk/NNP Future/NNP Mixed/NNP)   Before/NNP   the/DT   (ORGANIZATION Bell/NNP)   &/CC   #/#   8221/CD   ;/:   March/NNP   22nd/CD   ,/,   2010/CD   at/IN   8/CD   :/:   56/CD   pm/NN   (ORGANIZATION Citi/NNP)   group/NN   bank/NN   at/IN   this/DT   point/NN   not/RB   profitable/JJ   yet/RB   but/CC   (ORGANIZATION Citi/NNP)   bank/NN   survived/VBD   the/DT   severe/JJ   recession/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB survived/VBD the/DT severe/JJ recession/NN)
+noun phrases to consider:
+	(NOUN One/CD Response/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN Williams/NNP Sonoma/NNP)
+	(NOUN Tiffany/NNP)
+	(NOUN AIG/NNP)
+	(NOUN Kimberly/NNP Clark/NNP)
+	(NOUN Credit/NNP Suisse/NNP Stk/NNP Future/NNP)
+	(NOUN Mixed/NNP Before/NNP)
+	(NOUN Bell/NNP)
+	(NOUN March/NNP)
+	(NOUN 56/CD pm/NN Citi/NNP group/NN bank/NN)
+	(NOUN point/NN)
+	(NOUN not/RB profitable/JJ)
+	(NOUN Citi/NNP bank/NN)
+
+----------------------------------
+original sentence: 
+The important thing is that buying stock with potential company will survive.
+
+POS tagged sentence: 
+[('The', 'DT'), ('important', 'JJ'), ('thing', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('buying', 'NN'), ('stock', 'NN'), ('with', 'IN'), ('potential', 'JJ'), ('company', 'NN'), ('will', 'MD'), ('survive', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   important/JJ   thing/NN   is/VBZ   that/IN   buying/NN   stock/NN   with/IN   potential/JJ   company/NN   will/MD   survive/VB   ./.)
+----------------------------------
+original sentence: 
+Company has potential of stock appreciation in the near future to double or triple easily.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('has', 'VBZ'), ('potential', 'JJ'), ('of', 'IN'), ('stock', 'NN'), ('appreciation', 'NN'), ('in', 'IN'), ('the', 'DT'), ('near', 'NN'), ('future', 'NN'), ('to', 'TO'), ('double', 'JJ'), ('or', 'CC'), ('triple', 'NN'), ('easily', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   has/VBZ   potential/JJ   of/IN   stock/NN   appreciation/NN   in/IN   the/DT   near/NN   future/NN   to/TO   double/JJ   or/CC   triple/NN   easily/RB   ./.)
+----------------------------------
+original sentence: 
+I believe strongly this is the case with Citi Group.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('believe', 'VBP'), ('strongly', 'RB'), ('this', 'DT'), ('is', 'VBZ'), ('the', 'DT'), ('case', 'NN'), ('with', 'IN'), ('Citi', 'NNP'), ('Group', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   believe/VBP   strongly/RB   this/DT   is/VBZ   the/DT   case/NN   with/IN   (ORGANIZATION Citi/NNP Group/NNP)   ./.)
+----------------------------------
+original sentence: 
+I feel very optimistic more than any time about Citi financial and profitability position in the years to come.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('feel', 'VBP'), ('very', 'RB'), ('optimistic', 'JJ'), ('more', 'RBR'), ('than', 'IN'), ('any', 'DT'), ('time', 'NN'), ('about', 'IN'), ('Citi', 'NNP'), ('financial', 'JJ'), ('and', 'CC'), ('profitability', 'NN'), ('position', 'NN'), ('in', 'IN'), ('the', 'DT'), ('years', 'NNS'), ('to', 'TO'), ('come', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   feel/VBP   very/RB   optimistic/JJ   more/RBR   than/IN   any/DT   time/NN   about/IN   (PERSON Citi/NNP)   financial/JJ   and/CC   profitability/NN   position/NN   in/IN   the/DT   years/NNS   to/TO   come/VB   ./.)
+----------------------------------
+original sentence: 
+There are many reasons led me to this conclusion.
+
+POS tagged sentence: 
+[('There', 'EX'), ('are', 'VBP'), ('many', 'JJ'), ('reasons', 'NNS'), ('led', 'VBN'), ('me', 'PRP'), ('to', 'TO'), ('this', 'DT'), ('conclusion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   are/VBP   many/JJ   reasons/NNS   led/VBN   me/PRP   to/TO   this/DT   conclusion/NN   ./.)
+----------------------------------
+original sentence: 
+The major reason is that the government have stake in the bank also I believe that Citi bank will be the winner to take advantages of all the money will be generated from passing the health care bill into law.I believe that Citiâ€˜s stock will continue to rise.
+
+POS tagged sentence: 
+[('The', 'DT'), ('major', 'JJ'), ('reason', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('government', 'NN'), ('have', 'VBP'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('bank', 'NN'), ('also', 'RB'), ('I', 'PRP'), ('believe', 'VBP'), ('that', 'IN'), ('Citi', 'NNP'), ('bank', 'NN'), ('will', 'MD'), ('be', 'VB'), ('the', 'DT'), ('winner', 'NN'), ('to', 'TO'), ('take', 'VB'), ('advantages', 'NNS'), ('of', 'IN'), ('all', 'DT'), ('the', 'DT'), ('money', 'NN'), ('will', 'MD'), ('be', 'VB'), ('generated', 'VBN'), ('from', 'IN'), ('passing', 'VBG'), ('the', 'DT'), ('health', 'NN'), ('care', 'NN'), ('bill', 'NN'), ('into', 'IN'), ('law.I', 'NNP'), ('believe', 'VBP'), ('that', 'IN'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x98', 'NNP'), ('s', 'VBZ'), ('stock', 'NN'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('rise', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   major/JJ   reason/NN   is/VBZ   that/IN   the/DT   government/NN   have/VBP   stake/NN   in/IN   the/DT   bank/NN   also/RB   I/PRP   believe/VBP   that/IN   (ORGANIZATION Citi/NNP)   bank/NN   will/MD   be/VB   the/DT   winner/NN   to/TO   take/VB   advantages/NNS   of/IN   all/DT   the/DT   money/NN   will/MD   be/VB   generated/VBN   from/IN   passing/VBG   the/DT   health/NN   care/NN   bill/NN   into/IN   law.I/NNP   believe/VBP   that/IN   (PERSON Citi/NNP)   â/NNP   €/NNP   ˜/NNP   s/VBZ   stock/NN   will/MD   continue/VB   to/TO   rise/VB   ./.)
+----------------------------------
+original sentence: 
+When the government will sell their stocks with the bank might drive the stock price down but that when the stock price will take off and appreciate
+Name required Mail will not be published required Super fast broadband available to every home by 2020, says PM
+Amazon Kindle announces application for the iPad
+
+
+POS tagged sentence: 
+[('When', 'WRB'), ('the', 'DT'), ('government', 'NN'), ('will', 'MD'), ('sell', 'VB'), ('their', 'PRP$'), ('stocks', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('bank', 'NN'), ('might', 'MD'), ('drive', 'VB'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('down', 'IN'), ('but', 'CC'), ('that', 'IN'), ('when', 'WRB'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('will', 'MD'), ('take', 'VB'), ('off', 'RP'), ('and', 'CC'), ('appreciate', 'VB'), ('Name', 'NNP'), ('required', 'VBN'), ('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Super', 'NNP'), ('fast', 'RB'), ('broadband', 'VBP'), ('available', 'JJ'), ('to', 'TO'), ('every', 'DT'), ('home', 'NN'), ('by', 'IN'), ('2020', 'CD'), (',', ','), ('says', 'VBZ'), ('PM', 'NNP'), ('Amazon', 'NNP'), ('Kindle', 'NNP'), ('announces', 'NNS'), ('application', 'NN'), ('for', 'IN'), ('the', 'DT'), ('iPad', 'NNP')]
+
+
+ERTAGGED sentence: (S   When/WRB   the/DT   government/NN   will/MD   sell/VB   their/PRP$   stocks/NNS   with/IN   the/DT   bank/NN   might/MD   drive/VB   the/DT   stock/NN   price/NN   down/IN   but/CC   that/IN   when/WRB   the/DT   stock/NN   price/NN   will/MD   take/VB   off/RP   and/CC   appreciate/VB   (PERSON Name/NNP)   required/VBN   (PERSON Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   (PERSON Super/NNP)   fast/RB   broadband/VBP   available/JJ   to/TO   every/DT   home/NN   by/IN   2020/CD   ,/,   says/VBZ   (ORGANIZATION PM/NNP Amazon/NNP Kindle/NNP)   announces/NNS   application/NN   for/IN   the/DT   (ORGANIZATION iPad/NNP))
+
+veryneg:0	neg:3	pos:0	verypos:0	total:1

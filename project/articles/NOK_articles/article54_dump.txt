@@ -1,0 +1,969 @@
+
+----------------------------------
+original sentence: 
+The Buzz: Palm slumps.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Buzz', 'NNP'), (':', ':'), ('Palm', 'NNP'), ('slumps', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT Buzz/NNP :/: Palm/NNP slumps/NNS ./.)
+----------------------------------
+original sentence: 
+Some think it must sell out.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('think', 'VBP'), ('it', 'PRP'), ('must', 'MD'), ('sell', 'VB'), ('out', 'RP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Some/DT think/VBP it/PRP must/MD sell/VB out/RP ./.)
+----------------------------------
+original sentence: 
+Mar.
+
+POS tagged sentence: 
+[('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Mar/NNP) ./.)
+----------------------------------
+original sentence: 
+18, 2010
+Bonds and Interest Rates Subscribe to Real Money Newsletter
+Subscribe to Money Magazine
+Subscribe to Money Magazine
+Ultimate Guide to Retirement
+Retirement Calculators
+Best Places to Retire
+Fortune Brainstorm Tech
+Questions & Answers
+Small Business Video
+50 Best Places to Launch
+Subscribe to Fortune Magazine
+Executive Interviews
+Stock price makes Palm sweaty
+March 18, 2010: 4:14 PM ET
+The Buzz is now on Twitter!
+
+POS tagged sentence: 
+[('18', 'CD'), (',', ','), ('2010', 'CD'), ('Bonds', 'NNS'), ('and', 'CC'), ('Interest', 'NNP'), ('Rates', 'NNPS'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Real', 'NNP'), ('Money', 'NNP'), ('Newsletter', 'NNP'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Money', 'NNP'), ('Magazine', 'NNP'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Money', 'NNP'), ('Magazine', 'NNP'), ('Ultimate', 'NNP'), ('Guide', 'NNP'), ('to', 'TO'), ('Retirement', 'NNP'), ('Retirement', 'NNP'), ('Calculators', 'NNP'), ('Best', 'NNP'), ('Places', 'NNPS'), ('to', 'TO'), ('Retire', 'NNP'), ('Fortune', 'NNP'), ('Brainstorm', 'NNP'), ('Tech', 'NNP'), ('Questions', 'NNP'), ('&', 'CC'), ('Answers', 'NNP'), ('Small', 'NNP'), ('Business', 'NNP'), ('Video', 'NNP'), ('50', 'CD'), ('Best', 'NNP'), ('Places', 'NNP'), ('to', 'TO'), ('Launch', 'NNP'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Fortune', 'NNP'), ('Magazine', 'NNP'), ('Executive', 'NNP'), ('Interviews', 'NNP'), ('Stock', 'NNP'), ('price', 'NN'), ('makes', 'VBZ'), ('Palm', 'NNP'), ('sweaty', 'NN'), ('March', 'NNP'), ('18', 'CD'), (',', ','), ('2010', 'CD'), (':', ':'), ('4', 'CD'), (':', ':'), ('14', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('The', 'NNP'), ('Buzz', 'NNP'), ('is', 'VBZ'), ('now', 'RB'), ('on', 'IN'), ('Twitter', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   18/CD   ,/,   2010/CD   Bonds/NNS   and/CC   (ORGANIZATION Interest/NNP Rates/NNPS)   Subscribe/NNP   to/TO   (ORGANIZATION Real/NNP Money/NNP Newsletter/NNP)   Subscribe/NNP   to/TO   (PERSON Money/NNP Magazine/NNP Subscribe/NNP)   to/TO   (PERSON Money/NNP Magazine/NNP Ultimate/NNP Guide/NNP)   to/TO   (ORGANIZATION     Retirement/NNP     Retirement/NNP     Calculators/NNP     Best/NNP     Places/NNPS)   to/TO   (PERSON     Retire/NNP     Fortune/NNP     Brainstorm/NNP     Tech/NNP     Questions/NNP)   &/CC   (ORGANIZATION Answers/NNP Small/NNP Business/NNP)   Video/NNP   50/CD   Best/NNP   Places/NNP   to/TO   (PERSON Launch/NNP Subscribe/NNP)   to/TO   (ORGANIZATION Fortune/NNP Magazine/NNP)   Executive/NNP   Interviews/NNP   Stock/NNP   price/NN   makes/VBZ   (GPE Palm/NNP)   sweaty/NN   March/NNP   18/CD   ,/,   2010/CD   :/:   4/CD   :/:   14/CD   PM/NNP   ET/NNP   The/NNP   (ORGANIZATION Buzz/NNP)   is/VBZ   now/RB   on/IN   Twitter/NNP   !/.)
+----------------------------------
+original sentence: 
+Follow me @LaMonicaBuzz
+NEW YORK CNNMoney.com If there were a tournament for smartphone companies like the March Madness men's college basketball championship, Nokia, Apple, BlackBerry maker Research in Motion and Motorola would likely be the top seeds.
+
+POS tagged sentence: 
+[('Follow', 'NNP'), ('me', 'PRP'), ('@', ':'), ('LaMonicaBuzz', 'NNP'), ('NEW', 'NNP'), ('YORK', 'NNP'), ('CNNMoney.com', 'NNP'), ('If', 'NNP'), ('there', 'RB'), ('were', 'VBD'), ('a', 'DT'), ('tournament', 'NN'), ('for', 'IN'), ('smartphone', 'NN'), ('companies', 'NNS'), ('like', 'IN'), ('the', 'DT'), ('March', 'NNP'), ('Madness', 'NNP'), ('men', 'NNS'), ("'s", 'POS'), ('college', 'NN'), ('basketball', 'NN'), ('championship', 'NN'), (',', ','), ('Nokia', 'NNP'), (',', ','), ('Apple', 'NNP'), (',', ','), ('BlackBerry', 'NNP'), ('maker', 'NN'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('and', 'CC'), ('Motorola', 'NNP'), ('would', 'MD'), ('likely', 'RB'), ('be', 'VB'), ('the', 'DT'), ('top', 'JJ'), ('seeds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Follow/NNP   me/PRP   @/:   (ORGANIZATION LaMonicaBuzz/NNP)   NEW/NNP   YORK/NNP   CNNMoney.com/NNP   If/NNP   there/RB   were/VBD   a/DT   tournament/NN   for/IN   smartphone/NN   companies/NNS   like/IN   the/DT   March/NNP   Madness/NNP   men/NNS   's/POS   college/NN   basketball/NN   championship/NN   ,/,   (GPE Nokia/NNP)   ,/,   (PERSON Apple/NNP)   ,/,   (ORGANIZATION BlackBerry/NNP)   maker/NN   Research/NNP   in/IN   (GPE Motion/NNP)   and/CC   (ORGANIZATION Motorola/NNP)   would/MD   likely/RB   be/VB   the/DT   top/JJ   seeds/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   were/VBD   a/DT   tournament/NN   for/IN   smartphone/NN   companies/NNS   like/IN   the/DT   March/NNP   Madness/NNP   men/NNS)
+	(VERB be/VB the/DT top/JJ seeds/NNS)
+noun phrases to consider:
+	(NOUN Follow/NNP)
+	(NOUN LaMonicaBuzz/NNP NEW/NNP YORK/NNP CNNMoney.com/NNP)
+	(NOUN If/NNP)
+	(NOUN college/NN basketball/NN championship/NN)
+	(NOUN Nokia/NNP)
+	(NOUN Apple/NNP)
+	(NOUN BlackBerry/NNP maker/NN Research/NNP)
+	(NOUN Motion/NNP)
+	(NOUN Motorola/NNP)
+
+----------------------------------
+original sentence: 
+But Palm, maker of the Pre and Pixi and once a leader in the mobile device market remember the Pilot?
+
+POS tagged sentence: 
+[('But', 'CC'), ('Palm', 'NNP'), (',', ','), ('maker', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Pre', 'NNP'), ('and', 'CC'), ('Pixi', 'NNP'), ('and', 'CC'), ('once', 'RB'), ('a', 'DT'), ('leader', 'NN'), ('in', 'IN'), ('the', 'DT'), ('mobile', 'JJ'), ('device', 'NN'), ('market', 'NN'), ('remember', 'NN'), ('the', 'DT'), ('Pilot', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (GPE Palm/NNP)   ,/,   maker/NN   of/IN   the/DT   Pre/NNP   and/CC   (PERSON Pixi/NNP)   and/CC   once/RB   a/DT   leader/NN   in/IN   the/DT   mobile/JJ   device/NN   market/NN   remember/NN   the/DT   (ORGANIZATION Pilot/NNP)   ?/.)
+----------------------------------
+original sentence: 
+, probably wouldn't even be invited.
+
+POS tagged sentence: 
+[(',', ','), ('probably', 'RB'), ('would', 'MD'), ("n't", 'RB'), ('even', 'RB'), ('be', 'VB'), ('invited', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S ,/, probably/RB would/MD n't/RB even/RB be/VB invited/VBN ./.)
+----------------------------------
+original sentence: 
+recently hit a 52 week low as doubts swirled about the company's future.
+
+POS tagged sentence: 
+[('recently', 'RB'), ('hit', 'VBD'), ('a', 'DT'), ('52', 'CD'), ('week', 'NN'), ('low', 'JJ'), ('as', 'IN'), ('doubts', 'NNS'), ('swirled', 'VBN'), ('about', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('future', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   recently/RB   hit/VBD   a/DT   52/CD   week/NN   low/JJ   as/IN   doubts/NNS   swirled/VBN   about/IN   the/DT   company/NN   's/POS   future/JJ   ./.)
+----------------------------------
+original sentence: 
+The company reported its fiscal third quarter earnings after the bell Thursday and the numbers were bleak.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('reported', 'VBD'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('third', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('after', 'IN'), ('the', 'DT'), ('bell', 'NN'), ('Thursday', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('numbers', 'NNS'), ('were', 'VBD'), ('bleak', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   reported/VBD   its/PRP$   fiscal/JJ   third/JJ   quarter/NN   earnings/NNS   after/IN   the/DT   bell/NN   Thursday/NNP   and/CC   the/DT   numbers/NNS   were/VBD   bleak/JJ   ./.)
+----------------------------------
+original sentence: 
+Palm warned late last month that revenue for the quarter and full fiscal year would be below forecasts as the Pre and Pixi, which both debuted in 2009, failed to catch the imagination of gadget lovers.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('warned', 'VBD'), ('late', 'JJ'), ('last', 'JJ'), ('month', 'NN'), ('that', 'WDT'), ('revenue', 'NN'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), ('and', 'CC'), ('full', 'JJ'), ('fiscal', 'JJ'), ('year', 'NN'), ('would', 'MD'), ('be', 'VB'), ('below', 'IN'), ('forecasts', 'NNS'), ('as', 'IN'), ('the', 'DT'), ('Pre', 'NNP'), ('and', 'CC'), ('Pixi', 'NNP'), (',', ','), ('which', 'WDT'), ('both', 'DT'), ('debuted', 'VBD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('failed', 'VBD'), ('to', 'TO'), ('catch', 'VB'), ('the', 'DT'), ('imagination', 'NN'), ('of', 'IN'), ('gadget', 'NN'), ('lovers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   warned/VBD   late/JJ   last/JJ   month/NN   that/WDT   revenue/NN   for/IN   the/DT   quarter/NN   and/CC   full/JJ   fiscal/JJ   year/NN   would/MD   be/VB   below/IN   forecasts/NNS   as/IN   the/DT   Pre/NNP   and/CC   (PERSON Pixi/NNP)   ,/,   which/WDT   both/DT   debuted/VBD   in/IN   2009/CD   ,/,   failed/VBD   to/TO   catch/VB   the/DT   imagination/NN   of/IN   gadget/NN   lovers/NNS   ./.)
+----------------------------------
+original sentence: 
+The company reported a loss of 61 cents per share for the quarter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('reported', 'VBD'), ('a', 'DT'), ('loss', 'NN'), ('of', 'IN'), ('61', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   reported/VBD   a/DT   loss/NN   of/IN   61/CD   cents/NNS   per/IN   share/NN   for/IN   the/DT   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Analysts had been expecting a loss of 43 cents per share.
+
+POS tagged sentence: 
+[('Analysts', 'NNS'), ('had', 'VBD'), ('been', 'VBN'), ('expecting', 'VBG'), ('a', 'DT'), ('loss', 'NN'), ('of', 'IN'), ('43', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Analysts/NNS   had/VBD   been/VBN   expecting/VBG   a/DT   loss/NN   of/IN   43/CD   cents/NNS   per/IN   share/NN   ./.)
+----------------------------------
+original sentence: 
+Making matters worse, the Wall Street consensus forecast is for Palm to lose money for fiscal 2010, which ends in May, and fiscal 2011.
+
+POS tagged sentence: 
+[('Making', 'VBG'), ('matters', 'NNS'), ('worse', 'JJR'), (',', ','), ('the', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('consensus', 'NN'), ('forecast', 'VBD'), ('is', 'VBZ'), ('for', 'IN'), ('Palm', 'NNP'), ('to', 'TO'), ('lose', 'VB'), ('money', 'NN'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (',', ','), ('which', 'WDT'), ('ends', 'NNS'), ('in', 'IN'), ('May', 'NNP'), (',', ','), ('and', 'CC'), ('fiscal', 'JJ'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Making/VBG   matters/NNS   worse/JJR   ,/,   the/DT   (FACILITY Wall/NNP Street/NNP)   consensus/NN   forecast/VBD   is/VBZ   for/IN   (GPE Palm/NNP)   to/TO   lose/VB   money/NN   for/IN   fiscal/JJ   2010/CD   ,/,   which/WDT   ends/NNS   in/IN   May/NNP   ,/,   and/CC   fiscal/JJ   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Palm has not posted a quarterly profit since the fourth fiscal quarter of 2007.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('has', 'VBZ'), ('not', 'RB'), ('posted', 'VBN'), ('a', 'DT'), ('quarterly', 'JJ'), ('profit', 'NN'), ('since', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('fiscal', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2007', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   has/VBZ   not/RB   posted/VBN   a/DT   quarterly/JJ   profit/NN   since/IN   the/DT   fourth/JJ   fiscal/JJ   quarter/NN   of/IN   2007/CD   ./.)
+----------------------------------
+original sentence: 
+But could Palm's woes be an opportunity for a rival?
+
+POS tagged sentence: 
+[('But', 'CC'), ('could', 'MD'), ('Palm', 'VB'), ("'s", 'POS'), ('woes', 'NNS'), ('be', 'VB'), ('an', 'DT'), ('opportunity', 'NN'), ('for', 'IN'), ('a', 'DT'), ('rival', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   could/MD   Palm/VB   's/POS   woes/NNS   be/VB   an/DT   opportunity/NN   for/IN   a/DT   rival/NN   ?/.)
+----------------------------------
+original sentence: 
+Takeover chatter has surrounded Palm for a while.
+
+POS tagged sentence: 
+[('Takeover', 'NN'), ('chatter', 'NN'), ('has', 'VBZ'), ('surrounded', 'VBN'), ('Palm', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('while', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Takeover/NN)   chatter/NN   has/VBZ   surrounded/VBN   (GPE Palm/NNP)   for/IN   a/DT   while/NN   ./.)
+----------------------------------
+original sentence: 
+And now that the company's market value has sunk to under $1 billion, it's possible that a suitor might finally think the price is right.
+
+POS tagged sentence: 
+[('And', 'CC'), ('now', 'RB'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('market', 'NN'), ('value', 'NN'), ('has', 'VBZ'), ('sunk', 'NN'), ('to', 'TO'), ('under', 'IN'), ('$', '$'), ('1', 'CD'), ('billion', 'CD'), (',', ','), ('it', 'PRP'), ("'s", 'VBZ'), ('possible', 'JJ'), ('that', 'IN'), ('a', 'DT'), ('suitor', 'NN'), ('might', 'MD'), ('finally', 'RB'), ('think', 'VB'), ('the', 'DT'), ('price', 'NN'), ('is', 'VBZ'), ('right', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   now/RB   that/IN   the/DT   company/NN   's/POS   market/NN   value/NN   has/VBZ   sunk/NN   to/TO   under/IN   $/$   1/CD   billion/CD   ,/,   it/PRP   's/VBZ   possible/JJ   that/IN   a/DT   suitor/NN   might/MD   finally/RB   think/VB   the/DT   price/NN   is/VBZ   right/RB   ./.)
+----------------------------------
+original sentence: 
+Analysts say there's still some value in Palm, even if you look beyond its slumping hardware sales.
+
+POS tagged sentence: 
+[('Analysts', 'NNS'), ('say', 'VBP'), ('there', 'RB'), ("'s", 'VBZ'), ('still', 'RB'), ('some', 'DT'), ('value', 'NN'), ('in', 'IN'), ('Palm', 'NNP'), (',', ','), ('even', 'RB'), ('if', 'IN'), ('you', 'PRP'), ('look', 'VBP'), ('beyond', 'IN'), ('its', 'PRP$'), ('slumping', 'NN'), ('hardware', 'NN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Analysts/NNS   say/VBP   there/RB   's/VBZ   still/RB   some/DT   value/NN   in/IN   (GPE Palm/NNP)   ,/,   even/RB   if/IN   you/PRP   look/VBP   beyond/IN   its/PRP$   slumping/NN   hardware/NN   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+The company's patents and mobile operating system webOS could make it an attractive fit for a rival.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('patents', 'NNS'), ('and', 'CC'), ('mobile', 'JJ'), ('operating', 'NN'), ('system', 'NN'), ('webOS', 'NNP'), ('could', 'MD'), ('make', 'VB'), ('it', 'PRP'), ('an', 'DT'), ('attractive', 'JJ'), ('fit', 'NN'), ('for', 'IN'), ('a', 'DT'), ('rival', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   's/POS   patents/NNS   and/CC   mobile/JJ   operating/NN   system/NN   (ORGANIZATION webOS/NNP)   could/MD   make/VB   it/PRP   an/DT   attractive/JJ   fit/NN   for/IN   a/DT   rival/NN   ./.)
+----------------------------------
+original sentence: 
+During the past few years, Dell  and Hewlett Packard  have been mentioned as potential acquirers, since neither of them has a significant presence in the mobile device world.
+
+POS tagged sentence: 
+[('During', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('few', 'JJ'), ('years', 'NNS'), (',', ','), ('Dell', 'NNP'), ('and', 'CC'), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('have', 'VBP'), ('been', 'VBN'), ('mentioned', 'VBN'), ('as', 'IN'), ('potential', 'JJ'), ('acquirers', 'NNS'), (',', ','), ('since', 'IN'), ('neither', 'DT'), ('of', 'IN'), ('them', 'PRP'), ('has', 'VBZ'), ('a', 'DT'), ('significant', 'JJ'), ('presence', 'NN'), ('in', 'IN'), ('the', 'DT'), ('mobile', 'JJ'), ('device', 'NN'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   the/DT   past/JJ   few/JJ   years/NNS   ,/,   (ORGANIZATION Dell/NNP)   and/CC   (PERSON Hewlett/NNP Packard/NNP)   have/VBP   been/VBN   mentioned/VBN   as/IN   potential/JJ   acquirers/NNS   ,/,   since/IN   neither/DT   of/IN   them/PRP   has/VBZ   a/DT   significant/JJ   presence/NN   in/IN   the/DT   mobile/JJ   device/NN   world/NN   ./.)
+----------------------------------
+original sentence: 
+More recently, Nokia  have been cited as possible buyers.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('recently', 'RB'), (',', ','), ('Nokia', 'NNP'), ('have', 'VBP'), ('been', 'VBN'), ('cited', 'VBN'), ('as', 'IN'), ('possible', 'JJ'), ('buyers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   recently/RB   ,/,   (GPE Nokia/NNP)   have/VBP   been/VBN   cited/VBN   as/IN   possible/JJ   buyers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP been/VBN cited/VBN as/IN possible/JJ buyers/NNS)
+noun phrases to consider:
+	(NOUN More/JJR)
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Even Apple  , which is hoping to take the smartphone world by storm with its Nexus One phone and Android operating system, have been touted as good fits for Palm.
+
+POS tagged sentence: 
+[('Even', 'RB'), ('Apple', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('hoping', 'VBG'), ('to', 'TO'), ('take', 'VB'), ('the', 'DT'), ('smartphone', 'NN'), ('world', 'NN'), ('by', 'IN'), ('storm', 'NN'), ('with', 'IN'), ('its', 'PRP$'), ('Nexus', 'NNP'), ('One', 'NNP'), ('phone', 'NN'), ('and', 'CC'), ('Android', 'NNP'), ('operating', 'NN'), ('system', 'NN'), (',', ','), ('have', 'VBP'), ('been', 'VBN'), ('touted', 'VBN'), ('as', 'IN'), ('good', 'JJ'), ('fits', 'NNS'), ('for', 'IN'), ('Palm', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Even/RB   (PERSON Apple/NNP)   ,/,   which/WDT   is/VBZ   hoping/VBG   to/TO   take/VB   the/DT   smartphone/NN   world/NN   by/IN   storm/NN   with/IN   its/PRP$   Nexus/NNP   One/NNP   phone/NN   and/CC   (PERSON Android/NNP)   operating/NN   system/NN   ,/,   have/VBP   been/VBN   touted/VBN   as/IN   good/JJ   fits/NNS   for/IN   (GPE Palm/NNP)   ./.)
+----------------------------------
+original sentence: 
+Check out CNNMoney's new market pages
+Michael Walkley, an analyst with Piper Jaffray, said a takeover by any of the aforementioned firms is &quot;not out of the realm of possibility&quot; because of how important intellectual property is in the wireless world.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('out', 'IN'), ('CNNMoney', 'NNP'), ("'s", 'POS'), ('new', 'JJ'), ('market', 'NN'), ('pages', 'NNS'), ('Michael', 'NNP'), ('Walkley', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('with', 'IN'), ('Piper', 'NNP'), ('Jaffray', 'NNP'), (',', ','), ('said', 'VBD'), ('a', 'DT'), ('takeover', 'NN'), ('by', 'IN'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('aforementioned', 'VBN'), ('firms', 'NNS'), ('is', 'VBZ'), ('&quot', 'JJ'), (';', ':'), ('not', 'RB'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('realm', 'NN'), ('of', 'IN'), ('possibility&quot', 'JJ'), (';', ':'), ('because', 'IN'), ('of', 'IN'), ('how', 'WRB'), ('important', 'JJ'), ('intellectual', 'JJ'), ('property', 'NN'), ('is', 'VBZ'), ('in', 'IN'), ('the', 'DT'), ('wireless', 'NN'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   out/IN   (ORGANIZATION CNNMoney/NNP)   's/POS   new/JJ   market/NN   pages/NNS   (PERSON Michael/NNP Walkley/NNP)   ,/,   an/DT   analyst/NN   with/IN   (PERSON Piper/NNP Jaffray/NNP)   ,/,   said/VBD   a/DT   takeover/NN   by/IN   any/DT   of/IN   the/DT   aforementioned/VBN   firms/NNS   is/VBZ   &quot/JJ   ;/:   not/RB   out/IN   of/IN   the/DT   realm/NN   of/IN   possibility&quot/JJ   ;/:   because/IN   of/IN   how/WRB   important/JJ   intellectual/JJ   property/NN   is/VBZ   in/IN   the/DT   wireless/NN   world/NN   ./.)
+----------------------------------
+original sentence: 
+The potential for lucrative royalty payments tied to Palm's technology could tempt some company to make a bid for the company.
+
+POS tagged sentence: 
+[('The', 'DT'), ('potential', 'JJ'), ('for', 'IN'), ('lucrative', 'JJ'), ('royalty', 'NN'), ('payments', 'NNS'), ('tied', 'VBN'), ('to', 'TO'), ('Palm', 'NNP'), ("'s", 'POS'), ('technology', 'NN'), ('could', 'MD'), ('tempt', 'VB'), ('some', 'DT'), ('company', 'NN'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('bid', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   potential/JJ   for/IN   lucrative/JJ   royalty/NN   payments/NNS   tied/VBN   to/TO   (GPE Palm/NNP)   's/POS   technology/NN   could/MD   tempt/VB   some/DT   company/NN   to/TO   make/VB   a/DT   bid/NN   for/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+But Walkley thinks Palm would prefer to go it alone.
+
+POS tagged sentence: 
+[('But', 'CC'), ('Walkley', 'NNP'), ('thinks', 'VBZ'), ('Palm', 'NNP'), ('would', 'MD'), ('prefer', 'VB'), ('to', 'TO'), ('go', 'VB'), ('it', 'PRP'), ('alone', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (PERSON Walkley/NNP)   thinks/VBZ   (GPE Palm/NNP)   would/MD   prefer/VB   to/TO   go/VB   it/PRP   alone/RB   ./.)
+----------------------------------
+original sentence: 
+Palm said last month it had more than $500 million in cash and Walkley thinks that &quot;buys them some time.&quot; But how much time is an open question.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('said', 'VBD'), ('last', 'JJ'), ('month', 'NN'), ('it', 'PRP'), ('had', 'VBD'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('and', 'CC'), ('Walkley', 'NNP'), ('thinks', 'NNS'), ('that', 'WDT'), ('&quot', '-NONE-'), (';', ':'), ('buys', 'NNS'), ('them', 'PRP'), ('some', 'DT'), ('time.&quot', 'JJ'), (';', ':'), ('But', 'CC'), ('how', 'WRB'), ('much', 'JJ'), ('time', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('open', 'JJ'), ('question', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Palm/NNP)   said/VBD   last/JJ   month/NN   it/PRP   had/VBD   more/JJR   than/IN   $/$   500/CD   million/CD   in/IN   cash/NN   and/CC   (GPE Walkley/NNP)   thinks/NNS   that/WDT   &quot/-NONE-   ;/:   buys/NNS   them/PRP   some/DT   time.&quot/JJ   ;/:   But/CC   how/WRB   much/JJ   time/NN   is/VBZ   an/DT   open/JJ   question/NN   ./.)
+----------------------------------
+original sentence: 
+Shaw Wu, an analyst with Kaufman Bros., argues that Palm could run out of cash within 4 to 6 quarters unless sales turn around or the company cuts expenses.
+
+POS tagged sentence: 
+[('Shaw', 'NNP'), ('Wu', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('with', 'IN'), ('Kaufman', 'NNP'), ('Bros.', 'NNP'), (',', ','), ('argues', 'VBZ'), ('that', 'IN'), ('Palm', 'NNP'), ('could', 'MD'), ('run', 'VB'), ('out', 'RP'), ('of', 'IN'), ('cash', 'NN'), ('within', 'IN'), ('4', 'CD'), ('to', 'TO'), ('6', 'CD'), ('quarters', 'NNS'), ('unless', 'IN'), ('sales', 'NNS'), ('turn', 'VBP'), ('around', 'IN'), ('or', 'CC'), ('the', 'DT'), ('company', 'NN'), ('cuts', 'NNS'), ('expenses', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Shaw/NNP Wu/NNP)   ,/,   an/DT   analyst/NN   with/IN   (PERSON Kaufman/NNP Bros./NNP)   ,/,   argues/VBZ   that/IN   (GPE Palm/NNP)   could/MD   run/VB   out/RP   of/IN   cash/NN   within/IN   4/CD   to/TO   6/CD   quarters/NNS   unless/IN   sales/NNS   turn/VBP   around/IN   or/CC   the/DT   company/NN   cuts/NNS   expenses/VBZ   ./.)
+----------------------------------
+original sentence: 
+Palm hopes for market 'hotspot'
+But Palm's in a damned if it does, damned if it doesn't situation.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('hopes', 'VBZ'), ('for', 'IN'), ('market', 'NN'), ("'hotspot", 'NN'), ("'", "''"), ('But', 'CC'), ('Palm', 'NNP'), ("'s", 'POS'), ('in', 'IN'), ('a', 'DT'), ('damned', 'VBN'), ('if', 'IN'), ('it', 'PRP'), ('does', 'VBZ'), (',', ','), ('damned', 'VBN'), ('if', 'IN'), ('it', 'PRP'), ('does', 'VBZ'), ("n't", 'RB'), ('situation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   hopes/VBZ   for/IN   market/NN   'hotspot/NN   '/''   But/CC   (PERSON Palm/NNP)   's/POS   in/IN   a/DT   damned/VBN   if/IN   it/PRP   does/VBZ   ,/,   damned/VBN   if/IN   it/PRP   does/VBZ   n't/RB   situation/NN   ./.)
+----------------------------------
+original sentence: 
+Wu said Palm has to keep investing in new technology and advertising in order to stay competitive with the likes of Apple, Google and RIM.
+
+POS tagged sentence: 
+[('Wu', 'NNP'), ('said', 'VBD'), ('Palm', 'NNP'), ('has', 'VBZ'), ('to', 'TO'), ('keep', 'VB'), ('investing', 'NN'), ('in', 'IN'), ('new', 'JJ'), ('technology', 'NN'), ('and', 'CC'), ('advertising', 'VBG'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('stay', 'VB'), ('competitive', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('likes', 'NNS'), ('of', 'IN'), ('Apple', 'NNP'), (',', ','), ('Google', 'NNP'), ('and', 'CC'), ('RIM', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wu/NNP)   said/VBD   (PERSON Palm/NNP)   has/VBZ   to/TO   keep/VB   investing/NN   in/IN   new/JJ   technology/NN   and/CC   advertising/VBG   in/IN   order/NN   to/TO   stay/VB   competitive/JJ   with/IN   the/DT   likes/NNS   of/IN   (GPE Apple/NNP)   ,/,   (PERSON Google/NNP)   and/CC   (ORGANIZATION RIM/NNP)   ./.)
+----------------------------------
+original sentence: 
+&quot;The biggest issue is around the cash burn.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('The', 'DT'), ('biggest', 'JJS'), ('issue', 'NN'), ('is', 'VBZ'), ('around', 'IN'), ('the', 'DT'), ('cash', 'NN'), ('burn', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   The/DT   biggest/JJS   issue/NN   is/VBZ   around/IN   the/DT   cash/NN   burn/NN   ./.)
+----------------------------------
+original sentence: 
+Palm has to show a path to profitability and so far they haven't.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('has', 'VBZ'), ('to', 'TO'), ('show', 'VB'), ('a', 'DT'), ('path', 'NN'), ('to', 'TO'), ('profitability', 'NN'), ('and', 'CC'), ('so', 'RB'), ('far', 'RB'), ('they', 'PRP'), ('have', 'VBP'), ("n't", 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   has/VBZ   to/TO   show/VB   a/DT   path/NN   to/TO   profitability/NN   and/CC   so/RB   far/RB   they/PRP   have/VBP   n't/RB   ./.)
+----------------------------------
+original sentence: 
+But they have no choice but to keep spending,&quot; he said.
+
+POS tagged sentence: 
+[('But', 'CC'), ('they', 'PRP'), ('have', 'VBP'), ('no', 'DT'), ('choice', 'NN'), ('but', 'CC'), ('to', 'TO'), ('keep', 'VB'), ('spending,&quot', 'JJ'), (';', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   they/PRP   have/VBP   no/DT   choice/NN   but/CC   to/TO   keep/VB   spending,&quot/JJ   ;/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Walkley added that Palm's recent marketing blitz may be too little, too late.
+
+POS tagged sentence: 
+[('Walkley', 'NNP'), ('added', 'VBD'), ('that', 'IN'), ('Palm', 'NNP'), ("'s", 'POS'), ('recent', 'JJ'), ('marketing', 'NN'), ('blitz', 'NN'), ('may', 'MD'), ('be', 'VB'), ('too', 'RB'), ('little', 'JJ'), (',', ','), ('too', 'RB'), ('late', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walkley/NNP)   added/VBD   that/IN   (GPE Palm/NNP)   's/POS   recent/JJ   marketing/NN   blitz/NN   may/MD   be/VB   too/RB   little/JJ   ,/,   too/RB   late/JJ   ./.)
+----------------------------------
+original sentence: 
+He said Palm is now playing catch up, advertising heavily for the new phones that debuted with Verizon  earlier this year.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('said', 'VBD'), ('Palm', 'NNP'), ('is', 'VBZ'), ('now', 'RB'), ('playing', 'VBG'), ('catch', 'NN'), ('up', 'IN'), (',', ','), ('advertising', 'NN'), ('heavily', 'RB'), ('for', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('phones', 'NNS'), ('that', 'WDT'), ('debuted', 'VBN'), ('with', 'IN'), ('Verizon', 'NNP'), ('earlier', 'JJR'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   said/VBD   (PERSON Palm/NNP)   is/VBZ   now/RB   playing/VBG   catch/NN   up/IN   ,/,   advertising/NN   heavily/RB   for/IN   the/DT   new/JJ   phones/NNS   that/WDT   debuted/VBN   with/IN   (PERSON Verizon/NNP)   earlier/JJR   this/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+He thinks Palm didn't do enough to market these phones when Sprint  first started selling them a year ago.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('thinks', 'VBZ'), ('Palm', 'NNP'), ('did', 'VBD'), ("n't", 'RB'), ('do', 'VB'), ('enough', 'RB'), ('to', 'TO'), ('market', 'NN'), ('these', 'DT'), ('phones', 'NNS'), ('when', 'WRB'), ('Sprint', 'NNP'), ('first', 'RB'), ('started', 'VBD'), ('selling', 'VBG'), ('them', 'PRP'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   thinks/VBZ   (PERSON Palm/NNP)   did/VBD   n't/RB   do/VB   enough/RB   to/TO   market/NN   these/DT   phones/NNS   when/WRB   (PERSON Sprint/NNP)   first/RB   started/VBD   selling/VBG   them/PRP   a/DT   year/NN   ago/IN   ./.)
+----------------------------------
+original sentence: 
+&quot;The one thing that's a head scratcher for me is that you see Palm ads everywhere now.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('The', 'DT'), ('one', 'CD'), ('thing', 'NN'), ('that', 'WDT'), ("'s", 'VBZ'), ('a', 'DT'), ('head', 'NN'), ('scratcher', 'NN'), ('for', 'IN'), ('me', 'PRP'), ('is', 'VBZ'), ('that', 'IN'), ('you', 'PRP'), ('see', 'VBP'), ('Palm', 'NNP'), ('ads', 'NNS'), ('everywhere', 'RB'), ('now', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   The/DT   one/CD   thing/NN   that/WDT   's/VBZ   a/DT   head/NN   scratcher/NN   for/IN   me/PRP   is/VBZ   that/IN   you/PRP   see/VBP   (GPE Palm/NNP)   ads/NNS   everywhere/RB   now/RB   ./.)
+----------------------------------
+original sentence: 
+They've ramped up advertising, but it may be too late,&quot; Walkley said.
+
+POS tagged sentence: 
+[('They', 'PRP'), ("'ve", 'VBP'), ('ramped', 'VBN'), ('up', 'RP'), ('advertising', 'NN'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ('may', 'MD'), ('be', 'VB'), ('too', 'RB'), ('late,&quot', 'JJ'), (';', ':'), ('Walkley', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   've/VBP   ramped/VBN   up/RP   advertising/NN   ,/,   but/CC   it/PRP   may/MD   be/VB   too/RB   late,&quot/JJ   ;/:   (PERSON Walkley/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&quot;It would have made more sense to create more awareness when they launched last year.&quot; Still, one fund manager who owns Palm but asked not to be named said it's premature to write off Palm just yet.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('It', 'PRP'), ('would', 'MD'), ('have', 'VB'), ('made', 'VBN'), ('more', 'RBR'), ('sense', 'JJ'), ('to', 'TO'), ('create', 'VB'), ('more', 'JJR'), ('awareness', 'NN'), ('when', 'WRB'), ('they', 'PRP'), ('launched', 'VBD'), ('last', 'JJ'), ('year.&quot', 'NN'), (';', ':'), ('Still', 'NNP'), (',', ','), ('one', 'CD'), ('fund', 'NN'), ('manager', 'NN'), ('who', 'WP'), ('owns', 'VBZ'), ('Palm', 'NNP'), ('but', 'CC'), ('asked', 'VBD'), ('not', 'RB'), ('to', 'TO'), ('be', 'VB'), ('named', 'VBN'), ('said', 'VBN'), ('it', 'PRP'), ("'s", 'VBZ'), ('premature', 'NN'), ('to', 'TO'), ('write', 'VB'), ('off', 'RP'), ('Palm', 'NNP'), ('just', 'RB'), ('yet', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   It/PRP   would/MD   have/VB   made/VBN   more/RBR   sense/JJ   to/TO   create/VB   more/JJR   awareness/NN   when/WRB   they/PRP   launched/VBD   last/JJ   year.&quot/NN   ;/:   Still/NNP   ,/,   one/CD   fund/NN   manager/NN   who/WP   owns/VBZ   Palm/NNP   but/CC   asked/VBD   not/RB   to/TO   be/VB   named/VBN   said/VBN   it/PRP   's/VBZ   premature/NN   to/TO   write/VB   off/RP   (GPE Palm/NNP)   just/RB   yet/RB   ./.)
+----------------------------------
+original sentence: 
+The manager pointed out that fortunes can change quickly in the wireless world, and held out hope that new phones from Palm will strike a chord with consumers.
+
+POS tagged sentence: 
+[('The', 'DT'), ('manager', 'NN'), ('pointed', 'VBD'), ('out', 'RP'), ('that', 'IN'), ('fortunes', 'NNS'), ('can', 'MD'), ('change', 'VB'), ('quickly', 'RB'), ('in', 'IN'), ('the', 'DT'), ('wireless', 'NN'), ('world', 'NN'), (',', ','), ('and', 'CC'), ('held', 'VBD'), ('out', 'RP'), ('hope', 'NN'), ('that', 'IN'), ('new', 'JJ'), ('phones', 'NNS'), ('from', 'IN'), ('Palm', 'NNP'), ('will', 'MD'), ('strike', 'VB'), ('a', 'DT'), ('chord', 'NN'), ('with', 'IN'), ('consumers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   manager/NN   pointed/VBD   out/RP   that/IN   fortunes/NNS   can/MD   change/VB   quickly/RB   in/IN   the/DT   wireless/NN   world/NN   ,/,   and/CC   held/VBD   out/RP   hope/NN   that/IN   new/JJ   phones/NNS   from/IN   (GPE Palm/NNP)   will/MD   strike/VB   a/DT   chord/NN   with/IN   consumers/NNS   ./.)
+----------------------------------
+original sentence: 
+The manager added that a takeover can't be ruled out either.
+
+POS tagged sentence: 
+[('The', 'DT'), ('manager', 'NN'), ('added', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('takeover', 'NN'), ('ca', 'MD'), ("n't", 'RB'), ('be', 'VB'), ('ruled', 'VBN'), ('out', 'RP'), ('either', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   manager/NN   added/VBD   that/IN   a/DT   takeover/NN   ca/MD   n't/RB   be/VB   ruled/VBN   out/RP   either/RB   ./.)
+----------------------------------
+original sentence: 
+But that brings us back to all those rumors.
+
+POS tagged sentence: 
+[('But', 'CC'), ('that', 'DT'), ('brings', 'VBZ'), ('us', 'PRP'), ('back', 'RB'), ('to', 'TO'), ('all', 'DT'), ('those', 'DT'), ('rumors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   that/DT   brings/VBZ   us/PRP   back/RB   to/TO   all/DT   those/DT   rumors/NNS   ./.)
+----------------------------------
+original sentence: 
+For a company that's supposedly in play, why is Palm's stock still in the dumps?
+
+POS tagged sentence: 
+[('For', 'IN'), ('a', 'DT'), ('company', 'NN'), ('that', 'WDT'), ("'s", 'VBZ'), ('supposedly', 'RB'), ('in', 'IN'), ('play', 'NN'), (',', ','), ('why', 'WRB'), ('is', 'VBZ'), ('Palm', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('still', 'RB'), ('in', 'IN'), ('the', 'DT'), ('dumps', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   a/DT   company/NN   that/WDT   's/VBZ   supposedly/RB   in/IN   play/NN   ,/,   why/WRB   is/VBZ   (GPE Palm/NNP)   's/POS   stock/NN   still/RB   in/IN   the/DT   dumps/NNS   ?/.)
+----------------------------------
+original sentence: 
+Wu and Walkley both said that because of Palm's well known problems, there's no sense overpaying for the company.
+
+POS tagged sentence: 
+[('Wu', 'NNP'), ('and', 'CC'), ('Walkley', 'NNP'), ('both', 'DT'), ('said', 'VBD'), ('that', 'IN'), ('because', 'IN'), ('of', 'IN'), ('Palm', 'NNP'), ("'s", 'POS'), ('well', 'RB'), ('known', 'VBN'), ('problems', 'NNS'), (',', ','), ('there', 'EX'), ("'s", 'VBZ'), ('no', 'DT'), ('sense', 'NN'), ('overpaying', 'VBG'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Wu/NNP)   and/CC   (PERSON Walkley/NNP)   both/DT   said/VBD   that/IN   because/IN   of/IN   (GPE Palm/NNP)   's/POS   well/RB   known/VBN   problems/NNS   ,/,   there/EX   's/VBZ   no/DT   sense/NN   overpaying/VBG   for/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+Palm has little leverage to negotiate a higher price.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('has', 'VBZ'), ('little', 'RB'), ('leverage', 'NN'), ('to', 'TO'), ('negotiate', 'VB'), ('a', 'DT'), ('higher', 'JJR'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   has/VBZ   little/RB   leverage/NN   to/TO   negotiate/VB   a/DT   higher/JJR   price/NN   ./.)
+----------------------------------
+original sentence: 
+Walkley pointed out that speculation about AT&T  delaying the launch of Pre, Pixi or other Palm smartphones using webOS, is hurting Palm as well.
+
+POS tagged sentence: 
+[('Walkley', 'NNP'), ('pointed', 'VBD'), ('out', 'RP'), ('that', 'IN'), ('speculation', 'NN'), ('about', 'IN'), ('AT&T', 'NNP'), ('delaying', 'NN'), ('the', 'DT'), ('launch', 'NN'), ('of', 'IN'), ('Pre', 'NNP'), (',', ','), ('Pixi', 'NNP'), ('or', 'CC'), ('other', 'JJ'), ('Palm', 'NNP'), ('smartphones', 'NNS'), ('using', 'VBG'), ('webOS', 'NNP'), (',', ','), ('is', 'VBZ'), ('hurting', 'VBG'), ('Palm', 'NNP'), ('as', 'IN'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walkley/NNP)   pointed/VBD   out/RP   that/IN   speculation/NN   about/IN   (ORGANIZATION AT&T/NNP)   delaying/NN   the/DT   launch/NN   of/IN   Pre/NNP   ,/,   (PERSON Pixi/NNP)   or/CC   other/JJ   (GPE Palm/NNP)   smartphones/NNS   using/VBG   (ORGANIZATION webOS/NNP)   ,/,   is/VBZ   hurting/VBG   (GPE Palm/NNP)   as/IN   well/RB   ./.)
+----------------------------------
+original sentence: 
+Wu added that it's difficult to figure out how to value Palm since it is continuing to lose money and does not appear to have a strong product lineup either.
+
+POS tagged sentence: 
+[('Wu', 'NNP'), ('added', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ("'s", 'VBZ'), ('difficult', 'JJ'), ('to', 'TO'), ('figure', 'VB'), ('out', 'RP'), ('how', 'WRB'), ('to', 'TO'), ('value', 'VB'), ('Palm', 'NNP'), ('since', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('continuing', 'VBG'), ('to', 'TO'), ('lose', 'VB'), ('money', 'NN'), ('and', 'CC'), ('does', 'VBZ'), ('not', 'RB'), ('appear', 'VB'), ('to', 'TO'), ('have', 'VB'), ('a', 'DT'), ('strong', 'JJ'), ('product', 'NN'), ('lineup', 'NN'), ('either', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wu/NNP)   added/VBD   that/IN   it/PRP   's/VBZ   difficult/JJ   to/TO   figure/VB   out/RP   how/WRB   to/TO   value/VB   (GPE Palm/NNP)   since/IN   it/PRP   is/VBZ   continuing/VBG   to/TO   lose/VB   money/NN   and/CC   does/VBZ   not/RB   appear/VB   to/TO   have/VB   a/DT   strong/JJ   product/NN   lineup/NN   either/DT   ./.)
+----------------------------------
+original sentence: 
+He said the most valuable assets are probably the software developers.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('said', 'VBD'), ('the', 'DT'), ('most', 'JJS'), ('valuable', 'JJ'), ('assets', 'NNS'), ('are', 'VBP'), ('probably', 'RB'), ('the', 'DT'), ('software', 'NN'), ('developers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   said/VBD   the/DT   most/JJS   valuable/JJ   assets/NNS   are/VBP   probably/RB   the/DT   software/NN   developers/NNS   ./.)
+----------------------------------
+original sentence: 
+&quot;What's Palm worth?
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('What', 'WP'), ("'s", 'VBZ'), ('Palm', 'NNP'), ('worth', 'IN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S &quot/JJ ;/: What/WP 's/VBZ (GPE Palm/NNP) worth/IN ?/.)
+----------------------------------
+original sentence: 
+People don't really know.
+
+POS tagged sentence: 
+[('People', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('really', 'RB'), ('know', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S People/NNS do/VBP n't/RB really/RB know/VB ./.)
+----------------------------------
+original sentence: 
+You're not buying the company for the revenue.
+
+POS tagged sentence: 
+[('You', 'PRP'), ("'re", 'VBP'), ('not', 'RB'), ('buying', 'VBG'), ('the', 'DT'), ('company', 'NN'), ('for', 'IN'), ('the', 'DT'), ('revenue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   're/VBP   not/RB   buying/VBG   the/DT   company/NN   for/IN   the/DT   revenue/NN   ./.)
+----------------------------------
+original sentence: 
+It's the webOS software, the people and the patents,&quot; Wu said.
+
+POS tagged sentence: 
+[('It', 'PRP'), ("'s", 'VBZ'), ('the', 'DT'), ('webOS', 'NNP'), ('software', 'NN'), (',', ','), ('the', 'DT'), ('people', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('patents,&quot', 'JJ'), (';', ':'), ('Wu', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   's/VBZ   the/DT   (ORGANIZATION webOS/NNP)   software/NN   ,/,   the/DT   people/NNS   and/CC   the/DT   patents,&quot/JJ   ;/:   (PERSON Wu/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&quot;And if you're interested in the talent, you don't need to buy the company.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('And', 'CC'), ('if', 'IN'), ('you', 'PRP'), ("'re", 'VBP'), ('interested', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('talent', 'NN'), (',', ','), ('you', 'PRP'), ('do', 'VBP'), ("n't", 'RB'), ('need', 'VB'), ('to', 'TO'), ('buy', 'VB'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   And/CC   if/IN   you/PRP   're/VBP   interested/JJ   in/IN   the/DT   talent/NN   ,/,   you/PRP   do/VBP   n't/RB   need/VB   to/TO   buy/VB   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+You can just hire them away.&quot;  The opinions expressed in this commentary are solely those of Paul R. La Monica.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('just', 'RB'), ('hire', 'VB'), ('them', 'PRP'), ('away.&quot', 'JJ'), (';', ':'), ('The', 'DT'), ('opinions', 'NNS'), ('expressed', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('commentary', 'JJ'), ('are', 'VBP'), ('solely', 'RB'), ('those', 'DT'), ('of', 'IN'), ('Paul', 'NNP'), ('R.', 'NNP'), ('La', 'NNP'), ('Monica', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   just/RB   hire/VB   them/PRP   away.&quot/JJ   ;/:   The/DT   opinions/NNS   expressed/VBN   in/IN   this/DT   commentary/JJ   are/VBP   solely/RB   those/DT   of/IN   (PERSON Paul/NNP R./NNP La/NNP Monica/NNP)   ./.)
+----------------------------------
+original sentence: 
+Watch video editions of The Buzz
+ComScore: Android gains on the iPhone
+Google vs. Apple: An epic battle
+Palm stock tumbles 20% on smartphone outlook
+25 top firms on the rise
+Fortune 500 companies are the building blocks of the U.S. economy.
+
+POS tagged sentence: 
+[('Watch', 'NN'), ('video', 'VBD'), ('editions', 'NNS'), ('of', 'IN'), ('The', 'DT'), ('Buzz', 'NNP'), ('ComScore', 'NNP'), (':', ':'), ('Android', 'NNP'), ('gains', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('iPhone', 'NNP'), ('Google', 'NNP'), ('vs.', 'NNP'), ('Apple', 'NNP'), (':', ':'), ('An', 'DT'), ('epic', 'JJ'), ('battle', 'NN'), ('Palm', 'NNP'), ('stock', 'NN'), ('tumbles', 'NNS'), ('20', 'CD'), ('%', 'NN'), ('on', 'IN'), ('smartphone', 'NN'), ('outlook', 'NN'), ('25', 'CD'), ('top', 'JJ'), ('firms', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('rise', 'NN'), ('Fortune', 'NNP'), ('500', 'CD'), ('companies', 'NNS'), ('are', 'VBP'), ('the', 'DT'), ('building', 'VBG'), ('blocks', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('economy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Watch/NN)   video/VBD   editions/NNS   of/IN   The/DT   (ORGANIZATION Buzz/NNP)   ComScore/NNP   :/:   Android/NNP   gains/NNS   on/IN   the/DT   (ORGANIZATION iPhone/NNP Google/NNP)   vs./NNP   Apple/NNP   :/:   An/DT   epic/JJ   battle/NN   (GPE Palm/NNP)   stock/NN   tumbles/NNS   20/CD   %/NN   on/IN   smartphone/NN   outlook/NN   25/CD   top/JJ   firms/NNS   on/IN   the/DT   rise/NN   Fortune/NNP   500/CD   companies/NNS   are/VBP   the/DT   building/VBG   blocks/NNS   of/IN   the/DT   (GPE U.S./NNP)   economy/NN   ./.)
+----------------------------------
+original sentence: 
+See how revenues and profits at the top 25 rise and fall each year in the 21st century.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('how', 'WRB'), ('revenues', 'NNS'), ('and', 'CC'), ('profits', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('25', 'CD'), ('rise', 'NN'), ('and', 'CC'), ('fall', 'VBP'), ('each', 'DT'), ('year', 'NN'), ('in', 'IN'), ('the', 'DT'), ('21st', 'JJ'), ('century', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE See/NNP)   how/WRB   revenues/NNS   and/CC   profits/NNS   at/IN   the/DT   top/JJ   25/CD   rise/NN   and/CC   fall/VBP   each/DT   year/NN   in/IN   the/DT   21st/JJ   century/NN   ./.)
+----------------------------------
+original sentence: 
+Wall Street reacts to Obama
+New Yorkers in the City's financial district opine on the President's speech on financial reform.
+
+POS tagged sentence: 
+[('Wall', 'NNP'), ('Street', 'NNP'), ('reacts', 'NNS'), ('to', 'TO'), ('Obama', 'NNP'), ('New', 'NNP'), ('Yorkers', 'NNPS'), ('in', 'IN'), ('the', 'DT'), ('City', 'NNP'), ("'s", 'POS'), ('financial', 'JJ'), ('district', 'NN'), ('opine', 'NN'), ('on', 'IN'), ('the', 'DT'), ('President', 'NNP'), ("'s", 'POS'), ('speech', 'NN'), ('on', 'IN'), ('financial', 'JJ'), ('reform', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (FACILITY Wall/NNP)   Street/NNP   reacts/NNS   to/TO   (PERSON Obama/NNP New/NNP)   Yorkers/NNPS   in/IN   the/DT   (ORGANIZATION City/NNP)   's/POS   financial/JJ   district/NN   opine/NN   on/IN   the/DT   President/NNP   's/POS   speech/NN   on/IN   financial/JJ   reform/NN   ./.)
+----------------------------------
+original sentence: 
+Netflix soars past $100 time to sell?
+
+POS tagged sentence: 
+[('Netflix', 'NNP'), ('soars', 'NNS'), ('past', 'JJ'), ('$', '$'), ('100', 'CD'), ('time', 'NN'), ('to', 'TO'), ('sell', 'VB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Netflix/NNP)   soars/NNS   past/JJ   $/$   100/CD   time/NN   to/TO   sell/VB   ?/.)
+----------------------------------
+original sentence: 
+The movie streaming and shipping company had a fantastic first quarter, but many analysts think the stock is poised to fall.
+
+POS tagged sentence: 
+[('The', 'DT'), ('movie', 'NN'), ('streaming', 'VBG'), ('and', 'CC'), ('shipping', 'VBG'), ('company', 'NN'), ('had', 'VBD'), ('a', 'DT'), ('fantastic', 'JJ'), ('first', 'JJ'), ('quarter', 'NN'), (',', ','), ('but', 'CC'), ('many', 'JJ'), ('analysts', 'NNS'), ('think', 'VBP'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('poised', 'VBN'), ('to', 'TO'), ('fall', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   movie/NN   streaming/VBG   and/CC   shipping/VBG   company/NN   had/VBD   a/DT   fantastic/JJ   first/JJ   quarter/NN   ,/,   but/CC   many/JJ   analysts/NNS   think/VBP   the/DT   stock/NN   is/VBZ   poised/VBN   to/TO   fall/VB   ./.)
+----------------------------------
+original sentence: 
+30 yr fixed jumbo mtg
+ Find personalized rates:
+ < !
+
+POS tagged sentence: 
+[('30', 'CD'), ('yr', 'NN'), ('fixed', 'VBN'), ('jumbo', 'NN'), ('mtg', 'NN'), ('Find', 'NNP'), ('personalized', 'VBD'), ('rates', 'NNS'), (':', ':'), ('<', ':'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   30/CD   yr/NN   fixed/VBN   jumbo/NN   mtg/NN   (PERSON Find/NNP)   personalized/VBD   rates/NNS   :/:   </:   !/.)
+----------------------------------
+original sentence: 
+include virtual="/fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text1.260x25.ad" > < !
+
+POS tagged sentence: 
+[('include', 'NN'), ('virtual', 'JJ'), ('=', 'NN'), ('"', ':'), ('/fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text1.260x25.ad', 'JJ'), ('"', 'NN'), ('>', ':'), ('<', ':'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   include/NN   virtual/JJ   =/NN   "/:   /fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text1.260x25.ad/JJ   "/NN   >/:   </:   !/.)
+----------------------------------
+original sentence: 
+include virtual="/fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text2.260x25.ad" > Making color printing cheap
+Paper isn't going away, says Xerox CEO Ursula Burns, but technology will change the way it's used.
+
+POS tagged sentence: 
+[('include', 'NN'), ('virtual', 'JJ'), ('=', 'NN'), ('"', ':'), ('/fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text2.260x25.ad', 'JJ'), ('"', 'NN'), ('>', ':'), ('Making', 'VBG'), ('color', 'NN'), ('printing', 'VBG'), ('cheap', 'NN'), ('Paper', 'NNP'), ('is', 'VBZ'), ("n't", 'RB'), ('going', 'VBG'), ('away', 'RB'), (',', ','), ('says', 'VBZ'), ('Xerox', 'NNP'), ('CEO', 'NNP'), ('Ursula', 'NNP'), ('Burns', 'NNP'), (',', ','), ('but', 'CC'), ('technology', 'NN'), ('will', 'MD'), ('change', 'VB'), ('the', 'DT'), ('way', 'NN'), ('it', 'PRP'), ("'s", 'VBZ'), ('used', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   include/NN   virtual/JJ   =/NN   "/:   /fn_adspaces/personal_finance/credit_debt_mgmt/rate_box/text2.260x25.ad/JJ   "/NN   >/:   Making/VBG   color/NN   printing/VBG   cheap/NN   (PERSON Paper/NNP)   is/VBZ   n't/RB   going/VBG   away/RB   ,/,   says/VBZ   (PERSON Xerox/NNP CEO/NNP Ursula/NNP Burns/NNP)   ,/,   but/CC   technology/NN   will/MD   change/VB   the/DT   way/NN   it/PRP   's/VBZ   used/VBN   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs loses its way
+Fortune contributor Bill Cohan says Goldman's drive for increasing profits has left its reputation in tatters.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('loses', 'VBZ'), ('its', 'PRP$'), ('way', 'NN'), ('Fortune', 'NNP'), ('contributor', 'NN'), ('Bill', 'NNP'), ('Cohan', 'NNP'), ('says', 'VBZ'), ('Goldman', 'NNP'), ("'s", 'POS'), ('drive', 'JJ'), ('for', 'IN'), ('increasing', 'VBG'), ('profits', 'NNS'), ('has', 'VBZ'), ('left', 'VBN'), ('its', 'PRP$'), ('reputation', 'NN'), ('in', 'IN'), ('tatters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (ORGANIZATION Sachs/NNP)   loses/VBZ   its/PRP$   way/NN   Fortune/NNP   contributor/NN   (PERSON Bill/NNP Cohan/NNP)   says/VBZ   (PERSON Goldman/NNP)   's/POS   drive/JJ   for/IN   increasing/VBG   profits/NNS   has/VBZ   left/VBN   its/PRP$   reputation/NN   in/IN   tatters/NNS   ./.)
+----------------------------------
+original sentence: 
+Hanging up on Verizon and AT&T
+The nation's two largest wireless carriers have been among the worst stock performers in the last two years.
+
+POS tagged sentence: 
+[('Hanging', 'VBG'), ('up', 'IN'), ('on', 'IN'), ('Verizon', 'NNP'), ('and', 'CC'), ('AT&T', 'NNP'), ('The', 'NNP'), ('nation', 'NN'), ("'s", 'POS'), ('two', 'CD'), ('largest', 'JJS'), ('wireless', 'NN'), ('carriers', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('among', 'IN'), ('the', 'DT'), ('worst', 'JJS'), ('stock', 'NN'), ('performers', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Hanging/VBG   up/IN   on/IN   (PERSON Verizon/NNP)   and/CC   (ORGANIZATION AT&T/NNP)   The/NNP   nation/NN   's/POS   two/CD   largest/JJS   wireless/NN   carriers/NNS   have/VBP   been/VBN   among/IN   the/DT   worst/JJS   stock/NN   performers/NNS   in/IN   the/DT   last/JJ   two/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+Bank of America Corp...
+Qwest Communications...
+Insurers: Brace for fast and furious costs
+Top insurance companies Aetna and Cigna say their customers should brace for more out of pocket expenses because of health reform.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp..', 'NNP'), ('.', '.'), ('Qwest', 'NNP'), ('Communications..', 'NNP'), ('.', '.'), ('Insurers', 'NNP'), (':', ':'), ('Brace', 'NNP'), ('for', 'IN'), ('fast', 'JJ'), ('and', 'CC'), ('furious', 'JJ'), ('costs', 'NNS'), ('Top', 'NNP'), ('insurance', 'NN'), ('companies', 'NNS'), ('Aetna', 'NNP'), ('and', 'CC'), ('Cigna', 'NNP'), ('say', 'VBP'), ('their', 'PRP$'), ('customers', 'NNS'), ('should', 'MD'), ('brace', 'VB'), ('for', 'IN'), ('more', 'JJR'), ('out', 'IN'), ('of', 'IN'), ('pocket', 'NN'), ('expenses', 'NNS'), ('because', 'IN'), ('of', 'IN'), ('health', 'NN'), ('reform', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   of/IN   (GPE America/NNP)   Corp../NNP   ./.   (PERSON Qwest/NNP)   Communications../NNP   ./.   Insurers/NNP   :/:   (PERSON Brace/NNP)   for/IN   fast/JJ   and/CC   furious/JJ   costs/NNS   Top/NNP   insurance/NN   companies/NNS   (PERSON Aetna/NNP)   and/CC   (PERSON Cigna/NNP)   say/VBP   their/PRP$   customers/NNS   should/MD   brace/VB   for/IN   more/JJR   out/IN   of/IN   pocket/NN   expenses/NNS   because/IN   of/IN   health/NN   reform/NN   ./.)
+----------------------------------
+original sentence: 
+Dear Feds: Thanks for nothing
+Moody's exec: Goldman didn't tell us either
+Geithner: Bailout to cost less than expected
+Government's financial bailout could cost less than 1% of GDP, Treasury Secretary Tim Geithner say.
+
+POS tagged sentence: 
+[('Dear', 'NNP'), ('Feds', 'NNP'), (':', ':'), ('Thanks', 'NNS'), ('for', 'IN'), ('nothing', 'NN'), ('Moody', 'NNP'), ("'s", 'POS'), ('exec', 'NN'), (':', ':'), ('Goldman', 'NNP'), ('did', 'VBD'), ("n't", 'RB'), ('tell', 'VB'), ('us', 'PRP'), ('either', 'DT'), ('Geithner', 'NNP'), (':', ':'), ('Bailout', 'IN'), ('to', 'TO'), ('cost', 'VB'), ('less', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('Government', 'NNP'), ("'s", 'POS'), ('financial', 'JJ'), ('bailout', 'IN'), ('could', 'MD'), ('cost', 'VB'), ('less', 'RBR'), ('than', 'IN'), ('1', 'CD'), ('%', 'NN'), ('of', 'IN'), ('GDP', 'NNP'), (',', ','), ('Treasury', 'NNP'), ('Secretary', 'NNP'), ('Tim', 'NNP'), ('Geithner', 'NNP'), ('say', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dear/NNP)   Feds/NNP   :/:   Thanks/NNS   for/IN   nothing/NN   (PERSON Moody/NNP)   's/POS   exec/NN   :/:   (PERSON Goldman/NNP)   did/VBD   n't/RB   tell/VB   us/PRP   either/DT   Geithner/NNP   :/:   Bailout/IN   to/TO   cost/VB   less/JJR   than/IN   expected/VBN   Government/NNP   's/POS   financial/JJ   bailout/IN   could/MD   cost/VB   less/RBR   than/IN   1/CD   %/NN   of/IN   (ORGANIZATION GDP/NNP)   ,/,   (ORGANIZATION Treasury/NNP)   Secretary/NNP   (PERSON Tim/NNP Geithner/NNP)   say/VBP   ./.)
+----------------------------------
+original sentence: 
+New home sales rise fastest in 47 years
+How long should we help the jobless?
+
+POS tagged sentence: 
+[('New', 'NNP'), ('home', 'NN'), ('sales', 'NNS'), ('rise', 'VBP'), ('fastest', 'JJS'), ('in', 'IN'), ('47', 'CD'), ('years', 'NNS'), ('How', 'WRB'), ('long', 'JJ'), ('should', 'MD'), ('we', 'PRP'), ('help', 'VB'), ('the', 'DT'), ('jobless', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP)   home/NN   sales/NNS   rise/VBP   fastest/JJS   in/IN   47/CD   years/NNS   How/WRB   long/JJ   should/MD   we/PRP   help/VB   the/DT   jobless/NN   ?/.)
+----------------------------------
+original sentence: 
+Palm running out of options
+The struggling handset maker got turned down by HTC on Friday, according to a report, giving Palm just a few options for survival.
+
+POS tagged sentence: 
+[('Palm', 'NNP'), ('running', 'NN'), ('out', 'RP'), ('of', 'IN'), ('options', 'NNS'), ('The', 'DT'), ('struggling', 'VBG'), ('handset', 'NN'), ('maker', 'NN'), ('got', 'VBD'), ('turned', 'VBN'), ('down', 'RP'), ('by', 'IN'), ('HTC', 'NNP'), ('on', 'IN'), ('Friday', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('report', 'NN'), (',', ','), ('giving', 'VBG'), ('Palm', 'NNP'), ('just', 'RB'), ('a', 'DT'), ('few', 'JJ'), ('options', 'NNS'), ('for', 'IN'), ('survival', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Palm/NNP)   running/NN   out/RP   of/IN   options/NNS   The/DT   struggling/VBG   handset/NN   maker/NN   got/VBD   turned/VBN   down/RP   by/IN   (ORGANIZATION HTC/NNP)   on/IN   Friday/NNP   ,/,   according/VBG   to/TO   a/DT   report/NN   ,/,   giving/VBG   (GPE Palm/NNP)   just/RB   a/DT   few/JJ   options/NNS   for/IN   survival/NN   ./.)
+----------------------------------
+original sentence: 
+Microsoft profit surges on Windows 7 momentum
+It's time to add Apple to the Dow The Buzz
+Your biz pitch: What the experts want
+Two venture capital pros weigh in on what they like and what's missing from most business plans.
+
+POS tagged sentence: 
+[('Microsoft', 'NNP'), ('profit', 'NN'), ('surges', 'NNS'), ('on', 'IN'), ('Windows', 'NNP'), ('7', 'CD'), ('momentum', 'NN'), ('It', 'PRP'), ("'s", 'VBZ'), ('time', 'NN'), ('to', 'TO'), ('add', 'VB'), ('Apple', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('Dow', 'NNP'), ('The', 'NNP'), ('Buzz', 'NNP'), ('Your', 'NNP'), ('biz', 'NN'), ('pitch', 'NN'), (':', ':'), ('What', 'WP'), ('the', 'DT'), ('experts', 'NNS'), ('want', 'VBP'), ('Two', 'CD'), ('venture', 'NN'), ('capital', 'NN'), ('pros', 'NNS'), ('weigh', 'VBP'), ('in', 'IN'), ('on', 'IN'), ('what', 'WP'), ('they', 'PRP'), ('like', 'VBP'), ('and', 'CC'), ('what', 'WP'), ("'s", 'VBZ'), ('missing', 'VBG'), ('from', 'IN'), ('most', 'JJS'), ('business', 'NN'), ('plans', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Microsoft/NNP)   profit/NN   surges/NNS   on/IN   Windows/NNP   7/CD   momentum/NN   It/PRP   's/VBZ   time/NN   to/TO   add/VB   (PERSON Apple/NNP)   to/TO   the/DT   Dow/NNP   The/NNP   (ORGANIZATION Buzz/NNP)   Your/NNP   biz/NN   pitch/NN   :/:   What/WP   the/DT   experts/NNS   want/VBP   Two/CD   venture/NN   capital/NN   pros/NNS   weigh/VBP   in/IN   on/IN   what/WP   they/PRP   like/VBP   and/CC   what/WP   's/VBZ   missing/VBG   from/IN   most/JJS   business/NN   plans/NNS   ./.)
+----------------------------------
+original sentence: 
+Rockin' the retirement home
+Three Android lessons learned the hard way
+PERSONAL FINANCE
+Too much cash, not enough stocks
+The wrong investment mix is grounding the Nelsons' retirement dreams.
+
+POS tagged sentence: 
+[('Rockin', 'NNP'), ("'", 'POS'), ('the', 'DT'), ('retirement', 'NN'), ('home', 'NN'), ('Three', 'CD'), ('Android', 'NNP'), ('lessons', 'NNS'), ('learned', 'VBD'), ('the', 'DT'), ('hard', 'JJ'), ('way', 'NN'), ('PERSONAL', 'NNP'), ('FINANCE', 'NNP'), ('Too', 'NNP'), ('much', 'RB'), ('cash', 'NN'), (',', ','), ('not', 'RB'), ('enough', 'RB'), ('stocks', 'NNS'), ('The', 'DT'), ('wrong', 'JJ'), ('investment', 'NN'), ('mix', 'NN'), ('is', 'VBZ'), ('grounding', 'VBG'), ('the', 'DT'), ('Nelsons', 'NNS'), ("'", 'POS'), ('retirement', 'NN'), ('dreams', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Rockin/NNP)   '/POS   the/DT   retirement/NN   home/NN   Three/CD   Android/NNP   lessons/NNS   learned/VBD   the/DT   hard/JJ   way/NN   (ORGANIZATION PERSONAL/NNP)   FINANCE/NNP   Too/NNP   much/RB   cash/NN   ,/,   not/RB   enough/RB   stocks/NNS   The/DT   wrong/JJ   investment/NN   mix/NN   is/VBZ   grounding/VBG   the/DT   (ORGANIZATION Nelsons/NNS)   '/POS   retirement/NN   dreams/NNS   ./.)
+----------------------------------
+original sentence: 
+The truth about health care reform
+How foreclosure impacts your credit score
+Please create a screen name to access this feature.
+
+POS tagged sentence: 
+[('The', 'DT'), ('truth', 'NN'), ('about', 'IN'), ('health', 'NN'), ('care', 'NN'), ('reform', 'NN'), ('How', 'WRB'), ('foreclosure', 'NN'), ('impacts', 'NNS'), ('your', 'PRP$'), ('credit', 'NN'), ('score', 'NN'), ('Please', 'NNP'), ('create', 'NN'), ('a', 'DT'), ('screen', 'NN'), ('name', 'NN'), ('to', 'TO'), ('access', 'NN'), ('this', 'DT'), ('feature', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   truth/NN   about/IN   health/NN   care/NN   reform/NN   How/WRB   foreclosure/NN   impacts/NNS   your/PRP$   credit/NN   score/NN   Please/NNP   create/NN   a/DT   screen/NN   name/NN   to/TO   access/NN   this/DT   feature/NN   ./.)
+----------------------------------
+original sentence: 
+Select one with 3 12 characters; Numbers and letters only Enter your e mail address below and we will send you an e mail with a link and code to reset your password.
+
+POS tagged sentence: 
+[('Select', 'NNP'), ('one', 'CD'), ('with', 'IN'), ('3', 'CD'), ('12', 'CD'), ('characters', 'NNS'), (';', ':'), ('Numbers', 'NNP'), ('and', 'CC'), ('letters', 'NNS'), ('only', 'RB'), ('Enter', 'NNP'), ('your', 'PRP$'), ('e', 'NN'), ('mail', 'NN'), ('address', 'NN'), ('below', 'IN'), ('and', 'CC'), ('we', 'PRP'), ('will', 'MD'), ('send', 'VB'), ('you', 'PRP'), ('an', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('with', 'IN'), ('a', 'DT'), ('link', 'NN'), ('and', 'CC'), ('code', 'NN'), ('to', 'TO'), ('reset', 'VB'), ('your', 'PRP$'), ('password', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Select/NNP   one/CD   with/IN   3/CD   12/CD   characters/NNS   ;/:   (ORGANIZATION Numbers/NNP)   and/CC   letters/NNS   only/RB   Enter/NNP   your/PRP$   e/NN   mail/NN   address/NN   below/IN   and/CC   we/PRP   will/MD   send/VB   you/PRP   an/DT   e/NN   mail/NN   with/IN   a/DT   link/NN   and/CC   code/NN   to/TO   reset/VB   your/PRP$   password/NN   ./.)
+----------------------------------
+original sentence: 
+Already have the reset code?
+
+POS tagged sentence: 
+[('Already', 'RB'), ('have', 'VBP'), ('the', 'DT'), ('reset', 'NN'), ('code', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Already/RB have/VBP the/DT reset/NN code/NN ?/.)
+----------------------------------
+original sentence: 
+Log in & let's get started!
+
+POS tagged sentence: 
+[('Log', 'NNP'), ('in', 'IN'), ('&', 'CC'), ('let', 'VB'), ("'s", 'VBZ'), ('get', 'VB'), ('started', 'VBN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (GPE Log/NNP) in/IN &/CC let/VB 's/VBZ get/VB started/VBN !/.)
+----------------------------------
+original sentence: 
+Remember me for two weeks
+Sign up now for a free account
+Select one with 3 12 characters;
+Numbers and letters only
+Make sure you typed it correctly.
+
+POS tagged sentence: 
+[('Remember', 'NNP'), ('me', 'PRP'), ('for', 'IN'), ('two', 'CD'), ('weeks', 'NNS'), ('Sign', 'NNP'), ('up', 'IN'), ('now', 'RB'), ('for', 'IN'), ('a', 'DT'), ('free', 'JJ'), ('account', 'NN'), ('Select', 'NNP'), ('one', 'CD'), ('with', 'IN'), ('3', 'CD'), ('12', 'CD'), ('characters', 'NNS'), (';', ':'), ('Numbers', 'NNP'), ('and', 'CC'), ('letters', 'NNS'), ('only', 'RB'), ('Make', 'NNP'), ('sure', 'NN'), ('you', 'PRP'), ('typed', 'VBD'), ('it', 'PRP'), ('correctly', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Remember/NNP   me/PRP   for/IN   two/CD   weeks/NNS   Sign/NNP   up/IN   now/RB   for/IN   a/DT   free/JJ   account/NN   Select/NNP   one/CD   with/IN   3/CD   12/CD   characters/NNS   ;/:   (ORGANIZATION Numbers/NNP)   and/CC   letters/NNS   only/RB   (PERSON Make/NNP)   sure/NN   you/PRP   typed/VBD   it/PRP   correctly/RB   ./.)
+----------------------------------
+original sentence: 
+You will receive an e mail to validate your account
+Make it 6 10 characters, no spaces
+Type what you see in the grey box
+If you can't read this, Yes, I would like to receive occasional CNNMoney member updates about new features and special offers.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('will', 'MD'), ('receive', 'VB'), ('an', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('to', 'TO'), ('validate', 'VB'), ('your', 'PRP$'), ('account', 'NN'), ('Make', 'NNP'), ('it', 'PRP'), ('6', 'CD'), ('10', 'CD'), ('characters', 'NNS'), (',', ','), ('no', 'DT'), ('spaces', 'NNS'), ('Type', 'NNP'), ('what', 'WP'), ('you', 'PRP'), ('see', 'VBP'), ('in', 'IN'), ('the', 'DT'), ('grey', 'NN'), ('box', 'NN'), ('If', 'IN'), ('you', 'PRP'), ('ca', 'MD'), ("n't", 'RB'), ('read', 'VB'), ('this', 'DT'), (',', ','), ('Yes', 'NNP'), (',', ','), ('I', 'PRP'), ('would', 'MD'), ('like', 'VB'), ('to', 'TO'), ('receive', 'VB'), ('occasional', 'JJ'), ('CNNMoney', 'NNP'), ('member', 'NN'), ('updates', 'VBZ'), ('about', 'IN'), ('new', 'JJ'), ('features', 'NNS'), ('and', 'CC'), ('special', 'JJ'), ('offers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   will/MD   receive/VB   an/DT   e/NN   mail/NN   to/TO   validate/VB   your/PRP$   account/NN   Make/NNP   it/PRP   6/CD   10/CD   characters/NNS   ,/,   no/DT   spaces/NNS   Type/NNP   what/WP   you/PRP   see/VBP   in/IN   the/DT   grey/NN   box/NN   If/IN   you/PRP   ca/MD   n't/RB   read/VB   this/DT   ,/,   (PERSON Yes/NNP)   ,/,   I/PRP   would/MD   like/VB   to/TO   receive/VB   occasional/JJ   (ORGANIZATION CNNMoney/NNP)   member/NN   updates/VBZ   about/IN   new/JJ   features/NNS   and/CC   special/JJ   offers/NNS   ./.)
+----------------------------------
+original sentence: 
+CNNMoney will use the information you submit in a manner consistent with our .
+
+POS tagged sentence: 
+[('CNNMoney', 'NN'), ('will', 'MD'), ('use', 'VB'), ('the', 'DT'), ('information', 'NN'), ('you', 'PRP'), ('submit', 'VB'), ('in', 'IN'), ('a', 'DT'), ('manner', 'NN'), ('consistent', 'NN'), ('with', 'IN'), ('our', 'PRP$'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CNNMoney/NN)   will/MD   use/VB   the/DT   information/NN   you/PRP   submit/VB   in/IN   a/DT   manner/NN   consistent/NN   with/IN   our/PRP$   ./.)
+----------------------------------
+original sentence: 
+By clicking on "sign up" you agree with CNNMoney's Terms of Service
+ and consent to the collection, storage and use of this information in the U.S. subject to U.S. laws and regulations.
+
+POS tagged sentence: 
+[('By', 'IN'), ('clicking', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('sign', 'NN'), ('up', 'IN'), ('"', 'CD'), ('you', 'PRP'), ('agree', 'VBP'), ('with', 'IN'), ('CNNMoney', 'NNP'), ("'s", 'POS'), ('Terms', 'NNP'), ('of', 'IN'), ('Service', 'NNP'), ('and', 'CC'), ('consent', 'NN'), ('to', 'TO'), ('the', 'DT'), ('collection', 'NN'), (',', ','), ('storage', 'NN'), ('and', 'CC'), ('use', 'VBP'), ('of', 'IN'), ('this', 'DT'), ('information', 'NN'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('subject', 'NN'), ('to', 'TO'), ('U.S.', 'NNP'), ('laws', 'NNS'), ('and', 'CC'), ('regulations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   clicking/NN   on/IN   "/NNP   sign/NN   up/IN   "/CD   you/PRP   agree/VBP   with/IN   (ORGANIZATION CNNMoney/NNP)   's/POS   Terms/NNP   of/IN   (GPE Service/NNP)   and/CC   consent/NN   to/TO   the/DT   collection/NN   ,/,   storage/NN   and/CC   use/VBP   of/IN   this/DT   information/NN   in/IN   the/DT   (GPE U.S./NNP)   subject/NN   to/TO   (GPE U.S./NNP)   laws/NNS   and/CC   regulations/NNS   ./.)
+----------------------------------
+original sentence: 
+For our international users, please be aware that the information you submit when registering for our services is collected in the United States of America.
+
+POS tagged sentence: 
+[('For', 'IN'), ('our', 'PRP$'), ('international', 'JJ'), ('users', 'NNS'), (',', ','), ('please', 'VB'), ('be', 'VB'), ('aware', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('information', 'NN'), ('you', 'PRP'), ('submit', 'VB'), ('when', 'WRB'), ('registering', 'VBG'), ('for', 'IN'), ('our', 'PRP$'), ('services', 'NNS'), ('is', 'VBZ'), ('collected', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('of', 'IN'), ('America', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   our/PRP$   international/JJ   users/NNS   ,/,   please/VB   be/VB   aware/JJ   that/IN   the/DT   information/NN   you/PRP   submit/VB   when/WRB   registering/VBG   for/IN   our/PRP$   services/NNS   is/VBZ   collected/VBN   in/IN   the/DT   (GPE United/NNP States/NNPS)   of/IN   (GPE America/NNP)   ./.)
+----------------------------------
+original sentence: 
+In addition to being subject to our Privacy Policy, the collection, storage, and use of your data will be subject to U.S. laws and regulations, which may be different from the laws and regulations of your home country.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('being', 'VBG'), ('subject', 'NN'), ('to', 'TO'), ('our', 'PRP$'), ('Privacy', 'NNP'), ('Policy', 'NNP'), (',', ','), ('the', 'DT'), ('collection', 'NN'), (',', ','), ('storage', 'NN'), (',', ','), ('and', 'CC'), ('use', 'VB'), ('of', 'IN'), ('your', 'PRP$'), ('data', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('subject', 'JJ'), ('to', 'TO'), ('U.S.', 'NNP'), ('laws', 'NNS'), ('and', 'CC'), ('regulations', 'NNS'), (',', ','), ('which', 'WDT'), ('may', 'MD'), ('be', 'VB'), ('different', 'JJ'), ('from', 'IN'), ('the', 'DT'), ('laws', 'NNS'), ('and', 'CC'), ('regulations', 'NNS'), ('of', 'IN'), ('your', 'PRP$'), ('home', 'NN'), ('country', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   being/VBG   subject/NN   to/TO   our/PRP$   Privacy/NNP   Policy/NNP   ,/,   the/DT   collection/NN   ,/,   storage/NN   ,/,   and/CC   use/VB   of/IN   your/PRP$   data/NNS   will/MD   be/VB   subject/JJ   to/TO   (GPE U.S./NNP)   laws/NNS   and/CC   regulations/NNS   ,/,   which/WDT   may/MD   be/VB   different/JJ   from/IN   the/DT   laws/NNS   and/CC   regulations/NNS   of/IN   your/PRP$   home/NN   country/NN   ./.)
+----------------------------------
+original sentence: 
+By registering for this service, you are consenting to this collection, storage, and use.
+
+POS tagged sentence: 
+[('By', 'IN'), ('registering', 'NN'), ('for', 'IN'), ('this', 'DT'), ('service', 'NN'), (',', ','), ('you', 'PRP'), ('are', 'VBP'), ('consenting', 'VBG'), ('to', 'TO'), ('this', 'DT'), ('collection', 'NN'), (',', ','), ('storage', 'NN'), (',', ','), ('and', 'CC'), ('use', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   registering/NN   for/IN   this/DT   service/NN   ,/,   you/PRP   are/VBP   consenting/VBG   to/TO   this/DT   collection/NN   ,/,   storage/NN   ,/,   and/CC   use/VB   ./.)
+----------------------------------
+original sentence: 
+This service is temporarily unavailable.
+
+POS tagged sentence: 
+[('This', 'DT'), ('service', 'NN'), ('is', 'VBZ'), ('temporarily', 'RB'), ('unavailable', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S This/DT service/NN is/VBZ temporarily/RB unavailable/JJ ./.)
+----------------------------------
+original sentence: 
+Please try again soon.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('try', 'NN'), ('again', 'RB'), ('soon', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Please/NN) try/NN again/RB soon/RB ./.)
+----------------------------------
+original sentence: 
+Please check your e mail and click the link to confirm your membership.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('check', 'VBD'), ('your', 'PRP$'), ('e', 'NN'), ('mail', 'NN'), ('and', 'CC'), ('click', 'NN'), ('the', 'DT'), ('link', 'NN'), ('to', 'TO'), ('confirm', 'VB'), ('your', 'PRP$'), ('membership', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   check/VBD   your/PRP$   e/NN   mail/NN   and/CC   click/NN   the/DT   link/NN   to/TO   confirm/VB   your/PRP$   membership/NN   ./.)
+----------------------------------
+original sentence: 
+Then, you'll be ready to participate in all activities and conversations on our site.
+
+POS tagged sentence: 
+[('Then', 'RB'), (',', ','), ('you', 'PRP'), ("'ll", 'MD'), ('be', 'VB'), ('ready', 'RB'), ('to', 'TO'), ('participate', 'VB'), ('in', 'IN'), ('all', 'DT'), ('activities', 'NNS'), ('and', 'CC'), ('conversations', 'NNS'), ('on', 'IN'), ('our', 'PRP$'), ('site', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Then/RB   ,/,   you/PRP   'll/MD   be/VB   ready/RB   to/TO   participate/VB   in/IN   all/DT   activities/NNS   and/CC   conversations/NNS   on/IN   our/PRP$   site/JJ   ./.)
+----------------------------------
+original sentence: 
+Go to your Profile page
+ &copy; 2010 Cable News Network.
+
+POS tagged sentence: 
+[('Go', 'NNP'), ('to', 'TO'), ('your', 'PRP$'), ('Profile', 'NNP'), ('page', 'NN'), ('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('Cable', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Go/NNP   to/TO   your/PRP$   Profile/NNP   page/NN   &copy/JJ   ;/:   2010/CD   (ORGANIZATION Cable/NNP News/NNP Network/NNP)   ./.)
+----------------------------------
+original sentence: 
+A Time Warner Company.
+
+POS tagged sentence: 
+[('A', 'DT'), ('Time', 'NNP'), ('Warner', 'NNP'), ('Company', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S A/DT Time/NNP (PERSON Warner/NNP Company/NNP) ./.)
+----------------------------------
+original sentence: 
+All Rights Reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT Rights/NNS Reserved/VBN ./.)
+----------------------------------
+original sentence: 
+under which this service is provided to you.
+
+POS tagged sentence: 
+[('under', 'IN'), ('which', 'WDT'), ('this', 'DT'), ('service', 'NN'), ('is', 'VBZ'), ('provided', 'VBN'), ('to', 'TO'), ('you', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   under/IN   which/WDT   this/DT   service/NN   is/VBZ   provided/VBN   to/TO   you/PRP   ./.)
+----------------------------------
+original sentence: 
+Advertising Practices
+Magazine Customer Service
+Download Fortune Lists
+Career Opportunities
+Business Leader Council
+Market indexes are shown in real time, except for the DJIA, which is delayed by two minutes.
+
+POS tagged sentence: 
+[('Advertising', 'VBG'), ('Practices', 'NNS'), ('Magazine', 'NNP'), ('Customer', 'NNP'), ('Service', 'NNP'), ('Download', 'NNP'), ('Fortune', 'NNP'), ('Lists', 'NNP'), ('Career', 'NNP'), ('Opportunities', 'NNPS'), ('Business', 'NNP'), ('Leader', 'NNP'), ('Council', 'NNP'), ('Market', 'NNP'), ('indexes', 'NNS'), ('are', 'VBP'), ('shown', 'VBN'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), (',', ','), ('except', 'IN'), ('for', 'IN'), ('the', 'DT'), ('DJIA', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('delayed', 'VBN'), ('by', 'IN'), ('two', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Advertising/VBG   (ORGANIZATION     Practices/NNS     Magazine/NNP     Customer/NNP     Service/NNP     Download/NNP)   Fortune/NNP   Lists/NNP   Career/NNP   Opportunities/NNPS   (ORGANIZATION Business/NNP Leader/NNP Council/NNP Market/NNP)   indexes/NNS   are/VBP   shown/VBN   in/IN   real/JJ   time/NN   ,/,   except/IN   for/IN   the/DT   (ORGANIZATION DJIA/NNP)   ,/,   which/WDT   is/VBZ   delayed/VBN   by/IN   two/CD   minutes/NNS   ./.)
+----------------------------------
+original sentence: 
+All times are ET.
+
+POS tagged sentence: 
+[('All', 'DT'), ('times', 'NNS'), ('are', 'VBP'), ('ET', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT times/NNS are/VBP ET/NNP ./.)
+----------------------------------
+original sentence: 
+LIBOR Warning: Neither BBA Enterprises Limited, nor the BBA LIBOR Contributor Banks, nor Reuters, can be held liable for any irregularity or inaccuracy of BBA LIBOR.
+
+POS tagged sentence: 
+[('LIBOR', 'NNP'), ('Warning', 'NNP'), (':', ':'), ('Neither', 'DT'), ('BBA', 'NNP'), ('Enterprises', 'NNP'), ('Limited', 'NNP'), (',', ','), ('nor', 'CC'), ('the', 'DT'), ('BBA', 'NNP'), ('LIBOR', 'NNP'), ('Contributor', 'NNP'), ('Banks', 'NNP'), (',', ','), ('nor', 'CC'), ('Reuters', 'NNP'), (',', ','), ('can', 'MD'), ('be', 'VB'), ('held', 'VBN'), ('liable', 'JJ'), ('for', 'IN'), ('any', 'DT'), ('irregularity', 'NN'), ('or', 'CC'), ('inaccuracy', 'NN'), ('of', 'IN'), ('BBA', 'NNP'), ('LIBOR', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION LIBOR/NNP)   Warning/NNP   :/:   Neither/DT   (ORGANIZATION BBA/NNP Enterprises/NNP Limited/NNP)   ,/,   nor/CC   the/DT   (ORGANIZATION BBA/NNP)   (ORGANIZATION LIBOR/NNP)   Contributor/NNP   Banks/NNP   ,/,   nor/CC   (ORGANIZATION Reuters/NNP)   ,/,   can/MD   be/VB   held/VBN   liable/JJ   for/IN   any/DT   irregularity/NN   or/CC   inaccuracy/NN   of/IN   (ORGANIZATION BBA/NNP)   LIBOR/NNP   ./.)
+----------------------------------
+original sentence: 
+Morningstar: &#169; 2010 Morningstar, Inc. All Rights Reserved.
+
+POS tagged sentence: 
+[('Morningstar', 'NNP'), (':', ':'), ('&', 'CC'), ('#', '#'), ('169', 'CD'), (';', ':'), ('2010', 'CD'), ('Morningstar', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Morningstar/NNP)   :/:   &/CC   #/#   169/CD   ;/:   2010/CD   Morningstar/NNP   ,/,   Inc./NNP   All/NNP   Rights/NNP   Reserved/NNP   ./.)
+----------------------------------
+original sentence: 
+The Dow Jones Indexes
+ are proprietary to and distributed by Dow Jones & Company, Inc. and have been licensed for use.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Indexes', 'NNP'), ('are', 'VBP'), ('proprietary', 'JJ'), ('to', 'TO'), ('and', 'CC'), ('distributed', 'VBN'), ('by', 'IN'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('and', 'CC'), ('have', 'VBP'), ('been', 'VBN'), ('licensed', 'VBN'), ('for', 'IN'), ('use', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP Jones/NNP)   Indexes/NNP   are/VBP   proprietary/JJ   to/TO   and/CC   distributed/VBN   by/IN   (PERSON Dow/NNP Jones/NNP)   &/CC   (ORGANIZATION Company/NNP)   ,/,   Inc./NNP   and/CC   have/VBP   been/VBN   licensed/VBN   for/IN   use/NN   ./.)
+----------------------------------
+original sentence: 
+All content of the Dow Jones Indexes
+ &#169; 2010 is proprietary to Dow Jones & Company, Inc
+ Chicago Mercantile Association.
+
+POS tagged sentence: 
+[('All', 'DT'), ('content', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Indexes', 'NNP'), ('&', 'CC'), ('#', '#'), ('169', 'CD'), (';', ':'), ('2010', 'CD'), ('is', 'VBZ'), ('proprietary', 'JJ'), ('to', 'TO'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), (',', ','), ('Inc', 'NNP'), ('Chicago', 'NNP'), ('Mercantile', 'NNP'), ('Association', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   content/NN   of/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Indexes/NNP)   &/CC   #/#   169/CD   ;/:   2010/CD   is/VBZ   proprietary/JJ   to/TO   (PERSON Dow/NNP Jones/NNP)   &/CC   (ORGANIZATION Company/NNP)   ,/,   (PERSON Inc/NNP Chicago/NNP Mercantile/NNP Association/NNP)   ./.)
+----------------------------------
+original sentence: 
+The market data is the property of Chicago Mercantile Exchange Inc. and its licensors.
+
+POS tagged sentence: 
+[('The', 'DT'), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('the', 'DT'), ('property', 'NN'), ('of', 'IN'), ('Chicago', 'NNP'), ('Mercantile', 'NNP'), ('Exchange', 'NNP'), ('Inc.', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('licensors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   market/NN   data/NNS   is/VBZ   the/DT   property/NN   of/IN   (GPE Chicago/NNP)   Mercantile/NNP   (ORGANIZATION Exchange/NNP Inc./NNP)   and/CC   its/PRP$   licensors/NNS   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+FactSet Research Systems Inc. 2010.
+
+POS tagged sentence: 
+[('FactSet', 'NN'), ('Research', 'NN'), ('Systems', 'NNS'), ('Inc.', 'NNP'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION FactSet/NN Research/NN Systems/NNS Inc./NNP)   2010/CD   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

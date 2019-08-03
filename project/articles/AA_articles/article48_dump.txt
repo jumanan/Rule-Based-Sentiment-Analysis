@@ -1,0 +1,444 @@
+
+----------------------------------
+original sentence: 
+= Alcoa Works On Concentrating Solar Tech, Other Renewables | TradingMarkets.com  New ETF Book by Larry Connors Click here to read more
+ = Alcoa Works On Concentrating Solar Tech, Other Renewables
+Posted on: Fri, 19 Mar 2010 16:27:16 EDT
+ Do you know when to trade  ?
+
+POS tagged sentence: 
+[('=', 'NN'), ('Alcoa', 'NNP'), ('Works', 'NNP'), ('On', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Tech', 'NNP'), (',', ','), ('Other', 'NNP'), ('Renewables', 'NNP'), ('|', 'NNP'), ('TradingMarkets.com', 'NNP'), ('New', 'NNP'), ('ETF', 'NNP'), ('Book', 'NNP'), ('by', 'IN'), ('Larry', 'NNP'), ('Connors', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('=', ':'), ('Alcoa', 'NNP'), ('Works', 'NNPS'), ('On', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Tech', 'NNP'), (',', ','), ('Other', 'NNP'), ('Renewables', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), (':', ':'), ('Fri', 'NNP'), (',', ','), ('19', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('16', 'CD'), (':', ':'), ('27', 'CD'), (':', ':'), ('16', 'CD'), ('EDT', 'NNP'), ('Do', 'NNP'), ('you', 'PRP'), ('know', 'VB'), ('when', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   =/NN   (PERSON Alcoa/NNP Works/NNP On/NNP)   Concentrating/NNP   Solar/NNP   Tech/NNP   ,/,   (PERSON Other/NNP Renewables/NNP)   |/NNP   TradingMarkets.com/NNP   New/NNP   ETF/NNP   Book/NNP   by/IN   (PERSON Larry/NNP Connors/NNP Click/NNP)   here/RB   to/TO   read/VB   more/JJR   =/:   (ORGANIZATION Alcoa/NNP Works/NNPS)   On/NNP   Concentrating/NNP   Solar/NNP   Tech/NNP   ,/,   (PERSON Other/NNP Renewables/NNP Posted/NNP)   on/IN   :/:   Fri/NNP   ,/,   19/CD   Mar/NNP   2010/CD   16/CD   :/:   27/CD   :/:   16/CD   (ORGANIZATION EDT/NNP)   Do/NNP   you/PRP   know/VB   when/WRB   to/TO   trade/VB   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB read/VB more/JJR)
+	(VERB know/VB)
+	(VERB trade/VB)
+noun phrases to consider:
+	(NOUN =/NN Alcoa/NNP Works/NNP On/NNP)
+	(NOUN Concentrating/NNP Solar/NNP Tech/NNP)
+	(NOUN Other/NNP Renewables/NNP |/NNP TradingMarkets.com/NNP)
+	(NOUN New/NNP ETF/NNP Book/NNP)
+	(NOUN Larry/NNP Connors/NNP Click/NNP)
+	(NOUN Alcoa/NNP Works/NNPS On/NNP Concentrating/NNP)
+	(NOUN Solar/NNP Tech/NNP)
+	(NOUN Other/NNP Renewables/NNP Posted/NNP)
+	(NOUN Fri/NNP)
+	(NOUN 19/CD Mar/NNP)
+	(NOUN 16/CD EDT/NNP Do/NNP)
+
+----------------------------------
+original sentence: 
+Check for a  from TradingMarkets  NEW YORK, Mar 19, 2010 Dow Jones Commodities News Select via Comtex By Yuliya Chernova Of DOW JONES CLEAN TECHNOLOGY INSIGHT  hopes in two to three years to start manufacturing of concentrating solar power systems, the most advanced in a line of renewable energy products the aluminum company is developing, according to its executives.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('from', 'IN'), ('TradingMarkets', 'NNPS'), ('NEW', 'NNP'), ('YORK', 'NNP'), (',', ','), ('Mar', 'NNP'), ('19', 'CD'), (',', ','), ('2010', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Commodities', 'NNP'), ('News', 'NNP'), ('Select', 'NNP'), ('via', 'IN'), ('Comtex', 'NNP'), ('By', 'NNP'), ('Yuliya', 'NNP'), ('Chernova', 'NNP'), ('Of', 'NNP'), ('DOW', 'NNP'), ('JONES', 'NNP'), ('CLEAN', 'NNP'), ('TECHNOLOGY', 'NNP'), ('INSIGHT', 'NNP'), ('hopes', 'VBZ'), ('in', 'IN'), ('two', 'CD'), ('to', 'TO'), ('three', 'CD'), ('years', 'NNS'), ('to', 'TO'), ('start', 'VB'), ('manufacturing', 'NN'), ('of', 'IN'), ('concentrating', 'NN'), ('solar', 'NN'), ('power', 'NN'), ('systems', 'NNS'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('advanced', 'JJ'), ('in', 'IN'), ('a', 'DT'), ('line', 'NN'), ('of', 'IN'), ('renewable', 'JJ'), ('energy', 'NN'), ('products', 'NNS'), ('the', 'DT'), ('aluminum', 'NN'), ('company', 'NN'), ('is', 'VBZ'), ('developing', 'VBG'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('its', 'PRP$'), ('executives', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   for/IN   a/DT   from/IN   (ORGANIZATION TradingMarkets/NNPS)   (ORGANIZATION NEW/NNP)   (GPE YORK/NNP)   ,/,   Mar/NNP   19/CD   ,/,   2010/CD   Dow/NNP   (PERSON Jones/NNP Commodities/NNP News/NNP Select/NNP)   via/IN   (ORGANIZATION Comtex/NNP By/NNP Yuliya/NNP Chernova/NNP Of/NNP)   DOW/NNP   JONES/NNP   CLEAN/NNP   (ORGANIZATION TECHNOLOGY/NNP)   INSIGHT/NNP   hopes/VBZ   in/IN   two/CD   to/TO   three/CD   years/NNS   to/TO   start/VB   manufacturing/NN   of/IN   concentrating/NN   solar/NN   power/NN   systems/NNS   ,/,   the/DT   most/RBS   advanced/JJ   in/IN   a/DT   line/NN   of/IN   renewable/JJ   energy/NN   products/NNS   the/DT   aluminum/NN   company/NN   is/VBZ   developing/VBG   ,/,   according/VBG   to/TO   its/PRP$   executives/NNS   ./.)
+----------------------------------
+original sentence: 
+"One of the things we do on the technology side is we are constantly trying to figure out where are the new applications for aluminum," said Eric Winter, director of Development Laboratories at Alcoa Technical Center, in an interview with Clean Technology Insight.
+
+POS tagged sentence: 
+[('"', 'NN'), ('One', 'CD'), ('of', 'IN'), ('the', 'DT'), ('things', 'NNS'), ('we', 'PRP'), ('do', 'VBP'), ('on', 'IN'), ('the', 'DT'), ('technology', 'NN'), ('side', 'NN'), ('is', 'VBZ'), ('we', 'PRP'), ('are', 'VBP'), ('constantly', 'RB'), ('trying', 'VBG'), ('to', 'TO'), ('figure', 'VB'), ('out', 'RP'), ('where', 'WRB'), ('are', 'VBP'), ('the', 'DT'), ('new', 'JJ'), ('applications', 'NNS'), ('for', 'IN'), ('aluminum', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Eric', 'NNP'), ('Winter', 'NNP'), (',', ','), ('director', 'NN'), ('of', 'IN'), ('Development', 'NNP'), ('Laboratories', 'NNPS'), ('at', 'IN'), ('Alcoa', 'NNP'), ('Technical', 'NNP'), ('Center', 'NNP'), (',', ','), ('in', 'IN'), ('an', 'DT'), ('interview', 'NN'), ('with', 'IN'), ('Clean', 'NNP'), ('Technology', 'NNP'), ('Insight', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   One/CD   of/IN   the/DT   things/NNS   we/PRP   do/VBP   on/IN   the/DT   technology/NN   side/NN   is/VBZ   we/PRP   are/VBP   constantly/RB   trying/VBG   to/TO   figure/VB   out/RP   where/WRB   are/VBP   the/DT   new/JJ   applications/NNS   for/IN   aluminum/NN   ,/,   "/:   said/VBD   (PERSON Eric/NNP Winter/NNP)   ,/,   director/NN   of/IN   (ORGANIZATION Development/NNP Laboratories/NNPS)   at/IN   (ORGANIZATION Alcoa/NNP Technical/NNP Center/NNP)   ,/,   in/IN   an/DT   interview/NN   with/IN   (PERSON Clean/NNP Technology/NNP Insight/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB do/VBP on/IN the/DT technology/NN side/NN)
+	(VERB is/VBZ we/PRP)
+	(VERB are/VBP constantly/RB trying/VBG)
+	(VERB figure/VB)
+	(VERB are/VBP the/DT new/JJ applications/NNS for/IN aluminum/NN)
+	(VERB said/VBD Eric/NNP Winter/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN things/NNS)
+	(NOUN director/NN)
+	(NOUN Development/NNP Laboratories/NNPS)
+	(NOUN Alcoa/NNP Technical/NNP Center/NNP)
+	(NOUN interview/NN)
+	(NOUN Clean/NNP Technology/NNP Insight/NNP)
+
+----------------------------------
+original sentence: 
+To that end, the Pittsburgh based company has developed a concentrating solar power unit, or solar thermal unit, that uses aluminum instead of glass mirrors to concentrate sunlight on a liquid to heat it up.
+
+POS tagged sentence: 
+[('To', 'TO'), ('that', 'DT'), ('end', 'NN'), (',', ','), ('the', 'DT'), ('Pittsburgh', 'NNP'), ('based', 'VBN'), ('company', 'NN'), ('has', 'VBZ'), ('developed', 'VBN'), ('a', 'DT'), ('concentrating', 'NN'), ('solar', 'NN'), ('power', 'NN'), ('unit', 'NN'), (',', ','), ('or', 'CC'), ('solar', 'JJ'), ('thermal', 'JJ'), ('unit', 'NN'), (',', ','), ('that', 'IN'), ('uses', 'NNS'), ('aluminum', 'VBP'), ('instead', 'RB'), ('of', 'IN'), ('glass', 'NN'), ('mirrors', 'NNS'), ('to', 'TO'), ('concentrate', 'VB'), ('sunlight', 'NN'), ('on', 'IN'), ('a', 'DT'), ('liquid', 'NN'), ('to', 'TO'), ('heat', 'VB'), ('it', 'PRP'), ('up', 'RP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   that/DT   end/NN   ,/,   the/DT   (ORGANIZATION Pittsburgh/NNP)   based/VBN   company/NN   has/VBZ   developed/VBN   a/DT   concentrating/NN   solar/NN   power/NN   unit/NN   ,/,   or/CC   solar/JJ   thermal/JJ   unit/NN   ,/,   that/IN   uses/NNS   aluminum/VBP   instead/RB   of/IN   glass/NN   mirrors/NNS   to/TO   concentrate/VB   sunlight/NN   on/IN   a/DT   liquid/NN   to/TO   heat/VB   it/PRP   up/RP   ./.)
+----------------------------------
+original sentence: 
+Its selling point would be that it costs 20% less to manufacture and yet is as or more efficient than current technologies, said Winter.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('selling', 'NN'), ('point', 'NN'), ('would', 'MD'), ('be', 'VB'), ('that', 'IN'), ('it', 'PRP'), ('costs', 'VBZ'), ('20', 'CD'), ('%', 'NN'), ('less', 'RBR'), ('to', 'TO'), ('manufacture', 'VB'), ('and', 'CC'), ('yet', 'RB'), ('is', 'VBZ'), ('as', 'IN'), ('or', 'CC'), ('more', 'JJR'), ('efficient', 'JJ'), ('than', 'IN'), ('current', 'JJ'), ('technologies', 'NNS'), (',', ','), ('said', 'VBD'), ('Winter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   selling/NN   point/NN   would/MD   be/VB   that/IN   it/PRP   costs/VBZ   20/CD   %/NN   less/RBR   to/TO   manufacture/VB   and/CC   yet/RB   is/VBZ   as/IN   or/CC   more/JJR   efficient/JJ   than/IN   current/JJ   technologies/NNS   ,/,   said/VBD   (PERSON Winter/NNP)   ./.)
+----------------------------------
+original sentence: 
+The company is now testing the technology to prove that this is so.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('testing', 'VBG'), ('the', 'DT'), ('technology', 'NN'), ('to', 'TO'), ('prove', 'VB'), ('that', 'IN'), ('this', 'DT'), ('is', 'VBZ'), ('so', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   is/VBZ   now/RB   testing/VBG   the/DT   technology/NN   to/TO   prove/VB   that/IN   this/DT   is/VBZ   so/RB   ./.)
+----------------------------------
+original sentence: 
+"It's our full intent to reach commercialization in the next two to three years," said Scott Kerns, vice president and general manager at Alcoa, in an interview.
+
+POS tagged sentence: 
+[('"', 'NN'), ('It', 'PRP'), ("'s", 'VBZ'), ('our', 'PRP$'), ('full', 'JJ'), ('intent', 'NN'), ('to', 'TO'), ('reach', 'VB'), ('commercialization', 'NN'), ('in', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('two', 'CD'), ('to', 'TO'), ('three', 'CD'), ('years', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Scott', 'NNP'), ('Kerns', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('general', 'JJ'), ('manager', 'NN'), ('at', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('in', 'IN'), ('an', 'DT'), ('interview', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   It/PRP   's/VBZ   our/PRP$   full/JJ   intent/NN   to/TO   reach/VB   commercialization/NN   in/IN   the/DT   next/JJ   two/CD   to/TO   three/CD   years/NNS   ,/,   "/:   said/VBD   (PERSON Scott/NNP Kerns/NNP)   ,/,   vice/NN   president/NN   and/CC   general/JJ   manager/NN   at/IN   (ORGANIZATION Alcoa/NNP)   ,/,   in/IN   an/DT   interview/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB 's/VBZ our/PRP$ full/JJ intent/NN)
+	(VERB reach/VB commercialization/NN in/IN the/DT next/JJ two/CD)
+	(VERB said/VBD Scott/NNP Kerns/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN three/CD years/NNS)
+	(NOUN vice/NN president/NN)
+	(NOUN general/JJ manager/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN interview/NN)
+
+----------------------------------
+original sentence: 
+Manufacturing would take place either "at an existing Alcoa plant or potentially closer to a job site," he said.
+
+POS tagged sentence: 
+[('Manufacturing', 'VBG'), ('would', 'MD'), ('take', 'VB'), ('place', 'NN'), ('either', 'DT'), ('"', 'NN'), ('at', 'IN'), ('an', 'DT'), ('existing', 'VBG'), ('Alcoa', 'NNP'), ('plant', 'NN'), ('or', 'CC'), ('potentially', 'RB'), ('closer', 'JJR'), ('to', 'TO'), ('a', 'DT'), ('job', 'NN'), ('site', 'NN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Manufacturing/VBG   would/MD   take/VB   place/NN   either/DT   "/NN   at/IN   an/DT   existing/VBG   (PERSON Alcoa/NNP)   plant/NN   or/CC   potentially/RB   closer/JJR   to/TO   a/DT   job/NN   site/NN   ,/,   "/:   he/PRP   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Manufacturing/VBG)
+	(VERB take/VB place/NN either/DT "/NN at/IN an/DT)
+	(VERB existing/VBG Alcoa/NNP plant/NN)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN potentially/RB closer/JJR)
+	(NOUN job/NN site/NN)
+
+----------------------------------
+original sentence: 
+Capacity would depend on the project for which Alcoa would be making these units.
+
+POS tagged sentence: 
+[('Capacity', 'NN'), ('would', 'MD'), ('depend', 'VB'), ('on', 'IN'), ('the', 'DT'), ('project', 'NN'), ('for', 'IN'), ('which', 'WDT'), ('Alcoa', 'NNP'), ('would', 'MD'), ('be', 'VB'), ('making', 'VBG'), ('these', 'DT'), ('units', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Capacity/NN)   would/MD   depend/VB   on/IN   the/DT   project/NN   for/IN   which/WDT   (PERSON Alcoa/NNP)   would/MD   be/VB   making/VBG   these/DT   units/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB depend/VB on/IN the/DT project/NN for/IN)
+	(VERB be/VB making/VBG these/DT units/NNS)
+noun phrases to consider:
+	(NOUN Capacity/NN)
+	(NOUN Alcoa/NNP)
+
+----------------------------------
+original sentence: 
+"Depending on how large that solar field is, we could certainly head down a 100 megawatt scale of a plan," said Kerns.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Depending', 'VBG'), ('on', 'IN'), ('how', 'WRB'), ('large', 'JJ'), ('that', 'IN'), ('solar', 'JJ'), ('field', 'NN'), ('is', 'VBZ'), (',', ','), ('we', 'PRP'), ('could', 'MD'), ('certainly', 'RB'), ('head', 'VB'), ('down', 'IN'), ('a', 'DT'), ('100', 'CD'), ('megawatt', 'NN'), ('scale', 'NN'), ('of', 'IN'), ('a', 'DT'), ('plan', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Kerns', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Depending/VBG   on/IN   how/WRB   large/JJ   that/IN   solar/JJ   field/NN   is/VBZ   ,/,   we/PRP   could/MD   certainly/RB   head/VB   down/IN   a/DT   100/CD   megawatt/NN   scale/NN   of/IN   a/DT   plan/NN   ,/,   "/:   said/VBD   (PERSON Kerns/NNS)   ./.)
+----------------------------------
+original sentence: 
+This story and related background material will be available on The Wall Street Journal Web site, WSJ.com.
+
+POS tagged sentence: 
+[('This', 'DT'), ('story', 'NN'), ('and', 'CC'), ('related', 'JJ'), ('background', 'NN'), ('material', 'NN'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('on', 'IN'), ('The', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('Web', 'NNP'), ('site', 'NN'), (',', ','), ('WSJ.com', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   story/NN   and/CC   related/JJ   background/NN   material/NN   will/MD   be/VB   available/JJ   on/IN   The/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP)   Web/NNP   site/NN   ,/,   WSJ.com/NNP   ./.)
+----------------------------------
+original sentence: 
+In its research and development efforts, the company is also exploring "several aspects of solar," wind, energy storage, and transmission, according to Winter.
+
+POS tagged sentence: 
+[('In', 'IN'), ('its', 'PRP$'), ('research', 'NN'), ('and', 'CC'), ('development', 'NN'), ('efforts', 'NNS'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('also', 'RB'), ('exploring', 'VBG'), ('"', ':'), ('several', 'JJ'), ('aspects', 'NNS'), ('of', 'IN'), ('solar', 'JJ'), (',', ','), ('"', ':'), ('wind', 'NN'), (',', ','), ('energy', 'NN'), ('storage', 'NN'), (',', ','), ('and', 'CC'), ('transmission', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Winter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   its/PRP$   research/NN   and/CC   development/NN   efforts/NNS   ,/,   the/DT   company/NN   is/VBZ   also/RB   exploring/VBG   "/:   several/JJ   aspects/NNS   of/IN   solar/JJ   ,/,   "/:   wind/NN   ,/,   energy/NN   storage/NN   ,/,   and/CC   transmission/NN   ,/,   according/VBG   to/TO   Winter/NNP   ./.)
+----------------------------------
+original sentence: 
+"Aluminum has a long history going into high tension transmission; we're evaluating that," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Aluminum', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('long', 'JJ'), ('history', 'NN'), ('going', 'VBG'), ('into', 'IN'), ('high', 'JJ'), ('tension', 'NN'), ('transmission', 'NN'), (';', ':'), ('we', 'PRP'), ("'re", 'VBP'), ('evaluating', 'VBG'), ('that', 'IN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Aluminum/NNP)   has/VBZ   a/DT   long/JJ   history/NN   going/VBG   into/IN   high/JJ   tension/NN   transmission/NN   ;/:   we/PRP   're/VBP   evaluating/VBG   that/IN   ,/,   "/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+The solar thermal product "is the one that got closest to commercialization," said Winter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('solar', 'JJ'), ('thermal', 'JJ'), ('product', 'NN'), ('"', ':'), ('is', 'VBZ'), ('the', 'DT'), ('one', 'CD'), ('that', 'WDT'), ('got', 'VBD'), ('closest', 'VBP'), ('to', 'TO'), ('commercialization', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Winter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   solar/JJ   thermal/JJ   product/NN   "/:   is/VBZ   the/DT   one/CD   that/WDT   got/VBD   closest/VBP   to/TO   commercialization/NN   ,/,   "/:   said/VBD   (PERSON Winter/NNP)   ./.)
+----------------------------------
+original sentence: 
+The company received a $2.1 million grant in 2007 from the U.S. Department of Energy to validate its system together with the National Renewable Energy Laboratory.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('received', 'VBD'), ('a', 'DT'), ('$', '$'), ('2.1', 'CD'), ('million', 'CD'), ('grant', 'JJ'), ('in', 'IN'), ('2007', 'CD'), ('from', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Department', 'NNP'), ('of', 'IN'), ('Energy', 'NNP'), ('to', 'TO'), ('validate', 'VB'), ('its', 'PRP$'), ('system', 'NN'), ('together', 'NN'), ('with', 'IN'), ('the', 'DT'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Laboratory', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   received/VBD   a/DT   $/$   2.1/CD   million/CD   grant/JJ   in/IN   2007/CD   from/IN   the/DT   (ORGANIZATION U.S./NNP Department/NNP)   of/IN   (GPE Energy/NNP)   to/TO   validate/VB   its/PRP$   system/NN   together/NN   with/IN   the/DT   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Laboratory/NNP)   ./.)
+----------------------------------
+original sentence: 
+Several solar thermal technologies are trying to break through in the market, but investors in projects that plan to utilize such systems are voicing concern over the novelty of the equipment.
+
+POS tagged sentence: 
+[('Several', 'JJ'), ('solar', 'JJ'), ('thermal', 'JJ'), ('technologies', 'NNS'), ('are', 'VBP'), ('trying', 'VBG'), ('to', 'TO'), ('break', 'VB'), ('through', 'IN'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), (',', ','), ('but', 'CC'), ('investors', 'NNS'), ('in', 'IN'), ('projects', 'NNS'), ('that', 'IN'), ('plan', 'NN'), ('to', 'TO'), ('utilize', 'VB'), ('such', 'JJ'), ('systems', 'NNS'), ('are', 'VBP'), ('voicing', 'VBG'), ('concern', 'NN'), ('over', 'IN'), ('the', 'DT'), ('novelty', 'NN'), ('of', 'IN'), ('the', 'DT'), ('equipment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Several/JJ   solar/JJ   thermal/JJ   technologies/NNS   are/VBP   trying/VBG   to/TO   break/VB   through/IN   in/IN   the/DT   market/NN   ,/,   but/CC   investors/NNS   in/IN   projects/NNS   that/IN   plan/NN   to/TO   utilize/VB   such/JJ   systems/NNS   are/VBP   voicing/VBG   concern/NN   over/IN   the/DT   novelty/NN   of/IN   the/DT   equipment/NN   ./.)
+----------------------------------
+original sentence: 
+But Winter said that Alcoa's "historical base" and ability to borrow proven technologies for this application would help "allay some of the fears around the introduction of a whole new technology.
+
+POS tagged sentence: 
+[('But', 'CC'), ('Winter', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('Alcoa', 'NNP'), ("'s", 'POS'), ('"', 'NNP'), ('historical', 'JJ'), ('base', 'NN'), ('"', ':'), ('and', 'CC'), ('ability', 'NN'), ('to', 'TO'), ('borrow', 'VB'), ('proven', 'VBN'), ('technologies', 'NNS'), ('for', 'IN'), ('this', 'DT'), ('application', 'NN'), ('would', 'MD'), ('help', 'VB'), ('"', ':'), ('allay', 'VB'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('fears', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('introduction', 'NN'), ('of', 'IN'), ('a', 'DT'), ('whole', 'JJ'), ('new', 'JJ'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (PERSON Winter/NNP)   said/VBD   that/IN   (PERSON Alcoa/NNP)   's/POS   "/NNP   historical/JJ   base/NN   "/:   and/CC   ability/NN   to/TO   borrow/VB   proven/VBN   technologies/NNS   for/IN   this/DT   application/NN   would/MD   help/VB   "/:   allay/VB   some/DT   of/IN   the/DT   fears/NNS   around/IN   the/DT   introduction/NN   of/IN   a/DT   whole/JJ   new/JJ   technology/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN Alcoa/NNP)
+	(VERB   borrow/VB   proven/VBN   technologies/NNS   for/IN   this/DT   application/NN)
+	(VERB help/VB)
+	(VERB   allay/VB   some/DT   of/IN   the/DT   fears/NNS   around/IN   the/DT   introduction/NN   of/IN   a/DT   whole/JJ   new/JJ   technology/NN)
+
+tagged sentence:
+	 allay some of the fears around the introduction of a whole new technology	res:-1
+noun phrases to consider:
+	(NOUN Winter/NNP)
+	(NOUN "/NNP historical/JJ base/NN)
+	(NOUN ability/NN)
+
+----------------------------------
+original sentence: 
+" For Alcoa, the solar thermal product has "been in the top 10 to top 15 projects in terms of levels of funding and levels of effort," said Winter.
+
+POS tagged sentence: 
+[('"', 'NN'), ('For', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('the', 'DT'), ('solar', 'JJ'), ('thermal', 'JJ'), ('product', 'NN'), ('has', 'VBZ'), ('"', ':'), ('been', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('10', 'CD'), ('to', 'TO'), ('top', 'VB'), ('15', 'CD'), ('projects', 'NNS'), ('in', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('levels', 'NNS'), ('of', 'IN'), ('funding', 'NN'), ('and', 'CC'), ('levels', 'NNS'), ('of', 'IN'), ('effort', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Winter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   For/IN   (PERSON Alcoa/NNP)   ,/,   the/DT   solar/JJ   thermal/JJ   product/NN   has/VBZ   "/:   been/VBN   in/IN   the/DT   top/JJ   10/CD   to/TO   top/VB   15/CD   projects/NNS   in/IN   terms/NNS   of/IN   levels/NNS   of/IN   funding/NN   and/CC   levels/NNS   of/IN   effort/NN   ,/,   "/:   said/VBD   (PERSON Winter/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ)
+	(VERB been/VBN in/IN the/DT top/JJ 10/CD)
+
+tagged sentence:
+	 been in the top 10	res:1
+	(VERB   top/VB   15/CD   projects/NNS   in/IN   terms/NNS   of/IN   levels/NNS   of/IN   funding/NN)
+
+tagged sentence:
+	 top 15 projects in terms of levels of funding	res:1
+	(VERB said/VBD Winter/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN the/DT solar/JJ thermal/JJ product/NN)
+	(NOUN levels/NNS)
+	(NOUN effort/NN)
+
+----------------------------------
+original sentence: 
+The executives declined to say specifically how much the company has invested in the effort.
+
+POS tagged sentence: 
+[('The', 'DT'), ('executives', 'NNS'), ('declined', 'VBD'), ('to', 'TO'), ('say', 'VB'), ('specifically', 'RB'), ('how', 'WRB'), ('much', 'RB'), ('the', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('invested', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('effort', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   executives/NNS   declined/VBD   to/TO   say/VB   specifically/RB   how/WRB   much/RB   the/DT   company/NN   has/VBZ   invested/VBN   in/IN   the/DT   effort/NN   ./.)
+----------------------------------
+original sentence: 
+The system has been in the field at NREL for about a month, said Winter.
+
+POS tagged sentence: 
+[('The', 'DT'), ('system', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('field', 'NN'), ('at', 'IN'), ('NREL', 'NNP'), ('for', 'IN'), ('about', 'IN'), ('a', 'DT'), ('month', 'NN'), (',', ','), ('said', 'VBD'), ('Winter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   system/NN   has/VBZ   been/VBN   in/IN   the/DT   field/NN   at/IN   (ORGANIZATION NREL/NNP)   for/IN   about/IN   a/DT   month/NN   ,/,   said/VBD   (PERSON Winter/NNP)   ./.)
+----------------------------------
+original sentence: 
+Researchers are collecting data to ensure that the system heats up the liquid to the necessary temperatures.
+
+POS tagged sentence: 
+[('Researchers', 'NNS'), ('are', 'VBP'), ('collecting', 'VBG'), ('data', 'NNS'), ('to', 'TO'), ('ensure', 'VB'), ('that', 'IN'), ('the', 'DT'), ('system', 'NN'), ('heats', 'NNS'), ('up', 'IN'), ('the', 'DT'), ('liquid', 'NN'), ('to', 'TO'), ('the', 'DT'), ('necessary', 'JJ'), ('temperatures', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Researchers/NNS   are/VBP   collecting/VBG   data/NNS   to/TO   ensure/VB   that/IN   the/DT   system/NN   heats/NNS   up/IN   the/DT   liquid/NN   to/TO   the/DT   necessary/JJ   temperatures/NNS   ./.)
+----------------------------------
+original sentence: 
+"We are hoping to at least meet and if not exceed the performance of the existing systems," said Winter, "But we're also expecting that from a cost standpoint this can be a significantly lower cost opportunity for solar thermal.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('are', 'VBP'), ('hoping', 'VBG'), ('to', 'TO'), ('at', 'IN'), ('least', 'JJS'), ('meet', 'NN'), ('and', 'CC'), ('if', 'IN'), ('not', 'RB'), ('exceed', 'VBN'), ('the', 'DT'), ('performance', 'NN'), ('of', 'IN'), ('the', 'DT'), ('existing', 'VBG'), ('systems', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Winter', 'NNP'), (',', ','), ('"', 'NNP'), ('But', 'CC'), ('we', 'PRP'), ("'re", 'VBP'), ('also', 'RB'), ('expecting', 'VBG'), ('that', 'IN'), ('from', 'IN'), ('a', 'DT'), ('cost', 'NN'), ('standpoint', 'NN'), ('this', 'DT'), ('can', 'MD'), ('be', 'VB'), ('a', 'DT'), ('significantly', 'RB'), ('lower', 'JJR'), ('cost', 'NN'), ('opportunity', 'NN'), ('for', 'IN'), ('solar', 'JJ'), ('thermal', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   are/VBP   hoping/VBG   to/TO   at/IN   least/JJS   meet/NN   and/CC   if/IN   not/RB   exceed/VBN   the/DT   performance/NN   of/IN   the/DT   existing/VBG   systems/NNS   ,/,   "/:   said/VBD   (PERSON Winter/NNP)   ,/,   "/NNP   But/CC   we/PRP   're/VBP   also/RB   expecting/VBG   that/IN   from/IN   a/DT   cost/NN   standpoint/NN   this/DT   can/MD   be/VB   a/DT   significantly/RB   lower/JJR   cost/NN   opportunity/NN   for/IN   solar/JJ   thermal/JJ   ./.)
+----------------------------------
+original sentence: 
+" The system would both move through production faster and be assembled in an easier way, using technology and practices from the automotive and aerospace industries, according to the executives.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('system', 'NN'), ('would', 'MD'), ('both', 'DT'), ('move', 'VB'), ('through', 'IN'), ('production', 'NN'), ('faster', 'NN'), ('and', 'CC'), ('be', 'VB'), ('assembled', 'VBN'), ('in', 'IN'), ('an', 'DT'), ('easier', 'JJR'), ('way', 'NN'), (',', ','), ('using', 'VBG'), ('technology', 'NN'), ('and', 'CC'), ('practices', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('automotive', 'JJ'), ('and', 'CC'), ('aerospace', 'NN'), ('industries', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('executives', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   system/NN   would/MD   both/DT   move/VB   through/IN   production/NN   faster/NN   and/CC   be/VB   assembled/VBN   in/IN   an/DT   easier/JJR   way/NN   ,/,   using/VBG   technology/NN   and/CC   practices/NNS   from/IN   the/DT   automotive/JJ   and/CC   aerospace/NN   industries/NNS   ,/,   according/VBG   to/TO   the/DT   executives/NNS   ./.)
+----------------------------------
+original sentence: 
+The 20% cost saving compared to standard doesn't take into account any savings Alcoa would have by drawing on its own aluminum, compared with a manufacturer that has to buy from third parties, the executives said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('20', 'CD'), ('%', 'NN'), ('cost', 'NN'), ('saving', 'VBG'), ('compared', 'VBN'), ('to', 'TO'), ('standard', 'JJ'), ('does', 'NNS'), ("n't", 'RB'), ('take', 'VB'), ('into', 'IN'), ('account', 'NN'), ('any', 'DT'), ('savings', 'NNS'), ('Alcoa', 'NNP'), ('would', 'MD'), ('have', 'VB'), ('by', 'IN'), ('drawing', 'NN'), ('on', 'IN'), ('its', 'PRP$'), ('own', 'JJ'), ('aluminum', 'NN'), (',', ','), ('compared', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('manufacturer', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('to', 'TO'), ('buy', 'VB'), ('from', 'IN'), ('third', 'JJ'), ('parties', 'NNS'), (',', ','), ('the', 'DT'), ('executives', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   20/CD   %/NN   cost/NN   saving/VBG   compared/VBN   to/TO   standard/JJ   does/NNS   n't/RB   take/VB   into/IN   account/NN   any/DT   savings/NNS   (PERSON Alcoa/NNP)   would/MD   have/VB   by/IN   drawing/NN   on/IN   its/PRP$   own/JJ   aluminum/NN   ,/,   compared/VBN   with/IN   a/DT   manufacturer/NN   that/WDT   has/VBZ   to/TO   buy/VB   from/IN   third/JJ   parties/NNS   ,/,   the/DT   executives/NNS   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB saving/VBG compared/VBN)
+	(VERB take/VB into/IN account/NN any/DT savings/NNS Alcoa/NNP)
+	(VERB have/VB by/IN drawing/NN on/IN its/PRP$ own/JJ aluminum/NN)
+	(VERB compared/VBN with/IN a/DT manufacturer/NN)
+	(VERB has/VBZ to/TO buy/VB from/IN third/JJ parties/NNS)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN 20/CD %/NN cost/NN)
+
+tagged sentence:
+	 20 % cost	res:-1
+	(NOUN standard/JJ does/NNS)
+	(NOUN executives/NNS)
+
+----------------------------------
+original sentence: 
+Results from the first phase of testing with NREL will be complete in the second quarter of this year.
+
+POS tagged sentence: 
+[('Results', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('phase', 'NN'), ('of', 'IN'), ('testing', 'NN'), ('with', 'IN'), ('NREL', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('complete', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Results/NNS   from/IN   the/DT   first/JJ   phase/NN   of/IN   testing/NN   with/IN   (ORGANIZATION NREL/NNP)   will/MD   be/VB   complete/JJ   in/IN   the/DT   second/JJ   quarter/NN   of/IN   this/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+The company will then look at how to improve the technology, the executives said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('will', 'MD'), ('then', 'RB'), ('look', 'VB'), ('at', 'IN'), ('how', 'WRB'), ('to', 'TO'), ('improve', 'VB'), ('the', 'DT'), ('technology', 'NN'), (',', ','), ('the', 'DT'), ('executives', 'NNS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   will/MD   then/RB   look/VB   at/IN   how/WRB   to/TO   improve/VB   the/DT   technology/NN   ,/,   the/DT   executives/NNS   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Dow Jones Clean Technology Insight covers news about public and private clean technology and alternative energy companies.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Jones', 'NNP'), ('Clean', 'NNP'), ('Technology', 'NNP'), ('Insight', 'NNP'), ('covers', 'NNS'), ('news', 'NN'), ('about', 'IN'), ('public', 'JJ'), ('and', 'CC'), ('private', 'JJ'), ('clean', 'NN'), ('technology', 'NN'), ('and', 'CC'), ('alternative', 'JJ'), ('energy', 'NN'), ('companies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Jones/NNP Clean/NNP Technology/NNP Insight/NNP)   covers/NNS   news/NN   about/IN   public/JJ   and/CC   private/JJ   clean/NN   technology/NN   and/CC   alternative/JJ   energy/NN   companies/NNS   ./.)
+----------------------------------
+original sentence: 
+By Yuliya Chernova, Dow Jones Clean Technology Insight; Yuliya.chernova@dowjones.com  END Dow Jones Newswires For full details on Alcoa Inc AA .
+
+POS tagged sentence: 
+[('By', 'IN'), ('Yuliya', 'NNP'), ('Chernova', 'NNP'), (',', ','), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Clean', 'NNP'), ('Technology', 'NNP'), ('Insight', 'NNP'), (';', ':'), ('Yuliya.chernova', 'NNP'), ('@', ':'), ('dowjones.com', 'JJ'), ('END', 'NN'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Newswires', 'NNP'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   (PERSON Yuliya/NNP Chernova/NNP)   ,/,   (PERSON Dow/NNP Jones/NNP Clean/NNP Technology/NNP Insight/NNP)   ;/:   Yuliya.chernova/NNP   @/:   dowjones.com/JJ   END/NN   (PERSON Dow/NNP Jones/NNP Newswires/NNP For/NNP)   full/JJ   details/NNS   on/IN   (PERSON Alcoa/NNP Inc/NNP AA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Yuliya/NNP Chernova/NNP)
+	(NOUN Dow/NNP Jones/NNP Clean/NNP Technology/NNP)
+	(NOUN Insight/NNP)
+	(NOUN Yuliya.chernova/NNP)
+	(NOUN dowjones.com/JJ END/NN Dow/NNP Jones/NNP Newswires/NNP)
+	(NOUN For/NNP full/JJ details/NNS)
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP)
+
+----------------------------------
+original sentence: 
+Alcoa Inc AA has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Inc/NNP)   AA/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP)
+
+----------------------------------
+original sentence: 
+Details on Alcoa Inc AA Short Term PowerRatings is available at Learn new strategies, how to trade in this market, and the stocks you should be focusing on each day.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Learn', 'NNP'), ('new', 'JJ'), ('strategies', 'NNS'), (',', ','), ('how', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stocks', 'NNS'), ('you', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (PERSON Alcoa/NNP Inc/NNP AA/NNP Short/NNP Term/NNP)   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION Learn/NNP)   new/JJ   strategies/NNS   ,/,   how/WRB   to/TO   trade/VB   in/IN   this/DT   market/NN   ,/,   and/CC   the/DT   stocks/NNS   you/PRP   should/MD   be/VB   focusing/VBG   on/IN   each/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN Learn/NNP new/JJ strategies/NNS)
+	(VERB trade/VB in/IN this/DT market/NN)
+	(VERB be/VB focusing/VBG on/IN each/DT day/NN)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP Short/NNP)
+	(NOUN Term/NNP PowerRatings/NNP)
+	(NOUN stocks/NNS)
+
+----------------------------------
+original sentence: 
+Join us for our  20 minute tele seminars during the week.
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('us', 'PRP'), ('for', 'IN'), ('our', 'PRP$'), ('20', 'CD'), ('minute', 'NN'), ('tele', 'NN'), ('seminars', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Join/NNP   us/PRP   for/IN   our/PRP$   20/CD   minute/NN   tele/NN   seminars/NNS   during/IN   the/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Thursday April 29 12:30 PM Hear What Kevin Haggerty Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Thursday', 'NNP'), ('April', 'NNP'), ('29', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Kevin', 'NNP'), ('Haggerty', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Thursday/NNP   April/NNP   29/CD   12/CD   :/:   30/CD   PM/NNP   Hear/NNP   What/NNP   (PERSON Kevin/NNP Haggerty/NNP Sees/NNP)   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Wednesday April 28 01:00 PM Hear What Gary Kaltbaum Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Wednesday', 'NNP'), ('April', 'NNP'), ('28', 'CD'), ('01', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Gary', 'NNP'), ('Kaltbaum', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Wednesday/NNP   April/NNP   28/CD   01/CD   :/:   00/CD   PM/NNP   Hear/NNP   What/NNP   Gary/NNP   Kaltbaum/NNP   Sees/NNP   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+* Attendance is strictly limited and are filled on a first come, first served basis. 
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Attendance', 'VB'), ('is', 'VBZ'), ('strictly', 'RB'), ('limited', 'VBN'), ('and', 'CC'), ('are', 'VBP'), ('filled', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('first', 'JJ'), ('come', 'NN'), (',', ','), ('first', 'JJ'), ('served', 'VBD'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Attendance/VB   is/VBZ   strictly/RB   limited/VBN   and/CC   are/VBP   filled/VBN   on/IN   a/DT   first/JJ   come/NN   ,/,   first/JJ   served/VBD   basis/NN   ./.)
+
+veryneg:0	neg:2	pos:2	verypos:0	total:1

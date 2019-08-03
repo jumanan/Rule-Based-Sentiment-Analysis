@@ -1,0 +1,111 @@
+
+----------------------------------
+original sentence: 
+Intel, AMD shares and competition heat up: bizjournals.com Business News MSN Money
+Make msn.com your home page
+Intel, AMD shares and competition heat up
+March 16, 2010 5:14 PM ET
+All bizjournals.com news
+Shares rose Tuesday for Intel Corp. and Advanced Micro Devices Inc. on news that the companies are heating up competition in the server market.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), (',', ','), ('AMD', 'NNP'), ('shares', 'NNS'), ('and', 'CC'), ('competition', 'NN'), ('heat', 'NN'), ('up', 'IN'), (':', ':'), ('bizjournals.com', 'JJ'), ('Business', 'NN'), ('News', 'NN'), ('MSN', 'NNP'), ('Money', 'NNP'), ('Make', 'NNP'), ('msn.com', 'NNP'), ('your', 'PRP$'), ('home', 'NN'), ('page', 'NN'), ('Intel', 'NNP'), (',', ','), ('AMD', 'NNP'), ('shares', 'NNS'), ('and', 'CC'), ('competition', 'NN'), ('heat', 'NN'), ('up', 'IN'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('5', 'CD'), (':', ':'), ('14', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('All', 'NNP'), ('bizjournals.com', 'NNP'), ('news', 'NN'), ('Shares', 'NNS'), ('rose', 'VBD'), ('Tuesday', 'NNP'), ('for', 'IN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('and', 'CC'), ('Advanced', 'NNP'), ('Micro', 'NNP'), ('Devices', 'NNPS'), ('Inc.', 'NNP'), ('on', 'IN'), ('news', 'NN'), ('that', 'IN'), ('the', 'DT'), ('companies', 'NNS'), ('are', 'VBP'), ('heating', 'VBG'), ('up', 'RP'), ('competition', 'NN'), ('in', 'IN'), ('the', 'DT'), ('server', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   ,/,   (ORGANIZATION AMD/NNP)   shares/NNS   and/CC   competition/NN   heat/NN   up/IN   :/:   bizjournals.com/JJ   (ORGANIZATION Business/NN News/NN)   (ORGANIZATION MSN/NNP Money/NNP Make/NNP)   msn.com/NNP   your/PRP$   home/NN   page/NN   (ORGANIZATION Intel/NNP)   ,/,   (ORGANIZATION AMD/NNP)   shares/NNS   and/CC   competition/NN   heat/NN   up/IN   March/NNP   16/CD   ,/,   2010/CD   5/CD   :/:   14/CD   PM/NNP   ET/NNP   All/NNP   bizjournals.com/NNP   news/NN   (PERSON Shares/NNS)   rose/VBD   Tuesday/NNP   for/IN   (ORGANIZATION Intel/NNP Corp./NNP)   and/CC   (PERSON Advanced/NNP Micro/NNP Devices/NNPS Inc./NNP)   on/IN   news/NN   that/IN   the/DT   companies/NNS   are/VBP   heating/VBG   up/RP   competition/NN   in/IN   the/DT   server/NN   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD Tuesday/NNP for/IN Intel/NNP Corp./NNP)
+	(VERB are/VBP heating/VBG)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN AMD/NNP shares/NNS)
+	(NOUN competition/NN heat/NN)
+	(NOUN bizjournals.com/JJ Business/NN News/NN MSN/NNP Money/NNP)
+	(NOUN Make/NNP msn.com/NNP)
+	(NOUN home/NN page/NN Intel/NNP)
+	(NOUN AMD/NNP shares/NNS)
+	(NOUN competition/NN heat/NN)
+	(NOUN March/NNP)
+	(NOUN 14/CD PM/NNP ET/NNP All/NNP bizjournals.com/NNP)
+	(NOUN news/NN Shares/NNS)
+	(NOUN Advanced/NNP Micro/NNP Devices/NNPS Inc./NNP)
+	(NOUN news/NN)
+	(NOUN companies/NNS)
+	(NOUN competition/NN)
+	(NOUN server/NN market/NN)
+
+----------------------------------
+original sentence: 
+Santa Clara based Intel NASDAQ:INTC closed at $22.01, up 4 percent, after going up to $22.04 during the day's trading.
+
+POS tagged sentence: 
+[('Santa', 'NNP'), ('Clara', 'NNP'), ('based', 'VBD'), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('closed', 'VBD'), ('at', 'IN'), ('$', '$'), ('22.01', 'CD'), (',', ','), ('up', 'RB'), ('4', 'CD'), ('percent', 'NN'), (',', ','), ('after', 'IN'), ('going', 'VBG'), ('up', 'RP'), ('to', 'TO'), ('$', '$'), ('22.04', 'CD'), ('during', 'IN'), ('the', 'DT'), ('day', 'NN'), ("'s", 'POS'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Santa/NNP)   (PERSON Clara/NNP)   based/VBD   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   closed/VBD   at/IN   $/$   22.01/CD   ,/,   up/RB   4/CD   percent/NN   ,/,   after/IN   going/VBG   up/RP   to/TO   $/$   22.04/CD   during/IN   the/DT   day/NN   's/POS   trading/NN   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 4/CD)
+
+tagged sentence:
+	 up 4	res:+1
+verb phrases to consider:
+	(VERB based/VBD Intel/NNP NASDAQ/NNP)
+	(VERB closed/VBD at/IN)
+	(VERB going/VBG)
+noun phrases to consider:
+	(NOUN Santa/NNP Clara/NNP)
+	(NOUN INTC/NNP)
+	(NOUN percent/NN)
+	(NOUN day/NN)
+	(NOUN trading/NN)
+
+----------------------------------
+original sentence: 
+Sunnyvale based AMD NYSE:AMD closed at $9.40, up more than 5 percent, after reaching $9.42.
+
+POS tagged sentence: 
+[('Sunnyvale', 'NNP'), ('based', 'VBD'), ('AMD', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AMD', 'NNP'), ('closed', 'VBD'), ('at', 'IN'), ('$', '$'), ('9.40', 'CD'), (',', ','), ('up', 'RB'), ('more', 'RBR'), ('than', 'IN'), ('5', 'CD'), ('percent', 'NN'), (',', ','), ('after', 'IN'), ('reaching', 'VBG'), ('$', '$'), ('9.42', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sunnyvale/NNP)   based/VBD   (ORGANIZATION AMD/NNP)   NYSE/NNP   :/:   (ORGANIZATION AMD/NNP)   closed/VBD   at/IN   $/$   9.40/CD   ,/,   up/RB   more/RBR   than/IN   5/CD   percent/NN   ,/,   after/IN   reaching/VBG   $/$   9.42/CD   ./.)
+----------------------------------
+original sentence: 
+On Tuesday Intel launched the newest version of its Xeon processor, which it said is more energy efficient and secure than earlier iterations.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Tuesday', 'NNP'), ('Intel', 'NNP'), ('launched', 'VBD'), ('the', 'DT'), ('newest', 'JJS'), ('version', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('Xeon', 'NNP'), ('processor', 'NN'), (',', ','), ('which', 'WDT'), ('it', 'PRP'), ('said', 'VBD'), ('is', 'VBZ'), ('more', 'RBR'), ('energy', 'NN'), ('efficient', 'NN'), ('and', 'CC'), ('secure', 'NN'), ('than', 'IN'), ('earlier', 'JJR'), ('iterations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Tuesday/NNP   Intel/NNP   launched/VBD   the/DT   newest/JJS   version/NN   of/IN   its/PRP$   Xeon/NNP   processor/NN   ,/,   which/WDT   it/PRP   said/VBD   is/VBZ   more/RBR   energy/NN   efficient/NN   and/CC   secure/NN   than/IN   earlier/JJR   iterations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   launched/VBD   the/DT   newest/JJS   version/NN   of/IN   its/PRP$   Xeon/NNP   processor/NN)
+	(VERB said/VBD is/VBZ)
+noun phrases to consider:
+	(NOUN Tuesday/NNP Intel/NNP)
+	(NOUN energy/NN efficient/NN)
+
+tagged sentence:
+	 energy efficient	res:1
+	(NOUN secure/NN)
+	(NOUN earlier/JJR iterations/NNS)
+
+----------------------------------
+original sentence: 
+AMD is expected later this month to introduce the latest version of its Opteron server processor.
+
+POS tagged sentence: 
+[('AMD', 'NNP'), ('is', 'VBZ'), ('expected', 'VBN'), ('later', 'JJ'), ('this', 'DT'), ('month', 'NN'), ('to', 'TO'), ('introduce', 'VB'), ('the', 'DT'), ('latest', 'JJS'), ('version', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('Opteron', 'NNP'), ('server', 'NN'), ('processor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION AMD/NNP)   is/VBZ   expected/VBN   later/JJ   this/DT   month/NN   to/TO   introduce/VB   the/DT   latest/JJS   version/NN   of/IN   its/PRP$   Opteron/NNP   server/NN   processor/NN   ./.)
+----------------------------------
+original sentence: 
+Copyright 2010 bizjournals.com
+
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2010', 'CD'), ('bizjournals.com', 'NNP')]
+
+
+ERTAGGED sentence: (S Copyright/NNP 2010/CD bizjournals.com/NNP)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:2

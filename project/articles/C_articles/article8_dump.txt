@@ -1,0 +1,166 @@
+
+----------------------------------
+original sentence: 
+Citigroup NYSE: C Cuts Earnings Estimates On Goldman Sachs NYSE: GS , Morgan Stanley NYSE: MS American Banking News
+Citigroup NYSE: C Cuts Earnings Estimates On Goldman Sachs NYSE: GS , Morgan Stanley NYSE: MS  April 6th, 2010 &bull;  &bull; by mitch  Filed Under: Shares of Wall Street banks Goldman Sachs NYSE: GS and Morgan Stanley NYSE: MS held up on Tuesday despite seeing first quarter earnings estimates cut by analysts at Citigroup NYSE: C .
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Cuts', 'NNPS'), ('Earnings', 'NNP'), ('Estimates', 'NNPS'), ('On', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MS', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Cuts', 'NNPS'), ('Earnings', 'NNP'), ('Estimates', 'NNPS'), ('On', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MS', 'NNP'), ('April', 'NNP'), ('6th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('mitch', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Shares', 'NNS'), ('of', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('banks', 'NNS'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), ('and', 'CC'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MS', 'NNP'), ('held', 'VBD'), ('up', 'RP'), ('on', 'IN'), ('Tuesday', 'NNP'), ('despite', 'IN'), ('seeing', 'VBG'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('estimates', 'VBZ'), ('cut', 'VBN'), ('by', 'IN'), ('analysts', 'NNS'), ('at', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Cuts/NNPS   (ORGANIZATION Earnings/NNP Estimates/NNPS)   On/NNP   Goldman/NNP   Sachs/NNP   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Morgan/NNP Stanley/NNP)   NYSE/NNP   :/:   MS/NNP   (ORGANIZATION American/NNP Banking/NNP News/NNP Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Cuts/NNPS   (ORGANIZATION Earnings/NNP Estimates/NNPS)   On/NNP   Goldman/NNP   Sachs/NNP   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Morgan/NNP Stanley/NNP)   NYSE/NNP   :/:   MS/NNP   April/NNP   6th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   mitch/NN   (PERSON Filed/NNP Under/NNP)   :/:   Shares/NNS   of/IN   (FACILITY Wall/NNP Street/NNP)   banks/NNS   (ORGANIZATION Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   and/CC   (PERSON Morgan/NNP Stanley/NNP)   NYSE/NNP   :/:   MS/NNP   held/VBD   up/RP   on/IN   Tuesday/NNP   despite/IN   seeing/VBG   first/JJ   quarter/NN   earnings/NNS   estimates/VBZ   cut/VBN   by/IN   analysts/NNS   at/IN   (ORGANIZATION Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB held/VBD)
+	(VERB seeing/VBG first/JJ quarter/NN earnings/NNS)
+	(VERB   estimates/VBZ   cut/VBN   by/IN   analysts/NNS   at/IN   Citigroup/NNP   NYSE/NNP)
+
+tagged sentence:
+	 estimates cut by analysts at Citigroup NYSE	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Cuts/NNPS Earnings/NNP Estimates/NNPS)
+
+tagged sentence:
+	 C Cuts Earnings Estimates	res:-1
+	(NOUN On/NNP Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Morgan/NNP Stanley/NNP NYSE/NNP)
+	(NOUN MS/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Cuts/NNPS Earnings/NNP Estimates/NNPS)
+
+tagged sentence:
+	 C Cuts Earnings Estimates	res:-1
+	(NOUN On/NNP Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Morgan/NNP Stanley/NNP NYSE/NNP)
+	(NOUN MS/NNP April/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN mitch/NN Filed/NNP Under/NNP)
+	(NOUN Shares/NNS)
+	(NOUN Wall/NNP Street/NNP banks/NNS Goldman/NNP)
+	(NOUN Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Morgan/NNP Stanley/NNP NYSE/NNP)
+	(NOUN MS/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN C/NNP)
+
+----------------------------------
+original sentence: 
+Stocks for both firms finished the session relatively flat, even with the news of a reduction to estimates.
+
+POS tagged sentence: 
+[('Stocks', 'NNS'), ('for', 'IN'), ('both', 'DT'), ('firms', 'NNS'), ('finished', 'VBD'), ('the', 'DT'), ('session', 'NN'), ('relatively', 'RB'), ('flat', 'JJ'), (',', ','), ('even', 'RB'), ('with', 'IN'), ('the', 'DT'), ('news', 'NN'), ('of', 'IN'), ('a', 'DT'), ('reduction', 'NN'), ('to', 'TO'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stocks/NNS   for/IN   both/DT   firms/NNS   finished/VBD   the/DT   session/NN   relatively/RB   flat/JJ   ,/,   even/RB   with/IN   the/DT   news/NN   of/IN   a/DT   reduction/NN   to/TO   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Citigroup analysts believe the two banks saw weakness in their underwriting business during the first quarter, along with less equity trading activity, according a research note obtained by TheStreet.com.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('analysts', 'NNS'), ('believe', 'VBP'), ('the', 'DT'), ('two', 'CD'), ('banks', 'NNS'), ('saw', 'VBD'), ('weakness', 'NN'), ('in', 'IN'), ('their', 'PRP$'), ('underwriting', 'NN'), ('business', 'NN'), ('during', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), (',', ','), ('along', 'IN'), ('with', 'IN'), ('less', 'JJR'), ('equity', 'NN'), ('trading', 'NN'), ('activity', 'NN'), (',', ','), ('according', 'VBG'), ('a', 'DT'), ('research', 'NN'), ('note', 'NN'), ('obtained', 'VBD'), ('by', 'IN'), ('TheStreet.com', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   analysts/NNS   believe/VBP   the/DT   two/CD   banks/NNS   saw/VBD   weakness/NN   in/IN   their/PRP$   underwriting/NN   business/NN   during/IN   the/DT   first/JJ   quarter/NN   ,/,   along/IN   with/IN   less/JJR   equity/NN   trading/NN   activity/NN   ,/,   according/VBG   a/DT   research/NN   note/NN   obtained/VBD   by/IN   TheStreet.com/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP the/DT two/CD banks/NNS)
+	(VERB   saw/VBD   weakness/NN   in/IN   their/PRP$   underwriting/NN   business/NN   during/IN   the/DT   first/JJ   quarter/NN)
+
+tagged sentence:
+	 saw weakness in their underwriting business during the first quarter	res:-1
+	(VERB according/VBG a/DT research/NN note/NN)
+	(VERB obtained/VBD by/IN TheStreet.com/NNP)
+noun phrases to consider:
+	(NOUN Citigroup/NNP analysts/NNS)
+	(NOUN less/JJR equity/NN trading/NN activity/NN)
+
+----------------------------------
+original sentence: 
+However, the analysts believe an uptick in commodities trading and fixed income business will help to somewhat offset the other weakness.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('the', 'DT'), ('analysts', 'NNS'), ('believe', 'VBP'), ('an', 'DT'), ('uptick', 'NN'), ('in', 'IN'), ('commodities', 'NNS'), ('trading', 'NN'), ('and', 'CC'), ('fixed', 'VBN'), ('income', 'NN'), ('business', 'NN'), ('will', 'MD'), ('help', 'VB'), ('to', 'TO'), ('somewhat', 'VB'), ('offset', 'VBN'), ('the', 'DT'), ('other', 'JJ'), ('weakness', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   the/DT   analysts/NNS   believe/VBP   an/DT   uptick/NN   in/IN   commodities/NNS   trading/NN   and/CC   fixed/VBN   income/NN   business/NN   will/MD   help/VB   to/TO   somewhat/VB   offset/VBN   the/DT   other/JJ   weakness/NN   ./.)
+----------------------------------
+original sentence: 
+For the first quarter, Citi expects Goldman Sachs to earn $4.45 a share, which is 10 cents lower than their original estimate for $4.55 a share.Â  As for Morgan Stanley, the bank believes earnings will be 58 cents a share, down from earlier estimates of 72 cents a share.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), (',', ','), ('Citi', 'NNP'), ('expects', 'VBZ'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('to', 'TO'), ('earn', 'VB'), ('$', '$'), ('4.45', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('10', 'CD'), ('cents', 'NNS'), ('lower', 'JJR'), ('than', 'IN'), ('their', 'PRP$'), ('original', 'JJ'), ('estimate', 'NN'), ('for', 'IN'), ('$', '$'), ('4.55', 'CD'), ('a', 'DT'), ('share.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('As', 'NNP'), ('for', 'IN'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), (',', ','), ('the', 'DT'), ('bank', 'NN'), ('believes', 'VBZ'), ('earnings', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('58', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('down', 'IN'), ('from', 'IN'), ('earlier', 'JJR'), ('estimates', 'NNS'), ('of', 'IN'), ('72', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   first/JJ   quarter/NN   ,/,   (PERSON Citi/NNP)   expects/VBZ   (ORGANIZATION Goldman/NNP Sachs/NNP)   to/TO   earn/VB   $/$   4.45/CD   a/DT   share/NN   ,/,   which/WDT   is/VBZ   10/CD   cents/NNS   lower/JJR   than/IN   their/PRP$   original/JJ   estimate/NN   for/IN   $/$   4.55/CD   a/DT   share./NNP   Â/NNP    /NNP   As/NNP   for/IN   (PERSON Morgan/NNP Stanley/NNP)   ,/,   the/DT   bank/NN   believes/VBZ   earnings/NNS   will/MD   be/VB   58/CD   cents/NNS   a/DT   share/NN   ,/,   down/IN   from/IN   earlier/JJR   estimates/NNS   of/IN   72/CD   cents/NNS   a/DT   share/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expects/VBZ Goldman/NNP Sachs/NNP)
+	(VERB earn/VB)
+	(VERB   is/VBZ   10/CD   cents/NNS   lower/JJR   than/IN   their/PRP$   original/JJ   estimate/NN   for/IN)
+
+tagged sentence:
+	 is 10 cents lower than their original estimate for	res:-1
+	(VERB believes/VBZ earnings/NNS)
+	(VERB be/VB 58/CD cents/NNS a/DT share/NN)
+noun phrases to consider:
+	(NOUN the/DT first/JJ quarter/NN)
+	(NOUN Citi/NNP)
+	(NOUN share/NN)
+	(NOUN share./NNP Â/NNP  /NNP As/NNP)
+	(NOUN Morgan/NNP Stanley/NNP)
+	(NOUN bank/NN)
+	(NOUN earlier/JJR estimates/NNS)
+	(NOUN 72/CD cents/NNS)
+	(NOUN share/NN)
+
+----------------------------------
+original sentence: 
+Citigroupâ€™s steeper cut on Morgan Stanleyâ€™s first quarter earnings estimate also came with reductions to full year expectations for this year as well as 2011 and 2012.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('steeper', 'JJR'), ('cut', 'NN'), ('on', 'IN'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('estimate', 'VBP'), ('also', 'RB'), ('came', 'VBD'), ('with', 'IN'), ('reductions', 'NNS'), ('to', 'TO'), ('full', 'JJ'), ('year', 'NN'), ('expectations', 'NNS'), ('for', 'IN'), ('this', 'DT'), ('year', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('2011', 'CD'), ('and', 'CC'), ('2012', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   â/:   €/:   ™/:   s/NNS   steeper/JJR   cut/NN   on/IN   (PERSON Morgan/NNP Stanley/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   first/JJ   quarter/NN   earnings/NNS   estimate/VBP   also/RB   came/VBD   with/IN   reductions/NNS   to/TO   full/JJ   year/NN   expectations/NNS   for/IN   this/DT   year/NN   as/IN   well/RB   as/IN   2011/CD   and/CC   2012/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ first/JJ quarter/NN earnings/NNS)
+	(VERB estimate/VBP also/RB came/VBD with/IN reductions/NNS)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN s/NNS steeper/JJR cut/NN)
+	(NOUN Morgan/NNP Stanley/NNP â/NNP €/NNP)
+	(NOUN ™/NNP)
+	(NOUN full/JJ year/NN expectations/NNS)
+	(NOUN year/NN)
+
+----------------------------------
+original sentence: 
+Morgan Stanley posted a loss of 93 cents a share for 2009 on net revenues of $23.4 billion.Â  However, paid back TARP funds and posted a fourth quarter profit of 14 cents a share.
+
+POS tagged sentence: 
+[('Morgan', 'NNP'), ('Stanley', 'NNP'), ('posted', 'VBD'), ('a', 'DT'), ('loss', 'NN'), ('of', 'IN'), ('93', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), ('for', 'IN'), ('2009', 'CD'), ('on', 'IN'), ('net', 'JJ'), ('revenues', 'NNS'), ('of', 'IN'), ('$', '$'), ('23.4', 'CD'), ('billion.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('However', 'NNP'), (',', ','), ('paid', 'VBD'), ('back', 'RB'), ('TARP', 'NNP'), ('funds', 'NNS'), ('and', 'CC'), ('posted', 'VBD'), ('a', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('profit', 'NN'), ('of', 'IN'), ('14', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Morgan/NNP)   (PERSON Stanley/NNP)   posted/VBD   a/DT   loss/NN   of/IN   93/CD   cents/NNS   a/DT   share/NN   for/IN   2009/CD   on/IN   net/JJ   revenues/NNS   of/IN   $/$   23.4/CD   billion./NNP   Â/NNP    /NNP   However/NNP   ,/,   paid/VBD   back/RB   (ORGANIZATION TARP/NNP)   funds/NNS   and/CC   posted/VBD   a/DT   fourth/JJ   quarter/NN   profit/NN   of/IN   14/CD   cents/NNS   a/DT   share/NN   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs performed much better, posting huge profits for the year of $22.13 a share, with $8.20 a share coming in the fourth quarter.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('performed', 'VBD'), ('much', 'JJ'), ('better', 'NN'), (',', ','), ('posting', 'VBG'), ('huge', 'JJ'), ('profits', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('year', 'NN'), ('of', 'IN'), ('$', '$'), ('22.13', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('with', 'IN'), ('$', '$'), ('8.20', 'CD'), ('a', 'DT'), ('share', 'NN'), ('coming', 'VBG'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP)   performed/VBD   much/JJ   better/NN   ,/,   posting/VBG   huge/JJ   profits/NNS   for/IN   the/DT   year/NN   of/IN   $/$   22.13/CD   a/DT   share/NN   ,/,   with/IN   $/$   8.20/CD   a/DT   share/NN   coming/VBG   in/IN   the/DT   fourth/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:5	pos:0	verypos:0	total:2

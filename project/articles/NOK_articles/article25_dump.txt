@@ -1,0 +1,307 @@
+
+----------------------------------
+original sentence: 
+Autodesk Announces Appointment of Mary T. McDowell to Board of Directors | Business Wire
+ March 30, 2010 08:03 AM Eastern Daylight Time Autodesk Announces Appointment of Mary T. McDowell to Board of Directors
+SAN RAFAEL, Calif. Autodesk, Inc.
+ NASDAQ:ADSK , a world leader in 2D and 3D design, engineering and entertainment software, announced today that Mary T. McDowell, Nokia‚Äôs executive vice president and chief development officer leading Corporate Development, has been appointed to Autodesk's board of directors.
+
+POS tagged sentence: 
+[('Autodesk', 'NNP'), ('Announces', 'NNPS'), ('Appointment', 'NNP'), ('of', 'IN'), ('Mary', 'NNP'), ('T.', 'NNP'), ('McDowell', 'NNP'), ('to', 'TO'), ('Board', 'NNP'), ('of', 'IN'), ('Directors', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('30', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('03', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Autodesk', 'NNP'), ('Announces', 'NNPS'), ('Appointment', 'NNP'), ('of', 'IN'), ('Mary', 'NNP'), ('T.', 'NNP'), ('McDowell', 'NNP'), ('to', 'TO'), ('Board', 'NNP'), ('of', 'IN'), ('Directors', 'NNP'), ('SAN', 'NNP'), ('RAFAEL', 'NNP'), (',', ','), ('Calif.', 'NNP'), ('Autodesk', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('NASDAQ', 'NNP'), (':', ':'), ('ADSK', 'NNP'), (',', ','), ('a', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('2D', 'CD'), ('and', 'CC'), ('3D', 'CD'), ('design', 'NN'), (',', ','), ('engineering', 'NN'), ('and', 'CC'), ('entertainment', 'NN'), ('software', 'NN'), (',', ','), ('announced', 'VBD'), ('today', 'NN'), ('that', 'IN'), ('Mary', 'NNP'), ('T.', 'NNP'), ('McDowell', 'NNP'), (',', ','), ('Nokia', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('chief', 'NN'), ('development', 'NN'), ('officer', 'NN'), ('leading', 'VBG'), ('Corporate', 'NNP'), ('Development', 'NNP'), (',', ','), ('has', 'VBZ'), ('been', 'VBN'), ('appointed', 'VBN'), ('to', 'TO'), ('Autodesk', 'NNP'), ("'s", 'POS'), ('board', 'NN'), ('of', 'IN'), ('directors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Autodesk/NNP)   (ORGANIZATION Announces/NNPS Appointment/NNP)   of/IN   (PERSON Mary/NNP T./NNP)   (ORGANIZATION McDowell/NNP)   to/TO   (ORGANIZATION Board/NNP)   of/IN   (ORGANIZATION Directors/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   30/CD   ,/,   2010/CD   08/CD   :/:   03/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Autodesk/NNP   Announces/NNPS   Appointment/NNP   of/IN   (PERSON Mary/NNP T./NNP)   (ORGANIZATION McDowell/NNP)   to/TO   (ORGANIZATION Board/NNP)   of/IN   (ORGANIZATION Directors/NNP)   SAN/NNP   RAFAEL/NNP   ,/,   (GPE Calif./NNP Autodesk/NNP)   ,/,   (PERSON Inc/NNP)   ./.   NASDAQ/NNP   :/:   ADSK/NNP   ,/,   a/DT   world/NN   leader/NN   in/IN   2D/CD   and/CC   3D/CD   design/NN   ,/,   engineering/NN   and/CC   entertainment/NN   software/NN   ,/,   announced/VBD   today/NN   that/IN   (PERSON Mary/NNP T./NNP McDowell/NNP)   ,/,   (PERSON Nokia/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   executive/JJ   vice/NN   president/NN   and/CC   chief/NN   development/NN   officer/NN   leading/VBG   (ORGANIZATION Corporate/NNP Development/NNP)   ,/,   has/VBZ   been/VBN   appointed/VBN   to/TO   (PERSON Autodesk/NNP)   's/POS   board/NN   of/IN   directors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD today/NN that/IN Mary/NNP T./NNP McDowell/NNP)
+	(VERB s/VBZ executive/JJ vice/NN president/NN)
+	(VERB leading/VBG Corporate/NNP Development/NNP)
+	(VERB has/VBZ been/VBN appointed/VBN)
+noun phrases to consider:
+	(NOUN Autodesk/NNP Announces/NNPS Appointment/NNP)
+	(NOUN Mary/NNP T./NNP McDowell/NNP)
+	(NOUN Board/NNP)
+	(NOUN Directors/NNP |/NNP Business/NNP Wire/NNP)
+	(NOUN March/NNP)
+	(NOUN 03/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Autodesk/NNP Announces/NNPS Appointment/NNP)
+	(NOUN Mary/NNP T./NNP McDowell/NNP)
+	(NOUN Board/NNP)
+	(NOUN Directors/NNP SAN/NNP RAFAEL/NNP)
+	(NOUN Calif./NNP Autodesk/NNP)
+	(NOUN Inc/NNP)
+	(NOUN NASDAQ/NNP)
+	(NOUN ADSK/NNP)
+	(NOUN world/NN leader/NN)
+	(NOUN 3D/CD design/NN)
+	(NOUN engineering/NN)
+	(NOUN entertainment/NN software/NN)
+	(NOUN Nokia/NNP ‚/NNP Ä/NNP ô/NNP)
+	(NOUN chief/NN development/NN officer/NN)
+	(NOUN Autodesk/NNP)
+	(NOUN board/NN)
+	(NOUN directors/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;Autodesk is delighted to welcome Mary McDowell to our board of directors&#8221;
+ "Autodesk is delighted to welcome Mary McDowell to our board of directors," said Carl Bass, president and chief executive officer of Autodesk.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Autodesk', 'NNP'), ('is', 'VBZ'), ('delighted', 'VBN'), ('to', 'TO'), ('welcome', 'VB'), ('Mary', 'NNP'), ('McDowell', 'NNP'), ('to', 'TO'), ('our', 'PRP$'), ('board', 'NN'), ('of', 'IN'), ('directors&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('"', ':'), ('Autodesk', 'NNP'), ('is', 'VBZ'), ('delighted', 'VBN'), ('to', 'TO'), ('welcome', 'VB'), ('Mary', 'NNP'), ('McDowell', 'NNP'), ('to', 'TO'), ('our', 'PRP$'), ('board', 'NN'), ('of', 'IN'), ('directors', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Carl', 'NNP'), ('Bass', 'NNP'), (',', ','), ('president', 'NN'), ('and', 'CC'), ('chief', 'NN'), ('executive', 'NN'), ('officer', 'NN'), ('of', 'IN'), ('Autodesk', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (GPE Autodesk/NNP)   is/VBZ   delighted/VBN   to/TO   welcome/VB   (PERSON Mary/NNP McDowell/NNP)   to/TO   our/PRP$   board/NN   of/IN   directors&/NNP   #/#   8221/CD   ;/:   "/:   (PERSON Autodesk/NNP)   is/VBZ   delighted/VBN   to/TO   welcome/VB   (PERSON Mary/NNP McDowell/NNP)   to/TO   our/PRP$   board/NN   of/IN   directors/NNS   ,/,   "/:   said/VBD   (PERSON Carl/NNP Bass/NNP)   ,/,   president/NN   and/CC   chief/NN   executive/NN   officer/NN   of/IN   (GPE Autodesk/NNP)   ./.)
+----------------------------------
+original sentence: 
+"Mary‚Äôs proven and distinguished record in the technology industry makes her a valued addition to our board.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Mary', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('proven', 'VBN'), ('and', 'CC'), ('distinguished', 'VBD'), ('record', 'NN'), ('in', 'IN'), ('the', 'DT'), ('technology', 'NN'), ('industry', 'NN'), ('makes', 'VBZ'), ('her', 'PRP$'), ('a', 'DT'), ('valued', 'VBN'), ('addition', 'NN'), ('to', 'TO'), ('our', 'PRP$'), ('board', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Mary/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   proven/VBN   and/CC   distinguished/VBD   record/NN   in/IN   the/DT   technology/NN   industry/NN   makes/VBZ   her/PRP$   a/DT   valued/VBN   addition/NN   to/TO   our/PRP$   board/NN   ./.)
+----------------------------------
+original sentence: 
+We look forward to Mary‚Äôs contributions and know her experience will help guide Autodesk forward.‚Äù  At Nokia, McDowell is responsible for optimizing Nokia's strategic capabilities and future growth potential, including key ecosystem relationships as part of Nokia‚Äôs commitment to open innovation and collaboration.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('look', 'VBP'), ('forward', 'RB'), ('to', 'TO'), ('Mary', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('contributions', 'NNS'), ('and', 'CC'), ('know', 'VB'), ('her', 'PRP$'), ('experience', 'NN'), ('will', 'MD'), ('help', 'VB'), ('guide', 'VB'), ('Autodesk', 'NNP'), ('forward.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('At', 'NNP'), ('Nokia', 'NNP'), (',', ','), ('McDowell', 'NNP'), ('is', 'VBZ'), ('responsible', 'JJ'), ('for', 'IN'), ('optimizing', 'NN'), ('Nokia', 'NNP'), ("'s", 'POS'), ('strategic', 'JJ'), ('capabilities', 'NNS'), ('and', 'CC'), ('future', 'JJ'), ('growth', 'NN'), ('potential', 'JJ'), (',', ','), ('including', 'VBG'), ('key', 'JJ'), ('ecosystem', 'NN'), ('relationships', 'NNS'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('commitment', 'NN'), ('to', 'TO'), ('open', 'VB'), ('innovation', 'NN'), ('and', 'CC'), ('collaboration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   look/VBP   forward/RB   to/TO   (PERSON Mary/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   contributions/NNS   and/CC   know/VB   her/PRP$   experience/NN   will/MD   help/VB   guide/VB   (PERSON Autodesk/NNP)   forward./NNP   ‚/NNP   Ä/NNP   ù/NNP   At/NNP   Nokia/NNP   ,/,   (ORGANIZATION McDowell/NNP)   is/VBZ   responsible/JJ   for/IN   optimizing/NN   (PERSON Nokia/NNP)   's/POS   strategic/JJ   capabilities/NNS   and/CC   future/JJ   growth/NN   potential/JJ   ,/,   including/VBG   key/JJ   ecosystem/NN   relationships/NNS   as/IN   part/NN   of/IN   (PERSON Nokia/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   commitment/NN   to/TO   open/VB   innovation/NN   and/CC   collaboration/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB look/VBP forward/RB to/TO Mary/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ contributions/NNS)
+	(VERB know/VB her/PRP$ experience/NN)
+	(VERB   help/VB   guide/VB   Autodesk/NNP   forward./NNP   ‚/NNP   Ä/NNP   ù/NNP   At/NNP   Nokia/NNP)
+	(VERB is/VBZ responsible/JJ for/IN optimizing/NN Nokia/NNP)
+	(VERB   including/VBG   key/JJ   ecosystem/NN   relationships/NNS   as/IN   part/NN   of/IN   Nokia/NNP   ‚/NNP   Ä/NNP   ô/NNP)
+	(VERB s/VBZ commitment/NN)
+	(VERB open/VB innovation/NN)
+
+tagged sentence:
+	 open innovation	res:1
+noun phrases to consider:
+	(NOUN McDowell/NNP)
+	(NOUN strategic/JJ capabilities/NNS)
+	(NOUN future/JJ growth/NN)
+	(NOUN potential/JJ)
+	(NOUN collaboration/NN)
+
+tagged sentence:
+	 collaboration	res:1
+
+----------------------------------
+original sentence: 
+In these capacities she oversees Corporate Strategy, Nokia Research Center, Corporate Alliances and Business Development, and Mobile Financial Services, as well as Forum Nokia & Developer Community and Compatibility & Industry Collaboration.
+
+POS tagged sentence: 
+[('In', 'IN'), ('these', 'DT'), ('capacities', 'NNS'), ('she', 'PRP'), ('oversees', 'VBZ'), ('Corporate', 'JJ'), ('Strategy', 'NNP'), (',', ','), ('Nokia', 'NNP'), ('Research', 'NNP'), ('Center', 'NNP'), (',', ','), ('Corporate', 'NNP'), ('Alliances', 'NNPS'), ('and', 'CC'), ('Business', 'NNP'), ('Development', 'NNP'), (',', ','), ('and', 'CC'), ('Mobile', 'NNP'), ('Financial', 'NNP'), ('Services', 'NNPS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('Forum', 'NNP'), ('Nokia', 'NNP'), ('&', 'CC'), ('Developer', 'NNP'), ('Community', 'NNP'), ('and', 'CC'), ('Compatibility', 'NNP'), ('&', 'CC'), ('Industry', 'NNP'), ('Collaboration', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   these/DT   capacities/NNS   she/PRP   oversees/VBZ   (ORGANIZATION Corporate/JJ Strategy/NNP)   ,/,   (PERSON Nokia/NNP Research/NNP Center/NNP)   ,/,   (ORGANIZATION Corporate/NNP Alliances/NNPS)   and/CC   (ORGANIZATION Business/NNP Development/NNP)   ,/,   and/CC   (PERSON Mobile/NNP Financial/NNP Services/NNPS)   ,/,   as/IN   well/RB   as/IN   (ORGANIZATION Forum/NNP Nokia/NNP)   &/CC   (PERSON Developer/NNP Community/NNP)   and/CC   (ORGANIZATION Compatibility/NNP)   &/CC   (ORGANIZATION Industry/NNP Collaboration/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB oversees/VBZ Corporate/JJ Strategy/NNP)
+noun phrases to consider:
+	(NOUN capacities/NNS)
+	(NOUN Nokia/NNP Research/NNP Center/NNP)
+	(NOUN Corporate/NNP Alliances/NNPS)
+	(NOUN Business/NNP Development/NNP)
+	(NOUN Mobile/NNP Financial/NNP Services/NNPS)
+	(NOUN Forum/NNP Nokia/NNP)
+	(NOUN Developer/NNP Community/NNP)
+	(NOUN Compatibility/NNP)
+	(NOUN Industry/NNP Collaboration/NNP)
+
+----------------------------------
+original sentence: 
+She is also responsible for managing certain operational elements of the integrated company and in this role oversees Nokia IT.
+
+POS tagged sentence: 
+[('She', 'PRP'), ('is', 'VBZ'), ('also', 'RB'), ('responsible', 'JJ'), ('for', 'IN'), ('managing', 'VBG'), ('certain', 'JJ'), ('operational', 'JJ'), ('elements', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('integrated', 'JJ'), ('company', 'NN'), ('and', 'CC'), ('in', 'IN'), ('this', 'DT'), ('role', 'NN'), ('oversees', 'VBZ'), ('Nokia', 'NNP'), ('IT', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   She/PRP   is/VBZ   also/RB   responsible/JJ   for/IN   managing/VBG   certain/JJ   operational/JJ   elements/NNS   of/IN   the/DT   integrated/JJ   company/NN   and/CC   in/IN   this/DT   role/NN   oversees/VBZ   Nokia/NNP   IT/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ also/RB responsible/JJ for/IN)
+	(VERB   managing/VBG   certain/JJ   operational/JJ   elements/NNS   of/IN   the/DT   integrated/JJ   company/NN)
+
+tagged sentence:
+	 managing certain operational elements of the integrated company	res:1
+	(VERB oversees/VBZ Nokia/NNP IT/PRP)
+noun phrases to consider:
+	(NOUN role/NN)
+
+----------------------------------
+original sentence: 
+Mary is also a member of the Nokia Group Executive Board.
+
+POS tagged sentence: 
+[('Mary', 'NNP'), ('is', 'VBZ'), ('also', 'RB'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Nokia', 'NNP'), ('Group', 'NNP'), ('Executive', 'NNP'), ('Board', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Mary/NNP   is/VBZ   also/RB   a/DT   member/NN   of/IN   the/DT   (ORGANIZATION Nokia/NNP Group/NNP)   Executive/NNP   Board/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   also/RB   a/DT   member/NN   of/IN   the/DT   Nokia/NNP   Group/NNP   Executive/NNP   Board/NNP)
+noun phrases to consider:
+	(NOUN Mary/NNP)
+
+----------------------------------
+original sentence: 
+She is a frequent public speaker on topics including mobile and Internet industry convergence, open ecosystems, strategy leadership, and consumer centricity.
+
+POS tagged sentence: 
+[('She', 'PRP'), ('is', 'VBZ'), ('a', 'DT'), ('frequent', 'NN'), ('public', 'NN'), ('speaker', 'NN'), ('on', 'IN'), ('topics', 'NNS'), ('including', 'VBG'), ('mobile', 'NN'), ('and', 'CC'), ('Internet', 'NNP'), ('industry', 'NN'), ('convergence', 'NN'), (',', ','), ('open', 'JJ'), ('ecosystems', 'NNS'), (',', ','), ('strategy', 'NN'), ('leadership', 'NN'), (',', ','), ('and', 'CC'), ('consumer', 'NN'), ('centricity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   She/PRP   is/VBZ   a/DT   frequent/NN   public/NN   speaker/NN   on/IN   topics/NNS   including/VBG   mobile/NN   and/CC   Internet/NNP   industry/NN   convergence/NN   ,/,   open/JJ   ecosystems/NNS   ,/,   strategy/NN   leadership/NN   ,/,   and/CC   consumer/NN   centricity/NN   ./.)
+----------------------------------
+original sentence: 
+McDowell joined Nokia in 2004 as executive vice president and general manager of Enterprise Solutions, responsible for the development and go to market of Nokia‚Äôs range of enterprise products and solutions.
+
+POS tagged sentence: 
+[('McDowell', 'NNP'), ('joined', 'VBD'), ('Nokia', 'NNP'), ('in', 'IN'), ('2004', 'CD'), ('as', 'IN'), ('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('general', 'JJ'), ('manager', 'NN'), ('of', 'IN'), ('Enterprise', 'NNP'), ('Solutions', 'NNP'), (',', ','), ('responsible', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('development', 'NN'), ('and', 'CC'), ('go', 'VB'), ('to', 'TO'), ('market', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('range', 'NN'), ('of', 'IN'), ('enterprise', 'NN'), ('products', 'NNS'), ('and', 'CC'), ('solutions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION McDowell/NNP)   joined/VBD   (PERSON Nokia/NNP)   in/IN   2004/CD   as/IN   executive/JJ   vice/NN   president/NN   and/CC   general/JJ   manager/NN   of/IN   (ORGANIZATION Enterprise/NNP Solutions/NNP)   ,/,   responsible/JJ   for/IN   the/DT   development/NN   and/CC   go/VB   to/TO   market/NN   of/IN   (PERSON Nokia/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   range/NN   of/IN   enterprise/NN   products/NNS   and/CC   solutions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   joined/VBD   Nokia/NNP   in/IN   2004/CD   as/IN   executive/JJ   vice/NN   president/NN)
+	(VERB go/VB to/TO market/NN of/IN Nokia/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ range/NN of/IN enterprise/NN products/NNS)
+noun phrases to consider:
+	(NOUN McDowell/NNP)
+	(NOUN general/JJ manager/NN)
+	(NOUN Enterprise/NNP Solutions/NNP)
+	(NOUN responsible/JJ)
+	(NOUN development/NN)
+	(NOUN solutions/NNS)
+
+----------------------------------
+original sentence: 
+Prior to joining Nokia, McDowell was Senior Vice President and General Manager of Industry Standard Servers at Hewlett Packard and Compaq.
+
+POS tagged sentence: 
+[('Prior', 'RB'), ('to', 'TO'), ('joining', 'NN'), ('Nokia', 'NNP'), (',', ','), ('McDowell', 'NNP'), ('was', 'VBD'), ('Senior', 'NNP'), ('Vice', 'NNP'), ('President', 'NNP'), ('and', 'CC'), ('General', 'NNP'), ('Manager', 'NNP'), ('of', 'IN'), ('Industry', 'NNP'), ('Standard', 'NNP'), ('Servers', 'NNP'), ('at', 'IN'), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('and', 'CC'), ('Compaq', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prior/RB   to/TO   joining/NN   (PERSON Nokia/NNP)   ,/,   (ORGANIZATION McDowell/NNP)   was/VBD   (ORGANIZATION Senior/NNP)   Vice/NNP   President/NNP   and/CC   (ORGANIZATION General/NNP Manager/NNP)   of/IN   (ORGANIZATION Industry/NNP Standard/NNP Servers/NNP)   at/IN   (ORGANIZATION Hewlett/NNP Packard/NNP)   and/CC   (ORGANIZATION Compaq/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD Senior/NNP Vice/NNP President/NNP)
+noun phrases to consider:
+	(NOUN joining/NN Nokia/NNP)
+	(NOUN McDowell/NNP)
+	(NOUN General/NNP Manager/NNP)
+	(NOUN Industry/NNP Standard/NNP Servers/NNP)
+	(NOUN Hewlett/NNP Packard/NNP)
+	(NOUN Compaq/NNP)
+
+----------------------------------
+original sentence: 
+During her 17 year career at HP Compaq, McDowell had a successful track record of building new business and is widely respected as an industry innovator.
+
+POS tagged sentence: 
+[('During', 'IN'), ('her', 'PRP$'), ('17', 'CD'), ('year', 'NN'), ('career', 'NN'), ('at', 'IN'), ('HP', 'NNP'), ('Compaq', 'NNP'), (',', ','), ('McDowell', 'NNP'), ('had', 'VBD'), ('a', 'DT'), ('successful', 'JJ'), ('track', 'NN'), ('record', 'NN'), ('of', 'IN'), ('building', 'NN'), ('new', 'JJ'), ('business', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('widely', 'RB'), ('respected', 'VBN'), ('as', 'IN'), ('an', 'DT'), ('industry', 'NN'), ('innovator', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   her/PRP$   17/CD   year/NN   career/NN   at/IN   (ORGANIZATION HP/NNP Compaq/NNP)   ,/,   (ORGANIZATION McDowell/NNP)   had/VBD   a/DT   successful/JJ   track/NN   record/NN   of/IN   building/NN   new/JJ   business/NN   and/CC   is/VBZ   widely/RB   respected/VBN   as/IN   an/DT   industry/NN   innovator/NN   ./.)
+----------------------------------
+original sentence: 
+McDowell was named as one of the 10 ‚ÄúTop Women in Wireless‚Äù in July 2008 by .
+
+POS tagged sentence: 
+[('McDowell', 'NNP'), ('was', 'VBD'), ('named', 'VBN'), ('as', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('10', 'CD'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('Top', 'NNP'), ('Women', 'NNP'), ('in', 'IN'), ('Wireless', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('in', 'IN'), ('July', 'NNP'), ('2008', 'CD'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION McDowell/NNP)   was/VBD   named/VBN   as/IN   one/CD   of/IN   the/DT   10/CD   ‚/CD   Ä/CD   ú/CD   Top/NNP   Women/NNP   in/IN   (ORGANIZATION Wireless/NNP)   ‚/NNP   Ä/NNP   ù/NNP   in/IN   July/NNP   2008/CD   by/IN   ./.)
+----------------------------------
+original sentence: 
+McDowell holds a bachelor‚Äôs degree in computer science from the University of Illinois.
+
+POS tagged sentence: 
+[('McDowell', 'NNP'), ('holds', 'NNS'), ('a', 'DT'), ('bachelor', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('degree', 'VBP'), ('in', 'IN'), ('computer', 'NN'), ('science', 'NN'), ('from', 'IN'), ('the', 'DT'), ('University', 'NNP'), ('of', 'IN'), ('Illinois', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION McDowell/NNP)   holds/NNS   a/DT   bachelor/NN   ‚/:   Ä/:   ô/:   s/NNS   degree/VBP   in/IN   computer/NN   science/NN   from/IN   the/DT   (ORGANIZATION University/NNP)   of/IN   (GPE Illinois/NNP)   ./.)
+----------------------------------
+original sentence: 
+Autodesk, Inc., is a world leader in 2D and , engineering and entertainment software for the manufacturing, building and construction, and media and entertainment markets.
+
+POS tagged sentence: 
+[('Autodesk', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('is', 'VBZ'), ('a', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('2D', 'CD'), ('and', 'CC'), (',', ','), ('engineering', 'NN'), ('and', 'CC'), ('entertainment', 'NN'), ('software', 'NN'), ('for', 'IN'), ('the', 'DT'), ('manufacturing', 'VBG'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('and', 'CC'), ('media', 'NNS'), ('and', 'CC'), ('entertainment', 'NN'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Autodesk/NNP)   ,/,   Inc./NNP   ,/,   is/VBZ   a/DT   world/NN   leader/NN   in/IN   2D/CD   and/CC   ,/,   engineering/NN   and/CC   entertainment/NN   software/NN   for/IN   the/DT   manufacturing/VBG   ,/,   building/NN   and/CC   construction/NN   ,/,   and/CC   media/NNS   and/CC   entertainment/NN   markets/NNS   ./.)
+----------------------------------
+original sentence: 
+Since its introduction of AutoCAD software in 1982, Autodesk continues to develop the broadest portfolio of state of the art software to help customers experience their ideas digitally before they are built.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('its', 'PRP$'), ('introduction', 'NN'), ('of', 'IN'), ('AutoCAD', 'NNP'), ('software', 'NN'), ('in', 'IN'), ('1982', 'CD'), (',', ','), ('Autodesk', 'NNP'), ('continues', 'VBZ'), ('to', 'TO'), ('develop', 'VB'), ('the', 'DT'), ('broadest', 'JJS'), ('portfolio', 'NN'), ('of', 'IN'), ('state', 'NN'), ('of', 'IN'), ('the', 'DT'), ('art', 'NN'), ('software', 'NN'), ('to', 'TO'), ('help', 'VB'), ('customers', 'NNS'), ('experience', 'VB'), ('their', 'PRP$'), ('ideas', 'NNS'), ('digitally', 'RB'), ('before', 'IN'), ('they', 'PRP'), ('are', 'VBP'), ('built', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   its/PRP$   introduction/NN   of/IN   (ORGANIZATION AutoCAD/NNP)   software/NN   in/IN   1982/CD   ,/,   (PERSON Autodesk/NNP)   continues/VBZ   to/TO   develop/VB   the/DT   broadest/JJS   portfolio/NN   of/IN   state/NN   of/IN   the/DT   art/NN   software/NN   to/TO   help/VB   customers/NNS   experience/VB   their/PRP$   ideas/NNS   digitally/RB   before/IN   they/PRP   are/VBP   built/VBN   ./.)
+----------------------------------
+original sentence: 
+Fortune 100 companies ‚Äì as well as the last 15 Academy Award winners for Best Visual Effects ‚Äì use  tools to design, visualize and simulate their ideas to save time and money, enhance quality and foster innovation for competitive advantage.
+
+POS tagged sentence: 
+[('Fortune', 'NNP'), ('100', 'CD'), ('companies', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x93', ':'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('15', 'CD'), ('Academy', 'NNP'), ('Award', 'NNP'), ('winners', 'NNS'), ('for', 'IN'), ('Best', 'NNP'), ('Visual', 'NNP'), ('Effects', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x93', 'NNP'), ('use', 'NN'), ('tools', 'NNS'), ('to', 'TO'), ('design', 'VB'), (',', ','), ('visualize', 'VB'), ('and', 'CC'), ('simulate', 'VB'), ('their', 'PRP$'), ('ideas', 'NNS'), ('to', 'TO'), ('save', 'VB'), ('time', 'NN'), ('and', 'CC'), ('money', 'NN'), (',', ','), ('enhance', 'NN'), ('quality', 'NN'), ('and', 'CC'), ('foster', 'NN'), ('innovation', 'NN'), ('for', 'IN'), ('competitive', 'JJ'), ('advantage', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Fortune/NNP   100/CD   companies/NNS   ‚/:   Ä/:   ì/:   as/IN   well/RB   as/IN   the/DT   last/JJ   15/CD   (PERSON Academy/NNP Award/NNP)   winners/NNS   for/IN   (PERSON Best/NNP Visual/NNP Effects/NNP)   ‚/NNP   Ä/NNP   ì/NNP   use/NN   tools/NNS   to/TO   design/VB   ,/,   visualize/VB   and/CC   simulate/VB   their/PRP$   ideas/NNS   to/TO   save/VB   time/NN   and/CC   money/NN   ,/,   enhance/NN   quality/NN   and/CC   foster/NN   innovation/NN   for/IN   competitive/JJ   advantage/NN   ./.)
+----------------------------------
+original sentence: 
+For additional information about Autodesk, visit Autodesk and AutoCAD are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates in the USA and/or other countries.
+
+POS tagged sentence: 
+[('For', 'IN'), ('additional', 'JJ'), ('information', 'NN'), ('about', 'IN'), ('Autodesk', 'NNP'), (',', ','), ('visit', 'NN'), ('Autodesk', 'NNP'), ('and', 'CC'), ('AutoCAD', 'NNP'), ('are', 'VBP'), ('registered', 'VBN'), ('trademarks', 'NNS'), ('or', 'CC'), ('trademarks', 'NNS'), ('of', 'IN'), ('Autodesk', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('and/or', 'NNP'), ('its', 'PRP$'), ('subsidiaries', 'NNS'), ('and/or', 'JJ'), ('affiliates', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('USA', 'NNP'), ('and/or', 'NNP'), ('other', 'JJ'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   additional/JJ   information/NN   about/IN   (PERSON Autodesk/NNP)   ,/,   visit/NN   (PERSON Autodesk/NNP)   and/CC   (ORGANIZATION AutoCAD/NNP)   are/VBP   registered/VBN   trademarks/NNS   or/CC   trademarks/NNS   of/IN   (GPE Autodesk/NNP)   ,/,   Inc./NNP   ,/,   and/or/NNP   its/PRP$   subsidiaries/NNS   and/or/JJ   affiliates/NNS   in/IN   the/DT   (ORGANIZATION USA/NNP)   and/or/NNP   other/JJ   countries/NNS   ./.)
+----------------------------------
+original sentence: 
+All other brand names, product names, or trademarks belong to their respective holders.
+
+POS tagged sentence: 
+[('All', 'DT'), ('other', 'JJ'), ('brand', 'NN'), ('names', 'NNS'), (',', ','), ('product', 'NN'), ('names', 'NNS'), (',', ','), ('or', 'CC'), ('trademarks', 'NNS'), ('belong', 'VBP'), ('to', 'TO'), ('their', 'PRP$'), ('respective', 'JJ'), ('holders', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   other/JJ   brand/NN   names/NNS   ,/,   product/NN   names/NNS   ,/,   or/CC   trademarks/NNS   belong/VBP   to/TO   their/PRP$   respective/JJ   holders/NNS   ./.)
+----------------------------------
+original sentence: 
+Autodesk reserves the right to alter product offerings and specifications at any time without notice, and is not responsible for typographical or graphical errors that may appear in this document.
+
+POS tagged sentence: 
+[('Autodesk', 'NNP'), ('reserves', 'NNS'), ('the', 'DT'), ('right', 'NN'), ('to', 'TO'), ('alter', 'VB'), ('product', 'NN'), ('offerings', 'NNS'), ('and', 'CC'), ('specifications', 'NNS'), ('at', 'IN'), ('any', 'DT'), ('time', 'NN'), ('without', 'IN'), ('notice', 'NN'), (',', ','), ('and', 'CC'), ('is', 'VBZ'), ('not', 'RB'), ('responsible', 'JJ'), ('for', 'IN'), ('typographical', 'JJ'), ('or', 'CC'), ('graphical', 'JJ'), ('errors', 'NNS'), ('that', 'WDT'), ('may', 'MD'), ('appear', 'VB'), ('in', 'IN'), ('this', 'DT'), ('document', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Autodesk/NNP)   reserves/NNS   the/DT   right/NN   to/TO   alter/VB   product/NN   offerings/NNS   and/CC   specifications/NNS   at/IN   any/DT   time/NN   without/IN   notice/NN   ,/,   and/CC   is/VBZ   not/RB   responsible/JJ   for/IN   typographical/JJ   or/CC   graphical/JJ   errors/NNS   that/WDT   may/MD   appear/VB   in/IN   this/DT   document/NN   ./.)
+----------------------------------
+original sentence: 
+¬© 2010 Autodesk, Inc. All rights reserved.
+
+POS tagged sentence: 
+[('\xc2', 'NN'), ('\xa9', '``'), ('2010', 'CD'), ('Autodesk', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('All', 'NNP'), ('rights', 'NNS'), ('reserved', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ¬/NN   ©/``   2010/CD   Autodesk/NNP   ,/,   Inc./NNP   All/NNP   rights/NNS   reserved/VBD   ./.)
+----------------------------------
+original sentence: 
+Contacts  Autodesk, Inc.
+Pam Pollace, 415 547 2441
+pam.pollace@autodesk.com
+Investor Contact:
+David Gennarelli, 415 507 6033
+david.gennarelli@autodesk.com
+ http://www.businesswire.com/news/home/20100330005652/en/Autodesk Announces Appointment Mary T. McDowell Board
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Contacts', 'NNS'), ('Autodesk', 'VBP'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('Pam', 'NNP'), ('Pollace', 'NNP'), (',', ','), ('415', 'CD'), ('547', 'CD'), ('2441', 'CD'), ('pam.pollace', 'NN'), ('@', ':'), ('autodesk.com', 'JJ'), ('Investor', 'NNP'), ('Contact', 'NNP'), (':', ':'), ('David', 'NNP'), ('Gennarelli', 'NNP'), (',', ','), ('415', 'CD'), ('507', 'CD'), ('6033', 'CD'), ('david.gennarelli', 'NNP'), ('@', 'NNP'), ('autodesk.com', 'NNP'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100330005652/en/Autodesk', 'JJ'), ('Announces', 'NNS'), ('Appointment', 'NNP'), ('Mary', 'NNP'), ('T.', 'NNP'), ('McDowell', 'NNP'), ('Board', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Contacts/NNS   Autodesk/VBP   ,/,   (PERSON Inc/NNP)   ./.   (PERSON Pam/NNP Pollace/NNP)   ,/,   415/CD   547/CD   2441/CD   pam.pollace/NN   @/:   autodesk.com/JJ   Investor/NNP   Contact/NNP   :/:   (PERSON David/NNP Gennarelli/NNP)   ,/,   415/CD   507/CD   6033/CD   david.gennarelli/NNP   @/NNP   autodesk.com/NNP   http/NN   :/:   //www.businesswire.com/news/home/20100330005652/en/Autodesk/JJ   Announces/NNS   Appointment/NNP   Mary/NNP   T./NNP   (ORGANIZATION     McDowell/NNP     Board/NNP     Company/NNP     Information/NNP     Center/NNP     More/NNP     Business/NNP     Wire/NNP)   sites/VBZ)
+
+veryneg:0	neg:0	pos:3	verypos:0	total:1

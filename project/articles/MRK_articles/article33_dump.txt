@@ -1,0 +1,220 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Trading Idea Is Merck close to Resistance?
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Trading', 'NN'), ('Idea', 'NNP'), ('Is', 'NNP'), ('Merck', 'NNP'), ('close', 'NN'), ('to', 'TO'), ('Resistance', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Trading/NN   (PERSON Idea/NNP Is/NNP Merck/NNP)   close/NN   to/TO   (GPE Resistance/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Trading/NN Idea/NNP Is/NNP)
+	(NOUN Merck/NNP close/NN)
+	(NOUN Resistance/NNP)
+
+----------------------------------
+original sentence: 
+| Trading Ideas
+ Trading Idea Is Merck close to Resistance?
+
+POS tagged sentence: 
+[('|', 'NN'), ('Trading', 'NN'), ('Ideas', 'NNP'), ('Trading', 'NNP'), ('Idea', 'NNP'), ('Is', 'NNP'), ('Merck', 'NNP'), ('close', 'NN'), ('to', 'TO'), ('Resistance', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   |/NN   Trading/NN   (PERSON Ideas/NNP Trading/NNP Idea/NNP Is/NNP Merck/NNP)   close/NN   to/TO   (GPE Resistance/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN |/NN Trading/NN Ideas/NNP Trading/NNP)
+	(NOUN Idea/NNP Is/NNP Merck/NNP close/NN)
+	(NOUN Resistance/NNP)
+
+----------------------------------
+original sentence: 
+Written by Christian Paolinetti  Thursday, 25 March 2010 05:28 New York, March 25th TradersHuddle.com Shares of Merck & Co. Inc. NYSE:MRK are trading very close to calculated resistance at $39.04 with the current price action closing at just $38.01 placing the stock near levels that make it difficult to buy.
+
+POS tagged sentence: 
+[('Written', 'NNP'), ('by', 'IN'), ('Christian', 'NNP'), ('Paolinetti', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('25', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('28', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('March', 'NNP'), ('25th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('are', 'VBP'), ('trading', 'VBG'), ('very', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('calculated', 'VBN'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('39.04', 'CD'), ('with', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('price', 'NN'), ('action', 'NN'), ('closing', 'VBG'), ('at', 'IN'), ('just', 'RB'), ('$', '$'), ('38.01', 'CD'), ('placing', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('near', 'IN'), ('levels', 'NNS'), ('that', 'WDT'), ('make', 'VBP'), ('it', 'PRP'), ('difficult', 'JJ'), ('to', 'TO'), ('buy', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Written/NNP)   by/IN   (PERSON Christian/NNP Paolinetti/NNP)   Thursday/NNP   ,/,   25/CD   March/NNP   2010/CD   05/CD   :/:   28/CD   (GPE New/NNP York/NNP)   ,/,   March/NNP   25th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   Inc./NNP   NYSE/NNP   :/:   MRK/NNP   are/VBP   trading/VBG   very/RB   close/JJ   to/TO   calculated/VBN   resistance/NN   at/IN   $/$   39.04/CD   with/IN   the/DT   current/JJ   price/NN   action/NN   closing/VBG   at/IN   just/RB   $/$   38.01/CD   placing/VBG   the/DT   stock/NN   near/IN   levels/NNS   that/WDT   make/VBP   it/PRP   difficult/JJ   to/TO   buy/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP trading/VBG very/RB close/JJ)
+
+tagged sentence:
+	 are trading very close	res:1
+	(VERB calculated/VBN resistance/NN at/IN)
+	(VERB closing/VBG at/IN just/RB)
+	(VERB placing/VBG the/DT stock/NN near/IN levels/NNS)
+	(VERB make/VBP it/PRP difficult/JJ)
+
+tagged sentence:
+	 make it difficult	res:-1
+	(VERB buy/VB)
+noun phrases to consider:
+	(NOUN Written/NNP)
+	(NOUN Christian/NNP Paolinetti/NNP Thursday/NNP)
+	(NOUN 25/CD March/NNP)
+	(NOUN 28/CD New/NNP York/NNP)
+	(NOUN March/NNP)
+	(NOUN 25th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN the/DT current/JJ price/NN action/NN)
+
+----------------------------------
+original sentence: 
+Merck & Co., Inc. NYSE:MRK , the global pharmaceutical company that develops, manufactures, and markets a broad range of human and animal health products.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), (',', ','), ('the', 'DT'), ('global', 'JJ'), ('pharmaceutical', 'JJ'), ('company', 'NN'), ('that', 'WDT'), ('develops', 'VBZ'), (',', ','), ('manufactures', 'NNS'), (',', ','), ('and', 'CC'), ('markets', 'NNS'), ('a', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('human', 'JJ'), ('and', 'CC'), ('animal', 'JJ'), ('health', 'NN'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   MRK/NNP   ,/,   the/DT   global/JJ   pharmaceutical/JJ   company/NN   that/WDT   develops/VBZ   ,/,   manufactures/NNS   ,/,   and/CC   markets/NNS   a/DT   broad/JJ   range/NN   of/IN   human/JJ   and/CC   animal/JJ   health/NN   products/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB develops/VBZ)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN the/DT global/JJ pharmaceutical/JJ company/NN)
+	(NOUN manufactures/NNS)
+	(NOUN markets/NNS)
+	(NOUN a/DT broad/JJ range/NN)
+	(NOUN human/JJ)
+	(NOUN animal/JJ health/NN products/NNS)
+
+----------------------------------
+original sentence: 
+Merck's products include Zocor for treatment of elevated cholesterol, Propecia for treatment for male pattern hair loss, Fosamax for preventive treatment of osteoporosis, and Singulair for treatment of asthma.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ("'s", 'POS'), ('products', 'NNS'), ('include', 'VBP'), ('Zocor', 'NNP'), ('for', 'IN'), ('treatment', 'NN'), ('of', 'IN'), ('elevated', 'VBN'), ('cholesterol', 'NN'), (',', ','), ('Propecia', 'NNP'), ('for', 'IN'), ('treatment', 'NN'), ('for', 'IN'), ('male', 'JJ'), ('pattern', 'NN'), ('hair', 'NN'), ('loss', 'NN'), (',', ','), ('Fosamax', 'NNP'), ('for', 'IN'), ('preventive', 'JJ'), ('treatment', 'NN'), ('of', 'IN'), ('osteoporosis', 'NN'), (',', ','), ('and', 'CC'), ('Singulair', 'NNP'), ('for', 'IN'), ('treatment', 'NN'), ('of', 'IN'), ('asthma', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   's/POS   products/NNS   include/VBP   (PERSON Zocor/NNP)   for/IN   treatment/NN   of/IN   elevated/VBN   cholesterol/NN   ,/,   (GPE Propecia/NNP)   for/IN   treatment/NN   for/IN   male/JJ   pattern/NN   hair/NN   loss/NN   ,/,   (PERSON Fosamax/NNP)   for/IN   preventive/JJ   treatment/NN   of/IN   osteoporosis/NN   ,/,   and/CC   (ORGANIZATION Singulair/NNP)   for/IN   treatment/NN   of/IN   asthma/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VBP Zocor/NNP for/IN treatment/NN of/IN)
+	(VERB elevated/VBN cholesterol/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN products/NNS)
+	(NOUN Propecia/NNP)
+	(NOUN treatment/NN)
+	(NOUN male/JJ pattern/NN hair/NN loss/NN)
+	(NOUN Fosamax/NNP)
+	(NOUN preventive/JJ treatment/NN)
+	(NOUN osteoporosis/NN)
+	(NOUN Singulair/NNP)
+	(NOUN treatment/NN)
+	(NOUN asthma/NN)
+
+----------------------------------
+original sentence: 
+Merck was founded in 1891 and is headquartered in Whitehouse Station, New Jersey.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('was', 'VBD'), ('founded', 'VBN'), ('in', 'IN'), ('1891', 'CD'), ('and', 'CC'), ('is', 'VBZ'), ('headquartered', 'VBN'), ('in', 'IN'), ('Whitehouse', 'NNP'), ('Station', 'NNP'), (',', ','), ('New', 'NNP'), ('Jersey', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Merck/NNP)   was/VBD   founded/VBN   in/IN   1891/CD   and/CC   is/VBZ   headquartered/VBN   in/IN   (ORGANIZATION Whitehouse/NNP Station/NNP)   ,/,   (GPE New/NNP Jersey/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD founded/VBN in/IN 1891/CD)
+	(VERB is/VBZ headquartered/VBN in/IN Whitehouse/NNP Station/NNP)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN New/NNP Jersey/NNP)
+
+----------------------------------
+original sentence: 
+Merck's current stock range is defined by current calculated support defined at $36.05 and by the resistance level at $39.04, the stock is clearly over extended from support, making it difficult to establishing new long positions at this level.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ("'s", 'POS'), ('current', 'JJ'), ('stock', 'NN'), ('range', 'NN'), ('is', 'VBZ'), ('defined', 'VBN'), ('by', 'IN'), ('current', 'JJ'), ('calculated', 'VBN'), ('support', 'NN'), ('defined', 'VBN'), ('at', 'IN'), ('$', '$'), ('36.05', 'CD'), ('and', 'CC'), ('by', 'IN'), ('the', 'DT'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('39.04', 'CD'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('clearly', 'RB'), ('over', 'IN'), ('extended', 'JJ'), ('from', 'IN'), ('support', 'NN'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('difficult', 'VBD'), ('to', 'TO'), ('establishing', 'NN'), ('new', 'JJ'), ('long', 'JJ'), ('positions', 'NNS'), ('at', 'IN'), ('this', 'DT'), ('level', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   's/POS   current/JJ   stock/NN   range/NN   is/VBZ   defined/VBN   by/IN   current/JJ   calculated/VBN   support/NN   defined/VBN   at/IN   $/$   36.05/CD   and/CC   by/IN   the/DT   resistance/NN   level/NN   at/IN   $/$   39.04/CD   ,/,   the/DT   stock/NN   is/VBZ   clearly/RB   over/IN   extended/JJ   from/IN   support/NN   ,/,   making/VBG   it/PRP   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ defined/VBN by/IN current/JJ)
+	(VERB calculated/VBN support/NN)
+	(VERB defined/VBN at/IN)
+	(VERB is/VBZ clearly/RB over/IN extended/JJ from/IN support/NN)
+
+tagged sentence:
+	 is clearly over extended from support	res:1
+	(VERB making/VBG it/PRP)
+	(VERB   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN)
+
+tagged sentence:
+	 difficult to establishing new long positions at this level	res:-1
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN current/JJ stock/NN range/NN)
+	(NOUN resistance/NN level/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Traders don't have a clear entry point for Merck, as the stock is well above support, however, as the stock pulls back towards $36.05 it will definitely provide a reference point to establish a trade.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('have', 'VB'), ('a', 'DT'), ('clear', 'JJ'), ('entry', 'NN'), ('point', 'NN'), ('for', 'IN'), ('Merck', 'NNP'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('well', 'RB'), ('above', 'IN'), ('support', 'NN'), (',', ','), ('however', 'RB'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('pulls', 'NNS'), ('back', 'VBP'), ('towards', 'NNS'), ('$', '$'), ('36.05', 'CD'), ('it', 'PRP'), ('will', 'MD'), ('definitely', 'RB'), ('provide', 'VB'), ('a', 'DT'), ('reference', 'NN'), ('point', 'NN'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('trade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   (PERSON Merck/NNP)   ,/,   as/IN   the/DT   stock/NN   is/VBZ   well/RB   above/IN   support/NN   ,/,   however/RB   ,/,   as/IN   the/DT   stock/NN   pulls/NNS   back/VBP   towards/NNS   $/$   36.05/CD   it/PRP   will/MD   definitely/RB   provide/VB   a/DT   reference/NN   point/NN   to/TO   establish/VB   a/DT   trade/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   Merck/NNP)
+	(VERB is/VBZ well/RB above/IN support/NN)
+
+tagged sentence:
+	 is well above support	res:1
+	(VERB back/VBP towards/NNS)
+	(VERB provide/VB a/DT reference/NN point/NN)
+	(VERB establish/VB a/DT trade/NN)
+noun phrases to consider:
+	(NOUN Traders/NNS)
+	(NOUN stock/NN)
+	(NOUN stock/NN pulls/NNS)
+
+----------------------------------
+original sentence: 
+On the other hand if the stock decides to break above resistance level at $39.04 then traders will get an opportunity to enter Merck stock by establishing a position as the stock moves to a higher range.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('hand', 'NN'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('decides', 'VBZ'), ('to', 'TO'), ('break', 'VB'), ('above', 'IN'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('39.04', 'CD'), ('then', 'RB'), ('traders', 'NNS'), ('will', 'MD'), ('get', 'VB'), ('an', 'DT'), ('opportunity', 'NN'), ('to', 'TO'), ('enter', 'VB'), ('Merck', 'NNP'), ('stock', 'NN'), ('by', 'IN'), ('establishing', 'NN'), ('a', 'DT'), ('position', 'NN'), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('moves', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('higher', 'JJR'), ('range', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   other/JJ   hand/NN   if/IN   the/DT   stock/NN   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN   $/$   39.04/CD   then/RB   traders/NNS   will/MD   get/VB   an/DT   opportunity/NN   to/TO   enter/VB   (ORGANIZATION Merck/NNP)   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS   to/TO   a/DT   higher/JJR   range/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN)
+
+tagged sentence:
+	 decides to break above resistance level at	res:-1
+	(VERB get/VB an/DT opportunity/NN)
+
+tagged sentence:
+	 get an opportunity	res:1
+	(VERB   enter/VB   Merck/NNP   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS)
+
+tagged sentence:
+	 enter Merck stock by establishing a position as the stock moves	res:1
+noun phrases to consider:
+	(NOUN the/DT other/JJ hand/NN)
+	(NOUN stock/NN)
+	(NOUN traders/NNS)
+	(NOUN a/DT higher/JJR range/NN)
+
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:3	pos:5	verypos:0	total:0

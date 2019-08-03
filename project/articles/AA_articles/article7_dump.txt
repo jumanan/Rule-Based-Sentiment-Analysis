@@ -1,0 +1,169 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Trading Idea Alcoa Broke Resistance, What to Expect?
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Trading', 'NN'), ('Idea', 'NNP'), ('Alcoa', 'NNP'), ('Broke', 'NNP'), ('Resistance', 'NNP'), (',', ','), ('What', 'WP'), ('to', 'TO'), ('Expect', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Trading/NN   (PERSON Idea/NNP Alcoa/NNP Broke/NNP Resistance/NNP)   ,/,   What/WP   to/TO   (GPE Expect/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Trading/NN Idea/NNP Alcoa/NNP)
+	(NOUN Broke/NNP Resistance/NNP)
+	(NOUN Expect/NNP)
+
+----------------------------------
+original sentence: 
+| Trading Ideas
+ Trading Idea Alcoa Broke Resistance, What to Expect?
+
+POS tagged sentence: 
+[('|', 'NN'), ('Trading', 'NN'), ('Ideas', 'NNP'), ('Trading', 'NNP'), ('Idea', 'NNP'), ('Alcoa', 'NNP'), ('Broke', 'NNP'), ('Resistance', 'NNP'), (',', ','), ('What', 'WP'), ('to', 'TO'), ('Expect', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   |/NN   Trading/NN   (PERSON     Ideas/NNP     Trading/NNP     Idea/NNP     Alcoa/NNP     Broke/NNP     Resistance/NNP)   ,/,   What/WP   to/TO   (GPE Expect/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN |/NN Trading/NN Ideas/NNP Trading/NNP)
+	(NOUN Idea/NNP Alcoa/NNP Broke/NNP Resistance/NNP)
+	(NOUN Expect/NNP)
+
+----------------------------------
+original sentence: 
+Written by Christoper Lynn  Wednesday, 07 April 2010 07:32 New York, April 7th TradersHuddle.com Shares of Alcoa, Inc. NYSE:AA closed the trading session at $15.03 just above calculated resistance at $14.81 moving to what appears to be a new range, as this move will clearly raise the attention of momentum buyers.
+
+POS tagged sentence: 
+[('Written', 'NNP'), ('by', 'IN'), ('Christoper', 'NNP'), ('Lynn', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('07', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('32', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('April', 'NNP'), ('7th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('$', '$'), ('15.03', 'CD'), ('just', 'RB'), ('above', 'IN'), ('calculated', 'VBN'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('14.81', 'CD'), ('moving', 'VBG'), ('to', 'TO'), ('what', 'WP'), ('appears', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('range', 'NN'), (',', ','), ('as', 'IN'), ('this', 'DT'), ('move', 'NN'), ('will', 'MD'), ('clearly', 'RB'), ('raise', 'VB'), ('the', 'DT'), ('attention', 'NN'), ('of', 'IN'), ('momentum', 'NN'), ('buyers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Written/NNP)   by/IN   (PERSON Christoper/NNP Lynn/NNP)   Wednesday/NNP   ,/,   07/CD   April/NNP   2010/CD   07/CD   :/:   32/CD   (GPE New/NNP York/NNP)   ,/,   April/NNP   7th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (GPE Alcoa/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   AA/NNP   closed/VBD   the/DT   trading/NN   session/NN   at/IN   $/$   15.03/CD   just/RB   above/IN   calculated/VBN   resistance/NN   at/IN   $/$   14.81/CD   moving/VBG   to/TO   what/WP   appears/NNS   to/TO   be/VB   a/DT   new/JJ   range/NN   ,/,   as/IN   this/DT   move/NN   will/MD   clearly/RB   raise/VB   the/DT   attention/NN   of/IN   momentum/NN   buyers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB closed/VBD the/DT trading/NN session/NN at/IN)
+	(VERB calculated/VBN resistance/NN at/IN)
+	(VERB moving/VBG to/TO)
+	(VERB be/VB a/DT new/JJ range/NN)
+	(VERB raise/VB the/DT attention/NN of/IN momentum/NN buyers/NNS)
+noun phrases to consider:
+	(NOUN Written/NNP)
+	(NOUN Christoper/NNP Lynn/NNP Wednesday/NNP)
+	(NOUN 07/CD April/NNP)
+	(NOUN 32/CD New/NNP York/NNP)
+	(NOUN April/NNP)
+	(NOUN 7th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN AA/NNP)
+	(NOUN appears/NNS)
+	(NOUN move/NN)
+
+----------------------------------
+original sentence: 
+Alcoa Inc. produces primary aluminum, fabricated aluminum, and alumina, and participates in mining, refining, smelting, fabricating, and recycling.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Inc.', 'NNP'), ('produces', 'VBZ'), ('primary', 'JJ'), ('aluminum', 'NN'), (',', ','), ('fabricated', 'VBD'), ('aluminum', 'NN'), (',', ','), ('and', 'CC'), ('alumina', 'NN'), (',', ','), ('and', 'CC'), ('participates', 'VBZ'), ('in', 'IN'), ('mining', 'NN'), (',', ','), ('refining', 'VBG'), (',', ','), ('smelting', 'VBG'), (',', ','), ('fabricating', 'VBG'), (',', ','), ('and', 'CC'), ('recycling', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Inc./NNP)   produces/VBZ   primary/JJ   aluminum/NN   ,/,   fabricated/VBD   aluminum/NN   ,/,   and/CC   alumina/NN   ,/,   and/CC   participates/VBZ   in/IN   mining/NN   ,/,   refining/VBG   ,/,   smelting/VBG   ,/,   fabricating/VBG   ,/,   and/CC   recycling/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB produces/VBZ primary/JJ aluminum/NN)
+	(VERB fabricated/VBD aluminum/NN)
+	(VERB participates/VBZ in/IN mining/NN)
+	(VERB refining/VBG)
+	(VERB smelting/VBG)
+	(VERB fabricating/VBG)
+	(VERB recycling/VBG)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Inc./NNP)
+	(NOUN alumina/NN)
+
+----------------------------------
+original sentence: 
+Its products are used in aircraft, automobiles, commercial transportation, building and construction, oil and gas, defense, and other industrial applications.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('products', 'NNS'), ('are', 'VBP'), ('used', 'VBN'), ('in', 'IN'), ('aircraft', 'NN'), (',', ','), ('automobiles', 'NNS'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('oil', 'NN'), ('and', 'CC'), ('gas', 'NN'), (',', ','), ('defense', 'NN'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('industrial', 'JJ'), ('applications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   products/NNS   are/VBP   used/VBN   in/IN   aircraft/NN   ,/,   automobiles/NNS   ,/,   commercial/JJ   transportation/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   oil/NN   and/CC   gas/NN   ,/,   defense/NN   ,/,   and/CC   other/JJ   industrial/JJ   applications/NNS   ./.)
+----------------------------------
+original sentence: 
+Alcoa was founded in 1888 and serves customers worldwide.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('was', 'VBD'), ('founded', 'VBN'), ('in', 'IN'), ('1888', 'CD'), ('and', 'CC'), ('serves', 'NNS'), ('customers', 'NNS'), ('worldwide', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   was/VBD   founded/VBN   in/IN   1888/CD   and/CC   serves/NNS   customers/NNS   worldwide/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD founded/VBN in/IN 1888/CD)
+	(VERB worldwide/VBP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN serves/NNS customers/NNS)
+
+----------------------------------
+original sentence: 
+Alcoa's stock was trading in a well defined range with support at $13.90 and resistance at $14.81, given that this range was broken traders will be closely monitoring the stock?s price action for clues of direction.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('was', 'VBD'), ('trading', 'NN'), ('in', 'IN'), ('a', 'DT'), ('well', 'RB'), ('defined', 'VBN'), ('range', 'NN'), ('with', 'IN'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('13.90', 'CD'), ('and', 'CC'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('14.81', 'CD'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('this', 'DT'), ('range', 'NN'), ('was', 'VBD'), ('broken', 'VBN'), ('traders', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('closely', 'RB'), ('monitoring', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('?', '.'), ('s', 'NNS'), ('price', 'NN'), ('action', 'NN'), ('for', 'IN'), ('clues', 'NNS'), ('of', 'IN'), ('direction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   's/POS   stock/NN   was/VBD   trading/NN   in/IN   a/DT   well/RB   defined/VBN   range/NN   with/IN   support/NN   at/IN   $/$   13.90/CD   and/CC   resistance/NN   at/IN   $/$   14.81/CD   ,/,   given/VBN   that/IN   this/DT   range/NN   was/VBD   broken/VBN   traders/NNS   will/MD   be/VB   closely/RB   monitoring/VBG   the/DT   stock/NN   ?/.   s/NNS   price/NN   action/NN   for/IN   clues/NNS   of/IN   direction/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD trading/NN in/IN a/DT well/RB)
+	(VERB defined/VBN range/NN with/IN support/NN at/IN)
+	(VERB given/VBN that/IN this/DT range/NN)
+	(VERB was/VBD broken/VBN traders/NNS)
+
+tagged sentence:
+	 was broken traders	res:-1
+	(VERB be/VB closely/RB monitoring/VBG the/DT stock/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN stock/NN)
+	(NOUN resistance/NN)
+	(NOUN s/NNS price/NN action/NN)
+	(NOUN clues/NNS)
+	(NOUN direction/NN)
+
+----------------------------------
+original sentence: 
+From a technical perspective it can be expected that previous resistance becomes support, as the new range gets defined, however, given that Alcoa's stock is still near the broken resistance level, traders will be focusing on $14.81 to see if the stock holds the breakout without rolling over.
+
+POS tagged sentence: 
+[('From', 'IN'), ('a', 'DT'), ('technical', 'JJ'), ('perspective', 'NN'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('expected', 'VBN'), ('that', 'DT'), ('previous', 'JJ'), ('resistance', 'NN'), ('becomes', 'VBZ'), ('support', 'NN'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('range', 'NN'), ('gets', 'NNS'), ('defined', 'VBD'), (',', ','), ('however', 'RB'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('Alcoa', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('is', 'VBZ'), ('still', 'RB'), ('near', 'IN'), ('the', 'DT'), ('broken', 'NN'), ('resistance', 'NN'), ('level', 'NN'), (',', ','), ('traders', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('$', '$'), ('14.81', 'CD'), ('to', 'TO'), ('see', 'VB'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('holds', 'NNS'), ('the', 'DT'), ('breakout', 'NN'), ('without', 'IN'), ('rolling', 'NN'), ('over', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   From/IN   a/DT   technical/JJ   perspective/NN   it/PRP   can/MD   be/VB   expected/VBN   that/DT   previous/JJ   resistance/NN   becomes/VBZ   support/NN   ,/,   as/IN   the/DT   new/JJ   range/NN   gets/NNS   defined/VBD   ,/,   however/RB   ,/,   given/VBN   that/IN   (PERSON Alcoa/NNP)   's/POS   stock/NN   is/VBZ   still/RB   near/IN   the/DT   broken/NN   resistance/NN   level/NN   ,/,   traders/NNS   will/MD   be/VB   focusing/VBG   on/IN   $/$   14.81/CD   to/TO   see/VB   if/IN   the/DT   stock/NN   holds/NNS   the/DT   breakout/NN   without/IN   rolling/NN   over/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB expected/VBN that/DT previous/JJ resistance/NN)
+	(VERB becomes/VBZ support/NN)
+	(VERB defined/VBD)
+	(VERB given/VBN that/IN Alcoa/NNP)
+	(VERB   is/VBZ   still/RB   near/IN   the/DT   broken/NN   resistance/NN   level/NN)
+
+tagged sentence:
+	 is still near the broken resistance level	res:-1
+	(VERB be/VB focusing/VBG on/IN)
+	(VERB   see/VB   if/IN   the/DT   stock/NN   holds/NNS   the/DT   breakout/NN   without/IN   rolling/NN   over/IN)
+noun phrases to consider:
+	(NOUN a/DT technical/JJ perspective/NN)
+	(NOUN the/DT new/JJ range/NN gets/NNS)
+	(NOUN stock/NN)
+	(NOUN traders/NNS)
+
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:0

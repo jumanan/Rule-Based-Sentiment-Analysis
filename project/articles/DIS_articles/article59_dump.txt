@@ -1,0 +1,488 @@
+
+----------------------------------
+original sentence: 
+Disney High Speed Support May Boost Japan, China Trainmakers BusinessWeek
+Within the last week
+Within the last 2 weeks
+Within the last 30 days
+Within the last 60 days
+Within the last 90 days
+Within the last 180 days
+Within the last year
+Within the last two years
+Friday April 23, 2010
+Disney High Speed Support May Boost Japan, China Trainmakers
+March 16, 2010, 6:14 AM EDT
+More From Businessweek
+ March 16 Bloomberg Walt Disney World in Florida may be the next stop for bullet train makers in Japan and China.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('High', 'NNP'), ('Speed', 'NNP'), ('Support', 'NNP'), ('May', 'NNP'), ('Boost', 'NNP'), ('Japan', 'NNP'), (',', ','), ('China', 'NNP'), ('Trainmakers', 'NNP'), ('BusinessWeek', 'NNP'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('week', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('2', 'CD'), ('weeks', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('60', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('90', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('180', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('year', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('years', 'NNS'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('Disney', 'NNP'), ('High', 'NNP'), ('Speed', 'NNP'), ('Support', 'NNP'), ('May', 'NNP'), ('Boost', 'NNP'), ('Japan', 'NNP'), (',', ','), ('China', 'NNP'), ('Trainmakers', 'NNP'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('6', 'CD'), (':', ':'), ('14', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('More', 'NNP'), ('From', 'NNP'), ('Businessweek', 'NNP'), ('March', 'NNP'), ('16', 'CD'), ('Bloomberg', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('World', 'NNP'), ('in', 'IN'), ('Florida', 'NNP'), ('may', 'MD'), ('be', 'VB'), ('the', 'DT'), ('next', 'JJ'), ('stop', 'NN'), ('for', 'IN'), ('bullet', 'NN'), ('train', 'NN'), ('makers', 'NNS'), ('in', 'IN'), ('Japan', 'NNP'), ('and', 'CC'), ('China', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   (PERSON High/NNP Speed/NNP Support/NNP)   May/NNP   Boost/NNP   (GPE Japan/NNP)   ,/,   (GPE China/NNP)   Trainmakers/NNP   BusinessWeek/NNP   Within/NNP   the/DT   last/JJ   week/NN   Within/IN   the/DT   last/JJ   2/CD   weeks/NNS   Within/NNP   the/DT   last/JJ   30/CD   days/NNS   Within/NNP   the/DT   last/JJ   60/CD   days/NNS   Within/NNP   the/DT   last/JJ   90/CD   days/NNS   Within/NNP   the/DT   last/JJ   180/CD   days/NNS   Within/NNP   the/DT   last/JJ   year/NN   Within/IN   the/DT   last/JJ   two/CD   years/NNS   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   (ORGANIZATION Disney/NNP High/NNP)   Speed/NNP   Support/NNP   May/NNP   Boost/NNP   (GPE Japan/NNP)   ,/,   (GPE China/NNP)   Trainmakers/NNP   March/NNP   16/CD   ,/,   2010/CD   ,/,   6/CD   :/:   14/CD   AM/NNP   EDT/NNP   More/NNP   From/NNP   Businessweek/NNP   March/NNP   16/CD   (ORGANIZATION Bloomberg/NNP Walt/NNP Disney/NNP)   World/NNP   in/IN   (GPE Florida/NNP)   may/MD   be/VB   the/DT   next/JJ   stop/NN   for/IN   bullet/NN   train/NN   makers/NNS   in/IN   (GPE Japan/NNP)   and/CC   (GPE China/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   be/VB   the/DT   next/JJ   stop/NN   for/IN   bullet/NN   train/NN   makers/NNS   in/IN   Japan/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP High/NNP Speed/NNP Support/NNP)
+
+tagged sentence:
+	 Disney High Speed Support	res:1
+	(NOUN May/NNP Boost/NNP Japan/NNP)
+
+tagged sentence:
+	 May Boost Japan	res:1
+	(NOUN China/NNP Trainmakers/NNP BusinessWeek/NNP Within/NNP)
+	(NOUN the/DT last/JJ week/NN)
+	(NOUN the/DT last/JJ 2/CD weeks/NNS Within/NNP)
+	(NOUN the/DT last/JJ 30/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 60/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 90/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 180/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ year/NN)
+	(NOUN the/DT last/JJ two/CD years/NNS Friday/NNP April/NNP)
+	(NOUN 2010/CD Disney/NNP High/NNP Speed/NNP Support/NNP)
+
+tagged sentence:
+	 2010 Disney High Speed Support	res:1
+	(NOUN May/NNP Boost/NNP Japan/NNP)
+
+tagged sentence:
+	 May Boost Japan	res:1
+	(NOUN China/NNP Trainmakers/NNP March/NNP)
+	(NOUN 14/CD AM/NNP EDT/NNP More/NNP From/NNP)
+	(NOUN Businessweek/NNP March/NNP)
+	(NOUN 16/CD Bloomberg/NNP Walt/NNP Disney/NNP World/NNP)
+	(NOUN Florida/NNP)
+	(NOUN China/NNP)
+
+----------------------------------
+original sentence: 
+Central Japan Railway Co. and China South Locomotive & Rolling Stock Corp. are competing for the $8 billion President Barack Obama granted for 13 high speed corridors across the U.S., including a Tampa Orlando line that may include a station at the Walt Disney Co. resort in Orlando.
+
+POS tagged sentence: 
+[('Central', 'NNP'), ('Japan', 'NNP'), ('Railway', 'NNP'), ('Co.', 'NNP'), ('and', 'CC'), ('China', 'NNP'), ('South', 'NNP'), ('Locomotive', 'NNP'), ('&', 'CC'), ('Rolling', 'NNP'), ('Stock', 'NNP'), ('Corp.', 'NNP'), ('are', 'VBP'), ('competing', 'VBG'), ('for', 'IN'), ('the', 'DT'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('President', 'NNP'), ('Barack', 'NNP'), ('Obama', 'NNP'), ('granted', 'VBD'), ('for', 'IN'), ('13', 'CD'), ('high', 'JJ'), ('speed', 'NN'), ('corridors', 'NNS'), ('across', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), (',', ','), ('including', 'VBG'), ('a', 'DT'), ('Tampa', 'NNP'), ('Orlando', 'NNP'), ('line', 'NN'), ('that', 'WDT'), ('may', 'MD'), ('include', 'VB'), ('a', 'DT'), ('station', 'NN'), ('at', 'IN'), ('the', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co.', 'NNP'), ('resort', 'NN'), ('in', 'IN'), ('Orlando', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Central/NNP)   (PERSON Japan/NNP Railway/NNP)   Co./NNP   and/CC   (GPE China/NNP)   (LOCATION South/NNP Locomotive/NNP)   &/CC   (ORGANIZATION Rolling/NNP Stock/NNP)   Corp./NNP   are/VBP   competing/VBG   for/IN   the/DT   $/$   8/CD   billion/CD   President/NNP   (PERSON Barack/NNP Obama/NNP)   granted/VBD   for/IN   13/CD   high/JJ   speed/NN   corridors/NNS   across/IN   the/DT   (GPE U.S./NNP)   ,/,   including/VBG   a/DT   Tampa/NNP   Orlando/NNP   line/NN   that/WDT   may/MD   include/VB   a/DT   station/NN   at/IN   the/DT   (ORGANIZATION Walt/NNP Disney/NNP)   Co./NNP   resort/NN   in/IN   (GPE Orlando/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP competing/VBG for/IN the/DT)
+	(VERB   granted/VBD   for/IN   13/CD   high/JJ   speed/NN   corridors/NNS   across/IN   the/DT   U.S./NNP)
+	(VERB including/VBG a/DT Tampa/NNP Orlando/NNP line/NN)
+	(VERB   include/VB   a/DT   station/NN   at/IN   the/DT   Walt/NNP   Disney/NNP   Co./NNP   resort/NN   in/IN   Orlando/NNP)
+noun phrases to consider:
+	(NOUN Central/NNP Japan/NNP Railway/NNP Co./NNP)
+	(NOUN China/NNP South/NNP Locomotive/NNP)
+	(NOUN Rolling/NNP Stock/NNP Corp./NNP)
+	(NOUN billion/CD President/NNP Barack/NNP Obama/NNP)
+
+----------------------------------
+original sentence: 
+The Japanese company, also known as JR Central, is eyeing North America as a shrinking population at home limits its growth.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Japanese', 'JJ'), ('company', 'NN'), (',', ','), ('also', 'RB'), ('known', 'VBN'), ('as', 'IN'), ('JR', 'NNP'), ('Central', 'NNP'), (',', ','), ('is', 'VBZ'), ('eyeing', 'VBG'), ('North', 'NNP'), ('America', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('shrinking', 'NN'), ('population', 'NN'), ('at', 'IN'), ('home', 'NN'), ('limits', 'NNS'), ('its', 'PRP$'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE Japanese/JJ)   company/NN   ,/,   also/RB   known/VBN   as/IN   (ORGANIZATION JR/NNP Central/NNP)   ,/,   is/VBZ   eyeing/VBG   (GPE North/NNP America/NNP)   as/IN   a/DT   shrinking/NN   population/NN   at/IN   home/NN   limits/NNS   its/PRP$   growth/NN   ./.)
+----------------------------------
+original sentence: 
+France&rsquo;s Alstom SA, Germany&rsquo;s Siemens AG and Canada&rsquo;s Bombardier Inc. also want to sell trains, tracks and operating equipment under an initiative that Transportation Secretary Ray LaHood called &ldquo;an absolute game changer for American transportation.&rdquo; The high speed corridors include New York Buffalo, New York; Los Angeles San Francisco; and Chicago Detroit.
+
+POS tagged sentence: 
+[('France&rsquo', 'NN'), (';', ':'), ('s', 'NNS'), ('Alstom', 'NNP'), ('SA', 'NNP'), (',', ','), ('Germany&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Siemens', 'NNPS'), ('AG', 'NNP'), ('and', 'CC'), ('Canada&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Bombardier', 'NNP'), ('Inc.', 'NNP'), ('also', 'RB'), ('want', 'VBP'), ('to', 'TO'), ('sell', 'VB'), ('trains', 'NNS'), (',', ','), ('tracks', 'NNS'), ('and', 'CC'), ('operating', 'NN'), ('equipment', 'NN'), ('under', 'IN'), ('an', 'DT'), ('initiative', 'JJ'), ('that', 'IN'), ('Transportation', 'NNP'), ('Secretary', 'NNP'), ('Ray', 'NNP'), ('LaHood', 'NNP'), ('called', 'VBD'), ('&ldquo', 'NNP'), (';', ':'), ('an', 'DT'), ('absolute', 'JJ'), ('game', 'NN'), ('changer', 'NN'), ('for', 'IN'), ('American', 'JJ'), ('transportation.&rdquo', 'NN'), (';', ':'), ('The', 'DT'), ('high', 'JJ'), ('speed', 'NN'), ('corridors', 'NNS'), ('include', 'VBP'), ('New', 'NNP'), ('York', 'NNP'), ('Buffalo', 'NNP'), (',', ','), ('New', 'NNP'), ('York', 'NNP'), (';', ':'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('San', 'NNP'), ('Francisco', 'NNP'), (';', ':'), ('and', 'CC'), ('Chicago', 'NNP'), ('Detroit', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE France&rsquo/NN)   ;/:   s/NNS   (PERSON Alstom/NNP SA/NNP)   ,/,   (GPE Germany&rsquo/NNP)   ;/:   s/NNS   (ORGANIZATION Siemens/NNPS)   AG/NNP   and/CC   Canada&rsquo/NNP   ;/:   s/NNS   (ORGANIZATION Bombardier/NNP Inc./NNP)   also/RB   want/VBP   to/TO   sell/VB   trains/NNS   ,/,   tracks/NNS   and/CC   operating/NN   equipment/NN   under/IN   an/DT   initiative/JJ   that/IN   (ORGANIZATION Transportation/NNP)   Secretary/NNP   (PERSON Ray/NNP LaHood/NNP)   called/VBD   &ldquo/NNP   ;/:   an/DT   absolute/JJ   game/NN   changer/NN   for/IN   (GPE American/JJ)   transportation.&rdquo/NN   ;/:   The/DT   high/JJ   speed/NN   corridors/NNS   include/VBP   (GPE New/NNP York/NNP Buffalo/NNP)   ,/,   (GPE New/NNP York/NNP)   ;/:   (GPE Los/NNP Angeles/NNP)   (PERSON San/NNP Francisco/NNP)   ;/:   and/CC   (GPE Chicago/NNP Detroit/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;High speed rail is going to be a big industry in the U.S.,&rdquo; said Masayuki Kubota, who oversees the equivalent of $1.8 billion in assets at Daiwa SB Investments Ltd. in Tokyo.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('High', 'NNP'), ('speed', 'NN'), ('rail', 'NN'), ('is', 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('big', 'JJ'), ('industry', 'NN'), ('in', 'IN'), ('the', 'DT'), ('U.S.,&rdquo', 'NNP'), (';', ':'), ('said', 'VBD'), ('Masayuki', 'NNP'), ('Kubota', 'NNP'), (',', ','), ('who', 'WP'), ('oversees', 'NNS'), ('the', 'DT'), ('equivalent', 'NN'), ('of', 'IN'), ('$', '$'), ('1.8', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('assets', 'NNS'), ('at', 'IN'), ('Daiwa', 'NNP'), ('SB', 'NNP'), ('Investments', 'NNP'), ('Ltd.', 'NNP'), ('in', 'IN'), ('Tokyo', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   High/NNP   speed/NN   rail/NN   is/VBZ   going/VBG   to/TO   be/VB   a/DT   big/JJ   industry/NN   in/IN   the/DT   (GPE U.S.,&rdquo/NNP)   ;/:   said/VBD   (PERSON Masayuki/NNP Kubota/NNP)   ,/,   who/WP   oversees/NNS   the/DT   equivalent/NN   of/IN   $/$   1.8/CD   billion/CD   in/IN   assets/NNS   at/IN   (ORGANIZATION Daiwa/NNP)   SB/NNP   Investments/NNP   Ltd./NNP   in/IN   (GPE Tokyo/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;A lot of companies are going to try and get a piece of the action.&rdquo;
+ &lsquo;Top of Our List&rsquo;
+ Bullet trains are generally considered to be those traveling faster than 180 mph 290 kph .
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('A', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('companies', 'NNS'), ('are', 'VBP'), ('going', 'VBG'), ('to', 'TO'), ('try', 'NN'), ('and', 'CC'), ('get', 'VB'), ('a', 'DT'), ('piece', 'NN'), ('of', 'IN'), ('the', 'DT'), ('action.&rdquo', 'NNP'), (';', ':'), ('&lsquo', 'NNP'), (';', ':'), ('Top', 'NNP'), ('of', 'IN'), ('Our', 'NNP'), ('List&rsquo', 'NNP'), (';', ':'), ('Bullet', 'NNP'), ('trains', 'VBZ'), ('are', 'VBP'), ('generally', 'RB'), ('considered', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('those', 'DT'), ('traveling', 'VBG'), ('faster', 'JJR'), ('than', 'IN'), ('180', 'CD'), ('mph', 'NN'), ('290', 'CD'), ('kph', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   A/DT   lot/NN   of/IN   companies/NNS   are/VBP   going/VBG   to/TO   try/NN   and/CC   get/VB   a/DT   piece/NN   of/IN   the/DT   action.&rdquo/NNP   ;/:   &lsquo/NNP   ;/:   Top/NNP   of/IN   Our/NNP   List&rsquo/NNP   ;/:   (PERSON Bullet/NNP)   trains/VBZ   are/VBP   generally/RB   considered/VBN   to/TO   be/VB   those/DT   traveling/VBG   faster/JJR   than/IN   180/CD   mph/NN   290/CD   kph/NN   ./.)
+----------------------------------
+original sentence: 
+Japan is home to the world&rsquo;s first &ldquo;shinkansen&rdquo; and the biggest high speed network, carrying 308 million people in the 12 months through March 2009.
+
+POS tagged sentence: 
+[('Japan', 'NNP'), ('is', 'VBZ'), ('home', 'NN'), ('to', 'TO'), ('the', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('first', 'RB'), ('&ldquo', 'JJ'), (';', ':'), ('shinkansen&rdquo', 'JJ'), (';', ':'), ('and', 'CC'), ('the', 'DT'), ('biggest', 'JJS'), ('high', 'JJ'), ('speed', 'NN'), ('network', 'NN'), (',', ','), ('carrying', 'VBG'), ('308', 'CD'), ('million', 'CD'), ('people', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('12', 'CD'), ('months', 'NNS'), ('through', 'IN'), ('March', 'NNP'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Japan/NNP)   is/VBZ   home/NN   to/TO   the/DT   world&rsquo/NNP   ;/:   s/NNS   first/RB   &ldquo/JJ   ;/:   shinkansen&rdquo/JJ   ;/:   and/CC   the/DT   biggest/JJS   high/JJ   speed/NN   network/NN   ,/,   carrying/VBG   308/CD   million/CD   people/NNS   in/IN   the/DT   12/CD   months/NNS   through/IN   March/NNP   2009/CD   ./.)
+----------------------------------
+original sentence: 
+JR Central runs Japan&rsquo;s busiest bullet train line.
+
+POS tagged sentence: 
+[('JR', 'NNP'), ('Central', 'NNP'), ('runs', 'VBZ'), ('Japan&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('busiest', 'VBP'), ('bullet', 'JJ'), ('train', 'NN'), ('line', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   JR/NNP   Central/NNP   runs/VBZ   (GPE Japan&rsquo/NNP)   ;/:   s/NNS   busiest/VBP   bullet/JJ   train/NN   line/NN   ./.)
+----------------------------------
+original sentence: 
+By comparison, Amtrak&rsquo;s Acela Express, which can reach 150 mph between Washington and Boston, carried 3.4 million passengers in fiscal 2008.
+
+POS tagged sentence: 
+[('By', 'IN'), ('comparison', 'NN'), (',', ','), ('Amtrak&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Acela', 'NNP'), ('Express', 'NNP'), (',', ','), ('which', 'WDT'), ('can', 'MD'), ('reach', 'VB'), ('150', 'CD'), ('mph', 'NN'), ('between', 'IN'), ('Washington', 'NNP'), ('and', 'CC'), ('Boston', 'NNP'), (',', ','), ('carried', 'VBD'), ('3.4', 'CD'), ('million', 'CD'), ('passengers', 'NNS'), ('in', 'IN'), ('fiscal', 'JJ'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   comparison/NN   ,/,   Amtrak&rsquo/NNP   ;/:   s/NNS   (PERSON Acela/NNP Express/NNP)   ,/,   which/WDT   can/MD   reach/VB   150/CD   mph/NN   between/IN   (GPE Washington/NNP)   and/CC   (GPE Boston/NNP)   ,/,   carried/VBD   3.4/CD   million/CD   passengers/NNS   in/IN   fiscal/JJ   2008/CD   ./.)
+----------------------------------
+original sentence: 
+Amtrak, which received $112 million of the Obama package to upgrade its Northeast Corridor, uses trains from Alstom and Bombardier, the world&rsquo;s biggest maker of passenger locomotives.
+
+POS tagged sentence: 
+[('Amtrak', 'NNP'), (',', ','), ('which', 'WDT'), ('received', 'VBD'), ('$', '$'), ('112', 'CD'), ('million', 'CD'), ('of', 'IN'), ('the', 'DT'), ('Obama', 'NNP'), ('package', 'NN'), ('to', 'TO'), ('upgrade', 'VB'), ('its', 'PRP$'), ('Northeast', 'NNP'), ('Corridor', 'NNP'), (',', ','), ('uses', 'VBZ'), ('trains', 'NNS'), ('from', 'IN'), ('Alstom', 'NNP'), ('and', 'CC'), ('Bombardier', 'NNP'), (',', ','), ('the', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('biggest', 'VBP'), ('maker', 'NN'), ('of', 'IN'), ('passenger', 'NN'), ('locomotives', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Amtrak/NNP)   ,/,   which/WDT   received/VBD   $/$   112/CD   million/CD   of/IN   the/DT   (ORGANIZATION Obama/NNP)   package/NN   to/TO   upgrade/VB   its/PRP$   (LOCATION Northeast/NNP Corridor/NNP)   ,/,   uses/VBZ   trains/NNS   from/IN   (GPE Alstom/NNP)   and/CC   (GPE Bombardier/NNP)   ,/,   the/DT   world&rsquo/NNP   ;/:   s/NNS   biggest/VBP   maker/NN   of/IN   passenger/NN   locomotives/NNS   ./.)
+----------------------------------
+original sentence: 
+Nagoya based JR Central is working with U.S. Japan High Speed Rail, backed by Washington based New Magellan Ventures LLC, to sell its train systems in North America.
+
+POS tagged sentence: 
+[('Nagoya', 'NNP'), ('based', 'VBD'), ('JR', 'NNP'), ('Central', 'NNP'), ('is', 'VBZ'), ('working', 'VBG'), ('with', 'IN'), ('U.S.', 'NNP'), ('Japan', 'NNP'), ('High', 'NNP'), ('Speed', 'NNP'), ('Rail', 'NNP'), (',', ','), ('backed', 'VBD'), ('by', 'IN'), ('Washington', 'NNP'), ('based', 'VBN'), ('New', 'NNP'), ('Magellan', 'NNP'), ('Ventures', 'NNP'), ('LLC', 'NNP'), (',', ','), ('to', 'TO'), ('sell', 'VB'), ('its', 'PRP$'), ('train', 'NN'), ('systems', 'NNS'), ('in', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nagoya/NNP)   based/VBD   (ORGANIZATION JR/NNP Central/NNP)   is/VBZ   working/VBG   with/IN   (GPE U.S./NNP)   Japan/NNP   High/NNP   Speed/NNP   Rail/NNP   ,/,   backed/VBD   by/IN   (GPE Washington/NNP)   based/VBN   (GPE New/NNP)   (PERSON Magellan/NNP Ventures/NNP LLC/NNP)   ,/,   to/TO   sell/VB   its/PRP$   train/NN   systems/NNS   in/IN   (GPE North/NNP America/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Florida is at the top of our list,&rdquo; JR Central Chairman Yoshiyuki Kasai said yesterday.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Florida', 'NNP'), ('is', 'VBZ'), ('at', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('of', 'IN'), ('our', 'PRP$'), ('list,&rdquo', 'JJ'), (';', ':'), ('JR', 'NNP'), ('Central', 'NNP'), ('Chairman', 'NNP'), ('Yoshiyuki', 'NNP'), ('Kasai', 'NNP'), ('said', 'VBD'), ('yesterday', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   (GPE Florida/NNP)   is/VBZ   at/IN   the/DT   top/JJ   of/IN   our/PRP$   list,&rdquo/JJ   ;/:   (ORGANIZATION JR/NNP Central/NNP)   Chairman/NNP   (PERSON Yoshiyuki/NNP Kasai/NNP)   said/VBD   yesterday/NN   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Our marketing partners in the U.S. have been in close contact with the routes we have targeted.&rdquo;
+ Those include Texas and a line between Los Angeles and Las Vegas, he said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Our', 'NNP'), ('marketing', 'NN'), ('partners', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('have', 'VBP'), ('been', 'VBN'), ('in', 'IN'), ('close', 'JJ'), ('contact', 'NN'), ('with', 'IN'), ('the', 'DT'), ('routes', 'NNS'), ('we', 'PRP'), ('have', 'VBP'), ('targeted.&rdquo', '-NONE-'), (';', ':'), ('Those', 'DT'), ('include', 'VBP'), ('Texas', 'NNP'), ('and', 'CC'), ('a', 'DT'), ('line', 'NN'), ('between', 'IN'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('and', 'CC'), ('Las', 'NNP'), ('Vegas', 'NNP'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Our/NNP   marketing/NN   partners/NNS   in/IN   the/DT   (GPE U.S./NNP)   have/VBP   been/VBN   in/IN   close/JJ   contact/NN   with/IN   the/DT   routes/NNS   we/PRP   have/VBP   targeted.&rdquo/-NONE-   ;/:   Those/DT   include/VBP   (PERSON Texas/NNP)   and/CC   a/DT   line/NN   between/IN   (GPE Los/NNP Angeles/NNP)   and/CC   (PERSON Las/NNP Vegas/NNP)   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&lsquo;Smoothest Train&rsquo;
+ JR Central controls Japan&rsquo;s largest maker of bullet trains, Nippon Sharyo Ltd., whose shares have dropped 8.6 percent this year to 539 yen in Tokyo.
+
+POS tagged sentence: 
+[('&lsquo', 'NN'), (';', ':'), ('Smoothest', 'NNP'), ('Train&rsquo', 'NNP'), (';', ':'), ('JR', 'NNP'), ('Central', 'NNP'), ('controls', 'NNS'), ('Japan&rsquo', '-NONE-'), (';', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('maker', 'NN'), ('of', 'IN'), ('bullet', 'NN'), ('trains', 'NNS'), (',', ','), ('Nippon', 'NNP'), ('Sharyo', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('whose', 'WP$'), ('shares', 'NNS'), ('have', 'VBP'), ('dropped', 'VBN'), ('8.6', 'CD'), ('percent', 'NN'), ('this', 'DT'), ('year', 'NN'), ('to', 'TO'), ('539', 'CD'), ('yen', 'NN'), ('in', 'IN'), ('Tokyo', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &lsquo/NN)   ;/:   (PERSON Smoothest/NNP)   Train&rsquo/NNP   ;/:   (ORGANIZATION JR/NNP Central/NNP)   controls/NNS   Japan&rsquo/-NONE-   ;/:   s/NNS   largest/JJS   maker/NN   of/IN   bullet/NN   trains/NNS   ,/,   (PERSON Nippon/NNP Sharyo/NNP)   Ltd./NNP   ,/,   whose/WP$   shares/NNS   have/VBP   dropped/VBN   8.6/CD   percent/NN   this/DT   year/NN   to/TO   539/CD   yen/NN   in/IN   (GPE Tokyo/NNP)   ./.)
+----------------------------------
+original sentence: 
+JR Central has risen 11 percent to 688,000 yen, compared with a 1.7 percent gain in the Nikkei 225 Stock Average.
+
+POS tagged sentence: 
+[('JR', 'NNP'), ('Central', 'NNP'), ('has', 'VBZ'), ('risen', 'VBN'), ('11', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('688,000', 'CD'), ('yen', 'NN'), (',', ','), ('compared', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('1.7', 'CD'), ('percent', 'NN'), ('gain', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Nikkei', 'NNP'), ('225', 'CD'), ('Stock', 'NNP'), ('Average', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   JR/NNP   Central/NNP   has/VBZ   risen/VBN   11/CD   percent/NN   to/TO   688,000/CD   yen/NN   ,/,   compared/VBN   with/IN   a/DT   1.7/CD   percent/NN   gain/NN   in/IN   the/DT   (ORGANIZATION Nikkei/NNP)   225/CD   Stock/NNP   Average/NNP   ./.)
+----------------------------------
+original sentence: 
+JR Central showcased its trains to representatives from U.S. high speed rail groups and embassies in November.
+
+POS tagged sentence: 
+[('JR', 'NNP'), ('Central', 'NNP'), ('showcased', 'VBD'), ('its', 'PRP$'), ('trains', 'NNS'), ('to', 'TO'), ('representatives', 'NNS'), ('from', 'IN'), ('U.S.', 'NNP'), ('high', 'JJ'), ('speed', 'NN'), ('rail', 'NN'), ('groups', 'NNS'), ('and', 'CC'), ('embassies', 'NNS'), ('in', 'IN'), ('November', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   JR/NNP   Central/NNP   showcased/VBD   its/PRP$   trains/NNS   to/TO   representatives/NNS   from/IN   (GPE U.S./NNP)   high/JJ   speed/NN   rail/NN   groups/NNS   and/CC   embassies/NNS   in/IN   November/NNP   ./.)
+----------------------------------
+original sentence: 
+Its N700 model accelerated to 205 mph within minutes of leaving a station in western Japan.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('N700', 'NNP'), ('model', 'NN'), ('accelerated', 'VBD'), ('to', 'TO'), ('205', 'CD'), ('mph', 'NN'), ('within', 'IN'), ('minutes', 'NNS'), ('of', 'IN'), ('leaving', 'VBG'), ('a', 'DT'), ('station', 'NN'), ('in', 'IN'), ('western', 'JJ'), ('Japan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION N700/NNP)   model/NN   accelerated/VBD   to/TO   205/CD   mph/NN   within/IN   minutes/NNS   of/IN   leaving/VBG   a/DT   station/NN   in/IN   western/JJ   (GPE Japan/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;It was probably the smoothest high speed train I&rsquo;ve been on,&rdquo; Robert Eckels, chairman of the Texas High Speed Rail & Transportation Corp., said as he stood on the platform after the midnight run.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('It', 'PRP'), ('was', 'VBD'), ('probably', 'RB'), ('the', 'DT'), ('smoothest', 'JJS'), ('high', 'JJ'), ('speed', 'NN'), ('train', 'NN'), ('I&rsquo', '-NONE-'), (';', ':'), ('ve', 'VB'), ('been', 'VBN'), ('on,&rdquo', '-NONE-'), (';', ':'), ('Robert', 'NNP'), ('Eckels', 'NNP'), (',', ','), ('chairman', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Texas', 'NNP'), ('High', 'NNP'), ('Speed', 'NNP'), ('Rail', 'NNP'), ('&', 'CC'), ('Transportation', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('said', 'VBD'), ('as', 'IN'), ('he', 'PRP'), ('stood', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('platform', 'NN'), ('after', 'IN'), ('the', 'DT'), ('midnight', 'NN'), ('run', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   It/PRP   was/VBD   probably/RB   the/DT   smoothest/JJS   high/JJ   speed/NN   train/NN   I&rsquo/-NONE-   ;/:   ve/VB   been/VBN   on,&rdquo/-NONE-   ;/:   (PERSON Robert/NNP Eckels/NNP)   ,/,   chairman/NN   of/IN   the/DT   (ORGANIZATION Texas/NNP High/NNP)   Speed/NNP   Rail/NNP   &/CC   (ORGANIZATION Transportation/NNP Corp./NNP)   ,/,   said/VBD   as/IN   he/PRP   stood/VBD   on/IN   the/DT   platform/NN   after/IN   the/DT   midnight/NN   run/VBN   ./.)
+----------------------------------
+original sentence: 
+The not for profit corporation aims to link San Antonio, Dallas Fort Worth, and Houston by 2020.
+
+POS tagged sentence: 
+[('The', 'DT'), ('not', 'RB'), ('for', 'IN'), ('profit', 'NN'), ('corporation', 'NN'), ('aims', 'VBZ'), ('to', 'TO'), ('link', 'VB'), ('San', 'NNP'), ('Antonio', 'NNP'), (',', ','), ('Dallas', 'NNP'), ('Fort', 'NNP'), ('Worth', 'NNP'), (',', ','), ('and', 'CC'), ('Houston', 'NNP'), ('by', 'IN'), ('2020', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   not/RB   for/IN   profit/NN   corporation/NN   aims/VBZ   to/TO   link/VB   (PERSON San/NNP Antonio/NNP)   ,/,   (PERSON Dallas/NNP Fort/NNP Worth/NNP)   ,/,   and/CC   (PERSON Houston/NNP)   by/IN   2020/CD   ./.)
+----------------------------------
+original sentence: 
+Kawasaki, Hitachi
+ JR Central isn&rsquo;t the only Japanese trainmaker seeking to boost exports.
+
+POS tagged sentence: 
+[('Kawasaki', 'NNP'), (',', ','), ('Hitachi', 'NNP'), ('JR', 'NNP'), ('Central', 'NNP'), ('isn&rsquo', 'NNP'), (';', ':'), ('t', 'NN'), ('the', 'DT'), ('only', 'JJ'), ('Japanese', 'JJ'), ('trainmaker', 'NN'), ('seeking', 'VBG'), ('to', 'TO'), ('boost', 'VB'), ('exports', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Kawasaki/NNP)   ,/,   (PERSON Hitachi/NNP JR/NNP Central/NNP)   isn&rsquo/NNP   ;/:   t/NN   the/DT   only/JJ   (GPE Japanese/JJ)   trainmaker/NN   seeking/VBG   to/TO   boost/VB   exports/NNS   ./.)
+----------------------------------
+original sentence: 
+Kawasaki Heavy Industries Ltd., of Kobe, made the trains for Taiwan&rsquo;s $15 billion high speed line that started operating three years ago between suburban Taipei and Kaohsiung in the south.
+
+POS tagged sentence: 
+[('Kawasaki', 'NNP'), ('Heavy', 'NNP'), ('Industries', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('of', 'IN'), ('Kobe', 'NNP'), (',', ','), ('made', 'VBD'), ('the', 'DT'), ('trains', 'NNS'), ('for', 'IN'), ('Taiwan&rsquo', 'JJ'), (';', ':'), ('s', 'NNS'), ('$', '$'), ('15', 'CD'), ('billion', 'CD'), ('high', 'JJ'), ('speed', 'NN'), ('line', 'NN'), ('that', 'WDT'), ('started', 'VBD'), ('operating', 'VBG'), ('three', 'CD'), ('years', 'NNS'), ('ago', 'RB'), ('between', 'IN'), ('suburban', 'JJ'), ('Taipei', 'NNP'), ('and', 'CC'), ('Kaohsiung', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('south', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Kawasaki/NNP)   (PERSON Heavy/NNP Industries/NNP)   Ltd./NNP   ,/,   of/IN   (GPE Kobe/NNP)   ,/,   made/VBD   the/DT   trains/NNS   for/IN   Taiwan&rsquo/JJ   ;/:   s/NNS   $/$   15/CD   billion/CD   high/JJ   speed/NN   line/NN   that/WDT   started/VBD   operating/VBG   three/CD   years/NNS   ago/RB   between/IN   suburban/JJ   (GPE Taipei/NNP)   and/CC   (ORGANIZATION Kaohsiung/NNP)   in/IN   the/DT   south/NN   ./.)
+----------------------------------
+original sentence: 
+Hitachi Ltd. of Tokyo made high speed trains that run from London&rsquo;s northern suburbs to the financial district.
+
+POS tagged sentence: 
+[('Hitachi', 'NNP'), ('Ltd.', 'NNP'), ('of', 'IN'), ('Tokyo', 'NNP'), ('made', 'VBD'), ('high', 'JJ'), ('speed', 'NN'), ('trains', 'NNS'), ('that', 'WDT'), ('run', 'VBN'), ('from', 'IN'), ('London&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('northern', 'VBP'), ('suburbs', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('financial', 'JJ'), ('district', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Hitachi/NNP)   Ltd./NNP   of/IN   (GPE Tokyo/NNP)   made/VBD   high/JJ   speed/NN   trains/NNS   that/WDT   run/VBN   from/IN   (GPE London&rsquo/NNP)   ;/:   s/NNS   northern/VBP   suburbs/NNS   to/TO   the/DT   financial/JJ   district/NN   ./.)
+----------------------------------
+original sentence: 
+More than 50 countries already use trains or rail parts made in China, which has three high speed rail lines and plans to connect all provincial capitals and cities with more than 500,000 citizens by 2020, the Ministry of Railways said.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('than', 'IN'), ('50', 'CD'), ('countries', 'NNS'), ('already', 'RB'), ('use', 'VBP'), ('trains', 'NNS'), ('or', 'CC'), ('rail', 'NN'), ('parts', 'NNS'), ('made', 'VBN'), ('in', 'IN'), ('China', 'NNP'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('three', 'CD'), ('high', 'JJ'), ('speed', 'NN'), ('rail', 'NN'), ('lines', 'NNS'), ('and', 'CC'), ('plans', 'NNS'), ('to', 'TO'), ('connect', 'VB'), ('all', 'DT'), ('provincial', 'JJ'), ('capitals', 'NNS'), ('and', 'CC'), ('cities', 'NNS'), ('with', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('500,000', 'CD'), ('citizens', 'NNS'), ('by', 'IN'), ('2020', 'CD'), (',', ','), ('the', 'DT'), ('Ministry', 'NNP'), ('of', 'IN'), ('Railways', 'NNPS'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   than/IN   50/CD   countries/NNS   already/RB   use/VBP   trains/NNS   or/CC   rail/NN   parts/NNS   made/VBN   in/IN   (GPE China/NNP)   ,/,   which/WDT   has/VBZ   three/CD   high/JJ   speed/NN   rail/NN   lines/NNS   and/CC   plans/NNS   to/TO   connect/VB   all/DT   provincial/JJ   capitals/NNS   and/CC   cities/NNS   with/IN   more/JJR   than/IN   500,000/CD   citizens/NNS   by/IN   2020/CD   ,/,   the/DT   (ORGANIZATION Ministry/NNP of/IN Railways/NNPS)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+State owned China South Locomotive and China CNR Corp. signed overseas contracts worth a combined $2.3 billion last year, according to their annual reports.
+
+POS tagged sentence: 
+[('State', 'NNP'), ('owned', 'VBD'), ('China', 'NNP'), ('South', 'NNP'), ('Locomotive', 'NNP'), ('and', 'CC'), ('China', 'NNP'), ('CNR', 'NNP'), ('Corp.', 'NNP'), ('signed', 'VBD'), ('overseas', 'JJ'), ('contracts', 'NNS'), ('worth', 'NN'), ('a', 'DT'), ('combined', 'VBN'), ('$', '$'), ('2.3', 'CD'), ('billion', 'CD'), ('last', 'JJ'), ('year', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('their', 'PRP$'), ('annual', 'JJ'), ('reports', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON State/NNP)   owned/VBD   (GPE China/NNP)   (LOCATION South/NNP Locomotive/NNP)   and/CC   (GPE China/NNP)   (ORGANIZATION CNR/NNP Corp./NNP)   signed/VBD   overseas/JJ   contracts/NNS   worth/NN   a/DT   combined/VBN   $/$   2.3/CD   billion/CD   last/JJ   year/NN   ,/,   according/VBG   to/TO   their/PRP$   annual/JJ   reports/NNS   ./.)
+----------------------------------
+original sentence: 
+The sales included switches to the U.S. and 20 locomotives to New Zealand.
+
+POS tagged sentence: 
+[('The', 'DT'), ('sales', 'NNS'), ('included', 'VBD'), ('switches', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('20', 'CD'), ('locomotives', 'NNS'), ('to', 'TO'), ('New', 'NNP'), ('Zealand', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   sales/NNS   included/VBD   switches/NNS   to/TO   the/DT   (GPE U.S./NNP)   and/CC   20/CD   locomotives/NNS   to/TO   (GPE New/NNP Zealand/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;China&rsquo;s rail parts and trains at least have advantage in price,&rdquo; said Han Weiqi, an analyst for CSC International Holdings Ltd. in Shanghai.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('China&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('rail', 'VBP'), ('parts', 'NNS'), ('and', 'CC'), ('trains', 'NNS'), ('at', 'IN'), ('least', 'JJS'), ('have', 'VBP'), ('advantage', 'NN'), ('in', 'IN'), ('price,&rdquo', 'NNP'), (';', ':'), ('said', 'VBD'), ('Han', 'NNP'), ('Weiqi', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('for', 'IN'), ('CSC', 'NNP'), ('International', 'NNP'), ('Holdings', 'NNP'), ('Ltd.', 'NNP'), ('in', 'IN'), ('Shanghai', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   (GPE China&rsquo/NNP)   ;/:   s/NNS   rail/VBP   parts/NNS   and/CC   trains/NNS   at/IN   least/JJS   have/VBP   advantage/NN   in/IN   (GPE price,&rdquo/NNP)   ;/:   said/VBD   (PERSON Han/NNP Weiqi/NNP)   ,/,   an/DT   analyst/NN   for/IN   (ORGANIZATION CSC/NNP International/NNP Holdings/NNP)   Ltd./NNP   in/IN   (GPE Shanghai/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Chinese trainmakers want to go abroad because they want to sell the products at higher profit margin.&rdquo;
+ General Electric Deal
+ New York based General Electric Co., the world&rsquo;s biggest maker of freight locomotives, announced a partnership with China&rsquo;s Ministry of Railways in November to manufacture equipment for U.S. high speed rail projects.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Chinese', 'JJ'), ('trainmakers', 'NNS'), ('want', 'VBP'), ('to', 'TO'), ('go', 'VB'), ('abroad', 'RB'), ('because', 'IN'), ('they', 'PRP'), ('want', 'VBP'), ('to', 'TO'), ('sell', 'VB'), ('the', 'DT'), ('products', 'NNS'), ('at', 'IN'), ('higher', 'JJR'), ('profit', 'NN'), ('margin.&rdquo', '-NONE-'), (';', ':'), ('General', 'NNP'), ('Electric', 'NNP'), ('Deal', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('based', 'VBN'), ('General', 'NNP'), ('Electric', 'NNP'), ('Co.', 'NNP'), (',', ','), ('the', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('biggest', 'VBP'), ('maker', 'NN'), ('of', 'IN'), ('freight', 'NN'), ('locomotives', 'NNS'), (',', ','), ('announced', 'VBD'), ('a', 'DT'), ('partnership', 'NN'), ('with', 'IN'), ('China&rsquo', 'JJ'), (';', ':'), ('s', 'NNS'), ('Ministry', 'NNP'), ('of', 'IN'), ('Railways', 'NNPS'), ('in', 'IN'), ('November', 'NNP'), ('to', 'TO'), ('manufacture', 'VB'), ('equipment', 'NN'), ('for', 'IN'), ('U.S.', 'NNP'), ('high', 'JJ'), ('speed', 'NN'), ('rail', 'NN'), ('projects', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   (GPE Chinese/JJ)   trainmakers/NNS   want/VBP   to/TO   go/VB   abroad/RB   because/IN   they/PRP   want/VBP   to/TO   sell/VB   the/DT   products/NNS   at/IN   higher/JJR   profit/NN   margin.&rdquo/-NONE-   ;/:   (ORGANIZATION General/NNP Electric/NNP Deal/NNP New/NNP York/NNP)   based/VBN   (ORGANIZATION General/NNP Electric/NNP Co./NNP)   ,/,   the/DT   world&rsquo/NNP   ;/:   s/NNS   biggest/VBP   maker/NN   of/IN   freight/NN   locomotives/NNS   ,/,   announced/VBD   a/DT   partnership/NN   with/IN   (GPE China&rsquo/JJ)   ;/:   s/NNS   (ORGANIZATION Ministry/NNP of/IN Railways/NNPS)   in/IN   November/NNP   to/TO   manufacture/VB   equipment/NN   for/IN   (GPE U.S./NNP)   high/JJ   speed/NN   rail/NN   projects/NNS   ./.)
+----------------------------------
+original sentence: 
+Shao Renqiang, board secretary for China South Locomotive, said the company will &ldquo;actively&rdquo; participate in U.S. railway construction.
+
+POS tagged sentence: 
+[('Shao', 'NNP'), ('Renqiang', 'NNP'), (',', ','), ('board', 'NN'), ('secretary', 'NN'), ('for', 'IN'), ('China', 'NNP'), ('South', 'NNP'), ('Locomotive', 'NNP'), (',', ','), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('will', 'MD'), ('&ldquo', 'VB'), (';', ':'), ('actively&rdquo', '-NONE-'), (';', ':'), ('participate', 'VB'), ('in', 'IN'), ('U.S.', 'NNP'), ('railway', 'NN'), ('construction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Shao/NNP)   (PERSON Renqiang/NNP)   ,/,   board/NN   secretary/NN   for/IN   (GPE China/NNP)   (LOCATION South/NNP Locomotive/NNP)   ,/,   said/VBD   the/DT   company/NN   will/MD   &ldquo/VB   ;/:   actively&rdquo/-NONE-   ;/:   participate/VB   in/IN   (GPE U.S./NNP)   railway/NN   construction/NN   ./.)
+----------------------------------
+original sentence: 
+&ldquo;It&rsquo;s too early to say which lines will use Chinese products,&rdquo; Shao said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('It&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('too', 'RB'), ('early', 'JJ'), ('to', 'TO'), ('say', 'VB'), ('which', 'WDT'), ('lines', 'NNS'), ('will', 'MD'), ('use', 'VB'), ('Chinese', 'JJ'), ('products,&rdquo', 'NN'), (';', ':'), ('Shao', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   It&rsquo/NNP   ;/:   s/NNS   too/RB   early/JJ   to/TO   say/VB   which/WDT   lines/NNS   will/MD   use/VB   (GPE Chinese/JJ)   products,&rdquo/NN   ;/:   (PERSON Shao/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Disney, the world&rsquo;s biggest theme park operator, offered to donate 50 acres 20 hectares , worth about $25 million, to Florida for a station at its Orlando resort, according to a Sept. 28 letter from Meg Crofton, the resort&rsquo;s president.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), (',', ','), ('the', 'DT'), ('world&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('biggest', 'VBP'), ('theme', 'NN'), ('park', 'NN'), ('operator', 'NN'), (',', ','), ('offered', 'VBD'), ('to', 'TO'), ('donate', 'VB'), ('50', 'CD'), ('acres', 'NNS'), ('20', 'CD'), ('hectares', 'NNS'), (',', ','), ('worth', 'IN'), ('about', 'IN'), ('$', '$'), ('25', 'CD'), ('million', 'CD'), (',', ','), ('to', 'TO'), ('Florida', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('station', 'NN'), ('at', 'IN'), ('its', 'PRP$'), ('Orlando', 'NNP'), ('resort', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('Sept.', 'NNP'), ('28', 'CD'), ('letter', 'NN'), ('from', 'IN'), ('Meg', 'NNP'), ('Crofton', 'NNP'), (',', ','), ('the', 'DT'), ('resort&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('president', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   ,/,   the/DT   world&rsquo/NNP   ;/:   s/NNS   biggest/VBP   theme/NN   park/NN   operator/NN   ,/,   offered/VBD   to/TO   donate/VB   50/CD   acres/NNS   20/CD   hectares/NNS   ,/,   worth/IN   about/IN   $/$   25/CD   million/CD   ,/,   to/TO   (GPE Florida/NNP)   for/IN   a/DT   station/NN   at/IN   its/PRP$   Orlando/NNP   resort/NN   ,/,   according/VBG   to/TO   a/DT   Sept./NNP   28/CD   letter/NN   from/IN   (PERSON Meg/NNP Crofton/NNP)   ,/,   the/DT   resort&rsquo/NNP   ;/:   s/NNS   president/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB biggest/VBP theme/NN park/NN operator/NN)
+	(VERB offered/VBD to/TO donate/VB 50/CD acres/NNS 20/CD hectares/NNS)
+	(VERB   according/VBG   to/TO   a/DT   Sept./NNP   28/CD   letter/NN   from/IN   Meg/NNP   Crofton/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN world&rsquo/NNP)
+	(NOUN s/NNS)
+	(NOUN Florida/NNP)
+	(NOUN station/NN)
+	(NOUN Orlando/NNP resort/NN)
+	(NOUN resort&rsquo/NNP)
+	(NOUN s/NNS president/NN)
+
+----------------------------------
+original sentence: 
+In return, the Burbank, California based company wants the rights to approve the station&rsquo;s design and operate it.
+
+POS tagged sentence: 
+[('In', 'IN'), ('return', 'NN'), (',', ','), ('the', 'DT'), ('Burbank', 'NNP'), (',', ','), ('California', 'NNP'), ('based', 'VBN'), ('company', 'NN'), ('wants', 'VBZ'), ('the', 'DT'), ('rights', 'NNS'), ('to', 'TO'), ('approve', 'VB'), ('the', 'DT'), ('station&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('design', 'VBP'), ('and', 'CC'), ('operate', 'JJ'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   return/NN   ,/,   the/DT   (ORGANIZATION Burbank/NNP)   ,/,   (GPE California/NNP)   based/VBN   company/NN   wants/VBZ   the/DT   rights/NNS   to/TO   approve/VB   the/DT   station&rsquo/NNP   ;/:   s/NNS   design/VBP   and/CC   operate/JJ   it/PRP   ./.)
+----------------------------------
+original sentence: 
+The link is scheduled to begin operating by 2015, with plans to reach Miami by 2017.
+
+POS tagged sentence: 
+[('The', 'DT'), ('link', 'NN'), ('is', 'VBZ'), ('scheduled', 'VBN'), ('to', 'TO'), ('begin', 'VB'), ('operating', 'NN'), ('by', 'IN'), ('2015', 'CD'), (',', ','), ('with', 'IN'), ('plans', 'NNS'), ('to', 'TO'), ('reach', 'VB'), ('Miami', 'NNP'), ('by', 'IN'), ('2017', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   link/NN   is/VBZ   scheduled/VBN   to/TO   begin/VB   operating/NN   by/IN   2015/CD   ,/,   with/IN   plans/NNS   to/TO   reach/VB   (PERSON Miami/NNP)   by/IN   2017/CD   ./.)
+----------------------------------
+original sentence: 
+The $1.3 billion awarded by Obama is half the amount needed for the line.
+
+POS tagged sentence: 
+[('The', 'DT'), ('$', '$'), ('1.3', 'CD'), ('billion', 'CD'), ('awarded', 'VBN'), ('by', 'IN'), ('Obama', 'NNP'), ('is', 'VBZ'), ('half', 'DT'), ('the', 'DT'), ('amount', 'NN'), ('needed', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('line', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   $/$   1.3/CD   billion/CD   awarded/VBN   by/IN   (PERSON Obama/NNP)   is/VBZ   half/DT   the/DT   amount/NN   needed/VBN   for/IN   the/DT   line/NN   ./.)
+----------------------------------
+original sentence: 
+Florida, where unemployment rose to a 35 year high in December and the budget shortfall is expected to be $2.7 billion this fiscal year, is negotiating with the U.S. Federal Railroad Administration for the rest.
+
+POS tagged sentence: 
+[('Florida', 'NNP'), (',', ','), ('where', 'WRB'), ('unemployment', 'NN'), ('rose', 'VBD'), ('to', 'TO'), ('a', 'DT'), ('35', 'CD'), ('year', 'NN'), ('high', 'JJ'), ('in', 'IN'), ('December', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('budget', 'NN'), ('shortfall', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('$', '$'), ('2.7', 'CD'), ('billion', 'CD'), ('this', 'DT'), ('fiscal', 'JJ'), ('year', 'NN'), (',', ','), ('is', 'VBZ'), ('negotiating', 'VBG'), ('with', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Federal', 'NNP'), ('Railroad', 'NNP'), ('Administration', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('rest', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Florida/NNP)   ,/,   where/WRB   unemployment/NN   rose/VBD   to/TO   a/DT   35/CD   year/NN   high/JJ   in/IN   December/NNP   and/CC   the/DT   budget/NN   shortfall/NN   is/VBZ   expected/VBN   to/TO   be/VB   $/$   2.7/CD   billion/CD   this/DT   fiscal/JJ   year/NN   ,/,   is/VBZ   negotiating/VBG   with/IN   the/DT   (GPE U.S./NNP)   Federal/NNP   (PERSON Railroad/NNP Administration/NNP)   for/IN   the/DT   rest/NN   ./.)
+----------------------------------
+original sentence: 
+&ldquo;The Europeans and other Asian competitors are all eyeing the U.S. market,&rdquo; said Michael Finnegan, an executive vice president at U.S. Japan High Speed Rail.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('Europeans', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('Asian', 'JJ'), ('competitors', 'NNS'), ('are', 'VBP'), ('all', 'DT'), ('eyeing', 'VBG'), ('the', 'DT'), ('U.S.', 'NNP'), ('market,&rdquo', 'NNP'), (';', ':'), ('said', 'VBD'), ('Michael', 'NNP'), ('Finnegan', 'NNP'), (',', ','), ('an', 'DT'), ('executive', 'NN'), ('vice', 'NN'), ('president', 'NN'), ('at', 'IN'), ('U.S.', 'NNP'), ('Japan', 'NNP'), ('High', 'NNP'), ('Speed', 'NNP'), ('Rail', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   Europeans/NNPS   and/CC   other/JJ   (GPE Asian/JJ)   competitors/NNS   are/VBP   all/DT   eyeing/VBG   the/DT   (GPE U.S./NNP)   market,&rdquo/NNP   ;/:   said/VBD   (PERSON Michael/NNP Finnegan/NNP)   ,/,   an/DT   executive/NN   vice/NN   president/NN   at/IN   (GPE U.S./NNP)   Japan/NNP   High/NNP   Speed/NNP   Rail/NNP   ./.)
+----------------------------------
+original sentence: 
+&ldquo;The competition will be fierce.&rdquo;
+ Irene Shen in Shanghai, with assistance from Kiyotaka Matsuda in Tokyo.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('competition', 'NN'), ('will', 'MD'), ('be', 'VB'), ('fierce.&rdquo', '-NONE-'), (';', ':'), ('Irene', 'NNP'), ('Shen', 'NNP'), ('in', 'IN'), ('Shanghai', 'NNP'), (',', ','), ('with', 'IN'), ('assistance', 'NN'), ('from', 'IN'), ('Kiyotaka', 'NNP'), ('Matsuda', 'NNP'), ('in', 'IN'), ('Tokyo', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   competition/NN   will/MD   be/VB   fierce.&rdquo/-NONE-   ;/:   (PERSON Irene/NNP Shen/NNP)   in/IN   (GPE Shanghai/NNP)   ,/,   with/IN   assistance/NN   from/IN   (PERSON Kiyotaka/NNP Matsuda/NNP)   in/IN   (GPE Tokyo/NNP)   ./.)
+----------------------------------
+original sentence: 
+Editors: Michael Tighe, Neil Denslow.
+
+POS tagged sentence: 
+[('Editors', 'NNS'), (':', ':'), ('Michael', 'NNP'), ('Tighe', 'NNP'), (',', ','), ('Neil', 'NNP'), ('Denslow', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Editors/NNS   :/:   (PERSON Michael/NNP Tighe/NNP)   ,/,   (PERSON Neil/NNP Denslow/NNP)   ./.)
+----------------------------------
+original sentence: 
+To contact the reporter on this story: Chris Cooper in Tokyo at ccooper1@bloomberg.net
+To contact the editor responsible for this story: Neil Denslow at ndenslow@bloomberg.net
+ Related topics in Most Popular Stories
+Stock Picks: Chipotle, eBay, Netflix, Qualcomm
+It's About Time: Adobe Divests from iPhone OS
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('reporter', 'NN'), ('on', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Chris', 'NNP'), ('Cooper', 'NNP'), ('in', 'IN'), ('Tokyo', 'NNP'), ('at', 'IN'), ('ccooper1', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('editor', 'NN'), ('responsible', 'JJ'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Neil', 'NNP'), ('Denslow', 'NNP'), ('at', 'IN'), ('ndenslow', 'NN'), ('@', ':'), ('bloomberg.net', 'JJ'), ('Related', 'NNP'), ('topics', 'NNS'), ('in', 'IN'), ('Most', 'JJS'), ('Popular', 'JJ'), ('Stories', 'NNS'), ('Stock', 'NNP'), ('Picks', 'NNP'), (':', ':'), ('Chipotle', 'NNP'), (',', ','), ('eBay', 'NNP'), (',', ','), ('Netflix', 'NNP'), (',', ','), ('Qualcomm', 'NNP'), ('It', 'PRP'), ("'s", 'VBZ'), ('About', 'IN'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   contact/VB   the/DT   reporter/NN   on/IN   this/DT   story/NN   :/:   (PERSON Chris/NNP Cooper/NNP)   in/IN   (GPE Tokyo/NNP)   at/IN   (ORGANIZATION ccooper1/NNP)   @/NNP   bloomberg.net/JJ   To/TO   contact/VB   the/DT   editor/NN   responsible/JJ   for/IN   this/DT   story/NN   :/:   (PERSON Neil/NNP Denslow/NNP)   at/IN   ndenslow/NN   @/:   bloomberg.net/JJ   Related/NNP   topics/NNS   in/IN   Most/JJS   Popular/JJ   Stories/NNS   (PERSON Stock/NNP Picks/NNP)   :/:   (GPE Chipotle/NNP)   ,/,   (ORGANIZATION eBay/NNP)   ,/,   (PERSON Netflix/NNP)   ,/,   Qualcomm/NNP   It/PRP   's/VBZ   About/IN   Time/NNP   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+Apple's Endless Expanding App Universe
+A Wobbly Global Debut for Apple's iPad
+RSS Feed: Most Read Stories
+Potentially Lethal Airborne Fungus May Spread to California BusinessWeek
+Can GE Still Manage?
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('Read', 'JJ'), ('Stories', 'NNS'), ('Potentially', 'RB'), ('Lethal', 'NNP'), ('Airborne', 'NNP'), ('Fungus', 'NNP'), ('May', 'NNP'), ('Spread', 'NNP'), ('to', 'TO'), ('California', 'NNP'), ('BusinessWeek', 'NNP'), ('Can', 'NNP'), ('GE', 'NNP'), ('Still', 'NNP'), ('Manage', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   Universe/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP)   RSS/NNP   Feed/NNP   :/:   Most/RBS   Read/JJ   Stories/NNS   Potentially/RB   (PERSON Lethal/NNP Airborne/NNP Fungus/NNP)   May/NNP   Spread/NNP   to/TO   (GPE California/NNP)   BusinessWeek/NNP   Can/NNP   GE/NNP   Still/NNP   Manage/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+Why Boulder Is America's Best Town for Startups BusinessWeek
+Apple's Endless Expanding App Universe BusinessWeek
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('Why', 'WRB'), ('Boulder', 'NNP'), ('Is', 'NNP'), ('America', 'NNP'), ("'s", 'POS'), ('Best', 'NNP'), ('Town', 'NNP'), ('for', 'IN'), ('Startups', 'NNP'), ('BusinessWeek', 'NNP'), ('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('BusinessWeek', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   BusinessWeek/NN   Why/WRB   (PERSON Boulder/NNP Is/NNP America/NNP)   's/POS   (PERSON Best/NNP Town/NNP)   for/IN   (PERSON Startups/NNP BusinessWeek/NNP Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   (PERSON Universe/NNP BusinessWeek/NNP)   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+RSS Feed: Most E mailed Stories
+It's About Time: Adobe Divests from iPhone OS
+A Wobbly Global Debut for Apple's iPad
+Can Meg Whitman's CEO Savvy Save California?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('E', 'NNP'), ('mailed', 'VBD'), ('Stories', 'NNP'), ('It', 'NNP'), ("'s", 'POS'), ('About', 'NNP'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('Can', 'NNP'), ('Meg', 'NNP'), ('Whitman', 'NNP'), ("'s", 'POS'), ('CEO', 'NNP'), ('Savvy', 'NNP'), ('Save', 'NNP'), ('California', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BusinessWeek/NN)   (ORGANIZATION RSS/NNP)   Feed/NNP   :/:   Most/RBS   E/NNP   mailed/VBD   (PERSON Stories/NNP It/NNP)   's/POS   (PERSON About/NNP Time/NNP)   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP Can/NNP Meg/NNP Whitman/NNP)   's/POS   (ORGANIZATION CEO/NNP Savvy/NNP Save/NNP California/NNP)   ?/.)
+----------------------------------
+original sentence: 
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('After', 'IN'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+RSS Feed: Most Discussed Stories
+
+
+POS tagged sentence: 
+[('RSS', 'NN'), ('Feed', 'VBN'), (':', ':'), ('Most', 'RBS'), ('Discussed', 'JJ'), ('Stories', 'NNS')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION RSS/NN)   Feed/VBN   :/:   Most/RBS   Discussed/JJ   Stories/NNS)
+
+veryneg:0	neg:0	pos:4	verypos:0	total:4

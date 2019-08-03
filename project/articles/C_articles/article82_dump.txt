@@ -1,0 +1,163 @@
+
+----------------------------------
+original sentence: 
+Citigroup to Pay $520 Million to Increase Share in Chilean Bank NYSE: C American Banking News
+Citigroup to Pay $520 Million to Increase Share in Chilean Bank NYSE: C  March 15th, 2010 &bull;  &bull; by admin  Filed Under: Citigroup Inc NYSE: C announced that it will pay $520 million 269.7 billion Chilean pesos to increase its stake in Banco de Chile SA, which will make Citigroup the controlling shareholder of the Chilean bank, according to a new regulatory filing made on Monday with Chileâ€™s securities regulator.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('to', 'TO'), ('Pay', 'NNP'), ('$', '$'), ('520', 'CD'), ('Million', 'CD'), ('to', 'TO'), ('Increase', 'NNP'), ('Share', 'NNP'), ('in', 'IN'), ('Chilean', 'NNP'), ('Bank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citigroup', 'NNP'), ('to', 'TO'), ('Pay', 'NNP'), ('$', '$'), ('520', 'CD'), ('Million', 'CD'), ('to', 'TO'), ('Increase', 'NNP'), ('Share', 'NNP'), ('in', 'IN'), ('Chilean', 'NNP'), ('Bank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('March', 'NNP'), ('15th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('will', 'MD'), ('pay', 'VB'), ('$', '$'), ('520', 'CD'), ('million', 'CD'), ('269.7', 'CD'), ('billion', 'CD'), ('Chilean', 'JJ'), ('pesos', 'NNS'), ('to', 'TO'), ('increase', 'VB'), ('its', 'PRP$'), ('stake', 'NN'), ('in', 'IN'), ('Banco', 'NNP'), ('de', 'IN'), ('Chile', 'NNP'), ('SA', 'NNP'), (',', ','), ('which', 'WDT'), ('will', 'MD'), ('make', 'VB'), ('Citigroup', 'NNP'), ('the', 'DT'), ('controlling', 'VBG'), ('shareholder', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Chilean', 'JJ'), ('bank', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('new', 'JJ'), ('regulatory', 'JJ'), ('filing', 'NN'), ('made', 'VBD'), ('on', 'IN'), ('Monday', 'NNP'), ('with', 'IN'), ('Chile', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('securities', 'NNS'), ('regulator', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   to/TO   Pay/NNP   $/$   520/CD   Million/CD   to/TO   (PERSON Increase/NNP Share/NNP)   in/IN   (GPE Chilean/NNP)   (ORGANIZATION Bank/NNP)   NYSE/NNP   :/:   C/NNP   (ORGANIZATION American/NNP Banking/NNP News/NNP Citigroup/NNP)   to/TO   Pay/NNP   $/$   520/CD   Million/CD   to/TO   (PERSON Increase/NNP Share/NNP)   in/IN   (GPE Chilean/NNP)   (ORGANIZATION Bank/NNP)   NYSE/NNP   :/:   C/NNP   March/NNP   15th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citigroup/NNP Inc/NNP)   NYSE/NNP   :/:   C/NNP   announced/VBD   that/IN   it/PRP   will/MD   pay/VB   $/$   520/CD   million/CD   269.7/CD   billion/CD   (GPE Chilean/JJ)   pesos/NNS   to/TO   increase/VB   its/PRP$   stake/NN   in/IN   (GPE Banco/NNP)   de/IN   (PERSON Chile/NNP SA/NNP)   ,/,   which/WDT   will/MD   make/VB   Citigroup/NNP   the/DT   controlling/VBG   shareholder/NN   of/IN   the/DT   (GSP Chilean/JJ)   bank/NN   ,/,   according/VBG   to/TO   a/DT   new/JJ   regulatory/JJ   filing/NN   made/VBD   on/IN   Monday/NNP   with/IN   (PERSON Chile/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   securities/NNS   regulator/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB pay/VB)
+	(VERB   increase/VB   its/PRP$   stake/NN   in/IN   Banco/NNP   de/IN   Chile/NNP   SA/NNP)
+	(VERB make/VB Citigroup/NNP the/DT)
+	(VERB controlling/VBG shareholder/NN of/IN the/DT Chilean/JJ bank/NN)
+	(VERB according/VBG to/TO a/DT new/JJ regulatory/JJ filing/NN)
+	(VERB made/VBD on/IN Monday/NNP with/IN Chile/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ securities/NNS regulator/NN)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN Pay/NNP)
+	(NOUN Increase/NNP Share/NNP)
+	(NOUN Chilean/NNP Bank/NNP NYSE/NNP)
+	(NOUN C/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN Pay/NNP)
+	(NOUN Increase/NNP Share/NNP)
+	(NOUN Chilean/NNP Bank/NNP NYSE/NNP)
+	(NOUN C/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citigroup/NNP Inc/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN billion/CD Chilean/JJ pesos/NNS)
+
+----------------------------------
+original sentence: 
+Citi acquired an additional 8.52% share in LQ Inversiones Financieras SA, exercising its option to reach a controlling 50% stake in the holding company.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('acquired', 'VBD'), ('an', 'DT'), ('additional', 'JJ'), ('8.52', 'CD'), ('%', 'NN'), ('share', 'NN'), ('in', 'IN'), ('LQ', 'NNP'), ('Inversiones', 'NNP'), ('Financieras', 'NNP'), ('SA', 'NNP'), (',', ','), ('exercising', 'VBG'), ('its', 'PRP$'), ('option', 'NN'), ('to', 'TO'), ('reach', 'VB'), ('a', 'DT'), ('controlling', 'NN'), ('50', 'CD'), ('%', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('holding', 'VBG'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   acquired/VBD   an/DT   additional/JJ   8.52/CD   %/NN   share/NN   in/IN   (ORGANIZATION LQ/NNP Inversiones/NNP Financieras/NNP)   SA/NNP   ,/,   exercising/VBG   its/PRP$   option/NN   to/TO   reach/VB   a/DT   controlling/NN   50/CD   %/NN   stake/NN   in/IN   the/DT   holding/VBG   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   acquired/VBD   an/DT   additional/JJ   8.52/CD   %/NN   share/NN   in/IN   LQ/NNP   Inversiones/NNP   Financieras/NNP   SA/NNP)
+	(VERB exercising/VBG its/PRP$ option/NN)
+	(VERB reach/VB a/DT controlling/NN 50/CD %/NN stake/NN in/IN the/DT)
+	(VERB holding/VBG company/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+The U.S. based bank will be acquiring 57 million shares of the company and the transaction will be finalized on May 3
+Banco De Chile is the countryâ€™s second largest bank and is a subsidiary of LQ Inversiones Fiancieras.
+
+POS tagged sentence: 
+[('The', 'DT'), ('U.S.', 'NNP'), ('based', 'VBN'), ('bank', 'NN'), ('will', 'MD'), ('be', 'VB'), ('acquiring', 'VBG'), ('57', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ('and', 'CC'), ('the', 'DT'), ('transaction', 'NN'), ('will', 'MD'), ('be', 'VB'), ('finalized', 'VBN'), ('on', 'IN'), ('May', 'NNP'), ('3', 'CD'), ('Banco', 'NNP'), ('De', 'NNP'), ('Chile', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('country', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('second', 'JJ'), ('largest', 'JJS'), ('bank', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('a', 'DT'), ('subsidiary', 'NN'), ('of', 'IN'), ('LQ', 'NNP'), ('Inversiones', 'NNP'), ('Fiancieras', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE U.S./NNP)   based/VBN   bank/NN   will/MD   be/VB   acquiring/VBG   57/CD   million/CD   shares/NNS   of/IN   the/DT   company/NN   and/CC   the/DT   transaction/NN   will/MD   be/VB   finalized/VBN   on/IN   May/NNP   3/CD   (PERSON Banco/NNP De/NNP Chile/NNP)   is/VBZ   the/DT   country/NN   â/:   €/:   ™/:   s/NNS   second/JJ   largest/JJS   bank/NN   and/CC   is/VBZ   a/DT   subsidiary/NN   of/IN   (ORGANIZATION LQ/NNP Inversiones/NNP Fiancieras/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB based/VBN bank/NN)
+	(VERB   be/VB   acquiring/VBG   57/CD   million/CD   shares/NNS   of/IN   the/DT   company/NN)
+
+tagged sentence:
+	 be acquiring 57 million shares of the company	res:2
+	(VERB   be/VB   finalized/VBN   on/IN   May/NNP   3/CD   Banco/NNP   De/NNP   Chile/NNP)
+	(VERB is/VBZ the/DT country/NN)
+	(VERB   is/VBZ   a/DT   subsidiary/NN   of/IN   LQ/NNP   Inversiones/NNP   Fiancieras/NNP)
+noun phrases to consider:
+	(NOUN U.S./NNP)
+	(NOUN transaction/NN)
+	(NOUN s/NNS second/JJ largest/JJS bank/NN)
+
+----------------------------------
+original sentence: 
+Citigroup took on a 10.44% ownership stake in Banco de Chile, through buying shares of LQ Inversiones Fiancieras.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('took', 'VBD'), ('on', 'IN'), ('a', 'DT'), ('10.44', 'CD'), ('%', 'NN'), ('ownership', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('Banco', 'NNP'), ('de', 'IN'), ('Chile', 'NNP'), (',', ','), ('through', 'IN'), ('buying', 'NN'), ('shares', 'NNS'), ('of', 'IN'), ('LQ', 'NNP'), ('Inversiones', 'NNP'), ('Fiancieras', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   took/VBD   on/IN   a/DT   10.44/CD   %/NN   ownership/NN   stake/NN   in/IN   (GPE Banco/NNP)   de/IN   (GPE Chile/NNP)   ,/,   through/IN   buying/NN   shares/NNS   of/IN   (ORGANIZATION LQ/NNP Inversiones/NNP Fiancieras/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   took/VBD   on/IN   a/DT   10.44/CD   %/NN   ownership/NN   stake/NN   in/IN   Banco/NNP   de/IN   Chile/NNP)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN buying/NN shares/NNS)
+	(NOUN LQ/NNP Inversiones/NNP Fiancieras/NNP)
+
+----------------------------------
+original sentence: 
+As part of the move, the Chilean bank took over Citibankâ€™s local assets.
+
+POS tagged sentence: 
+[('As', 'IN'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('move', 'NN'), (',', ','), ('the', 'DT'), ('Chilean', 'NNP'), ('bank', 'NN'), ('took', 'VBD'), ('over', 'RP'), ('Citibank', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('local', 'JJ'), ('assets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   part/NN   of/IN   the/DT   move/NN   ,/,   the/DT   (GSP Chilean/NNP)   bank/NN   took/VBD   over/RP   (ORGANIZATION Citibank/NNP)   â/:   €/:   ™/:   s/NNS   local/JJ   assets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB took/VBD)
+noun phrases to consider:
+	(NOUN part/NN)
+	(NOUN move/NN)
+	(NOUN Chilean/NNP bank/NN)
+	(NOUN Citibank/NNP)
+	(NOUN s/NNS local/JJ assets/NNS)
+
+----------------------------------
+original sentence: 
+Under the terms of the original deal, Banco De Chile took over all of Citibankâ€™s local clientele while Citi retained control over all of Banco De Chileâ€™s operations in the United States.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('the', 'DT'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('original', 'JJ'), ('deal', 'NN'), (',', ','), ('Banco', 'NNP'), ('De', 'NNP'), ('Chile', 'NNP'), ('took', 'VBD'), ('over', 'RP'), ('all', 'DT'), ('of', 'IN'), ('Citibank', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('local', 'JJ'), ('clientele', 'NN'), ('while', 'IN'), ('Citi', 'NNP'), ('retained', 'VBD'), ('control', 'NN'), ('over', 'IN'), ('all', 'DT'), ('of', 'IN'), ('Banco', 'NNP'), ('De', 'NNP'), ('Chile', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('operations', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   the/DT   terms/NNS   of/IN   the/DT   original/JJ   deal/NN   ,/,   (PERSON Banco/NNP De/NNP Chile/NNP)   took/VBD   over/RP   all/DT   of/IN   (ORGANIZATION Citibank/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   local/JJ   clientele/NN   while/IN   (PERSON Citi/NNP)   retained/VBD   control/NN   over/IN   all/DT   of/IN   (PERSON Banco/NNP De/NNP Chile/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   operations/NNS   in/IN   the/DT   (GPE United/NNP States/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB took/VBD)
+	(VERB s/VBZ local/JJ clientele/NN while/IN Citi/NNP)
+	(VERB   retained/VBD   control/NN   over/IN   all/DT   of/IN   Banco/NNP   De/NNP   Chile/NNP   â/NNP   €/NNP   ™/NNP)
+	(VERB s/VBZ operations/NNS in/IN the/DT United/NNP States/NNPS)
+noun phrases to consider:
+	(NOUN terms/NNS)
+	(NOUN the/DT original/JJ deal/NN)
+	(NOUN Banco/NNP De/NNP Chile/NNP)
+	(NOUN Citibank/NNP â/NNP €/NNP ™/NNP)
+
+----------------------------------
+original sentence: 
+Banco De Chile is controlled by the local Luksic family, which also owns U.K. listed copper miner Antofagasta PLC and U.S. listed beverage company Compania Cervecerias Unidas SA and other assets.
+
+POS tagged sentence: 
+[('Banco', 'NNP'), ('De', 'NNP'), ('Chile', 'NNP'), ('is', 'VBZ'), ('controlled', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('local', 'JJ'), ('Luksic', 'NNP'), ('family', 'NN'), (',', ','), ('which', 'WDT'), ('also', 'RB'), ('owns', 'VBZ'), ('U.K.', 'NNP'), ('listed', 'VBN'), ('copper', 'NN'), ('miner', 'NN'), ('Antofagasta', 'NNP'), ('PLC', 'NNP'), ('and', 'CC'), ('U.S.', 'NNP'), ('listed', 'VBD'), ('beverage', 'NN'), ('company', 'NN'), ('Compania', 'NNP'), ('Cervecerias', 'NNP'), ('Unidas', 'NNP'), ('SA', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('assets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Banco/NNP De/NNP Chile/NNP)   is/VBZ   controlled/VBN   by/IN   the/DT   local/JJ   (PERSON Luksic/NNP)   family/NN   ,/,   which/WDT   also/RB   owns/VBZ   U.K./NNP   listed/VBN   copper/NN   miner/NN   (PERSON Antofagasta/NNP PLC/NNP)   and/CC   (GPE U.S./NNP)   listed/VBD   beverage/NN   company/NN   (ORGANIZATION Compania/NNP Cervecerias/NNP Unidas/NNP)   SA/NNP   and/CC   other/JJ   assets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   controlled/VBN   by/IN   the/DT   local/JJ   Luksic/NNP   family/NN)
+	(VERB owns/VBZ U.K./NNP)
+	(VERB listed/VBN copper/NN miner/NN Antofagasta/NNP PLC/NNP)
+	(VERB   listed/VBD   beverage/NN   company/NN   Compania/NNP   Cervecerias/NNP   Unidas/NNP   SA/NNP)
+noun phrases to consider:
+	(NOUN Banco/NNP De/NNP Chile/NNP)
+	(NOUN U.S./NNP)
+	(NOUN other/JJ assets/NNS)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:0	pos:0	verypos:1	total:0

@@ -1,0 +1,823 @@
+
+----------------------------------
+original sentence: 
+Apple: Analysts' Upgrades, Downgrades, April 5
+ 04/05/10 09:07 AM EDT
+ AA:NYSE downgraded at Deutsche from Buy to Hold.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), (':', ':'), ('Analysts', 'NNS'), ("'", 'POS'), ('Upgrades', 'NNP'), (',', ','), ('Downgrades', 'NNP'), (',', ','), ('April', 'NNP'), ('5', 'CD'), ('04/05/10', 'CD'), ('09', 'CD'), (':', ':'), ('07', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('AA', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('Deutsche', 'NNP'), ('from', 'IN'), ('Buy', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   :/:   Analysts/NNS   '/POS   Upgrades/NNP   ,/,   (GPE Downgrades/NNP)   ,/,   April/NNP   5/CD   04/05/10/CD   09/CD   :/:   07/CD   AM/NNP   EDT/NNP   AA/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION Deutsche/NNP)   from/IN   (GPE Buy/NNP)   to/TO   (GPE Hold/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB downgraded/VBD at/IN Deutsche/NNP from/IN Buy/NNP)
+noun phrases to consider:
+	(NOUN Apple/NNP)
+	(NOUN Analysts/NNS)
+	(NOUN Upgrades/NNP)
+	(NOUN Downgrades/NNP)
+	(NOUN April/NNP)
+	(NOUN 07/CD AM/NNP EDT/NNP AA/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN Hold/NNP)
+
+----------------------------------
+original sentence: 
+$18 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('18', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 18/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+One time events are offsetting the company's benefit from higher aluminum prices.
+
+POS tagged sentence: 
+[('One', 'CD'), ('time', 'NN'), ('events', 'NNS'), ('are', 'VBP'), ('offsetting', 'VBG'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('benefit', 'NN'), ('from', 'IN'), ('higher', 'JJR'), ('aluminum', 'NN'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   time/NN   events/NNS   are/VBP   offsetting/VBG   the/DT   company/NN   's/POS   benefit/NN   from/IN   higher/JJR   aluminum/NN   prices/NNS   ./.)
+----------------------------------
+original sentence: 
+Ameriprise Financial
+ AMP:NYSE rated new Neutral at Goldman Sachs.
+
+POS tagged sentence: 
+[('Ameriprise', 'NNP'), ('Financial', 'NNP'), ('AMP', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('rated', 'VBD'), ('new', 'JJ'), ('Neutral', 'NNP'), ('at', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Ameriprise/NNP)   Financial/NNP   AMP/NNP   :/:   (ORGANIZATION NYSE/NNP)   rated/VBD   new/JJ   Neutral/NNP   at/IN   (ORGANIZATION Goldman/NNP Sachs/NNP)   ./.)
+----------------------------------
+original sentence: 
+$40 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('40', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 40/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Assets are growing and the company can gain market share in the IRA space.
+
+POS tagged sentence: 
+[('Assets', 'NNS'), ('are', 'VBP'), ('growing', 'VBG'), ('and', 'CC'), ('the', 'DT'), ('company', 'NN'), ('can', 'MD'), ('gain', 'VB'), ('market', 'NN'), ('share', 'NN'), ('in', 'IN'), ('the', 'DT'), ('IRA', 'NNP'), ('space', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Assets/NNS   are/VBP   growing/VBG   and/CC   the/DT   company/NN   can/MD   gain/VB   market/NN   share/NN   in/IN   the/DT   (ORGANIZATION IRA/NNP)   space/NN   ./.)
+----------------------------------
+original sentence: 
+CREE:NYSE upgraded at UBS from Neutral to Buy.
+
+POS tagged sentence: 
+[('CREE', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('upgraded', 'VBD'), ('at', 'IN'), ('UBS', 'NNP'), ('from', 'IN'), ('Neutral', 'NNP'), ('to', 'TO'), ('Buy', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CREE/NNP   :/:   (ORGANIZATION NYSE/NNP)   upgraded/VBD   at/IN   (ORGANIZATION UBS/NNP)   from/IN   (GPE Neutral/NNP)   to/TO   (GPE Buy/NNP)   ./.)
+----------------------------------
+original sentence: 
+Estimates also upped, given higher expected LED demand.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('upped', 'VBD'), (',', ','), ('given', 'VBN'), ('higher', 'JJR'), ('expected', 'VBN'), ('LED', 'NNP'), ('demand', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   upped/VBD   ,/,   given/VBN   higher/JJR   expected/VBN   (ORGANIZATION LED/NNP)   demand/NN   ./.)
+----------------------------------
+original sentence: 
+$92 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('92', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 92/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+CSC:NYSE downgraded at Kaufman from Buy to Hold.
+
+POS tagged sentence: 
+[('CSC', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('Kaufman', 'NNP'), ('from', 'IN'), ('Buy', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CSC/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION Kaufman/NNP)   from/IN   (GPE Buy/NNP)   to/TO   (GPE Hold/NNP)   ./.)
+----------------------------------
+original sentence: 
+$58 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('58', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 58/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Company may fall short of sales growth targets.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('may', 'MD'), ('fall', 'VB'), ('short', 'JJ'), ('of', 'IN'), ('sales', 'NNS'), ('growth', 'NN'), ('targets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   may/MD   fall/VB   short/JJ   of/IN   sales/NNS   growth/NN   targets/NNS   ./.)
+----------------------------------
+original sentence: 
+GNW:NYSE target boosted at Barclays to $22.
+
+POS tagged sentence: 
+[('GNW', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('target', 'NN'), ('boosted', 'VBD'), ('at', 'IN'), ('Barclays', 'NNP'), ('to', 'TO'), ('$', '$'), ('22', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GNW/NNP   :/:   NYSE/NNP   target/NN   boosted/VBD   at/IN   (ORGANIZATION Barclays/NNP)   to/TO   $/$   22/CD   ./.)
+----------------------------------
+original sentence: 
+Mortgage insurers should benefit from new mortgage loan modifications.
+
+POS tagged sentence: 
+[('Mortgage', 'NN'), ('insurers', 'NNS'), ('should', 'MD'), ('benefit', 'VB'), ('from', 'IN'), ('new', 'JJ'), ('mortgage', 'NN'), ('loan', 'NN'), ('modifications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mortgage/NN)   insurers/NNS   should/MD   benefit/VB   from/IN   new/JJ   mortgage/NN   loan/NN   modifications/NNS   ./.)
+----------------------------------
+original sentence: 
+Overweight rating.
+
+POS tagged sentence: 
+[('Overweight', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Overweight/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+GNW:NYSE downgraded at Deutsche from Buy to Hold.
+
+POS tagged sentence: 
+[('GNW', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('Deutsche', 'NNP'), ('from', 'IN'), ('Buy', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GNW/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION Deutsche/NNP)   from/IN   (GPE Buy/NNP)   to/TO   (GPE Hold/NNP)   ./.)
+----------------------------------
+original sentence: 
+Valuation call, based on a $19 price target.
+
+POS tagged sentence: 
+[('Valuation', 'NN'), ('call', 'NN'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('$', '$'), ('19', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Valuation/NN)   call/NN   ,/,   based/VBN   on/IN   a/DT   $/$   19/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+Stock is up 63% since 2010.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('is', 'VBZ'), ('up', 'IN'), ('63', 'CD'), ('%', 'NN'), ('since', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Stock/NN) is/VBZ up/IN 63/CD %/NN since/IN 2010/CD ./.)
+----------------------------------
+original sentence: 
+JACK:NYSE rated new Equal weight at Barclays.
+
+POS tagged sentence: 
+[('JACK', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('rated', 'VBD'), ('new', 'JJ'), ('Equal', 'NNP'), ('weight', 'NN'), ('at', 'IN'), ('Barclays', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   JACK/NNP   :/:   (ORGANIZATION NYSE/NNP)   rated/VBD   new/JJ   Equal/NNP   weight/NN   at/IN   (ORGANIZATION Barclays/NNP)   ./.)
+----------------------------------
+original sentence: 
+$23 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('23', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 23/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Stock could be range bound in the coming quarters.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('could', 'MD'), ('be', 'VB'), ('range', 'NN'), ('bound', 'NN'), ('in', 'IN'), ('the', 'DT'), ('coming', 'VBG'), ('quarters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   could/MD   be/VB   range/NN   bound/NN   in/IN   the/DT   coming/VBG   quarters/NNS   ./.)
+----------------------------------
+original sentence: 
+JNPR:NYSE upgraded at Wells to Outperform.
+
+POS tagged sentence: 
+[('JNPR', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('upgraded', 'VBD'), ('at', 'IN'), ('Wells', 'NNP'), ('to', 'TO'), ('Outperform', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   JNPR/NNP   :/:   (ORGANIZATION NYSE/NNP)   upgraded/VBD   at/IN   (ORGANIZATION Wells/NNP)   to/TO   (GPE Outperform/NNP)   ./.)
+----------------------------------
+original sentence: 
+Estimates also boosted, as the company should show strong earnings momentum in its upcoming report.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('boosted', 'VBD'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('company', 'NN'), ('should', 'MD'), ('show', 'VB'), ('strong', 'JJ'), ('earnings', 'NNS'), ('momentum', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('upcoming', 'NN'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   boosted/VBD   ,/,   as/IN   the/DT   company/NN   should/MD   show/VB   strong/JJ   earnings/NNS   momentum/NN   in/IN   its/PRP$   upcoming/NN   report/NN   ./.)
+----------------------------------
+original sentence: 
+MWW:NYSE downgraded at Goldman to Sell.
+
+POS tagged sentence: 
+[('MWW', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('to', 'TO'), ('Sell', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MWW/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION Goldman/NNP)   to/TO   (ORGANIZATION Sell/NNP)   ./.)
+----------------------------------
+original sentence: 
+$14 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('14', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 14/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Company has lost market share and pricing for recruitment adds will likely not fully recover.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('has', 'VBZ'), ('lost', 'VBN'), ('market', 'NN'), ('share', 'NN'), ('and', 'CC'), ('pricing', 'NN'), ('for', 'IN'), ('recruitment', 'NN'), ('adds', 'VBZ'), ('will', 'MD'), ('likely', 'RB'), ('not', 'RB'), ('fully', 'RB'), ('recover', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   has/VBZ   lost/VBN   market/NN   share/NN   and/CC   pricing/NN   for/IN   recruitment/NN   adds/VBZ   will/MD   likely/RB   not/RB   fully/RB   recover/RB   ./.)
+----------------------------------
+original sentence: 
+SF:NYSE downgraded at FBR from Outperform to Market Perform.
+
+POS tagged sentence: 
+[('SF', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('FBR', 'NNP'), ('from', 'IN'), ('Outperform', 'NNP'), ('to', 'TO'), ('Market', 'NNP'), ('Perform', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SF/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION FBR/NNP)   from/IN   (GPE Outperform/NNP)   to/TO   (PERSON Market/NNP Perform/NNP)   ./.)
+----------------------------------
+original sentence: 
+$60 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('60', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 60/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Valuation call, as there is limited near term upside to expectations.
+
+POS tagged sentence: 
+[('Valuation', 'NN'), ('call', 'NN'), (',', ','), ('as', 'IN'), ('there', 'EX'), ('is', 'VBZ'), ('limited', 'VBN'), ('near', 'IN'), ('term', 'NN'), ('upside', 'NN'), ('to', 'TO'), ('expectations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Valuation/NN)   call/NN   ,/,   as/IN   there/EX   is/VBZ   limited/VBN   near/IN   term/NN   upside/NN   to/TO   expectations/NNS   ./.)
+----------------------------------
+original sentence: 
+TDG:NYSE upgraded at Credit Suisse from Neutral to Outperform.
+
+POS tagged sentence: 
+[('TDG', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('upgraded', 'VBD'), ('at', 'IN'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('from', 'IN'), ('Neutral', 'NNP'), ('to', 'TO'), ('Outperform', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TDG/NNP   :/:   (ORGANIZATION NYSE/NNP)   upgraded/VBD   at/IN   (ORGANIZATION Credit/NNP Suisse/NNP)   from/IN   (GPE Neutral/NNP)   to/TO   (GPE Outperform/NNP)   ./.)
+----------------------------------
+original sentence: 
+$65 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('65', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 65/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Company has superior and more reliable growth than its peers.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('has', 'VBZ'), ('superior', 'JJ'), ('and', 'CC'), ('more', 'RBR'), ('reliable', 'JJ'), ('growth', 'NN'), ('than', 'IN'), ('its', 'PRP$'), ('peers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   has/VBZ   superior/JJ   and/CC   more/RBR   reliable/JJ   growth/NN   than/IN   its/PRP$   peers/NNS   ./.)
+----------------------------------
+original sentence: 
+TSO:NYSE downgraded at Deutsche to Hold.
+
+POS tagged sentence: 
+[('TSO', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('downgraded', 'VBD'), ('at', 'IN'), ('Deutsche', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TSO/NNP   :/:   (ORGANIZATION NYSE/NNP)   downgraded/VBD   at/IN   (ORGANIZATION Deutsche/NNP)   to/TO   (GPE Hold/NNP)   ./.)
+----------------------------------
+original sentence: 
+$15 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('15', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 15/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Company will be hurt by recent tragic accident.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('will', 'MD'), ('be', 'VB'), ('hurt', 'VBN'), ('by', 'IN'), ('recent', 'JJ'), ('tragic', 'JJ'), ('accident', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   will/MD   be/VB   hurt/VBN   by/IN   recent/JJ   tragic/JJ   accident/NN   ./.)
+----------------------------------
+original sentence: 
+WBMD:NYSE upgraded at Goldman from Sell to Neutral.
+
+POS tagged sentence: 
+[('WBMD', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('upgraded', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('from', 'IN'), ('Sell', 'NNP'), ('to', 'TO'), ('Neutral', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   WBMD/NNP   :/:   (ORGANIZATION NYSE/NNP)   upgraded/VBD   at/IN   (ORGANIZATION Goldman/NNP)   from/IN   (ORGANIZATION Sell/NNP)   to/TO   (GPE Neutral/NNP)   ./.)
+----------------------------------
+original sentence: 
+$47 price target.
+
+POS tagged sentence: 
+[('$', '$'), ('47', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S $/$ 47/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+Estimates also upped, as pharma advertising will continue to move online.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('upped', 'VBD'), (',', ','), ('as', 'IN'), ('pharma', 'NN'), ('advertising', 'NN'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('move', 'VB'), ('online', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   upped/VBD   ,/,   as/IN   pharma/NN   advertising/NN   will/MD   continue/VB   to/TO   move/VB   online/NN   ./.)
+----------------------------------
+original sentence: 
+STOCK COMMENTS / EPS CHANGES
+
+ AAPL:NYSE numbers raised at JP Morgan.
+
+POS tagged sentence: 
+[('STOCK', 'NN'), ('COMMENTS', 'NNS'), ('/', 'VBP'), ('EPS', 'NNP'), ('CHANGES', 'NNP'), ('AAPL', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('numbers', 'NNS'), ('raised', 'VBD'), ('at', 'IN'), ('JP', 'NNP'), ('Morgan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   STOCK/NN   (ORGANIZATION COMMENTS/NNS)   //VBP   (ORGANIZATION EPS/NNP)   CHANGES/NNP   AAPL/NNP   :/:   NYSE/NNP   numbers/NNS   raised/VBD   at/IN   (ORGANIZATION JP/NNP Morgan/NNP)   ./.)
+----------------------------------
+original sentence: 
+Price target raised to $305 from $240.
+
+POS tagged sentence: 
+[('Price', 'NNP'), ('target', 'NN'), ('raised', 'VBD'), ('to', 'TO'), ('$', '$'), ('305', 'CD'), ('from', 'IN'), ('$', '$'), ('240', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Price/NNP   target/NN   raised/VBD   to/TO   $/$   305/CD   from/IN   $/$   240/CD   ./.)
+----------------------------------
+original sentence: 
+2010 EPS estimates raised to $12.74 from $11.59.
+
+POS tagged sentence: 
+[('2010', 'CD'), ('EPS', 'NNP'), ('estimates', 'NNS'), ('raised', 'VBD'), ('to', 'TO'), ('$', '$'), ('12.74', 'CD'), ('from', 'IN'), ('$', '$'), ('11.59', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   2010/CD   EPS/NNP   estimates/NNS   raised/VBD   to/TO   $/$   12.74/CD   from/IN   $/$   11.59/CD   ./.)
+----------------------------------
+original sentence: 
+AAPL:NYSE estimates, target raised at Kaufman.
+
+POS tagged sentence: 
+[('AAPL', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('raised', 'VBD'), ('at', 'IN'), ('Kaufman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AAPL/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   raised/VBD   at/IN   (ORGANIZATION Kaufman/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of AAPL now seen reaching $295.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('AAPL', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('295', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION AAPL/NNP)   now/RB   seen/VBN   reaching/VBG   $/$   295/CD   ./.)
+----------------------------------
+original sentence: 
+Estimates also boosted, because of expected strong iPad sales.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('boosted', 'VBD'), (',', ','), ('because', 'IN'), ('of', 'IN'), ('expected', 'VBN'), ('strong', 'JJ'), ('iPad', 'NNP'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   boosted/VBD   ,/,   because/IN   of/IN   expected/VBN   strong/JJ   (ORGANIZATION iPad/NNP)   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Buy rating.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Buy/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+BMC:NYSE estimates upped at Goldman.
+
+POS tagged sentence: 
+[('BMC', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), ('upped', 'VBN'), ('at', 'IN'), ('Goldman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   BMC/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   upped/VBN   at/IN   (ORGANIZATION Goldman/NNP)   ./.)
+----------------------------------
+original sentence: 
+BMC estimates were increased through 2012.
+
+POS tagged sentence: 
+[('BMC', 'NNP'), ('estimates', 'VBZ'), ('were', 'VBD'), ('increased', 'VBN'), ('through', 'IN'), ('2012', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BMC/NNP)   estimates/VBZ   were/VBD   increased/VBN   through/IN   2012/CD   ./.)
+----------------------------------
+original sentence: 
+Company should see margin growth and also benefit from share buybacks.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('should', 'MD'), ('see', 'VB'), ('margin', 'NN'), ('growth', 'NN'), ('and', 'CC'), ('also', 'RB'), ('benefit', 'VBD'), ('from', 'IN'), ('share', 'NN'), ('buybacks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   should/MD   see/VB   margin/NN   growth/NN   and/CC   also/RB   benefit/VBD   from/IN   share/NN   buybacks/NNS   ./.)
+----------------------------------
+original sentence: 
+Neutral rating and $43 price target.
+
+POS tagged sentence: 
+[('Neutral', 'NNP'), ('rating', 'NN'), ('and', 'CC'), ('$', '$'), ('43', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Neutral/NNP)   rating/NN   and/CC   $/$   43/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+Edwards Lifesciences
+ EW:NYSE target upped at Credit Suisse.
+
+POS tagged sentence: 
+[('Edwards', 'NNS'), ('Lifesciences', 'NNS'), ('EW', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('target', 'NN'), ('upped', 'VBD'), ('at', 'IN'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Edwards/NNS   Lifesciences/NNS   EW/NNP   :/:   NYSE/NNP   target/NN   upped/VBD   at/IN   (ORGANIZATION Credit/NNP Suisse/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of EW now seen reaching $112.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('EW', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('112', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   EW/NNP   now/RB   seen/VBN   reaching/VBG   $/$   112/CD   ./.)
+----------------------------------
+original sentence: 
+Favorable jury award regarding a valve patent will help the company going forward.
+
+POS tagged sentence: 
+[('Favorable', 'JJ'), ('jury', 'NN'), ('award', 'NN'), ('regarding', 'VBG'), ('a', 'DT'), ('valve', 'NN'), ('patent', 'NN'), ('will', 'MD'), ('help', 'VB'), ('the', 'DT'), ('company', 'NN'), ('going', 'VBG'), ('forward', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Favorable/JJ)   jury/NN   award/NN   regarding/VBG   a/DT   valve/NN   patent/NN   will/MD   help/VB   the/DT   company/NN   going/VBG   forward/RB   ./.)
+----------------------------------
+original sentence: 
+Outperform rating.
+
+POS tagged sentence: 
+[('Outperform', 'NN'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Outperform/NN) rating/NN ./.)
+----------------------------------
+original sentence: 
+GLW:NYSE estimates, target raised at Goldman.
+
+POS tagged sentence: 
+[('GLW', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('raised', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GLW/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   raised/VBD   at/IN   (ORGANIZATION Goldman/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of GLW now seen reaching $24.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('GLW', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('24', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION GLW/NNP)   now/RB   seen/VBN   reaching/VBG   $/$   24/CD   ./.)
+----------------------------------
+original sentence: 
+Estimates also increased, given a tight supply outlook for LCD glass.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('increased', 'VBD'), (',', ','), ('given', 'VBN'), ('a', 'DT'), ('tight', 'JJ'), ('supply', 'NN'), ('outlook', 'NN'), ('for', 'IN'), ('LCD', 'NNP'), ('glass', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   increased/VBD   ,/,   given/VBN   a/DT   tight/JJ   supply/NN   outlook/NN   for/IN   (ORGANIZATION LCD/NNP)   glass/NN   ./.)
+----------------------------------
+original sentence: 
+Buy rating.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Buy/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+HIG:NYSE estimates raised at FBR.
+
+POS tagged sentence: 
+[('HIG', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), ('raised', 'VBN'), ('at', 'IN'), ('FBR', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   HIG/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   raised/VBN   at/IN   (ORGANIZATION FBR/NNP)   ./.)
+----------------------------------
+original sentence: 
+HIG estimates were increased through 2011.
+
+POS tagged sentence: 
+[('HIG', 'NNP'), ('estimates', 'VBZ'), ('were', 'VBD'), ('increased', 'VBN'), ('through', 'IN'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION HIG/NNP)   estimates/VBZ   were/VBD   increased/VBN   through/IN   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Company is keeping costs down and can generate a higher ROE.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('is', 'VBZ'), ('keeping', 'VBG'), ('costs', 'NNS'), ('down', 'RB'), ('and', 'CC'), ('can', 'MD'), ('generate', 'VB'), ('a', 'DT'), ('higher', 'JJR'), ('ROE', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   is/VBZ   keeping/VBG   costs/NNS   down/RB   and/CC   can/MD   generate/VB   a/DT   higher/JJR   (ORGANIZATION ROE/NNP)   ./.)
+----------------------------------
+original sentence: 
+Market Perform rating and $29 price target.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Perform', 'NN'), ('rating', 'NN'), ('and', 'CC'), ('$', '$'), ('29', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   (ORGANIZATION Perform/NN)   rating/NN   and/CC   $/$   29/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+KMX:NYSE estimates, target upped at Goldman.
+
+POS tagged sentence: 
+[('KMX', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('upped', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   KMX/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   upped/VBD   at/IN   (ORGANIZATION Goldman/NNP)   ./.)
+----------------------------------
+original sentence: 
+KMX estimates were increased through 2011.
+
+POS tagged sentence: 
+[('KMX', 'NNP'), ('estimates', 'VBZ'), ('were', 'VBD'), ('increased', 'VBN'), ('through', 'IN'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION KMX/NNP)   estimates/VBZ   were/VBD   increased/VBN   through/IN   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Company seeing higher sales and gross margin.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('seeing', 'VBG'), ('higher', 'JJR'), ('sales', 'NNS'), ('and', 'CC'), ('gross', 'JJ'), ('margin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Company/NN   seeing/VBG   higher/JJR   sales/NNS   and/CC   gross/JJ   margin/NN   ./.)
+----------------------------------
+original sentence: 
+Sell rating and new $24 price target.
+
+POS tagged sentence: 
+[('Sell', 'NNP'), ('rating', 'NN'), ('and', 'CC'), ('new', 'JJ'), ('$', '$'), ('24', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sell/NNP)   rating/NN   and/CC   new/JJ   $/$   24/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+MON:NYSE estimates, target lowered at UBS.
+
+POS tagged sentence: 
+[('MON', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('lowered', 'VBD'), ('at', 'IN'), ('UBS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MON/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   lowered/VBD   at/IN   (ORGANIZATION UBS/NNP)   ./.)
+----------------------------------
+original sentence: 
+MON estimates were cut through 2011.
+
+POS tagged sentence: 
+[('MON', 'NNP'), ('estimates', 'VBZ'), ('were', 'VBD'), ('cut', 'VBN'), ('through', 'IN'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MON/NNP)   estimates/VBZ   were/VBD   cut/VBN   through/IN   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Company will have low pricing for new products.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('will', 'MD'), ('have', 'VB'), ('low', 'JJ'), ('pricing', 'NN'), ('for', 'IN'), ('new', 'JJ'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   will/MD   have/VB   low/JJ   pricing/NN   for/IN   new/JJ   products/NNS   ./.)
+----------------------------------
+original sentence: 
+Buy rating and new $89 price target.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('and', 'CC'), ('new', 'JJ'), ('$', '$'), ('89', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Buy/NNP)   rating/NN   and/CC   new/JJ   $/$   89/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+MOS:NYSE estimates, target lowered at Goldman.
+
+POS tagged sentence: 
+[('MOS', 'NNS'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('lowered', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MOS/NNS   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   lowered/VBD   at/IN   (ORGANIZATION Goldman/NNP)   ./.)
+----------------------------------
+original sentence: 
+MOS estimates were reduced through 2012.
+
+POS tagged sentence: 
+[('MOS', 'NNS'), ('estimates', 'VBZ'), ('were', 'VBD'), ('reduced', 'VBN'), ('through', 'IN'), ('2012', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S MOS/NNS estimates/VBZ were/VBD reduced/VBN through/IN 2012/CD ./.)
+----------------------------------
+original sentence: 
+Company is seeing lower phosphate volumes and margins.
+
+POS tagged sentence: 
+[('Company', 'NN'), ('is', 'VBZ'), ('seeing', 'VBG'), ('lower', 'JJR'), ('phosphate', 'NN'), ('volumes', 'NNS'), ('and', 'CC'), ('margins', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Company/NN)   is/VBZ   seeing/VBG   lower/JJR   phosphate/NN   volumes/NNS   and/CC   margins/NNS   ./.)
+----------------------------------
+original sentence: 
+Buy rating and new $68 price target.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('and', 'CC'), ('new', 'JJ'), ('$', '$'), ('68', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Buy/NNP)   rating/NN   and/CC   new/JJ   $/$   68/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+MOS:NYSE estimates, target boosted at UBS.
+
+POS tagged sentence: 
+[('MOS', 'NNS'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('boosted', 'VBD'), ('at', 'IN'), ('UBS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MOS/NNS   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   boosted/VBD   at/IN   (ORGANIZATION UBS/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of MOS now seen reaching $67.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('MOS', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('67', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION MOS/NNP)   now/RB   seen/VBN   reaching/VBG   $/$   67/CD   ./.)
+----------------------------------
+original sentence: 
+Estimates also raised, as the company is seeing higher volumes.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('raised', 'VBD'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('seeing', 'VBG'), ('higher', 'JJR'), ('volumes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   raised/VBD   ,/,   as/IN   the/DT   company/NN   is/VBZ   seeing/VBG   higher/JJR   volumes/NNS   ./.)
+----------------------------------
+original sentence: 
+Neutral rating.
+
+POS tagged sentence: 
+[('Neutral', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Neutral/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+SD:NYSE estimates cut at UBS through 2011.
+
+POS tagged sentence: 
+[('SD', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), ('cut', 'VBN'), ('at', 'IN'), ('UBS', 'NNP'), ('through', 'IN'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SD/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   cut/VBN   at/IN   (ORGANIZATION UBS/NNP)   through/IN   2011/CD   ./.)
+----------------------------------
+original sentence: 
+ARD acquisition should cut into earnings.
+
+POS tagged sentence: 
+[('ARD', 'NNP'), ('acquisition', 'NN'), ('should', 'MD'), ('cut', 'VB'), ('into', 'IN'), ('earnings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION ARD/NNP)   acquisition/NN   should/MD   cut/VB   into/IN   earnings/NNS   ./.)
+----------------------------------
+original sentence: 
+Buy rating and $10 price target.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('and', 'CC'), ('$', '$'), ('10', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Buy/NNP) rating/NN and/CC $/$ 10/CD price/NN target/NN ./.)
+----------------------------------
+original sentence: 
+VALE:NYSE estimates, target raised at Goldman.
+
+POS tagged sentence: 
+[('VALE', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('estimates', 'VBZ'), (',', ','), ('target', 'NN'), ('raised', 'VBD'), ('at', 'IN'), ('Goldman', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   VALE/NNP   :/:   (ORGANIZATION NYSE/NNP)   estimates/VBZ   ,/,   target/NN   raised/VBD   at/IN   (ORGANIZATION Goldman/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of VALE now seen reaching $47.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('VALE', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('47', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION VALE/NNP)   now/RB   seen/VBN   reaching/VBG   $/$   47/CD   ./.)
+----------------------------------
+original sentence: 
+Estimates also boosted, given the new iron ore pricing structure.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('boosted', 'VBD'), (',', ','), ('given', 'VBN'), ('the', 'DT'), ('new', 'JJ'), ('iron', 'NN'), ('ore', 'NN'), ('pricing', 'NN'), ('structure', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   boosted/VBD   ,/,   given/VBN   the/DT   new/JJ   iron/NN   ore/NN   pricing/NN   structure/NN   ./.)
+----------------------------------
+original sentence: 
+Buy rating.
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Buy/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+WCC:NYSE numbers boosted at Credit Suisse.
+
+POS tagged sentence: 
+[('WCC', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('numbers', 'NNS'), ('boosted', 'VBD'), ('at', 'IN'), ('Credit', 'NNP'), ('Suisse', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   WCC/NNP   :/:   NYSE/NNP   numbers/NNS   boosted/VBD   at/IN   (ORGANIZATION Credit/NNP Suisse/NNP)   ./.)
+----------------------------------
+original sentence: 
+Shares of WCC now seen reaching $40.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('WCC', 'NNP'), ('now', 'RB'), ('seen', 'VBN'), ('reaching', 'VBG'), ('$', '$'), ('40', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION WCC/NNP)   now/RB   seen/VBN   reaching/VBG   $/$   40/CD   ./.)
+----------------------------------
+original sentence: 
+Estimates also raised, as the company is positioned to benefit from an industrial recovery.
+
+POS tagged sentence: 
+[('Estimates', 'NNS'), ('also', 'RB'), ('raised', 'VBD'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('positioned', 'VBN'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('an', 'DT'), ('industrial', 'JJ'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Estimates/NNS   also/RB   raised/VBD   ,/,   as/IN   the/DT   company/NN   is/VBZ   positioned/VBN   to/TO   benefit/VB   from/IN   an/DT   industrial/JJ   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+Neutral rating.
+
+POS tagged sentence: 
+[('Neutral', 'NNP'), ('rating', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Neutral/NNP) rating/NN ./.)
+----------------------------------
+original sentence: 
+Try a 30 day FREE trial to RealMoney.com!
+
+
+POS tagged sentence: 
+[('Try', 'NNP'), ('a', 'DT'), ('30', 'CD'), ('day', 'NN'), ('FREE', 'NNP'), ('trial', 'NN'), ('to', 'TO'), ('RealMoney.com', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Try/NNP   a/DT   30/CD   day/NN   (ORGANIZATION FREE/NNP)   trial/NN   to/TO   RealMoney.com/NNP   !/.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

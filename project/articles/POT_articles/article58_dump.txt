@@ -1,0 +1,509 @@
+
+----------------------------------
+original sentence: 
+Business & Financial News, Breaking US & International News | Reuters.com
+ Potash Corporation of Saskatchewan Inc. POT Chemicals Agricultural
+POT on New York Consolidated
+Price Change % chg Latest Key Developments
+ Potash Corporation of Saskatchewan Inc. Raises Q1 2010 EPS Guidance
+Thursday, 11 Mar 2010 06:22pm EST
+Potash Corporation of Saskatchewan Inc. revised first quarter of 2010 guidance and expects earnings to be in the range of $1.30 $1.50, well above the initial guidance of $0.70 $1.00 per share provided on January 28, 2010.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('&', 'CC'), ('Financial', 'NNP'), ('News', 'NNP'), (',', ','), ('Breaking', 'NNP'), ('US', 'NNP'), ('&', 'CC'), ('International', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Reuters.com', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('POT', 'NNP'), ('Chemicals', 'NNP'), ('Agricultural', 'NNP'), ('POT', 'NNP'), ('on', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('Consolidated', 'NNP'), ('Price', 'NNP'), ('Change', 'NNP'), ('%', 'NN'), ('chg', 'NN'), ('Latest', 'NNP'), ('Key', 'NNP'), ('Developments', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Raises', 'NNP'), ('Q1', 'NNP'), ('2010', 'CD'), ('EPS', 'NNP'), ('Guidance', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('11', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('06', 'CD'), (':', ':'), ('22pm', 'CD'), ('EST', 'JJS'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('revised', 'VBD'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('guidance', 'NN'), ('and', 'CC'), ('expects', 'VBZ'), ('earnings', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('1.30', 'CD'), ('$', '$'), ('1.50', 'CD'), (',', ','), ('well', 'RB'), ('above', 'IN'), ('the', 'DT'), ('initial', 'JJ'), ('guidance', 'NN'), ('of', 'IN'), ('$', '$'), ('0.70', 'CD'), ('$', '$'), ('1.00', 'CD'), ('per', 'IN'), ('share', 'NN'), ('provided', 'VBN'), ('on', 'IN'), ('January', 'NNP'), ('28', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   &/CC   (ORGANIZATION Financial/NNP News/NNP)   ,/,   (PERSON Breaking/NNP US/NNP)   &/CC   (ORGANIZATION International/NNP News/NNP)   |/NNP   Reuters.com/NNP   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   POT/NNP   Chemicals/NNP   Agricultural/NNP   POT/NNP   on/IN   (GPE New/NNP York/NNP)   Consolidated/NNP   Price/NNP   Change/NNP   %/NN   chg/NN   (PERSON     Latest/NNP     Key/NNP     Developments/NNP     Potash/NNP     Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP Raises/NNP)   Q1/NNP   2010/CD   (ORGANIZATION EPS/NNP Guidance/NNP)   Thursday/NNP   ,/,   11/CD   Mar/NNP   2010/CD   06/CD   :/:   22pm/CD   EST/JJS   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   revised/VBD   first/JJ   quarter/NN   of/IN   2010/CD   guidance/NN   and/CC   expects/VBZ   earnings/NNS   to/TO   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   1.30/CD   $/$   1.50/CD   ,/,   well/RB   above/IN   the/DT   initial/JJ   guidance/NN   of/IN   $/$   0.70/CD   $/$   1.00/CD   per/IN   share/NN   provided/VBN   on/IN   January/NNP   28/CD   ,/,   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB revised/VBD first/JJ quarter/NN of/IN 2010/CD guidance/NN)
+	(VERB expects/VBZ earnings/NNS)
+	(VERB be/VB in/IN the/DT range/NN of/IN)
+	(VERB provided/VBN on/IN January/NNP 28/CD)
+noun phrases to consider:
+	(NOUN Business/NN)
+	(NOUN Financial/NNP News/NNP)
+	(NOUN Breaking/NNP US/NNP)
+	(NOUN International/NNP News/NNP |/NNP Reuters.com/NNP)
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP POT/NNP Chemicals/NNP)
+	(NOUN Agricultural/NNP POT/NNP)
+	(NOUN New/NNP York/NNP Consolidated/NNP Price/NNP)
+	(NOUN Change/NNP %/NN chg/NN Latest/NNP)
+	(NOUN Key/NNP Developments/NNP Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Raises/NNP Q1/NNP)
+	(NOUN 2010/CD EPS/NNP Guidance/NNP Thursday/NNP)
+	(NOUN 11/CD Mar/NNP)
+	(NOUN 22pm/CD EST/JJS Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN the/DT initial/JJ guidance/NN)
+	(NOUN share/NN)
+
+----------------------------------
+original sentence: 
+The upward revision reflects a rebound in potash demand that is expected to drive a record quarter for North American sales volumes and strong offshore shipments, as well as higher than expected margins in nitrogen and phosphate.
+
+POS tagged sentence: 
+[('The', 'DT'), ('upward', 'NN'), ('revision', 'NN'), ('reflects', 'VBZ'), ('a', 'DT'), ('rebound', 'NN'), ('in', 'IN'), ('potash', 'NN'), ('demand', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('drive', 'VB'), ('a', 'DT'), ('record', 'NN'), ('quarter', 'NN'), ('for', 'IN'), ('North', 'NNP'), ('American', 'NNP'), ('sales', 'NNS'), ('volumes', 'VBZ'), ('and', 'CC'), ('strong', 'JJ'), ('offshore', 'NN'), ('shipments', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('higher', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('margins', 'NNS'), ('in', 'IN'), ('nitrogen', 'NN'), ('and', 'CC'), ('phosphate', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   upward/NN   revision/NN   reflects/VBZ   a/DT   rebound/NN   in/IN   potash/NN   demand/NN   that/WDT   is/VBZ   expected/VBN   to/TO   drive/VB   a/DT   record/NN   quarter/NN   for/IN   (GPE North/NNP American/NNP)   sales/NNS   volumes/VBZ   and/CC   strong/JJ   offshore/NN   shipments/NNS   ,/,   as/IN   well/RB   as/IN   higher/JJR   than/IN   expected/VBN   margins/NNS   in/IN   nitrogen/NN   and/CC   phosphate/VB   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts were expecting the Company to report EPS of $0.90 for the first quarter of 2010.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('0.90', 'CD'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   were/VBD   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   0.90/CD   for/IN   the/DT   first/JJ   quarter/NN   of/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Issues Q1, FY 2010 EPS Guidance Below Analysts' Estimates
+Thursday, 28 Jan 2010 06:00am EST
+Potash Corporation of Saskatchewan Inc. announced that for first quarter of 2010, it expects net earnings per share EPS to be in the range of $0.70 $1.00.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Issues', 'NNPS'), ('Q1', 'NNP'), (',', ','), ('FY', 'NNP'), ('2010', 'CD'), ('EPS', 'NNP'), ('Guidance', 'NNP'), ('Below', 'NNP'), ('Analysts', 'NNP'), ("'", 'POS'), ('Estimates', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('28', 'CD'), ('Jan', 'NNP'), ('2010', 'CD'), ('06', 'CD'), (':', ':'), ('00am', 'CD'), ('EST', 'JJS'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('for', 'IN'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (',', ','), ('it', 'PRP'), ('expects', 'VBZ'), ('net', 'JJ'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('0.70', 'CD'), ('$', '$'), ('1.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP Issues/NNPS)   Q1/NNP   ,/,   FY/NNP   2010/CD   (ORGANIZATION EPS/NNP Guidance/NNP Below/NNP Analysts/NNP)   '/POS   (PERSON Estimates/NNP)   Thursday/NNP   ,/,   28/CD   Jan/NNP   2010/CD   06/CD   :/:   00am/CD   EST/JJS   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   for/IN   first/JJ   quarter/NN   of/IN   2010/CD   ,/,   it/PRP   expects/VBZ   net/JJ   earnings/NNS   per/IN   share/NN   EPS/NNS   to/TO   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   0.70/CD   $/$   1.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN for/IN first/JJ quarter/NN of/IN 2010/CD)
+	(VERB expects/VBZ net/JJ earnings/NNS per/IN share/NN EPS/NNS)
+	(VERB be/VB in/IN the/DT range/NN of/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Issues/NNPS Q1/NNP)
+	(NOUN FY/NNP)
+	(NOUN 2010/CD EPS/NNP Guidance/NNP Below/NNP Analysts/NNP)
+	(NOUN Estimates/NNP Thursday/NNP)
+	(NOUN 28/CD Jan/NNP)
+	(NOUN 00am/CD EST/JJS Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+For fiscal 2010, it expects EPS to be in the range of $4.00 $5.00.
+
+POS tagged sentence: 
+[('For', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (',', ','), ('it', 'PRP'), ('expects', 'VBZ'), ('EPS', 'NNP'), ('to', 'TO'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('4.00', 'CD'), ('$', '$'), ('5.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   fiscal/JJ   2010/CD   ,/,   it/PRP   expects/VBZ   (ORGANIZATION EPS/NNP)   to/TO   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   4.00/CD   $/$   5.00/CD   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts on an average are expecting the Company to report EPS of $1.12 for first quarter of 2010: EPS of $6.17 for fiscal 2010.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('on', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('are', 'VBP'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('1.12', 'CD'), ('for', 'IN'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (':', ':'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('6.17', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   on/IN   an/DT   average/JJ   are/VBP   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   1.12/CD   for/IN   first/JJ   quarter/NN   of/IN   2010/CD   :/:   EPS/NNP   of/IN   $/$   6.17/CD   for/IN   fiscal/JJ   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Declares Quarterly Dividend
+Wednesday, 27 Jan 2010 02:06pm EST
+Potash Corporation of Saskatchewan Inc. announced that it has declared a quarterly dividend of US $0.10 per share payable May 6, 2010 to shareholders of record April 15, 2010.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Declares', 'NNP'), ('Quarterly', 'NNP'), ('Dividend', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('27', 'CD'), ('Jan', 'NNP'), ('2010', 'CD'), ('02', 'CD'), (':', ':'), ('06pm', 'CD'), ('EST', 'JJS'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('declared', 'VBN'), ('a', 'DT'), ('quarterly', 'JJ'), ('dividend', 'NN'), ('of', 'IN'), ('US', 'NNP'), ('$', '$'), ('0.10', 'CD'), ('per', 'IN'), ('share', 'NN'), ('payable', 'JJ'), ('May', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('shareholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('April', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   Declares/NNP   Quarterly/NNP   Dividend/NNP   Wednesday/NNP   ,/,   27/CD   Jan/NNP   2010/CD   02/CD   :/:   06pm/CD   EST/JJS   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   declared/VBN   a/DT   quarterly/JJ   dividend/NN   of/IN   (GPE US/NNP)   $/$   0.10/CD   per/IN   share/NN   payable/JJ   May/NNP   6/CD   ,/,   2010/CD   to/TO   shareholders/NNS   of/IN   record/NN   April/NNP   15/CD   ,/,   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   has/VBZ   declared/VBN   a/DT   quarterly/JJ   dividend/NN   of/IN   US/NNP)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Declares/NNP Quarterly/NNP)
+	(NOUN Dividend/NNP Wednesday/NNP)
+	(NOUN 27/CD Jan/NNP)
+	(NOUN 06pm/CD EST/JJS Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN share/NN payable/JJ May/NNP)
+	(NOUN shareholders/NNS)
+	(NOUN record/NN April/NNP)
+
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Declares Quarterly Dividend
+Wednesday, 11 Nov 2009 12:29pm EST
+Potash Corporation of Saskatchewan Inc. announced that its Board of Directors has declared a quarterly dividend of USD0.10 per share payable February 11, 2010 to shareholders of record January 21, 2010.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Declares', 'NNP'), ('Quarterly', 'NNP'), ('Dividend', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('11', 'CD'), ('Nov', 'NNP'), ('2009', 'CD'), ('12', 'CD'), (':', ':'), ('29pm', 'CD'), ('EST', 'JJS'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('its', 'PRP$'), ('Board', 'NNP'), ('of', 'IN'), ('Directors', 'NNP'), ('has', 'VBZ'), ('declared', 'VBN'), ('a', 'DT'), ('quarterly', 'JJ'), ('dividend', 'NN'), ('of', 'IN'), ('USD0.10', '-NONE-'), ('per', 'IN'), ('share', 'NN'), ('payable', 'JJ'), ('February', 'NNP'), ('11', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('shareholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('January', 'NNP'), ('21', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   Declares/NNP   Quarterly/NNP   Dividend/NNP   Wednesday/NNP   ,/,   11/CD   Nov/NNP   2009/CD   12/CD   :/:   29pm/CD   EST/JJS   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   its/PRP$   (ORGANIZATION Board/NNP)   of/IN   (GPE Directors/NNP)   has/VBZ   declared/VBN   a/DT   quarterly/JJ   dividend/NN   of/IN   USD0.10/-NONE-   per/IN   share/NN   payable/JJ   February/NNP   11/CD   ,/,   2010/CD   to/TO   shareholders/NNS   of/IN   record/NN   January/NNP   21/CD   ,/,   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN its/PRP$ Board/NNP of/IN Directors/NNP)
+	(VERB has/VBZ declared/VBN a/DT quarterly/JJ dividend/NN of/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Declares/NNP Quarterly/NNP)
+	(NOUN Dividend/NNP Wednesday/NNP)
+	(NOUN 11/CD Nov/NNP)
+	(NOUN 29pm/CD EST/JJS Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN share/NN payable/JJ February/NNP)
+	(NOUN shareholders/NNS)
+	(NOUN record/NN January/NNP)
+
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Issues Q4 2009 EPS Guidance Below Analysts' Estimates; Sees FY 2009 EPS Guidance At Low End Of Previous Guidance
+Thursday, 22 Oct 2009 06:00am EDT
+Potash Corporation of Saskatchewan Inc. announced that for the fourth quarter of 2009, it expects net income per share EPS to be in the range of $0.65 0.85.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Issues', 'NNPS'), ('Q4', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Guidance', 'NNP'), ('Below', 'NNP'), ('Analysts', 'NNP'), ("'", 'POS'), ('Estimates', 'NNP'), (';', ':'), ('Sees', 'NNP'), ('FY', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Guidance', 'NNP'), ('At', 'NNP'), ('Low', 'NNP'), ('End', 'NNP'), ('Of', 'NNP'), ('Previous', 'NNP'), ('Guidance', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('22', 'CD'), ('Oct', 'NNP'), ('2009', 'CD'), ('06', 'CD'), (':', ':'), ('00am', 'CD'), ('EDT', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('for', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), (',', ','), ('it', 'PRP'), ('expects', 'VBZ'), ('net', 'JJ'), ('income', 'NN'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('0.65', 'CD'), ('0.85', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP Issues/NNPS)   Q4/NNP   2009/CD   (ORGANIZATION EPS/NNP Guidance/NNP Below/NNP Analysts/NNP)   '/POS   (PERSON Estimates/NNP)   ;/:   (PERSON Sees/NNP)   FY/NNP   2009/CD   (ORGANIZATION EPS/NNP Guidance/NNP)   At/NNP   Low/NNP   End/NNP   Of/NNP   Previous/NNP   Guidance/NNP   Thursday/NNP   ,/,   22/CD   Oct/NNP   2009/CD   06/CD   :/:   00am/CD   (ORGANIZATION EDT/NNP Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   for/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD   ,/,   it/PRP   expects/VBZ   net/JJ   income/NN   per/IN   share/NN   EPS/NNS   to/TO   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   0.65/CD   0.85/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   that/IN   for/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD)
+	(VERB expects/VBZ net/JJ income/NN per/IN share/NN EPS/NNS)
+	(VERB be/VB in/IN the/DT range/NN of/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Issues/NNPS Q4/NNP)
+	(NOUN 2009/CD EPS/NNP Guidance/NNP Below/NNP Analysts/NNP)
+	(NOUN Estimates/NNP)
+	(NOUN Sees/NNP FY/NNP)
+	(NOUN 2009/CD EPS/NNP Guidance/NNP At/NNP Low/NNP)
+	(NOUN End/NNP Of/NNP Previous/NNP Guidance/NNP)
+	(NOUN Thursday/NNP)
+	(NOUN 22/CD Oct/NNP)
+	(NOUN 00am/CD EDT/NNP Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+For fiscal 2009, it expects EPS at the low end of the annual guidance range previously provided.
+
+POS tagged sentence: 
+[('For', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), (',', ','), ('it', 'PRP'), ('expects', 'VBZ'), ('EPS', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('low', 'JJ'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('annual', 'JJ'), ('guidance', 'NN'), ('range', 'NN'), ('previously', 'RB'), ('provided', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   fiscal/JJ   2009/CD   ,/,   it/PRP   expects/VBZ   (ORGANIZATION EPS/NNP)   at/IN   the/DT   low/JJ   end/NN   of/IN   the/DT   annual/JJ   guidance/NN   range/NN   previously/RB   provided/VBN   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts were expecting the Company to report EPS of $1.17 for fourth quarter of 2009 and EPS of $3.48 for fiscal 2009.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('1.17', 'CD'), ('for', 'IN'), ('fourth', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.48', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   were/VBD   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   1.17/CD   for/IN   fourth/JJ   quarter/NN   of/IN   2009/CD   and/CC   (ORGANIZATION EPS/NNP)   of/IN   $/$   3.48/CD   for/IN   fiscal/JJ   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Prices Offering Of USD500 Million Six Year Notes And USD500 Million 10.5 Year Notes
+Wednesday, 23 Sep 2009 05:27pm EDT
+Potash Corporation of Saskatchewan Inc. announced that it has priced an offering of USD500 million aggregate principal amount of 3.75% notes due September 30, 2015 and USD500 million aggregate principal amount of 4.875% notes due March 30, 2020.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Prices', 'NNPS'), ('Offering', 'NNP'), ('Of', 'NNP'), ('USD500', 'NNP'), ('Million', 'NNP'), ('Six', 'NNP'), ('Year', 'NNP'), ('Notes', 'NNPS'), ('And', 'NNP'), ('USD500', 'NNP'), ('Million', 'NNP'), ('10.5', 'CD'), ('Year', 'NNP'), ('Notes', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('23', 'CD'), ('Sep', 'NNP'), ('2009', 'CD'), ('05', 'CD'), (':', ':'), ('27pm', 'CD'), ('EDT', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('priced', 'VBN'), ('an', 'DT'), ('offering', 'NN'), ('of', 'IN'), ('USD500', 'NNP'), ('million', 'CD'), ('aggregate', 'JJ'), ('principal', 'NN'), ('amount', 'NN'), ('of', 'IN'), ('3.75', 'CD'), ('%', 'NN'), ('notes', 'NNS'), ('due', 'JJ'), ('September', 'NNP'), ('30', 'CD'), (',', ','), ('2015', 'CD'), ('and', 'CC'), ('USD500', 'NNP'), ('million', 'CD'), ('aggregate', 'JJ'), ('principal', 'NN'), ('amount', 'NN'), ('of', 'IN'), ('4.875', 'CD'), ('%', 'NN'), ('notes', 'NNS'), ('due', 'JJ'), ('March', 'NNP'), ('30', 'CD'), (',', ','), ('2020', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP Prices/NNPS)   Offering/NNP   Of/NNP   USD500/NNP   Million/NNP   Six/NNP   Year/NNP   Notes/NNPS   (PERSON And/NNP USD500/NNP)   Million/NNP   10.5/CD   Year/NNP   Notes/NNP   Wednesday/NNP   ,/,   23/CD   Sep/NNP   2009/CD   05/CD   :/:   27pm/CD   (ORGANIZATION EDT/NNP Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   priced/VBN   an/DT   offering/NN   of/IN   (ORGANIZATION USD500/NNP)   million/CD   aggregate/JJ   principal/NN   amount/NN   of/IN   3.75/CD   %/NN   notes/NNS   due/JJ   September/NNP   30/CD   ,/,   2015/CD   and/CC   (ORGANIZATION USD500/NNP)   million/CD   aggregate/JJ   principal/NN   amount/NN   of/IN   4.875/CD   %/NN   notes/NNS   due/JJ   March/NNP   30/CD   ,/,   2020/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   has/VBZ   priced/VBN   an/DT   offering/NN   of/IN   USD500/NNP   million/CD   aggregate/JJ   principal/NN   amount/NN   of/IN   3.75/CD   %/NN   notes/NNS   due/JJ   September/NNP   30/CD)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Prices/NNPS Offering/NNP)
+	(NOUN Of/NNP USD500/NNP Million/NNP Six/NNP)
+	(NOUN Year/NNP Notes/NNPS And/NNP USD500/NNP)
+	(NOUN Million/NNP)
+	(NOUN 10.5/CD Year/NNP Notes/NNP Wednesday/NNP)
+	(NOUN 23/CD Sep/NNP)
+	(NOUN 27pm/CD EDT/NNP Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN USD500/NNP million/CD aggregate/JJ principal/NN amount/NN)
+	(NOUN 4.875/CD %/NN notes/NNS)
+	(NOUN due/JJ March/NNP)
+
+----------------------------------
+original sentence: 
+BofA Merrill Lynch, HSBC and RBC Capital Markets are acting as joint book running managers of the offering.
+
+POS tagged sentence: 
+[('BofA', 'NNP'), ('Merrill', 'NNP'), ('Lynch', 'NNP'), (',', ','), ('HSBC', 'NNP'), ('and', 'CC'), ('RBC', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), ('are', 'VBP'), ('acting', 'VBG'), ('as', 'IN'), ('joint', 'JJ'), ('book', 'NN'), ('running', 'VBG'), ('managers', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('offering', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BofA/NNP)   (PERSON Merrill/NNP Lynch/NNP)   ,/,   (ORGANIZATION HSBC/NNP)   and/CC   (ORGANIZATION RBC/NNP Capital/NNP Markets/NNPS)   are/VBP   acting/VBG   as/IN   joint/JJ   book/NN   running/VBG   managers/NNS   of/IN   the/DT   offering/NN   ./.)
+----------------------------------
+original sentence: 
+Scotia Capital, BMO Capital Markets, CIBC, Rabo Securities USA, Inc., TD Securities, UBS Investment Bank, Comerica Securities, Mitsubishi UFJ Securities, SOCIETE GENERALE, Goldman Sachs & Co., and Morgan Stanley are acting as co managers of the offering.
+
+POS tagged sentence: 
+[('Scotia', 'NNP'), ('Capital', 'NNP'), (',', ','), ('BMO', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), (',', ','), ('CIBC', 'NNP'), (',', ','), ('Rabo', 'NNP'), ('Securities', 'NNPS'), ('USA', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('TD', 'NNP'), ('Securities', 'NNPS'), (',', ','), ('UBS', 'NNP'), ('Investment', 'NNP'), ('Bank', 'NNP'), (',', ','), ('Comerica', 'NNP'), ('Securities', 'NNPS'), (',', ','), ('Mitsubishi', 'NNP'), ('UFJ', 'NNP'), ('Securities', 'NNP'), (',', ','), ('SOCIETE', 'NNP'), ('GENERALE', 'NNP'), (',', ','), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('and', 'CC'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('are', 'VBP'), ('acting', 'VBG'), ('as', 'IN'), ('co', 'NN'), ('managers', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('offering', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Scotia/NNP)   (ORGANIZATION Capital/NNP)   ,/,   (ORGANIZATION BMO/NNP Capital/NNP Markets/NNPS)   ,/,   (ORGANIZATION CIBC/NNP)   ,/,   (ORGANIZATION Rabo/NNP Securities/NNPS)   (ORGANIZATION USA/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION TD/NNP Securities/NNPS)   ,/,   (ORGANIZATION UBS/NNP Investment/NNP Bank/NNP)   ,/,   (ORGANIZATION Comerica/NNP Securities/NNPS)   ,/,   (PERSON Mitsubishi/NNP UFJ/NNP Securities/NNP)   ,/,   (ORGANIZATION SOCIETE/NNP)   GENERALE/NNP   ,/,   (ORGANIZATION Goldman/NNP Sachs/NNP)   &/CC   Co./NNP   ,/,   and/CC   (PERSON Morgan/NNP Stanley/NNP)   are/VBP   acting/VBG   as/IN   co/NN   managers/NNS   of/IN   the/DT   offering/NN   ./.)
+----------------------------------
+original sentence: 
+The Company intends to use the net proceeds from the offering to repay outstanding indebtedness under revolving credit facilities and for general corporate purposes.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('intends', 'VBZ'), ('to', 'TO'), ('use', 'VB'), ('the', 'DT'), ('net', 'JJ'), ('proceeds', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('offering', 'NN'), ('to', 'TO'), ('repay', 'VB'), ('outstanding', 'JJ'), ('indebtedness', 'NN'), ('under', 'IN'), ('revolving', 'VBG'), ('credit', 'NN'), ('facilities', 'NNS'), ('and', 'CC'), ('for', 'IN'), ('general', 'JJ'), ('corporate', 'JJ'), ('purposes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   intends/VBZ   to/TO   use/VB   the/DT   net/JJ   proceeds/NNS   from/IN   the/DT   offering/NN   to/TO   repay/VB   outstanding/JJ   indebtedness/NN   under/IN   revolving/VBG   credit/NN   facilities/NNS   and/CC   for/IN   general/JJ   corporate/JJ   purposes/NNS   ./.)
+----------------------------------
+original sentence: 
+The offering is expected to close on September 28, 2009.
+
+POS tagged sentence: 
+[('The', 'DT'), ('offering', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('close', 'VB'), ('on', 'IN'), ('September', 'NNP'), ('28', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   offering/NN   is/VBZ   expected/VBN   to/TO   close/VB   on/IN   September/NNP   28/CD   ,/,   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Lowers FY 2009 EPS Outlook; Sees Q3 2009 EPS At Low End Of Prior Outlook Range
+Friday, 18 Sep 2009 05:45pm EDT
+Potash Corporation of Saskatchewan Inc. lowered its fiscal 2009 outlook and expects earnings per share EPS to a range of $3.25 $3.75 from its prior view of $4.00 $5.00.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Lowers', 'NNP'), ('FY', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Outlook', 'NNP'), (';', ':'), ('Sees', 'NNP'), ('Q3', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('At', 'NNP'), ('Low', 'NNP'), ('End', 'NNP'), ('Of', 'NNP'), ('Prior', 'NNP'), ('Outlook', 'NNP'), ('Range', 'NNP'), ('Friday', 'NNP'), (',', ','), ('18', 'CD'), ('Sep', 'NNP'), ('2009', 'CD'), ('05', 'CD'), (':', ':'), ('45pm', 'CD'), ('EDT', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('lowered', 'VBD'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('2009', 'CD'), ('outlook', 'NN'), ('and', 'CC'), ('expects', 'VBZ'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('3.25', 'CD'), ('$', '$'), ('3.75', 'CD'), ('from', 'IN'), ('its', 'PRP$'), ('prior', 'JJ'), ('view', 'NN'), ('of', 'IN'), ('$', '$'), ('4.00', 'CD'), ('$', '$'), ('5.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   Lowers/NNP   FY/NNP   2009/CD   (ORGANIZATION EPS/NNP Outlook/NNP)   ;/:   (PERSON Sees/NNP)   Q3/NNP   2009/CD   (ORGANIZATION     EPS/NNP     At/NNP     Low/NNP     End/NNP     Of/NNP     Prior/NNP     Outlook/NNP     Range/NNP)   Friday/NNP   ,/,   18/CD   Sep/NNP   2009/CD   05/CD   :/:   45pm/CD   (ORGANIZATION EDT/NNP Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   lowered/VBD   its/PRP$   fiscal/JJ   2009/CD   outlook/NN   and/CC   expects/VBZ   earnings/NNS   per/IN   share/NN   EPS/NNS   to/TO   a/DT   range/NN   of/IN   $/$   3.25/CD   $/$   3.75/CD   from/IN   its/PRP$   prior/JJ   view/NN   of/IN   $/$   4.00/CD   $/$   5.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lowered/VBD its/PRP$ fiscal/JJ 2009/CD outlook/NN)
+	(VERB expects/VBZ earnings/NNS per/IN share/NN EPS/NNS)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Lowers/NNP FY/NNP)
+	(NOUN 2009/CD EPS/NNP Outlook/NNP)
+	(NOUN Sees/NNP Q3/NNP)
+	(NOUN 2009/CD EPS/NNP At/NNP Low/NNP End/NNP)
+	(NOUN Of/NNP Prior/NNP Outlook/NNP Range/NNP)
+	(NOUN Friday/NNP)
+	(NOUN 18/CD Sep/NNP)
+	(NOUN 45pm/CD EDT/NNP Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN range/NN)
+	(NOUN prior/JJ view/NN)
+
+----------------------------------
+original sentence: 
+The change primarily reflects lower than forecasted potash sales volumes due to continued slow demand and limited restocking by fertilizer distributors around the world.
+
+POS tagged sentence: 
+[('The', 'DT'), ('change', 'NN'), ('primarily', 'RB'), ('reflects', 'VBZ'), ('lower', 'JJR'), ('than', 'IN'), ('forecasted', 'VBN'), ('potash', 'NN'), ('sales', 'NNS'), ('volumes', 'VBZ'), ('due', 'JJ'), ('to', 'TO'), ('continued', 'VBN'), ('slow', 'JJ'), ('demand', 'NN'), ('and', 'CC'), ('limited', 'VBD'), ('restocking', 'VBG'), ('by', 'IN'), ('fertilizer', 'NN'), ('distributors', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   change/NN   primarily/RB   reflects/VBZ   lower/JJR   than/IN   forecasted/VBN   potash/NN   sales/NNS   volumes/VBZ   due/JJ   to/TO   continued/VBN   slow/JJ   demand/NN   and/CC   limited/VBD   restocking/VBG   by/IN   fertilizer/NN   distributors/NNS   around/IN   the/DT   world/NN   ./.)
+----------------------------------
+original sentence: 
+The Company further announced that earnings per share for third quarter 2009 are expected to be at the low end of the $0.80 $1.20 per share guidance range previously provided.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('further', 'RB'), ('announced', 'VBD'), ('that', 'IN'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('for', 'IN'), ('third', 'JJ'), ('quarter', 'NN'), ('2009', 'CD'), ('are', 'VBP'), ('expected', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('at', 'IN'), ('the', 'DT'), ('low', 'JJ'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('$', '$'), ('0.80', 'CD'), ('$', '$'), ('1.20', 'CD'), ('per', 'IN'), ('share', 'NN'), ('guidance', 'NN'), ('range', 'NN'), ('previously', 'RB'), ('provided', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   further/RB   announced/VBD   that/IN   earnings/NNS   per/IN   share/NN   for/IN   third/JJ   quarter/NN   2009/CD   are/VBP   expected/VBN   to/TO   be/VB   at/IN   the/DT   low/JJ   end/NN   of/IN   the/DT   $/$   0.80/CD   $/$   1.20/CD   per/IN   share/NN   guidance/NN   range/NN   previously/RB   provided/VBN   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts were expecting the Company to report EPS of $0.89 for third quarter of 2009 and EPS of $4.12 for fiscal 2009.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('0.89', 'CD'), ('for', 'IN'), ('third', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('4.12', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   were/VBD   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   0.89/CD   for/IN   third/JJ   quarter/NN   of/IN   2009/CD   and/CC   (ORGANIZATION EPS/NNP)   of/IN   $/$   4.12/CD   for/IN   fiscal/JJ   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Marketing Consortium Of Potash Corporation Of Saskatchewan Inc., The Mosaic Company and Agrium Inc.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Marketing', 'NNP'), ('Consortium', 'NNP'), ('Of', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('Of', 'NNP'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('The', 'NNP'), ('Mosaic', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('Agrium', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   Marketing/NNP   Consortium/NNP   Of/NNP   Potash/NNP   Corporation/NNP   Of/NNP   Saskatchewan/NNP   Inc./NNP   ,/,   (ORGANIZATION The/NNP Mosaic/NNP Company/NNP)   and/CC   (PERSON Agrium/NNP Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Potash/NNP Marketing/NNP Consortium/NNP Of/NNP)
+	(NOUN Potash/NNP Corporation/NNP Of/NNP Saskatchewan/NNP)
+	(NOUN Inc./NNP)
+	(NOUN The/NNP Mosaic/NNP Company/NNP)
+	(NOUN Agrium/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+Agreed To Sell Potash To Indian Buyers Reuters
+Thursday, 23 Jul 2009 11:47am EDT
+Reuters reported that the potash marketing consortium of Potash Corporation of Saskatchewan Inc., The Mosaic Company and Agrium Inc. agreed to sell potash to Indian buyers at $460 a tonne.
+
+POS tagged sentence: 
+[('Agreed', 'NNP'), ('To', 'TO'), ('Sell', 'NNP'), ('Potash', 'NNP'), ('To', 'NNP'), ('Indian', 'NNP'), ('Buyers', 'NNP'), ('Reuters', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('23', 'CD'), ('Jul', 'NNP'), ('2009', 'CD'), ('11', 'CD'), (':', ':'), ('47am', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('potash', 'NN'), ('marketing', 'NN'), ('consortium', 'NN'), ('of', 'IN'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('The', 'NNP'), ('Mosaic', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('Agrium', 'NNP'), ('Inc.', 'NNP'), ('agreed', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('potash', 'NN'), ('to', 'TO'), ('Indian', 'NNP'), ('buyers', 'NNS'), ('at', 'IN'), ('$', '$'), ('460', 'CD'), ('a', 'DT'), ('tonne', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Agreed/NNP)   To/TO   (ORGANIZATION     Sell/NNP     Potash/NNP     To/NNP     Indian/NNP     Buyers/NNP     Reuters/NNP)   Thursday/NNP   ,/,   23/CD   Jul/NNP   2009/CD   11/CD   :/:   47am/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   the/DT   potash/NN   marketing/NN   consortium/NN   of/IN   (ORGANIZATION Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   ,/,   (ORGANIZATION The/NNP Mosaic/NNP Company/NNP)   and/CC   (ORGANIZATION Agrium/NNP Inc./NNP)   agreed/VBD   to/TO   sell/VB   potash/NN   to/TO   (GPE Indian/NNP)   buyers/NNS   at/IN   $/$   460/CD   a/DT   tonne/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   reported/VBD   that/IN   the/DT   potash/NN   marketing/NN   consortium/NN   of/IN   Potash/NNP   Corporation/NNP   of/IN   Saskatchewan/NNP   Inc./NNP)
+	(VERB agreed/VBD to/TO sell/VB potash/NN)
+noun phrases to consider:
+	(NOUN Agreed/NNP)
+	(NOUN Sell/NNP Potash/NNP To/NNP Indian/NNP)
+	(NOUN Buyers/NNP Reuters/NNP Thursday/NNP)
+	(NOUN 23/CD Jul/NNP)
+	(NOUN 47am/CD EDT/NNP Reuters/NNP)
+	(NOUN The/NNP Mosaic/NNP Company/NNP)
+	(NOUN Agrium/NNP Inc./NNP)
+	(NOUN Indian/NNP buyers/NNS)
+	(NOUN tonne/NN)
+
+----------------------------------
+original sentence: 
+Mosaic Co confirmed that Canpotex, the marketing consortium, also agreed to sell potash to Indian importers at the same price as its overseas competitors.
+
+POS tagged sentence: 
+[('Mosaic', 'NNP'), ('Co', 'NNP'), ('confirmed', 'VBD'), ('that', 'IN'), ('Canpotex', 'NNP'), (',', ','), ('the', 'DT'), ('marketing', 'NN'), ('consortium', 'NN'), (',', ','), ('also', 'RB'), ('agreed', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('potash', 'NN'), ('to', 'TO'), ('Indian', 'NNP'), ('importers', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('price', 'NN'), ('as', 'IN'), ('its', 'PRP$'), ('overseas', 'JJ'), ('competitors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mosaic/NNP)   (PERSON Co/NNP)   confirmed/VBD   that/IN   (GPE Canpotex/NNP)   ,/,   the/DT   marketing/NN   consortium/NN   ,/,   also/RB   agreed/VBD   to/TO   sell/VB   potash/NN   to/TO   (GPE Indian/NNP)   importers/NNS   at/IN   the/DT   same/JJ   price/NN   as/IN   its/PRP$   overseas/JJ   competitors/NNS   ./.)
+----------------------------------
+original sentence: 
+The consortium concluded contracts in India totaling 850,000 tonnes with both its private and public sector partners.
+
+POS tagged sentence: 
+[('The', 'DT'), ('consortium', 'NN'), ('concluded', 'VBD'), ('contracts', 'NNS'), ('in', 'IN'), ('India', 'NNP'), ('totaling', 'NN'), ('850,000', 'CD'), ('tonnes', 'NNS'), ('with', 'IN'), ('both', 'DT'), ('its', 'PRP$'), ('private', 'JJ'), ('and', 'CC'), ('public', 'JJ'), ('sector', 'NN'), ('partners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   consortium/NN   concluded/VBD   contracts/NNS   in/IN   (GPE India/NNP)   totaling/NN   850,000/CD   tonnes/NNS   with/IN   both/DT   its/PRP$   private/JJ   and/CC   public/JJ   sector/NN   partners/NNS   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Lowers FY 2009 EPS Outlook; Issues Q3 2009 EPS Outlook Below Analysts' Estimates Reuters
+Thursday, 23 Jul 2009 08:29am EDT
+Reuters reported that Potash Corporation of Saskatchewan Inc. lowered its fiscal 2009 outlook and expects earnings per share EPS to a range of $4.00 $5.00 from its prior view of $7.00 $8.00.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Lowers', 'NNP'), ('FY', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Outlook', 'NNP'), (';', ':'), ('Issues', 'NNPS'), ('Q3', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Outlook', 'NNP'), ('Below', 'NNP'), ('Analysts', 'NNP'), ("'", 'POS'), ('Estimates', 'NNP'), ('Reuters', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('23', 'CD'), ('Jul', 'NNP'), ('2009', 'CD'), ('08', 'CD'), (':', ':'), ('29am', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('lowered', 'VBD'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('2009', 'CD'), ('outlook', 'NN'), ('and', 'CC'), ('expects', 'VBZ'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('4.00', 'CD'), ('$', '$'), ('5.00', 'CD'), ('from', 'IN'), ('its', 'PRP$'), ('prior', 'JJ'), ('view', 'NN'), ('of', 'IN'), ('$', '$'), ('7.00', 'CD'), ('$', '$'), ('8.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   Lowers/NNP   FY/NNP   2009/CD   (ORGANIZATION EPS/NNP Outlook/NNP)   ;/:   (PERSON Issues/NNPS Q3/NNP)   2009/CD   (ORGANIZATION EPS/NNP Outlook/NNP Below/NNP Analysts/NNP)   '/POS   (PERSON Estimates/NNP Reuters/NNP)   Thursday/NNP   ,/,   23/CD   Jul/NNP   2009/CD   08/CD   :/:   29am/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   lowered/VBD   its/PRP$   fiscal/JJ   2009/CD   outlook/NN   and/CC   expects/VBZ   earnings/NNS   per/IN   share/NN   EPS/NNS   to/TO   a/DT   range/NN   of/IN   $/$   4.00/CD   $/$   5.00/CD   from/IN   its/PRP$   prior/JJ   view/NN   of/IN   $/$   7.00/CD   $/$   8.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   reported/VBD   that/IN   Potash/NNP   Corporation/NNP   of/IN   Saskatchewan/NNP   Inc./NNP)
+	(VERB lowered/VBD its/PRP$ fiscal/JJ 2009/CD outlook/NN)
+	(VERB expects/VBZ earnings/NNS per/IN share/NN EPS/NNS)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Lowers/NNP FY/NNP)
+	(NOUN 2009/CD EPS/NNP Outlook/NNP)
+	(NOUN Issues/NNPS Q3/NNP)
+	(NOUN 2009/CD EPS/NNP Outlook/NNP Below/NNP Analysts/NNP)
+	(NOUN Estimates/NNP Reuters/NNP Thursday/NNP)
+	(NOUN 23/CD Jul/NNP)
+	(NOUN 29am/CD EDT/NNP Reuters/NNP)
+	(NOUN range/NN)
+	(NOUN prior/JJ view/NN)
+
+----------------------------------
+original sentence: 
+It expects third quarter of 2009 EPS to between $0.80 $1.20.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('expects', 'VBZ'), ('third', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('EPS', 'NNP'), ('to', 'TO'), ('between', 'IN'), ('$', '$'), ('0.80', 'CD'), ('$', '$'), ('1.20', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   expects/VBZ   third/JJ   quarter/NN   of/IN   2009/CD   EPS/NNP   to/TO   between/IN   $/$   0.80/CD   $/$   1.20/CD   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts were expecting the Company to report EPS of $1.44 for third quarter of 2009 and EPS of $5.13 for fiscal 2009.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('1.44', 'CD'), ('for', 'IN'), ('third', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('5.13', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   were/VBD   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   1.44/CD   for/IN   third/JJ   quarter/NN   of/IN   2009/CD   and/CC   (ORGANIZATION EPS/NNP)   of/IN   $/$   5.13/CD   for/IN   fiscal/JJ   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. Lowers Q2 2009 EPS Outlook
+Thursday, 25 Jun 2009 06:04pm EDT
+Potash Corporation of Saskatchewan Inc. announced that for the second quarter of 2009, it has lowered earnings guidance to approximately $0.70 per share from initial target of $1.10 $1.50 per share.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('Lowers', 'NNP'), ('Q2', 'NNP'), ('2009', 'CD'), ('EPS', 'NNP'), ('Outlook', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('25', 'CD'), ('Jun', 'NNP'), ('2009', 'CD'), ('06', 'CD'), (':', ':'), ('04pm', 'CD'), ('EDT', 'NNP'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), (',', ','), ('it', 'PRP'), ('has', 'VBZ'), ('lowered', 'VBN'), ('earnings', 'NNS'), ('guidance', 'NN'), ('to', 'TO'), ('approximately', 'RB'), ('$', '$'), ('0.70', 'CD'), ('per', 'IN'), ('share', 'NN'), ('from', 'IN'), ('initial', 'JJ'), ('target', 'NN'), ('of', 'IN'), ('$', '$'), ('1.10', 'CD'), ('$', '$'), ('1.50', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   Lowers/NNP   Q2/NNP   2009/CD   (ORGANIZATION EPS/NNP Outlook/NNP)   Thursday/NNP   ,/,   25/CD   Jun/NNP   2009/CD   06/CD   :/:   04pm/CD   (ORGANIZATION EDT/NNP Potash/NNP Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   announced/VBD   that/IN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2009/CD   ,/,   it/PRP   has/VBZ   lowered/VBN   earnings/NNS   guidance/NN   to/TO   approximately/RB   $/$   0.70/CD   per/IN   share/NN   from/IN   initial/JJ   target/NN   of/IN   $/$   1.10/CD   $/$   1.50/CD   per/IN   share/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   that/IN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2009/CD)
+	(VERB has/VBZ lowered/VBN earnings/NNS guidance/NN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP Lowers/NNP Q2/NNP)
+	(NOUN 2009/CD EPS/NNP Outlook/NNP Thursday/NNP)
+	(NOUN 25/CD Jun/NNP)
+	(NOUN 04pm/CD EDT/NNP Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+	(NOUN share/NN)
+	(NOUN initial/JJ target/NN)
+	(NOUN share/NN)
+
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts on an average were expecting the Company to report earnings per share EPS of $1.04 for the second quarter of 2009.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('on', 'IN'), ('an', 'DT'), ('average', 'JJ'), ('were', 'NN'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('of', 'IN'), ('$', '$'), ('1.04', 'CD'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   on/IN   an/DT   average/JJ   were/NN   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   earnings/NNS   per/IN   share/NN   EPS/NNS   of/IN   $/$   1.04/CD   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+The Company cited that, substantially lower than forecasted potash sales volumes due to deferral of purchases by customers around the world and lower realized prices for phosphate fertilizers as the main reasons for lowering second quarter 2009 EPS outlook.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('cited', 'VBD'), ('that', 'IN'), (',', ','), ('substantially', 'RB'), ('lower', 'JJR'), ('than', 'IN'), ('forecasted', 'VBN'), ('potash', 'NN'), ('sales', 'NNS'), ('volumes', 'VBZ'), ('due', 'JJ'), ('to', 'TO'), ('deferral', 'JJ'), ('of', 'IN'), ('purchases', 'NNS'), ('by', 'IN'), ('customers', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('and', 'CC'), ('lower', 'JJR'), ('realized', 'VBD'), ('prices', 'NNS'), ('for', 'IN'), ('phosphate', 'JJ'), ('fertilizers', 'NNS'), ('as', 'IN'), ('the', 'DT'), ('main', 'JJ'), ('reasons', 'NNS'), ('for', 'IN'), ('lowering', 'VBG'), ('second', 'JJ'), ('quarter', 'NN'), ('2009', 'CD'), ('EPS', 'NNP'), ('outlook', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   cited/VBD   that/IN   ,/,   substantially/RB   lower/JJR   than/IN   forecasted/VBN   potash/NN   sales/NNS   volumes/VBZ   due/JJ   to/TO   deferral/JJ   of/IN   purchases/NNS   by/IN   customers/NNS   around/IN   the/DT   world/NN   and/CC   lower/JJR   realized/VBD   prices/NNS   for/IN   phosphate/JJ   fertilizers/NNS   as/IN   the/DT   main/JJ   reasons/NNS   for/IN   lowering/VBG   second/JJ   quarter/NN   2009/CD   EPS/NNP   outlook/NN   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. News
+CANADA STOCKS TSX seen opening higher on firmer commodities
+ April 20 Reuters Toronto's main stock exchange looked
+set to open higher on Tuesday as commodity prices rose on a
+weaker U.S. dollar and firm U.S. company results boosted
+sentiment.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('News', 'NNP'), ('CANADA', 'NNP'), ('STOCKS', 'NNP'), ('TSX', 'NNP'), ('seen', 'IN'), ('opening', 'VBG'), ('higher', 'JJR'), ('on', 'IN'), ('firmer', 'NN'), ('commodities', 'NNS'), ('April', 'NNP'), ('20', 'CD'), ('Reuters', 'NNP'), ('Toronto', 'NNP'), ("'s", 'POS'), ('main', 'JJ'), ('stock', 'NN'), ('exchange', 'NN'), ('looked', 'VBD'), ('set', 'VBN'), ('to', 'TO'), ('open', 'VB'), ('higher', 'JJR'), ('on', 'IN'), ('Tuesday', 'NNP'), ('as', 'IN'), ('commodity', 'NN'), ('prices', 'NNS'), ('rose', 'VBD'), ('on', 'IN'), ('a', 'DT'), ('weaker', 'NN'), ('U.S.', 'NNP'), ('dollar', 'NN'), ('and', 'CC'), ('firm', 'NN'), ('U.S.', 'NNP'), ('company', 'NN'), ('results', 'NNS'), ('boosted', 'VBD'), ('sentiment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP News/NNP)   CANADA/NNP   STOCKS/NNP   TSX/NNP   seen/IN   opening/VBG   higher/JJR   on/IN   firmer/NN   commodities/NNS   April/NNP   20/CD   (ORGANIZATION Reuters/NNP Toronto/NNP)   's/POS   main/JJ   stock/NN   exchange/NN   looked/VBD   set/VBN   to/TO   open/VB   higher/JJR   on/IN   Tuesday/NNP   as/IN   commodity/NN   prices/NNS   rose/VBD   on/IN   a/DT   weaker/NN   (GPE U.S./NNP)   dollar/NN   and/CC   firm/NN   (GPE U.S./NNP)   company/NN   results/NNS   boosted/VBD   sentiment/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   opening/VBG   higher/JJR   on/IN   firmer/NN   commodities/NNS   April/NNP   20/CD   Reuters/NNP   Toronto/NNP)
+	(VERB looked/VBD set/VBN)
+	(VERB   open/VB   higher/JJR   on/IN   Tuesday/NNP   as/IN   commodity/NN   prices/NNS)
+	(VERB rose/VBD on/IN a/DT weaker/NN U.S./NNP dollar/NN)
+	(VERB boosted/VBD sentiment/NN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP News/NNP CANADA/NNP)
+	(NOUN STOCKS/NNP TSX/NNP)
+	(NOUN main/JJ stock/NN exchange/NN)
+	(NOUN firm/NN U.S./NNP company/NN results/NNS)
+
+----------------------------------
+original sentence: 
+&#187; More POT News
+&#187; More Financials
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('POT', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Financials', 'NNPS')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP)   (ORGANIZATION POT/NNP News/NNP)   &/CC   #/#   187/CD   ;/:   (ORGANIZATION More/NNP Financials/NNPS))Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN More/NNP POT/NNP News/NNP)
+	(NOUN More/NNP Financials/NNPS)
+
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

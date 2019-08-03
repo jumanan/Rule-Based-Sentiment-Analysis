@@ -1,0 +1,137 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Ameristar Casinos Worst Performing Casino Stock | Stocks
+ Ameristar Casinos Worst Performing Casino Stock  Written by Gerard Lerod  Friday, 26 March 2010 17:06  New York, March 26th TradersHuddle.com Casino stocks ended the session higher by closing 1.39% versus their previous day close.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Ameristar', 'NNP'), ('Casinos', 'NNP'), ('Worst', 'NNP'), ('Performing', 'NNP'), ('Casino', 'NNP'), ('Stock', 'NNP'), ('|', 'NNP'), ('Stocks', 'NNP'), ('Ameristar', 'NNP'), ('Casinos', 'NNP'), ('Worst', 'NNP'), ('Performing', 'NNP'), ('Casino', 'NNP'), ('Stock', 'NNP'), ('Written', 'NNP'), ('by', 'IN'), ('Gerard', 'NNP'), ('Lerod', 'NNP'), ('Friday', 'NNP'), (',', ','), ('26', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('17', 'CD'), (':', ':'), ('06', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('March', 'NNP'), ('26th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Casino', 'NNP'), ('stocks', 'NNS'), ('ended', 'VBD'), ('the', 'DT'), ('session', 'NN'), ('higher', 'JJR'), ('by', 'IN'), ('closing', 'JJ'), ('1.39', 'CD'), ('%', 'NN'), ('versus', 'NN'), ('their', 'PRP$'), ('previous', 'JJ'), ('day', 'NN'), ('close', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   (ORGANIZATION     Ameristar/NNP     Casinos/NNP     Worst/NNP     Performing/NNP     Casino/NNP     Stock/NNP)   |/NNP   Stocks/NNP   Ameristar/NNP   (PERSON     Casinos/NNP     Worst/NNP     Performing/NNP     Casino/NNP     Stock/NNP     Written/NNP)   by/IN   (PERSON Gerard/NNP Lerod/NNP)   Friday/NNP   ,/,   26/CD   March/NNP   2010/CD   17/CD   :/:   06/CD   (GPE New/NNP York/NNP)   ,/,   March/NNP   26th/CD   TradersHuddle.com/NNP   Casino/NNP   stocks/NNS   ended/VBD   the/DT   session/NN   higher/JJR   by/IN   closing/JJ   1.39/CD   %/NN   versus/NN   their/PRP$   previous/JJ   day/NN   close/NN   ./.)
+----------------------------------
+original sentence: 
+Casino stocks were mixed with 4 out of 7 casino companies trading higher.
+
+POS tagged sentence: 
+[('Casino', 'NNP'), ('stocks', 'NNS'), ('were', 'VBD'), ('mixed', 'VBN'), ('with', 'IN'), ('4', 'CD'), ('out', 'IN'), ('of', 'IN'), ('7', 'CD'), ('casino', 'NN'), ('companies', 'NNS'), ('trading', 'NN'), ('higher', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Casino/NNP)   stocks/NNS   were/VBD   mixed/VBN   with/IN   4/CD   out/IN   of/IN   7/CD   casino/NN   companies/NNS   trading/NN   higher/JJR   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands NYSE:LVS was the top performer of the casino stocks today closing at $21.89 representing 4.59%.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('top', 'JJ'), ('performer', 'NN'), ('of', 'IN'), ('the', 'DT'), ('casino', 'NN'), ('stocks', 'NNS'), ('today', 'NN'), ('closing', 'VBG'), ('at', 'IN'), ('$', '$'), ('21.89', 'CD'), ('representing', 'VBG'), ('4.59', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   NYSE/NNP   :/:   LVS/NNP   was/VBD   the/DT   top/JJ   performer/NN   of/IN   the/DT   casino/NN   stocks/NNS   today/NN   closing/VBG   at/IN   $/$   21.89/CD   representing/VBG   4.59/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   the/DT   top/JJ   performer/NN   of/IN   the/DT   casino/NN   stocks/NNS   today/NN)
+
+tagged sentence:
+	 was the top performer of the casino stocks today	res:1
+	(VERB closing/VBG at/IN)
+	(VERB representing/VBG 4.59/CD %/NN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS NYSE/NNP)
+	(NOUN LVS/NNP)
+
+----------------------------------
+original sentence: 
+versus the previous trading session.
+
+POS tagged sentence: 
+[('versus', 'NN'), ('the', 'DT'), ('previous', 'JJ'), ('trading', 'NN'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S versus/NN the/DT previous/JJ trading/NN session/NN ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands, the owner and operator of casino resorts and convention centers in the U.S., Macau, and Singapore, shares have defined support at $18.88 and resistance at $20.55.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), (',', ','), ('the', 'DT'), ('owner', 'NN'), ('and', 'CC'), ('operator', 'NN'), ('of', 'IN'), ('casino', 'NN'), ('resorts', 'NNS'), ('and', 'CC'), ('convention', 'NN'), ('centers', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), (',', ','), ('Macau', 'NNP'), (',', ','), ('and', 'CC'), ('Singapore', 'NNP'), (',', ','), ('shares', 'NNS'), ('have', 'VBP'), ('defined', 'VBN'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('18.88', 'CD'), ('and', 'CC'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('20.55', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   ,/,   the/DT   owner/NN   and/CC   operator/NN   of/IN   casino/NN   resorts/NNS   and/CC   convention/NN   centers/NNS   in/IN   the/DT   (GPE U.S./NNP)   ,/,   (PERSON Macau/NNP)   ,/,   and/CC   (GPE Singapore/NNP)   ,/,   shares/NNS   have/VBP   defined/VBN   support/NN   at/IN   $/$   18.88/CD   and/CC   resistance/NN   at/IN   $/$   20.55/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP defined/VBN support/NN at/IN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN owner/NN)
+	(NOUN operator/NN)
+	(NOUN casino/NN resorts/NNS)
+	(NOUN convention/NN centers/NNS)
+	(NOUN U.S./NNP)
+	(NOUN Macau/NNP)
+	(NOUN Singapore/NNP)
+	(NOUN shares/NNS)
+	(NOUN resistance/NN)
+
+----------------------------------
+original sentence: 
+MGM MIRAGE NYSE:MGM was also among the top performers, closed the trading session at $12.46 representing 4.09% from its previous close.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('MIRAGE', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MGM', 'NNP'), ('was', 'VBD'), ('also', 'RB'), ('among', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('performers', 'NNS'), (',', ','), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('$', '$'), ('12.46', 'CD'), ('representing', 'VBG'), ('4.09', 'CD'), ('%', 'NN'), ('from', 'IN'), ('its', 'PRP$'), ('previous', 'JJ'), ('close', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MGM/NNP)   (ORGANIZATION MIRAGE/NNP)   NYSE/NNP   :/:   MGM/NNP   was/VBD   also/RB   among/IN   the/DT   top/JJ   performers/NNS   ,/,   closed/VBD   the/DT   trading/NN   session/NN   at/IN   $/$   12.46/CD   representing/VBG   4.09/CD   %/NN   from/IN   its/PRP$   previous/JJ   close/NN   ./.)
+----------------------------------
+original sentence: 
+MGM MIRAGE, the hospitality and gaming company owner and operator of properties like the Bellagio and MGM Grand in Las Vegas, NV has calculated support and resistance levels at $11.36 and $12.80 respectively.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('MIRAGE', 'NNP'), (',', ','), ('the', 'DT'), ('hospitality', 'NN'), ('and', 'CC'), ('gaming', 'VBG'), ('company', 'NN'), ('owner', 'NN'), ('and', 'CC'), ('operator', 'NN'), ('of', 'IN'), ('properties', 'NNS'), ('like', 'IN'), ('the', 'DT'), ('Bellagio', 'NNP'), ('and', 'CC'), ('MGM', 'NNP'), ('Grand', 'NNP'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), (',', ','), ('NV', 'NNP'), ('has', 'VBZ'), ('calculated', 'VBN'), ('support', 'NN'), ('and', 'CC'), ('resistance', 'NN'), ('levels', 'NNS'), ('at', 'IN'), ('$', '$'), ('11.36', 'CD'), ('and', 'CC'), ('$', '$'), ('12.80', 'CD'), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MGM/NNP)   (GPE MIRAGE/NNP)   ,/,   the/DT   hospitality/NN   and/CC   gaming/VBG   company/NN   owner/NN   and/CC   operator/NN   of/IN   properties/NNS   like/IN   the/DT   (ORGANIZATION Bellagio/NNP)   and/CC   (ORGANIZATION MGM/NNP Grand/NNP)   in/IN   (GPE Las/NNP Vegas/NNP)   ,/,   (ORGANIZATION NV/NNP)   has/VBZ   calculated/VBN   support/NN   and/CC   resistance/NN   levels/NNS   at/IN   $/$   11.36/CD   and/CC   $/$   12.80/CD   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Casino Stocks worst performers include Ameristar Casinos NASDAQ:ASCA that closed the trading session at $18.31 or 0.92% from the previous close.
+
+POS tagged sentence: 
+[('Casino', 'NNP'), ('Stocks', 'NNP'), ('worst', 'NN'), ('performers', 'NNS'), ('include', 'VBP'), ('Ameristar', 'NNP'), ('Casinos', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('ASCA', 'NNP'), ('that', 'IN'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('$', '$'), ('18.31', 'CD'), ('or', 'CC'), ('0.92', 'CD'), ('%', 'NN'), ('from', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('close', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Casino/NNP)   (ORGANIZATION Stocks/NNP)   worst/NN   performers/NNS   include/VBP   (ORGANIZATION Ameristar/NNP Casinos/NNP)   NASDAQ/NNP   :/:   ASCA/NNP   that/IN   closed/VBD   the/DT   trading/NN   session/NN   at/IN   $/$   18.31/CD   or/CC   0.92/CD   %/NN   from/IN   the/DT   previous/JJ   close/NN   ./.)
+----------------------------------
+original sentence: 
+Ameristar Casinos, the gaming company that owns and operates casinos resorts in several states in the U.S. shares have defined support at $16.60 and resistance at $18.50.
+
+POS tagged sentence: 
+[('Ameristar', 'NNP'), ('Casinos', 'NNP'), (',', ','), ('the', 'DT'), ('gaming', 'NN'), ('company', 'NN'), ('that', 'WDT'), ('owns', 'VBZ'), ('and', 'CC'), ('operates', 'VBZ'), ('casinos', 'NNS'), ('resorts', 'NNS'), ('in', 'IN'), ('several', 'JJ'), ('states', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('shares', 'NNS'), ('have', 'VBP'), ('defined', 'VBN'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('16.60', 'CD'), ('and', 'CC'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('18.50', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Ameristar/NNP)   (ORGANIZATION Casinos/NNP)   ,/,   the/DT   gaming/NN   company/NN   that/WDT   owns/VBZ   and/CC   operates/VBZ   casinos/NNS   resorts/NNS   in/IN   several/JJ   states/NNS   in/IN   the/DT   (GPE U.S./NNP)   shares/NNS   have/VBP   defined/VBN   support/NN   at/IN   $/$   16.60/CD   and/CC   resistance/NN   at/IN   $/$   18.50/CD   ./.)
+----------------------------------
+original sentence: 
+Also among the worst performers was Pinnacle Entertainment NYSE:PNK , which closed the trading session at $9.69 representing 0.82% from the previous trading session.
+
+POS tagged sentence: 
+[('Also', 'RB'), ('among', 'IN'), ('the', 'DT'), ('worst', 'JJS'), ('performers', 'NNS'), ('was', 'VBD'), ('Pinnacle', 'NNP'), ('Entertainment', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('PNK', 'NNP'), (',', ','), ('which', 'WDT'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('$', '$'), ('9.69', 'CD'), ('representing', 'VBG'), ('0.82', 'CD'), ('%', 'NN'), ('from', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('trading', 'NN'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   among/IN   the/DT   worst/JJS   performers/NNS   was/VBD   (PERSON Pinnacle/NNP Entertainment/NNP)   NYSE/NNP   :/:   PNK/NNP   ,/,   which/WDT   closed/VBD   the/DT   trading/NN   session/NN   at/IN   $/$   9.69/CD   representing/VBG   0.82/CD   %/NN   from/IN   the/DT   previous/JJ   trading/NN   session/NN   ./.)
+----------------------------------
+original sentence: 
+Casino stocks outperformed the broad market S&P; 500 Index that closed the trading session at 1166.59, 0.86 points or 0.07% from the previous trading session.
+
+POS tagged sentence: 
+[('Casino', 'NNP'), ('stocks', 'NNS'), ('outperformed', 'VBD'), ('the', 'DT'), ('broad', 'JJ'), ('market', 'NN'), ('S&P', 'NNP'), (';', ':'), ('500', 'CD'), ('Index', 'NN'), ('that', 'WDT'), ('closed', 'VBD'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('at', 'IN'), ('1166.59', 'CD'), (',', ','), ('0.86', 'CD'), ('points', 'NNS'), ('or', 'CC'), ('0.07', 'CD'), ('%', 'NN'), ('from', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('trading', 'NN'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Casino/NNP)   stocks/NNS   outperformed/VBD   the/DT   broad/JJ   market/NN   S&P/NNP   ;/:   500/CD   Index/NN   that/WDT   closed/VBD   the/DT   trading/NN   session/NN   at/IN   1166.59/CD   ,/,   0.86/CD   points/NNS   or/CC   0.07/CD   %/NN   from/IN   the/DT   previous/JJ   trading/NN   session/NN   ./.)
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

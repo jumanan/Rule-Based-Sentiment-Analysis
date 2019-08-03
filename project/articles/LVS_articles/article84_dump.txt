@@ -1,0 +1,238 @@
+
+----------------------------------
+original sentence: 
+MPEL Pushes Casino Stocks Higher MPEL, LVS, MGM, WYNN MPEL Pushes Casino Stocks Higher MPEL, LVS, MGM, WYNN MPEL Pushes Casino Stocks Higher MPEL, LVS, MGM, WYNN 17/03/2010 7:00:00 +0000
+, March 17, 2010 Dallas, Tx Melco Crown Entertainment Ltd NASDAQ:MPEL went up 8.50% to $4.85 on 14.19 million shares.
+
+POS tagged sentence: 
+[('MPEL', 'NNP'), ('Pushes', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('Higher', 'NNP'), ('MPEL', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('MGM', 'NNP'), (',', ','), ('WYNN', 'NNP'), ('MPEL', 'NNP'), ('Pushes', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('Higher', 'NNP'), ('MPEL', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('MGM', 'NNP'), (',', ','), ('WYNN', 'NNP'), ('MPEL', 'NNP'), ('Pushes', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('Higher', 'NNP'), ('MPEL', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('MGM', 'NNP'), (',', ','), ('WYNN', 'NNP'), ('17/03/2010', 'CD'), ('7', 'CD'), (':', ':'), ('00', 'CD'), (':', ':'), ('00', 'CD'), ('+', 'CD'), ('0000', 'CD'), (',', ','), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('Dallas', 'NNP'), (',', ','), ('Tx', 'NNP'), ('Melco', 'NNP'), ('Crown', 'NNP'), ('Entertainment', 'NNP'), ('Ltd', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MPEL', 'NNP'), ('went', 'VBD'), ('up', 'IN'), ('8.50', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('4.85', 'CD'), ('on', 'IN'), ('14.19', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MPEL/NNP)   (PERSON Pushes/NNP Casino/NNP Stocks/NNP Higher/NNP MPEL/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION MGM/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   MPEL/NNP   (PERSON Pushes/NNP Casino/NNP Stocks/NNP Higher/NNP MPEL/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION MGM/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   MPEL/NNP   (PERSON Pushes/NNP Casino/NNP Stocks/NNP Higher/NNP MPEL/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION MGM/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   17/03/2010/CD   7/CD   :/:   00/CD   :/:   00/CD   +/CD   0000/CD   ,/,   March/NNP   17/CD   ,/,   2010/CD   (GPE Dallas/NNP)   ,/,   (PERSON Tx/NNP Melco/NNP Crown/NNP Entertainment/NNP Ltd/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION MPEL/NNP)   went/VBD   up/IN   8.50/CD   %/NN   to/TO   $/$   4.85/CD   on/IN   14.19/CD   million/CD   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB went/VBD up/IN 8.50/CD %/NN)
+noun phrases to consider:
+	(NOUN MPEL/NNP Pushes/NNP Casino/NNP Stocks/NNP)
+	(NOUN Higher/NNP MPEL/NNP)
+	(NOUN LVS/NNP)
+	(NOUN MGM/NNP)
+	(NOUN WYNN/NNP MPEL/NNP Pushes/NNP Casino/NNP)
+	(NOUN Stocks/NNP Higher/NNP MPEL/NNP)
+	(NOUN LVS/NNP)
+	(NOUN MGM/NNP)
+	(NOUN WYNN/NNP MPEL/NNP Pushes/NNP Casino/NNP)
+	(NOUN Stocks/NNP Higher/NNP MPEL/NNP)
+	(NOUN LVS/NNP)
+	(NOUN MGM/NNP)
+	(NOUN WYNN/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Dallas/NNP)
+	(NOUN Tx/NNP Melco/NNP Crown/NNP Entertainment/NNP)
+	(NOUN Ltd/NNP NASDAQ/NNP)
+	(NOUN MPEL/NNP)
+	(NOUN million/CD shares/NNS)
+
+----------------------------------
+original sentence: 
+Credit Suisse upgraded Melco Crown Entertainment from Neutral to Outperform.
+
+POS tagged sentence: 
+[('Credit', 'NN'), ('Suisse', 'NNP'), ('upgraded', 'VBD'), ('Melco', 'NNP'), ('Crown', 'NNP'), ('Entertainment', 'NNP'), ('from', 'IN'), ('Neutral', 'NNP'), ('to', 'TO'), ('Outperform', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Credit/NN)   (PERSON Suisse/NNP)   upgraded/VBD   (PERSON Melco/NNP Crown/NNP)   Entertainment/NNP   from/IN   (GPE Neutral/NNP)   to/TO   (GPE Outperform/NNP)   ./.)
+----------------------------------
+original sentence: 
+&#13;
+You can subscribe to these free http://www.PennyStockPickAlert.com
+&#13;
+Las Vegas Sands Corp. NYSE:LVS soared 7.33% to $20.06 on 42.33 million shares.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('You', 'PRP'), ('can', 'MD'), ('subscribe', 'VB'), ('to', 'TO'), ('these', 'DT'), ('free', 'JJ'), ('http', 'NN'), (':', ':'), ('//www.PennyStockPickAlert.com', 'JJ'), ('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('soared', 'VBD'), ('7.33', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('20.06', 'CD'), ('on', 'IN'), ('42.33', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   13/CD   ;/:   You/PRP   can/MD   subscribe/VB   to/TO   these/DT   free/JJ   http/NN   :/:   //www.PennyStockPickAlert.com/JJ   &/CC   #/#   13/CD   ;/:   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   soared/VBD   7.33/CD   %/NN   to/TO   $/$   20.06/CD   on/IN   42.33/CD   million/CD   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB subscribe/VB to/TO these/DT free/JJ http/NN)
+	(VERB soared/VBD 7.33/CD %/NN)
+noun phrases to consider:
+	(NOUN //www.PennyStockPickAlert.com/JJ)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN million/CD shares/NNS)
+
+----------------------------------
+original sentence: 
+So far the stock is up over 908% in the last one year of trading sessions.
+
+POS tagged sentence: 
+[('So', 'IN'), ('far', 'RB'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('up', 'IN'), ('over', 'IN'), ('908', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('one', 'CD'), ('year', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('sessions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   far/RB   the/DT   stock/NN   is/VBZ   up/IN   over/IN   908/CD   %/NN   in/IN   the/DT   last/JJ   one/CD   year/NN   of/IN   trading/NN   sessions/NNS   ./.)
+----------------------------------
+original sentence: 
+&#13;
+MIRAGE NYSE:MGM gained 8.08% to $12.30 on 34.64 million shares after the company which owns the multi tower site in a 50 50 partnership with Dubai World , this week disclosed the threatened mechanics' lien in a filing to U.S. regulators on Friday.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('MIRAGE', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MGM', 'NNP'), ('gained', 'VBD'), ('8.08', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('12.30', 'CD'), ('on', 'IN'), ('34.64', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('which', 'WDT'), ('owns', 'VBZ'), ('the', 'DT'), ('multi', 'NN'), ('tower', 'NN'), ('site', 'NN'), ('in', 'IN'), ('a', 'DT'), ('50', 'CD'), ('50', 'CD'), ('partnership', 'NN'), ('with', 'IN'), ('Dubai', 'NNP'), ('World', 'NNP'), (',', ','), ('this', 'DT'), ('week', 'NN'), ('disclosed', 'VBD'), ('the', 'DT'), ('threatened', 'VBN'), ('mechanics', 'NNS'), ("'", 'POS'), ('lien', 'NN'), ('in', 'IN'), ('a', 'DT'), ('filing', 'NN'), ('to', 'TO'), ('U.S.', 'NNP'), ('regulators', 'NNS'), ('on', 'IN'), ('Friday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   13/CD   ;/:   (ORGANIZATION MIRAGE/NNP)   NYSE/NNP   :/:   (ORGANIZATION MGM/NNP)   gained/VBD   8.08/CD   %/NN   to/TO   $/$   12.30/CD   on/IN   34.64/CD   million/CD   shares/NNS   after/IN   the/DT   company/NN   which/WDT   owns/VBZ   the/DT   multi/NN   tower/NN   site/NN   in/IN   a/DT   50/CD   50/CD   partnership/NN   with/IN   (PERSON Dubai/NNP World/NNP)   ,/,   this/DT   week/NN   disclosed/VBD   the/DT   threatened/VBN   mechanics/NNS   '/POS   lien/NN   in/IN   a/DT   filing/NN   to/TO   (GPE U.S./NNP)   regulators/NNS   on/IN   Friday/NNP   ./.)
+----------------------------------
+original sentence: 
+MGM, based in Las Vegas, said the actual lien may be filed within 15 days of the notice.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), (',', ','), ('based', 'VBN'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), (',', ','), ('said', 'VBD'), ('the', 'DT'), ('actual', 'JJ'), ('lien', 'NN'), ('may', 'MD'), ('be', 'VB'), ('filed', 'VBN'), ('within', 'IN'), ('15', 'CD'), ('days', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('notice', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MGM/NNP   ,/,   based/VBN   in/IN   (GPE Las/NNP Vegas/NNP)   ,/,   said/VBD   the/DT   actual/JJ   lien/NN   may/MD   be/VB   filed/VBN   within/IN   15/CD   days/NNS   of/IN   the/DT   notice/NN   ./.)
+----------------------------------
+original sentence: 
+&#13;
+Wynn Resorts, Limited NASDAQ:WYNN surged 4.48% to $73.63 on 3.44 million shares.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('Wynn', 'NNP'), ('Resorts', 'NNPS'), (',', ','), ('Limited', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('WYNN', 'NNP'), ('surged', 'VBD'), ('4.48', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('73.63', 'CD'), ('on', 'IN'), ('3.44', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   13/CD   ;/:   (ORGANIZATION Wynn/NNP Resorts/NNPS)   ,/,   (PERSON Limited/NNP NASDAQ/NNP)   :/:   (ORGANIZATION WYNN/NNP)   surged/VBD   4.48/CD   %/NN   to/TO   $/$   73.63/CD   on/IN   3.44/CD   million/CD   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+The stock hit an intraday high and an intraday low of $73.80 and $70.28 respectively.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('hit', 'VBD'), ('an', 'DT'), ('intraday', 'NN'), ('high', 'NN'), ('and', 'CC'), ('an', 'DT'), ('intraday', 'NN'), ('low', 'JJ'), ('of', 'IN'), ('$', '$'), ('73.80', 'CD'), ('and', 'CC'), ('$', '$'), ('70.28', 'CD'), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   hit/VBD   an/DT   intraday/NN   high/NN   and/CC   an/DT   intraday/NN   low/JJ   of/IN   $/$   73.80/CD   and/CC   $/$   70.28/CD   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+In the last one year of trading sessions the stock went up over 274%.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('one', 'CD'), ('year', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('sessions', 'NNS'), ('the', 'DT'), ('stock', 'NN'), ('went', 'VBD'), ('up', 'IN'), ('over', 'IN'), ('274', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   last/JJ   one/CD   year/NN   of/IN   trading/NN   sessions/NNS   the/DT   stock/NN   went/VBD   up/IN   over/IN   274/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+http://www.PennyStockPickAlert.com
+&#13;
+Penny Stock Pick Alert provides free stock newsletters on various stocks of the day.
+
+POS tagged sentence: 
+[('http', 'NN'), (':', ':'), ('//www.PennyStockPickAlert.com', 'JJ'), ('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('Penny', 'NNP'), ('Stock', 'NNP'), ('Pick', 'NNP'), ('Alert', 'NNP'), ('provides', 'VBZ'), ('free', 'JJ'), ('stock', 'NN'), ('newsletters', 'NNS'), ('on', 'IN'), ('various', 'JJ'), ('stocks', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   http/NN   :/:   //www.PennyStockPickAlert.com/JJ   &/CC   #/#   13/CD   ;/:   (PERSON Penny/NNP Stock/NNP Pick/NNP Alert/NNP)   provides/VBZ   free/JJ   stock/NN   newsletters/NNS   on/IN   various/JJ   stocks/NNS   of/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+These alerts help investors in making the wise stock market investments.
+
+POS tagged sentence: 
+[('These', 'DT'), ('alerts', 'NNS'), ('help', 'VBP'), ('investors', 'NNS'), ('in', 'IN'), ('making', 'VBG'), ('the', 'DT'), ('wise', 'NN'), ('stock', 'NN'), ('market', 'NN'), ('investments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   alerts/NNS   help/VBP   investors/NNS   in/IN   making/VBG   the/DT   wise/NN   stock/NN   market/NN   investments/NNS   ./.)
+----------------------------------
+original sentence: 
+Till date thousands of our subscribers have made huge gains using our daily stock alerts.
+
+POS tagged sentence: 
+[('Till', 'NNP'), ('date', 'NN'), ('thousands', 'NNS'), ('of', 'IN'), ('our', 'PRP$'), ('subscribers', 'NNS'), ('have', 'VBP'), ('made', 'VBN'), ('huge', 'JJ'), ('gains', 'NNS'), ('using', 'VBG'), ('our', 'PRP$'), ('daily', 'JJ'), ('stock', 'NN'), ('alerts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Till/NNP)   date/NN   thousands/NNS   of/IN   our/PRP$   subscribers/NNS   have/VBP   made/VBN   huge/JJ   gains/NNS   using/VBG   our/PRP$   daily/JJ   stock/NN   alerts/NNS   ./.)
+----------------------------------
+original sentence: 
+We provide alerts on hot stocks, midcap & smallcap penny stocks, most active stocks and much more.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('provide', 'VBP'), ('alerts', 'NNS'), ('on', 'IN'), ('hot', 'JJ'), ('stocks', 'NNS'), (',', ','), ('midcap', 'VB'), ('&', 'CC'), ('smallcap', 'VB'), ('penny', 'JJ'), ('stocks', 'NNS'), (',', ','), ('most', 'JJS'), ('active', 'JJ'), ('stocks', 'NNS'), ('and', 'CC'), ('much', 'RB'), ('more', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   provide/VBP   alerts/NNS   on/IN   hot/JJ   stocks/NNS   ,/,   midcap/VB   &/CC   smallcap/VB   penny/JJ   stocks/NNS   ,/,   most/JJS   active/JJ   stocks/NNS   and/CC   much/RB   more/RBR   ./.)
+----------------------------------
+original sentence: 
+You can become leader in stock market by keeping track of the daily activity.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('become', 'VB'), ('leader', 'NN'), ('in', 'IN'), ('stock', 'NN'), ('market', 'NN'), ('by', 'IN'), ('keeping', 'NN'), ('track', 'NN'), ('of', 'IN'), ('the', 'DT'), ('daily', 'JJ'), ('activity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   become/VB   leader/NN   in/IN   stock/NN   market/NN   by/IN   keeping/NN   track/NN   of/IN   the/DT   daily/JJ   activity/NN   ./.)
+----------------------------------
+original sentence: 
+&#13;
+Press release service and press release distribution by EmailWire.Com http://www.emailwire.com/press_release_distribution_lists.php
+Link To This Article on Your Website or Blog HTML Code
+
+<a href="http://www.articleant.com/gen/64118 mpel pushes casino stocks higher mpel lvs mgm wynn.html">MPEL Pushes Casino Stocks Higher MPEL, LVS, MGM, WYNN </a>
+
+How Can I Climb the Corporate Ladder?
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('13', 'CD'), (';', ':'), ('Press', 'NNP'), ('release', 'NN'), ('service', 'NN'), ('and', 'CC'), ('press', 'NN'), ('release', 'NN'), ('distribution', 'NN'), ('by', 'IN'), ('EmailWire.Com', 'NNP'), ('http', 'NN'), (':', ':'), ('//www.emailwire.com/press_release_distribution_lists.php', 'JJ'), ('Link', 'NN'), ('To', 'TO'), ('This', 'DT'), ('Article', 'NNP'), ('on', 'IN'), ('Your', 'PRP$'), ('Website', 'NNP'), ('or', 'CC'), ('Blog', 'NNP'), ('HTML', 'NNP'), ('Code', 'NNP'), ('<', 'NNP'), ('a', 'DT'), ('href', 'NN'), ('=', ':'), ('"', ':'), ('http', 'NN'), (':', ':'), ('//www.articleant.com/gen/64118', '-NONE-'), ('mpel', 'NN'), ('pushes', 'VBZ'), ('casino', 'NN'), ('stocks', 'NNS'), ('higher', 'JJR'), ('mpel', 'NN'), ('lvs', 'NNS'), ('mgm', 'VBP'), ('wynn.html', 'JJ'), ('"', 'NN'), ('>', ':'), ('MPEL', 'NNP'), ('Pushes', 'NNP'), ('Casino', 'NNP'), ('Stocks', 'NNP'), ('Higher', 'NNP'), ('MPEL', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('MGM', 'NNP'), (',', ','), ('WYNN', 'NNP'), ('<', 'NNP'), ('/a', 'NNP'), ('>', 'NNP'), ('How', 'NNP'), ('Can', 'NNP'), ('I', 'NNP'), ('Climb', 'NNP'), ('the', 'DT'), ('Corporate', 'NNP'), ('Ladder', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   13/CD   ;/:   Press/NNP   release/NN   service/NN   and/CC   press/NN   release/NN   distribution/NN   by/IN   EmailWire.Com/NNP   http/NN   :/:   //www.emailwire.com/press_release_distribution_lists.php/JJ   Link/NN   To/TO   This/DT   Article/NNP   on/IN   Your/PRP$   Website/NNP   or/CC   (ORGANIZATION Blog/NNP)   HTML/NNP   Code/NNP   </NNP   a/DT   href/NN   =/:   "/:   http/NN   :/:   //www.articleant.com/gen/64118/-NONE-   mpel/NN   pushes/VBZ   casino/NN   stocks/NNS   higher/JJR   mpel/NN   lvs/NNS   mgm/VBP   wynn.html/JJ   "/NN   >/:   (ORGANIZATION MPEL/NNP Pushes/NNP Casino/NNP Stocks/NNP)   Higher/NNP   MPEL/NNP   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION MGM/NNP)   ,/,   (ORGANIZATION WYNN/NNP)   </NNP   /a/NNP   >/NNP   How/NNP   Can/NNP   I/NNP   Climb/NNP   the/DT   (ORGANIZATION Corporate/NNP Ladder/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB pushes/VBZ casino/NN stocks/NNS higher/JJR mpel/NN lvs/NNS)
+	(VERB mgm/VBP wynn.html/JJ "/NN)
+noun phrases to consider:
+	(NOUN Press/NNP release/NN service/NN)
+	(NOUN press/NN release/NN distribution/NN)
+	(NOUN EmailWire.Com/NNP http/NN)
+	(NOUN   //www.emailwire.com/press_release_distribution_lists.php/JJ   Link/NN)
+	(NOUN Article/NNP)
+	(NOUN Website/NNP)
+	(NOUN Blog/NNP HTML/NNP Code/NNP </NNP)
+	(NOUN href/NN)
+	(NOUN http/NN)
+	(NOUN mpel/NN)
+	(NOUN MPEL/NNP Pushes/NNP Casino/NNP Stocks/NNP)
+	(NOUN Higher/NNP MPEL/NNP)
+	(NOUN LVS/NNP)
+	(NOUN MGM/NNP)
+	(NOUN WYNN/NNP </NNP /a/NNP >/NNP)
+	(NOUN How/NNP Can/NNP I/NNP Climb/NNP)
+	(NOUN Corporate/NNP Ladder/NNP)
+
+----------------------------------
+original sentence: 
+Former ColorTyme Manager Brings Franchise to Phoenix
+How Can I Climb the Corporate Ladder?
+
+POS tagged sentence: 
+[('Former', 'JJ'), ('ColorTyme', 'NNP'), ('Manager', 'NNP'), ('Brings', 'NNP'), ('Franchise', 'NNP'), ('to', 'TO'), ('Phoenix', 'NNP'), ('How', 'NNP'), ('Can', 'NNP'), ('I', 'NNP'), ('Climb', 'NNP'), ('the', 'DT'), ('Corporate', 'NNP'), ('Ladder', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Former/JJ   (ORGANIZATION ColorTyme/NNP)   Manager/NNP   (PERSON Brings/NNP Franchise/NNP)   to/TO   (PERSON Phoenix/NNP How/NNP Can/NNP)   I/NNP   Climb/NNP   the/DT   (ORGANIZATION Corporate/NNP Ladder/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Government Invests $28 Million to Boost Saskatchewan Municipalities
+AAER Not to File its Financial Statements
+Canada Invests in the Tibetan Canadian Cultural Centre
+Photo Opportunity: Joe Pantalone Rides a Smart Car to Green Living
+BeBevCo Partners With Shareholder for Distribution in Illinois
+Celtic Obtains Shareholder Approval for 2 For 1 Stock Split
+Conway Resources Announces Amendment to its Press Release Regarding the Closing of its $199,000 Private Placement
+Diadem Announces Retroactive Approval for Issuance of Shares for Debt
+Government Gives A $373 Million Boost to Ontario Municipalities
+IIROC: Resume, BRANDENBURG METALS CORP., FLYING A PETROLEUM LTD., GUARDIAN EXPLORATION INC.
+Notice to Canada Post Customer Email Virus
+First Financial Corporation Reports 1st Quarter Operating Results
+ Rate this article 
+
+POS tagged sentence: 
+[('Government', 'NNP'), ('Invests', 'NNPS'), ('$', '$'), ('28', 'CD'), ('Million', 'CD'), ('to', 'TO'), ('Boost', 'NNP'), ('Saskatchewan', 'NNP'), ('Municipalities', 'NNP'), ('AAER', 'NNP'), ('Not', 'NNP'), ('to', 'TO'), ('File', 'NNP'), ('its', 'PRP$'), ('Financial', 'NNP'), ('Statements', 'NNP'), ('Canada', 'NNP'), ('Invests', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Tibetan', 'NNP'), ('Canadian', 'NNP'), ('Cultural', 'NNP'), ('Centre', 'NNP'), ('Photo', 'NNP'), ('Opportunity', 'NNP'), (':', ':'), ('Joe', 'NNP'), ('Pantalone', 'NNP'), ('Rides', 'NNP'), ('a', 'DT'), ('Smart', 'NNP'), ('Car', 'NNP'), ('to', 'TO'), ('Green', 'NNP'), ('Living', 'NNP'), ('BeBevCo', 'NNP'), ('Partners', 'NNPS'), ('With', 'NNP'), ('Shareholder', 'NNP'), ('for', 'IN'), ('Distribution', 'NNP'), ('in', 'IN'), ('Illinois', 'NNP'), ('Celtic', 'NNP'), ('Obtains', 'NNP'), ('Shareholder', 'NNP'), ('Approval', 'NNP'), ('for', 'IN'), ('2', 'CD'), ('For', 'NNP'), ('1', 'CD'), ('Stock', 'NNP'), ('Split', 'NNP'), ('Conway', 'NNP'), ('Resources', 'NNPS'), ('Announces', 'NNP'), ('Amendment', 'NNP'), ('to', 'TO'), ('its', 'PRP$'), ('Press', 'NNP'), ('Release', 'NNP'), ('Regarding', 'NNP'), ('the', 'DT'), ('Closing', 'NNP'), ('of', 'IN'), ('its', 'PRP$'), ('$', '$'), ('199,000', 'CD'), ('Private', 'NNP'), ('Placement', 'NNP'), ('Diadem', 'NNP'), ('Announces', 'NNPS'), ('Retroactive', 'NNP'), ('Approval', 'NNP'), ('for', 'IN'), ('Issuance', 'NNP'), ('of', 'IN'), ('Shares', 'NNP'), ('for', 'IN'), ('Debt', 'NNP'), ('Government', 'NNP'), ('Gives', 'NNP'), ('A', 'NNP'), ('$', '$'), ('373', 'CD'), ('Million', 'CD'), ('Boost', 'NNP'), ('to', 'TO'), ('Ontario', 'NNP'), ('Municipalities', 'NNPS'), ('IIROC', 'NNP'), (':', ':'), ('Resume', 'NNP'), (',', ','), ('BRANDENBURG', 'NNP'), ('METALS', 'NNPS'), ('CORP.', 'NNP'), (',', ','), ('FLYING', 'NNP'), ('A', 'DT'), ('PETROLEUM', 'NNP'), ('LTD.', 'NNP'), (',', ','), ('GUARDIAN', 'NNP'), ('EXPLORATION', 'NNP'), ('INC', 'NNP'), ('.', '.'), ('Notice', 'NNP'), ('to', 'TO'), ('Canada', 'NNP'), ('Post', 'NNP'), ('Customer', 'NNP'), ('Email', 'NNP'), ('Virus', 'NNP'), ('First', 'NNP'), ('Financial', 'NNP'), ('Corporation', 'NNP'), ('Reports', 'NNP'), ('1st', 'CD'), ('Quarter', 'NNP'), ('Operating', 'NNP'), ('Results', 'NNP'), ('Rate', 'NNP'), ('this', 'DT'), ('article', 'NN')]
+
+
+ERTAGGED sentence: (S   Government/NNP   Invests/NNPS   $/$   28/CD   Million/CD   to/TO   (PERSON Boost/NNP Saskatchewan/NNP Municipalities/NNP)   AAER/NNP   Not/NNP   to/TO   File/NNP   its/PRP$   Financial/NNP   Statements/NNP   Canada/NNP   Invests/NNP   in/IN   the/DT   (GPE Tibetan/NNP)   Canadian/NNP   Cultural/NNP   (PERSON Centre/NNP Photo/NNP Opportunity/NNP)   :/:   (PERSON Joe/NNP Pantalone/NNP)   Rides/NNP   a/DT   Smart/NNP   Car/NNP   to/TO   (PERSON Green/NNP Living/NNP)   (ORGANIZATION BeBevCo/NNP Partners/NNPS With/NNP Shareholder/NNP)   for/IN   Distribution/NNP   in/IN   (GPE Illinois/NNP)   Celtic/NNP   (PERSON Obtains/NNP Shareholder/NNP Approval/NNP)   for/IN   2/CD   For/NNP   1/CD   Stock/NNP   (PERSON Split/NNP Conway/NNP)   Resources/NNPS   (PERSON Announces/NNP Amendment/NNP)   to/TO   its/PRP$   Press/NNP   Release/NNP   Regarding/NNP   the/DT   Closing/NNP   of/IN   its/PRP$   $/$   199,000/CD   Private/NNP   Placement/NNP   (ORGANIZATION     Diadem/NNP     Announces/NNPS     Retroactive/NNP     Approval/NNP)   for/IN   (ORGANIZATION Issuance/NNP)   of/IN   (GPE Shares/NNP)   for/IN   (PERSON Debt/NNP)   Government/NNP   Gives/NNP   A/NNP   $/$   373/CD   Million/CD   Boost/NNP   to/TO   (ORGANIZATION Ontario/NNP Municipalities/NNPS)   IIROC/NNP   :/:   (PERSON Resume/NNP)   ,/,   (ORGANIZATION BRANDENBURG/NNP)   (ORGANIZATION METALS/NNPS CORP./NNP)   ,/,   FLYING/NNP   A/DT   (ORGANIZATION PETROLEUM/NNP)   LTD./NNP   ,/,   (ORGANIZATION GUARDIAN/NNP)   EXPLORATION/NNP   INC/NNP   ./.   Notice/NNP   to/TO   (GPE Canada/NNP)   Post/NNP   Customer/NNP   Email/NNP   Virus/NNP   First/NNP   Financial/NNP   Corporation/NNP   Reports/NNP   1st/CD   Quarter/NNP   Operating/NNP   Results/NNP   Rate/NNP   this/DT   article/NN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

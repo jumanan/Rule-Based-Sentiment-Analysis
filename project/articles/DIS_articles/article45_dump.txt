@@ -1,0 +1,151 @@
+
+----------------------------------
+original sentence: 
+; charset=UTF 8" /> Disney denies fault in monorail crash &#8211; Tourism Central Florida &#8211; Orlando Sentinel
+ &#171; Real estate advisor Warren joins airports board race
+ |  | JetBlue prez: &#8220;New York and JetBlue made for each other&#8221;
+ &#187; Disney denies fault in monorail crash
+ | Walt Disney World is admitting no fault in the death of a monorail driver during a collision at the theme park last summer, according to documents filed in Orange County court.
+
+POS tagged sentence: 
+[(';', ':'), ('charset', 'VBN'), ('=', '-NONE-'), ('UTF', 'NNP'), ('8', 'CD'), ('"', 'CD'), ('/', 'CD'), ('>', 'CD'), ('Disney', 'NNP'), ('denies', 'VBZ'), ('fault', 'NN'), ('in', 'IN'), ('monorail', 'NN'), ('crash', 'NN'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Tourism', 'NNP'), ('Central', 'NNP'), ('Florida', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Orlando', 'NNP'), ('Sentinel', 'NNP'), ('&', 'CC'), ('#', '#'), ('171', 'CD'), (';', ':'), ('Real', 'NNP'), ('estate', 'NN'), ('advisor', 'NN'), ('Warren', 'NNP'), ('joins', 'VBZ'), ('airports', 'NNS'), ('board', 'NN'), ('race', 'NN'), ('|', ':'), ('|', ':'), ('JetBlue', 'NNP'), ('prez', 'NN'), (':', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('New', 'NNP'), ('York', 'NNP'), ('and', 'CC'), ('JetBlue', 'NNP'), ('made', 'VBD'), ('for', 'IN'), ('each', 'DT'), ('other&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('Disney', 'NNP'), ('denies', 'VBZ'), ('fault', 'NN'), ('in', 'IN'), ('monorail', 'NN'), ('crash', 'NN'), ('|', ':'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('World', 'NNP'), ('is', 'VBZ'), ('admitting', 'VBG'), ('no', 'DT'), ('fault', 'NN'), ('in', 'IN'), ('the', 'DT'), ('death', 'NN'), ('of', 'IN'), ('a', 'DT'), ('monorail', 'NN'), ('driver', 'NN'), ('during', 'IN'), ('a', 'DT'), ('collision', 'NN'), ('at', 'IN'), ('the', 'DT'), ('theme', 'NN'), ('park', 'NN'), ('last', 'JJ'), ('summer', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('documents', 'NNS'), ('filed', 'VBN'), ('in', 'IN'), ('Orange', 'NNP'), ('County', 'NNP'), ('court', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ;/:   charset/VBN   =/-NONE-   UTF/NNP   8/CD   "/CD   //CD   >/CD   (ORGANIZATION Disney/NNP)   denies/VBZ   fault/NN   in/IN   monorail/NN   crash/NN   &/CC   #/#   8211/CD   ;/:   (PERSON Tourism/NNP Central/NNP Florida/NNP)   &/CC   #/#   8211/CD   ;/:   (PERSON Orlando/NNP Sentinel/NNP)   &/CC   #/#   171/CD   ;/:   (GPE Real/NNP)   estate/NN   advisor/NN   (PERSON Warren/NNP)   joins/VBZ   airports/NNS   board/NN   race/NN   |/:   |/:   (ORGANIZATION JetBlue/NNP)   prez/NN   :/:   &/CC   #/#   8220/CD   ;/:   (GPE New/NNP York/NNP)   and/CC   (ORGANIZATION JetBlue/NNP)   made/VBD   for/IN   each/DT   other&/NN   #/#   8221/CD   ;/:   &/CC   #/#   187/CD   ;/:   (ORGANIZATION Disney/NNP)   denies/VBZ   fault/NN   in/IN   monorail/NN   crash/NN   |/:   (PERSON Walt/NNP Disney/NNP World/NNP)   is/VBZ   admitting/VBG   no/DT   fault/NN   in/IN   the/DT   death/NN   of/IN   a/DT   monorail/NN   driver/NN   during/IN   a/DT   collision/NN   at/IN   the/DT   theme/NN   park/NN   last/JJ   summer/NN   ,/,   according/VBG   to/TO   documents/NNS   filed/VBN   in/IN   (GPE Orange/NNP County/NNP)   court/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB charset/VBN)
+	(VERB denies/VBZ fault/NN in/IN monorail/NN crash/NN)
+
+tagged sentence:
+	 denies fault in monorail crash	res:1
+	(VERB joins/VBZ airports/NNS board/NN race/NN)
+	(VERB made/VBD for/IN each/DT other&/NN)
+	(VERB denies/VBZ fault/NN in/IN monorail/NN crash/NN)
+
+tagged sentence:
+	 denies fault in monorail crash	res:1
+	(VERB   is/VBZ   admitting/VBG   no/DT   fault/NN   in/IN   the/DT   death/NN   of/IN   a/DT   monorail/NN   driver/NN   during/IN   a/DT   collision/NN   at/IN   the/DT   theme/NN   park/NN   last/JJ   summer/NN)
+
+tagged sentence:
+	 is admitting no fault in the death of a monorail driver during a collision at the theme park last summer	res:1
+	(VERB according/VBG to/TO documents/NNS)
+	(VERB filed/VBN in/IN Orange/NNP County/NNP court/NN)
+noun phrases to consider:
+	(NOUN UTF/NNP)
+	(NOUN >/CD Disney/NNP)
+	(NOUN Tourism/NNP Central/NNP Florida/NNP)
+	(NOUN Orlando/NNP Sentinel/NNP)
+	(NOUN Real/NNP estate/NN advisor/NN Warren/NNP)
+	(NOUN JetBlue/NNP prez/NN)
+	(NOUN New/NNP York/NNP)
+	(NOUN JetBlue/NNP)
+	(NOUN Disney/NNP)
+	(NOUN Walt/NNP Disney/NNP World/NNP)
+
+----------------------------------
+original sentence: 
+Lawyers for Christine Wuennenberg have accused Disney of reckless conduct leading to the July 5 crash that killed her son, 21 year old Austin Wuennenberg, a Disney monorail pilot.
+
+POS tagged sentence: 
+[('Lawyers', 'NNS'), ('for', 'IN'), ('Christine', 'NNP'), ('Wuennenberg', 'NNP'), ('have', 'VBP'), ('accused', 'VBN'), ('Disney', 'NNP'), ('of', 'IN'), ('reckless', 'NN'), ('conduct', 'NN'), ('leading', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('July', 'NNP'), ('5', 'CD'), ('crash', 'NN'), ('that', 'WDT'), ('killed', 'VBD'), ('her', 'PRP'), ('son', 'NN'), (',', ','), ('21', 'CD'), ('year', 'NN'), ('old', 'JJ'), ('Austin', 'NNP'), ('Wuennenberg', 'NNP'), (',', ','), ('a', 'DT'), ('Disney', 'NNP'), ('monorail', 'NN'), ('pilot', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Lawyers/NNS   for/IN   (PERSON Christine/NNP Wuennenberg/NNP)   have/VBP   accused/VBN   (ORGANIZATION Disney/NNP)   of/IN   reckless/NN   conduct/NN   leading/VBG   to/TO   the/DT   July/NNP   5/CD   crash/NN   that/WDT   killed/VBD   her/PRP   son/NN   ,/,   21/CD   year/NN   old/JJ   (PERSON Austin/NNP Wuennenberg/NNP)   ,/,   a/DT   (ORGANIZATION Disney/NNP)   monorail/NN   pilot/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP accused/VBN Disney/NNP of/IN reckless/NN conduct/NN)
+
+tagged sentence:
+	 have accused Disney of reckless conduct	res:1
+	(VERB leading/VBG to/TO the/DT July/NNP 5/CD crash/NN)
+	(VERB killed/VBD her/PRP son/NN)
+noun phrases to consider:
+	(NOUN Lawyers/NNS)
+	(NOUN Christine/NNP Wuennenberg/NNP)
+	(NOUN 21/CD year/NN)
+	(NOUN old/JJ Austin/NNP Wuennenberg/NNP)
+	(NOUN Disney/NNP monorail/NN pilot/NN)
+
+----------------------------------
+original sentence: 
+The suit was filed in January.
+
+POS tagged sentence: 
+[('The', 'DT'), ('suit', 'NN'), ('was', 'VBD'), ('filed', 'VBN'), ('in', 'IN'), ('January', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT suit/NN was/VBD filed/VBN in/IN January/NNP ./.)
+----------------------------------
+original sentence: 
+Disney did acknowledge some details raised in the suit, such as: Before the collision, the monorail shop panel operator incorrectly reported that a track switch had been realigned properly.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('did', 'VBD'), ('acknowledge', 'NN'), ('some', 'DT'), ('details', 'NNS'), ('raised', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('suit', 'NN'), (',', ','), ('such', 'JJ'), ('as', 'IN'), (':', ':'), ('Before', 'IN'), ('the', 'DT'), ('collision', 'NN'), (',', ','), ('the', 'DT'), ('monorail', 'NN'), ('shop', 'NN'), ('panel', 'NN'), ('operator', 'NN'), ('incorrectly', 'RB'), ('reported', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('track', 'NN'), ('switch', 'NN'), ('had', 'VBD'), ('been', 'VBN'), ('realigned', 'VBN'), ('properly', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   did/VBD   acknowledge/NN   some/DT   details/NNS   raised/VBD   in/IN   the/DT   suit/NN   ,/,   such/JJ   as/IN   :/:   Before/IN   the/DT   collision/NN   ,/,   the/DT   monorail/NN   shop/NN   panel/NN   operator/NN   incorrectly/RB   reported/VBD   that/IN   a/DT   track/NN   switch/NN   had/VBD   been/VBN   realigned/VBN   properly/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB did/VBD acknowledge/NN some/DT details/NNS)
+	(VERB raised/VBD in/IN the/DT suit/NN)
+	(VERB reported/VBD that/IN a/DT track/NN switch/NN)
+	(VERB had/VBD been/VBN realigned/VBN properly/RB)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN such/JJ)
+	(NOUN collision/NN)
+
+tagged sentence:
+	 collision	res:-1
+	(NOUN monorail/NN shop/NN panel/NN operator/NN)
+
+----------------------------------
+original sentence: 
+It also admitted that monorail pilot was told to go in reverse.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('also', 'RB'), ('admitted', 'VBD'), ('that', 'IN'), ('monorail', 'NN'), ('pilot', 'NN'), ('was', 'VBD'), ('told', 'VBN'), ('to', 'TO'), ('go', 'VB'), ('in', 'IN'), ('reverse', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   also/RB   admitted/VBD   that/IN   monorail/NN   pilot/NN   was/VBD   told/VBN   to/TO   go/VB   in/IN   reverse/NN   ./.)
+----------------------------------
+original sentence: 
+File under: Comments are closed.
+
+POS tagged sentence: 
+[('File', 'NNP'), ('under', 'IN'), (':', ':'), ('Comments', 'NNS'), ('are', 'VBP'), ('closed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S File/NNP under/IN :/: Comments/NNS are/VBP closed/VBN ./.)
+----------------------------------
+original sentence: 
+The comments are closed.
+
+POS tagged sentence: 
+[('The', 'DT'), ('comments', 'NNS'), ('are', 'VBP'), ('closed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT comments/NNS are/VBP closed/VBN ./.)
+----------------------------------
+original sentence: 
+Scott Powers, Sara K. Clarke and Jason Garcia join forces to cover theme parks, attractions, the airports and the rest of tourism business news in Central Florida.
+
+POS tagged sentence: 
+[('Scott', 'NNP'), ('Powers', 'NNP'), (',', ','), ('Sara', 'NNP'), ('K.', 'NNP'), ('Clarke', 'NNP'), ('and', 'CC'), ('Jason', 'NNP'), ('Garcia', 'NNP'), ('join', 'NN'), ('forces', 'VBZ'), ('to', 'TO'), ('cover', 'VB'), ('theme', 'NN'), ('parks', 'NNS'), (',', ','), ('attractions', 'NNS'), (',', ','), ('the', 'DT'), ('airports', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('tourism', 'NN'), ('business', 'NN'), ('news', 'NN'), ('in', 'IN'), ('Central', 'NNP'), ('Florida', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Scott/NNP)   (ORGANIZATION Powers/NNP)   ,/,   (PERSON Sara/NNP K./NNP Clarke/NNP)   and/CC   (PERSON Jason/NNP Garcia/NNP)   join/NN   forces/VBZ   to/TO   cover/VB   theme/NN   parks/NNS   ,/,   attractions/NNS   ,/,   the/DT   airports/NNS   and/CC   the/DT   rest/NN   of/IN   tourism/NN   business/NN   news/NN   in/IN   (ORGANIZATION Central/NNP Florida/NNP)   ./.)
+----------------------------------
+original sentence: 
+Subscribe to this blog's feed
+Subscribe to our blog via email
+Enter your email address
+ Delivered by Latest from OrlandoSentinel.com blogs
+Switch to our mobile site
+ 
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('this', 'DT'), ('blog', 'NN'), ("'s", 'POS'), ('feed', 'NN'), ('Subscribe', 'NNP'), ('to', 'TO'), ('our', 'PRP$'), ('blog', 'NN'), ('via', 'IN'), ('email', 'NN'), ('Enter', 'NNP'), ('your', 'PRP$'), ('email', 'NN'), ('address', 'NN'), ('Delivered', 'NNP'), ('by', 'IN'), ('Latest', 'NNP'), ('from', 'IN'), ('OrlandoSentinel.com', 'NNP'), ('blogs', 'NNS'), ('Switch', 'NNP'), ('to', 'TO'), ('our', 'PRP$'), ('mobile', 'JJ'), ('site', 'NN')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   this/DT   blog/NN   's/POS   feed/NN   (PERSON Subscribe/NNP)   to/TO   our/PRP$   blog/NN   via/IN   email/NN   Enter/NNP   your/PRP$   email/NN   address/NN   Delivered/NNP   by/IN   (PERSON Latest/NNP)   from/IN   OrlandoSentinel.com/NNP   blogs/NNS   (GPE Switch/NNP)   to/TO   our/PRP$   mobile/JJ   site/NN)
+
+veryneg:0	neg:1	pos:4	verypos:0	total:1

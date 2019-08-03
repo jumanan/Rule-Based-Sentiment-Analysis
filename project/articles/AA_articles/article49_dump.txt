@@ -1,0 +1,555 @@
+
+----------------------------------
+original sentence: 
+Alcoa and National Renewable Energy Lab Testing New Innovative Concentrating Solar Power System | Business Wire
+ March 18, 2010 08:30 AM Eastern Daylight Time Alcoa and National Renewable Energy Lab Testing New Innovative Concentrating Solar Power System
+Advanced Alcoa Design and Technology to Lower Cost to Generate Energy from the Sun
+ Alcoa NYSE:AA announced today that it is jointly testing an advanced solar technology with the U.S. Department of Energy&#8217;s National Renewable Energy Lab NREL , with the goal of making Concentrating Solar Power CSP technology competitive in the United States by lowering its cost to generate energy.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('and', 'CC'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('Testing', 'NNP'), ('New', 'NNP'), ('Innovative', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('System', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('18', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('30', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Alcoa', 'NNP'), ('and', 'CC'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('Testing', 'NNP'), ('New', 'NNP'), ('Innovative', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('System', 'NNP'), ('Advanced', 'NNP'), ('Alcoa', 'NNP'), ('Design', 'NNP'), ('and', 'CC'), ('Technology', 'NNP'), ('to', 'TO'), ('Lower', 'NNP'), ('Cost', 'NNP'), ('to', 'TO'), ('Generate', 'NNP'), ('Energy', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Sun', 'NNP'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('announced', 'VBD'), ('today', 'NN'), ('that', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('jointly', 'RB'), ('testing', 'VBG'), ('an', 'DT'), ('advanced', 'JJ'), ('solar', 'NN'), ('technology', 'NN'), ('with', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Department', 'NNP'), ('of', 'IN'), ('Energy&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('NREL', 'NNP'), (',', ','), ('with', 'IN'), ('the', 'DT'), ('goal', 'NN'), ('of', 'IN'), ('making', 'VBG'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('CSP', 'NNP'), ('technology', 'NN'), ('competitive', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('by', 'IN'), ('lowering', 'VBG'), ('its', 'PRP$'), ('cost', 'NN'), ('to', 'TO'), ('generate', 'VB'), ('energy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   and/CC   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   Testing/NNP   New/NNP   Innovative/NNP   Concentrating/NNP   Solar/NNP   Power/NNP   System/NNP   |/NNP   Business/NNP   Wire/NNP   March/NNP   18/CD   ,/,   2010/CD   08/CD   :/:   30/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Alcoa/NNP   and/CC   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   Testing/NNP   New/NNP   Innovative/NNP   Concentrating/NNP   Solar/NNP   Power/NNP   System/NNP   Advanced/NNP   Alcoa/NNP   Design/NNP   and/CC   (ORGANIZATION Technology/NNP)   to/TO   (PERSON Lower/NNP Cost/NNP)   to/TO   (ORGANIZATION Generate/NNP Energy/NNP)   from/IN   the/DT   (ORGANIZATION Sun/NNP Alcoa/NNP)   NYSE/NNP   :/:   AA/NNP   announced/VBD   today/NN   that/IN   it/PRP   is/VBZ   jointly/RB   testing/VBG   an/DT   advanced/JJ   solar/NN   technology/NN   with/IN   the/DT   (ORGANIZATION U.S./NNP Department/NNP)   of/IN   Energy&/NNP   #/#   8217/CD   ;/:   s/NNS   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   NREL/NNP   ,/,   with/IN   the/DT   goal/NN   of/IN   making/VBG   Concentrating/NNP   Solar/NNP   Power/NNP   CSP/NNP   technology/NN   competitive/JJ   in/IN   the/DT   (GPE United/NNP States/NNPS)   by/IN   lowering/VBG   its/PRP$   cost/NN   to/TO   generate/VB   energy/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD today/NN that/IN it/PRP)
+	(VERB   is/VBZ   jointly/RB   testing/VBG   an/DT   advanced/JJ   solar/NN   technology/NN   with/IN   the/DT   U.S./NNP   Department/NNP   of/IN   Energy&/NNP)
+
+tagged sentence:
+	 is jointly testing an advanced solar technology with the U.S. Department of Energy&	res:1
+	(VERB   making/VBG   Concentrating/NNP   Solar/NNP   Power/NNP   CSP/NNP   technology/NN   competitive/JJ   in/IN   the/DT   United/NNP   States/NNPS   by/IN)
+	(VERB lowering/VBG its/PRP$ cost/NN)
+	(VERB generate/VB energy/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN National/NNP Renewable/NNP Energy/NNP Lab/NNP)
+	(NOUN Testing/NNP New/NNP Innovative/NNP Concentrating/NNP)
+	(NOUN Solar/NNP Power/NNP System/NNP |/NNP)
+	(NOUN Business/NNP Wire/NNP March/NNP)
+	(NOUN 30/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN National/NNP Renewable/NNP Energy/NNP Lab/NNP)
+	(NOUN Testing/NNP New/NNP Innovative/NNP Concentrating/NNP)
+	(NOUN Solar/NNP Power/NNP System/NNP Advanced/NNP)
+	(NOUN Alcoa/NNP Design/NNP)
+	(NOUN Technology/NNP)
+	(NOUN Lower/NNP Cost/NNP)
+	(NOUN Generate/NNP Energy/NNP)
+	(NOUN Sun/NNP Alcoa/NNP NYSE/NNP)
+	(NOUN AA/NNP)
+	(NOUN s/NNS National/NNP Renewable/NNP Energy/NNP)
+	(NOUN Lab/NNP NREL/NNP)
+	(NOUN goal/NN)
+
+----------------------------------
+original sentence: 
+&#8220;NREL is looking forward to performing outdoor efficiency tests on the innovative new parabolic trough collector developed by Alcoa&#8221;
+ NREL and Alcoa recently installed a new Alcoa designed Concentrating Solar Power parabolic trough at NREL&#8217;s test facility in Golden, Colo., USA.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('NREL', 'NNP'), ('is', 'VBZ'), ('looking', 'VBG'), ('forward', 'RB'), ('to', 'TO'), ('performing', 'VBG'), ('outdoor', 'NN'), ('efficiency', 'NN'), ('tests', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('innovative', 'JJ'), ('new', 'JJ'), ('parabolic', 'JJ'), ('trough', 'NN'), ('collector', 'NN'), ('developed', 'VBD'), ('by', 'IN'), ('Alcoa&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('NREL', 'NNP'), ('and', 'CC'), ('Alcoa', 'NNP'), ('recently', 'RB'), ('installed', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('Alcoa', 'NNP'), ('designed', 'VBN'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('parabolic', 'JJ'), ('trough', 'IN'), ('at', 'IN'), ('NREL&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('test', 'VBP'), ('facility', 'NN'), ('in', 'IN'), ('Golden', 'NNP'), (',', ','), ('Colo.', 'NNP'), (',', ','), ('USA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (ORGANIZATION NREL/NNP)   is/VBZ   looking/VBG   forward/RB   to/TO   performing/VBG   outdoor/NN   efficiency/NN   tests/NNS   on/IN   the/DT   innovative/JJ   new/JJ   parabolic/JJ   trough/NN   collector/NN   developed/VBD   by/IN   Alcoa&/NN   #/#   8221/CD   ;/:   (ORGANIZATION NREL/NNP)   and/CC   (PERSON Alcoa/NNP)   recently/RB   installed/VBD   a/DT   new/JJ   Alcoa/NNP   designed/VBN   Concentrating/NNP   Solar/NNP   Power/NNP   parabolic/JJ   trough/IN   at/IN   NREL&/JJ   #/#   8217/CD   ;/:   s/NNS   test/VBP   facility/NN   in/IN   (GPE Golden/NNP)   ,/,   (GPE Colo./NNP)   ,/,   (ORGANIZATION USA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ looking/VBG forward/RB)
+	(VERB   performing/VBG   outdoor/NN   efficiency/NN   tests/NNS   on/IN   the/DT   innovative/JJ   new/JJ   parabolic/JJ   trough/NN   collector/NN)
+	(VERB developed/VBD by/IN Alcoa&/NN)
+	(VERB installed/VBD a/DT new/JJ Alcoa/NNP)
+	(VERB   designed/VBN   Concentrating/NNP   Solar/NNP   Power/NNP   parabolic/JJ   trough/IN   at/IN   NREL&/JJ)
+	(VERB test/VBP facility/NN in/IN Golden/NNP)
+noun phrases to consider:
+	(NOUN NREL/NNP)
+	(NOUN NREL/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS)
+	(NOUN Colo./NNP)
+	(NOUN USA/NNP)
+
+----------------------------------
+original sentence: 
+The series of tests will measure the 20 foot by 46 foot collector&#8217;s efficiency to generate energy and evaluate its structural performance.
+
+POS tagged sentence: 
+[('The', 'DT'), ('series', 'NN'), ('of', 'IN'), ('tests', 'NNS'), ('will', 'MD'), ('measure', 'VB'), ('the', 'DT'), ('20', 'CD'), ('foot', 'NN'), ('by', 'IN'), ('46', 'CD'), ('foot', 'NN'), ('collector&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('efficiency', 'NN'), ('to', 'TO'), ('generate', 'VB'), ('energy', 'NN'), ('and', 'CC'), ('evaluate', 'JJ'), ('its', 'PRP$'), ('structural', 'JJ'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   series/NN   of/IN   tests/NNS   will/MD   measure/VB   the/DT   20/CD   foot/NN   by/IN   46/CD   foot/NN   collector&/-NONE-   #/#   8217/CD   ;/:   s/NNS   efficiency/NN   to/TO   generate/VB   energy/NN   and/CC   evaluate/JJ   its/PRP$   structural/JJ   performance/NN   ./.)
+----------------------------------
+original sentence: 
+This round of validation at NREL follows successful tests at Alcoa Technical Center outside of Pittsburgh, Pa., USA.
+
+POS tagged sentence: 
+[('This', 'DT'), ('round', 'NN'), ('of', 'IN'), ('validation', 'NN'), ('at', 'IN'), ('NREL', 'NNP'), ('follows', 'VBZ'), ('successful', 'JJ'), ('tests', 'NNS'), ('at', 'IN'), ('Alcoa', 'NNP'), ('Technical', 'NNP'), ('Center', 'NNP'), ('outside', 'IN'), ('of', 'IN'), ('Pittsburgh', 'NNP'), (',', ','), ('Pa.', 'NNP'), (',', ','), ('USA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   round/NN   of/IN   validation/NN   at/IN   (ORGANIZATION NREL/NNP)   follows/VBZ   successful/JJ   tests/NNS   at/IN   (ORGANIZATION Alcoa/NNP Technical/NNP Center/NNP)   outside/IN   of/IN   (GPE Pittsburgh/NNP)   ,/,   Pa./NNP   ,/,   (ORGANIZATION USA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   follows/VBZ   successful/JJ   tests/NNS   at/IN   Alcoa/NNP   Technical/NNP   Center/NNP   outside/IN   of/IN   Pittsburgh/NNP)
+
+tagged sentence:
+	 follows successful tests at Alcoa Technical Center outside of Pittsburgh	res:1
+noun phrases to consider:
+	(NOUN round/NN)
+	(NOUN validation/NN)
+	(NOUN NREL/NNP)
+	(NOUN Pa./NNP)
+	(NOUN USA/NNP)
+
+----------------------------------
+original sentence: 
+"NREL is looking forward to performing outdoor efficiency tests on the innovative new parabolic trough collector developed by Alcoa,&#8221; said Dr. Chuck Kutscher, Manager, NREL Thermal Systems Group.
+
+POS tagged sentence: 
+[('"', 'NN'), ('NREL', 'NNP'), ('is', 'VBZ'), ('looking', 'VBG'), ('forward', 'RB'), ('to', 'TO'), ('performing', 'VBG'), ('outdoor', 'NN'), ('efficiency', 'NN'), ('tests', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('innovative', 'JJ'), ('new', 'JJ'), ('parabolic', 'JJ'), ('trough', 'NN'), ('collector', 'NN'), ('developed', 'VBD'), ('by', 'IN'), ('Alcoa,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Dr.', 'NNP'), ('Chuck', 'NNP'), ('Kutscher', 'NNP'), (',', ','), ('Manager', 'NNP'), (',', ','), ('NREL', 'NNP'), ('Thermal', 'NNP'), ('Systems', 'NNPS'), ('Group', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (ORGANIZATION NREL/NNP)   is/VBZ   looking/VBG   forward/RB   to/TO   performing/VBG   outdoor/NN   efficiency/NN   tests/NNS   on/IN   the/DT   innovative/JJ   new/JJ   parabolic/JJ   trough/NN   collector/NN   developed/VBD   by/IN   Alcoa,&/NN   #/#   8221/CD   ;/:   said/VBD   Dr./NNP   (PERSON Chuck/NNP Kutscher/NNP)   ,/,   (PERSON Manager/NNP)   ,/,   (ORGANIZATION NREL/NNP Thermal/NNP Systems/NNPS Group/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ looking/VBG forward/RB)
+	(VERB   performing/VBG   outdoor/NN   efficiency/NN   tests/NNS   on/IN   the/DT   innovative/JJ   new/JJ   parabolic/JJ   trough/NN   collector/NN)
+	(VERB developed/VBD by/IN Alcoa,&/NN)
+	(VERB said/VBD Dr./NNP Chuck/NNP Kutscher/NNP)
+noun phrases to consider:
+	(NOUN "/NN NREL/NNP)
+	(NOUN Manager/NNP)
+	(NOUN NREL/NNP Thermal/NNP Systems/NNPS Group/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;We are excited to see a major U.S. based manufacturer entering the Concentrating Solar Power market through the financial support of the U.S. Department of Energy's Funding Opportunity Announcement Program.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('excited', 'VBN'), ('to', 'TO'), ('see', 'VB'), ('a', 'DT'), ('major', 'JJ'), ('U.S.', 'NNP'), ('based', 'VBN'), ('manufacturer', 'NN'), ('entering', 'NN'), ('the', 'DT'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('market', 'NN'), ('through', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('support', 'NN'), ('of', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Department', 'NNP'), ('of', 'IN'), ('Energy', 'NNP'), ("'s", 'POS'), ('Funding', 'NNP'), ('Opportunity', 'NNP'), ('Announcement', 'NNP'), ('Program', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   excited/VBN   to/TO   see/VB   a/DT   major/JJ   (GPE U.S./NNP)   based/VBN   manufacturer/NN   entering/NN   the/DT   Concentrating/NNP   Solar/NNP   Power/NNP   market/NN   through/IN   the/DT   financial/JJ   support/NN   of/IN   the/DT   (ORGANIZATION U.S./NNP Department/NNP)   of/IN   (GPE Energy/NNP)   's/POS   Funding/NNP   Opportunity/NNP   Announcement/NNP   Program/NNP   ./.)
+----------------------------------
+original sentence: 
+"  Currently, commercial Concentrating Solar Power systems installed to date use glass mirrors to reflect and concentrate sunlight onto receivers that collect the solar energy and convert it to heat.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Currently', 'RB'), (',', ','), ('commercial', 'JJ'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('systems', 'NNS'), ('installed', 'VBD'), ('to', 'TO'), ('date', 'NN'), ('use', 'NN'), ('glass', 'NN'), ('mirrors', 'NNS'), ('to', 'TO'), ('reflect', 'VB'), ('and', 'CC'), ('concentrate', 'VB'), ('sunlight', 'NN'), ('onto', 'IN'), ('receivers', 'NNS'), ('that', 'WDT'), ('collect', 'NN'), ('the', 'DT'), ('solar', 'JJ'), ('energy', 'NN'), ('and', 'CC'), ('convert', 'NN'), ('it', 'PRP'), ('to', 'TO'), ('heat', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Currently/RB   ,/,   commercial/JJ   Concentrating/NNP   Solar/NNP   Power/NNP   systems/NNS   installed/VBD   to/TO   date/NN   use/NN   glass/NN   mirrors/NNS   to/TO   reflect/VB   and/CC   concentrate/VB   sunlight/NN   onto/IN   receivers/NNS   that/WDT   collect/NN   the/DT   solar/JJ   energy/NN   and/CC   convert/NN   it/PRP   to/TO   heat/VB   ./.)
+----------------------------------
+original sentence: 
+This thermal energy can then be used to produce utility scale electricity via a steam turbine.
+
+POS tagged sentence: 
+[('This', 'DT'), ('thermal', 'JJ'), ('energy', 'NN'), ('can', 'MD'), ('then', 'RB'), ('be', 'VB'), ('used', 'VBN'), ('to', 'TO'), ('produce', 'VB'), ('utility', 'NN'), ('scale', 'NN'), ('electricity', 'NN'), ('via', 'IN'), ('a', 'DT'), ('steam', 'NN'), ('turbine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   thermal/JJ   energy/NN   can/MD   then/RB   be/VB   used/VBN   to/TO   produce/VB   utility/NN   scale/NN   electricity/NN   via/IN   a/DT   steam/NN   turbine/NN   ./.)
+----------------------------------
+original sentence: 
+Instead of glass mirrors, the new Alcoa solution uses highly reflective aluminum mirrors, which are more durable and environmentally friendly than fragile glass based mirrors.
+
+POS tagged sentence: 
+[('Instead', 'RB'), ('of', 'IN'), ('glass', 'NN'), ('mirrors', 'NNS'), (',', ','), ('the', 'DT'), ('new', 'JJ'), ('Alcoa', 'NNP'), ('solution', 'NN'), ('uses', 'VBZ'), ('highly', 'RB'), ('reflective', 'JJ'), ('aluminum', 'NN'), ('mirrors', 'NNS'), (',', ','), ('which', 'WDT'), ('are', 'VBP'), ('more', 'RBR'), ('durable', 'JJ'), ('and', 'CC'), ('environmentally', 'RB'), ('friendly', 'RB'), ('than', 'IN'), ('fragile', 'JJ'), ('glass', 'NN'), ('based', 'VBN'), ('mirrors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Instead/RB   of/IN   glass/NN   mirrors/NNS   ,/,   the/DT   new/JJ   Alcoa/NNP   solution/NN   uses/VBZ   highly/RB   reflective/JJ   aluminum/NN   mirrors/NNS   ,/,   which/WDT   are/VBP   more/RBR   durable/JJ   and/CC   environmentally/RB   friendly/RB   than/IN   fragile/JJ   glass/NN   based/VBN   mirrors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB uses/VBZ highly/RB reflective/JJ aluminum/NN mirrors/NNS)
+
+tagged sentence:
+	 uses highly reflective aluminum mirrors	res:1
+	(VERB are/VBP)
+	(VERB based/VBN mirrors/NNS)
+noun phrases to consider:
+	(NOUN glass/NN mirrors/NNS)
+	(NOUN the/DT new/JJ Alcoa/NNP solution/NN)
+	(NOUN durable/JJ)
+	(NOUN fragile/JJ glass/NN)
+
+----------------------------------
+original sentence: 
+The Alcoa design solution enables high volume manufacturing techniques to lower installation costs, plus its monolithic structure enables a simple &#8220;drop in place&#8221; collector for easy installation.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Alcoa', 'NNP'), ('design', 'NN'), ('solution', 'NN'), ('enables', 'VBZ'), ('high', 'JJ'), ('volume', 'NN'), ('manufacturing', 'NN'), ('techniques', 'NNS'), ('to', 'TO'), ('lower', 'JJR'), ('installation', 'NN'), ('costs', 'NNS'), (',', ','), ('plus', 'CC'), ('its', 'PRP$'), ('monolithic', 'JJ'), ('structure', 'NN'), ('enables', 'NNS'), ('a', 'DT'), ('simple', 'JJ'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('drop', 'NN'), ('in', 'IN'), ('place&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('collector', 'NN'), ('for', 'IN'), ('easy', 'JJ'), ('installation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE Alcoa/NNP)   design/NN   solution/NN   enables/VBZ   high/JJ   volume/NN   manufacturing/NN   techniques/NNS   to/TO   lower/JJR   installation/NN   costs/NNS   ,/,   plus/CC   its/PRP$   monolithic/JJ   structure/NN   enables/NNS   a/DT   simple/JJ   &/CC   #/#   8220/CD   ;/:   drop/NN   in/IN   place&/JJ   #/#   8221/CD   ;/:   collector/NN   for/IN   easy/JJ   installation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB enables/VBZ high/JJ volume/NN manufacturing/NN techniques/NNS)
+
+tagged sentence:
+	 enables high volume manufacturing techniques	res:1
+noun phrases to consider:
+	(NOUN Alcoa/NNP design/NN solution/NN)
+	(NOUN lower/JJR installation/NN costs/NNS)
+
+tagged sentence:
+	 lower installation costs	res:-1
+	(NOUN monolithic/JJ structure/NN enables/NNS)
+
+tagged sentence:
+	 monolithic structure enables	res:1
+	(NOUN a/DT simple/JJ)
+	(NOUN drop/NN)
+
+tagged sentence:
+	 drop	res:-1
+	(NOUN place&/JJ)
+	(NOUN collector/NN)
+	(NOUN easy/JJ installation/NN)
+
+tagged sentence:
+	 easy installation	res:1
+
+----------------------------------
+original sentence: 
+The Alcoa design includes sheet, extrusions and fasteners.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Alcoa', 'NNP'), ('design', 'NN'), ('includes', 'VBZ'), ('sheet', 'NN'), (',', ','), ('extrusions', 'NNS'), ('and', 'CC'), ('fasteners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE Alcoa/NNP)   design/NN   includes/VBZ   sheet/NN   ,/,   extrusions/NNS   and/CC   fasteners/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB includes/VBZ sheet/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP design/NN)
+	(NOUN extrusions/NNS)
+	(NOUN fasteners/NNS)
+
+----------------------------------
+original sentence: 
+The new Alcoa CSP design leverages high volume manufacturing and assembly approaches utilized in the aerospace and automotive markets as well as the Company&#8217;s materials and technology leadership to lower the cost of CSP trough systems.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('Alcoa', 'NNP'), ('CSP', 'NNP'), ('design', 'NN'), ('leverages', 'NNS'), ('high', 'JJ'), ('volume', 'NN'), ('manufacturing', 'NN'), ('and', 'CC'), ('assembly', 'RB'), ('approaches', 'VBZ'), ('utilized', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('aerospace', 'NN'), ('and', 'CC'), ('automotive', 'JJ'), ('markets', 'NNS'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('the', 'DT'), ('Company&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('materials', 'NNS'), ('and', 'CC'), ('technology', 'NN'), ('leadership', 'NN'), ('to', 'TO'), ('lower', 'JJR'), ('the', 'DT'), ('cost', 'NN'), ('of', 'IN'), ('CSP', 'NNP'), ('trough', 'IN'), ('systems', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   (PERSON Alcoa/NNP CSP/NNP)   design/NN   leverages/NNS   high/JJ   volume/NN   manufacturing/NN   and/CC   assembly/RB   approaches/VBZ   utilized/VBN   in/IN   the/DT   aerospace/NN   and/CC   automotive/JJ   markets/NNS   as/IN   well/RB   as/IN   the/DT   Company&/NNP   #/#   8217/CD   ;/:   s/NNS   materials/NNS   and/CC   technology/NN   leadership/NN   to/TO   lower/JJR   the/DT   cost/NN   of/IN   (ORGANIZATION CSP/NNP)   trough/IN   systems/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB approaches/VBZ utilized/VBN in/IN the/DT aerospace/NN)
+noun phrases to consider:
+	(NOUN The/DT new/JJ Alcoa/NNP CSP/NNP design/NN leverages/NNS)
+	(NOUN high/JJ volume/NN manufacturing/NN)
+
+tagged sentence:
+	 high volume manufacturing	res:1
+	(NOUN automotive/JJ markets/NNS)
+	(NOUN Company&/NNP)
+	(NOUN s/NNS materials/NNS)
+	(NOUN technology/NN leadership/NN)
+
+tagged sentence:
+	 technology leadership	res:1
+	(NOUN lower/JJR)
+
+tagged sentence:
+	 lower	res:-1
+	(NOUN cost/NN)
+
+tagged sentence:
+	 cost	res:-1
+	(NOUN CSP/NNP)
+	(NOUN systems/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;We understand the end customers&#8217; need to lower the capital investment in these systems in order to lower the cost of energy,&#8221; said Dr. Eric F. M. Winter, Alcoa&#8217;s Director of Development Laboratories.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('understand', 'VBP'), ('the', 'DT'), ('end', 'NN'), ('customers&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('need', 'NN'), ('to', 'TO'), ('lower', 'JJR'), ('the', 'DT'), ('capital', 'NN'), ('investment', 'NN'), ('in', 'IN'), ('these', 'DT'), ('systems', 'NNS'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('lower', 'JJR'), ('the', 'DT'), ('cost', 'NN'), ('of', 'IN'), ('energy,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Dr.', 'NNP'), ('Eric', 'NNP'), ('F.', 'NNP'), ('M.', 'NNP'), ('Winter', 'NNP'), (',', ','), ('Alcoa&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Director', 'NNP'), ('of', 'IN'), ('Development', 'NNP'), ('Laboratories', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   understand/VBP   the/DT   end/NN   customers&/NN   #/#   8217/CD   ;/:   need/NN   to/TO   lower/JJR   the/DT   capital/NN   investment/NN   in/IN   these/DT   systems/NNS   in/IN   order/NN   to/TO   lower/JJR   the/DT   cost/NN   of/IN   energy,&/JJ   #/#   8221/CD   ;/:   said/VBD   Dr./NNP   (PERSON Eric/NNP F./NNP)   M./NNP   Winter/NNP   ,/,   Alcoa&/NNP   #/#   8217/CD   ;/:   s/NNS   Director/NNP   of/IN   (ORGANIZATION Development/NNP Laboratories/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB understand/VBP the/DT end/NN customers&/NN)
+	(VERB said/VBD Dr./NNP Eric/NNP F./NNP M./NNP Winter/NNP)
+noun phrases to consider:
+	(NOUN need/NN)
+	(NOUN lower/JJR)
+	(NOUN capital/NN investment/NN)
+	(NOUN systems/NNS)
+	(NOUN order/NN)
+	(NOUN lower/JJR)
+	(NOUN cost/NN)
+	(NOUN energy,&/JJ)
+	(NOUN Alcoa&/NNP)
+	(NOUN s/NNS Director/NNP)
+	(NOUN Development/NNP Laboratories/NNPS)
+
+----------------------------------
+original sentence: 
+&#8220;After listening to numerous industry experts, our multi faceted team combined its materials knowledge with design, manufacturing and engineered finishes capabilities to develop a system solution that enables manufacturers to more easily scale up to meet the growing demand for this solar technology.&#8221;  One of the benefits of Concentrating Solar Power technology is that thermal energy can be stored and drawn upon during short periods of clouds and at night.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('After', 'NNP'), ('listening', 'NN'), ('to', 'TO'), ('numerous', 'JJ'), ('industry', 'NN'), ('experts', 'NNS'), (',', ','), ('our', 'PRP$'), ('multi', 'NN'), ('faceted', 'VBD'), ('team', 'NN'), ('combined', 'VBN'), ('its', 'PRP$'), ('materials', 'NNS'), ('knowledge', 'NN'), ('with', 'IN'), ('design', 'NN'), (',', ','), ('manufacturing', 'NN'), ('and', 'CC'), ('engineered', 'VBD'), ('finishes', 'NNS'), ('capabilities', 'NNS'), ('to', 'TO'), ('develop', 'VB'), ('a', 'DT'), ('system', 'NN'), ('solution', 'NN'), ('that', 'WDT'), ('enables', 'VBZ'), ('manufacturers', 'NNS'), ('to', 'TO'), ('more', 'JJR'), ('easily', 'RB'), ('scale', 'JJ'), ('up', 'IN'), ('to', 'TO'), ('meet', 'VB'), ('the', 'DT'), ('growing', 'VBG'), ('demand', 'NN'), ('for', 'IN'), ('this', 'DT'), ('solar', 'JJ'), ('technology.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('One', 'CD'), ('of', 'IN'), ('the', 'DT'), ('benefits', 'NNS'), ('of', 'IN'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Power', 'NNP'), ('technology', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('thermal', 'JJ'), ('energy', 'NN'), ('can', 'MD'), ('be', 'VB'), ('stored', 'VBN'), ('and', 'CC'), ('drawn', 'VBN'), ('upon', 'IN'), ('during', 'IN'), ('short', 'JJ'), ('periods', 'NNS'), ('of', 'IN'), ('clouds', 'NNS'), ('and', 'CC'), ('at', 'IN'), ('night', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   After/NNP   listening/NN   to/TO   numerous/JJ   industry/NN   experts/NNS   ,/,   our/PRP$   multi/NN   faceted/VBD   team/NN   combined/VBN   its/PRP$   materials/NNS   knowledge/NN   with/IN   design/NN   ,/,   manufacturing/NN   and/CC   engineered/VBD   finishes/NNS   capabilities/NNS   to/TO   develop/VB   a/DT   system/NN   solution/NN   that/WDT   enables/VBZ   manufacturers/NNS   to/TO   more/JJR   easily/RB   scale/JJ   up/IN   to/TO   meet/VB   the/DT   growing/VBG   demand/NN   for/IN   this/DT   solar/JJ   technology.&/NN   #/#   8221/CD   ;/:   One/CD   of/IN   the/DT   benefits/NNS   of/IN   Concentrating/NNP   Solar/NNP   Power/NNP   technology/NN   is/VBZ   that/IN   thermal/JJ   energy/NN   can/MD   be/VB   stored/VBN   and/CC   drawn/VBN   upon/IN   during/IN   short/JJ   periods/NNS   of/IN   clouds/NNS   and/CC   at/IN   night/NN   ./.)
+----------------------------------
+original sentence: 
+Therefore, the technology provides better grid stability and increased capacity factors compared to photovoltaic applications.
+
+POS tagged sentence: 
+[('Therefore', 'NNP'), (',', ','), ('the', 'DT'), ('technology', 'NN'), ('provides', 'VBZ'), ('better', 'JJR'), ('grid', 'NN'), ('stability', 'NN'), ('and', 'CC'), ('increased', 'VBD'), ('capacity', 'NN'), ('factors', 'NNS'), ('compared', 'VBN'), ('to', 'TO'), ('photovoltaic', 'JJ'), ('applications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Therefore/NNP)   ,/,   the/DT   technology/NN   provides/VBZ   better/JJR   grid/NN   stability/NN   and/CC   increased/VBD   capacity/NN   factors/NNS   compared/VBN   to/TO   photovoltaic/JJ   applications/NNS   ./.)
+----------------------------------
+original sentence: 
+The project is being partially funded by a US$2.1 million DOE grant.
+
+POS tagged sentence: 
+[('The', 'DT'), ('project', 'NN'), ('is', 'VBZ'), ('being', 'VBG'), ('partially', 'RB'), ('funded', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('US', 'NNP'), ('$', '$'), ('2.1', 'CD'), ('million', 'CD'), ('DOE', 'NNP'), ('grant', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   project/NN   is/VBZ   being/VBG   partially/RB   funded/VBN   by/IN   a/DT   US/NNP   $/$   2.1/CD   million/CD   DOE/NNP   grant/NN   ./.)
+----------------------------------
+original sentence: 
+Test results are expected by the second quarter of 2010, after which the system will enter its next level of large scale testing.
+
+POS tagged sentence: 
+[('Test', 'NN'), ('results', 'NNS'), ('are', 'VBP'), ('expected', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (',', ','), ('after', 'IN'), ('which', 'WDT'), ('the', 'DT'), ('system', 'NN'), ('will', 'MD'), ('enter', 'VB'), ('its', 'PRP$'), ('next', 'JJ'), ('level', 'NN'), ('of', 'IN'), ('large', 'JJ'), ('scale', 'NN'), ('testing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Test/NN)   results/NNS   are/VBP   expected/VBN   by/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ,/,   after/IN   which/WDT   the/DT   system/NN   will/MD   enter/VB   its/PRP$   next/JJ   level/NN   of/IN   large/JJ   scale/NN   testing/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;We are proud to partner with the Department of Energy to develop a new, clean, reliable and affordable source of electricity,&#8221; said Scott Kerns, Vice President and General Manager of Alcoa Transportation Products.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('proud', 'VBN'), ('to', 'TO'), ('partner', 'NN'), ('with', 'IN'), ('the', 'DT'), ('Department', 'NNP'), ('of', 'IN'), ('Energy', 'NNP'), ('to', 'TO'), ('develop', 'VB'), ('a', 'DT'), ('new', 'JJ'), (',', ','), ('clean', 'JJ'), (',', ','), ('reliable', 'JJ'), ('and', 'CC'), ('affordable', 'JJ'), ('source', 'NN'), ('of', 'IN'), ('electricity,&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Scott', 'NNP'), ('Kerns', 'NNP'), (',', ','), ('Vice', 'NNP'), ('President', 'NNP'), ('and', 'CC'), ('General', 'NNP'), ('Manager', 'NNP'), ('of', 'IN'), ('Alcoa', 'NNP'), ('Transportation', 'NNP'), ('Products', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   proud/VBN   to/TO   partner/NN   with/IN   the/DT   (ORGANIZATION Department/NNP)   of/IN   (GPE Energy/NNP)   to/TO   develop/VB   a/DT   new/JJ   ,/,   clean/JJ   ,/,   reliable/JJ   and/CC   affordable/JJ   source/NN   of/IN   electricity,&/NNP   #/#   8221/CD   ;/:   said/VBD   (PERSON Scott/NNP Kerns/NNP)   ,/,   Vice/NNP   President/NNP   and/CC   (ORGANIZATION General/NNP Manager/NNP)   of/IN   (PERSON Alcoa/NNP Transportation/NNP)   Products/NNPS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP proud/VBN)
+	(VERB develop/VB a/DT new/JJ)
+	(VERB said/VBD Scott/NNP Kerns/NNP)
+noun phrases to consider:
+	(NOUN partner/NN)
+	(NOUN Department/NNP)
+	(NOUN Energy/NNP)
+	(NOUN clean/JJ)
+	(NOUN reliable/JJ)
+	(NOUN affordable/JJ source/NN)
+	(NOUN electricity,&/NNP)
+	(NOUN Vice/NNP President/NNP)
+	(NOUN General/NNP Manager/NNP)
+	(NOUN Alcoa/NNP Transportation/NNP Products/NNPS)
+
+----------------------------------
+original sentence: 
+&#8220;Alcoa has a long history of developing sustainable solutions for its customers, and aluminum &#8211; which can be infinitely recycled &#8211; is a natural fit for this green energy solution.&#8221;  Alcoa is the world&#8217;s leading producer of primary aluminum, fabricated aluminum and alumina.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Alcoa', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('long', 'JJ'), ('history', 'NN'), ('of', 'IN'), ('developing', 'VBG'), ('sustainable', 'JJ'), ('solutions', 'NNS'), ('for', 'IN'), ('its', 'PRP$'), ('customers', 'NNS'), (',', ','), ('and', 'CC'), ('aluminum', 'NN'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('which', 'WDT'), ('can', 'MD'), ('be', 'VB'), ('infinitely', 'RB'), ('recycled', 'VBN'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('is', 'VBZ'), ('a', 'DT'), ('natural', 'JJ'), ('fit', 'NN'), ('for', 'IN'), ('this', 'DT'), ('green', 'JJ'), ('energy', 'NN'), ('solution.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Alcoa', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('world&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('producer', 'NN'), ('of', 'IN'), ('primary', 'JJ'), ('aluminum', 'NN'), (',', ','), ('fabricated', 'VBD'), ('aluminum', 'NN'), ('and', 'CC'), ('alumina', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (PERSON Alcoa/NNP)   has/VBZ   a/DT   long/JJ   history/NN   of/IN   developing/VBG   sustainable/JJ   solutions/NNS   for/IN   its/PRP$   customers/NNS   ,/,   and/CC   aluminum/NN   &/CC   #/#   8211/CD   ;/:   which/WDT   can/MD   be/VB   infinitely/RB   recycled/VBN   &/CC   #/#   8211/CD   ;/:   is/VBZ   a/DT   natural/JJ   fit/NN   for/IN   this/DT   green/JJ   energy/NN   solution.&/NN   #/#   8221/CD   ;/:   (PERSON Alcoa/NNP)   is/VBZ   the/DT   world&/NN   #/#   8217/CD   ;/:   s/NNS   leading/VBG   producer/NN   of/IN   primary/JJ   aluminum/NN   ,/,   fabricated/VBD   aluminum/NN   and/CC   alumina/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT long/JJ history/NN of/IN)
+	(VERB   developing/VBG   sustainable/JJ   solutions/NNS   for/IN   its/PRP$   customers/NNS)
+	(VERB be/VB infinitely/RB recycled/VBN)
+	(VERB   is/VBZ   a/DT   natural/JJ   fit/NN   for/IN   this/DT   green/JJ   energy/NN   solution.&/NN)
+	(VERB is/VBZ the/DT world&/NN)
+	(VERB leading/VBG producer/NN of/IN primary/JJ aluminum/NN)
+	(VERB fabricated/VBD aluminum/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN aluminum/NN)
+	(NOUN Alcoa/NNP)
+	(NOUN s/NNS)
+	(NOUN alumina/NN)
+
+----------------------------------
+original sentence: 
+In addition to inventing the modern day aluminum industry, Alcoa innovation has been behind major milestones in the aerospace, automotive, packaging, building and construction, commercial transportation, consumer electronics and industrial markets over the past 120 years.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('inventing', 'VBG'), ('the', 'DT'), ('modern', 'JJ'), ('day', 'NN'), ('aluminum', 'NN'), ('industry', 'NN'), (',', ','), ('Alcoa', 'NNP'), ('innovation', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('behind', 'IN'), ('major', 'JJ'), ('milestones', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('aerospace', 'NN'), (',', ','), ('automotive', 'JJ'), (',', ','), ('packaging', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), (',', ','), ('consumer', 'NN'), ('electronics', 'NNS'), ('and', 'CC'), ('industrial', 'JJ'), ('markets', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('120', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   inventing/VBG   the/DT   modern/JJ   day/NN   aluminum/NN   industry/NN   ,/,   (GPE Alcoa/NNP)   innovation/NN   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN   ,/,   automotive/JJ   ,/,   packaging/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   commercial/JJ   transportation/NN   ,/,   consumer/NN   electronics/NNS   and/CC   industrial/JJ   markets/NNS   over/IN   the/DT   past/JJ   120/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB inventing/VBG the/DT modern/JJ day/NN aluminum/NN industry/NN)
+
+tagged sentence:
+	 inventing the modern day aluminum industry	res:1
+	(VERB   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN)
+noun phrases to consider:
+	(NOUN addition/NN)
+	(NOUN Alcoa/NNP innovation/NN)
+
+tagged sentence:
+	 Alcoa innovation	res:1
+	(NOUN automotive/JJ)
+	(NOUN packaging/NN)
+	(NOUN building/NN)
+	(NOUN construction/NN)
+
+tagged sentence:
+	 construction	res:1
+	(NOUN commercial/JJ transportation/NN)
+	(NOUN consumer/NN electronics/NNS)
+	(NOUN industrial/JJ markets/NNS)
+	(NOUN the/DT past/JJ 120/CD years/NNS)
+
+----------------------------------
+original sentence: 
+Among the solutions Alcoa markets are flat rolled products, hard alloy extrusions, and forgings, as well as Alcoa&#174; wheels, fastening systems, precision and investment castings, and building systems in addition to its expertise in other light metals such as titanium and nickel based super alloys.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('solutions', 'NNS'), ('Alcoa', 'NNP'), ('markets', 'NNS'), ('are', 'VBP'), ('flat', 'JJ'), ('rolled', 'VBN'), ('products', 'NNS'), (',', ','), ('hard', 'RB'), ('alloy', 'JJ'), ('extrusions', 'NNS'), (',', ','), ('and', 'CC'), ('forgings', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('Alcoa&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('wheels', 'NNS'), (',', ','), ('fastening', 'VBG'), ('systems', 'NNS'), (',', ','), ('precision', 'NN'), ('and', 'CC'), ('investment', 'NN'), ('castings', 'NNS'), (',', ','), ('and', 'CC'), ('building', 'NN'), ('systems', 'NNS'), ('in', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('expertise', 'NN'), ('in', 'IN'), ('other', 'JJ'), ('light', 'JJ'), ('metals', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('titanium', 'NN'), ('and', 'CC'), ('nickel', 'NN'), ('based', 'VBN'), ('super', 'NN'), ('alloys', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   solutions/NNS   Alcoa/NNP   markets/NNS   are/VBP   flat/JJ   rolled/VBN   products/NNS   ,/,   hard/RB   alloy/JJ   extrusions/NNS   ,/,   and/CC   forgings/NNS   ,/,   as/IN   well/RB   as/IN   Alcoa&/JJ   #/#   174/CD   ;/:   wheels/NNS   ,/,   fastening/VBG   systems/NNS   ,/,   precision/NN   and/CC   investment/NN   castings/NNS   ,/,   and/CC   building/NN   systems/NNS   in/IN   addition/NN   to/TO   its/PRP$   expertise/NN   in/IN   other/JJ   light/JJ   metals/NNS   such/JJ   as/IN   titanium/NN   and/CC   nickel/NN   based/VBN   super/NN   alloys/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP flat/JJ)
+	(VERB rolled/VBN products/NNS)
+	(VERB fastening/VBG systems/NNS)
+	(VERB based/VBN super/NN alloys/NNS)
+noun phrases to consider:
+	(NOUN solutions/NNS Alcoa/NNP markets/NNS)
+	(NOUN hard/RB alloy/JJ extrusions/NNS)
+	(NOUN forgings/NNS)
+	(NOUN Alcoa&/JJ)
+	(NOUN wheels/NNS)
+	(NOUN precision/NN)
+	(NOUN investment/NN castings/NNS)
+	(NOUN building/NN systems/NNS)
+	(NOUN addition/NN)
+	(NOUN expertise/NN)
+	(NOUN other/JJ light/JJ metals/NNS)
+	(NOUN such/JJ)
+	(NOUN titanium/NN)
+	(NOUN nickel/NN)
+
+----------------------------------
+original sentence: 
+Sustainability is an integral part of Alcoa&#8217;s operating practices and the product design and engineering it provides to customers.
+
+POS tagged sentence: 
+[('Sustainability', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('integral', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('Alcoa&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('operating', 'VBG'), ('practices', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('product', 'NN'), ('design', 'NN'), ('and', 'CC'), ('engineering', 'NN'), ('it', 'PRP'), ('provides', 'VBZ'), ('to', 'TO'), ('customers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sustainability/NN)   is/VBZ   an/DT   integral/JJ   part/NN   of/IN   Alcoa&/NNP   #/#   8217/CD   ;/:   s/NNS   operating/VBG   practices/NNS   and/CC   the/DT   product/NN   design/NN   and/CC   engineering/NN   it/PRP   provides/VBZ   to/TO   customers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ an/DT integral/JJ part/NN of/IN Alcoa&/NNP)
+
+tagged sentence:
+	 is an integral part of Alcoa&	res:1
+	(VERB operating/VBG practices/NNS)
+	(VERB provides/VBZ to/TO customers/NNS)
+noun phrases to consider:
+	(NOUN Sustainability/NN)
+	(NOUN s/NNS)
+	(NOUN product/NN design/NN)
+	(NOUN engineering/NN)
+
+----------------------------------
+original sentence: 
+Alcoa has been a member of the Dow Jones Sustainability Index for eight consecutive years and approximately 75 percent of all of the aluminum ever produced since 1888 is still in active use today.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Sustainability', 'NNP'), ('Index', 'NNP'), ('for', 'IN'), ('eight', 'CD'), ('consecutive', 'JJ'), ('years', 'NNS'), ('and', 'CC'), ('approximately', 'RB'), ('75', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('aluminum', 'NN'), ('ever', 'RB'), ('produced', 'VBN'), ('since', 'IN'), ('1888', 'CD'), ('is', 'VBZ'), ('still', 'RB'), ('in', 'IN'), ('active', 'JJ'), ('use', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP)   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS   and/CC   approximately/RB   75/CD   percent/NN   of/IN   all/DT   of/IN   the/DT   aluminum/NN   ever/RB   produced/VBN   since/IN   1888/CD   is/VBZ   still/RB   in/IN   active/JJ   use/NN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   Dow/NNP   Jones/NNP   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS)
+	(VERB produced/VBN since/IN 1888/CD)
+	(VERB is/VBZ still/RB in/IN active/JJ use/NN today/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN percent/NN)
+	(NOUN aluminum/NN)
+
+----------------------------------
+original sentence: 
+Alcoa employs approximately 59,000 people in 31 countries across the world.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('employs', 'VBZ'), ('approximately', 'RB'), ('59,000', 'CD'), ('people', 'NNS'), ('in', 'IN'), ('31', 'CD'), ('countries', 'NNS'), ('across', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   employs/VBZ   approximately/RB   59,000/CD   people/NNS   in/IN   31/CD   countries/NNS   across/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB employs/VBZ)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN people/NNS)
+	(NOUN 31/CD countries/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+More information can be found at  Photos/Multimedia&#160;Gallery Available: http://www.businesswire.com/cgi bin/mmg.cgi?eid=6218814&lang=en
+ Contacts Matthew E. Garth, 212 836 2674
+Media Contact:
+Kevin G. Lowery, 412 553 1424
+Mobile 724 422 7844  http://www.businesswire.com/news/home/20100318005187/en/Alcoa National Renewable Energy Lab Testing Innovative
+ Smart Multimedia Gallery The Alcoa Concentrating Solar Panel trough being tested at the National Renewable Energy Lab in Golden, Colorado.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Photos/Multimedia&', 'NNP'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Gallery', 'NNP'), ('Available', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/cgi', 'JJ'), ('bin/mmg.cgi', 'NN'), ('?', '.'), ('eid', 'NN'), ('=', ':'), ('6218814&lang', 'CD'), ('=', 'CD'), ('en', 'CD'), ('Contacts', 'NNS'), ('Matthew', 'NNP'), ('E.', 'NNP'), ('Garth', 'NNP'), (',', ','), ('212', 'CD'), ('836', 'CD'), ('2674', 'CD'), ('Media', 'NNP'), ('Contact', 'NNP'), (':', ':'), ('Kevin', 'NNP'), ('G.', 'NNP'), ('Lowery', 'NNP'), (',', ','), ('412', 'CD'), ('553', 'CD'), ('1424', 'CD'), ('Mobile', 'NNP'), ('724', 'CD'), ('422', 'CD'), ('7844', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100318005187/en/Alcoa', 'JJ'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('Testing', 'NNP'), ('Innovative', 'NNP'), ('Smart', 'NNP'), ('Multimedia', 'NNP'), ('Gallery', 'NNP'), ('The', 'NNP'), ('Alcoa', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Panel', 'NNP'), ('trough', 'IN'), ('being', 'VBG'), ('tested', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('in', 'IN'), ('Golden', 'NNP'), (',', ','), ('Colorado', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   can/MD   be/VB   found/VBN   at/IN   Photos/Multimedia&/NNP   #/#   160/CD   ;/:   (PERSON Gallery/NNP Available/NNP)   :/:   http/NN   :/:   //www.businesswire.com/cgi/JJ   bin/mmg.cgi/NN   ?/.   eid/NN   =/:   6218814&lang/CD   =/CD   en/CD   Contacts/NNS   (PERSON Matthew/NNP E./NNP Garth/NNP)   ,/,   212/CD   836/CD   2674/CD   Media/NNP   Contact/NNP   :/:   (PERSON Kevin/NNP G./NNP Lowery/NNP)   ,/,   412/CD   553/CD   1424/CD   Mobile/NNP   724/CD   422/CD   7844/CD   http/NN   :/:   //www.businesswire.com/news/home/20100318005187/en/Alcoa/JJ   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   Testing/NNP   Innovative/NNP   (PERSON Smart/NNP Multimedia/NNP Gallery/NNP The/NNP Alcoa/NNP)   Concentrating/NNP   Solar/NNP   Panel/NNP   trough/IN   being/VBG   tested/VBN   at/IN   the/DT   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   in/IN   (GPE Golden/NNP)   ,/,   (GPE Colorado/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB found/VBN at/IN Photos/Multimedia&/NNP)
+	(VERB   being/VBG   tested/VBN   at/IN   the/DT   National/NNP   Renewable/NNP   Energy/NNP   Lab/NNP   in/IN   Golden/NNP)
+noun phrases to consider:
+	(NOUN More/JJR information/NN)
+	(NOUN Gallery/NNP Available/NNP)
+	(NOUN http/NN)
+	(NOUN //www.businesswire.com/cgi/JJ bin/mmg.cgi/NN)
+	(NOUN eid/NN)
+	(NOUN en/CD Contacts/NNS Matthew/NNP E./NNP Garth/NNP)
+	(NOUN 2674/CD Media/NNP Contact/NNP)
+	(NOUN Kevin/NNP G./NNP Lowery/NNP)
+	(NOUN 1424/CD Mobile/NNP)
+	(NOUN 7844/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100318005187/en/Alcoa/JJ   National/NNP   Renewable/NNP   Energy/NNP   Lab/NNP)
+	(NOUN Testing/NNP Innovative/NNP Smart/NNP Multimedia/NNP)
+	(NOUN Gallery/NNP The/NNP Alcoa/NNP Concentrating/NNP)
+	(NOUN Solar/NNP Panel/NNP)
+	(NOUN Colorado/NNP)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More The Alcoa Concentrating Solar Panel trough under construction at the Alcoa Technical Center in Pittsburgh, PA prior to being installed at the National Renewable Energy Lab in Golden, Colorado.
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('The', 'NNP'), ('Alcoa', 'NNP'), ('Concentrating', 'NNP'), ('Solar', 'NNP'), ('Panel', 'NNP'), ('trough', 'IN'), ('under', 'IN'), ('construction', 'NN'), ('at', 'IN'), ('the', 'DT'), ('Alcoa', 'NNP'), ('Technical', 'NNP'), ('Center', 'NNP'), ('in', 'IN'), ('Pittsburgh', 'NNP'), (',', ','), ('PA', 'NNP'), ('prior', 'RB'), ('to', 'TO'), ('being', 'VBG'), ('installed', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('National', 'NNP'), ('Renewable', 'NNP'), ('Energy', 'NNP'), ('Lab', 'NNP'), ('in', 'IN'), ('Golden', 'NNP'), (',', ','), ('Colorado', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   The/NNP   (PERSON Alcoa/NNP Concentrating/NNP Solar/NNP Panel/NNP)   trough/IN   under/IN   construction/NN   at/IN   the/DT   (ORGANIZATION Alcoa/NNP Technical/NNP Center/NNP)   in/IN   (GPE Pittsburgh/NNP)   ,/,   (ORGANIZATION PA/NNP)   prior/RB   to/TO   being/VBG   installed/VBN   at/IN   the/DT   (ORGANIZATION National/NNP Renewable/NNP Energy/NNP Lab/NNP)   in/IN   (GPE Golden/NNP)   ,/,   (GPE Colorado/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   being/VBG   installed/VBN   at/IN   the/DT   National/NNP   Renewable/NNP   Energy/NNP   Lab/NNP   in/IN   Golden/NNP)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP The/NNP Alcoa/NNP Concentrating/NNP)
+	(NOUN Solar/NNP Panel/NNP)
+	(NOUN construction/NN)
+
+tagged sentence:
+	 construction	res:1
+	(NOUN Alcoa/NNP Technical/NNP Center/NNP)
+	(NOUN Pittsburgh/NNP)
+	(NOUN PA/NNP)
+	(NOUN Colorado/NNP)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More  Download Formats  More Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Download/NNP   Formats/NNPS   More/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)
+
+veryneg:0	neg:4	pos:13	verypos:0	total:11

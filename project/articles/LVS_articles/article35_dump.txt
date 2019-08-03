@@ -1,0 +1,136 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Approaching Support Las Vegas Sands | Trading Ideas
+ Approaching Support Las Vegas Sands  Written by Christian Paolinetti  Monday, 05 April 2010 07:48 New York, April 5th TradersHuddle.com Shares of Las Vegas Sands Corp. NYSE:LVS are trading very close to calculated support at $20.6 with current price action closing at just $21.3 places the stock price near levels where traders will start paying attention.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Approaching', 'NNP'), ('Support', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('|', 'NNP'), ('Trading', 'NNP'), ('Ideas', 'NNP'), ('Approaching', 'NNP'), ('Support', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Written', 'NNP'), ('by', 'IN'), ('Christian', 'NNP'), ('Paolinetti', 'NNP'), ('Monday', 'NNP'), (',', ','), ('05', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('48', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('April', 'NNP'), ('5th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('are', 'VBP'), ('trading', 'VBG'), ('very', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('calculated', 'VBN'), ('support', 'NN'), ('at', 'IN'), ('$', '$'), ('20.6', 'CD'), ('with', 'IN'), ('current', 'JJ'), ('price', 'NN'), ('action', 'NN'), ('closing', 'VBG'), ('at', 'IN'), ('just', 'RB'), ('$', '$'), ('21.3', 'CD'), ('places', 'NNS'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('near', 'IN'), ('levels', 'NNS'), ('where', 'WRB'), ('traders', 'NNS'), ('will', 'MD'), ('start', 'VB'), ('paying', 'VBG'), ('attention', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Approaching/NNP   Support/NNP   Las/NNP   Vegas/NNP   Sands/NNPS   |/NNP   Trading/NNP   Ideas/NNP   Approaching/NNP   Support/NNP   Las/NNP   Vegas/NNP   Sands/NNPS   Written/NNP   by/IN   (PERSON Christian/NNP Paolinetti/NNP)   Monday/NNP   ,/,   05/CD   April/NNP   2010/CD   07/CD   :/:   48/CD   (GPE New/NNP York/NNP)   ,/,   April/NNP   5th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   LVS/NNP   are/VBP   trading/VBG   very/RB   close/JJ   to/TO   calculated/VBN   support/NN   at/IN   $/$   20.6/CD   with/IN   current/JJ   price/NN   action/NN   closing/VBG   at/IN   just/RB   $/$   21.3/CD   places/NNS   the/DT   stock/NN   price/NN   near/IN   levels/NNS   where/WRB   traders/NNS   will/MD   start/VB   paying/VBG   attention/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP trading/VBG very/RB close/JJ)
+
+tagged sentence:
+	 are trading very close	res:1
+	(VERB calculated/VBN support/NN at/IN)
+	(VERB closing/VBG at/IN just/RB)
+	(VERB start/VB paying/VBG attention/NN)
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Approaching/NNP Support/NNP Las/NNP)
+	(NOUN Vegas/NNP Sands/NNPS |/NNP Trading/NNP)
+	(NOUN Ideas/NNP Approaching/NNP Support/NNP Las/NNP)
+	(NOUN Vegas/NNP Sands/NNPS Written/NNP)
+	(NOUN Christian/NNP Paolinetti/NNP Monday/NNP)
+	(NOUN 05/CD April/NNP)
+	(NOUN 48/CD New/NNP York/NNP)
+	(NOUN April/NNP)
+	(NOUN 5th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN current/JJ price/NN action/NN)
+	(NOUN 21.3/CD places/NNS)
+	(NOUN stock/NN price/NN)
+	(NOUN levels/NNS)
+	(NOUN traders/NNS)
+
+----------------------------------
+original sentence: 
+Las Vegas Sands Corp. NYSE:LVS owns and operates casino resorts and convention centers.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('LVS', 'NNP'), ('owns', 'VBZ'), ('and', 'CC'), ('operates', 'VBZ'), ('casino', 'NN'), ('resorts', 'NNS'), ('and', 'CC'), ('convention', 'NN'), ('centers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION LVS/NNP)   owns/VBZ   and/CC   operates/VBZ   casino/NN   resorts/NNS   and/CC   convention/NN   centers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owns/VBZ)
+	(VERB operates/VBZ casino/NN resorts/NNS)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN NYSE/NNP)
+	(NOUN LVS/NNP)
+	(NOUN convention/NN centers/NNS)
+
+----------------------------------
+original sentence: 
+The Company operates in United States, Macau, and Singapore and offers a wide range of gaming activities and entertainment as well as overnight accomodations in properties like the Venetian and the Palazzo in Las Vegas, NV.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('operates', 'VBZ'), ('in', 'IN'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('Macau', 'NNP'), (',', ','), ('and', 'CC'), ('Singapore', 'NNP'), ('and', 'CC'), ('offers', 'VBZ'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('gaming', 'VBG'), ('activities', 'NNS'), ('and', 'CC'), ('entertainment', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('overnight', 'JJ'), ('accomodations', 'NNS'), ('in', 'IN'), ('properties', 'NNS'), ('like', 'IN'), ('the', 'DT'), ('Venetian', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Palazzo', 'NNP'), ('in', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), (',', ','), ('NV', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   operates/VBZ   in/IN   (GPE United/NNP States/NNPS)   ,/,   (PERSON Macau/NNP)   ,/,   and/CC   (GPE Singapore/NNP)   and/CC   offers/VBZ   a/DT   wide/JJ   range/NN   of/IN   gaming/VBG   activities/NNS   and/CC   entertainment/NN   as/IN   well/RB   as/IN   overnight/JJ   accomodations/NNS   in/IN   properties/NNS   like/IN   the/DT   (GPE Venetian/NNP)   and/CC   the/DT   (GPE Palazzo/NNP)   in/IN   (GPE Las/NNP Vegas/NNP)   ,/,   (ORGANIZATION NV/NNP)   ./.)
+----------------------------------
+original sentence: 
+Its expo centers host a wide range of entertainment shows, expositions, and other activities.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('expo', 'NN'), ('centers', 'NNS'), ('host', 'VBP'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('entertainment', 'NN'), ('shows', 'NNS'), (',', ','), ('expositions', 'NNS'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('activities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   expo/NN   centers/NNS   host/VBP   a/DT   wide/JJ   range/NN   of/IN   entertainment/NN   shows/NNS   ,/,   expositions/NNS   ,/,   and/CC   other/JJ   activities/NNS   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands' current stock range is defined by current calculated support defined at $20.6 and by the resistance level at $22.49, which should be used by traders planning their trades.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ("'", 'POS'), ('current', 'JJ'), ('stock', 'NN'), ('range', 'NN'), ('is', 'VBZ'), ('defined', 'VBN'), ('by', 'IN'), ('current', 'JJ'), ('calculated', 'VBN'), ('support', 'NN'), ('defined', 'VBN'), ('at', 'IN'), ('$', '$'), ('20.6', 'CD'), ('and', 'CC'), ('by', 'IN'), ('the', 'DT'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('22.49', 'CD'), (',', ','), ('which', 'WDT'), ('should', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('by', 'IN'), ('traders', 'NNS'), ('planning', 'VBG'), ('their', 'PRP$'), ('trades', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   '/POS   current/JJ   stock/NN   range/NN   is/VBZ   defined/VBN   by/IN   current/JJ   calculated/VBN   support/NN   defined/VBN   at/IN   $/$   20.6/CD   and/CC   by/IN   the/DT   resistance/NN   level/NN   at/IN   $/$   22.49/CD   ,/,   which/WDT   should/MD   be/VB   used/VBN   by/IN   traders/NNS   planning/VBG   their/PRP$   trades/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ defined/VBN by/IN current/JJ)
+	(VERB calculated/VBN support/NN)
+	(VERB defined/VBN at/IN)
+	(VERB be/VB used/VBN by/IN traders/NNS)
+	(VERB planning/VBG their/PRP$ trades/NNS)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN current/JJ stock/NN range/NN)
+	(NOUN resistance/NN level/NN)
+
+----------------------------------
+original sentence: 
+Traders wanting to establish a position should place close attention to Las Vegas Sands' price action, and establish a position as close to support as possible, but only after buying materializes.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('wanting', 'VBG'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('position', 'NN'), ('should', 'MD'), ('place', 'VB'), ('close', 'JJ'), ('attention', 'NN'), ('to', 'TO'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ("'", 'POS'), ('price', 'NN'), ('action', 'NN'), (',', ','), ('and', 'CC'), ('establish', 'JJ'), ('a', 'DT'), ('position', 'NN'), ('as', 'IN'), ('close', 'JJ'), ('to', 'TO'), ('support', 'VB'), ('as', 'IN'), ('possible', 'JJ'), (',', ','), ('but', 'CC'), ('only', 'RB'), ('after', 'IN'), ('buying', 'VBG'), ('materializes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   wanting/VBG   to/TO   establish/VB   a/DT   position/NN   should/MD   place/VB   close/JJ   attention/NN   to/TO   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS)   '/POS   price/NN   action/NN   ,/,   and/CC   establish/JJ   a/DT   position/NN   as/IN   close/JJ   to/TO   support/VB   as/IN   possible/JJ   ,/,   but/CC   only/RB   after/IN   buying/VBG   materializes/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB wanting/VBG to/TO establish/VB a/DT position/NN)
+	(VERB place/VB close/JJ attention/NN)
+	(VERB support/VB as/IN possible/JJ)
+	(VERB buying/VBG materializes/NNS)
+noun phrases to consider:
+	(NOUN Traders/NNS)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN price/NN action/NN)
+	(NOUN establish/JJ)
+	(NOUN position/NN)
+	(NOUN close/JJ)
+
+----------------------------------
+original sentence: 
+Traders should understand that the resistance point at $22.49 might limit their upside, however if the stock breaks resistance, it could be a good point to add to the position.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('should', 'MD'), ('understand', 'VB'), ('that', 'IN'), ('the', 'DT'), ('resistance', 'NN'), ('point', 'NN'), ('at', 'IN'), ('$', '$'), ('22.49', 'CD'), ('might', 'MD'), ('limit', 'VB'), ('their', 'PRP$'), ('upside', 'NN'), (',', ','), ('however', 'RB'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('breaks', 'NNS'), ('resistance', 'NN'), (',', ','), ('it', 'PRP'), ('could', 'MD'), ('be', 'VB'), ('a', 'DT'), ('good', 'JJ'), ('point', 'NN'), ('to', 'TO'), ('add', 'VB'), ('to', 'TO'), ('the', 'DT'), ('position', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   should/MD   understand/VB   that/IN   the/DT   resistance/NN   point/NN   at/IN   $/$   22.49/CD   might/MD   limit/VB   their/PRP$   upside/NN   ,/,   however/RB   if/IN   the/DT   stock/NN   breaks/NNS   resistance/NN   ,/,   it/PRP   could/MD   be/VB   a/DT   good/JJ   point/NN   to/TO   add/VB   to/TO   the/DT   position/NN   ./.)
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

@@ -1,0 +1,202 @@
+
+----------------------------------
+original sentence: 
+Wal Mart Shares Rise after Citigroup Upgrade WMT, C American Banking News
+Wal Mart Shares Rise after Citigroup Upgrade WMT, C  March 16th, 2010 &bull;  &bull; by admin  Filed Under: Wal Mart NYSE: WMT shares rose 2.82% yesterday after Citigroup NYSE: C upgrade the blue chip stock from¬† ‚ÄúHold‚Äù to ‚ÄúBuy‚Äù and increased the mega retailer‚Äôs price target to $65.00, up from $54.00.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('Shares', 'NNP'), ('Rise', 'NNP'), ('after', 'IN'), ('Citigroup', 'NNP'), ('Upgrade', 'NNP'), ('WMT', 'NNP'), (',', ','), ('C', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('Shares', 'NNP'), ('Rise', 'NNP'), ('after', 'IN'), ('Citigroup', 'NNP'), ('Upgrade', 'NNP'), ('WMT', 'NNP'), (',', ','), ('C', 'NNP'), ('March', 'NNP'), ('16th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('WMT', 'NNP'), ('shares', 'NNS'), ('rose', 'VBD'), ('2.82', 'CD'), ('%', 'NN'), ('yesterday', 'NN'), ('after', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('upgrade', 'NN'), ('the', 'DT'), ('blue', 'JJ'), ('chip', 'NN'), ('stock', 'NN'), ('from', 'IN'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('Hold', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('to', 'TO'), ('\xe2', 'VB'), ('\x80', ':'), ('\x9c', ':'), ('Buy', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('and', 'CC'), ('increased', 'VBD'), ('the', 'DT'), ('mega', 'NN'), ('retailer', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('$', '$'), ('65.00', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('54.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (PERSON Mart/NNP Shares/NNP Rise/NNP)   after/IN   (PERSON Citigroup/NNP Upgrade/NNP WMT/NNP)   ,/,   (ORGANIZATION C/NNP American/NNP)   Banking/NNP   News/NNP   Wal/NNP   (PERSON Mart/NNP Shares/NNP Rise/NNP)   after/IN   (PERSON Citigroup/NNP Upgrade/NNP WMT/NNP)   ,/,   (ORGANIZATION C/NNP)   March/NNP   16th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Wal/NNP Mart/NNP)   NYSE/NNP   :/:   WMT/NNP   shares/NNS   rose/VBD   2.82/CD   %/NN   yesterday/NN   after/IN   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   upgrade/NN   the/DT   blue/JJ   chip/NN   stock/NN   from/IN   ¬/NNP   †/NNP   ‚/NNP   Ä/NNP   ú/NNP   Hold/NNP   ‚/NNP   Ä/NNP   ù/NNP   to/TO   ‚/VB   Ä/:   ú/:   Buy/NNP   ‚/:   Ä/:   ù/:   and/CC   increased/VBD   the/DT   mega/NN   retailer/NN   ‚/:   Ä/:   ô/:   s/NNS   price/NN   target/NN   to/TO   $/$   65.00/CD   ,/,   up/RB   from/IN   $/$   54.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   rose/VBD   2.82/CD   %/NN   yesterday/NN   after/IN   Citigroup/NNP   NYSE/NNP)
+	(VERB ‚/VB)
+	(VERB increased/VBD the/DT mega/NN retailer/NN)
+
+tagged sentence:
+	 increased the mega retailer	res:1
+noun phrases to consider:
+	(NOUN Wal/NNP Mart/NNP Shares/NNP Rise/NNP)
+	(NOUN Citigroup/NNP Upgrade/NNP WMT/NNP)
+
+tagged sentence:
+	 Citigroup Upgrade WMT	res:2
+	(NOUN C/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Wal/NNP Mart/NNP Shares/NNP Rise/NNP)
+	(NOUN Citigroup/NNP Upgrade/NNP WMT/NNP)
+
+tagged sentence:
+	 Citigroup Upgrade WMT	res:2
+	(NOUN C/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Wal/NNP Mart/NNP NYSE/NNP)
+	(NOUN WMT/NNP shares/NNS)
+	(NOUN C/NNP upgrade/NN)
+
+tagged sentence:
+	 C upgrade	res:2
+	(NOUN the/DT blue/JJ chip/NN stock/NN)
+	(NOUN ¬/NNP †/NNP ‚/NNP Ä/NNP)
+	(NOUN ú/NNP Hold/NNP ‚/NNP Ä/NNP)
+	(NOUN ù/NNP)
+	(NOUN Buy/NNP)
+	(NOUN s/NNS price/NN target/NN)
+
+----------------------------------
+original sentence: 
+Citibank said that Wal Mart is willing to do what it takes to win the price war in the food retail business.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('is', 'VBZ'), ('willing', 'JJ'), ('to', 'TO'), ('do', 'VB'), ('what', 'WP'), ('it', 'PRP'), ('takes', 'VBZ'), ('to', 'TO'), ('win', 'VB'), ('the', 'DT'), ('price', 'NN'), ('war', 'NN'), ('in', 'IN'), ('the', 'DT'), ('food', 'NN'), ('retail', 'NN'), ('business', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   said/VBD   that/IN   (PERSON Wal/NNP Mart/NNP)   is/VBZ   willing/JJ   to/TO   do/VB   what/WP   it/PRP   takes/VBZ   to/TO   win/VB   the/DT   price/NN   war/NN   in/IN   the/DT   food/NN   retail/NN   business/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN Wal/NNP Mart/NNP)
+	(VERB is/VBZ willing/JJ)
+	(VERB do/VB)
+	(VERB   takes/VBZ   to/TO   win/VB   the/DT   price/NN   war/NN   in/IN   the/DT   food/NN   retail/NN   business/NN)
+noun phrases to consider:
+	(NOUN Citibank/NNP)
+
+----------------------------------
+original sentence: 
+In the company‚Äôs research note, Citibank said that it may be losing customers that it picked up during the recession as other companies focus on value.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('research', 'NN'), ('note', 'VB'), (',', ','), ('Citibank', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('may', 'MD'), ('be', 'VB'), ('losing', 'VBG'), ('customers', 'NNS'), ('that', 'WDT'), ('it', 'PRP'), ('picked', 'VBD'), ('up', 'RP'), ('during', 'IN'), ('the', 'DT'), ('recession', 'NN'), ('as', 'IN'), ('other', 'JJ'), ('companies', 'NNS'), ('focus', 'VBZ'), ('on', 'IN'), ('value', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   research/NN   note/VB   ,/,   (PERSON Citibank/NNP)   said/VBD   that/IN   it/PRP   may/MD   be/VB   losing/VBG   customers/NNS   that/WDT   it/PRP   picked/VBD   up/RP   during/IN   the/DT   recession/NN   as/IN   other/JJ   companies/NNS   focus/VBZ   on/IN   value/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB note/VB)
+	(VERB said/VBD that/IN it/PRP)
+	(VERB be/VB losing/VBG customers/NNS)
+	(VERB picked/VBD)
+	(VERB focus/VBZ on/IN value/NN)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN s/NNS research/NN)
+	(NOUN Citibank/NNP)
+	(NOUN recession/NN)
+	(NOUN other/JJ companies/NNS)
+
+----------------------------------
+original sentence: 
+Wal Mart saw a slight decrease in customer traffic from the fourth quarter in 2009.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('saw', 'VBD'), ('a', 'DT'), ('slight', 'NN'), ('decrease', 'NN'), ('in', 'IN'), ('customer', 'NN'), ('traffic', 'NN'), ('from', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (PERSON Mart/NNP)   saw/VBD   a/DT   slight/NN   decrease/NN   in/IN   customer/NN   traffic/NN   from/IN   the/DT   fourth/JJ   quarter/NN   in/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Citi said that the decline might be an indication that low prices are not enough of a reason to switch from the convenience of shopping in super markets.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('decline', 'NN'), ('might', 'MD'), ('be', 'VB'), ('an', 'DT'), ('indication', 'NN'), ('that', 'IN'), ('low', 'JJ'), ('prices', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('enough', 'RB'), ('of', 'IN'), ('a', 'DT'), ('reason', 'NN'), ('to', 'TO'), ('switch', 'VB'), ('from', 'IN'), ('the', 'DT'), ('convenience', 'NN'), ('of', 'IN'), ('shopping', 'VBG'), ('in', 'IN'), ('super', 'NN'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   said/VBD   that/IN   the/DT   decline/NN   might/MD   be/VB   an/DT   indication/NN   that/IN   low/JJ   prices/NNS   are/VBP   not/RB   enough/RB   of/IN   a/DT   reason/NN   to/TO   switch/VB   from/IN   the/DT   convenience/NN   of/IN   shopping/VBG   in/IN   super/NN   markets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN the/DT decline/NN)
+	(VERB be/VB an/DT indication/NN that/IN low/JJ prices/NNS)
+	(VERB are/VBP not/RB enough/RB of/IN a/DT reason/NN)
+	(VERB switch/VB from/IN the/DT convenience/NN of/IN)
+	(VERB shopping/VBG in/IN super/NN markets/NNS)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+Citi says that it believes Wal Mart will ramp up its price rollbacks in order to combat this trend.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('says', 'VBZ'), ('that', 'IN'), ('it', 'PRP'), ('believes', 'VBZ'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('will', 'MD'), ('ramp', 'VB'), ('up', 'RP'), ('its', 'PRP$'), ('price', 'NN'), ('rollbacks', 'NNS'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('combat', 'VB'), ('this', 'DT'), ('trend', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   says/VBZ   that/IN   it/PRP   believes/VBZ   (PERSON Wal/NNP Mart/NNP)   will/MD   ramp/VB   up/RP   its/PRP$   price/NN   rollbacks/NNS   in/IN   order/NN   to/TO   combat/VB   this/DT   trend/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB says/VBZ that/IN it/PRP)
+	(VERB believes/VBZ Wal/NNP Mart/NNP)
+	(VERB ramp/VB)
+	(VERB combat/VB this/DT trend/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN price/NN rollbacks/NNS)
+	(NOUN order/NN)
+
+----------------------------------
+original sentence: 
+Citi noted that same store sales at stores with &#8220;both Clean Action Alley and the Smart Network are outperforming the company average as well as stores with only one of these initiatives.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('noted', 'VBD'), ('that', 'IN'), ('same', 'JJ'), ('store', 'NN'), ('sales', 'NNS'), ('at', 'IN'), ('stores', 'NNS'), ('with', 'IN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('both', 'DT'), ('Clean', 'NNP'), ('Action', 'NNP'), ('Alley', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Smart', 'NNP'), ('Network', 'NNP'), ('are', 'VBP'), ('outperforming', 'VBG'), ('the', 'DT'), ('company', 'NN'), ('average', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('stores', 'NNS'), ('with', 'IN'), ('only', 'RB'), ('one', 'CD'), ('of', 'IN'), ('these', 'DT'), ('initiatives', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   noted/VBD   that/IN   same/JJ   store/NN   sales/NNS   at/IN   stores/NNS   with/IN   &/CC   #/#   8220/CD   ;/:   both/DT   (PERSON Clean/NNP Action/NNP Alley/NNP)   and/CC   the/DT   (ORGANIZATION Smart/NNP Network/NNP)   are/VBP   outperforming/VBG   the/DT   company/NN   average/NN   as/IN   well/RB   as/IN   stores/NNS   with/IN   only/RB   one/CD   of/IN   these/DT   initiatives/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   noted/VBD   that/IN   same/JJ   store/NN   sales/NNS   at/IN   stores/NNS   with/IN)
+	(VERB   are/VBP   outperforming/VBG   the/DT   company/NN   average/NN   as/IN   well/RB   as/IN   stores/NNS   with/IN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN Clean/NNP Action/NNP Alley/NNP)
+	(NOUN Smart/NNP Network/NNP)
+	(NOUN initiatives/NNS)
+
+----------------------------------
+original sentence: 
+Customers are finding it easier to navigate the store, which is leading to larger basket sizes and higher ticket.&#8221;
+Citibank is raising Wal Mart‚Äôs FY 2010 earnings per share estimate from $4.04, up from $4.00.
+
+POS tagged sentence: 
+[('Customers', 'NNS'), ('are', 'VBP'), ('finding', 'VBG'), ('it', 'PRP'), ('easier', 'JJR'), ('to', 'TO'), ('navigate', 'VB'), ('the', 'DT'), ('store', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('leading', 'VBG'), ('to', 'TO'), ('larger', 'JJR'), ('basket', 'NN'), ('sizes', 'NNS'), ('and', 'CC'), ('higher', 'JJR'), ('ticket.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Citibank', 'NNP'), ('is', 'VBZ'), ('raising', 'VBG'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('FY', 'NNP'), ('2010', 'CD'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('estimate', 'NN'), ('from', 'IN'), ('$', '$'), ('4.04', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('4.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Customers/NNS   are/VBP   finding/VBG   it/PRP   easier/JJR   to/TO   navigate/VB   the/DT   store/NN   ,/,   which/WDT   is/VBZ   leading/VBG   to/TO   larger/JJR   basket/NN   sizes/NNS   and/CC   higher/JJR   ticket.&/JJ   #/#   8221/CD   ;/:   (ORGANIZATION Citibank/NNP)   is/VBZ   raising/VBG   (PERSON Wal/NNP Mart/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   FY/NNP   2010/CD   earnings/NNS   per/IN   share/NN   estimate/NN   from/IN   $/$   4.04/CD   ,/,   up/RB   from/IN   $/$   4.00/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP finding/VBG it/PRP easier/JJR)
+	(VERB navigate/VB the/DT store/NN)
+	(VERB is/VBZ leading/VBG)
+	(VERB is/VBZ raising/VBG Wal/NNP Mart/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB   s/VBZ   FY/NNP   2010/CD   earnings/NNS   per/IN   share/NN   estimate/NN   from/IN)
+noun phrases to consider:
+	(NOUN Customers/NNS)
+	(NOUN larger/JJR basket/NN sizes/NNS)
+	(NOUN higher/JJR ticket.&/JJ)
+	(NOUN Citibank/NNP)
+
+----------------------------------
+original sentence: 
+The company‚Äôs $65.00 price target is based on a 16x multiplier of the company‚Äôs FY 2010 price to earnings ratio.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('$', '$'), ('65.00', 'CD'), ('price', 'NN'), ('target', 'NN'), ('is', 'VBZ'), ('based', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('16x', 'CD'), ('multiplier', 'NN'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('FY', 'NNP'), ('2010', 'CD'), ('price', 'NN'), ('to', 'TO'), ('earnings', 'NNS'), ('ratio', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   $/$   65.00/CD   price/NN   target/NN   is/VBZ   based/VBN   on/IN   a/DT   16x/CD   multiplier/NN   of/IN   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   FY/NNP   2010/CD   price/NN   to/TO   earnings/NNS   ratio/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   based/VBN   on/IN   a/DT   16x/CD   multiplier/NN   of/IN   the/DT   company/NN)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN s/NNS)
+	(NOUN 65.00/CD price/NN target/NN)
+	(NOUN s/NNS FY/NNP)
+	(NOUN 2010/CD price/NN)
+	(NOUN earnings/NNS ratio/NN)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:0	pos:1	verypos:3	total:6

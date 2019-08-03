@@ -1,0 +1,319 @@
+
+----------------------------------
+original sentence: 
+Expecting reduced volatility in Potash NYSE: POT | ONN.tv
+The OptionsHouse Angle
+Time to Target Price:
+Show Potential Trades
+ Stocks vs. Options: Which generates better returns?
+
+POS tagged sentence: 
+[('Expecting', 'VBG'), ('reduced', 'VBN'), ('volatility', 'NN'), ('in', 'IN'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('|', ':'), ('ONN.tv', 'NN'), ('The', 'DT'), ('OptionsHouse', 'NNP'), ('Angle', 'NNP'), ('Time', 'NNP'), ('to', 'TO'), ('Target', 'NNP'), ('Price', 'NNP'), (':', ':'), ('Show', 'NNP'), ('Potential', 'NNP'), ('Trades', 'NNP'), ('Stocks', 'NNP'), ('vs.', 'NNP'), ('Options', 'NNPS'), (':', ':'), ('Which', 'NNP'), ('generates', 'VBZ'), ('better', 'JJR'), ('returns', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Expecting/VBG   reduced/VBN   volatility/NN   in/IN   (GPE Potash/NNP)   NYSE/NNP   :/:   POT/NNP   |/:   ONN.tv/NN   The/DT   (ORGANIZATION OptionsHouse/NNP Angle/NNP)   Time/NNP   to/TO   (PERSON Target/NNP Price/NNP)   :/:   (PERSON Show/NNP Potential/NNP Trades/NNP Stocks/NNP)   vs./NNP   Options/NNPS   :/:   (PERSON Which/NNP)   generates/VBZ   better/JJR   returns/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   Expecting/VBG   reduced/VBN   volatility/NN   in/IN   Potash/NNP   NYSE/NNP)
+
+tagged sentence:
+	 Expecting reduced volatility in Potash NYSE	res:1
+	(VERB generates/VBZ better/JJR returns/NNS)
+noun phrases to consider:
+	(NOUN POT/NNP)
+	(NOUN ONN.tv/NN)
+	(NOUN OptionsHouse/NNP Angle/NNP Time/NNP)
+	(NOUN Target/NNP Price/NNP)
+	(NOUN Show/NNP Potential/NNP Trades/NNP Stocks/NNP)
+	(NOUN vs./NNP Options/NNPS)
+	(NOUN Which/NNP)
+
+----------------------------------
+original sentence: 
+Plug in your stock idea to find options trades offering a potentially better ROI.
+
+POS tagged sentence: 
+[('Plug', 'NNP'), ('in', 'IN'), ('your', 'PRP$'), ('stock', 'NN'), ('idea', 'NN'), ('to', 'TO'), ('find', 'VB'), ('options', 'NNS'), ('trades', 'NNS'), ('offering', 'VBG'), ('a', 'DT'), ('potentially', 'RB'), ('better', 'RBR'), ('ROI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Plug/NNP)   in/IN   your/PRP$   stock/NN   idea/NN   to/TO   find/VB   options/NNS   trades/NNS   offering/VBG   a/DT   potentially/RB   better/RBR   (ORGANIZATION ROI/NNP)   ./.)
+----------------------------------
+original sentence: 
+Learn more about the OptionFinder
+ Enter a stock ticker symbol above  to find charts, news, and analysis.
+
+POS tagged sentence: 
+[('Learn', 'NNP'), ('more', 'RBR'), ('about', 'IN'), ('the', 'DT'), ('OptionFinder', 'NNP'), ('Enter', 'NNP'), ('a', 'DT'), ('stock', 'NN'), ('ticker', 'NN'), ('symbol', 'NN'), ('above', 'IN'), ('to', 'TO'), ('find', 'VB'), ('charts', 'NNS'), (',', ','), ('news', 'NN'), (',', ','), ('and', 'CC'), ('analysis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Learn/NNP)   more/RBR   about/IN   the/DT   (ORGANIZATION OptionFinder/NNP)   Enter/NNP   a/DT   stock/NN   ticker/NN   symbol/NN   above/IN   to/TO   find/VB   charts/NNS   ,/,   news/NN   ,/,   and/CC   analysis/NN   ./.)
+----------------------------------
+original sentence: 
+This box will populate with tickers you recently viewed by using the &quot;Get Quotes&quot; search box at the top of the page.
+
+POS tagged sentence: 
+[('This', 'DT'), ('box', 'NN'), ('will', 'MD'), ('populate', 'VB'), ('with', 'IN'), ('tickers', 'NNS'), ('you', 'PRP'), ('recently', 'RB'), ('viewed', 'VBD'), ('by', 'IN'), ('using', 'NN'), ('the', 'DT'), ('&quot', 'JJ'), (';', ':'), ('Get', 'NNP'), ('Quotes&quot', 'NNP'), (';', ':'), ('search', 'NN'), ('box', 'NN'), ('at', 'IN'), ('the', 'DT'), ('top', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('page', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   box/NN   will/MD   populate/VB   with/IN   tickers/NNS   you/PRP   recently/RB   viewed/VBD   by/IN   using/NN   the/DT   &quot/JJ   ;/:   (PERSON Get/NNP Quotes&quot/NNP)   ;/:   search/NN   box/NN   at/IN   the/DT   top/JJ   of/IN   the/DT   page/NN   ./.)
+----------------------------------
+original sentence: 
+VIX  Dow DJX  Nasdaq NDX  S&P; 500 SPX 5 Ways That Options Can Make You a Better Stock Trader
+ NEW TO OPTIONS?
+
+POS tagged sentence: 
+[('VIX', 'NNP'), ('Dow', 'NNP'), ('DJX', 'NNP'), ('Nasdaq', 'NNP'), ('NDX', 'NNP'), ('S&P', 'NNP'), (';', ':'), ('500', 'CD'), ('SPX', 'NNP'), ('5', 'CD'), ('Ways', 'NNS'), ('That', 'WDT'), ('Options', 'NNS'), ('Can', 'MD'), ('Make', 'VB'), ('You', 'PRP'), ('a', 'DT'), ('Better', 'NNP'), ('Stock', 'NNP'), ('Trader', 'NNP'), ('NEW', 'NNP'), ('TO', 'NNP'), ('OPTIONS', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION VIX/NNP Dow/NNP)   DJX/NNP   (PERSON Nasdaq/NNP NDX/NNP)   S&P/NNP   ;/:   500/CD   SPX/NNP   5/CD   Ways/NNS   That/WDT   Options/NNS   Can/MD   Make/VB   You/PRP   a/DT   (ORGANIZATION Better/NNP Stock/NNP)   Trader/NNP   NEW/NNP   TO/NNP   OPTIONS/NNP   ?/.)
+----------------------------------
+original sentence: 
+Visit our New to Options page to learn more.
+
+POS tagged sentence: 
+[('Visit', 'NN'), ('our', 'PRP$'), ('New', 'NNP'), ('to', 'TO'), ('Options', 'NNS'), ('page', 'NN'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Visit/NN)   our/PRP$   (GPE New/NNP)   to/TO   Options/NNS   page/NN   to/TO   learn/VB   more/JJR   ./.)
+----------------------------------
+original sentence: 
+Find out more &raquo;
+Expecting reduced volatility in Potash NYSE: POT Potash Corp. of Saskatchewan NYSE: POT sees long term call spread action  by Potash Corp. of Saskatchewan NYSE:  shares were little changed yesterday, losing 51 cents, or less than half of one percent.
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('out', 'IN'), ('more', 'JJR'), ('&raquo', 'JJ'), (';', ':'), ('Expecting', 'NNP'), ('reduced', 'VBD'), ('volatility', 'NN'), ('in', 'IN'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('sees', 'NNS'), ('long', 'RB'), ('term', 'JJ'), ('call', 'NN'), ('spread', 'NN'), ('action', 'NN'), ('by', 'IN'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('shares', 'NNS'), ('were', 'VBD'), ('little', 'RB'), ('changed', 'VBN'), ('yesterday', 'NN'), (',', ','), ('losing', 'VBG'), ('51', 'CD'), ('cents', 'NNS'), (',', ','), ('or', 'CC'), ('less', 'JJR'), ('than', 'IN'), ('half', 'PDT'), ('of', 'IN'), ('one', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Find/NNP)   out/IN   more/JJR   &raquo/JJ   ;/:   Expecting/NNP   reduced/VBD   volatility/NN   in/IN   (GPE Potash/NNP)   NYSE/NNP   :/:   (ORGANIZATION POT/NNP Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   NYSE/NNP   :/:   POT/NNP   sees/NNS   long/RB   term/JJ   call/NN   spread/NN   action/NN   by/IN   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   NYSE/NNP   :/:   shares/NNS   were/VBD   little/RB   changed/VBN   yesterday/NN   ,/,   losing/VBG   51/CD   cents/NNS   ,/,   or/CC   less/JJR   than/IN   half/PDT   of/IN   one/CD   percent/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reduced/VBD volatility/NN in/IN Potash/NNP NYSE/NNP)
+
+tagged sentence:
+	 reduced volatility in Potash NYSE	res:1
+	(VERB were/VBD little/RB changed/VBN yesterday/NN)
+	(VERB losing/VBG 51/CD cents/NNS)
+noun phrases to consider:
+	(NOUN Find/NNP)
+	(NOUN more/JJR &raquo/JJ)
+	(NOUN Expecting/NNP)
+	(NOUN POT/NNP Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP sees/NNS)
+	(NOUN long/RB term/JJ call/NN spread/NN action/NN)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP NYSE/NNP)
+	(NOUN shares/NNS)
+	(NOUN less/JJR)
+	(NOUN one/CD percent/NN)
+
+----------------------------------
+original sentence: 
+But this lack of excitement is exactly what some options players are hoping for, and inspired a large ratio call spread in the shares.
+
+POS tagged sentence: 
+[('But', 'CC'), ('this', 'DT'), ('lack', 'NN'), ('of', 'IN'), ('excitement', 'NN'), ('is', 'VBZ'), ('exactly', 'RB'), ('what', 'WP'), ('some', 'DT'), ('options', 'NNS'), ('players', 'NNS'), ('are', 'VBP'), ('hoping', 'VBG'), ('for', 'IN'), (',', ','), ('and', 'CC'), ('inspired', 'VBD'), ('a', 'DT'), ('large', 'JJ'), ('ratio', 'NN'), ('call', 'NN'), ('spread', 'NN'), ('in', 'IN'), ('the', 'DT'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   this/DT   lack/NN   of/IN   excitement/NN   is/VBZ   exactly/RB   what/WP   some/DT   options/NNS   players/NNS   are/VBP   hoping/VBG   for/IN   ,/,   and/CC   inspired/VBD   a/DT   large/JJ   ratio/NN   call/NN   spread/NN   in/IN   the/DT   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+Around noon Eastern Time on Tuesday, an options trader bought 3,500 of the January 2012 140 calls for $15.35 per contract and sold 5,000 January 160 calls for $9.55 each.
+
+POS tagged sentence: 
+[('Around', 'IN'), ('noon', 'NN'), ('Eastern', 'NNP'), ('Time', 'NNP'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('an', 'DT'), ('options', 'NNS'), ('trader', 'NN'), ('bought', 'VBD'), ('3,500', 'CD'), ('of', 'IN'), ('the', 'DT'), ('January', 'NNP'), ('2012', 'CD'), ('140', 'CD'), ('calls', 'NNS'), ('for', 'IN'), ('$', '$'), ('15.35', 'CD'), ('per', 'IN'), ('contract', 'NN'), ('and', 'CC'), ('sold', 'VBD'), ('5,000', 'CD'), ('January', 'NNP'), ('160', 'CD'), ('calls', 'NNS'), ('for', 'IN'), ('$', '$'), ('9.55', 'CD'), ('each', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Around/IN   noon/NN   (LOCATION Eastern/NNP Time/NNP)   on/IN   Tuesday/NNP   ,/,   an/DT   options/NNS   trader/NN   bought/VBD   3,500/CD   of/IN   the/DT   January/NNP   2012/CD   140/CD   calls/NNS   for/IN   $/$   15.35/CD   per/IN   contract/NN   and/CC   sold/VBD   5,000/CD   January/NNP   160/CD   calls/NNS   for/IN   $/$   9.55/CD   each/DT   ./.)
+----------------------------------
+original sentence: 
+In terms of total premium, the trader paid $5.372 million for the 140 strike calls and collected $4.775 million for the 160 strike positions, resulting in an overall net debit of roughly $600,000.
+
+POS tagged sentence: 
+[('In', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('total', 'JJ'), ('premium', 'NN'), (',', ','), ('the', 'DT'), ('trader', 'NN'), ('paid', 'VBD'), ('$', '$'), ('5.372', 'CD'), ('million', 'CD'), ('for', 'IN'), ('the', 'DT'), ('140', 'CD'), ('strike', 'NN'), ('calls', 'NNS'), ('and', 'CC'), ('collected', 'VBD'), ('$', '$'), ('4.775', 'CD'), ('million', 'CD'), ('for', 'IN'), ('the', 'DT'), ('160', 'CD'), ('strike', 'NN'), ('positions', 'NNS'), (',', ','), ('resulting', 'VBG'), ('in', 'IN'), ('an', 'DT'), ('overall', 'JJ'), ('net', 'NN'), ('debit', 'NN'), ('of', 'IN'), ('roughly', 'RB'), ('$', '$'), ('600,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   terms/NNS   of/IN   total/JJ   premium/NN   ,/,   the/DT   trader/NN   paid/VBD   $/$   5.372/CD   million/CD   for/IN   the/DT   140/CD   strike/NN   calls/NNS   and/CC   collected/VBD   $/$   4.775/CD   million/CD   for/IN   the/DT   160/CD   strike/NN   positions/NNS   ,/,   resulting/VBG   in/IN   an/DT   overall/JJ   net/NN   debit/NN   of/IN   roughly/RB   $/$   600,000/CD   ./.)
+----------------------------------
+original sentence: 
+Typically when we show profit/loss diagrams
+, they are snapshots at expiration how the maximum profit, loss and breakeven shake out when the option expires .
+
+POS tagged sentence: 
+[('Typically', 'RB'), ('when', 'WRB'), ('we', 'PRP'), ('show', 'VBP'), ('profit/loss', 'JJ'), ('diagrams', 'NNS'), (',', ','), ('they', 'PRP'), ('are', 'VBP'), ('snapshots', 'NNS'), ('at', 'IN'), ('expiration', 'NN'), ('how', 'WRB'), ('the', 'DT'), ('maximum', 'NN'), ('profit', 'NN'), (',', ','), ('loss', 'NN'), ('and', 'CC'), ('breakeven', 'RB'), ('shake', 'VB'), ('out', 'RP'), ('when', 'WRB'), ('the', 'DT'), ('option', 'NN'), ('expires', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Typically/RB   when/WRB   we/PRP   show/VBP   profit/loss/JJ   diagrams/NNS   ,/,   they/PRP   are/VBP   snapshots/NNS   at/IN   expiration/NN   how/WRB   the/DT   maximum/NN   profit/NN   ,/,   loss/NN   and/CC   breakeven/RB   shake/VB   out/RP   when/WRB   the/DT   option/NN   expires/NNS   ./.)
+----------------------------------
+original sentence: 
+But because these options expire in two years and are out of the money by a decent margin, it isn&#8217;t very likely that yesterday&#8217;s investor is planning on holding on to them for the duration.
+
+POS tagged sentence: 
+[('But', 'CC'), ('because', 'IN'), ('these', 'DT'), ('options', 'NNS'), ('expire', 'VBP'), ('in', 'IN'), ('two', 'CD'), ('years', 'NNS'), ('and', 'CC'), ('are', 'VBP'), ('out', 'RP'), ('of', 'IN'), ('the', 'DT'), ('money', 'NN'), ('by', 'IN'), ('a', 'DT'), ('decent', 'NN'), ('margin', 'NN'), (',', ','), ('it', 'PRP'), ('isn&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('very', 'RB'), ('likely', 'JJ'), ('that', 'IN'), ('yesterday&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('investor', 'NN'), ('is', 'VBZ'), ('planning', 'VBG'), ('on', 'IN'), ('holding', 'VBG'), ('on', 'IN'), ('to', 'TO'), ('them', 'PRP'), ('for', 'IN'), ('the', 'DT'), ('duration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   because/IN   these/DT   options/NNS   expire/VBP   in/IN   two/CD   years/NNS   and/CC   are/VBP   out/RP   of/IN   the/DT   money/NN   by/IN   a/DT   decent/NN   margin/NN   ,/,   it/PRP   isn&/-NONE-   #/#   8217/CD   ;/:   t/NN   very/RB   likely/JJ   that/IN   yesterday&/JJ   #/#   8217/CD   ;/:   s/NNS   investor/NN   is/VBZ   planning/VBG   on/IN   holding/VBG   on/IN   to/TO   them/PRP   for/IN   the/DT   duration/NN   ./.)
+----------------------------------
+original sentence: 
+Below is a snapshot of the entire results of a profit/loss screen from my virtual trading account.
+
+POS tagged sentence: 
+[('Below', 'IN'), ('is', 'VBZ'), ('a', 'DT'), ('snapshot', 'NN'), ('of', 'IN'), ('the', 'DT'), ('entire', 'JJ'), ('results', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('profit/loss', 'JJ'), ('screen', 'NN'), ('from', 'IN'), ('my', 'PRP$'), ('virtual', 'JJ'), ('trading', 'NN'), ('account', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Below/IN   is/VBZ   a/DT   snapshot/NN   of/IN   the/DT   entire/JJ   results/NNS   of/IN   a/DT   profit/loss/JJ   screen/NN   from/IN   my/PRP$   virtual/JJ   trading/NN   account/NN   ./.)
+----------------------------------
+original sentence: 
+The chart depicts the profit/loss of the trade on the day of purchase.
+
+POS tagged sentence: 
+[('The', 'DT'), ('chart', 'NN'), ('depicts', 'VBZ'), ('the', 'DT'), ('profit/loss', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('trade', 'NN'), ('on', 'IN'), ('the', 'DT'), ('day', 'NN'), ('of', 'IN'), ('purchase', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   chart/NN   depicts/VBZ   the/DT   profit/loss/JJ   of/IN   the/DT   trade/NN   on/IN   the/DT   day/NN   of/IN   purchase/NN   ./.)
+----------------------------------
+original sentence: 
+There are 682 days until expiration, and the trader needs some time to pass before becoming profitable.
+
+POS tagged sentence: 
+[('There', 'EX'), ('are', 'VBP'), ('682', 'CD'), ('days', 'NNS'), ('until', 'IN'), ('expiration', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('trader', 'NN'), ('needs', 'VBZ'), ('some', 'DT'), ('time', 'NN'), ('to', 'TO'), ('pass', 'VB'), ('before', 'IN'), ('becoming', 'VBG'), ('profitable', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   are/VBP   682/CD   days/NNS   until/IN   expiration/NN   ,/,   and/CC   the/DT   trader/NN   needs/VBZ   some/DT   time/NN   to/TO   pass/VB   before/IN   becoming/VBG   profitable/JJ   ./.)
+----------------------------------
+original sentence: 
+Click here to enlarge
+It is more likely that this is more of a volatility play than a directional one.
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('enlarge', 'VB'), ('It', 'PRP'), ('is', 'VBZ'), ('more', 'RBR'), ('likely', 'JJ'), ('that', 'IN'), ('this', 'DT'), ('is', 'VBZ'), ('more', 'RBR'), ('of', 'IN'), ('a', 'DT'), ('volatility', 'NN'), ('play', 'NN'), ('than', 'IN'), ('a', 'DT'), ('directional', 'JJ'), ('one', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Click/NNP)   here/RB   to/TO   enlarge/VB   It/PRP   is/VBZ   more/RBR   likely/JJ   that/IN   this/DT   is/VBZ   more/RBR   of/IN   a/DT   volatility/NN   play/NN   than/IN   a/DT   directional/JJ   one/CD   ./.)
+----------------------------------
+original sentence: 
+The disparate long and short positions make the delta effect very small i.e., the spread will be little changed on any move in POT shares themselves .
+
+POS tagged sentence: 
+[('The', 'DT'), ('disparate', 'NN'), ('long', 'RB'), ('and', 'CC'), ('short', 'JJ'), ('positions', 'NNS'), ('make', 'VBP'), ('the', 'DT'), ('delta', 'NN'), ('effect', 'NN'), ('very', 'RB'), ('small', 'JJ'), ('i.e.', 'NNP'), (',', ','), ('the', 'DT'), ('spread', 'NN'), ('will', 'MD'), ('be', 'VB'), ('little', 'RB'), ('changed', 'VBN'), ('on', 'IN'), ('any', 'DT'), ('move', 'NN'), ('in', 'IN'), ('POT', 'NNP'), ('shares', 'NNS'), ('themselves', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   disparate/NN   long/RB   and/CC   short/JJ   positions/NNS   make/VBP   the/DT   delta/NN   effect/NN   very/RB   small/JJ   i.e./NNP   ,/,   the/DT   spread/NN   will/MD   be/VB   little/RB   changed/VBN   on/IN   any/DT   move/NN   in/IN   (ORGANIZATION POT/NNP)   shares/NNS   themselves/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB make/VBP the/DT delta/NN effect/NN very/RB small/JJ i.e./NNP)
+	(VERB   be/VB   little/RB   changed/VBN   on/IN   any/DT   move/NN   in/IN   POT/NNP   shares/NNS   themselves/PRP)
+noun phrases to consider:
+	(NOUN disparate/NN)
+	(NOUN short/JJ positions/NNS)
+	(NOUN spread/NN)
+
+----------------------------------
+original sentence: 
+The vega effect, however, is notable.
+
+POS tagged sentence: 
+[('The', 'DT'), ('vega', 'NN'), ('effect', 'NN'), (',', ','), ('however', 'RB'), (',', ','), ('is', 'VBZ'), ('notable', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT vega/NN effect/NN ,/, however/RB ,/, is/VBZ notable/JJ ./.)
+----------------------------------
+original sentence: 
+At current levels, this position&#8217;s value â€“ all other things held equal â€“ will change by $70,000 for every one point drop in implied volatility.
+
+POS tagged sentence: 
+[('At', 'IN'), ('current', 'JJ'), ('levels', 'NNS'), (',', ','), ('this', 'DT'), ('position&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('value', 'VBP'), ('\xe2', ':'), ('\x80', ':'), ('\x93', ':'), ('all', 'DT'), ('other', 'JJ'), ('things', 'NNS'), ('held', 'VBD'), ('equal', 'JJ'), ('\xe2', 'NN'), ('\x80', ':'), ('\x93', ':'), ('will', 'MD'), ('change', 'VB'), ('by', 'IN'), ('$', '$'), ('70,000', 'CD'), ('for', 'IN'), ('every', 'DT'), ('one', 'CD'), ('point', 'NN'), ('drop', 'NN'), ('in', 'IN'), ('implied', 'JJ'), ('volatility', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   current/JJ   levels/NNS   ,/,   this/DT   position&/NN   #/#   8217/CD   ;/:   s/NNS   value/VBP   â/:   €/:   “/:   all/DT   other/JJ   things/NNS   held/VBD   equal/JJ   â/NN   €/:   “/:   will/MD   change/VB   by/IN   $/$   70,000/CD   for/IN   every/DT   one/CD   point/NN   drop/NN   in/IN   implied/JJ   volatility/NN   ./.)
+----------------------------------
+original sentence: 
+Since early November, POT shares have been bouncing around between the 100 and 125 levels, but implied volatilities have been declining steadily since early February.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('early', 'JJ'), ('November', 'NNP'), (',', ','), ('POT', 'NNP'), ('shares', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('bouncing', 'VBG'), ('around', 'IN'), ('between', 'IN'), ('the', 'DT'), ('100', 'CD'), ('and', 'CC'), ('125', 'CD'), ('levels', 'NNS'), (',', ','), ('but', 'CC'), ('implied', 'VBD'), ('volatilities', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('declining', 'VBG'), ('steadily', 'RB'), ('since', 'IN'), ('early', 'JJ'), ('February', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   early/JJ   November/NNP   ,/,   (ORGANIZATION POT/NNP)   shares/NNS   have/VBP   been/VBN   bouncing/VBG   around/IN   between/IN   the/DT   100/CD   and/CC   125/CD   levels/NNS   ,/,   but/CC   implied/VBD   volatilities/NNS   have/VBP   been/VBN   declining/VBG   steadily/RB   since/IN   early/JJ   February/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   been/VBN   bouncing/VBG   around/IN   between/IN   the/DT   100/CD)
+	(VERB implied/VBD volatilities/NNS)
+	(VERB   have/VBP   been/VBN   declining/VBG   steadily/RB   since/IN   early/JJ   February/NNP)
+noun phrases to consider:
+	(NOUN early/JJ November/NNP)
+	(NOUN POT/NNP shares/NNS)
+	(NOUN 125/CD levels/NNS)
+
+----------------------------------
+original sentence: 
+If this trend continues, the ratio spread buyer should see positive results.
+
+POS tagged sentence: 
+[('If', 'IN'), ('this', 'DT'), ('trend', 'NN'), ('continues', 'VBZ'), (',', ','), ('the', 'DT'), ('ratio', 'NN'), ('spread', 'NN'), ('buyer', 'NN'), ('should', 'MD'), ('see', 'VB'), ('positive', 'JJ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   this/DT   trend/NN   continues/VBZ   ,/,   the/DT   ratio/NN   spread/NN   buyer/NN   should/MD   see/VB   positive/JJ   results/NNS   ./.)
+----------------------------------
+original sentence: 
+Potash Corp./Saskatchewan NYSE: POT iron condor  Limited downside in Potash NYSE: POT ?
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp./Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('iron', 'NN'), ('condor', 'NN'), ('Limited', 'NNP'), ('downside', 'NN'), ('in', 'IN'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   Corp./Saskatchewan/NNP   NYSE/NNP   :/:   POT/NNP   iron/NN   condor/NN   Limited/NNP   downside/NN   in/IN   (GPE Potash/NNP)   NYSE/NNP   :/:   POT/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Potash/NNP Corp./Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP iron/NN condor/NN Limited/NNP)
+
+tagged sentence:
+	 POT iron condor Limited	res:-1
+	(NOUN downside/NN)
+	(NOUN Potash/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+
+----------------------------------
+original sentence: 
+More in Need to Know Basis
+Traders prepare for a drop in Go...
+Are AIG and Citigroup on the men...
+Latest Trading Ideas
+OptionsHouse e Learn Webinar Series
+View All Webinars...
+ &copy; 2010 PEAK6 Media, LLC.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('in', 'IN'), ('Need', 'NNP'), ('to', 'TO'), ('Know', 'NNP'), ('Basis', 'NNP'), ('Traders', 'NNP'), ('prepare', 'NN'), ('for', 'IN'), ('a', 'DT'), ('drop', 'NN'), ('in', 'IN'), ('Go..', 'NNP'), ('.', '.'), ('Are', 'NNP'), ('AIG', 'NNP'), ('and', 'CC'), ('Citigroup', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('men..', 'NNP'), ('.', '.'), ('Latest', 'NNP'), ('Trading', 'NNP'), ('Ideas', 'NNP'), ('OptionsHouse', 'NNP'), ('e', 'NN'), ('Learn', 'NNP'), ('Webinar', 'NNP'), ('Series', 'NNP'), ('View', 'NNP'), ('All', 'NNP'), ('Webinars..', 'NNP'), ('.', '.'), ('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('PEAK6', 'NNP'), ('Media', 'NNP'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   in/IN   (GPE Need/NNP)   to/TO   (PERSON Know/NNP Basis/NNP Traders/NNP)   prepare/NN   for/IN   a/DT   drop/NN   in/IN   Go../NNP   ./.   (PERSON Are/NNP AIG/NNP)   and/CC   (PERSON Citigroup/NNP)   on/IN   the/DT   men../NNP   ./.   (PERSON Latest/NNP Trading/NNP Ideas/NNP)   OptionsHouse/NNP   e/NN   (PERSON Learn/NNP Webinar/NNP Series/NNP View/NNP All/NNP)   Webinars../NNP   ./.   &copy/JJ   ;/:   2010/CD   (ORGANIZATION PEAK6/NNP Media/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+All rights reserved
+ OptionsHouse, LLC is affiliated with  Options News Network through their parent company, PEAK6 Investments, L.P.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('OptionsHouse', 'NNP'), (',', ','), ('LLC', 'NNP'), ('is', 'VBZ'), ('affiliated', 'VBN'), ('with', 'IN'), ('Options', 'NNS'), ('News', 'NNS'), ('Network', 'NNP'), ('through', 'IN'), ('their', 'PRP$'), ('parent', 'NN'), ('company', 'NN'), (',', ','), ('PEAK6', 'NNP'), ('Investments', 'NNPS'), (',', ','), ('L.P', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   rights/NNS   reserved/VBN   (ORGANIZATION OptionsHouse/NNP)   ,/,   (ORGANIZATION LLC/NNP)   is/VBZ   affiliated/VBN   with/IN   (ORGANIZATION Options/NNS News/NNS Network/NNP)   through/IN   their/PRP$   parent/NN   company/NN   ,/,   (ORGANIZATION PEAK6/NNP Investments/NNPS)   ,/,   L.P/NNP   ./.)
+----------------------------------
+original sentence: 
+Brokerage services are offered through OptionsHouse, LLC.
+
+POS tagged sentence: 
+[('Brokerage', 'NN'), ('services', 'NNS'), ('are', 'VBP'), ('offered', 'VBN'), ('through', 'IN'), ('OptionsHouse', 'NNP'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Brokerage/NN)   services/NNS   are/VBP   offered/VBN   through/IN   (ORGANIZATION OptionsHouse/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+Please read Characteristics and Risks of Standardized Options
+, copies of which can also be obtained by contacting OptionsHouse Customer Service Department at customerservice@optionshouse.com
+
+
+POS tagged sentence: 
+[('Please', 'NN'), ('read', 'VBD'), ('Characteristics', 'NNP'), ('and', 'CC'), ('Risks', 'NNP'), ('of', 'IN'), ('Standardized', 'NNP'), ('Options', 'NNPS'), (',', ','), ('copies', 'NNS'), ('of', 'IN'), ('which', 'WDT'), ('can', 'MD'), ('also', 'RB'), ('be', 'VB'), ('obtained', 'VBN'), ('by', 'IN'), ('contacting', 'NN'), ('OptionsHouse', 'NNP'), ('Customer', 'NNP'), ('Service', 'NNP'), ('Department', 'NNP'), ('at', 'IN'), ('customerservice', 'NN'), ('@', ':'), ('optionshouse.com', 'JJ')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   read/VBD   (PERSON Characteristics/NNP)   and/CC   (PERSON Risks/NNP)   of/IN   (ORGANIZATION Standardized/NNP Options/NNPS)   ,/,   copies/NNS   of/IN   which/WDT   can/MD   also/RB   be/VB   obtained/VBN   by/IN   contacting/NN   (ORGANIZATION     OptionsHouse/NNP     Customer/NNP     Service/NNP     Department/NNP)   at/IN   customerservice/NN   @/:   optionshouse.com/JJ)
+
+veryneg:0	neg:1	pos:2	verypos:0	total:1

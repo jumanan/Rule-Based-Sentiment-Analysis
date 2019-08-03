@@ -1,0 +1,215 @@
+
+----------------------------------
+original sentence: 
+PR USA.net Kimberly Clark to Webcast Presentations and Q&A at Investor Meeting in New York City
+charset=iso 8859 1" /> "background="http://pr usa.net/templates/247extender/images/center3.jpg"> Friday, 23 April 2010
+ Advertisement  To publish a PR you need to  Kimberly Clark to Webcast Presentations and Q&A; at Investor Meeting in New York City  Kimberly Clark Corporation will host a meeting for the investment community and will webcast associated presentations on its progress on the key strategies, initiatives and financial objectives of its Global Business Plan, beginning at 8 a.m. EDT on Monday, March 22, in New York City.
+
+POS tagged sentence: 
+[('PR', 'NNP'), ('USA.net', 'JJ'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('to', 'TO'), ('Webcast', 'NNP'), ('Presentations', 'NNPS'), ('and', 'CC'), ('Q&A', 'NNP'), ('at', 'IN'), ('Investor', 'NNP'), ('Meeting', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('charset', 'NN'), ('=', ':'), ('iso', 'RB'), ('8859', 'CD'), ('1', 'CD'), ('"', 'CD'), ('/', 'CD'), ('>', 'CD'), ('"', 'CD'), ('background', 'NN'), ('=', ':'), ('"', ':'), ('http', 'NN'), (':', ':'), ('//pr', 'JJ'), ('usa.net/templates/247extender/images/center3.jpg', 'JJ'), ('"', 'NN'), ('>', ':'), ('Friday', 'NNP'), (',', ','), ('23', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('Advertisement', 'NNP'), ('To', 'NNP'), ('publish', 'VB'), ('a', 'DT'), ('PR', 'NNP'), ('you', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('to', 'TO'), ('Webcast', 'NNP'), ('Presentations', 'NNPS'), ('and', 'CC'), ('Q&A', 'NNP'), (';', ':'), ('at', 'IN'), ('Investor', 'NNP'), ('Meeting', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('Corporation', 'NNP'), ('will', 'MD'), ('host', 'VB'), ('a', 'DT'), ('meeting', 'NN'), ('for', 'IN'), ('the', 'DT'), ('investment', 'NN'), ('community', 'NN'), ('and', 'CC'), ('will', 'MD'), ('webcast', 'VB'), ('associated', 'VBN'), ('presentations', 'NNS'), ('on', 'IN'), ('its', 'PRP$'), ('progress', 'NN'), ('on', 'IN'), ('the', 'DT'), ('key', 'JJ'), ('strategies', 'NNS'), (',', ','), ('initiatives', 'NNS'), ('and', 'CC'), ('financial', 'JJ'), ('objectives', 'NNS'), ('of', 'IN'), ('its', 'PRP$'), ('Global', 'NNP'), ('Business', 'NNP'), ('Plan', 'NNP'), (',', ','), ('beginning', 'NN'), ('at', 'IN'), ('8', 'CD'), ('a.m.', 'NNP'), ('EDT', 'NNP'), ('on', 'IN'), ('Monday', 'NNP'), (',', ','), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   PR/NNP   USA.net/JJ   (PERSON Kimberly/NNP Clark/NNP)   to/TO   (GPE Webcast/NNP)   Presentations/NNPS   and/CC   Q&A/NNP   at/IN   (ORGANIZATION Investor/NNP Meeting/NNP)   in/IN   (GPE New/NNP York/NNP City/NNP)   charset/NN   =/:   iso/RB   8859/CD   1/CD   "/CD   //CD   >/CD   "/CD   background/NN   =/:   "/:   http/NN   :/:   //pr/JJ   usa.net/templates/247extender/images/center3.jpg/JJ   "/NN   >/:   Friday/NNP   ,/,   23/CD   April/NNP   2010/CD   Advertisement/NNP   To/NNP   publish/VB   a/DT   PR/NNP   you/PRP   need/VBP   to/TO   (PERSON Kimberly/NNP Clark/NNP)   to/TO   (GPE Webcast/NNP)   Presentations/NNPS   and/CC   Q&A/NNP   ;/:   at/IN   (ORGANIZATION Investor/NNP Meeting/NNP)   in/IN   (GPE New/NNP York/NNP City/NNP)   Kimberly/NNP   (PERSON Clark/NNP Corporation/NNP)   will/MD   host/VB   a/DT   meeting/NN   for/IN   the/DT   investment/NN   community/NN   and/CC   will/MD   webcast/VB   associated/VBN   presentations/NNS   on/IN   its/PRP$   progress/NN   on/IN   the/DT   key/JJ   strategies/NNS   ,/,   initiatives/NNS   and/CC   financial/JJ   objectives/NNS   of/IN   its/PRP$   Global/NNP   Business/NNP   Plan/NNP   ,/,   beginning/NN   at/IN   8/CD   a.m./NNP   EDT/NNP   on/IN   Monday/NNP   ,/,   March/NNP   22/CD   ,/,   in/IN   (GPE New/NNP York/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB publish/VB a/DT PR/NNP you/PRP)
+	(VERB need/VBP to/TO Kimberly/NNP Clark/NNP)
+	(VERB   host/VB   a/DT   meeting/NN   for/IN   the/DT   investment/NN   community/NN)
+	(VERB   webcast/VB   associated/VBN   presentations/NNS   on/IN   its/PRP$   progress/NN   on/IN   the/DT   key/JJ   strategies/NNS)
+noun phrases to consider:
+	(NOUN PR/NNP USA.net/JJ Kimberly/NNP Clark/NNP)
+	(NOUN Webcast/NNP Presentations/NNPS)
+	(NOUN Q&A/NNP)
+	(NOUN Investor/NNP Meeting/NNP)
+	(NOUN New/NNP York/NNP City/NNP charset/NN)
+	(NOUN "/CD background/NN)
+	(NOUN http/NN)
+	(NOUN   //pr/JJ   usa.net/templates/247extender/images/center3.jpg/JJ   "/NN)
+	(NOUN Friday/NNP)
+	(NOUN 23/CD April/NNP)
+	(NOUN 2010/CD Advertisement/NNP To/NNP)
+	(NOUN Webcast/NNP Presentations/NNPS)
+	(NOUN Q&A/NNP)
+	(NOUN Investor/NNP Meeting/NNP)
+	(NOUN New/NNP York/NNP City/NNP Kimberly/NNP)
+	(NOUN Clark/NNP Corporation/NNP)
+	(NOUN initiatives/NNS)
+	(NOUN financial/JJ objectives/NNS)
+	(NOUN Global/NNP Business/NNP Plan/NNP)
+	(NOUN beginning/NN)
+	(NOUN 8/CD a.m./NNP EDT/NNP)
+	(NOUN Monday/NNP)
+	(NOUN March/NNP)
+	(NOUN New/NNP York/NNP City/NNP)
+
+----------------------------------
+original sentence: 
+Chairman and CEO Thomas J. Falk will be joined by members of K C's senior leadership team for these presentations and a question and answer period, which will continue until approximately 10:00 a.m.
+
+POS tagged sentence: 
+[('Chairman', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('Thomas', 'NNP'), ('J.', 'NNP'), ('Falk', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('joined', 'VBN'), ('by', 'IN'), ('members', 'NNS'), ('of', 'IN'), ('K', 'NNP'), ('C', 'NNP'), ("'s", 'POS'), ('senior', 'JJ'), ('leadership', 'NN'), ('team', 'NN'), ('for', 'IN'), ('these', 'DT'), ('presentations', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('question', 'NN'), ('and', 'CC'), ('answer', 'NN'), ('period', 'NN'), (',', ','), ('which', 'WDT'), ('will', 'MD'), ('continue', 'VB'), ('until', 'IN'), ('approximately', 'RB'), ('10', 'CD'), (':', ':'), ('00', 'CD'), ('a.m', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Chairman/NNP   and/CC   (ORGANIZATION CEO/NNP Thomas/NNP)   J./NNP   Falk/NNP   will/MD   be/VB   joined/VBN   by/IN   members/NNS   of/IN   (ORGANIZATION K/NNP)   C/NNP   's/POS   senior/JJ   leadership/NN   team/NN   for/IN   these/DT   presentations/NNS   and/CC   a/DT   question/NN   and/CC   answer/NN   period/NN   ,/,   which/WDT   will/MD   continue/VB   until/IN   approximately/RB   10/CD   :/:   00/CD   a.m/JJ   ./.)
+----------------------------------
+original sentence: 
+The company will subsequently host breakout sessions in which analysts and investors will meet with key Kimberly Clark business leaders in its North Atlantic Consumer Products, K C International, K C Professional and Health Care businesses.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('will', 'MD'), ('subsequently', 'RB'), ('host', 'VB'), ('breakout', 'IN'), ('sessions', 'NNS'), ('in', 'IN'), ('which', 'WDT'), ('analysts', 'NNS'), ('and', 'CC'), ('investors', 'NNS'), ('will', 'MD'), ('meet', 'VB'), ('with', 'IN'), ('key', 'JJ'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('business', 'NN'), ('leaders', 'NNS'), ('in', 'IN'), ('its', 'PRP$'), ('North', 'NNP'), ('Atlantic', 'NNP'), ('Consumer', 'NNP'), ('Products', 'NNPS'), (',', ','), ('K', 'NNP'), ('C', 'NNP'), ('International', 'NNP'), (',', ','), ('K', 'NNP'), ('C', 'NNP'), ('Professional', 'NNP'), ('and', 'CC'), ('Health', 'NNP'), ('Care', 'NNP'), ('businesses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   will/MD   subsequently/RB   host/VB   breakout/IN   sessions/NNS   in/IN   which/WDT   analysts/NNS   and/CC   investors/NNS   will/MD   meet/VB   with/IN   key/JJ   (PERSON Kimberly/NNP Clark/NNP)   business/NN   leaders/NNS   in/IN   its/PRP$   (GPE North/NNP)   Atlantic/NNP   Consumer/NNP   Products/NNPS   ,/,   (ORGANIZATION K/NNP)   C/NNP   International/NNP   ,/,   (ORGANIZATION K/NNP)   C/NNP   Professional/NNP   and/CC   (PERSON Health/NNP Care/NNP)   businesses/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB host/VB breakout/IN sessions/NNS in/IN)
+	(VERB   meet/VB   with/IN   key/JJ   Kimberly/NNP   Clark/NNP   business/NN   leaders/NNS   in/IN   its/PRP$   North/NNP   Atlantic/NNP   Consumer/NNP   Products/NNPS)
+
+tagged sentence:
+	 meet with key Kimberly Clark business leaders in its North Atlantic Consumer Products	res:1
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN analysts/NNS)
+	(NOUN investors/NNS)
+	(NOUN K/NNP C/NNP International/NNP)
+	(NOUN K/NNP C/NNP Professional/NNP)
+	(NOUN Health/NNP Care/NNP businesses/NNS)
+
+----------------------------------
+original sentence: 
+These sessions will not be webcast.
+
+POS tagged sentence: 
+[('These', 'DT'), ('sessions', 'NNS'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('webcast', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S These/DT sessions/NNS will/MD not/RB be/VB webcast/VBN ./.)
+----------------------------------
+original sentence: 
+A link to the broadcast and related presentation slides will be provided through the Investors section of Kimberly Clark's Web site at www.kimberly clark.com.
+
+POS tagged sentence: 
+[('A', 'DT'), ('link', 'NN'), ('to', 'TO'), ('the', 'DT'), ('broadcast', 'NN'), ('and', 'CC'), ('related', 'JJ'), ('presentation', 'NN'), ('slides', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('provided', 'VBN'), ('through', 'IN'), ('the', 'DT'), ('Investors', 'NNPS'), ('section', 'NN'), ('of', 'IN'), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ("'s", 'POS'), ('Web', 'NNP'), ('site', 'NN'), ('at', 'IN'), ('www.kimberly', 'JJ'), ('clark.com', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   link/NN   to/TO   the/DT   broadcast/NN   and/CC   related/JJ   presentation/NN   slides/NNS   will/MD   be/VB   provided/VBN   through/IN   the/DT   (ORGANIZATION Investors/NNPS)   section/NN   of/IN   (PERSON Kimberly/NNP Clark/NNP)   's/POS   Web/NNP   site/NN   at/IN   www.kimberly/JJ   clark.com/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   be/VB   provided/VBN   through/IN   the/DT   Investors/NNPS   section/NN   of/IN   Kimberly/NNP   Clark/NNP)
+noun phrases to consider:
+	(NOUN link/NN)
+	(NOUN broadcast/NN)
+	(NOUN related/JJ presentation/NN slides/NNS)
+	(NOUN Web/NNP site/NN)
+	(NOUN www.kimberly/JJ clark.com/NN)
+
+----------------------------------
+original sentence: 
+The webcast will be available for replay for a period of approximately three weeks through the link provided on the website.
+
+POS tagged sentence: 
+[('The', 'DT'), ('webcast', 'NN'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('for', 'IN'), ('replay', 'NN'), ('for', 'IN'), ('a', 'DT'), ('period', 'NN'), ('of', 'IN'), ('approximately', 'RB'), ('three', 'CD'), ('weeks', 'NNS'), ('through', 'IN'), ('the', 'DT'), ('link', 'NN'), ('provided', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('website', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   webcast/NN   will/MD   be/VB   available/JJ   for/IN   replay/NN   for/IN   a/DT   period/NN   of/IN   approximately/RB   three/CD   weeks/NNS   through/IN   the/DT   link/NN   provided/VBD   on/IN   the/DT   website/JJ   ./.)
+----------------------------------
+original sentence: 
+Kimberly Clark and its well known global brands are an indispensable part of life for people in more than 150 countries.
+
+POS tagged sentence: 
+[('Kimberly', 'RB'), ('Clark', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('well', 'NN'), ('known', 'VBN'), ('global', 'JJ'), ('brands', 'NNS'), ('are', 'VBP'), ('an', 'DT'), ('indispensable', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('life', 'NN'), ('for', 'IN'), ('people', 'NNS'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('150', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Kimberly/RB   (PERSON Clark/NNP)   and/CC   its/PRP$   well/NN   known/VBN   global/JJ   brands/NNS   are/VBP   an/DT   indispensable/JJ   part/NN   of/IN   life/NN   for/IN   people/NNS   in/IN   more/JJR   than/IN   150/CD   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB known/VBN global/JJ brands/NNS)
+	(VERB   are/VBP   an/DT   indispensable/JJ   part/NN   of/IN   life/NN   for/IN   people/NNS   in/IN   more/JJR   than/IN   150/CD   countries/NNS)
+noun phrases to consider:
+	(NOUN Clark/NNP)
+	(NOUN well/NN)
+
+----------------------------------
+original sentence: 
+Every day, 1.3 billion people nearly a quarter of the world's population trust K C brands and the solutions they provide to enhance their health, hygiene and well being.
+
+POS tagged sentence: 
+[('Every', 'DT'), ('day', 'NN'), (',', ','), ('1.3', 'CD'), ('billion', 'CD'), ('people', 'NNS'), ('nearly', 'RB'), ('a', 'DT'), ('quarter', 'NN'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('population', 'NN'), ('trust', 'NN'), ('K', 'NNP'), ('C', 'NNP'), ('brands', 'VBZ'), ('and', 'CC'), ('the', 'DT'), ('solutions', 'NNS'), ('they', 'PRP'), ('provide', 'VBP'), ('to', 'TO'), ('enhance', 'NN'), ('their', 'PRP$'), ('health', 'NN'), (',', ','), ('hygiene', 'NN'), ('and', 'CC'), ('well', 'RB'), ('being', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Every/DT   day/NN   ,/,   1.3/CD   billion/CD   people/NNS   nearly/RB   a/DT   quarter/NN   of/IN   the/DT   world/NN   's/POS   population/NN   trust/NN   K/NNP   C/NNP   brands/VBZ   and/CC   the/DT   solutions/NNS   they/PRP   provide/VBP   to/TO   enhance/NN   their/PRP$   health/NN   ,/,   hygiene/NN   and/CC   well/RB   being/VBG   ./.)
+----------------------------------
+original sentence: 
+With brands such as Kleenex, Scott, Huggies, Pull Ups, Kotex and Depend, Kimberly Clark holds the No.
+
+POS tagged sentence: 
+[('With', 'IN'), ('brands', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Kleenex', 'NNP'), (',', ','), ('Scott', 'NNP'), (',', ','), ('Huggies', 'NNP'), (',', ','), ('Pull', 'NNP'), ('Ups', 'NNP'), (',', ','), ('Kotex', 'NNP'), ('and', 'CC'), ('Depend', 'NNP'), (',', ','), ('Kimberly', 'NNP'), ('Clark', 'NNP'), ('holds', 'VBZ'), ('the', 'DT'), ('No', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   brands/NNS   such/JJ   as/IN   (PERSON Kleenex/NNP)   ,/,   (PERSON Scott/NNP)   ,/,   (PERSON Huggies/NNP)   ,/,   (PERSON Pull/NNP Ups/NNP)   ,/,   (PERSON Kotex/NNP)   and/CC   (GPE Depend/NNP)   ,/,   (PERSON Kimberly/NNP Clark/NNP)   holds/VBZ   the/DT   (ORGANIZATION No/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB holds/VBZ the/DT No/NNP)
+noun phrases to consider:
+	(NOUN brands/NNS such/JJ)
+	(NOUN Kleenex/NNP)
+	(NOUN Scott/NNP)
+	(NOUN Huggies/NNP)
+	(NOUN Pull/NNP Ups/NNP)
+	(NOUN Kotex/NNP)
+	(NOUN Depend/NNP)
+	(NOUN Kimberly/NNP Clark/NNP)
+
+----------------------------------
+original sentence: 
+1 or No.
+
+POS tagged sentence: 
+[('1', 'LS'), ('or', 'CC'), ('No', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S 1/LS or/CC No/DT ./.)
+----------------------------------
+original sentence: 
+2 share position in more than 80 countries.
+
+POS tagged sentence: 
+[('2', 'LS'), ('share', 'NN'), ('position', 'NN'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('80', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   2/LS   share/NN   position/NN   in/IN   more/JJR   than/IN   80/CD   countries/NNS   ./.)
+----------------------------------
+original sentence: 
+To keep up with the latest K C news and to learn more about the company's 138 year history of innovation, visit www.kimberly clark.com.
+
+POS tagged sentence: 
+[('To', 'TO'), ('keep', 'VB'), ('up', 'RP'), ('with', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('K', 'NNP'), ('C', 'NNP'), ('news', 'NN'), ('and', 'CC'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('138', 'CD'), ('year', 'NN'), ('history', 'NN'), ('of', 'IN'), ('innovation', 'NN'), (',', ','), ('visit', 'NN'), ('www.kimberly', 'RB'), ('clark.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   keep/VB   up/RP   with/IN   the/DT   latest/JJS   K/NNP   C/NNP   news/NN   and/CC   to/TO   learn/VB   more/JJR   about/IN   the/DT   company/NN   's/POS   138/CD   year/NN   history/NN   of/IN   innovation/NN   ,/,   visit/NN   www.kimberly/RB   clark.com/JJ   ./.)
+----------------------------------
+original sentence: 
+New Content  Advertisement Site Value $8 million... :  &copy; 2010 PR USA.net
+ Joomla!
+
+POS tagged sentence: 
+[('New', 'NNP'), ('Content', 'NNP'), ('Advertisement', 'NNP'), ('Site', 'NNP'), ('Value', 'NNP'), ('$', '$'), ('8', 'CD'), ('million...', 'NNP'), (':', ':'), ('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('PR', 'NNP'), ('USA.net', 'JJ'), ('Joomla', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP)   Content/NNP   Advertisement/NNP   Site/NNP   Value/NNP   $/$   8/CD   million.../NNP   :/:   &copy/JJ   ;/:   2010/CD   PR/NNP   USA.net/JJ   Joomla/NNP   !/.)
+----------------------------------
+original sentence: 
+is Free Software released under the GNU/GPL License.
+
+POS tagged sentence: 
+[('is', 'VBZ'), ('Free', 'NNP'), ('Software', 'NNP'), ('released', 'VBD'), ('under', 'IN'), ('the', 'DT'), ('GNU/GPL', 'JJ'), ('License', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   is/VBZ   (PERSON Free/NNP Software/NNP)   released/VBD   under/IN   the/DT   GNU/GPL/JJ   License/NNP   ./.)
+----------------------------------
+original sentence: 
+Design by Mamboteam.com | Powered by Mambobanner.de Online Credit Report
+
+
+POS tagged sentence: 
+[('Design', 'NNP'), ('by', 'IN'), ('Mamboteam.com', 'NNP'), ('|', 'NNP'), ('Powered', 'NNP'), ('by', 'IN'), ('Mambobanner.de', 'JJ'), ('Online', 'NNP'), ('Credit', 'NNP'), ('Report', 'NNP')]
+
+
+ERTAGGED sentence: (S   Design/NNP   by/IN   Mamboteam.com/NNP   |/NNP   Powered/NNP   by/IN   Mambobanner.de/JJ   (PERSON Online/NNP Credit/NNP Report/NNP))
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

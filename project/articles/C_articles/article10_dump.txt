@@ -1,0 +1,575 @@
+
+----------------------------------
+original sentence: 
+Will Federal Reserve Policies Cause Inflation?
+
+POS tagged sentence: 
+[('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Cause', 'NNP'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Will/NNP)   (ORGANIZATION Federal/NNP Reserve/NNP)   Policies/NNP   Cause/NNP   Inflation/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Cause/NNP Inflation/NNP)
+
+----------------------------------
+original sentence: 
+Investing Stocks SmartMoney.com
+Friday April 23, 2010 BUILD YOUR LIFE PLAN: Get control of your finances with our interactive planner.
+
+POS tagged sentence: 
+[('Investing', 'VBG'), ('Stocks', 'NNS'), ('SmartMoney.com', '-NONE-'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('BUILD', 'NNP'), ('YOUR', 'NNP'), ('LIFE', 'NNP'), ('PLAN', 'NNP'), (':', ':'), ('Get', 'NNP'), ('control', 'NN'), ('of', 'IN'), ('your', 'PRP$'), ('finances', 'NNS'), ('with', 'IN'), ('our', 'PRP$'), ('interactive', 'JJ'), ('planner', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investing/VBG   Stocks/NNS   SmartMoney.com/-NONE-   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   (ORGANIZATION BUILD/NNP)   YOUR/NNP   LIFE/NNP   PLAN/NNP   :/:   Get/NNP   control/NN   of/IN   your/PRP$   finances/NNS   with/IN   our/PRP$   interactive/JJ   planner/NN   ./.)
+----------------------------------
+original sentence: 
+Published April 6, 2010 | by  Will Federal Reserve Policies Cause Inflation?
+
+POS tagged sentence: 
+[('Published', 'JJ'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('|', ':'), ('by', 'IN'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Cause', 'NNP'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Published/JJ   April/NNP   6/CD   ,/,   2010/CD   |/:   by/IN   (PERSON     Will/NNP     Federal/NNP     Reserve/NNP     Policies/NNP     Cause/NNP     Inflation/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Published/JJ April/NNP)
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Cause/NNP Inflation/NNP)
+
+----------------------------------
+original sentence: 
+Deflation is a Possibility, Too
+ Stocks in Asia closed mixed today, European shares are up, and U.S. shares are pointing to a lower open.
+
+POS tagged sentence: 
+[('Deflation', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('Possibility', 'NNP'), (',', ','), ('Too', 'NNP'), ('Stocks', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('closed', 'VBD'), ('mixed', 'VBN'), ('today', 'NN'), (',', ','), ('European', 'JJ'), ('shares', 'NNS'), ('are', 'VBP'), ('up', 'RB'), (',', ','), ('and', 'CC'), ('U.S.', 'NNP'), ('shares', 'NNS'), ('are', 'VBP'), ('pointing', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('lower', 'JJR'), ('open', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Deflation/NN)   is/VBZ   a/DT   Possibility/NNP   ,/,   (PERSON Too/NNP Stocks/NNP)   in/IN   (GPE Asia/NNP)   closed/VBD   mixed/VBN   today/NN   ,/,   (GPE European/JJ)   shares/NNS   are/VBP   up/RB   ,/,   and/CC   (GPE U.S./NNP)   shares/NNS   are/VBP   pointing/VBG   to/TO   a/DT   lower/JJR   open/JJ   ./.)
+----------------------------------
+original sentence: 
+As the Federal Reserve keeps interest rates around an all time low, a growing concern is whether inflation is around the corner.
+
+POS tagged sentence: 
+[('As', 'IN'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('keeps', 'VBZ'), ('interest', 'NN'), ('rates', 'NNS'), ('around', 'IN'), ('an', 'DT'), ('all', 'DT'), ('time', 'NN'), ('low', 'JJ'), (',', ','), ('a', 'DT'), ('growing', 'VBG'), ('concern', 'NN'), ('is', 'VBZ'), ('whether', 'IN'), ('inflation', 'NN'), ('is', 'VBZ'), ('around', 'IN'), ('the', 'DT'), ('corner', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   keeps/VBZ   interest/NN   rates/NNS   around/IN   an/DT   all/DT   time/NN   low/JJ   ,/,   a/DT   growing/VBG   concern/NN   is/VBZ   whether/IN   inflation/NN   is/VBZ   around/IN   the/DT   corner/NN   ./.)
+----------------------------------
+original sentence: 
+When the Federal Open Market Committee FOMC releases its minutes today at 2:00 p.m., it will shed light on the Federal Reserve&rsquo;s last meeting, and possibly the future of interest rates.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('the', 'DT'), ('Federal', 'NNP'), ('Open', 'NNP'), ('Market', 'NNP'), ('Committee', 'NNP'), ('FOMC', 'NNP'), ('releases', 'NNS'), ('its', 'PRP$'), ('minutes', 'NNS'), ('today', 'NN'), ('at', 'IN'), ('2', 'CD'), (':', ':'), ('00', 'CD'), ('p.m.', 'NN'), (',', ','), ('it', 'PRP'), ('will', 'MD'), ('shed', 'VB'), ('light', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('last', 'JJ'), ('meeting', 'NN'), (',', ','), ('and', 'CC'), ('possibly', 'RB'), ('the', 'DT'), ('future', 'NN'), ('of', 'IN'), ('interest', 'NN'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   the/DT   (ORGANIZATION Federal/NNP Open/NNP Market/NNP Committee/NNP)   FOMC/NNP   releases/NNS   its/PRP$   minutes/NNS   today/NN   at/IN   2/CD   :/:   00/CD   p.m./NN   ,/,   it/PRP   will/MD   shed/VB   light/JJ   on/IN   the/DT   (ORGANIZATION Federal/NNP)   Reserve&rsquo/NNP   ;/:   s/NNS   last/JJ   meeting/NN   ,/,   and/CC   possibly/RB   the/DT   future/NN   of/IN   interest/NN   rates/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB shed/VB light/JJ on/IN the/DT Federal/NNP Reserve&rsquo/NNP)
+noun phrases to consider:
+	(NOUN Federal/NNP Open/NNP Market/NNP Committee/NNP)
+	(NOUN FOMC/NNP releases/NNS)
+	(NOUN minutes/NNS today/NN)
+	(NOUN 00/CD p.m./NN)
+	(NOUN s/NNS last/JJ meeting/NN)
+	(NOUN future/NN)
+	(NOUN interest/NN rates/NNS)
+
+----------------------------------
+original sentence: 
+The key language that Wall Street will be looking for is whether the FOMC plans to keep the federal funds rate at &ldquo;exceptionally low levels&rdquo; for &ldquo;an extended period,&rdquo; as was mentioned in the Committee&rsquo;s last minutes from March 16.
+
+POS tagged sentence: 
+[('The', 'DT'), ('key', 'JJ'), ('language', 'NN'), ('that', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('looking', 'VBG'), ('for', 'IN'), ('is', 'VBZ'), ('whether', 'IN'), ('the', 'DT'), ('FOMC', 'NNP'), ('plans', 'VBZ'), ('to', 'TO'), ('keep', 'VB'), ('the', 'DT'), ('federal', 'JJ'), ('funds', 'NNS'), ('rate', 'NN'), ('at', 'IN'), ('&ldquo', 'NNP'), (';', ':'), ('exceptionally', 'RB'), ('low', 'JJ'), ('levels&rdquo', 'NN'), (';', ':'), ('for', 'IN'), ('&ldquo', 'JJ'), (';', ':'), ('an', 'DT'), ('extended', 'JJ'), ('period,&rdquo', 'NN'), (';', ':'), ('as', 'IN'), ('was', 'VBD'), ('mentioned', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('Committee&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('last', 'JJ'), ('minutes', 'NNS'), ('from', 'IN'), ('March', 'NNP'), ('16', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   key/JJ   language/NN   that/IN   (FACILITY Wall/NNP Street/NNP)   will/MD   be/VB   looking/VBG   for/IN   is/VBZ   whether/IN   the/DT   (ORGANIZATION FOMC/NNP)   plans/VBZ   to/TO   keep/VB   the/DT   federal/JJ   funds/NNS   rate/NN   at/IN   (GPE &ldquo/NNP)   ;/:   exceptionally/RB   low/JJ   levels&rdquo/NN   ;/:   for/IN   &ldquo/JJ   ;/:   an/DT   extended/JJ   period,&rdquo/NN   ;/:   as/IN   was/VBD   mentioned/VBN   in/IN   the/DT   Committee&rsquo/NNP   ;/:   s/NNS   last/JJ   minutes/NNS   from/IN   March/NNP   16/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB looking/VBG for/IN)
+	(VERB is/VBZ whether/IN the/DT FOMC/NNP)
+	(VERB   plans/VBZ   to/TO   keep/VB   the/DT   federal/JJ   funds/NNS   rate/NN   at/IN   &ldquo/NNP)
+	(VERB was/VBD mentioned/VBN in/IN the/DT Committee&rsquo/NNP)
+noun phrases to consider:
+	(NOUN The/DT key/JJ language/NN)
+	(NOUN Wall/NNP Street/NNP)
+	(NOUN exceptionally/RB low/JJ levels&rdquo/NN)
+	(NOUN &ldquo/JJ)
+	(NOUN an/DT extended/JJ period,&rdquo/NN)
+	(NOUN s/NNS last/JJ minutes/NNS)
+	(NOUN March/NNP)
+
+----------------------------------
+original sentence: 
+An extended period of time could mean six months or more, says Robert Johnson, associate director of economic analysis at Morningstar.
+
+POS tagged sentence: 
+[('An', 'DT'), ('extended', 'VBD'), ('period', 'NN'), ('of', 'IN'), ('time', 'NN'), ('could', 'MD'), ('mean', 'VB'), ('six', 'CD'), ('months', 'NNS'), ('or', 'CC'), ('more', 'JJR'), (',', ','), ('says', 'VBZ'), ('Robert', 'NNP'), ('Johnson', 'NNP'), (',', ','), ('associate', 'NN'), ('director', 'NN'), ('of', 'IN'), ('economic', 'JJ'), ('analysis', 'NN'), ('at', 'IN'), ('Morningstar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   extended/VBD   period/NN   of/IN   time/NN   could/MD   mean/VB   six/CD   months/NNS   or/CC   more/JJR   ,/,   says/VBZ   (PERSON Robert/NNP Johnson/NNP)   ,/,   associate/NN   director/NN   of/IN   economic/JJ   analysis/NN   at/IN   (ORGANIZATION Morningstar/NNP)   ./.)
+----------------------------------
+original sentence: 
+That would be far too long and could cause inflation to pick up steam, adds Johnson.
+
+POS tagged sentence: 
+[('That', 'DT'), ('would', 'MD'), ('be', 'VB'), ('far', 'RB'), ('too', 'RB'), ('long', 'RB'), ('and', 'CC'), ('could', 'MD'), ('cause', 'VB'), ('inflation', 'NN'), ('to', 'TO'), ('pick', 'VB'), ('up', 'RP'), ('steam', 'NN'), (',', ','), ('adds', 'VBZ'), ('Johnson', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   would/MD   be/VB   far/RB   too/RB   long/RB   and/CC   could/MD   cause/VB   inflation/NN   to/TO   pick/VB   up/RP   steam/NN   ,/,   adds/VBZ   (PERSON Johnson/NNP)   ./.)
+----------------------------------
+original sentence: 
+Besides concern on Wall Street, this issue appears to be creating dissent in the Fed, according to recent news reports, between whether low rates will lead to inflation or cause it to slow further.
+
+POS tagged sentence: 
+[('Besides', 'IN'), ('concern', 'NN'), ('on', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), (',', ','), ('this', 'DT'), ('issue', 'NN'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('creating', 'VBG'), ('dissent', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Fed', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('recent', 'JJ'), ('news', 'NN'), ('reports', 'NNS'), (',', ','), ('between', 'IN'), ('whether', 'IN'), ('low', 'JJ'), ('rates', 'NNS'), ('will', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('inflation', 'NN'), ('or', 'CC'), ('cause', 'VB'), ('it', 'PRP'), ('to', 'TO'), ('slow', 'VB'), ('further', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Besides/IN   concern/NN   on/IN   (FACILITY Wall/NNP Street/NNP)   ,/,   this/DT   issue/NN   appears/VBZ   to/TO   be/VB   creating/VBG   dissent/NN   in/IN   the/DT   (ORGANIZATION Fed/NNP)   ,/,   according/VBG   to/TO   recent/JJ   news/NN   reports/NNS   ,/,   between/IN   whether/IN   low/JJ   rates/NNS   will/MD   lead/VB   to/TO   inflation/NN   or/CC   cause/VB   it/PRP   to/TO   slow/VB   further/JJ   ./.)
+----------------------------------
+original sentence: 
+Some analysts believe that the sheer presence of dissent could mean that rates will probably change &ndash; even if by a little &ndash; soon.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('analysts', 'NNS'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('sheer', 'NN'), ('presence', 'NN'), ('of', 'IN'), ('dissent', 'NN'), ('could', 'MD'), ('mean', 'VB'), ('that', 'IN'), ('rates', 'NNS'), ('will', 'MD'), ('probably', 'RB'), ('change', 'VB'), ('&ndash', 'JJ'), (';', ':'), ('even', 'RB'), ('if', 'IN'), ('by', 'IN'), ('a', 'DT'), ('little', 'RB'), ('&ndash', 'JJ'), (';', ':'), ('soon', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   analysts/NNS   believe/VBP   that/IN   the/DT   sheer/NN   presence/NN   of/IN   dissent/NN   could/MD   mean/VB   that/IN   rates/NNS   will/MD   probably/RB   change/VB   &ndash/JJ   ;/:   even/RB   if/IN   by/IN   a/DT   little/RB   &ndash/JJ   ;/:   soon/RB   ./.)
+----------------------------------
+original sentence: 
+The main purpose to keeping rates low is to help banks shore up their balance sheets by paying less when they borrow and making a bigger profit when they lend.
+
+POS tagged sentence: 
+[('The', 'DT'), ('main', 'JJ'), ('purpose', 'NN'), ('to', 'TO'), ('keeping', 'VBG'), ('rates', 'NNS'), ('low', 'JJ'), ('is', 'VBZ'), ('to', 'TO'), ('help', 'VB'), ('banks', 'NNS'), ('shore', 'VB'), ('up', 'RP'), ('their', 'PRP$'), ('balance', 'NN'), ('sheets', 'NNS'), ('by', 'IN'), ('paying', 'VBG'), ('less', 'JJR'), ('when', 'WRB'), ('they', 'PRP'), ('borrow', 'VBP'), ('and', 'CC'), ('making', 'VBG'), ('a', 'DT'), ('bigger', 'JJR'), ('profit', 'NN'), ('when', 'WRB'), ('they', 'PRP'), ('lend', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   main/JJ   purpose/NN   to/TO   keeping/VBG   rates/NNS   low/JJ   is/VBZ   to/TO   help/VB   banks/NNS   shore/VB   up/RP   their/PRP$   balance/NN   sheets/NNS   by/IN   paying/VBG   less/JJR   when/WRB   they/PRP   borrow/VBP   and/CC   making/VBG   a/DT   bigger/JJR   profit/NN   when/WRB   they/PRP   lend/VBP   ./.)
+----------------------------------
+original sentence: 
+Low rates have also helped the equities market, in particular oil and the emerging markets, which financial institutions have bought in heavy volume, says Johnson.
+
+POS tagged sentence: 
+[('Low', 'NNP'), ('rates', 'NNS'), ('have', 'VBP'), ('also', 'RB'), ('helped', 'VBN'), ('the', 'DT'), ('equities', 'NNS'), ('market', 'NN'), (',', ','), ('in', 'IN'), ('particular', 'JJ'), ('oil', 'NN'), ('and', 'CC'), ('the', 'DT'), ('emerging', 'VBG'), ('markets', 'NNS'), (',', ','), ('which', 'WDT'), ('financial', 'JJ'), ('institutions', 'NNS'), ('have', 'VBP'), ('bought', 'VBN'), ('in', 'IN'), ('heavy', 'JJ'), ('volume', 'NN'), (',', ','), ('says', 'VBZ'), ('Johnson', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Low/NNP)   rates/NNS   have/VBP   also/RB   helped/VBN   the/DT   equities/NNS   market/NN   ,/,   in/IN   particular/JJ   oil/NN   and/CC   the/DT   emerging/VBG   markets/NNS   ,/,   which/WDT   financial/JJ   institutions/NNS   have/VBP   bought/VBN   in/IN   heavy/JJ   volume/NN   ,/,   says/VBZ   (PERSON Johnson/NNP)   ./.)
+----------------------------------
+original sentence: 
+Should the Fed raise rates, the most immediate impact will likely be that the commodities market &ndash; which many traders have flocked to for protection &ndash; will become more expensive.
+
+POS tagged sentence: 
+[('Should', 'MD'), ('the', 'DT'), ('Fed', 'NNP'), ('raise', 'NN'), ('rates', 'NNS'), (',', ','), ('the', 'DT'), ('most', 'RBS'), ('immediate', 'JJ'), ('impact', 'NN'), ('will', 'MD'), ('likely', 'RB'), ('be', 'VB'), ('that', 'IN'), ('the', 'DT'), ('commodities', 'NNS'), ('market', 'NN'), ('&ndash', 'NN'), (';', ':'), ('which', 'WDT'), ('many', 'JJ'), ('traders', 'NNS'), ('have', 'VBP'), ('flocked', 'VBN'), ('to', 'TO'), ('for', 'IN'), ('protection', 'NN'), ('&ndash', 'JJ'), (';', ':'), ('will', 'MD'), ('become', 'VB'), ('more', 'RBR'), ('expensive', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Should/MD   the/DT   (ORGANIZATION Fed/NNP)   raise/NN   rates/NNS   ,/,   the/DT   most/RBS   immediate/JJ   impact/NN   will/MD   likely/RB   be/VB   that/IN   the/DT   commodities/NNS   market/NN   &ndash/NN   ;/:   which/WDT   many/JJ   traders/NNS   have/VBP   flocked/VBN   to/TO   for/IN   protection/NN   &ndash/JJ   ;/:   will/MD   become/VB   more/RBR   expensive/JJ   ./.)
+----------------------------------
+original sentence: 
+&ldquo;As interest rates increase, those bets become more expensive to maintain and it makes them less profitable,&rdquo; he says.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('As', 'NNP'), ('interest', 'NN'), ('rates', 'NNS'), ('increase', 'VB'), (',', ','), ('those', 'DT'), ('bets', 'NNS'), ('become', 'VBP'), ('more', 'RBR'), ('expensive', 'JJ'), ('to', 'TO'), ('maintain', 'VB'), ('and', 'CC'), ('it', 'PRP'), ('makes', 'VBZ'), ('them', 'PRP'), ('less', 'JJR'), ('profitable,&rdquo', '-NONE-'), (';', ':'), ('he', 'PRP'), ('says', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   As/NNP   interest/NN   rates/NNS   increase/VB   ,/,   those/DT   bets/NNS   become/VBP   more/RBR   expensive/JJ   to/TO   maintain/VB   and/CC   it/PRP   makes/VBZ   them/PRP   less/JJR   profitable,&rdquo/-NONE-   ;/:   he/PRP   says/VBZ   ./.)
+----------------------------------
+original sentence: 
+With rates low, unemployment still high and income not rising, some question if we could see deflation.
+
+POS tagged sentence: 
+[('With', 'IN'), ('rates', 'NNS'), ('low', 'JJ'), (',', ','), ('unemployment', 'NN'), ('still', 'RB'), ('high', 'JJ'), ('and', 'CC'), ('income', 'NN'), ('not', 'RB'), ('rising', 'VBG'), (',', ','), ('some', 'DT'), ('question', 'NN'), ('if', 'IN'), ('we', 'PRP'), ('could', 'MD'), ('see', 'VB'), ('deflation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   rates/NNS   low/JJ   ,/,   unemployment/NN   still/RB   high/JJ   and/CC   income/NN   not/RB   rising/VBG   ,/,   some/DT   question/NN   if/IN   we/PRP   could/MD   see/VB   deflation/NN   ./.)
+----------------------------------
+original sentence: 
+In a report, David Rosenberg, chief economist at Gluskin Sheff, points to the drop in average hourly earnings in the March employment report as a result in part of excess supply in the jobs market.
+
+POS tagged sentence: 
+[('In', 'IN'), ('a', 'DT'), ('report', 'NN'), (',', ','), ('David', 'NNP'), ('Rosenberg', 'NNP'), (',', ','), ('chief', 'NN'), ('economist', 'NN'), ('at', 'IN'), ('Gluskin', 'NNP'), ('Sheff', 'NNP'), (',', ','), ('points', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('drop', 'NN'), ('in', 'IN'), ('average', 'JJ'), ('hourly', 'RB'), ('earnings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('March', 'NNP'), ('employment', 'NN'), ('report', 'NN'), ('as', 'IN'), ('a', 'DT'), ('result', 'NN'), ('in', 'IN'), ('part', 'NN'), ('of', 'IN'), ('excess', 'NN'), ('supply', 'NN'), ('in', 'IN'), ('the', 'DT'), ('jobs', 'NNS'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   a/DT   report/NN   ,/,   (PERSON David/NNP Rosenberg/NNP)   ,/,   chief/NN   economist/NN   at/IN   (ORGANIZATION Gluskin/NNP Sheff/NNP)   ,/,   points/NNS   to/TO   the/DT   drop/NN   in/IN   average/JJ   hourly/RB   earnings/NNS   in/IN   the/DT   March/NNP   employment/NN   report/NN   as/IN   a/DT   result/NN   in/IN   part/NN   of/IN   excess/NN   supply/NN   in/IN   the/DT   jobs/NNS   market/NN   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Don&rsquo;t think for a second that the Fed is not aware of or sensitive to the deflationary pressures that continue to build in the labour market,&rdquo; he writes.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Don&rsquo', 'NNP'), (';', ':'), ('t', 'NN'), ('think', 'VBP'), ('for', 'IN'), ('a', 'DT'), ('second', 'JJ'), ('that', 'IN'), ('the', 'DT'), ('Fed', 'NNP'), ('is', 'VBZ'), ('not', 'RB'), ('aware', 'JJ'), ('of', 'IN'), ('or', 'CC'), ('sensitive', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('deflationary', 'JJ'), ('pressures', 'NNS'), ('that', 'WDT'), ('continue', 'VBP'), ('to', 'TO'), ('build', 'VB'), ('in', 'IN'), ('the', 'DT'), ('labour', 'NN'), ('market,&rdquo', '-NONE-'), (';', ':'), ('he', 'PRP'), ('writes', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Don&rsquo/NNP   ;/:   t/NN   think/VBP   for/IN   a/DT   second/JJ   that/IN   the/DT   (ORGANIZATION Fed/NNP)   is/VBZ   not/RB   aware/JJ   of/IN   or/CC   sensitive/JJ   to/TO   the/DT   deflationary/JJ   pressures/NNS   that/WDT   continue/VBP   to/TO   build/VB   in/IN   the/DT   labour/NN   market,&rdquo/-NONE-   ;/:   he/PRP   writes/VBZ   ./.)
+----------------------------------
+original sentence: 
+Others say that fewer job losses and increased job creation could be a sign that the markets can recover without artificially low rates.
+
+POS tagged sentence: 
+[('Others', 'NNS'), ('say', 'VBP'), ('that', 'IN'), ('fewer', 'JJR'), ('job', 'NN'), ('losses', 'NNS'), ('and', 'CC'), ('increased', 'VBN'), ('job', 'NN'), ('creation', 'NN'), ('could', 'MD'), ('be', 'VB'), ('a', 'DT'), ('sign', 'NN'), ('that', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('can', 'MD'), ('recover', 'VB'), ('without', 'IN'), ('artificially', 'RB'), ('low', 'JJ'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Others/NNS   say/VBP   that/IN   fewer/JJR   job/NN   losses/NNS   and/CC   increased/VBN   job/NN   creation/NN   could/MD   be/VB   a/DT   sign/NN   that/IN   the/DT   markets/NNS   can/MD   recover/VB   without/IN   artificially/RB   low/JJ   rates/NNS   ./.)
+----------------------------------
+original sentence: 
+&ldquo;If the rest of the dataflow this month proves healthy, we believe the Fed will consider removing the &lsquo;extended period&rsquo; language at the April 28 FOMC meeting and start hiking rates in September,&rdquo; writes Michelle Meyer, a senior economist at Barclays Capital, in a note.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('If', 'NNP'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('the', 'DT'), ('dataflow', 'NN'), ('this', 'DT'), ('month', 'NN'), ('proves', 'VBZ'), ('healthy', 'JJ'), (',', ','), ('we', 'PRP'), ('believe', 'VBP'), ('the', 'DT'), ('Fed', 'NNP'), ('will', 'MD'), ('consider', 'VB'), ('removing', 'NN'), ('the', 'DT'), ('&lsquo', 'NNP'), (';', ':'), ('extended', 'VBD'), ('period&rsquo', '-NONE-'), (';', ':'), ('language', 'NN'), ('at', 'IN'), ('the', 'DT'), ('April', 'NNP'), ('28', 'CD'), ('FOMC', 'NNP'), ('meeting', 'NN'), ('and', 'CC'), ('start', 'VB'), ('hiking', 'VBG'), ('rates', 'NNS'), ('in', 'IN'), ('September,&rdquo', 'NNP'), (';', ':'), ('writes', 'NNS'), ('Michelle', 'NNP'), ('Meyer', 'NNP'), (',', ','), ('a', 'DT'), ('senior', 'JJ'), ('economist', 'NN'), ('at', 'IN'), ('Barclays', 'NNP'), ('Capital', 'NNP'), (',', ','), ('in', 'IN'), ('a', 'DT'), ('note', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   If/NNP   the/DT   rest/NN   of/IN   the/DT   dataflow/NN   this/DT   month/NN   proves/VBZ   healthy/JJ   ,/,   we/PRP   believe/VBP   the/DT   (ORGANIZATION Fed/NNP)   will/MD   consider/VB   removing/NN   the/DT   &lsquo/NNP   ;/:   extended/VBD   period&rsquo/-NONE-   ;/:   language/NN   at/IN   the/DT   April/NNP   28/CD   FOMC/NNP   meeting/NN   and/CC   start/VB   hiking/VBG   rates/NNS   in/IN   September,&rdquo/NNP   ;/:   writes/NNS   (PERSON Michelle/NNP Meyer/NNP)   ,/,   a/DT   senior/JJ   economist/NN   at/IN   (ORGANIZATION Barclays/NNP Capital/NNP)   ,/,   in/IN   a/DT   note/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB proves/VBZ healthy/JJ)
+	(VERB believe/VBP the/DT Fed/NNP)
+	(VERB consider/VB removing/NN the/DT &lsquo/NNP)
+	(VERB extended/VBD)
+	(VERB start/VB hiking/VBG rates/NNS in/IN September,&rdquo/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN If/NNP)
+	(NOUN rest/NN)
+	(NOUN dataflow/NN)
+	(NOUN month/NN)
+	(NOUN language/NN)
+	(NOUN April/NNP)
+	(NOUN 28/CD FOMC/NNP meeting/NN)
+	(NOUN writes/NNS Michelle/NNP Meyer/NNP)
+	(NOUN a/DT senior/JJ economist/NN)
+	(NOUN Barclays/NNP Capital/NNP)
+	(NOUN note/NN)
+
+----------------------------------
+original sentence: 
+Find More Articles About:
+ Follow SmartMoney on  & More: Trackback URL for this story:
+http://www.smartmoney.com/tb/Jdio8N8.3D
+What is a Trackback?
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('More', 'NNP'), ('Articles', 'NNP'), ('About', 'NNP'), (':', ':'), ('Follow', 'NNP'), ('SmartMoney', 'NNP'), ('on', 'IN'), ('&', 'CC'), ('More', 'NNP'), (':', ':'), ('Trackback', 'NNP'), ('URL', 'NNP'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.smartmoney.com/tb/Jdio8N8.3D', 'JJ'), ('What', 'WP'), ('is', 'VBZ'), ('a', 'DT'), ('Trackback', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Find/NNP)   (ORGANIZATION More/NNP Articles/NNP)   About/NNP   :/:   (PERSON Follow/NNP SmartMoney/NNP)   on/IN   &/CC   More/NNP   :/:   Trackback/NNP   URL/NNP   for/IN   this/DT   story/NN   :/:   http/NN   :/:   //www.smartmoney.com/tb/Jdio8N8.3D/JJ   What/WP   is/VBZ   a/DT   Trackback/NNP   ?/.)
+----------------------------------
+original sentence: 
+It is a way to tell us that you have published something that references this story.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('a', 'DT'), ('way', 'NN'), ('to', 'TO'), ('tell', 'VB'), ('us', 'PRP'), ('that', 'IN'), ('you', 'PRP'), ('have', 'VBP'), ('published', 'VBN'), ('something', 'NN'), ('that', 'IN'), ('references', 'NNS'), ('this', 'DT'), ('story', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   a/DT   way/NN   to/TO   tell/VB   us/PRP   that/IN   you/PRP   have/VBP   published/VBN   something/NN   that/IN   references/NNS   this/DT   story/NN   ./.)
+----------------------------------
+original sentence: 
+How do I send a Trackback?
+
+POS tagged sentence: 
+[('How', 'WRB'), ('do', 'VBP'), ('I', 'PRP'), ('send', 'VBP'), ('a', 'DT'), ('Trackback', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S How/WRB do/VBP I/PRP send/VBP a/DT Trackback/NNP ?/.)
+----------------------------------
+original sentence: 
+If you blog or mention this story on your website, you can use this Trackback URL to notify us about it.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('blog', 'VBP'), ('or', 'CC'), ('mention', 'NN'), ('this', 'DT'), ('story', 'NN'), ('on', 'IN'), ('your', 'PRP$'), ('website', 'NN'), (',', ','), ('you', 'PRP'), ('can', 'MD'), ('use', 'VB'), ('this', 'DT'), ('Trackback', 'NNP'), ('URL', 'NNP'), ('to', 'TO'), ('notify', 'VB'), ('us', 'PRP'), ('about', 'IN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   blog/VBP   or/CC   mention/NN   this/DT   story/NN   on/IN   your/PRP$   website/NN   ,/,   you/PRP   can/MD   use/VB   this/DT   Trackback/NNP   URL/NNP   to/TO   notify/VB   us/PRP   about/IN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Some blogging software programs can help in sending a Trackback to us.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('blogging', 'VBG'), ('software', 'NN'), ('programs', 'NNS'), ('can', 'MD'), ('help', 'VB'), ('in', 'IN'), ('sending', 'NN'), ('a', 'DT'), ('Trackback', 'NNP'), ('to', 'TO'), ('us', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   blogging/VBG   software/NN   programs/NNS   can/MD   help/VB   in/IN   sending/NN   a/DT   Trackback/NNP   to/TO   us/PRP   ./.)
+----------------------------------
+original sentence: 
+to read more about Trackbacks.
+
+POS tagged sentence: 
+[('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('Trackbacks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S to/TO read/VB more/JJR about/IN (ORGANIZATION Trackbacks/NNS) ./.)
+----------------------------------
+original sentence: 
+Comments From Around the Web  7:02 PM EST April 6, 2010
+ Posted by: Michael_Mekler on RT @chikquintans: Will Federal Reserve Policies Cause Inflation?
+
+POS tagged sentence: 
+[('Comments', 'NNS'), ('From', 'IN'), ('Around', 'NNP'), ('the', 'DT'), ('Web', 'NNP'), ('7', 'CD'), (':', ':'), ('02', 'CD'), ('PM', 'NNP'), ('EST', 'NNP'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('Posted', 'NNP'), ('by', 'IN'), (':', ':'), ('Michael_Mekler', 'NNP'), ('on', 'IN'), ('RT', 'NNP'), ('@', 'NNP'), ('chikquintans', 'VBZ'), (':', ':'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Cause', 'NNP'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Comments/NNS   From/IN   (GPE Around/NNP)   the/DT   Web/NNP   7/CD   :/:   02/CD   PM/NNP   EST/NNP   April/NNP   6/CD   ,/,   2010/CD   Posted/NNP   by/IN   :/:   (ORGANIZATION Michael_Mekler/NNP)   on/IN   (ORGANIZATION RT/NNP)   @/NNP   chikquintans/VBZ   :/:   (PERSON     Will/NNP     Federal/NNP     Reserve/NNP     Policies/NNP     Cause/NNP     Inflation/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB chikquintans/VBZ)
+noun phrases to consider:
+	(NOUN Comments/NNS)
+	(NOUN Around/NNP)
+	(NOUN Web/NNP)
+	(NOUN 02/CD PM/NNP EST/NNP April/NNP)
+	(NOUN 2010/CD Posted/NNP)
+	(NOUN Michael_Mekler/NNP)
+	(NOUN RT/NNP @/NNP)
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Cause/NNP Inflation/NNP)
+
+----------------------------------
+original sentence: 
+at SmartMoney.com  7:00 PM EST April 6, 2010
+ Posted by: chikquintans on Will Federal Reserve Policies Cause Inflation?
+
+POS tagged sentence: 
+[('at', 'IN'), ('SmartMoney.com', 'JJ'), ('7', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('EST', 'NNP'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('Posted', 'NNP'), ('by', 'IN'), (':', ':'), ('chikquintans', 'NNS'), ('on', 'IN'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Cause', 'NNP'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   at/IN   SmartMoney.com/JJ   7/CD   :/:   00/CD   PM/NNP   EST/NNP   April/NNP   6/CD   ,/,   2010/CD   Posted/NNP   by/IN   :/:   chikquintans/NNS   on/IN   (PERSON     Will/NNP     Federal/NNP     Reserve/NNP     Policies/NNP     Cause/NNP     Inflation/NNP)   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN SmartMoney.com/JJ 7/CD)
+	(NOUN 00/CD PM/NNP EST/NNP April/NNP)
+	(NOUN 2010/CD Posted/NNP)
+	(NOUN chikquintans/NNS)
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Cause/NNP Inflation/NNP)
+
+----------------------------------
+original sentence: 
+at SmartMoney.com  12:44 PM EST April 6, 2010
+ Posted by: shelly_d on RT @SmartMoney: Does the Federal Reserve Forsee Inflation?
+
+POS tagged sentence: 
+[('at', 'IN'), ('SmartMoney.com', 'JJ'), ('12', 'CD'), (':', ':'), ('44', 'CD'), ('PM', 'NNP'), ('EST', 'NNP'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('Posted', 'NNP'), ('by', 'IN'), (':', ':'), ('shelly_d', 'NNP'), ('on', 'IN'), ('RT', 'NNP'), ('@', 'NNP'), ('SmartMoney', 'NNP'), (':', ':'), ('Does', 'VBZ'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Forsee', 'NNP'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   at/IN   SmartMoney.com/JJ   12/CD   :/:   44/CD   PM/NNP   EST/NNP   April/NNP   6/CD   ,/,   2010/CD   Posted/NNP   by/IN   :/:   shelly_d/NNP   on/IN   (ORGANIZATION RT/NNP)   @/NNP   SmartMoney/NNP   :/:   Does/VBZ   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP Forsee/NNP)   Inflation/NNP   ?/.)
+----------------------------------
+original sentence: 
+http://bit.ly/dAvDRa
+ 11:47 AM EST April 6, 2010
+ Posted by: USPoliticsConvo on Will Federal Reserve Policies Lead to Inflation?
+
+POS tagged sentence: 
+[('http', 'NN'), (':', ':'), ('//bit.ly/dAvDRa', 'JJ'), ('11', 'CD'), (':', ':'), ('47', 'CD'), ('AM', 'NNP'), ('EST', 'NNP'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('Posted', 'NNP'), ('by', 'IN'), (':', ':'), ('USPoliticsConvo', 'NNP'), ('on', 'IN'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Lead', 'NNP'), ('to', 'TO'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   http/NN   :/:   //bit.ly/dAvDRa/JJ   11/CD   :/:   47/CD   AM/NNP   EST/NNP   April/NNP   6/CD   ,/,   2010/CD   Posted/NNP   by/IN   :/:   USPoliticsConvo/NNP   on/IN   (PERSON Will/NNP Federal/NNP Reserve/NNP Policies/NNP)   Lead/NNP   to/TO   Inflation/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN http/NN)
+	(NOUN //bit.ly/dAvDRa/JJ 11/CD)
+	(NOUN 47/CD AM/NNP EST/NNP April/NNP)
+	(NOUN 2010/CD Posted/NNP)
+	(NOUN USPoliticsConvo/NNP)
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Lead/NNP)
+	(NOUN Inflation/NNP)
+
+----------------------------------
+original sentence: 
+http://bit.ly/czZzCr
+ 11:36 AM EST April 6, 2010
+ Posted by: marvindarwin on I follow: Will Federal Reserve Policies Lead to Inflation?
+
+POS tagged sentence: 
+[('http', 'NN'), (':', ':'), ('//bit.ly/czZzCr', 'JJ'), ('11', 'CD'), (':', ':'), ('36', 'CD'), ('AM', 'NNP'), ('EST', 'NNP'), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('Posted', 'NNP'), ('by', 'IN'), (':', ':'), ('marvindarwin', 'IN'), ('on', 'IN'), ('I', 'PRP'), ('follow', 'VBP'), (':', ':'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Lead', 'NNP'), ('to', 'TO'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   http/NN   :/:   //bit.ly/czZzCr/JJ   11/CD   :/:   36/CD   AM/NNP   EST/NNP   April/NNP   6/CD   ,/,   2010/CD   Posted/NNP   by/IN   :/:   marvindarwin/IN   on/IN   I/PRP   follow/VBP   :/:   (PERSON Will/NNP Federal/NNP Reserve/NNP Policies/NNP)   Lead/NNP   to/TO   Inflation/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB follow/VBP)
+noun phrases to consider:
+	(NOUN http/NN)
+	(NOUN //bit.ly/czZzCr/JJ 11/CD)
+	(NOUN 36/CD AM/NNP EST/NNP April/NNP)
+	(NOUN 2010/CD Posted/NNP)
+	(NOUN Will/NNP Federal/NNP Reserve/NNP Policies/NNP)
+	(NOUN Lead/NNP)
+	(NOUN Inflation/NNP)
+
+----------------------------------
+original sentence: 
+: Will Federal Reserve Policies Lead to Inflation?
+
+POS tagged sentence: 
+[(':', ':'), ('Will', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Policies', 'NNP'), ('Lead', 'NNP'), ('to', 'TO'), ('Inflation', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   :/:   (PERSON Will/NNP Federal/NNP Reserve/NNP Policies/NNP)   Lead/NNP   to/TO   Inflation/NNP   ?/.)
+----------------------------------
+original sentence: 
+Smar... http://bit.ly/czZzCr
+The first rule of investing?
+
+POS tagged sentence: 
+[('Smar...', 'NNP'), ('http', 'NN'), (':', ':'), ('//bit.ly/czZzCr', 'JJ'), ('The', 'DT'), ('first', 'JJ'), ('rule', 'NN'), ('of', 'IN'), ('investing', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Smar.../NNP   http/NN   :/:   //bit.ly/czZzCr/JJ   The/DT   first/JJ   rule/NN   of/IN   investing/NN   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Smar.../NNP http/NN)
+	(NOUN //bit.ly/czZzCr/JJ)
+	(NOUN The/DT first/JJ rule/NN)
+	(NOUN investing/NN)
+
+----------------------------------
+original sentence: 
+Investors rule.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('rule', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Investors/NNS rule/VBP ./.)
+----------------------------------
+original sentence: 
+Get the help and straightforward pricing investors deserve at Schwab.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('help', 'NN'), ('and', 'CC'), ('straightforward', 'VB'), ('pricing', 'NN'), ('investors', 'NNS'), ('deserve', 'VBP'), ('at', 'IN'), ('Schwab', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   help/NN   and/CC   straightforward/VB   pricing/NN   investors/NNS   deserve/VBP   at/IN   (ORGANIZATION Schwab/NNP)   ./.)
+----------------------------------
+original sentence: 
+Offer employees Aflac and improve your benefits package at no direct cost.
+
+POS tagged sentence: 
+[('Offer', 'NNP'), ('employees', 'NNS'), ('Aflac', 'NNP'), ('and', 'CC'), ('improve', 'VB'), ('your', 'PRP$'), ('benefits', 'NNS'), ('package', 'NN'), ('at', 'IN'), ('no', 'DT'), ('direct', 'JJ'), ('cost', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Offer/NNP)   employees/NNS   (PERSON Aflac/NNP)   and/CC   improve/VB   your/PRP$   benefits/NNS   package/NN   at/IN   no/DT   direct/JJ   cost/NN   ./.)
+----------------------------------
+original sentence: 
+Ally Bank competitive rates to help you save more.
+
+POS tagged sentence: 
+[('Ally', 'RB'), ('Bank', 'NNP'), ('competitive', 'JJ'), ('rates', 'NNS'), ('to', 'TO'), ('help', 'VB'), ('you', 'PRP'), ('save', 'VB'), ('more', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Ally/RB   (ORGANIZATION Bank/NNP)   competitive/JJ   rates/NNS   to/TO   help/VB   you/PRP   save/VB   more/JJR   ./.)
+----------------------------------
+original sentence: 
+FDIC insured.
+
+POS tagged sentence: 
+[('FDIC', 'NNP'), ('insured', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION FDIC/NNP) insured/VBD ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB insured/VBD)
+noun phrases to consider:
+	(NOUN FDIC/NNP)
+
+----------------------------------
+original sentence: 
+Economy Survey Corp International Country Reports
+Learn how AXA can help your retirement income keep pace with changing interest rates.
+
+POS tagged sentence: 
+[('Economy', 'NNP'), ('Survey', 'NNP'), ('Corp', 'NNP'), ('International', 'NNP'), ('Country', 'NNP'), ('Reports', 'NNPS'), ('Learn', 'NNP'), ('how', 'WRB'), ('AXA', 'NNP'), ('can', 'MD'), ('help', 'VB'), ('your', 'PRP$'), ('retirement', 'NN'), ('income', 'NN'), ('keep', 'VB'), ('pace', 'NN'), ('with', 'IN'), ('changing', 'VBG'), ('interest', 'NN'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Economy/NNP)   Survey/NNP   (ORGANIZATION     Corp/NNP     International/NNP     Country/NNP     Reports/NNPS     Learn/NNP)   how/WRB   (ORGANIZATION AXA/NNP)   can/MD   help/VB   your/PRP$   retirement/NN   income/NN   keep/VB   pace/NN   with/IN   changing/VBG   interest/NN   rates/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB help/VB your/PRP$ retirement/NN income/NN)
+	(VERB keep/VB pace/NN with/IN)
+	(VERB changing/VBG interest/NN rates/NNS)
+noun phrases to consider:
+	(NOUN Economy/NNP Survey/NNP Corp/NNP International/NNP)
+	(NOUN Country/NNP Reports/NNPS Learn/NNP)
+	(NOUN AXA/NNP)
+
+----------------------------------
+original sentence: 
+MFSÂ®.
+
+POS tagged sentence: 
+[('MFS', 'NNS'), ('\xc2', 'VBP'), ('\xae', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S MFS/NNS Â/VBP ®/: ./.)
+----------------------------------
+original sentence: 
+A broad range of funds for advisors and their clients.
+
+POS tagged sentence: 
+[('A', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('funds', 'NNS'), ('for', 'IN'), ('advisors', 'NNS'), ('and', 'CC'), ('their', 'PRP$'), ('clients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   broad/JJ   range/NN   of/IN   funds/NNS   for/IN   advisors/NNS   and/CC   their/PRP$   clients/NNS   ./.)
+----------------------------------
+original sentence: 
+Since 1924.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('1924', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Since/IN 1924/CD ./.)
+----------------------------------
+original sentence: 
+SmartMoney Magazine A smart investment.
+
+POS tagged sentence: 
+[('SmartMoney', 'NN'), ('Magazine', 'NN'), ('A', 'DT'), ('smart', 'NN'), ('investment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmartMoney/NN Magazine/NN)   A/DT   smart/NN   investment/NN   ./.)
+----------------------------------
+original sentence: 
+Subscribe for only $1 an issue.
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('for', 'IN'), ('only', 'RB'), ('$', '$'), ('1', 'CD'), ('an', 'DT'), ('issue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Subscribe/NNP) for/IN only/RB $/$ 1/CD an/DT issue/NN ./.)
+----------------------------------
+original sentence: 
+MetLife Variable Annuities can provide income for life.
+
+POS tagged sentence: 
+[('MetLife', 'NNP'), ('Variable', 'NNP'), ('Annuities', 'NNPS'), ('can', 'MD'), ('provide', 'VB'), ('income', 'NN'), ('for', 'IN'), ('life', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MetLife/NNP)   (ORGANIZATION Variable/NNP Annuities/NNPS)   can/MD   provide/VB   income/NN   for/IN   life/NN   ./.)
+----------------------------------
+original sentence: 
+Find out how.
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('out', 'IN'), ('how', 'WRB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Find/NNP) out/IN how/WRB ./.)
+----------------------------------
+original sentence: 
+See how you can save money with Sallie Mae'sÂ® Smart Option Student LoanÂ®
+Practice No Risk Trading at optionsXpress
+John Hancock: Find helpful answers to important financial questions
+View all charts for tickers in this story
+ See how the stocks on this page stack up.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('how', 'WRB'), ('you', 'PRP'), ('can', 'MD'), ('save', 'VB'), ('money', 'NN'), ('with', 'IN'), ('Sallie', 'NNP'), ('Mae', 'NNP'), ("'s", 'POS'), ('\xc2', 'NNP'), ('\xae', 'NNP'), ('Smart', 'NNP'), ('Option', 'NNP'), ('Student', 'NNP'), ('Loan', 'NNP'), ('\xc2', 'NNP'), ('\xae', 'NNP'), ('Practice', 'NNP'), ('No', 'NNP'), ('Risk', 'NNP'), ('Trading', 'NNP'), ('at', 'IN'), ('optionsXpress', 'NNP'), ('John', 'NNP'), ('Hancock', 'NNP'), (':', ':'), ('Find', 'NNP'), ('helpful', 'JJ'), ('answers', 'NNS'), ('to', 'TO'), ('important', 'JJ'), ('financial', 'JJ'), ('questions', 'NNS'), ('View', 'NNP'), ('all', 'DT'), ('charts', 'NNS'), ('for', 'IN'), ('tickers', 'NNS'), ('in', 'IN'), ('this', 'DT'), ('story', 'NN'), ('See', 'NNP'), ('how', 'WRB'), ('the', 'DT'), ('stocks', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('page', 'NN'), ('stack', 'NN'), ('up', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE See/NNP)   how/WRB   you/PRP   can/MD   save/VB   money/NN   with/IN   (PERSON Sallie/NNP Mae/NNP)   's/POS   Â/NNP   ®/NNP   (PERSON Smart/NNP Option/NNP Student/NNP Loan/NNP)   Â/NNP   ®/NNP   Practice/NNP   No/NNP   Risk/NNP   Trading/NNP   at/IN   (ORGANIZATION optionsXpress/NNP)   (PERSON John/NNP Hancock/NNP)   :/:   Find/NNP   helpful/JJ   answers/NNS   to/TO   important/JJ   financial/JJ   questions/NNS   View/NNP   all/DT   charts/NNS   for/IN   tickers/NNS   in/IN   this/DT   story/NN   See/NNP   how/WRB   the/DT   stocks/NNS   on/IN   this/DT   page/NN   stack/NN   up/IN   ./.)
+----------------------------------
+original sentence: 
+More on DailyFinance >
+
+
+POS tagged sentence: 
+[('More', 'JJR'), ('on', 'IN'), ('DailyFinance', 'NNP'), ('>', 'NNP')]
+
+
+ERTAGGED sentence: (S More/JJR on/IN (ORGANIZATION DailyFinance/NNP) >/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

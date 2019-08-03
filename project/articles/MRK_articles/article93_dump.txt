@@ -1,0 +1,818 @@
+
+----------------------------------
+original sentence: 
+Sanofi aventis and Merck to Create a Global Leader in Animal Health | Business Wire
+ March 09, 2010 02:00 AM Eastern Daylight Time Sanofi aventis and Merck to Create a Global Leader in Animal Health
+&#8211; Sanofi aventis exercises its option to combine Merial with Intervet/Schering Plough in a new equally owned Joint Venture with Merck &#8211;
+PARIS & WHITEHOUSE STATION, N.J.  Merck & Co., Inc. NYSE: MRK : &#8220;The upcoming combination of Merial and Intervet/Schering Plough is an exciting opportunity for sanofi aventis to create with Merck a leading company in the Animal Health strategic and growing sector&#8221;
+ &#160;  &#160;  &#160;  &#160; CONFERENCE CALL & WEBCAST
+ &#160; Sanofi aventis and Merck will host a conference call today, at 2:00 p.m. Paris Time CET 8:00 a.m. NY Time EST  &#160;  &#160; See details for the conference call at the end of the release.
+
+POS tagged sentence: 
+[('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('and', 'CC'), ('Merck', 'NNP'), ('to', 'TO'), ('Create', 'NNP'), ('a', 'DT'), ('Global', 'NNP'), ('Leader', 'NNP'), ('in', 'IN'), ('Animal', 'NNP'), ('Health', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('09', 'CD'), (',', ','), ('2010', 'CD'), ('02', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('and', 'CC'), ('Merck', 'NNP'), ('to', 'TO'), ('Create', 'NNP'), ('a', 'DT'), ('Global', 'NNP'), ('Leader', 'NNP'), ('in', 'IN'), ('Animal', 'NNP'), ('Health', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('exercises', 'NNS'), ('its', 'PRP$'), ('option', 'NN'), ('to', 'TO'), ('combine', 'VB'), ('Merial', 'JJ'), ('with', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('in', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('equally', 'RB'), ('owned', 'VBN'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('with', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('PARIS', 'NNP'), ('&', 'CC'), ('WHITEHOUSE', 'NNP'), ('STATION', 'NNP'), (',', ','), ('N.J.', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), (':', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('upcoming', 'NN'), ('combination', 'NN'), ('of', 'IN'), ('Merial', 'NNP'), ('and', 'CC'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('exciting', 'JJ'), ('opportunity', 'NN'), ('for', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('to', 'TO'), ('create', 'VB'), ('with', 'IN'), ('Merck', 'NNP'), ('a', 'DT'), ('leading', 'VBG'), ('company', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Animal', 'NNP'), ('Health', 'NNP'), ('strategic', 'NN'), ('and', 'CC'), ('growing', 'VBG'), ('sector&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('CONFERENCE', 'NNP'), ('CALL', 'NNP'), ('&', 'CC'), ('WEBCAST', 'NNP'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('and', 'CC'), ('Merck', 'NNP'), ('will', 'MD'), ('host', 'VB'), ('a', 'DT'), ('conference', 'NN'), ('call', 'NN'), ('today', 'NN'), (',', ','), ('at', 'IN'), ('2', 'CD'), (':', ':'), ('00', 'CD'), ('p.m.', 'NN'), ('Paris', 'NNP'), ('Time', 'NNP'), ('CET', 'NNP'), ('8', 'CD'), (':', ':'), ('00', 'CD'), ('a.m.', 'NNP'), ('NY', 'NNP'), ('Time', 'NNP'), ('EST', 'NNP'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('See', 'NNP'), ('details', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('conference', 'NN'), ('call', 'NN'), ('at', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('release', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sanofi/NNP)   aventis/VBZ   and/CC   (PERSON Merck/NNP)   to/TO   (GPE Create/NNP)   a/DT   (ORGANIZATION Global/NNP Leader/NNP)   in/IN   (GPE Animal/NNP)   Health/NNP   |/NNP   Business/NNP   Wire/NNP   March/NNP   09/CD   ,/,   2010/CD   02/CD   :/:   00/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   (PERSON Sanofi/NNP)   aventis/VBZ   and/CC   (PERSON Merck/NNP)   to/TO   (GPE Create/NNP)   a/DT   (ORGANIZATION Global/NNP Leader/NNP)   in/IN   (GPE Animal/NNP)   Health/NNP   &/CC   #/#   8211/CD   ;/:   (PERSON Sanofi/NNP)   aventis/VBZ   exercises/NNS   its/PRP$   option/NN   to/TO   combine/VB   (ORGANIZATION Merial/JJ)   with/IN   Intervet/Schering/JJ   Plough/NNP   in/IN   a/DT   new/JJ   equally/RB   owned/VBN   (PERSON Joint/NNP Venture/NNP)   with/IN   (ORGANIZATION Merck/NNP)   &/CC   #/#   8211/CD   ;/:   (ORGANIZATION PARIS/NNP)   &/CC   (ORGANIZATION WHITEHOUSE/NNP)   STATION/NNP   ,/,   N.J./NNP   Merck/NNP   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   MRK/NNP   :/:   &/CC   #/#   8220/CD   ;/:   The/DT   upcoming/NN   combination/NN   of/IN   (ORGANIZATION Merial/NNP)   and/CC   Intervet/Schering/JJ   Plough/NNP   is/VBZ   an/DT   exciting/JJ   opportunity/NN   for/IN   sanofi/NN   aventis/NNS   to/TO   create/VB   with/IN   (PERSON Merck/NNP)   a/DT   leading/VBG   company/NN   in/IN   the/DT   (ORGANIZATION Animal/NNP Health/NNP)   strategic/NN   and/CC   growing/VBG   sector&/NN   #/#   8221/CD   ;/:   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   (ORGANIZATION CONFERENCE/NNP)   CALL/NNP   &/CC   (ORGANIZATION WEBCAST/NNP)   &/CC   #/#   160/CD   ;/:   (PERSON Sanofi/NNP)   aventis/VBZ   and/CC   (PERSON Merck/NNP)   will/MD   host/VB   a/DT   conference/NN   call/NN   today/NN   ,/,   at/IN   2/CD   :/:   00/CD   p.m./NN   (PERSON Paris/NNP Time/NNP)   CET/NNP   8/CD   :/:   00/CD   a.m./NNP   NY/NNP   Time/NNP   EST/NNP   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   See/NNP   details/NNS   for/IN   the/DT   conference/NN   call/NN   at/IN   the/DT   end/NN   of/IN   the/DT   release/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB aventis/VBZ)
+	(VERB aventis/VBZ)
+	(VERB aventis/VBZ exercises/NNS its/PRP$ option/NN)
+	(VERB   combine/VB   Merial/JJ   with/IN   Intervet/Schering/JJ   Plough/NNP   in/IN   a/DT   new/JJ   equally/RB)
+	(VERB owned/VBN Joint/NNP Venture/NNP with/IN Merck/NNP)
+	(VERB   is/VBZ   an/DT   exciting/JJ   opportunity/NN   for/IN   sanofi/NN   aventis/NNS)
+	(VERB create/VB with/IN Merck/NNP a/DT)
+	(VERB   leading/VBG   company/NN   in/IN   the/DT   Animal/NNP   Health/NNP   strategic/NN)
+	(VERB growing/VBG sector&/NN)
+	(VERB aventis/VBZ)
+	(VERB host/VB a/DT conference/NN call/NN today/NN)
+noun phrases to consider:
+	(NOUN Sanofi/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Create/NNP)
+	(NOUN Global/NNP Leader/NNP)
+	(NOUN Animal/NNP Health/NNP |/NNP Business/NNP)
+	(NOUN Wire/NNP March/NNP)
+	(NOUN 00/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Sanofi/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Create/NNP)
+	(NOUN Global/NNP Leader/NNP)
+	(NOUN Animal/NNP Health/NNP)
+	(NOUN Sanofi/NNP)
+	(NOUN PARIS/NNP)
+	(NOUN WHITEHOUSE/NNP STATION/NNP)
+	(NOUN N.J./NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN upcoming/NN combination/NN)
+	(NOUN Merial/NNP)
+	(NOUN Intervet/Schering/JJ Plough/NNP)
+	(NOUN CONFERENCE/NNP CALL/NNP)
+	(NOUN WEBCAST/NNP)
+	(NOUN Sanofi/NNP)
+	(NOUN Merck/NNP)
+	(NOUN 00/CD p.m./NN Paris/NNP Time/NNP CET/NNP)
+	(NOUN 00/CD a.m./NNP NY/NNP Time/NNP EST/NNP)
+	(NOUN See/NNP details/NNS)
+	(NOUN conference/NN call/NN)
+	(NOUN end/NN)
+	(NOUN release/NN)
+
+----------------------------------
+original sentence: 
+&#160;  &#160;  Sanofi aventis EURONEXT: SAN NYSE: SNY and Merck & Co., Inc. NYSE: MRK announced today that sanofi aventis has exercised its option to combine Merial with Intervet/Schering Plough, Merck&#8217;s Animal Health business, to create a global leader in Animal Health.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('EURONEXT', 'NNP'), (':', ':'), ('SAN', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SNY', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('announced', 'VBD'), ('today', 'NN'), ('that', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('has', 'VBZ'), ('exercised', 'VBN'), ('its', 'PRP$'), ('option', 'NN'), ('to', 'TO'), ('combine', 'VB'), ('Merial', 'JJ'), ('with', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), (',', ','), ('Merck&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Animal', 'NNP'), ('Health', 'NNP'), ('business', 'NN'), (',', ','), ('to', 'TO'), ('create', 'VB'), ('a', 'DT'), ('global', 'JJ'), ('leader', 'NN'), ('in', 'IN'), ('Animal', 'NNP'), ('Health', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   (PERSON Sanofi/NNP)   aventis/VBZ   (ORGANIZATION EURONEXT/NNP)   :/:   (ORGANIZATION SAN/NNP)   NYSE/NNP   :/:   (ORGANIZATION SNY/NNP)   and/CC   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION MRK/NNP)   announced/VBD   today/NN   that/IN   sanofi/NN   aventis/NNS   has/VBZ   exercised/VBN   its/PRP$   option/NN   to/TO   combine/VB   (ORGANIZATION Merial/JJ)   with/IN   Intervet/Schering/JJ   Plough/NNP   ,/,   Merck&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Animal/NNP Health/NNP)   business/NN   ,/,   to/TO   create/VB   a/DT   global/JJ   leader/NN   in/IN   (GPE Animal/NNP)   Health/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB aventis/VBZ EURONEXT/NNP)
+	(VERB announced/VBD today/NN that/IN sanofi/NN aventis/NNS)
+	(VERB has/VBZ exercised/VBN its/PRP$ option/NN)
+	(VERB combine/VB Merial/JJ with/IN Intervet/Schering/JJ Plough/NNP)
+	(VERB create/VB a/DT global/JJ leader/NN in/IN Animal/NNP Health/NNP)
+noun phrases to consider:
+	(NOUN Sanofi/NNP)
+	(NOUN SAN/NNP NYSE/NNP)
+	(NOUN SNY/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN Merck&/NNP)
+	(NOUN s/NNS Animal/NNP Health/NNP business/NN)
+
+----------------------------------
+original sentence: 
+The new joint venture will be equally owned by Merck and sanofi aventis.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('joint', 'NN'), ('venture', 'NN'), ('will', 'MD'), ('be', 'VB'), ('equally', 'RB'), ('owned', 'VBN'), ('by', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   joint/NN   venture/NN   will/MD   be/VB   equally/RB   owned/VBN   by/IN   (PERSON Merck/NNP)   and/CC   sanofi/NN   aventis/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB equally/RB owned/VBN by/IN Merck/NNP)
+noun phrases to consider:
+	(NOUN The/DT new/JJ joint/NN venture/NN)
+	(NOUN sanofi/NN aventis/NNS)
+
+----------------------------------
+original sentence: 
+The formation of this new animal health joint venture is subject to execution of final agreements, antitrust review in the United States, Europe and other countries and other customary closing conditions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('formation', 'NN'), ('of', 'IN'), ('this', 'DT'), ('new', 'JJ'), ('animal', 'NN'), ('health', 'NN'), ('joint', 'NN'), ('venture', 'NN'), ('is', 'VBZ'), ('subject', 'JJ'), ('to', 'TO'), ('execution', 'NN'), ('of', 'IN'), ('final', 'JJ'), ('agreements', 'NNS'), (',', ','), ('antitrust', 'JJ'), ('review', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('Europe', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('customary', 'JJ'), ('closing', 'NN'), ('conditions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   formation/NN   of/IN   this/DT   new/JJ   animal/NN   health/NN   joint/NN   venture/NN   is/VBZ   subject/JJ   to/TO   execution/NN   of/IN   final/JJ   agreements/NNS   ,/,   antitrust/JJ   review/NN   in/IN   the/DT   (GPE United/NNP States/NNPS)   ,/,   (GPE Europe/NNP)   and/CC   other/JJ   countries/NNS   and/CC   other/JJ   customary/JJ   closing/NN   conditions/NNS   ./.)
+----------------------------------
+original sentence: 
+The completion of the transaction is expected to occur in approximately the next 12 months.
+
+POS tagged sentence: 
+[('The', 'DT'), ('completion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('occur', 'VB'), ('in', 'IN'), ('approximately', 'RB'), ('the', 'DT'), ('next', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   completion/NN   of/IN   the/DT   transaction/NN   is/VBZ   expected/VBN   to/TO   occur/VB   in/IN   approximately/RB   the/DT   next/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+&#8220;The upcoming combination of Merial and Intervet/Schering Plough is an exciting opportunity for sanofi aventis to create with Merck a leading company in the Animal Health strategic and growing sector,&#8221; said Christopher A. Viehbacher, Chief Executive Officer of sanofi aventis.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('upcoming', 'NN'), ('combination', 'NN'), ('of', 'IN'), ('Merial', 'NNP'), ('and', 'CC'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('exciting', 'JJ'), ('opportunity', 'NN'), ('for', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('to', 'TO'), ('create', 'VB'), ('with', 'IN'), ('Merck', 'NNP'), ('a', 'DT'), ('leading', 'VBG'), ('company', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Animal', 'NNP'), ('Health', 'NNP'), ('strategic', 'NN'), ('and', 'CC'), ('growing', 'VBG'), ('sector,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Christopher', 'NNP'), ('A.', 'NNP'), ('Viehbacher', 'NNP'), (',', ','), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Officer', 'NNP'), ('of', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   The/DT   upcoming/NN   combination/NN   of/IN   (ORGANIZATION Merial/NNP)   and/CC   Intervet/Schering/JJ   Plough/NNP   is/VBZ   an/DT   exciting/JJ   opportunity/NN   for/IN   sanofi/NN   aventis/NNS   to/TO   create/VB   with/IN   (PERSON Merck/NNP)   a/DT   leading/VBG   company/NN   in/IN   the/DT   (ORGANIZATION Animal/NNP Health/NNP)   strategic/NN   and/CC   growing/VBG   sector,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Christopher/NNP A./NNP Viehbacher/NNP)   ,/,   Chief/NNP   Executive/NNP   Officer/NNP   of/IN   sanofi/NN   aventis/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   an/DT   exciting/JJ   opportunity/NN   for/IN   sanofi/NN   aventis/NNS)
+	(VERB create/VB with/IN Merck/NNP a/DT)
+	(VERB   leading/VBG   company/NN   in/IN   the/DT   Animal/NNP   Health/NNP   strategic/NN)
+	(VERB growing/VBG sector,&/NN)
+	(VERB said/VBD Christopher/NNP A./NNP Viehbacher/NNP)
+noun phrases to consider:
+	(NOUN upcoming/NN combination/NN)
+	(NOUN Merial/NNP)
+	(NOUN Intervet/Schering/JJ Plough/NNP)
+	(NOUN Chief/NNP Executive/NNP Officer/NNP)
+	(NOUN sanofi/NN aventis/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;I am convinced that, together, we will create strong value in bringing broader and improved offerings in both pet and production animal segments.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('I', 'PRP'), ('am', 'VBP'), ('convinced', 'VBN'), ('that', 'IN'), (',', ','), ('together', 'RB'), (',', ','), ('we', 'PRP'), ('will', 'MD'), ('create', 'VB'), ('strong', 'JJ'), ('value', 'NN'), ('in', 'IN'), ('bringing', 'NN'), ('broader', 'NN'), ('and', 'CC'), ('improved', 'VBN'), ('offerings', 'NNS'), ('in', 'IN'), ('both', 'DT'), ('pet', 'NN'), ('and', 'CC'), ('production', 'NN'), ('animal', 'NN'), ('segments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   I/PRP   am/VBP   convinced/VBN   that/IN   ,/,   together/RB   ,/,   we/PRP   will/MD   create/VB   strong/JJ   value/NN   in/IN   bringing/NN   broader/NN   and/CC   improved/VBN   offerings/NNS   in/IN   both/DT   pet/NN   and/CC   production/NN   animal/NN   segments/NNS   ./.)
+----------------------------------
+original sentence: 
+This transaction represents another consistent milestone in our diversification strategy to bring sustainable growth to sanofi aventis.&#8221;  "Merck has been in the animal health business for well over six decades and through this new joint venture, we will bolster our diverse portfolio and create a new global competitor poised for growth," said Richard T. Clark, Merck Chairman, President and Chief Executive Officer.
+
+POS tagged sentence: 
+[('This', 'DT'), ('transaction', 'NN'), ('represents', 'VBZ'), ('another', 'DT'), ('consistent', 'NN'), ('milestone', 'NN'), ('in', 'IN'), ('our', 'PRP$'), ('diversification', 'NN'), ('strategy', 'NN'), ('to', 'TO'), ('bring', 'VB'), ('sustainable', 'JJ'), ('growth', 'NN'), ('to', 'TO'), ('sanofi', 'VB'), ('aventis.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('"', ':'), ('Merck', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('animal', 'JJ'), ('health', 'NN'), ('business', 'NN'), ('for', 'IN'), ('well', 'RB'), ('over', 'RB'), ('six', 'CD'), ('decades', 'NNS'), ('and', 'CC'), ('through', 'IN'), ('this', 'DT'), ('new', 'JJ'), ('joint', 'NN'), ('venture', 'NN'), (',', ','), ('we', 'PRP'), ('will', 'MD'), ('bolster', 'VB'), ('our', 'PRP$'), ('diverse', 'NN'), ('portfolio', 'NN'), ('and', 'CC'), ('create', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('global', 'JJ'), ('competitor', 'NN'), ('poised', 'VBD'), ('for', 'IN'), ('growth', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Richard', 'NNP'), ('T.', 'NNP'), ('Clark', 'NNP'), (',', ','), ('Merck', 'NNP'), ('Chairman', 'NNP'), (',', ','), ('President', 'NNP'), ('and', 'CC'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Officer', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   transaction/NN   represents/VBZ   another/DT   consistent/NN   milestone/NN   in/IN   our/PRP$   diversification/NN   strategy/NN   to/TO   bring/VB   sustainable/JJ   growth/NN   to/TO   sanofi/VB   aventis.&/JJ   #/#   8221/CD   ;/:   "/:   (PERSON Merck/NNP)   has/VBZ   been/VBN   in/IN   the/DT   animal/JJ   health/NN   business/NN   for/IN   well/RB   over/RB   six/CD   decades/NNS   and/CC   through/IN   this/DT   new/JJ   joint/NN   venture/NN   ,/,   we/PRP   will/MD   bolster/VB   our/PRP$   diverse/NN   portfolio/NN   and/CC   create/VB   a/DT   new/JJ   global/JJ   competitor/NN   poised/VBD   for/IN   growth/NN   ,/,   "/:   said/VBD   (PERSON Richard/NNP T./NNP Clark/NNP)   ,/,   (PERSON Merck/NNP Chairman/NNP)   ,/,   President/NNP   and/CC   Chief/NNP   Executive/NNP   Officer/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   represents/VBZ   another/DT   consistent/NN   milestone/NN   in/IN   our/PRP$   diversification/NN   strategy/NN)
+	(VERB bring/VB sustainable/JJ growth/NN)
+	(VERB sanofi/VB aventis.&/JJ)
+	(VERB   has/VBZ   been/VBN   in/IN   the/DT   animal/JJ   health/NN   business/NN   for/IN   well/RB)
+	(VERB bolster/VB our/PRP$ diverse/NN portfolio/NN)
+
+tagged sentence:
+	 bolster our diverse portfolio	res:1
+	(VERB create/VB a/DT new/JJ global/JJ competitor/NN)
+	(VERB poised/VBD for/IN growth/NN)
+	(VERB said/VBD Richard/NNP T./NNP Clark/NNP)
+noun phrases to consider:
+	(NOUN transaction/NN)
+	(NOUN Merck/NNP)
+	(NOUN decades/NNS)
+	(NOUN this/DT new/JJ joint/NN venture/NN)
+	(NOUN Merck/NNP Chairman/NNP)
+	(NOUN President/NNP)
+	(NOUN Chief/NNP Executive/NNP Officer/NNP)
+
+----------------------------------
+original sentence: 
+"This new joint venture delivers on Merck's commitment to customer focus by creating one of the broadest portfolios of animal health products and services in pharmaceuticals and biologics for millions of customers who include farmers, veterinarians and pet owners.
+
+POS tagged sentence: 
+[('"', 'NN'), ('This', 'DT'), ('new', 'JJ'), ('joint', 'NN'), ('venture', 'NN'), ('delivers', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ("'s", 'POS'), ('commitment', 'NN'), ('to', 'TO'), ('customer', 'NN'), ('focus', 'NN'), ('by', 'IN'), ('creating', 'NN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('broadest', 'JJS'), ('portfolios', 'NNS'), ('of', 'IN'), ('animal', 'JJ'), ('health', 'NN'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), ('in', 'IN'), ('pharmaceuticals', 'NNS'), ('and', 'CC'), ('biologics', 'NNS'), ('for', 'IN'), ('millions', 'NNS'), ('of', 'IN'), ('customers', 'NNS'), ('who', 'WP'), ('include', 'VBP'), ('farmers', 'NNS'), (',', ','), ('veterinarians', 'NNS'), ('and', 'CC'), ('pet', 'NN'), ('owners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   This/DT   new/JJ   joint/NN   venture/NN   delivers/NNS   on/IN   (PERSON Merck/NNP)   's/POS   commitment/NN   to/TO   customer/NN   focus/NN   by/IN   creating/NN   one/CD   of/IN   the/DT   broadest/JJS   portfolios/NNS   of/IN   animal/JJ   health/NN   products/NNS   and/CC   services/NNS   in/IN   pharmaceuticals/NNS   and/CC   biologics/NNS   for/IN   millions/NNS   of/IN   customers/NNS   who/WP   include/VBP   farmers/NNS   ,/,   veterinarians/NNS   and/CC   pet/NN   owners/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VBP farmers/NNS)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN This/DT new/JJ joint/NN venture/NN delivers/NNS)
+	(NOUN Merck/NNP)
+	(NOUN commitment/NN)
+	(NOUN customer/NN focus/NN)
+	(NOUN creating/NN)
+	(NOUN the/DT broadest/JJS portfolios/NNS)
+	(NOUN animal/JJ health/NN products/NNS)
+	(NOUN services/NNS)
+	(NOUN pharmaceuticals/NNS)
+	(NOUN biologics/NNS)
+	(NOUN millions/NNS)
+	(NOUN customers/NNS)
+	(NOUN veterinarians/NNS)
+	(NOUN pet/NN owners/NNS)
+
+----------------------------------
+original sentence: 
+The planned joint venture will have an attractive geographical network of global technology and expertise to provide health solutions based on customers' needs, which often vary regionally.
+
+POS tagged sentence: 
+[('The', 'DT'), ('planned', 'VBN'), ('joint', 'JJ'), ('venture', 'NN'), ('will', 'MD'), ('have', 'VB'), ('an', 'DT'), ('attractive', 'JJ'), ('geographical', 'JJ'), ('network', 'NN'), ('of', 'IN'), ('global', 'JJ'), ('technology', 'NN'), ('and', 'CC'), ('expertise', 'VB'), ('to', 'TO'), ('provide', 'VB'), ('health', 'NN'), ('solutions', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('customers', 'NNS'), ("'", 'POS'), ('needs', 'NNS'), (',', ','), ('which', 'WDT'), ('often', 'RB'), ('vary', 'VBP'), ('regionally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   planned/VBN   joint/JJ   venture/NN   will/MD   have/VB   an/DT   attractive/JJ   geographical/JJ   network/NN   of/IN   global/JJ   technology/NN   and/CC   expertise/VB   to/TO   provide/VB   health/NN   solutions/NNS   based/VBN   on/IN   customers/NNS   '/POS   needs/NNS   ,/,   which/WDT   often/RB   vary/VBP   regionally/RB   ./.)
+----------------------------------
+original sentence: 
+"  The entreprise value of Merial has been fixed at $8 billion and the entreprise value of Intervet/Schering Plough at $8.5 billion, leading to a true up payment of $250 million to Merck to establish a 50/50 joint venture.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('entreprise', 'NN'), ('value', 'NN'), ('of', 'IN'), ('Merial', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('fixed', 'VBN'), ('at', 'IN'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('and', 'CC'), ('the', 'DT'), ('entreprise', 'NN'), ('value', 'NN'), ('of', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('at', 'IN'), ('$', '$'), ('8.5', 'CD'), ('billion', 'CD'), (',', ','), ('leading', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('true', 'JJ'), ('up', 'RP'), ('payment', 'NN'), ('of', 'IN'), ('$', '$'), ('250', 'CD'), ('million', 'CD'), ('to', 'TO'), ('Merck', 'NNP'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('50/50', 'CD'), ('joint', 'NN'), ('venture', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   entreprise/NN   value/NN   of/IN   (ORGANIZATION Merial/NNP)   has/VBZ   been/VBN   fixed/VBN   at/IN   $/$   8/CD   billion/CD   and/CC   the/DT   entreprise/NN   value/NN   of/IN   Intervet/Schering/JJ   Plough/NNP   at/IN   $/$   8.5/CD   billion/CD   ,/,   leading/VBG   to/TO   a/DT   true/JJ   up/RP   payment/NN   of/IN   $/$   250/CD   million/CD   to/TO   (GPE Merck/NNP)   to/TO   establish/VB   a/DT   50/50/CD   joint/NN   venture/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ been/VBN fixed/VBN at/IN)
+	(VERB leading/VBG to/TO a/DT true/JJ)
+	(VERB establish/VB a/DT 50/50/CD joint/NN venture/NN)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN entreprise/NN value/NN)
+	(NOUN Merial/NNP)
+	(NOUN entreprise/NN value/NN)
+	(NOUN Intervet/Schering/JJ Plough/NNP)
+	(NOUN payment/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+An additional amount of $750 million will be paid by sanofi aventis, as per the terms of the agreement signed on July 29, 2009.
+
+POS tagged sentence: 
+[('An', 'DT'), ('additional', 'JJ'), ('amount', 'NN'), ('of', 'IN'), ('$', '$'), ('750', 'CD'), ('million', 'CD'), ('will', 'MD'), ('be', 'VB'), ('paid', 'VBN'), ('by', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), (',', ','), ('as', 'IN'), ('per', 'NN'), ('the', 'DT'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('agreement', 'NN'), ('signed', 'VBD'), ('on', 'IN'), ('July', 'NNP'), ('29', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   additional/JJ   amount/NN   of/IN   $/$   750/CD   million/CD   will/MD   be/VB   paid/VBN   by/IN   sanofi/NN   aventis/NNS   ,/,   as/IN   per/NN   the/DT   terms/NNS   of/IN   the/DT   agreement/NN   signed/VBD   on/IN   July/NNP   29/CD   ,/,   2009/CD   ./.)
+----------------------------------
+original sentence: 
+All payments, including adjustments for debt and certain other liabilities will be made upon closing of the transaction.
+
+POS tagged sentence: 
+[('All', 'DT'), ('payments', 'NNS'), (',', ','), ('including', 'VBG'), ('adjustments', 'NNS'), ('for', 'IN'), ('debt', 'NN'), ('and', 'CC'), ('certain', 'JJ'), ('other', 'JJ'), ('liabilities', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('upon', 'IN'), ('closing', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   payments/NNS   ,/,   including/VBG   adjustments/NNS   for/IN   debt/NN   and/CC   certain/JJ   other/JJ   liabilities/NNS   will/MD   be/VB   made/VBN   upon/IN   closing/JJ   of/IN   the/DT   transaction/NN   ./.)
+----------------------------------
+original sentence: 
+This new joint venture will offer a broader portfolio of animal health products and services in pharmaceuticals and biologics, as well as the ability to capitalize on growth opportunities in all fields and countries around the world.
+
+POS tagged sentence: 
+[('This', 'DT'), ('new', 'JJ'), ('joint', 'NN'), ('venture', 'NN'), ('will', 'MD'), ('offer', 'VB'), ('a', 'DT'), ('broader', 'JJR'), ('portfolio', 'NN'), ('of', 'IN'), ('animal', 'JJ'), ('health', 'NN'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), ('in', 'IN'), ('pharmaceuticals', 'NNS'), ('and', 'CC'), ('biologics', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('the', 'DT'), ('ability', 'NN'), ('to', 'TO'), ('capitalize', 'VB'), ('on', 'IN'), ('growth', 'NN'), ('opportunities', 'NNS'), ('in', 'IN'), ('all', 'DT'), ('fields', 'NNS'), ('and', 'CC'), ('countries', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   new/JJ   joint/NN   venture/NN   will/MD   offer/VB   a/DT   broader/JJR   portfolio/NN   of/IN   animal/JJ   health/NN   products/NNS   and/CC   services/NNS   in/IN   pharmaceuticals/NNS   and/CC   biologics/NNS   ,/,   as/IN   well/RB   as/IN   the/DT   ability/NN   to/TO   capitalize/VB   on/IN   growth/NN   opportunities/NNS   in/IN   all/DT   fields/NNS   and/CC   countries/NNS   around/IN   the/DT   world/NN   ./.)
+----------------------------------
+original sentence: 
+The worldwide animal health market reached $19 billion in 2008.
+
+POS tagged sentence: 
+[('The', 'DT'), ('worldwide', 'NN'), ('animal', 'NN'), ('health', 'NN'), ('market', 'NN'), ('reached', 'VBD'), ('$', '$'), ('19', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   worldwide/NN   animal/NN   health/NN   market/NN   reached/VBD   $/$   19/CD   billion/CD   in/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+Products for companion animals accounted for 40 percent of total sales while products for production animals accounted for the remaining 60 percent of total sales.
+
+POS tagged sentence: 
+[('Products', 'NNS'), ('for', 'IN'), ('companion', 'NN'), ('animals', 'NNS'), ('accounted', 'VBD'), ('for', 'IN'), ('40', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('total', 'JJ'), ('sales', 'NNS'), ('while', 'IN'), ('products', 'NNS'), ('for', 'IN'), ('production', 'NN'), ('animals', 'NNS'), ('accounted', 'VBD'), ('for', 'IN'), ('the', 'DT'), ('remaining', 'VBG'), ('60', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('total', 'JJ'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Products/NNS   for/IN   companion/NN   animals/NNS   accounted/VBD   for/IN   40/CD   percent/NN   of/IN   total/JJ   sales/NNS   while/IN   products/NNS   for/IN   production/NN   animals/NNS   accounted/VBD   for/IN   the/DT   remaining/VBG   60/CD   percent/NN   of/IN   total/JJ   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+This market is expected to grow at around 5 percent per year over the next 5 years, driven by a growing demand for animal proteins, as well as a strong consumer needs for companion animal health care.
+
+POS tagged sentence: 
+[('This', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('grow', 'VB'), ('at', 'IN'), ('around', 'IN'), ('5', 'CD'), ('percent', 'NN'), ('per', 'IN'), ('year', 'NN'), ('over', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('5', 'CD'), ('years', 'NNS'), (',', ','), ('driven', 'RB'), ('by', 'IN'), ('a', 'DT'), ('growing', 'VBG'), ('demand', 'NN'), ('for', 'IN'), ('animal', 'JJ'), ('proteins', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('a', 'DT'), ('strong', 'JJ'), ('consumer', 'NN'), ('needs', 'VBZ'), ('for', 'IN'), ('companion', 'NN'), ('animal', 'JJ'), ('health', 'NN'), ('care', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   market/NN   is/VBZ   expected/VBN   to/TO   grow/VB   at/IN   around/IN   5/CD   percent/NN   per/IN   year/NN   over/IN   the/DT   next/JJ   5/CD   years/NNS   ,/,   driven/RB   by/IN   a/DT   growing/VBG   demand/NN   for/IN   animal/JJ   proteins/NNS   ,/,   as/IN   well/RB   as/IN   a/DT   strong/JJ   consumer/NN   needs/VBZ   for/IN   companion/NN   animal/JJ   health/NN   care/NN   ./.)
+----------------------------------
+original sentence: 
+The&#160;companies said&#160;that both Merial and Intervet/Schering Plough will continue to operate independently until the closing of the transaction.
+
+POS tagged sentence: 
+[('The&', 'NN'), ('#', '#'), ('160', 'CD'), (';', ':'), ('companies', 'NNS'), ('said&', '-NONE-'), ('#', '#'), ('160', 'CD'), (';', ':'), ('that', 'DT'), ('both', 'DT'), ('Merial', 'NNP'), ('and', 'CC'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('operate', 'VB'), ('independently', 'RB'), ('until', 'IN'), ('the', 'DT'), ('closing', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The&/NN   #/#   160/CD   ;/:   companies/NNS   said&/-NONE-   #/#   160/CD   ;/:   that/DT   both/DT   (ORGANIZATION Merial/NNP)   and/CC   Intervet/Schering/JJ   Plough/NNP   will/MD   continue/VB   to/TO   operate/VB   independently/RB   until/IN   the/DT   closing/JJ   of/IN   the/DT   transaction/NN   ./.)
+----------------------------------
+original sentence: 
+Today's Merck is working to help the world be well.
+
+POS tagged sentence: 
+[('Today', 'NN'), ("'s", 'POS'), ('Merck', 'NNP'), ('is', 'VBZ'), ('working', 'VBG'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('world', 'NN'), ('be', 'VB'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   's/POS   (ORGANIZATION Merck/NNP)   is/VBZ   working/VBG   to/TO   help/VB   the/DT   world/NN   be/VB   well/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ working/VBG)
+	(VERB help/VB the/DT world/NN)
+	(VERB be/VB well/RB)
+noun phrases to consider:
+	(NOUN Today/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Through our medicines, vaccines, biologic therapies, and consumer and animal products, we work with customers and operate in more than 140 countries to deliver innovative health solutions.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('our', 'PRP$'), ('medicines', 'NNS'), (',', ','), ('vaccines', 'NNS'), (',', ','), ('biologic', 'JJ'), ('therapies', 'NNS'), (',', ','), ('and', 'CC'), ('consumer', 'NN'), ('and', 'CC'), ('animal', 'JJ'), ('products', 'NNS'), (',', ','), ('we', 'PRP'), ('work', 'VBP'), ('with', 'IN'), ('customers', 'NNS'), ('and', 'CC'), ('operate', 'VBP'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('140', 'CD'), ('countries', 'NNS'), ('to', 'TO'), ('deliver', 'VB'), ('innovative', 'JJ'), ('health', 'NN'), ('solutions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   our/PRP$   medicines/NNS   ,/,   vaccines/NNS   ,/,   biologic/JJ   therapies/NNS   ,/,   and/CC   consumer/NN   and/CC   animal/JJ   products/NNS   ,/,   we/PRP   work/VBP   with/IN   customers/NNS   and/CC   operate/VBP   in/IN   more/JJR   than/IN   140/CD   countries/NNS   to/TO   deliver/VB   innovative/JJ   health/NN   solutions/NNS   ./.)
+----------------------------------
+original sentence: 
+We also demonstrate our commitment to increasing access to health care through far reaching programs that donate and deliver our products to the people who need them.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('also', 'RB'), ('demonstrate', 'VBP'), ('our', 'PRP$'), ('commitment', 'NN'), ('to', 'TO'), ('increasing', 'VBG'), ('access', 'NN'), ('to', 'TO'), ('health', 'NN'), ('care', 'NN'), ('through', 'IN'), ('far', 'RB'), ('reaching', 'VBG'), ('programs', 'NNS'), ('that', 'WDT'), ('donate', 'JJ'), ('and', 'CC'), ('deliver', 'NN'), ('our', 'PRP$'), ('products', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('people', 'NNS'), ('who', 'WP'), ('need', 'VBP'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   also/RB   demonstrate/VBP   our/PRP$   commitment/NN   to/TO   increasing/VBG   access/NN   to/TO   health/NN   care/NN   through/IN   far/RB   reaching/VBG   programs/NNS   that/WDT   donate/JJ   and/CC   deliver/NN   our/PRP$   products/NNS   to/TO   the/DT   people/NNS   who/WP   need/VBP   them/PRP   ./.)
+----------------------------------
+original sentence: 
+Merck.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Be Well.
+
+POS tagged sentence: 
+[('Be', 'VB'), ('Well', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Be/VB Well/NNP ./.)
+----------------------------------
+original sentence: 
+For more information, visit About sanofi aventis
+ Sanofi aventis, a leading global pharmaceutical company, discovers, develops and distributes therapeutic solutions to improve the lives of everyone.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('visit', 'NN'), ('About', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('Sanofi', 'NNP'), ('aventis', 'NNS'), (',', ','), ('a', 'DT'), ('leading', 'VBG'), ('global', 'JJ'), ('pharmaceutical', 'JJ'), ('company', 'NN'), (',', ','), ('discovers', 'NNS'), (',', ','), ('develops', 'NNS'), ('and', 'CC'), ('distributes', 'VBZ'), ('therapeutic', 'JJ'), ('solutions', 'NNS'), ('to', 'TO'), ('improve', 'VB'), ('the', 'DT'), ('lives', 'NNS'), ('of', 'IN'), ('everyone', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   visit/NN   About/IN   sanofi/NN   aventis/NNS   (GPE Sanofi/NNP)   aventis/NNS   ,/,   a/DT   leading/VBG   global/JJ   pharmaceutical/JJ   company/NN   ,/,   discovers/NNS   ,/,   develops/NNS   and/CC   distributes/VBZ   therapeutic/JJ   solutions/NNS   to/TO   improve/VB   the/DT   lives/NNS   of/IN   everyone/NN   ./.)
+----------------------------------
+original sentence: 
+Sanofi aventis is listed in Paris EURONEXT: SAN and in New York NYSE: SNY .
+
+POS tagged sentence: 
+[('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('is', 'VBZ'), ('listed', 'VBN'), ('in', 'IN'), ('Paris', 'NNP'), ('EURONEXT', 'NNP'), (':', ':'), ('SAN', 'NNP'), ('and', 'CC'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SNY', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sanofi/NNP)   aventis/VBZ   is/VBZ   listed/VBN   in/IN   (GPE Paris/NNP)   EURONEXT/NNP   :/:   (ORGANIZATION SAN/NNP)   and/CC   in/IN   (GPE New/NNP York/NNP NYSE/NNP)   :/:   (ORGANIZATION SNY/NNP)   ./.)
+----------------------------------
+original sentence: 
+About Intervet/Schering Plough
+Intervet/Schering Plough Animal Health
+, based in Boxmeer, the Netherlands, is focused on the research, development, manufacturing and marketing of animal health products.
+
+POS tagged sentence: 
+[('About', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('Animal', 'NNP'), ('Health', 'NNP'), (',', ','), ('based', 'VBN'), ('in', 'IN'), ('Boxmeer', 'NNP'), (',', ','), ('the', 'DT'), ('Netherlands', 'NNP'), (',', ','), ('is', 'VBZ'), ('focused', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('research', 'NN'), (',', ','), ('development', 'NN'), (',', ','), ('manufacturing', 'NN'), ('and', 'CC'), ('marketing', 'NN'), ('of', 'IN'), ('animal', 'JJ'), ('health', 'NN'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   Intervet/Schering/JJ   Plough/NNP   Intervet/Schering/JJ   Plough/NNP   (PERSON Animal/NNP Health/NNP)   ,/,   based/VBN   in/IN   (GPE Boxmeer/NNP)   ,/,   the/DT   (GPE Netherlands/NNP)   ,/,   is/VBZ   focused/VBN   on/IN   the/DT   research/NN   ,/,   development/NN   ,/,   manufacturing/NN   and/CC   marketing/NN   of/IN   animal/JJ   health/NN   products/NNS   ./.)
+----------------------------------
+original sentence: 
+The company offers customers one of the broadest, most innovative animal health portfolios, spanning products to support performance and to prevent, treat and control disease in all major farm and companion animal species.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('offers', 'VBZ'), ('customers', 'NNS'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('broadest', 'JJS'), (',', ','), ('most', 'RBS'), ('innovative', 'JJ'), ('animal', 'JJ'), ('health', 'NN'), ('portfolios', 'NNS'), (',', ','), ('spanning', 'VBG'), ('products', 'NNS'), ('to', 'TO'), ('support', 'VB'), ('performance', 'NN'), ('and', 'CC'), ('to', 'TO'), ('prevent', 'VB'), (',', ','), ('treat', 'VB'), ('and', 'CC'), ('control', 'NN'), ('disease', 'NN'), ('in', 'IN'), ('all', 'DT'), ('major', 'JJ'), ('farm', 'NN'), ('and', 'CC'), ('companion', 'NN'), ('animal', 'NN'), ('species', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   offers/VBZ   customers/NNS   one/CD   of/IN   the/DT   broadest/JJS   ,/,   most/RBS   innovative/JJ   animal/JJ   health/NN   portfolios/NNS   ,/,   spanning/VBG   products/NNS   to/TO   support/VB   performance/NN   and/CC   to/TO   prevent/VB   ,/,   treat/VB   and/CC   control/NN   disease/NN   in/IN   all/DT   major/JJ   farm/NN   and/CC   companion/NN   animal/NN   species/NNS   ./.)
+----------------------------------
+original sentence: 
+Intervet/Schering Plough Animal Health
+ is a fully owned business unit of Merck & Co., Inc., based in Whitehouse Station NJ, USA.
+
+POS tagged sentence: 
+[('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('Animal', 'NNP'), ('Health', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('fully', 'RB'), ('owned', 'VBN'), ('business', 'NN'), ('unit', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('based', 'VBN'), ('in', 'IN'), ('Whitehouse', 'NNP'), ('Station', 'NNP'), ('NJ', 'NNP'), (',', ','), ('USA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Intervet/Schering/JJ   Plough/NNP   (PERSON Animal/NNP Health/NNP)   is/VBZ   a/DT   fully/RB   owned/VBN   business/NN   unit/NN   of/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   ,/,   based/VBN   in/IN   (ORGANIZATION Whitehouse/NNP Station/NNP)   NJ/NNP   ,/,   (ORGANIZATION USA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT fully/RB)
+	(VERB owned/VBN business/NN unit/NN of/IN Merck/NNP)
+	(VERB based/VBN in/IN Whitehouse/NNP Station/NNP NJ/NNP)
+noun phrases to consider:
+	(NOUN Intervet/Schering/JJ Plough/NNP Animal/NNP Health/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN USA/NNP)
+
+----------------------------------
+original sentence: 
+For more information about Intervet/Schering Plough Animal Health
+ Merial is a world leading, innovation driven animal health company, providing a comprehensive range of products to enhance the health, well being and performance of a wide range of animals.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('about', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), ('Animal', 'NNP'), ('Health', 'NNP'), ('Merial', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('world', 'NN'), ('leading', 'VBG'), (',', ','), ('innovation', 'NN'), ('driven', 'RB'), ('animal', 'JJ'), ('health', 'NN'), ('company', 'NN'), (',', ','), ('providing', 'VBG'), ('a', 'DT'), ('comprehensive', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('products', 'NNS'), ('to', 'TO'), ('enhance', 'VB'), ('the', 'DT'), ('health', 'NN'), (',', ','), ('well', 'RB'), ('being', 'VBG'), ('and', 'CC'), ('performance', 'NN'), ('of', 'IN'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('animals', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   about/IN   Intervet/Schering/JJ   Plough/NNP   (PERSON Animal/NNP Health/NNP Merial/NNP)   is/VBZ   a/DT   world/NN   leading/VBG   ,/,   innovation/NN   driven/RB   animal/JJ   health/NN   company/NN   ,/,   providing/VBG   a/DT   comprehensive/JJ   range/NN   of/IN   products/NNS   to/TO   enhance/VB   the/DT   health/NN   ,/,   well/RB   being/VBG   and/CC   performance/NN   of/IN   a/DT   wide/JJ   range/NN   of/IN   animals/NNS   ./.)
+----------------------------------
+original sentence: 
+Merial employs approximately 5,700 people and operates in more than 150 countries worldwide.
+
+POS tagged sentence: 
+[('Merial', 'JJ'), ('employs', 'NNS'), ('approximately', 'RB'), ('5,700', 'CD'), ('people', 'NNS'), ('and', 'CC'), ('operates', 'VBZ'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('150', 'CD'), ('countries', 'NNS'), ('worldwide', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merial/JJ)   employs/NNS   approximately/RB   5,700/CD   people/NNS   and/CC   operates/VBZ   in/IN   more/JJR   than/IN   150/CD   countries/NNS   worldwide/IN   ./.)
+----------------------------------
+original sentence: 
+Formed in 1997, Merial is a leading animal health company that was a 50/50 joint venture between Merck and sanofi aventis and is now a wholly owned subsidiary of sanofi aventis, after Sanofi aventis acquired Merck&#8217;s interest in Merial for a cash consideration of $4 billion US in 2009.
+
+POS tagged sentence: 
+[('Formed', 'VBN'), ('in', 'IN'), ('1997', 'CD'), (',', ','), ('Merial', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('leading', 'VBG'), ('animal', 'JJ'), ('health', 'NN'), ('company', 'NN'), ('that', 'WDT'), ('was', 'VBD'), ('a', 'DT'), ('50/50', 'CD'), ('joint', 'NN'), ('venture', 'NN'), ('between', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('and', 'CC'), ('is', 'VBZ'), ('now', 'RB'), ('a', 'DT'), ('wholly', 'RB'), ('owned', 'VBN'), ('subsidiary', 'NN'), ('of', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), (',', ','), ('after', 'IN'), ('Sanofi', 'NNP'), ('aventis', 'NNS'), ('acquired', 'VBD'), ('Merck&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('interest', 'NN'), ('in', 'IN'), ('Merial', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('cash', 'NN'), ('consideration', 'NN'), ('of', 'IN'), ('$', '$'), ('4', 'CD'), ('billion', 'CD'), ('US', 'NNP'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Formed/VBN   in/IN   1997/CD   ,/,   (ORGANIZATION Merial/NNP)   is/VBZ   a/DT   leading/VBG   animal/JJ   health/NN   company/NN   that/WDT   was/VBD   a/DT   50/50/CD   joint/NN   venture/NN   between/IN   (PERSON Merck/NNP)   and/CC   sanofi/NN   aventis/NNS   and/CC   is/VBZ   now/RB   a/DT   wholly/RB   owned/VBN   subsidiary/NN   of/IN   sanofi/NN   aventis/NNS   ,/,   after/IN   (GPE Sanofi/NNP)   aventis/NNS   acquired/VBD   Merck&/JJ   #/#   8217/CD   ;/:   s/NNS   interest/NN   in/IN   (GPE Merial/NNP)   for/IN   a/DT   cash/NN   consideration/NN   of/IN   $/$   4/CD   billion/CD   US/NNP   in/IN   2009/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Formed/VBN in/IN 1997/CD)
+	(VERB is/VBZ a/DT)
+	(VERB leading/VBG animal/JJ health/NN company/NN)
+	(VERB was/VBD a/DT 50/50/CD joint/NN venture/NN between/IN Merck/NNP)
+	(VERB is/VBZ now/RB a/DT wholly/RB)
+	(VERB owned/VBN subsidiary/NN of/IN sanofi/NN aventis/NNS)
+	(VERB acquired/VBD Merck&/JJ)
+
+tagged sentence:
+	 acquired Merck&	res:2
+noun phrases to consider:
+	(NOUN Merial/NNP)
+	(NOUN sanofi/NN aventis/NNS)
+	(NOUN Sanofi/NNP aventis/NNS)
+	(NOUN s/NNS interest/NN)
+	(NOUN Merial/NNP)
+	(NOUN cash/NN consideration/NN)
+	(NOUN billion/CD US/NNP)
+
+----------------------------------
+original sentence: 
+For more information, please see&#160;
+Forward Looking Statements by Merck
+ This news release includes &#8220;forward looking statements&#8221; within the meaning of the safe harbor provisions of the United States Private Securities Litigation Reform Act of 1995.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('please', 'VB'), ('see&', 'JJ'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Forward', 'NNP'), ('Looking', 'NNP'), ('Statements', 'NNP'), ('by', 'IN'), ('Merck', 'NNP'), ('This', 'NNP'), ('news', 'NN'), ('release', 'NN'), ('includes', 'VBZ'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('forward', 'RB'), ('looking', 'VBG'), ('statements&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('within', 'IN'), ('the', 'DT'), ('meaning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('safe', 'NN'), ('harbor', 'NN'), ('provisions', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('Private', 'NNP'), ('Securities', 'NNPS'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   please/VB   see&/JJ   #/#   160/CD   ;/:   (PERSON Forward/NNP Looking/NNP Statements/NNP)   by/IN   (PERSON Merck/NNP)   This/NNP   news/NN   release/NN   includes/VBZ   &/CC   #/#   8220/CD   ;/:   forward/RB   looking/VBG   statements&/NN   #/#   8221/CD   ;/:   within/IN   the/DT   meaning/NN   of/IN   the/DT   safe/NN   harbor/NN   provisions/NNS   of/IN   the/DT   (GPE United/NNP States/NNPS)   (ORGANIZATION     Private/NNP     Securities/NNPS     Litigation/NNP     Reform/NNP     Act/NNP)   of/IN   1995/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB please/VB see&/JJ)
+	(VERB includes/VBZ)
+	(VERB looking/VBG statements&/NN)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN Forward/NNP Looking/NNP Statements/NNP)
+	(NOUN Merck/NNP This/NNP news/NN release/NN)
+	(NOUN meaning/NN)
+	(NOUN safe/NN harbor/NN provisions/NNS)
+	(NOUN United/NNP States/NNPS Private/NNP Securities/NNPS)
+	(NOUN Litigation/NNP Reform/NNP Act/NNP)
+
+----------------------------------
+original sentence: 
+Such statements may include, but are not limited to, statements about the benefits of the merger between Merck and Schering Plough, including future financial and operating results, the combined company&#8217;s plans, objectives, expectations and intentions and other statements that are not historical facts.
+
+POS tagged sentence: 
+[('Such', 'JJ'), ('statements', 'NNS'), ('may', 'MD'), ('include', 'VB'), (',', ','), ('but', 'CC'), ('are', 'VBP'), ('not', 'RB'), ('limited', 'VBN'), ('to', 'TO'), (',', ','), ('statements', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('benefits', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('between', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Schering', 'NNP'), ('Plough', 'NNP'), (',', ','), ('including', 'VBG'), ('future', 'JJ'), ('financial', 'JJ'), ('and', 'CC'), ('operating', 'NN'), ('results', 'NNS'), (',', ','), ('the', 'DT'), ('combined', 'VBN'), ('company&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('plans', 'VBZ'), (',', ','), ('objectives', 'NNS'), (',', ','), ('expectations', 'NNS'), ('and', 'CC'), ('intentions', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('statements', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('not', 'RB'), ('historical', 'JJ'), ('facts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Such/JJ   statements/NNS   may/MD   include/VB   ,/,   but/CC   are/VBP   not/RB   limited/VBN   to/TO   ,/,   statements/NNS   about/IN   the/DT   benefits/NNS   of/IN   the/DT   merger/NN   between/IN   (PERSON Merck/NNP)   and/CC   (ORGANIZATION Schering/NNP Plough/NNP)   ,/,   including/VBG   future/JJ   financial/JJ   and/CC   operating/NN   results/NNS   ,/,   the/DT   combined/VBN   company&/-NONE-   #/#   8217/CD   ;/:   s/NNS   plans/VBZ   ,/,   objectives/NNS   ,/,   expectations/NNS   and/CC   intentions/NNS   and/CC   other/JJ   statements/NNS   that/IN   are/VBP   not/RB   historical/JJ   facts/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VB)
+	(VERB are/VBP not/RB limited/VBN)
+	(VERB including/VBG future/JJ financial/JJ)
+	(VERB combined/VBN)
+	(VERB plans/VBZ)
+	(VERB are/VBP not/RB historical/JJ facts/NNS)
+noun phrases to consider:
+	(NOUN Such/JJ statements/NNS)
+	(NOUN statements/NNS)
+	(NOUN benefits/NNS)
+
+tagged sentence:
+	 benefits	res:1
+	(NOUN merger/NN)
+
+tagged sentence:
+	 merger	res:2
+	(NOUN Merck/NNP)
+	(NOUN Schering/NNP Plough/NNP)
+	(NOUN operating/NN results/NNS)
+	(NOUN s/NNS)
+	(NOUN objectives/NNS)
+	(NOUN expectations/NNS)
+	(NOUN intentions/NNS)
+	(NOUN other/JJ statements/NNS)
+
+----------------------------------
+original sentence: 
+Such statements are based upon the current beliefs and expectations of Merck&#8217;s management and are subject to significant risks and uncertainties.
+
+POS tagged sentence: 
+[('Such', 'JJ'), ('statements', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('upon', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('beliefs', 'NNS'), ('and', 'CC'), ('expectations', 'NNS'), ('of', 'IN'), ('Merck&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('management', 'NN'), ('and', 'CC'), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('significant', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Such/JJ   statements/NNS   are/VBP   based/VBN   upon/IN   the/DT   current/JJ   beliefs/NNS   and/CC   expectations/NNS   of/IN   Merck&/JJ   #/#   8217/CD   ;/:   s/NNS   management/NN   and/CC   are/VBP   subject/JJ   to/TO   significant/JJ   risks/NNS   and/CC   uncertainties/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP based/VBN upon/IN the/DT current/JJ beliefs/NNS)
+	(VERB are/VBP subject/JJ)
+
+tagged sentence:
+	 are subject	res:-1
+noun phrases to consider:
+	(NOUN Such/JJ statements/NNS)
+	(NOUN expectations/NNS)
+	(NOUN Merck&/JJ)
+	(NOUN s/NNS management/NN)
+	(NOUN significant/JJ risks/NNS)
+	(NOUN uncertainties/NNS)
+
+----------------------------------
+original sentence: 
+Actual results may differ from those set forth in the forward looking statements.
+
+POS tagged sentence: 
+[('Actual', 'JJ'), ('results', 'NNS'), ('may', 'MD'), ('differ', 'VB'), ('from', 'IN'), ('those', 'DT'), ('set', 'NN'), ('forth', 'NN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Actual/JJ)   results/NNS   may/MD   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+The following factors, among others, could cause actual results to differ from those set forth in the forward looking statements: the possibility that the expected synergies from the merger of Merck and Schering Plough will not be realized, or will not be realized within the expected time period, due to, among other things, the impact of pharmaceutical industry regulation and pending legislation that could affect the pharmaceutical industry; the risk that the businesses will not be integrated successfully; disruption from the merger making it more difficult to maintain business and operational relationships; Merck&#8217;s ability to accurately predict future market conditions; dependence on the effectiveness of Merck&#8217;s patents and other protections for innovative products; the risk of new and changing regulation and health policies in the U.S. and internationally and the exposure to litigation and/or regulatory actions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('following', 'VBG'), ('factors', 'NNS'), (',', ','), ('among', 'IN'), ('others', 'NNS'), (',', ','), ('could', 'MD'), ('cause', 'VB'), ('actual', 'JJ'), ('results', 'NNS'), ('to', 'TO'), ('differ', 'VB'), ('from', 'IN'), ('those', 'DT'), ('set', 'NN'), ('forth', 'NN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), (':', ':'), ('the', 'DT'), ('possibility', 'NN'), ('that', 'IN'), ('the', 'DT'), ('expected', 'VBN'), ('synergies', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('realized', 'VBN'), (',', ','), ('or', 'CC'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('realized', 'VBN'), ('within', 'IN'), ('the', 'DT'), ('expected', 'VBN'), ('time', 'NN'), ('period', 'NN'), (',', ','), ('due', 'JJ'), ('to', 'TO'), (',', ','), ('among', 'IN'), ('other', 'JJ'), ('things', 'NNS'), (',', ','), ('the', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('pharmaceutical', 'JJ'), ('industry', 'NN'), ('regulation', 'NN'), ('and', 'CC'), ('pending', 'VBG'), ('legislation', 'NN'), ('that', 'WDT'), ('could', 'MD'), ('affect', 'VB'), ('the', 'DT'), ('pharmaceutical', 'JJ'), ('industry', 'NN'), (';', ':'), ('the', 'DT'), ('risk', 'NN'), ('that', 'IN'), ('the', 'DT'), ('businesses', 'NNS'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('integrated', 'VBN'), ('successfully', 'RB'), (';', ':'), ('disruption', 'NN'), ('from', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('making', 'VBG'), ('it', 'PRP'), ('more', 'JJR'), ('difficult', 'JJ'), ('to', 'TO'), ('maintain', 'VB'), ('business', 'NN'), ('and', 'CC'), ('operational', 'JJ'), ('relationships', 'NNS'), (';', ':'), ('Merck&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ability', 'NN'), ('to', 'TO'), ('accurately', 'RB'), ('predict', 'VB'), ('future', 'JJ'), ('market', 'NN'), ('conditions', 'NNS'), (';', ':'), ('dependence', 'NN'), ('on', 'IN'), ('the', 'DT'), ('effectiveness', 'NN'), ('of', 'IN'), ('Merck&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('patents', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('protections', 'NNS'), ('for', 'IN'), ('innovative', 'JJ'), ('products', 'NNS'), (';', ':'), ('the', 'DT'), ('risk', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('and', 'CC'), ('changing', 'VBG'), ('regulation', 'NN'), ('and', 'CC'), ('health', 'NN'), ('policies', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('internationally', 'RB'), ('and', 'CC'), ('the', 'DT'), ('exposure', 'NN'), ('to', 'TO'), ('litigation', 'NN'), ('and/or', 'NN'), ('regulatory', 'NN'), ('actions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   following/VBG   factors/NNS   ,/,   among/IN   others/NNS   ,/,   could/MD   cause/VB   actual/JJ   results/NNS   to/TO   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   :/:   the/DT   possibility/NN   that/IN   the/DT   expected/VBN   synergies/NNS   from/IN   the/DT   merger/NN   of/IN   (GPE Merck/NNP)   and/CC   (ORGANIZATION Schering/NNP Plough/NNP)   will/MD   not/RB   be/VB   realized/VBN   ,/,   or/CC   will/MD   not/RB   be/VB   realized/VBN   within/IN   the/DT   expected/VBN   time/NN   period/NN   ,/,   due/JJ   to/TO   ,/,   among/IN   other/JJ   things/NNS   ,/,   the/DT   impact/NN   of/IN   pharmaceutical/JJ   industry/NN   regulation/NN   and/CC   pending/VBG   legislation/NN   that/WDT   could/MD   affect/VB   the/DT   pharmaceutical/JJ   industry/NN   ;/:   the/DT   risk/NN   that/IN   the/DT   businesses/NNS   will/MD   not/RB   be/VB   integrated/VBN   successfully/RB   ;/:   disruption/NN   from/IN   the/DT   merger/NN   making/VBG   it/PRP   more/JJR   difficult/JJ   to/TO   maintain/VB   business/NN   and/CC   operational/JJ   relationships/NNS   ;/:   Merck&/JJ   #/#   8217/CD   ;/:   s/NNS   ability/NN   to/TO   accurately/RB   predict/VB   future/JJ   market/NN   conditions/NNS   ;/:   dependence/NN   on/IN   the/DT   effectiveness/NN   of/IN   Merck&/NNP   #/#   8217/CD   ;/:   s/NNS   patents/NNS   and/CC   other/JJ   protections/NNS   for/IN   innovative/JJ   products/NNS   ;/:   the/DT   risk/NN   of/IN   new/JJ   and/CC   changing/VBG   regulation/NN   and/CC   health/NN   policies/NNS   in/IN   the/DT   (GPE U.S./NNP)   and/CC   internationally/RB   and/CC   the/DT   exposure/NN   to/TO   litigation/NN   and/or/NN   regulatory/NN   actions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB following/VBG factors/NNS)
+	(VERB cause/VB actual/JJ results/NNS)
+	(VERB   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN)
+	(VERB looking/VBG statements/NNS)
+	(VERB   expected/VBN   synergies/NNS   from/IN   the/DT   merger/NN   of/IN   Merck/NNP)
+
+tagged sentence:
+	 expected synergies from the merger of Merck	res:2
+	(VERB be/VB realized/VBN)
+	(VERB be/VB realized/VBN within/IN the/DT)
+	(VERB expected/VBN time/NN period/NN)
+	(VERB pending/VBG legislation/NN)
+	(VERB affect/VB the/DT pharmaceutical/JJ industry/NN)
+	(VERB be/VB integrated/VBN successfully/RB)
+	(VERB making/VBG it/PRP more/JJR difficult/JJ)
+	(VERB maintain/VB business/NN)
+	(VERB predict/VB future/JJ market/NN conditions/NNS)
+	(VERB changing/VBG regulation/NN)
+noun phrases to consider:
+	(NOUN others/NNS)
+	(NOUN possibility/NN)
+	(NOUN Schering/NNP Plough/NNP)
+	(NOUN due/JJ)
+	(NOUN other/JJ things/NNS)
+	(NOUN impact/NN)
+	(NOUN pharmaceutical/JJ industry/NN regulation/NN)
+	(NOUN risk/NN)
+	(NOUN businesses/NNS)
+	(NOUN disruption/NN)
+	(NOUN merger/NN)
+	(NOUN operational/JJ relationships/NNS)
+	(NOUN Merck&/JJ)
+	(NOUN s/NNS ability/NN)
+	(NOUN dependence/NN)
+
+tagged sentence:
+	 dependence	res:1
+	(NOUN effectiveness/NN)
+
+tagged sentence:
+	 effectiveness	res:1
+	(NOUN Merck&/NNP)
+	(NOUN s/NNS patents/NNS)
+	(NOUN other/JJ protections/NNS)
+	(NOUN innovative/JJ products/NNS)
+
+tagged sentence:
+	 innovative products	res:1
+	(NOUN risk/NN)
+	(NOUN new/JJ)
+	(NOUN health/NN policies/NNS)
+	(NOUN U.S./NNP)
+	(NOUN exposure/NN)
+	(NOUN litigation/NN and/or/NN regulatory/NN actions/NNS)
+
+----------------------------------
+original sentence: 
+Merck undertakes no obligation to publicly update any forward looking statement, whether as a result of new information, future events or otherwise.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('undertakes', 'VBZ'), ('no', 'DT'), ('obligation', 'NN'), ('to', 'TO'), ('publicly', 'RB'), ('update', 'VB'), ('any', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statement', 'NN'), (',', ','), ('whether', 'IN'), ('as', 'IN'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('information', 'NN'), (',', ','), ('future', 'JJ'), ('events', 'NNS'), ('or', 'CC'), ('otherwise', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   undertakes/VBZ   no/DT   obligation/NN   to/TO   publicly/RB   update/VB   any/DT   forward/NN   looking/VBG   statement/NN   ,/,   whether/IN   as/IN   a/DT   result/NN   of/IN   new/JJ   information/NN   ,/,   future/JJ   events/NNS   or/CC   otherwise/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB undertakes/VBZ no/DT obligation/NN)
+	(VERB update/VB any/DT forward/NN)
+	(VERB looking/VBG statement/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN result/NN)
+	(NOUN new/JJ information/NN)
+	(NOUN future/JJ events/NNS)
+
+----------------------------------
+original sentence: 
+Additional factors that could cause results to differ materially from those described in the forward looking statements can be found in Merck&#8217;s 2009 Annual Report on Form 10 K and the company&#8217;s other filings with the Securities and Exchange Commission SEC available at the SEC&#8217;s Internet site Forward Looking Statements by sanofi aventis
+ This press release contains forward looking statements as defined in the Private Securities Litigation Reform Act of 1995, as amended.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('factors', 'NNS'), ('that', 'WDT'), ('could', 'MD'), ('cause', 'VB'), ('results', 'NNS'), ('to', 'TO'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('described', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('in', 'IN'), ('Merck&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('2009', 'CD'), ('Annual', 'NNP'), ('Report', 'NNP'), ('on', 'IN'), ('Form', 'NNP'), ('10', 'CD'), ('K', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('company&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('other', 'JJ'), ('filings', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('SEC', 'NNP'), ('available', 'JJ'), ('at', 'IN'), ('the', 'DT'), ('SEC&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Internet', 'NNP'), ('site', 'NN'), ('Forward', 'NNP'), ('Looking', 'NNP'), ('Statements', 'NNP'), ('by', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('This', 'DT'), ('press', 'NN'), ('release', 'NN'), ('contains', 'VBZ'), ('forward', 'RB'), ('looking', 'VBG'), ('statements', 'NNS'), ('as', 'IN'), ('defined', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('Private', 'NNP'), ('Securities', 'NNP'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), (',', ','), ('as', 'IN'), ('amended', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   factors/NNS   that/WDT   could/MD   cause/VB   results/NNS   to/TO   differ/VB   materially/RB   from/IN   those/DT   described/VBN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   can/MD   be/VB   found/VBN   in/IN   Merck&/NNP   #/#   8217/CD   ;/:   s/NNS   2009/CD   (PERSON Annual/NNP Report/NNP)   on/IN   Form/NNP   10/CD   K/NNP   and/CC   the/DT   company&/NNP   #/#   8217/CD   ;/:   s/NNS   other/JJ   filings/NNS   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   SEC/NNP   available/JJ   at/IN   the/DT   SEC&/NNP   #/#   8217/CD   ;/:   s/NNS   Internet/NNP   site/NN   (PERSON Forward/NNP Looking/NNP Statements/NNP)   by/IN   sanofi/NN   aventis/NNS   This/DT   press/NN   release/NN   contains/VBZ   forward/RB   looking/VBG   statements/NNS   as/IN   defined/VBN   in/IN   the/DT   (ORGANIZATION Private/NNP)   Securities/NNP   Litigation/NNP   Reform/NNP   Act/NNP   of/IN   1995/CD   ,/,   as/IN   amended/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB cause/VB results/NNS)
+	(VERB differ/VB materially/RB from/IN those/DT)
+	(VERB described/VBN in/IN the/DT forward/NN)
+	(VERB looking/VBG statements/NNS)
+	(VERB be/VB found/VBN in/IN Merck&/NNP)
+	(VERB contains/VBZ forward/RB looking/VBG statements/NNS as/IN)
+	(VERB   defined/VBN   in/IN   the/DT   Private/NNP   Securities/NNP   Litigation/NNP   Reform/NNP   Act/NNP   of/IN   1995/CD)
+	(VERB amended/VBN)
+noun phrases to consider:
+	(NOUN Additional/JJ factors/NNS)
+	(NOUN s/NNS)
+	(NOUN 2009/CD Annual/NNP Report/NNP)
+	(NOUN Form/NNP)
+	(NOUN 10/CD K/NNP)
+	(NOUN company&/NNP)
+	(NOUN s/NNS other/JJ filings/NNS)
+	(NOUN Securities/NNPS)
+	(NOUN Exchange/NNP Commission/NNP SEC/NNP available/JJ)
+	(NOUN SEC&/NNP)
+	(NOUN s/NNS Internet/NNP site/NN Forward/NNP)
+	(NOUN Looking/NNP Statements/NNP)
+	(NOUN sanofi/NN aventis/NNS)
+	(NOUN press/NN release/NN)
+
+----------------------------------
+original sentence: 
+Forward looking statements are statements that are not historical facts.
+
+POS tagged sentence: 
+[('Forward', 'NNP'), ('looking', 'NN'), ('statements', 'NNS'), ('are', 'VBP'), ('statements', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('not', 'RB'), ('historical', 'JJ'), ('facts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Forward/NNP)   looking/NN   statements/NNS   are/VBP   statements/NNS   that/IN   are/VBP   not/RB   historical/JJ   facts/NNS   ./.)
+----------------------------------
+original sentence: 
+These statements include projections and estimates and their underlying assumptions, statements regarding plans, objectives, intentions and expectations with respect to future financial results, events, operations, services, product development and potential and statements regarding future performance.
+
+POS tagged sentence: 
+[('These', 'DT'), ('statements', 'NNS'), ('include', 'VBP'), ('projections', 'NNS'), ('and', 'CC'), ('estimates', 'NNS'), ('and', 'CC'), ('their', 'PRP$'), ('underlying', 'JJ'), ('assumptions', 'NNS'), (',', ','), ('statements', 'NNS'), ('regarding', 'VBG'), ('plans', 'NNS'), (',', ','), ('objectives', 'NNS'), (',', ','), ('intentions', 'NNS'), ('and', 'CC'), ('expectations', 'NNS'), ('with', 'IN'), ('respect', 'NN'), ('to', 'TO'), ('future', 'VB'), ('financial', 'JJ'), ('results', 'NNS'), (',', ','), ('events', 'NNS'), (',', ','), ('operations', 'NNS'), (',', ','), ('services', 'NNS'), (',', ','), ('product', 'NN'), ('development', 'NN'), ('and', 'CC'), ('potential', 'JJ'), ('and', 'CC'), ('statements', 'NNS'), ('regarding', 'VBG'), ('future', 'JJ'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   statements/NNS   include/VBP   projections/NNS   and/CC   estimates/NNS   and/CC   their/PRP$   underlying/JJ   assumptions/NNS   ,/,   statements/NNS   regarding/VBG   plans/NNS   ,/,   objectives/NNS   ,/,   intentions/NNS   and/CC   expectations/NNS   with/IN   respect/NN   to/TO   future/VB   financial/JJ   results/NNS   ,/,   events/NNS   ,/,   operations/NNS   ,/,   services/NNS   ,/,   product/NN   development/NN   and/CC   potential/JJ   and/CC   statements/NNS   regarding/VBG   future/JJ   performance/NN   ./.)
+----------------------------------
+original sentence: 
+Forward looking statements are generally identified by the words &#8220;expects,&#8221; &#8220;anticipates,&#8221; &#8220;believes,&#8221; &#8220;intends,&#8221; &#8220;estimates,&#8221; &#8220;plans&#8221; and similar expressions.
+
+POS tagged sentence: 
+[('Forward', 'NNP'), ('looking', 'NN'), ('statements', 'NNS'), ('are', 'VBP'), ('generally', 'RB'), ('identified', 'VBD'), ('by', 'IN'), ('the', 'DT'), ('words', 'NNS'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('expects,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('anticipates,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('believes,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('intends,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('estimates,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('plans&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('and', 'CC'), ('similar', 'JJ'), ('expressions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Forward/NNP)   looking/NN   statements/NNS   are/VBP   generally/RB   identified/VBD   by/IN   the/DT   words/NNS   &/CC   #/#   8220/CD   ;/:   expects,&/JJ   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   anticipates,&/JJ   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   believes,&/JJ   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   intends,&/JJ   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   estimates,&/JJ   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   plans&/JJ   #/#   8221/CD   ;/:   and/CC   similar/JJ   expressions/NNS   ./.)
+----------------------------------
+original sentence: 
+Although sanofi aventis&#8217; management believes that the expectations reflected in such forward looking statements are reasonable, investors are cautioned that forward looking information and statements are subject to various risks and uncertainties, many of which are difficult to predict and generally beyond the control of sanofi aventis, that could cause actual results and developments to differ materially from those expressed in, or implied or projected by, the forward looking information and statements.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('sanofi', 'NN'), ('aventis&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('management', 'NN'), ('believes', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('expectations', 'NNS'), ('reflected', 'VBD'), ('in', 'IN'), ('such', 'JJ'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('are', 'VBP'), ('reasonable', 'JJ'), (',', ','), ('investors', 'NNS'), ('are', 'VBP'), ('cautioned', 'VBN'), ('that', 'IN'), ('forward', 'RB'), ('looking', 'VBG'), ('information', 'NN'), ('and', 'CC'), ('statements', 'NNS'), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('various', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), (',', ','), ('many', 'JJ'), ('of', 'IN'), ('which', 'WDT'), ('are', 'VBP'), ('difficult', 'JJ'), ('to', 'TO'), ('predict', 'VB'), ('and', 'CC'), ('generally', 'RB'), ('beyond', 'IN'), ('the', 'DT'), ('control', 'NN'), ('of', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), (',', ','), ('that', 'IN'), ('could', 'MD'), ('cause', 'VB'), ('actual', 'JJ'), ('results', 'NNS'), ('and', 'CC'), ('developments', 'NNS'), ('to', 'TO'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('expressed', 'VBN'), ('in', 'IN'), (',', ','), ('or', 'CC'), ('implied', 'VBN'), ('or', 'CC'), ('projected', 'VBN'), ('by', 'IN'), (',', ','), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('information', 'NN'), ('and', 'CC'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   sanofi/NN   aventis&/NN   #/#   8217/CD   ;/:   management/NN   believes/VBZ   that/IN   the/DT   expectations/NNS   reflected/VBD   in/IN   such/JJ   forward/NN   looking/VBG   statements/NNS   are/VBP   reasonable/JJ   ,/,   investors/NNS   are/VBP   cautioned/VBN   that/IN   forward/RB   looking/VBG   information/NN   and/CC   statements/NNS   are/VBP   subject/JJ   to/TO   various/JJ   risks/NNS   and/CC   uncertainties/NNS   ,/,   many/JJ   of/IN   which/WDT   are/VBP   difficult/JJ   to/TO   predict/VB   and/CC   generally/RB   beyond/IN   the/DT   control/NN   of/IN   sanofi/NN   aventis/NNS   ,/,   that/IN   could/MD   cause/VB   actual/JJ   results/NNS   and/CC   developments/NNS   to/TO   differ/VB   materially/RB   from/IN   those/DT   expressed/VBN   in/IN   ,/,   or/CC   implied/VBN   or/CC   projected/VBN   by/IN   ,/,   the/DT   forward/NN   looking/VBG   information/NN   and/CC   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+These risks and uncertainties include among other things, the uncertainties inherent in research and development, future clinical data and analysis, including post marketing, decisions by regulatory authorities, such as the FDA or the EMA, regarding whether and when to approve any drug, device or biological application that may be filed for any such product candidates as well as their decisions regarding labelling and other matters that could affect the availability or commercial potential of such products candidates, the absence of guarantee that the products candidates if approved will be commercially successful, the future approval and commercial success of therapeutic alternatives, the Group&#8217;s ability to benefit from external growth opportunities as well as those discussed or identified in the public filings with the SEC and the AMF made by sanofi aventis, including those listed under &#8220;Risk Factors&#8221; and &#8220;Cautionary Statement Regarding Forward Looking Statements&#8221; in sanofi aventis&#8217; annual report on Form 20 F for the year ended December 31, 2008.
+
+POS tagged sentence: 
+[('These', 'DT'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('include', 'VBP'), ('among', 'IN'), ('other', 'JJ'), ('things', 'NNS'), (',', ','), ('the', 'DT'), ('uncertainties', 'NNS'), ('inherent', 'JJ'), ('in', 'IN'), ('research', 'NN'), ('and', 'CC'), ('development', 'NN'), (',', ','), ('future', 'JJ'), ('clinical', 'JJ'), ('data', 'NNS'), ('and', 'CC'), ('analysis', 'NN'), (',', ','), ('including', 'VBG'), ('post', 'NN'), ('marketing', 'NN'), (',', ','), ('decisions', 'NNS'), ('by', 'IN'), ('regulatory', 'JJ'), ('authorities', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('the', 'DT'), ('FDA', 'NNP'), ('or', 'CC'), ('the', 'DT'), ('EMA', 'NNP'), (',', ','), ('regarding', 'VBG'), ('whether', 'IN'), ('and', 'CC'), ('when', 'WRB'), ('to', 'TO'), ('approve', 'VB'), ('any', 'DT'), ('drug', 'NN'), (',', ','), ('device', 'NN'), ('or', 'CC'), ('biological', 'JJ'), ('application', 'NN'), ('that', 'WDT'), ('may', 'MD'), ('be', 'VB'), ('filed', 'VBN'), ('for', 'IN'), ('any', 'DT'), ('such', 'JJ'), ('product', 'NN'), ('candidates', 'NNS'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('their', 'PRP$'), ('decisions', 'NNS'), ('regarding', 'VBG'), ('labelling', 'VBG'), ('and', 'CC'), ('other', 'JJ'), ('matters', 'NNS'), ('that', 'IN'), ('could', 'MD'), ('affect', 'VB'), ('the', 'DT'), ('availability', 'NN'), ('or', 'CC'), ('commercial', 'JJ'), ('potential', 'JJ'), ('of', 'IN'), ('such', 'JJ'), ('products', 'NNS'), ('candidates', 'VBZ'), (',', ','), ('the', 'DT'), ('absence', 'NN'), ('of', 'IN'), ('guarantee', 'NN'), ('that', 'IN'), ('the', 'DT'), ('products', 'NNS'), ('candidates', 'VBZ'), ('if', 'IN'), ('approved', 'VBN'), ('will', 'MD'), ('be', 'VB'), ('commercially', 'RB'), ('successful', 'JJ'), (',', ','), ('the', 'DT'), ('future', 'NN'), ('approval', 'NN'), ('and', 'CC'), ('commercial', 'JJ'), ('success', 'NN'), ('of', 'IN'), ('therapeutic', 'JJ'), ('alternatives', 'NNS'), (',', ','), ('the', 'DT'), ('Group&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ability', 'NN'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('external', 'JJ'), ('growth', 'NN'), ('opportunities', 'NNS'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('those', 'DT'), ('discussed', 'VBN'), ('or', 'CC'), ('identified', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('public', 'NN'), ('filings', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('SEC', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('AMF', 'NNP'), ('made', 'VBD'), ('by', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), (',', ','), ('including', 'VBG'), ('those', 'DT'), ('listed', 'VBN'), ('under', 'IN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Risk', 'NNP'), ('Factors&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('and', 'CC'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Cautionary', 'NNP'), ('Statement', 'NNP'), ('Regarding', 'NNP'), ('Forward', 'NNP'), ('Looking', 'NNP'), ('Statements&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('in', 'IN'), ('sanofi', 'NN'), ('aventis&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('annual', 'JJ'), ('report', 'NN'), ('on', 'IN'), ('Form', 'NN'), ('20', 'CD'), ('F', 'NN'), ('for', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ended', 'VBD'), ('December', 'NNP'), ('31', 'CD'), (',', ','), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   risks/NNS   and/CC   uncertainties/NNS   include/VBP   among/IN   other/JJ   things/NNS   ,/,   the/DT   uncertainties/NNS   inherent/JJ   in/IN   research/NN   and/CC   development/NN   ,/,   future/JJ   clinical/JJ   data/NNS   and/CC   analysis/NN   ,/,   including/VBG   post/NN   marketing/NN   ,/,   decisions/NNS   by/IN   regulatory/JJ   authorities/NNS   ,/,   such/JJ   as/IN   the/DT   (ORGANIZATION FDA/NNP)   or/CC   the/DT   (ORGANIZATION EMA/NNP)   ,/,   regarding/VBG   whether/IN   and/CC   when/WRB   to/TO   approve/VB   any/DT   drug/NN   ,/,   device/NN   or/CC   biological/JJ   application/NN   that/WDT   may/MD   be/VB   filed/VBN   for/IN   any/DT   such/JJ   product/NN   candidates/NNS   as/IN   well/RB   as/IN   their/PRP$   decisions/NNS   regarding/VBG   labelling/VBG   and/CC   other/JJ   matters/NNS   that/IN   could/MD   affect/VB   the/DT   availability/NN   or/CC   commercial/JJ   potential/JJ   of/IN   such/JJ   products/NNS   candidates/VBZ   ,/,   the/DT   absence/NN   of/IN   guarantee/NN   that/IN   the/DT   products/NNS   candidates/VBZ   if/IN   approved/VBN   will/MD   be/VB   commercially/RB   successful/JJ   ,/,   the/DT   future/NN   approval/NN   and/CC   commercial/JJ   success/NN   of/IN   therapeutic/JJ   alternatives/NNS   ,/,   the/DT   Group&/NNP   #/#   8217/CD   ;/:   s/NNS   ability/NN   to/TO   benefit/VB   from/IN   external/JJ   growth/NN   opportunities/NNS   as/IN   well/RB   as/IN   those/DT   discussed/VBN   or/CC   identified/VBN   in/IN   the/DT   public/NN   filings/NNS   with/IN   the/DT   (ORGANIZATION SEC/NNP)   and/CC   the/DT   (ORGANIZATION AMF/NNP)   made/VBD   by/IN   sanofi/NN   aventis/NNS   ,/,   including/VBG   those/DT   listed/VBN   under/IN   &/CC   #/#   8220/CD   ;/:   (PERSON Risk/NNP)   Factors&/NNP   #/#   8221/CD   ;/:   and/CC   &/CC   #/#   8220/CD   ;/:   Cautionary/NNP   Statement/NNP   Regarding/NNP   Forward/NNP   Looking/NNP   Statements&/NNP   #/#   8221/CD   ;/:   in/IN   sanofi/NN   aventis&/NN   #/#   8217/CD   ;/:   annual/JJ   report/NN   on/IN   Form/NN   20/CD   F/NN   for/IN   the/DT   year/NN   ended/VBD   December/NNP   31/CD   ,/,   2008/CD   ./.)
+----------------------------------
+original sentence: 
+Other than as required by applicable law, sanofi aventis does not undertake any obligation to update or revise any forward looking information or statements.
+
+POS tagged sentence: 
+[('Other', 'JJ'), ('than', 'IN'), ('as', 'IN'), ('required', 'VBN'), ('by', 'IN'), ('applicable', 'JJ'), ('law', 'NN'), (',', ','), ('sanofi', 'NN'), ('aventis', 'NNS'), ('does', 'VBZ'), ('not', 'RB'), ('undertake', 'VB'), ('any', 'DT'), ('obligation', 'NN'), ('to', 'TO'), ('update', 'VB'), ('or', 'CC'), ('revise', 'VB'), ('any', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('information', 'NN'), ('or', 'CC'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Other/JJ   than/IN   as/IN   required/VBN   by/IN   applicable/JJ   law/NN   ,/,   sanofi/NN   aventis/NNS   does/VBZ   not/RB   undertake/VB   any/DT   obligation/NN   to/TO   update/VB   or/CC   revise/VB   any/DT   forward/NN   looking/VBG   information/NN   or/CC   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+&#160;  &#160;  &#160;  &#160; TUESDAY MARCH 9, 2010 CONFERENCE CALL & WEBCAST
+ &#160; Sanofi aventis and Merck will host a conference call today, Tuesday March 9, 2010
+at 2:00 p.m. CET 8:00 a.m. EST  &#160;  &#160;  France: +33 0 1 72 00 15 29  UK: +44 0 203 367 94 59  USA: +1 866 907 59 28  &#160;  &#160;  France: +33 0 1 72 00 15 00  UK: +44 0 203 367 94 60  USA: +1 877 642 30 18  Access code: 269754#  Replay available until March 19, 2010  &#160;  The presentation and a webcast of the conference call will be available on the websites
+www.sanofi aventis.com
+ &#160;  &#160;  The presentation will be followed by a Q&A session.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('TUESDAY', 'NNP'), ('MARCH', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), ('CONFERENCE', 'NNP'), ('CALL', 'NNP'), ('&', 'CC'), ('WEBCAST', 'NNP'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Sanofi', 'NNP'), ('aventis', 'VBZ'), ('and', 'CC'), ('Merck', 'NNP'), ('will', 'MD'), ('host', 'VB'), ('a', 'DT'), ('conference', 'NN'), ('call', 'NN'), ('today', 'NN'), (',', ','), ('Tuesday', 'NNP'), ('March', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('2', 'CD'), (':', ':'), ('00', 'CD'), ('p.m.', 'NN'), ('CET', 'NNP'), ('8', 'CD'), (':', ':'), ('00', 'CD'), ('a.m.', 'NNP'), ('EST', 'NNP'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('France', 'NNP'), (':', ':'), ('+', ':'), ('33', 'CD'), ('0', '-NONE-'), ('1', 'CD'), ('72', 'CD'), ('00', 'CD'), ('15', 'CD'), ('29', 'CD'), ('UK', 'NNP'), (':', ':'), ('+', ':'), ('44', 'CD'), ('0', '-NONE-'), ('203', 'CD'), ('367', 'CD'), ('94', 'CD'), ('59', 'CD'), ('USA', 'NNP'), (':', ':'), ('+', ':'), ('1', 'CD'), ('866', 'CD'), ('907', 'CD'), ('59', 'CD'), ('28', 'CD'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('France', 'NNP'), (':', ':'), ('+', ':'), ('33', 'CD'), ('0', '-NONE-'), ('1', 'CD'), ('72', 'CD'), ('00', 'CD'), ('15', 'CD'), ('00', 'CD'), ('UK', 'NNP'), (':', ':'), ('+', ':'), ('44', 'CD'), ('0', '-NONE-'), ('203', 'CD'), ('367', 'CD'), ('94', 'CD'), ('60', 'CD'), ('USA', 'NNP'), (':', ':'), ('+', ':'), ('1', 'CD'), ('877', 'CD'), ('642', 'CD'), ('30', 'CD'), ('18', 'CD'), ('Access', 'NNP'), ('code', 'NN'), (':', ':'), ('269754', 'CD'), ('#', '#'), ('Replay', 'NNP'), ('available', 'JJ'), ('until', 'IN'), ('March', 'NNP'), ('19', 'CD'), (',', ','), ('2010', 'CD'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('The', 'DT'), ('presentation', 'NN'), ('and', 'CC'), ('a', 'DT'), ('webcast', 'NN'), ('of', 'IN'), ('the', 'DT'), ('conference', 'NN'), ('call', 'NN'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('websites', 'NNS'), ('www.sanofi', '-NONE-'), ('aventis.com', 'JJ'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('The', 'DT'), ('presentation', 'NN'), ('will', 'MD'), ('be', 'VB'), ('followed', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('Q&A', 'NNP'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   TUESDAY/NNP   MARCH/NNP   9/CD   ,/,   2010/CD   (ORGANIZATION CONFERENCE/NNP)   CALL/NNP   &/CC   (ORGANIZATION WEBCAST/NNP)   &/CC   #/#   160/CD   ;/:   (PERSON Sanofi/NNP)   aventis/VBZ   and/CC   (PERSON Merck/NNP)   will/MD   host/VB   a/DT   conference/NN   call/NN   today/NN   ,/,   Tuesday/NNP   March/NNP   9/CD   ,/,   2010/CD   at/IN   2/CD   :/:   00/CD   p.m./NN   CET/NNP   8/CD   :/:   00/CD   a.m./NNP   EST/NNP   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   (GPE France/NNP)   :/:   +/:   33/CD   0/-NONE-   1/CD   72/CD   00/CD   15/CD   29/CD   UK/NNP   :/:   +/:   44/CD   0/-NONE-   203/CD   367/CD   94/CD   59/CD   USA/NNP   :/:   +/:   1/CD   866/CD   907/CD   59/CD   28/CD   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   (GPE France/NNP)   :/:   +/:   33/CD   0/-NONE-   1/CD   72/CD   00/CD   15/CD   00/CD   UK/NNP   :/:   +/:   44/CD   0/-NONE-   203/CD   367/CD   94/CD   60/CD   USA/NNP   :/:   +/:   1/CD   877/CD   642/CD   30/CD   18/CD   Access/NNP   code/NN   :/:   269754/CD   #/#   Replay/NNP   available/JJ   until/IN   March/NNP   19/CD   ,/,   2010/CD   &/CC   #/#   160/CD   ;/:   The/DT   presentation/NN   and/CC   a/DT   webcast/NN   of/IN   the/DT   conference/NN   call/NN   will/MD   be/VB   available/JJ   on/IN   the/DT   websites/NNS   www.sanofi/-NONE-   aventis.com/JJ   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   The/DT   presentation/NN   will/MD   be/VB   followed/VBN   by/IN   a/DT   Q&A/NNP   session/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB aventis/VBZ)
+	(VERB host/VB a/DT conference/NN call/NN today/NN)
+	(VERB be/VB available/JJ on/IN the/DT websites/NNS)
+	(VERB be/VB followed/VBN by/IN a/DT Q&A/NNP session/NN)
+noun phrases to consider:
+	(NOUN TUESDAY/NNP MARCH/NNP)
+	(NOUN 2010/CD CONFERENCE/NNP CALL/NNP)
+	(NOUN WEBCAST/NNP)
+	(NOUN Sanofi/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Tuesday/NNP March/NNP)
+	(NOUN 00/CD p.m./NN CET/NNP)
+	(NOUN 00/CD a.m./NNP EST/NNP)
+	(NOUN France/NNP)
+	(NOUN 29/CD UK/NNP)
+	(NOUN 59/CD USA/NNP)
+	(NOUN France/NNP)
+	(NOUN 00/CD UK/NNP)
+	(NOUN 60/CD USA/NNP)
+	(NOUN 18/CD Access/NNP code/NN)
+	(NOUN Replay/NNP available/JJ)
+	(NOUN March/NNP)
+	(NOUN presentation/NN)
+	(NOUN webcast/NN)
+	(NOUN conference/NN call/NN)
+	(NOUN aventis.com/JJ)
+	(NOUN presentation/NN)
+
+----------------------------------
+original sentence: 
+&#160;  &#160;  Photos/Multimedia&#160;Gallery Available: http://www.businesswire.com/cgi bin/mmg.cgi?eid=6206910&lang=en
+ Contacts Jean Marc Podvin, +33 1 53 77 44 50
+S&#233;bastien Martel, +33 1 53 77 45 45
+David Caouette, 908 423 34 61
+Carol Ferguson, 908 423 44 65  http://www.businesswire.com/news/home/20100308006954/en/Sanofi aventis Merck Create Global Leader Animal Health
+ Smart Multimedia Gallery  Download Formats  More  Download Formats  More Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Photos/Multimedia&', 'JJ'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Gallery', 'NNP'), ('Available', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/cgi', 'JJ'), ('bin/mmg.cgi', 'NN'), ('?', '.'), ('eid', 'NN'), ('=', ':'), ('6206910&lang', 'CD'), ('=', 'CD'), ('en', 'CD'), ('Contacts', 'NNS'), ('Jean', 'NNP'), ('Marc', 'NNP'), ('Podvin', 'NNP'), (',', ','), ('+', 'NNP'), ('33', 'CD'), ('1', 'CD'), ('53', 'CD'), ('77', 'CD'), ('44', 'CD'), ('50', 'CD'), ('S&', 'JJ'), ('#', '#'), ('233', 'CD'), (';', ':'), ('bastien', 'JJ'), ('Martel', 'NNP'), (',', ','), ('+', 'NNP'), ('33', 'CD'), ('1', 'CD'), ('53', 'CD'), ('77', 'CD'), ('45', 'CD'), ('45', 'CD'), ('David', 'NNP'), ('Caouette', 'NNP'), (',', ','), ('908', 'CD'), ('423', 'CD'), ('34', 'CD'), ('61', 'CD'), ('Carol', 'NNP'), ('Ferguson', 'NNP'), (',', ','), ('908', 'CD'), ('423', 'CD'), ('44', 'CD'), ('65', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100308006954/en/Sanofi', 'JJ'), ('aventis', 'NNS'), ('Merck', 'NNP'), ('Create', 'NNP'), ('Global', 'NNP'), ('Leader', 'NNP'), ('Animal', 'NNP'), ('Health', 'NNP'), ('Smart', 'NNP'), ('Multimedia', 'NNP'), ('Gallery', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   160/CD   ;/:   &/CC   #/#   160/CD   ;/:   Photos/Multimedia&/JJ   #/#   160/CD   ;/:   (PERSON Gallery/NNP Available/NNP)   :/:   http/NN   :/:   //www.businesswire.com/cgi/JJ   bin/mmg.cgi/NN   ?/.   eid/NN   =/:   6206910&lang/CD   =/CD   en/CD   Contacts/NNS   (PERSON Jean/NNP Marc/NNP Podvin/NNP)   ,/,   +/NNP   33/CD   1/CD   53/CD   77/CD   44/CD   50/CD   S&/JJ   #/#   233/CD   ;/:   bastien/JJ   (PERSON Martel/NNP)   ,/,   +/NNP   33/CD   1/CD   53/CD   77/CD   45/CD   45/CD   (PERSON David/NNP Caouette/NNP)   ,/,   908/CD   423/CD   34/CD   61/CD   (PERSON Carol/NNP Ferguson/NNP)   ,/,   908/CD   423/CD   44/CD   65/CD   http/NN   :/:   //www.businesswire.com/news/home/20100308006954/en/Sanofi/JJ   aventis/NNS   (PERSON     Merck/NNP     Create/NNP     Global/NNP     Leader/NNP     Animal/NNP     Health/NNP     Smart/NNP     Multimedia/NNP     Gallery/NNP     Download/NNP)   Formats/NNPS   More/NNP   Download/NNP   Formats/NNPS   More/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Photos/Multimedia&/JJ)
+	(NOUN Gallery/NNP Available/NNP)
+	(NOUN http/NN)
+	(NOUN //www.businesswire.com/cgi/JJ bin/mmg.cgi/NN)
+	(NOUN eid/NN)
+	(NOUN en/CD Contacts/NNS Jean/NNP Marc/NNP Podvin/NNP)
+	(NOUN +/NNP)
+	(NOUN 50/CD S&/JJ)
+	(NOUN bastien/JJ Martel/NNP)
+	(NOUN +/NNP)
+	(NOUN 45/CD David/NNP Caouette/NNP)
+	(NOUN 61/CD Carol/NNP Ferguson/NNP)
+	(NOUN 65/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100308006954/en/Sanofi/JJ   aventis/NNS   Merck/NNP   Create/NNP   Global/NNP)
+	(NOUN Leader/NNP Animal/NNP Health/NNP Smart/NNP)
+
+tagged sentence:
+	 Leader Animal Health Smart	res:1
+	(NOUN Multimedia/NNP Gallery/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Download/NNP Formats/NNPS More/NNP)
+	(NOUN Company/NNP Information/NNP Center/NNP More/NNP)
+	(NOUN Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:1	pos:6	verypos:3	total:7

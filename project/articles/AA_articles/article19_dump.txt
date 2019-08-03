@@ -1,0 +1,70 @@
+
+----------------------------------
+original sentence: 
+ Earnings Preview : Alcoa Inc.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('Preview', 'NNP'), (':', ':'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Earnings/NNS Preview/NNP :/: (PERSON Alcoa/NNP Inc/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Earnings/NNS Preview/NNP)
+	(NOUN Alcoa/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+AA First Quarter 2010 | AlphaEarnings.com  Earnings Preview : Alcoa Inc.
+
+POS tagged sentence: 
+[('AA', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('|', 'CD'), ('AlphaEarnings.com', 'JJ'), ('Earnings', 'NNS'), ('Preview', 'NNP'), (':', ':'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AA/NNP   First/NNP   Quarter/NNP   2010/CD   |/CD   AlphaEarnings.com/JJ   Earnings/NNS   Preview/NNP   :/:   (PERSON Alcoa/NNP Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN AA/NNP First/NNP Quarter/NNP)
+	(NOUN |/CD AlphaEarnings.com/JJ Earnings/NNS Preview/NNP)
+	(NOUN Alcoa/NNP Inc/NNP)
+
+----------------------------------
+original sentence: 
+AA First Quarter 2010
+Monday, April 05, 2010 10:01 AM
+Stay ahead of earnings.
+
+POS tagged sentence: 
+[('AA', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('Monday', 'NNP'), (',', ','), ('April', 'NNP'), ('05', 'CD'), (',', ','), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('01', 'CD'), ('AM', 'NNP'), ('Stay', 'NNP'), ('ahead', 'RB'), ('of', 'IN'), ('earnings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AA/NNP   First/NNP   Quarter/NNP   2010/CD   Monday/NNP   ,/,   April/NNP   05/CD   ,/,   2010/CD   10/CD   :/:   01/CD   AM/NNP   Stay/NNP   ahead/RB   of/IN   earnings/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN AA/NNP First/NNP Quarter/NNP)
+	(NOUN 2010/CD Monday/NNP)
+	(NOUN April/NNP)
+	(NOUN 01/CD AM/NNP Stay/NNP)
+	(NOUN earnings/NNS)
+
+----------------------------------
+original sentence: 
+Signup for our FREE newsletter!!
+
+POS tagged sentence: 
+[('Signup', 'NNP'), ('for', 'IN'), ('our', 'PRP$'), ('FREE', 'NNP'), ('newsletter', 'NN'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Signup/NNP)   for/IN   our/PRP$   (ORGANIZATION FREE/NNP)   newsletter/NN   !/.   !/.)
+----------------------------------
+original sentence: 
+!
+
+
+POS tagged sentence: 
+[('!', 'NN')]
+
+
+ERTAGGED sentence: (S !/NN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,916 @@
+
+----------------------------------
+original sentence: 
+ Is Disney a Buy?
+
+POS tagged sentence: 
+[('Is', 'VBZ'), ('Disney', 'NNP'), ('a', 'DT'), ('Buy', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S Is/VBZ Disney/NNP a/DT Buy/NNP ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Is/VBZ Disney/NNP a/DT Buy/NNP)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+DIS Growing the love for investing
+The Motley Fool By Tim Beyers  David Gardner called it.
+
+POS tagged sentence: 
+[('DIS', 'NNP'), ('Growing', 'NNP'), ('the', 'DT'), ('love', 'NN'), ('for', 'IN'), ('investing', 'NN'), ('The', 'DT'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('By', 'NNP'), ('Tim', 'NNP'), ('Beyers', 'NNP'), ('David', 'NNP'), ('Gardner', 'NNP'), ('called', 'VBD'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION DIS/NNP)   Growing/NNP   the/DT   love/NN   for/IN   investing/NN   The/DT   (ORGANIZATION Motley/NNP Fool/NNP)   By/NNP   (PERSON Tim/NNP Beyers/NNP)   (PERSON David/NNP Gardner/NNP)   called/VBD   it/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB called/VBD it/PRP)
+noun phrases to consider:
+	(NOUN DIS/NNP Growing/NNP)
+	(NOUN love/NN)
+	(NOUN investing/NN)
+	(NOUN Motley/NNP Fool/NNP By/NNP Tim/NNP)
+	(NOUN Beyers/NNP David/NNP Gardner/NNP)
+
+----------------------------------
+original sentence: 
+Heâ€™s up 1,334%!
+
+POS tagged sentence: 
+[('He', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('up', 'IN'), ('1,334', 'CD'), ('%', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S He/PRP â/VBP €/: ™/: s/NNS up/IN 1,334/CD %/NN !/.)
+----------------------------------
+original sentence: 
+See what Davidâ€™s recommending that you buy NEXT.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('what', 'WP'), ('David', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('recommending', 'VBG'), ('that', 'IN'), ('you', 'PRP'), ('buy', 'VB'), ('NEXT', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   See/NNP   what/WP   (PERSON David/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   recommending/VBG   that/IN   you/PRP   buy/VB   (ORGANIZATION NEXT/NNP)   ./.)
+----------------------------------
+original sentence: 
+and poised to make out like a bandit.
+
+POS tagged sentence: 
+[('and', 'CC'), ('poised', 'VBD'), ('to', 'TO'), ('make', 'VB'), ('out', 'RP'), ('like', 'IN'), ('a', 'DT'), ('bandit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S and/CC poised/VBD to/TO make/VB out/RP like/IN a/DT bandit/NN ./.)
+----------------------------------
+original sentence: 
+And you know what?
+
+POS tagged sentence: 
+[('And', 'CC'), ('you', 'PRP'), ('know', 'VBP'), ('what', 'WP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S And/CC you/PRP know/VBP what/WP ?/.)
+----------------------------------
+original sentence: 
+I love that about Iger, and Disney.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('love', 'VBP'), ('that', 'IN'), ('about', 'IN'), ('Iger', 'NNP'), (',', ','), ('and', 'CC'), ('Disney', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   love/VBP   that/IN   about/IN   (PERSON Iger/NNP)   ,/,   and/CC   (ORGANIZATION Disney/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB love/VBP that/IN about/IN Iger/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+
+----------------------------------
+original sentence: 
+I wasn't always this cheerful about the Magic Kingdom.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('was', 'VBD'), ("n't", 'RB'), ('always', 'RB'), ('this', 'DT'), ('cheerful', 'JJ'), ('about', 'IN'), ('the', 'DT'), ('Magic', 'NNP'), ('Kingdom', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   was/VBD   n't/RB   always/RB   this/DT   cheerful/JJ   about/IN   the/DT   (ORGANIZATION Magic/NNP Kingdom/NNP)   ./.)
+----------------------------------
+original sentence: 
+In August, when Disney made a $4 billion bid for Marvel Entertainment, I cried foul.
+
+POS tagged sentence: 
+[('In', 'IN'), ('August', 'NNP'), (',', ','), ('when', 'WRB'), ('Disney', 'NNP'), ('made', 'VBD'), ('a', 'DT'), ('$', '$'), ('4', 'CD'), ('billion', 'CD'), ('bid', 'NN'), ('for', 'IN'), ('Marvel', 'NNP'), ('Entertainment', 'NNP'), (',', ','), ('I', 'PRP'), ('cried', 'VBD'), ('foul', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   (GPE August/NNP)   ,/,   when/WRB   (PERSON Disney/NNP)   made/VBD   a/DT   $/$   4/CD   billion/CD   bid/NN   for/IN   (PERSON Marvel/NNP Entertainment/NNP)   ,/,   I/PRP   cried/VBD   foul/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB made/VBD a/DT)
+	(VERB cried/VBD foul/JJ)
+noun phrases to consider:
+	(NOUN August/NNP)
+	(NOUN Disney/NNP)
+	(NOUN billion/CD bid/NN)
+	(NOUN Marvel/NNP Entertainment/NNP)
+
+----------------------------------
+original sentence: 
+The comic book king had accounted for more than 20% of my portfolio, and was, by my math, still undervalued at $4 billion
+"Disney gets Marvel for just north of 20 times earnings.
+
+POS tagged sentence: 
+[('The', 'DT'), ('comic', 'JJ'), ('book', 'NN'), ('king', 'VBG'), ('had', 'VBD'), ('accounted', 'VBN'), ('for', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('20', 'CD'), ('%', 'NN'), ('of', 'IN'), ('my', 'PRP$'), ('portfolio', 'NN'), (',', ','), ('and', 'CC'), ('was', 'VBD'), (',', ','), ('by', 'IN'), ('my', 'PRP$'), ('math', 'NN'), (',', ','), ('still', 'RB'), ('undervalued', 'VBN'), ('at', 'IN'), ('$', '$'), ('4', 'CD'), ('billion', 'CD'), ('"', 'CD'), ('Disney', 'NNP'), ('gets', 'NNS'), ('Marvel', 'NNP'), ('for', 'IN'), ('just', 'RB'), ('north', 'JJ'), ('of', 'IN'), ('20', 'CD'), ('times', 'NNS'), ('earnings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   comic/JJ   book/NN   king/VBG   had/VBD   accounted/VBN   for/IN   more/JJR   than/IN   20/CD   %/NN   of/IN   my/PRP$   portfolio/NN   ,/,   and/CC   was/VBD   ,/,   by/IN   my/PRP$   math/NN   ,/,   still/RB   undervalued/VBN   at/IN   $/$   4/CD   billion/CD   "/CD   Disney/NNP   gets/NNS   (PERSON Marvel/NNP)   for/IN   just/RB   north/JJ   of/IN   20/CD   times/NNS   earnings/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   king/VBG   had/VBD   accounted/VBN   for/IN   more/JJR   than/IN   20/CD   %/NN   of/IN   my/PRP$   portfolio/NN)
+	(VERB was/VBD)
+	(VERB undervalued/VBN at/IN)
+noun phrases to consider:
+	(NOUN The/DT comic/JJ book/NN)
+	(NOUN math/NN)
+	(NOUN "/CD Disney/NNP gets/NNS Marvel/NNP)
+	(NOUN just/RB north/JJ)
+	(NOUN 20/CD times/NNS earnings/NNS)
+
+----------------------------------
+original sentence: 
+That sounds expensive, I know.
+
+POS tagged sentence: 
+[('That', 'DT'), ('sounds', 'VBZ'), ('expensive', 'JJ'), (',', ','), ('I', 'PRP'), ('know', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S That/DT sounds/VBZ expensive/JJ ,/, I/PRP know/VBP ./.)
+----------------------------------
+original sentence: 
+Here's why it isn't: Long beforeÂ 
+Â wasÂ a box office blockbuster, Marvel was boosting operating income byÂ 
+," I wrote at the time.
+
+POS tagged sentence: 
+[('Here', 'RB'), ("'s", 'VBZ'), ('why', 'WRB'), ('it', 'PRP'), ('is', 'VBZ'), ("n't", 'RB'), (':', ':'), ('Long', 'JJ'), ('before', 'IN'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('was', 'VBD'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('a', 'DT'), ('box', 'NN'), ('office', 'NN'), ('blockbuster', 'NN'), (',', ','), ('Marvel', 'NNP'), ('was', 'VBD'), ('boosting', 'VBG'), ('operating', 'NN'), ('income', 'NN'), ('by', 'IN'), ('\xc2', 'NN'), ('\xa0', ':'), (',', ','), ('"', ':'), ('I', 'PRP'), ('wrote', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Here/RB   's/VBZ   why/WRB   it/PRP   is/VBZ   n't/RB   :/:   Long/JJ   before/IN   Â/CD    /CD   Â/CD    /CD   was/VBD   Â/CD    /CD   a/DT   box/NN   office/NN   blockbuster/NN   ,/,   (PERSON Marvel/NNP)   was/VBD   boosting/VBG   operating/NN   income/NN   by/IN   Â/NN    /:   ,/,   "/:   I/PRP   wrote/VBD   at/IN   the/DT   time/NN   ./.)
+----------------------------------
+original sentence: 
+Marvel officially ceased to exist
+ as an independent company on Dec. 31, 2009.
+
+POS tagged sentence: 
+[('Marvel', 'NNP'), ('officially', 'RB'), ('ceased', 'VBD'), ('to', 'TO'), ('exist', 'VB'), ('as', 'IN'), ('an', 'DT'), ('independent', 'JJ'), ('company', 'NN'), ('on', 'IN'), ('Dec.', 'NNP'), ('31', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Marvel/NNP)   officially/RB   ceased/VBD   to/TO   exist/VB   as/IN   an/DT   independent/JJ   company/NN   on/IN   Dec./NNP   31/CD   ,/,   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Disney shares have run about even with the market in the months since, which I'm not so sure is fair.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('shares', 'NNS'), ('have', 'VBP'), ('run', 'VBN'), ('about', 'IN'), ('even', 'RB'), ('with', 'IN'), ('the', 'DT'), ('market', 'NN'), ('in', 'IN'), ('the', 'DT'), ('months', 'NNS'), ('since', 'IN'), (',', ','), ('which', 'WDT'), ('I', 'PRP'), ("'m", 'VBP'), ('not', 'RB'), ('so', 'RB'), ('sure', 'RB'), ('is', 'VBZ'), ('fair', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   shares/NNS   have/VBP   run/VBN   about/IN   even/RB   with/IN   the/DT   market/NN   in/IN   the/DT   months/NNS   since/IN   ,/,   which/WDT   I/PRP   'm/VBP   not/RB   so/RB   sure/RB   is/VBZ   fair/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   run/VBN   about/IN   even/RB   with/IN   the/DT   market/NN   in/IN   the/DT   months/NNS   since/IN)
+	(VERB 'm/VBP not/RB so/RB sure/RB is/VBZ fair/JJ)
+noun phrases to consider:
+	(NOUN Disney/NNP shares/NNS)
+
+----------------------------------
+original sentence: 
+Isn't Marvel a catalyst for this business, just as Pixar was?
+
+POS tagged sentence: 
+[('Is', 'VBZ'), ("n't", 'RB'), ('Marvel', 'NNP'), ('a', 'DT'), ('catalyst', 'NN'), ('for', 'IN'), ('this', 'DT'), ('business', 'NN'), (',', ','), ('just', 'RB'), ('as', 'IN'), ('Pixar', 'NNP'), ('was', 'VBD'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Is/VBZ   n't/RB   (PERSON Marvel/NNP)   a/DT   catalyst/NN   for/IN   this/DT   business/NN   ,/,   just/RB   as/IN   (PERSON Pixar/NNP)   was/VBD   ?/.)
+----------------------------------
+original sentence: 
+And shouldn't we be encouraged that the largest single Good questions, all.
+
+POS tagged sentence: 
+[('And', 'CC'), ('should', 'MD'), ("n't", 'RB'), ('we', 'VB'), ('be', 'VB'), ('encouraged', 'VBN'), ('that', 'IN'), ('the', 'DT'), ('largest', 'JJS'), ('single', 'JJ'), ('Good', 'NNP'), ('questions', 'NNS'), (',', ','), ('all', 'DT'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   should/MD   n't/RB   we/VB   be/VB   encouraged/VBN   that/IN   the/DT   largest/JJS   single/JJ   Good/NNP   questions/NNS   ,/,   all/DT   ./.)
+----------------------------------
+original sentence: 
+Let's dig into both the bull and bear arguments for Walt Disney.
+
+POS tagged sentence: 
+[('Let', 'NNP'), ("'s", 'POS'), ('dig', 'JJ'), ('into', 'IN'), ('both', 'DT'), ('the', 'DT'), ('bull', 'NN'), ('and', 'CC'), ('bear', 'JJ'), ('arguments', 'NNS'), ('for', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Let/NNP)   's/POS   dig/JJ   into/IN   both/DT   the/DT   bull/NN   and/CC   bear/JJ   arguments/NNS   for/IN   (PERSON Walt/NNP Disney/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Let/NNP)
+	(NOUN dig/JJ)
+	(NOUN bull/NN)
+	(NOUN bear/JJ arguments/NNS)
+	(NOUN Walt/NNP Disney/NNP)
+
+----------------------------------
+original sentence: 
+Buyers will tell you that Marvel is remaking Disney.
+
+POS tagged sentence: 
+[('Buyers', 'NNS'), ('will', 'MD'), ('tell', 'VB'), ('you', 'PRP'), ('that', 'IN'), ('Marvel', 'NNP'), ('is', 'VBZ'), ('remaking', 'VBG'), ('Disney', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Buyers/NNS   will/MD   tell/VB   you/PRP   that/IN   (PERSON Marvel/NNP)   is/VBZ   remaking/VBG   (PERSON Disney/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB tell/VB you/PRP that/IN Marvel/NNP)
+	(VERB is/VBZ remaking/VBG Disney/NNP)
+noun phrases to consider:
+	(NOUN Buyers/NNS)
+
+----------------------------------
+original sentence: 
+"After its acquisition of Marvel, Disney is now armed with tools it has been missing for years and will be able to capture more of the men's and boy's entertainment market," wrote Foolish investor Broadly speaking, ALevolved is referring to the entertainment gender gap
+ that the House of Mouse has had trouble bridging.
+
+POS tagged sentence: 
+[('"', 'NN'), ('After', 'IN'), ('its', 'PRP$'), ('acquisition', 'NN'), ('of', 'IN'), ('Marvel', 'NNP'), (',', ','), ('Disney', 'NNP'), ('is', 'VBZ'), ('now', 'RB'), ('armed', 'VBN'), ('with', 'IN'), ('tools', 'NNS'), ('it', 'PRP'), ('has', 'VBZ'), ('been', 'VBN'), ('missing', 'VBG'), ('for', 'IN'), ('years', 'NNS'), ('and', 'CC'), ('will', 'MD'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('capture', 'VB'), ('more', 'JJR'), ('of', 'IN'), ('the', 'DT'), ('men', 'NNS'), ("'s", 'POS'), ('and', 'CC'), ('boy', 'NN'), ("'s", 'POS'), ('entertainment', 'NN'), ('market', 'NN'), (',', ','), ('"', ':'), ('wrote', 'VBD'), ('Foolish', 'JJ'), ('investor', 'NN'), ('Broadly', 'NNP'), ('speaking', 'NN'), (',', ','), ('ALevolved', 'NNP'), ('is', 'VBZ'), ('referring', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('entertainment', 'NN'), ('gender', 'NN'), ('gap', 'NN'), ('that', 'WDT'), ('the', 'DT'), ('House', 'NNP'), ('of', 'IN'), ('Mouse', 'NNP'), ('has', 'VBZ'), ('had', 'VBN'), ('trouble', 'JJ'), ('bridging', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   After/IN   its/PRP$   acquisition/NN   of/IN   (GPE Marvel/NNP)   ,/,   (ORGANIZATION Disney/NNP)   is/VBZ   now/RB   armed/VBN   with/IN   tools/NNS   it/PRP   has/VBZ   been/VBN   missing/VBG   for/IN   years/NNS   and/CC   will/MD   be/VB   able/JJ   to/TO   capture/VB   more/JJR   of/IN   the/DT   men/NNS   's/POS   and/CC   boy/NN   's/POS   entertainment/NN   market/NN   ,/,   "/:   wrote/VBD   (GPE Foolish/JJ)   investor/NN   (PERSON Broadly/NNP)   speaking/NN   ,/,   (ORGANIZATION ALevolved/NNP)   is/VBZ   referring/VBG   to/TO   the/DT   entertainment/NN   gender/NN   gap/NN   that/WDT   the/DT   (ORGANIZATION House/NNP)   of/IN   (ORGANIZATION Mouse/NNP)   has/VBZ   had/VBN   trouble/JJ   bridging/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ now/RB armed/VBN with/IN tools/NNS it/PRP)
+	(VERB has/VBZ been/VBN missing/VBG for/IN years/NNS)
+	(VERB be/VB able/JJ)
+
+tagged sentence:
+	 be able	res:1
+	(VERB capture/VB more/JJR of/IN the/DT men/NNS)
+	(VERB wrote/VBD Foolish/JJ investor/NN Broadly/NNP speaking/NN)
+	(VERB is/VBZ referring/VBG)
+	(VERB has/VBZ had/VBN trouble/JJ bridging/NN)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN acquisition/NN)
+	(NOUN Marvel/NNP)
+	(NOUN Disney/NNP)
+	(NOUN boy/NN)
+	(NOUN entertainment/NN market/NN)
+	(NOUN ALevolved/NNP)
+	(NOUN entertainment/NN gender/NN gap/NN)
+	(NOUN House/NNP)
+	(NOUN Mouse/NNP)
+
+----------------------------------
+original sentence: 
+Preteen boys are more likely to gravitate to superheroes and sports than to princesses and Hannah Montana.
+
+POS tagged sentence: 
+[('Preteen', 'NNP'), ('boys', 'NNS'), ('are', 'VBP'), ('more', 'RBR'), ('likely', 'JJ'), ('to', 'TO'), ('gravitate', 'VB'), ('to', 'TO'), ('superheroes', 'NNS'), ('and', 'CC'), ('sports', 'NNS'), ('than', 'IN'), ('to', 'TO'), ('princesses', 'NNS'), ('and', 'CC'), ('Hannah', 'NNP'), ('Montana', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Preteen/NNP   boys/NNS   are/VBP   more/RBR   likely/JJ   to/TO   gravitate/VB   to/TO   superheroes/NNS   and/CC   sports/NNS   than/IN   to/TO   princesses/NNS   and/CC   (PERSON Hannah/NNP Montana/NNP)   ./.)
+----------------------------------
+original sentence: 
+My daughter loves Disney; my sons prefer Marvel and , whose Transformers and G.I.
+
+POS tagged sentence: 
+[('My', 'PRP$'), ('daughter', 'NN'), ('loves', 'NNS'), ('Disney', 'NNP'), (';', ':'), ('my', 'PRP$'), ('sons', 'NNS'), ('prefer', 'VBP'), ('Marvel', 'NNP'), ('and', 'CC'), (',', ','), ('whose', 'WP$'), ('Transformers', 'NNP'), ('and', 'CC'), ('G.I', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   My/PRP$   daughter/NN   loves/NNS   (GPE Disney/NNP)   ;/:   my/PRP$   sons/NNS   prefer/VBP   (PERSON Marvel/NNP)   and/CC   ,/,   whose/WP$   Transformers/NNP   and/CC   G.I/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB prefer/VBP Marvel/NNP)
+noun phrases to consider:
+	(NOUN daughter/NN loves/NNS Disney/NNP)
+	(NOUN sons/NNS)
+	(NOUN Transformers/NNP)
+	(NOUN G.I/NNP)
+
+----------------------------------
+original sentence: 
+Joe characters are favorites among boys.
+
+POS tagged sentence: 
+[('Joe', 'NNP'), ('characters', 'NNS'), ('are', 'VBP'), ('favorites', 'NNS'), ('among', 'IN'), ('boys', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Joe/NNP)   characters/NNS   are/VBP   favorites/NNS   among/IN   boys/NNS   ./.)
+----------------------------------
+original sentence: 
+Our oldest son 10 is much more likely to get his entertainment from  Speed Channel than he is anything Disney offers.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('oldest', 'JJS'), ('son', 'NN'), ('10', 'CD'), ('is', 'VBZ'), ('much', 'JJ'), ('more', 'RBR'), ('likely', 'JJ'), ('to', 'TO'), ('get', 'VB'), ('his', 'PRP$'), ('entertainment', 'NN'), ('from', 'IN'), ('Speed', 'NNP'), ('Channel', 'NNP'), ('than', 'IN'), ('he', 'PRP'), ('is', 'VBZ'), ('anything', 'NN'), ('Disney', 'NNP'), ('offers', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   oldest/JJS   son/NN   10/CD   is/VBZ   much/JJ   more/RBR   likely/JJ   to/TO   get/VB   his/PRP$   entertainment/NN   from/IN   (PERSON Speed/NNP Channel/NNP)   than/IN   he/PRP   is/VBZ   anything/NN   (ORGANIZATION Disney/NNP)   offers/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ much/JJ)
+	(VERB   get/VB   his/PRP$   entertainment/NN   from/IN   Speed/NNP   Channel/NNP   than/IN   he/PRP)
+	(VERB is/VBZ anything/NN Disney/NNP)
+	(VERB offers/VBZ)
+noun phrases to consider:
+	(NOUN oldest/JJS son/NN)
+	(NOUN likely/JJ)
+
+----------------------------------
+original sentence: 
+He's typical in this regard.
+
+POS tagged sentence: 
+[('He', 'PRP'), ("'s", 'VBZ'), ('typical', 'JJ'), ('in', 'IN'), ('this', 'DT'), ('regard', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S He/PRP 's/VBZ typical/JJ in/IN this/DT regard/NN ./.)
+----------------------------------
+original sentence: 
+A 2008 report from Nielsen Online found that kids aged 2 11 spent 118 minutes per month looking at online video.
+
+POS tagged sentence: 
+[('A', 'DT'), ('2008', 'CD'), ('report', 'NN'), ('from', 'IN'), ('Nielsen', 'NNP'), ('Online', 'NNP'), ('found', 'VBD'), ('that', 'IN'), ('kids', 'NNS'), ('aged', 'VBD'), ('2', 'CD'), ('11', 'CD'), ('spent', 'NN'), ('118', 'CD'), ('minutes', 'NNS'), ('per', 'IN'), ('month', 'NN'), ('looking', 'VBG'), ('at', 'IN'), ('online', 'NN'), ('video', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   2008/CD   report/NN   from/IN   (PERSON Nielsen/NNP Online/NNP)   found/VBD   that/IN   kids/NNS   aged/VBD   2/CD   11/CD   spent/NN   118/CD   minutes/NNS   per/IN   month/NN   looking/VBG   at/IN   online/NN   video/NN   ./.)
+----------------------------------
+original sentence: 
+YouTube was by far their preferred streaming source; DisneyChannel.com was a distant second.
+
+POS tagged sentence: 
+[('YouTube', 'NNP'), ('was', 'VBD'), ('by', 'IN'), ('far', 'RB'), ('their', 'PRP$'), ('preferred', 'VBN'), ('streaming', 'VBG'), ('source', 'NN'), (';', ':'), ('DisneyChannel.com', 'NNP'), ('was', 'VBD'), ('a', 'DT'), ('distant', 'JJ'), ('second', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   YouTube/NNP   was/VBD   by/IN   far/RB   their/PRP$   preferred/VBN   streaming/VBG   source/NN   ;/:   DisneyChannel.com/NNP   was/VBD   a/DT   distant/JJ   second/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD by/IN far/RB their/PRP$)
+	(VERB preferred/VBN streaming/VBG source/NN)
+	(VERB was/VBD a/DT distant/JJ second/JJ)
+noun phrases to consider:
+	(NOUN YouTube/NNP)
+	(NOUN DisneyChannel.com/NNP)
+
+----------------------------------
+original sentence: 
+Disney needs Marvel to attract more of the male subset of this YouTube Generation.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('needs', 'VBZ'), ('Marvel', 'NNP'), ('to', 'TO'), ('attract', 'VB'), ('more', 'JJR'), ('of', 'IN'), ('the', 'DT'), ('male', 'JJ'), ('subset', 'NN'), ('of', 'IN'), ('this', 'DT'), ('YouTube', 'NNP'), ('Generation', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   needs/VBZ   (PERSON Marvel/NNP)   to/TO   attract/VB   more/JJR   of/IN   the/DT   male/JJ   subset/NN   of/IN   this/DT   (ORGANIZATION YouTube/NNP Generation/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB needs/VBZ Marvel/NNP)
+	(VERB   attract/VB   more/JJR   of/IN   the/DT   male/JJ   subset/NN   of/IN   this/DT   YouTube/NNP   Generation/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+
+----------------------------------
+original sentence: 
+Fortunately, help is on the way.
+
+POS tagged sentence: 
+[('Fortunately', 'RB'), (',', ','), ('help', 'VB'), ('is', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('way', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Fortunately/RB ,/, help/VB is/VBZ on/IN the/DT way/NN ./.)
+----------------------------------
+original sentence: 
+Reactions to the latest trailer for  suggest a massive opening weekend and perhaps another $300 million box office
+.
+
+POS tagged sentence: 
+[('Reactions', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('latest', 'JJS'), ('trailer', 'NN'), ('for', 'IN'), ('suggest', 'JJS'), ('a', 'DT'), ('massive', 'JJ'), ('opening', 'NN'), ('weekend', 'NN'), ('and', 'CC'), ('perhaps', 'RB'), ('another', 'DT'), ('$', '$'), ('300', 'CD'), ('million', 'CD'), ('box', 'NN'), ('office', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Reactions/NNS   to/TO   the/DT   latest/JJS   trailer/NN   for/IN   suggest/JJS   a/DT   massive/JJ   opening/NN   weekend/NN   and/CC   perhaps/RB   another/DT   $/$   300/CD   million/CD   box/NN   office/NN   ./.)
+----------------------------------
+original sentence: 
+If that does come to pass, it will be in no small part due to preteen and teen boys spending to see Robert Downey Jr. and Mickey Rourke swap punches on the big screen.
+
+POS tagged sentence: 
+[('If', 'IN'), ('that', 'DT'), ('does', 'VBZ'), ('come', 'VBN'), ('to', 'TO'), ('pass', 'VB'), (',', ','), ('it', 'PRP'), ('will', 'MD'), ('be', 'VB'), ('in', 'IN'), ('no', 'DT'), ('small', 'JJ'), ('part', 'NN'), ('due', 'JJ'), ('to', 'TO'), ('preteen', 'VB'), ('and', 'CC'), ('teen', 'VB'), ('boys', 'NNS'), ('spending', 'NN'), ('to', 'TO'), ('see', 'VB'), ('Robert', 'NNP'), ('Downey', 'NNP'), ('Jr.', 'NNP'), ('and', 'CC'), ('Mickey', 'NNP'), ('Rourke', 'NNP'), ('swap', 'NN'), ('punches', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('big', 'JJ'), ('screen', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   that/DT   does/VBZ   come/VBN   to/TO   pass/VB   ,/,   it/PRP   will/MD   be/VB   in/IN   no/DT   small/JJ   part/NN   due/JJ   to/TO   preteen/VB   and/CC   teen/VB   boys/NNS   spending/NN   to/TO   see/VB   (PERSON Robert/NNP Downey/NNP)   Jr./NNP   and/CC   (PERSON Mickey/NNP Rourke/NNP)   swap/NN   punches/VBZ   on/IN   the/DT   big/JJ   screen/NN   ./.)
+----------------------------------
+original sentence: 
+opens May 7 nationwide.
+
+POS tagged sentence: 
+[('opens', 'NNS'), ('May', 'NNP'), ('7', 'CD'), ('nationwide', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S opens/NNS May/NNP 7/CD nationwide/NN ./.)
+----------------------------------
+original sentence: 
+If there's a problem with Disney, it's with the valuation.
+
+POS tagged sentence: 
+[('If', 'IN'), ('there', 'EX'), ("'s", 'VBZ'), ('a', 'DT'), ('problem', 'NN'), ('with', 'IN'), ('Disney', 'NNP'), (',', ','), ('it', 'PRP'), ("'s", 'VBZ'), ('with', 'IN'), ('the', 'DT'), ('valuation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   there/EX   's/VBZ   a/DT   problem/NN   with/IN   (PERSON Disney/NNP)   ,/,   it/PRP   's/VBZ   with/IN   the/DT   valuation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB 's/VBZ a/DT problem/NN with/IN Disney/NNP)
+
+tagged sentence:
+	 's a problem with Disney	res:-1
+	(VERB 's/VBZ with/IN the/DT valuation/NN)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+The smart Fools at our Motley Fool Inside Value
+ service still recommend the stock, but they also say, at these levels, the company is fairly valued.
+
+POS tagged sentence: 
+[('The', 'DT'), ('smart', 'NN'), ('Fools', 'NNS'), ('at', 'IN'), ('our', 'PRP$'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Inside', 'NNP'), ('Value', 'NNP'), ('service', 'NN'), ('still', 'RB'), ('recommend', 'VBP'), ('the', 'DT'), ('stock', 'NN'), (',', ','), ('but', 'CC'), ('they', 'PRP'), ('also', 'RB'), ('say', 'VBP'), (',', ','), ('at', 'IN'), ('these', 'DT'), ('levels', 'NNS'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('fairly', 'RB'), ('valued', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   smart/NN   Fools/NNS   at/IN   our/PRP$   (PERSON Motley/NNP Fool/NNP Inside/NNP Value/NNP)   service/NN   still/RB   recommend/VBP   the/DT   stock/NN   ,/,   but/CC   they/PRP   also/RB   say/VBP   ,/,   at/IN   these/DT   levels/NNS   ,/,   the/DT   company/NN   is/VBZ   fairly/RB   valued/VBN   ./.)
+----------------------------------
+original sentence: 
+New investors shouldn't expect much in the way of immediate upside.
+
+POS tagged sentence: 
+[('New', 'NNP'), ('investors', 'NNS'), ('should', 'MD'), ("n't", 'RB'), ('expect', 'VB'), ('much', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('way', 'NN'), ('of', 'IN'), ('immediate', 'JJ'), ('upside', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP)   investors/NNS   should/MD   n't/RB   expect/VB   much/JJ   in/IN   the/DT   way/NN   of/IN   immediate/JJ   upside/NN   ./.)
+----------------------------------
+original sentence: 
+By the numbers, my friends at  are absolutely right.
+
+POS tagged sentence: 
+[('By', 'IN'), ('the', 'DT'), ('numbers', 'NNS'), (',', ','), ('my', 'PRP$'), ('friends', 'NNS'), ('at', 'IN'), ('are', 'VBP'), ('absolutely', 'RB'), ('right', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   the/DT   numbers/NNS   ,/,   my/PRP$   friends/NNS   at/IN   are/VBP   absolutely/RB   right/RB   ./.)
+----------------------------------
+original sentence: 
+Capital IQ shows Disney trading for 17 times this year's average earnings estimate, which calls for roughly 9% year over year growth.
+
+POS tagged sentence: 
+[('Capital', 'NNP'), ('IQ', 'NNP'), ('shows', 'VBZ'), ('Disney', 'NNP'), ('trading', 'NN'), ('for', 'IN'), ('17', 'CD'), ('times', 'NNS'), ('this', 'DT'), ('year', 'NN'), ("'s", 'POS'), ('average', 'JJ'), ('earnings', 'NNS'), ('estimate', 'VBP'), (',', ','), ('which', 'WDT'), ('calls', 'VBZ'), ('for', 'IN'), ('roughly', 'RB'), ('9', 'CD'), ('%', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Capital/NNP)   IQ/NNP   shows/VBZ   (ORGANIZATION Disney/NNP)   trading/NN   for/IN   17/CD   times/NNS   this/DT   year/NN   's/POS   average/JJ   earnings/NNS   estimate/VBP   ,/,   which/WDT   calls/VBZ   for/IN   roughly/RB   9/CD   %/NN   year/NN   over/IN   year/NN   growth/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   shows/VBZ   Disney/NNP   trading/NN   for/IN   17/CD   times/NNS   this/DT   year/NN)
+	(VERB estimate/VBP)
+	(VERB calls/VBZ for/IN)
+noun phrases to consider:
+	(NOUN Capital/NNP IQ/NNP)
+	(NOUN average/JJ earnings/NNS)
+	(NOUN %/NN year/NN)
+	(NOUN year/NN growth/NN)
+
+----------------------------------
+original sentence: 
+Put in context, this means Disney is more expensive than go go growers such as Green Mountain Coffee Roasters
+, which trades for a fraction of the 80% earnings growth analysts expect this year, and , which is priced about in line with the Street's 2010 projections.
+
+POS tagged sentence: 
+[('Put', 'VB'), ('in', 'IN'), ('context', 'NN'), (',', ','), ('this', 'DT'), ('means', 'VBZ'), ('Disney', 'NNP'), ('is', 'VBZ'), ('more', 'JJR'), ('expensive', 'JJ'), ('than', 'IN'), ('go', 'NN'), ('go', 'RB'), ('growers', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Green', 'NNP'), ('Mountain', 'NNP'), ('Coffee', 'NNP'), ('Roasters', 'NNP'), (',', ','), ('which', 'WDT'), ('trades', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('fraction', 'NN'), ('of', 'IN'), ('the', 'DT'), ('80', 'CD'), ('%', 'NN'), ('earnings', 'NNS'), ('growth', 'NN'), ('analysts', 'NNS'), ('expect', 'VBP'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('and', 'CC'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('priced', 'VBN'), ('about', 'IN'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('the', 'DT'), ('Street', 'NNP'), ("'s", 'POS'), ('2010', 'CD'), ('projections', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Put/VB   in/IN   context/NN   ,/,   this/DT   means/VBZ   (ORGANIZATION Disney/NNP)   is/VBZ   more/JJR   expensive/JJ   than/IN   go/NN   go/RB   growers/NNS   such/JJ   as/IN   (PERSON Green/NNP Mountain/NNP Coffee/NNP Roasters/NNP)   ,/,   which/WDT   trades/NNS   for/IN   a/DT   fraction/NN   of/IN   the/DT   80/CD   %/NN   earnings/NNS   growth/NN   analysts/NNS   expect/VBP   this/DT   year/NN   ,/,   and/CC   ,/,   which/WDT   is/VBZ   priced/VBN   about/IN   in/IN   line/NN   with/IN   the/DT   (ORGANIZATION Street/NNP)   's/POS   2010/CD   projections/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Put/VB in/IN context/NN)
+	(VERB means/VBZ Disney/NNP)
+	(VERB   is/VBZ   more/JJR   expensive/JJ   than/IN   go/NN   go/RB   growers/NNS   such/JJ   as/IN   Green/NNP   Mountain/NNP   Coffee/NNP   Roasters/NNP)
+	(VERB expect/VBP this/DT year/NN)
+	(VERB   is/VBZ   priced/VBN   about/IN   in/IN   line/NN   with/IN   the/DT   Street/NNP)
+noun phrases to consider:
+	(NOUN trades/NNS)
+	(NOUN fraction/NN)
+	(NOUN 80/CD %/NN earnings/NNS growth/NN analysts/NNS)
+	(NOUN 2010/CD projections/NNS)
+
+----------------------------------
+original sentence: 
+Disney's also worth $65 billion in market cap, which puts it at a severe disadvantage, according to one of my Favorite Fools, .
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ("'s", 'POS'), ('also', 'RB'), ('worth', 'IN'), ('$', '$'), ('65', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('market', 'NN'), ('cap', 'NN'), (',', ','), ('which', 'WDT'), ('puts', 'NNS'), ('it', 'PRP'), ('at', 'IN'), ('a', 'DT'), ('severe', 'JJ'), ('disadvantage', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('one', 'CD'), ('of', 'IN'), ('my', 'PRP$'), ('Favorite', 'NNP'), ('Fools', 'NNP'), (',', ','), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   's/POS   also/RB   worth/IN   $/$   65/CD   billion/CD   in/IN   market/NN   cap/NN   ,/,   which/WDT   puts/NNS   it/PRP   at/IN   a/DT   severe/JJ   disadvantage/NN   ,/,   according/VBG   to/TO   one/CD   of/IN   my/PRP$   (ORGANIZATION Favorite/NNP Fools/NNP)   ,/,   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   according/VBG   to/TO   one/CD   of/IN   my/PRP$   Favorite/NNP   Fools/NNP)
+
+tagged sentence:
+	 according to one of my Favorite Fools	res:1
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN market/NN cap/NN)
+	(NOUN puts/NNS)
+	(NOUN a/DT severe/JJ disadvantage/NN)
+
+tagged sentence:
+	 a severe disadvantage	res:-1
+
+----------------------------------
+original sentence: 
+Here's his bearish pitch from early February:
+At best, the big guys match the market.
+
+POS tagged sentence: 
+[('Here', 'RB'), ("'s", 'VBZ'), ('his', 'PRP$'), ('bearish', 'JJ'), ('pitch', 'NN'), ('from', 'IN'), ('early', 'JJ'), ('February', 'NNP'), (':', ':'), ('At', 'IN'), ('best', 'JJS'), (',', ','), ('the', 'DT'), ('big', 'JJ'), ('guys', 'NNS'), ('match', 'VBP'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Here/RB   's/VBZ   his/PRP$   bearish/JJ   pitch/NN   from/IN   early/JJ   February/NNP   :/:   At/IN   best/JJS   ,/,   the/DT   big/JJ   guys/NNS   match/VBP   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+You don't grow by paying $11 billion for companies and then trusting that your giant machine can maximize the profits on all the creativity.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('do', 'VBP'), ("n't", 'RB'), ('grow', 'VB'), ('by', 'IN'), ('paying', 'NN'), ('$', '$'), ('11', 'CD'), ('billion', 'CD'), ('for', 'IN'), ('companies', 'NNS'), ('and', 'CC'), ('then', 'RB'), ('trusting', 'VBG'), ('that', 'IN'), ('your', 'PRP$'), ('giant', 'JJ'), ('machine', 'NN'), ('can', 'MD'), ('maximize', 'VB'), ('the', 'DT'), ('profits', 'NNS'), ('on', 'IN'), ('all', 'DT'), ('the', 'DT'), ('creativity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   do/VBP   n't/RB   grow/VB   by/IN   paying/NN   $/$   11/CD   billion/CD   for/IN   companies/NNS   and/CC   then/RB   trusting/VBG   that/IN   your/PRP$   giant/JJ   machine/NN   can/MD   maximize/VB   the/DT   profits/NNS   on/IN   all/DT   the/DT   creativity/NN   ./.)
+----------------------------------
+original sentence: 
+Far more likely they get nibbled at little by little as generations wake up and realize ESPN and Disneyland are bastions of retardation.
+
+POS tagged sentence: 
+[('Far', 'RB'), ('more', 'JJR'), ('likely', 'JJ'), ('they', 'PRP'), ('get', 'VBP'), ('nibbled', 'VBN'), ('at', 'IN'), ('little', 'JJ'), ('by', 'IN'), ('little', 'JJ'), ('as', 'IN'), ('generations', 'NNS'), ('wake', 'VBP'), ('up', 'RP'), ('and', 'CC'), ('realize', 'VB'), ('ESPN', 'NNP'), ('and', 'CC'), ('Disneyland', 'NNP'), ('are', 'VBP'), ('bastions', 'NNS'), ('of', 'IN'), ('retardation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Far/RB   more/JJR   likely/JJ   they/PRP   get/VBP   nibbled/VBN   at/IN   little/JJ   by/IN   little/JJ   as/IN   generations/NNS   wake/VBP   up/RP   and/CC   realize/VB   (ORGANIZATION ESPN/NNP)   and/CC   (GPE Disneyland/NNP)   are/VBP   bastions/NNS   of/IN   retardation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   get/VBP   nibbled/VBN   at/IN   little/JJ   by/IN   little/JJ   as/IN   generations/NNS)
+	(VERB wake/VBP)
+	(VERB realize/VB ESPN/NNP)
+	(VERB are/VBP bastions/NNS of/IN retardation/NN)
+noun phrases to consider:
+	(NOUN Far/RB more/JJR likely/JJ)
+	(NOUN Disneyland/NNP)
+
+----------------------------------
+original sentence: 
+Behemoths are logically not likely to prosper in an age that demands speed.
+
+POS tagged sentence: 
+[('Behemoths', 'NNS'), ('are', 'VBP'), ('logically', 'RB'), ('not', 'RB'), ('likely', 'JJ'), ('to', 'TO'), ('prosper', 'NN'), ('in', 'IN'), ('an', 'DT'), ('age', 'NN'), ('that', 'IN'), ('demands', 'NNS'), ('speed', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Behemoths/NNS   are/VBP   logically/RB   not/RB   likely/JJ   to/TO   prosper/NN   in/IN   an/DT   age/NN   that/IN   demands/NNS   speed/VBP   ./.)
+----------------------------------
+original sentence: 
+That's a fair point.
+
+POS tagged sentence: 
+[('That', 'DT'), ("'s", 'VBZ'), ('a', 'DT'), ('fair', 'JJ'), ('point', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S That/DT 's/VBZ a/DT fair/JJ point/NN ./.)
+----------------------------------
+original sentence: 
+Over the small caps tend to beat large caps
+, and large caps don't come much bigger than Disney.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('small', 'JJ'), ('caps', 'NNS'), ('tend', 'VBP'), ('to', 'TO'), ('beat', 'VB'), ('large', 'JJ'), ('caps', 'NNS'), (',', ','), ('and', 'CC'), ('large', 'JJ'), ('caps', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('come', 'VB'), ('much', 'JJ'), ('bigger', 'NN'), ('than', 'IN'), ('Disney', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   small/JJ   caps/NNS   tend/VBP   to/TO   beat/VB   large/JJ   caps/NNS   ,/,   and/CC   large/JJ   caps/NNS   do/VBP   n't/RB   come/VB   much/JJ   bigger/NN   than/IN   (ORGANIZATION Disney/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB tend/VBP to/TO beat/VB large/JJ caps/NNS)
+	(VERB do/VBP n't/RB come/VB much/JJ bigger/NN than/IN Disney/NNP)
+noun phrases to consider:
+	(NOUN the/DT small/JJ caps/NNS)
+	(NOUN large/JJ caps/NNS)
+
+----------------------------------
+original sentence: 
+Recommendation: Buy to hold
+Disney isn't likely to make much of a move in the short term.
+
+POS tagged sentence: 
+[('Recommendation', 'NN'), (':', ':'), ('Buy', 'NNP'), ('to', 'TO'), ('hold', 'VB'), ('Disney', 'NNP'), ('is', 'VBZ'), ("n't", 'RB'), ('likely', 'JJ'), ('to', 'TO'), ('make', 'VB'), ('much', 'JJ'), ('of', 'IN'), ('a', 'DT'), ('move', 'NN'), ('in', 'IN'), ('the', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Recommendation/NN   :/:   Buy/NNP   to/TO   hold/VB   (ORGANIZATION Disney/NNP)   is/VBZ   n't/RB   likely/JJ   to/TO   make/VB   much/JJ   of/IN   a/DT   move/NN   in/IN   the/DT   short/JJ   term/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB hold/VB Disney/NNP)
+	(VERB is/VBZ n't/RB likely/JJ)
+	(VERB   make/VB   much/JJ   of/IN   a/DT   move/NN   in/IN   the/DT   short/JJ   term/NN)
+noun phrases to consider:
+	(NOUN Recommendation/NN)
+	(NOUN Buy/NNP)
+
+----------------------------------
+original sentence: 
+Sure,  looks like a nice catalyst, but it's also a small piece of a very big puzzle in which theme parks and TV networks account for close to 75% of revenue.
+
+POS tagged sentence: 
+[('Sure', 'RB'), (',', ','), ('looks', 'NNS'), ('like', 'IN'), ('a', 'DT'), ('nice', 'JJ'), ('catalyst', 'NN'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ("'s", 'VBZ'), ('also', 'RB'), ('a', 'DT'), ('small', 'JJ'), ('piece', 'NN'), ('of', 'IN'), ('a', 'DT'), ('very', 'RB'), ('big', 'JJ'), ('puzzle', 'NN'), ('in', 'IN'), ('which', 'WDT'), ('theme', 'NN'), ('parks', 'VBZ'), ('and', 'CC'), ('TV', 'NN'), ('networks', 'NNS'), ('account', 'VBP'), ('for', 'IN'), ('close', 'JJ'), ('to', 'TO'), ('75', 'CD'), ('%', 'NN'), ('of', 'IN'), ('revenue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sure/RB   ,/,   looks/NNS   like/IN   a/DT   nice/JJ   catalyst/NN   ,/,   but/CC   it/PRP   's/VBZ   also/RB   a/DT   small/JJ   piece/NN   of/IN   a/DT   very/RB   big/JJ   puzzle/NN   in/IN   which/WDT   theme/NN   parks/VBZ   and/CC   TV/NN   networks/NNS   account/VBP   for/IN   close/JJ   to/TO   75/CD   %/NN   of/IN   revenue/NN   ./.)
+----------------------------------
+original sentence: 
+Still, Disney is about as stable a media stock as you'll find, and pays a decent if below market 1% .
+
+POS tagged sentence: 
+[('Still', 'RB'), (',', ','), ('Disney', 'NNP'), ('is', 'VBZ'), ('about', 'IN'), ('as', 'RB'), ('stable', 'JJ'), ('a', 'DT'), ('media', 'NN'), ('stock', 'NN'), ('as', 'IN'), ('you', 'PRP'), ("'ll", 'MD'), ('find', 'VB'), (',', ','), ('and', 'CC'), ('pays', 'NNS'), ('a', 'DT'), ('decent', 'NN'), ('if', 'IN'), ('below', 'IN'), ('market', 'NN'), ('1', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Still/RB   ,/,   (ORGANIZATION Disney/NNP)   is/VBZ   about/IN   as/RB   stable/JJ   a/DT   media/NN   stock/NN   as/IN   you/PRP   'll/MD   find/VB   ,/,   and/CC   pays/NNS   a/DT   decent/NN   if/IN   below/IN   market/NN   1/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   about/IN   as/RB   stable/JJ   a/DT   media/NN   stock/NN   as/IN   you/PRP)
+
+tagged sentence:
+	 is about as stable a media stock as you	res:1
+	(VERB find/VB)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN pays/NNS)
+	(NOUN decent/NN)
+	(NOUN market/NN)
+	(NOUN 1/CD %/NN)
+
+----------------------------------
+original sentence: 
+Today's buyers should reinvest those payouts over the long term
+, counting the incremental gains in license revenue and return on capital
+ from the Marvel theft ...
+
+POS tagged sentence: 
+[('Today', 'NN'), ("'s", 'POS'), ('buyers', 'NNS'), ('should', 'MD'), ('reinvest', 'VB'), ('those', 'DT'), ('payouts', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('long', 'JJ'), ('term', 'NN'), (',', ','), ('counting', 'VBG'), ('the', 'DT'), ('incremental', 'JJ'), ('gains', 'NNS'), ('in', 'IN'), ('license', 'NN'), ('revenue', 'NN'), ('and', 'CC'), ('return', 'NN'), ('on', 'IN'), ('capital', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Marvel', 'NNP'), ('theft', 'NN'), ('..', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   's/POS   buyers/NNS   should/MD   reinvest/VB   those/DT   payouts/NNS   over/IN   the/DT   long/JJ   term/NN   ,/,   counting/VBG   the/DT   incremental/JJ   gains/NNS   in/IN   license/NN   revenue/NN   and/CC   return/NN   on/IN   capital/NN   from/IN   the/DT   (ORGANIZATION Marvel/NNP)   theft/NN   ../:   ./.)
+----------------------------------
+original sentence: 
+I mean,  ... as a welcome bonus.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('mean', 'VBP'), (',', ','), ('...', ':'), ('as', 'IN'), ('a', 'DT'), ('welcome', 'NN'), ('bonus', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S I/PRP mean/VBP ,/, .../: as/IN a/DT welcome/NN bonus/NN ./.)
+----------------------------------
+original sentence: 
+Would you buy Disney at current prices?
+
+POS tagged sentence: 
+[('Would', 'MD'), ('you', 'PRP'), ('buy', 'VB'), ('Disney', 'NNP'), ('at', 'IN'), ('current', 'JJ'), ('prices', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Would/MD   you/PRP   buy/VB   (ORGANIZATION Disney/NNP)   at/IN   current/JJ   prices/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB buy/VB Disney/NNP at/IN current/JJ prices/NNS)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+Discuss in the comments box below.
+
+POS tagged sentence: 
+[('Discuss', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('comments', 'NNS'), ('box', 'VBP'), ('below', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Discuss/NNP) in/IN the/DT comments/NNS box/VBP below/IN ./.)
+----------------------------------
+original sentence: 
+Buffettâ€™s Forecast for 2010
+...On April 30, the Motley Fool Inside Value
+ team will represent you at the 2010 Berkshire Hathaway annual meeting.
+
+POS tagged sentence: 
+[('Buffett', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Forecast', 'NNP'), ('for', 'IN'), ('2010', 'CD'), ('...On', 'JJ'), ('April', 'NNP'), ('30', 'CD'), (',', ','), ('the', 'DT'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Inside', 'NNP'), ('Value', 'NNP'), ('team', 'NN'), ('will', 'MD'), ('represent', 'VB'), ('you', 'PRP'), ('at', 'IN'), ('the', 'DT'), ('2010', 'CD'), ('Berkshire', 'NNP'), ('Hathaway', 'NNP'), ('annual', 'JJ'), ('meeting', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Buffett/NNP)   â/:   €/:   ™/:   s/NNS   Forecast/NNP   for/IN   2010/CD   ...On/JJ   April/NNP   30/CD   ,/,   the/DT   (ORGANIZATION Motley/NNP Fool/NNP Inside/NNP Value/NNP)   team/NN   will/MD   represent/VB   you/PRP   at/IN   the/DT   2010/CD   (ORGANIZATION Berkshire/NNP Hathaway/NNP)   annual/JJ   meeting/NN   ./.)
+----------------------------------
+original sentence: 
+Simply enter your email address below to receive their comprehensive reports from Omaha, FREE!
+
+POS tagged sentence: 
+[('Simply', 'RB'), ('enter', 'JJR'), ('your', 'PRP$'), ('email', 'NN'), ('address', 'NN'), ('below', 'IN'), ('to', 'TO'), ('receive', 'VB'), ('their', 'PRP$'), ('comprehensive', 'JJ'), ('reports', 'NNS'), ('from', 'IN'), ('Omaha', 'NNP'), (',', ','), ('FREE', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Simply/RB   enter/JJR   your/PRP$   email/NN   address/NN   below/IN   to/TO   receive/VB   their/PRP$   comprehensive/JJ   reports/NNS   from/IN   (GPE Omaha/NNP)   ,/,   (ORGANIZATION FREE/NNP)   !/.)
+----------------------------------
+original sentence: 
+Apple, Disney, and Hasbro are
+Motley Fool Stock Advisor
+selections.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), (',', ','), ('Disney', 'NNP'), (',', ','), ('and', 'CC'), ('Hasbro', 'NNP'), ('are', 'VBP'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Stock', 'NNP'), ('Advisor', 'NNP'), ('selections', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   ,/,   (GPE Disney/NNP)   ,/,   and/CC   (GPE Hasbro/NNP)   are/VBP   (PERSON Motley/NNP Fool/NNP Stock/NNP Advisor/NNP)   selections/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   Motley/NNP   Fool/NNP   Stock/NNP   Advisor/NNP   selections/NNS)
+noun phrases to consider:
+	(NOUN Apple/NNP)
+	(NOUN Disney/NNP)
+	(NOUN Hasbro/NNP)
+
+----------------------------------
+original sentence: 
+Disney is also a
+Motley Fool Inside Value
+pick.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('is', 'VBZ'), ('also', 'RB'), ('a', 'DT'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Inside', 'NNP'), ('Value', 'NNP'), ('pick', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   is/VBZ   also/RB   a/DT   (ORGANIZATION Motley/NNP Fool/NNP Inside/NNP Value/NNP)   pick/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   also/RB   a/DT   Motley/NNP   Fool/NNP   Inside/NNP   Value/NNP   pick/NN)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+
+----------------------------------
+original sentence: 
+Google and Green Mountain Coffee Roasters are
+Motley Fool Rule Breakers
+recommendations.
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('and', 'CC'), ('Green', 'NNP'), ('Mountain', 'NNP'), ('Coffee', 'NNP'), ('Roasters', 'NNP'), ('are', 'VBP'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('Rule', 'NNP'), ('Breakers', 'NNP'), ('recommendations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Google/NNP)   and/CC   (PERSON Green/NNP Mountain/NNP Coffee/NNP Roasters/NNP)   are/VBP   (PERSON Motley/NNP Fool/NNP Rule/NNP Breakers/NNP)   recommendations/NNS   ./.)
+----------------------------------
+original sentence: 
+The Fool owns shares of Hasbro.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Fool', 'NNP'), ('owns', 'VBZ'), ('shares', 'NNS'), ('of', 'IN'), ('Hasbro', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Fool/NNP)   owns/VBZ   shares/NNS   of/IN   (GPE Hasbro/NNP)   ./.)
+----------------------------------
+original sentence: 
+Try any of our Foolish newsletter services
+stock picking team.
+
+POS tagged sentence: 
+[('Try', 'NNP'), ('any', 'DT'), ('of', 'IN'), ('our', 'PRP$'), ('Foolish', 'JJ'), ('newsletter', 'NN'), ('services', 'NNS'), ('stock', 'NN'), ('picking', 'VBG'), ('team', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Try/NNP)   any/DT   of/IN   our/PRP$   (GPE Foolish/JJ)   newsletter/NN   services/NNS   stock/NN   picking/VBG   team/NN   ./.)
+----------------------------------
+original sentence: 
+He had stock and options positions in Apple and stock positions in Disney and Google at the time of publication.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('had', 'VBD'), ('stock', 'NN'), ('and', 'CC'), ('options', 'NNS'), ('positions', 'NNS'), ('in', 'IN'), ('Apple', 'NNP'), ('and', 'CC'), ('stock', 'NN'), ('positions', 'NNS'), ('in', 'IN'), ('Disney', 'NNP'), ('and', 'CC'), ('Google', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('time', 'NN'), ('of', 'IN'), ('publication', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   had/VBD   stock/NN   and/CC   options/NNS   positions/NNS   in/IN   (GPE Apple/NNP)   and/CC   stock/NN   positions/NNS   in/IN   (GPE Disney/NNP)   and/CC   (PERSON Google/NNP)   at/IN   the/DT   time/NN   of/IN   publication/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB had/VBD stock/NN)
+noun phrases to consider:
+	(NOUN options/NNS positions/NNS)
+	(NOUN Apple/NNP)
+	(NOUN stock/NN positions/NNS)
+	(NOUN Disney/NNP)
+	(NOUN Google/NNP)
+	(NOUN time/NN)
+	(NOUN publication/NN)
+
+----------------------------------
+original sentence: 
+Check out Tim's
+, or connect with him on Twitter as
+.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('out', 'IN'), ('Tim', 'NNP'), ("'s", 'POS'), (',', ','), ('or', 'CC'), ('connect', 'VB'), ('with', 'IN'), ('him', 'PRP'), ('on', 'IN'), ('Twitter', 'NNP'), ('as', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   out/IN   (PERSON Tim/NNP)   's/POS   ,/,   or/CC   connect/VB   with/IN   him/PRP   on/IN   Twitter/NNP   as/IN   ./.)
+----------------------------------
+original sentence: 
+The Motley Fool is also on Twitter as
+wants to know where it can buy suitcase armor.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Motley', 'NNP'), ('Fool', 'NNP'), ('is', 'VBZ'), ('also', 'RB'), ('on', 'IN'), ('Twitter', 'NNP'), ('as', 'IN'), ('wants', 'NNS'), ('to', 'TO'), ('know', 'VB'), ('where', 'WRB'), ('it', 'PRP'), ('can', 'MD'), ('buy', 'VB'), ('suitcase', 'NN'), ('armor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Motley/NNP Fool/NNP)   is/VBZ   also/RB   on/IN   Twitter/NNP   as/IN   wants/NNS   to/TO   know/VB   where/WRB   it/PRP   can/MD   buy/VB   suitcase/NN   armor/NN   ./.)
+----------------------------------
+original sentence: 
+Because, really, nothing says cool like suitcase armor.
+
+POS tagged sentence: 
+[('Because', 'IN'), (',', ','), ('really', 'RB'), (',', ','), ('nothing', 'NN'), ('says', 'VBZ'), ('cool', 'NN'), ('like', 'IN'), ('suitcase', 'NN'), ('armor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Because/IN   ,/,   really/RB   ,/,   nothing/NN   says/VBZ   cool/NN   like/IN   suitcase/NN   armor/NN   ./.)
+----------------------------------
+original sentence: 
+Read/Post Comments 11  Recommended 16 Times DocumentId: 1137315, ~/Articles/ArticleHandler.aspx, 4/23/2010 5:13:33 PM
+ Use this area to report a comment that you believe is in violation of the community guidelines.
+
+POS tagged sentence: 
+[('Read/Post', 'JJ'), ('Comments', 'NNS'), ('11', 'CD'), ('Recommended', 'NNP'), ('16', 'CD'), ('Times', 'NNP'), ('DocumentId', 'NNP'), (':', ':'), ('1137315', 'CD'), (',', ','), ('~', ':'), ('/Articles/ArticleHandler.aspx', 'JJ'), (',', ','), ('4/23/2010', 'CD'), ('5', 'CD'), (':', ':'), ('13', 'CD'), (':', ':'), ('33', 'CD'), ('PM', 'NNP'), ('Use', 'NNP'), ('this', 'DT'), ('area', 'NN'), ('to', 'TO'), ('report', 'VB'), ('a', 'DT'), ('comment', 'NN'), ('that', 'WDT'), ('you', 'PRP'), ('believe', 'VBP'), ('is', 'VBZ'), ('in', 'IN'), ('violation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('community', 'NN'), ('guidelines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Read/Post/JJ   Comments/NNS   11/CD   Recommended/NNP   16/CD   Times/NNP   DocumentId/NNP   :/:   1137315/CD   ,/,   ~/:   /Articles/ArticleHandler.aspx/JJ   ,/,   4/23/2010/CD   5/CD   :/:   13/CD   :/:   33/CD   PM/NNP   Use/NNP   this/DT   area/NN   to/TO   report/VB   a/DT   comment/NN   that/WDT   you/PRP   believe/VBP   is/VBZ   in/IN   violation/NN   of/IN   the/DT   community/NN   guidelines/NNS   ./.)
+----------------------------------
+original sentence: 
+Our team will review the entry and take any appropriate action.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('team', 'NN'), ('will', 'MD'), ('review', 'VB'), ('the', 'DT'), ('entry', 'NN'), ('and', 'CC'), ('take', 'VB'), ('any', 'DT'), ('appropriate', 'NN'), ('action', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   team/NN   will/MD   review/VB   the/DT   entry/NN   and/CC   take/VB   any/DT   appropriate/NN   action/NN   ./.)
+----------------------------------
+original sentence: 
+11,204.28 Most Popular Articles
+Why the U.S. Can't Inflate Its Way Out of Debt
+Goldman Sachs and the Art of Ripping Your Clients' Faces Off
+The Motley Fool's Testimony on Corporate Governance and Shareholder Empowerment
+Hey, Congress, Fix This Now!
+
+POS tagged sentence: 
+[('11,204.28', 'CD'), ('Most', 'RBS'), ('Popular', 'JJ'), ('Articles', 'NNP'), ('Why', 'NNP'), ('the', 'DT'), ('U.S.', 'NNP'), ('Ca', 'NNP'), ("n't", 'RB'), ('Inflate', 'NNP'), ('Its', 'NNP'), ('Way', 'NNP'), ('Out', 'NNP'), ('of', 'IN'), ('Debt', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Art', 'NNP'), ('of', 'IN'), ('Ripping', 'NNP'), ('Your', 'NNP'), ('Clients', 'NNP'), ("'", 'POS'), ('Faces', 'NNS'), ('Off', 'NNP'), ('The', 'NNP'), ('Motley', 'NNP'), ('Fool', 'NNP'), ("'s", 'POS'), ('Testimony', 'NNP'), ('on', 'IN'), ('Corporate', 'NNP'), ('Governance', 'NNP'), ('and', 'CC'), ('Shareholder', 'NNP'), ('Empowerment', 'NNP'), ('Hey', 'NNP'), (',', ','), ('Congress', 'NNP'), (',', ','), ('Fix', 'NNP'), ('This', 'NNP'), ('Now', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   11,204.28/CD   Most/RBS   (PERSON Popular/JJ Articles/NNP)   Why/NNP   the/DT   (GPE U.S./NNP)   Ca/NNP   n't/RB   (ORGANIZATION Inflate/NNP Its/NNP Way/NNP Out/NNP)   of/IN   (PERSON Debt/NNP Goldman/NNP Sachs/NNP)   and/CC   the/DT   (ORGANIZATION Art/NNP)   of/IN   (ORGANIZATION Ripping/NNP)   Your/NNP   (PERSON Clients/NNP)   '/POS   Faces/NNS   Off/NNP   The/NNP   (ORGANIZATION Motley/NNP Fool/NNP)   's/POS   (PERSON Testimony/NNP)   on/IN   (ORGANIZATION Corporate/NNP Governance/NNP)   and/CC   (PERSON Shareholder/NNP Empowerment/NNP Hey/NNP)   ,/,   (ORGANIZATION Congress/NNP)   ,/,   (PERSON Fix/NNP)   This/NNP   Now/NNP   !/.)
+----------------------------------
+original sentence: 
+This Quality Stock Is Trading Dirt Cheap
+I Wouldn't Sell This Stock if I Were You
+A Great Global Stock With a Free Kicker Will China Rip Africa's Face Off?
+
+POS tagged sentence: 
+[('This', 'DT'), ('Quality', 'NN'), ('Stock', 'NNP'), ('Is', 'NNP'), ('Trading', 'NNP'), ('Dirt', 'NNP'), ('Cheap', 'NNP'), ('I', 'NNP'), ('Would', 'NNP'), ("n't", 'RB'), ('Sell', 'NNP'), ('This', 'NNP'), ('Stock', 'NNP'), ('if', 'IN'), ('I', 'PRP'), ('Were', 'VBP'), ('You', 'PRP'), ('A', 'DT'), ('Great', 'NNP'), ('Global', 'NNP'), ('Stock', 'NNP'), ('With', 'NNP'), ('a', 'DT'), ('Free', 'NNP'), ('Kicker', 'NNP'), ('Will', 'NNP'), ('China', 'NNP'), ('Rip', 'NNP'), ('Africa', 'NNP'), ("'s", 'POS'), ('Face', 'NNP'), ('Off', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   (ORGANIZATION Quality/NN Stock/NNP Is/NNP)   Trading/NNP   Dirt/NNP   Cheap/NNP   I/NNP   Would/NNP   n't/RB   (ORGANIZATION Sell/NNP)   This/NNP   Stock/NNP   if/IN   I/PRP   Were/VBP   You/PRP   A/DT   (GPE Great/NNP)   Global/NNP   Stock/NNP   With/NNP   a/DT   (ORGANIZATION     Free/NNP     Kicker/NNP     Will/NNP     China/NNP     Rip/NNP     Africa/NNP)   's/POS   (PERSON Face/NNP Off/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Costco Books Its Day in Court
+ Related Tickers  4/23/2010 4:00 PM  News Corp  CAPS Rating:  $270.83  Apple, Inc.
+
+POS tagged sentence: 
+[('Costco', 'NNP'), ('Books', 'NNP'), ('Its', 'NNP'), ('Day', 'NNP'), ('in', 'IN'), ('Court', 'NNP'), ('Related', 'NNP'), ('Tickers', 'NNP'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('News', 'NNP'), ('Corp', 'NNP'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('$', '$'), ('270.83', 'CD'), ('Apple', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Costco/NNP)   (PERSON Books/NNP Its/NNP)   Day/NNP   in/IN   (GPE Court/NNP)   Related/NNP   Tickers/NNP   4/23/2010/CD   4/CD   :/:   00/CD   (ORGANIZATION PM/NNP News/NNP Corp/NNP)   CAPS/NNP   Rating/NNP   :/:   $/$   270.83/CD   Apple/NNP   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+CAPS Rating:  $544.99  Google, Inc.
+
+POS tagged sentence: 
+[('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('$', '$'), ('544.99', 'CD'), ('Google', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CAPS/NNP   Rating/NNP   :/:   $/$   544.99/CD   Google/NNP   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+CAPS Rating:  Green Mountain Cof&#8230;  CAPS Rating:  The Walt Disney Co&#8230;  CAPS Rating:  Celgene Corp  CAPS Rating:  Hasbro, Inc.
+
+POS tagged sentence: 
+[('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Green', 'NNP'), ('Mountain', 'NNP'), ('Cof&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Celgene', 'NNP'), ('Corp', 'NNP'), ('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Hasbro', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CAPS/NNP   Rating/NNP   :/:   (PERSON Green/NNP Mountain/NNP)   Cof&/NNP   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   The/DT   (ORGANIZATION Walt/NNP Disney/NNP)   Co&/NNP   #/#   8230/CD   ;/:   (ORGANIZATION CAPS/NNP)   Rating/NNP   :/:   (PERSON Celgene/NNP Corp/NNP)   CAPS/NNP   Rating/NNP   :/:   (PERSON Hasbro/NNP)   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Green/NNP Mountain/NNP Cof&/NNP)
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Walt/NNP Disney/NNP Co&/NNP)
+	(NOUN CAPS/NNP Rating/NNP)
+	(NOUN Celgene/NNP Corp/NNP CAPS/NNP Rating/NNP)
+	(NOUN Hasbro/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+CAPS Rating:  Related Articles  Investing Wiki Pride International:  Pride International NYSE: http://caps.fool.com/Ticker/PDE.aspx PDE is an international provider of contract drilling and related services to oil and natural gas companies worldwide, operating offshore and on land.
+
+POS tagged sentence: 
+[('CAPS', 'NNP'), ('Rating', 'NNP'), (':', ':'), ('Related', 'NNP'), ('Articles', 'NNP'), ('Investing', 'NNP'), ('Wiki', 'NNP'), ('Pride', 'NNP'), ('International', 'NNP'), (':', ':'), ('Pride', 'NNP'), ('International', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//caps.fool.com/Ticker/PDE.aspx', 'JJ'), ('PDE', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('international', 'JJ'), ('provider', 'NN'), ('of', 'IN'), ('contract', 'NN'), ('drilling', 'VBG'), ('and', 'CC'), ('related', 'JJ'), ('services', 'NNS'), ('to', 'TO'), ('oil', 'NN'), ('and', 'CC'), ('natural', 'JJ'), ('gas', 'NN'), ('companies', 'NNS'), ('worldwide', 'VBP'), (',', ','), ('operating', 'VBG'), ('offshore', 'NN'), ('and', 'CC'), ('on', 'IN'), ('land', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   CAPS/NNP   Rating/NNP   :/:   (PERSON Related/NNP Articles/NNP Investing/NNP Wiki/NNP Pride/NNP)   International/NNP   :/:   Pride/NNP   International/NNP   NYSE/NNP   :/:   http/NN   :/:   //caps.fool.com/Ticker/PDE.aspx/JJ   (ORGANIZATION PDE/NNP)   is/VBZ   an/DT   international/JJ   provider/NN   of/IN   contract/NN   drilling/VBG   and/CC   related/JJ   services/NNS   to/TO   oil/NN   and/CC   natural/JJ   gas/NN   companies/NNS   worldwide/VBP   ,/,   operating/VBG   offshore/NN   and/CC   on/IN   land/NN   ./.)
+----------------------------------
+original sentence: 
+Want to learn more or edit this definition?
+
+POS tagged sentence: 
+[('Want', 'NNP'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('or', 'CC'), ('edit', 'NN'), ('this', 'DT'), ('definition', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Want/NNP)   to/TO   learn/VB   more/JJR   or/CC   edit/NN   this/DT   definition/NN   ?/.)
+----------------------------------
+original sentence: 
+Click here to read more! 
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Click/NNP) here/RB to/TO read/VB more/JJR !/.)
+
+veryneg:0	neg:2	pos:3	verypos:0	total:1

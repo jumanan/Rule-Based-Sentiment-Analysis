@@ -1,0 +1,329 @@
+
+----------------------------------
+original sentence: 
+Zacks Analyst Blog Highlights: Citigroup Inc., JPMorgan Chase and Co., Bank of America Corp., Wells Fargo & Co. and Goldman Sachs Group Inc. | Business Wire
+ April 07, 2010 05:00 PM Eastern Daylight Time  Zacks Analyst Blog Highlights: Citigroup Inc., JPMorgan Chase and Co., Bank of America Corp., Wells Fargo & Co. and Goldman Sachs Group Inc.  Zacks.com announces the list of stocks featured in the Analyst Blog.
+
+POS tagged sentence: 
+[('Zacks', 'NNS'), ('Analyst', 'VBP'), ('Blog', 'NNP'), ('Highlights', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('and', 'CC'), ('Co.', 'NNP'), (',', ','), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('Wells', 'NNP'), ('Fargo', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('and', 'CC'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('April', 'NNP'), ('07', 'CD'), (',', ','), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Zacks', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Highlights', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('and', 'CC'), ('Co.', 'NNP'), (',', ','), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('Wells', 'NNP'), ('Fargo', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('and', 'CC'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('Zacks.com', 'NNP'), ('announces', 'VBZ'), ('the', 'DT'), ('list', 'NN'), ('of', 'IN'), ('stocks', 'NNS'), ('featured', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Zacks/NNS   Analyst/VBP   (PERSON Blog/NNP Highlights/NNP)   :/:   (PERSON Citigroup/NNP Inc./NNP)   ,/,   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   and/CC   Co./NNP   ,/,   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp./NNP)   ,/,   (PERSON Wells/NNP Fargo/NNP)   &/CC   Co./NNP   and/CC   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)   |/NNP   Business/NNP   Wire/NNP   April/NNP   07/CD   ,/,   2010/CD   05/CD   :/:   00/CD   PM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   (PERSON Zacks/NNP Analyst/NNP Blog/NNP Highlights/NNP)   :/:   (PERSON Citigroup/NNP Inc./NNP)   ,/,   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   and/CC   Co./NNP   ,/,   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp./NNP)   ,/,   (PERSON Wells/NNP Fargo/NNP)   &/CC   Co./NNP   and/CC   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)   Zacks.com/NNP   announces/VBZ   the/DT   list/NN   of/IN   stocks/NNS   featured/VBN   in/IN   the/DT   (ORGANIZATION Analyst/NNP Blog/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Analyst/VBP Blog/NNP Highlights/NNP)
+	(VERB announces/VBZ the/DT list/NN of/IN stocks/NNS)
+	(VERB featured/VBN in/IN the/DT Analyst/NNP Blog/NNP)
+noun phrases to consider:
+	(NOUN Zacks/NNS)
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN JPMorgan/NNP Chase/NNP)
+	(NOUN Co./NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp./NNP)
+	(NOUN Wells/NNP Fargo/NNP)
+	(NOUN Co./NNP)
+	(NOUN Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)
+	(NOUN |/NNP Business/NNP Wire/NNP April/NNP)
+	(NOUN 00/CD PM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Zacks/NNP Analyst/NNP Blog/NNP Highlights/NNP)
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN JPMorgan/NNP Chase/NNP)
+	(NOUN Co./NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp./NNP)
+	(NOUN Wells/NNP Fargo/NNP)
+	(NOUN Co./NNP)
+	(NOUN Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)
+	(NOUN Zacks.com/NNP)
+
+----------------------------------
+original sentence: 
+Every day the Zacks Equity Research analysts discuss the latest news and events impacting stocks and the financial markets.
+
+POS tagged sentence: 
+[('Every', 'DT'), ('day', 'NN'), ('the', 'DT'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('analysts', 'NNS'), ('discuss', 'VBP'), ('the', 'DT'), ('latest', 'JJS'), ('news', 'NN'), ('and', 'CC'), ('events', 'NNS'), ('impacting', 'VBG'), ('stocks', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('financial', 'JJ'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Every/DT   day/NN   the/DT   (ORGANIZATION Zacks/NNP Equity/NNP)   Research/NNP   analysts/NNS   discuss/VBP   the/DT   latest/JJS   news/NN   and/CC   events/NNS   impacting/VBG   stocks/NNS   and/CC   the/DT   financial/JJ   markets/NNS   ./.)
+----------------------------------
+original sentence: 
+Stocks recently featured in the blog include: JPMorgan Chase and Co.
+Bank of America Corp.
+Wells Fargo & Co.
+Goldman Sachs Group Inc.  Get the most recent insight from Zacks Equity Research with the free Profit from the Pros newsletter: http://at.zacks.com/?id=4579
+Here are highlights from Tuesdayâ€™s Analyst Blog:
+Treasury Earns 8.5% from TARP
+ According to an SNL Financial report, the U.S. Treasury Department has earned an 8.5% annualized return from 49 banks that have repaid the bailout money they received as part of their participation in the Troubled Asset Relief Program TARP at the height of the credit crisis.
+
+POS tagged sentence: 
+[('Stocks', 'NNS'), ('recently', 'RB'), ('featured', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('blog', 'NN'), ('include', 'NN'), (':', ':'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('and', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp', 'NNP'), ('.', '.'), ('Wells', 'NNP'), ('Fargo', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('Get', 'NNP'), ('the', 'DT'), ('most', 'RBS'), ('recent', 'JJ'), ('insight', 'NN'), ('from', 'IN'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('with', 'IN'), ('the', 'DT'), ('free', 'JJ'), ('Profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('newsletter', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//at.zacks.com/', 'JJ'), ('?', '.'), ('id', 'JJ'), ('=', 'NN'), ('4579', 'CD'), ('Here', 'RB'), ('are', 'VBP'), ('highlights', 'NNS'), ('from', 'IN'), ('Tuesday', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Analyst', 'NNP'), ('Blog', 'NNP'), (':', ':'), ('Treasury', 'NNP'), ('Earns', 'NNPS'), ('8.5', 'CD'), ('%', 'NN'), ('from', 'IN'), ('TARP', 'NNP'), ('According', 'NNP'), ('to', 'TO'), ('an', 'DT'), ('SNL', 'NNP'), ('Financial', 'NNP'), ('report', 'NN'), (',', ','), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('has', 'VBZ'), ('earned', 'VBN'), ('an', 'DT'), ('8.5', 'CD'), ('%', 'NN'), ('annualized', 'VBD'), ('return', 'NN'), ('from', 'IN'), ('49', 'CD'), ('banks', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('repaid', 'VBN'), ('the', 'DT'), ('bailout', 'NN'), ('money', 'NN'), ('they', 'PRP'), ('received', 'VBD'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('their', 'PRP$'), ('participation', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Troubled', 'NNP'), ('Asset', 'NNP'), ('Relief', 'NNP'), ('Program', 'NNP'), ('TARP', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('height', 'NN'), ('of', 'IN'), ('the', 'DT'), ('credit', 'NN'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stocks/NNS   recently/RB   featured/VBD   in/IN   the/DT   blog/NN   include/NN   :/:   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   and/CC   Co/NNP   ./.   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp/NNP)   ./.   (PERSON Wells/NNP Fargo/NNP)   &/CC   Co/NNP   ./.   (PERSON Goldman/NNP Sachs/NNP Group/NNP)   Inc./NNP   Get/NNP   the/DT   most/RBS   recent/JJ   insight/NN   from/IN   (PERSON Zacks/NNP Equity/NNP Research/NNP)   with/IN   the/DT   free/JJ   Profit/NN   from/IN   the/DT   (ORGANIZATION Pros/NNP)   newsletter/NN   :/:   http/NN   :/:   //at.zacks.com//JJ   ?/.   id/JJ   =/NN   4579/CD   Here/RB   are/VBP   highlights/NNS   from/IN   Tuesday/NNP   â/NNP   €/NNP   ™/NNP   s/VBZ   (PERSON Analyst/NNP Blog/NNP)   :/:   (ORGANIZATION Treasury/NNP)   Earns/NNPS   8.5/CD   %/NN   from/IN   (ORGANIZATION TARP/NNP)   According/NNP   to/TO   an/DT   (ORGANIZATION SNL/NNP)   Financial/NNP   report/NN   ,/,   the/DT   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP Department/NNP)   has/VBZ   earned/VBN   an/DT   8.5/CD   %/NN   annualized/VBD   return/NN   from/IN   49/CD   banks/NNS   that/WDT   have/VBP   repaid/VBN   the/DT   bailout/NN   money/NN   they/PRP   received/VBD   as/IN   part/NN   of/IN   their/PRP$   participation/NN   in/IN   the/DT   (ORGANIZATION Troubled/NNP Asset/NNP)   Relief/NNP   Program/NNP   TARP/NNP   at/IN   the/DT   height/NN   of/IN   the/DT   credit/NN   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB featured/VBD in/IN the/DT blog/NN include/NN)
+	(VERB are/VBP highlights/NNS from/IN Tuesday/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ Analyst/NNP Blog/NNP)
+	(VERB has/VBZ earned/VBN an/DT 8.5/CD %/NN)
+	(VERB annualized/VBD return/NN from/IN 49/CD banks/NNS)
+	(VERB have/VBP repaid/VBN the/DT bailout/NN money/NN they/PRP)
+	(VERB   received/VBD   as/IN   part/NN   of/IN   their/PRP$   participation/NN   in/IN   the/DT   Troubled/NNP   Asset/NNP   Relief/NNP   Program/NNP   TARP/NNP   at/IN   the/DT   height/NN   of/IN   the/DT   credit/NN   crisis/NN)
+noun phrases to consider:
+	(NOUN Stocks/NNS)
+	(NOUN JPMorgan/NNP Chase/NNP)
+	(NOUN Co/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp/NNP)
+	(NOUN Wells/NNP Fargo/NNP)
+	(NOUN Co/NNP)
+	(NOUN Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)
+	(NOUN Get/NNP)
+	(NOUN recent/JJ insight/NN)
+
+tagged sentence:
+	 recent insight	res:1
+	(NOUN Zacks/NNP Equity/NNP Research/NNP)
+	(NOUN the/DT free/JJ Profit/NN)
+	(NOUN Pros/NNP newsletter/NN)
+	(NOUN http/NN)
+	(NOUN //at.zacks.com//JJ)
+	(NOUN id/JJ =/NN)
+	(NOUN Treasury/NNP Earns/NNPS)
+	(NOUN 8.5/CD %/NN)
+	(NOUN TARP/NNP According/NNP)
+	(NOUN SNL/NNP Financial/NNP report/NN)
+	(NOUN U.S./NNP Treasury/NNP Department/NNP)
+
+----------------------------------
+original sentence: 
+The return calculation excludes TARP companies that have partly repaid the bailout money and the companies that still have common shares held by the Treasury like
+ Most of the major institutions in the financial market such as JPMorgan Chase and Co.
+Bank of America Corp.
+Wells Fargo & Co.
+Goldman Sachs Group Inc.  have repaid the TARP loan.
+
+POS tagged sentence: 
+[('The', 'DT'), ('return', 'NN'), ('calculation', 'NN'), ('excludes', 'VBZ'), ('TARP', 'NNP'), ('companies', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('partly', 'RB'), ('repaid', 'VBN'), ('the', 'DT'), ('bailout', 'NN'), ('money', 'NN'), ('and', 'CC'), ('the', 'DT'), ('companies', 'NNS'), ('that', 'WDT'), ('still', 'RB'), ('have', 'VBP'), ('common', 'JJ'), ('shares', 'NNS'), ('held', 'VBD'), ('by', 'IN'), ('the', 'DT'), ('Treasury', 'NNP'), ('like', 'IN'), ('Most', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('major', 'JJ'), ('institutions', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('market', 'NN'), ('such', 'JJ'), ('as', 'IN'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('and', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp', 'NNP'), ('.', '.'), ('Wells', 'NNP'), ('Fargo', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('have', 'VBP'), ('repaid', 'VBN'), ('the', 'DT'), ('TARP', 'NNP'), ('loan', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   return/NN   calculation/NN   excludes/VBZ   (ORGANIZATION TARP/NNP)   companies/NNS   that/WDT   have/VBP   partly/RB   repaid/VBN   the/DT   bailout/NN   money/NN   and/CC   the/DT   companies/NNS   that/WDT   still/RB   have/VBP   common/JJ   shares/NNS   held/VBD   by/IN   the/DT   (ORGANIZATION Treasury/NNP)   like/IN   (ORGANIZATION Most/NNP)   of/IN   the/DT   major/JJ   institutions/NNS   in/IN   the/DT   financial/JJ   market/NN   such/JJ   as/IN   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   and/CC   Co/NNP   ./.   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp/NNP)   ./.   (PERSON Wells/NNP Fargo/NNP)   &/CC   Co/NNP   ./.   (PERSON Goldman/NNP Sachs/NNP Group/NNP)   Inc./NNP   have/VBP   repaid/VBN   the/DT   (ORGANIZATION TARP/NNP)   loan/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB excludes/VBZ TARP/NNP companies/NNS)
+	(VERB have/VBP partly/RB repaid/VBN the/DT bailout/NN money/NN)
+
+tagged sentence:
+	 have partly repaid the bailout money	res:-1
+	(VERB have/VBP common/JJ shares/NNS)
+	(VERB   held/VBD   by/IN   the/DT   Treasury/NNP   like/IN   Most/NNP   of/IN   the/DT   major/JJ   institutions/NNS   in/IN   the/DT   financial/JJ   market/NN   such/JJ   as/IN   JPMorgan/NNP   Chase/NNP)
+	(VERB have/VBP repaid/VBN the/DT TARP/NNP loan/NN)
+noun phrases to consider:
+	(NOUN return/NN calculation/NN)
+	(NOUN companies/NNS)
+	(NOUN Co/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp/NNP)
+	(NOUN Wells/NNP Fargo/NNP)
+	(NOUN Co/NNP)
+	(NOUN Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+Also, the Treasury has started auctioning stock warrants it acquired from the banks that received taxpayersâ€™ money and have fully repaid the same.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('the', 'DT'), ('Treasury', 'NNP'), ('has', 'VBZ'), ('started', 'VBN'), ('auctioning', 'VBG'), ('stock', 'NN'), ('warrants', 'NNS'), ('it', 'PRP'), ('acquired', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('banks', 'NNS'), ('that', 'WDT'), ('received', 'VBD'), ('taxpayers', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('money', 'NN'), ('and', 'CC'), ('have', 'VB'), ('fully', 'RB'), ('repaid', 'VBN'), ('the', 'DT'), ('same', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   the/DT   (ORGANIZATION Treasury/NNP)   has/VBZ   started/VBN   auctioning/VBG   stock/NN   warrants/NNS   it/PRP   acquired/VBD   from/IN   the/DT   banks/NNS   that/WDT   received/VBD   taxpayers/NNS   â/:   €/:   ™/:   money/NN   and/CC   have/VB   fully/RB   repaid/VBN   the/DT   same/JJ   ./.)
+----------------------------------
+original sentence: 
+The proceeds came from the auction of stock warrants acquired from the TARP banks.
+
+POS tagged sentence: 
+[('The', 'DT'), ('proceeds', 'NNS'), ('came', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('auction', 'NN'), ('of', 'IN'), ('stock', 'NN'), ('warrants', 'NNS'), ('acquired', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('TARP', 'NNP'), ('banks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   proceeds/NNS   came/VBD   from/IN   the/DT   auction/NN   of/IN   stock/NN   warrants/NNS   acquired/VBD   from/IN   the/DT   (ORGANIZATION TARP/NNP)   banks/NNS   ./.)
+----------------------------------
+original sentence: 
+The return is calculated as on Mar 30.
+
+POS tagged sentence: 
+[('The', 'DT'), ('return', 'NN'), ('is', 'VBZ'), ('calculated', 'VBN'), ('as', 'RB'), ('on', 'IN'), ('Mar', 'NNP'), ('30', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   return/NN   is/VBZ   calculated/VBN   as/RB   on/IN   Mar/NNP   30/CD   ./.)
+----------------------------------
+original sentence: 
+Last month, the Treasury said that new loans tumbled in Jan 2010 at nine major banks, which received significant government aid through TARP during the height of the financial crisis and have not repaid yet.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('month', 'NN'), (',', ','), ('the', 'DT'), ('Treasury', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('new', 'JJ'), ('loans', 'NNS'), ('tumbled', 'VBN'), ('in', 'IN'), ('Jan', 'NNP'), ('2010', 'CD'), ('at', 'IN'), ('nine', 'CD'), ('major', 'JJ'), ('banks', 'NNS'), (',', ','), ('which', 'WDT'), ('received', 'VBD'), ('significant', 'JJ'), ('government', 'NN'), ('aid', 'NN'), ('through', 'IN'), ('TARP', 'NNP'), ('during', 'IN'), ('the', 'DT'), ('height', 'NN'), ('of', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('crisis', 'NN'), ('and', 'CC'), ('have', 'VB'), ('not', 'RB'), ('repaid', 'VBN'), ('yet', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   month/NN   ,/,   the/DT   (ORGANIZATION Treasury/NNP)   said/VBD   that/IN   new/JJ   loans/NNS   tumbled/VBN   in/IN   Jan/NNP   2010/CD   at/IN   nine/CD   major/JJ   banks/NNS   ,/,   which/WDT   received/VBD   significant/JJ   government/NN   aid/NN   through/IN   (ORGANIZATION TARP/NNP)   during/IN   the/DT   height/NN   of/IN   the/DT   financial/JJ   crisis/NN   and/CC   have/VB   not/RB   repaid/VBN   yet/RB   ./.)
+----------------------------------
+original sentence: 
+According to the Treasury, the drop in loan originations in January could partially be a result of large increases in originations during November and December of 2009.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('Treasury', 'NNP'), (',', ','), ('the', 'DT'), ('drop', 'NN'), ('in', 'IN'), ('loan', 'NN'), ('originations', 'NNS'), ('in', 'IN'), ('January', 'NNP'), ('could', 'MD'), ('partially', 'RB'), ('be', 'VB'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('large', 'JJ'), ('increases', 'NNS'), ('in', 'IN'), ('originations', 'NNS'), ('during', 'IN'), ('November', 'NNP'), ('and', 'CC'), ('December', 'NNP'), ('of', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   the/DT   (ORGANIZATION Treasury/NNP)   ,/,   the/DT   drop/NN   in/IN   loan/NN   originations/NNS   in/IN   January/NNP   could/MD   partially/RB   be/VB   a/DT   result/NN   of/IN   large/JJ   increases/NNS   in/IN   originations/NNS   during/IN   November/NNP   and/CC   December/NNP   of/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Want more from Zacks Equity Research?
+
+POS tagged sentence: 
+[('Want', 'NNP'), ('more', 'JJR'), ('from', 'IN'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Want/NNP   more/JJR   from/IN   (PERSON Zacks/NNP Equity/NNP Research/NNP)   ?/.)
+----------------------------------
+original sentence: 
+Subscribe to the free Profit from the Pros newsletter: http://at.zacks.com/?id=5514
+About Zacks Equity Research
+ Zacks Equity Research provides the best of quantitative and qualitative analysis to help investors know what stocks to buy and which to sell for the long term.
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('free', 'JJ'), ('Profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('newsletter', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//at.zacks.com/', 'JJ'), ('?', '.'), ('id', 'JJ'), ('=', 'NN'), ('5514', 'CD'), ('About', 'IN'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('provides', 'VBZ'), ('the', 'DT'), ('best', 'JJS'), ('of', 'IN'), ('quantitative', 'JJ'), ('and', 'CC'), ('qualitative', 'JJ'), ('analysis', 'NN'), ('to', 'TO'), ('help', 'VB'), ('investors', 'NNS'), ('know', 'VB'), ('what', 'WP'), ('stocks', 'NNS'), ('to', 'TO'), ('buy', 'VB'), ('and', 'CC'), ('which', 'WDT'), ('to', 'TO'), ('sell', 'VB'), ('for', 'IN'), ('the', 'DT'), ('long', 'JJ'), ('term', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   the/DT   free/JJ   Profit/NN   from/IN   the/DT   (ORGANIZATION Pros/NNP)   newsletter/NN   :/:   http/NN   :/:   //at.zacks.com//JJ   ?/.   id/JJ   =/NN   5514/CD   About/IN   (PERSON     Zacks/NNP     Equity/NNP     Research/NNP     Zacks/NNP     Equity/NNP     Research/NNP)   provides/VBZ   the/DT   best/JJS   of/IN   quantitative/JJ   and/CC   qualitative/JJ   analysis/NN   to/TO   help/VB   investors/NNS   know/VB   what/WP   stocks/NNS   to/TO   buy/VB   and/CC   which/WDT   to/TO   sell/VB   for/IN   the/DT   long/JJ   term/NN   ./.)
+----------------------------------
+original sentence: 
+Continuous coverage is provided for a universe of 1,150 publicly traded stocks.
+
+POS tagged sentence: 
+[('Continuous', 'JJ'), ('coverage', 'NN'), ('is', 'VBZ'), ('provided', 'VBN'), ('for', 'IN'), ('a', 'DT'), ('universe', 'NN'), ('of', 'IN'), ('1,150', 'CD'), ('publicly', 'RB'), ('traded', 'VBN'), ('stocks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Continuous/JJ   coverage/NN   is/VBZ   provided/VBN   for/IN   a/DT   universe/NN   of/IN   1,150/CD   publicly/RB   traded/VBN   stocks/NNS   ./.)
+----------------------------------
+original sentence: 
+Our analysts are organized by industry which gives them keen insights to developments that affect company profits and stock performance.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('analysts', 'NNS'), ('are', 'VBP'), ('organized', 'VBN'), ('by', 'IN'), ('industry', 'NN'), ('which', 'WDT'), ('gives', 'VBZ'), ('them', 'PRP'), ('keen', 'IN'), ('insights', 'NNS'), ('to', 'TO'), ('developments', 'NNS'), ('that', 'IN'), ('affect', 'NN'), ('company', 'NN'), ('profits', 'NNS'), ('and', 'CC'), ('stock', 'NN'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   analysts/NNS   are/VBP   organized/VBN   by/IN   industry/NN   which/WDT   gives/VBZ   them/PRP   keen/IN   insights/NNS   to/TO   developments/NNS   that/IN   affect/NN   company/NN   profits/NNS   and/CC   stock/NN   performance/NN   ./.)
+----------------------------------
+original sentence: 
+Recommendations and target prices are six month time horizons.
+
+POS tagged sentence: 
+[('Recommendations', 'NNS'), ('and', 'CC'), ('target', 'VB'), ('prices', 'NNS'), ('are', 'VBP'), ('six', 'CD'), ('month', 'NN'), ('time', 'NN'), ('horizons', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Recommendations/NNS   and/CC   target/VB   prices/NNS   are/VBP   six/CD   month/NN   time/NN   horizons/NNS   ./.)
+----------------------------------
+original sentence: 
+Zacks "Profit from the Pros" e mail newsletter provides highlights of the latest analysis from Zacks Equity Research.
+
+POS tagged sentence: 
+[('Zacks', 'NNS'), ('"', 'VBP'), ('Profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('"', 'NNP'), ('e', 'NN'), ('mail', 'NN'), ('newsletter', 'NN'), ('provides', 'VBZ'), ('highlights', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('analysis', 'NN'), ('from', 'IN'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Zacks/NNS   "/VBP   Profit/NN   from/IN   the/DT   Pros/NNP   "/NNP   e/NN   mail/NN   newsletter/NN   provides/VBZ   highlights/NNS   of/IN   the/DT   latest/JJS   analysis/NN   from/IN   (PERSON Zacks/NNP Equity/NNP Research/NNP)   ./.)
+----------------------------------
+original sentence: 
+Subscribe to this free newsletter today: http://at.zacks.com/?id=5516
+ Zacks.com is a property of Zacks Investment Research, Inc., which was formed in 1978 by Leonard Zacks.
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('this', 'DT'), ('free', 'JJ'), ('newsletter', 'NN'), ('today', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//at.zacks.com/', 'JJ'), ('?', '.'), ('id', 'JJ'), ('=', 'NN'), ('5516', 'CD'), ('Zacks.com', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('property', 'NN'), ('of', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('formed', 'VBN'), ('in', 'IN'), ('1978', 'CD'), ('by', 'IN'), ('Leonard', 'NNP'), ('Zacks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   this/DT   free/JJ   newsletter/NN   today/NN   :/:   http/NN   :/:   //at.zacks.com//JJ   ?/.   id/JJ   =/NN   5516/CD   Zacks.com/NN   is/VBZ   a/DT   property/NN   of/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   Inc./NNP   ,/,   which/WDT   was/VBD   formed/VBN   in/IN   1978/CD   by/IN   (PERSON Leonard/NNP Zacks/NNP)   ./.)
+----------------------------------
+original sentence: 
+As a PhD in mathematics Len knew he could find patterns in stock market data that would lead to superior investment results.
+
+POS tagged sentence: 
+[('As', 'IN'), ('a', 'DT'), ('PhD', 'NNP'), ('in', 'IN'), ('mathematics', 'NN'), ('Len', 'NNP'), ('knew', 'VBD'), ('he', 'PRP'), ('could', 'MD'), ('find', 'VB'), ('patterns', 'NNS'), ('in', 'IN'), ('stock', 'NN'), ('market', 'NN'), ('data', 'NNS'), ('that', 'WDT'), ('would', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('superior', 'VB'), ('investment', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   a/DT   (ORGANIZATION PhD/NNP)   in/IN   mathematics/NN   (PERSON Len/NNP)   knew/VBD   he/PRP   could/MD   find/VB   patterns/NNS   in/IN   stock/NN   market/NN   data/NNS   that/WDT   would/MD   lead/VB   to/TO   superior/VB   investment/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+Amongst his many accomplishments was the formation of his proprietary stock picking system; the Zacks Rank, which continues to outperform the market by nearly a 3 to 1 margin.
+
+POS tagged sentence: 
+[('Amongst', 'NNP'), ('his', 'PRP$'), ('many', 'JJ'), ('accomplishments', 'NNS'), ('was', 'VBD'), ('the', 'DT'), ('formation', 'NN'), ('of', 'IN'), ('his', 'PRP$'), ('proprietary', 'JJ'), ('stock', 'NN'), ('picking', 'VBG'), ('system', 'NN'), (';', ':'), ('the', 'DT'), ('Zacks', 'NNP'), ('Rank', 'NNP'), (',', ','), ('which', 'WDT'), ('continues', 'VBZ'), ('to', 'TO'), ('outperform', 'NN'), ('the', 'DT'), ('market', 'NN'), ('by', 'IN'), ('nearly', 'RB'), ('a', 'DT'), ('3', 'CD'), ('to', 'TO'), ('1', 'CD'), ('margin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Amongst/NNP   his/PRP$   many/JJ   accomplishments/NNS   was/VBD   the/DT   formation/NN   of/IN   his/PRP$   proprietary/JJ   stock/NN   picking/VBG   system/NN   ;/:   the/DT   (ORGANIZATION Zacks/NNP Rank/NNP)   ,/,   which/WDT   continues/VBZ   to/TO   outperform/NN   the/DT   market/NN   by/IN   nearly/RB   a/DT   3/CD   to/TO   1/CD   margin/NN   ./.)
+----------------------------------
+original sentence: 
+The best way to unlock the profitable stock recommendations and market insights of Zacks Investment Research is through our free daily email newsletter; Profit from the Pros.
+
+POS tagged sentence: 
+[('The', 'DT'), ('best', 'JJS'), ('way', 'NN'), ('to', 'TO'), ('unlock', 'VB'), ('the', 'DT'), ('profitable', 'JJ'), ('stock', 'NN'), ('recommendations', 'NNS'), ('and', 'CC'), ('market', 'NN'), ('insights', 'NNS'), ('of', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), ('is', 'VBZ'), ('through', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('daily', 'JJ'), ('email', 'NN'), ('newsletter', 'NN'), (';', ':'), ('Profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   best/JJS   way/NN   to/TO   unlock/VB   the/DT   profitable/JJ   stock/NN   recommendations/NNS   and/CC   market/NN   insights/NNS   of/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   is/VBZ   through/IN   our/PRP$   free/JJ   daily/JJ   email/NN   newsletter/NN   ;/:   Profit/NN   from/IN   the/DT   Pros/NNP   ./.)
+----------------------------------
+original sentence: 
+In short, it's your steady flow of Profitable ideas GUARANTEED to be worth your time!
+
+POS tagged sentence: 
+[('In', 'IN'), ('short', 'JJ'), (',', ','), ('it', 'PRP'), ("'s", 'VBZ'), ('your', 'PRP$'), ('steady', 'JJ'), ('flow', 'NN'), ('of', 'IN'), ('Profitable', 'NNP'), ('ideas', 'NNS'), ('GUARANTEED', 'NNP'), ('to', 'TO'), ('be', 'VB'), ('worth', 'JJ'), ('your', 'PRP$'), ('time', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   short/JJ   ,/,   it/PRP   's/VBZ   your/PRP$   steady/JJ   flow/NN   of/IN   (ORGANIZATION Profitable/NNP)   ideas/NNS   (ORGANIZATION GUARANTEED/NNP)   to/TO   be/VB   worth/JJ   your/PRP$   time/NN   !/.)
+----------------------------------
+original sentence: 
+Register for your free subscription to Profit from the Pros at http://at.zacks.com/?id=4580
+http://www.zacks.com/performance
+ for information about the performance numbers displayed in this press release.
+
+POS tagged sentence: 
+[('Register', 'NNP'), ('for', 'IN'), ('your', 'PRP$'), ('free', 'JJ'), ('subscription', 'NN'), ('to', 'TO'), ('Profit', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//at.zacks.com/', 'JJ'), ('?', '.'), ('id', 'JJ'), ('=', 'NN'), ('4580', 'CD'), ('http', 'NN'), (':', ':'), ('//www.zacks.com/performance', 'NN'), ('for', 'IN'), ('information', 'NN'), ('about', 'IN'), ('the', 'DT'), ('performance', 'NN'), ('numbers', 'NNS'), ('displayed', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('press', 'NN'), ('release', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Register/NNP   for/IN   your/PRP$   free/JJ   subscription/NN   to/TO   Profit/NNP   from/IN   the/DT   Pros/NNP   at/IN   http/NN   :/:   //at.zacks.com//JJ   ?/.   id/JJ   =/NN   4580/CD   http/NN   :/:   //www.zacks.com/performance/NN   for/IN   information/NN   about/IN   the/DT   performance/NN   numbers/NNS   displayed/VBD   in/IN   this/DT   press/NN   release/NN   ./.)
+----------------------------------
+original sentence: 
+Follow us on Twitter: http://twitter.com/zacksresearch
+ Join us on Facebook: http://www.facebook.com/home.php#/pages/Zacks Investment Research/57553657748?ref=ts
+ Disclaimer: Past performance does not guarantee future results.
+
+POS tagged sentence: 
+[('Follow', 'NNP'), ('us', 'PRP'), ('on', 'IN'), ('Twitter', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//twitter.com/zacksresearch', 'JJ'), ('Join', 'NNP'), ('us', 'PRP'), ('on', 'IN'), ('Facebook', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.facebook.com/home.php', 'JJ'), ('#', '#'), ('/pages/Zacks', 'NNS'), ('Investment', 'NNP'), ('Research/57553657748', 'NNP'), ('?', '.'), ('ref', 'NN'), ('=', ':'), ('ts', 'NNS'), ('Disclaimer', 'NNP'), (':', ':'), ('Past', 'JJ'), ('performance', 'NN'), ('does', 'VBZ'), ('not', 'RB'), ('guarantee', 'VB'), ('future', 'JJ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Follow/NNP   us/PRP   on/IN   Twitter/NNP   :/:   http/NN   :/:   //twitter.com/zacksresearch/JJ   Join/NNP   us/PRP   on/IN   Facebook/NNP   :/:   http/NN   :/:   //www.facebook.com/home.php/JJ   #/#   /pages/Zacks/NNS   (ORGANIZATION Investment/NNP)   Research/57553657748/NNP   ?/.   ref/NN   =/:   ts/NNS   Disclaimer/NNP   :/:   Past/JJ   performance/NN   does/VBZ   not/RB   guarantee/VB   future/JJ   results/NNS   ./.)
+----------------------------------
+original sentence: 
+Investors should always research companies and securities before making any investments.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('should', 'MD'), ('always', 'RB'), ('research', 'VB'), ('companies', 'NNS'), ('and', 'CC'), ('securities', 'NNS'), ('before', 'IN'), ('making', 'VBG'), ('any', 'DT'), ('investments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investors/NNS   should/MD   always/RB   research/VB   companies/NNS   and/CC   securities/NNS   before/IN   making/VBG   any/DT   investments/NNS   ./.)
+----------------------------------
+original sentence: 
+Nothing herein should be construed as an offer or solicitation to buy or sell any security.
+
+POS tagged sentence: 
+[('Nothing', 'NN'), ('herein', 'NN'), ('should', 'MD'), ('be', 'VB'), ('construed', 'VBN'), ('as', 'IN'), ('an', 'DT'), ('offer', 'NN'), ('or', 'CC'), ('solicitation', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('or', 'CC'), ('sell', 'VB'), ('any', 'DT'), ('security', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nothing/NN)   herein/NN   should/MD   be/VB   construed/VBN   as/IN   an/DT   offer/NN   or/CC   solicitation/NN   to/TO   buy/VB   or/CC   sell/VB   any/DT   security/NN   ./.)
+----------------------------------
+original sentence: 
+Contacts Mark Vickery, 312 265 9380
+ http://www.businesswire.com/news/home/20100407006489/en/Zacks Analyst Blog Highlights Citigroup JPMorgan Chase
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Contacts', 'NNS'), ('Mark', 'NNP'), ('Vickery', 'NNP'), (',', ','), ('312', 'CD'), ('265', 'CD'), ('9380', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100407006489/en/Zacks', 'NNS'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Highlights', 'NNP'), ('Citigroup', 'NNP'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Contacts/NNS   (PERSON Mark/NNP Vickery/NNP)   ,/,   312/CD   265/CD   9380/CD   http/NN   :/:   //www.businesswire.com/news/home/20100407006489/en/Zacks/NNS   (PERSON Analyst/NNP Blog/NNP Highlights/NNP Citigroup/NNP)   JPMorgan/NNP   Chase/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

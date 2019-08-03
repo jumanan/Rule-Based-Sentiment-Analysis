@@ -1,0 +1,289 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Stocks Ended Mixed, Erasing Earlier Losses as Financials Reversed Losses.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Stocks', 'NNS'), ('Ended', 'NNP'), ('Mixed', 'NNP'), (',', ','), ('Erasing', 'NNP'), ('Earlier', 'NNP'), ('Losses', 'NNP'), ('as', 'IN'), ('Financials', 'NNPS'), ('Reversed', 'NNP'), ('Losses', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Stocks/NNS   (PERSON Ended/NNP Mixed/NNP)   ,/,   (PERSON Erasing/NNP Earlier/NNP Losses/NNP)   as/IN   (ORGANIZATION Financials/NNPS Reversed/NNP Losses/NNP)   ./.)
+----------------------------------
+original sentence: 
+Dow Leaders: WMT, MRK, GE, PFE, and CSCO | Stocks
+ Stocks Ended Mixed, Erasing Earlier Losses as Financials Reversed Losses.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Leaders', 'NNP'), (':', ':'), ('WMT', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('GE', 'NNP'), (',', ','), ('PFE', 'NNP'), (',', ','), ('and', 'CC'), ('CSCO', 'NNP'), ('|', 'NNP'), ('Stocks', 'NNP'), ('Stocks', 'NNP'), ('Ended', 'NNP'), ('Mixed', 'NNP'), (',', ','), ('Erasing', 'NNP'), ('Earlier', 'NNP'), ('Losses', 'NNP'), ('as', 'IN'), ('Financials', 'NNPS'), ('Reversed', 'NNP'), ('Losses', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   Leaders/NNP   :/:   WMT/NNP   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION GE/NNP)   ,/,   (ORGANIZATION PFE/NNP)   ,/,   and/CC   (ORGANIZATION CSCO/NNP)   |/NNP   Stocks/NNP   Stocks/NNP   Ended/NNP   Mixed/NNP   ,/,   (PERSON Erasing/NNP Earlier/NNP Losses/NNP)   as/IN   (ORGANIZATION Financials/NNPS Reversed/NNP Losses/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Dow/NNP Leaders/NNP)
+	(NOUN WMT/NNP)
+	(NOUN MRK/NNP)
+	(NOUN GE/NNP)
+	(NOUN PFE/NNP)
+	(NOUN CSCO/NNP |/NNP Stocks/NNP Stocks/NNP)
+	(NOUN Ended/NNP Mixed/NNP)
+	(NOUN Erasing/NNP Earlier/NNP Losses/NNP)
+	(NOUN Financials/NNPS Reversed/NNP Losses/NNP)
+
+----------------------------------
+original sentence: 
+Dow Leaders: WMT, MRK, GE, PFE, and CSCO  Written by Christoper Lynn  Monday, 15 March 2010 18:20  TradersHuddle.com ‚Äì Stocks ended mixed, erasing earlier losses as financial shares reversed declines, while consumer companies moved higher buoyed by Wal Mart.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Leaders', 'NNP'), (':', ':'), ('WMT', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('GE', 'NNP'), (',', ','), ('PFE', 'NNP'), (',', ','), ('and', 'CC'), ('CSCO', 'NNP'), ('Written', 'NNP'), ('by', 'IN'), ('Christoper', 'NNP'), ('Lynn', 'NNP'), ('Monday', 'NNP'), (',', ','), ('15', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('18', 'CD'), (':', ':'), ('20', 'CD'), ('TradersHuddle.com', 'JJ'), ('\xe2', 'NN'), ('\x80', ':'), ('\x93', ':'), ('Stocks', 'NNS'), ('ended', 'VBD'), ('mixed', 'VBN'), (',', ','), ('erasing', 'NN'), ('earlier', 'RB'), ('losses', 'VBZ'), ('as', 'IN'), ('financial', 'JJ'), ('shares', 'NNS'), ('reversed', 'VBD'), ('declines', 'NNS'), (',', ','), ('while', 'IN'), ('consumer', 'NN'), ('companies', 'NNS'), ('moved', 'VBD'), ('higher', 'JJR'), ('buoyed', 'VBN'), ('by', 'IN'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   Leaders/NNP   :/:   WMT/NNP   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION GE/NNP)   ,/,   (ORGANIZATION PFE/NNP)   ,/,   and/CC   (ORGANIZATION CSCO/NNP Written/NNP)   by/IN   (PERSON Christoper/NNP Lynn/NNP)   Monday/NNP   ,/,   15/CD   March/NNP   2010/CD   18/CD   :/:   20/CD   TradersHuddle.com/JJ   ‚/NN   Ä/:   ì/:   Stocks/NNS   ended/VBD   mixed/VBN   ,/,   erasing/NN   earlier/RB   losses/VBZ   as/IN   financial/JJ   shares/NNS   reversed/VBD   declines/NNS   ,/,   while/IN   consumer/NN   companies/NNS   moved/VBD   higher/JJR   buoyed/VBN   by/IN   (PERSON Wal/NNP Mart/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB ended/VBD mixed/VBN)
+	(VERB losses/VBZ as/IN financial/JJ shares/NNS)
+	(VERB reversed/VBD declines/NNS)
+	(VERB moved/VBD higher/JJR)
+	(VERB buoyed/VBN by/IN Wal/NNP Mart/NNP)
+noun phrases to consider:
+	(NOUN Dow/NNP Leaders/NNP)
+	(NOUN WMT/NNP)
+	(NOUN MRK/NNP)
+	(NOUN GE/NNP)
+	(NOUN PFE/NNP)
+	(NOUN CSCO/NNP Written/NNP)
+	(NOUN Christoper/NNP Lynn/NNP Monday/NNP)
+	(NOUN 15/CD March/NNP)
+	(NOUN 20/CD TradersHuddle.com/JJ ‚/NN)
+	(NOUN Stocks/NNS)
+	(NOUN erasing/NN)
+	(NOUN consumer/NN companies/NNS)
+
+----------------------------------
+original sentence: 
+Investors weighed Moody's warning about increased credit risks for the U.S. and other large issuers of sovereign and a proposed financial regulation bill ahead of tomorrow‚Äôs Federal Reserve meeting.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('weighed', 'VBD'), ('Moody', 'NNP'), ("'s", 'POS'), ('warning', 'NN'), ('about', 'IN'), ('increased', 'VBN'), ('credit', 'NN'), ('risks', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('large', 'JJ'), ('issuers', 'NNS'), ('of', 'IN'), ('sovereign', 'NN'), ('and', 'CC'), ('a', 'DT'), ('proposed', 'VBN'), ('financial', 'JJ'), ('regulation', 'NN'), ('bill', 'NN'), ('ahead', 'RB'), ('of', 'IN'), ('tomorrow', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('meeting', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investors/NNS   weighed/VBD   (PERSON Moody/NNP)   's/POS   warning/NN   about/IN   increased/VBN   credit/NN   risks/NNS   for/IN   the/DT   (GPE U.S./NNP)   and/CC   other/JJ   large/JJ   issuers/NNS   of/IN   sovereign/NN   and/CC   a/DT   proposed/VBN   financial/JJ   regulation/NN   bill/NN   ahead/RB   of/IN   tomorrow/NN   ‚/:   Ä/:   ô/:   s/NNS   (ORGANIZATION Federal/NNP Reserve/NNP)   meeting/NN   ./.)
+----------------------------------
+original sentence: 
+The Dow Jones Industrial Average gained 17.46 points, or 0.16%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('gained', 'VBD'), ('17.46', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.16', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   gained/VBD   17.46/CD   points/NNS   ,/,   or/CC   0.16/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+The S&P 500 index added less than 1 point or 0.05%, while the NASDAQ lost 5.45 points or 0.23%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('index', 'NN'), ('added', 'VBD'), ('less', 'JJR'), ('than', 'IN'), ('1', 'CD'), ('point', 'NN'), ('or', 'CC'), ('0.05', 'CD'), ('%', 'NN'), (',', ','), ('while', 'IN'), ('the', 'DT'), ('NASDAQ', 'NNP'), ('lost', 'VBD'), ('5.45', 'CD'), ('points', 'NNS'), ('or', 'CC'), ('0.23', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   500/CD   index/NN   added/VBD   less/JJR   than/IN   1/CD   point/NN   or/CC   0.05/CD   %/NN   ,/,   while/IN   the/DT   (ORGANIZATION NASDAQ/NNP)   lost/VBD   5.45/CD   points/NNS   or/CC   0.23/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Market breadth was negative.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('breadth', 'NN'), ('was', 'VBD'), ('negative', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Market/NN) breadth/NN was/VBD negative/JJ ./.)
+----------------------------------
+original sentence: 
+On the NYSE, decliners topped winners by a rate of 16 to 11.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('NYSE', 'NNP'), (',', ','), ('decliners', 'NNS'), ('topped', 'VBD'), ('winners', 'NNS'), ('by', 'IN'), ('a', 'DT'), ('rate', 'NN'), ('of', 'IN'), ('16', 'CD'), ('to', 'TO'), ('11', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   (ORGANIZATION NYSE/NNP)   ,/,   decliners/NNS   topped/VBD   winners/NNS   by/IN   a/DT   rate/NN   of/IN   16/CD   to/TO   11/CD   ./.)
+----------------------------------
+original sentence: 
+On the NASDAQ, losers outpaced advancers by a rate of 7 to 5.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('NASDAQ', 'NNP'), (',', ','), ('losers', 'NNS'), ('outpaced', 'VBD'), ('advancers', 'NNS'), ('by', 'IN'), ('a', 'DT'), ('rate', 'NN'), ('of', 'IN'), ('7', 'CD'), ('to', 'TO'), ('5', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   (ORGANIZATION NASDAQ/NNP)   ,/,   losers/NNS   outpaced/VBD   advancers/NNS   by/IN   a/DT   rate/NN   of/IN   7/CD   to/TO   5/CD   ./.)
+----------------------------------
+original sentence: 
+The market opened lower and struggled throughout the session as the dollar gained after the Moody's warning on the U.S. and other nations with AAA debt ratings and amid continued worries about China tightening its monetary policy set the bearish sentiment for much of the trading session.
+
+POS tagged sentence: 
+[('The', 'DT'), ('market', 'NN'), ('opened', 'VBD'), ('lower', 'JJR'), ('and', 'CC'), ('struggled', 'VBD'), ('throughout', 'IN'), ('the', 'DT'), ('session', 'NN'), ('as', 'IN'), ('the', 'DT'), ('dollar', 'NN'), ('gained', 'VBD'), ('after', 'IN'), ('the', 'DT'), ('Moody', 'NNP'), ("'s", 'POS'), ('warning', 'NN'), ('on', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('nations', 'NNS'), ('with', 'IN'), ('AAA', 'NNP'), ('debt', 'NN'), ('ratings', 'NNS'), ('and', 'CC'), ('amid', 'IN'), ('continued', 'VBN'), ('worries', 'NNS'), ('about', 'IN'), ('China', 'NNP'), ('tightening', 'NN'), ('its', 'PRP$'), ('monetary', 'JJ'), ('policy', 'NN'), ('set', 'NN'), ('the', 'DT'), ('bearish', 'JJ'), ('sentiment', 'NN'), ('for', 'IN'), ('much', 'RB'), ('of', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   market/NN   opened/VBD   lower/JJR   and/CC   struggled/VBD   throughout/IN   the/DT   session/NN   as/IN   the/DT   dollar/NN   gained/VBD   after/IN   the/DT   (ORGANIZATION Moody/NNP)   's/POS   warning/NN   on/IN   the/DT   (GPE U.S./NNP)   and/CC   other/JJ   nations/NNS   with/IN   (ORGANIZATION AAA/NNP)   debt/NN   ratings/NNS   and/CC   amid/IN   continued/VBN   worries/NNS   about/IN   (GPE China/NNP)   tightening/NN   its/PRP$   monetary/JJ   policy/NN   set/NN   the/DT   bearish/JJ   sentiment/NN   for/IN   much/RB   of/IN   the/DT   trading/NN   session/NN   ./.)
+----------------------------------
+original sentence: 
+Towards the close of the trading session, the market was able to trim losses, as financial shares reversed declines after Senator Dodd unveil its proposed new financial regulatory reform bill.
+
+POS tagged sentence: 
+[('Towards', 'NNS'), ('the', 'DT'), ('close', 'NN'), ('of', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('session', 'NN'), (',', ','), ('the', 'DT'), ('market', 'NN'), ('was', 'VBD'), ('able', 'JJ'), ('to', 'TO'), ('trim', 'VB'), ('losses', 'NNS'), (',', ','), ('as', 'IN'), ('financial', 'JJ'), ('shares', 'NNS'), ('reversed', 'VBD'), ('declines', 'NNS'), ('after', 'IN'), ('Senator', 'NNP'), ('Dodd', 'NNP'), ('unveil', 'NN'), ('its', 'PRP$'), ('proposed', 'VBN'), ('new', 'JJ'), ('financial', 'JJ'), ('regulatory', 'JJ'), ('reform', 'NN'), ('bill', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Towards/NNS   the/DT   close/NN   of/IN   the/DT   trading/NN   session/NN   ,/,   the/DT   market/NN   was/VBD   able/JJ   to/TO   trim/VB   losses/NNS   ,/,   as/IN   financial/JJ   shares/NNS   reversed/VBD   declines/NNS   after/IN   Senator/NNP   Dodd/NNP   unveil/NN   its/PRP$   proposed/VBN   new/JJ   financial/JJ   regulatory/JJ   reform/NN   bill/NN   ./.)
+----------------------------------
+original sentence: 
+As Senator Dodd is trying to win Republican support, the bill was more moderate than previous drafts; helping financial shares staged a comeback.
+
+POS tagged sentence: 
+[('As', 'IN'), ('Senator', 'NNP'), ('Dodd', 'NNP'), ('is', 'VBZ'), ('trying', 'VBG'), ('to', 'TO'), ('win', 'VB'), ('Republican', 'JJ'), ('support', 'NN'), (',', ','), ('the', 'DT'), ('bill', 'NN'), ('was', 'VBD'), ('more', 'JJR'), ('moderate', 'JJ'), ('than', 'IN'), ('previous', 'JJ'), ('drafts', 'NNS'), (';', ':'), ('helping', 'VBG'), ('financial', 'JJ'), ('shares', 'NNS'), ('staged', 'VBD'), ('a', 'DT'), ('comeback', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   (ORGANIZATION Senator/NNP Dodd/NNP)   is/VBZ   trying/VBG   to/TO   win/VB   (ORGANIZATION Republican/JJ)   support/NN   ,/,   the/DT   bill/NN   was/VBD   more/JJR   moderate/JJ   than/IN   previous/JJ   drafts/NNS   ;/:   helping/VBG   financial/JJ   shares/NNS   staged/VBD   a/DT   comeback/NN   ./.)
+----------------------------------
+original sentence: 
+Dodd‚Äôs bill includes a version of the Volcker Rule to require regulators to ban proprietary trading and to limit relationships with the hedge funds.
+
+POS tagged sentence: 
+[('Dodd', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('bill', 'NN'), ('includes', 'VBZ'), ('a', 'DT'), ('version', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Volcker', 'NNP'), ('Rule', 'NNP'), ('to', 'TO'), ('require', 'VB'), ('regulators', 'NNS'), ('to', 'TO'), ('ban', 'VB'), ('proprietary', 'JJ'), ('trading', 'NN'), ('and', 'CC'), ('to', 'TO'), ('limit', 'VB'), ('relationships', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('hedge', 'NN'), ('funds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Dodd/NNP)   ‚/:   Ä/:   ô/:   s/NNS   bill/NN   includes/VBZ   a/DT   version/NN   of/IN   the/DT   (ORGANIZATION Volcker/NNP Rule/NNP)   to/TO   require/VB   regulators/NNS   to/TO   ban/VB   proprietary/JJ   trading/NN   and/CC   to/TO   limit/VB   relationships/NNS   with/IN   the/DT   hedge/NN   funds/NNS   ./.)
+----------------------------------
+original sentence: 
+The plan would also empower the Federal Reserve to break up large firms that pose a ‚Äúgrave threat‚Äù to U.S. economic stability.
+
+POS tagged sentence: 
+[('The', 'DT'), ('plan', 'NN'), ('would', 'MD'), ('also', 'RB'), ('empower', 'VB'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('to', 'TO'), ('break', 'VB'), ('up', 'RP'), ('large', 'JJ'), ('firms', 'NNS'), ('that', 'WDT'), ('pose', 'NN'), ('a', 'DT'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('grave', 'VBP'), ('threat', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('to', 'TO'), ('U.S.', 'NNP'), ('economic', 'JJ'), ('stability', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   plan/NN   would/MD   also/RB   empower/VB   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   to/TO   break/VB   up/RP   large/JJ   firms/NNS   that/WDT   pose/NN   a/DT   ‚/NN   Ä/:   ú/:   grave/VBP   threat/NN   ‚/:   Ä/:   ù/:   to/TO   (GPE U.S./NNP)   economic/JJ   stability/NN   ./.)
+----------------------------------
+original sentence: 
+Wal Mart helped consumer companies rallied as it was upgraded to a ‚ÄúBuy‚Äù from a ‚ÄúHold‚Äù at Citigroup, citing price cuts that will likely result in market share gains.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('helped', 'VBD'), ('consumer', 'NN'), ('companies', 'NNS'), ('rallied', 'VBD'), ('as', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('upgraded', 'VBN'), ('to', 'TO'), ('a', 'DT'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('Buy', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('from', 'IN'), ('a', 'DT'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('Hold', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('at', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('citing', 'VBG'), ('price', 'NN'), ('cuts', 'NNS'), ('that', 'WDT'), ('will', 'MD'), ('likely', 'RB'), ('result', 'VB'), ('in', 'IN'), ('market', 'NN'), ('share', 'NN'), ('gains', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (PERSON Mart/NNP)   helped/VBD   consumer/NN   companies/NNS   rallied/VBD   as/IN   it/PRP   was/VBD   upgraded/VBN   to/TO   a/DT   ‚/NN   Ä/:   ú/:   Buy/NNP   ‚/:   Ä/:   ù/:   from/IN   a/DT   ‚/CD   Ä/CD   ú/CD   Hold/NNP   ‚/NNP   Ä/NNP   ù/NNP   at/IN   (ORGANIZATION Citigroup/NNP)   ,/,   citing/VBG   price/NN   cuts/NNS   that/WDT   will/MD   likely/RB   result/VB   in/IN   market/NN   share/NN   gains/NNS   ./.)
+----------------------------------
+original sentence: 
+Wal Mart stock priced jumped 2.8% to $55.42, posting the largest percentage gain in the Dow Jones Industrial Average and helping consumer companies rally.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('stock', 'NN'), ('priced', 'VBN'), ('jumped', 'VBD'), ('2.8', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('55.42', 'CD'), (',', ','), ('posting', 'VBG'), ('the', 'DT'), ('largest', 'JJS'), ('percentage', 'NN'), ('gain', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('and', 'CC'), ('helping', 'VBG'), ('consumer', 'NN'), ('companies', 'NNS'), ('rally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (ORGANIZATION Mart/NNP)   stock/NN   priced/VBN   jumped/VBD   2.8/CD   %/NN   to/TO   $/$   55.42/CD   ,/,   posting/VBG   the/DT   largest/JJS   percentage/NN   gain/NN   in/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   and/CC   helping/VBG   consumer/NN   companies/NNS   rally/RB   ./.)
+----------------------------------
+original sentence: 
+Consumer companies rallied in the day helped by the Wal Mart upgrade and PepsiCo NYSE:PEP as the world‚Äôs second largest beverage maker increased its dividend and announced a share buyback program.
+
+POS tagged sentence: 
+[('Consumer', 'NN'), ('companies', 'NNS'), ('rallied', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('day', 'NN'), ('helped', 'VBD'), ('by', 'IN'), ('the', 'DT'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('upgrade', 'NN'), ('and', 'CC'), ('PepsiCo', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('PEP', 'NNP'), ('as', 'IN'), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('second', 'JJ'), ('largest', 'JJS'), ('beverage', 'NN'), ('maker', 'NN'), ('increased', 'VBD'), ('its', 'PRP$'), ('dividend', 'NN'), ('and', 'CC'), ('announced', 'VBD'), ('a', 'DT'), ('share', 'NN'), ('buyback', 'NN'), ('program', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Consumer/NN   companies/NNS   rallied/VBD   in/IN   the/DT   day/NN   helped/VBD   by/IN   the/DT   (ORGANIZATION Wal/NNP Mart/NNP)   upgrade/NN   and/CC   (ORGANIZATION PepsiCo/NNP)   NYSE/NNP   :/:   PEP/NNP   as/IN   the/DT   world/NN   ‚/:   Ä/:   ô/:   s/NNS   second/JJ   largest/JJS   beverage/NN   maker/NN   increased/VBD   its/PRP$   dividend/NN   and/CC   announced/VBD   a/DT   share/NN   buyback/NN   program/NN   ./.)
+----------------------------------
+original sentence: 
+In economic news, the Empire State Manufacturing Index slipped to 22.86 in March, slightly better than expected.
+
+POS tagged sentence: 
+[('In', 'IN'), ('economic', 'JJ'), ('news', 'NN'), (',', ','), ('the', 'DT'), ('Empire', 'NNP'), ('State', 'NNP'), ('Manufacturing', 'NNP'), ('Index', 'NNP'), ('slipped', 'VBD'), ('to', 'TO'), ('22.86', 'CD'), ('in', 'IN'), ('March', 'NNP'), (',', ','), ('slightly', 'RB'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   economic/JJ   news/NN   ,/,   the/DT   (ORGANIZATION Empire/NNP)   State/NNP   Manufacturing/NNP   Index/NNP   slipped/VBD   to/TO   22.86/CD   in/IN   (GPE March/NNP)   ,/,   slightly/RB   better/JJR   than/IN   expected/VBN   ./.)
+----------------------------------
+original sentence: 
+And industrial production climbed 0.1% in February, roughly in line with expectations, while capacity utilization rose to 72.7%.
+
+POS tagged sentence: 
+[('And', 'CC'), ('industrial', 'JJ'), ('production', 'NN'), ('climbed', 'VBD'), ('0.1', 'CD'), ('%', 'NN'), ('in', 'IN'), ('February', 'NNP'), (',', ','), ('roughly', 'RB'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('expectations', 'NNS'), (',', ','), ('while', 'IN'), ('capacity', 'NN'), ('utilization', 'NN'), ('rose', 'VBD'), ('to', 'TO'), ('72.7', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   industrial/JJ   production/NN   climbed/VBD   0.1/CD   %/NN   in/IN   February/NNP   ,/,   roughly/RB   in/IN   line/NN   with/IN   expectations/NNS   ,/,   while/IN   capacity/NN   utilization/NN   rose/VBD   to/TO   72.7/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+17 of 30 Dow components posted gains, Merck NYSE:MRK posted the second biggest gain in the blue chip index, as shares jumped 1.59% to $37.75.
+
+POS tagged sentence: 
+[('17', 'CD'), ('of', 'IN'), ('30', 'CD'), ('Dow', 'NNP'), ('components', 'NNS'), ('posted', 'VBD'), ('gains', 'NNS'), (',', ','), ('Merck', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('posted', 'VBD'), ('the', 'DT'), ('second', 'JJ'), ('biggest', 'JJS'), ('gain', 'NN'), ('in', 'IN'), ('the', 'DT'), ('blue', 'JJ'), ('chip', 'NN'), ('index', 'NN'), (',', ','), ('as', 'IN'), ('shares', 'NNS'), ('jumped', 'VBD'), ('1.59', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('37.75', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   17/CD   of/IN   30/CD   Dow/NNP   components/NNS   posted/VBD   gains/NNS   ,/,   (PERSON Merck/NNP NYSE/NNP)   :/:   (ORGANIZATION MRK/NNP)   posted/VBD   the/DT   second/JJ   biggest/JJS   gain/NN   in/IN   the/DT   blue/JJ   chip/NN   index/NN   ,/,   as/IN   shares/NNS   jumped/VBD   1.59/CD   %/NN   to/TO   $/$   37.75/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB posted/VBD gains/NNS)
+	(VERB   posted/VBD   the/DT   second/JJ   biggest/JJS   gain/NN   in/IN   the/DT   blue/JJ   chip/NN   index/NN)
+	(VERB jumped/VBD 1.59/CD %/NN)
+noun phrases to consider:
+	(NOUN 30/CD Dow/NNP components/NNS)
+	(NOUN Merck/NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN shares/NNS)
+
+----------------------------------
+original sentence: 
+The maker of Zoccor and Singluair climbed as a mid stage clinical trial of heart drug candidate betrixaban showed it reduced instances of bleeding in certain patients.
+
+POS tagged sentence: 
+[('The', 'DT'), ('maker', 'NN'), ('of', 'IN'), ('Zoccor', 'NNP'), ('and', 'CC'), ('Singluair', 'NNP'), ('climbed', 'VBD'), ('as', 'IN'), ('a', 'DT'), ('mid', 'NN'), ('stage', 'NN'), ('clinical', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('heart', 'NN'), ('drug', 'NN'), ('candidate', 'NN'), ('betrixaban', 'NN'), ('showed', 'VBD'), ('it', 'PRP'), ('reduced', 'VBD'), ('instances', 'NNS'), ('of', 'IN'), ('bleeding', 'VBG'), ('in', 'IN'), ('certain', 'JJ'), ('patients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   maker/NN   of/IN   (GPE Zoccor/NNP)   and/CC   (PERSON Singluair/NNP)   climbed/VBD   as/IN   a/DT   mid/NN   stage/NN   clinical/JJ   trial/NN   of/IN   heart/NN   drug/NN   candidate/NN   betrixaban/NN   showed/VBD   it/PRP   reduced/VBD   instances/NNS   of/IN   bleeding/VBG   in/IN   certain/JJ   patients/NNS   ./.)
+----------------------------------
+original sentence: 
+General Electric NYSE:GE , the maker of aircraft engines and energy efficient locomotives, posted the third best gain in the Dow Jones Industrial Average, as shares climbed 1.47% to $17.29.
+
+POS tagged sentence: 
+[('General', 'NNP'), ('Electric', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GE', 'NNP'), (',', ','), ('the', 'DT'), ('maker', 'NN'), ('of', 'IN'), ('aircraft', 'NN'), ('engines', 'NNS'), ('and', 'CC'), ('energy', 'NN'), ('efficient', 'NN'), ('locomotives', 'NNS'), (',', ','), ('posted', 'VBD'), ('the', 'DT'), ('third', 'JJ'), ('best', 'JJS'), ('gain', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), (',', ','), ('as', 'IN'), ('shares', 'NNS'), ('climbed', 'VBD'), ('1.47', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('17.29', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   General/NNP   (PERSON Electric/NNP NYSE/NNP)   :/:   GE/NNP   ,/,   the/DT   maker/NN   of/IN   aircraft/NN   engines/NNS   and/CC   energy/NN   efficient/NN   locomotives/NNS   ,/,   posted/VBD   the/DT   third/JJ   best/JJS   gain/NN   in/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   ,/,   as/IN   shares/NNS   climbed/VBD   1.47/CD   %/NN   to/TO   $/$   17.29/CD   ./.)
+----------------------------------
+original sentence: 
+The stock showed relative strength as it built on Friday‚Äôs upward move, the stock traded as high as $17.35, close to its 52 week high set in September 2009 of $17.52.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('showed', 'VBD'), ('relative', 'JJ'), ('strength', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('built', 'VBD'), ('on', 'IN'), ('Friday', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('upward', 'JJ'), ('move', 'NN'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('traded', 'VBN'), ('as', 'IN'), ('high', 'JJ'), ('as', 'IN'), ('$', '$'), ('17.35', 'CD'), (',', ','), ('close', 'JJ'), ('to', 'TO'), ('its', 'PRP$'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('set', 'NN'), ('in', 'IN'), ('September', 'NNP'), ('2009', 'CD'), ('of', 'IN'), ('$', '$'), ('17.52', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   showed/VBD   relative/JJ   strength/NN   as/IN   it/PRP   built/VBD   on/IN   Friday/NNP   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   upward/JJ   move/NN   ,/,   the/DT   stock/NN   traded/VBN   as/IN   high/JJ   as/IN   $/$   17.35/CD   ,/,   close/JJ   to/TO   its/PRP$   52/CD   week/NN   high/JJ   set/NN   in/IN   September/NNP   2009/CD   of/IN   $/$   17.52/CD   ./.)
+----------------------------------
+original sentence: 
+The fourth best Dow component was Pfizer NYSE:PFE , the largest pharmaceutical company in the world climbed 1.05% to $17.26.
+
+POS tagged sentence: 
+[('The', 'DT'), ('fourth', 'JJ'), ('best', 'JJS'), ('Dow', 'NNP'), ('component', 'NN'), ('was', 'VBD'), ('Pfizer', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('PFE', 'NNP'), (',', ','), ('the', 'DT'), ('largest', 'JJS'), ('pharmaceutical', 'JJ'), ('company', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('climbed', 'VBD'), ('1.05', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('17.26', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   fourth/JJ   best/JJS   Dow/NNP   component/NN   was/VBD   (PERSON Pfizer/NNP NYSE/NNP)   :/:   PFE/NNP   ,/,   the/DT   largest/JJS   pharmaceutical/JJ   company/NN   in/IN   the/DT   world/NN   climbed/VBD   1.05/CD   %/NN   to/TO   $/$   17.26/CD   ./.)
+----------------------------------
+original sentence: 
+The drug maker reported that a high dose of Lipitor therapy was associated with a significantly reduced risk of major cardiovascular events.
+
+POS tagged sentence: 
+[('The', 'DT'), ('drug', 'NN'), ('maker', 'NN'), ('reported', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('high', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('Lipitor', 'NNP'), ('therapy', 'NN'), ('was', 'VBD'), ('associated', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('significantly', 'RB'), ('reduced', 'VBN'), ('risk', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('cardiovascular', 'NN'), ('events', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   drug/NN   maker/NN   reported/VBD   that/IN   a/DT   high/JJ   dose/NN   of/IN   (GPE Lipitor/NNP)   therapy/NN   was/VBD   associated/VBN   with/IN   a/DT   significantly/RB   reduced/VBN   risk/NN   of/IN   major/JJ   cardiovascular/NN   events/NNS   ./.)
+----------------------------------
+original sentence: 
+Cisco Systems NASDAQ:CSCO , the networking giant was the fifth best Dow component, as shares jumped 0.77% to $26.08.Shares moved higher on reports that the company is planning to announce a new line of networking switches Wednesday designed to shore up its defenses against an aggressive sales push from Hewlett Packard NYSE:HPQ .
+
+POS tagged sentence: 
+[('Cisco', 'NNP'), ('Systems', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('CSCO', 'NNP'), (',', ','), ('the', 'DT'), ('networking', 'NN'), ('giant', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('fifth', 'JJ'), ('best', 'JJS'), ('Dow', 'NNP'), ('component', 'NN'), (',', ','), ('as', 'IN'), ('shares', 'NNS'), ('jumped', 'VBD'), ('0.77', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('26.08.Shares', 'CD'), ('moved', 'VBD'), ('higher', 'JJR'), ('on', 'IN'), ('reports', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('planning', 'VBG'), ('to', 'TO'), ('announce', 'NN'), ('a', 'DT'), ('new', 'JJ'), ('line', 'NN'), ('of', 'IN'), ('networking', 'NN'), ('switches', 'NNS'), ('Wednesday', 'NNP'), ('designed', 'VBD'), ('to', 'TO'), ('shore', 'VB'), ('up', 'RP'), ('its', 'PRP$'), ('defenses', 'NNS'), ('against', 'IN'), ('an', 'DT'), ('aggressive', 'JJ'), ('sales', 'NNS'), ('push', 'VBP'), ('from', 'IN'), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('HPQ', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Cisco/NNP)   (PERSON Systems/NNP NASDAQ/NNP)   :/:   (ORGANIZATION CSCO/NNP)   ,/,   the/DT   networking/NN   giant/NN   was/VBD   the/DT   fifth/JJ   best/JJS   Dow/NNP   component/NN   ,/,   as/IN   shares/NNS   jumped/VBD   0.77/CD   %/NN   to/TO   $/$   26.08.Shares/CD   moved/VBD   higher/JJR   on/IN   reports/NNS   that/IN   the/DT   company/NN   is/VBZ   planning/VBG   to/TO   announce/NN   a/DT   new/JJ   line/NN   of/IN   networking/NN   switches/NNS   Wednesday/NNP   designed/VBD   to/TO   shore/VB   up/RP   its/PRP$   defenses/NNS   against/IN   an/DT   aggressive/JJ   sales/NNS   push/VBP   from/IN   (PERSON Hewlett/NNP Packard/NNP)   NYSE/NNP   :/:   HPQ/NNP   ./.)
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

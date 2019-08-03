@@ -1,0 +1,230 @@
+
+----------------------------------
+original sentence: 
+Disney Cruise Offers Special Packages for Walt Disney Cruise Vacation
+ Visit thomosp page &gt;&gt;
+Disney Cruise Offers Special Packages for Walt Disney Cruise Vacation
+ Line is an American cruise line company owned by The Walt Disney Company
+ and headquartered in Celebration, Florida.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('Cruise', 'NNP'), ('Offers', 'NNP'), ('Special', 'NNP'), ('Packages', 'NNP'), ('for', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Cruise', 'NNP'), ('Vacation', 'NNP'), ('Visit', 'NNP'), ('thomosp', 'NN'), ('page', 'NN'), ('&gt', 'NN'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Disney', 'NNP'), ('Cruise', 'NNP'), ('Offers', 'NNP'), ('Special', 'NNP'), ('Packages', 'NNP'), ('for', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Cruise', 'NNP'), ('Vacation', 'NNP'), ('Line', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('American', 'JJ'), ('cruise', 'NN'), ('line', 'NN'), ('company', 'NN'), ('owned', 'VBN'), ('by', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('headquartered', 'VBD'), ('in', 'IN'), ('Celebration', 'NNP'), (',', ','), ('Florida', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   (PERSON Cruise/NNP Offers/NNP Special/NNP Packages/NNP)   for/IN   (PERSON Walt/NNP Disney/NNP Cruise/NNP Vacation/NNP Visit/NNP)   thomosp/NN   page/NN   &gt/NN   ;/:   &gt/JJ   ;/:   (PERSON Disney/NNP Cruise/NNP)   Offers/NNP   Special/NNP   Packages/NNP   for/IN   (PERSON Walt/NNP Disney/NNP Cruise/NNP Vacation/NNP Line/NNP)   is/VBZ   an/DT   (GPE American/JJ)   cruise/NN   line/NN   company/NN   owned/VBN   by/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   and/CC   headquartered/VBD   in/IN   (GPE Celebration/NNP)   ,/,   (GPE Florida/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ an/DT American/JJ cruise/NN line/NN company/NN)
+	(VERB owned/VBN by/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB headquartered/VBD in/IN Celebration/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP Cruise/NNP Offers/NNP Special/NNP)
+	(NOUN Packages/NNP)
+	(NOUN Walt/NNP Disney/NNP Cruise/NNP Vacation/NNP)
+	(NOUN Visit/NNP thomosp/NN page/NN &gt/NN)
+	(NOUN &gt/JJ)
+	(NOUN Disney/NNP Cruise/NNP Offers/NNP Special/NNP)
+	(NOUN Packages/NNP)
+	(NOUN Walt/NNP Disney/NNP Cruise/NNP Vacation/NNP)
+	(NOUN Line/NNP)
+	(NOUN Florida/NNP)
+
+----------------------------------
+original sentence: 
+Line was created in 1995.
+
+POS tagged sentence: 
+[('Line', 'NN'), ('was', 'VBD'), ('created', 'VBN'), ('in', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Line/NN) was/VBD created/VBN in/IN 1995/CD ./.)
+----------------------------------
+original sentence: 
+Sun, Mar 14, 2010 03:11:20 IST  Comments:   Line is an American cruise line company owned by The Walt Disney Company
+ and headquartered in Celebration, Florida.
+
+POS tagged sentence: 
+[('Sun', 'NNP'), (',', ','), ('Mar', 'NNP'), ('14', 'CD'), (',', ','), ('2010', 'CD'), ('03', 'CD'), (':', ':'), ('11', 'CD'), (':', ':'), ('20', 'CD'), ('IST', 'NNP'), ('Comments', 'NNP'), (':', ':'), ('Line', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('American', 'JJ'), ('cruise', 'NN'), ('line', 'NN'), ('company', 'NN'), ('owned', 'VBN'), ('by', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('headquartered', 'VBD'), ('in', 'IN'), ('Celebration', 'NNP'), (',', ','), ('Florida', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sun/NNP)   ,/,   Mar/NNP   14/CD   ,/,   2010/CD   03/CD   :/:   11/CD   :/:   20/CD   (ORGANIZATION IST/NNP)   Comments/NNP   :/:   (PERSON Line/NNP)   is/VBZ   an/DT   (GPE American/JJ)   cruise/NN   line/NN   company/NN   owned/VBN   by/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   and/CC   headquartered/VBD   in/IN   (GPE Celebration/NNP)   ,/,   (GPE Florida/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ an/DT American/JJ cruise/NN line/NN company/NN)
+	(VERB owned/VBN by/IN The/DT Walt/NNP Disney/NNP Company/NNP)
+	(VERB headquartered/VBD in/IN Celebration/NNP)
+noun phrases to consider:
+	(NOUN Sun/NNP)
+	(NOUN Mar/NNP)
+	(NOUN 20/CD IST/NNP Comments/NNP)
+	(NOUN Line/NNP)
+	(NOUN Florida/NNP)
+
+----------------------------------
+original sentence: 
+Line, the leader in family cruising, is known for providing Guests with world class, one of a kind vacation experiences.
+
+POS tagged sentence: 
+[('Line', 'NN'), (',', ','), ('the', 'DT'), ('leader', 'NN'), ('in', 'IN'), ('family', 'NN'), ('cruising', 'VBG'), (',', ','), ('is', 'VBZ'), ('known', 'VBN'), ('for', 'IN'), ('providing', 'NN'), ('Guests', 'NNPS'), ('with', 'IN'), ('world', 'NN'), ('class', 'NN'), (',', ','), ('one', 'CD'), ('of', 'IN'), ('a', 'DT'), ('kind', 'NN'), ('vacation', 'NN'), ('experiences', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Line/NN)   ,/,   the/DT   leader/NN   in/IN   family/NN   cruising/VBG   ,/,   is/VBZ   known/VBN   for/IN   providing/NN   Guests/NNPS   with/IN   world/NN   class/NN   ,/,   one/CD   of/IN   a/DT   kind/NN   vacation/NN   experiences/NNS   ./.)
+----------------------------------
+original sentence: 
+Line was created in 1995.
+
+POS tagged sentence: 
+[('Line', 'NN'), ('was', 'VBD'), ('created', 'VBN'), ('in', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Line/NN) was/VBD created/VBN in/IN 1995/CD ./.)
+----------------------------------
+original sentence: 
+Disney offers one of the most unique cruise experiences afloat.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('offers', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('unique', 'JJ'), ('cruise', 'NN'), ('experiences', 'NNS'), ('afloat', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   offers/VBZ   one/CD   of/IN   the/DT   most/RBS   unique/JJ   cruise/NN   experiences/NNS   afloat/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB offers/VBZ one/CD of/IN the/DT)
+	(VERB afloat/VBP)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+	(NOUN unique/JJ cruise/NN experiences/NNS)
+
+----------------------------------
+original sentence: 
+Disney has introduced a number of innovations.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('has', 'VBZ'), ('introduced', 'VBN'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('innovations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   has/VBZ   introduced/VBN   a/DT   number/NN   of/IN   innovations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ introduced/VBN a/DT number/NN of/IN innovations/NNS)
+
+tagged sentence:
+	 has introduced a number of innovations	res:1
+noun phrases to consider:
+	(NOUN Disney/NNP)
+
+----------------------------------
+original sentence: 
+Chief among them are its cabins with a bath and a half and a rotating dining room schedule in which passengers eat at three different restaurants, albeit with the same tablemates and wait staff.
+
+POS tagged sentence: 
+[('Chief', 'NN'), ('among', 'IN'), ('them', 'PRP'), ('are', 'VBP'), ('its', 'PRP$'), ('cabins', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('bath', 'NN'), ('and', 'CC'), ('a', 'DT'), ('half', 'NN'), ('and', 'CC'), ('a', 'DT'), ('rotating', 'NN'), ('dining', 'VBG'), ('room', 'NN'), ('schedule', 'NN'), ('in', 'IN'), ('which', 'WDT'), ('passengers', 'NNS'), ('eat', 'VBP'), ('at', 'IN'), ('three', 'CD'), ('different', 'JJ'), ('restaurants', 'NNS'), (',', ','), ('albeit', 'NN'), ('with', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('tablemates', 'NNS'), ('and', 'CC'), ('wait', 'VB'), ('staff', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Chief/NN)   among/IN   them/PRP   are/VBP   its/PRP$   cabins/NNS   with/IN   a/DT   bath/NN   and/CC   a/DT   half/NN   and/CC   a/DT   rotating/NN   dining/VBG   room/NN   schedule/NN   in/IN   which/WDT   passengers/NNS   eat/VBP   at/IN   three/CD   different/JJ   restaurants/NNS   ,/,   albeit/NN   with/IN   the/DT   same/JJ   tablemates/NNS   and/CC   wait/VB   staff/NN   ./.)
+----------------------------------
+original sentence: 
+It was the first cruise line to launch the &quot;soda card&quot; concept.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('was', 'VBD'), ('the', 'DT'), ('first', 'JJ'), ('cruise', 'NN'), ('line', 'NN'), ('to', 'TO'), ('launch', 'VB'), ('the', 'DT'), ('&quot', 'JJ'), (';', ':'), ('soda', 'NN'), ('card&quot', 'NN'), (';', ':'), ('concept', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   was/VBD   the/DT   first/JJ   cruise/NN   line/NN   to/TO   launch/VB   the/DT   &quot/JJ   ;/:   soda/NN   card&quot/NN   ;/:   concept/NN   ./.)
+----------------------------------
+original sentence: 
+Line currently operates two ships, the Disney Magic, and the Disney Wonder.
+
+POS tagged sentence: 
+[('Line', 'NN'), ('currently', 'RB'), ('operates', 'VBZ'), ('two', 'CD'), ('ships', 'NNS'), (',', ','), ('the', 'DT'), ('Disney', 'NNP'), ('Magic', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('Disney', 'NNP'), ('Wonder', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Line/NN)   currently/RB   operates/VBZ   two/CD   ships/NNS   ,/,   the/DT   (ORGANIZATION Disney/NNP Magic/NNP)   ,/,   and/CC   the/DT   (ORGANIZATION Disney/NNP Wonder/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB operates/VBZ two/CD ships/NNS)
+noun phrases to consider:
+	(NOUN Line/NN)
+	(NOUN Disney/NNP Magic/NNP)
+	(NOUN Disney/NNP Wonder/NNP)
+
+----------------------------------
+original sentence: 
+Line has offered special offers like special savings on European cruises, Florida residents rates, Canadian residents savings, special U.S. Military rates etc.
+ Youth Missions Special Offer only $199
+ The youth missions camps are now $199 per person.
+
+POS tagged sentence: 
+[('Line', 'NN'), ('has', 'VBZ'), ('offered', 'VBN'), ('special', 'JJ'), ('offers', 'NNS'), ('like', 'IN'), ('special', 'JJ'), ('savings', 'NNS'), ('on', 'IN'), ('European', 'JJ'), ('cruises', 'NNS'), (',', ','), ('Florida', 'NNP'), ('residents', 'NNS'), ('rates', 'NNS'), (',', ','), ('Canadian', 'JJ'), ('residents', 'NNS'), ('savings', 'NNS'), (',', ','), ('special', 'JJ'), ('U.S.', 'NNP'), ('Military', 'NNP'), ('rates', 'NNS'), ('etc', 'VBP'), ('.', '.'), ('Youth', 'NNP'), ('Missions', 'NNP'), ('Special', 'NNP'), ('Offer', 'NNP'), ('only', 'RB'), ('$', '$'), ('199', 'CD'), ('The', 'DT'), ('youth', 'NN'), ('missions', 'NNS'), ('camps', 'NNS'), ('are', 'VBP'), ('now', 'RB'), ('$', '$'), ('199', 'CD'), ('per', 'IN'), ('person', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Line/NN)   has/VBZ   offered/VBN   special/JJ   offers/NNS   like/IN   special/JJ   savings/NNS   on/IN   (GPE European/JJ)   cruises/NNS   ,/,   (GPE Florida/NNP)   residents/NNS   rates/NNS   ,/,   (GPE Canadian/JJ)   residents/NNS   savings/NNS   ,/,   special/JJ   (GPE U.S./NNP)   Military/NNP   rates/NNS   etc/VBP   ./.   (PERSON Youth/NNP Missions/NNP Special/NNP)   Offer/NNP   only/RB   $/$   199/CD   The/DT   youth/NN   missions/NNS   camps/NNS   are/VBP   now/RB   $/$   199/CD   per/IN   person/NN   ./.)
+----------------------------------
+original sentence: 
+This includes lodging, meals, all the daily spiritual and fun!
+
+POS tagged sentence: 
+[('This', 'DT'), ('includes', 'VBZ'), ('lodging', 'VBG'), (',', ','), ('meals', 'NNS'), (',', ','), ('all', 'DT'), ('the', 'DT'), ('daily', 'JJ'), ('spiritual', 'JJ'), ('and', 'CC'), ('fun', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   includes/VBZ   lodging/VBG   ,/,   meals/NNS   ,/,   all/DT   the/DT   daily/JJ   spiritual/JJ   and/CC   fun/NN   !/.)
+----------------------------------
+original sentence: 
+programs, and most importantly,..
+ Sinhagad Fort not getting its due
+ Sinhagad Fort or Lions Fort, located in Pune is a must visit tourist site.
+
+POS tagged sentence: 
+[('programs', 'NNS'), (',', ','), ('and', 'CC'), ('most', 'JJS'), ('importantly,.', 'NNP'), ('.', '.'), ('Sinhagad', 'NNP'), ('Fort', 'NNP'), ('not', 'RB'), ('getting', 'VBG'), ('its', 'PRP$'), ('due', 'JJ'), ('Sinhagad', 'NNP'), ('Fort', 'NNP'), ('or', 'CC'), ('Lions', 'NNS'), ('Fort', 'NNP'), (',', ','), ('located', 'VBD'), ('in', 'IN'), ('Pune', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('must', 'MD'), ('visit', 'VB'), ('tourist', 'NN'), ('site', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   programs/NNS   ,/,   and/CC   most/JJS   importantly,./NNP   ./.   (PERSON Sinhagad/NNP Fort/NNP)   not/RB   getting/VBG   its/PRP$   due/JJ   (ORGANIZATION Sinhagad/NNP Fort/NNP)   or/CC   Lions/NNS   Fort/NNP   ,/,   located/VBD   in/IN   (GPE Pune/NNP)   is/VBZ   a/DT   must/MD   visit/VB   tourist/NN   site/NN   ./.)
+----------------------------------
+original sentence: 
+The local population adds colour and vibrancy to the ruins of the fort..
+ Kasauli: The heaven on earth
+ Kasauli is a small hill station in the state of Himachal Pradesh developed by the British during the 'hey day' of the empire.
+
+POS tagged sentence: 
+[('The', 'DT'), ('local', 'JJ'), ('population', 'NN'), ('adds', 'VBZ'), ('colour', 'PRP$'), ('and', 'CC'), ('vibrancy', 'NN'), ('to', 'TO'), ('the', 'DT'), ('ruins', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('fort.', 'NNP'), ('.', '.'), ('Kasauli', 'NNP'), (':', ':'), ('The', 'DT'), ('heaven', 'NN'), ('on', 'IN'), ('earth', 'JJ'), ('Kasauli', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('small', 'JJ'), ('hill', 'NN'), ('station', 'NN'), ('in', 'IN'), ('the', 'DT'), ('state', 'NN'), ('of', 'IN'), ('Himachal', 'NNP'), ('Pradesh', 'NNP'), ('developed', 'VBD'), ('by', 'IN'), ('the', 'DT'), ('British', 'JJ'), ('during', 'IN'), ('the', 'DT'), ("'hey", 'JJ'), ('day', 'NN'), ("'", "''"), ('of', 'IN'), ('the', 'DT'), ('empire', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   local/JJ   population/NN   adds/VBZ   colour/PRP$   and/CC   vibrancy/NN   to/TO   the/DT   ruins/NNS   of/IN   the/DT   fort./NNP   ./.   (PERSON Kasauli/NNP)   :/:   The/DT   heaven/NN   on/IN   earth/JJ   (ORGANIZATION Kasauli/NNP)   is/VBZ   a/DT   small/JJ   hill/NN   station/NN   in/IN   the/DT   state/NN   of/IN   (ORGANIZATION Himachal/NNP Pradesh/NNP)   developed/VBD   by/IN   the/DT   (GPE British/JJ)   during/IN   the/DT   'hey/JJ   day/NN   '/''   of/IN   the/DT   empire/NN   ./.)
+----------------------------------
+original sentence: 
+Surrounded with trees..
+ India tour packages
+ India is the highly praised tourist destination as it houses verities of tourist destinations ranging from elevated Himalayan valley, enchanting see..
+ Be a Citizen Journalist
+Submit News & Articles
+Rewards & Recognition Do you think Shasi Tharoor will be back as Central Minister?
+
+POS tagged sentence: 
+[('Surrounded', 'JJ'), ('with', 'IN'), ('trees.', 'NNP'), ('.', '.'), ('India', 'NNP'), ('tour', 'PRP$'), ('packages', 'NNS'), ('India', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('highly', 'RB'), ('praised', 'VBD'), ('tourist', 'NN'), ('destination', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('houses', 'VBZ'), ('verities', 'NNS'), ('of', 'IN'), ('tourist', 'NN'), ('destinations', 'NNS'), ('ranging', 'VBG'), ('from', 'IN'), ('elevated', 'JJ'), ('Himalayan', 'NNP'), ('valley', 'NN'), (',', ','), ('enchanting', 'VBG'), ('see.', 'NNP'), ('.', '.'), ('Be', 'NNP'), ('a', 'DT'), ('Citizen', 'NNP'), ('Journalist', 'NNP'), ('Submit', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('Articles', 'NNP'), ('Rewards', 'NNP'), ('&', 'CC'), ('Recognition', 'NNP'), ('Do', 'NNP'), ('you', 'PRP'), ('think', 'VBP'), ('Shasi', 'NNP'), ('Tharoor', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('back', 'RB'), ('as', 'IN'), ('Central', 'NNP'), ('Minister', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Surrounded/JJ   with/IN   trees./NNP   ./.   India/NNP   tour/PRP$   packages/NNS   (GPE India/NNP)   is/VBZ   the/DT   highly/RB   praised/VBD   tourist/NN   destination/NN   as/IN   it/PRP   houses/VBZ   verities/NNS   of/IN   tourist/NN   destinations/NNS   ranging/VBG   from/IN   elevated/JJ   Himalayan/NNP   valley/NN   ,/,   enchanting/VBG   see./NNP   ./.   Be/NNP   a/DT   (ORGANIZATION Citizen/NNP Journalist/NNP Submit/NNP News/NNP)   &/CC   (PERSON Articles/NNP Rewards/NNP)   &/CC   Recognition/NNP   Do/NNP   you/PRP   think/VBP   (PERSON Shasi/NNP Tharoor/NNP)   will/MD   be/VB   back/RB   as/IN   (ORGANIZATION Central/NNP)   Minister/NNP   ?/.)
+----------------------------------
+original sentence: 
+Cryptococcus gattii : what is.. Powerball Winner Missouri..
+
+POS tagged sentence: 
+[('Cryptococcus', 'NNP'), ('gattii', 'NN'), (':', ':'), ('what', 'WP'), ('is..', '-NONE-'), ('Powerball', 'NNP'), ('Winner', 'NNP'), ('Missouri.', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Cryptococcus/NNP)   gattii/NN   :/:   what/WP   is../-NONE-   Powerball/NNP   Winner/NNP   Missouri./NNP   ./.)
+----------------------------------
+original sentence: 
+Wanted a world with no.. More Mistakes than 3 Preksha Dhyan: The Jaina..
+
+POS tagged sentence: 
+[('Wanted', 'NNP'), ('a', 'DT'), ('world', 'NN'), ('with', 'IN'), ('no..', 'NNP'), ('More', 'NNP'), ('Mistakes', 'NNP'), ('than', 'IN'), ('3', 'CD'), ('Preksha', 'NNP'), ('Dhyan', 'NNP'), (':', ':'), ('The', 'DT'), ('Jaina.', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Wanted/NNP)   a/DT   world/NN   with/IN   no../NNP   More/NNP   Mistakes/NNP   than/IN   3/CD   Preksha/NNP   Dhyan/NNP   :/:   The/DT   Jaina./NNP   ./.)
+----------------------------------
+original sentence: 
+Tiger Woods divorce will happen.. 
+
+POS tagged sentence: 
+[('Tiger', 'NNP'), ('Woods', 'NNP'), ('divorce', 'NN'), ('will', 'MD'), ('happen.', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Tiger/NNP)   (PERSON Woods/NNP)   divorce/NN   will/MD   happen./NNP   ./.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

@@ -1,0 +1,148 @@
+
+----------------------------------
+original sentence: 
+Intel still top dog | TechEye All the technology news unfit for print
+TechEye Technology news unfit for print
+&#8220;At the age of 80, there are very few pleasures left to me, but one of them is passive smoking&#8221; Baroness Trumpington
+After 18 years in the game
+29 Mar 2010 09:23 | by  the world's largest chip maker by revenue for the eighteenth consecutive year in 2009, according the Big G said that despite an overall decline in the global chip market, Intel's share of the chip market reached 14.6 percent in 2009, up from 13.6 percent in 2008.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('still', 'RB'), ('top', 'JJ'), ('dog', 'NN'), ('|', ':'), ('TechEye', 'NNP'), ('All', 'NNP'), ('the', 'DT'), ('technology', 'NN'), ('news', 'NN'), ('unfit', 'NN'), ('for', 'IN'), ('print', 'NN'), ('TechEye', 'NNP'), ('Technology', 'NNP'), ('news', 'NN'), ('unfit', 'NN'), ('for', 'IN'), ('print', 'NN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('At', 'IN'), ('the', 'DT'), ('age', 'NN'), ('of', 'IN'), ('80', 'CD'), (',', ','), ('there', 'EX'), ('are', 'VBP'), ('very', 'RB'), ('few', 'JJ'), ('pleasures', 'NNS'), ('left', 'VBN'), ('to', 'TO'), ('me', 'PRP'), (',', ','), ('but', 'CC'), ('one', 'CD'), ('of', 'IN'), ('them', 'PRP'), ('is', 'VBZ'), ('passive', 'JJ'), ('smoking&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Baroness', 'NNP'), ('Trumpington', 'NNP'), ('After', 'NNP'), ('18', 'CD'), ('years', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('game', 'NN'), ('29', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('23', 'CD'), ('|', 'CD'), ('by', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('chip', 'NN'), ('maker', 'NN'), ('by', 'IN'), ('revenue', 'NN'), ('for', 'IN'), ('the', 'DT'), ('eighteenth', 'NN'), ('consecutive', 'JJ'), ('year', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('the', 'DT'), ('Big', 'NNP'), ('G', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('despite', 'IN'), ('an', 'DT'), ('overall', 'JJ'), ('decline', 'NN'), ('in', 'IN'), ('the', 'DT'), ('global', 'JJ'), ('chip', 'NN'), ('market', 'NN'), (',', ','), ('Intel', 'NNP'), ("'s", 'POS'), ('share', 'NN'), ('of', 'IN'), ('the', 'DT'), ('chip', 'NN'), ('market', 'NN'), ('reached', 'VBD'), ('14.6', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('13.6', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   still/RB   top/JJ   dog/NN   |/:   (ORGANIZATION TechEye/NNP)   All/NNP   the/DT   technology/NN   news/NN   unfit/NN   for/IN   print/NN   (ORGANIZATION TechEye/NNP Technology/NNP)   news/NN   unfit/NN   for/IN   print/NN   &/CC   #/#   8220/CD   ;/:   At/IN   the/DT   age/NN   of/IN   80/CD   ,/,   there/EX   are/VBP   very/RB   few/JJ   pleasures/NNS   left/VBN   to/TO   me/PRP   ,/,   but/CC   one/CD   of/IN   them/PRP   is/VBZ   passive/JJ   smoking&/NN   #/#   8221/CD   ;/:   (PERSON Baroness/NNP Trumpington/NNP)   After/NNP   18/CD   years/NNS   in/IN   the/DT   game/NN   29/CD   Mar/NNP   2010/CD   09/CD   :/:   23/CD   |/CD   by/IN   the/DT   world/NN   's/POS   largest/JJS   chip/NN   maker/NN   by/IN   revenue/NN   for/IN   the/DT   eighteenth/NN   consecutive/JJ   year/NN   in/IN   2009/CD   ,/,   according/VBG   the/DT   Big/NNP   G/NNP   said/VBD   that/IN   despite/IN   an/DT   overall/JJ   decline/NN   in/IN   the/DT   global/JJ   chip/NN   market/NN   ,/,   (ORGANIZATION Intel/NNP)   's/POS   share/NN   of/IN   the/DT   chip/NN   market/NN   reached/VBD   14.6/CD   percent/NN   in/IN   2009/CD   ,/,   up/RB   from/IN   13.6/CD   percent/NN   in/IN   2008/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP very/RB few/JJ pleasures/NNS)
+	(VERB left/VBN to/TO me/PRP)
+	(VERB is/VBZ passive/JJ smoking&/NN)
+	(VERB according/VBG the/DT Big/NNP G/NNP)
+	(VERB   said/VBD   that/IN   despite/IN   an/DT   overall/JJ   decline/NN   in/IN   the/DT   global/JJ   chip/NN   market/NN)
+	(VERB reached/VBD 14.6/CD percent/NN in/IN 2009/CD)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN still/RB top/JJ dog/NN)
+
+tagged sentence:
+	 still top dog	res:1
+	(NOUN TechEye/NNP All/NNP)
+	(NOUN technology/NN news/NN unfit/NN)
+	(NOUN print/NN TechEye/NNP Technology/NNP news/NN)
+	(NOUN unfit/NN)
+	(NOUN print/NN)
+	(NOUN age/NN)
+	(NOUN Baroness/NNP Trumpington/NNP After/NNP)
+	(NOUN 18/CD years/NNS)
+	(NOUN game/NN)
+	(NOUN 29/CD Mar/NNP)
+	(NOUN world/NN)
+	(NOUN largest/JJS chip/NN maker/NN)
+	(NOUN revenue/NN)
+	(NOUN the/DT eighteenth/NN consecutive/JJ year/NN)
+	(NOUN Intel/NNP)
+	(NOUN share/NN)
+	(NOUN chip/NN market/NN)
+	(NOUN 13.6/CD percent/NN)
+
+----------------------------------
+original sentence: 
+In its Semiconductor DQ Monday Report, Gartner said that the global chip market declined 10.5 percent last year overall to US$228.4 billion, down $28.6 billion from a year earlier.
+
+POS tagged sentence: 
+[('In', 'IN'), ('its', 'PRP$'), ('Semiconductor', 'NNP'), ('DQ', 'NNP'), ('Monday', 'NNP'), ('Report', 'NNP'), (',', ','), ('Gartner', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('global', 'JJ'), ('chip', 'NN'), ('market', 'NN'), ('declined', 'VBD'), ('10.5', 'CD'), ('percent', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('overall', 'JJ'), ('to', 'TO'), ('US', 'NNP'), ('$', '$'), ('228.4', 'CD'), ('billion', 'CD'), (',', ','), ('down', 'RB'), ('$', '$'), ('28.6', 'CD'), ('billion', 'CD'), ('from', 'IN'), ('a', 'DT'), ('year', 'NN'), ('earlier', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   its/PRP$   Semiconductor/NNP   DQ/NNP   Monday/NNP   Report/NNP   ,/,   (PERSON Gartner/NNP)   said/VBD   that/IN   the/DT   global/JJ   chip/NN   market/NN   declined/VBD   10.5/CD   percent/NN   last/JJ   year/NN   overall/JJ   to/TO   (GSP US/NNP)   $/$   228.4/CD   billion/CD   ,/,   down/RB   $/$   28.6/CD   billion/CD   from/IN   a/DT   year/NN   earlier/JJR   ./.)
+----------------------------------
+original sentence: 
+This was mostly due to that pesky global recession that saw several companies file for bankruptcy.
+
+POS tagged sentence: 
+[('This', 'DT'), ('was', 'VBD'), ('mostly', 'RB'), ('due', 'JJ'), ('to', 'TO'), ('that', 'DT'), ('pesky', 'NN'), ('global', 'JJ'), ('recession', 'NN'), ('that', 'WDT'), ('saw', 'VBD'), ('several', 'JJ'), ('companies', 'NNS'), ('file', 'IN'), ('for', 'IN'), ('bankruptcy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   was/VBD   mostly/RB   due/JJ   to/TO   that/DT   pesky/NN   global/JJ   recession/NN   that/WDT   saw/VBD   several/JJ   companies/NNS   file/IN   for/IN   bankruptcy/NN   ./.)
+----------------------------------
+original sentence: 
+South Korea's memory chip giants were the only two companies to post revenue growth in 2009, Gartner said,  maintained its second place rank globally with $17.7 billion in revenue, up from $17.4 billion last year.
+
+POS tagged sentence: 
+[('South', 'NNP'), ('Korea', 'NNP'), ("'s", 'POS'), ('memory', 'NN'), ('chip', 'NN'), ('giants', 'NNS'), ('were', 'VBD'), ('the', 'DT'), ('only', 'JJ'), ('two', 'CD'), ('companies', 'NNS'), ('to', 'TO'), ('post', 'VB'), ('revenue', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('Gartner', 'NNP'), ('said', 'VBD'), (',', ','), ('maintained', 'VBN'), ('its', 'PRP$'), ('second', 'JJ'), ('place', 'NN'), ('rank', 'NN'), ('globally', 'RB'), ('with', 'IN'), ('$', '$'), ('17.7', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('revenue', 'NN'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('17.4', 'CD'), ('billion', 'CD'), ('last', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE South/NNP Korea/NNP)   's/POS   memory/NN   chip/NN   giants/NNS   were/VBD   the/DT   only/JJ   two/CD   companies/NNS   to/TO   post/VB   revenue/NN   growth/NN   in/IN   2009/CD   ,/,   (PERSON Gartner/NNP)   said/VBD   ,/,   maintained/VBN   its/PRP$   second/JJ   place/NN   rank/NN   globally/RB   with/IN   $/$   17.7/CD   billion/CD   in/IN   revenue/NN   ,/,   up/RB   from/IN   $/$   17.4/CD   billion/CD   last/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+The company took a 7.7 percent share of the global chip market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('took', 'VBD'), ('a', 'DT'), ('7.7', 'CD'), ('percent', 'NN'), ('share', 'NN'), ('of', 'IN'), ('the', 'DT'), ('global', 'JJ'), ('chip', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   took/VBD   a/DT   7.7/CD   percent/NN   share/NN   of/IN   the/DT   global/JJ   chip/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its revenue was a little over half of Intel's.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('revenue', 'NN'), ('was', 'VBD'), ('a', 'DT'), ('little', 'RB'), ('over', 'IN'), ('half', 'DT'), ('of', 'IN'), ('Intel', 'NNP'), ("'s", 'POS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   revenue/NN   was/VBD   a/DT   little/RB   over/IN   half/DT   of/IN   (ORGANIZATION Intel/NNP)   's/POS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD a/DT little/RB over/IN half/DT of/IN Intel/NNP)
+
+tagged sentence:
+	 was a little over half of Intel	res:-1
+noun phrases to consider:
+	(NOUN revenue/NN)
+
+----------------------------------
+original sentence: 
+saw revenue rise to $6.04 billion from $6.01 billion and it moved to seventh place from ninth in global chip rankings, with a 2.6 percent share of the market.
+
+POS tagged sentence: 
+[('saw', 'VBD'), ('revenue', 'NN'), ('rise', 'NN'), ('to', 'TO'), ('$', '$'), ('6.04', 'CD'), ('billion', 'CD'), ('from', 'IN'), ('$', '$'), ('6.01', 'CD'), ('billion', 'CD'), ('and', 'CC'), ('it', 'PRP'), ('moved', 'VBD'), ('to', 'TO'), ('seventh', 'JJ'), ('place', 'NN'), ('from', 'IN'), ('ninth', 'JJ'), ('in', 'IN'), ('global', 'JJ'), ('chip', 'NN'), ('rankings', 'NNS'), (',', ','), ('with', 'IN'), ('a', 'DT'), ('2.6', 'CD'), ('percent', 'NN'), ('share', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   saw/VBD   revenue/NN   rise/NN   to/TO   $/$   6.04/CD   billion/CD   from/IN   $/$   6.01/CD   billion/CD   and/CC   it/PRP   moved/VBD   to/TO   seventh/JJ   place/NN   from/IN   ninth/JJ   in/IN   global/JJ   chip/NN   rankings/NNS   ,/,   with/IN   a/DT   2.6/CD   percent/NN   share/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+The top five chip makers on Gartner's ranking were the same as last year Intel, Samsung,  was the only new company to appear in Big G's top ten list.
+
+POS tagged sentence: 
+[('The', 'DT'), ('top', 'JJ'), ('five', 'CD'), ('chip', 'NN'), ('makers', 'NNS'), ('on', 'IN'), ('Gartner', 'NNP'), ("'s", 'POS'), ('ranking', 'NN'), ('were', 'VBD'), ('the', 'DT'), ('same', 'JJ'), ('as', 'IN'), ('last', 'JJ'), ('year', 'NN'), ('Intel', 'NNP'), (',', ','), ('Samsung', 'NNP'), (',', ','), ('was', 'VBD'), ('the', 'DT'), ('only', 'JJ'), ('new', 'JJ'), ('company', 'NN'), ('to', 'TO'), ('appear', 'VB'), ('in', 'IN'), ('Big', 'NNP'), ('G', 'NNP'), ("'s", 'POS'), ('top', 'JJ'), ('ten', 'NN'), ('list', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   top/JJ   five/CD   chip/NN   makers/NNS   on/IN   (PERSON Gartner/NNP)   's/POS   ranking/NN   were/VBD   the/DT   same/JJ   as/IN   last/JJ   year/NN   (ORGANIZATION Intel/NNP)   ,/,   (PERSON Samsung/NNP)   ,/,   was/VBD   the/DT   only/JJ   new/JJ   company/NN   to/TO   appear/VB   in/IN   Big/NNP   G/NNP   's/POS   top/JJ   ten/NN   list/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD the/DT same/JJ as/IN last/JJ year/NN Intel/NNP)
+	(VERB was/VBD the/DT only/JJ new/JJ company/NN)
+	(VERB appear/VB in/IN Big/NNP G/NNP)
+noun phrases to consider:
+	(NOUN The/DT top/JJ five/CD chip/NN makers/NNS)
+	(NOUN Gartner/NNP)
+	(NOUN ranking/NN)
+	(NOUN Samsung/NNP)
+	(NOUN top/JJ ten/NN list/NN)
+
+----------------------------------
+original sentence: 
+It ranked number nine.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('ranked', 'VBD'), ('number', 'NN'), ('nine', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S It/PRP ranked/VBD number/NN nine/CD ./.)
+----------------------------------
+original sentence: 
+Other business stories  Other business stories 
+
+POS tagged sentence: 
+[('Other', 'JJ'), ('business', 'NN'), ('stories', 'NNS'), ('Other', 'JJ'), ('business', 'NN'), ('stories', 'NNS')]
+
+
+ERTAGGED sentence: (S Other/JJ business/NN stories/NNS Other/JJ business/NN stories/NNS)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

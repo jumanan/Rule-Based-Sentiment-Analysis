@@ -1,0 +1,346 @@
+
+----------------------------------
+original sentence: 
+Goldman Sachs Hedge Fund Head Flamand Said to Start Own Firm Bloomberg.com
+Updated: , Apr 23 17:18
+, Apr 23 22:18
+, Apr 24 06:18
+Bloomberg Innovators
+Forex Trading Videos
+ Stocks in U.S. Advance as Treasuries, Dollar Decline on Economic Optimism  March 11 Bloomberg Pierre Henri Flamand
+Goldman Sachs Group Inc.
+‚Äôs largest internal hedge fund, is
+retiring from the world‚Äôs most profitable securities firm to
+start a hedge fund, according to three people with knowledge of
+his plans.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Hedge', 'NNP'), ('Fund', 'NNP'), ('Head', 'NNP'), ('Flamand', 'NNP'), ('Said', 'NNP'), ('to', 'TO'), ('Start', 'NNP'), ('Own', 'NNP'), ('Firm', 'NNP'), ('Bloomberg.com', 'NNP'), ('Updated', 'NNP'), (':', ':'), (',', ','), ('Apr', 'NNP'), ('23', 'CD'), ('17', 'CD'), (':', ':'), ('18', 'CD'), (',', ','), ('Apr', 'NNP'), ('23', 'CD'), ('22', 'CD'), (':', ':'), ('18', 'CD'), (',', ','), ('Apr', 'NNP'), ('24', 'CD'), ('06', 'CD'), (':', ':'), ('18', 'CD'), ('Bloomberg', 'NNP'), ('Innovators', 'NNP'), ('Forex', 'NNP'), ('Trading', 'NNP'), ('Videos', 'NNP'), ('Stocks', 'NNP'), ('in', 'IN'), ('U.S.', 'NNP'), ('Advance', 'NNP'), ('as', 'IN'), ('Treasuries', 'NNPS'), (',', ','), ('Dollar', 'NNP'), ('Decline', 'NNP'), ('on', 'IN'), ('Economic', 'NNP'), ('Optimism', 'NNP'), ('March', 'NNP'), ('11', 'CD'), ('Bloomberg', 'NNP'), ('Pierre', 'NNP'), ('Henri', 'NNP'), ('Flamand', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('internal', 'JJ'), ('hedge', 'NN'), ('fund', 'NN'), (',', ','), ('is', 'VBZ'), ('retiring', 'VBG'), ('from', 'IN'), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('most', 'JJS'), ('profitable', 'JJ'), ('securities', 'NNS'), ('firm', 'NN'), ('to', 'TO'), ('start', 'VB'), ('a', 'DT'), ('hedge', 'NN'), ('fund', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('three', 'CD'), ('people', 'NNS'), ('with', 'IN'), ('knowledge', 'NN'), ('of', 'IN'), ('his', 'PRP$'), ('plans', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP Hedge/NNP Fund/NNP Head/NNP Flamand/NNP)   Said/NNP   to/TO   (PERSON Start/NNP Own/NNP Firm/NNP)   Bloomberg.com/NNP   Updated/NNP   :/:   ,/,   Apr/NNP   23/CD   17/CD   :/:   18/CD   ,/,   Apr/NNP   23/CD   22/CD   :/:   18/CD   ,/,   Apr/NNP   24/CD   06/CD   :/:   18/CD   (ORGANIZATION Bloomberg/NNP Innovators/NNP Forex/NNP)   Trading/NNP   (PERSON Videos/NNP Stocks/NNP)   in/IN   (GPE U.S./NNP)   Advance/NNP   as/IN   (ORGANIZATION Treasuries/NNPS)   ,/,   (PERSON Dollar/NNP Decline/NNP)   on/IN   (ORGANIZATION Economic/NNP Optimism/NNP)   March/NNP   11/CD   (ORGANIZATION Bloomberg/NNP Pierre/NNP Henri/NNP Flamand/NNP)   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc/NNP)   ./.   ‚/:   Ä/:   ô/:   s/NNS   largest/JJS   internal/JJ   hedge/NN   fund/NN   ,/,   is/VBZ   retiring/VBG   from/IN   the/DT   world/NN   ‚/:   Ä/:   ô/:   s/NNS   most/JJS   profitable/JJ   securities/NNS   firm/NN   to/TO   start/VB   a/DT   hedge/NN   fund/NN   ,/,   according/VBG   to/TO   three/CD   people/NNS   with/IN   knowledge/NN   of/IN   his/PRP$   plans/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ retiring/VBG from/IN the/DT world/NN)
+	(VERB start/VB a/DT hedge/NN fund/NN)
+	(VERB   according/VBG   to/TO   three/CD   people/NNS   with/IN   knowledge/NN   of/IN   his/PRP$   plans/NNS)
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP Hedge/NNP Fund/NNP)
+	(NOUN Head/NNP Flamand/NNP Said/NNP)
+	(NOUN Start/NNP Own/NNP Firm/NNP Bloomberg.com/NNP)
+	(NOUN Updated/NNP)
+	(NOUN Apr/NNP)
+	(NOUN Apr/NNP)
+	(NOUN Apr/NNP)
+	(NOUN 18/CD Bloomberg/NNP Innovators/NNP Forex/NNP Trading/NNP)
+	(NOUN Videos/NNP Stocks/NNP)
+	(NOUN U.S./NNP Advance/NNP)
+	(NOUN Treasuries/NNPS)
+	(NOUN Dollar/NNP Decline/NNP)
+	(NOUN Economic/NNP Optimism/NNP March/NNP)
+	(NOUN 11/CD Bloomberg/NNP Pierre/NNP Henri/NNP Flamand/NNP)
+	(NOUN Goldman/NNP Sachs/NNP Group/NNP Inc/NNP)
+	(NOUN s/NNS largest/JJS internal/JJ hedge/NN fund/NN)
+
+tagged sentence:
+	 s largest internal hedge fund	res:1
+	(NOUN s/NNS most/JJS profitable/JJ securities/NNS firm/NN)
+
+tagged sentence:
+	 s most profitable securities firm	res:1
+
+----------------------------------
+original sentence: 
+Flamand, 39, has worked at Goldman Sachs for 15 years and
+has run Goldman Sachs Principal Strategies from London since
+2007.
+
+POS tagged sentence: 
+[('Flamand', 'NNP'), (',', ','), ('39', 'CD'), (',', ','), ('has', 'VBZ'), ('worked', 'VBN'), ('at', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('for', 'IN'), ('15', 'CD'), ('years', 'NNS'), ('and', 'CC'), ('has', 'VBZ'), ('run', 'VBN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Principal', 'NNP'), ('Strategies', 'NNP'), ('from', 'IN'), ('London', 'NNP'), ('since', 'IN'), ('2007', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Flamand/NNP)   ,/,   39/CD   ,/,   has/VBZ   worked/VBN   at/IN   (ORGANIZATION Goldman/NNP Sachs/NNP)   for/IN   15/CD   years/NNS   and/CC   has/VBZ   run/VBN   (ORGANIZATION Goldman/NNP Sachs/NNP)   Principal/NNP   Strategies/NNP   from/IN   (GPE London/NNP)   since/IN   2007/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   worked/VBN   at/IN   Goldman/NNP   Sachs/NNP   for/IN   15/CD   years/NNS)
+	(VERB   has/VBZ   run/VBN   Goldman/NNP   Sachs/NNP   Principal/NNP   Strategies/NNP   from/IN   London/NNP   since/IN   2007/CD)
+noun phrases to consider:
+	(NOUN Flamand/NNP)
+
+----------------------------------
+original sentence: 
+He didn‚Äôt respond to calls or e mails seeking comment.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('didn', 'VBD'), ('\xe2', ':'), ('\x80', 'CD'), ('\x99', 'CD'), ('t', 'NN'), ('respond', 'NN'), ('to', 'TO'), ('calls', 'NNS'), ('or', 'CC'), ('e', 'VB'), ('mails', 'NNS'), ('seeking', 'VBG'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   didn/VBD   ‚/:   Ä/CD   ô/CD   t/NN   respond/NN   to/TO   calls/NNS   or/CC   e/VB   mails/NNS   seeking/VBG   comment/NN   ./.)
+----------------------------------
+original sentence: 
+A
+Goldman Sachs executive in London confirmed the departure and
+said the company supports Flamand‚Äôs plan.
+
+POS tagged sentence: 
+[('A', 'DT'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('executive', 'NN'), ('in', 'IN'), ('London', 'NNP'), ('confirmed', 'VBD'), ('the', 'DT'), ('departure', 'NN'), ('and', 'CC'), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('supports', 'VBZ'), ('Flamand', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('plan', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   (ORGANIZATION Goldman/NNP Sachs/NNP)   executive/NN   in/IN   (GPE London/NNP)   confirmed/VBD   the/DT   departure/NN   and/CC   said/VBD   the/DT   company/NN   supports/VBZ   (PERSON Flamand/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   plan/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB confirmed/VBD the/DT departure/NN)
+	(VERB said/VBD the/DT company/NN)
+	(VERB supports/VBZ Flamand/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ plan/NN)
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP executive/NN)
+	(NOUN London/NNP)
+
+----------------------------------
+original sentence: 
+Flamand is setting up his own fund as Wall Street pay and
+proprietary trading come under increased scrutiny from
+lawmakers.
+
+POS tagged sentence: 
+[('Flamand', 'NNP'), ('is', 'VBZ'), ('setting', 'VBG'), ('up', 'RP'), ('his', 'PRP$'), ('own', 'JJ'), ('fund', 'NN'), ('as', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('pay', 'NN'), ('and', 'CC'), ('proprietary', 'JJ'), ('trading', 'NN'), ('come', 'NN'), ('under', 'IN'), ('increased', 'VBN'), ('scrutiny', 'NN'), ('from', 'IN'), ('lawmakers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Flamand/NNP)   is/VBZ   setting/VBG   up/RP   his/PRP$   own/JJ   fund/NN   as/IN   (FACILITY Wall/NNP Street/NNP)   pay/NN   and/CC   proprietary/JJ   trading/NN   come/NN   under/IN   increased/VBN   scrutiny/NN   from/IN   lawmakers/NNS   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs Investment Partners, founded by a
+former principal strategies team, was transformed into a hedge
+fund managing $7 billion in 2008 and became part of Goldman‚Äôs
+asset management unit.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Investment', 'NNP'), ('Partners', 'NNP'), (',', ','), ('founded', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('former', 'JJ'), ('principal', 'NN'), ('strategies', 'NNS'), ('team', 'NN'), (',', ','), ('was', 'VBD'), ('transformed', 'VBN'), ('into', 'IN'), ('a', 'DT'), ('hedge', 'NN'), ('fund', 'NN'), ('managing', 'VBG'), ('$', '$'), ('7', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2008', 'CD'), ('and', 'CC'), ('became', 'VBD'), ('part', 'NN'), ('of', 'IN'), ('Goldman', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('asset', 'NN'), ('management', 'NN'), ('unit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP Investment/NNP Partners/NNP)   ,/,   founded/VBN   by/IN   a/DT   former/JJ   principal/NN   strategies/NNS   team/NN   ,/,   was/VBD   transformed/VBN   into/IN   a/DT   hedge/NN   fund/NN   managing/VBG   $/$   7/CD   billion/CD   in/IN   2008/CD   and/CC   became/VBD   part/NN   of/IN   (ORGANIZATION Goldman/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   asset/NN   management/NN   unit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   founded/VBN   by/IN   a/DT   former/JJ   principal/NN   strategies/NNS   team/NN)
+	(VERB was/VBD transformed/VBN into/IN a/DT hedge/NN fund/NN)
+	(VERB managing/VBG)
+	(VERB became/VBD part/NN of/IN Goldman/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ asset/NN management/NN unit/NN)
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP Investment/NNP Partners/NNP)
+
+tagged sentence:
+	 Goldman Sachs Investment Partners	res:2
+
+----------------------------------
+original sentence: 
+‚ÄúGoldman Sachs is the best money making machine in the
+world but compensation is subject to public policy if you go
+private it‚Äôs your own business,‚Äù said , chief
+executive officer of Laven Partners LLP, a London based hedge
+fund consultancy.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('best', 'JJS'), ('money', 'NN'), ('making', 'VBG'), ('machine', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('but', 'CC'), ('compensation', 'NN'), ('is', 'VBZ'), ('subject', 'JJ'), ('to', 'TO'), ('public', 'JJ'), ('policy', 'NN'), ('if', 'IN'), ('you', 'PRP'), ('go', 'VBP'), ('private', 'JJ'), ('it', 'PRP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('your', 'PRP$'), ('own', 'JJ'), ('business', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('said', 'VBD'), (',', ','), ('chief', 'NN'), ('executive', 'NN'), ('officer', 'NN'), ('of', 'IN'), ('Laven', 'NNP'), ('Partners', 'NNPS'), ('LLP', 'NNP'), (',', ','), ('a', 'DT'), ('London', 'NNP'), ('based', 'VBN'), ('hedge', 'NN'), ('fund', 'NN'), ('consultancy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   (ORGANIZATION Goldman/NNP Sachs/NNP)   is/VBZ   the/DT   best/JJS   money/NN   making/VBG   machine/NN   in/IN   the/DT   world/NN   but/CC   compensation/NN   is/VBZ   subject/JJ   to/TO   public/JJ   policy/NN   if/IN   you/PRP   go/VBP   private/JJ   it/PRP   ‚/:   Ä/:   ô/:   s/NNS   your/PRP$   own/JJ   business/NN   ,/,   ‚/:   Ä/:   ù/:   said/VBD   ,/,   chief/NN   executive/NN   officer/NN   of/IN   (ORGANIZATION Laven/NNP Partners/NNPS)   (ORGANIZATION LLP/NNP)   ,/,   a/DT   (GPE London/NNP)   based/VBN   hedge/NN   fund/NN   consultancy/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ the/DT best/JJS money/NN)
+	(VERB making/VBG machine/NN in/IN the/DT world/NN)
+	(VERB is/VBZ subject/JJ)
+
+tagged sentence:
+	 is subject	res:-1
+	(VERB go/VBP private/JJ it/PRP)
+	(VERB said/VBD)
+	(VERB based/VBN hedge/NN fund/NN consultancy/NN)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN compensation/NN)
+	(NOUN public/JJ policy/NN)
+	(NOUN s/NNS)
+	(NOUN own/JJ business/NN)
+	(NOUN chief/NN executive/NN officer/NN)
+	(NOUN Laven/NNP Partners/NNPS LLP/NNP)
+	(NOUN London/NNP)
+
+----------------------------------
+original sentence: 
+‚ÄúYou could have been the best prop trader in
+the world and you would have been paid less last year than you
+might have expected.‚Äù Goldman Sachs Principal Strategies rebounded from losses in
+2008 to fuel the firm‚Äôs 7 percent gain in equity revenues to
+$9.89 billion in 2009, according to its annual report.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('You', 'PRP'), ('could', 'MD'), ('have', 'VB'), ('been', 'VBN'), ('the', 'DT'), ('best', 'JJS'), ('prop', 'NN'), ('trader', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('and', 'CC'), ('you', 'PRP'), ('would', 'MD'), ('have', 'VB'), ('been', 'VBN'), ('paid', 'VBN'), ('less', 'JJR'), ('last', 'JJ'), ('year', 'NN'), ('than', 'IN'), ('you', 'PRP'), ('might', 'MD'), ('have', 'VB'), ('expected.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Principal', 'NNP'), ('Strategies', 'NNP'), ('rebounded', 'VBD'), ('from', 'IN'), ('losses', 'NNS'), ('in', 'IN'), ('2008', 'CD'), ('to', 'TO'), ('fuel', 'NN'), ('the', 'DT'), ('firm', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('7', 'CD'), ('percent', 'NN'), ('gain', 'NN'), ('in', 'IN'), ('equity', 'NN'), ('revenues', 'NNS'), ('to', 'TO'), ('$', '$'), ('9.89', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('its', 'PRP$'), ('annual', 'JJ'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   You/PRP   could/MD   have/VB   been/VBN   the/DT   best/JJS   prop/NN   trader/NN   in/IN   the/DT   world/NN   and/CC   you/PRP   would/MD   have/VB   been/VBN   paid/VBN   less/JJR   last/JJ   year/NN   than/IN   you/PRP   might/MD   have/VB   expected./NNP   ‚/NNP   Ä/NNP   ù/NNP   (ORGANIZATION Goldman/NNP Sachs/NNP)   Principal/NNP   Strategies/NNP   rebounded/VBD   from/IN   losses/NNS   in/IN   2008/CD   to/TO   fuel/NN   the/DT   firm/NN   ‚/:   Ä/:   ô/:   s/NNS   7/CD   percent/NN   gain/NN   in/IN   equity/NN   revenues/NNS   to/TO   $/$   9.89/CD   billion/CD   in/IN   2009/CD   ,/,   according/VBG   to/TO   its/PRP$   annual/JJ   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VB   been/VBN   the/DT   best/JJS   prop/NN   trader/NN   in/IN   the/DT   world/NN)
+	(VERB   have/VB   been/VBN   paid/VBN   less/JJR   last/JJ   year/NN   than/IN   you/PRP)
+	(VERB   have/VB   expected./NNP   ‚/NNP   Ä/NNP   ù/NNP   Goldman/NNP   Sachs/NNP   Principal/NNP   Strategies/NNP)
+	(VERB rebounded/VBD from/IN losses/NNS in/IN 2008/CD)
+
+tagged sentence:
+	 rebounded from losses in 2008	res:-1
+	(VERB according/VBG to/TO its/PRP$ annual/JJ report/NN)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN fuel/NN)
+	(NOUN firm/NN)
+	(NOUN s/NNS)
+	(NOUN 7/CD percent/NN gain/NN)
+
+tagged sentence:
+	 7 percent gain	res:1
+	(NOUN equity/NN revenues/NNS)
+
+----------------------------------
+original sentence: 
+The
+business seeks to profit from discrepancies in relative values
+of financial instruments, convertible bonds and ‚Äúvarious types
+of volatility trading,‚Äù according to the report.
+
+POS tagged sentence: 
+[('The', 'DT'), ('business', 'NN'), ('seeks', 'VBZ'), ('to', 'TO'), ('profit', 'NN'), ('from', 'IN'), ('discrepancies', 'NNS'), ('in', 'IN'), ('relative', 'JJ'), ('values', 'NNS'), ('of', 'IN'), ('financial', 'JJ'), ('instruments', 'NNS'), (',', ','), ('convertible', 'JJ'), ('bonds', 'NNS'), ('and', 'CC'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('various', 'JJ'), ('types', 'NNS'), ('of', 'IN'), ('volatility', 'NN'), ('trading', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   business/NN   seeks/VBZ   to/TO   profit/NN   from/IN   discrepancies/NNS   in/IN   relative/JJ   values/NNS   of/IN   financial/JJ   instruments/NNS   ,/,   convertible/JJ   bonds/NNS   and/CC   ‚/:   Ä/:   ú/:   various/JJ   types/NNS   of/IN   volatility/NN   trading/NN   ,/,   ‚/:   Ä/:   ù/:   according/VBG   to/TO   the/DT   report/NN   ./.)
+----------------------------------
+original sentence: 
+‚ÄúResults in principal strategies were positive compared
+with losses in 2008,‚Äù Goldman said in its 10 K filing with the
+U.S. Securities and Exchange Commission.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Results', 'NNS'), ('in', 'IN'), ('principal', 'JJ'), ('strategies', 'NNS'), ('were', 'VBD'), ('positive', 'JJ'), ('compared', 'VBN'), ('with', 'IN'), ('losses', 'NNS'), ('in', 'IN'), ('2008', 'CD'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Goldman', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('its', 'PRP$'), ('10', 'CD'), ('K', 'NNP'), ('filing', 'NN'), ('with', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   Results/NNS   in/IN   principal/JJ   strategies/NNS   were/VBD   positive/JJ   compared/VBN   with/IN   losses/NNS   in/IN   2008/CD   ,/,   ‚/:   Ä/:   ù/:   (PERSON Goldman/NNP)   said/VBD   in/IN   its/PRP$   10/CD   K/NNP   filing/NN   with/IN   the/DT   (GPE U.S./NNP)   Securities/NNPS   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD positive/JJ)
+
+tagged sentence:
+	 were positive	res:1
+	(VERB compared/VBN with/IN losses/NNS in/IN 2008/CD)
+
+tagged sentence:
+	 compared with losses in 2008	res:-1
+	(VERB   said/VBD   in/IN   its/PRP$   10/CD   K/NNP   filing/NN   with/IN   the/DT   U.S./NNP   Securities/NNPS)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN Results/NNS)
+	(NOUN principal/JJ strategies/NNS)
+	(NOUN Goldman/NNP)
+	(NOUN Exchange/NNP Commission/NNP)
+
+----------------------------------
+original sentence: 
+That helped make up for
+a reduction in revenue in the rest of Goldman Sachs‚Äôs equities
+business last year, according to the filing.
+
+POS tagged sentence: 
+[('That', 'DT'), ('helped', 'VBD'), ('make', 'VBP'), ('up', 'RP'), ('for', 'IN'), ('a', 'DT'), ('reduction', 'NN'), ('in', 'IN'), ('revenue', 'NN'), ('in', 'IN'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('equities', 'NNS'), ('business', 'NN'), ('last', 'JJ'), ('year', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('filing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   helped/VBD   make/VBP   up/RP   for/IN   a/DT   reduction/NN   in/IN   revenue/NN   in/IN   the/DT   rest/NN   of/IN   (ORGANIZATION Goldman/NNP Sachs/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   equities/NNS   business/NN   last/JJ   year/NN   ,/,   according/VBG   to/TO   the/DT   filing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB helped/VBD make/VBP)
+	(VERB s/VBZ equities/NNS business/NN last/JJ year/NN)
+	(VERB according/VBG to/TO the/DT filing/NN)
+noun phrases to consider:
+	(NOUN reduction/NN)
+	(NOUN revenue/NN)
+	(NOUN rest/NN)
+	(NOUN Goldman/NNP Sachs/NNP ‚/NNP Ä/NNP)
+	(NOUN ô/NNP)
+
+----------------------------------
+original sentence: 
+Before 2007, Flamand was head of Goldman Sachs Principal
+Strategies in Europe from 2002.
+
+POS tagged sentence: 
+[('Before', 'IN'), ('2007', 'CD'), (',', ','), ('Flamand', 'NNP'), ('was', 'VBD'), ('head', 'NN'), ('of', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Principal', 'NNP'), ('Strategies', 'NNP'), ('in', 'IN'), ('Europe', 'NNP'), ('from', 'IN'), ('2002', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Before/IN   2007/CD   ,/,   (GPE Flamand/NNP)   was/VBD   head/NN   of/IN   (ORGANIZATION Goldman/NNP Sachs/NNP)   Principal/NNP   Strategies/NNP   in/IN   (GPE Europe/NNP)   from/IN   2002/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   head/NN   of/IN   Goldman/NNP   Sachs/NNP   Principal/NNP   Strategies/NNP   in/IN   Europe/NNP   from/IN   2002/CD)
+noun phrases to consider:
+	(NOUN Flamand/NNP)
+
+----------------------------------
+original sentence: 
+While his background at Goldman
+will help lure investors, he‚Äôll face a more challenging fund raising environment than his fellow Goldman Sachs veterans who
+set up their own firms, said Lussan.
+
+POS tagged sentence: 
+[('While', 'IN'), ('his', 'PRP$'), ('background', 'NN'), ('at', 'IN'), ('Goldman', 'NNP'), ('will', 'MD'), ('help', 'VB'), ('lure', 'NN'), ('investors', 'NNS'), (',', ','), ('he', 'PRP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('ll', 'NN'), ('face', 'NN'), ('a', 'DT'), ('more', 'RBR'), ('challenging', 'VBG'), ('fund', 'NN'), ('raising', 'VBG'), ('environment', 'NN'), ('than', 'IN'), ('his', 'PRP$'), ('fellow', 'JJ'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('veterans', 'VBZ'), ('who', 'WP'), ('set', 'VBN'), ('up', 'RP'), ('their', 'PRP$'), ('own', 'JJ'), ('firms', 'NNS'), (',', ','), ('said', 'VBD'), ('Lussan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   his/PRP$   background/NN   at/IN   (ORGANIZATION Goldman/NNP)   will/MD   help/VB   lure/NN   investors/NNS   ,/,   he/PRP   ‚/:   Ä/:   ô/:   ll/NN   face/NN   a/DT   more/RBR   challenging/VBG   fund/NN   raising/VBG   environment/NN   than/IN   his/PRP$   fellow/JJ   (ORGANIZATION Goldman/NNP Sachs/NNP)   veterans/VBZ   who/WP   set/VBN   up/RP   their/PRP$   own/JJ   firms/NNS   ,/,   said/VBD   (PERSON Lussan/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB help/VB lure/NN investors/NNS)
+	(VERB challenging/VBG fund/NN)
+
+tagged sentence:
+	 challenging fund	res:-1
+	(VERB   raising/VBG   environment/NN   than/IN   his/PRP$   fellow/JJ   Goldman/NNP   Sachs/NNP)
+	(VERB veterans/VBZ)
+	(VERB set/VBN)
+	(VERB said/VBD Lussan/NNP)
+noun phrases to consider:
+	(NOUN background/NN)
+	(NOUN Goldman/NNP)
+	(NOUN ll/NN face/NN)
+	(NOUN own/JJ firms/NNS)
+
+----------------------------------
+original sentence: 
+Former Goldman Sachs partner  founded Eton Park
+Capital Management LP with $3 billion in 2004.
+
+POS tagged sentence: 
+[('Former', 'JJ'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('partner', 'NN'), ('founded', 'VBD'), ('Eton', 'NNP'), ('Park', 'NNP'), ('Capital', 'NNP'), ('Management', 'NNP'), ('LP', 'NNP'), ('with', 'IN'), ('$', '$'), ('3', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2004', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Former/JJ   (ORGANIZATION Goldman/NNP Sachs/NNP)   partner/NN   founded/VBD   (PERSON Eton/NNP Park/NNP Capital/NNP)   Management/NNP   LP/NNP   with/IN   $/$   3/CD   billion/CD   in/IN   2004/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   founded/VBD   Eton/NNP   Park/NNP   Capital/NNP   Management/NNP   LP/NNP   with/IN)
+noun phrases to consider:
+	(NOUN Former/JJ Goldman/NNP Sachs/NNP partner/NN)
+
+tagged sentence:
+	 Former Goldman Sachs partner	res:2
+
+----------------------------------
+original sentence: 
+‚ÄúThere‚Äôs so much less appetite today, if he gets a billion
+to start today it‚Äôll be a massive launch,‚Äù said Lussan.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('There', 'EX'), ('\xe2', ':'), ('\x80', 'NN'), ('\x99', ':'), ('s', 'NNS'), ('so', 'RB'), ('much', 'RB'), ('less', 'JJR'), ('appetite', 'NN'), ('today', 'NN'), (',', ','), ('if', 'IN'), ('he', 'PRP'), ('gets', 'VBZ'), ('a', 'DT'), ('billion', 'NN'), ('to', 'TO'), ('start', 'VB'), ('today', 'NN'), ('it', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('ll', 'NN'), ('be', 'VB'), ('a', 'DT'), ('massive', 'JJ'), ('launch', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('said', 'VBD'), ('Lussan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   There/EX   ‚/:   Ä/NN   ô/:   s/NNS   so/RB   much/RB   less/JJR   appetite/NN   today/NN   ,/,   if/IN   he/PRP   gets/VBZ   a/DT   billion/NN   to/TO   start/VB   today/NN   it/PRP   ‚/VBP   Ä/:   ô/:   ll/NN   be/VB   a/DT   massive/JJ   launch/NN   ,/,   ‚/:   Ä/:   ù/:   said/VBD   (PERSON Lussan/NNP)   ./.)
+----------------------------------
+original sentence: 
+‚ÄúThe
+world has a lot less means than it used to.‚Äù To contact the reporter on this story:
+
+tcahill@bloomberg.net
+Last Updated: March 11, 2010 12:32 EST
+
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('The', 'DT'), ('world', 'NN'), ('has', 'VBZ'), ('a', 'DT'), ('lot', 'NN'), ('less', 'RBR'), ('means', 'NNS'), ('than', 'IN'), ('it', 'PRP'), ('used', 'VBD'), ('to.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('To', 'NNP'), ('contact', 'NN'), ('the', 'DT'), ('reporter', 'NN'), ('on', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('tcahill', 'NN'), ('@', ':'), ('bloomberg.net', 'JJ'), ('Last', 'JJ'), ('Updated', 'NNP'), (':', ':'), ('March', 'NNP'), ('11', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('32', 'CD'), ('EST', 'JJS')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   The/DT   world/NN   has/VBZ   a/DT   lot/NN   less/RBR   means/NNS   than/IN   it/PRP   used/VBD   to./NNP   ‚/NNP   Ä/NNP   ù/NNP   To/NNP   contact/NN   the/DT   reporter/NN   on/IN   this/DT   story/NN   :/:   tcahill/NN   @/:   bloomberg.net/JJ   Last/JJ   Updated/NNP   :/:   March/NNP   11/CD   ,/,   2010/CD   12/CD   :/:   32/CD   EST/JJS)
+
+veryneg:0	neg:4	pos:4	verypos:2	total:7

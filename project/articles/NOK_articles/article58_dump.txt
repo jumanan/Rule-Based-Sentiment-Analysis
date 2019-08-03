@@ -1,0 +1,137 @@
+
+----------------------------------
+original sentence: 
+Nokia Snapdragon Nokia to get Snapdragon processor?
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Snapdragon', 'NNP'), ('Nokia', 'NNP'), ('to', 'TO'), ('get', 'VB'), ('Snapdragon', 'NNP'), ('processor', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Snapdragon/NNP Nokia/NNP)   to/TO   get/VB   (PERSON Snapdragon/NNP)   processor/NN   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB get/VB Snapdragon/NNP processor/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP Snapdragon/NNP Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Nokia to get Snapdragon processor?
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('to', 'TO'), ('get', 'VB'), ('Snapdragon', 'NNP'), ('processor', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia/NNP)   to/TO   get/VB   (PERSON Snapdragon/NNP)   processor/NN   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB get/VB Snapdragon/NNP processor/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Posted on Mar 17, 10 09:51 PM PDT There is a very real possibility of seeing a 1GHz Snapdragon processor inside a Nokia handset, thanks to one of Nokia's top executives, Olli Pekka Kallasvuo.
+
+POS tagged sentence: 
+[('Posted', 'NNP'), ('on', 'IN'), ('Mar', 'NNP'), ('17', 'CD'), (',', ','), ('10', 'CD'), ('09', 'CD'), (':', ':'), ('51', 'CD'), ('PM', 'NNP'), ('PDT', 'NNP'), ('There', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('very', 'RB'), ('real', 'JJ'), ('possibility', 'NN'), ('of', 'IN'), ('seeing', 'VBG'), ('a', 'DT'), ('1GHz', 'CD'), ('Snapdragon', 'NNP'), ('processor', 'NN'), ('inside', 'NN'), ('a', 'DT'), ('Nokia', 'NNP'), ('handset', 'NN'), (',', ','), ('thanks', 'NNS'), ('to', 'TO'), ('one', 'CD'), ('of', 'IN'), ('Nokia', 'NNP'), ("'s", 'POS'), ('top', 'JJ'), ('executives', 'NNS'), (',', ','), ('Olli', 'NNP'), ('Pekka', 'NNP'), ('Kallasvuo', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Posted/NNP)   on/IN   Mar/NNP   17/CD   ,/,   10/CD   09/CD   :/:   51/CD   PM/NNP   PDT/NNP   There/NNP   is/VBZ   a/DT   very/RB   real/JJ   possibility/NN   of/IN   seeing/VBG   a/DT   1GHz/CD   Snapdragon/NNP   processor/NN   inside/NN   a/DT   (GPE Nokia/NNP)   handset/NN   ,/,   thanks/NNS   to/TO   one/CD   of/IN   (GPE Nokia/NNP)   's/POS   top/JJ   executives/NNS   ,/,   (PERSON Olli/NNP Pekka/NNP Kallasvuo/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT very/RB real/JJ possibility/NN of/IN)
+	(VERB   seeing/VBG   a/DT   1GHz/CD   Snapdragon/NNP   processor/NN   inside/NN   a/DT   Nokia/NNP   handset/NN)
+noun phrases to consider:
+	(NOUN Posted/NNP)
+	(NOUN Mar/NNP)
+	(NOUN 51/CD PM/NNP PDT/NNP There/NNP)
+	(NOUN thanks/NNS)
+	(NOUN Nokia/NNP)
+	(NOUN top/JJ executives/NNS)
+
+tagged sentence:
+	 top executives	res:1
+	(NOUN Olli/NNP Pekka/NNP Kallasvuo/NNP)
+
+----------------------------------
+original sentence: 
+According to him, &ldquo;Qualcomm definitely is a potential partner going forward.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('him', 'PRP'), (',', ','), ('&ldquo', 'NNP'), (';', ':'), ('Qualcomm', 'NNP'), ('definitely', 'RB'), ('is', 'VBZ'), ('a', 'DT'), ('potential', 'JJ'), ('partner', 'NN'), ('going', 'VBG'), ('forward', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   him/PRP   ,/,   (GPE &ldquo/NNP)   ;/:   (PERSON Qualcomm/NNP)   definitely/RB   is/VBZ   a/DT   potential/JJ   partner/NN   going/VBG   forward/RB   ./.)
+----------------------------------
+original sentence: 
+The companies did fight a long time in court, and now we see them as a potential partner.&rdquo; Now, the speedy Snapdragon processor is one of Qualcomm's great asset, so a similarly powered Nokia phone down the road should not be ruled out just yet.
+
+POS tagged sentence: 
+[('The', 'DT'), ('companies', 'NNS'), ('did', 'VBD'), ('fight', 'NN'), ('a', 'DT'), ('long', 'JJ'), ('time', 'NN'), ('in', 'IN'), ('court', 'NN'), (',', ','), ('and', 'CC'), ('now', 'RB'), ('we', 'PRP'), ('see', 'VBP'), ('them', 'PRP'), ('as', 'IN'), ('a', 'DT'), ('potential', 'JJ'), ('partner.&rdquo', 'NN'), (';', ':'), ('Now', 'NNP'), (',', ','), ('the', 'DT'), ('speedy', 'NN'), ('Snapdragon', 'NNP'), ('processor', 'NN'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('Qualcomm', 'NNP'), ("'s", 'POS'), ('great', 'JJ'), ('asset', 'NN'), (',', ','), ('so', 'RB'), ('a', 'DT'), ('similarly', 'RB'), ('powered', 'VBN'), ('Nokia', 'NNP'), ('phone', 'NN'), ('down', 'IN'), ('the', 'DT'), ('road', 'NN'), ('should', 'MD'), ('not', 'RB'), ('be', 'VB'), ('ruled', 'VBN'), ('out', 'RP'), ('just', 'RB'), ('yet', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   companies/NNS   did/VBD   fight/NN   a/DT   long/JJ   time/NN   in/IN   court/NN   ,/,   and/CC   now/RB   we/PRP   see/VBP   them/PRP   as/IN   a/DT   potential/JJ   partner.&rdquo/NN   ;/:   Now/NNP   ,/,   the/DT   speedy/NN   (ORGANIZATION Snapdragon/NNP)   processor/NN   is/VBZ   one/CD   of/IN   (GPE Qualcomm/NNP)   's/POS   great/JJ   asset/NN   ,/,   so/RB   a/DT   similarly/RB   powered/VBN   (PERSON Nokia/NNP)   phone/NN   down/IN   the/DT   road/NN   should/MD   not/RB   be/VB   ruled/VBN   out/RP   just/RB   yet/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB did/VBD fight/NN a/DT long/JJ time/NN in/IN court/NN)
+	(VERB see/VBP them/PRP as/IN a/DT potential/JJ partner.&rdquo/NN)
+	(VERB is/VBZ one/CD of/IN Qualcomm/NNP)
+	(VERB powered/VBN Nokia/NNP phone/NN down/IN the/DT road/NN)
+
+tagged sentence:
+	 powered Nokia phone down the road	res:-1
+	(VERB be/VB ruled/VBN)
+noun phrases to consider:
+	(NOUN companies/NNS)
+	(NOUN Now/NNP)
+	(NOUN speedy/NN Snapdragon/NNP processor/NN)
+	(NOUN great/JJ asset/NN)
+
+----------------------------------
+original sentence: 
+published immediately
+Disqus, Facebook or Twitter account
+.
+
+POS tagged sentence: 
+[('published', 'VBD'), ('immediately', 'RB'), ('Disqus', 'NNP'), (',', ','), ('Facebook', 'NNP'), ('or', 'CC'), ('Twitter', 'NNP'), ('account', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   published/VBD   immediately/RB   (GPE Disqus/NNP)   ,/,   (PERSON Facebook/NNP)   or/CC   Twitter/NNP   account/NN   ./.)
+----------------------------------
+original sentence: 
+Anonymous comments will be moderated.
+
+POS tagged sentence: 
+[('Anonymous', 'JJ'), ('comments', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('moderated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Anonymous/JJ comments/NNS will/MD be/VB moderated/VBN ./.)
+----------------------------------
+original sentence: 
+View the forum thread.
+
+POS tagged sentence: 
+[('View', 'NNP'), ('the', 'DT'), ('forum', 'NN'), ('thread', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S View/NNP the/DT forum/NN thread/NN ./.)
+----------------------------------
+original sentence: 
+blog comments powered by Sprint Overdrive Review
+Blackberry 9700 Review
+ McAfee does not see light at the end of the tunnel
+ Android Running on iPhone
+ Dell Thunder 4.1 inch Android Phone Leaked
+ McAfee Update Takes Down Tens of Thousands, Possibly Millions, of PCs
+ Lego Robot handles Tetris
+ Doom for the Zune HD now available
+ iPhone 4G Found, Dissected
+ Nike shoes turned into turnables
+ Winscape system lets you live anywhere you want in the world
+ , ,  , , 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN'), ('Sprint', 'NNP'), ('Overdrive', 'NNP'), ('Review', 'NNP'), ('Blackberry', 'NNP'), ('9700', 'CD'), ('Review', 'NNP'), ('McAfee', 'NNP'), ('does', 'VBZ'), ('not', 'RB'), ('see', 'VB'), ('light', 'JJ'), ('at', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('tunnel', 'NN'), ('Android', 'NNP'), ('Running', 'NNP'), ('on', 'IN'), ('iPhone', 'NNP'), ('Dell', 'NNP'), ('Thunder', 'NNP'), ('4.1', 'CD'), ('inch', 'NN'), ('Android', 'NNP'), ('Phone', 'NNP'), ('Leaked', 'NNP'), ('McAfee', 'NNP'), ('Update', 'NNP'), ('Takes', 'NNP'), ('Down', 'NNP'), ('Tens', 'NNP'), ('of', 'IN'), ('Thousands', 'NNPS'), (',', ','), ('Possibly', 'NNP'), ('Millions', 'NNP'), (',', ','), ('of', 'IN'), ('PCs', 'NNS'), ('Lego', 'NNP'), ('Robot', 'NNP'), ('handles', 'VBZ'), ('Tetris', 'NNP'), ('Doom', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('Zune', 'NNP'), ('HD', 'NNP'), ('now', 'RB'), ('available', 'JJ'), ('iPhone', 'NN'), ('4G', 'CD'), ('Found', 'NNP'), (',', ','), ('Dissected', 'NNP'), ('Nike', 'NNP'), ('shoes', 'VBZ'), ('turned', 'VBN'), ('into', 'IN'), ('turnables', 'NNS'), ('Winscape', 'NNP'), ('system', 'NN'), ('lets', 'NNS'), ('you', 'PRP'), ('live', 'VBP'), ('anywhere', 'RB'), ('you', 'PRP'), ('want', 'VBP'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), (',', ','), (',', ','), (',', ',')]
+
+
+ERTAGGED sentence: (S   blog/NN   comments/NNS   powered/VBD   by/IN   (PERSON Sprint/NNP Overdrive/NNP Review/NNP Blackberry/NNP)   9700/CD   Review/NNP   McAfee/NNP   does/VBZ   not/RB   see/VB   light/JJ   at/IN   the/DT   end/NN   of/IN   the/DT   tunnel/NN   (PERSON Android/NNP Running/NNP)   on/IN   (ORGANIZATION iPhone/NNP Dell/NNP)   Thunder/NNP   4.1/CD   inch/NN   (PERSON Android/NNP Phone/NNP Leaked/NNP)   McAfee/NNP   Update/NNP   Takes/NNP   Down/NNP   Tens/NNP   of/IN   (GPE Thousands/NNPS)   ,/,   (PERSON Possibly/NNP Millions/NNP)   ,/,   of/IN   (ORGANIZATION PCs/NNS Lego/NNP Robot/NNP)   handles/VBZ   (PERSON Tetris/NNP Doom/NNP)   for/IN   the/DT   (ORGANIZATION Zune/NNP)   HD/NNP   now/RB   available/JJ   iPhone/NN   4G/CD   Found/NNP   ,/,   (PERSON Dissected/NNP Nike/NNP)   shoes/VBZ   turned/VBN   into/IN   turnables/NNS   Winscape/NNP   system/NN   lets/NNS   you/PRP   live/VBP   anywhere/RB   you/PRP   want/VBP   in/IN   the/DT   world/NN   ,/,   ,/,   ,/,   ,/,)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

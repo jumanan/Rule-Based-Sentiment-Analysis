@@ -1,0 +1,220 @@
+
+----------------------------------
+original sentence: 
+Loan modification program: Obama officials to announce changes in loan relief plan South Florida Sun Sentinel.com
+
+80&deg; F, Scattered Clouds  &gt; Obama to announce changes in loan relief plan
+By Alan Zibel, The Associated Press
+fl mortgage aid 20100325
+ administration will announce Friday a plan to reduce the amount some troubled borrowers owe on their home loans, two people briefed on the matter said.
+
+POS tagged sentence: 
+[('Loan', 'NNP'), ('modification', 'NN'), ('program', 'NN'), (':', ':'), ('Obama', 'NNP'), ('officials', 'NNS'), ('to', 'TO'), ('announce', 'VB'), ('changes', 'NNS'), ('in', 'IN'), ('loan', 'NN'), ('relief', 'NN'), ('plan', 'NN'), ('South', 'NNP'), ('Florida', 'NNP'), ('Sun', 'NNP'), ('Sentinel.com', 'NNP'), ('80&deg', 'CD'), (';', ':'), ('F', 'NNP'), (',', ','), ('Scattered', 'NNP'), ('Clouds', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('Obama', 'NNP'), ('to', 'TO'), ('announce', 'VB'), ('changes', 'NNS'), ('in', 'IN'), ('loan', 'NN'), ('relief', 'NN'), ('plan', 'NN'), ('By', 'IN'), ('Alan', 'NNP'), ('Zibel', 'NNP'), (',', ','), ('The', 'NNP'), ('Associated', 'NNP'), ('Press', 'NNP'), ('fl', 'NN'), ('mortgage', 'NN'), ('aid', 'NN'), ('20100325', 'CD'), ('administration', 'NN'), ('will', 'MD'), ('announce', 'VB'), ('Friday', 'NNP'), ('a', 'DT'), ('plan', 'NN'), ('to', 'TO'), ('reduce', 'VB'), ('the', 'DT'), ('amount', 'NN'), ('some', 'DT'), ('troubled', 'JJ'), ('borrowers', 'NNS'), ('owe', 'VBP'), ('on', 'IN'), ('their', 'PRP$'), ('home', 'NN'), ('loans', 'NNS'), (',', ','), ('two', 'CD'), ('people', 'NNS'), ('briefed', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Loan/NNP)   modification/NN   program/NN   :/:   Obama/NNP   officials/NNS   to/TO   announce/VB   changes/NNS   in/IN   loan/NN   relief/NN   plan/NN   (LOCATION South/NNP Florida/NNP)   Sun/NNP   Sentinel.com/NNP   80&deg/CD   ;/:   F/NNP   ,/,   (PERSON Scattered/NNP Clouds/NNP)   &gt/NNP   ;/:   (PERSON Obama/NNP)   to/TO   announce/VB   changes/NNS   in/IN   loan/NN   relief/NN   plan/NN   By/IN   (PERSON Alan/NNP Zibel/NNP)   ,/,   (ORGANIZATION The/NNP Associated/NNP)   Press/NNP   fl/NN   mortgage/NN   aid/NN   20100325/CD   administration/NN   will/MD   announce/VB   Friday/NNP   a/DT   plan/NN   to/TO   reduce/VB   the/DT   amount/NN   some/DT   troubled/JJ   borrowers/NNS   owe/VBP   on/IN   their/PRP$   home/NN   loans/NNS   ,/,   two/CD   people/NNS   briefed/VBN   on/IN   the/DT   matter/NN   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announce/VB   changes/NNS   in/IN   loan/NN   relief/NN   plan/NN   South/NNP   Florida/NNP   Sun/NNP   Sentinel.com/NNP   80&deg/CD)
+	(VERB   announce/VB   changes/NNS   in/IN   loan/NN   relief/NN   plan/NN   By/IN   Alan/NNP   Zibel/NNP)
+	(VERB announce/VB Friday/NNP a/DT plan/NN)
+	(VERB reduce/VB the/DT amount/NN some/DT troubled/JJ borrowers/NNS)
+
+tagged sentence:
+	 reduce the amount some troubled borrowers	res:1
+	(VERB owe/VBP on/IN their/PRP$ home/NN loans/NNS)
+	(VERB briefed/VBN on/IN the/DT matter/NN)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Loan/NNP modification/NN program/NN)
+	(NOUN Obama/NNP officials/NNS)
+	(NOUN F/NNP)
+	(NOUN Scattered/NNP Clouds/NNP &gt/NNP)
+	(NOUN Obama/NNP)
+	(NOUN The/NNP Associated/NNP Press/NNP fl/NN)
+	(NOUN mortgage/NN aid/NN)
+	(NOUN 20100325/CD administration/NN)
+	(NOUN two/CD people/NNS)
+
+----------------------------------
+original sentence: 
+The two people declined to be identified because the program had not yet been announced.
+
+POS tagged sentence: 
+[('The', 'DT'), ('two', 'CD'), ('people', 'NNS'), ('declined', 'VBD'), ('to', 'TO'), ('be', 'VB'), ('identified', 'VBN'), ('because', 'IN'), ('the', 'DT'), ('program', 'NN'), ('had', 'VBD'), ('not', 'RB'), ('yet', 'RB'), ('been', 'VBN'), ('announced', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   two/CD   people/NNS   declined/VBD   to/TO   be/VB   identified/VBN   because/IN   the/DT   program/NN   had/VBD   not/RB   yet/RB   been/VBN   announced/VBN   ./.)
+----------------------------------
+original sentence: 
+Details could not immediately be learned.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('could', 'MD'), ('not', 'RB'), ('immediately', 'RB'), ('be', 'VB'), ('learned', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Details/NNS could/MD not/RB immediately/RB be/VB learned/VBN ./.)
+----------------------------------
+original sentence: 
+But earlier in the day, Herbert Allison, an assistant Treasury secretary, told reporters officials are close to expanding the administration's $75 billion foreclosure relief effort.
+
+POS tagged sentence: 
+[('But', 'CC'), ('earlier', 'JJR'), ('in', 'IN'), ('the', 'DT'), ('day', 'NN'), (',', ','), ('Herbert', 'NNP'), ('Allison', 'NNP'), (',', ','), ('an', 'DT'), ('assistant', 'JJ'), ('Treasury', 'NNP'), ('secretary', 'NN'), (',', ','), ('told', 'VBD'), ('reporters', 'NNS'), ('officials', 'NNS'), ('are', 'VBP'), ('close', 'JJ'), ('to', 'TO'), ('expanding', 'VBG'), ('the', 'DT'), ('administration', 'NN'), ("'s", 'POS'), ('$', '$'), ('75', 'CD'), ('billion', 'CD'), ('foreclosure', 'NN'), ('relief', 'NN'), ('effort', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   earlier/JJR   in/IN   the/DT   day/NN   ,/,   (PERSON Herbert/NNP Allison/NNP)   ,/,   an/DT   assistant/JJ   (ORGANIZATION Treasury/NNP)   secretary/NN   ,/,   told/VBD   reporters/NNS   officials/NNS   are/VBP   close/JJ   to/TO   expanding/VBG   the/DT   administration/NN   's/POS   $/$   75/CD   billion/CD   foreclosure/NN   relief/NN   effort/NN   ./.)
+----------------------------------
+original sentence: 
+The administration is also expected Friday to announce aid for homeowners who have lost their jobs.
+
+POS tagged sentence: 
+[('The', 'DT'), ('administration', 'NN'), ('is', 'VBZ'), ('also', 'RB'), ('expected', 'VBN'), ('Friday', 'NNP'), ('to', 'TO'), ('announce', 'VB'), ('aid', 'NN'), ('for', 'IN'), ('homeowners', 'NNS'), ('who', 'WP'), ('have', 'VBP'), ('lost', 'VBN'), ('their', 'PRP$'), ('jobs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   administration/NN   is/VBZ   also/RB   expected/VBN   Friday/NNP   to/TO   announce/VB   aid/NN   for/IN   homeowners/NNS   who/WP   have/VBP   lost/VBN   their/PRP$   jobs/NNS   ./.)
+----------------------------------
+original sentence: 
+scheduled a briefing for reporters on housing policy at 10 a.m. Friday.
+
+POS tagged sentence: 
+[('scheduled', 'VBN'), ('a', 'DT'), ('briefing', 'NN'), ('for', 'IN'), ('reporters', 'NNS'), ('on', 'IN'), ('housing', 'VBG'), ('policy', 'NN'), ('at', 'IN'), ('10', 'CD'), ('a.m.', 'NNP'), ('Friday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   scheduled/VBN   a/DT   briefing/NN   for/IN   reporters/NNS   on/IN   housing/VBG   policy/NN   at/IN   10/CD   a.m./NNP   Friday/NNP   ./.)
+----------------------------------
+original sentence: 
+The disclosures came as lawmakers and a government watchdog on Thursday strongly criticized the Obama administration's loan assistance effort, saying officials rushed the program's creation last year and set up hundreds of thousands of homeowners for failure.
+
+POS tagged sentence: 
+[('The', 'DT'), ('disclosures', 'NNS'), ('came', 'VBD'), ('as', 'IN'), ('lawmakers', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('government', 'NN'), ('watchdog', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), ('strongly', 'RB'), ('criticized', 'VBD'), ('the', 'DT'), ('Obama', 'NNP'), ('administration', 'NN'), ("'s", 'POS'), ('loan', 'NN'), ('assistance', 'NN'), ('effort', 'NN'), (',', ','), ('saying', 'VBG'), ('officials', 'NNS'), ('rushed', 'VBD'), ('the', 'DT'), ('program', 'NN'), ("'s", 'POS'), ('creation', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('and', 'CC'), ('set', 'NN'), ('up', 'RP'), ('hundreds', 'NNS'), ('of', 'IN'), ('thousands', 'NNS'), ('of', 'IN'), ('homeowners', 'NNS'), ('for', 'IN'), ('failure', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   disclosures/NNS   came/VBD   as/IN   lawmakers/NNS   and/CC   a/DT   government/NN   watchdog/NN   on/IN   Thursday/NNP   strongly/RB   criticized/VBD   the/DT   (ORGANIZATION Obama/NNP)   administration/NN   's/POS   loan/NN   assistance/NN   effort/NN   ,/,   saying/VBG   officials/NNS   rushed/VBD   the/DT   program/NN   's/POS   creation/NN   last/JJ   year/NN   and/CC   set/NN   up/RP   hundreds/NNS   of/IN   thousands/NNS   of/IN   homeowners/NNS   for/IN   failure/NN   ./.)
+----------------------------------
+original sentence: 
+The program, widely viewed as a disappointment, is designed to lower borrowers' monthly payments by reducing mortgage rates to as low as 2 percent for five years and extending loan terms up to 40 years.
+
+POS tagged sentence: 
+[('The', 'DT'), ('program', 'NN'), (',', ','), ('widely', 'RB'), ('viewed', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('disappointment', 'NN'), (',', ','), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('lower', 'JJR'), ('borrowers', 'NNS'), ("'", 'POS'), ('monthly', 'JJ'), ('payments', 'NNS'), ('by', 'IN'), ('reducing', 'VBG'), ('mortgage', 'NN'), ('rates', 'NNS'), ('to', 'TO'), ('as', 'RB'), ('low', 'JJ'), ('as', 'IN'), ('2', 'CD'), ('percent', 'NN'), ('for', 'IN'), ('five', 'CD'), ('years', 'NNS'), ('and', 'CC'), ('extending', 'VBG'), ('loan', 'NN'), ('terms', 'NNS'), ('up', 'IN'), ('to', 'TO'), ('40', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   program/NN   ,/,   widely/RB   viewed/VBN   as/IN   a/DT   disappointment/NN   ,/,   is/VBZ   designed/VBN   to/TO   lower/JJR   borrowers/NNS   '/POS   monthly/JJ   payments/NNS   by/IN   reducing/VBG   mortgage/NN   rates/NNS   to/TO   as/RB   low/JJ   as/IN   2/CD   percent/NN   for/IN   five/CD   years/NNS   and/CC   extending/VBG   loan/NN   terms/NNS   up/IN   to/TO   40/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+"It has failed," said Rep. Jackie Speier, D Calif., at hearing of the House oversight committee.
+
+POS tagged sentence: 
+[('"', 'NN'), ('It', 'PRP'), ('has', 'VBZ'), ('failed', 'VBN'), (',', ','), ('"', 'NNP'), ('said', 'VBD'), ('Rep.', 'NNP'), ('Jackie', 'NNP'), ('Speier', 'NNP'), (',', ','), ('D', 'NNP'), ('Calif.', 'NNP'), (',', ','), ('at', 'IN'), ('hearing', 'NN'), ('of', 'IN'), ('the', 'DT'), ('House', 'NNP'), ('oversight', 'NN'), ('committee', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   It/PRP   has/VBZ   failed/VBN   ,/,   "/NNP   said/VBD   Rep./NNP   (PERSON Jackie/NNP Speier/NNP)   ,/,   (ORGANIZATION D/NNP)   Calif./NNP   ,/,   at/IN   hearing/NN   of/IN   the/DT   (ORGANIZATION House/NNP)   oversight/NN   committee/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ failed/VBN)
+	(VERB said/VBD Rep./NNP Jackie/NNP Speier/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN "/NNP)
+	(NOUN D/NNP Calif./NNP)
+	(NOUN hearing/NN)
+	(NOUN House/NNP oversight/NN committee/NN)
+
+----------------------------------
+original sentence: 
+"It has failed miserably and unfortunately we are incapable of saying: OK, this was an experiment, it didn't work, let's try something else.
+
+POS tagged sentence: 
+[('"', 'NN'), ('It', 'PRP'), ('has', 'VBZ'), ('failed', 'VBN'), ('miserably', 'RB'), ('and', 'CC'), ('unfortunately', 'RB'), ('we', 'PRP'), ('are', 'VBP'), ('incapable', 'JJ'), ('of', 'IN'), ('saying', 'VBG'), (':', ':'), ('OK', 'NN'), (',', ','), ('this', 'DT'), ('was', 'VBD'), ('an', 'DT'), ('experiment', 'NN'), (',', ','), ('it', 'PRP'), ('did', 'VBD'), ("n't", 'RB'), ('work', 'VB'), (',', ','), ('let', 'VB'), ("'s", 'POS'), ('try', 'NN'), ('something', 'NN'), ('else', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   It/PRP   has/VBZ   failed/VBN   miserably/RB   and/CC   unfortunately/RB   we/PRP   are/VBP   incapable/JJ   of/IN   saying/VBG   :/:   OK/NN   ,/,   this/DT   was/VBD   an/DT   experiment/NN   ,/,   it/PRP   did/VBD   n't/RB   work/VB   ,/,   let/VB   's/POS   try/NN   something/NN   else/RB   ./.)
+----------------------------------
+original sentence: 
+' "
+The program was launched more than a year ago, and there were problems from the start.
+
+POS tagged sentence: 
+[("'", 'POS'), ('"', '``'), ('The', 'DT'), ('program', 'NN'), ('was', 'VBD'), ('launched', 'VBN'), ('more', 'RBR'), ('than', 'IN'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), (',', ','), ('and', 'CC'), ('there', 'EX'), ('were', 'VBD'), ('problems', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('start', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   '/POS   "/``   The/DT   program/NN   was/VBD   launched/VBN   more/RBR   than/IN   a/DT   year/NN   ago/IN   ,/,   and/CC   there/EX   were/VBD   problems/NNS   from/IN   the/DT   start/NN   ./.)
+----------------------------------
+original sentence: 
+Getting banks and homeowners to complete the process has been tough, and to date only 170,000 homeowners have completed the process out of 1.1 million who began it over the past year.
+
+POS tagged sentence: 
+[('Getting', 'VBG'), ('banks', 'NNS'), ('and', 'CC'), ('homeowners', 'NNS'), ('to', 'TO'), ('complete', 'VB'), ('the', 'DT'), ('process', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('tough', 'JJ'), (',', ','), ('and', 'CC'), ('to', 'TO'), ('date', 'NN'), ('only', 'RB'), ('170,000', 'CD'), ('homeowners', 'NNS'), ('have', 'VBP'), ('completed', 'VBN'), ('the', 'DT'), ('process', 'NN'), ('out', 'IN'), ('of', 'IN'), ('1.1', 'CD'), ('million', 'CD'), ('who', 'WP'), ('began', 'VBD'), ('it', 'PRP'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Getting/VBG   banks/NNS   and/CC   homeowners/NNS   to/TO   complete/VB   the/DT   process/NN   has/VBZ   been/VBN   tough/JJ   ,/,   and/CC   to/TO   date/NN   only/RB   170,000/CD   homeowners/NNS   have/VBP   completed/VBN   the/DT   process/NN   out/IN   of/IN   1.1/CD   million/CD   who/WP   began/VBD   it/PRP   over/IN   the/DT   past/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Homeowners need to go through a three month trial period and provide proof of their income, plus a letter documenting their financial hardship.
+
+POS tagged sentence: 
+[('Homeowners', 'NNS'), ('need', 'VBP'), ('to', 'TO'), ('go', 'VB'), ('through', 'RP'), ('a', 'DT'), ('three', 'CD'), ('month', 'NN'), ('trial', 'NN'), ('period', 'NN'), ('and', 'CC'), ('provide', 'VB'), ('proof', 'JJ'), ('of', 'IN'), ('their', 'PRP$'), ('income', 'NN'), (',', ','), ('plus', 'CC'), ('a', 'DT'), ('letter', 'NN'), ('documenting', 'VBG'), ('their', 'PRP$'), ('financial', 'JJ'), ('hardship', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Homeowners/NNS   need/VBP   to/TO   go/VB   through/RP   a/DT   three/CD   month/NN   trial/NN   period/NN   and/CC   provide/VB   proof/JJ   of/IN   their/PRP$   income/NN   ,/,   plus/CC   a/DT   letter/NN   documenting/VBG   their/PRP$   financial/JJ   hardship/NN   ./.)
+----------------------------------
+original sentence: 
+Though $75 billion in funding is available to the more than 100 lenders who have signed up, only a tiny fraction has been spent.
+
+POS tagged sentence: 
+[('Though', 'IN'), ('$', '$'), ('75', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('funding', 'NN'), ('is', 'VBZ'), ('available', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('more', 'RBR'), ('than', 'IN'), ('100', 'CD'), ('lenders', 'NNS'), ('who', 'WP'), ('have', 'VBP'), ('signed', 'VBN'), ('up', 'RP'), (',', ','), ('only', 'RB'), ('a', 'DT'), ('tiny', 'NN'), ('fraction', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('spent', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Though/IN   $/$   75/CD   billion/CD   in/IN   funding/NN   is/VBZ   available/JJ   to/TO   the/DT   more/RBR   than/IN   100/CD   lenders/NNS   who/WP   have/VBP   signed/VBN   up/RP   ,/,   only/RB   a/DT   tiny/NN   fraction/NN   has/VBZ   been/VBN   spent/VBN   ./.)
+----------------------------------
+original sentence: 
+Lenders had received $58 million in incentive payments as of last month, according to the Government Accountability Office.
+
+POS tagged sentence: 
+[('Lenders', 'NNS'), ('had', 'VBD'), ('received', 'VBN'), ('$', '$'), ('58', 'CD'), ('million', 'CD'), ('in', 'IN'), ('incentive', 'JJ'), ('payments', 'NNS'), ('as', 'IN'), ('of', 'IN'), ('last', 'JJ'), ('month', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('Government', 'NNP'), ('Accountability', 'NNP'), ('Office', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Lenders/NNS   had/VBD   received/VBN   $/$   58/CD   million/CD   in/IN   incentive/JJ   payments/NNS   as/IN   of/IN   last/JJ   month/NN   ,/,   according/VBG   to/TO   the/DT   Government/NNP   Accountability/NNP   Office/NNP   ./.)
+----------------------------------
+original sentence: 
+Neil Barofsky, the special inspector general for the federal financial bailout fund, told lawmakers that the  took a "ready, fire, aim kind of approach" when creating the program last year.
+
+POS tagged sentence: 
+[('Neil', 'NNP'), ('Barofsky', 'NNP'), (',', ','), ('the', 'DT'), ('special', 'JJ'), ('inspector', 'NN'), ('general', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('federal', 'JJ'), ('financial', 'JJ'), ('bailout', 'NN'), ('fund', 'NN'), (',', ','), ('told', 'VBD'), ('lawmakers', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('took', 'NN'), ('a', 'DT'), ('"', 'NN'), ('ready', 'NN'), (',', ','), ('fire', 'NN'), (',', ','), ('aim', 'NN'), ('kind', 'NN'), ('of', 'IN'), ('approach', 'NN'), ('"', ':'), ('when', 'WRB'), ('creating', 'VBG'), ('the', 'DT'), ('program', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Neil/NNP Barofsky/NNP)   ,/,   the/DT   special/JJ   inspector/NN   general/JJ   for/IN   the/DT   federal/JJ   financial/JJ   bailout/NN   fund/NN   ,/,   told/VBD   lawmakers/NNS   that/IN   the/DT   took/NN   a/DT   "/NN   ready/NN   ,/,   fire/NN   ,/,   aim/NN   kind/NN   of/IN   approach/NN   "/:   when/WRB   creating/VBG   the/DT   program/NN   last/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Copyright &copy; 2010, South Florida Sun Sentinel
+Picture gallery: Click to see some amazing sand castles
+ Why can't I get a job?
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), (',', ','), ('South', 'NNP'), ('Florida', 'NNP'), ('Sun', 'NNP'), ('Sentinel', 'NNP'), ('Picture', 'NNP'), ('gallery', 'NN'), (':', ':'), ('Click', 'NNP'), ('to', 'TO'), ('see', 'VB'), ('some', 'DT'), ('amazing', 'NN'), ('sand', 'NN'), ('castles', 'NNS'), ('Why', 'WRB'), ('ca', 'MD'), ("n't", 'RB'), ('I', 'PRP'), ('get', 'VBP'), ('a', 'DT'), ('job', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   2010/CD   ,/,   (GPE South/NNP)   (PERSON Florida/NNP Sun/NNP Sentinel/NNP Picture/NNP)   gallery/NN   :/:   (PERSON Click/NNP)   to/TO   see/VB   some/DT   amazing/NN   sand/NN   castles/NNS   Why/WRB   ca/MD   n't/RB   I/PRP   get/VBP   a/DT   job/NN   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB some/DT amazing/NN sand/NN castles/NNS)
+	(VERB get/VBP a/DT job/NN)
+noun phrases to consider:
+	(NOUN Copyright/NNP &copy/NNP)
+	(NOUN South/NNP Florida/NNP Sun/NNP Sentinel/NNP)
+	(NOUN Picture/NNP gallery/NN)
+	(NOUN Click/NNP)
+
+----------------------------------
+original sentence: 
+Click here to see in pictures
+
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('see', 'VB'), ('in', 'IN'), ('pictures', 'NNS')]
+
+
+ERTAGGED sentence: (S (PERSON Click/NNP) here/RB to/TO see/VB in/IN pictures/NNS)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB in/IN pictures/NNS)
+noun phrases to consider:
+	(NOUN Click/NNP)
+
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

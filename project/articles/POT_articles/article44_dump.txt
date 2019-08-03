@@ -1,0 +1,206 @@
+
+----------------------------------
+original sentence: 
+Closing Bell: Markets Remain Muddled C, GME, TM, POT BloggingStocks
+Free TUAW iPhone app try it now!
+
+POS tagged sentence: 
+[('Closing', 'VBG'), ('Bell', 'NNP'), (':', ':'), ('Markets', 'NNPS'), ('Remain', 'NNP'), ('Muddled', 'NNP'), ('C', 'NNP'), (',', ','), ('GME', 'NNP'), (',', ','), ('TM', 'NNP'), (',', ','), ('POT', 'NNP'), ('BloggingStocks', 'NNP'), ('Free', 'NNP'), ('TUAW', 'NNP'), ('iPhone', 'NNP'), ('app', 'NN'), ('try', 'NN'), ('it', 'PRP'), ('now', 'RB'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Closing/VBG   (PERSON Bell/NNP)   :/:   (PERSON Markets/NNPS Remain/NNP Muddled/NNP)   C/NNP   ,/,   (ORGANIZATION GME/NNP)   ,/,   (ORGANIZATION TM/NNP)   ,/,   (ORGANIZATION POT/NNP)   (ORGANIZATION BloggingStocks/NNP Free/NNP)   TUAW/NNP   iPhone/NNP   app/NN   try/NN   it/PRP   now/RB   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Closing/VBG Bell/NNP)
+noun phrases to consider:
+	(NOUN Markets/NNPS Remain/NNP Muddled/NNP C/NNP)
+	(NOUN GME/NNP)
+	(NOUN TM/NNP)
+	(NOUN POT/NNP BloggingStocks/NNP Free/NNP TUAW/NNP)
+	(NOUN iPhone/NNP app/NN try/NN)
+
+----------------------------------
+original sentence: 
+Closing Bell: Markets Remain Muddled C, GME, TM, POT Posted Mar 12th 2010 4:20PM by Toyota Motor Corp. TM Potash Corp. of Saskatchewan POT Today was mixed on the economic front.
+
+POS tagged sentence: 
+[('Closing', 'VBG'), ('Bell', 'NNP'), (':', ':'), ('Markets', 'NNPS'), ('Remain', 'NNP'), ('Muddled', 'NNP'), ('C', 'NNP'), (',', ','), ('GME', 'NNP'), (',', ','), ('TM', 'NNP'), (',', ','), ('POT', 'NNP'), ('Posted', 'NNP'), ('Mar', 'NNP'), ('12th', 'CD'), ('2010', 'CD'), ('4', 'CD'), (':', ':'), ('20PM', 'CD'), ('by', 'IN'), ('Toyota', 'NNP'), ('Motor', 'NNP'), ('Corp.', 'NNP'), ('TM', 'NNP'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('POT', 'NNP'), ('Today', 'NNP'), ('was', 'VBD'), ('mixed', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('economic', 'JJ'), ('front', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Closing/VBG   (PERSON Bell/NNP)   :/:   (PERSON Markets/NNPS Remain/NNP Muddled/NNP)   C/NNP   ,/,   (ORGANIZATION GME/NNP)   ,/,   (ORGANIZATION TM/NNP)   ,/,   (ORGANIZATION POT/NNP Posted/NNP)   Mar/NNP   12th/CD   2010/CD   4/CD   :/:   20PM/CD   by/IN   (PERSON Toyota/NNP Motor/NNP)   Corp./NNP   TM/NNP   Potash/NNP   Corp./NNP   of/IN   (GPE Saskatchewan/NNP)   POT/NNP   Today/NNP   was/VBD   mixed/VBN   on/IN   the/DT   economic/JJ   front/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Closing/VBG Bell/NNP)
+	(VERB was/VBD mixed/VBN on/IN the/DT economic/JJ front/NN)
+noun phrases to consider:
+	(NOUN Markets/NNPS Remain/NNP Muddled/NNP C/NNP)
+	(NOUN GME/NNP)
+	(NOUN TM/NNP)
+	(NOUN POT/NNP Posted/NNP Mar/NNP)
+	(NOUN Toyota/NNP Motor/NNP Corp./NNP TM/NNP)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP POT/NNP Today/NNP)
+
+----------------------------------
+original sentence: 
+Retail sales were actually positive rather than the expected drop of 0.2%.
+
+POS tagged sentence: 
+[('Retail', 'JJ'), ('sales', 'NNS'), ('were', 'VBD'), ('actually', 'RB'), ('positive', 'JJ'), ('rather', 'RB'), ('than', 'IN'), ('the', 'DT'), ('expected', 'VBN'), ('drop', 'NN'), ('of', 'IN'), ('0.2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Retail/JJ)   sales/NNS   were/VBD   actually/RB   positive/JJ   rather/RB   than/IN   the/DT   expected/VBN   drop/NN   of/IN   0.2/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+But then University of Michigan's Sentiment reading came out at 72.5, a reading about 2 points short of estimates.
+
+POS tagged sentence: 
+[('But', 'CC'), ('then', 'RB'), ('University', 'NNP'), ('of', 'IN'), ('Michigan', 'NNP'), ("'s", 'POS'), ('Sentiment', 'NNP'), ('reading', 'NN'), ('came', 'VBD'), ('out', 'RP'), ('at', 'IN'), ('72.5', 'CD'), (',', ','), ('a', 'DT'), ('reading', 'NN'), ('about', 'IN'), ('2', 'CD'), ('points', 'NNS'), ('short', 'JJ'), ('of', 'IN'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   then/RB   (ORGANIZATION University/NNP)   of/IN   (PERSON Michigan/NNP)   's/POS   (ORGANIZATION Sentiment/NNP)   reading/NN   came/VBD   out/RP   at/IN   72.5/CD   ,/,   a/DT   reading/NN   about/IN   2/CD   points/NNS   short/JJ   of/IN   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+The January Business Inventories being flat in January had no real impact.
+
+POS tagged sentence: 
+[('The', 'DT'), ('January', 'NNP'), ('Business', 'NNP'), ('Inventories', 'NNPS'), ('being', 'VBG'), ('flat', 'JJ'), ('in', 'IN'), ('January', 'NNP'), ('had', 'VBD'), ('no', 'DT'), ('real', 'JJ'), ('impact', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   January/NNP   (ORGANIZATION Business/NNP)   Inventories/NNPS   being/VBG   flat/JJ   in/IN   January/NNP   had/VBD   no/DT   real/JJ   impact/NN   ./.)
+----------------------------------
+original sentence: 
+The gap up this morning on the back of international markets came off and shares struggled between positive and negative territory all day.
+
+POS tagged sentence: 
+[('The', 'DT'), ('gap', 'NN'), ('up', 'RP'), ('this', 'DT'), ('morning', 'NN'), ('on', 'IN'), ('the', 'DT'), ('back', 'NN'), ('of', 'IN'), ('international', 'JJ'), ('markets', 'NNS'), ('came', 'VBD'), ('off', 'RP'), ('and', 'CC'), ('shares', 'NNS'), ('struggled', 'VBD'), ('between', 'IN'), ('positive', 'JJ'), ('and', 'CC'), ('negative', 'JJ'), ('territory', 'NN'), ('all', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   gap/NN   up/RP   this/DT   morning/NN   on/IN   the/DT   back/NN   of/IN   international/JJ   markets/NNS   came/VBD   off/RP   and/CC   shares/NNS   struggled/VBD   between/IN   positive/JJ   and/CC   negative/JJ   territory/NN   all/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Yet one more day where the closing bell's direction was not known until the final minutes.
+
+POS tagged sentence: 
+[('Yet', 'CC'), ('one', 'CD'), ('more', 'RBR'), ('day', 'NN'), ('where', 'WRB'), ('the', 'DT'), ('closing', 'JJ'), ('bell', 'NN'), ("'s", 'POS'), ('direction', 'NN'), ('was', 'VBD'), ('not', 'RB'), ('known', 'VBN'), ('until', 'IN'), ('the', 'DT'), ('final', 'JJ'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Yet/CC   one/CD   more/RBR   day/NN   where/WRB   the/DT   closing/JJ   bell/NN   's/POS   direction/NN   was/VBD   not/RB   known/VBN   until/IN   the/DT   final/JJ   minutes/NNS   ./.)
+----------------------------------
+original sentence: 
+Here were today's unofficial closing bell levels:
+
+Dow 10,624.69 +12.85 0.12% 
+S&P 500 1,149.99 0.25 0.02% 
+Nasdaq 2,367.66 0.80 0.03%  saw profit taking.
+
+POS tagged sentence: 
+[('Here', 'RB'), ('were', 'VBD'), ('today', 'NN'), ("'s", 'POS'), ('unofficial', 'JJ'), ('closing', 'NN'), ('bell', 'NN'), ('levels', 'NNS'), (':', ':'), ('Dow', 'NNP'), ('10,624.69', 'CD'), ('+', 'CD'), ('12.85', 'CD'), ('0.12', 'CD'), ('%', 'NN'), ('S&P', 'NNP'), ('500', 'CD'), ('1,149.99', 'CD'), ('0.25', 'CD'), ('0.02', 'CD'), ('%', 'NN'), ('Nasdaq', 'NNP'), ('2,367.66', 'CD'), ('0.80', 'CD'), ('0.03', 'CD'), ('%', 'NN'), ('saw', 'NN'), ('profit', 'NN'), ('taking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Here/RB   were/VBD   today/NN   's/POS   unofficial/JJ   closing/NN   bell/NN   levels/NNS   :/:   Dow/NNP   10,624.69/CD   +/CD   12.85/CD   0.12/CD   %/NN   S&P/NNP   500/CD   1,149.99/CD   0.25/CD   0.02/CD   %/NN   Nasdaq/NNP   2,367.66/CD   0.80/CD   0.03/CD   %/NN   saw/NN   profit/NN   taking/VBG   ./.)
+----------------------------------
+original sentence: 
+Some may blame Pandit's comments yesterday, but this looked more like legitimate profit taking after a big week probably added some selling that would have otherwise been less.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('may', 'MD'), ('blame', 'VB'), ('Pandit', 'NNP'), ("'s", 'POS'), ('comments', 'NNS'), ('yesterday', 'NN'), (',', ','), ('but', 'CC'), ('this', 'DT'), ('looked', 'VBN'), ('more', 'RBR'), ('like', 'IN'), ('legitimate', 'NN'), ('profit', 'NN'), ('taking', 'VBG'), ('after', 'IN'), ('a', 'DT'), ('big', 'JJ'), ('week', 'NN'), ('probably', 'RB'), ('added', 'VBD'), ('some', 'DT'), ('selling', 'NN'), ('that', 'IN'), ('would', 'MD'), ('have', 'VB'), ('otherwise', 'RB'), ('been', 'VBN'), ('less', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   may/MD   blame/VB   (PERSON Pandit/NNP)   's/POS   comments/NNS   yesterday/NN   ,/,   but/CC   this/DT   looked/VBN   more/RBR   like/IN   legitimate/NN   profit/NN   taking/VBG   after/IN   a/DT   big/JJ   week/NN   probably/RB   added/VBD   some/DT   selling/NN   that/IN   would/MD   have/VB   otherwise/RB   been/VBN   less/JJR   ./.)
+----------------------------------
+original sentence: 
+Shares were down 4% at $4.01 late in the trading day.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('were', 'VBD'), ('down', 'RB'), ('4', 'CD'), ('%', 'NN'), ('at', 'IN'), ('$', '$'), ('4.01', 'CD'), ('late', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   were/VBD   down/RB   4/CD   %/NN   at/IN   $/$   4.01/CD   late/JJ   in/IN   the/DT   trading/NN   day/NN   ./.)
+----------------------------------
+original sentence: 
+was down 0.5% at $19.24 late in the trading day on reports that the video game market was showing weak figures for yet another month.
+
+POS tagged sentence: 
+[('was', 'VBD'), ('down', 'VBN'), ('0.5', 'CD'), ('%', 'NN'), ('at', 'IN'), ('$', '$'), ('19.24', 'CD'), ('late', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('on', 'IN'), ('reports', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('video', 'NN'), ('game', 'NN'), ('market', 'NN'), ('was', 'VBD'), ('showing', 'VBG'), ('weak', 'JJ'), ('figures', 'NNS'), ('for', 'IN'), ('yet', 'RB'), ('another', 'DT'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   was/VBD   down/VBN   0.5/CD   %/NN   at/IN   $/$   19.24/CD   late/JJ   in/IN   the/DT   trading/NN   day/NN   on/IN   reports/NNS   that/IN   the/DT   video/NN   game/NN   market/NN   was/VBD   showing/VBG   weak/JJ   figures/NNS   for/IN   yet/RB   another/DT   month/NN   ./.)
+----------------------------------
+original sentence: 
+GameStop is also on deck for earnings next week.
+
+POS tagged sentence: 
+[('GameStop', 'NNP'), ('is', 'VBZ'), ('also', 'RB'), ('on', 'IN'), ('deck', 'NN'), ('for', 'IN'), ('earnings', 'NNS'), ('next', 'JJ'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GameStop/NNP   is/VBZ   also/RB   on/IN   deck/NN   for/IN   earnings/NNS   next/JJ   week/NN   ./.)
+----------------------------------
+original sentence: 
+Toyota Motor Company  appears to be holding up despite its big woes as its market share in the US is back up in March.
+
+POS tagged sentence: 
+[('Toyota', 'NNP'), ('Motor', 'NNP'), ('Company', 'NNP'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('holding', 'VBG'), ('up', 'RP'), ('despite', 'IN'), ('its', 'PRP$'), ('big', 'JJ'), ('woes', 'NNS'), ('as', 'IN'), ('its', 'PRP$'), ('market', 'NN'), ('share', 'NN'), ('in', 'IN'), ('the', 'DT'), ('US', 'NNP'), ('is', 'VBZ'), ('back', 'RB'), ('up', 'IN'), ('in', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Toyota/NNP)   (PERSON Motor/NNP Company/NNP)   appears/VBZ   to/TO   be/VB   holding/VBG   up/RP   despite/IN   its/PRP$   big/JJ   woes/NNS   as/IN   its/PRP$   market/NN   share/NN   in/IN   the/DT   (ORGANIZATION US/NNP)   is/VBZ   back/RB   up/IN   in/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+Potash Corp. of Saskatchewan, Inc.  was up big today after raising its guidance after 6 short weeks ago issuing a warning.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('was', 'VBD'), ('up', 'IN'), ('big', 'JJ'), ('today', 'NN'), ('after', 'IN'), ('raising', 'NN'), ('its', 'PRP$'), ('guidance', 'NN'), ('after', 'IN'), ('6', 'CD'), ('short', 'JJ'), ('weeks', 'NNS'), ('ago', 'IN'), ('issuing', 'VBG'), ('a', 'DT'), ('warning', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   ,/,   (PERSON Inc./NNP)   was/VBD   up/IN   big/JJ   today/NN   after/IN   raising/NN   its/PRP$   guidance/NN   after/IN   6/CD   short/JJ   weeks/NNS   ago/IN   issuing/VBG   a/DT   warning/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   up/IN   big/JJ   today/NN   after/IN   raising/NN   its/PRP$   guidance/NN   after/IN   6/CD   short/JJ   weeks/NNS   ago/IN)
+	(VERB issuing/VBG a/DT)
+	(VERB warning/VBG)
+noun phrases to consider:
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP)
+	(NOUN Inc./NNP)
+
+----------------------------------
+original sentence: 
+Shares were up almost 8% at $126.25 late in the trading day.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('were', 'VBD'), ('up', 'RB'), ('almost', 'RB'), ('8', 'CD'), ('%', 'NN'), ('at', 'IN'), ('$', '$'), ('126.25', 'CD'), ('late', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   were/VBD   up/RB   almost/RB   8/CD   %/NN   at/IN   $/$   126.25/CD   late/JJ   in/IN   the/DT   trading/NN   day/NN   ./.)
+----------------------------------
+original sentence: 
+business inventories
+University of Michigan Surveys of Consumers
+AOL / Getty Images Related From Blogging Stocks
+BloggingStocks bloggers 30 days April 23, 2010: 05:45 PM
+Track your stocks here!
+
+POS tagged sentence: 
+[('business', 'NN'), ('inventories', 'NNS'), ('University', 'NNP'), ('of', 'IN'), ('Michigan', 'NNP'), ('Surveys', 'NNP'), ('of', 'IN'), ('Consumers', 'NNP'), ('AOL', 'NNP'), ('/', 'NNP'), ('Getty', 'NNP'), ('Images', 'NNP'), ('Related', 'NNP'), ('From', 'NNP'), ('Blogging', 'NNP'), ('Stocks', 'NNP'), ('BloggingStocks', 'NNP'), ('bloggers', 'NNS'), ('30', 'CD'), ('days', 'NNS'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), (':', ':'), ('05', 'CD'), (':', ':'), ('45', 'CD'), ('PM', 'NNP'), ('Track', 'NNP'), ('your', 'PRP$'), ('stocks', 'NNS'), ('here', 'RB'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   business/NN   inventories/NNS   (ORGANIZATION University/NNP)   of/IN   (PERSON Michigan/NNP Surveys/NNP)   of/IN   (ORGANIZATION Consumers/NNP)   (ORGANIZATION AOL/NNP)   //NNP   Getty/NNP   (PERSON Images/NNP Related/NNP)   From/NNP   Blogging/NNP   Stocks/NNP   BloggingStocks/NNP   bloggers/NNS   30/CD   days/NNS   April/NNP   23/CD   ,/,   2010/CD   :/:   05/CD   :/:   45/CD   PM/NNP   Track/NNP   your/PRP$   stocks/NNS   here/RB   !/.)
+----------------------------------
+original sentence: 
+Find out why more people track their portfolios on AOL Money & Finance then anywhere else.
+
+POS tagged sentence: 
+[('Find', 'NNP'), ('out', 'IN'), ('why', 'WRB'), ('more', 'JJR'), ('people', 'NNS'), ('track', 'VBP'), ('their', 'PRP$'), ('portfolios', 'NNS'), ('on', 'IN'), ('AOL', 'NNP'), ('Money', 'NNP'), ('&', 'CC'), ('Finance', 'NNP'), ('then', 'RB'), ('anywhere', 'RB'), ('else', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Find/NNP)   out/IN   why/WRB   more/JJR   people/NNS   track/VBP   their/PRP$   portfolios/NNS   on/IN   (ORGANIZATION AOL/NNP Money/NNP)   &/CC   Finance/NNP   then/RB   anywhere/RB   else/RB   ./.)
+----------------------------------
+original sentence: 
+BloggingStocks Partners
+More from AOL Money & Finance
+
+
+POS tagged sentence: 
+[('BloggingStocks', 'NNS'), ('Partners', 'NNPS'), ('More', 'NNP'), ('from', 'IN'), ('AOL', 'NNP'), ('Money', 'NNP'), ('&', 'CC'), ('Finance', 'NNP')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BloggingStocks/NNS Partners/NNPS)   More/NNP   from/IN   (ORGANIZATION AOL/NNP Money/NNP)   &/CC   Finance/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

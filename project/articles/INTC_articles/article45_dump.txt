@@ -1,0 +1,116 @@
+
+----------------------------------
+original sentence: 
+Intel Declares Quarterly Cash Dividend | Business Wire
+ March 19, 2010 09:00 AM Eastern Daylight Time Intel Declares Quarterly Cash Dividend
+SANTA CLARA, Calif.  Intel Corporation's board of directors has declared a 15.75 cents per share quarterly dividend on the company's common stock.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Declares', 'NNP'), ('Quarterly', 'NNP'), ('Cash', 'NNP'), ('Dividend', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('19', 'CD'), (',', ','), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Intel', 'NNP'), ('Declares', 'NNP'), ('Quarterly', 'NNP'), ('Cash', 'NNP'), ('Dividend', 'NNP'), ('SANTA', 'NNP'), ('CLARA', 'NNP'), (',', ','), ('Calif.', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('board', 'NN'), ('of', 'IN'), ('directors', 'NNS'), ('has', 'VBZ'), ('declared', 'VBN'), ('a', 'DT'), ('15.75', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('quarterly', 'RB'), ('dividend', 'NN'), ('on', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('common', 'JJ'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (PERSON Declares/NNP Quarterly/NNP Cash/NNP Dividend/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   19/CD   ,/,   2010/CD   09/CD   :/:   00/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Intel/NNP   Declares/NNP   Quarterly/NNP   Cash/NNP   Dividend/NNP   SANTA/NNP   CLARA/NNP   ,/,   (GPE Calif./NNP)   (ORGANIZATION Intel/NNP Corporation/NNP)   's/POS   board/NN   of/IN   directors/NNS   has/VBZ   declared/VBN   a/DT   15.75/CD   cents/NNS   per/IN   share/NN   quarterly/RB   dividend/NN   on/IN   the/DT   company/NN   's/POS   common/JJ   stock/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   declared/VBN   a/DT   15.75/CD   cents/NNS   per/IN   share/NN   quarterly/RB   dividend/NN   on/IN   the/DT   company/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP Declares/NNP Quarterly/NNP Cash/NNP)
+	(NOUN Dividend/NNP |/NNP Business/NNP Wire/NNP)
+	(NOUN March/NNP)
+	(NOUN 00/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Intel/NNP Declares/NNP Quarterly/NNP Cash/NNP)
+	(NOUN Dividend/NNP SANTA/NNP CLARA/NNP)
+	(NOUN Calif./NNP Intel/NNP Corporation/NNP)
+	(NOUN board/NN)
+	(NOUN directors/NNS)
+	(NOUN common/JJ stock/NN)
+
+----------------------------------
+original sentence: 
+The dividend will be payable on June 1, 2010 to stockholders of record on May 7, 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dividend', 'NN'), ('will', 'MD'), ('be', 'VB'), ('payable', 'JJ'), ('on', 'IN'), ('June', 'NNP'), ('1', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('stockholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('on', 'IN'), ('May', 'NNP'), ('7', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dividend/NN   will/MD   be/VB   payable/JJ   on/IN   June/NNP   1/CD   ,/,   2010/CD   to/TO   stockholders/NNS   of/IN   record/NN   on/IN   May/NNP   7/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Intel NASDAQ:INTC , the world leader in silicon innovation, develops technologies, products and initiatives to continually advance how people work and live.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('silicon', 'NN'), ('innovation', 'NN'), (',', ','), ('develops', 'VBZ'), ('technologies', 'NNS'), (',', ','), ('products', 'NNS'), ('and', 'CC'), ('initiatives', 'NNS'), ('to', 'TO'), ('continually', 'RB'), ('advance', 'NN'), ('how', 'WRB'), ('people', 'NNS'), ('work', 'VBP'), ('and', 'CC'), ('live', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   the/DT   world/NN   leader/NN   in/IN   silicon/NN   innovation/NN   ,/,   develops/VBZ   technologies/NNS   ,/,   products/NNS   and/CC   initiatives/NNS   to/TO   continually/RB   advance/NN   how/WRB   people/NNS   work/VBP   and/CC   live/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB develops/VBZ technologies/NNS)
+	(VERB work/VBP)
+noun phrases to consider:
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN world/NN leader/NN)
+	(NOUN silicon/NN innovation/NN)
+	(NOUN products/NNS)
+	(NOUN initiatives/NNS)
+	(NOUN advance/NN)
+	(NOUN people/NNS)
+	(NOUN live/JJ)
+
+----------------------------------
+original sentence: 
+Additional information about Intel is available at www.intel.com/pressroom
+ Intel and the Intel logo are trademarks of Intel Corporation in the United States and other countries.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('about', 'IN'), ('Intel', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/pressroom', 'JJ'), ('Intel', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Intel', 'NNP'), ('logo', 'NN'), ('are', 'VBP'), ('trademarks', 'NNS'), ('of', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   about/IN   (ORGANIZATION Intel/NNP)   is/VBZ   available/JJ   at/IN   www.intel.com/pressroom/JJ   (ORGANIZATION Intel/NNP)   and/CC   the/DT   (ORGANIZATION Intel/NNP)   logo/NN   are/VBP   trademarks/NNS   of/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   in/IN   the/DT   (GPE United/NNP States/NNPS)   and/CC   other/JJ   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN www.intel.com/pressroom/JJ Intel/NNP)
+	(VERB   are/VBP   trademarks/NNS   of/IN   Intel/NNP   Corporation/NNP   in/IN   the/DT   United/NNP   States/NNPS)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN Intel/NNP)
+	(NOUN Intel/NNP logo/NN)
+	(NOUN other/JJ countries/NNS)
+
+----------------------------------
+original sentence: 
+* Other names and brands may be claimed as the property of others.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Other', 'JJ'), ('names', 'NNS'), ('and', 'CC'), ('brands', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('claimed', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('property', 'NN'), ('of', 'IN'), ('others', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Other/JJ   names/NNS   and/CC   brands/NNS   may/MD   be/VB   claimed/VBN   as/IN   the/DT   property/NN   of/IN   others/NNS   ./.)
+----------------------------------
+original sentence: 
+Contacts  Intel Corporation
+Amy Kircos, 480 552 8803 Media Relations amy.kircos@intel.com
+Kevin Sellers, 480 363 2642 Investor Relations kevin.k.sellers@intel.com
+ http://www.businesswire.com/news/home/20100319005194/en/Intel Declares Quarterly Cash Dividend
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Contacts', 'NNS'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Amy', 'NNP'), ('Kircos', 'NNP'), (',', ','), ('480', 'CD'), ('552', 'CD'), ('8803', 'CD'), ('Media', 'NNP'), ('Relations', 'NNP'), ('amy.kircos', 'NNP'), ('@', 'NNP'), ('intel.com', 'NNP'), ('Kevin', 'NNP'), ('Sellers', 'NNP'), (',', ','), ('480', 'CD'), ('363', 'CD'), ('2642', 'CD'), ('Investor', 'NNP'), ('Relations', 'NNP'), ('kevin.k.sellers', 'NNP'), ('@', 'NNP'), ('intel.com', 'NNP'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100319005194/en/Intel', 'JJ'), ('Declares', 'NNS'), ('Quarterly', 'NNP'), ('Cash', 'NNP'), ('Dividend', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Contacts/NNS   (ORGANIZATION Intel/NNP Corporation/NNP Amy/NNP Kircos/NNP)   ,/,   480/CD   552/CD   8803/CD   Media/NNP   Relations/NNP   amy.kircos/NNP   @/NNP   intel.com/NNP   (PERSON Kevin/NNP Sellers/NNP)   ,/,   480/CD   363/CD   2642/CD   Investor/NNP   Relations/NNP   kevin.k.sellers/NNP   @/NNP   intel.com/NNP   http/NN   :/:   //www.businesswire.com/news/home/20100319005194/en/Intel/JJ   Declares/NNS   (PERSON Quarterly/NNP Cash/NNP Dividend/NNP Company/NNP)   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Contacts/NNS Intel/NNP Corporation/NNP Amy/NNP)
+	(NOUN Kircos/NNP)
+	(NOUN 8803/CD Media/NNP Relations/NNP amy.kircos/NNP @/NNP)
+	(NOUN intel.com/NNP Kevin/NNP Sellers/NNP)
+	(NOUN 2642/CD Investor/NNP Relations/NNP kevin.k.sellers/NNP @/NNP)
+	(NOUN intel.com/NNP http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100319005194/en/Intel/JJ   Declares/NNS   Quarterly/NNP   Cash/NNP   Dividend/NNP)
+	(NOUN Company/NNP Information/NNP Center/NNP More/NNP)
+	(NOUN Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

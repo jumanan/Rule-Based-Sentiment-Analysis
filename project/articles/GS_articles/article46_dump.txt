@@ -1,0 +1,284 @@
+
+----------------------------------
+original sentence: 
+ Goldman Sachs, Detroit, Junk Bonds & RoboCop Fundmastery Blog MarketWatch
+Goldman Sachs, Detroit, Junk Bonds & RoboCop
+Well, if you like high yield or junk municipal bonds, then Goldman Sachs and Detroit have a deal for you.¬† They are selling municipal bonds at enticing yields.¬† I don&#8217;t know the exact yield on these bonds, but existing bonds issued by Detroit yield well north of 7%, four hundred basis points or more above the yield on a high quality municipal bond.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), (',', ','), ('Detroit', 'NNP'), (',', ','), ('Junk', 'NNP'), ('Bonds', 'NNPS'), ('&', 'CC'), ('RoboCop', 'NNP'), ('Fundmastery', 'NNP'), ('Blog', 'NNP'), ('MarketWatch', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), (',', ','), ('Detroit', 'NNP'), (',', ','), ('Junk', 'NNP'), ('Bonds', 'NNPS'), ('&', 'CC'), ('RoboCop', 'NNP'), ('Well', 'NNP'), (',', ','), ('if', 'IN'), ('you', 'PRP'), ('like', 'VBP'), ('high', 'JJ'), ('yield', 'NN'), ('or', 'CC'), ('junk', 'NN'), ('municipal', 'JJ'), ('bonds', 'NNS'), (',', ','), ('then', 'RB'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('and', 'CC'), ('Detroit', 'NNP'), ('have', 'VBP'), ('a', 'DT'), ('deal', 'NN'), ('for', 'IN'), ('you.', 'NNP'), ('\xc2', ':'), ('\xa0', ':'), ('They', 'PRP'), ('are', 'VBP'), ('selling', 'VBG'), ('municipal', 'JJ'), ('bonds', 'NNS'), ('at', 'IN'), ('enticing', 'VBG'), ('yields.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('I', 'NNP'), ('don&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('know', 'VBP'), ('the', 'DT'), ('exact', 'JJ'), ('yield', 'NN'), ('on', 'IN'), ('these', 'DT'), ('bonds', 'NNS'), (',', ','), ('but', 'CC'), ('existing', 'VBG'), ('bonds', 'NNS'), ('issued', 'VBN'), ('by', 'IN'), ('Detroit', 'NNP'), ('yield', 'NN'), ('well', 'RB'), ('north', 'JJ'), ('of', 'IN'), ('7', 'CD'), ('%', 'NN'), (',', ','), ('four', 'CD'), ('hundred', 'VBD'), ('basis', 'NN'), ('points', 'NNS'), ('or', 'CC'), ('more', 'JJR'), ('above', 'IN'), ('the', 'DT'), ('yield', 'NN'), ('on', 'IN'), ('a', 'DT'), ('high', 'JJ'), ('quality', 'NN'), ('municipal', 'JJ'), ('bond', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (GPE Sachs/NNP)   ,/,   (GPE Detroit/NNP)   ,/,   (ORGANIZATION Junk/NNP Bonds/NNPS)   &/CC   (ORGANIZATION RoboCop/NNP Fundmastery/NNP Blog/NNP)   MarketWatch/NNP   (ORGANIZATION Goldman/NNP Sachs/NNP)   ,/,   (GPE Detroit/NNP)   ,/,   (ORGANIZATION Junk/NNP Bonds/NNPS)   &/CC   (ORGANIZATION RoboCop/NNP Well/NNP)   ,/,   if/IN   you/PRP   like/VBP   high/JJ   yield/NN   or/CC   junk/NN   municipal/JJ   bonds/NNS   ,/,   then/RB   (ORGANIZATION Goldman/NNP Sachs/NNP)   and/CC   (GPE Detroit/NNP)   have/VBP   a/DT   deal/NN   for/IN   you./NNP   ¬/:   †/:   They/PRP   are/VBP   selling/VBG   municipal/JJ   bonds/NNS   at/IN   enticing/VBG   yields./NNP   ¬/NNP   †/NNP   I/NNP   don&/NNP   #/#   8217/CD   ;/:   t/NN   know/VBP   the/DT   exact/JJ   yield/NN   on/IN   these/DT   bonds/NNS   ,/,   but/CC   existing/VBG   bonds/NNS   issued/VBN   by/IN   (PERSON Detroit/NNP)   yield/NN   well/RB   north/JJ   of/IN   7/CD   %/NN   ,/,   four/CD   hundred/VBD   basis/NN   points/NNS   or/CC   more/JJR   above/IN   the/DT   yield/NN   on/IN   a/DT   high/JJ   quality/NN   municipal/JJ   bond/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB like/VBP high/JJ yield/NN)
+	(VERB have/VBP a/DT deal/NN for/IN you./NNP)
+	(VERB are/VBP selling/VBG municipal/JJ bonds/NNS at/IN)
+	(VERB enticing/VBG yields./NNP ¬/NNP †/NNP I/NNP don&/NNP)
+	(VERB know/VBP the/DT exact/JJ yield/NN on/IN these/DT bonds/NNS)
+	(VERB existing/VBG bonds/NNS)
+	(VERB   issued/VBN   by/IN   Detroit/NNP   yield/NN   well/RB   north/JJ   of/IN   7/CD   %/NN)
+	(VERB hundred/VBD basis/NN points/NNS)
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN Detroit/NNP)
+	(NOUN Junk/NNP Bonds/NNPS)
+	(NOUN RoboCop/NNP Fundmastery/NNP Blog/NNP MarketWatch/NNP)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN Detroit/NNP)
+	(NOUN Junk/NNP Bonds/NNPS)
+	(NOUN RoboCop/NNP Well/NNP)
+	(NOUN junk/NN municipal/JJ bonds/NNS)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN Detroit/NNP)
+	(NOUN t/NN)
+	(NOUN more/JJR)
+	(NOUN yield/NN)
+	(NOUN a/DT high/JJ quality/NN)
+	(NOUN municipal/JJ bond/NN)
+
+----------------------------------
+original sentence: 
+The real City of Detroit seems, more and more, to resemble the fictional Detroit depicted in the 1987 movie, RoboCop more on this in a bit .
+
+POS tagged sentence: 
+[('The', 'DT'), ('real', 'JJ'), ('City', 'NNP'), ('of', 'IN'), ('Detroit', 'NNP'), ('seems', 'VBZ'), (',', ','), ('more', 'JJR'), ('and', 'CC'), ('more', 'JJR'), (',', ','), ('to', 'TO'), ('resemble', 'JJ'), ('the', 'DT'), ('fictional', 'JJ'), ('Detroit', 'NNP'), ('depicted', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('1987', 'CD'), ('movie', 'NN'), (',', ','), ('RoboCop', 'NNP'), ('more', 'RBR'), ('on', 'IN'), ('this', 'DT'), ('in', 'IN'), ('a', 'DT'), ('bit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   real/JJ   City/NNP   of/IN   (GPE Detroit/NNP)   seems/VBZ   ,/,   more/JJR   and/CC   more/JJR   ,/,   to/TO   resemble/JJ   the/DT   fictional/JJ   (PERSON Detroit/NNP)   depicted/VBD   in/IN   the/DT   1987/CD   movie/NN   ,/,   (ORGANIZATION RoboCop/NNP)   more/RBR   on/IN   this/DT   in/IN   a/DT   bit/NN   ./.)
+----------------------------------
+original sentence: 
+Why are the yields so high on these Detroit bonds?
+
+POS tagged sentence: 
+[('Why', 'WRB'), ('are', 'VBP'), ('the', 'DT'), ('yields', 'NNS'), ('so', 'RB'), ('high', 'JJ'), ('on', 'IN'), ('these', 'DT'), ('Detroit', 'NNP'), ('bonds', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Why/WRB   are/VBP   the/DT   yields/NNS   so/RB   high/JJ   on/IN   these/DT   Detroit/NNP   bonds/NNS   ?/.)
+----------------------------------
+original sentence: 
+As you can imagine, there are some unusual aspects of this deal, one of which is that Detroit may be forced into bankruptcy.¬† And, the new mayor wants to demolish 25% of the buildings in the city.¬† Oh, and the bond offering documents do not include a rather important piece of information, a report on the city&#8217;s financial condition.¬† Or, actually they include a financial report, but it&#8217;s based on information from 2008.
+
+POS tagged sentence: 
+[('As', 'IN'), ('you', 'PRP'), ('can', 'MD'), ('imagine', 'VB'), (',', ','), ('there', 'EX'), ('are', 'VBP'), ('some', 'DT'), ('unusual', 'JJ'), ('aspects', 'NNS'), ('of', 'IN'), ('this', 'DT'), ('deal', 'NN'), (',', ','), ('one', 'CD'), ('of', 'IN'), ('which', 'WDT'), ('is', 'VBZ'), ('that', 'IN'), ('Detroit', 'NNP'), ('may', 'MD'), ('be', 'VB'), ('forced', 'VBN'), ('into', 'IN'), ('bankruptcy.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('And', 'CC'), (',', ','), ('the', 'DT'), ('new', 'JJ'), ('mayor', 'NN'), ('wants', 'NNS'), ('to', 'TO'), ('demolish', 'VB'), ('25', 'CD'), ('%', 'NN'), ('of', 'IN'), ('the', 'DT'), ('buildings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('city.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Oh', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('bond', 'NN'), ('offering', 'NN'), ('documents', 'NNS'), ('do', 'VBP'), ('not', 'RB'), ('include', 'VB'), ('a', 'DT'), ('rather', 'RB'), ('important', 'JJ'), ('piece', 'NN'), ('of', 'IN'), ('information', 'NN'), (',', ','), ('a', 'DT'), ('report', 'NN'), ('on', 'IN'), ('the', 'DT'), ('city&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('financial', 'JJ'), ('condition.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Or', 'NNP'), (',', ','), ('actually', 'RB'), ('they', 'PRP'), ('include', 'VBP'), ('a', 'DT'), ('financial', 'JJ'), ('report', 'NN'), (',', ','), ('but', 'CC'), ('it&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('information', 'NN'), ('from', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   you/PRP   can/MD   imagine/VB   ,/,   there/EX   are/VBP   some/DT   unusual/JJ   aspects/NNS   of/IN   this/DT   deal/NN   ,/,   one/CD   of/IN   which/WDT   is/VBZ   that/IN   (PERSON Detroit/NNP)   may/MD   be/VB   forced/VBN   into/IN   bankruptcy./NNP   ¬/NNP   †/NNP   And/CC   ,/,   the/DT   new/JJ   mayor/NN   wants/NNS   to/TO   demolish/VB   25/CD   %/NN   of/IN   the/DT   buildings/NNS   in/IN   the/DT   city./NNP   ¬/NNP   †/NNP   Oh/NNP   ,/,   and/CC   the/DT   bond/NN   offering/NN   documents/NNS   do/VBP   not/RB   include/VB   a/DT   rather/RB   important/JJ   piece/NN   of/IN   information/NN   ,/,   a/DT   report/NN   on/IN   the/DT   city&/NNP   #/#   8217/CD   ;/:   s/NNS   financial/JJ   condition./NNP   ¬/NNP   †/NNP   Or/NNP   ,/,   actually/RB   they/PRP   include/VBP   a/DT   financial/JJ   report/NN   ,/,   but/CC   it&/NNP   #/#   8217/CD   ;/:   s/NNS   based/VBN   on/IN   information/NN   from/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+This Bloomberg piece gives the details [emphasis added]:
+Detroit Sells $250 Million Without Recent Disclosure Filings
+ Bloomberg, Mar.
+
+POS tagged sentence: 
+[('This', 'DT'), ('Bloomberg', 'NNP'), ('piece', 'NN'), ('gives', 'VBZ'), ('the', 'DT'), ('details', 'NNS'), ('[', ':'), ('emphasis', 'NN'), ('added', 'VBD'), (']', 'CD'), (':', ':'), ('Detroit', 'NNP'), ('Sells', 'NNP'), ('$', '$'), ('250', 'CD'), ('Million', 'CD'), ('Without', 'IN'), ('Recent', 'JJ'), ('Disclosure', 'NNP'), ('Filings', 'NNP'), ('Bloomberg', 'NNP'), (',', ','), ('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   Bloomberg/NNP   piece/NN   gives/VBZ   the/DT   details/NNS   [/:   emphasis/NN   added/VBD   ]/CD   :/:   (PERSON Detroit/NNP Sells/NNP)   $/$   250/CD   Million/CD   Without/IN   (ORGANIZATION Recent/JJ Disclosure/NNP Filings/NNP Bloomberg/NNP)   ,/,   (PERSON Mar/NNP)   ./.)
+----------------------------------
+original sentence: 
+11, 2010, Darrell Preston Detroit, the largest U.S. city whose debt is rated below investment grade, will ask investors today to buy $250 million of its debt without having filed annual financial reports on time for five years.
+
+POS tagged sentence: 
+[('11', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('Darrell', 'NNP'), ('Preston', 'NNP'), ('Detroit', 'NNP'), (',', ','), ('the', 'DT'), ('largest', 'JJS'), ('U.S.', 'NNP'), ('city', 'NN'), ('whose', 'WP$'), ('debt', 'NN'), ('is', 'VBZ'), ('rated', 'VBN'), ('below', 'IN'), ('investment', 'NN'), ('grade', 'NN'), (',', ','), ('will', 'MD'), ('ask', 'VB'), ('investors', 'NNS'), ('today', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('$', '$'), ('250', 'CD'), ('million', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('debt', 'NN'), ('without', 'IN'), ('having', 'VBG'), ('filed', 'VBN'), ('annual', 'JJ'), ('financial', 'JJ'), ('reports', 'NNS'), ('on', 'IN'), ('time', 'NN'), ('for', 'IN'), ('five', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   11/CD   ,/,   2010/CD   ,/,   (PERSON Darrell/NNP Preston/NNP Detroit/NNP)   ,/,   the/DT   largest/JJS   (GPE U.S./NNP)   city/NN   whose/WP$   debt/NN   is/VBZ   rated/VBN   below/IN   investment/NN   grade/NN   ,/,   will/MD   ask/VB   investors/NNS   today/NN   to/TO   buy/VB   $/$   250/CD   million/CD   of/IN   its/PRP$   debt/NN   without/IN   having/VBG   filed/VBN   annual/JJ   financial/JJ   reports/NNS   on/IN   time/NN   for/IN   five/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+The city, which warned investors in its preliminary official statement of the possibility of filing for Chapter 9 bankruptcy protection, is providing a June 30, 2008, financial statement, its most recent, to investors.
+
+POS tagged sentence: 
+[('The', 'DT'), ('city', 'NN'), (',', ','), ('which', 'WDT'), ('warned', 'VBN'), ('investors', 'NNS'), ('in', 'IN'), ('its', 'PRP$'), ('preliminary', 'JJ'), ('official', 'NN'), ('statement', 'NN'), ('of', 'IN'), ('the', 'DT'), ('possibility', 'NN'), ('of', 'IN'), ('filing', 'NN'), ('for', 'IN'), ('Chapter', 'NN'), ('9', 'CD'), ('bankruptcy', 'NN'), ('protection', 'NN'), (',', ','), ('is', 'VBZ'), ('providing', 'VBG'), ('a', 'DT'), ('June', 'NNP'), ('30', 'CD'), (',', ','), ('2008', 'CD'), (',', ','), ('financial', 'JJ'), ('statement', 'NN'), (',', ','), ('its', 'PRP$'), ('most', 'RBS'), ('recent', 'JJ'), (',', ','), ('to', 'TO'), ('investors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   city/NN   ,/,   which/WDT   warned/VBN   investors/NNS   in/IN   its/PRP$   preliminary/JJ   official/NN   statement/NN   of/IN   the/DT   possibility/NN   of/IN   filing/NN   for/IN   Chapter/NN   9/CD   bankruptcy/NN   protection/NN   ,/,   is/VBZ   providing/VBG   a/DT   June/NNP   30/CD   ,/,   2008/CD   ,/,   financial/JJ   statement/NN   ,/,   its/PRP$   most/RBS   recent/JJ   ,/,   to/TO   investors/NNS   ./.)
+----------------------------------
+original sentence: 
+A fiscal 2009 report is expected to be complete by May 31, said city spokesman Dan Lijana, in an e mail.
+
+POS tagged sentence: 
+[('A', 'DT'), ('fiscal', 'JJ'), ('2009', 'CD'), ('report', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('complete', 'JJ'), ('by', 'IN'), ('May', 'NNP'), ('31', 'CD'), (',', ','), ('said', 'VBD'), ('city', 'NN'), ('spokesman', 'NN'), ('Dan', 'NNP'), ('Lijana', 'NNP'), (',', ','), ('in', 'IN'), ('an', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   fiscal/JJ   2009/CD   report/NN   is/VBZ   expected/VBN   to/TO   be/VB   complete/JJ   by/IN   May/NNP   31/CD   ,/,   said/VBD   city/NN   spokesman/NN   (PERSON Dan/NNP Lijana/NNP)   ,/,   in/IN   an/DT   e/NN   mail/NN   ./.)
+----------------------------------
+original sentence: 
+‚ÄúThis issue is not for the faint of heart,‚Äù said Richard Ciccarone
+, chief research officer of Oak Brook, Illinois based McDonnell Investment Management, which oversees $6.8 billion of municipal debt.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('This', 'DT'), ('issue', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('for', 'IN'), ('the', 'DT'), ('faint', 'NN'), ('of', 'IN'), ('heart', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('said', 'VBD'), ('Richard', 'NNP'), ('Ciccarone', 'NNP'), (',', ','), ('chief', 'NN'), ('research', 'NN'), ('officer', 'NN'), ('of', 'IN'), ('Oak', 'NNP'), ('Brook', 'NNP'), (',', ','), ('Illinois', 'NNP'), ('based', 'VBN'), ('McDonnell', 'NNP'), ('Investment', 'NNP'), ('Management', 'NNP'), (',', ','), ('which', 'WDT'), ('oversees', 'NNS'), ('$', '$'), ('6.8', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('municipal', 'JJ'), ('debt', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   This/DT   issue/NN   is/VBZ   not/RB   for/IN   the/DT   faint/NN   of/IN   heart/NN   ,/,   ‚/:   Ä/:   ù/:   said/VBD   (PERSON Richard/NNP Ciccarone/NNP)   ,/,   chief/NN   research/NN   officer/NN   of/IN   (ORGANIZATION Oak/NNP Brook/NNP)   ,/,   (PERSON Illinois/NNP)   based/VBN   (ORGANIZATION McDonnell/NNP Investment/NNP Management/NNP)   ,/,   which/WDT   oversees/NNS   $/$   6.8/CD   billion/CD   of/IN   municipal/JJ   debt/NN   ./.)
+----------------------------------
+original sentence: 
+‚ÄúIt certainly raises eyebrows.‚Äù
+&#8230;Detroit is selling $250 million of bonds through investment banks led by Goldman Sachs Group Inc. to help cover budget deficits expected to total $280 million this year.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('It', 'PRP'), ('certainly', 'RB'), ('raises', 'VBZ'), ('eyebrows.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('&', 'CC'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('Detroit', 'NNP'), ('is', 'VBZ'), ('selling', 'VBG'), ('$', '$'), ('250', 'CD'), ('million', 'CD'), ('of', 'IN'), ('bonds', 'NNS'), ('through', 'IN'), ('investment', 'NN'), ('banks', 'NNS'), ('led', 'VBD'), ('by', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('to', 'TO'), ('help', 'VB'), ('cover', 'RB'), ('budget', 'VB'), ('deficits', 'NNS'), ('expected', 'VBN'), ('to', 'TO'), ('total', 'JJ'), ('$', '$'), ('280', 'CD'), ('million', 'CD'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   It/PRP   certainly/RB   raises/VBZ   eyebrows./NNP   ‚/NNP   Ä/NNP   ù/NNP   &/CC   #/#   8230/CD   ;/:   (GPE Detroit/NNP)   is/VBZ   selling/VBG   $/$   250/CD   million/CD   of/IN   bonds/NNS   through/IN   investment/NN   banks/NNS   led/VBD   by/IN   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)   to/TO   help/VB   cover/RB   budget/VB   deficits/NNS   expected/VBN   to/TO   total/JJ   $/$   280/CD   million/CD   this/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB raises/VBZ eyebrows./NNP ‚/NNP Ä/NNP ù/NNP)
+	(VERB is/VBZ selling/VBG)
+	(VERB led/VBD by/IN Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)
+	(VERB help/VB cover/RB budget/VB deficits/NNS)
+
+tagged sentence:
+	 help cover budget deficits	res:-1
+	(VERB expected/VBN to/TO total/JJ)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN Detroit/NNP)
+	(NOUN bonds/NNS)
+	(NOUN investment/NN banks/NNS)
+	(NOUN year/NN)
+
+----------------------------------
+original sentence: 
+The deal will probably appeal to investors seeking high yield municipal debt, predicted Ciccarone, precluding the city from a market with tax exempt yields near three month lows.
+
+POS tagged sentence: 
+[('The', 'DT'), ('deal', 'NN'), ('will', 'MD'), ('probably', 'RB'), ('appeal', 'VB'), ('to', 'TO'), ('investors', 'NNS'), ('seeking', 'VBG'), ('high', 'JJ'), ('yield', 'NN'), ('municipal', 'JJ'), ('debt', 'NN'), (',', ','), ('predicted', 'VBD'), ('Ciccarone', 'NNP'), (',', ','), ('precluding', 'VBG'), ('the', 'DT'), ('city', 'NN'), ('from', 'IN'), ('a', 'DT'), ('market', 'NN'), ('with', 'IN'), ('tax', 'NN'), ('exempt', 'NN'), ('yields', 'NNS'), ('near', 'IN'), ('three', 'CD'), ('month', 'NN'), ('lows', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   deal/NN   will/MD   probably/RB   appeal/VB   to/TO   investors/NNS   seeking/VBG   high/JJ   yield/NN   municipal/JJ   debt/NN   ,/,   predicted/VBD   (PERSON Ciccarone/NNP)   ,/,   precluding/VBG   the/DT   city/NN   from/IN   a/DT   market/NN   with/IN   tax/NN   exempt/NN   yields/NNS   near/IN   three/CD   month/NN   lows/VBZ   ./.)
+----------------------------------
+original sentence: 
+&#8230;Detroit general obligations maturing in 2024 traded yesterday at a yield of according to Municipal Securities Rulemaking Board data.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('Detroit', 'NNP'), ('general', 'JJ'), ('obligations', 'NNS'), ('maturing', 'VBG'), ('in', 'IN'), ('2024', 'CD'), ('traded', 'VBN'), ('yesterday', 'NN'), ('at', 'IN'), ('a', 'DT'), ('yield', 'NN'), ('of', 'IN'), ('according', 'VBG'), ('to', 'TO'), ('Municipal', 'NNP'), ('Securities', 'NNPS'), ('Rulemaking', 'NNP'), ('Board', 'NNP'), ('data', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8230/CD   ;/:   Detroit/NNP   general/JJ   obligations/NNS   maturing/VBG   in/IN   2024/CD   traded/VBN   yesterday/NN   at/IN   a/DT   yield/NN   of/IN   according/VBG   to/TO   (ORGANIZATION     Municipal/NNP     Securities/NNPS     Rulemaking/NNP     Board/NNP)   data/NNS   ./.)
+----------------------------------
+original sentence: 
+That compares with yields of 3.36 percent to 3.5 percent for top rated 14 year municipal debt
+ yesterday, according to Municipal Market Advisors Inc&#8230;
+For those who have not been paying attention to Detroit&#8217;s travails of late, there has not been much good news.¬† The previous mayor, Kwame Kilpatrick, resigned in disgrace following a series of scandals.
+
+POS tagged sentence: 
+[('That', 'DT'), ('compares', 'VBZ'), ('with', 'IN'), ('yields', 'NNS'), ('of', 'IN'), ('3.36', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('3.5', 'CD'), ('percent', 'NN'), ('for', 'IN'), ('top', 'JJ'), ('rated', 'VBN'), ('14', 'CD'), ('year', 'NN'), ('municipal', 'JJ'), ('debt', 'NN'), ('yesterday', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Municipal', 'NNP'), ('Market', 'NNP'), ('Advisors', 'NNP'), ('Inc&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('For', 'NNP'), ('those', 'DT'), ('who', 'WP'), ('have', 'VBP'), ('not', 'RB'), ('been', 'VBN'), ('paying', 'VBG'), ('attention', 'NN'), ('to', 'TO'), ('Detroit&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('travails', 'VBZ'), ('of', 'IN'), ('late', 'JJ'), (',', ','), ('there', 'EX'), ('has', 'VBZ'), ('not', 'RB'), ('been', 'VBN'), ('much', 'RB'), ('good', 'JJ'), ('news.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('previous', 'JJ'), ('mayor', 'NN'), (',', ','), ('Kwame', 'NNP'), ('Kilpatrick', 'NNP'), (',', ','), ('resigned', 'VBD'), ('in', 'IN'), ('disgrace', 'NN'), ('following', 'VBG'), ('a', 'DT'), ('series', 'NN'), ('of', 'IN'), ('scandals', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   compares/VBZ   with/IN   yields/NNS   of/IN   3.36/CD   percent/NN   to/TO   3.5/CD   percent/NN   for/IN   top/JJ   rated/VBN   14/CD   year/NN   municipal/JJ   debt/NN   yesterday/NN   ,/,   according/VBG   to/TO   (PERSON Municipal/NNP Market/NNP Advisors/NNP)   Inc&/NNP   #/#   8230/CD   ;/:   For/NNP   those/DT   who/WP   have/VBP   not/RB   been/VBN   paying/VBG   attention/NN   to/TO   Detroit&/NNP   #/#   8217/CD   ;/:   s/NNS   travails/VBZ   of/IN   late/JJ   ,/,   there/EX   has/VBZ   not/RB   been/VBN   much/RB   good/JJ   news./NNP   ¬/NNP   †/NNP   The/NNP   previous/JJ   mayor/NN   ,/,   (PERSON Kwame/NNP Kilpatrick/NNP)   ,/,   resigned/VBD   in/IN   disgrace/NN   following/VBG   a/DT   series/NN   of/IN   scandals/NNS   ./.)
+----------------------------------
+original sentence: 
+Numerous other city officials have been convicted on a variety of corruption charges, including Detroit City Council member, Monica Conyers, who just received a jail sentence of 37 months for a bribery conviction.¬† Conyers is the wife of U.S.
+
+POS tagged sentence: 
+[('Numerous', 'JJ'), ('other', 'JJ'), ('city', 'NN'), ('officials', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('convicted', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('variety', 'NN'), ('of', 'IN'), ('corruption', 'NN'), ('charges', 'NNS'), (',', ','), ('including', 'VBG'), ('Detroit', 'NNP'), ('City', 'NNP'), ('Council', 'NNP'), ('member', 'NN'), (',', ','), ('Monica', 'NNP'), ('Conyers', 'NNP'), (',', ','), ('who', 'WP'), ('just', 'RB'), ('received', 'VBD'), ('a', 'DT'), ('jail', 'NN'), ('sentence', 'NN'), ('of', 'IN'), ('37', 'CD'), ('months', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('bribery', 'NN'), ('conviction.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Conyers', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('wife', 'NN'), ('of', 'IN'), ('U.S', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Numerous/JJ   other/JJ   city/NN   officials/NNS   have/VBP   been/VBN   convicted/VBN   on/IN   a/DT   variety/NN   of/IN   corruption/NN   charges/NNS   ,/,   including/VBG   (PERSON Detroit/NNP City/NNP Council/NNP)   member/NN   ,/,   (PERSON Monica/NNP Conyers/NNP)   ,/,   who/WP   just/RB   received/VBD   a/DT   jail/NN   sentence/NN   of/IN   37/CD   months/NNS   for/IN   a/DT   bribery/NN   conviction./NNP   ¬/NNP   †/NNP   Conyers/NNP   is/VBZ   the/DT   wife/NN   of/IN   U.S/NNS   ./.)
+----------------------------------
+original sentence: 
+Congressman John Conyers D MI .
+
+POS tagged sentence: 
+[('Congressman', 'NNP'), ('John', 'NNP'), ('Conyers', 'NNP'), ('D', 'NNP'), ('MI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Congressman/NNP (PERSON John/NNP Conyers/NNP) D/NNP MI/NNP ./.)
+----------------------------------
+original sentence: 
+Perhaps the only bright spot is new Mayor Dave Bing.¬† Bing is a former star professional basketball player, who was named one of the NBA&#8217;s top 50 players in 1996.¬† He then went on to build a successful business career and he recently became mayor in a special election following Mayor Kilpatrick&#8217;s resignation.
+
+POS tagged sentence: 
+[('Perhaps', 'RB'), ('the', 'DT'), ('only', 'JJ'), ('bright', 'NN'), ('spot', 'NN'), ('is', 'VBZ'), ('new', 'JJ'), ('Mayor', 'NNP'), ('Dave', 'NNP'), ('Bing.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Bing', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('former', 'JJ'), ('star', 'NN'), ('professional', 'JJ'), ('basketball', 'NN'), ('player', 'NN'), (',', ','), ('who', 'WP'), ('was', 'VBD'), ('named', 'VBN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('NBA&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('top', 'VBP'), ('50', 'CD'), ('players', 'NNS'), ('in', 'IN'), ('1996.', 'CD'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('He', 'PRP'), ('then', 'RB'), ('went', 'VBD'), ('on', 'IN'), ('to', 'TO'), ('build', 'VB'), ('a', 'DT'), ('successful', 'JJ'), ('business', 'NN'), ('career', 'NN'), ('and', 'CC'), ('he', 'PRP'), ('recently', 'RB'), ('became', 'VBD'), ('mayor', 'NN'), ('in', 'IN'), ('a', 'DT'), ('special', 'JJ'), ('election', 'NN'), ('following', 'VBG'), ('Mayor', 'NNP'), ('Kilpatrick&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('resignation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Perhaps/RB   the/DT   only/JJ   bright/NN   spot/NN   is/VBZ   new/JJ   Mayor/NNP   (PERSON Dave/NNP)   Bing./NNP   ¬/NNP   †/NNP   Bing/NNP   is/VBZ   a/DT   former/JJ   star/NN   professional/JJ   basketball/NN   player/NN   ,/,   who/WP   was/VBD   named/VBN   one/CD   of/IN   the/DT   NBA&/JJ   #/#   8217/CD   ;/:   s/NNS   top/VBP   50/CD   players/NNS   in/IN   1996./CD   ¬/CD   †/CD   He/PRP   then/RB   went/VBD   on/IN   to/TO   build/VB   a/DT   successful/JJ   business/NN   career/NN   and/CC   he/PRP   recently/RB   became/VBD   mayor/NN   in/IN   a/DT   special/JJ   election/NN   following/VBG   Mayor/NNP   Kilpatrick&/NNP   #/#   8217/CD   ;/:   s/NNS   resignation/NN   ./.)
+----------------------------------
+original sentence: 
+On his blog, Ed Driscoll this surprising twist:
+Mayor Bing recently made news by stating that the city, facing $300 million in deficits and an unemployment rate approaching 50%, can no longer afford to patrol the city
+bulldoze roughly a quarter of the buildings.
+
+POS tagged sentence: 
+[('On', 'IN'), ('his', 'PRP$'), ('blog', 'NN'), (',', ','), ('Ed', 'NNP'), ('Driscoll', 'NNP'), ('this', 'DT'), ('surprising', 'JJ'), ('twist', 'NN'), (':', ':'), ('Mayor', 'NNP'), ('Bing', 'NNP'), ('recently', 'RB'), ('made', 'VBD'), ('news', 'NN'), ('by', 'IN'), ('stating', 'NN'), ('that', 'IN'), ('the', 'DT'), ('city', 'NN'), (',', ','), ('facing', 'VBG'), ('$', '$'), ('300', 'CD'), ('million', 'CD'), ('in', 'IN'), ('deficits', 'NNS'), ('and', 'CC'), ('an', 'DT'), ('unemployment', 'NN'), ('rate', 'NN'), ('approaching', 'VBG'), ('50', 'CD'), ('%', 'NN'), (',', ','), ('can', 'MD'), ('no', 'DT'), ('longer', 'NN'), ('afford', 'NN'), ('to', 'TO'), ('patrol', 'NN'), ('the', 'DT'), ('city', 'NN'), ('bulldoze', 'NN'), ('roughly', 'RB'), ('a', 'DT'), ('quarter', 'NN'), ('of', 'IN'), ('the', 'DT'), ('buildings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   his/PRP$   blog/NN   ,/,   (PERSON Ed/NNP Driscoll/NNP)   this/DT   surprising/JJ   twist/NN   :/:   Mayor/NNP   Bing/NNP   recently/RB   made/VBD   news/NN   by/IN   stating/NN   that/IN   the/DT   city/NN   ,/,   facing/VBG   $/$   300/CD   million/CD   in/IN   deficits/NNS   and/CC   an/DT   unemployment/NN   rate/NN   approaching/VBG   50/CD   %/NN   ,/,   can/MD   no/DT   longer/NN   afford/NN   to/TO   patrol/NN   the/DT   city/NN   bulldoze/NN   roughly/RB   a/DT   quarter/NN   of/IN   the/DT   buildings/NNS   ./.)
+----------------------------------
+original sentence: 
+Let&#8217;s see&#8230;can no longer afford to patrol the city.¬† Hmmm.
+
+POS tagged sentence: 
+[('Let&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('see&', '-NONE-'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('can', 'MD'), ('no', 'RB'), ('longer', 'RBR'), ('afford', 'NN'), ('to', 'TO'), ('patrol', 'NN'), ('the', 'DT'), ('city.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Hmmm', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Let&/NN   #/#   8217/CD   ;/:   s/NNS   see&/-NONE-   #/#   8230/CD   ;/:   can/MD   no/RB   longer/RBR   afford/NN   to/TO   patrol/NN   the/DT   city./NNP   ¬/NNP   †/NNP   Hmmm/NNP   ./.)
+----------------------------------
+original sentence: 
+Bulldozing a quarter of the city&#8217;s structure?¬† Uprooting residents?¬† Urban farming&#8230;?
+
+POS tagged sentence: 
+[('Bulldozing', 'VBG'), ('a', 'DT'), ('quarter', 'NN'), ('of', 'IN'), ('the', 'DT'), ('city&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('structure', 'VBP'), ('?', '.'), ('\xc2', ':'), ('\xa0', ':'), ('Uprooting', 'NNP'), ('residents', 'NNS'), ('?', '.'), ('\xc2', ':'), ('\xa0', ':'), ('Urban', 'NNP'), ('farming&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Bulldozing/VBG   a/DT   quarter/NN   of/IN   the/DT   city&/JJ   #/#   8217/CD   ;/:   s/NNS   structure/VBP   ?/.   ¬/:   †/:   Uprooting/NNP   residents/NNS   ?/.   ¬/:   †/:   (PERSON Urban/NNP)   farming&/NNP   #/#   8230/CD   ;/:   ?/.)
+----------------------------------
+original sentence: 
+This is starting to sound a little too much like , the 1987 hit movie about a horribly dysfunctional fictional city named, well, Detroit.
+
+POS tagged sentence: 
+[('This', 'DT'), ('is', 'VBZ'), ('starting', 'VBG'), ('to', 'TO'), ('sound', 'VB'), ('a', 'DT'), ('little', 'RB'), ('too', 'RB'), ('much', 'RB'), ('like', 'IN'), (',', ','), ('the', 'DT'), ('1987', 'CD'), ('hit', 'NN'), ('movie', 'NN'), ('about', 'IN'), ('a', 'DT'), ('horribly', 'RB'), ('dysfunctional', 'JJ'), ('fictional', 'JJ'), ('city', 'NN'), ('named', 'VBD'), (',', ','), ('well', 'RB'), (',', ','), ('Detroit', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   is/VBZ   starting/VBG   to/TO   sound/VB   a/DT   little/RB   too/RB   much/RB   like/IN   ,/,   the/DT   1987/CD   hit/NN   movie/NN   about/IN   a/DT   horribly/RB   dysfunctional/JJ   fictional/JJ   city/NN   named/VBD   ,/,   well/RB   ,/,   (GPE Detroit/NNP)   ./.)
+----------------------------------
+original sentence: 
+I suspect that Detroit is exploring the outer reaches of credibility in the municipal bond market at this point.¬† There may be worse credit risks among major U.S. cities, but I really cannot think of what they might be.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('suspect', 'VBP'), ('that', 'IN'), ('Detroit', 'NNP'), ('is', 'VBZ'), ('exploring', 'VBG'), ('the', 'DT'), ('outer', 'NN'), ('reaches', 'VBZ'), ('of', 'IN'), ('credibility', 'NN'), ('in', 'IN'), ('the', 'DT'), ('municipal', 'JJ'), ('bond', 'NN'), ('market', 'NN'), ('at', 'IN'), ('this', 'DT'), ('point.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('There', 'NNP'), ('may', 'MD'), ('be', 'VB'), ('worse', 'RB'), ('credit', 'NN'), ('risks', 'NNS'), ('among', 'IN'), ('major', 'JJ'), ('U.S.', 'NNP'), ('cities', 'NNS'), (',', ','), ('but', 'CC'), ('I', 'PRP'), ('really', 'RB'), ('can', 'MD'), ('not', 'RB'), ('think', 'VB'), ('of', 'IN'), ('what', 'WP'), ('they', 'PRP'), ('might', 'MD'), ('be', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   suspect/VBP   that/IN   (PERSON Detroit/NNP)   is/VBZ   exploring/VBG   the/DT   outer/NN   reaches/VBZ   of/IN   credibility/NN   in/IN   the/DT   municipal/JJ   bond/NN   market/NN   at/IN   this/DT   point./NNP   ¬/NNP   †/NNP   There/NNP   may/MD   be/VB   worse/RB   credit/NN   risks/NNS   among/IN   major/JJ   (GPE U.S./NNP)   cities/NNS   ,/,   but/CC   I/PRP   really/RB   can/MD   not/RB   think/VB   of/IN   what/WP   they/PRP   might/MD   be/VB   ./.)
+----------------------------------
+original sentence: 
+I have not purchased an individual municipal bond in many years and I don&#8217;t plan to start with this one.¬† If I were a muni bond fund manager, I might take a look at these, but I wouldn&#8217;t put a lot of the portfolio&#8217;s eggs in that basket.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('have', 'VBP'), ('not', 'RB'), ('purchased', 'VBN'), ('an', 'DT'), ('individual', 'JJ'), ('municipal', 'JJ'), ('bond', 'NN'), ('in', 'IN'), ('many', 'JJ'), ('years', 'NNS'), ('and', 'CC'), ('I', 'PRP'), ('don&', 'VBP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('plan', 'NN'), ('to', 'TO'), ('start', 'VB'), ('with', 'IN'), ('this', 'DT'), ('one.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('If', 'NNP'), ('I', 'NNP'), ('were', 'VBD'), ('a', 'DT'), ('muni', 'NN'), ('bond', 'NN'), ('fund', 'NN'), ('manager', 'NN'), (',', ','), ('I', 'PRP'), ('might', 'MD'), ('take', 'VB'), ('a', 'DT'), ('look', 'NN'), ('at', 'IN'), ('these', 'DT'), (',', ','), ('but', 'CC'), ('I', 'PRP'), ('wouldn&', 'VBP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('put', 'VBD'), ('a', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('the', 'DT'), ('portfolio&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('eggs', 'NNS'), ('in', 'IN'), ('that', 'DT'), ('basket', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   have/VBP   not/RB   purchased/VBN   an/DT   individual/JJ   municipal/JJ   bond/NN   in/IN   many/JJ   years/NNS   and/CC   I/PRP   don&/VBP   #/#   8217/CD   ;/:   t/NN   plan/NN   to/TO   start/VB   with/IN   this/DT   one./NNP   ¬/NNP   †/NNP   If/NNP   I/NNP   were/VBD   a/DT   muni/NN   bond/NN   fund/NN   manager/NN   ,/,   I/PRP   might/MD   take/VB   a/DT   look/NN   at/IN   these/DT   ,/,   but/CC   I/PRP   wouldn&/VBP   #/#   8217/CD   ;/:   t/NN   put/VBD   a/DT   lot/NN   of/IN   the/DT   portfolio&/JJ   #/#   8217/CD   ;/:   s/NNS   eggs/NNS   in/IN   that/DT   basket/NN   ./.)
+----------------------------------
+original sentence: 
+I grew up in Michigan and I can remember Detroit as a pretty vibrant city, but all that is just a memory.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('grew', 'VBD'), ('up', 'RP'), ('in', 'IN'), ('Michigan', 'NNP'), ('and', 'CC'), ('I', 'PRP'), ('can', 'MD'), ('remember', 'VB'), ('Detroit', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('pretty', 'RB'), ('vibrant', 'JJ'), ('city', 'NN'), (',', ','), ('but', 'CC'), ('all', 'DT'), ('that', 'DT'), ('is', 'VBZ'), ('just', 'RB'), ('a', 'DT'), ('memory', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   grew/VBD   up/RP   in/IN   (GPE Michigan/NNP)   and/CC   I/PRP   can/MD   remember/VB   (PERSON Detroit/NNP)   as/IN   a/DT   pretty/RB   vibrant/JJ   city/NN   ,/,   but/CC   all/DT   that/DT   is/VBZ   just/RB   a/DT   memory/NN   ./.)
+----------------------------------
+original sentence: 
+Now, Detroit and Mayor are facing a grim reality.¬† I hope Dave Bing can bring new life to this city and, if anyone can do so, I believe he&#8217;s the one.
+
+POS tagged sentence: 
+[('Now', 'RB'), (',', ','), ('Detroit', 'NNP'), ('and', 'CC'), ('Mayor', 'NNP'), ('are', 'VBP'), ('facing', 'VBG'), ('a', 'DT'), ('grim', 'JJ'), ('reality.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('I', 'NNP'), ('hope', 'NN'), ('Dave', 'NNP'), ('Bing', 'NNP'), ('can', 'MD'), ('bring', 'VB'), ('new', 'JJ'), ('life', 'NN'), ('to', 'TO'), ('this', 'DT'), ('city', 'NN'), ('and', 'CC'), (',', ','), ('if', 'IN'), ('anyone', 'NN'), ('can', 'MD'), ('do', 'VB'), ('so', 'RB'), (',', ','), ('I', 'PRP'), ('believe', 'VBP'), ('he&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('the', 'DT'), ('one', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Now/RB   ,/,   (PERSON Detroit/NNP)   and/CC   Mayor/NNP   are/VBP   facing/VBG   a/DT   grim/JJ   reality./NNP   ¬/NNP   †/NNP   I/NNP   hope/NN   (PERSON Dave/NNP Bing/NNP)   can/MD   bring/VB   new/JJ   life/NN   to/TO   this/DT   city/NN   and/CC   ,/,   if/IN   anyone/NN   can/MD   do/VB   so/RB   ,/,   I/PRP   believe/VBP   he&/JJ   #/#   8217/CD   ;/:   s/NNS   the/DT   one/CD   ./.)
+----------------------------------
+original sentence: 
+Fundmastery Blog HOME PAGE
+About Fundmastery Blog
+Also on MarketWatch Blogs
+
+
+POS tagged sentence: 
+[('Fundmastery', 'NNP'), ('Blog', 'NNP'), ('HOME', 'NNP'), ('PAGE', 'NNP'), ('About', 'NNP'), ('Fundmastery', 'NNP'), ('Blog', 'NNP'), ('Also', 'NNP'), ('on', 'IN'), ('MarketWatch', 'NNP'), ('Blogs', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Fundmastery/NNP)   (ORGANIZATION Blog/NNP)   HOME/NNP   PAGE/NNP   About/NNP   Fundmastery/NNP   (PERSON Blog/NNP Also/NNP)   on/IN   (ORGANIZATION MarketWatch/NNP Blogs/NNP))
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

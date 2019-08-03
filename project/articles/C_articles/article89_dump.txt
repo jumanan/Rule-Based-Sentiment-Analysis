@@ -1,0 +1,372 @@
+
+----------------------------------
+original sentence: 
+Citi Establishes Investor Services Team Specializing in Exchange Traded Funds | Business Wire
+ March 15, 2010 08:34 AM Eastern Daylight Time Citi Establishes Investor Services Team Specializing in Exchange Traded Funds
+Jeffrey McCarthy to lead new global ETF servicing capabilities aimed at providing comprehensive solutions to support ETF development, capital, liquidity analysis, transactional services and distribution.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('Establishes', 'NNP'), ('Investor', 'NNP'), ('Services', 'NNPS'), ('Team', 'NNP'), ('Specializing', 'NNP'), ('in', 'IN'), ('Exchange', 'NNP'), ('Traded', 'NNP'), ('Funds', 'NNPS'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('34', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Citi', 'NNP'), ('Establishes', 'NNP'), ('Investor', 'NNP'), ('Services', 'NNPS'), ('Team', 'NNP'), ('Specializing', 'NNP'), ('in', 'IN'), ('Exchange', 'NNP'), ('Traded', 'NNP'), ('Funds', 'NNPS'), ('Jeffrey', 'NNP'), ('McCarthy', 'NNP'), ('to', 'TO'), ('lead', 'VB'), ('new', 'JJ'), ('global', 'JJ'), ('ETF', 'NNP'), ('servicing', 'NN'), ('capabilities', 'NNS'), ('aimed', 'VBN'), ('at', 'IN'), ('providing', 'NN'), ('comprehensive', 'JJ'), ('solutions', 'NNS'), ('to', 'TO'), ('support', 'VB'), ('ETF', 'NNP'), ('development', 'NN'), (',', ','), ('capital', 'NN'), (',', ','), ('liquidity', 'NN'), ('analysis', 'NN'), (',', ','), ('transactional', 'JJ'), ('services', 'NNS'), ('and', 'CC'), ('distribution', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   (ORGANIZATION Establishes/NNP Investor/NNP Services/NNPS Team/NNP)   Specializing/NNP   in/IN   (GPE Exchange/NNP)   Traded/NNP   Funds/NNPS   |/NNP   Business/NNP   Wire/NNP   March/NNP   15/CD   ,/,   2010/CD   08/CD   :/:   34/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Citi/NNP   Establishes/NNP   Investor/NNP   Services/NNPS   Team/NNP   Specializing/NNP   in/IN   (GPE Exchange/NNP)   Traded/NNP   Funds/NNPS   (PERSON Jeffrey/NNP McCarthy/NNP)   to/TO   lead/VB   new/JJ   global/JJ   (ORGANIZATION ETF/NNP)   servicing/NN   capabilities/NNS   aimed/VBN   at/IN   providing/NN   comprehensive/JJ   solutions/NNS   to/TO   support/VB   (ORGANIZATION ETF/NNP)   development/NN   ,/,   capital/NN   ,/,   liquidity/NN   analysis/NN   ,/,   transactional/JJ   services/NNS   and/CC   distribution/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lead/VB new/JJ global/JJ ETF/NNP servicing/NN capabilities/NNS)
+	(VERB aimed/VBN at/IN providing/NN comprehensive/JJ solutions/NNS)
+	(VERB support/VB ETF/NNP development/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP Establishes/NNP Investor/NNP Services/NNPS)
+	(NOUN Team/NNP Specializing/NNP)
+	(NOUN Exchange/NNP Traded/NNP Funds/NNPS |/NNP)
+	(NOUN Business/NNP Wire/NNP March/NNP)
+	(NOUN 34/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Citi/NNP Establishes/NNP Investor/NNP Services/NNPS)
+	(NOUN Team/NNP Specializing/NNP)
+	(NOUN Exchange/NNP Traded/NNP Funds/NNPS Jeffrey/NNP)
+	(NOUN McCarthy/NNP)
+	(NOUN capital/NN)
+	(NOUN liquidity/NN analysis/NN)
+	(NOUN transactional/JJ services/NNS)
+	(NOUN distribution/NN)
+
+----------------------------------
+original sentence: 
+Citigroup today announced the appointment of Jeffrey McCarthy as Global ETF Product Head in its Securities and Fund Services business SFS , to accelerate efforts in Exchange Traded Funds and related product services globally.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('today', 'NN'), ('announced', 'VBD'), ('the', 'DT'), ('appointment', 'NN'), ('of', 'IN'), ('Jeffrey', 'NNP'), ('McCarthy', 'NNP'), ('as', 'IN'), ('Global', 'NNP'), ('ETF', 'NNP'), ('Product', 'NNP'), ('Head', 'NNP'), ('in', 'IN'), ('its', 'PRP$'), ('Securities', 'NNPS'), ('and', 'CC'), ('Fund', 'NNP'), ('Services', 'NNPS'), ('business', 'NN'), ('SFS', 'NNPS'), (',', ','), ('to', 'TO'), ('accelerate', 'VB'), ('efforts', 'NNS'), ('in', 'IN'), ('Exchange', 'NNP'), ('Traded', 'NNP'), ('Funds', 'NNPS'), ('and', 'CC'), ('related', 'VBN'), ('product', 'NN'), ('services', 'NNS'), ('globally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   today/NN   announced/VBD   the/DT   appointment/NN   of/IN   (PERSON Jeffrey/NNP McCarthy/NNP)   as/IN   (PERSON Global/NNP ETF/NNP Product/NNP Head/NNP)   in/IN   its/PRP$   Securities/NNPS   and/CC   (ORGANIZATION Fund/NNP Services/NNPS)   business/NN   (ORGANIZATION SFS/NNPS)   ,/,   to/TO   accelerate/VB   efforts/NNS   in/IN   (GPE Exchange/NNP)   Traded/NNP   Funds/NNPS   and/CC   related/VBN   product/NN   services/NNS   globally/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   the/DT   appointment/NN   of/IN   Jeffrey/NNP   McCarthy/NNP   as/IN   Global/NNP   ETF/NNP   Product/NNP   Head/NNP   in/IN   its/PRP$   Securities/NNPS)
+	(VERB   accelerate/VB   efforts/NNS   in/IN   Exchange/NNP   Traded/NNP   Funds/NNPS)
+	(VERB related/VBN product/NN services/NNS globally/RB)
+noun phrases to consider:
+	(NOUN Citigroup/NNP today/NN)
+	(NOUN Fund/NNP Services/NNPS business/NN SFS/NNPS)
+
+----------------------------------
+original sentence: 
+He will be responsible for product innovation and market development and will coordinate the delivery of end to end servicing solutions across trading, distribution and administration for the global ETF market.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('will', 'MD'), ('be', 'VB'), ('responsible', 'JJ'), ('for', 'IN'), ('product', 'NN'), ('innovation', 'NN'), ('and', 'CC'), ('market', 'NN'), ('development', 'NN'), ('and', 'CC'), ('will', 'MD'), ('coordinate', 'VB'), ('the', 'DT'), ('delivery', 'NN'), ('of', 'IN'), ('end', 'NN'), ('to', 'TO'), ('end', 'VB'), ('servicing', 'NN'), ('solutions', 'NNS'), ('across', 'IN'), ('trading', 'NN'), (',', ','), ('distribution', 'NN'), ('and', 'CC'), ('administration', 'NN'), ('for', 'IN'), ('the', 'DT'), ('global', 'JJ'), ('ETF', 'NNP'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   will/MD   be/VB   responsible/JJ   for/IN   product/NN   innovation/NN   and/CC   market/NN   development/NN   and/CC   will/MD   coordinate/VB   the/DT   delivery/NN   of/IN   end/NN   to/TO   end/VB   servicing/NN   solutions/NNS   across/IN   trading/NN   ,/,   distribution/NN   and/CC   administration/NN   for/IN   the/DT   global/JJ   (ORGANIZATION ETF/NNP)   market/NN   ./.)
+----------------------------------
+original sentence: 
+Mr. McCarthy joins Citi from Brown Brothers Harriman, where he was the Global ETF Product Manager.
+
+POS tagged sentence: 
+[('Mr.', 'NNP'), ('McCarthy', 'NNP'), ('joins', 'VBZ'), ('Citi', 'NNP'), ('from', 'IN'), ('Brown', 'NNP'), ('Brothers', 'NNPS'), ('Harriman', 'NNP'), (',', ','), ('where', 'WRB'), ('he', 'PRP'), ('was', 'VBD'), ('the', 'DT'), ('Global', 'NNP'), ('ETF', 'NNP'), ('Product', 'NNP'), ('Manager', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mr./NNP)   (ORGANIZATION McCarthy/NNP)   joins/VBZ   (PERSON Citi/NNP)   from/IN   (ORGANIZATION Brown/NNP Brothers/NNPS Harriman/NNP)   ,/,   where/WRB   he/PRP   was/VBD   the/DT   (ORGANIZATION Global/NNP)   ETF/NNP   Product/NNP   Manager/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   joins/VBZ   Citi/NNP   from/IN   Brown/NNP   Brothers/NNPS   Harriman/NNP)
+	(VERB was/VBD the/DT Global/NNP ETF/NNP Product/NNP Manager/NNP)
+noun phrases to consider:
+	(NOUN Mr./NNP McCarthy/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;Jeff&#8217;s extensive market experience and product expertise will complement Citi&#8217;s emerging market capabilities and help enable our asset manager clients launch new ETF products on a comprehensive basis.&#8221;
+ &#8220;With its global network and reach, Citi is uniquely positioned to help promote ETF product innovation and distribution in domestic and international markets," said Neeraj Sahai, Global Head of Citi&#8217;s Securities and Fund Services.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Jeff&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('extensive', 'VBP'), ('market', 'NN'), ('experience', 'NN'), ('and', 'CC'), ('product', 'NN'), ('expertise', 'NN'), ('will', 'MD'), ('complement', 'VB'), ('Citi&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('emerging', 'VBG'), ('market', 'NN'), ('capabilities', 'NNS'), ('and', 'CC'), ('help', 'VB'), ('enable', 'JJ'), ('our', 'PRP$'), ('asset', 'NN'), ('manager', 'NN'), ('clients', 'NNS'), ('launch', 'VBP'), ('new', 'JJ'), ('ETF', 'NNP'), ('products', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('comprehensive', 'JJ'), ('basis.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('With', 'NNP'), ('its', 'PRP$'), ('global', 'JJ'), ('network', 'NN'), ('and', 'CC'), ('reach', 'NN'), (',', ','), ('Citi', 'NNP'), ('is', 'VBZ'), ('uniquely', 'RB'), ('positioned', 'VBN'), ('to', 'TO'), ('help', 'VB'), ('promote', 'NN'), ('ETF', 'NNP'), ('product', 'NN'), ('innovation', 'NN'), ('and', 'CC'), ('distribution', 'NN'), ('in', 'IN'), ('domestic', 'JJ'), ('and', 'CC'), ('international', 'JJ'), ('markets', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Neeraj', 'NNP'), ('Sahai', 'NNP'), (',', ','), ('Global', 'NNP'), ('Head', 'NNP'), ('of', 'IN'), ('Citi&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Securities', 'NNPS'), ('and', 'CC'), ('Fund', 'NNP'), ('Services', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Jeff&/JJ   #/#   8217/CD   ;/:   s/NNS   extensive/VBP   market/NN   experience/NN   and/CC   product/NN   expertise/NN   will/MD   complement/VB   Citi&/-NONE-   #/#   8217/CD   ;/:   s/NNS   emerging/VBG   market/NN   capabilities/NNS   and/CC   help/VB   enable/JJ   our/PRP$   asset/NN   manager/NN   clients/NNS   launch/VBP   new/JJ   (ORGANIZATION ETF/NNP)   products/NNS   on/IN   a/DT   comprehensive/JJ   basis.&/NN   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   With/NNP   its/PRP$   global/JJ   network/NN   and/CC   reach/NN   ,/,   (PERSON Citi/NNP)   is/VBZ   uniquely/RB   positioned/VBN   to/TO   help/VB   promote/NN   (ORGANIZATION ETF/NNP)   product/NN   innovation/NN   and/CC   distribution/NN   in/IN   domestic/JJ   and/CC   international/JJ   markets/NNS   ,/,   "/:   said/VBD   (PERSON Neeraj/NNP Sahai/NNP)   ,/,   (PERSON Global/NNP Head/NNP)   of/IN   Citi&/NNP   #/#   8217/CD   ;/:   s/NNS   Securities/NNPS   and/CC   (ORGANIZATION Fund/NNP Services/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB extensive/VBP market/NN experience/NN)
+	(VERB complement/VB)
+	(VERB emerging/VBG market/NN capabilities/NNS)
+	(VERB help/VB enable/JJ our/PRP$ asset/NN manager/NN clients/NNS)
+	(VERB   launch/VBP   new/JJ   ETF/NNP   products/NNS   on/IN   a/DT   comprehensive/JJ   basis.&/NN)
+	(VERB is/VBZ uniquely/RB positioned/VBN)
+	(VERB help/VB promote/NN ETF/NNP product/NN innovation/NN)
+	(VERB said/VBD Neeraj/NNP Sahai/NNP)
+noun phrases to consider:
+	(NOUN Jeff&/JJ)
+	(NOUN s/NNS)
+	(NOUN product/NN expertise/NN)
+	(NOUN s/NNS)
+	(NOUN With/NNP)
+	(NOUN global/JJ network/NN)
+	(NOUN reach/NN)
+	(NOUN Citi/NNP)
+	(NOUN distribution/NN)
+	(NOUN domestic/JJ)
+	(NOUN international/JJ markets/NNS)
+	(NOUN Global/NNP Head/NNP)
+	(NOUN Citi&/NNP)
+	(NOUN s/NNS Securities/NNPS)
+	(NOUN Fund/NNP Services/NNPS)
+
+----------------------------------
+original sentence: 
+&#8220;Jeff&#8217;s extensive market experience and product expertise will complement Citi&#8217;s emerging market capabilities and help enable our asset manager clients launch new ETF products on a comprehensive basis.&#8221;  "With Jeff's leadership and the strength of our global equity business, we are now uniquely positioned to offer our clients a seamless integration of ETF products, from execution through custody.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Jeff&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('extensive', 'VBP'), ('market', 'NN'), ('experience', 'NN'), ('and', 'CC'), ('product', 'NN'), ('expertise', 'NN'), ('will', 'MD'), ('complement', 'VB'), ('Citi&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('emerging', 'VBG'), ('market', 'NN'), ('capabilities', 'NNS'), ('and', 'CC'), ('help', 'VB'), ('enable', 'JJ'), ('our', 'PRP$'), ('asset', 'NN'), ('manager', 'NN'), ('clients', 'NNS'), ('launch', 'VBP'), ('new', 'JJ'), ('ETF', 'NNP'), ('products', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('comprehensive', 'JJ'), ('basis.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('"', ':'), ('With', 'IN'), ('Jeff', 'NNP'), ("'s", 'POS'), ('leadership', 'NN'), ('and', 'CC'), ('the', 'DT'), ('strength', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('global', 'JJ'), ('equity', 'NN'), ('business', 'NN'), (',', ','), ('we', 'PRP'), ('are', 'VBP'), ('now', 'RB'), ('uniquely', 'RB'), ('positioned', 'VBN'), ('to', 'TO'), ('offer', 'VB'), ('our', 'PRP$'), ('clients', 'NNS'), ('a', 'DT'), ('seamless', 'NN'), ('integration', 'NN'), ('of', 'IN'), ('ETF', 'NNP'), ('products', 'NNS'), (',', ','), ('from', 'IN'), ('execution', 'NN'), ('through', 'IN'), ('custody', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Jeff&/JJ   #/#   8217/CD   ;/:   s/NNS   extensive/VBP   market/NN   experience/NN   and/CC   product/NN   expertise/NN   will/MD   complement/VB   Citi&/-NONE-   #/#   8217/CD   ;/:   s/NNS   emerging/VBG   market/NN   capabilities/NNS   and/CC   help/VB   enable/JJ   our/PRP$   asset/NN   manager/NN   clients/NNS   launch/VBP   new/JJ   (ORGANIZATION ETF/NNP)   products/NNS   on/IN   a/DT   comprehensive/JJ   basis.&/NN   #/#   8221/CD   ;/:   "/:   With/IN   (PERSON Jeff/NNP)   's/POS   leadership/NN   and/CC   the/DT   strength/NN   of/IN   our/PRP$   global/JJ   equity/NN   business/NN   ,/,   we/PRP   are/VBP   now/RB   uniquely/RB   positioned/VBN   to/TO   offer/VB   our/PRP$   clients/NNS   a/DT   seamless/NN   integration/NN   of/IN   (ORGANIZATION ETF/NNP)   products/NNS   ,/,   from/IN   execution/NN   through/IN   custody/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB extensive/VBP market/NN experience/NN)
+	(VERB complement/VB)
+	(VERB emerging/VBG market/NN capabilities/NNS)
+	(VERB help/VB enable/JJ our/PRP$ asset/NN manager/NN clients/NNS)
+	(VERB   launch/VBP   new/JJ   ETF/NNP   products/NNS   on/IN   a/DT   comprehensive/JJ   basis.&/NN)
+	(VERB are/VBP now/RB uniquely/RB positioned/VBN)
+
+tagged sentence:
+	 are now uniquely positioned	res:1
+	(VERB   offer/VB   our/PRP$   clients/NNS   a/DT   seamless/NN   integration/NN   of/IN   ETF/NNP   products/NNS)
+
+tagged sentence:
+	 offer our clients a seamless integration of ETF products	res:1
+noun phrases to consider:
+	(NOUN Jeff&/JJ)
+	(NOUN s/NNS)
+	(NOUN product/NN expertise/NN)
+	(NOUN s/NNS)
+	(NOUN Jeff/NNP)
+	(NOUN leadership/NN)
+	(NOUN strength/NN)
+
+tagged sentence:
+	 strength	res:1
+	(NOUN global/JJ equity/NN business/NN)
+	(NOUN execution/NN)
+	(NOUN custody/NN)
+
+----------------------------------
+original sentence: 
+" said Rick Bartlett, Head of Equity for the Americas, Citi.
+
+POS tagged sentence: 
+[('"', 'NN'), ('said', 'VBD'), ('Rick', 'NNP'), ('Bartlett', 'NNP'), (',', ','), ('Head', 'NNP'), ('of', 'IN'), ('Equity', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('Americas', 'NNP'), (',', ','), ('Citi', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   said/VBD   (PERSON Rick/NNP Bartlett/NNP)   ,/,   Head/NNP   of/IN   (GPE Equity/NNP)   for/IN   the/DT   (GPE Americas/NNP)   ,/,   (PERSON Citi/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD Rick/NNP Bartlett/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN Head/NNP)
+	(NOUN Equity/NNP)
+	(NOUN Americas/NNP)
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+Citi will offer product development assistance, pre launch coordination, global servicing platforms and distribution solutions including cross listing models.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('will', 'MD'), ('offer', 'VB'), ('product', 'NN'), ('development', 'NN'), ('assistance', 'NN'), (',', ','), ('pre', 'NN'), ('launch', 'NN'), ('coordination', 'NN'), (',', ','), ('global', 'JJ'), ('servicing', 'NN'), ('platforms', 'NNS'), ('and', 'CC'), ('distribution', 'NN'), ('solutions', 'NNS'), ('including', 'VBG'), ('cross', 'NN'), ('listing', 'NN'), ('models', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   will/MD   offer/VB   product/NN   development/NN   assistance/NN   ,/,   pre/NN   launch/NN   coordination/NN   ,/,   global/JJ   servicing/NN   platforms/NNS   and/CC   distribution/NN   solutions/NNS   including/VBG   cross/NN   listing/NN   models/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB offer/VB product/NN development/NN assistance/NN)
+	(VERB including/VBG cross/NN listing/NN models/NNS)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN pre/NN launch/NN coordination/NN)
+	(NOUN global/JJ servicing/NN platforms/NNS)
+	(NOUN distribution/NN solutions/NNS)
+
+----------------------------------
+original sentence: 
+Mr. McCarthy will report to Chandresh Iyer, Head of Global Custody and Investment Administration Services and will be supported regionally by Simon Fellows in Asia Pacific, Erick Carvalho in Latin America and Bernard Hanratty in Europe.
+
+POS tagged sentence: 
+[('Mr.', 'NNP'), ('McCarthy', 'NNP'), ('will', 'MD'), ('report', 'VB'), ('to', 'TO'), ('Chandresh', 'NNP'), ('Iyer', 'NNP'), (',', ','), ('Head', 'NNP'), ('of', 'IN'), ('Global', 'NNP'), ('Custody', 'NNP'), ('and', 'CC'), ('Investment', 'NNP'), ('Administration', 'NNP'), ('Services', 'NNPS'), ('and', 'CC'), ('will', 'MD'), ('be', 'VB'), ('supported', 'VBN'), ('regionally', 'RB'), ('by', 'IN'), ('Simon', 'NNP'), ('Fellows', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('Pacific', 'NNP'), (',', ','), ('Erick', 'NNP'), ('Carvalho', 'NNP'), ('in', 'IN'), ('Latin', 'NNP'), ('America', 'NNP'), ('and', 'CC'), ('Bernard', 'NNP'), ('Hanratty', 'NNP'), ('in', 'IN'), ('Europe', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mr./NNP)   (ORGANIZATION McCarthy/NNP)   will/MD   report/VB   to/TO   (PERSON Chandresh/NNP Iyer/NNP)   ,/,   Head/NNP   of/IN   (PERSON Global/NNP Custody/NNP)   and/CC   (ORGANIZATION Investment/NNP Administration/NNP Services/NNPS)   and/CC   will/MD   be/VB   supported/VBN   regionally/RB   by/IN   (PERSON Simon/NNP Fellows/NNP)   in/IN   (GPE Asia/NNP Pacific/NNP)   ,/,   (PERSON Erick/NNP Carvalho/NNP)   in/IN   (GPE Latin/NNP America/NNP)   and/CC   (PERSON Bernard/NNP Hanratty/NNP)   in/IN   (GPE Europe/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB report/VB to/TO Chandresh/NNP Iyer/NNP)
+	(VERB   be/VB   supported/VBN   regionally/RB   by/IN   Simon/NNP   Fellows/NNP   in/IN   Asia/NNP   Pacific/NNP)
+noun phrases to consider:
+	(NOUN Mr./NNP McCarthy/NNP)
+	(NOUN Head/NNP)
+	(NOUN Global/NNP Custody/NNP)
+	(NOUN Investment/NNP Administration/NNP Services/NNPS)
+	(NOUN Erick/NNP Carvalho/NNP)
+	(NOUN Latin/NNP America/NNP)
+	(NOUN Bernard/NNP Hanratty/NNP)
+	(NOUN Europe/NNP)
+
+----------------------------------
+original sentence: 
+Through its Securities and Fund Services business, Citi&#8217;s industry focused experts provide investors worldwide with tailored solutions delivered though proven global platforms that feature modular, open architecture.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('its', 'PRP$'), ('Securities', 'NNPS'), ('and', 'CC'), ('Fund', 'NNP'), ('Services', 'NNPS'), ('business', 'NN'), (',', ','), ('Citi&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('industry', 'NN'), ('focused', 'VBD'), ('experts', 'NNS'), ('provide', 'VBP'), ('investors', 'NNS'), ('worldwide', 'VBP'), ('with', 'IN'), ('tailored', 'VBN'), ('solutions', 'NNS'), ('delivered', 'VBN'), ('though', 'IN'), ('proven', 'JJ'), ('global', 'JJ'), ('platforms', 'NNS'), ('that', 'WDT'), ('feature', 'NN'), ('modular', 'NN'), (',', ','), ('open', 'JJ'), ('architecture', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   its/PRP$   Securities/NNPS   and/CC   (ORGANIZATION Fund/NNP Services/NNPS)   business/NN   ,/,   Citi&/NNP   #/#   8217/CD   ;/:   s/NNS   industry/NN   focused/VBD   experts/NNS   provide/VBP   investors/NNS   worldwide/VBP   with/IN   tailored/VBN   solutions/NNS   delivered/VBN   though/IN   proven/JJ   global/JJ   platforms/NNS   that/WDT   feature/NN   modular/NN   ,/,   open/JJ   architecture/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB focused/VBD experts/NNS)
+	(VERB provide/VBP investors/NNS)
+	(VERB worldwide/VBP with/IN)
+	(VERB tailored/VBN solutions/NNS)
+	(VERB delivered/VBN though/IN proven/JJ global/JJ platforms/NNS)
+noun phrases to consider:
+	(NOUN Securities/NNPS)
+	(NOUN Fund/NNP Services/NNPS business/NN)
+	(NOUN Citi&/NNP)
+	(NOUN s/NNS industry/NN)
+	(NOUN feature/NN modular/NN)
+	(NOUN open/JJ architecture/NN)
+
+----------------------------------
+original sentence: 
+With over $12 trillion of assets under custody and the industry's largest proprietary network, clients can leverage Citi's local market expertise and global reach to extract value across the entire investment value chain.
+
+POS tagged sentence: 
+[('With', 'IN'), ('over', 'IN'), ('$', '$'), ('12', 'CD'), ('trillion', 'CD'), ('of', 'IN'), ('assets', 'NNS'), ('under', 'IN'), ('custody', 'NN'), ('and', 'CC'), ('the', 'DT'), ('industry', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('proprietary', 'JJ'), ('network', 'NN'), (',', ','), ('clients', 'NNS'), ('can', 'MD'), ('leverage', 'VB'), ('Citi', 'NNP'), ("'s", 'POS'), ('local', 'JJ'), ('market', 'NN'), ('expertise', 'NN'), ('and', 'CC'), ('global', 'JJ'), ('reach', 'NN'), ('to', 'TO'), ('extract', 'VB'), ('value', 'NN'), ('across', 'IN'), ('the', 'DT'), ('entire', 'JJ'), ('investment', 'NN'), ('value', 'NN'), ('chain', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   over/IN   $/$   12/CD   trillion/CD   of/IN   assets/NNS   under/IN   custody/NN   and/CC   the/DT   industry/NN   's/POS   largest/JJS   proprietary/JJ   network/NN   ,/,   clients/NNS   can/MD   leverage/VB   (PERSON Citi/NNP)   's/POS   local/JJ   market/NN   expertise/NN   and/CC   global/JJ   reach/NN   to/TO   extract/VB   value/NN   across/IN   the/DT   entire/JJ   investment/NN   value/NN   chain/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB leverage/VB Citi/NNP)
+	(VERB   extract/VB   value/NN   across/IN   the/DT   entire/JJ   investment/NN   value/NN   chain/NN)
+noun phrases to consider:
+	(NOUN assets/NNS)
+	(NOUN custody/NN)
+	(NOUN industry/NN)
+	(NOUN largest/JJS proprietary/JJ network/NN)
+	(NOUN clients/NNS)
+	(NOUN local/JJ market/NN expertise/NN)
+	(NOUN global/JJ reach/NN)
+
+----------------------------------
+original sentence: 
+Global Transaction Services, a division of Citi's Institutional Clients Group, offers integrated cash management, trade, and securities and fund services to multinational corporations, financial institutions and public sector organizations around the world.
+
+POS tagged sentence: 
+[('Global', 'JJ'), ('Transaction', 'NN'), ('Services', 'NNS'), (',', ','), ('a', 'DT'), ('division', 'NN'), ('of', 'IN'), ('Citi', 'NNP'), ("'s", 'POS'), ('Institutional', 'NNP'), ('Clients', 'NNP'), ('Group', 'NNP'), (',', ','), ('offers', 'VBZ'), ('integrated', 'VBN'), ('cash', 'NN'), ('management', 'NN'), (',', ','), ('trade', 'NN'), (',', ','), ('and', 'CC'), ('securities', 'NNS'), ('and', 'CC'), ('fund', 'NN'), ('services', 'NNS'), ('to', 'TO'), ('multinational', 'JJ'), ('corporations', 'NNS'), (',', ','), ('financial', 'JJ'), ('institutions', 'NNS'), ('and', 'CC'), ('public', 'JJ'), ('sector', 'NN'), ('organizations', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Global/JJ)   (ORGANIZATION Transaction/NN Services/NNS)   ,/,   a/DT   division/NN   of/IN   (GPE Citi/NNP)   's/POS   Institutional/NNP   (PERSON Clients/NNP Group/NNP)   ,/,   offers/VBZ   integrated/VBN   cash/NN   management/NN   ,/,   trade/NN   ,/,   and/CC   securities/NNS   and/CC   fund/NN   services/NNS   to/TO   multinational/JJ   corporations/NNS   ,/,   financial/JJ   institutions/NNS   and/CC   public/JJ   sector/NN   organizations/NNS   around/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB offers/VBZ integrated/VBN cash/NN management/NN)
+noun phrases to consider:
+	(NOUN Global/JJ Transaction/NN Services/NNS)
+	(NOUN division/NN)
+	(NOUN Citi/NNP)
+	(NOUN Institutional/NNP Clients/NNP Group/NNP)
+	(NOUN trade/NN)
+	(NOUN securities/NNS)
+	(NOUN fund/NN services/NNS)
+	(NOUN multinational/JJ corporations/NNS)
+	(NOUN financial/JJ institutions/NNS)
+	(NOUN public/JJ sector/NN organizations/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+With a network that spans more than 100 countries, Citi's Global Transaction Services supports over 65,000 clients.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('network', 'NN'), ('that', 'WDT'), ('spans', 'VBZ'), ('more', 'JJR'), ('than', 'IN'), ('100', 'CD'), ('countries', 'NNS'), (',', ','), ('Citi', 'NNP'), ("'s", 'POS'), ('Global', 'NNP'), ('Transaction', 'NNP'), ('Services', 'NNPS'), ('supports', 'NNS'), ('over', 'IN'), ('65,000', 'CD'), ('clients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   network/NN   that/WDT   spans/VBZ   more/JJR   than/IN   100/CD   countries/NNS   ,/,   (PERSON Citi/NNP)   's/POS   (PERSON Global/NNP Transaction/NNP)   Services/NNPS   supports/NNS   over/IN   65,000/CD   clients/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB spans/VBZ more/JJR than/IN 100/CD countries/NNS)
+noun phrases to consider:
+	(NOUN network/NN)
+	(NOUN Citi/NNP)
+	(NOUN Global/NNP Transaction/NNP Services/NNPS supports/NNS)
+	(NOUN 65,000/CD clients/NNS)
+
+----------------------------------
+original sentence: 
+As of the fourth quarter of 2009, it held on average $335 billion in liability balances and $12.1 trillion in assets under custody.
+
+POS tagged sentence: 
+[('As', 'IN'), ('of', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), (',', ','), ('it', 'PRP'), ('held', 'VBD'), ('on', 'IN'), ('average', 'JJ'), ('$', '$'), ('335', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('liability', 'NN'), ('balances', 'NNS'), ('and', 'CC'), ('$', '$'), ('12.1', 'CD'), ('trillion', 'CD'), ('in', 'IN'), ('assets', 'NNS'), ('under', 'IN'), ('custody', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   of/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD   ,/,   it/PRP   held/VBD   on/IN   average/JJ   $/$   335/CD   billion/CD   in/IN   liability/NN   balances/NNS   and/CC   $/$   12.1/CD   trillion/CD   in/IN   assets/NNS   under/IN   custody/NN   ./.)
+----------------------------------
+original sentence: 
+About Citi  Citi, the leading global financial services company, has approximately 200 million customer accounts and does business in more than 140 countries.
+
+POS tagged sentence: 
+[('About', 'IN'), ('Citi', 'NNP'), ('Citi', 'NNP'), (',', ','), ('the', 'DT'), ('leading', 'VBG'), ('global', 'JJ'), ('financial', 'JJ'), ('services', 'NNS'), ('company', 'NN'), (',', ','), ('has', 'VBZ'), ('approximately', 'RB'), ('200', 'CD'), ('million', 'CD'), ('customer', 'NN'), ('accounts', 'NNS'), ('and', 'CC'), ('does', 'VBZ'), ('business', 'NN'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('140', 'CD'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   (PERSON Citi/NNP Citi/NNP)   ,/,   the/DT   leading/VBG   global/JJ   financial/JJ   services/NNS   company/NN   ,/,   has/VBZ   approximately/RB   200/CD   million/CD   customer/NN   accounts/NNS   and/CC   does/VBZ   business/NN   in/IN   more/JJR   than/IN   140/CD   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB leading/VBG global/JJ financial/JJ services/NNS company/NN)
+	(VERB has/VBZ)
+	(VERB   does/VBZ   business/NN   in/IN   more/JJR   than/IN   140/CD   countries/NNS)
+noun phrases to consider:
+	(NOUN Citi/NNP Citi/NNP)
+	(NOUN million/CD customer/NN accounts/NNS)
+
+----------------------------------
+original sentence: 
+Through its two operating units, Citicorp and Citi Holdings, Citi provides consumers, corporations, governments and institutions with a broad range of financial products and services, including consumer banking and credit, corporate and investment banking, securities brokerage, transaction services, and wealth management.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('its', 'PRP$'), ('two', 'CD'), ('operating', 'VBG'), ('units', 'NNS'), (',', ','), ('Citicorp', 'NNP'), ('and', 'CC'), ('Citi', 'NNP'), ('Holdings', 'NNP'), (',', ','), ('Citi', 'NNP'), ('provides', 'VBZ'), ('consumers', 'NNS'), (',', ','), ('corporations', 'NNS'), (',', ','), ('governments', 'NNS'), ('and', 'CC'), ('institutions', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('financial', 'JJ'), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), (',', ','), ('including', 'VBG'), ('consumer', 'NN'), ('banking', 'VBG'), ('and', 'CC'), ('credit', 'NN'), (',', ','), ('corporate', 'JJ'), ('and', 'CC'), ('investment', 'NN'), ('banking', 'NN'), (',', ','), ('securities', 'NNS'), ('brokerage', 'VBP'), (',', ','), ('transaction', 'NN'), ('services', 'NNS'), (',', ','), ('and', 'CC'), ('wealth', 'NN'), ('management', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   its/PRP$   two/CD   operating/VBG   units/NNS   ,/,   (ORGANIZATION Citicorp/NNP)   and/CC   (PERSON Citi/NNP Holdings/NNP)   ,/,   (PERSON Citi/NNP)   provides/VBZ   consumers/NNS   ,/,   corporations/NNS   ,/,   governments/NNS   and/CC   institutions/NNS   with/IN   a/DT   broad/JJ   range/NN   of/IN   financial/JJ   products/NNS   and/CC   services/NNS   ,/,   including/VBG   consumer/NN   banking/VBG   and/CC   credit/NN   ,/,   corporate/JJ   and/CC   investment/NN   banking/NN   ,/,   securities/NNS   brokerage/VBP   ,/,   transaction/NN   services/NNS   ,/,   and/CC   wealth/NN   management/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB operating/VBG units/NNS)
+	(VERB provides/VBZ consumers/NNS)
+	(VERB including/VBG consumer/NN)
+	(VERB banking/VBG)
+	(VERB brokerage/VBP)
+noun phrases to consider:
+	(NOUN Citicorp/NNP)
+	(NOUN Citi/NNP Holdings/NNP)
+	(NOUN Citi/NNP)
+	(NOUN corporations/NNS)
+	(NOUN governments/NNS)
+	(NOUN institutions/NNS)
+	(NOUN a/DT broad/JJ range/NN)
+	(NOUN financial/JJ products/NNS)
+	(NOUN services/NNS)
+	(NOUN credit/NN)
+	(NOUN corporate/JJ)
+	(NOUN investment/NN banking/NN)
+	(NOUN securities/NNS)
+	(NOUN transaction/NN services/NNS)
+	(NOUN wealth/NN management/NN)
+
+----------------------------------
+original sentence: 
+Additional information may be found at  Contacts Nina Das, 212 816 9267
+ http://www.businesswire.com/news/home/20100315005887/en/Citi Establishes Investor Services Team Specializing Exchange
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('may', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Contacts', 'NNPS'), ('Nina', 'NNP'), ('Das', 'NNP'), (',', ','), ('212', 'CD'), ('816', 'CD'), ('9267', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100315005887/en/Citi', 'JJ'), ('Establishes', 'NNS'), ('Investor', 'NNP'), ('Services', 'NNPS'), ('Team', 'NNP'), ('Specializing', 'NNP'), ('Exchange', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   may/MD   be/VB   found/VBN   at/IN   (ORGANIZATION Contacts/NNPS Nina/NNP Das/NNP)   ,/,   212/CD   816/CD   9267/CD   http/NN   :/:   //www.businesswire.com/news/home/20100315005887/en/Citi/JJ   Establishes/NNS   (ORGANIZATION Investor/NNP Services/NNPS Team/NNP)   Specializing/NNP   Exchange/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB found/VBN at/IN Contacts/NNPS Nina/NNP Das/NNP)
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN 9267/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100315005887/en/Citi/JJ   Establishes/NNS   Investor/NNP   Services/NNPS   Team/NNP)
+	(NOUN Specializing/NNP Exchange/NNP Company/NNP Information/NNP)
+	(NOUN Center/NNP More/NNP Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:0	pos:3	verypos:0	total:1

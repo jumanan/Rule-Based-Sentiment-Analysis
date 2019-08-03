@@ -1,0 +1,111 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+Nokia Resets Market Sizing Methodology, Reiterates 2010 Unit Growth Outlook NOK Friday, March 12, 2010 15:42
+Fri, 03/12/2010 15:42
+3/12/2010 Barclays analysts said that Nokia  reset its market sizing methodology, reducing market shares by approximately 400 basis points, and reiterated its outlook for 2010 unit growth of 10%.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Nokia', 'NNP'), ('Resets', 'NNPS'), ('Market', 'NNP'), ('Sizing', 'NNP'), ('Methodology', 'NNP'), (',', ','), ('Reiterates', 'NNP'), ('2010', 'CD'), ('Unit', 'NNP'), ('Growth', 'NNP'), ('Outlook', 'NNP'), ('NOK', 'NNP'), ('Friday', 'NNP'), (',', ','), ('March', 'NNP'), ('12', 'CD'), (',', ','), ('2010', 'CD'), ('15', 'CD'), (':', ':'), ('42', 'CD'), ('Fri', 'NNP'), (',', ','), ('03/12/2010', 'CD'), ('15', 'CD'), (':', ':'), ('42', 'CD'), ('3/12/2010', 'CD'), ('Barclays', 'NNS'), ('analysts', 'NNS'), ('said', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('reset', 'NN'), ('its', 'PRP$'), ('market', 'NN'), ('sizing', 'VBG'), ('methodology', 'NN'), (',', ','), ('reducing', 'VBG'), ('market', 'NN'), ('shares', 'NNS'), ('by', 'IN'), ('approximately', 'RB'), ('400', 'CD'), ('basis', 'NN'), ('points', 'NNS'), (',', ','), ('and', 'CC'), ('reiterated', 'VBD'), ('its', 'PRP$'), ('outlook', 'NN'), ('for', 'IN'), ('2010', 'CD'), ('unit', 'NN'), ('growth', 'NN'), ('of', 'IN'), ('10', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION     SmarTrend/NNP     Alert/NNP     Nokia/NNP     Resets/NNPS     Market/NNP)   Sizing/NNP   Methodology/NNP   ,/,   Reiterates/NNP   2010/CD   (ORGANIZATION Unit/NNP Growth/NNP Outlook/NNP)   NOK/NNP   Friday/NNP   ,/,   March/NNP   12/CD   ,/,   2010/CD   15/CD   :/:   42/CD   Fri/NNP   ,/,   03/12/2010/CD   15/CD   :/:   42/CD   3/12/2010/CD   Barclays/NNS   analysts/NNS   said/VBD   that/IN   (PERSON Nokia/NNP)   reset/NN   its/PRP$   market/NN   sizing/VBG   methodology/NN   ,/,   reducing/VBG   market/NN   shares/NNS   by/IN   approximately/RB   400/CD   basis/NN   points/NNS   ,/,   and/CC   reiterated/VBD   its/PRP$   outlook/NN   for/IN   2010/CD   unit/NN   growth/NN   of/IN   10/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN Nokia/NNP reset/NN its/PRP$ market/NN)
+	(VERB sizing/VBG methodology/NN)
+	(VERB reducing/VBG market/NN shares/NNS by/IN)
+
+tagged sentence:
+	 reducing market shares by	res:-1
+	(VERB   reiterated/VBD   its/PRP$   outlook/NN   for/IN   2010/CD   unit/NN   growth/NN   of/IN   10/CD   %/NN)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Nokia/NNP)
+
+tagged sentence:
+	 Comtex SmarTrend Alert Nokia	res:-1
+	(NOUN Resets/NNPS Market/NNP Sizing/NNP Methodology/NNP)
+	(NOUN Reiterates/NNP)
+	(NOUN 2010/CD Unit/NNP Growth/NNP Outlook/NNP NOK/NNP)
+	(NOUN Friday/NNP)
+	(NOUN March/NNP)
+	(NOUN 42/CD Fri/NNP)
+	(NOUN 3/12/2010/CD Barclays/NNS analysts/NNS)
+	(NOUN basis/NN points/NNS)
+
+----------------------------------
+original sentence: 
+The company revised its 2009 market estimate from 1.14 billion units to 1.26 billion and cited improved measurement tools and a broader market definition.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('revised', 'VBD'), ('its', 'PRP$'), ('2009', 'CD'), ('market', 'NN'), ('estimate', 'NN'), ('from', 'IN'), ('1.14', 'CD'), ('billion', 'CD'), ('units', 'NNS'), ('to', 'TO'), ('1.26', 'CD'), ('billion', 'CD'), ('and', 'CC'), ('cited', 'VBD'), ('improved', 'VBN'), ('measurement', 'NN'), ('tools', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('broader', 'JJR'), ('market', 'NN'), ('definition', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   revised/VBD   its/PRP$   2009/CD   market/NN   estimate/NN   from/IN   1.14/CD   billion/CD   units/NNS   to/TO   1.26/CD   billion/CD   and/CC   cited/VBD   improved/VBN   measurement/NN   tools/NNS   and/CC   a/DT   broader/JJR   market/NN   definition/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   revised/VBD   its/PRP$   2009/CD   market/NN   estimate/NN   from/IN   1.14/CD   billion/CD   units/NNS)
+	(VERB cited/VBD improved/VBN measurement/NN tools/NNS)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN a/DT broader/JJR market/NN definition/NN)
+
+----------------------------------
+original sentence: 
+Analyst Jeff Kvaal said, "We believe better black/emerging market tracking captures more MediaTek volume, particularly export.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('Jeff', 'NNP'), ('Kvaal', 'NNP'), ('said', 'VBD'), (',', ','), ('"', 'NNP'), ('We', 'NNP'), ('believe', 'VBP'), ('better', 'JJR'), ('black/emerging', 'JJ'), ('market', 'NN'), ('tracking', 'NN'), ('captures', 'NNS'), ('more', 'RBR'), ('MediaTek', 'NNP'), ('volume', 'NN'), (',', ','), ('particularly', 'RB'), ('export', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Analyst/NN)   (PERSON Jeff/NNP Kvaal/NNP)   said/VBD   ,/,   "/NNP   We/NNP   believe/VBP   better/JJR   black/emerging/JJ   market/NN   tracking/NN   captures/NNS   more/RBR   (ORGANIZATION MediaTek/NNP)   volume/NN   ,/,   particularly/RB   export/NN   ./.)
+----------------------------------
+original sentence: 
+We believe some MediaTek shipments are lost to yield.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('believe', 'VBP'), ('some', 'DT'), ('MediaTek', 'NNP'), ('shipments', 'NNS'), ('are', 'VBP'), ('lost', 'VBN'), ('to', 'TO'), ('yield', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   believe/VBP   some/DT   (ORGANIZATION MediaTek/NNP)   shipments/NNS   are/VBP   lost/VBN   to/TO   yield/VB   ./.)
+----------------------------------
+original sentence: 
+"
+
+Barclays sees fiscal 2010 EPS of $1.11, vs. consensus estimates of $1.04, and fiscal 2011 EPS of $1.26, vs. consensus estimates of $1.20.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Barclays', 'NNS'), ('sees', 'VBZ'), ('fiscal', 'JJ'), ('2010', 'CD'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('1.11', 'CD'), (',', ','), ('vs.', 'NNP'), ('consensus', 'NN'), ('estimates', 'VBZ'), ('of', 'IN'), ('$', '$'), ('1.04', 'CD'), (',', ','), ('and', 'CC'), ('fiscal', 'JJ'), ('2011', 'CD'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('1.26', 'CD'), (',', ','), ('vs.', 'NNP'), ('consensus', 'NN'), ('estimates', 'VBZ'), ('of', 'IN'), ('$', '$'), ('1.20', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Barclays/NNS)   sees/VBZ   fiscal/JJ   2010/CD   EPS/NNP   of/IN   $/$   1.11/CD   ,/,   vs./NNP   consensus/NN   estimates/VBZ   of/IN   $/$   1.04/CD   ,/,   and/CC   fiscal/JJ   2011/CD   EPS/NNP   of/IN   $/$   1.26/CD   ,/,   vs./NNP   consensus/NN   estimates/VBZ   of/IN   $/$   1.20/CD   ./.)
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:1

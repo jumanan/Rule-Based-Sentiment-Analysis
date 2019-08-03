@@ -1,0 +1,521 @@
+
+----------------------------------
+original sentence: 
+Review: 'Waking Sleeping Beauty' documents Disney: Associated Press Business News MSN Money
+Make msn.com your home page
+Review: 'Waking Sleeping Beauty' documents Disney
+March 25, 2010 11:11 AM ET
+All Associated Press news
+ AP Oh, what simpler times they were when Disney was trotting out movies like "The Little Mermaid" and "The Lion King" every year.
+
+POS tagged sentence: 
+[('Review', 'NNP'), (':', ':'), ("'Waking", 'JJ'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ("'", 'POS'), ('documents', 'NNS'), ('Disney', 'NNP'), (':', ':'), ('Associated', 'NNP'), ('Press', 'NNP'), ('Business', 'NNP'), ('News', 'NNP'), ('MSN', 'NNP'), ('Money', 'NNP'), ('Make', 'NNP'), ('msn.com', 'NNP'), ('your', 'PRP$'), ('home', 'NN'), ('page', 'NN'), ('Review', 'NNP'), (':', ':'), ("'Waking", 'JJ'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ("'", 'POS'), ('documents', 'NNS'), ('Disney', 'NNP'), ('March', 'NNP'), ('25', 'CD'), (',', ','), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('11', 'CD'), ('AM', 'NNP'), ('ET', 'NNP'), ('All', 'NNP'), ('Associated', 'NNP'), ('Press', 'NNP'), ('news', 'NN'), ('AP', 'NNP'), ('Oh', 'NNP'), (',', ','), ('what', 'WP'), ('simpler', 'NN'), ('times', 'VBZ'), ('they', 'PRP'), ('were', 'VBD'), ('when', 'WRB'), ('Disney', 'NNP'), ('was', 'VBD'), ('trotting', 'VBG'), ('out', 'RP'), ('movies', 'NNS'), ('like', 'IN'), ('"', 'NN'), ('The', 'DT'), ('Little', 'NNP'), ('Mermaid', 'NNP'), ('"', 'NNP'), ('and', 'CC'), ('"', 'NNP'), ('The', 'NNP'), ('Lion', 'NNP'), ('King', 'NNP'), ('"', 'NNP'), ('every', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Review/NNP)   :/:   'Waking/JJ   Sleeping/NNP   Beauty/NNP   '/POS   documents/NNS   (PERSON Disney/NNP)   :/:   (ORGANIZATION Associated/NNP)   Press/NNP   (ORGANIZATION Business/NNP News/NNP)   MSN/NNP   Money/NNP   Make/NNP   msn.com/NNP   your/PRP$   home/NN   page/NN   (PERSON Review/NNP)   :/:   'Waking/JJ   Sleeping/NNP   Beauty/NNP   '/POS   documents/NNS   (PERSON Disney/NNP)   March/NNP   25/CD   ,/,   2010/CD   11/CD   :/:   11/CD   AM/NNP   ET/NNP   All/NNP   (ORGANIZATION Associated/NNP)   Press/NNP   news/NN   (ORGANIZATION AP/NNP Oh/NNP)   ,/,   what/WP   simpler/NN   times/VBZ   they/PRP   were/VBD   when/WRB   (PERSON Disney/NNP)   was/VBD   trotting/VBG   out/RP   movies/NNS   like/IN   "/NN   The/DT   (ORGANIZATION Little/NNP)   Mermaid/NNP   "/NNP   and/CC   "/NNP   The/NNP   Lion/NNP   King/NNP   "/NNP   every/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB times/VBZ they/PRP)
+	(VERB were/VBD)
+	(VERB was/VBD trotting/VBG)
+noun phrases to consider:
+	(NOUN Review/NNP)
+	(NOUN 'Waking/JJ Sleeping/NNP Beauty/NNP)
+	(NOUN documents/NNS Disney/NNP)
+	(NOUN Associated/NNP Press/NNP Business/NNP News/NNP)
+	(NOUN MSN/NNP Money/NNP Make/NNP msn.com/NNP)
+	(NOUN home/NN page/NN Review/NNP)
+	(NOUN 'Waking/JJ Sleeping/NNP Beauty/NNP)
+	(NOUN documents/NNS Disney/NNP March/NNP)
+	(NOUN 11/CD AM/NNP ET/NNP All/NNP Associated/NNP)
+	(NOUN Press/NNP news/NN AP/NNP Oh/NNP)
+	(NOUN simpler/NN)
+	(NOUN Disney/NNP)
+	(NOUN movies/NNS)
+	(NOUN "/NN)
+	(NOUN Little/NNP Mermaid/NNP "/NNP)
+	(NOUN "/NNP The/NNP Lion/NNP King/NNP)
+	(NOUN "/NNP)
+	(NOUN year/NN)
+
+----------------------------------
+original sentence: 
+Those bright, colorful animations, arriving annually like clockwork, defined the late '80s and early '90s as much as hair bands and Madonna.
+
+POS tagged sentence: 
+[('Those', 'DT'), ('bright', 'JJ'), (',', ','), ('colorful', 'JJ'), ('animations', 'NNS'), (',', ','), ('arriving', 'VBG'), ('annually', 'RB'), ('like', 'IN'), ('clockwork', 'NN'), (',', ','), ('defined', 'VBD'), ('the', 'DT'), ('late', 'JJ'), ("'80s", 'CD'), ('and', 'CC'), ('early', 'RB'), ("'90s", 'JJ'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('hair', 'NN'), ('bands', 'NNS'), ('and', 'CC'), ('Madonna', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Those/DT   bright/JJ   ,/,   colorful/JJ   animations/NNS   ,/,   arriving/VBG   annually/RB   like/IN   clockwork/NN   ,/,   defined/VBD   the/DT   late/JJ   '80s/CD   and/CC   early/RB   '90s/JJ   as/IN   much/JJ   as/IN   hair/NN   bands/NNS   and/CC   (PERSON Madonna/NNP)   ./.)
+----------------------------------
+original sentence: 
+It was a seemingly unstoppable run of quirky sidekicks, hummable tunes and magical candelabras.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('was', 'VBD'), ('a', 'DT'), ('seemingly', 'RB'), ('unstoppable', 'JJ'), ('run', 'NN'), ('of', 'IN'), ('quirky', 'JJ'), ('sidekicks', 'NNS'), (',', ','), ('hummable', 'JJ'), ('tunes', 'NNS'), ('and', 'CC'), ('magical', 'JJ'), ('candelabras', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   was/VBD   a/DT   seemingly/RB   unstoppable/JJ   run/NN   of/IN   quirky/JJ   sidekicks/NNS   ,/,   hummable/JJ   tunes/NNS   and/CC   magical/JJ   candelabras/NNS   ./.)
+----------------------------------
+original sentence: 
+The documentary "Waking Sleeping Beauty" is a behind the scenes look at Disney animation during those heady times.
+
+POS tagged sentence: 
+[('The', 'DT'), ('documentary', 'JJ'), ('"', 'NN'), ('Waking', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('"', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('behind', 'NN'), ('the', 'DT'), ('scenes', 'NNS'), ('look', 'VBP'), ('at', 'IN'), ('Disney', 'NNP'), ('animation', 'NN'), ('during', 'IN'), ('those', 'DT'), ('heady', 'JJ'), ('times', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   documentary/JJ   "/NN   Waking/NNP   Sleeping/NNP   Beauty/NNP   "/NNP   is/VBZ   a/DT   behind/NN   the/DT   scenes/NNS   look/VBP   at/IN   (ORGANIZATION Disney/NNP)   animation/NN   during/IN   those/DT   heady/JJ   times/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT behind/NN the/DT scenes/NNS)
+	(VERB   look/VBP   at/IN   Disney/NNP   animation/NN   during/IN   those/DT   heady/JJ   times/NNS)
+noun phrases to consider:
+	(NOUN The/DT documentary/JJ "/NN Waking/NNP Sleeping/NNP Beauty/NNP)
+	(NOUN "/NNP)
+
+----------------------------------
+original sentence: 
+The streak from 1984 to 1994 also produced "Beauty and the Beast" and "Aladdin.
+
+POS tagged sentence: 
+[('The', 'DT'), ('streak', 'NN'), ('from', 'IN'), ('1984', 'CD'), ('to', 'TO'), ('1994', 'CD'), ('also', 'RB'), ('produced', 'VBN'), ('"', '-NONE-'), ('Beauty', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Beast', 'NNP'), ('"', 'NNP'), ('and', 'CC'), ('"', 'NNP'), ('Aladdin', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   streak/NN   from/IN   1984/CD   to/TO   1994/CD   also/RB   produced/VBN   "/-NONE-   Beauty/NNP   and/CC   the/DT   Beast/NNP   "/NNP   and/CC   "/NNP   Aladdin/NNP   ./.)
+----------------------------------
+original sentence: 
+"
+Looking back now from the Pixar era, it seems a long time ago, indeed.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Looking', 'VBG'), ('back', 'RB'), ('now', 'RB'), ('from', 'IN'), ('the', 'DT'), ('Pixar', 'NNP'), ('era', 'NN'), (',', ','), ('it', 'PRP'), ('seems', 'VBZ'), ('a', 'DT'), ('long', 'JJ'), ('time', 'NN'), ('ago', 'RB'), (',', ','), ('indeed', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Looking/VBG   back/RB   now/RB   from/IN   the/DT   (ORGANIZATION Pixar/NNP)   era/NN   ,/,   it/PRP   seems/VBZ   a/DT   long/JJ   time/NN   ago/RB   ,/,   indeed/RB   ./.)
+----------------------------------
+original sentence: 
+Made by the Walt Disney Company and directed and narrated by longtime Disney producer Don Hahn "Beauty and the Beast," "The Lion King" , "Waking Sleeping Beauty" is an unabashed bit of navel gazing.
+
+POS tagged sentence: 
+[('Made', 'NNP'), ('by', 'IN'), ('the', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('directed', 'VBD'), ('and', 'CC'), ('narrated', 'VBN'), ('by', 'IN'), ('longtime', 'NN'), ('Disney', 'NNP'), ('producer', 'NN'), ('Don', 'NNP'), ('Hahn', 'NNP'), ('"', 'NNP'), ('Beauty', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Beast', 'NNP'), (',', ','), ('"', 'NNP'), ('"', 'NNP'), ('The', 'NNP'), ('Lion', 'NNP'), ('King', 'NNP'), ('"', 'NNP'), (',', ','), ('"', 'NNP'), ('Waking', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('"', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('unabashed', 'JJ'), ('bit', 'NN'), ('of', 'IN'), ('navel', 'NN'), ('gazing', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Made/NNP)   by/IN   the/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   and/CC   directed/VBD   and/CC   narrated/VBN   by/IN   longtime/NN   (ORGANIZATION Disney/NNP)   producer/NN   (PERSON Don/NNP Hahn/NNP)   "/NNP   Beauty/NNP   and/CC   the/DT   (GPE Beast/NNP)   ,/,   "/NNP   "/NNP   The/NNP   Lion/NNP   King/NNP   "/NNP   ,/,   "/NNP   Waking/NNP   Sleeping/NNP   Beauty/NNP   "/NNP   is/VBZ   an/DT   unabashed/JJ   bit/NN   of/IN   navel/NN   gazing/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB directed/VBD)
+	(VERB   narrated/VBN   by/IN   longtime/NN   Disney/NNP   producer/NN   Don/NNP   Hahn/NNP   "/NNP   Beauty/NNP)
+	(VERB is/VBZ an/DT unabashed/JJ bit/NN of/IN navel/NN)
+	(VERB gazing/VBG)
+noun phrases to consider:
+	(NOUN Made/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+	(NOUN Beast/NNP)
+	(NOUN "/NNP "/NNP The/NNP Lion/NNP)
+	(NOUN King/NNP "/NNP)
+	(NOUN "/NNP Waking/NNP Sleeping/NNP Beauty/NNP)
+	(NOUN "/NNP)
+
+----------------------------------
+original sentence: 
+It's surely self aggrandizing to recall one's own glory so ardently, especially when it centers on things â€” glorious though they are â€” like a parrot voiced by Gilbert Gottfried and a crab with a Jamaican accent.
+
+POS tagged sentence: 
+[('It', 'PRP'), ("'s", 'VBZ'), ('surely', 'RB'), ('self', 'PRP'), ('aggrandizing', 'VBG'), ('to', 'TO'), ('recall', 'VB'), ('one', 'CD'), ("'s", 'POS'), ('own', 'JJ'), ('glory', 'NN'), ('so', 'IN'), ('ardently', 'RB'), (',', ','), ('especially', 'RB'), ('when', 'WRB'), ('it', 'PRP'), ('centers', 'VBZ'), ('on', 'IN'), ('things', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('glorious', 'JJ'), ('though', 'IN'), ('they', 'PRP'), ('are', 'VBP'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('like', 'IN'), ('a', 'DT'), ('parrot', 'NN'), ('voiced', 'VBN'), ('by', 'IN'), ('Gilbert', 'NNP'), ('Gottfried', 'NNP'), ('and', 'CC'), ('a', 'DT'), ('crab', 'NN'), ('with', 'IN'), ('a', 'DT'), ('Jamaican', 'NNP'), ('accent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   's/VBZ   surely/RB   self/PRP   aggrandizing/VBG   to/TO   recall/VB   one/CD   's/POS   own/JJ   glory/NN   so/IN   ardently/RB   ,/,   especially/RB   when/WRB   it/PRP   centers/VBZ   on/IN   things/NNS   â/:   €/:   ”/:   glorious/JJ   though/IN   they/PRP   are/VBP   â/:   €/:   ”/:   like/IN   a/DT   parrot/NN   voiced/VBN   by/IN   (PERSON Gilbert/NNP Gottfried/NNP)   and/CC   a/DT   crab/NN   with/IN   a/DT   (GPE Jamaican/NNP)   accent/NN   ./.)
+----------------------------------
+original sentence: 
+But it's also a good story and includes more insider intrigue than you might expect.
+
+POS tagged sentence: 
+[('But', 'CC'), ('it', 'PRP'), ("'s", 'VBZ'), ('also', 'RB'), ('a', 'DT'), ('good', 'JJ'), ('story', 'NN'), ('and', 'CC'), ('includes', 'VBZ'), ('more', 'RBR'), ('insider', 'JJR'), ('intrigue', 'NN'), ('than', 'IN'), ('you', 'PRP'), ('might', 'MD'), ('expect', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   it/PRP   's/VBZ   also/RB   a/DT   good/JJ   story/NN   and/CC   includes/VBZ   more/RBR   insider/JJR   intrigue/NN   than/IN   you/PRP   might/MD   expect/VB   ./.)
+----------------------------------
+original sentence: 
+There's plenty here on the feuding between the Disney executives who presided over the restoration of Disney's animation pre eminence: Roy Disney, Michael Eisner and Jeffrey Katzenberg.
+
+POS tagged sentence: 
+[('There', 'EX'), ("'s", 'VBZ'), ('plenty', 'NN'), ('here', 'RB'), ('on', 'IN'), ('the', 'DT'), ('feuding', 'NN'), ('between', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('executives', 'NNS'), ('who', 'WP'), ('presided', 'VBN'), ('over', 'IN'), ('the', 'DT'), ('restoration', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ("'s", 'POS'), ('animation', 'NN'), ('pre', 'NN'), ('eminence', 'NN'), (':', ':'), ('Roy', 'NNP'), ('Disney', 'NNP'), (',', ','), ('Michael', 'NNP'), ('Eisner', 'NNP'), ('and', 'CC'), ('Jeffrey', 'NNP'), ('Katzenberg', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   's/VBZ   plenty/NN   here/RB   on/IN   the/DT   feuding/NN   between/IN   the/DT   (ORGANIZATION Disney/NNP)   executives/NNS   who/WP   presided/VBN   over/IN   the/DT   restoration/NN   of/IN   (GPE Disney/NNP)   's/POS   animation/NN   pre/NN   eminence/NN   :/:   (PERSON Roy/NNP Disney/NNP)   ,/,   (PERSON Michael/NNP Eisner/NNP)   and/CC   (PERSON Jeffrey/NNP Katzenberg/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   's/VBZ   plenty/NN   here/RB   on/IN   the/DT   feuding/NN   between/IN   the/DT   Disney/NNP   executives/NNS)
+	(VERB presided/VBN over/IN the/DT restoration/NN of/IN Disney/NNP)
+noun phrases to consider:
+	(NOUN animation/NN pre/NN eminence/NN)
+	(NOUN Roy/NNP Disney/NNP)
+	(NOUN Michael/NNP Eisner/NNP)
+	(NOUN Jeffrey/NNP Katzenberg/NNP)
+
+----------------------------------
+original sentence: 
+Less quarrelsome was Frank Wells, the mountain climbing president whose death in a helicopter crash in 1994 is depicted here as the end of this era.
+
+POS tagged sentence: 
+[('Less', 'RBR'), ('quarrelsome', 'VBN'), ('was', 'VBD'), ('Frank', 'NNP'), ('Wells', 'NNP'), (',', ','), ('the', 'DT'), ('mountain', 'NN'), ('climbing', 'VBG'), ('president', 'NN'), ('whose', 'WP$'), ('death', 'NN'), ('in', 'IN'), ('a', 'DT'), ('helicopter', 'NN'), ('crash', 'NN'), ('in', 'IN'), ('1994', 'CD'), ('is', 'VBZ'), ('depicted', 'VBN'), ('here', 'RB'), ('as', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('this', 'DT'), ('era', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Less/RBR   quarrelsome/VBN   was/VBD   (PERSON Frank/NNP Wells/NNP)   ,/,   the/DT   mountain/NN   climbing/VBG   president/NN   whose/WP$   death/NN   in/IN   a/DT   helicopter/NN   crash/NN   in/IN   1994/CD   is/VBZ   depicted/VBN   here/RB   as/IN   the/DT   end/NN   of/IN   this/DT   era/NN   ./.)
+----------------------------------
+original sentence: 
+Eisner, Katzenberg and Disney, who died in December, agreed to interviews for the film and, for the most part, speak candidly â€” if politely â€” about their work together.
+
+POS tagged sentence: 
+[('Eisner', 'NNP'), (',', ','), ('Katzenberg', 'NNP'), ('and', 'CC'), ('Disney', 'NNP'), (',', ','), ('who', 'WP'), ('died', 'VBD'), ('in', 'IN'), ('December', 'NNP'), (',', ','), ('agreed', 'VBD'), ('to', 'TO'), ('interviews', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('film', 'NN'), ('and', 'CC'), (',', ','), ('for', 'IN'), ('the', 'DT'), ('most', 'JJS'), ('part', 'NN'), (',', ','), ('speak', 'NN'), ('candidly', 'RB'), ('\xe2', '.'), ('\x80', ':'), ('\x94', ':'), ('if', 'IN'), ('politely', 'RB'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x94', ':'), ('about', 'IN'), ('their', 'PRP$'), ('work', 'NN'), ('together', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Eisner/NNP)   ,/,   (PERSON Katzenberg/NNP)   and/CC   (GPE Disney/NNP)   ,/,   who/WP   died/VBD   in/IN   December/NNP   ,/,   agreed/VBD   to/TO   interviews/NNS   for/IN   the/DT   film/NN   and/CC   ,/,   for/IN   the/DT   most/JJS   part/NN   ,/,   speak/NN   candidly/RB   â/.   €/:   ”/:   if/IN   politely/RB   â/VBP   €/:   ”/:   about/IN   their/PRP$   work/NN   together/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB died/VBD in/IN December/NNP)
+	(VERB agreed/VBD to/TO interviews/NNS for/IN the/DT film/NN)
+	(VERB â/VBP)
+noun phrases to consider:
+	(NOUN Eisner/NNP)
+	(NOUN Katzenberg/NNP)
+	(NOUN Disney/NNP)
+	(NOUN the/DT most/JJS part/NN)
+	(NOUN speak/NN)
+	(NOUN work/NN)
+
+----------------------------------
+original sentence: 
+To give some sense of objectivity, the interviews for the film were conducted by veteran journalist Patrick Pacheco.
+
+POS tagged sentence: 
+[('To', 'TO'), ('give', 'VB'), ('some', 'DT'), ('sense', 'NN'), ('of', 'IN'), ('objectivity', 'NN'), (',', ','), ('the', 'DT'), ('interviews', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('film', 'NN'), ('were', 'VBD'), ('conducted', 'VBN'), ('by', 'IN'), ('veteran', 'NN'), ('journalist', 'NN'), ('Patrick', 'NNP'), ('Pacheco', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   give/VB   some/DT   sense/NN   of/IN   objectivity/NN   ,/,   the/DT   interviews/NNS   for/IN   the/DT   film/NN   were/VBD   conducted/VBN   by/IN   veteran/NN   journalist/NN   (PERSON Patrick/NNP Pacheco/NNP)   ./.)
+----------------------------------
+original sentence: 
+The focus on the business side of things fawning over the box office for "The Lion King," for example , takes some of the fun out of "Waking Sleeping Beauty.
+
+POS tagged sentence: 
+[('The', 'DT'), ('focus', 'NN'), ('on', 'IN'), ('the', 'DT'), ('business', 'NN'), ('side', 'NN'), ('of', 'IN'), ('things', 'NNS'), ('fawning', 'VBG'), ('over', 'IN'), ('the', 'DT'), ('box', 'NN'), ('office', 'NN'), ('for', 'IN'), ('"', 'NN'), ('The', 'DT'), ('Lion', 'NNP'), ('King', 'NNP'), (',', ','), ('"', 'NNP'), ('for', 'IN'), ('example', 'NN'), (',', ','), ('takes', 'VBZ'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('fun', 'NN'), ('out', 'IN'), ('of', 'IN'), ('"', 'NNP'), ('Waking', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   focus/NN   on/IN   the/DT   business/NN   side/NN   of/IN   things/NNS   fawning/VBG   over/IN   the/DT   box/NN   office/NN   for/IN   "/NN   The/DT   (ORGANIZATION Lion/NNP King/NNP)   ,/,   "/NNP   for/IN   example/NN   ,/,   takes/VBZ   some/DT   of/IN   the/DT   fun/NN   out/IN   of/IN   "/NNP   Waking/NNP   Sleeping/NNP   Beauty/NNP   ./.)
+----------------------------------
+original sentence: 
+" Certainly, the leadership of these executives was critical to rebuilding Disney animation, but it's less riveting than hearing about the creation of Ariel and other indelible characters.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Certainly', 'RB'), (',', ','), ('the', 'DT'), ('leadership', 'NN'), ('of', 'IN'), ('these', 'DT'), ('executives', 'NNS'), ('was', 'VBD'), ('critical', 'JJ'), ('to', 'TO'), ('rebuilding', 'NN'), ('Disney', 'NNP'), ('animation', 'NN'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ("'s", 'VBZ'), ('less', 'JJR'), ('riveting', 'VBG'), ('than', 'IN'), ('hearing', 'NN'), ('about', 'IN'), ('the', 'DT'), ('creation', 'NN'), ('of', 'IN'), ('Ariel', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('indelible', 'JJ'), ('characters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Certainly/RB   ,/,   the/DT   leadership/NN   of/IN   these/DT   executives/NNS   was/VBD   critical/JJ   to/TO   rebuilding/NN   (ORGANIZATION Disney/NNP)   animation/NN   ,/,   but/CC   it/PRP   's/VBZ   less/JJR   riveting/VBG   than/IN   hearing/NN   about/IN   the/DT   creation/NN   of/IN   (PERSON Ariel/NNP)   and/CC   other/JJ   indelible/JJ   characters/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD critical/JJ)
+
+tagged sentence:
+	 was critical	res:-1
+	(VERB 's/VBZ less/JJR)
+	(VERB   riveting/VBG   than/IN   hearing/NN   about/IN   the/DT   creation/NN   of/IN   Ariel/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN leadership/NN)
+
+tagged sentence:
+	 leadership	res:1
+	(NOUN executives/NNS)
+	(NOUN rebuilding/NN Disney/NNP animation/NN)
+	(NOUN other/JJ indelible/JJ characters/NNS)
+
+----------------------------------
+original sentence: 
+Much of the film does maintain the perspective of the rank and file animators.
+
+POS tagged sentence: 
+[('Much', 'RB'), ('of', 'IN'), ('the', 'DT'), ('film', 'NN'), ('does', 'VBZ'), ('maintain', 'VB'), ('the', 'DT'), ('perspective', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('rank', 'NN'), ('and', 'CC'), ('file', 'NN'), ('animators', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Much/RB   of/IN   the/DT   film/NN   does/VBZ   maintain/VB   the/DT   perspective/JJ   of/IN   the/DT   rank/NN   and/CC   file/NN   animators/NNS   ./.)
+----------------------------------
+original sentence: 
+It's stuffed with grainy home movies of office life on the Disney lot, water cooler griping and â€” best of all â€” caricature drawings by the animators of their bosses.
+
+POS tagged sentence: 
+[('It', 'PRP'), ("'s", 'VBZ'), ('stuffed', 'VBN'), ('with', 'IN'), ('grainy', 'JJ'), ('home', 'NN'), ('movies', 'NNS'), ('of', 'IN'), ('office', 'NN'), ('life', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('lot', 'NN'), (',', ','), ('water', 'NN'), ('cooler', 'NN'), ('griping', 'VBG'), ('and', 'CC'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('best', 'JJS'), ('of', 'IN'), ('all', 'DT'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x94', 'CD'), ('caricature', 'NN'), ('drawings', 'NNS'), ('by', 'IN'), ('the', 'DT'), ('animators', 'NNS'), ('of', 'IN'), ('their', 'PRP$'), ('bosses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   's/VBZ   stuffed/VBN   with/IN   grainy/JJ   home/NN   movies/NNS   of/IN   office/NN   life/NN   on/IN   the/DT   (ORGANIZATION Disney/NNP)   lot/NN   ,/,   water/NN   cooler/NN   griping/VBG   and/CC   â/:   €/:   ”/:   best/JJS   of/IN   all/DT   â/CD   €/CD   ”/CD   caricature/NN   drawings/NNS   by/IN   the/DT   animators/NNS   of/IN   their/PRP$   bosses/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   's/VBZ   stuffed/VBN   with/IN   grainy/JJ   home/NN   movies/NNS   of/IN   office/NN   life/NN   on/IN   the/DT   Disney/NNP   lot/NN)
+	(VERB griping/VBG)
+noun phrases to consider:
+	(NOUN water/NN cooler/NN)
+	(NOUN best/JJS)
+	(NOUN ”/CD caricature/NN drawings/NNS)
+	(NOUN animators/NNS)
+	(NOUN bosses/NNS)
+
+----------------------------------
+original sentence: 
+It's an eccentric, very male and undeniably geeky bunch: One video shows the animators recreating "Apocalypse Now" in their cubicles.
+
+POS tagged sentence: 
+[('It', 'PRP'), ("'s", 'VBZ'), ('an', 'DT'), ('eccentric', 'JJ'), (',', ','), ('very', 'RB'), ('male', 'JJ'), ('and', 'CC'), ('undeniably', 'RB'), ('geeky', 'JJ'), ('bunch', 'NN'), (':', ':'), ('One', 'CD'), ('video', 'NN'), ('shows', 'VBZ'), ('the', 'DT'), ('animators', 'NNS'), ('recreating', 'VBG'), ('"', ':'), ('Apocalypse', 'NNP'), ('Now', 'NNP'), ('"', 'NNP'), ('in', 'IN'), ('their', 'PRP$'), ('cubicles', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   's/VBZ   an/DT   eccentric/JJ   ,/,   very/RB   male/JJ   and/CC   undeniably/RB   geeky/JJ   bunch/NN   :/:   One/CD   video/NN   shows/VBZ   the/DT   animators/NNS   recreating/VBG   "/:   (PERSON Apocalypse/NNP)   Now/NNP   "/NNP   in/IN   their/PRP$   cubicles/NNS   ./.)
+----------------------------------
+original sentence: 
+Some of the video was shot by John Lasseter as a young animator.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('video', 'NN'), ('was', 'VBD'), ('shot', 'VBN'), ('by', 'IN'), ('John', 'NNP'), ('Lasseter', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('young', 'JJ'), ('animator', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   of/IN   the/DT   video/NN   was/VBD   shot/VBN   by/IN   (PERSON John/NNP Lasseter/NNP)   as/IN   a/DT   young/JJ   animator/NN   ./.)
+----------------------------------
+original sentence: 
+He would go on to oversee Pixar and become chief creative officer of Disney animation.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('would', 'MD'), ('go', 'VB'), ('on', 'IN'), ('to', 'TO'), ('oversee', 'VB'), ('Pixar', 'NNP'), ('and', 'CC'), ('become', 'VB'), ('chief', 'JJ'), ('creative', 'JJ'), ('officer', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('animation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   would/MD   go/VB   on/IN   to/TO   oversee/VB   (PERSON Pixar/NNP)   and/CC   become/VB   chief/JJ   creative/JJ   officer/NN   of/IN   (GPE Disney/NNP)   animation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB go/VB on/IN)
+	(VERB oversee/VB Pixar/NNP)
+	(VERB   become/VB   chief/JJ   creative/JJ   officer/NN   of/IN   Disney/NNP   animation/NN)
+
+tagged sentence:
+	 become chief creative officer of Disney animation	res:1
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+A young Tim Burton also makes a cameo.
+
+POS tagged sentence: 
+[('A', 'DT'), ('young', 'JJ'), ('Tim', 'NNP'), ('Burton', 'NNP'), ('also', 'RB'), ('makes', 'VBZ'), ('a', 'DT'), ('cameo', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   young/JJ   (PERSON Tim/NNP Burton/NNP)   also/RB   makes/VBZ   a/DT   cameo/NN   ./.)
+----------------------------------
+original sentence: 
+The segment of the film devoted to Howard Ashman, the musical theater playwright and lyricist recruited to craft the music for "The Little Mermaid" and "Beauty and the Beast," is one of the movie's best.
+
+POS tagged sentence: 
+[('The', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('film', 'NN'), ('devoted', 'VBD'), ('to', 'TO'), ('Howard', 'NNP'), ('Ashman', 'NNP'), (',', ','), ('the', 'DT'), ('musical', 'JJ'), ('theater', 'NN'), ('playwright', 'NN'), ('and', 'CC'), ('lyricist', 'NN'), ('recruited', 'VBD'), ('to', 'TO'), ('craft', 'VB'), ('the', 'DT'), ('music', 'JJ'), ('for', 'IN'), ('"', 'NN'), ('The', 'DT'), ('Little', 'NNP'), ('Mermaid', 'NNP'), ('"', 'NNP'), ('and', 'CC'), ('"', 'NNP'), ('Beauty', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Beast', 'NNP'), (',', ','), ('"', 'NNP'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('movie', 'NN'), ("'s", 'POS'), ('best', 'JJS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   segment/NN   of/IN   the/DT   film/NN   devoted/VBD   to/TO   (PERSON Howard/NNP Ashman/NNP)   ,/,   the/DT   musical/JJ   theater/NN   playwright/NN   and/CC   lyricist/NN   recruited/VBD   to/TO   craft/VB   the/DT   music/JJ   for/IN   "/NN   The/DT   (ORGANIZATION Little/NNP)   Mermaid/NNP   "/NNP   and/CC   "/NNP   Beauty/NNP   and/CC   the/DT   (GPE Beast/NNP)   ,/,   "/NNP   is/VBZ   one/CD   of/IN   the/DT   movie/NN   's/POS   best/JJS   ./.)
+----------------------------------
+original sentence: 
+There's a great joy in seeing him introduce his vision of "Under the Sea," imagining the musical creatures and tapping his foot to the beat.
+
+POS tagged sentence: 
+[('There', 'EX'), ("'s", 'VBZ'), ('a', 'DT'), ('great', 'JJ'), ('joy', 'NN'), ('in', 'IN'), ('seeing', 'NN'), ('him', 'PRP'), ('introduce', 'VB'), ('his', 'PRP$'), ('vision', 'NN'), ('of', 'IN'), ('"', 'NNP'), ('Under', 'NNP'), ('the', 'DT'), ('Sea', 'NNP'), (',', ','), ('"', 'NNP'), ('imagining', 'NN'), ('the', 'DT'), ('musical', 'JJ'), ('creatures', 'NNS'), ('and', 'CC'), ('tapping', 'VBG'), ('his', 'PRP$'), ('foot', 'NN'), ('to', 'TO'), ('the', 'DT'), ('beat', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   's/VBZ   a/DT   great/JJ   joy/NN   in/IN   seeing/NN   him/PRP   introduce/VB   his/PRP$   vision/NN   of/IN   "/NNP   Under/NNP   the/DT   (ORGANIZATION Sea/NNP)   ,/,   "/NNP   imagining/NN   the/DT   musical/JJ   creatures/NNS   and/CC   tapping/VBG   his/PRP$   foot/NN   to/TO   the/DT   beat/NN   ./.)
+----------------------------------
+original sentence: 
+There lies the biggest success of "Waking Sleeping Beauty": its depiction of the fraught, passionate and idiosyncratic collaborative process of animation.
+
+POS tagged sentence: 
+[('There', 'EX'), ('lies', 'NNS'), ('the', 'DT'), ('biggest', 'JJS'), ('success', 'NN'), ('of', 'IN'), ('"', 'NNP'), ('Waking', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('"', 'NNP'), (':', ':'), ('its', 'PRP$'), ('depiction', 'NN'), ('of', 'IN'), ('the', 'DT'), ('fraught', 'NN'), (',', ','), ('passionate', 'JJ'), ('and', 'CC'), ('idiosyncratic', 'JJ'), ('collaborative', 'JJ'), ('process', 'NN'), ('of', 'IN'), ('animation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   lies/NNS   the/DT   biggest/JJS   success/NN   of/IN   "/NNP   Waking/NNP   Sleeping/NNP   Beauty/NNP   "/NNP   :/:   its/PRP$   depiction/NN   of/IN   the/DT   fraught/NN   ,/,   passionate/JJ   and/CC   idiosyncratic/JJ   collaborative/JJ   process/NN   of/IN   animation/NN   ./.)
+----------------------------------
+original sentence: 
+There are only hints like the digital flop "Rescuers Down Under" of the changes that will later revolutionize the medium.
+
+POS tagged sentence: 
+[('There', 'EX'), ('are', 'VBP'), ('only', 'RB'), ('hints', 'NNS'), ('like', 'IN'), ('the', 'DT'), ('digital', 'JJ'), ('flop', 'NN'), ('"', ':'), ('Rescuers', 'NNS'), ('Down', 'NNP'), ('Under', 'NNP'), ('"', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('changes', 'NNS'), ('that', 'WDT'), ('will', 'MD'), ('later', 'VB'), ('revolutionize', 'VB'), ('the', 'DT'), ('medium', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   are/VBP   only/RB   hints/NNS   like/IN   the/DT   digital/JJ   flop/NN   "/:   Rescuers/NNS   (PERSON Down/NNP)   Under/NNP   "/NNP   of/IN   the/DT   changes/NNS   that/WDT   will/MD   later/VB   revolutionize/VB   the/DT   medium/NN   ./.)
+----------------------------------
+original sentence: 
+The yearly comfort of animated excellence now comes from Pixar's releases, which Disney shares in, having acquired the company in 2006.
+
+POS tagged sentence: 
+[('The', 'DT'), ('yearly', 'JJ'), ('comfort', 'NN'), ('of', 'IN'), ('animated', 'VBN'), ('excellence', 'NN'), ('now', 'RB'), ('comes', 'VBZ'), ('from', 'IN'), ('Pixar', 'NNP'), ("'s", 'POS'), ('releases', 'NNS'), (',', ','), ('which', 'WDT'), ('Disney', 'NNP'), ('shares', 'NNS'), ('in', 'IN'), (',', ','), ('having', 'VBG'), ('acquired', 'VBN'), ('the', 'DT'), ('company', 'NN'), ('in', 'IN'), ('2006', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   yearly/JJ   comfort/NN   of/IN   animated/VBN   excellence/NN   now/RB   comes/VBZ   from/IN   (GPE Pixar/NNP)   's/POS   releases/NNS   ,/,   which/WDT   (ORGANIZATION Disney/NNP)   shares/NNS   in/IN   ,/,   having/VBG   acquired/VBN   the/DT   company/NN   in/IN   2006/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB animated/VBN excellence/NN now/RB)
+	(VERB comes/VBZ from/IN Pixar/NNP)
+	(VERB having/VBG acquired/VBN the/DT company/NN in/IN 2006/CD)
+
+tagged sentence:
+	 having acquired the company in 2006	res:2
+noun phrases to consider:
+	(NOUN The/DT yearly/JJ comfort/NN)
+	(NOUN releases/NNS)
+	(NOUN Disney/NNP shares/NNS)
+
+----------------------------------
+original sentence: 
+Those films â€” from "Ratatouille" to "Toy Story 2" â€” constitute a higher plane of art.
+
+POS tagged sentence: 
+[('Those', 'DT'), ('films', 'NNS'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x94', ':'), ('from', 'IN'), ('"', 'CD'), ('Ratatouille', 'NNP'), ('"', 'NNP'), ('to', 'TO'), ('"', 'VB'), ('Toy', 'NNP'), ('Story', 'NNP'), ('2', 'CD'), ('"', 'CD'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x94', 'CD'), ('constitute', 'NN'), ('a', 'DT'), ('higher', 'JJR'), ('plane', 'NN'), ('of', 'IN'), ('art', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Those/DT   films/NNS   â/VBP   €/:   ”/:   from/IN   "/CD   Ratatouille/NNP   "/NNP   to/TO   "/VB   (PERSON Toy/NNP)   Story/NNP   2/CD   "/CD   â/CD   €/CD   ”/CD   constitute/NN   a/DT   higher/JJR   plane/NN   of/IN   art/NN   ./.)
+----------------------------------
+original sentence: 
+One might even call it the circle of life, or something.
+
+POS tagged sentence: 
+[('One', 'CD'), ('might', 'MD'), ('even', 'RB'), ('call', 'VB'), ('it', 'PRP'), ('the', 'DT'), ('circle', 'NN'), ('of', 'IN'), ('life', 'NN'), (',', ','), ('or', 'CC'), ('something', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   might/MD   even/RB   call/VB   it/PRP   the/DT   circle/NN   of/IN   life/NN   ,/,   or/CC   something/NN   ./.)
+----------------------------------
+original sentence: 
+"Waking Sleeping Beauty," a Walt Disney Motion Picture Studios release, is rated PG for some thematic elements and brief mild language.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Waking', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), (',', ','), ('"', 'NNP'), ('a', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Motion', 'NNP'), ('Picture', 'NNP'), ('Studios', 'NNP'), ('release', 'NN'), (',', ','), ('is', 'VBZ'), ('rated', 'VBN'), ('PG', 'NNP'), ('for', 'IN'), ('some', 'DT'), ('thematic', 'JJ'), ('elements', 'NNS'), ('and', 'CC'), ('brief', 'JJ'), ('mild', 'NN'), ('language', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Waking/NNP   Sleeping/NNP   Beauty/NNP   ,/,   "/NNP   a/DT   (ORGANIZATION     Walt/NNP     Disney/NNP     Motion/NNP     Picture/NNP     Studios/NNP)   release/NN   ,/,   is/VBZ   rated/VBN   (ORGANIZATION PG/NNP)   for/IN   some/DT   thematic/JJ   elements/NNS   and/CC   brief/JJ   mild/NN   language/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   rated/VBN   PG/NNP   for/IN   some/DT   thematic/JJ   elements/NNS)
+noun phrases to consider:
+	(NOUN "/NN Waking/NNP Sleeping/NNP Beauty/NNP)
+	(NOUN "/NNP)
+	(NOUN Walt/NNP Disney/NNP Motion/NNP Picture/NNP)
+	(NOUN Studios/NNP release/NN)
+	(NOUN brief/JJ mild/NN language/NN)
+
+----------------------------------
+original sentence: 
+Running time: 86 minutes.
+
+POS tagged sentence: 
+[('Running', 'VBG'), ('time', 'NN'), (':', ':'), ('86', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Running/VBG time/NN :/: 86/CD minutes/NNS ./.)
+----------------------------------
+original sentence: 
+Three stars out of four.
+
+POS tagged sentence: 
+[('Three', 'CD'), ('stars', 'NNS'), ('out', 'IN'), ('of', 'IN'), ('four', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Three/CD stars/NNS out/IN of/IN four/CD ./.)
+----------------------------------
+original sentence: 
+Motion Picture Association of America rating definitions:
+G â€” General audiences.
+
+POS tagged sentence: 
+[('Motion', 'NN'), ('Picture', 'NN'), ('Association', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('rating', 'NN'), ('definitions', 'NNS'), (':', ':'), ('G', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('General', 'NNP'), ('audiences', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Motion/NN)   (PERSON Picture/NN Association/NNP)   of/IN   (GPE America/NNP)   rating/NN   definitions/NNS   :/:   G/NNP   â/:   €/:   ”/:   General/NNP   audiences/NNS   ./.)
+----------------------------------
+original sentence: 
+All ages admitted.
+
+POS tagged sentence: 
+[('All', 'DT'), ('ages', 'NNS'), ('admitted', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT ages/NNS admitted/VBN ./.)
+----------------------------------
+original sentence: 
+PG â€” Parental guidance suggested.
+
+POS tagged sentence: 
+[('PG', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('Parental', 'NNP'), ('guidance', 'NN'), ('suggested', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   PG/NNP   â/:   €/:   ”/:   (ORGANIZATION Parental/NNP)   guidance/NN   suggested/VBD   ./.)
+----------------------------------
+original sentence: 
+Some material may not be suitable for children.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('suitable', 'JJ'), ('for', 'IN'), ('children', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   material/NN   may/MD   not/RB   be/VB   suitable/JJ   for/IN   children/NNS   ./.)
+----------------------------------
+original sentence: 
+PG 13 â€” Special parental guidance strongly suggested for children under 13.
+
+POS tagged sentence: 
+[('PG', 'NNP'), ('13', 'CD'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x94', 'CD'), ('Special', 'JJ'), ('parental', 'NN'), ('guidance', 'NN'), ('strongly', 'RB'), ('suggested', 'VBD'), ('for', 'IN'), ('children', 'NNS'), ('under', 'IN'), ('13', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   PG/NNP   13/CD   â/CD   €/CD   ”/CD   Special/JJ   parental/NN   guidance/NN   strongly/RB   suggested/VBD   for/IN   children/NNS   under/IN   13/CD   ./.)
+----------------------------------
+original sentence: 
+Some material may be inappropriate for young children.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('material', 'NN'), ('may', 'MD'), ('be', 'VB'), ('inappropriate', 'JJ'), ('for', 'IN'), ('young', 'JJ'), ('children', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   material/NN   may/MD   be/VB   inappropriate/JJ   for/IN   young/JJ   children/NNS   ./.)
+----------------------------------
+original sentence: 
+R â€” Restricted.
+
+POS tagged sentence: 
+[('R', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x94', ':'), ('Restricted', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S R/NNP â/: €/: ”/: Restricted/NNP ./.)
+----------------------------------
+original sentence: 
+Under 17 requires accompanying parent or adult guardian.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('17', 'CD'), ('requires', 'NNS'), ('accompanying', 'VBG'), ('parent', 'NN'), ('or', 'CC'), ('adult', 'NN'), ('guardian', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   17/CD   requires/NNS   accompanying/VBG   parent/NN   or/CC   adult/NN   guardian/NN   ./.)
+----------------------------------
+original sentence: 
+NC 17 â€” No one under 17 admitted.
+
+POS tagged sentence: 
+[('NC', 'NNP'), ('17', 'CD'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x94', 'CD'), ('No', 'NNP'), ('one', 'CD'), ('under', 'IN'), ('17', 'CD'), ('admitted', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   NC/NNP   17/CD   â/CD   €/CD   ”/CD   No/NNP   one/CD   under/IN   17/CD   admitted/VBN   ./.)
+----------------------------------
+original sentence: 
+Copyright 2010 The Associated Press.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2010', 'CD'), ('The', 'NNP'), ('Associated', 'NNP'), ('Press', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Copyright/NNP   2010/CD   The/NNP   (ORGANIZATION Associated/NNP Press/NNP)   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+This material may not be published, broadcast, rewritten or redistributed.
+
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), (',', ','), ('broadcast', 'JJ'), (',', ','), ('rewritten', 'RB'), ('or', 'CC'), ('redistributed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   may/MD   not/RB   be/VB   published/VBN   ,/,   broadcast/JJ   ,/,   rewritten/RB   or/CC   redistributed/VBN   ./.)
+
+veryneg:0	neg:1	pos:2	verypos:1	total:1

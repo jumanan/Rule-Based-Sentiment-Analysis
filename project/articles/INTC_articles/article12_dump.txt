@@ -1,0 +1,255 @@
+
+----------------------------------
+original sentence: 
+Intel CEO Otellini's Total Pay Up 18% To $14.6 Million In 2009 FOXBusiness.com
+Existing users please login
+ Remember me on this computer
+Friday, April 02, 2010
+Intel CEO Otellini's Total Pay Up 18% To $14.6 Million In 2009
+ DOW JONES NEWSWIRES  Total pay for Intel Corp.  Chief Executive Paul Otellini grew 18% to $14.6 million in 2009, according to a filing with the Securities and Exchange Commission.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('CEO', 'NNP'), ('Otellini', 'NNP'), ("'s", 'POS'), ('Total', 'NNP'), ('Pay', 'NNP'), ('Up', 'NNP'), ('18', 'CD'), ('%', 'NN'), ('To', 'TO'), ('$', '$'), ('14.6', 'CD'), ('Million', 'CD'), ('In', 'IN'), ('2009', 'CD'), ('FOXBusiness.com', 'JJ'), ('Existing', 'NNP'), ('users', 'NNS'), ('please', 'VB'), ('login', 'NN'), ('Remember', 'NNP'), ('me', 'PRP'), ('on', 'IN'), ('this', 'DT'), ('computer', 'NN'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('02', 'CD'), (',', ','), ('2010', 'CD'), ('Intel', 'NNP'), ('CEO', 'NNP'), ('Otellini', 'NNP'), ("'s", 'POS'), ('Total', 'NNP'), ('Pay', 'NNP'), ('Up', 'NNP'), ('18', 'CD'), ('%', 'NN'), ('To', 'TO'), ('$', '$'), ('14.6', 'CD'), ('Million', 'CD'), ('In', 'IN'), ('2009', 'CD'), ('DOW', 'NNP'), ('JONES', 'NNP'), ('NEWSWIRES', 'NNP'), ('Total', 'NNP'), ('pay', 'NN'), ('for', 'IN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Paul', 'NNP'), ('Otellini', 'NNP'), ('grew', 'VBD'), ('18', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('14.6', 'CD'), ('million', 'CD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('filing', 'NN'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (ORGANIZATION CEO/NNP Otellini/NNP)   's/POS   (ORGANIZATION Total/NNP Pay/NNP)   Up/NNP   18/CD   %/NN   To/TO   $/$   14.6/CD   Million/CD   In/IN   2009/CD   FOXBusiness.com/JJ   Existing/NNP   users/NNS   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Friday/NNP   ,/,   April/NNP   02/CD   ,/,   2010/CD   (ORGANIZATION Intel/NNP)   CEO/NNP   Otellini/NNP   's/POS   (ORGANIZATION Total/NNP Pay/NNP)   Up/NNP   18/CD   %/NN   To/TO   $/$   14.6/CD   Million/CD   In/IN   2009/CD   (ORGANIZATION DOW/NNP)   JONES/NNP   (ORGANIZATION NEWSWIRES/NNP Total/NNP)   pay/NN   for/IN   (ORGANIZATION Intel/NNP Corp./NNP)   Chief/NNP   Executive/NNP   (PERSON Paul/NNP Otellini/NNP)   grew/VBD   18/CD   %/NN   to/TO   $/$   14.6/CD   million/CD   in/IN   2009/CD   ,/,   according/VBG   to/TO   a/DT   filing/NN   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   please/VB   login/NN   Remember/NNP   me/PRP   on/IN   this/DT   computer/NN   Friday/NNP)
+	(VERB grew/VBD 18/CD %/NN)
+	(VERB   according/VBG   to/TO   a/DT   filing/NN   with/IN   the/DT   Securities/NNPS)
+noun phrases to consider:
+	(NOUN Intel/NNP CEO/NNP Otellini/NNP)
+	(NOUN Total/NNP Pay/NNP Up/NNP)
+	(NOUN 18/CD %/NN)
+	(NOUN 2009/CD FOXBusiness.com/JJ Existing/NNP users/NNS)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Intel/NNP CEO/NNP Otellini/NNP)
+	(NOUN Total/NNP Pay/NNP Up/NNP)
+	(NOUN 18/CD %/NN)
+	(NOUN 2009/CD DOW/NNP JONES/NNP NEWSWIRES/NNP Total/NNP)
+	(NOUN pay/NN)
+	(NOUN Intel/NNP Corp./NNP Chief/NNP Executive/NNP)
+	(NOUN Paul/NNP Otellini/NNP)
+	(NOUN Exchange/NNP Commission/NNP)
+
+----------------------------------
+original sentence: 
+While his base annual salary remained at $1 million, Otellini's performance based bonus climbed 36% to $5.3 million.
+
+POS tagged sentence: 
+[('While', 'IN'), ('his', 'PRP$'), ('base', 'NN'), ('annual', 'JJ'), ('salary', 'NN'), ('remained', 'VBD'), ('at', 'IN'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), (',', ','), ('Otellini', 'NNP'), ("'s", 'POS'), ('performance', 'NN'), ('based', 'VBN'), ('bonus', 'NN'), ('climbed', 'VBD'), ('36', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('5.3', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   his/PRP$   base/NN   annual/JJ   salary/NN   remained/VBD   at/IN   $/$   1/CD   million/CD   ,/,   (PERSON Otellini/NNP)   's/POS   performance/NN   based/VBN   bonus/NN   climbed/VBD   36/CD   %/NN   to/TO   $/$   5.3/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+The value of his stock awards jumped 54% to $6.7 million, while the value of his option awards dropped 59% to $1.2 million.
+
+POS tagged sentence: 
+[('The', 'DT'), ('value', 'NN'), ('of', 'IN'), ('his', 'PRP$'), ('stock', 'NN'), ('awards', 'NNS'), ('jumped', 'VBD'), ('54', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('6.7', 'CD'), ('million', 'CD'), (',', ','), ('while', 'IN'), ('the', 'DT'), ('value', 'NN'), ('of', 'IN'), ('his', 'PRP$'), ('option', 'NN'), ('awards', 'NNS'), ('dropped', 'VBD'), ('59', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('1.2', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   value/NN   of/IN   his/PRP$   stock/NN   awards/NNS   jumped/VBD   54/CD   %/NN   to/TO   $/$   6.7/CD   million/CD   ,/,   while/IN   the/DT   value/NN   of/IN   his/PRP$   option/NN   awards/NNS   dropped/VBD   59/CD   %/NN   to/TO   $/$   1.2/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+The increase in stock awards value was mostly the result of the investment grants of options in 2009 and the adoption of outperformance stock units as the primary annual equity vehicle.
+
+POS tagged sentence: 
+[('The', 'DT'), ('increase', 'NN'), ('in', 'IN'), ('stock', 'NN'), ('awards', 'NNS'), ('value', 'NN'), ('was', 'VBD'), ('mostly', 'RB'), ('the', 'DT'), ('result', 'NN'), ('of', 'IN'), ('the', 'DT'), ('investment', 'NN'), ('grants', 'NNS'), ('of', 'IN'), ('options', 'NNS'), ('in', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('the', 'DT'), ('adoption', 'NN'), ('of', 'IN'), ('outperformance', 'NN'), ('stock', 'NN'), ('units', 'NNS'), ('as', 'IN'), ('the', 'DT'), ('primary', 'JJ'), ('annual', 'JJ'), ('equity', 'NN'), ('vehicle', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   increase/NN   in/IN   stock/NN   awards/NNS   value/NN   was/VBD   mostly/RB   the/DT   result/NN   of/IN   the/DT   investment/NN   grants/NNS   of/IN   options/NNS   in/IN   2009/CD   and/CC   the/DT   adoption/NN   of/IN   outperformance/NN   stock/NN   units/NNS   as/IN   the/DT   primary/JJ   annual/JJ   equity/NN   vehicle/NN   ./.)
+----------------------------------
+original sentence: 
+Otellini's base salary rose 30% to $1 million in 2008, but his total compensation was flat at $12.1 million that year.
+
+POS tagged sentence: 
+[('Otellini', 'NNP'), ("'s", 'POS'), ('base', 'NN'), ('salary', 'NN'), ('rose', 'VBD'), ('30', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('in', 'IN'), ('2008', 'CD'), (',', ','), ('but', 'CC'), ('his', 'PRP$'), ('total', 'JJ'), ('compensation', 'NN'), ('was', 'VBD'), ('flat', 'JJ'), ('at', 'IN'), ('$', '$'), ('12.1', 'CD'), ('million', 'CD'), ('that', 'WDT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Otellini/NNP)   's/POS   base/NN   salary/NN   rose/VBD   30/CD   %/NN   to/TO   $/$   1/CD   million/CD   in/IN   2008/CD   ,/,   but/CC   his/PRP$   total/JJ   compensation/NN   was/VBD   flat/JJ   at/IN   $/$   12.1/CD   million/CD   that/WDT   year/NN   ./.)
+----------------------------------
+original sentence: 
+Intel, the world's largest semiconductor maker, reported one of its most profitable quarters in the fourth quarter, resulting from key decisions made by its management as well as a strict adherence to a schedule of new products and investments.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('semiconductor', 'NN'), ('maker', 'NN'), (',', ','), ('reported', 'VBD'), ('one', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('most', 'RBS'), ('profitable', 'JJ'), ('quarters', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), (',', ','), ('resulting', 'VBG'), ('from', 'IN'), ('key', 'JJ'), ('decisions', 'NNS'), ('made', 'VBN'), ('by', 'IN'), ('its', 'PRP$'), ('management', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('a', 'DT'), ('strict', 'NN'), ('adherence', 'NN'), ('to', 'TO'), ('a', 'DT'), ('schedule', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('products', 'NNS'), ('and', 'CC'), ('investments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   ,/,   the/DT   world/NN   's/POS   largest/JJS   semiconductor/NN   maker/NN   ,/,   reported/VBD   one/CD   of/IN   its/PRP$   most/RBS   profitable/JJ   quarters/NNS   in/IN   the/DT   fourth/JJ   quarter/NN   ,/,   resulting/VBG   from/IN   key/JJ   decisions/NNS   made/VBN   by/IN   its/PRP$   management/NN   as/IN   well/RB   as/IN   a/DT   strict/NN   adherence/NN   to/TO   a/DT   schedule/NN   of/IN   new/JJ   products/NNS   and/CC   investments/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD one/CD of/IN its/PRP$)
+	(VERB resulting/VBG from/IN key/JJ decisions/NNS)
+	(VERB   made/VBN   by/IN   its/PRP$   management/NN   as/IN   well/RB   as/IN   a/DT   strict/NN   adherence/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN world/NN)
+	(NOUN largest/JJS semiconductor/NN maker/NN)
+
+tagged sentence:
+	 largest semiconductor maker	res:1
+	(NOUN profitable/JJ quarters/NNS)
+
+tagged sentence:
+	 profitable quarters	res:1
+	(NOUN the/DT fourth/JJ quarter/NN)
+	(NOUN schedule/NN)
+	(NOUN new/JJ products/NNS)
+	(NOUN investments/NNS)
+
+----------------------------------
+original sentence: 
+Even as demand dropped amid the recession, the company spent $7 billion for new chip plants in the U.S. and kept its manufacturing schedule on track.
+
+POS tagged sentence: 
+[('Even', 'RB'), ('as', 'IN'), ('demand', 'NN'), ('dropped', 'VBD'), ('amid', 'IN'), ('the', 'DT'), ('recession', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('spent', 'VBD'), ('$', '$'), ('7', 'CD'), ('billion', 'CD'), ('for', 'IN'), ('new', 'JJ'), ('chip', 'NN'), ('plants', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('kept', 'VBD'), ('its', 'PRP$'), ('manufacturing', 'NN'), ('schedule', 'NN'), ('on', 'IN'), ('track', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Even/RB   as/IN   demand/NN   dropped/VBD   amid/IN   the/DT   recession/NN   ,/,   the/DT   company/NN   spent/VBD   $/$   7/CD   billion/CD   for/IN   new/JJ   chip/NN   plants/NNS   in/IN   the/DT   (GPE U.S./NNP)   and/CC   kept/VBD   its/PRP$   manufacturing/NN   schedule/NN   on/IN   track/NN   ./.)
+----------------------------------
+original sentence: 
+That laid the groundwork for Intel to post fourth quarter results significantly better than Wall Street expected, helped by strong sales of netbook computers and an uptick in sales of server systems to corporate customers.
+
+POS tagged sentence: 
+[('That', 'DT'), ('laid', 'VBD'), ('the', 'DT'), ('groundwork', 'NN'), ('for', 'IN'), ('Intel', 'NNP'), ('to', 'TO'), ('post', 'VB'), ('fourth', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('significantly', 'RB'), ('better', 'RBR'), ('than', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('expected', 'VBD'), (',', ','), ('helped', 'VBN'), ('by', 'IN'), ('strong', 'JJ'), ('sales', 'NNS'), ('of', 'IN'), ('netbook', 'NN'), ('computers', 'NNS'), ('and', 'CC'), ('an', 'DT'), ('uptick', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('of', 'IN'), ('server', 'NN'), ('systems', 'NNS'), ('to', 'TO'), ('corporate', 'JJ'), ('customers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   laid/VBD   the/DT   groundwork/NN   for/IN   (ORGANIZATION Intel/NNP)   to/TO   post/VB   fourth/JJ   quarter/NN   results/NNS   significantly/RB   better/RBR   than/IN   (FACILITY Wall/NNP Street/NNP)   expected/VBD   ,/,   helped/VBN   by/IN   strong/JJ   sales/NNS   of/IN   netbook/NN   computers/NNS   and/CC   an/DT   uptick/NN   in/IN   sales/NNS   of/IN   server/NN   systems/NNS   to/TO   corporate/JJ   customers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB laid/VBD the/DT groundwork/NN for/IN Intel/NNP)
+	(VERB post/VB fourth/JJ quarter/NN results/NNS significantly/RB)
+	(VERB expected/VBD)
+	(VERB   helped/VBN   by/IN   strong/JJ   sales/NNS   of/IN   netbook/NN   computers/NNS)
+noun phrases to consider:
+	(NOUN Wall/NNP Street/NNP)
+	(NOUN uptick/NN)
+	(NOUN sales/NNS)
+	(NOUN server/NN systems/NNS)
+	(NOUN corporate/JJ customers/NNS)
+
+----------------------------------
+original sentence: 
+The chip maker will report first quarter results April 13.
+
+POS tagged sentence: 
+[('The', 'DT'), ('chip', 'NN'), ('maker', 'NN'), ('will', 'MD'), ('report', 'VB'), ('first', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('April', 'NNP'), ('13', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   chip/NN   maker/NN   will/MD   report/VB   first/JJ   quarter/NN   results/NNS   April/NNP   13/CD   ./.)
+----------------------------------
+original sentence: 
+Copyright &copy; 2009 Dow Jones Newswires
+Personal Finance Investing Financial News Business News Stock Market Quotes & News Small Business
+Jobs at FOX Business Network
+.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2009', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Newswires', 'NNP'), ('Personal', 'NNP'), ('Finance', 'NNP'), ('Investing', 'NNP'), ('Financial', 'NNP'), ('News', 'NNP'), ('Business', 'NNP'), ('News', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Quotes', 'NNP'), ('&', 'CC'), ('News', 'NNP'), ('Small', 'NNP'), ('Business', 'NNP'), ('Jobs', 'NNP'), ('at', 'IN'), ('FOX', 'NNP'), ('Business', 'NNP'), ('Network', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   2009/CD   Dow/NNP   (PERSON     Jones/NNP     Newswires/NNP     Personal/NNP     Finance/NNP     Investing/NNP     Financial/NNP     News/NNP     Business/NNP     News/NNP     Stock/NNP     Market/NNP     Quotes/NNP)   &/CC   (ORGANIZATION News/NNP Small/NNP Business/NNP Jobs/NNP)   at/IN   (ORGANIZATION FOX/NNP Business/NNP Network/NNP)   ./.)
+----------------------------------
+original sentence: 
+For FOXBusiness.com technical issues write to foxbusinessonline@foxbusiness.com
+; for all other feedback, write to feedback@foxbusiness.com
+Quotes delayed at least 15 minutes.
+
+POS tagged sentence: 
+[('For', 'IN'), ('FOXBusiness.com', 'JJ'), ('technical', 'JJ'), ('issues', 'NNS'), ('write', 'VBP'), ('to', 'TO'), ('foxbusinessonline', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), (';', ':'), ('for', 'IN'), ('all', 'PDT'), ('other', 'JJ'), ('feedback', 'NN'), (',', ','), ('write', 'JJ'), ('to', 'TO'), ('feedback', 'VB'), ('@', ':'), ('foxbusiness.com', 'JJ'), ('Quotes', 'NNS'), ('delayed', 'VBN'), ('at', 'IN'), ('least', 'JJS'), ('15', 'CD'), ('minutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   FOXBusiness.com/JJ   technical/JJ   issues/NNS   write/VBP   to/TO   foxbusinessonline/VB   @/:   foxbusiness.com/JJ   ;/:   for/IN   all/PDT   other/JJ   feedback/NN   ,/,   write/JJ   to/TO   feedback/VB   @/:   foxbusiness.com/JJ   Quotes/NNS   delayed/VBN   at/IN   least/JJS   15/CD   minutes/NNS   ./.)
+----------------------------------
+original sentence: 
+Market Data provided by Interactive Data  .
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Data', 'NNP'), ('provided', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Market/NN)   (PERSON Data/NNP)   provided/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP)   ./.)
+----------------------------------
+original sentence: 
+Powered and implemented by Interactive Data Managed Solutions
+.
+
+POS tagged sentence: 
+[('Powered', 'NNP'), ('and', 'CC'), ('implemented', 'VBD'), ('by', 'IN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('Managed', 'NNP'), ('Solutions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Powered/NNP)   and/CC   implemented/VBD   by/IN   (ORGANIZATION Interactive/NNP Data/NNP Managed/NNP Solutions/NNP)   ./.)
+----------------------------------
+original sentence: 
+Company fundamental data provided by .
+
+POS tagged sentence: 
+[('Company', 'NN'), ('fundamental', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Company/NN) fundamental/NN data/NNS provided/VBN by/IN ./.)
+----------------------------------
+original sentence: 
+Earnings estimates data provided by Zacks.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('estimates', 'VBZ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   estimates/VBZ   data/NNS   provided/VBN   by/IN   (PERSON Zacks/NNP)   ./.)
+----------------------------------
+original sentence: 
+Mutual fund data provided by Lipper.
+
+POS tagged sentence: 
+[('Mutual', 'JJ'), ('fund', 'NN'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Lipper', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mutual/JJ)   fund/NN   data/NNS   provided/VBN   by/IN   (PERSON Lipper/NNP)   ./.)
+----------------------------------
+original sentence: 
+Economic data provided by Econoday.
+
+POS tagged sentence: 
+[('Economic', 'JJ'), ('data', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Econoday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Economic/JJ data/NNS provided/VBN by/IN Econoday/NNP ./.)
+----------------------------------
+original sentence: 
+Dow Jones & Company Terms & Conditions.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), ('Terms', 'NNP'), ('&', 'CC'), ('Conditions', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dow/NNP)   (PERSON Jones/NNP)   &/CC   (ORGANIZATION Company/NNP Terms/NNP)   &/CC   (ORGANIZATION Conditions/NNP)   ./.)
+----------------------------------
+original sentence: 
+This material may not be published, broadcast, rewritten, or redistributed.
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), (',', ','), ('broadcast', 'JJ'), (',', ','), ('rewritten', 'RB'), (',', ','), ('or', 'CC'), ('redistributed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   may/MD   not/RB   be/VB   published/VBN   ,/,   broadcast/JJ   ,/,   rewritten/RB   ,/,   or/CC   redistributed/VBN   ./.)
+----------------------------------
+original sentence: 
+&copy;2010 FOX News Network, LLC.
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('FOX', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), (',', ','), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &copy/JJ   ;/:   2010/CD   (ORGANIZATION FOX/NNP News/NNP Network/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:2

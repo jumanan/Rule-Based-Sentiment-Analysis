@@ -1,0 +1,902 @@
+
+----------------------------------
+original sentence: 
+Princess Tiana Officially Joins the Disney Princess Royal Court at Star Studded Crowning Event in New York City | Business Wire
+ March 14, 2010 08:02 PM Eastern Daylight Time Princess Tiana Officially Joins the Disney Princess Royal Court at Star Studded Crowning Event in New York City
+Celebration Marks Debut of Academy Award
+ Nominated &#8220;The Princess and the Frog&#8221; on Disney Blu Ray Plus the First Product Line Featuring Tiana in Multi Disney Princess Merchandise
+ She sang &#8220;Almost There&#8221; in the hit holiday film The Princess and the Frog &#8211; but today, Princess Tiana has officially
+and she&#8217;s here to stay.
+
+POS tagged sentence: 
+[('Princess', 'NN'), ('Tiana', 'NNP'), ('Officially', 'NNP'), ('Joins', 'NNP'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('Star', 'NNP'), ('Studded', 'NNP'), ('Crowning', 'NNP'), ('Event', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('14', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('02', 'CD'), ('PM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('Officially', 'NNP'), ('Joins', 'NNP'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('Star', 'NNP'), ('Studded', 'NNP'), ('Crowning', 'NNP'), ('Event', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('Celebration', 'NNP'), ('Marks', 'NNP'), ('Debut', 'NNP'), ('of', 'IN'), ('Academy', 'NNP'), ('Award', 'NNP'), ('Nominated', 'NNP'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('on', 'IN'), ('Disney', 'NNP'), ('Blu', 'NNP'), ('Ray', 'NNP'), ('Plus', 'NNP'), ('the', 'DT'), ('First', 'NNP'), ('Product', 'NNP'), ('Line', 'NNP'), ('Featuring', 'NNP'), ('Tiana', 'NNP'), ('in', 'IN'), ('Multi', 'NNP'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Merchandise', 'NNP'), ('She', 'NNP'), ('sang', 'NN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Almost', 'NNP'), ('There&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('in', 'IN'), ('the', 'DT'), ('hit', 'NN'), ('holiday', 'NN'), ('film', 'NN'), ('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('but', 'CC'), ('today', 'NN'), (',', ','), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('has', 'VBZ'), ('officially', 'RB'), ('and', 'CC'), ('she&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('here', 'RB'), ('to', 'TO'), ('stay', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Princess/NN)   (PERSON Tiana/NNP Officially/NNP)   Joins/NNP   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   (FACILITY Star/NNP Studded/NNP)   Crowning/NNP   Event/NNP   in/IN   (GPE New/NNP York/NNP City/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   14/CD   ,/,   2010/CD   08/CD   :/:   02/CD   PM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Princess/NNP   Tiana/NNP   Officially/NNP   Joins/NNP   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   (FACILITY Star/NNP Studded/NNP)   Crowning/NNP   Event/NNP   in/IN   (GPE New/NNP York/NNP City/NNP)   Celebration/NNP   (PERSON Marks/NNP Debut/NNP)   of/IN   (PERSON Academy/NNP Award/NNP Nominated/NNP)   &/CC   #/#   8220/CD   ;/:   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   Frog&/NNP   #/#   8221/CD   ;/:   on/IN   (ORGANIZATION Disney/NNP Blu/NNP Ray/NNP)   Plus/NNP   the/DT   (ORGANIZATION First/NNP Product/NNP Line/NNP)   Featuring/NNP   Tiana/NNP   in/IN   (GPE Multi/NNP)   Disney/NNP   Princess/NNP   Merchandise/NNP   She/NNP   sang/NN   &/CC   #/#   8220/CD   ;/:   (PERSON Almost/NNP)   There&/NNP   #/#   8221/CD   ;/:   in/IN   the/DT   hit/NN   holiday/NN   film/NN   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   &/CC   #/#   8211/CD   ;/:   but/CC   today/NN   ,/,   (ORGANIZATION Princess/NNP Tiana/NNP)   has/VBZ   officially/RB   and/CC   she&/JJ   #/#   8217/CD   ;/:   s/NNS   here/RB   to/TO   stay/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ officially/RB)
+	(VERB stay/VB)
+noun phrases to consider:
+	(NOUN Princess/NN Tiana/NNP Officially/NNP Joins/NNP)
+	(NOUN Disney/NNP Princess/NNP Royal/NNP Court/NNP)
+	(NOUN Star/NNP Studded/NNP Crowning/NNP Event/NNP)
+	(NOUN New/NNP York/NNP City/NNP |/NNP)
+	(NOUN Business/NNP Wire/NNP March/NNP)
+	(NOUN 02/CD PM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Princess/NNP Tiana/NNP Officially/NNP Joins/NNP)
+	(NOUN Disney/NNP Princess/NNP Royal/NNP Court/NNP)
+	(NOUN Star/NNP Studded/NNP Crowning/NNP Event/NNP)
+	(NOUN New/NNP York/NNP City/NNP Celebration/NNP)
+	(NOUN Marks/NNP Debut/NNP)
+	(NOUN Academy/NNP Award/NNP Nominated/NNP)
+	(NOUN Princess/NNP)
+	(NOUN Frog&/NNP)
+	(NOUN Disney/NNP Blu/NNP Ray/NNP Plus/NNP)
+	(NOUN First/NNP Product/NNP Line/NNP Featuring/NNP)
+	(NOUN Tiana/NNP)
+	(NOUN Multi/NNP Disney/NNP Princess/NNP Merchandise/NNP)
+	(NOUN She/NNP sang/NN)
+	(NOUN Almost/NNP There&/NNP)
+	(NOUN hit/NN holiday/NN film/NN)
+	(NOUN Princess/NNP)
+	(NOUN Frog/NNP)
+	(NOUN today/NN)
+	(NOUN Princess/NNP Tiana/NNP)
+	(NOUN she&/JJ)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+At a star studded event highlighted by a rare gathering of all eight Disney Princess characters, Princess Tiana was warmly and regally welcomed as the ninth member of the beloved Disney Princess Royal Court today during a magical crowning ceremony at the historic New York Palace in Manhattan.
+
+POS tagged sentence: 
+[('At', 'IN'), ('a', 'DT'), ('star', 'NN'), ('studded', 'VBN'), ('event', 'NN'), ('highlighted', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('rare', 'JJ'), ('gathering', 'NN'), ('of', 'IN'), ('all', 'DT'), ('eight', 'CD'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('characters', 'NNS'), (',', ','), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('was', 'VBD'), ('warmly', 'RB'), ('and', 'CC'), ('regally', 'RB'), ('welcomed', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('ninth', 'NN'), ('member', 'NN'), ('of', 'IN'), ('the', 'DT'), ('beloved', 'VBN'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('today', 'NN'), ('during', 'IN'), ('a', 'DT'), ('magical', 'JJ'), ('crowning', 'NN'), ('ceremony', 'NN'), ('at', 'IN'), ('the', 'DT'), ('historic', 'JJ'), ('New', 'NNP'), ('York', 'NNP'), ('Palace', 'NNP'), ('in', 'IN'), ('Manhattan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   a/DT   star/NN   studded/VBN   event/NN   highlighted/VBN   by/IN   a/DT   rare/JJ   gathering/NN   of/IN   all/DT   eight/CD   (ORGANIZATION Disney/NNP)   Princess/NNP   characters/NNS   ,/,   (ORGANIZATION Princess/NNP Tiana/NNP)   was/VBD   warmly/RB   and/CC   regally/RB   welcomed/VBN   as/IN   the/DT   ninth/NN   member/NN   of/IN   the/DT   beloved/VBN   (PERSON Disney/NNP Princess/NNP Royal/NNP Court/NNP)   today/NN   during/IN   a/DT   magical/JJ   crowning/NN   ceremony/NN   at/IN   the/DT   historic/JJ   (GPE New/NNP York/NNP Palace/NNP)   in/IN   (GPE Manhattan/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB studded/VBN event/NN)
+	(VERB   highlighted/VBN   by/IN   a/DT   rare/JJ   gathering/NN   of/IN   all/DT   eight/CD   Disney/NNP   Princess/NNP   characters/NNS)
+	(VERB was/VBD warmly/RB)
+	(VERB welcomed/VBN as/IN the/DT ninth/NN member/NN of/IN the/DT)
+	(VERB   beloved/VBN   Disney/NNP   Princess/NNP   Royal/NNP   Court/NNP   today/NN   during/IN   a/DT   magical/JJ   crowning/NN   ceremony/NN   at/IN   the/DT   historic/JJ   New/NNP   York/NNP   Palace/NNP   in/IN   Manhattan/NNP)
+noun phrases to consider:
+	(NOUN star/NN)
+	(NOUN Princess/NNP Tiana/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;We&#8217;re thrilled to recognize Princess Tiana and officially announce that she is here to stay as a full fledged Disney Princess&#8221;
+ Editors' note: Event images available at http://dcp.smugmug.com/Events/Princess Coronation/11490709_o4Cfb
+ As Disney&#8217;s newest Disney Princess character, Tiana will forever be celebrated and recognized as a Disney Princess across all divisions of The Walt Disney Company and will be included in all Disney Princess merchandise programs featuring multiple Disney Princess characters starting this July.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('re', 'NN'), ('thrilled', 'VBD'), ('to', 'TO'), ('recognize', 'VB'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('and', 'CC'), ('officially', 'RB'), ('announce', 'NN'), ('that', 'IN'), ('she', 'PRP'), ('is', 'VBZ'), ('here', 'RB'), ('to', 'TO'), ('stay', 'VB'), ('as', 'IN'), ('a', 'DT'), ('full', 'JJ'), ('fledged', 'JJ'), ('Disney', 'NNP'), ('Princess&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Editors', 'NNP'), ("'", 'POS'), ('note', 'NN'), (':', ':'), ('Event', 'NNP'), ('images', 'NNS'), ('available', 'JJ'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//dcp.smugmug.com/Events/Princess', 'JJ'), ('Coronation/11490709_o4Cfb', 'NN'), ('As', 'IN'), ('Disney&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('newest', 'VBP'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('character', 'NN'), (',', ','), ('Tiana', 'NNP'), ('will', 'MD'), ('forever', 'VB'), ('be', 'VB'), ('celebrated', 'VBN'), ('and', 'CC'), ('recognized', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('across', 'IN'), ('all', 'DT'), ('divisions', 'NNS'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('will', 'MD'), ('be', 'VB'), ('included', 'VBN'), ('in', 'IN'), ('all', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('merchandise', 'NN'), ('programs', 'NNS'), ('featuring', 'VBG'), ('multiple', 'NN'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('characters', 'NNS'), ('starting', 'VBG'), ('this', 'DT'), ('July', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We&/JJ   #/#   8217/CD   ;/:   re/NN   thrilled/VBD   to/TO   recognize/VB   (ORGANIZATION Princess/NNP Tiana/NNP)   and/CC   officially/RB   announce/NN   that/IN   she/PRP   is/VBZ   here/RB   to/TO   stay/VB   as/IN   a/DT   full/JJ   fledged/JJ   (ORGANIZATION Disney/NNP)   Princess&/NNP   #/#   8221/CD   ;/:   (PERSON Editors/NNP)   '/POS   note/NN   :/:   Event/NNP   images/NNS   available/JJ   at/IN   http/NN   :/:   //dcp.smugmug.com/Events/Princess/JJ   Coronation/11490709_o4Cfb/NN   As/IN   Disney&/JJ   #/#   8217/CD   ;/:   s/NNS   newest/VBP   (PERSON Disney/NNP Princess/NNP)   character/NN   ,/,   (PERSON Tiana/NNP)   will/MD   forever/VB   be/VB   celebrated/VBN   and/CC   recognized/VBN   as/IN   a/DT   (ORGANIZATION Disney/NNP Princess/NNP)   across/IN   all/DT   divisions/NNS   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   and/CC   will/MD   be/VB   included/VBN   in/IN   all/DT   (ORGANIZATION Disney/NNP)   Princess/NNP   merchandise/NN   programs/NNS   featuring/VBG   multiple/NN   (PERSON Disney/NNP Princess/NNP)   characters/NNS   starting/VBG   this/DT   July/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB thrilled/VBD to/TO recognize/VB Princess/NNP Tiana/NNP)
+	(VERB   is/VBZ   here/RB   to/TO   stay/VB   as/IN   a/DT   full/JJ   fledged/JJ   Disney/NNP   Princess&/NNP)
+	(VERB newest/VBP Disney/NNP Princess/NNP character/NN)
+	(VERB forever/VB be/VB celebrated/VBN)
+	(VERB   recognized/VBN   as/IN   a/DT   Disney/NNP   Princess/NNP   across/IN   all/DT   divisions/NNS   of/IN   The/DT   Walt/NNP   Disney/NNP   Company/NNP)
+	(VERB   be/VB   included/VBN   in/IN   all/DT   Disney/NNP   Princess/NNP   merchandise/NN   programs/NNS)
+	(VERB   featuring/VBG   multiple/NN   Disney/NNP   Princess/NNP   characters/NNS)
+	(VERB starting/VBG this/DT July/NNP)
+noun phrases to consider:
+	(NOUN We&/JJ)
+	(NOUN re/NN)
+	(NOUN announce/NN)
+	(NOUN Editors/NNP)
+	(NOUN note/NN)
+	(NOUN Event/NNP images/NNS available/JJ)
+	(NOUN http/NN)
+	(NOUN   //dcp.smugmug.com/Events/Princess/JJ   Coronation/11490709_o4Cfb/NN)
+	(NOUN Disney&/JJ)
+	(NOUN s/NNS)
+	(NOUN Tiana/NNP)
+
+----------------------------------
+original sentence: 
+The event also celebrated the arrival of the Academy Award
+The Princess and the Frog
+ on Disney Blu Ray, which releases March 16.
+
+POS tagged sentence: 
+[('The', 'DT'), ('event', 'NN'), ('also', 'RB'), ('celebrated', 'VBD'), ('the', 'DT'), ('arrival', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Academy', 'NNP'), ('Award', 'NNP'), ('The', 'NNP'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('on', 'IN'), ('Disney', 'NNP'), ('Blu', 'NNP'), ('Ray', 'NNP'), (',', ','), ('which', 'WDT'), ('releases', 'NNS'), ('March', 'NNP'), ('16', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   event/NN   also/RB   celebrated/VBD   the/DT   arrival/NN   of/IN   the/DT   (ORGANIZATION Academy/NNP Award/NNP)   The/NNP   (ORGANIZATION Princess/NNP)   and/CC   the/DT   Frog/NNP   on/IN   (ORGANIZATION Disney/NNP Blu/NNP Ray/NNP)   ,/,   which/WDT   releases/NNS   March/NNP   16/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   celebrated/VBD   the/DT   arrival/NN   of/IN   the/DT   Academy/NNP   Award/NNP   The/NNP   Princess/NNP)
+noun phrases to consider:
+	(NOUN event/NN)
+	(NOUN Frog/NNP)
+	(NOUN Disney/NNP Blu/NNP Ray/NNP)
+	(NOUN releases/NNS March/NNP)
+
+----------------------------------
+original sentence: 
+Disney Princess licensees Mattel and CDI, a division of JAKKS Pacific, co sponsored the event and showcased the latest Disney Princess and The Princess and the Frog
+ toy and role play lines.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('Princess', 'NNP'), ('licensees', 'VBZ'), ('Mattel', 'NNP'), ('and', 'CC'), ('CDI', 'NNP'), (',', ','), ('a', 'DT'), ('division', 'NN'), ('of', 'IN'), ('JAKKS', 'NNP'), ('Pacific', 'NNP'), (',', ','), ('co', 'NN'), ('sponsored', 'VBD'), ('the', 'DT'), ('event', 'NN'), ('and', 'CC'), ('showcased', 'VBD'), ('the', 'DT'), ('latest', 'JJS'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('and', 'CC'), ('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('toy', 'NN'), ('and', 'CC'), ('role', 'NN'), ('play', 'NN'), ('lines', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   (ORGANIZATION Princess/NNP)   licensees/VBZ   (PERSON Mattel/NNP)   and/CC   (ORGANIZATION CDI/NNP)   ,/,   a/DT   division/NN   of/IN   (ORGANIZATION JAKKS/NNP Pacific/NNP)   ,/,   co/NN   sponsored/VBD   the/DT   event/NN   and/CC   showcased/VBD   the/DT   latest/JJS   (ORGANIZATION Disney/NNP Princess/NNP)   and/CC   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   toy/NN   and/CC   role/NN   play/NN   lines/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB licensees/VBZ Mattel/NNP)
+	(VERB sponsored/VBD the/DT event/NN)
+	(VERB showcased/VBD the/DT latest/JJS Disney/NNP Princess/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP Princess/NNP)
+	(NOUN CDI/NNP)
+	(NOUN division/NN)
+	(NOUN JAKKS/NNP Pacific/NNP)
+	(NOUN co/NN)
+	(NOUN Princess/NNP)
+	(NOUN Frog/NNP toy/NN)
+	(NOUN role/NN play/NN lines/NNS)
+
+----------------------------------
+original sentence: 
+Since the beginning of this year, more than a quarter of a million toys featuring Princess Tiana have already flown off shelves.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('the', 'DT'), ('beginning', 'NN'), ('of', 'IN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('more', 'RBR'), ('than', 'IN'), ('a', 'DT'), ('quarter', 'NN'), ('of', 'IN'), ('a', 'DT'), ('million', 'CD'), ('toys', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('have', 'VBP'), ('already', 'RB'), ('flown', 'VBN'), ('off', 'RP'), ('shelves', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   the/DT   beginning/NN   of/IN   this/DT   year/NN   ,/,   more/RBR   than/IN   a/DT   quarter/NN   of/IN   a/DT   million/CD   toys/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   have/VBP   already/RB   flown/VBN   off/RP   shelves/NNS   ./.)
+----------------------------------
+original sentence: 
+With celebrities and their daughters in attendance including Tina Fey, Audra McDonald, Kelly Rutherford, Melissa Joan Hart, Nigel Barker, Alessandra Ambrosio, Matt Walton and Amy Landecker, among others, Princess Tiana made her entry in grand style as she exited a horse drawn carriage on Madison Avenue surrounded by an entourage of adorable little princesses donning their gorgeous princess gowns and walked the red carpet through the New York Palace&#8217;s famed 15
+ Century inspired courtyard as fanfare trumpeters lined the processional aisle and created a canopy for her entrance.
+
+POS tagged sentence: 
+[('With', 'IN'), ('celebrities', 'NNS'), ('and', 'CC'), ('their', 'PRP$'), ('daughters', 'NNS'), ('in', 'IN'), ('attendance', 'NN'), ('including', 'VBG'), ('Tina', 'NNP'), ('Fey', 'NNP'), (',', ','), ('Audra', 'NNP'), ('McDonald', 'NNP'), (',', ','), ('Kelly', 'NNP'), ('Rutherford', 'NNP'), (',', ','), ('Melissa', 'NNP'), ('Joan', 'NNP'), ('Hart', 'NNP'), (',', ','), ('Nigel', 'NNP'), ('Barker', 'NNP'), (',', ','), ('Alessandra', 'NNP'), ('Ambrosio', 'NNP'), (',', ','), ('Matt', 'NNP'), ('Walton', 'NNP'), ('and', 'CC'), ('Amy', 'NNP'), ('Landecker', 'NNP'), (',', ','), ('among', 'IN'), ('others', 'NNS'), (',', ','), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('made', 'VBD'), ('her', 'PRP'), ('entry', 'NN'), ('in', 'IN'), ('grand', 'NN'), ('style', 'NN'), ('as', 'IN'), ('she', 'PRP'), ('exited', 'VBD'), ('a', 'DT'), ('horse', 'NN'), ('drawn', 'VBN'), ('carriage', 'NN'), ('on', 'IN'), ('Madison', 'NNP'), ('Avenue', 'NNP'), ('surrounded', 'VBD'), ('by', 'IN'), ('an', 'DT'), ('entourage', 'NN'), ('of', 'IN'), ('adorable', 'JJ'), ('little', 'JJ'), ('princesses', 'NNS'), ('donning', 'VBG'), ('their', 'PRP$'), ('gorgeous', 'JJ'), ('princess', 'NN'), ('gowns', 'NNS'), ('and', 'CC'), ('walked', 'VBD'), ('the', 'DT'), ('red', 'VBN'), ('carpet', 'NN'), ('through', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Palace&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('famed', 'VBD'), ('15', 'CD'), ('Century', 'NNP'), ('inspired', 'VBD'), ('courtyard', 'NN'), ('as', 'IN'), ('fanfare', 'NN'), ('trumpeters', 'NNS'), ('lined', 'VBD'), ('the', 'DT'), ('processional', 'JJ'), ('aisle', 'NN'), ('and', 'CC'), ('created', 'VBD'), ('a', 'DT'), ('canopy', 'NN'), ('for', 'IN'), ('her', 'PRP$'), ('entrance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   celebrities/NNS   and/CC   their/PRP$   daughters/NNS   in/IN   attendance/NN   including/VBG   (PERSON Tina/NNP Fey/NNP)   ,/,   (PERSON Audra/NNP McDonald/NNP)   ,/,   (PERSON Kelly/NNP Rutherford/NNP)   ,/,   (PERSON Melissa/NNP Joan/NNP Hart/NNP)   ,/,   (PERSON Nigel/NNP Barker/NNP)   ,/,   (PERSON Alessandra/NNP Ambrosio/NNP)   ,/,   (PERSON Matt/NNP Walton/NNP)   and/CC   (PERSON Amy/NNP Landecker/NNP)   ,/,   among/IN   others/NNS   ,/,   (ORGANIZATION Princess/NNP Tiana/NNP)   made/VBD   her/PRP   entry/NN   in/IN   grand/NN   style/NN   as/IN   she/PRP   exited/VBD   a/DT   horse/NN   drawn/VBN   carriage/NN   on/IN   (FACILITY Madison/NNP Avenue/NNP)   surrounded/VBD   by/IN   an/DT   entourage/NN   of/IN   adorable/JJ   little/JJ   princesses/NNS   donning/VBG   their/PRP$   gorgeous/JJ   princess/NN   gowns/NNS   and/CC   walked/VBD   the/DT   red/VBN   carpet/NN   through/IN   the/DT   (GPE New/NNP York/NNP)   Palace&/NNP   #/#   8217/CD   ;/:   s/NNS   famed/VBD   15/CD   (ORGANIZATION Century/NNP)   inspired/VBD   courtyard/NN   as/IN   fanfare/NN   trumpeters/NNS   lined/VBD   the/DT   processional/JJ   aisle/NN   and/CC   created/VBD   a/DT   canopy/NN   for/IN   her/PRP$   entrance/NN   ./.)
+----------------------------------
+original sentence: 
+Once Tiana reached the ceremony stage, a royal proclamation was read and Prince Naveen crowned the ninth enchanting Disney Princess as her sisters in royalty &#8211; Ariel, Aurora Sleeping Beauty , Belle, Cinderella, Jasmine, Mulan, Pocahontas and Snow White &#8211; looked on.
+
+POS tagged sentence: 
+[('Once', 'RB'), ('Tiana', 'NNP'), ('reached', 'VBD'), ('the', 'DT'), ('ceremony', 'NN'), ('stage', 'NN'), (',', ','), ('a', 'DT'), ('royal', 'JJ'), ('proclamation', 'NN'), ('was', 'VBD'), ('read', 'VBN'), ('and', 'CC'), ('Prince', 'NNP'), ('Naveen', 'NNP'), ('crowned', 'VBD'), ('the', 'DT'), ('ninth', 'NN'), ('enchanting', 'VBG'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('as', 'IN'), ('her', 'PRP$'), ('sisters', 'NNS'), ('in', 'IN'), ('royalty', 'NN'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Ariel', 'NNP'), (',', ','), ('Aurora', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), (',', ','), ('Belle', 'NNP'), (',', ','), ('Cinderella', 'NNP'), (',', ','), ('Jasmine', 'NNP'), (',', ','), ('Mulan', 'NNP'), (',', ','), ('Pocahontas', 'NNP'), ('and', 'CC'), ('Snow', 'NNP'), ('White', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('looked', 'VBN'), ('on', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Once/RB   (PERSON Tiana/NNP)   reached/VBD   the/DT   ceremony/NN   stage/NN   ,/,   a/DT   royal/JJ   proclamation/NN   was/VBD   read/VBN   and/CC   (ORGANIZATION Prince/NNP Naveen/NNP)   crowned/VBD   the/DT   ninth/NN   enchanting/VBG   (PERSON Disney/NNP Princess/NNP)   as/IN   her/PRP$   sisters/NNS   in/IN   royalty/NN   &/CC   #/#   8211/CD   ;/:   (PERSON Ariel/NNP)   ,/,   (PERSON Aurora/NNP Sleeping/NNP Beauty/NNP)   ,/,   (GPE Belle/NNP)   ,/,   (GPE Cinderella/NNP)   ,/,   (PERSON Jasmine/NNP)   ,/,   (PERSON Mulan/NNP)   ,/,   (ORGANIZATION Pocahontas/NNP)   and/CC   (PERSON Snow/NNP White/NNP)   &/CC   #/#   8211/CD   ;/:   looked/VBN   on/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reached/VBD the/DT ceremony/NN stage/NN)
+	(VERB was/VBD read/VBN)
+	(VERB crowned/VBD the/DT ninth/NN)
+	(VERB   enchanting/VBG   Disney/NNP   Princess/NNP   as/IN   her/PRP$   sisters/NNS   in/IN   royalty/NN)
+	(VERB looked/VBN on/IN)
+noun phrases to consider:
+	(NOUN Tiana/NNP)
+	(NOUN a/DT royal/JJ proclamation/NN)
+	(NOUN Prince/NNP Naveen/NNP)
+	(NOUN Ariel/NNP)
+	(NOUN Aurora/NNP Sleeping/NNP Beauty/NNP)
+	(NOUN Belle/NNP)
+	(NOUN Cinderella/NNP)
+	(NOUN Jasmine/NNP)
+	(NOUN Mulan/NNP)
+	(NOUN Pocahontas/NNP)
+	(NOUN Snow/NNP White/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;We&#8217;re thrilled to recognize Princess Tiana and officially announce that she is here to stay as a full fledged Disney Princess,&#8221; said Sheila Ullery, vice president of girls franchise development for Disney Consumer Products.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('re', 'NN'), ('thrilled', 'VBD'), ('to', 'TO'), ('recognize', 'VB'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('and', 'CC'), ('officially', 'RB'), ('announce', 'NN'), ('that', 'IN'), ('she', 'PRP'), ('is', 'VBZ'), ('here', 'RB'), ('to', 'TO'), ('stay', 'VB'), ('as', 'IN'), ('a', 'DT'), ('full', 'JJ'), ('fledged', 'JJ'), ('Disney', 'NNP'), ('Princess,&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Sheila', 'NNP'), ('Ullery', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('of', 'IN'), ('girls', 'NNS'), ('franchise', 'VBP'), ('development', 'NN'), ('for', 'IN'), ('Disney', 'NNP'), ('Consumer', 'NNP'), ('Products', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We&/JJ   #/#   8217/CD   ;/:   re/NN   thrilled/VBD   to/TO   recognize/VB   (ORGANIZATION Princess/NNP Tiana/NNP)   and/CC   officially/RB   announce/NN   that/IN   she/PRP   is/VBZ   here/RB   to/TO   stay/VB   as/IN   a/DT   full/JJ   fledged/JJ   (ORGANIZATION Disney/NNP)   Princess,&/NNP   #/#   8221/CD   ;/:   said/VBD   (PERSON Sheila/NNP Ullery/NNP)   ,/,   vice/NN   president/NN   of/IN   girls/NNS   franchise/VBP   development/NN   for/IN   (ORGANIZATION Disney/NNP Consumer/NNP Products/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB thrilled/VBD to/TO recognize/VB Princess/NNP Tiana/NNP)
+	(VERB   is/VBZ   here/RB   to/TO   stay/VB   as/IN   a/DT   full/JJ   fledged/JJ   Disney/NNP   Princess,&/NNP)
+	(VERB said/VBD Sheila/NNP Ullery/NNP)
+	(VERB   franchise/VBP   development/NN   for/IN   Disney/NNP   Consumer/NNP   Products/NNPS)
+noun phrases to consider:
+	(NOUN We&/JJ)
+	(NOUN re/NN)
+	(NOUN announce/NN)
+	(NOUN vice/NN president/NN)
+	(NOUN girls/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;Little girls quickly embraced her independent, strong willed character and the rich storyline of The Princess and the Frog
+.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Little', 'NNP'), ('girls', 'NNS'), ('quickly', 'RB'), ('embraced', 'VBN'), ('her', 'PRP$'), ('independent', 'NN'), (',', ','), ('strong', 'JJ'), ('willed', 'VBN'), ('character', 'NN'), ('and', 'CC'), ('the', 'DT'), ('rich', 'JJ'), ('storyline', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (GPE Little/NNP)   girls/NNS   quickly/RB   embraced/VBN   her/PRP$   independent/NN   ,/,   strong/JJ   willed/VBN   character/NN   and/CC   the/DT   rich/JJ   storyline/NN   of/IN   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   Frog/NNP   ./.)
+----------------------------------
+original sentence: 
+We&#8217;ll continue to showcase Princess Tiana in stand alone and multi princess merchandise, including apparel, accessories, costumes, toys, stationery, food, beauty products and home entertainment.&#8221;  Releasing March 16, 2010 on Disney Blu Ray Combo Pack and DVD, The Princess and the Frog
+ will bring families much fun and excitement with an array of bonus features and an incredible high definition viewing experience.
+
+POS tagged sentence: 
+[('We&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('ll', 'NN'), ('continue', 'VBP'), ('to', 'TO'), ('showcase', 'VB'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('in', 'IN'), ('stand', 'NN'), ('alone', 'RB'), ('and', 'CC'), ('multi', 'NN'), ('princess', 'NN'), ('merchandise', 'NN'), (',', ','), ('including', 'VBG'), ('apparel', 'NN'), (',', ','), ('accessories', 'NNS'), (',', ','), ('costumes', 'VBZ'), (',', ','), ('toys', 'NNS'), (',', ','), ('stationery', 'NN'), (',', ','), ('food', 'NN'), (',', ','), ('beauty', 'NN'), ('products', 'NNS'), ('and', 'CC'), ('home', 'NN'), ('entertainment.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Releasing', 'NNP'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('on', 'IN'), ('Disney', 'NNP'), ('Blu', 'NNP'), ('Ray', 'NNP'), ('Combo', 'NNP'), ('Pack', 'NNP'), ('and', 'CC'), ('DVD', 'NNP'), (',', ','), ('The', 'NNP'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('will', 'MD'), ('bring', 'VB'), ('families', 'NNS'), ('much', 'RB'), ('fun', 'VBP'), ('and', 'CC'), ('excitement', 'NN'), ('with', 'IN'), ('an', 'DT'), ('array', 'NN'), ('of', 'IN'), ('bonus', 'NN'), ('features', 'NNS'), ('and', 'CC'), ('an', 'DT'), ('incredible', 'JJ'), ('high', 'NN'), ('definition', 'NN'), ('viewing', 'VBG'), ('experience', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We&/NN   #/#   8217/CD   ;/:   ll/NN   continue/VBP   to/TO   showcase/VB   (ORGANIZATION Princess/NNP Tiana/NNP)   in/IN   stand/NN   alone/RB   and/CC   multi/NN   princess/NN   merchandise/NN   ,/,   including/VBG   apparel/NN   ,/,   accessories/NNS   ,/,   costumes/VBZ   ,/,   toys/NNS   ,/,   stationery/NN   ,/,   food/NN   ,/,   beauty/NN   products/NNS   and/CC   home/NN   entertainment.&/NN   #/#   8221/CD   ;/:   Releasing/NNP   March/NNP   16/CD   ,/,   2010/CD   on/IN   (ORGANIZATION Disney/NNP Blu/NNP Ray/NNP Combo/NNP Pack/NNP)   and/CC   (ORGANIZATION DVD/NNP)   ,/,   (ORGANIZATION The/NNP Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   will/MD   bring/VB   families/NNS   much/RB   fun/VBP   and/CC   excitement/NN   with/IN   an/DT   array/NN   of/IN   bonus/NN   features/NNS   and/CC   an/DT   incredible/JJ   high/NN   definition/NN   viewing/VBG   experience/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   continue/VBP   to/TO   showcase/VB   Princess/NNP   Tiana/NNP   in/IN   stand/NN   alone/RB)
+	(VERB including/VBG apparel/NN)
+	(VERB costumes/VBZ)
+	(VERB bring/VB families/NNS much/RB)
+	(VERB fun/VBP)
+	(VERB viewing/VBG experience/NN)
+noun phrases to consider:
+	(NOUN We&/NN)
+	(NOUN ll/NN)
+	(NOUN multi/NN princess/NN merchandise/NN)
+	(NOUN accessories/NNS)
+	(NOUN toys/NNS)
+	(NOUN stationery/NN)
+	(NOUN food/NN)
+	(NOUN beauty/NN products/NNS)
+	(NOUN home/NN entertainment.&/NN)
+	(NOUN Releasing/NNP March/NNP)
+	(NOUN Disney/NNP Blu/NNP Ray/NNP Combo/NNP)
+	(NOUN Pack/NNP)
+	(NOUN DVD/NNP)
+	(NOUN The/NNP Princess/NNP)
+	(NOUN Frog/NNP)
+	(NOUN excitement/NN)
+	(NOUN array/NN)
+	(NOUN bonus/NN features/NNS)
+	(NOUN an/DT incredible/JJ high/NN definition/NN)
+
+----------------------------------
+original sentence: 
+Bonus features include deleted scenes, inside access to the animation studios and filmmakers, family activities and much more.
+
+POS tagged sentence: 
+[('Bonus', 'NNP'), ('features', 'NNS'), ('include', 'VBP'), ('deleted', 'VBN'), ('scenes', 'NNS'), (',', ','), ('inside', 'VBP'), ('access', 'NN'), ('to', 'TO'), ('the', 'DT'), ('animation', 'NN'), ('studios', 'NNS'), ('and', 'CC'), ('filmmakers', 'NNS'), (',', ','), ('family', 'NN'), ('activities', 'NNS'), ('and', 'CC'), ('much', 'RB'), ('more', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bonus/NNP)   features/NNS   include/VBP   deleted/VBN   scenes/NNS   ,/,   inside/VBP   access/NN   to/TO   the/DT   animation/NN   studios/NNS   and/CC   filmmakers/NNS   ,/,   family/NN   activities/NNS   and/CC   much/RB   more/RBR   ./.)
+----------------------------------
+original sentence: 
+The Princess and the Frog
+ Blu ray&#8482; Combo Pack includes a Blu ray&#8482;, DVD and DisneyFile Digital Copy of the movie all in one package.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('Blu', 'NNP'), ('ray&', 'NNP'), ('#', '#'), ('8482', 'CD'), (';', ':'), ('Combo', 'NNP'), ('Pack', 'NNP'), ('includes', 'VBZ'), ('a', 'DT'), ('Blu', 'NNP'), ('ray&', 'NNP'), ('#', '#'), ('8482', 'CD'), (';', ':'), (',', ','), ('DVD', 'NNP'), ('and', 'CC'), ('DisneyFile', 'NNP'), ('Digital', 'NNP'), ('Copy', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('movie', 'NN'), ('all', 'DT'), ('in', 'IN'), ('one', 'CD'), ('package', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP Blu/NNP)   ray&/NNP   #/#   8482/CD   ;/:   (ORGANIZATION Combo/NNP Pack/NNP)   includes/VBZ   a/DT   (ORGANIZATION Blu/NNP)   ray&/NNP   #/#   8482/CD   ;/:   ,/,   (ORGANIZATION DVD/NNP)   and/CC   (ORGANIZATION DisneyFile/NNP Digital/NNP Copy/NNP)   of/IN   the/DT   movie/NN   all/DT   in/IN   one/CD   package/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB includes/VBZ a/DT Blu/NNP ray&/NNP)
+noun phrases to consider:
+	(NOUN Princess/NNP)
+	(NOUN Frog/NNP Blu/NNP ray&/NNP)
+	(NOUN Combo/NNP Pack/NNP)
+	(NOUN DVD/NNP)
+	(NOUN DisneyFile/NNP Digital/NNP Copy/NNP)
+	(NOUN movie/NN)
+	(NOUN one/CD package/NN)
+
+----------------------------------
+original sentence: 
+Combo Packs provide unprecedented value, quality, and versatility with the exceptional&#160;picture and sound of Blu ray and the extended utility of DVD and digital copy of the film in a single package.
+
+POS tagged sentence: 
+[('Combo', 'NNP'), ('Packs', 'NNP'), ('provide', 'VB'), ('unprecedented', 'VBN'), ('value', 'NN'), (',', ','), ('quality', 'NN'), (',', ','), ('and', 'CC'), ('versatility', 'NN'), ('with', 'IN'), ('the', 'DT'), ('exceptional&', 'JJ'), ('#', '#'), ('160', 'CD'), (';', ':'), ('picture', 'NN'), ('and', 'CC'), ('sound', 'VB'), ('of', 'IN'), ('Blu', 'NNP'), ('ray', 'NN'), ('and', 'CC'), ('the', 'DT'), ('extended', 'JJ'), ('utility', 'NN'), ('of', 'IN'), ('DVD', 'NNP'), ('and', 'CC'), ('digital', 'JJ'), ('copy', 'NN'), ('of', 'IN'), ('the', 'DT'), ('film', 'NN'), ('in', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('package', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Combo/NNP Packs/NNP)   provide/VB   unprecedented/VBN   value/NN   ,/,   quality/NN   ,/,   and/CC   versatility/NN   with/IN   the/DT   exceptional&/JJ   #/#   160/CD   ;/:   picture/NN   and/CC   sound/VB   of/IN   (GPE Blu/NNP)   ray/NN   and/CC   the/DT   extended/JJ   utility/NN   of/IN   (ORGANIZATION DVD/NNP)   and/CC   digital/JJ   copy/NN   of/IN   the/DT   film/NN   in/IN   a/DT   single/JJ   package/NN   ./.)
+----------------------------------
+original sentence: 
+The Princess and the Frog
+ product line triumphed at retail last fall, proving that Princess Tiana is here to stay.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('product', 'NN'), ('line', 'NN'), ('triumphed', 'VBD'), ('at', 'IN'), ('retail', 'JJ'), ('last', 'JJ'), ('fall', 'NN'), (',', ','), ('proving', 'VBG'), ('that', 'IN'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('is', 'VBZ'), ('here', 'RB'), ('to', 'TO'), ('stay', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   product/NN   line/NN   triumphed/VBD   at/IN   retail/JJ   last/JJ   fall/NN   ,/,   proving/VBG   that/IN   (ORGANIZATION Princess/NNP Tiana/NNP)   is/VBZ   here/RB   to/TO   stay/VB   ./.)
+----------------------------------
+original sentence: 
+Among key highlights are: The Princess Tiana Sparkle Doll and the new Transforming Tiana Doll, both from Mattel, have been particularly popular, delivering strong sales.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('key', 'JJ'), ('highlights', 'NNS'), ('are', 'VBP'), (':', ':'), ('The', 'DT'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('Sparkle', 'NNP'), ('Doll', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('new', 'JJ'), ('Transforming', 'NNP'), ('Tiana', 'NNP'), ('Doll', 'NNP'), (',', ','), ('both', 'DT'), ('from', 'IN'), ('Mattel', 'NNP'), (',', ','), ('have', 'VBP'), ('been', 'VBN'), ('particularly', 'RB'), ('popular', 'JJ'), (',', ','), ('delivering', 'VBG'), ('strong', 'JJ'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   key/JJ   highlights/NNS   are/VBP   :/:   The/DT   (ORGANIZATION Princess/NNP Tiana/NNP Sparkle/NNP Doll/NNP)   and/CC   the/DT   new/JJ   Transforming/NNP   Tiana/NNP   Doll/NNP   ,/,   both/DT   from/IN   (GPE Mattel/NNP)   ,/,   have/VBP   been/VBN   particularly/RB   popular/JJ   ,/,   delivering/VBG   strong/JJ   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Princess Tiana role play dresses from CDI have been the top selling dresses in the Disney Princess lineup at retailers nationwide.
+
+POS tagged sentence: 
+[('Princess', 'NN'), ('Tiana', 'NNP'), ('role', 'NN'), ('play', 'NN'), ('dresses', 'NNS'), ('from', 'IN'), ('CDI', 'NNP'), ('have', 'VBP'), ('been', 'VBN'), ('the', 'DT'), ('top', 'JJ'), ('selling', 'NN'), ('dresses', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('lineup', 'NN'), ('at', 'IN'), ('retailers', 'NNS'), ('nationwide', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Princess/NN Tiana/NNP)   role/NN   play/NN   dresses/NNS   from/IN   (ORGANIZATION CDI/NNP)   have/VBP   been/VBN   the/DT   top/JJ   selling/NN   dresses/NNS   in/IN   the/DT   (ORGANIZATION Disney/NNP)   Princess/NNP   lineup/NN   at/IN   retailers/NNS   nationwide/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   been/VBN   the/DT   top/JJ   selling/NN   dresses/NNS   in/IN   the/DT   Disney/NNP   Princess/NNP   lineup/NN   at/IN   retailers/NNS)
+
+tagged sentence:
+	 have been the top selling dresses in the Disney Princess lineup at retailers	res:1
+	(VERB nationwide/VBP)
+noun phrases to consider:
+	(NOUN Princess/NN Tiana/NNP role/NN play/NN)
+	(NOUN dresses/NNS)
+	(NOUN CDI/NNP)
+
+----------------------------------
+original sentence: 
+Carol&#8217;s Daughter beauty products featuring Princess Tiana sold out in just two hours online.
+
+POS tagged sentence: 
+[('Carol&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Daughter', 'NNP'), ('beauty', 'NN'), ('products', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('sold', 'VBD'), ('out', 'RP'), ('in', 'IN'), ('just', 'RB'), ('two', 'CD'), ('hours', 'NNS'), ('online', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Carol&/NN   #/#   8217/CD   ;/:   s/NNS   Daughter/NNP   beauty/NN   products/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   sold/VBD   out/RP   in/IN   just/RB   two/CD   hours/NNS   online/NN   ./.)
+----------------------------------
+original sentence: 
+The Princess and the Frog
+ Kellogg&#8217;s fruit snacks have been one of the most popular choices in the snack aisle.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('Kellogg&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('fruit', 'VBP'), ('snacks', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('popular', 'JJ'), ('choices', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('snack', 'NN'), ('aisle', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   Kellogg&/NNP   #/#   8217/CD   ;/:   s/NNS   fruit/VBP   snacks/NNS   have/VBP   been/VBN   one/CD   of/IN   the/DT   most/RBS   popular/JJ   choices/NNS   in/IN   the/DT   snack/NN   aisle/NN   ./.)
+----------------------------------
+original sentence: 
+Since the domestic theatrical film release, more than 2.5 million books featuring Princess Tiana have sold globally.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('the', 'DT'), ('domestic', 'JJ'), ('theatrical', 'JJ'), ('film', 'NN'), ('release', 'NN'), (',', ','), ('more', 'RBR'), ('than', 'IN'), ('2.5', 'CD'), ('million', 'CD'), ('books', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('have', 'VBP'), ('sold', 'VBN'), ('globally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   the/DT   domestic/JJ   theatrical/JJ   film/NN   release/NN   ,/,   more/RBR   than/IN   2.5/CD   million/CD   books/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   have/VBP   sold/VBN   globally/RB   ./.)
+----------------------------------
+original sentence: 
+And this month, Disney Stores sold out of its limited edition Princess Tiana collector doll during the pre sell period.
+
+POS tagged sentence: 
+[('And', 'CC'), ('this', 'DT'), ('month', 'NN'), (',', ','), ('Disney', 'NNP'), ('Stores', 'NNPS'), ('sold', 'VBD'), ('out', 'RP'), ('of', 'IN'), ('its', 'PRP$'), ('limited', 'VBN'), ('edition', 'NN'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('collector', 'NN'), ('doll', 'NN'), ('during', 'IN'), ('the', 'DT'), ('pre', 'NN'), ('sell', 'NN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   this/DT   month/NN   ,/,   (ORGANIZATION Disney/NNP Stores/NNPS)   sold/VBD   out/RP   of/IN   its/PRP$   limited/VBN   edition/NN   (ORGANIZATION Princess/NNP Tiana/NNP)   collector/NN   doll/NN   during/IN   the/DT   pre/NN   sell/NN   period/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sold/VBD)
+	(VERB   limited/VBN   edition/NN   Princess/NNP   Tiana/NNP   collector/NN   doll/NN   during/IN   the/DT   pre/NN   sell/NN   period/NN)
+
+tagged sentence:
+	 limited edition Princess Tiana collector doll during the pre sell period	res:-1
+noun phrases to consider:
+	(NOUN month/NN)
+	(NOUN Disney/NNP Stores/NNPS)
+
+----------------------------------
+original sentence: 
+Beginning this spring and through the holiday season, Disney Princess licensees Mattel and CDI will release a new assortment of stand alone and multi Disney Princess products featuring Princess Tiana.
+
+POS tagged sentence: 
+[('Beginning', 'VBG'), ('this', 'DT'), ('spring', 'NN'), ('and', 'CC'), ('through', 'IN'), ('the', 'DT'), ('holiday', 'NN'), ('season', 'NN'), (',', ','), ('Disney', 'NNP'), ('Princess', 'NNP'), ('licensees', 'VBZ'), ('Mattel', 'NNP'), ('and', 'CC'), ('CDI', 'NNP'), ('will', 'MD'), ('release', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('assortment', 'NN'), ('of', 'IN'), ('stand', 'NN'), ('alone', 'RB'), ('and', 'CC'), ('multi', 'NN'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('products', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Beginning/VBG   this/DT   spring/NN   and/CC   through/IN   the/DT   holiday/NN   season/NN   ,/,   (PERSON Disney/NNP Princess/NNP)   licensees/VBZ   (PERSON Mattel/NNP)   and/CC   (ORGANIZATION CDI/NNP)   will/MD   release/VB   a/DT   new/JJ   assortment/NN   of/IN   stand/NN   alone/RB   and/CC   multi/NN   (PERSON Disney/NNP Princess/NNP)   products/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Beginning/VBG this/DT spring/NN)
+	(VERB licensees/VBZ Mattel/NNP)
+	(VERB release/VB a/DT new/JJ assortment/NN of/IN stand/NN alone/RB)
+	(VERB featuring/VBG Princess/NNP Tiana/NNP)
+noun phrases to consider:
+	(NOUN holiday/NN season/NN)
+	(NOUN Disney/NNP Princess/NNP)
+	(NOUN CDI/NNP)
+	(NOUN multi/NN Disney/NNP Princess/NNP products/NNS)
+
+----------------------------------
+original sentence: 
+Exciting new toys and playthings featuring Princess Tiana include her addition to Mattel&#8217;s  Sparkling Princess&#174; Doll Assortment line SRP $9.99 and The Princess and the Frog
+ Princess to Frog Tiana Doll SRP $24.99 where Princess Tiana transforms from princess to frog and back again.
+
+POS tagged sentence: 
+[('Exciting', 'VBG'), ('new', 'JJ'), ('toys', 'NNS'), ('and', 'CC'), ('playthings', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('include', 'VBP'), ('her', 'PRP'), ('addition', 'NN'), ('to', 'TO'), ('Mattel&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Sparkling', 'NNP'), ('Princess&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Doll', 'NNP'), ('Assortment', 'NNP'), ('line', 'NN'), ('SRP', 'NNP'), ('$', '$'), ('9.99', 'CD'), ('and', 'CC'), ('The', 'DT'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('Princess', 'NNP'), ('to', 'TO'), ('Frog', 'NNP'), ('Tiana', 'NNP'), ('Doll', 'NNP'), ('SRP', 'NNP'), ('$', '$'), ('24.99', 'CD'), ('where', 'WRB'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('transforms', 'VBZ'), ('from', 'IN'), ('princess', 'NN'), ('to', 'TO'), ('frog', 'VB'), ('and', 'CC'), ('back', 'RB'), ('again', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Exciting/VBG   new/JJ   toys/NNS   and/CC   playthings/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   include/VBP   her/PRP   addition/NN   to/TO   Mattel&/NNP   #/#   8217/CD   ;/:   s/NNS   Sparkling/NNP   Princess&/NNP   #/#   174/CD   ;/:   (PERSON Doll/NNP Assortment/NNP)   line/NN   SRP/NNP   $/$   9.99/CD   and/CC   The/DT   (ORGANIZATION Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   Princess/NNP   to/TO   (PERSON Frog/NNP Tiana/NNP Doll/NNP)   SRP/NNP   $/$   24.99/CD   where/WRB   (ORGANIZATION Princess/NNP Tiana/NNP)   transforms/VBZ   from/IN   princess/NN   to/TO   frog/VB   and/CC   back/RB   again/RB   ./.)
+----------------------------------
+original sentence: 
+New home decor, apparel and accessories, stationery and personal care items featuring Princess Tiana alongside other Disney Princess characters will be available for the first time beginning in July.
+
+POS tagged sentence: 
+[('New', 'NNP'), ('home', 'NN'), ('decor', 'NN'), (',', ','), ('apparel', 'NN'), ('and', 'CC'), ('accessories', 'NNS'), (',', ','), ('stationery', 'NN'), ('and', 'CC'), ('personal', 'JJ'), ('care', 'NN'), ('items', 'NNS'), ('featuring', 'VBG'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('alongside', 'NN'), ('other', 'JJ'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('characters', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('time', 'NN'), ('beginning', 'NN'), ('in', 'IN'), ('July', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP)   home/NN   decor/NN   ,/,   apparel/NN   and/CC   accessories/NNS   ,/,   stationery/NN   and/CC   personal/JJ   care/NN   items/NNS   featuring/VBG   (ORGANIZATION Princess/NNP Tiana/NNP)   alongside/NN   other/JJ   (ORGANIZATION Disney/NNP)   Princess/NNP   characters/NNS   will/MD   be/VB   available/JJ   for/IN   the/DT   first/JJ   time/NN   beginning/NN   in/IN   July/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   featuring/VBG   Princess/NNP   Tiana/NNP   alongside/NN   other/JJ   Disney/NNP   Princess/NNP   characters/NNS)
+	(VERB   be/VB   available/JJ   for/IN   the/DT   first/JJ   time/NN   beginning/NN   in/IN   July/NNP)
+noun phrases to consider:
+	(NOUN New/NNP home/NN decor/NN)
+	(NOUN apparel/NN)
+	(NOUN accessories/NNS)
+	(NOUN stationery/NN)
+	(NOUN personal/JJ care/NN items/NNS)
+
+----------------------------------
+original sentence: 
+Disney Store retail locations nationwide and  will also release an exclusive assortment of new Princess Tiana products throughout the year.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('Store', 'NNP'), ('retail', 'NN'), ('locations', 'NNS'), ('nationwide', 'VBP'), ('and', 'CC'), ('will', 'MD'), ('also', 'RB'), ('release', 'VB'), ('an', 'DT'), ('exclusive', 'JJ'), ('assortment', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('products', 'NNS'), ('throughout', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   (ORGANIZATION Store/NNP)   retail/NN   locations/NNS   nationwide/VBP   and/CC   will/MD   also/RB   release/VB   an/DT   exclusive/JJ   assortment/NN   of/IN   new/JJ   (ORGANIZATION Princess/NNP Tiana/NNP)   products/NNS   throughout/IN   the/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB nationwide/VBP)
+	(VERB   release/VB   an/DT   exclusive/JJ   assortment/NN   of/IN   new/JJ   Princess/NNP   Tiana/NNP   products/NNS   throughout/IN   the/DT   year/NN)
+noun phrases to consider:
+	(NOUN Disney/NNP Store/NNP retail/NN locations/NNS)
+
+----------------------------------
+original sentence: 
+With Academy Award&#174; nominations for Best Animated Feature and Best Song "Almost There&#8221; and "Down in New Orleans,&#8221; both by Randy Newman , The Princess and the Frog
+ and Princess Tiana are sure to remain in the hearts of Disney fans of all ages for generations to come.
+
+POS tagged sentence: 
+[('With', 'IN'), ('Academy', 'NNP'), ('Award&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('nominations', 'NNS'), ('for', 'IN'), ('Best', 'NNP'), ('Animated', 'NNP'), ('Feature', 'NNP'), ('and', 'CC'), ('Best', 'NNP'), ('Song', 'NNP'), ('"', 'NNP'), ('Almost', 'NNP'), ('There&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('and', 'CC'), ('"', ':'), ('Down', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('Orleans,&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('both', 'DT'), ('by', 'IN'), ('Randy', 'NNP'), ('Newman', 'NNP'), (',', ','), ('The', 'NNP'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('and', 'CC'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('are', 'VBP'), ('sure', 'JJ'), ('to', 'TO'), ('remain', 'VB'), ('in', 'IN'), ('the', 'DT'), ('hearts', 'NNS'), ('of', 'IN'), ('Disney', 'NNP'), ('fans', 'NNS'), ('of', 'IN'), ('all', 'DT'), ('ages', 'NNS'), ('for', 'IN'), ('generations', 'NNS'), ('to', 'TO'), ('come', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   (PERSON Academy/NNP)   Award&/NNP   #/#   174/CD   ;/:   nominations/NNS   for/IN   (PERSON Best/NNP Animated/NNP Feature/NNP)   and/CC   (PERSON Best/NNP Song/NNP)   "/NNP   Almost/NNP   There&/NNP   #/#   8221/CD   ;/:   and/CC   "/:   Down/NNP   in/IN   (GPE New/NNP)   Orleans,&/NNP   #/#   8221/CD   ;/:   both/DT   by/IN   (PERSON Randy/NNP Newman/NNP)   ,/,   (ORGANIZATION The/NNP Princess/NNP)   and/CC   the/DT   (ORGANIZATION Frog/NNP)   and/CC   (ORGANIZATION Princess/NNP Tiana/NNP)   are/VBP   sure/JJ   to/TO   remain/VB   in/IN   the/DT   hearts/NNS   of/IN   (GPE Disney/NNP)   fans/NNS   of/IN   all/DT   ages/NNS   for/IN   generations/NNS   to/TO   come/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP sure/JJ)
+	(VERB   remain/VB   in/IN   the/DT   hearts/NNS   of/IN   Disney/NNP   fans/NNS   of/IN   all/DT   ages/NNS   for/IN   generations/NNS)
+	(VERB come/VB)
+noun phrases to consider:
+	(NOUN Academy/NNP Award&/NNP)
+	(NOUN nominations/NNS)
+	(NOUN Best/NNP Animated/NNP Feature/NNP)
+	(NOUN Best/NNP Song/NNP "/NNP Almost/NNP)
+	(NOUN There&/NNP)
+	(NOUN Down/NNP)
+	(NOUN New/NNP Orleans,&/NNP)
+	(NOUN Randy/NNP Newman/NNP)
+	(NOUN The/NNP Princess/NNP)
+	(NOUN Frog/NNP)
+	(NOUN Princess/NNP Tiana/NNP)
+
+----------------------------------
+original sentence: 
+About Disney Princess
+ The Disney Princess franchise enables little girls to live the life of a princess through world class entertainment and innovative products that let them act out scenes from Disney's wholesome, timeless and cherished fairy tale film classics.
+
+POS tagged sentence: 
+[('About', 'IN'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('The', 'NNP'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('franchise', 'NN'), ('enables', 'VBZ'), ('little', 'JJ'), ('girls', 'NNS'), ('to', 'TO'), ('live', 'VB'), ('the', 'DT'), ('life', 'NN'), ('of', 'IN'), ('a', 'DT'), ('princess', 'NN'), ('through', 'IN'), ('world', 'NN'), ('class', 'NN'), ('entertainment', 'NN'), ('and', 'CC'), ('innovative', 'JJ'), ('products', 'NNS'), ('that', 'WDT'), ('let', 'VB'), ('them', 'PRP'), ('act', 'VB'), ('out', 'RP'), ('scenes', 'NNS'), ('from', 'IN'), ('Disney', 'NNP'), ("'s", 'POS'), ('wholesome', 'NN'), (',', ','), ('timeless', 'NN'), ('and', 'CC'), ('cherished', 'VBD'), ('fairy', 'NN'), ('tale', 'NN'), ('film', 'NN'), ('classics', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   (PERSON Disney/NNP Princess/NNP The/NNP Disney/NNP Princess/NNP)   franchise/NN   enables/VBZ   little/JJ   girls/NNS   to/TO   live/VB   the/DT   life/NN   of/IN   a/DT   princess/NN   through/IN   world/NN   class/NN   entertainment/NN   and/CC   innovative/JJ   products/NNS   that/WDT   let/VB   them/PRP   act/VB   out/RP   scenes/NNS   from/IN   (GPE Disney/NNP)   's/POS   wholesome/NN   ,/,   timeless/NN   and/CC   cherished/VBD   fairy/NN   tale/NN   film/NN   classics/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB enables/VBZ little/JJ girls/NNS)
+
+tagged sentence:
+	 enables little girls	res:-1
+	(VERB   live/VB   the/DT   life/NN   of/IN   a/DT   princess/NN   through/IN   world/NN   class/NN   entertainment/NN)
+	(VERB let/VB them/PRP)
+	(VERB act/VB)
+	(VERB cherished/VBD fairy/NN tale/NN film/NN classics/NNS)
+noun phrases to consider:
+	(NOUN Disney/NNP Princess/NNP The/NNP Disney/NNP)
+	(NOUN Princess/NNP franchise/NN)
+	(NOUN innovative/JJ products/NNS)
+
+tagged sentence:
+	 innovative products	res:1
+	(NOUN scenes/NNS)
+	(NOUN Disney/NNP)
+	(NOUN wholesome/NN)
+	(NOUN timeless/NN)
+
+----------------------------------
+original sentence: 
+The franchise is comprised of nine beloved Disney Princess characters &#8211; Ariel The Little Mermaid , Aurora Sleeping Beauty Belle Beauty and the Beast , Cinderella, Jasmine Aladdin , Mulan, Pocahontas, Snow White and Tiana The Princess and the Frog .
+
+POS tagged sentence: 
+[('The', 'DT'), ('franchise', 'NN'), ('is', 'VBZ'), ('comprised', 'VBN'), ('of', 'IN'), ('nine', 'CD'), ('beloved', 'VBN'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('characters', 'NNS'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Ariel', 'NNP'), ('The', 'NNP'), ('Little', 'NNP'), ('Mermaid', 'NNP'), (',', ','), ('Aurora', 'NNP'), ('Sleeping', 'NNP'), ('Beauty', 'NNP'), ('Belle', 'NNP'), ('Beauty', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Beast', 'NNP'), (',', ','), ('Cinderella', 'NNP'), (',', ','), ('Jasmine', 'NNP'), ('Aladdin', 'NNP'), (',', ','), ('Mulan', 'NNP'), (',', ','), ('Pocahontas', 'NNP'), (',', ','), ('Snow', 'NNP'), ('White', 'NNP'), ('and', 'CC'), ('Tiana', 'NNP'), ('The', 'NNP'), ('Princess', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Frog', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   franchise/NN   is/VBZ   comprised/VBN   of/IN   nine/CD   beloved/VBN   (PERSON Disney/NNP Princess/NNP)   characters/NNS   &/CC   #/#   8211/CD   ;/:   (PERSON Ariel/NNP The/NNP Little/NNP Mermaid/NNP)   ,/,   (PERSON Aurora/NNP Sleeping/NNP Beauty/NNP Belle/NNP Beauty/NNP)   and/CC   the/DT   (GPE Beast/NNP)   ,/,   (GPE Cinderella/NNP)   ,/,   (PERSON Jasmine/NNP Aladdin/NNP)   ,/,   (PERSON Mulan/NNP)   ,/,   (GPE Pocahontas/NNP)   ,/,   (PERSON Snow/NNP White/NNP)   and/CC   (PERSON Tiana/NNP The/NNP Princess/NNP)   and/CC   the/DT   Frog/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ comprised/VBN of/IN nine/CD)
+	(VERB beloved/VBN Disney/NNP Princess/NNP characters/NNS)
+noun phrases to consider:
+	(NOUN franchise/NN)
+	(NOUN Ariel/NNP The/NNP Little/NNP Mermaid/NNP)
+	(NOUN Aurora/NNP Sleeping/NNP Beauty/NNP Belle/NNP)
+	(NOUN Beauty/NNP)
+	(NOUN Beast/NNP)
+	(NOUN Cinderella/NNP)
+	(NOUN Jasmine/NNP Aladdin/NNP)
+	(NOUN Mulan/NNP)
+	(NOUN Pocahontas/NNP)
+	(NOUN Snow/NNP White/NNP)
+	(NOUN Tiana/NNP The/NNP Princess/NNP)
+	(NOUN Frog/NNP)
+
+----------------------------------
+original sentence: 
+Each Disney Princess character has a unique story that empowers girls to imagine and live their very own fairy tales.
+
+POS tagged sentence: 
+[('Each', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('character', 'NN'), ('has', 'VBZ'), ('a', 'DT'), ('unique', 'JJ'), ('story', 'NN'), ('that', 'WDT'), ('empowers', 'NNS'), ('girls', 'VBZ'), ('to', 'TO'), ('imagine', 'VB'), ('and', 'CC'), ('live', 'VB'), ('their', 'PRP$'), ('very', 'JJ'), ('own', 'JJ'), ('fairy', 'NN'), ('tales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Each/DT   (ORGANIZATION Disney/NNP)   Princess/NNP   character/NN   has/VBZ   a/DT   unique/JJ   story/NN   that/WDT   empowers/NNS   girls/VBZ   to/TO   imagine/VB   and/CC   live/VB   their/PRP$   very/JJ   own/JJ   fairy/NN   tales/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT unique/JJ story/NN)
+	(VERB girls/VBZ to/TO imagine/VB)
+	(VERB live/VB their/PRP$ very/JJ own/JJ fairy/NN tales/NNS)
+
+tagged sentence:
+	 live their very own fairy tales	res:1
+noun phrases to consider:
+	(NOUN Disney/NNP Princess/NNP character/NN)
+	(NOUN empowers/NNS)
+
+tagged sentence:
+	 empowers	res:1
+
+----------------------------------
+original sentence: 
+Disney began branding the characters under the Disney Princess umbrella brand in 2000.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('began', 'VBD'), ('branding', 'VBG'), ('the', 'DT'), ('characters', 'NNS'), ('under', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('umbrella', 'NN'), ('brand', 'NN'), ('in', 'IN'), ('2000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   began/VBD   branding/VBG   the/DT   characters/NNS   under/IN   the/DT   (ORGANIZATION Disney/NNP)   Princess/NNP   umbrella/NN   brand/NN   in/IN   2000/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   began/VBD   branding/VBG   the/DT   characters/NNS   under/IN   the/DT   Disney/NNP   Princess/NNP   umbrella/NN   brand/NN   in/IN   2000/CD)
+noun phrases to consider:
+	(NOUN Disney/NNP)
+
+----------------------------------
+original sentence: 
+Today, Disney Princess is a multi billion dollar global franchise and worldwide consumer products business that has become a leading girls' lifestyle brand with product offerings extending across categories, including toys and personal electronics, apparel, home d&#233;cor, stationery, food, personal care, publishing, video games, and theme park and live theatrical experiences.
+
+POS tagged sentence: 
+[('Today', 'NN'), (',', ','), ('Disney', 'NNP'), ('Princess', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('multi', 'NN'), ('billion', 'NN'), ('dollar', 'NN'), ('global', 'JJ'), ('franchise', 'NN'), ('and', 'CC'), ('worldwide', 'VB'), ('consumer', 'NN'), ('products', 'NNS'), ('business', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('become', 'VBN'), ('a', 'DT'), ('leading', 'VBG'), ('girls', 'NNS'), ("'", 'POS'), ('lifestyle', 'NN'), ('brand', 'NN'), ('with', 'IN'), ('product', 'NN'), ('offerings', 'NNS'), ('extending', 'VBG'), ('across', 'IN'), ('categories', 'NNS'), (',', ','), ('including', 'VBG'), ('toys', 'NNS'), ('and', 'CC'), ('personal', 'JJ'), ('electronics', 'NNS'), (',', ','), ('apparel', 'NN'), (',', ','), ('home', 'NN'), ('d&', '-NONE-'), ('#', '#'), ('233', 'CD'), (';', ':'), ('cor', 'NN'), (',', ','), ('stationery', 'NN'), (',', ','), ('food', 'NN'), (',', ','), ('personal', 'JJ'), ('care', 'NN'), (',', ','), ('publishing', 'NN'), (',', ','), ('video', 'NN'), ('games', 'NNS'), (',', ','), ('and', 'CC'), ('theme', 'NN'), ('park', 'NN'), ('and', 'CC'), ('live', 'JJ'), ('theatrical', 'JJ'), ('experiences', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   ,/,   (PERSON Disney/NNP Princess/NNP)   is/VBZ   a/DT   multi/NN   billion/NN   dollar/NN   global/JJ   franchise/NN   and/CC   worldwide/VB   consumer/NN   products/NNS   business/NN   that/WDT   has/VBZ   become/VBN   a/DT   leading/VBG   girls/NNS   '/POS   lifestyle/NN   brand/NN   with/IN   product/NN   offerings/NNS   extending/VBG   across/IN   categories/NNS   ,/,   including/VBG   toys/NNS   and/CC   personal/JJ   electronics/NNS   ,/,   apparel/NN   ,/,   home/NN   d&/-NONE-   #/#   233/CD   ;/:   cor/NN   ,/,   stationery/NN   ,/,   food/NN   ,/,   personal/JJ   care/NN   ,/,   publishing/NN   ,/,   video/NN   games/NNS   ,/,   and/CC   theme/NN   park/NN   and/CC   live/JJ   theatrical/JJ   experiences/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   multi/NN   billion/NN   dollar/NN   global/JJ   franchise/NN)
+	(VERB worldwide/VB consumer/NN products/NNS business/NN)
+	(VERB has/VBZ become/VBN a/DT)
+	(VERB leading/VBG girls/NNS)
+	(VERB extending/VBG across/IN categories/NNS)
+	(VERB including/VBG toys/NNS)
+noun phrases to consider:
+	(NOUN Today/NN)
+	(NOUN Disney/NNP Princess/NNP)
+	(NOUN lifestyle/NN brand/NN)
+	(NOUN product/NN offerings/NNS)
+	(NOUN personal/JJ electronics/NNS)
+	(NOUN apparel/NN)
+	(NOUN home/NN)
+	(NOUN cor/NN)
+	(NOUN stationery/NN)
+	(NOUN food/NN)
+	(NOUN personal/JJ care/NN)
+	(NOUN publishing/NN)
+	(NOUN video/NN games/NNS)
+	(NOUN theme/NN park/NN)
+	(NOUN live/JJ theatrical/JJ experiences/NNS)
+
+----------------------------------
+original sentence: 
+Every month, millions of girls actively engage with each Disney Princess through interactive stories and activities at disney.com/disneyprincess
+About Walt Disney Studios Home Entertainment
+ Walt Disney Studios Home Entertainment, a recognized leader in the home entertainment industry, is the marketing, sales and distribution company for Walt Disney, Touchstone, Hollywood Pictures, Miramax and Buena Vista product, which includes DVD, Blu ray Disc&#8482; and electronic distribution.
+
+POS tagged sentence: 
+[('Every', 'DT'), ('month', 'NN'), (',', ','), ('millions', 'NNS'), ('of', 'IN'), ('girls', 'NNS'), ('actively', 'RB'), ('engage', 'VBP'), ('with', 'IN'), ('each', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('through', 'IN'), ('interactive', 'JJ'), ('stories', 'NNS'), ('and', 'CC'), ('activities', 'NNS'), ('at', 'IN'), ('disney.com/disneyprincess', 'JJ'), ('About', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Studios', 'NNP'), ('Home', 'NNP'), ('Entertainment', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Studios', 'NNP'), ('Home', 'NNP'), ('Entertainment', 'NNP'), (',', ','), ('a', 'DT'), ('recognized', 'JJ'), ('leader', 'NN'), ('in', 'IN'), ('the', 'DT'), ('home', 'NN'), ('entertainment', 'NN'), ('industry', 'NN'), (',', ','), ('is', 'VBZ'), ('the', 'DT'), ('marketing', 'NN'), (',', ','), ('sales', 'NNS'), ('and', 'CC'), ('distribution', 'NN'), ('company', 'NN'), ('for', 'IN'), ('Walt', 'NNP'), ('Disney', 'NNP'), (',', ','), ('Touchstone', 'NNP'), (',', ','), ('Hollywood', 'NNP'), ('Pictures', 'NNP'), (',', ','), ('Miramax', 'NNP'), ('and', 'CC'), ('Buena', 'NNP'), ('Vista', 'NNP'), ('product', 'NN'), (',', ','), ('which', 'WDT'), ('includes', 'VBZ'), ('DVD', 'NNP'), (',', ','), ('Blu', 'NNP'), ('ray', 'NN'), ('Disc&', '-NONE-'), ('#', '#'), ('8482', 'CD'), (';', ':'), ('and', 'CC'), ('electronic', 'JJ'), ('distribution', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Every/DT   month/NN   ,/,   millions/NNS   of/IN   girls/NNS   actively/RB   engage/VBP   with/IN   each/DT   (ORGANIZATION Disney/NNP)   Princess/NNP   through/IN   interactive/JJ   stories/NNS   and/CC   activities/NNS   at/IN   disney.com/disneyprincess/JJ   About/IN   (PERSON Walt/NNP Disney/NNP Studios/NNP Home/NNP)   Entertainment/NNP   Walt/NNP   Disney/NNP   (PERSON Studios/NNP Home/NNP Entertainment/NNP)   ,/,   a/DT   recognized/JJ   leader/NN   in/IN   the/DT   home/NN   entertainment/NN   industry/NN   ,/,   is/VBZ   the/DT   marketing/NN   ,/,   sales/NNS   and/CC   distribution/NN   company/NN   for/IN   (PERSON Walt/NNP Disney/NNP)   ,/,   (PERSON Touchstone/NNP)   ,/,   (PERSON Hollywood/NNP Pictures/NNP)   ,/,   (PERSON Miramax/NNP)   and/CC   (PERSON Buena/NNP Vista/NNP)   product/NN   ,/,   which/WDT   includes/VBZ   (ORGANIZATION DVD/NNP)   ,/,   (PERSON Blu/NNP)   ray/NN   Disc&/-NONE-   #/#   8482/CD   ;/:   and/CC   electronic/JJ   distribution/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   engage/VBP   with/IN   each/DT   Disney/NNP   Princess/NNP   through/IN   interactive/JJ   stories/NNS)
+	(VERB is/VBZ the/DT marketing/NN)
+	(VERB includes/VBZ DVD/NNP)
+noun phrases to consider:
+	(NOUN month/NN)
+	(NOUN millions/NNS)
+	(NOUN girls/NNS)
+	(NOUN activities/NNS)
+	(NOUN disney.com/disneyprincess/JJ)
+	(NOUN Walt/NNP Disney/NNP Studios/NNP Home/NNP)
+	(NOUN Entertainment/NNP Walt/NNP Disney/NNP Studios/NNP)
+	(NOUN Home/NNP Entertainment/NNP)
+	(NOUN a/DT recognized/JJ leader/NN)
+	(NOUN home/NN entertainment/NN industry/NN)
+	(NOUN sales/NNS)
+	(NOUN distribution/NN company/NN)
+	(NOUN Walt/NNP Disney/NNP)
+	(NOUN Touchstone/NNP)
+	(NOUN Hollywood/NNP Pictures/NNP)
+	(NOUN Miramax/NNP)
+	(NOUN Buena/NNP Vista/NNP product/NN)
+	(NOUN Blu/NNP ray/NN)
+	(NOUN electronic/JJ distribution/NN)
+
+----------------------------------
+original sentence: 
+Walt Disney Studios Home Entertainment is a division of The Walt Disney Studios.
+
+POS tagged sentence: 
+[('Walt', 'NNP'), ('Disney', 'NNP'), ('Studios', 'NNP'), ('Home', 'NNP'), ('Entertainment', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('division', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Studios', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walt/NNP)   (ORGANIZATION Disney/NNP Studios/NNP Home/NNP)   Entertainment/NNP   is/VBZ   a/DT   division/NN   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Studios/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   division/NN   of/IN   The/DT   Walt/NNP   Disney/NNP   Studios/NNP)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Studios/NNP Home/NNP)
+	(NOUN Entertainment/NNP)
+
+----------------------------------
+original sentence: 
+About Disney Consumer Products
+Disney Consumer Products
+ DCP is the business segment of The Walt Disney Company NYSE:DIS that extends the Disney brand to merchandise ranging from apparel, toys, home d&#233;cor and books and magazines to foods and beverages, stationery, electronics and fine art.
+
+POS tagged sentence: 
+[('About', 'IN'), ('Disney', 'NNP'), ('Consumer', 'NNP'), ('Products', 'NNPS'), ('Disney', 'NNP'), ('Consumer', 'NNP'), ('Products', 'NNPS'), ('DCP', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('business', 'NN'), ('segment', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('DIS', 'NNP'), ('that', 'IN'), ('extends', 'NNS'), ('the', 'DT'), ('Disney', 'NNP'), ('brand', 'NN'), ('to', 'TO'), ('merchandise', 'VB'), ('ranging', 'VBG'), ('from', 'IN'), ('apparel', 'NN'), (',', ','), ('toys', 'VBZ'), (',', ','), ('home', 'NN'), ('d&', '-NONE-'), ('#', '#'), ('233', 'CD'), (';', ':'), ('cor', 'NN'), ('and', 'CC'), ('books', 'NNS'), ('and', 'CC'), ('magazines', 'NNS'), ('to', 'TO'), ('foods', 'NNS'), ('and', 'CC'), ('beverages', 'NNS'), (',', ','), ('stationery', 'NN'), (',', ','), ('electronics', 'NNS'), ('and', 'CC'), ('fine', 'NN'), ('art', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   (PERSON Disney/NNP Consumer/NNP)   Products/NNPS   (PERSON Disney/NNP Consumer/NNP)   Products/NNPS   (ORGANIZATION DCP/NNP)   is/VBZ   the/DT   business/NN   segment/NN   of/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   NYSE/NNP   :/:   DIS/NNP   that/IN   extends/NNS   the/DT   (ORGANIZATION Disney/NNP)   brand/NN   to/TO   merchandise/VB   ranging/VBG   from/IN   apparel/NN   ,/,   toys/VBZ   ,/,   home/NN   d&/-NONE-   #/#   233/CD   ;/:   cor/NN   and/CC   books/NNS   and/CC   magazines/NNS   to/TO   foods/NNS   and/CC   beverages/NNS   ,/,   stationery/NN   ,/,   electronics/NNS   and/CC   fine/NN   art/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   the/DT   business/NN   segment/NN   of/IN   The/DT   Walt/NNP   Disney/NNP   Company/NNP   NYSE/NNP)
+	(VERB merchandise/VB ranging/VBG from/IN apparel/NN)
+	(VERB toys/VBZ)
+noun phrases to consider:
+	(NOUN Disney/NNP Consumer/NNP Products/NNPS Disney/NNP)
+	(NOUN Consumer/NNP Products/NNPS DCP/NNP)
+	(NOUN DIS/NNP)
+	(NOUN extends/NNS)
+	(NOUN Disney/NNP brand/NN)
+	(NOUN home/NN)
+	(NOUN cor/NN)
+	(NOUN books/NNS)
+	(NOUN magazines/NNS)
+	(NOUN foods/NNS)
+	(NOUN beverages/NNS)
+	(NOUN stationery/NN)
+	(NOUN electronics/NNS)
+	(NOUN fine/NN art/NN)
+
+tagged sentence:
+	 fine art	res:-1
+
+----------------------------------
+original sentence: 
+This is accomplished through DCP's various lines of business which include: Disney Toys, Disney Fashion & Home, Disney Food, Health & Beauty, and Disney Stationery.
+
+POS tagged sentence: 
+[('This', 'DT'), ('is', 'VBZ'), ('accomplished', 'VBN'), ('through', 'IN'), ('DCP', 'NNP'), ("'s", 'POS'), ('various', 'JJ'), ('lines', 'NNS'), ('of', 'IN'), ('business', 'NN'), ('which', 'WDT'), ('include', 'NN'), (':', ':'), ('Disney', 'NNP'), ('Toys', 'NNP'), (',', ','), ('Disney', 'NNP'), ('Fashion', 'NNP'), ('&', 'CC'), ('Home', 'NNP'), (',', ','), ('Disney', 'NNP'), ('Food', 'NNP'), (',', ','), ('Health', 'NNP'), ('&', 'CC'), ('Beauty', 'NNP'), (',', ','), ('and', 'CC'), ('Disney', 'NNP'), ('Stationery', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   is/VBZ   accomplished/VBN   through/IN   (ORGANIZATION DCP/NNP)   's/POS   various/JJ   lines/NNS   of/IN   business/NN   which/WDT   include/NN   :/:   (PERSON Disney/NNP Toys/NNP)   ,/,   (PERSON Disney/NNP Fashion/NNP)   &/CC   (PERSON Home/NNP)   ,/,   (PERSON Disney/NNP Food/NNP)   ,/,   (PERSON Health/NNP)   &/CC   (GPE Beauty/NNP)   ,/,   and/CC   (ORGANIZATION Disney/NNP Stationery/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ accomplished/VBN through/IN DCP/NNP)
+noun phrases to consider:
+	(NOUN various/JJ lines/NNS)
+	(NOUN business/NN)
+	(NOUN include/NN)
+	(NOUN Disney/NNP Toys/NNP)
+	(NOUN Disney/NNP Fashion/NNP)
+	(NOUN Home/NNP)
+	(NOUN Disney/NNP Food/NNP)
+	(NOUN Health/NNP)
+	(NOUN Beauty/NNP)
+	(NOUN Disney/NNP Stationery/NNP)
+
+----------------------------------
+original sentence: 
+Other businesses involved in Disney's consumer products sales are Disney Publishing Worldwide, the world's largest publisher of children's books and magazines, and , the company's official shopping portal.
+
+POS tagged sentence: 
+[('Other', 'JJ'), ('businesses', 'NNS'), ('involved', 'VBD'), ('in', 'IN'), ('Disney', 'NNP'), ("'s", 'POS'), ('consumer', 'NN'), ('products', 'NNS'), ('sales', 'NNS'), ('are', 'VBP'), ('Disney', 'NNP'), ('Publishing', 'NNP'), ('Worldwide', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('publisher', 'NN'), ('of', 'IN'), ('children', 'NNS'), ("'s", 'POS'), ('books', 'NNS'), ('and', 'CC'), ('magazines', 'NNS'), (',', ','), ('and', 'CC'), (',', ','), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('official', 'NN'), ('shopping', 'NN'), ('portal', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Other/JJ   businesses/NNS   involved/VBD   in/IN   (GPE Disney/NNP)   's/POS   consumer/NN   products/NNS   sales/NNS   are/VBP   (ORGANIZATION Disney/NNP Publishing/NNP Worldwide/NNP)   ,/,   the/DT   world/NN   's/POS   largest/JJS   publisher/NN   of/IN   children/NNS   's/POS   books/NNS   and/CC   magazines/NNS   ,/,   and/CC   ,/,   the/DT   company/NN   's/POS   official/NN   shopping/NN   portal/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB involved/VBD in/IN Disney/NNP)
+	(VERB are/VBP Disney/NNP Publishing/NNP Worldwide/NNP)
+noun phrases to consider:
+	(NOUN Other/JJ businesses/NNS)
+	(NOUN consumer/NN products/NNS sales/NNS)
+	(NOUN world/NN)
+	(NOUN largest/JJS publisher/NN)
+
+tagged sentence:
+	 largest publisher	res:1
+	(NOUN children/NNS)
+	(NOUN books/NNS)
+	(NOUN magazines/NNS)
+	(NOUN company/NN)
+	(NOUN official/NN shopping/NN portal/NN)
+
+----------------------------------
+original sentence: 
+The Disney Stores retail chain, which debuted in 1987, is owned and operated by Disney in North America and Europe.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Stores', 'NNPS'), ('retail', 'JJ'), ('chain', 'NN'), (',', ','), ('which', 'WDT'), ('debuted', 'VBN'), ('in', 'IN'), ('1987', 'CD'), (',', ','), ('is', 'VBZ'), ('owned', 'VBN'), ('and', 'CC'), ('operated', 'VBN'), ('by', 'IN'), ('Disney', 'NNP'), ('in', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('and', 'CC'), ('Europe', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP Stores/NNPS)   retail/JJ   chain/NN   ,/,   which/WDT   debuted/VBN   in/IN   1987/CD   ,/,   is/VBZ   owned/VBN   and/CC   operated/VBN   by/IN   (ORGANIZATION Disney/NNP)   in/IN   (GPE North/NNP America/NNP)   and/CC   (GPE Europe/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB debuted/VBN in/IN 1987/CD)
+	(VERB is/VBZ owned/VBN)
+	(VERB operated/VBN by/IN Disney/NNP in/IN North/NNP America/NNP)
+noun phrases to consider:
+	(NOUN The/DT Disney/NNP Stores/NNPS retail/JJ chain/NN)
+	(NOUN Europe/NNP)
+
+----------------------------------
+original sentence: 
+The Disney Stores chain in Japan is operated under a license agreement with Disney.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('Stores', 'NNPS'), ('chain', 'NN'), ('in', 'IN'), ('Japan', 'NNP'), ('is', 'VBZ'), ('operated', 'VBN'), ('under', 'IN'), ('a', 'DT'), ('license', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('Disney', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP Stores/NNPS)   chain/NN   in/IN   (GPE Japan/NNP)   is/VBZ   operated/VBN   under/IN   a/DT   license/NN   agreement/NN   with/IN   (PERSON Disney/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   operated/VBN   under/IN   a/DT   license/NN   agreement/NN   with/IN   Disney/NNP)
+noun phrases to consider:
+	(NOUN Disney/NNP Stores/NNPS chain/NN)
+	(NOUN Japan/NNP)
+
+----------------------------------
+original sentence: 
+For more information, please visit www.DisneyConsumerProducts.com
+ or follow Disney Living at  Photos/Multimedia&#160;Gallery Available: http://www.businesswire.com/cgi bin/mmg.cgi?eid=6213734&lang=en
+ Contacts  Disney Consumer Products
+Kate Greenberg, 818 544 0039
+kate.h.greenberg@disney.com
+Norma Rosenfield, 818 591 2264
+norma@rosenfieldpr.com
+Walt Disney Home Entertainment
+Amelia B. McPartlon, 818 295 5243
+Amelia.B.McPartlon@disney.com
+ http://www.businesswire.com/news/home/20100314005046/en/Princess Tiana Officially Joins Disney Princess Royal
+ Smart Multimedia Gallery Princess Tiana officially joined the Disney Princess Royal Court at a star studded crowning event at The Palace in New York City.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('www.DisneyConsumerProducts.com', '-NONE-'), ('or', 'CC'), ('follow', 'VB'), ('Disney', 'NNP'), ('Living', 'NNP'), ('at', 'IN'), ('Photos/Multimedia&', 'NNP'), ('#', '#'), ('160', 'CD'), (';', ':'), ('Gallery', 'NNP'), ('Available', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/cgi', 'JJ'), ('bin/mmg.cgi', 'NN'), ('?', '.'), ('eid', 'NN'), ('=', ':'), ('6213734&lang', 'CD'), ('=', 'CD'), ('en', 'CD'), ('Contacts', 'NNS'), ('Disney', 'NNP'), ('Consumer', 'NNP'), ('Products', 'NNPS'), ('Kate', 'NNP'), ('Greenberg', 'NNP'), (',', ','), ('818', 'CD'), ('544', 'CD'), ('0039', 'CD'), ('kate.h.greenberg', 'JJ'), ('@', 'NN'), ('disney.com', 'NN'), ('Norma', 'NNP'), ('Rosenfield', 'NNP'), (',', ','), ('818', 'CD'), ('591', 'CD'), ('2264', 'CD'), ('norma', 'NN'), ('@', ':'), ('rosenfieldpr.com', 'JJ'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Home', 'NNP'), ('Entertainment', 'NNP'), ('Amelia', 'NNP'), ('B.', 'NNP'), ('McPartlon', 'NNP'), (',', ','), ('818', 'CD'), ('295', 'CD'), ('5243', 'CD'), ('Amelia.B.McPartlon', 'JJ'), ('@', 'NN'), ('disney.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100314005046/en/Princess', 'JJ'), ('Tiana', 'NNP'), ('Officially', 'NNP'), ('Joins', 'NNP'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Smart', 'NNP'), ('Multimedia', 'NNP'), ('Gallery', 'NNP'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('officially', 'RB'), ('joined', 'VBD'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('a', 'DT'), ('star', 'NN'), ('studded', 'VBN'), ('crowning', 'VBG'), ('event', 'NN'), ('at', 'IN'), ('The', 'DT'), ('Palace', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   please/VB   visit/NN   www.DisneyConsumerProducts.com/-NONE-   or/CC   follow/VB   (PERSON Disney/NNP Living/NNP)   at/IN   Photos/Multimedia&/NNP   #/#   160/CD   ;/:   (PERSON Gallery/NNP Available/NNP)   :/:   http/NN   :/:   //www.businesswire.com/cgi/JJ   bin/mmg.cgi/NN   ?/.   eid/NN   =/:   6213734&lang/CD   =/CD   en/CD   Contacts/NNS   (PERSON Disney/NNP Consumer/NNP)   Products/NNPS   (ORGANIZATION Kate/NNP Greenberg/NNP)   ,/,   818/CD   544/CD   0039/CD   kate.h.greenberg/JJ   @/NN   disney.com/NN   (PERSON Norma/NNP Rosenfield/NNP)   ,/,   818/CD   591/CD   2264/CD   norma/NN   @/:   rosenfieldpr.com/JJ   (ORGANIZATION Walt/NNP Disney/NNP Home/NNP)   Entertainment/NNP   Amelia/NNP   B./NNP   McPartlon/NNP   ,/,   818/CD   295/CD   5243/CD   Amelia.B.McPartlon/JJ   @/NN   disney.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100314005046/en/Princess/JJ   (PERSON     Tiana/NNP     Officially/NNP     Joins/NNP     Disney/NNP     Princess/NNP     Royal/NNP     Smart/NNP     Multimedia/NNP     Gallery/NNP     Princess/NNP     Tiana/NNP)   officially/RB   joined/VBD   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   a/DT   star/NN   studded/VBN   crowning/VBG   event/NN   at/IN   (FACILITY The/DT Palace/NNP)   in/IN   (GPE New/NNP York/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB please/VB visit/NN)
+
+tagged sentence:
+	 please visit	res:1
+	(VERB follow/VB Disney/NNP Living/NNP at/IN Photos/Multimedia&/NNP)
+	(VERB   joined/VBD   the/DT   Disney/NNP   Princess/NNP   Royal/NNP   Court/NNP   at/IN   a/DT   star/NN)
+	(VERB   studded/VBN   crowning/VBG   event/NN   at/IN   The/DT   Palace/NNP   in/IN   New/NNP   York/NNP   City/NNP)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN Gallery/NNP Available/NNP)
+	(NOUN http/NN)
+	(NOUN //www.businesswire.com/cgi/JJ bin/mmg.cgi/NN)
+	(NOUN eid/NN)
+	(NOUN en/CD Contacts/NNS Disney/NNP Consumer/NNP Products/NNPS)
+	(NOUN Kate/NNP Greenberg/NNP)
+	(NOUN   0039/CD   kate.h.greenberg/JJ   @/NN   disney.com/NN   Norma/NNP   Rosenfield/NNP)
+	(NOUN 2264/CD norma/NN)
+	(NOUN   rosenfieldpr.com/JJ   Walt/NNP   Disney/NNP   Home/NNP   Entertainment/NNP)
+	(NOUN Amelia/NNP B./NNP McPartlon/NNP)
+	(NOUN 5243/CD Amelia.B.McPartlon/JJ @/NN disney.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100314005046/en/Princess/JJ   Tiana/NNP   Officially/NNP   Joins/NNP   Disney/NNP)
+	(NOUN Princess/NNP Royal/NNP Smart/NNP Multimedia/NNP)
+	(NOUN Gallery/NNP Princess/NNP Tiana/NNP)
+
+----------------------------------
+original sentence: 
+The celebration marked the debut of the Academy Award R nominated "The Princess And The Frog" on Disney Blu Ray plus the first product line featuring Tiana alongside other Disney Princess characters set to release in stores this summer.
+
+POS tagged sentence: 
+[('The', 'DT'), ('celebration', 'NN'), ('marked', 'VBD'), ('the', 'DT'), ('debut', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Academy', 'NNP'), ('Award', 'NNP'), ('R', 'NNP'), ('nominated', 'VBD'), ('"', 'NNP'), ('The', 'NNP'), ('Princess', 'NNP'), ('And', 'NNP'), ('The', 'NNP'), ('Frog', 'NNP'), ('"', 'NNP'), ('on', 'IN'), ('Disney', 'NNP'), ('Blu', 'NNP'), ('Ray', 'NNP'), ('plus', 'CC'), ('the', 'DT'), ('first', 'JJ'), ('product', 'NN'), ('line', 'NN'), ('featuring', 'VBG'), ('Tiana', 'NNP'), ('alongside', 'NN'), ('other', 'JJ'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('characters', 'NNS'), ('set', 'VBD'), ('to', 'TO'), ('release', 'VB'), ('in', 'IN'), ('stores', 'NNS'), ('this', 'DT'), ('summer', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   celebration/NN   marked/VBD   the/DT   debut/NN   of/IN   the/DT   (ORGANIZATION Academy/NNP Award/NNP)   R/NNP   nominated/VBD   "/NNP   The/NNP   (ORGANIZATION Princess/NNP And/NNP)   The/NNP   Frog/NNP   "/NNP   on/IN   (ORGANIZATION Disney/NNP Blu/NNP Ray/NNP)   plus/CC   the/DT   first/JJ   product/NN   line/NN   featuring/VBG   (PERSON Tiana/NNP)   alongside/NN   other/JJ   (ORGANIZATION Disney/NNP)   Princess/NNP   characters/NNS   set/VBD   to/TO   release/VB   in/IN   stores/NNS   this/DT   summer/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   marked/VBD   the/DT   debut/NN   of/IN   the/DT   Academy/NNP   Award/NNP   R/NNP)
+	(VERB   nominated/VBD   "/NNP   The/NNP   Princess/NNP   And/NNP   The/NNP   Frog/NNP   "/NNP   on/IN   Disney/NNP   Blu/NNP   Ray/NNP)
+	(VERB   featuring/VBG   Tiana/NNP   alongside/NN   other/JJ   Disney/NNP   Princess/NNP   characters/NNS)
+	(VERB set/VBD to/TO release/VB in/IN stores/NNS this/DT summer/NN)
+noun phrases to consider:
+	(NOUN celebration/NN)
+	(NOUN the/DT first/JJ product/NN line/NN)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More Princess Tiana officially joined the Disney Princess Royal Court at a star studded crowning event at The Palace in New York City.
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('officially', 'RB'), ('joined', 'VBD'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('a', 'DT'), ('star', 'NN'), ('studded', 'VBN'), ('crowning', 'VBG'), ('event', 'NN'), ('at', 'IN'), ('The', 'DT'), ('Palace', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Princess/NNP   Tiana/NNP   officially/RB   joined/VBD   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   a/DT   star/NN   studded/VBN   crowning/VBG   event/NN   at/IN   (FACILITY The/DT Palace/NNP)   in/IN   (GPE New/NNP York/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   joined/VBD   the/DT   Disney/NNP   Princess/NNP   Royal/NNP   Court/NNP   at/IN   a/DT   star/NN)
+	(VERB   studded/VBN   crowning/VBG   event/NN   at/IN   The/DT   Palace/NNP   in/IN   New/NNP   York/NNP   City/NNP)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Princess/NNP Tiana/NNP)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More Young girls react to Princess Tiana's horse and carriage arrival and celebrate as she officially joins the Disney Princess Royal Court at a star studded crowning event at The Palace in New York City.
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Young', 'NNP'), ('girls', 'NNS'), ('react', 'VBP'), ('to', 'TO'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ("'s", 'POS'), ('horse', 'NN'), ('and', 'CC'), ('carriage', 'NN'), ('arrival', 'NN'), ('and', 'CC'), ('celebrate', 'JJ'), ('as', 'IN'), ('she', 'PRP'), ('officially', 'RB'), ('joins', 'VBZ'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('a', 'DT'), ('star', 'NN'), ('studded', 'VBN'), ('crowning', 'VBG'), ('event', 'NN'), ('at', 'IN'), ('The', 'DT'), ('Palace', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Young/NNP   girls/NNS   react/VBP   to/TO   (ORGANIZATION Princess/NNP Tiana/NNP)   's/POS   horse/NN   and/CC   carriage/NN   arrival/NN   and/CC   celebrate/JJ   as/IN   she/PRP   officially/RB   joins/VBZ   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   a/DT   star/NN   studded/VBN   crowning/VBG   event/NN   at/IN   (FACILITY The/DT Palace/NNP)   in/IN   (GPE New/NNP York/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB react/VBP to/TO Princess/NNP Tiana/NNP)
+	(VERB   joins/VBZ   the/DT   Disney/NNP   Princess/NNP   Royal/NNP   Court/NNP   at/IN   a/DT   star/NN)
+	(VERB   studded/VBN   crowning/VBG   event/NN   at/IN   The/DT   Palace/NNP   in/IN   New/NNP   York/NNP   City/NNP)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Young/NNP girls/NNS)
+	(NOUN horse/NN)
+	(NOUN carriage/NN arrival/NN)
+	(NOUN celebrate/JJ)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More Princess Tiana arrives in horse and carriage down Madison Ave. in New York City as she prepares to officially join the Disney Princess Royal Court at a star studded crowning event at The New York Palace.
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Princess', 'NNP'), ('Tiana', 'NNP'), ('arrives', 'VBZ'), ('in', 'IN'), ('horse', 'NN'), ('and', 'CC'), ('carriage', 'NN'), ('down', 'IN'), ('Madison', 'NNP'), ('Ave.', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('City', 'NNP'), ('as', 'IN'), ('she', 'PRP'), ('prepares', 'VBZ'), ('to', 'TO'), ('officially', 'RB'), ('join', 'VB'), ('the', 'DT'), ('Disney', 'NNP'), ('Princess', 'NNP'), ('Royal', 'NNP'), ('Court', 'NNP'), ('at', 'IN'), ('a', 'DT'), ('star', 'NN'), ('studded', 'VBN'), ('crowning', 'VBG'), ('event', 'NN'), ('at', 'IN'), ('The', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Palace', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Princess/NNP   Tiana/NNP   arrives/VBZ   in/IN   horse/NN   and/CC   carriage/NN   down/IN   (PERSON Madison/NNP)   Ave./NNP   in/IN   (GPE New/NNP York/NNP City/NNP)   as/IN   she/PRP   prepares/VBZ   to/TO   officially/RB   join/VB   the/DT   (ORGANIZATION Disney/NNP Princess/NNP Royal/NNP Court/NNP)   at/IN   a/DT   star/NN   studded/VBN   crowning/VBG   event/NN   at/IN   (FACILITY The/DT New/NNP York/NNP Palace/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB arrives/VBZ in/IN horse/NN)
+	(VERB   prepares/VBZ   to/TO   officially/RB   join/VB   the/DT   Disney/NNP   Princess/NNP   Royal/NNP   Court/NNP   at/IN   a/DT   star/NN)
+	(VERB   studded/VBN   crowning/VBG   event/NN   at/IN   The/DT   New/NNP   York/NNP   Palace/NNP)
+noun phrases to consider:
+	(NOUN Photo/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Princess/NNP Tiana/NNP)
+	(NOUN carriage/NN)
+	(NOUN Madison/NNP Ave./NNP)
+	(NOUN New/NNP York/NNP City/NNP)
+
+----------------------------------
+original sentence: 
+Photo: Business Wire  Download Formats  More  Download Formats  More Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Photo', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Download/NNP   Formats/NNPS   More/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)
+
+veryneg:0	neg:3	pos:6	verypos:0	total:4

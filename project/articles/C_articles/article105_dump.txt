@@ -1,0 +1,134 @@
+
+----------------------------------
+original sentence: 
+Citibank NYSE: C Raises Price Target on J Crew Group NYSE: JCG American Banking News
+Citibank NYSE: C Raises Price Target on J Crew Group NYSE: JCG  March 10th, 2010 &bull;  &bull; by admin  Filed Under: Citibank NYSE: C analysts simultaneously raised J Crew Group‚Äôs NYSE: JCG price target and downgraded the stock from ‚ÄúBuy‚Äù to ‚ÄúHold.‚Äù
+J Crew Group‚Äôs price target was raised from $49.00 to $50.00 citing data from J. Crew‚Äôs fourth quarter earnings report which was released last night.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Raises', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('on', 'IN'), ('J', 'NNP'), ('Crew', 'NNP'), ('Group', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JCG', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Raises', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('on', 'IN'), ('J', 'NNP'), ('Crew', 'NNP'), ('Group', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JCG', 'NNP'), ('March', 'NNP'), ('10th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('analysts', 'NNS'), ('simultaneously', 'RB'), ('raised', 'VBN'), ('J', 'NNP'), ('Crew', 'NNP'), ('Group', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('NYSE', 'NNP'), (':', ':'), ('JCG', 'NNP'), ('price', 'NN'), ('target', 'NN'), ('and', 'CC'), ('downgraded', 'VBD'), ('the', 'DT'), ('stock', 'NN'), ('from', 'IN'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('Buy', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('to', 'TO'), ('\xe2', 'VB'), ('\x80', ':'), ('\x9c', ':'), ('Hold.', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('J', 'NNP'), ('Crew', 'NNP'), ('Group', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('price', 'NN'), ('target', 'NN'), ('was', 'VBD'), ('raised', 'VBN'), ('from', 'IN'), ('$', '$'), ('49.00', 'CD'), ('to', 'TO'), ('$', '$'), ('50.00', 'CD'), ('citing', 'VBG'), ('data', 'NNS'), ('from', 'IN'), ('J.', 'NNP'), ('Crew', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('report', 'NN'), ('which', 'WDT'), ('was', 'VBD'), ('released', 'VBN'), ('last', 'JJ'), ('night', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Raises/NNPS   Price/NNP   Target/NNP   on/IN   J/NNP   Crew/NNP   Group/NNP   NYSE/NNP   :/:   (ORGANIZATION JCG/NNP American/NNP)   Banking/NNP   News/NNP   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   Raises/NNPS   Price/NNP   Target/NNP   on/IN   J/NNP   Crew/NNP   Group/NNP   NYSE/NNP   :/:   (ORGANIZATION JCG/NNP)   March/NNP   10th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   analysts/NNS   simultaneously/RB   raised/VBN   J/NNP   Crew/NNP   Group/NNP   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   (ORGANIZATION NYSE/NNP)   :/:   JCG/NNP   price/NN   target/NN   and/CC   downgraded/VBD   the/DT   stock/NN   from/IN   ‚/NNP   Ä/NNP   ú/NNP   Buy/NNP   ‚/NNP   Ä/NNP   ù/NNP   to/TO   ‚/VB   Ä/:   ú/:   Hold./NNP   ‚/:   Ä/:   ù/:   J/NNP   Crew/NNP   Group/NNP   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   price/NN   target/NN   was/VBD   raised/VBN   from/IN   $/$   49.00/CD   to/TO   $/$   50.00/CD   citing/VBG   data/NNS   from/IN   J./NNP   Crew/NNP   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   fourth/JJ   quarter/NN   earnings/NNS   report/NN   which/WDT   was/VBD   released/VBN   last/JJ   night/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB raised/VBN J/NNP Crew/NNP Group/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ NYSE/NNP)
+	(VERB   downgraded/VBD   the/DT   stock/NN   from/IN   ‚/NNP   Ä/NNP   ú/NNP   Buy/NNP   ‚/NNP   Ä/NNP   ù/NNP)
+
+tagged sentence:
+	 downgraded the stock from ‚ Ä ú Buy ‚ Ä ù	res:-2
+	(VERB ‚/VB)
+	(VERB s/VBZ price/NN target/NN)
+	(VERB was/VBD raised/VBN from/IN)
+	(VERB citing/VBG data/NNS from/IN J./NNP Crew/NNP ‚/NNP Ä/NNP ô/NNP)
+	(VERB s/VBZ fourth/JJ quarter/NN earnings/NNS report/NN)
+	(VERB was/VBD released/VBN last/JJ night/NN)
+noun phrases to consider:
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Raises/NNPS Price/NNP Target/NNP)
+	(NOUN J/NNP Crew/NNP Group/NNP NYSE/NNP)
+	(NOUN JCG/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Raises/NNPS Price/NNP Target/NNP)
+	(NOUN J/NNP Crew/NNP Group/NNP NYSE/NNP)
+	(NOUN JCG/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP analysts/NNS)
+	(NOUN JCG/NNP price/NN target/NN)
+	(NOUN Hold./NNP)
+	(NOUN J/NNP Crew/NNP Group/NNP ‚/NNP)
+	(NOUN Ä/NNP ô/NNP)
+
+----------------------------------
+original sentence: 
+The stock opened down about 2% today following the results.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('opened', 'VBD'), ('down', 'IN'), ('about', 'IN'), ('2', 'CD'), ('%', 'NN'), ('today', 'NN'), ('following', 'VBG'), ('the', 'DT'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   opened/VBD   down/IN   about/IN   2/CD   %/NN   today/NN   following/VBG   the/DT   results/NNS   ./.)
+----------------------------------
+original sentence: 
+J.
+
+POS tagged sentence: 
+[('J', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S J/NNP ./.)
+----------------------------------
+original sentence: 
+Crew Group, Inc is a multi channel specialty retailer in the United States that sells style conscious clothing.
+
+POS tagged sentence: 
+[('Crew', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('multi', 'NN'), ('channel', 'NN'), ('specialty', 'NN'), ('retailer', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('that', 'IN'), ('sells', 'NNS'), ('style', 'VBP'), ('conscious', 'JJ'), ('clothing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Crew/NNP)   (ORGANIZATION Group/NNP)   ,/,   (PERSON Inc/NNP)   is/VBZ   a/DT   multi/NN   channel/NN   specialty/NN   retailer/NN   in/IN   the/DT   (GPE United/NNP States/NNPS)   that/IN   sells/NNS   style/VBP   conscious/JJ   clothing/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   multi/NN   channel/NN   specialty/NN   retailer/NN   in/IN   the/DT   United/NNP   States/NNPS   that/IN   sells/NNS)
+	(VERB style/VBP conscious/JJ clothing/NN)
+noun phrases to consider:
+	(NOUN Crew/NNP Group/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Citibank expects the company to report 2011 earninsg per share of $2.30 versus the consensus estimate of $2.14.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('expects', 'VBZ'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('report', 'VB'), ('2011', 'CD'), ('earninsg', 'NN'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('2.30', 'CD'), ('versus', 'NNS'), ('the', 'DT'), ('consensus', 'NN'), ('estimate', 'NN'), ('of', 'IN'), ('$', '$'), ('2.14', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citibank/NNP)   expects/VBZ   the/DT   company/NN   to/TO   report/VB   2011/CD   earninsg/NN   per/IN   share/NN   of/IN   $/$   2.30/CD   versus/NNS   the/DT   consensus/NN   estimate/NN   of/IN   $/$   2.14/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expects/VBZ the/DT company/NN)
+	(VERB report/VB 2011/CD earninsg/NN per/IN share/NN of/IN)
+noun phrases to consider:
+	(NOUN Citibank/NNP)
+	(NOUN 2.30/CD versus/NNS)
+	(NOUN consensus/NN estimate/NN)
+
+----------------------------------
+original sentence: 
+Analyst Kimberly Greenberger, said, &#8220;We find 4Q09&#8217;s +17% comp, +13% direct growth & +1,630bps gross margin impressive; however, JCG shares have moved ~+44% since 8/27/09.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('Kimberly', 'RB'), ('Greenberger', 'NNP'), (',', ','), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('find', 'VBP'), ('4Q09&', 'CD'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('+', 'VBP'), ('17', 'CD'), ('%', 'NN'), ('comp', 'NN'), (',', ','), ('+', ':'), ('13', 'CD'), ('%', 'NN'), ('direct', 'JJ'), ('growth', 'NN'), ('&', 'CC'), ('+', 'NNP'), ('1,630bps', 'CD'), ('gross', 'NNS'), ('margin', 'NN'), ('impressive', 'JJ'), (';', ':'), ('however', 'RB'), (',', ','), ('JCG', 'NNP'), ('shares', 'NNS'), ('have', 'VBP'), ('moved', 'VBN'), ('~', '-NONE-'), ('+', ':'), ('44', 'CD'), ('%', 'NN'), ('since', 'IN'), ('8/27/09', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Analyst/NN)   (PERSON Kimberly/RB Greenberger/NNP)   ,/,   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   We/PRP   find/VBP   4Q09&/CD   #/#   8217/CD   ;/:   s/NNS   +/VBP   17/CD   %/NN   comp/NN   ,/,   +/:   13/CD   %/NN   direct/JJ   growth/NN   &/CC   +/NNP   1,630bps/CD   gross/NNS   margin/NN   impressive/JJ   ;/:   however/RB   ,/,   (ORGANIZATION JCG/NNP)   shares/NNS   have/VBP   moved/VBN   ~/-NONE-   +/:   44/CD   %/NN   since/IN   8/27/09/CD   ./.)
+----------------------------------
+original sentence: 
+Although we continue to see ~+6% upside to our new $50 price target raised from $49 we prefer a pullback before contemplating a commitment of new capital.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('we', 'PRP'), ('continue', 'VBP'), ('to', 'TO'), ('see', 'VB'), ('~', ':'), ('+', ':'), ('6', 'CD'), ('%', 'NN'), ('upside', 'NN'), ('to', 'TO'), ('our', 'PRP$'), ('new', 'JJ'), ('$', '$'), ('50', 'CD'), ('price', 'NN'), ('target', 'NN'), ('raised', 'VBD'), ('from', 'IN'), ('$', '$'), ('49', 'CD'), ('we', 'PRP'), ('prefer', 'VBP'), ('a', 'DT'), ('pullback', 'NN'), ('before', 'IN'), ('contemplating', 'VBG'), ('a', 'DT'), ('commitment', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('capital', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   we/PRP   continue/VBP   to/TO   see/VB   ~/:   +/:   6/CD   %/NN   upside/NN   to/TO   our/PRP$   new/JJ   $/$   50/CD   price/NN   target/NN   raised/VBD   from/IN   $/$   49/CD   we/PRP   prefer/VBP   a/DT   pullback/NN   before/IN   contemplating/VBG   a/DT   commitment/NN   of/IN   new/JJ   capital/NN   ./.)
+----------------------------------
+original sentence: 
+We expect continued solid execution & believe 1Q10 EPS guidance is conservative, but the stock at 20.4x 2010E and 17.4x 2011E likely discounts much of the good news.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('expect', 'VBP'), ('continued', 'VBN'), ('solid', 'JJ'), ('execution', 'NN'), ('&', 'CC'), ('believe', 'VBP'), ('1Q10', 'CD'), ('EPS', 'NNP'), ('guidance', 'NN'), ('is', 'VBZ'), ('conservative', 'JJ'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('stock', 'NN'), ('at', 'IN'), ('20.4x', 'CD'), ('2010E', 'CD'), ('and', 'CC'), ('17.4x', 'CD'), ('2011E', 'CD'), ('likely', 'JJ'), ('discounts', 'NNS'), ('much', 'RB'), ('of', 'IN'), ('the', 'DT'), ('good', 'JJ'), ('news', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   expect/VBP   continued/VBN   solid/JJ   execution/NN   &/CC   believe/VBP   1Q10/CD   EPS/NNP   guidance/NN   is/VBZ   conservative/JJ   ,/,   but/CC   the/DT   stock/NN   at/IN   20.4x/CD   2010E/CD   and/CC   17.4x/CD   2011E/CD   likely/JJ   discounts/NNS   much/RB   of/IN   the/DT   good/JJ   news/NN   ./.)
+----------------------------------
+original sentence: 
+Historically high operating margins we expect 16% in &#8216;11 , modest N T square ft. growth ~+3% in 2010 , & flattish 2H10E EPS growth could hold the shares back.&#8221;
+blog comments powered by 
+
+POS tagged sentence: 
+[('Historically', 'RB'), ('high', 'JJ'), ('operating', 'NN'), ('margins', 'NNS'), ('we', 'PRP'), ('expect', 'VBP'), ('16', 'CD'), ('%', 'NN'), ('in', 'IN'), ('&', 'CC'), ('#', '#'), ('8216', 'CD'), (';', ':'), ('11', 'CD'), (',', ','), ('modest', 'JJ'), ('N', 'NNP'), ('T', 'NNP'), ('square', 'NN'), ('ft.', 'NNP'), ('growth', 'NN'), ('~', ':'), ('+', ':'), ('3', 'CD'), ('%', 'NN'), ('in', 'IN'), ('2010', 'CD'), (',', ','), ('&', 'CC'), ('flattish', 'JJ'), ('2H10E', 'CD'), ('EPS', 'NNP'), ('growth', 'NN'), ('could', 'MD'), ('hold', 'VB'), ('the', 'DT'), ('shares', 'NNS'), ('back.&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   Historically/RB   high/JJ   operating/NN   margins/NNS   we/PRP   expect/VBP   16/CD   %/NN   in/IN   &/CC   #/#   8216/CD   ;/:   11/CD   ,/,   modest/JJ   N/NNP   T/NNP   square/NN   ft./NNP   growth/NN   ~/:   +/:   3/CD   %/NN   in/IN   2010/CD   ,/,   &/CC   flattish/JJ   2H10E/CD   EPS/NNP   growth/NN   could/MD   hold/VB   the/DT   shares/NNS   back.&/-NONE-   #/#   8221/CD   ;/:   blog/NN   comments/NNS   powered/VBD   by/IN)
+
+veryneg:1	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,370 @@
+
+----------------------------------
+original sentence: 
+TheStockAlarm Investment Stock Report Tracks Must Watch Stocks: Citigroup Inc., Flagstar Bancorp Inc., Consol Energy Inc., Bank | TradingMarkets.com  New ETF Book by Larry Connors Click here to read more
+ TheStockAlarm Investment Stock Report Tracks Must Watch Stocks: Citigroup Inc., Flagstar Bancorp Inc., Consol Energy Inc., Bank Posted on: Fri, 26 Mar 2010 11:24:40 EDT
+, ,  Do you know when to trade  &  ?
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('Investment', 'NN'), ('Stock', 'NN'), ('Report', 'NNP'), ('Tracks', 'NNP'), ('Must', 'NNP'), ('Watch', 'NNP'), ('Stocks', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Consol', 'NNP'), ('Energy', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Bank', 'NNP'), ('|', 'NNP'), ('TradingMarkets.com', 'NNP'), ('New', 'NNP'), ('ETF', 'NNP'), ('Book', 'NNP'), ('by', 'IN'), ('Larry', 'NNP'), ('Connors', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('TheStockAlarm', 'NNP'), ('Investment', 'NNP'), ('Stock', 'NNP'), ('Report', 'NNP'), ('Tracks', 'NNP'), ('Must', 'NNP'), ('Watch', 'NNP'), ('Stocks', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Consol', 'NNP'), ('Energy', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Bank', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), (':', ':'), ('Fri', 'NNP'), (',', ','), ('26', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('24', 'CD'), (':', ':'), ('40', 'CD'), ('EDT', 'NNP'), (',', ','), (',', ','), ('Do', 'NNP'), ('you', 'PRP'), ('know', 'VB'), ('when', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('&', 'CC'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   Investment/NN   (PERSON     Stock/NN     Report/NNP     Tracks/NNP     Must/NNP     Watch/NNP     Stocks/NNP)   :/:   (PERSON Citigroup/NNP Inc./NNP)   ,/,   (ORGANIZATION Flagstar/NNP Bancorp/NNP Inc./NNP)   ,/,   (PERSON Consol/NNP Energy/NNP)   Inc./NNP   ,/,   (ORGANIZATION Bank/NNP)   |/NNP   TradingMarkets.com/NNP   New/NNP   ETF/NNP   Book/NNP   by/IN   (PERSON Larry/NNP Connors/NNP Click/NNP)   here/RB   to/TO   read/VB   more/JJR   TheStockAlarm/NNP   Investment/NNP   Stock/NNP   Report/NNP   (PERSON Tracks/NNP Must/NNP Watch/NNP Stocks/NNP)   :/:   (PERSON Citigroup/NNP Inc./NNP)   ,/,   (ORGANIZATION Flagstar/NNP Bancorp/NNP Inc./NNP)   ,/,   (PERSON Consol/NNP Energy/NNP)   Inc./NNP   ,/,   (ORGANIZATION Bank/NNP Posted/NNP)   on/IN   :/:   Fri/NNP   ,/,   26/CD   Mar/NNP   2010/CD   11/CD   :/:   24/CD   :/:   40/CD   EDT/NNP   ,/,   ,/,   Do/NNP   you/PRP   know/VB   when/WRB   to/TO   trade/VB   &/CC   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   read/VB   more/JJR   TheStockAlarm/NNP   Investment/NNP   Stock/NNP   Report/NNP   Tracks/NNP   Must/NNP   Watch/NNP   Stocks/NNP)
+	(VERB know/VB)
+	(VERB trade/VB)
+noun phrases to consider:
+	(NOUN TheStockAlarm/NN Investment/NN Stock/NN Report/NNP)
+	(NOUN Tracks/NNP Must/NNP Watch/NNP Stocks/NNP)
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN Flagstar/NNP Bancorp/NNP Inc./NNP)
+	(NOUN Consol/NNP Energy/NNP Inc./NNP)
+	(NOUN Bank/NNP |/NNP TradingMarkets.com/NNP New/NNP)
+	(NOUN ETF/NNP Book/NNP)
+	(NOUN Larry/NNP Connors/NNP Click/NNP)
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN Flagstar/NNP Bancorp/NNP Inc./NNP)
+	(NOUN Consol/NNP Energy/NNP Inc./NNP)
+	(NOUN Bank/NNP Posted/NNP)
+	(NOUN Fri/NNP)
+	(NOUN 26/CD Mar/NNP)
+	(NOUN 40/CD EDT/NNP)
+	(NOUN Do/NNP)
+
+----------------------------------
+original sentence: 
+Check for a  from TradingMarkets  LAS VEGAS, NEVADA, Mar 26, 2010 Marketwire via COMTEX TheStockAlarm exclusive source for micro cap and big board research, provides wide ranging due diligence and insight on stocks all over the market.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('from', 'IN'), ('TradingMarkets', 'NNPS'), ('LAS', 'NNP'), ('VEGAS', 'NNP'), (',', ','), ('NEVADA', 'NNP'), (',', ','), ('Mar', 'NNP'), ('26', 'CD'), (',', ','), ('2010', 'CD'), ('Marketwire', 'NNP'), ('via', 'IN'), ('COMTEX', 'NNP'), ('TheStockAlarm', 'NNP'), ('exclusive', 'JJ'), ('source', 'NN'), ('for', 'IN'), ('micro', 'NN'), ('cap', 'NN'), ('and', 'CC'), ('big', 'JJ'), ('board', 'NN'), ('research', 'NN'), (',', ','), ('provides', 'VBZ'), ('wide', 'JJ'), ('ranging', 'NN'), ('due', 'JJ'), ('diligence', 'NN'), ('and', 'CC'), ('insight', 'NN'), ('on', 'IN'), ('stocks', 'NNS'), ('all', 'DT'), ('over', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   for/IN   a/DT   from/IN   (ORGANIZATION TradingMarkets/NNPS)   LAS/NNP   VEGAS/NNP   ,/,   (ORGANIZATION NEVADA/NNP)   ,/,   Mar/NNP   26/CD   ,/,   2010/CD   Marketwire/NNP   via/IN   (ORGANIZATION COMTEX/NNP)   TheStockAlarm/NNP   exclusive/JJ   source/NN   for/IN   micro/NN   cap/NN   and/CC   big/JJ   board/NN   research/NN   ,/,   provides/VBZ   wide/JJ   ranging/NN   due/JJ   diligence/NN   and/CC   insight/NN   on/IN   stocks/NNS   all/DT   over/IN   the/DT   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provides/VBZ wide/JJ ranging/NN due/JJ diligence/NN)
+
+tagged sentence:
+	 provides wide ranging due diligence	res:1
+noun phrases to consider:
+	(NOUN Check/NNP)
+	(NOUN TradingMarkets/NNPS LAS/NNP VEGAS/NNP)
+	(NOUN NEVADA/NNP)
+	(NOUN Mar/NNP)
+	(NOUN 2010/CD Marketwire/NNP)
+	(NOUN COMTEX/NNP TheStockAlarm/NNP exclusive/JJ source/NN)
+	(NOUN micro/NN cap/NN)
+	(NOUN big/JJ board/NN research/NN)
+	(NOUN insight/NN)
+
+tagged sentence:
+	 insight	res:1
+	(NOUN stocks/NNS)
+	(NOUN market/NN)
+
+----------------------------------
+original sentence: 
+TheStockAlarm Investment Stock Reports primary focus is to alert our valued subscribers to small cap and micro cap companies poised for explosive movement in the market.
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('Investment', 'NN'), ('Stock', 'NN'), ('Reports', 'NNS'), ('primary', 'JJ'), ('focus', 'NN'), ('is', 'VBZ'), ('to', 'TO'), ('alert', 'VB'), ('our', 'PRP$'), ('valued', 'VBN'), ('subscribers', 'NNS'), ('to', 'TO'), ('small', 'JJ'), ('cap', 'NN'), ('and', 'CC'), ('micro', 'NN'), ('cap', 'NN'), ('companies', 'NNS'), ('poised', 'VBN'), ('for', 'IN'), ('explosive', 'JJ'), ('movement', 'NN'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   Investment/NN   Stock/NN   Reports/NNS   primary/JJ   focus/NN   is/VBZ   to/TO   alert/VB   our/PRP$   valued/VBN   subscribers/NNS   to/TO   small/JJ   cap/NN   and/CC   micro/NN   cap/NN   companies/NNS   poised/VBN   for/IN   explosive/JJ   movement/NN   in/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Timing in the market is crucial!
+
+POS tagged sentence: 
+[('Timing', 'VBG'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('crucial', 'JJ'), ('!', '.')]
+
+
+ERTAGGED sentence: (S Timing/VBG in/IN the/DT market/NN is/VBZ crucial/JJ !/.)
+----------------------------------
+original sentence: 
+To receive our Exclusive newsletter, please visit http://www.thestockalarm.com.
+
+POS tagged sentence: 
+[('To', 'TO'), ('receive', 'VB'), ('our', 'PRP$'), ('Exclusive', 'JJ'), ('newsletter', 'NN'), (',', ','), ('please', 'NN'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.thestockalarm.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   receive/VB   our/PRP$   Exclusive/JJ   newsletter/NN   ,/,   please/NN   visit/NN   http/NN   :/:   //www.thestockalarm.com/JJ   ./.)
+----------------------------------
+original sentence: 
+TheStockAlarm Alerts Friday's Big Board Stocks To Watch: Citigroup Inc.  , Flagstar Bancorp Inc.  , Consol Energy Inc. CNX , Bank of America Corp. At TheStockAlarm we believe nothing speaks louder than the success of our subscribers.
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('Alerts', 'NNS'), ('Friday', 'NNP'), ("'s", 'POS'), ('Big', 'NNP'), ('Board', 'NNP'), ('Stocks', 'NNP'), ('To', 'NNP'), ('Watch', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Consol', 'NNP'), ('Energy', 'NNP'), ('Inc.', 'NNP'), ('CNX', 'NNP'), (',', ','), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp.', 'NNP'), ('At', 'NNP'), ('TheStockAlarm', 'NNP'), ('we', 'PRP'), ('believe', 'VBP'), ('nothing', 'NN'), ('speaks', 'NNS'), ('louder', 'NN'), ('than', 'IN'), ('the', 'DT'), ('success', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('subscribers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   (PERSON Alerts/NNS)   Friday/NNP   's/POS   Big/NNP   (PERSON Board/NNP Stocks/NNP To/NNP Watch/NNP)   :/:   (PERSON Citigroup/NNP Inc./NNP)   ,/,   (ORGANIZATION Flagstar/NNP Bancorp/NNP Inc./NNP)   ,/,   (PERSON Consol/NNP Energy/NNP)   Inc./NNP   CNX/NNP   ,/,   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp./NNP)   At/NNP   TheStockAlarm/NNP   we/PRP   believe/VBP   nothing/NN   speaks/NNS   louder/NN   than/IN   the/DT   success/NN   of/IN   our/PRP$   subscribers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   believe/VBP   nothing/NN   speaks/NNS   louder/NN   than/IN   the/DT   success/NN   of/IN   our/PRP$   subscribers/NNS)
+noun phrases to consider:
+	(NOUN TheStockAlarm/NN Alerts/NNS Friday/NNP)
+	(NOUN Big/NNP Board/NNP Stocks/NNP To/NNP)
+	(NOUN Watch/NNP)
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN Flagstar/NNP Bancorp/NNP Inc./NNP)
+	(NOUN Consol/NNP Energy/NNP Inc./NNP CNX/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp./NNP At/NNP TheStockAlarm/NNP)
+
+----------------------------------
+original sentence: 
+Sure we focus on micro cap and small cap companies, but in today's markets you need to be versatile.
+
+POS tagged sentence: 
+[('Sure', 'RB'), ('we', 'PRP'), ('focus', 'VBZ'), ('on', 'IN'), ('micro', 'NN'), ('cap', 'NN'), ('and', 'CC'), ('small', 'JJ'), ('cap', 'NN'), ('companies', 'NNS'), (',', ','), ('but', 'CC'), ('in', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('markets', 'NNS'), ('you', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('be', 'VB'), ('versatile', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sure/RB   we/PRP   focus/VBZ   on/IN   micro/NN   cap/NN   and/CC   small/JJ   cap/NN   companies/NNS   ,/,   but/CC   in/IN   today/NN   's/POS   markets/NNS   you/PRP   need/VBP   to/TO   be/VB   versatile/JJ   ./.)
+----------------------------------
+original sentence: 
+That's why our team at TheStockAlarm track the hottest stocks all over the market in order to keep our subscribers tuned in.
+
+POS tagged sentence: 
+[('That', 'DT'), ("'s", 'VBZ'), ('why', 'WRB'), ('our', 'PRP$'), ('team', 'NN'), ('at', 'IN'), ('TheStockAlarm', 'NNP'), ('track', 'NN'), ('the', 'DT'), ('hottest', 'NN'), ('stocks', 'NNS'), ('all', 'DT'), ('over', 'IN'), ('the', 'DT'), ('market', 'NN'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('keep', 'VB'), ('our', 'PRP$'), ('subscribers', 'NNS'), ('tuned', 'VBD'), ('in', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   's/VBZ   why/WRB   our/PRP$   team/NN   at/IN   (ORGANIZATION TheStockAlarm/NNP)   track/NN   the/DT   hottest/NN   stocks/NNS   all/DT   over/IN   the/DT   market/NN   in/IN   order/NN   to/TO   keep/VB   our/PRP$   subscribers/NNS   tuned/VBD   in/IN   ./.)
+----------------------------------
+original sentence: 
+We work diligently to provide all investors large or small an opportunity to track stocks with the potential to bring big profits.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('work', 'VBP'), ('diligently', 'RB'), ('to', 'TO'), ('provide', 'VB'), ('all', 'DT'), ('investors', 'NNS'), ('large', 'JJ'), ('or', 'CC'), ('small', 'JJ'), ('an', 'DT'), ('opportunity', 'NN'), ('to', 'TO'), ('track', 'VB'), ('stocks', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('potential', 'JJ'), ('to', 'TO'), ('bring', 'VB'), ('big', 'JJ'), ('profits', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   work/VBP   diligently/RB   to/TO   provide/VB   all/DT   investors/NNS   large/JJ   or/CC   small/JJ   an/DT   opportunity/NN   to/TO   track/VB   stocks/NNS   with/IN   the/DT   potential/JJ   to/TO   bring/VB   big/JJ   profits/NNS   ./.)
+----------------------------------
+original sentence: 
+Many of the newsletters we follow talk a big game, at TheStockAlarm we let our research do the talking.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('newsletters', 'NNS'), ('we', 'PRP'), ('follow', 'VBP'), ('talk', 'VBP'), ('a', 'DT'), ('big', 'JJ'), ('game', 'NN'), (',', ','), ('at', 'IN'), ('TheStockAlarm', 'NNP'), ('we', 'PRP'), ('let', 'VBP'), ('our', 'PRP$'), ('research', 'NN'), ('do', 'VB'), ('the', 'DT'), ('talking', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   of/IN   the/DT   newsletters/NNS   we/PRP   follow/VBP   talk/VBP   a/DT   big/JJ   game/NN   ,/,   at/IN   TheStockAlarm/NNP   we/PRP   let/VBP   our/PRP$   research/NN   do/VB   the/DT   talking/NN   ./.)
+----------------------------------
+original sentence: 
+We seek to find micro cap and small companies that have the potential to add extreme value and explosive profits to investors.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('seek', 'VBP'), ('to', 'TO'), ('find', 'VB'), ('micro', 'NN'), ('cap', 'NN'), ('and', 'CC'), ('small', 'JJ'), ('companies', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('the', 'DT'), ('potential', 'NN'), ('to', 'TO'), ('add', 'VB'), ('extreme', 'NN'), ('value', 'NN'), ('and', 'CC'), ('explosive', 'JJ'), ('profits', 'NNS'), ('to', 'TO'), ('investors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   seek/VBP   to/TO   find/VB   micro/NN   cap/NN   and/CC   small/JJ   companies/NNS   that/WDT   have/VBP   the/DT   potential/NN   to/TO   add/VB   extreme/NN   value/NN   and/CC   explosive/JJ   profits/NNS   to/TO   investors/NNS   ./.)
+----------------------------------
+original sentence: 
+To join our FREE newsletter please visit: http://www.thestockalarm.com.
+
+POS tagged sentence: 
+[('To', 'TO'), ('join', 'VB'), ('our', 'PRP$'), ('FREE', 'NNP'), ('newsletter', 'NN'), ('please', 'NN'), ('visit', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.thestockalarm.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   join/VB   our/PRP$   (ORGANIZATION FREE/NNP)   newsletter/NN   please/NN   visit/NN   :/:   http/NN   :/:   //www.thestockalarm.com/JJ   ./.)
+----------------------------------
+original sentence: 
+TheStockAlarm is one of the market's most reliable micro cap research providers.
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ("'s", 'POS'), ('most', 'JJS'), ('reliable', 'JJ'), ('micro', 'NN'), ('cap', 'NN'), ('research', 'NN'), ('providers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   is/VBZ   one/CD   of/IN   the/DT   market/NN   's/POS   most/JJS   reliable/JJ   micro/NN   cap/NN   research/NN   providers/NNS   ./.)
+----------------------------------
+original sentence: 
+TheStockAlarm alerts investors to promising small cap companies that are based on strong fundamentals, many of which are overlooked by your run of the mill Wall Street investment advisor.
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('alerts', 'NNS'), ('investors', 'NNS'), ('to', 'TO'), ('promising', 'JJ'), ('small', 'JJ'), ('cap', 'NN'), ('companies', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('based', 'VBN'), ('on', 'IN'), ('strong', 'JJ'), ('fundamentals', 'NNS'), (',', ','), ('many', 'JJ'), ('of', 'IN'), ('which', 'WDT'), ('are', 'VBP'), ('overlooked', 'VBN'), ('by', 'IN'), ('your', 'PRP$'), ('run', 'NN'), ('of', 'IN'), ('the', 'DT'), ('mill', 'NN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('investment', 'NN'), ('advisor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   alerts/NNS   investors/NNS   to/TO   promising/JJ   small/JJ   cap/NN   companies/NNS   that/WDT   are/VBP   based/VBN   on/IN   strong/JJ   fundamentals/NNS   ,/,   many/JJ   of/IN   which/WDT   are/VBP   overlooked/VBN   by/IN   your/PRP$   run/NN   of/IN   the/DT   mill/NN   (FACILITY Wall/NNP Street/NNP)   investment/NN   advisor/NN   ./.)
+----------------------------------
+original sentence: 
+At TheStockAlarm we realize it is much easier to find a stock that can go from $.01 $1.00 in days than it is to find a stock that can go from $1.00 $100.00.
+
+POS tagged sentence: 
+[('At', 'IN'), ('TheStockAlarm', 'NNP'), ('we', 'PRP'), ('realize', 'VBP'), ('it', 'PRP'), ('is', 'VBZ'), ('much', 'RB'), ('easier', 'JJR'), ('to', 'TO'), ('find', 'VB'), ('a', 'DT'), ('stock', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('go', 'VB'), ('from', 'IN'), ('$', '$'), ('.01', 'CD'), ('$', '$'), ('1.00', 'CD'), ('in', 'IN'), ('days', 'NNS'), ('than', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('to', 'TO'), ('find', 'VB'), ('a', 'DT'), ('stock', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('go', 'VB'), ('from', 'IN'), ('$', '$'), ('1.00', 'CD'), ('$', '$'), ('100.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   TheStockAlarm/NNP   we/PRP   realize/VBP   it/PRP   is/VBZ   much/RB   easier/JJR   to/TO   find/VB   a/DT   stock/NN   that/WDT   can/MD   go/VB   from/IN   $/$   .01/CD   $/$   1.00/CD   in/IN   days/NNS   than/IN   it/PRP   is/VBZ   to/TO   find/VB   a/DT   stock/NN   that/WDT   can/MD   go/VB   from/IN   $/$   1.00/CD   $/$   100.00/CD   ./.)
+----------------------------------
+original sentence: 
+TheStockAlarm provides its subscribers with comprehensive public information and due diligence for small companies with huge potential.
+
+POS tagged sentence: 
+[('TheStockAlarm', 'NN'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('comprehensive', 'JJ'), ('public', 'JJ'), ('information', 'NN'), ('and', 'CC'), ('due', 'JJ'), ('diligence', 'NN'), ('for', 'IN'), ('small', 'JJ'), ('companies', 'NNS'), ('with', 'IN'), ('huge', 'JJ'), ('potential', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TheStockAlarm/NN   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   comprehensive/JJ   public/JJ   information/NN   and/CC   due/JJ   diligence/NN   for/IN   small/JJ   companies/NNS   with/IN   huge/JJ   potential/JJ   ./.)
+----------------------------------
+original sentence: 
+For more information and to become a subscriber, please visit: http://www.thestockalarm.com.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('and', 'CC'), ('to', 'TO'), ('become', 'VB'), ('a', 'DT'), ('subscriber', 'NN'), (',', ','), ('please', 'NN'), ('visit', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.thestockalarm.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   and/CC   to/TO   become/VB   a/DT   subscriber/NN   ,/,   please/NN   visit/NN   :/:   http/NN   :/:   //www.thestockalarm.com/JJ   ./.)
+----------------------------------
+original sentence: 
+Sign up to receive our FREE Alarms, delivered right to your inbox, on the hottest micro and small cap stocks the market has to offer some of overlooked and undervalued companies are destined to become "Big Board Stocks".
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('receive', 'VB'), ('our', 'PRP$'), ('FREE', 'NNP'), ('Alarms', 'NNP'), (',', ','), ('delivered', 'VBD'), ('right', 'RB'), ('to', 'TO'), ('your', 'PRP$'), ('inbox', 'NN'), (',', ','), ('on', 'IN'), ('the', 'DT'), ('hottest', 'JJS'), ('micro', 'NN'), ('and', 'CC'), ('small', 'JJ'), ('cap', 'NN'), ('stocks', 'NNS'), ('the', 'DT'), ('market', 'NN'), ('has', 'VBZ'), ('to', 'TO'), ('offer', 'VB'), ('some', 'DT'), ('of', 'IN'), ('overlooked', 'VBN'), ('and', 'CC'), ('undervalued', 'VBN'), ('companies', 'NNS'), ('are', 'VBP'), ('destined', 'VBN'), ('to', 'TO'), ('become', 'VB'), ('"', ':'), ('Big', 'NNP'), ('Board', 'NNP'), ('Stocks', 'NNP'), ('"', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   to/TO   receive/VB   our/PRP$   (ORGANIZATION FREE/NNP Alarms/NNP)   ,/,   delivered/VBD   right/RB   to/TO   your/PRP$   inbox/NN   ,/,   on/IN   the/DT   hottest/JJS   micro/NN   and/CC   small/JJ   cap/NN   stocks/NNS   the/DT   market/NN   has/VBZ   to/TO   offer/VB   some/DT   of/IN   overlooked/VBN   and/CC   undervalued/VBN   companies/NNS   are/VBP   destined/VBN   to/TO   become/VB   "/:   Big/NNP   (PERSON Board/NNP Stocks/NNP)   "/NNP   ./.)
+----------------------------------
+original sentence: 
+SOURCE: TheStockAlarm.com TheStockAlarm.com 702 942 3416 editor@thestockalarm.com www.thestockalarm.com For full details on Citigroup C .
+
+POS tagged sentence: 
+[('SOURCE', 'NN'), (':', ':'), ('TheStockAlarm.com', 'JJ'), ('TheStockAlarm.com', 'NN'), ('702', 'CD'), ('942', 'CD'), ('3416', 'CD'), ('editor', 'NN'), ('@', ':'), ('thestockalarm.com', 'JJ'), ('www.thestockalarm.com', 'NN'), ('For', 'IN'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Citigroup', 'NNP'), ('C', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE SOURCE/NN)   :/:   TheStockAlarm.com/JJ   TheStockAlarm.com/NN   702/CD   942/CD   3416/CD   editor/NN   @/:   thestockalarm.com/JJ   www.thestockalarm.com/NN   For/IN   full/JJ   details/NNS   on/IN   (ORGANIZATION Citigroup/NNP)   C/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN SOURCE/NN)
+	(NOUN TheStockAlarm.com/JJ TheStockAlarm.com/NN)
+	(NOUN 3416/CD editor/NN)
+	(NOUN thestockalarm.com/JJ www.thestockalarm.com/NN)
+	(NOUN full/JJ details/NNS)
+	(NOUN Citigroup/NNP C/NNP)
+
+----------------------------------
+original sentence: 
+Citigroup C has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('C', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   C/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Citigroup/NNP C/NNP)
+
+----------------------------------
+original sentence: 
+Details on Citigroup C Short Term PowerRatings is available at For full details on Bank Of America Corp BAC .
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Citigroup', 'NNP'), ('C', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Bank', 'NNP'), ('Of', 'NNP'), ('America', 'NNP'), ('Corp', 'NNP'), ('BAC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION Citigroup/NNP)   C/NNP   Short/NNP   Term/NNP   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION For/NNP)   full/JJ   details/NNS   on/IN   (ORGANIZATION Bank/NNP Of/NNP America/NNP Corp/NNP)   BAC/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   For/NNP   full/JJ   details/NNS   on/IN   Bank/NNP   Of/NNP   America/NNP   Corp/NNP   BAC/NNP)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Citigroup/NNP C/NNP Short/NNP Term/NNP)
+	(NOUN PowerRatings/NNP)
+
+----------------------------------
+original sentence: 
+Bank Of America Corp BAC has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('Of', 'IN'), ('America', 'NNP'), ('Corp', 'NNP'), ('BAC', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   (ORGANIZATION Of/IN America/NNP Corp/NNP)   BAC/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp/NNP BAC/NNP)
+
+----------------------------------
+original sentence: 
+Details on Bank Of America Corp BAC Short Term PowerRatings is available at For full details on Flagstar Bancorp Inc FBC .
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Bank', 'NNP'), ('Of', 'NNP'), ('America', 'NNP'), ('Corp', 'NNP'), ('BAC', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc', 'NNP'), ('FBC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION Bank/NNP Of/NNP America/NNP Corp/NNP)   BAC/NNP   Short/NNP   Term/NNP   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION For/NNP)   full/JJ   details/NNS   on/IN   (ORGANIZATION Flagstar/NNP Bancorp/NNP Inc/NNP)   FBC/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   For/NNP   full/JJ   details/NNS   on/IN   Flagstar/NNP   Bancorp/NNP   Inc/NNP   FBC/NNP)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Bank/NNP Of/NNP America/NNP Corp/NNP)
+	(NOUN BAC/NNP Short/NNP Term/NNP PowerRatings/NNP)
+
+----------------------------------
+original sentence: 
+Flagstar Bancorp Inc FBC has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc', 'NNP'), ('FBC', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Flagstar/NNP)   (ORGANIZATION Bancorp/NNP Inc/NNP)   FBC/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Flagstar/NNP Bancorp/NNP Inc/NNP FBC/NNP)
+
+----------------------------------
+original sentence: 
+Details on Flagstar Bancorp Inc FBC Short Term PowerRatings is available at Learn new strategies, how to trade in this market, and the stocks you should be focusing on each day.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Flagstar', 'NNP'), ('Bancorp', 'NNP'), ('Inc', 'NNP'), ('FBC', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Learn', 'NNP'), ('new', 'JJ'), ('strategies', 'NNS'), (',', ','), ('how', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stocks', 'NNS'), ('you', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION Flagstar/NNP Bancorp/NNP Inc/NNP)   FBC/NNP   Short/NNP   Term/NNP   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION Learn/NNP)   new/JJ   strategies/NNS   ,/,   how/WRB   to/TO   trade/VB   in/IN   this/DT   market/NN   ,/,   and/CC   the/DT   stocks/NNS   you/PRP   should/MD   be/VB   focusing/VBG   on/IN   each/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN Learn/NNP new/JJ strategies/NNS)
+	(VERB trade/VB in/IN this/DT market/NN)
+	(VERB be/VB focusing/VBG on/IN each/DT day/NN)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Flagstar/NNP Bancorp/NNP Inc/NNP FBC/NNP)
+	(NOUN Short/NNP Term/NNP PowerRatings/NNP)
+	(NOUN stocks/NNS)
+
+----------------------------------
+original sentence: 
+Join us for our  20 minute tele seminars during the week.
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('us', 'PRP'), ('for', 'IN'), ('our', 'PRP$'), ('20', 'CD'), ('minute', 'NN'), ('tele', 'NN'), ('seminars', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Join/NNP   us/PRP   for/IN   our/PRP$   20/CD   minute/NN   tele/NN   seminars/NNS   during/IN   the/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Thursday April 29 12:30 PM Hear What Kevin Haggerty Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Thursday', 'NNP'), ('April', 'NNP'), ('29', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Kevin', 'NNP'), ('Haggerty', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Thursday/NNP   April/NNP   29/CD   12/CD   :/:   30/CD   PM/NNP   Hear/NNP   What/NNP   (PERSON Kevin/NNP Haggerty/NNP Sees/NNP)   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Wednesday April 28 01:00 PM Hear What Gary Kaltbaum Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Wednesday', 'NNP'), ('April', 'NNP'), ('28', 'CD'), ('01', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Gary', 'NNP'), ('Kaltbaum', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Wednesday/NNP   April/NNP   28/CD   01/CD   :/:   00/CD   PM/NNP   Hear/NNP   What/NNP   Gary/NNP   Kaltbaum/NNP   Sees/NNP   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+* Attendance is strictly limited and are filled on a first come, first served basis. 
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Attendance', 'VB'), ('is', 'VBZ'), ('strictly', 'RB'), ('limited', 'VBN'), ('and', 'CC'), ('are', 'VBP'), ('filled', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('first', 'JJ'), ('come', 'NN'), (',', ','), ('first', 'JJ'), ('served', 'VBD'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Attendance/VB   is/VBZ   strictly/RB   limited/VBN   and/CC   are/VBP   filled/VBN   on/IN   a/DT   first/JJ   come/NN   ,/,   first/JJ   served/VBD   basis/NN   ./.)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:1

@@ -1,0 +1,369 @@
+
+----------------------------------
+original sentence: 
+Citigroup Looks To Book Profits In The Hot Earning ETF Market | Benzinga.com
+Citigroup Looks To Book Profits In The Hot Earning ETF Market
+Recent Articles by David Bettencourt
+Posted on 03/17/10 at 5:54pm by &lt;!
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('Looks', 'NNP'), ('To', 'NNP'), ('Book', 'NNP'), ('Profits', 'NNP'), ('In', 'NNP'), ('The', 'NNP'), ('Hot', 'NNP'), ('Earning', 'NNP'), ('ETF', 'NNP'), ('Market', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Citigroup', 'NNP'), ('Looks', 'NNP'), ('To', 'NNP'), ('Book', 'NNP'), ('Profits', 'NNP'), ('In', 'NNP'), ('The', 'NNP'), ('Hot', 'NNP'), ('Earning', 'NNP'), ('ETF', 'NNP'), ('Market', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('David', 'NNP'), ('Bettencourt', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/17/10', 'CD'), ('at', 'IN'), ('5', 'CD'), (':', ':'), ('54pm', 'CD'), ('by', 'IN'), ('&lt', 'JJ'), (';', ':'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   (PERSON Looks/NNP To/NNP Book/NNP Profits/NNP)   In/NNP   The/NNP   Hot/NNP   Earning/NNP   ETF/NNP   (PERSON Market/NNP)   |/NNP   Benzinga.com/NNP   Citigroup/NNP   (PERSON Looks/NNP To/NNP Book/NNP Profits/NNP)   In/NNP   The/NNP   Hot/NNP   Earning/NNP   ETF/NNP   (PERSON Market/NNP Recent/NNP Articles/NNP)   by/IN   (PERSON David/NNP Bettencourt/NNP Posted/NNP)   on/IN   03/17/10/CD   at/IN   5/CD   :/:   54pm/CD   by/IN   &lt/JJ   ;/:   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Citigroup/NNP Looks/NNP To/NNP Book/NNP)
+	(NOUN Profits/NNP In/NNP The/NNP Hot/NNP)
+	(NOUN Earning/NNP ETF/NNP Market/NNP |/NNP)
+	(NOUN Benzinga.com/NNP Citigroup/NNP Looks/NNP To/NNP)
+	(NOUN Book/NNP Profits/NNP In/NNP The/NNP)
+	(NOUN Hot/NNP Earning/NNP ETF/NNP Market/NNP)
+	(NOUN Recent/NNP Articles/NNP)
+	(NOUN David/NNP Bettencourt/NNP Posted/NNP)
+	(NOUN &lt/JJ)
+
+----------------------------------
+original sentence: 
+INFOLINKS_ON >
+
+â€œCitigroup Inc NYSE:C  stock is maintaining its strength
+, after the Fed announced it would hold the line on interest rate hikes.
+
+POS tagged sentence: 
+[('INFOLINKS_ON', 'NNP'), ('>', ':'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('stock', 'NN'), ('is', 'VBZ'), ('maintaining', 'VBG'), ('its', 'PRP$'), ('strength', 'NN'), (',', ','), ('after', 'IN'), ('the', 'DT'), ('Fed', 'NNP'), ('announced', 'VBD'), ('it', 'PRP'), ('would', 'MD'), ('hold', 'VB'), ('the', 'DT'), ('line', 'NN'), ('on', 'IN'), ('interest', 'NN'), ('rate', 'NN'), ('hikes', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP INFOLINKS_ON/NNP)   >/:   â/:   €/:   œ/:   (PERSON Citigroup/NNP Inc/NNP)   NYSE/NNP   :/:   C/NNP   stock/NN   is/VBZ   maintaining/VBG   its/PRP$   strength/NN   ,/,   after/IN   the/DT   (ORGANIZATION Fed/NNP)   announced/VBD   it/PRP   would/MD   hold/VB   the/DT   line/NN   on/IN   interest/NN   rate/NN   hikes/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ maintaining/VBG its/PRP$ strength/NN)
+
+tagged sentence:
+	 is maintaining its strength	res:1
+	(VERB announced/VBD it/PRP)
+	(VERB hold/VB the/DT line/NN on/IN interest/NN rate/NN)
+	(VERB hikes/VBZ)
+noun phrases to consider:
+	(NOUN INFOLINKS_ON/NNP)
+	(NOUN Citigroup/NNP Inc/NNP NYSE/NNP)
+	(NOUN C/NNP stock/NN)
+	(NOUN Fed/NNP)
+
+----------------------------------
+original sentence: 
+Now the big question for investors seems to concern what Citigroup
+.
+
+POS tagged sentence: 
+[('Now', 'RB'), ('the', 'DT'), ('big', 'JJ'), ('question', 'NN'), ('for', 'IN'), ('investors', 'NNS'), ('seems', 'VBZ'), ('to', 'TO'), ('concern', 'NN'), ('what', 'WP'), ('Citigroup', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Now/RB   the/DT   big/JJ   question/NN   for/IN   investors/NNS   seems/VBZ   to/TO   concern/NN   what/WP   (PERSON Citigroup/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB seems/VBZ to/TO concern/NN)
+
+tagged sentence:
+	 seems to concern	res:-1
+noun phrases to consider:
+	(NOUN the/DT big/JJ question/NN)
+
+tagged sentence:
+	 the big question	res:-1
+	(NOUN investors/NNS)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+The winds of financial regulation are blowing mightily through Washington, so cautious investors wonder just how this will affect Citigroup.
+
+POS tagged sentence: 
+[('The', 'DT'), ('winds', 'NNS'), ('of', 'IN'), ('financial', 'JJ'), ('regulation', 'NN'), ('are', 'VBP'), ('blowing', 'VBG'), ('mightily', 'RB'), ('through', 'IN'), ('Washington', 'NNP'), (',', ','), ('so', 'RB'), ('cautious', 'JJ'), ('investors', 'NNS'), ('wonder', 'NN'), ('just', 'RB'), ('how', 'WRB'), ('this', 'DT'), ('will', 'MD'), ('affect', 'VB'), ('Citigroup', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   winds/NNS   of/IN   financial/JJ   regulation/NN   are/VBP   blowing/VBG   mightily/RB   through/IN   (GPE Washington/NNP)   ,/,   so/RB   cautious/JJ   investors/NNS   wonder/NN   just/RB   how/WRB   this/DT   will/MD   affect/VB   (PERSON Citigroup/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP blowing/VBG mightily/RB through/IN Washington/NNP)
+	(VERB affect/VB Citigroup/NNP)
+noun phrases to consider:
+	(NOUN winds/NNS)
+	(NOUN financial/JJ regulation/NN)
+	(NOUN so/RB cautious/JJ investors/NNS wonder/NN)
+
+----------------------------------
+original sentence: 
+The financial regulation that is expected to come later hasnâ€™t hit just yet.
+
+POS tagged sentence: 
+[('The', 'DT'), ('financial', 'JJ'), ('regulation', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('come', 'VB'), ('later', 'JJ'), ('hasn', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('t', 'NN'), ('hit', 'VBD'), ('just', 'RB'), ('yet', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   financial/JJ   regulation/NN   that/WDT   is/VBZ   expected/VBN   to/TO   come/VB   later/JJ   hasn/NN   â/:   €/:   ™/:   t/NN   hit/VBD   just/RB   yet/RB   ./.)
+----------------------------------
+original sentence: 
+Therefore Citigroup is maintaining certain proprietary trading operations that are contributing to the bottom line.
+
+POS tagged sentence: 
+[('Therefore', 'NNP'), ('Citigroup', 'NNP'), ('is', 'VBZ'), ('maintaining', 'VBG'), ('certain', 'JJ'), ('proprietary', 'NN'), ('trading', 'NN'), ('operations', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('contributing', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('bottom', 'NN'), ('line', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Therefore/NNP   Citigroup/NNP   is/VBZ   maintaining/VBG   certain/JJ   proprietary/NN   trading/NN   operations/NNS   that/WDT   are/VBP   contributing/VBG   to/TO   the/DT   bottom/NN   line/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   maintaining/VBG   certain/JJ   proprietary/NN   trading/NN   operations/NNS)
+	(VERB are/VBP contributing/VBG)
+noun phrases to consider:
+	(NOUN Therefore/NNP Citigroup/NNP)
+	(NOUN bottom/NN line/NN)
+
+----------------------------------
+original sentence: 
+Citigroup moved most of these units to Citi Holdings, where theyâ€™re not expected to get any additional capital from C, but in the mean time some of these units are still making money.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('moved', 'VBD'), ('most', 'RBS'), ('of', 'IN'), ('these', 'DT'), ('units', 'NNS'), ('to', 'TO'), ('Citi', 'NNP'), ('Holdings', 'NNP'), (',', ','), ('where', 'WRB'), ('they', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('re', 'NN'), ('not', 'RB'), ('expected', 'VBN'), ('to', 'TO'), ('get', 'VB'), ('any', 'DT'), ('additional', 'JJ'), ('capital', 'NN'), ('from', 'IN'), ('C', 'NNP'), (',', ','), ('but', 'CC'), ('in', 'IN'), ('the', 'DT'), ('mean', 'JJ'), ('time', 'NN'), ('some', 'DT'), ('of', 'IN'), ('these', 'DT'), ('units', 'NNS'), ('are', 'VBP'), ('still', 'RB'), ('making', 'VBG'), ('money', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   moved/VBD   most/RBS   of/IN   these/DT   units/NNS   to/TO   (PERSON Citi/NNP Holdings/NNP)   ,/,   where/WRB   they/PRP   â/VBP   €/:   ™/:   re/NN   not/RB   expected/VBN   to/TO   get/VB   any/DT   additional/JJ   capital/NN   from/IN   C/NNP   ,/,   but/CC   in/IN   the/DT   mean/JJ   time/NN   some/DT   of/IN   these/DT   units/NNS   are/VBP   still/RB   making/VBG   money/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB moved/VBD)
+	(VERB â/VBP)
+	(VERB   expected/VBN   to/TO   get/VB   any/DT   additional/JJ   capital/NN   from/IN   C/NNP)
+	(VERB are/VBP still/RB making/VBG money/NN)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN units/NNS)
+	(NOUN Citi/NNP Holdings/NNP)
+	(NOUN re/NN)
+	(NOUN the/DT mean/JJ time/NN)
+	(NOUN units/NNS)
+
+----------------------------------
+original sentence: 
+Financial regulation could bring an end to these operations forever
+, but in the mean time, a company has gotta eat,â€ Steve Ferguson Reports From Times Of The Internet.
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('regulation', 'NN'), ('could', 'MD'), ('bring', 'VB'), ('an', 'DT'), ('end', 'NN'), ('to', 'TO'), ('these', 'DT'), ('operations', 'NNS'), ('forever', 'RB'), (',', ','), ('but', 'CC'), ('in', 'IN'), ('the', 'DT'), ('mean', 'JJ'), ('time', 'NN'), (',', ','), ('a', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('got', 'VBN'), ('ta', 'NN'), ('eat', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Steve', 'NNP'), ('Ferguson', 'NNP'), ('Reports', 'NNP'), ('From', 'NNP'), ('Times', 'NNP'), ('Of', 'NNP'), ('The', 'NNP'), ('Internet', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Financial/JJ   regulation/NN   could/MD   bring/VB   an/DT   end/NN   to/TO   these/DT   operations/NNS   forever/RB   ,/,   but/CC   in/IN   the/DT   mean/JJ   time/NN   ,/,   a/DT   company/NN   has/VBZ   got/VBN   ta/NN   eat/NN   ,/,   â/:   €/:   /:   (PERSON Steve/NNP Ferguson/NNP Reports/NNP)   From/NNP   Times/NNP   Of/NNP   The/NNP   Internet/NNP   ./.)
+----------------------------------
+original sentence: 
+Ferguson goes on to say, â€œOne sector that Citi wants to earn more money from is the
+ hot earning ETF division
+.
+
+POS tagged sentence: 
+[('Ferguson', 'NNP'), ('goes', 'VBZ'), ('on', 'IN'), ('to', 'TO'), ('say', 'VB'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('One', 'CD'), ('sector', 'NN'), ('that', 'WDT'), ('Citi', 'NNP'), ('wants', 'VBZ'), ('to', 'TO'), ('earn', 'VB'), ('more', 'JJR'), ('money', 'NN'), ('from', 'IN'), ('is', 'VBZ'), ('the', 'DT'), ('hot', 'JJ'), ('earning', 'NN'), ('ETF', 'NN'), ('division', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Ferguson/NNP)   goes/VBZ   on/IN   to/TO   say/VB   ,/,   â/:   €/:   œ/:   One/CD   sector/NN   that/WDT   (PERSON Citi/NNP)   wants/VBZ   to/TO   earn/VB   more/JJR   money/NN   from/IN   is/VBZ   the/DT   hot/JJ   earning/NN   (ORGANIZATION ETF/NN)   division/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB goes/VBZ on/IN)
+	(VERB say/VB)
+	(VERB wants/VBZ to/TO earn/VB more/JJR money/NN from/IN)
+	(VERB is/VBZ the/DT hot/JJ earning/NN ETF/NN division/NN)
+noun phrases to consider:
+	(NOUN Ferguson/NNP)
+	(NOUN One/CD sector/NN)
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+ETFs are now extremely popular with investors and Citigroup is upgrading its back office support for the products.
+
+POS tagged sentence: 
+[('ETFs', 'NNS'), ('are', 'VBP'), ('now', 'RB'), ('extremely', 'RB'), ('popular', 'JJ'), ('with', 'IN'), ('investors', 'NNS'), ('and', 'CC'), ('Citigroup', 'NNP'), ('is', 'VBZ'), ('upgrading', 'VBG'), ('its', 'PRP$'), ('back', 'NN'), ('office', 'NN'), ('support', 'NN'), ('for', 'IN'), ('the', 'DT'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ETFs/NNS   are/VBP   now/RB   extremely/RB   popular/JJ   with/IN   investors/NNS   and/CC   (ORGANIZATION Citigroup/NNP)   is/VBZ   upgrading/VBG   its/PRP$   back/NN   office/NN   support/NN   for/IN   the/DT   products/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP now/RB extremely/RB popular/JJ with/IN investors/NNS)
+
+tagged sentence:
+	 are now extremely popular with investors	res:2
+	(VERB   is/VBZ   upgrading/VBG   its/PRP$   back/NN   office/NN   support/NN   for/IN   the/DT   products/NNS)
+
+tagged sentence:
+	 is upgrading its back office support for the products	res:2
+noun phrases to consider:
+	(NOUN ETFs/NNS)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+Yesterday the company announced its appointment of Jeffrey McCarthy as Global in its Securities and Fund Services business SFS .â€
+â€œWith its global network and reach, Citi is uniquely positioned to help promote ETF product innovation and distribution in domestic and international markets,â€ said Neeraj Sahai, Global Head of Citiâ€™s Securities and Fund Services, in a statement.
+
+POS tagged sentence: 
+[('Yesterday', 'NN'), ('the', 'DT'), ('company', 'NN'), ('announced', 'VBD'), ('its', 'PRP$'), ('appointment', 'NN'), ('of', 'IN'), ('Jeffrey', 'NNP'), ('McCarthy', 'NNP'), ('as', 'IN'), ('Global', 'NNP'), ('in', 'IN'), ('its', 'PRP$'), ('Securities', 'NNPS'), ('and', 'CC'), ('Fund', 'NNP'), ('Services', 'NNPS'), ('business', 'NN'), ('SFS', 'NNPS'), ('.', '.'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('With', 'IN'), ('its', 'PRP$'), ('global', 'JJ'), ('network', 'NN'), ('and', 'CC'), ('reach', 'NN'), (',', ','), ('Citi', 'NNP'), ('is', 'VBZ'), ('uniquely', 'RB'), ('positioned', 'VBN'), ('to', 'TO'), ('help', 'VB'), ('promote', 'NN'), ('ETF', 'NNP'), ('product', 'NN'), ('innovation', 'NN'), ('and', 'CC'), ('distribution', 'NN'), ('in', 'IN'), ('domestic', 'JJ'), ('and', 'CC'), ('international', 'JJ'), ('markets', 'NNS'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('said', 'VBD'), ('Neeraj', 'NNP'), ('Sahai', 'NNP'), (',', ','), ('Global', 'NNP'), ('Head', 'NNP'), ('of', 'IN'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Securities', 'NNP'), ('and', 'CC'), ('Fund', 'NNP'), ('Services', 'NNPS'), (',', ','), ('in', 'IN'), ('a', 'DT'), ('statement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Yesterday/NN   the/DT   company/NN   announced/VBD   its/PRP$   appointment/NN   of/IN   (PERSON Jeffrey/NNP McCarthy/NNP)   as/IN   (GPE Global/NNP)   in/IN   its/PRP$   Securities/NNPS   and/CC   (ORGANIZATION Fund/NNP Services/NNPS)   business/NN   (ORGANIZATION SFS/NNPS)   ./.   â/:   €/:   /:   â/:   €/:   œ/:   With/IN   its/PRP$   global/JJ   network/NN   and/CC   reach/NN   ,/,   (PERSON Citi/NNP)   is/VBZ   uniquely/RB   positioned/VBN   to/TO   help/VB   promote/NN   (ORGANIZATION ETF/NNP)   product/NN   innovation/NN   and/CC   distribution/NN   in/IN   domestic/JJ   and/CC   international/JJ   markets/NNS   ,/,   â/:   €/:   /:   said/VBD   (PERSON Neeraj/NNP Sahai/NNP)   ,/,   (PERSON Global/NNP Head/NNP)   of/IN   (ORGANIZATION Citi/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   (ORGANIZATION Securities/NNP)   and/CC   (ORGANIZATION Fund/NNP Services/NNPS)   ,/,   in/IN   a/DT   statement/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   its/PRP$   appointment/NN   of/IN   Jeffrey/NNP   McCarthy/NNP   as/IN   Global/NNP   in/IN   its/PRP$   Securities/NNPS)
+	(VERB is/VBZ uniquely/RB positioned/VBN)
+	(VERB help/VB promote/NN ETF/NNP product/NN innovation/NN)
+	(VERB said/VBD Neeraj/NNP Sahai/NNP)
+	(VERB s/VBZ Securities/NNP)
+noun phrases to consider:
+	(NOUN Yesterday/NN)
+	(NOUN company/NN)
+	(NOUN Fund/NNP Services/NNPS business/NN SFS/NNPS)
+	(NOUN global/JJ network/NN)
+	(NOUN reach/NN)
+	(NOUN Citi/NNP)
+	(NOUN distribution/NN)
+	(NOUN domestic/JJ)
+	(NOUN international/JJ markets/NNS)
+	(NOUN Global/NNP Head/NNP)
+	(NOUN Citi/NNP â/NNP €/NNP ™/NNP)
+	(NOUN Fund/NNP Services/NNPS)
+	(NOUN statement/NN)
+
+----------------------------------
+original sentence: 
+â€œJeffâ€™s extensive market experience and product expertise will complement Citiâ€™s emerging market capabilities and help enable our asset manager clients launch new ETF products on a comprehensive basis.â€
+â€œCitigroup already offers a dizzying array of services to the , and looks ready to expand even further into the arena.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Jeff', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('extensive', 'VBP'), ('market', 'NN'), ('experience', 'NN'), ('and', 'CC'), ('product', 'NN'), ('expertise', 'NN'), ('will', 'MD'), ('complement', 'VB'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('emerging', 'VBG'), ('market', 'NN'), ('capabilities', 'NNS'), ('and', 'CC'), ('help', 'VB'), ('enable', 'JJ'), ('our', 'PRP$'), ('asset', 'NN'), ('manager', 'NN'), ('clients', 'NNS'), ('launch', 'VBP'), ('new', 'JJ'), ('ETF', 'NNP'), ('products', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('comprehensive', 'JJ'), ('basis.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('Citigroup', 'NNP'), ('already', 'RB'), ('offers', 'VBZ'), ('a', 'DT'), ('dizzying', 'NN'), ('array', 'NN'), ('of', 'IN'), ('services', 'NNS'), ('to', 'TO'), ('the', 'DT'), (',', ','), ('and', 'CC'), ('looks', 'NNS'), ('ready', 'RB'), ('to', 'TO'), ('expand', 'VB'), ('even', 'RB'), ('further', 'JJR'), ('into', 'IN'), ('the', 'DT'), ('arena', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   â/NN   €/``   œ/:   (PERSON Jeff/NNP)   â/:   €/:   ™/:   s/NNS   extensive/VBP   market/NN   experience/NN   and/CC   product/NN   expertise/NN   will/MD   complement/VB   (PERSON Citi/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   emerging/VBG   market/NN   capabilities/NNS   and/CC   help/VB   enable/JJ   our/PRP$   asset/NN   manager/NN   clients/NNS   launch/VBP   new/JJ   (ORGANIZATION ETF/NNP)   products/NNS   on/IN   a/DT   comprehensive/JJ   basis./NNP   â/NNP   €/NNP   /NNP   â/NNP   €/NNP   œ/NNP   Citigroup/NNP   already/RB   offers/VBZ   a/DT   dizzying/NN   array/NN   of/IN   services/NNS   to/TO   the/DT   ,/,   and/CC   looks/NNS   ready/RB   to/TO   expand/VB   even/RB   further/JJR   into/IN   the/DT   arena/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB extensive/VBP market/NN experience/NN)
+	(VERB complement/VB Citi/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ emerging/VBG market/NN capabilities/NNS)
+	(VERB help/VB enable/JJ our/PRP$ asset/NN manager/NN clients/NNS)
+
+tagged sentence:
+	 help enable our asset manager clients	res:1
+	(VERB   launch/VBP   new/JJ   ETF/NNP   products/NNS   on/IN   a/DT   comprehensive/JJ   basis./NNP   â/NNP   €/NNP   /NNP   â/NNP   €/NNP   œ/NNP   Citigroup/NNP   already/RB)
+	(VERB offers/VBZ a/DT dizzying/NN array/NN of/IN services/NNS)
+	(VERB expand/VB even/RB further/JJR into/IN the/DT arena/NN)
+noun phrases to consider:
+	(NOUN â/NN)
+	(NOUN Jeff/NNP)
+	(NOUN s/NNS)
+	(NOUN product/NN expertise/NN)
+	(NOUN looks/NNS)
+
+----------------------------------
+original sentence: 
+With ETFs growing rapidly, Citi has identified the area as one with fast growth potential.
+
+POS tagged sentence: 
+[('With', 'IN'), ('ETFs', 'NNP'), ('growing', 'VBG'), ('rapidly', 'RB'), (',', ','), ('Citi', 'NNP'), ('has', 'VBZ'), ('identified', 'VBN'), ('the', 'DT'), ('area', 'NN'), ('as', 'IN'), ('one', 'CD'), ('with', 'IN'), ('fast', 'JJ'), ('growth', 'NN'), ('potential', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   (ORGANIZATION ETFs/NNP)   growing/VBG   rapidly/RB   ,/,   (PERSON Citi/NNP)   has/VBZ   identified/VBN   the/DT   area/NN   as/IN   one/CD   with/IN   fast/JJ   growth/NN   potential/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB growing/VBG rapidly/RB)
+	(VERB   has/VBZ   identified/VBN   the/DT   area/NN   as/IN   one/CD   with/IN   fast/JJ   growth/NN   potential/JJ)
+noun phrases to consider:
+	(NOUN ETFs/NNP)
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+In order to continue to engineer a turnaround, thatâ€™s exactly what C needs to do.
+
+POS tagged sentence: 
+[('In', 'IN'), ('order', 'NN'), ('to', 'TO'), ('continue', 'VB'), ('to', 'TO'), ('engineer', 'VB'), ('a', 'DT'), ('turnaround', 'NN'), (',', ','), ('that', 'IN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('exactly', 'RB'), ('what', 'WP'), ('C', 'NNP'), ('needs', 'VBZ'), ('to', 'TO'), ('do', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   order/NN   to/TO   continue/VB   to/TO   engineer/VB   a/DT   turnaround/NN   ,/,   that/IN   â/:   €/:   ™/:   s/NNS   exactly/RB   what/WP   C/NNP   needs/VBZ   to/TO   do/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB continue/VB to/TO engineer/VB a/DT turnaround/NN)
+	(VERB needs/VBZ to/TO do/VB)
+noun phrases to consider:
+	(NOUN order/NN)
+	(NOUN s/NNS)
+	(NOUN C/NNP)
+
+----------------------------------
+original sentence: 
+They have to abandon the notions of what businesses were bringing in big cash in the past, and move on to greener pastures of what is actually making money now
+.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('have', 'VBP'), ('to', 'TO'), ('abandon', 'VB'), ('the', 'DT'), ('notions', 'NNS'), ('of', 'IN'), ('what', 'WP'), ('businesses', 'NNS'), ('were', 'VBD'), ('bringing', 'VBG'), ('in', 'IN'), ('big', 'JJ'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('past', 'JJ'), (',', ','), ('and', 'CC'), ('move', 'VB'), ('on', 'IN'), ('to', 'TO'), ('greener', 'NN'), ('pastures', 'NNS'), ('of', 'IN'), ('what', 'WP'), ('is', 'VBZ'), ('actually', 'RB'), ('making', 'VBG'), ('money', 'NN'), ('now', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   have/VBP   to/TO   abandon/VB   the/DT   notions/NNS   of/IN   what/WP   businesses/NNS   were/VBD   bringing/VBG   in/IN   big/JJ   cash/NN   in/IN   the/DT   past/JJ   ,/,   and/CC   move/VB   on/IN   to/TO   greener/NN   pastures/NNS   of/IN   what/WP   is/VBZ   actually/RB   making/VBG   money/NN   now/RB   ./.)
+----------------------------------
+original sentence: 
+Citiâ€™s Global Transaction Services is one example of the reach the company still maintains.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Global', 'NNP'), ('Transaction', 'NNP'), ('Services', 'NNPS'), ('is', 'VBZ'), ('one', 'CD'), ('example', 'NN'), ('of', 'IN'), ('the', 'DT'), ('reach', 'NN'), ('the', 'DT'), ('company', 'NN'), ('still', 'RB'), ('maintains', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   â/:   €/:   ™/:   s/NNS   (PERSON Global/NNP Transaction/NNP Services/NNPS)   is/VBZ   one/CD   example/NN   of/IN   the/DT   reach/NN   the/DT   company/NN   still/RB   maintains/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   one/CD   example/NN   of/IN   the/DT   reach/NN   the/DT   company/NN   still/RB)
+	(VERB maintains/VBZ)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN s/NNS Global/NNP Transaction/NNP Services/NNPS)
+
+----------------------------------
+original sentence: 
+This division has over 65,000 customers and $12.1 trillion of assets under management,â€ Ferguson Reports.
+
+POS tagged sentence: 
+[('This', 'DT'), ('division', 'NN'), ('has', 'VBZ'), ('over', 'IN'), ('65,000', 'CD'), ('customers', 'NNS'), ('and', 'CC'), ('$', '$'), ('12.1', 'CD'), ('trillion', 'CD'), ('of', 'IN'), ('assets', 'NNS'), ('under', 'IN'), ('management', 'NN'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Ferguson', 'NNP'), ('Reports', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   division/NN   has/VBZ   over/IN   65,000/CD   customers/NNS   and/CC   $/$   12.1/CD   trillion/CD   of/IN   assets/NNS   under/IN   management/NN   ,/,   â/:   €/:   /:   (ORGANIZATION Ferguson/NNP Reports/NNPS)   ./.)
+----------------------------------
+original sentence: 
+See The Full Story: &lt;!
+
+POS tagged sentence: 
+[('See', 'NNP'), ('The', 'DT'), ('Full', 'NNP'), ('Story', 'NNP'), (':', ':'), ('&lt', 'JJ'), (';', ':'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   See/NNP   The/DT   (ORGANIZATION Full/NNP)   Story/NNP   :/:   &lt/JJ   ;/:   !/.)
+----------------------------------
+original sentence: 
+INFOLINKS_OFF >
+Experts: Could Be Time To Book Profits In The Gold ETF GLD TradingMarkets Releases the Softcover Edition of its Acclaimed Book, High Probability ETF Trading
+Turning the Infrastructure Into Profits Through ETFs
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 1 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('INFOLINKS_OFF', 'NN'), ('>', '``'), ('Experts', 'NNS'), (':', ':'), ('Could', 'MD'), ('Be', 'VB'), ('Time', 'NNP'), ('To', 'TO'), ('Book', 'NNP'), ('Profits', 'NNP'), ('In', 'NNP'), ('The', 'NNP'), ('Gold', 'NNP'), ('ETF', 'NNP'), ('GLD', 'NNP'), ('TradingMarkets', 'NNP'), ('Releases', 'NNP'), ('the', 'DT'), ('Softcover', 'NNP'), ('Edition', 'NNP'), ('of', 'IN'), ('its', 'PRP$'), ('Acclaimed', 'NNP'), ('Book', 'NNP'), (',', ','), ('High', 'NNP'), ('Probability', 'NNP'), ('ETF', 'NNP'), ('Trading', 'NNP'), ('Turning', 'NNP'), ('the', 'DT'), ('Infrastructure', 'NNP'), ('Into', 'NNP'), ('Profits', 'NNP'), ('Through', 'NNP'), ('ETFs', 'NNP'), ('Bookmark/Search', 'NNP'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('1', 'CD'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   INFOLINKS_OFF/NN   >/``   Experts/NNS   :/:   Could/MD   Be/VB   Time/NNP   To/TO   (PERSON Book/NNP Profits/NNP)   In/NNP   The/NNP   (ORGANIZATION Gold/NNP)   ETF/NNP   GLD/NNP   (ORGANIZATION TradingMarkets/NNP)   Releases/NNP   the/DT   (ORGANIZATION Softcover/NNP Edition/NNP)   of/IN   its/PRP$   Acclaimed/NNP   Book/NNP   ,/,   (PERSON High/NNP Probability/NNP)   ETF/NNP   Trading/NNP   Turning/NNP   the/DT   (ORGANIZATION Infrastructure/NNP Into/NNP)   Profits/NNP   Through/NNP   ETFs/NNP   Bookmark/Search/NNP   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   1/CD   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Be/VB Time/NNP)
+	(VERB are/VBP not/RB watching/VBG this/DT post/NN)
+	(VERB start/VB watching/NN)
+	(VERB   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP)
+	(VERB are/VBP 1/CD comments/NNS Receive/NNP Benzinga&/NNP)
+noun phrases to consider:
+	(NOUN INFOLINKS_OFF/NN)
+	(NOUN Experts/NNS)
+	(NOUN Book/NNP Profits/NNP In/NNP The/NNP)
+	(NOUN Gold/NNP ETF/NNP GLD/NNP TradingMarkets/NNP)
+	(NOUN Releases/NNP)
+	(NOUN Softcover/NNP Edition/NNP)
+	(NOUN Acclaimed/NNP Book/NNP)
+	(NOUN High/NNP Probability/NNP ETF/NNP Trading/NNP)
+	(NOUN Turning/NNP)
+	(NOUN Infrastructure/NNP Into/NNP Profits/NNP Through/NNP)
+	(NOUN ETFs/NNP Bookmark/Search/NNP)
+	(NOUN post/NN)
+	(NOUN click/NN)
+	(NOUN s/NNS Trading/NN Ideas/NNS)
+	(NOUN s/NNS Best/JJS 2010/CD Stock/NNP Idea/NNP)
+
+
+veryneg:0	neg:2	pos:2	verypos:2	total:1

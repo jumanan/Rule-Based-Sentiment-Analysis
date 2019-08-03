@@ -1,0 +1,347 @@
+
+----------------------------------
+original sentence: 
+Mexican bonds win entry to key Citigroup index
+Part of the Canada.com Network
+On financialpost.com
+Mexican bonds win entry to key Citigroup index
+Lizbeth Salazar, Reuters, with a file from Bloomberg NewsÂ   Published:Â Thursday, April 01, 2010
+Mexico, whose stock market and peso have been soaring this year, received another stamp of approval yesterday after Citigroup Inc. C/NYSE said the country's bonds are eligible to be included in its world government bond index WGBI , making it the first Latin American country in the closely watched index.
+
+POS tagged sentence: 
+[('Mexican', 'NNP'), ('bonds', 'NNS'), ('win', 'VBP'), ('entry', 'NN'), ('to', 'TO'), ('key', 'JJ'), ('Citigroup', 'NNP'), ('index', 'NN'), ('Part', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Canada.com', 'NNP'), ('Network', 'NNP'), ('On', 'NNP'), ('financialpost.com', 'NNP'), ('Mexican', 'NNP'), ('bonds', 'NNS'), ('win', 'VBP'), ('entry', 'NN'), ('to', 'TO'), ('key', 'JJ'), ('Citigroup', 'NNP'), ('index', 'NN'), ('Lizbeth', 'NNP'), ('Salazar', 'NNP'), (',', ','), ('Reuters', 'NNP'), (',', ','), ('with', 'IN'), ('a', 'DT'), ('file', 'JJ'), ('from', 'IN'), ('Bloomberg', 'NNP'), ('News', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Published', 'NNP'), (':', ':'), ('\xc2', ':'), ('\xa0', ':'), ('Thursday', 'NNP'), (',', ','), ('April', 'NNP'), ('01', 'CD'), (',', ','), ('2010', 'CD'), ('Mexico', 'NNP'), (',', ','), ('whose', 'WP$'), ('stock', 'NN'), ('market', 'NN'), ('and', 'CC'), ('peso', 'RB'), ('have', 'VBP'), ('been', 'VBN'), ('soaring', 'VBG'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('received', 'VBD'), ('another', 'DT'), ('stamp', 'NN'), ('of', 'IN'), ('approval', 'NN'), ('yesterday', 'NN'), ('after', 'IN'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('C/NYSE', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('country', 'NN'), ("'s", 'POS'), ('bonds', 'NNS'), ('are', 'VBP'), ('eligible', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('included', 'VBN'), ('in', 'IN'), ('its', 'PRP$'), ('world', 'NN'), ('government', 'NN'), ('bond', 'NN'), ('index', 'NN'), ('WGBI', 'NNP'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('the', 'DT'), ('first', 'JJ'), ('Latin', 'NNP'), ('American', 'NNP'), ('country', 'NN'), ('in', 'IN'), ('the', 'DT'), ('closely', 'RB'), ('watched', 'VBN'), ('index', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mexican/NNP)   bonds/NNS   win/VBP   entry/NN   to/TO   key/JJ   Citigroup/NNP   index/NN   (ORGANIZATION Part/NNP)   of/IN   the/DT   Canada.com/NNP   (PERSON Network/NNP On/NNP)   financialpost.com/NNP   Mexican/NNP   bonds/NNS   win/VBP   entry/NN   to/TO   key/JJ   Citigroup/NNP   index/NN   (PERSON Lizbeth/NNP Salazar/NNP)   ,/,   (GPE Reuters/NNP)   ,/,   with/IN   a/DT   file/JJ   from/IN   (ORGANIZATION Bloomberg/NNP News/NNP)   Â/NNP    /NNP   Published/NNP   :/:   Â/:    /:   Thursday/NNP   ,/,   April/NNP   01/CD   ,/,   2010/CD   (GPE Mexico/NNP)   ,/,   whose/WP$   stock/NN   market/NN   and/CC   peso/RB   have/VBP   been/VBN   soaring/VBG   this/DT   year/NN   ,/,   received/VBD   another/DT   stamp/NN   of/IN   approval/NN   yesterday/NN   after/IN   (ORGANIZATION Citigroup/NNP Inc./NNP)   C/NYSE/NNP   said/VBD   the/DT   country/NN   's/POS   bonds/NNS   are/VBP   eligible/JJ   to/TO   be/VB   included/VBN   in/IN   its/PRP$   world/NN   government/NN   bond/NN   index/NN   (ORGANIZATION WGBI/NNP)   ,/,   making/VBG   it/PRP   the/DT   first/JJ   (PERSON Latin/NNP American/NNP)   country/NN   in/IN   the/DT   closely/RB   watched/VBN   index/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB win/VBP entry/NN)
+	(VERB win/VBP entry/NN)
+	(VERB have/VBP been/VBN soaring/VBG this/DT year/NN)
+	(VERB   received/VBD   another/DT   stamp/NN   of/IN   approval/NN   yesterday/NN   after/IN   Citigroup/NNP   Inc./NNP   C/NYSE/NNP)
+
+tagged sentence:
+	 received another stamp of approval yesterday after Citigroup Inc. C/NYSE	res:-2
+	(VERB said/VBD the/DT country/NN)
+	(VERB are/VBP eligible/JJ)
+	(VERB   be/VB   included/VBN   in/IN   its/PRP$   world/NN   government/NN   bond/NN   index/NN   WGBI/NNP)
+	(VERB   making/VBG   it/PRP   the/DT   first/JJ   Latin/NNP   American/NNP   country/NN   in/IN   the/DT   closely/RB)
+	(VERB watched/VBN index/NN)
+noun phrases to consider:
+	(NOUN Mexican/NNP bonds/NNS)
+	(NOUN key/JJ Citigroup/NNP index/NN Part/NNP)
+	(NOUN Canada.com/NNP Network/NNP On/NNP financialpost.com/NNP)
+	(NOUN Mexican/NNP bonds/NNS)
+	(NOUN key/JJ Citigroup/NNP index/NN Lizbeth/NNP Salazar/NNP)
+	(NOUN Reuters/NNP)
+	(NOUN a/DT file/JJ)
+	(NOUN Bloomberg/NNP News/NNP Â/NNP  /NNP)
+	(NOUN Published/NNP)
+	(NOUN Thursday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Mexico/NNP)
+	(NOUN stock/NN market/NN)
+	(NOUN bonds/NNS)
+
+----------------------------------
+original sentence: 
+Mexico's eligibility for the index, a move markets had been anticipating in recent weeks, could spur greater flows into Mexican bonds since the WGBI is used as a benchmark by major funds.
+
+POS tagged sentence: 
+[('Mexico', 'NNP'), ("'s", 'POS'), ('eligibility', 'NN'), ('for', 'IN'), ('the', 'DT'), ('index', 'NN'), (',', ','), ('a', 'DT'), ('move', 'NN'), ('markets', 'NNS'), ('had', 'VBD'), ('been', 'VBN'), ('anticipating', 'VBG'), ('in', 'IN'), ('recent', 'JJ'), ('weeks', 'NNS'), (',', ','), ('could', 'MD'), ('spur', 'VB'), ('greater', 'JJR'), ('flows', 'NNS'), ('into', 'IN'), ('Mexican', 'NNP'), ('bonds', 'NNS'), ('since', 'IN'), ('the', 'DT'), ('WGBI', 'NNP'), ('is', 'VBZ'), ('used', 'VBN'), ('as', 'RB'), ('a', 'DT'), ('benchmark', 'NN'), ('by', 'IN'), ('major', 'JJ'), ('funds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mexico/NNP)   's/POS   eligibility/NN   for/IN   the/DT   index/NN   ,/,   a/DT   move/NN   markets/NNS   had/VBD   been/VBN   anticipating/VBG   in/IN   recent/JJ   weeks/NNS   ,/,   could/MD   spur/VB   greater/JJR   flows/NNS   into/IN   (GPE Mexican/NNP)   bonds/NNS   since/IN   the/DT   (ORGANIZATION WGBI/NNP)   is/VBZ   used/VBN   as/RB   a/DT   benchmark/NN   by/IN   major/JJ   funds/NNS   ./.)
+----------------------------------
+original sentence: 
+Mexico's peso jumped on the news to its strongest level in more than 17 months.
+
+POS tagged sentence: 
+[('Mexico', 'NNP'), ("'s", 'POS'), ('peso', 'NN'), ('jumped', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('news', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('strongest', 'JJS'), ('level', 'NN'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('17', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mexico/NNP)   's/POS   peso/NN   jumped/VBD   on/IN   the/DT   news/NN   to/TO   its/PRP$   strongest/JJS   level/NN   in/IN   more/JJR   than/IN   17/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+It has gained 6.1% this year, making it the best performer among the 16 most traded currencies in the world so far in 2010.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('gained', 'VBN'), ('6.1', 'CD'), ('%', 'NN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('the', 'DT'), ('best', 'JJS'), ('performer', 'NN'), ('among', 'IN'), ('the', 'DT'), ('16', 'CD'), ('most', 'JJS'), ('traded', 'VBN'), ('currencies', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('so', 'RB'), ('far', 'RB'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   gained/VBN   6.1/CD   %/NN   this/DT   year/NN   ,/,   making/VBG   it/PRP   the/DT   best/JJS   performer/NN   among/IN   the/DT   16/CD   most/JJS   traded/VBN   currencies/NNS   in/IN   the/DT   world/NN   so/RB   far/RB   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Its main stock index, the IPC, hit a record high of 33589.05 on Tuesday, gaining on a rebound in exports to the United States.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('main', 'JJ'), ('stock', 'NN'), ('index', 'NN'), (',', ','), ('the', 'DT'), ('IPC', 'NNP'), (',', ','), ('hit', 'VBD'), ('a', 'DT'), ('record', 'NN'), ('high', 'JJ'), ('of', 'IN'), ('33589.05', 'CD'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('gaining', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('rebound', 'NN'), ('in', 'IN'), ('exports', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   main/JJ   stock/NN   index/NN   ,/,   the/DT   (ORGANIZATION IPC/NNP)   ,/,   hit/VBD   a/DT   record/NN   high/JJ   of/IN   33589.05/CD   on/IN   Tuesday/NNP   ,/,   gaining/VBG   on/IN   a/DT   rebound/NN   in/IN   exports/NNS   to/TO   the/DT   (GPE United/NNP States/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   hit/VBD   a/DT   record/NN   high/JJ   of/IN   33589.05/CD   on/IN   Tuesday/NNP)
+	(VERB gaining/VBG on/IN a/DT rebound/NN in/IN exports/NNS)
+
+tagged sentence:
+	 gaining on a rebound in exports	res:1
+noun phrases to consider:
+	(NOUN main/JJ stock/NN index/NN)
+	(NOUN IPC/NNP)
+	(NOUN United/NNP States/NNPS)
+
+----------------------------------
+original sentence: 
+Meanwhile, the Finance Ministry raised its 2010 growth forecast to 4.1% from 3.9%.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('the', 'DT'), ('Finance', 'NNP'), ('Ministry', 'NNP'), ('raised', 'VBD'), ('its', 'PRP$'), ('2010', 'CD'), ('growth', 'NN'), ('forecast', 'NN'), ('to', 'TO'), ('4.1', 'CD'), ('%', 'NN'), ('from', 'IN'), ('3.9', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   the/DT   (ORGANIZATION Finance/NNP Ministry/NNP)   raised/VBD   its/PRP$   2010/CD   growth/NN   forecast/NN   to/TO   4.1/CD   %/NN   from/IN   3.9/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+The turnaround has been swift after it was hit last year by downgrades by two ratings agencies to its sovereign debt.
+
+POS tagged sentence: 
+[('The', 'DT'), ('turnaround', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('swift', 'VBN'), ('after', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('hit', 'VBN'), ('last', 'JJ'), ('year', 'NN'), ('by', 'IN'), ('downgrades', 'NNS'), ('by', 'IN'), ('two', 'CD'), ('ratings', 'NNS'), ('agencies', 'NNS'), ('to', 'TO'), ('its', 'PRP$'), ('sovereign', 'NN'), ('debt', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   turnaround/NN   has/VBZ   been/VBN   swift/VBN   after/IN   it/PRP   was/VBD   hit/VBN   last/JJ   year/NN   by/IN   downgrades/NNS   by/IN   two/CD   ratings/NNS   agencies/NNS   to/TO   its/PRP$   sovereign/NN   debt/NN   ./.)
+----------------------------------
+original sentence: 
+"This is definitely positive," said Jaime Ascencio, an analyst at brokerage Actinver in Mexico City.
+
+POS tagged sentence: 
+[('"', 'NN'), ('This', 'DT'), ('is', 'VBZ'), ('definitely', 'RB'), ('positive', 'JJ'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Jaime', 'NNP'), ('Ascencio', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('at', 'IN'), ('brokerage', 'NN'), ('Actinver', 'NNP'), ('in', 'IN'), ('Mexico', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   This/DT   is/VBZ   definitely/RB   positive/JJ   ,/,   "/:   said/VBD   (PERSON Jaime/NNP Ascencio/NNP)   ,/,   an/DT   analyst/NN   at/IN   brokerage/NN   Actinver/NNP   in/IN   (GPE Mexico/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ definitely/RB positive/JJ)
+	(VERB said/VBD Jaime/NNP Ascencio/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN analyst/NN)
+	(NOUN brokerage/NN Actinver/NNP)
+	(NOUN Mexico/NNP City/NNP)
+
+----------------------------------
+original sentence: 
+"The peso will stay in favour.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('peso', 'NN'), ('will', 'MD'), ('stay', 'VB'), ('in', 'IN'), ('favour', 'PRP$'), ('.', '.')]
+
+
+ERTAGGED sentence: (S "/NN The/DT peso/NN will/MD stay/VB in/IN favour/PRP$ ./.)
+----------------------------------
+original sentence: 
+"
+Citigroup said an index of Mexico's peso denominated government debt had satisfied criteria of liquidity, having an investment grade rating, and a lack of barriers to foreign entry in the market.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Citigroup', 'NNP'), ('said', 'VBD'), ('an', 'DT'), ('index', 'NN'), ('of', 'IN'), ('Mexico', 'NNP'), ("'s", 'POS'), ('peso', 'NN'), ('denominated', 'VBD'), ('government', 'NN'), ('debt', 'NN'), ('had', 'VBD'), ('satisfied', 'VBN'), ('criteria', 'NNS'), ('of', 'IN'), ('liquidity', 'NN'), (',', ','), ('having', 'VBG'), ('an', 'DT'), ('investment', 'NN'), ('grade', 'NN'), ('rating', 'NN'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('lack', 'NN'), ('of', 'IN'), ('barriers', 'NNS'), ('to', 'TO'), ('foreign', 'JJ'), ('entry', 'NN'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Citigroup/NNP)   said/VBD   an/DT   index/NN   of/IN   (GPE Mexico/NNP)   's/POS   peso/NN   denominated/VBD   government/NN   debt/NN   had/VBD   satisfied/VBN   criteria/NNS   of/IN   liquidity/NN   ,/,   having/VBG   an/DT   investment/NN   grade/NN   rating/NN   ,/,   and/CC   a/DT   lack/NN   of/IN   barriers/NNS   to/TO   foreign/JJ   entry/NN   in/IN   the/DT   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD an/DT index/NN of/IN Mexico/NNP)
+	(VERB denominated/VBD government/NN debt/NN)
+	(VERB had/VBD satisfied/VBN criteria/NNS of/IN liquidity/NN)
+	(VERB having/VBG an/DT investment/NN grade/NN rating/NN)
+noun phrases to consider:
+	(NOUN "/NN Citigroup/NNP)
+	(NOUN peso/NN)
+	(NOUN lack/NN)
+
+tagged sentence:
+	 lack	res:-1
+	(NOUN barriers/NNS)
+
+tagged sentence:
+	 barriers	res:-1
+	(NOUN foreign/JJ entry/NN)
+	(NOUN market/NN)
+
+----------------------------------
+original sentence: 
+"If Mexico continues to meet all WGBI criteria for three consecutive months starting with the April 2010 index profile, it will become the first Latin American and the 24th government bond market to enter the WGBI.
+
+POS tagged sentence: 
+[('"', 'NN'), ('If', 'IN'), ('Mexico', 'NNP'), ('continues', 'VBZ'), ('to', 'TO'), ('meet', 'VB'), ('all', 'DT'), ('WGBI', 'NNP'), ('criteria', 'NN'), ('for', 'IN'), ('three', 'CD'), ('consecutive', 'JJ'), ('months', 'NNS'), ('starting', 'VBG'), ('with', 'IN'), ('the', 'DT'), ('April', 'NNP'), ('2010', 'CD'), ('index', 'NN'), ('profile', 'NN'), (',', ','), ('it', 'PRP'), ('will', 'MD'), ('become', 'VB'), ('the', 'DT'), ('first', 'JJ'), ('Latin', 'NNP'), ('American', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('24th', 'JJ'), ('government', 'NN'), ('bond', 'NN'), ('market', 'NN'), ('to', 'TO'), ('enter', 'VB'), ('the', 'DT'), ('WGBI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   If/IN   (GPE Mexico/NNP)   continues/VBZ   to/TO   meet/VB   all/DT   WGBI/NNP   criteria/NN   for/IN   three/CD   consecutive/JJ   months/NNS   starting/VBG   with/IN   the/DT   April/NNP   2010/CD   index/NN   profile/NN   ,/,   it/PRP   will/MD   become/VB   the/DT   first/JJ   (PERSON Latin/NNP American/NNP)   and/CC   the/DT   24th/JJ   government/NN   bond/NN   market/NN   to/TO   enter/VB   the/DT   (ORGANIZATION WGBI/NNP)   ./.)
+----------------------------------
+original sentence: 
+Entry would be effective October 2010," Citi said in a statement.
+
+POS tagged sentence: 
+[('Entry', 'NNP'), ('would', 'MD'), ('be', 'VB'), ('effective', 'JJ'), ('October', 'NNP'), ('2010', 'CD'), (',', ','), ('"', ':'), ('Citi', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('statement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Entry/NNP)   would/MD   be/VB   effective/JJ   October/NNP   2010/CD   ,/,   "/:   (PERSON Citi/NNP)   said/VBD   in/IN   a/DT   statement/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB effective/JJ October/NNP 2010/CD)
+	(VERB said/VBD in/IN a/DT statement/NN)
+noun phrases to consider:
+	(NOUN Entry/NNP)
+	(NOUN Citi/NNP)
+
+----------------------------------
+original sentence: 
+Mexico began issuing larger amounts of new bonds this quarter through sales by syndicates of banks as a way to try to meet Citi's criteria for inclusion in the index.
+
+POS tagged sentence: 
+[('Mexico', 'NNP'), ('began', 'VBD'), ('issuing', 'VBG'), ('larger', 'JJR'), ('amounts', 'NNS'), ('of', 'IN'), ('new', 'JJ'), ('bonds', 'NNS'), ('this', 'DT'), ('quarter', 'NN'), ('through', 'IN'), ('sales', 'NNS'), ('by', 'IN'), ('syndicates', 'NNS'), ('of', 'IN'), ('banks', 'NNS'), ('as', 'IN'), ('a', 'DT'), ('way', 'NN'), ('to', 'TO'), ('try', 'NN'), ('to', 'TO'), ('meet', 'VB'), ('Citi', 'NNP'), ("'s", 'POS'), ('criteria', 'NNS'), ('for', 'IN'), ('inclusion', 'NN'), ('in', 'IN'), ('the', 'DT'), ('index', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mexico/NNP)   began/VBD   issuing/VBG   larger/JJR   amounts/NNS   of/IN   new/JJ   bonds/NNS   this/DT   quarter/NN   through/IN   sales/NNS   by/IN   syndicates/NNS   of/IN   banks/NNS   as/IN   a/DT   way/NN   to/TO   try/NN   to/TO   meet/VB   (PERSON Citi/NNP)   's/POS   criteria/NNS   for/IN   inclusion/NN   in/IN   the/DT   index/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   began/VBD   issuing/VBG   larger/JJR   amounts/NNS   of/IN   new/JJ   bonds/NNS   this/DT   quarter/NN   through/IN   sales/NNS   by/IN   syndicates/NNS   of/IN   banks/NNS   as/IN   a/DT   way/NN)
+	(VERB meet/VB Citi/NNP)
+noun phrases to consider:
+	(NOUN Mexico/NNP)
+	(NOUN try/NN)
+	(NOUN criteria/NNS)
+	(NOUN inclusion/NN)
+	(NOUN index/NN)
+
+----------------------------------
+original sentence: 
+Citigroup said about US$2 trillion in funds are indexed to the WGBI.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('said', 'VBD'), ('about', 'IN'), ('US', 'NNP'), ('$', '$'), ('2', 'CD'), ('trillion', 'CD'), ('in', 'IN'), ('funds', 'NNS'), ('are', 'VBP'), ('indexed', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('WGBI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   said/VBD   about/IN   (GSP US/NNP)   $/$   2/CD   trillion/CD   in/IN   funds/NNS   are/VBP   indexed/VBN   to/TO   the/DT   (ORGANIZATION WGBI/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD about/IN US/NNP)
+	(VERB are/VBP indexed/VBN)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN funds/NNS)
+	(NOUN WGBI/NNP)
+
+----------------------------------
+original sentence: 
+Mexico's debt would make up 0.64% of the index, so its inclusion could spur around US$12 billion in flows to Mexico, Citigroup said.
+
+POS tagged sentence: 
+[('Mexico', 'NNP'), ("'s", 'POS'), ('debt', 'NN'), ('would', 'MD'), ('make', 'VB'), ('up', 'RP'), ('0.64', 'CD'), ('%', 'NN'), ('of', 'IN'), ('the', 'DT'), ('index', 'NN'), (',', ','), ('so', 'RB'), ('its', 'PRP$'), ('inclusion', 'NN'), ('could', 'MD'), ('spur', 'VB'), ('around', 'IN'), ('US', 'NNP'), ('$', '$'), ('12', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('flows', 'NNS'), ('to', 'TO'), ('Mexico', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mexico/NNP)   's/POS   debt/NN   would/MD   make/VB   up/RP   0.64/CD   %/NN   of/IN   the/DT   index/NN   ,/,   so/RB   its/PRP$   inclusion/NN   could/MD   spur/VB   around/IN   (GPE US/NNP)   $/$   12/CD   billion/CD   in/IN   flows/NNS   to/TO   (GPE Mexico/NNP)   ,/,   (PERSON Citigroup/NNP)   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB make/VB)
+	(VERB spur/VB around/IN US/NNP)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Mexico/NNP)
+	(NOUN debt/NN)
+	(NOUN 0.64/CD %/NN)
+	(NOUN index/NN)
+	(NOUN inclusion/NN)
+	(NOUN flows/NNS)
+	(NOUN Mexico/NNP)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+Siobhan Morden, a debt strategist at RBS in Stamford, Conn., said about US$5 billion of the US$12 billion in flows projected by Citigroup had already bought into Mexico's debt in anticipation of the news.
+
+POS tagged sentence: 
+[('Siobhan', 'NNP'), ('Morden', 'NNP'), (',', ','), ('a', 'DT'), ('debt', 'NN'), ('strategist', 'NN'), ('at', 'IN'), ('RBS', 'NNP'), ('in', 'IN'), ('Stamford', 'NNP'), (',', ','), ('Conn.', 'NNP'), (',', ','), ('said', 'VBD'), ('about', 'IN'), ('US', 'NNP'), ('$', '$'), ('5', 'CD'), ('billion', 'CD'), ('of', 'IN'), ('the', 'DT'), ('US', 'NNP'), ('$', '$'), ('12', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('flows', 'NNS'), ('projected', 'VBN'), ('by', 'IN'), ('Citigroup', 'NNP'), ('had', 'VBD'), ('already', 'RB'), ('bought', 'VBN'), ('into', 'IN'), ('Mexico', 'NNP'), ("'s", 'POS'), ('debt', 'NN'), ('in', 'IN'), ('anticipation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('news', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Siobhan/NNP)   (ORGANIZATION Morden/NNP)   ,/,   a/DT   debt/NN   strategist/NN   at/IN   (ORGANIZATION RBS/NNP)   in/IN   (GPE Stamford/NNP)   ,/,   Conn./NNP   ,/,   said/VBD   about/IN   (GSP US/NNP)   $/$   5/CD   billion/CD   of/IN   the/DT   (ORGANIZATION US/NNP)   $/$   12/CD   billion/CD   in/IN   flows/NNS   projected/VBN   by/IN   (PERSON Citigroup/NNP)   had/VBD   already/RB   bought/VBN   into/IN   (GPE Mexico/NNP)   's/POS   debt/NN   in/IN   anticipation/NN   of/IN   the/DT   news/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD about/IN US/NNP)
+	(VERB projected/VBN by/IN Citigroup/NNP)
+	(VERB had/VBD already/RB bought/VBN into/IN Mexico/NNP)
+noun phrases to consider:
+	(NOUN Siobhan/NNP Morden/NNP)
+	(NOUN debt/NN strategist/NN)
+	(NOUN RBS/NNP)
+	(NOUN Stamford/NNP)
+	(NOUN Conn./NNP)
+	(NOUN US/NNP)
+	(NOUN flows/NNS)
+	(NOUN debt/NN)
+	(NOUN anticipation/NN)
+	(NOUN news/NN)
+
+----------------------------------
+original sentence: 
+"There are still some follow through gains," Mr. Morden said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('There', 'EX'), ('are', 'VBP'), ('still', 'RB'), ('some', 'DT'), ('follow', 'JJ'), ('through', 'IN'), ('gains', 'NNS'), (',', ','), ('"', ':'), ('Mr.', 'NNP'), ('Morden', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   There/EX   are/VBP   still/RB   some/DT   follow/JJ   through/IN   gains/NNS   ,/,   "/:   (PERSON Mr./NNP Morden/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+The yield on the government's benchmark 10 year peso bond bid down four basis points to 7.60%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('yield', 'NN'), ('on', 'IN'), ('the', 'DT'), ('government', 'NN'), ("'s", 'POS'), ('benchmark', 'NN'), ('10', 'CD'), ('year', 'NN'), ('peso', 'RB'), ('bond', 'NN'), ('bid', 'NN'), ('down', 'IN'), ('four', 'CD'), ('basis', 'NN'), ('points', 'NNS'), ('to', 'TO'), ('7.60', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   yield/NN   on/IN   the/DT   government/NN   's/POS   benchmark/NN   10/CD   year/NN   peso/RB   bond/NN   bid/NN   down/IN   four/CD   basis/NN   points/NNS   to/TO   7.60/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+"This says that the fundamentals of the country are positive and, obviously, much more money will keep entering Mexico," said Ramses Villela, a trader at Bulltick Capital Markets in Mexico City.
+
+POS tagged sentence: 
+[('"', 'NN'), ('This', 'DT'), ('says', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('fundamentals', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('country', 'NN'), ('are', 'VBP'), ('positive', 'JJ'), ('and', 'CC'), (',', ','), ('obviously', 'RB'), (',', ','), ('much', 'RB'), ('more', 'RBR'), ('money', 'NN'), ('will', 'MD'), ('keep', 'VB'), ('entering', 'VBG'), ('Mexico', 'NNP'), (',', ','), ('"', 'NNP'), ('said', 'VBD'), ('Ramses', 'NNP'), ('Villela', 'NNP'), (',', ','), ('a', 'DT'), ('trader', 'NN'), ('at', 'IN'), ('Bulltick', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), ('in', 'IN'), ('Mexico', 'NNP'), ('City', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   This/DT   says/VBZ   that/IN   the/DT   fundamentals/NNS   of/IN   the/DT   country/NN   are/VBP   positive/JJ   and/CC   ,/,   obviously/RB   ,/,   much/RB   more/RBR   money/NN   will/MD   keep/VB   entering/VBG   (GPE Mexico/NNP)   ,/,   "/NNP   said/VBD   (PERSON Ramses/NNP Villela/NNP)   ,/,   a/DT   trader/NN   at/IN   (ORGANIZATION Bulltick/NNP Capital/NNP Markets/NNPS)   in/IN   (GPE Mexico/NNP City/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   says/VBZ   that/IN   the/DT   fundamentals/NNS   of/IN   the/DT   country/NN)
+	(VERB are/VBP positive/JJ)
+	(VERB keep/VB entering/VBG Mexico/NNP)
+	(VERB said/VBD Ramses/NNP Villela/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN money/NN)
+	(NOUN "/NNP)
+	(NOUN trader/NN)
+	(NOUN Bulltick/NNP Capital/NNP Markets/NNPS)
+	(NOUN Mexico/NNP City/NNP)
+
+----------------------------------
+original sentence: 
+Get the National Post newspaper delivered to your home
+Interactive Data Managed Solutions
+Goldman 'doing God's work'
+Movement on Sextant file at last
+News for your mobile device
+TSX sneaks in positive day after early losses
+Mild inflation cools rate hike expectation
+Mitel belly flops on Nasdaq debut
+Triple hit for Greece
+Obama urges banks to stop efforts against financial reform
+Financial Post Newsletters
+Up to 50% off high quality products from a variety of retailers.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('National', 'NNP'), ('Post', 'NNP'), ('newspaper', 'NN'), ('delivered', 'VBD'), ('to', 'TO'), ('your', 'PRP$'), ('home', 'NN'), ('Interactive', 'NNP'), ('Data', 'NNP'), ('Managed', 'NNP'), ('Solutions', 'NNP'), ('Goldman', 'NNP'), ("'doing", 'NNP'), ('God', 'NNP'), ("'s", 'POS'), ('work', 'NN'), ("'", "''"), ('Movement', 'NNP'), ('on', 'IN'), ('Sextant', 'NNP'), ('file', 'NN'), ('at', 'IN'), ('last', 'JJ'), ('News', 'NNS'), ('for', 'IN'), ('your', 'PRP$'), ('mobile', 'JJ'), ('device', 'NN'), ('TSX', 'NNP'), ('sneaks', 'VBZ'), ('in', 'IN'), ('positive', 'JJ'), ('day', 'NN'), ('after', 'IN'), ('early', 'JJ'), ('losses', 'NNS'), ('Mild', 'NNP'), ('inflation', 'NN'), ('cools', 'NNS'), ('rate', 'NN'), ('hike', 'IN'), ('expectation', 'NN'), ('Mitel', 'NNP'), ('belly', 'RB'), ('flops', 'VBZ'), ('on', 'IN'), ('Nasdaq', 'NNP'), ('debut', 'CC'), ('Triple', 'NNP'), ('hit', 'VBD'), ('for', 'IN'), ('Greece', 'NNP'), ('Obama', 'NNP'), ('urges', 'NNS'), ('banks', 'NNS'), ('to', 'TO'), ('stop', 'VB'), ('efforts', 'NNS'), ('against', 'IN'), ('financial', 'JJ'), ('reform', 'NN'), ('Financial', 'JJ'), ('Post', 'NNP'), ('Newsletters', 'NNP'), ('Up', 'NNP'), ('to', 'TO'), ('50', 'CD'), ('%', 'NN'), ('off', 'IN'), ('high', 'JJ'), ('quality', 'NN'), ('products', 'NNS'), ('from', 'IN'), ('a', 'DT'), ('variety', 'NN'), ('of', 'IN'), ('retailers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   (ORGANIZATION National/NNP Post/NNP)   newspaper/NN   delivered/VBD   to/TO   your/PRP$   home/NN   (ORGANIZATION Interactive/NNP Data/NNP Managed/NNP Solutions/NNP)   (ORGANIZATION Goldman/NNP)   'doing/NNP   God/NNP   's/POS   work/NN   '/''   Movement/NNP   on/IN   (ORGANIZATION Sextant/NNP)   file/NN   at/IN   last/JJ   News/NNS   for/IN   your/PRP$   mobile/JJ   device/NN   (ORGANIZATION TSX/NNP)   sneaks/VBZ   in/IN   positive/JJ   day/NN   after/IN   early/JJ   losses/NNS   (PERSON Mild/NNP)   inflation/NN   cools/NNS   rate/NN   hike/IN   expectation/NN   (PERSON Mitel/NNP)   belly/RB   flops/VBZ   on/IN   (ORGANIZATION Nasdaq/NNP)   debut/CC   (PERSON Triple/NNP)   hit/VBD   for/IN   (GPE Greece/NNP)   Obama/NNP   urges/NNS   banks/NNS   to/TO   stop/VB   efforts/NNS   against/IN   financial/JJ   reform/NN   Financial/JJ   (ORGANIZATION Post/NNP)   Newsletters/NNP   Up/NNP   to/TO   50/CD   %/NN   off/IN   high/JJ   quality/NN   products/NNS   from/IN   a/DT   variety/NN   of/IN   retailers/NNS   ./.)
+----------------------------------
+original sentence: 
+Listen to FP on your ipod
+Listen to markets and business news
+
+
+POS tagged sentence: 
+[('Listen', 'NNP'), ('to', 'TO'), ('FP', 'NNP'), ('on', 'IN'), ('your', 'PRP$'), ('ipod', 'NN'), ('Listen', 'NNP'), ('to', 'TO'), ('markets', 'NNS'), ('and', 'CC'), ('business', 'NN'), ('news', 'NN')]
+
+
+ERTAGGED sentence: (S   (GPE Listen/NNP)   to/TO   FP/NNP   on/IN   your/PRP$   ipod/NN   (PERSON Listen/NNP)   to/TO   markets/NNS   and/CC   business/NN   news/NN)
+
+veryneg:1	neg:2	pos:1	verypos:0	total:2

@@ -1,0 +1,428 @@
+
+----------------------------------
+original sentence: 
+Macau may take back land promised to casino operators Business ReviewJournal.com
+ News, Sports, Business, Entertainment and Classifieds
+Las Vegas Review Journal Business
+ Apr 23, 2010  Partly Sunny 71&deg; Weather Forecast
+ Mar.
+
+POS tagged sentence: 
+[('Macau', 'NNP'), ('may', 'MD'), ('take', 'VB'), ('back', 'RP'), ('land', 'NN'), ('promised', 'VBD'), ('to', 'TO'), ('casino', 'VB'), ('operators', 'NNS'), ('Business', 'NNP'), ('ReviewJournal.com', 'NNP'), ('News', 'NNP'), (',', ','), ('Sports', 'NNP'), (',', ','), ('Business', 'NNP'), (',', ','), ('Entertainment', 'NNP'), ('and', 'CC'), ('Classifieds', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Review', 'NNP'), ('Journal', 'NNP'), ('Business', 'NNP'), ('Apr', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('Partly', 'NNP'), ('Sunny', 'NNP'), ('71&deg', 'CD'), (';', ':'), ('Weather', 'NNP'), ('Forecast', 'NNP'), ('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Macau/NNP)   may/MD   take/VB   back/RP   land/NN   promised/VBD   to/TO   casino/VB   operators/NNS   (ORGANIZATION Business/NNP)   ReviewJournal.com/NNP   News/NNP   ,/,   (GPE Sports/NNP)   ,/,   (GPE Business/NNP)   ,/,   (ORGANIZATION Entertainment/NNP)   and/CC   (PERSON     Classifieds/NNP     Las/NNP     Vegas/NNP     Review/NNP     Journal/NNP     Business/NNP)   Apr/NNP   23/CD   ,/,   2010/CD   (ORGANIZATION Partly/NNP)   Sunny/NNP   71&deg/CD   ;/:   (PERSON Weather/NNP Forecast/NNP Mar/NNP)   ./.)
+----------------------------------
+original sentence: 
+16, 2010  Copyright &copy; Las Vegas Review Journal  By Four of Nevada's top casino companies Las Vegas Sands Corp., Wynn Resorts Ltd., MGM Mirage and Harrah's Entertainment could be hurt by a move made Tuesday by Macau's top leader.
+
+POS tagged sentence: 
+[('16', 'CD'), (',', ','), ('2010', 'CD'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Review', 'NNP'), ('Journal', 'NNP'), ('By', 'NNP'), ('Four', 'NNP'), ('of', 'IN'), ('Nevada', 'NNP'), ("'s", 'POS'), ('top', 'JJ'), ('casino', 'NN'), ('companies', 'NNS'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), (',', ','), ('Wynn', 'NNP'), ('Resorts', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('MGM', 'NNP'), ('Mirage', 'NNP'), ('and', 'CC'), ('Harrah', 'NNP'), ("'s", 'POS'), ('Entertainment', 'NNP'), ('could', 'MD'), ('be', 'VB'), ('hurt', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('move', 'NN'), ('made', 'VBN'), ('Tuesday', 'NNP'), ('by', 'IN'), ('Macau', 'NNP'), ("'s", 'POS'), ('top', 'JJ'), ('leader', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   16/CD   ,/,   2010/CD   Copyright/NNP   &copy/NNP   ;/:   (PERSON Las/NNP Vegas/NNP Review/NNP Journal/NNP By/NNP Four/NNP)   of/IN   (GPE Nevada/NNP)   's/POS   top/JJ   casino/NN   companies/NNS   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp./NNP)   ,/,   (PERSON Wynn/NNP Resorts/NNP)   Ltd./NNP   ,/,   (ORGANIZATION MGM/NNP Mirage/NNP)   and/CC   (PERSON Harrah/NNP)   's/POS   Entertainment/NNP   could/MD   be/VB   hurt/VBN   by/IN   a/DT   move/NN   made/VBN   Tuesday/NNP   by/IN   (PERSON Macau/NNP)   's/POS   top/JJ   leader/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB hurt/VBN by/IN a/DT move/NN)
+	(VERB made/VBN Tuesday/NNP by/IN Macau/NNP)
+noun phrases to consider:
+	(NOUN 2010/CD Copyright/NNP &copy/NNP)
+	(NOUN Las/NNP Vegas/NNP Review/NNP Journal/NNP)
+	(NOUN By/NNP Four/NNP)
+	(NOUN Nevada/NNP)
+	(NOUN top/JJ casino/NN companies/NNS Las/NNP Vegas/NNP)
+	(NOUN Sands/NNPS Corp./NNP)
+	(NOUN Wynn/NNP Resorts/NNP Ltd./NNP)
+	(NOUN MGM/NNP Mirage/NNP)
+	(NOUN Harrah/NNP)
+	(NOUN Entertainment/NNP)
+	(NOUN top/JJ leader/NN)
+
+----------------------------------
+original sentence: 
+Macau Chief Executive Fernando Chui said the Special Administrative Region of China may seek to reclaim land promised to casino operators, with the sites being used for other development purposes.
+
+POS tagged sentence: 
+[('Macau', 'NNP'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Fernando', 'NNP'), ('Chui', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('Special', 'NNP'), ('Administrative', 'NNP'), ('Region', 'NNP'), ('of', 'IN'), ('China', 'NNP'), ('may', 'MD'), ('seek', 'VB'), ('to', 'TO'), ('reclaim', 'VB'), ('land', 'NN'), ('promised', 'VBN'), ('to', 'TO'), ('casino', 'VB'), ('operators', 'NNS'), (',', ','), ('with', 'IN'), ('the', 'DT'), ('sites', 'NNS'), ('being', 'VBG'), ('used', 'VBN'), ('for', 'IN'), ('other', 'JJ'), ('development', 'NN'), ('purposes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Macau/NNP)   Chief/NNP   Executive/NNP   Fernando/NNP   (PERSON Chui/NNP)   said/VBD   the/DT   (ORGANIZATION Special/NNP Administrative/NNP Region/NNP)   of/IN   (GPE China/NNP)   may/MD   seek/VB   to/TO   reclaim/VB   land/NN   promised/VBN   to/TO   casino/VB   operators/NNS   ,/,   with/IN   the/DT   sites/NNS   being/VBG   used/VBN   for/IN   other/JJ   development/NN   purposes/NNS   ./.)
+----------------------------------
+original sentence: 
+Chui, who has been on the job for less than three months, made a public policy speech and commented to the media.
+
+POS tagged sentence: 
+[('Chui', 'NNP'), (',', ','), ('who', 'WP'), ('has', 'VBZ'), ('been', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('job', 'NN'), ('for', 'IN'), ('less', 'JJR'), ('than', 'IN'), ('three', 'CD'), ('months', 'NNS'), (',', ','), ('made', 'VBN'), ('a', 'DT'), ('public', 'JJ'), ('policy', 'NN'), ('speech', 'NN'), ('and', 'CC'), ('commented', 'VBD'), ('to', 'TO'), ('the', 'DT'), ('media', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Chui/NNP)   ,/,   who/WP   has/VBZ   been/VBN   on/IN   the/DT   job/NN   for/IN   less/JJR   than/IN   three/CD   months/NNS   ,/,   made/VBN   a/DT   public/JJ   policy/NN   speech/NN   and/CC   commented/VBD   to/TO   the/DT   media/NNS   ./.)
+----------------------------------
+original sentence: 
+The speech involved two trains of thought.
+
+POS tagged sentence: 
+[('The', 'DT'), ('speech', 'NN'), ('involved', 'VBN'), ('two', 'CD'), ('trains', 'NNS'), ('of', 'IN'), ('thought', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   speech/NN   involved/VBN   two/CD   trains/NNS   of/IN   thought/NN   ./.)
+----------------------------------
+original sentence: 
+Several analysts and gaming company insiders wrote off the comments as political posturing.
+
+POS tagged sentence: 
+[('Several', 'JJ'), ('analysts', 'NNS'), ('and', 'CC'), ('gaming', 'VBG'), ('company', 'NN'), ('insiders', 'NNS'), ('wrote', 'VBD'), ('off', 'RP'), ('the', 'DT'), ('comments', 'NNS'), ('as', 'IN'), ('political', 'JJ'), ('posturing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Several/JJ   analysts/NNS   and/CC   gaming/VBG   company/NN   insiders/NNS   wrote/VBD   off/RP   the/DT   comments/NNS   as/IN   political/JJ   posturing/NN   ./.)
+----------------------------------
+original sentence: 
+But others thought Chui, who replaced Edmund Ho as Macau's top government official in December, was looking to slow casino development, telling Las Vegas based gaming operators they need to submit plans for the sites, predominately on Macau's Cotai Strip region, or lose the locations.
+
+POS tagged sentence: 
+[('But', 'CC'), ('others', 'NNS'), ('thought', 'VBD'), ('Chui', 'NNP'), (',', ','), ('who', 'WP'), ('replaced', 'VBN'), ('Edmund', 'NNP'), ('Ho', 'NNP'), ('as', 'IN'), ('Macau', 'NNP'), ("'s", 'POS'), ('top', 'JJ'), ('government', 'NN'), ('official', 'NN'), ('in', 'IN'), ('December', 'NNP'), (',', ','), ('was', 'VBD'), ('looking', 'VBG'), ('to', 'TO'), ('slow', 'JJ'), ('casino', 'NN'), ('development', 'NN'), (',', ','), ('telling', 'VBG'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('based', 'VBD'), ('gaming', 'VBG'), ('operators', 'NNS'), ('they', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('submit', 'VB'), ('plans', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('sites', 'NNS'), (',', ','), ('predominately', 'RB'), ('on', 'IN'), ('Macau', 'NNP'), ("'s", 'POS'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('region', 'NN'), (',', ','), ('or', 'CC'), ('lose', 'VB'), ('the', 'DT'), ('locations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   others/NNS   thought/VBD   (PERSON Chui/NNP)   ,/,   who/WP   replaced/VBN   (PERSON Edmund/NNP Ho/NNP)   as/IN   (PERSON Macau/NNP)   's/POS   top/JJ   government/NN   official/NN   in/IN   December/NNP   ,/,   was/VBD   looking/VBG   to/TO   slow/JJ   casino/NN   development/NN   ,/,   telling/VBG   (PERSON Las/NNP Vegas/NNP)   based/VBD   gaming/VBG   operators/NNS   they/PRP   need/VBP   to/TO   submit/VB   plans/NNS   for/IN   the/DT   sites/NNS   ,/,   predominately/RB   on/IN   (PERSON Macau/NNP)   's/POS   (PERSON Cotai/NNP Strip/NNP)   region/NN   ,/,   or/CC   lose/VB   the/DT   locations/NNS   ./.)
+----------------------------------
+original sentence: 
+Chui told media after his prepared remarks the government would follow all legal procedures to reclaim land not being developed.
+
+POS tagged sentence: 
+[('Chui', 'NNP'), ('told', 'VBD'), ('media', 'NNS'), ('after', 'IN'), ('his', 'PRP$'), ('prepared', 'VBN'), ('remarks', 'NNS'), ('the', 'DT'), ('government', 'NN'), ('would', 'MD'), ('follow', 'VB'), ('all', 'DT'), ('legal', 'JJ'), ('procedures', 'NNS'), ('to', 'TO'), ('reclaim', 'VB'), ('land', 'NN'), ('not', 'RB'), ('being', 'VBG'), ('developed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Chui/NNP)   told/VBD   media/NNS   after/IN   his/PRP$   prepared/VBN   remarks/NNS   the/DT   government/NN   would/MD   follow/VB   all/DT   legal/JJ   procedures/NNS   to/TO   reclaim/VB   land/NN   not/RB   being/VBG   developed/VBN   ./.)
+----------------------------------
+original sentence: 
+"The whole process will be made very transparent, but the land has to be taken back and some of it will be used for social housing," Chui said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('whole', 'JJ'), ('process', 'NN'), ('will', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('very', 'RB'), ('transparent', 'JJ'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('land', 'NN'), ('has', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('taken', 'VBN'), ('back', 'RP'), ('and', 'CC'), ('some', 'DT'), ('of', 'IN'), ('it', 'PRP'), ('will', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('for', 'IN'), ('social', 'JJ'), ('housing', 'NN'), (',', ','), ('"', ':'), ('Chui', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   whole/JJ   process/NN   will/MD   be/VB   made/VBN   very/RB   transparent/JJ   ,/,   but/CC   the/DT   land/NN   has/VBZ   to/TO   be/VB   taken/VBN   back/RP   and/CC   some/DT   of/IN   it/PRP   will/MD   be/VB   used/VBN   for/IN   social/JJ   housing/NN   ,/,   "/:   (PERSON Chui/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Each of the Las Vegas companies may feel the impact differently.
+
+POS tagged sentence: 
+[('Each', 'DT'), ('of', 'IN'), ('the', 'DT'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('companies', 'NNS'), ('may', 'MD'), ('feel', 'VB'), ('the', 'DT'), ('impact', 'NN'), ('differently', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Each/DT   of/IN   the/DT   (ORGANIZATION Las/NNP Vegas/NNP)   companies/NNS   may/MD   feel/VB   the/DT   impact/NN   differently/RB   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands, which has three Macau casinos, plans to restart development this summer on four Cotai Strip projects stalled in midconstruction more than a year ago when the company ran into financial trouble.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('three', 'CD'), ('Macau', 'NNP'), ('casinos', 'NNS'), (',', ','), ('plans', 'VBZ'), ('to', 'TO'), ('restart', 'VB'), ('development', 'NN'), ('this', 'DT'), ('summer', 'NN'), ('on', 'IN'), ('four', 'CD'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('projects', 'VBZ'), ('stalled', 'VBN'), ('in', 'IN'), ('midconstruction', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('when', 'WRB'), ('the', 'DT'), ('company', 'NN'), ('ran', 'VBD'), ('into', 'IN'), ('financial', 'JJ'), ('trouble', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   ,/,   which/WDT   has/VBZ   three/CD   Macau/NNP   casinos/NNS   ,/,   plans/VBZ   to/TO   restart/VB   development/NN   this/DT   summer/NN   on/IN   four/CD   (PERSON Cotai/NNP Strip/NNP)   projects/VBZ   stalled/VBN   in/IN   midconstruction/NN   more/JJR   than/IN   a/DT   year/NN   ago/IN   when/WRB   the/DT   company/NN   ran/VBD   into/IN   financial/JJ   trouble/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ three/CD Macau/NNP casinos/NNS)
+	(VERB   plans/VBZ   to/TO   restart/VB   development/NN   this/DT   summer/NN   on/IN   four/CD   Cotai/NNP   Strip/NNP)
+	(VERB   projects/VBZ   stalled/VBN   in/IN   midconstruction/NN   more/JJR   than/IN   a/DT   year/NN   ago/IN)
+	(VERB ran/VBD into/IN financial/JJ trouble/JJ)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+Las Vegas Sands has two other undeveloped Cotai Strip sites.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('has', 'VBZ'), ('two', 'CD'), ('other', 'JJ'), ('undeveloped', 'JJ'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('sites', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   has/VBZ   two/CD   other/JJ   undeveloped/JJ   (PERSON Cotai/NNP Strip/NNP)   sites/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ two/CD other/JJ undeveloped/JJ Cotai/NNP Strip/NNP)
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+
+----------------------------------
+original sentence: 
+Wynn and MGM Mirage, which operate casinos in the Macau Peninsula region, have expressed interest in building resorts on the Cotai Strip.
+
+POS tagged sentence: 
+[('Wynn', 'NNP'), ('and', 'CC'), ('MGM', 'NNP'), ('Mirage', 'NNP'), (',', ','), ('which', 'WDT'), ('operate', 'JJ'), ('casinos', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Macau', 'NNP'), ('Peninsula', 'NNP'), ('region', 'NN'), (',', ','), ('have', 'VBP'), ('expressed', 'VBN'), ('interest', 'NN'), ('in', 'IN'), ('building', 'NN'), ('resorts', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Wynn/NNP)   and/CC   (ORGANIZATION MGM/NNP Mirage/NNP)   ,/,   which/WDT   operate/JJ   casinos/NNS   in/IN   the/DT   (ORGANIZATION Macau/NNP Peninsula/NNP)   region/NN   ,/,   have/VBP   expressed/VBN   interest/NN   in/IN   building/NN   resorts/NNS   on/IN   the/DT   (ORGANIZATION Cotai/NNP Strip/NNP)   ./.)
+----------------------------------
+original sentence: 
+Harrah's does not own one of Macau's six gaming licenses, but the company spent $577.7 million in 2007 to acquire a golf course near the Cotai Strip in hopes that more gaming licenses would be issued.
+
+POS tagged sentence: 
+[('Harrah', 'NNP'), ("'s", 'POS'), ('does', 'VBZ'), ('not', 'RB'), ('own', 'VB'), ('one', 'CD'), ('of', 'IN'), ('Macau', 'NNP'), ("'s", 'POS'), ('six', 'CD'), ('gaming', 'NN'), ('licenses', 'NNS'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('company', 'NN'), ('spent', 'VBD'), ('$', '$'), ('577.7', 'CD'), ('million', 'CD'), ('in', 'IN'), ('2007', 'CD'), ('to', 'TO'), ('acquire', 'VB'), ('a', 'DT'), ('golf', 'NN'), ('course', 'NN'), ('near', 'IN'), ('the', 'DT'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('in', 'IN'), ('hopes', 'NNS'), ('that', 'IN'), ('more', 'JJR'), ('gaming', 'VBG'), ('licenses', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('issued', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Harrah/NNP)   's/POS   does/VBZ   not/RB   own/VB   one/CD   of/IN   (GPE Macau/NNP)   's/POS   six/CD   gaming/NN   licenses/NNS   ,/,   but/CC   the/DT   company/NN   spent/VBD   $/$   577.7/CD   million/CD   in/IN   2007/CD   to/TO   acquire/VB   a/DT   golf/NN   course/NN   near/IN   the/DT   (ORGANIZATION Cotai/NNP Strip/NNP)   in/IN   hopes/NNS   that/IN   more/JJR   gaming/VBG   licenses/NNS   would/MD   be/VB   issued/VBN   ./.)
+----------------------------------
+original sentence: 
+Chui made no mention of increasing the number of casino operators in Macau.
+
+POS tagged sentence: 
+[('Chui', 'NNP'), ('made', 'VBD'), ('no', 'DT'), ('mention', 'NN'), ('of', 'IN'), ('increasing', 'VBG'), ('the', 'DT'), ('number', 'NN'), ('of', 'IN'), ('casino', 'NN'), ('operators', 'NNS'), ('in', 'IN'), ('Macau', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Chui/NNP)   made/VBD   no/DT   mention/NN   of/IN   increasing/VBG   the/DT   number/NN   of/IN   casino/NN   operators/NNS   in/IN   (GPE Macau/NNP)   ./.)
+----------------------------------
+original sentence: 
+Macquarie Securities gaming analyst Gary Pinge, who is based in Hong Kong, told investors the Macau government wants to build small residential developments for the middle to lower end market.
+
+POS tagged sentence: 
+[('Macquarie', 'NNP'), ('Securities', 'NNP'), ('gaming', 'NN'), ('analyst', 'NN'), ('Gary', 'NNP'), ('Pinge', 'NNP'), (',', ','), ('who', 'WP'), ('is', 'VBZ'), ('based', 'VBN'), ('in', 'IN'), ('Hong', 'NNP'), ('Kong', 'NNP'), (',', ','), ('told', 'VBD'), ('investors', 'NNS'), ('the', 'DT'), ('Macau', 'NNP'), ('government', 'NN'), ('wants', 'VBZ'), ('to', 'TO'), ('build', 'VB'), ('small', 'JJ'), ('residential', 'JJ'), ('developments', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('middle', 'NN'), ('to', 'TO'), ('lower', 'JJR'), ('end', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Macquarie/NNP)   Securities/NNP   gaming/NN   analyst/NN   (PERSON Gary/NNP Pinge/NNP)   ,/,   who/WP   is/VBZ   based/VBN   in/IN   (GPE Hong/NNP Kong/NNP)   ,/,   told/VBD   investors/NNS   the/DT   (GPE Macau/NNP)   government/NN   wants/VBZ   to/TO   build/VB   small/JJ   residential/JJ   developments/NNS   for/IN   the/DT   middle/NN   to/TO   lower/JJR   end/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+The repossessed land could be used for that purpose.
+
+POS tagged sentence: 
+[('The', 'DT'), ('repossessed', 'VBN'), ('land', 'NN'), ('could', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('for', 'IN'), ('that', 'DT'), ('purpose', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   repossessed/VBN   land/NN   could/MD   be/VB   used/VBN   for/IN   that/DT   purpose/NN   ./.)
+----------------------------------
+original sentence: 
+"Other than those casino developments already approved, any further applications for casinos will be tightly controlled," Pinge said in a research note.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Other', 'JJ'), ('than', 'IN'), ('those', 'DT'), ('casino', 'NN'), ('developments', 'NNS'), ('already', 'RB'), ('approved', 'VBD'), (',', ','), ('any', 'DT'), ('further', 'JJ'), ('applications', 'NNS'), ('for', 'IN'), ('casinos', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('tightly', 'RB'), ('controlled', 'VBN'), (',', ','), ('"', 'NNP'), ('Pinge', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('research', 'NN'), ('note', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Other/JJ   than/IN   those/DT   casino/NN   developments/NNS   already/RB   approved/VBD   ,/,   any/DT   further/JJ   applications/NNS   for/IN   casinos/NNS   will/MD   be/VB   tightly/RB   controlled/VBN   ,/,   "/NNP   (PERSON Pinge/NNP)   said/VBD   in/IN   a/DT   research/NN   note/NN   ./.)
+----------------------------------
+original sentence: 
+"We believe that the underlying message is no further casinos will be built on Macau in the foreseeable future.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('underlying', 'VBG'), ('message', 'NN'), ('is', 'VBZ'), ('no', 'DT'), ('further', 'JJ'), ('casinos', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('built', 'VBN'), ('on', 'IN'), ('Macau', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('foreseeable', 'JJ'), ('future', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   believe/VBP   that/IN   the/DT   underlying/VBG   message/NN   is/VBZ   no/DT   further/JJ   casinos/NNS   will/MD   be/VB   built/VBN   on/IN   (GPE Macau/NNP)   in/IN   the/DT   foreseeable/JJ   future/JJ   ./.)
+----------------------------------
+original sentence: 
+"
+Sterne Agee gaming analyst David Bain said casino company shareholders are concerned "the new chief executive may be utilizing some specific language about needing to diversify or cap the growth in Macau.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Sterne', 'NNP'), ('Agee', 'NNP'), ('gaming', 'NN'), ('analyst', 'NN'), ('David', 'NNP'), ('Bain', 'NNP'), ('said', 'VBD'), ('casino', 'NN'), ('company', 'NN'), ('shareholders', 'NNS'), ('are', 'VBP'), ('concerned', 'VBN'), ('"', '-NONE-'), ('the', 'DT'), ('new', 'JJ'), ('chief', 'NN'), ('executive', 'NN'), ('may', 'MD'), ('be', 'VB'), ('utilizing', 'VBG'), ('some', 'DT'), ('specific', 'JJ'), ('language', 'NN'), ('about', 'IN'), ('needing', 'VBG'), ('to', 'TO'), ('diversify', 'VB'), ('or', 'CC'), ('cap', 'VB'), ('the', 'DT'), ('growth', 'NN'), ('in', 'IN'), ('Macau', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Sterne/NNP Agee/NNP)   gaming/NN   analyst/NN   (PERSON David/NNP Bain/NNP)   said/VBD   casino/NN   company/NN   shareholders/NNS   are/VBP   concerned/VBN   "/-NONE-   the/DT   new/JJ   chief/NN   executive/NN   may/MD   be/VB   utilizing/VBG   some/DT   specific/JJ   language/NN   about/IN   needing/VBG   to/TO   diversify/VB   or/CC   cap/VB   the/DT   growth/NN   in/IN   (GPE Macau/NNP)   ./.)
+----------------------------------
+original sentence: 
+"
+But the Chinese government, he said, may wait until after Las Vegas Sands opens its $5.5 billion resort in Singapore next month before enacting any new gambling legislation.
+
+POS tagged sentence: 
+[('"', 'NN'), ('But', 'CC'), ('the', 'DT'), ('Chinese', 'JJ'), ('government', 'NN'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), (',', ','), ('may', 'MD'), ('wait', 'VB'), ('until', 'IN'), ('after', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('opens', 'VBZ'), ('its', 'PRP$'), ('$', '$'), ('5.5', 'CD'), ('billion', 'CD'), ('resort', 'NN'), ('in', 'IN'), ('Singapore', 'NNP'), ('next', 'JJ'), ('month', 'NN'), ('before', 'IN'), ('enacting', 'VBG'), ('any', 'DT'), ('new', 'JJ'), ('gambling', 'NN'), ('legislation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   But/CC   the/DT   (GPE Chinese/JJ)   government/NN   ,/,   he/PRP   said/VBD   ,/,   may/MD   wait/VB   until/IN   after/IN   (PERSON Las/NNP Vegas/NNP Sands/NNPS)   opens/VBZ   its/PRP$   $/$   5.5/CD   billion/CD   resort/NN   in/IN   (GPE Singapore/NNP)   next/JJ   month/NN   before/IN   enacting/VBG   any/DT   new/JJ   gambling/NN   legislation/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB wait/VB until/IN after/IN Las/NNP Vegas/NNP Sands/NNPS)
+	(VERB opens/VBZ its/PRP$)
+	(VERB enacting/VBG any/DT new/JJ gambling/NN legislation/NN)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN the/DT Chinese/JJ government/NN)
+	(NOUN billion/CD resort/NN)
+	(NOUN Singapore/NNP next/JJ month/NN)
+
+----------------------------------
+original sentence: 
+Union Gaming Group principal Bill Lerner thought nervous investors who were anticipating "explicit measures" to slow gaming growth in Macau found some relief in Chui's remarks.
+
+POS tagged sentence: 
+[('Union', 'NN'), ('Gaming', 'NNP'), ('Group', 'NNP'), ('principal', 'NN'), ('Bill', 'NNP'), ('Lerner', 'NNP'), ('thought', 'VBD'), ('nervous', 'JJ'), ('investors', 'NNS'), ('who', 'WP'), ('were', 'VBD'), ('anticipating', 'VBG'), ('"', 'CD'), ('explicit', 'NN'), ('measures', 'NNS'), ('"', ':'), ('to', 'TO'), ('slow', 'VB'), ('gaming', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('Macau', 'NNP'), ('found', 'VBD'), ('some', 'DT'), ('relief', 'NN'), ('in', 'IN'), ('Chui', 'NNP'), ("'s", 'POS'), ('remarks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Union/NN)   (ORGANIZATION Gaming/NNP Group/NNP)   principal/NN   (PERSON Bill/NNP Lerner/NNP)   thought/VBD   nervous/JJ   investors/NNS   who/WP   were/VBD   anticipating/VBG   "/CD   explicit/NN   measures/NNS   "/:   to/TO   slow/VB   gaming/NN   growth/NN   in/IN   (GPE Macau/NNP)   found/VBD   some/DT   relief/NN   in/IN   (GPE Chui/NNP)   's/POS   remarks/NNS   ./.)
+----------------------------------
+original sentence: 
+Lerner said the Chinese government's actions to curb money and visitation into Macau could lessen 2010's annual growth.
+
+POS tagged sentence: 
+[('Lerner', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('Chinese', 'NNP'), ('government', 'NN'), ("'s", 'POS'), ('actions', 'NNS'), ('to', 'TO'), ('curb', 'VB'), ('money', 'NN'), ('and', 'CC'), ('visitation', 'NN'), ('into', 'IN'), ('Macau', 'NNP'), ('could', 'MD'), ('lessen', 'VB'), ('2010', 'CD'), ("'s", 'POS'), ('annual', 'JJ'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Lerner/NNP)   said/VBD   the/DT   (GPE Chinese/NNP)   government/NN   's/POS   actions/NNS   to/TO   curb/VB   money/NN   and/CC   visitation/NN   into/IN   (PERSON Macau/NNP)   could/MD   lessen/VB   2010/CD   's/POS   annual/JJ   growth/NN   ./.)
+----------------------------------
+original sentence: 
+In 2009, Macau casinos collected $15.5 billion in gaming revenues, a 14 percent increase over 2008.
+
+POS tagged sentence: 
+[('In', 'IN'), ('2009', 'CD'), (',', ','), ('Macau', 'NNP'), ('casinos', 'NNS'), ('collected', 'VBD'), ('$', '$'), ('15.5', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('gaming', 'NN'), ('revenues', 'NNS'), (',', ','), ('a', 'DT'), ('14', 'CD'), ('percent', 'NN'), ('increase', 'NN'), ('over', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   2009/CD   ,/,   (GPE Macau/NNP)   casinos/NNS   collected/VBD   $/$   15.5/CD   billion/CD   in/IN   gaming/NN   revenues/NNS   ,/,   a/DT   14/CD   percent/NN   increase/NN   over/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+However, 2008 had a 31 percent increase in gaming revenues following revenue growth of 47 percent in 2007 and 23 percent in 2006.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('2008', 'CD'), ('had', 'VBD'), ('a', 'DT'), ('31', 'CD'), ('percent', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('gaming', 'NN'), ('revenues', 'NNS'), ('following', 'VBG'), ('revenue', 'NN'), ('growth', 'NN'), ('of', 'IN'), ('47', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('2007', 'CD'), ('and', 'CC'), ('23', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('2006', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   2008/CD   had/VBD   a/DT   31/CD   percent/NN   increase/NN   in/IN   gaming/NN   revenues/NNS   following/VBG   revenue/NN   growth/NN   of/IN   47/CD   percent/NN   in/IN   2007/CD   and/CC   23/CD   percent/NN   in/IN   2006/CD   ./.)
+----------------------------------
+original sentence: 
+The only casino slated to open in Macau this year is Wynn's $650 million Encore project.
+
+POS tagged sentence: 
+[('The', 'DT'), ('only', 'JJ'), ('casino', 'NN'), ('slated', 'VBN'), ('to', 'TO'), ('open', 'VB'), ('in', 'IN'), ('Macau', 'NNP'), ('this', 'DT'), ('year', 'NN'), ('is', 'VBZ'), ('Wynn', 'NNP'), ("'s", 'POS'), ('$', '$'), ('650', 'CD'), ('million', 'CD'), ('Encore', 'NNP'), ('project', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   only/JJ   casino/NN   slated/VBN   to/TO   open/VB   in/IN   (GPE Macau/NNP)   this/DT   year/NN   is/VBZ   (PERSON Wynn/NNP)   's/POS   $/$   650/CD   million/CD   (GPE Encore/NNP)   project/NN   ./.)
+----------------------------------
+original sentence: 
+Chui said Macau would allow new casinos as long as construction plans had been approved.
+
+POS tagged sentence: 
+[('Chui', 'NNP'), ('said', 'VBD'), ('Macau', 'NNP'), ('would', 'MD'), ('allow', 'VB'), ('new', 'JJ'), ('casinos', 'NNS'), ('as', 'IN'), ('long', 'RB'), ('as', 'IN'), ('construction', 'NN'), ('plans', 'NNS'), ('had', 'VBD'), ('been', 'VBN'), ('approved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Chui/NNP)   said/VBD   (PERSON Macau/NNP)   would/MD   allow/VB   new/JJ   casinos/NNS   as/IN   long/RB   as/IN   construction/NN   plans/NNS   had/VBD   been/VBN   approved/VBN   ./.)
+----------------------------------
+original sentence: 
+"Apart from those we have agreed in principle in the past, in construction and those already approved, we will regulate the building of new casinos in the future," Chui said .
+
+POS tagged sentence: 
+[('"', 'NN'), ('Apart', 'NNP'), ('from', 'IN'), ('those', 'DT'), ('we', 'PRP'), ('have', 'VBP'), ('agreed', 'VBN'), ('in', 'IN'), ('principle', 'NN'), ('in', 'IN'), ('the', 'DT'), ('past', 'JJ'), (',', ','), ('in', 'IN'), ('construction', 'NN'), ('and', 'CC'), ('those', 'DT'), ('already', 'RB'), ('approved', 'VBN'), (',', ','), ('we', 'PRP'), ('will', 'MD'), ('regulate', 'VB'), ('the', 'DT'), ('building', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('casinos', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), (',', ','), ('"', ':'), ('Chui', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Apart/NNP)   from/IN   those/DT   we/PRP   have/VBP   agreed/VBN   in/IN   principle/NN   in/IN   the/DT   past/JJ   ,/,   in/IN   construction/NN   and/CC   those/DT   already/RB   approved/VBN   ,/,   we/PRP   will/MD   regulate/VB   the/DT   building/NN   of/IN   new/JJ   casinos/NNS   in/IN   the/DT   future/NN   ,/,   "/:   (PERSON Chui/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+The comments left questions about development projects in Macau.
+
+POS tagged sentence: 
+[('The', 'DT'), ('comments', 'NNS'), ('left', 'VBN'), ('questions', 'NNS'), ('about', 'IN'), ('development', 'NN'), ('projects', 'NNS'), ('in', 'IN'), ('Macau', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   comments/NNS   left/VBN   questions/NNS   about/IN   development/NN   projects/NNS   in/IN   (GPE Macau/NNP)   ./.)
+----------------------------------
+original sentence: 
+Pinge said the impact could be on companies banking land on the Cotai Strip.
+
+POS tagged sentence: 
+[('Pinge', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('impact', 'NN'), ('could', 'MD'), ('be', 'VB'), ('on', 'IN'), ('companies', 'NNS'), ('banking', 'VBG'), ('land', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Pinge/NNP)   said/VBD   the/DT   impact/NN   could/MD   be/VB   on/IN   companies/NNS   banking/VBG   land/NN   on/IN   the/DT   (ORGANIZATION Cotai/NNP Strip/NNP)   ./.)
+----------------------------------
+original sentence: 
+Last month, Wynn Resorts Chairman Steve Wynn told analysts during a quarterly conference call that the company was several months away from finishing the initial designs for a Cotai Strip hotel casino that would cost "a couple of billion dollars," adding that new ideas had slowed the process.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('month', 'NN'), (',', ','), ('Wynn', 'NNP'), ('Resorts', 'NNP'), ('Chairman', 'NNP'), ('Steve', 'NNP'), ('Wynn', 'NNP'), ('told', 'VBD'), ('analysts', 'NNS'), ('during', 'IN'), ('a', 'DT'), ('quarterly', 'JJ'), ('conference', 'NN'), ('call', 'NN'), ('that', 'WDT'), ('the', 'DT'), ('company', 'NN'), ('was', 'VBD'), ('several', 'JJ'), ('months', 'NNS'), ('away', 'RB'), ('from', 'IN'), ('finishing', 'VBG'), ('the', 'DT'), ('initial', 'JJ'), ('designs', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('hotel', 'NN'), ('casino', 'NN'), ('that', 'WDT'), ('would', 'MD'), ('cost', 'VB'), ('"', ':'), ('a', 'DT'), ('couple', 'NN'), ('of', 'IN'), ('billion', 'NN'), ('dollars', 'NNS'), (',', ','), ('"', ':'), ('adding', 'VBG'), ('that', 'IN'), ('new', 'JJ'), ('ideas', 'NNS'), ('had', 'VBD'), ('slowed', 'VBN'), ('the', 'DT'), ('process', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   month/NN   ,/,   (PERSON Wynn/NNP Resorts/NNP)   Chairman/NNP   (PERSON Steve/NNP Wynn/NNP)   told/VBD   analysts/NNS   during/IN   a/DT   quarterly/JJ   conference/NN   call/NN   that/WDT   the/DT   company/NN   was/VBD   several/JJ   months/NNS   away/RB   from/IN   finishing/VBG   the/DT   initial/JJ   designs/NNS   for/IN   a/DT   Cotai/NNP   Strip/NNP   hotel/NN   casino/NN   that/WDT   would/MD   cost/VB   "/:   a/DT   couple/NN   of/IN   billion/NN   dollars/NNS   ,/,   "/:   adding/VBG   that/IN   new/JJ   ideas/NNS   had/VBD   slowed/VBN   the/DT   process/NN   ./.)
+----------------------------------
+original sentence: 
+"We can't think of a better place to build it, all things considered, namely the work force and government policy," Wynn said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('ca', 'MD'), ("n't", 'RB'), ('think', 'VB'), ('of', 'IN'), ('a', 'DT'), ('better', 'JJR'), ('place', 'NN'), ('to', 'TO'), ('build', 'VB'), ('it', 'PRP'), (',', ','), ('all', 'DT'), ('things', 'NNS'), ('considered', 'VBN'), (',', ','), ('namely', 'RB'), ('the', 'DT'), ('work', 'NN'), ('force', 'NN'), ('and', 'CC'), ('government', 'NN'), ('policy', 'NN'), (',', ','), ('"', ':'), ('Wynn', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   ca/MD   n't/RB   think/VB   of/IN   a/DT   better/JJR   place/NN   to/TO   build/VB   it/PRP   ,/,   all/DT   things/NNS   considered/VBN   ,/,   namely/RB   the/DT   work/NN   force/NN   and/CC   government/NN   policy/NN   ,/,   "/:   (PERSON Wynn/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+"We are constrained by the political process itself of getting the entitlements and the details done through planning and public works in Macau.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('are', 'VBP'), ('constrained', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('political', 'JJ'), ('process', 'NN'), ('itself', 'PRP'), ('of', 'IN'), ('getting', 'VBG'), ('the', 'DT'), ('entitlements', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('details', 'NNS'), ('done', 'VBP'), ('through', 'IN'), ('planning', 'VBG'), ('and', 'CC'), ('public', 'JJ'), ('works', 'NNS'), ('in', 'IN'), ('Macau', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   are/VBP   constrained/VBN   by/IN   the/DT   political/JJ   process/NN   itself/PRP   of/IN   getting/VBG   the/DT   entitlements/NNS   and/CC   the/DT   details/NNS   done/VBP   through/IN   planning/VBG   and/CC   public/JJ   works/NNS   in/IN   (GPE Macau/NNP)   ./.)
+----------------------------------
+original sentence: 
+We're full tilt at that and our own planning process.
+
+POS tagged sentence: 
+[('We', 'PRP'), ("'re", 'VBP'), ('full', 'JJ'), ('tilt', 'NN'), ('at', 'IN'), ('that', 'DT'), ('and', 'CC'), ('our', 'PRP$'), ('own', 'JJ'), ('planning', 'VBG'), ('process', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   're/VBP   full/JJ   tilt/NN   at/IN   that/DT   and/CC   our/PRP$   own/JJ   planning/VBG   process/NN   ./.)
+----------------------------------
+original sentence: 
+"
+Pinge said the policy address, taken literally, could affect Wynn.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Pinge', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('policy', 'NN'), ('address', 'NN'), (',', ','), ('taken', 'VBN'), ('literally', 'RB'), (',', ','), ('could', 'MD'), ('affect', 'VB'), ('Wynn', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Pinge/NNP)   said/VBD   the/DT   policy/NN   address/NN   ,/,   taken/VBN   literally/RB   ,/,   could/MD   affect/VB   (PERSON Wynn/NNP)   ./.)
+----------------------------------
+original sentence: 
+"Any decision to repeal this land bank would have negative implications on the growth outlook for Wynn given lack of exposure on Cotai," Pinge said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Any', 'DT'), ('decision', 'NN'), ('to', 'TO'), ('repeal', 'VB'), ('this', 'DT'), ('land', 'NN'), ('bank', 'NN'), ('would', 'MD'), ('have', 'VB'), ('negative', 'JJ'), ('implications', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('growth', 'NN'), ('outlook', 'NN'), ('for', 'IN'), ('Wynn', 'NNP'), ('given', 'VBN'), ('lack', 'NN'), ('of', 'IN'), ('exposure', 'NN'), ('on', 'IN'), ('Cotai', 'NNP'), (',', ','), ('"', 'NNP'), ('Pinge', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Any/DT   decision/NN   to/TO   repeal/VB   this/DT   land/NN   bank/NN   would/MD   have/VB   negative/JJ   implications/NNS   on/IN   the/DT   growth/NN   outlook/NN   for/IN   (PERSON Wynn/NNP)   given/VBN   lack/NN   of/IN   exposure/NN   on/IN   (GPE Cotai/NNP)   ,/,   "/NNP   (PERSON Pinge/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+MGM Mirage spokesman Alan Feldman said company officials in Macau, along with joint venture partner Pansy Ho, have been in communication with the government concerning a Cotai Strip project.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('Mirage', 'NNP'), ('spokesman', 'NN'), ('Alan', 'NNP'), ('Feldman', 'NNP'), ('said', 'VBD'), ('company', 'NN'), ('officials', 'NNS'), ('in', 'IN'), ('Macau', 'NNP'), (',', ','), ('along', 'IN'), ('with', 'IN'), ('joint', 'JJ'), ('venture', 'NN'), ('partner', 'NN'), ('Pansy', 'NNP'), ('Ho', 'NNP'), (',', ','), ('have', 'VBP'), ('been', 'VBN'), ('in', 'IN'), ('communication', 'NN'), ('with', 'IN'), ('the', 'DT'), ('government', 'NN'), ('concerning', 'VBG'), ('a', 'DT'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('project', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MGM/NNP Mirage/NNP)   spokesman/NN   (PERSON Alan/NNP Feldman/NNP)   said/VBD   company/NN   officials/NNS   in/IN   (GPE Macau/NNP)   ,/,   along/IN   with/IN   joint/JJ   venture/NN   partner/NN   (PERSON Pansy/NNP Ho/NNP)   ,/,   have/VBP   been/VBN   in/IN   communication/NN   with/IN   the/DT   government/NN   concerning/VBG   a/DT   Cotai/NNP   Strip/NNP   project/NN   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands has submitted design plans for two Cotai Strip sites and has moved forward on some preliminary site development.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('has', 'VBZ'), ('submitted', 'VBN'), ('design', 'NN'), ('plans', 'NNS'), ('for', 'IN'), ('two', 'CD'), ('Cotai', 'NNP'), ('Strip', 'NNP'), ('sites', 'VBZ'), ('and', 'CC'), ('has', 'VBZ'), ('moved', 'VBN'), ('forward', 'RB'), ('on', 'IN'), ('some', 'DT'), ('preliminary', 'JJ'), ('site', 'NN'), ('development', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   has/VBZ   submitted/VBN   design/NN   plans/NNS   for/IN   two/CD   (PERSON Cotai/NNP Strip/NNP)   sites/VBZ   and/CC   has/VBZ   moved/VBN   forward/RB   on/IN   some/DT   preliminary/JJ   site/NN   development/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   submitted/VBN   design/NN   plans/NNS   for/IN   two/CD   Cotai/NNP   Strip/NNP)
+	(VERB sites/VBZ)
+	(VERB   has/VBZ   moved/VBN   forward/RB   on/IN   some/DT   preliminary/JJ   site/NN   development/NN)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+
+----------------------------------
+original sentence: 
+"Even if this land was repealed from Sands China, we would not see this as a negative since the company already has close to $7 billion invested on Cotai," Pinge said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Even', 'RB'), ('if', 'IN'), ('this', 'DT'), ('land', 'NN'), ('was', 'VBD'), ('repealed', 'VBN'), ('from', 'IN'), ('Sands', 'NNPS'), ('China', 'NNP'), (',', ','), ('we', 'PRP'), ('would', 'MD'), ('not', 'RB'), ('see', 'VB'), ('this', 'DT'), ('as', 'IN'), ('a', 'DT'), ('negative', 'JJ'), ('since', 'IN'), ('the', 'DT'), ('company', 'NN'), ('already', 'RB'), ('has', 'VBZ'), ('close', 'JJ'), ('to', 'TO'), ('$', '$'), ('7', 'CD'), ('billion', 'CD'), ('invested', 'VBN'), ('on', 'IN'), ('Cotai', 'NNP'), (',', ','), ('"', 'NNP'), ('Pinge', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Even/RB   if/IN   this/DT   land/NN   was/VBD   repealed/VBN   from/IN   (PERSON Sands/NNPS China/NNP)   ,/,   we/PRP   would/MD   not/RB   see/VB   this/DT   as/IN   a/DT   negative/JJ   since/IN   the/DT   company/NN   already/RB   has/VBZ   close/JJ   to/TO   $/$   7/CD   billion/CD   invested/VBN   on/IN   (GPE Cotai/NNP)   ,/,   "/NNP   (PERSON Pinge/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Contact reporter Howard Stutz at hstutz@reviewjournal.com or 702 477 3871.
+
+POS tagged sentence: 
+[('Contact', 'NN'), ('reporter', 'NN'), ('Howard', 'NNP'), ('Stutz', 'NNP'), ('at', 'IN'), ('hstutz', 'NN'), ('@', ':'), ('reviewjournal.com', 'JJ'), ('or', 'CC'), ('702', 'CD'), ('477', 'CD'), ('3871', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP Contact/NN)   reporter/NN   (PERSON Howard/NNP Stutz/NNP)   at/IN   hstutz/NN   @/:   reviewjournal.com/JJ   or/CC   702/CD   477/CD   3871/CD   ./.)
+----------------------------------
+original sentence: 
+Copyright &copy; Stephens Media LLC 1997 2010 
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('Stephens', 'NNP'), ('Media', 'NNP'), ('LLC', 'NNP'), ('1997', 'CD'), ('2010', 'CD')]
+
+
+ERTAGGED sentence: (S   (PERSON Copyright/NNP)   &copy/NNP   ;/:   (PERSON Stephens/NNP Media/NNP)   LLC/NNP   1997/CD   2010/CD)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

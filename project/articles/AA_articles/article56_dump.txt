@@ -1,0 +1,179 @@
+
+----------------------------------
+original sentence: 
+ Alcoa AA NewsBite AA Rises As Inflation Fears Subside Seven Summits Strategic Investments
+Market Intelligence Center
+FreshBrewed Media News
+S&P; Option Strategies
+ Alcoa AA NewsBite AA Rises As Inflation Fears Subside
+Posted: Wednesday, March 17, 2010 9:54 AM EDT Alcoa NYSE: AA opened at $14.02.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('AA', 'NNP'), ('NewsBite', 'NNP'), ('AA', 'NNP'), ('Rises', 'NNP'), ('As', 'NNP'), ('Inflation', 'NNP'), ('Fears', 'NNP'), ('Subside', 'NNP'), ('Seven', 'NNP'), ('Summits', 'NNP'), ('Strategic', 'NNP'), ('Investments', 'NNP'), ('Market', 'NNP'), ('Intelligence', 'NNP'), ('Center', 'NNP'), ('FreshBrewed', 'NNP'), ('Media', 'NNP'), ('News', 'NNP'), ('S&P', 'NNP'), (';', ':'), ('Option', 'NNP'), ('Strategies', 'NNPS'), ('Alcoa', 'NNP'), ('AA', 'NNP'), ('NewsBite', 'NNP'), ('AA', 'NNP'), ('Rises', 'NNP'), ('As', 'NNP'), ('Inflation', 'NNP'), ('Fears', 'NNP'), ('Subside', 'NNP'), ('Posted', 'NNP'), (':', ':'), ('Wednesday', 'NNP'), (',', ','), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('9', 'CD'), (':', ':'), ('54', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('opened', 'VBD'), ('at', 'IN'), ('$', '$'), ('14.02', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   AA/NNP   (ORGANIZATION NewsBite/NNP)   AA/NNP   Rises/NNP   As/NNP   Inflation/NNP   (PERSON     Fears/NNP     Subside/NNP     Seven/NNP     Summits/NNP     Strategic/NNP     Investments/NNP     Market/NNP     Intelligence/NNP     Center/NNP)   FreshBrewed/NNP   Media/NNP   News/NNP   S&P/NNP   ;/:   (ORGANIZATION Option/NNP Strategies/NNPS Alcoa/NNP)   AA/NNP   (ORGANIZATION NewsBite/NNP)   AA/NNP   Rises/NNP   As/NNP   Inflation/NNP   (PERSON Fears/NNP Subside/NNP Posted/NNP)   :/:   Wednesday/NNP   ,/,   March/NNP   17/CD   ,/,   2010/CD   9/CD   :/:   54/CD   AM/NNP   EDT/NNP   Alcoa/NNP   NYSE/NNP   :/:   AA/NNP   opened/VBD   at/IN   $/$   14.02/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB opened/VBD at/IN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP AA/NNP NewsBite/NNP AA/NNP)
+	(NOUN Rises/NNP As/NNP Inflation/NNP Fears/NNP)
+
+tagged sentence:
+	 Rises As Inflation Fears	res:-1
+	(NOUN Subside/NNP Seven/NNP Summits/NNP Strategic/NNP)
+	(NOUN Investments/NNP Market/NNP Intelligence/NNP Center/NNP)
+	(NOUN FreshBrewed/NNP Media/NNP News/NNP S&P/NNP)
+	(NOUN Option/NNP Strategies/NNPS Alcoa/NNP AA/NNP)
+	(NOUN NewsBite/NNP AA/NNP Rises/NNP As/NNP)
+	(NOUN Inflation/NNP Fears/NNP Subside/NNP Posted/NNP)
+
+tagged sentence:
+	 Inflation Fears Subside Posted	res:-1
+	(NOUN Wednesday/NNP)
+	(NOUN March/NNP)
+	(NOUN 54/CD AM/NNP EDT/NNP Alcoa/NNP NYSE/NNP)
+	(NOUN AA/NNP)
+
+----------------------------------
+original sentence: 
+So far today, the stock has hit a low of $14.00 and a high of $14.17.
+
+POS tagged sentence: 
+[('So', 'IN'), ('far', 'RB'), ('today', 'NN'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('hit', 'VBN'), ('a', 'DT'), ('low', 'JJ'), ('of', 'IN'), ('$', '$'), ('14.00', 'CD'), ('and', 'CC'), ('a', 'DT'), ('high', 'JJ'), ('of', 'IN'), ('$', '$'), ('14.17', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   far/RB   today/NN   ,/,   the/DT   stock/NN   has/VBZ   hit/VBN   a/DT   low/JJ   of/IN   $/$   14.00/CD   and/CC   a/DT   high/JJ   of/IN   $/$   14.17/CD   ./.)
+----------------------------------
+original sentence: 
+AA is now trading at $14.17, up $0.37 2.68% .
+
+POS tagged sentence: 
+[('AA', 'NNP'), ('is', 'VBZ'), ('now', 'RB'), ('trading', 'VBG'), ('at', 'IN'), ('$', '$'), ('14.17', 'CD'), (',', ','), ('up', 'RB'), ('$', '$'), ('0.37', 'CD'), ('2.68', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AA/NNP   is/VBZ   now/RB   trading/VBG   at/IN   $/$   14.17/CD   ,/,   up/RB   $/$   0.37/CD   2.68/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ now/RB trading/VBG at/IN)
+noun phrases to consider:
+	(NOUN AA/NNP)
+	(NOUN 2.68/CD %/NN)
+
+----------------------------------
+original sentence: 
+Over the last 52 weeks the stock has ranged from a low of $5.22 to a high of $17.60.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('52', 'CD'), ('weeks', 'NNS'), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('ranged', 'VBN'), ('from', 'IN'), ('a', 'DT'), ('low', 'JJ'), ('of', 'IN'), ('$', '$'), ('5.22', 'CD'), ('to', 'TO'), ('a', 'DT'), ('high', 'JJ'), ('of', 'IN'), ('$', '$'), ('17.60', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   last/JJ   52/CD   weeks/NNS   the/DT   stock/NN   has/VBZ   ranged/VBN   from/IN   a/DT   low/JJ   of/IN   $/$   5.22/CD   to/TO   a/DT   high/JJ   of/IN   $/$   17.60/CD   ./.)
+----------------------------------
+original sentence: 
+AA shares are rising with other stocks this morning after the Labor Department said core wholesale inflation rose 0.1 percent in February, matching analysts' expectations and assuaging investors' fears that rising inflation would force the Federal Reserve to raise interest rates sooner than expected.
+
+POS tagged sentence: 
+[('AA', 'NNP'), ('shares', 'NNS'), ('are', 'VBP'), ('rising', 'VBG'), ('with', 'IN'), ('other', 'JJ'), ('stocks', 'NNS'), ('this', 'DT'), ('morning', 'NN'), ('after', 'IN'), ('the', 'DT'), ('Labor', 'NNP'), ('Department', 'NNP'), ('said', 'VBD'), ('core', 'NN'), ('wholesale', 'NN'), ('inflation', 'NN'), ('rose', 'VBD'), ('0.1', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('February', 'NNP'), (',', ','), ('matching', 'VBG'), ('analysts', 'NNS'), ("'", 'POS'), ('expectations', 'NNS'), ('and', 'CC'), ('assuaging', 'VBG'), ('investors', 'NNS'), ("'", 'POS'), ('fears', 'NNS'), ('that', 'IN'), ('rising', 'VBG'), ('inflation', 'NN'), ('would', 'MD'), ('force', 'VB'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('to', 'TO'), ('raise', 'VB'), ('interest', 'NN'), ('rates', 'NNS'), ('sooner', 'RBR'), ('than', 'IN'), ('expected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AA/NNP   shares/NNS   are/VBP   rising/VBG   with/IN   other/JJ   stocks/NNS   this/DT   morning/NN   after/IN   the/DT   (ORGANIZATION Labor/NNP Department/NNP)   said/VBD   core/NN   wholesale/NN   inflation/NN   rose/VBD   0.1/CD   percent/NN   in/IN   February/NNP   ,/,   matching/VBG   analysts/NNS   '/POS   expectations/NNS   and/CC   assuaging/VBG   investors/NNS   '/POS   fears/NNS   that/IN   rising/VBG   inflation/NN   would/MD   force/VB   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   to/TO   raise/VB   interest/NN   rates/NNS   sooner/RBR   than/IN   expected/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   rising/VBG   with/IN   other/JJ   stocks/NNS   this/DT   morning/NN   after/IN   the/DT   Labor/NNP   Department/NNP)
+	(VERB said/VBD core/NN wholesale/NN inflation/NN)
+	(VERB rose/VBD 0.1/CD percent/NN in/IN February/NNP)
+	(VERB matching/VBG analysts/NNS)
+	(VERB assuaging/VBG investors/NNS)
+	(VERB rising/VBG inflation/NN)
+	(VERB force/VB the/DT Federal/NNP Reserve/NNP)
+	(VERB raise/VB interest/NN rates/NNS)
+	(VERB expected/VBN)
+noun phrases to consider:
+	(NOUN AA/NNP shares/NNS)
+	(NOUN expectations/NNS)
+	(NOUN fears/NNS)
+
+----------------------------------
+original sentence: 
+Technical indicators for the stock are neutral and S&P gives AA a neutral 3 STARS out of 5 hold ranking.
+
+POS tagged sentence: 
+[('Technical', 'JJ'), ('indicators', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('are', 'VBP'), ('neutral', 'JJ'), ('and', 'CC'), ('S&P', 'NNP'), ('gives', 'VBZ'), ('AA', 'NNP'), ('a', 'DT'), ('neutral', 'JJ'), ('3', 'CD'), ('STARS', 'NNS'), ('out', 'IN'), ('of', 'IN'), ('5', 'CD'), ('hold', 'NN'), ('ranking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Technical/JJ   indicators/NNS   for/IN   the/DT   stock/NN   are/VBP   neutral/JJ   and/CC   S&P/NNP   gives/VBZ   AA/NNP   a/DT   neutral/JJ   3/CD   STARS/NNS   out/IN   of/IN   5/CD   hold/NN   ranking/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP neutral/JJ)
+	(VERB   gives/VBZ   AA/NNP   a/DT   neutral/JJ   3/CD   STARS/NNS   out/IN   of/IN   5/CD   hold/NN)
+	(VERB ranking/VBG)
+noun phrases to consider:
+	(NOUN Technical/JJ indicators/NNS)
+	(NOUN stock/NN)
+	(NOUN S&P/NNP)
+
+----------------------------------
+original sentence: 
+If you are looking for a hedged play on AA the stock seems like it could be a candidate for a July out of the money bull put credit spread below the 11 range.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('are', 'VBP'), ('looking', 'VBG'), ('for', 'IN'), ('a', 'DT'), ('hedged', 'JJ'), ('play', 'NN'), ('on', 'IN'), ('AA', 'NNP'), ('the', 'DT'), ('stock', 'NN'), ('seems', 'VBZ'), ('like', 'IN'), ('it', 'PRP'), ('could', 'MD'), ('be', 'VB'), ('a', 'DT'), ('candidate', 'NN'), ('for', 'IN'), ('a', 'DT'), ('July', 'NNP'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('money', 'NN'), ('bull', 'NN'), ('put', 'VBD'), ('credit', 'NN'), ('spread', 'NN'), ('below', 'IN'), ('the', 'DT'), ('11', 'CD'), ('range', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   are/VBP   looking/VBG   for/IN   a/DT   hedged/JJ   play/NN   on/IN   AA/NNP   the/DT   stock/NN   seems/VBZ   like/IN   it/PRP   could/MD   be/VB   a/DT   candidate/NN   for/IN   a/DT   July/NNP   out/IN   of/IN   the/DT   money/NN   bull/NN   put/VBD   credit/NN   spread/NN   below/IN   the/DT   11/CD   range/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   looking/VBG   for/IN   a/DT   hedged/JJ   play/NN   on/IN   AA/NNP   the/DT   stock/NN)
+	(VERB seems/VBZ like/IN it/PRP)
+	(VERB   be/VB   a/DT   candidate/NN   for/IN   a/DT   July/NNP   out/IN   of/IN   the/DT   money/NN   bull/NN)
+	(VERB put/VBD credit/NN spread/NN below/IN the/DT 11/CD range/NN)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+[ABR Seven Summits Strategic Investments NewsBite]
+Click Symbol For More News On: See what our analysts have uncovered about Alcoa  Click here for &#8220;
+FREE PriceWatch Alerts
+&#8221; on leading stocks from Investors Observer.
+
+POS tagged sentence: 
+[('[', 'NN'), ('ABR', 'NNP'), ('Seven', 'NNP'), ('Summits', 'NNP'), ('Strategic', 'NNP'), ('Investments', 'NNP'), ('NewsBite', 'NNP'), (']', 'NNP'), ('Click', 'NNP'), ('Symbol', 'NNP'), ('For', 'NNP'), ('More', 'NNP'), ('News', 'NNP'), ('On', 'NNP'), (':', ':'), ('See', 'NNP'), ('what', 'WP'), ('our', 'PRP$'), ('analysts', 'NNS'), ('have', 'VBP'), ('uncovered', 'VBN'), ('about', 'IN'), ('Alcoa', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('for', 'IN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('FREE', 'NNP'), ('PriceWatch', 'NNP'), ('Alerts', 'NNP'), ('&', 'CC'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('on', 'IN'), ('leading', 'VBG'), ('stocks', 'NNS'), ('from', 'IN'), ('Investors', 'NNPS'), ('Observer', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   [/NN   (ORGANIZATION ABR/NNP Seven/NNP Summits/NNP)   Strategic/NNP   Investments/NNP   (ORGANIZATION NewsBite/NNP)   ]/NNP   (PERSON Click/NNP Symbol/NNP For/NNP More/NNP News/NNP On/NNP)   :/:   See/NNP   what/WP   our/PRP$   analysts/NNS   have/VBP   uncovered/VBN   about/IN   (PERSON Alcoa/NNP Click/NNP)   here/RB   for/IN   &/CC   #/#   8220/CD   ;/:   (ORGANIZATION FREE/NNP)   PriceWatch/NNP   Alerts/NNP   &/CC   #/#   8221/CD   ;/:   on/IN   leading/VBG   stocks/NNS   from/IN   (ORGANIZATION Investors/NNPS Observer/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   uncovered/VBN   about/IN   Alcoa/NNP   Click/NNP   here/RB   for/IN)
+
+tagged sentence:
+	 have uncovered about Alcoa Click here for	res:-1
+	(VERB leading/VBG stocks/NNS from/IN Investors/NNPS Observer/NNP)
+noun phrases to consider:
+	(NOUN [/NN ABR/NNP Seven/NNP Summits/NNP)
+	(NOUN Strategic/NNP Investments/NNP NewsBite/NNP ]/NNP)
+	(NOUN Click/NNP Symbol/NNP For/NNP More/NNP)
+	(NOUN News/NNP On/NNP)
+	(NOUN See/NNP)
+	(NOUN analysts/NNS)
+	(NOUN FREE/NNP PriceWatch/NNP Alerts/NNP)
+
+----------------------------------
+original sentence: 
+Get the right investing information at the right time.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('right', 'NN'), ('investing', 'NN'), ('information', 'NN'), ('at', 'IN'), ('the', 'DT'), ('right', 'NN'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   right/NN   investing/NN   information/NN   at/IN   the/DT   right/NN   time/NN   ./.)
+----------------------------------
+original sentence: 
+Give yourself EVERY edge in this market
+ to Sign Up For Our Daily Newsletter
+Today's Market Movers:
+Click For Latest News On Upgrades & Downgrades
+
+
+POS tagged sentence: 
+[('Give', 'JJ'), ('yourself', 'NN'), ('EVERY', 'NNP'), ('edge', 'NN'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), ('to', 'TO'), ('Sign', 'NNP'), ('Up', 'NNP'), ('For', 'NNP'), ('Our', 'NNP'), ('Daily', 'NNP'), ('Newsletter', 'NNP'), ('Today', 'NNP'), ("'s", 'POS'), ('Market', 'NNP'), ('Movers', 'NNP'), (':', ':'), ('Click', 'NNP'), ('For', 'NNP'), ('Latest', 'NNP'), ('News', 'NNP'), ('On', 'NNP'), ('Upgrades', 'NNP'), ('&', 'CC'), ('Downgrades', 'NNP')]
+
+
+ERTAGGED sentence: (S   Give/JJ   yourself/NN   EVERY/NNP   edge/NN   in/IN   this/DT   market/NN   to/TO   (PERSON Sign/NNP Up/NNP For/NNP Our/NNP Daily/NNP Newsletter/NNP)   Today/NNP   's/POS   (PERSON Market/NNP Movers/NNP)   :/:   (PERSON Click/NNP For/NNP Latest/NNP News/NNP On/NNP Upgrades/NNP)   &/CC   Downgrades/NNP)
+
+veryneg:0	neg:3	pos:0	verypos:0	total:2

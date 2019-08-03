@@ -1,0 +1,170 @@
+
+----------------------------------
+original sentence: 
+Citigroup NYSE: C Reiterates Buy Rating on Consolidated Edison NYSE: ED American Banking News
+Citigroup NYSE: C Reiterates Buy Rating on Consolidated Edison NYSE: ED  March 19th, 2010 &bull;  &bull; by admin  Filed Under: Citigroup NYSE: C reiterated its ‚ÄúBuy‚Äù rating on Consolidated Edison NYSE: ED with a new price target of $48.00, based on the bank‚Äôs belief that the stock‚Äôs predictable nature makes it a good candidate for yield oriented portfolios.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Reiterates', 'NNPS'), ('Buy', 'NNP'), ('Rating', 'NNP'), ('on', 'IN'), ('Consolidated', 'NNP'), ('Edison', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ED', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Reiterates', 'NNPS'), ('Buy', 'NNP'), ('Rating', 'NNP'), ('on', 'IN'), ('Consolidated', 'NNP'), ('Edison', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ED', 'NNP'), ('March', 'NNP'), ('19th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('reiterated', 'VBD'), ('its', 'PRP$'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('Buy', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('rating', 'NN'), ('on', 'IN'), ('Consolidated', 'NNP'), ('Edison', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ED', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('price', 'NN'), ('target', 'NN'), ('of', 'IN'), ('$', '$'), ('48.00', 'CD'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('bank', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('belief', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('predictable', 'JJ'), ('nature', 'NN'), ('makes', 'VBZ'), ('it', 'PRP'), ('a', 'DT'), ('good', 'JJ'), ('candidate', 'NN'), ('for', 'IN'), ('yield', 'NN'), ('oriented', 'VBN'), ('portfolios', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Reiterates/NNPS   Buy/NNP   Rating/NNP   on/IN   (ORGANIZATION Consolidated/NNP Edison/NNP)   NYSE/NNP   :/:   ED/NNP   (ORGANIZATION American/NNP Banking/NNP News/NNP Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   Reiterates/NNPS   Buy/NNP   Rating/NNP   on/IN   (ORGANIZATION Consolidated/NNP Edison/NNP)   NYSE/NNP   :/:   ED/NNP   March/NNP   19th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   reiterated/VBD   its/PRP$   ‚/NN   Ä/:   ú/:   Buy/NNP   ‚/:   Ä/:   ù/:   rating/NN   on/IN   (ORGANIZATION Consolidated/NNP Edison/NNP)   NYSE/NNP   :/:   ED/NNP   with/IN   a/DT   new/JJ   price/NN   target/NN   of/IN   $/$   48.00/CD   ,/,   based/VBN   on/IN   the/DT   bank/NN   ‚/:   Ä/:   ô/:   s/NNS   belief/VBP   that/IN   the/DT   stock/NN   ‚/:   Ä/:   ô/:   s/NNS   predictable/JJ   nature/NN   makes/VBZ   it/PRP   a/DT   good/JJ   candidate/NN   for/IN   yield/NN   oriented/VBN   portfolios/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reiterated/VBD its/PRP$ ‚/NN)
+	(VERB based/VBN on/IN the/DT bank/NN)
+	(VERB belief/VBP that/IN the/DT stock/NN)
+	(VERB makes/VBZ it/PRP a/DT good/JJ candidate/NN for/IN yield/NN)
+
+tagged sentence:
+	 makes it a good candidate for yield	res:1
+	(VERB oriented/VBN portfolios/NNS)
+noun phrases to consider:
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Reiterates/NNPS Buy/NNP Rating/NNP)
+	(NOUN Consolidated/NNP Edison/NNP NYSE/NNP)
+	(NOUN ED/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP Reiterates/NNPS Buy/NNP Rating/NNP)
+	(NOUN Consolidated/NNP Edison/NNP NYSE/NNP)
+	(NOUN ED/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Buy/NNP)
+	(NOUN rating/NN)
+	(NOUN Consolidated/NNP Edison/NNP NYSE/NNP)
+	(NOUN ED/NNP)
+	(NOUN a/DT new/JJ price/NN target/NN)
+	(NOUN s/NNS)
+	(NOUN s/NNS predictable/JJ nature/NN)
+
+----------------------------------
+original sentence: 
+Analyst Brian Chin said, &#8220;ED shares, like many defensive electric utility shares, currently have a dividend yield of ~5%.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('Brian', 'NNP'), ('Chin', 'NNP'), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('ED', 'NNP'), ('shares', 'NNS'), (',', ','), ('like', 'IN'), ('many', 'JJ'), ('defensive', 'JJ'), ('electric', 'JJ'), ('utility', 'NN'), ('shares', 'NNS'), (',', ','), ('currently', 'RB'), ('have', 'VBP'), ('a', 'DT'), ('dividend', 'NN'), ('yield', 'NN'), ('of', 'IN'), ('~', 'NNP'), ('5', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Analyst/NN)   (PERSON Brian/NNP Chin/NNP)   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   ED/NNP   shares/NNS   ,/,   like/IN   many/JJ   defensive/JJ   electric/JJ   utility/NN   shares/NNS   ,/,   currently/RB   have/VBP   a/DT   dividend/NN   yield/NN   of/IN   ~/NNP   5/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB have/VBP a/DT dividend/NN yield/NN of/IN ~/NNP 5/CD %/NN)
+noun phrases to consider:
+	(NOUN Analyst/NN Brian/NNP Chin/NNP)
+	(NOUN ED/NNP shares/NNS)
+	(NOUN many/JJ defensive/JJ electric/JJ utility/NN shares/NNS)
+
+----------------------------------
+original sentence: 
+We believe this dividend yield is too high relative to 10 year Treasury yields including both Citi&#8217;s 12 month forecast of 4.25% yields by 1Q11 and a repeal of the dividend tax cut at year end 2010 , given that historically, regulated utility dividend yields trade below 10 year Treasury yields.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('believe', 'VBP'), ('this', 'DT'), ('dividend', 'NN'), ('yield', 'NN'), ('is', 'VBZ'), ('too', 'RB'), ('high', 'JJ'), ('relative', 'JJ'), ('to', 'TO'), ('10', 'CD'), ('year', 'NN'), ('Treasury', 'NNP'), ('yields', 'NNS'), ('including', 'VBG'), ('both', 'DT'), ('Citi&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('12', 'CD'), ('month', 'NN'), ('forecast', 'NN'), ('of', 'IN'), ('4.25', 'CD'), ('%', 'NN'), ('yields', 'NNS'), ('by', 'IN'), ('1Q11', 'CD'), ('and', 'CC'), ('a', 'DT'), ('repeal', 'NN'), ('of', 'IN'), ('the', 'DT'), ('dividend', 'NN'), ('tax', 'NN'), ('cut', 'VBD'), ('at', 'IN'), ('year', 'NN'), ('end', 'NN'), ('2010', 'CD'), (',', ','), ('given', 'VBN'), ('that', 'IN'), ('historically', 'RB'), (',', ','), ('regulated', 'VBN'), ('utility', 'NN'), ('dividend', 'NN'), ('yields', 'NNS'), ('trade', 'VBP'), ('below', 'IN'), ('10', 'CD'), ('year', 'NN'), ('Treasury', 'NNP'), ('yields', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   believe/VBP   this/DT   dividend/NN   yield/NN   is/VBZ   too/RB   high/JJ   relative/JJ   to/TO   10/CD   year/NN   (ORGANIZATION Treasury/NNP)   yields/NNS   including/VBG   both/DT   Citi&/NN   #/#   8217/CD   ;/:   s/NNS   12/CD   month/NN   forecast/NN   of/IN   4.25/CD   %/NN   yields/NNS   by/IN   1Q11/CD   and/CC   a/DT   repeal/NN   of/IN   the/DT   dividend/NN   tax/NN   cut/VBD   at/IN   year/NN   end/NN   2010/CD   ,/,   given/VBN   that/IN   historically/RB   ,/,   regulated/VBN   utility/NN   dividend/NN   yields/NNS   trade/VBP   below/IN   10/CD   year/NN   (ORGANIZATION Treasury/NNP)   yields/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP this/DT dividend/NN yield/NN)
+	(VERB is/VBZ too/RB high/JJ relative/JJ)
+	(VERB including/VBG both/DT Citi&/NN)
+	(VERB cut/VBD at/IN year/NN end/NN 2010/CD)
+
+tagged sentence:
+	 cut at year end 2010	res:-1
+	(VERB given/VBN that/IN historically/RB)
+	(VERB regulated/VBN utility/NN dividend/NN yields/NNS)
+	(VERB trade/VBP below/IN 10/CD year/NN Treasury/NNP yields/NNS)
+noun phrases to consider:
+	(NOUN 10/CD year/NN Treasury/NNP yields/NNS)
+	(NOUN s/NNS)
+	(NOUN 12/CD month/NN forecast/NN)
+	(NOUN 4.25/CD %/NN yields/NNS)
+	(NOUN repeal/NN)
+	(NOUN dividend/NN tax/NN)
+
+----------------------------------
+original sentence: 
+Based on our outlook for Treasury yields, our non consensus view is that one year forward regulated defensive P/E multiples will be at 14x in 12 months.
+
+POS tagged sentence: 
+[('Based', 'VBN'), ('on', 'IN'), ('our', 'PRP$'), ('outlook', 'NN'), ('for', 'IN'), ('Treasury', 'NNP'), ('yields', 'NNS'), (',', ','), ('our', 'PRP$'), ('non', 'NN'), ('consensus', 'NN'), ('view', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('one', 'CD'), ('year', 'NN'), ('forward', 'RB'), ('regulated', 'VBN'), ('defensive', 'JJ'), ('P/E', 'JJ'), ('multiples', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('at', 'IN'), ('14x', 'CD'), ('in', 'IN'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Based/VBN   on/IN   our/PRP$   outlook/NN   for/IN   (ORGANIZATION Treasury/NNP)   yields/NNS   ,/,   our/PRP$   non/NN   consensus/NN   view/NN   is/VBZ   that/IN   one/CD   year/NN   forward/RB   regulated/VBN   defensive/JJ   P/E/JJ   multiples/NNS   will/MD   be/VB   at/IN   14x/CD   in/IN   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+We apply our 14x multiple to our 2011 ED EPS forecast to arrive at our $48 target price.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('apply', 'RB'), ('our', 'PRP$'), ('14x', 'CD'), ('multiple', 'NN'), ('to', 'TO'), ('our', 'PRP$'), ('2011', 'CD'), ('ED', 'NNP'), ('EPS', 'NNP'), ('forecast', 'NN'), ('to', 'TO'), ('arrive', 'VB'), ('at', 'IN'), ('our', 'PRP$'), ('$', '$'), ('48', 'CD'), ('target', 'NN'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   apply/RB   our/PRP$   14x/CD   multiple/NN   to/TO   our/PRP$   2011/CD   ED/NNP   EPS/NNP   forecast/NN   to/TO   arrive/VB   at/IN   our/PRP$   $/$   48/CD   target/NN   price/NN   ./.)
+----------------------------------
+original sentence: 
+Our target price implies an expected total return of 13.6%.&#8221;
+Chin continued, &#8220;ED is not a stock with sizzle.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('target', 'NN'), ('price', 'NN'), ('implies', 'NNS'), ('an', 'DT'), ('expected', 'VBN'), ('total', 'JJ'), ('return', 'NN'), ('of', 'IN'), ('13.6', 'CD'), ('%', 'NN'), ('.&', ':'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Chin', 'NNP'), ('continued', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('ED', 'NNP'), ('is', 'VBZ'), ('not', 'RB'), ('a', 'DT'), ('stock', 'NN'), ('with', 'IN'), ('sizzle', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   target/NN   price/NN   implies/NNS   an/DT   expected/VBN   total/JJ   return/NN   of/IN   13.6/CD   %/NN   .&/:   #/#   8221/CD   ;/:   (GPE Chin/NNP)   continued/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   ED/NNP   is/VBZ   not/RB   a/DT   stock/NN   with/IN   sizzle/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expected/VBN total/JJ return/NN of/IN 13.6/CD %/NN)
+	(VERB continued/VBD)
+	(VERB is/VBZ not/RB a/DT stock/NN with/IN sizzle/JJ)
+noun phrases to consider:
+	(NOUN target/NN price/NN implies/NNS)
+	(NOUN Chin/NNP)
+	(NOUN ED/NNP)
+
+----------------------------------
+original sentence: 
+But, ConEd has revenue decoupling, fuel clauses, formulaic return calculations, and A level credit.
+
+POS tagged sentence: 
+[('But', 'CC'), (',', ','), ('ConEd', 'NNP'), ('has', 'VBZ'), ('revenue', 'NN'), ('decoupling', 'VBG'), (',', ','), ('fuel', 'NN'), ('clauses', 'NNS'), (',', ','), ('formulaic', 'JJ'), ('return', 'NN'), ('calculations', 'NNS'), (',', ','), ('and', 'CC'), ('A', 'DT'), ('level', 'NN'), ('credit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   ,/,   (ORGANIZATION ConEd/NNP)   has/VBZ   revenue/NN   decoupling/VBG   ,/,   fuel/NN   clauses/NNS   ,/,   formulaic/JJ   return/NN   calculations/NNS   ,/,   and/CC   A/DT   level/NN   credit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ revenue/NN)
+	(VERB decoupling/VBG)
+noun phrases to consider:
+	(NOUN ConEd/NNP)
+	(NOUN fuel/NN clauses/NNS)
+	(NOUN formulaic/JJ return/NN calculations/NNS)
+	(NOUN level/NN credit/NN)
+
+----------------------------------
+original sentence: 
+For relatively predictable financial results and strong dividend yield, we recommend ED shares as a core part of any yield oriented portfolio.&#8221;
+For 2010, Citigroup expects Consolidated Edison to report earnings per share of $3.22 versus a consensus estimate of $3.26
+blog comments powered by 
+
+POS tagged sentence: 
+[('For', 'IN'), ('relatively', 'RB'), ('predictable', 'JJ'), ('financial', 'JJ'), ('results', 'NNS'), ('and', 'CC'), ('strong', 'JJ'), ('dividend', 'NN'), ('yield', 'NN'), (',', ','), ('we', 'PRP'), ('recommend', 'VBP'), ('ED', 'NNP'), ('shares', 'NNS'), ('as', 'IN'), ('a', 'DT'), ('core', 'NN'), ('part', 'NN'), ('of', 'IN'), ('any', 'DT'), ('yield', 'NN'), ('oriented', 'VBN'), ('portfolio.&', '-NONE-'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('For', 'NNP'), ('2010', 'CD'), (',', ','), ('Citigroup', 'NNP'), ('expects', 'VBZ'), ('Consolidated', 'NNP'), ('Edison', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('3.22', 'CD'), ('versus', 'NNS'), ('a', 'DT'), ('consensus', 'NN'), ('estimate', 'NN'), ('of', 'IN'), ('$', '$'), ('3.26', 'CD'), ('blog', 'CD'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   For/IN   relatively/RB   predictable/JJ   financial/JJ   results/NNS   and/CC   strong/JJ   dividend/NN   yield/NN   ,/,   we/PRP   recommend/VBP   (ORGANIZATION ED/NNP)   shares/NNS   as/IN   a/DT   core/NN   part/NN   of/IN   any/DT   yield/NN   oriented/VBN   portfolio.&/-NONE-   #/#   8221/CD   ;/:   For/NNP   2010/CD   ,/,   (PERSON Citigroup/NNP)   expects/VBZ   (ORGANIZATION Consolidated/NNP Edison/NNP)   to/TO   report/VB   earnings/NNS   per/IN   share/NN   of/IN   $/$   3.22/CD   versus/NNS   a/DT   consensus/NN   estimate/NN   of/IN   $/$   3.26/CD   blog/CD   comments/NNS   powered/VBD   by/IN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   recommend/VBP   ED/NNP   shares/NNS   as/IN   a/DT   core/NN   part/NN   of/IN   any/DT   yield/NN)
+	(VERB oriented/VBN)
+	(VERB expects/VBZ Consolidated/NNP Edison/NNP)
+	(VERB report/VB earnings/NNS per/IN share/NN of/IN)
+	(VERB powered/VBD by/IN)
+noun phrases to consider:
+	(NOUN relatively/RB predictable/JJ financial/JJ results/NNS)
+	(NOUN strong/JJ dividend/NN yield/NN)
+	(NOUN For/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN 3.22/CD versus/NNS)
+	(NOUN consensus/NN estimate/NN)
+	(NOUN blog/CD comments/NNS)
+
+
+veryneg:0	neg:1	pos:1	verypos:0	total:0

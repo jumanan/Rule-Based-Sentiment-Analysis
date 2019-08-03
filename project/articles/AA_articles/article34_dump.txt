@@ -1,0 +1,224 @@
+
+----------------------------------
+original sentence: 
+Your Metal News Alcoa Dedicates Expanded Recycling Operations
+ to retrieve password.
+
+POS tagged sentence: 
+[('Your', 'PRP$'), ('Metal', 'NNP'), ('News', 'NNP'), ('Alcoa', 'NNP'), ('Dedicates', 'NNP'), ('Expanded', 'NNP'), ('Recycling', 'NNP'), ('Operations', 'NNPS'), ('to', 'TO'), ('retrieve', 'VB'), ('password', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Your/PRP$   (ORGANIZATION     Metal/NNP     News/NNP     Alcoa/NNP     Dedicates/NNP     Expanded/NNP)   Recycling/NNP   Operations/NNPS   to/TO   retrieve/VB   password/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB retrieve/VB password/NN)
+noun phrases to consider:
+	(NOUN Metal/NNP News/NNP Alcoa/NNP Dedicates/NNP)
+	(NOUN Expanded/NNP Recycling/NNP Operations/NNPS)
+
+----------------------------------
+original sentence: 
+Your Communication News
+Your Petrochemical News
+Your Ship Building News
+Alcoa Dedicates Expanded Recycling Operations
+Monday, Mar 29, 2010
+Alcoa NYSE:AA today dedicated a $24 million expansion of aluminum can recycling capacity at the Company&rsquo;s Tennessee Operations which will increase recycling capability by nearly 50 percent and help secure more than 100 jobs at the facility.
+
+POS tagged sentence: 
+[('Your', 'PRP$'), ('Communication', 'NNP'), ('News', 'NNP'), ('Your', 'NNP'), ('Petrochemical', 'NNP'), ('News', 'NNP'), ('Your', 'NNP'), ('Ship', 'NNP'), ('Building', 'NNP'), ('News', 'NNP'), ('Alcoa', 'NNP'), ('Dedicates', 'NNP'), ('Expanded', 'NNP'), ('Recycling', 'NNP'), ('Operations', 'NNPS'), ('Monday', 'NNP'), (',', ','), ('Mar', 'NNP'), ('29', 'CD'), (',', ','), ('2010', 'CD'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('today', 'NN'), ('dedicated', 'VBD'), ('a', 'DT'), ('$', '$'), ('24', 'CD'), ('million', 'CD'), ('expansion', 'NN'), ('of', 'IN'), ('aluminum', 'NN'), ('can', 'MD'), ('recycling', 'VBG'), ('capacity', 'NN'), ('at', 'IN'), ('the', 'DT'), ('Company&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Tennessee', 'NNP'), ('Operations', 'NNPS'), ('which', 'WDT'), ('will', 'MD'), ('increase', 'VB'), ('recycling', 'NN'), ('capability', 'NN'), ('by', 'IN'), ('nearly', 'RB'), ('50', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('help', 'VB'), ('secure', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('100', 'CD'), ('jobs', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('facility', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Your/PRP$   (ORGANIZATION Communication/NNP News/NNP)   Your/NNP   Petrochemical/NNP   News/NNP   Your/NNP   Ship/NNP   Building/NNP   News/NNP   Alcoa/NNP   Dedicates/NNP   Expanded/NNP   Recycling/NNP   Operations/NNPS   Monday/NNP   ,/,   Mar/NNP   29/CD   ,/,   2010/CD   Alcoa/NNP   NYSE/NNP   :/:   AA/NNP   today/NN   dedicated/VBD   a/DT   $/$   24/CD   million/CD   expansion/NN   of/IN   aluminum/NN   can/MD   recycling/VBG   capacity/NN   at/IN   the/DT   Company&rsquo/NNP   ;/:   s/NNS   (ORGANIZATION Tennessee/NNP Operations/NNPS)   which/WDT   will/MD   increase/VB   recycling/NN   capability/NN   by/IN   nearly/RB   50/CD   percent/NN   and/CC   help/VB   secure/NN   more/JJR   than/IN   100/CD   jobs/NNS   at/IN   the/DT   facility/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB dedicated/VBD a/DT)
+	(VERB recycling/VBG capacity/NN at/IN the/DT Company&rsquo/NNP)
+	(VERB increase/VB recycling/NN capability/NN by/IN)
+	(VERB   help/VB   secure/NN   more/JJR   than/IN   100/CD   jobs/NNS   at/IN   the/DT   facility/NN)
+noun phrases to consider:
+	(NOUN Communication/NNP News/NNP Your/NNP Petrochemical/NNP)
+	(NOUN News/NNP Your/NNP Ship/NNP Building/NNP)
+	(NOUN News/NNP Alcoa/NNP Dedicates/NNP Expanded/NNP)
+	(NOUN Recycling/NNP Operations/NNPS Monday/NNP)
+	(NOUN Mar/NNP)
+	(NOUN 2010/CD Alcoa/NNP NYSE/NNP)
+	(NOUN AA/NNP today/NN)
+	(NOUN million/CD expansion/NN)
+	(NOUN aluminum/NN)
+	(NOUN s/NNS Tennessee/NNP Operations/NNPS)
+	(NOUN percent/NN)
+
+----------------------------------
+original sentence: 
+&ldquo;The aluminum can is the world&rsquo;s most efficient package, largely because it can be recycled infinitely,&rdquo; said Klaus Kleinfeld, President and CEO of Alcoa.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('The', 'DT'), ('aluminum', 'NN'), ('can', 'MD'), ('is', 'VBZ'), ('the', 'DT'), ('world&rsquo', 'JJ'), (';', ':'), ('s', 'NNS'), ('most', 'JJS'), ('efficient', 'JJ'), ('package', 'NN'), (',', ','), ('largely', 'RB'), ('because', 'IN'), ('it', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('recycled', 'VBN'), ('infinitely,&rdquo', '-NONE-'), (';', ':'), ('said', 'VBD'), ('Klaus', 'NNP'), ('Kleinfeld', 'NNP'), (',', ','), ('President', 'NNP'), ('and', 'CC'), ('CEO', 'NNP'), ('of', 'IN'), ('Alcoa', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   The/DT   aluminum/NN   can/MD   is/VBZ   the/DT   world&rsquo/JJ   ;/:   s/NNS   most/JJS   efficient/JJ   package/NN   ,/,   largely/RB   because/IN   it/PRP   can/MD   be/VB   recycled/VBN   infinitely,&rdquo/-NONE-   ;/:   said/VBD   (PERSON Klaus/NNP Kleinfeld/NNP)   ,/,   President/NNP   and/CC   (ORGANIZATION CEO/NNP)   of/IN   (GPE Alcoa/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ the/DT world&rsquo/JJ)
+	(VERB be/VB recycled/VBN)
+	(VERB said/VBD Klaus/NNP Kleinfeld/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN aluminum/NN)
+	(NOUN s/NNS most/JJS efficient/JJ package/NN)
+	(NOUN President/NNP)
+	(NOUN CEO/NNP)
+	(NOUN Alcoa/NNP)
+
+----------------------------------
+original sentence: 
+&ldquo;Today we are celebrating the successful completion of our expansion and another milestone in our drive to help increase recycling rates across North America.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Today', 'NNP'), ('we', 'PRP'), ('are', 'VBP'), ('celebrating', 'VBG'), ('the', 'DT'), ('successful', 'JJ'), ('completion', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('expansion', 'NN'), ('and', 'CC'), ('another', 'DT'), ('milestone', 'NN'), ('in', 'IN'), ('our', 'PRP$'), ('drive', 'JJ'), ('to', 'TO'), ('help', 'VB'), ('increase', 'NN'), ('recycling', 'VBG'), ('rates', 'NNS'), ('across', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Today/NNP   we/PRP   are/VBP   celebrating/VBG   the/DT   successful/JJ   completion/NN   of/IN   our/PRP$   expansion/NN   and/CC   another/DT   milestone/NN   in/IN   our/PRP$   drive/JJ   to/TO   help/VB   increase/NN   recycling/VBG   rates/NNS   across/IN   (GPE North/NNP America/NNP)   ./.)
+----------------------------------
+original sentence: 
+This investment is an example of our commitment to increasing recycling as well as to helping secure jobs here in the Tennessee community.
+
+POS tagged sentence: 
+[('This', 'DT'), ('investment', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('example', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('commitment', 'NN'), ('to', 'TO'), ('increasing', 'VBG'), ('recycling', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('to', 'TO'), ('helping', 'NN'), ('secure', 'NN'), ('jobs', 'NNS'), ('here', 'RB'), ('in', 'IN'), ('the', 'DT'), ('Tennessee', 'NNP'), ('community', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   investment/NN   is/VBZ   an/DT   example/NN   of/IN   our/PRP$   commitment/NN   to/TO   increasing/VBG   recycling/NN   as/IN   well/RB   as/IN   to/TO   helping/NN   secure/NN   jobs/NNS   here/RB   in/IN   the/DT   (ORGANIZATION Tennessee/NNP)   community/NN   ./.)
+----------------------------------
+original sentence: 
+&ldquo;In the U.S. alone, more than 46 billion cans were put into landfills last year,&rdquo; said Kleinfeld.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('In', 'NNP'), ('the', 'DT'), ('U.S.', 'NNP'), ('alone', 'NN'), (',', ','), ('more', 'RBR'), ('than', 'IN'), ('46', 'CD'), ('billion', 'CD'), ('cans', 'NNS'), ('were', 'VBD'), ('put', 'VBN'), ('into', 'IN'), ('landfills', 'NNS'), ('last', 'JJ'), ('year,&rdquo', 'NN'), (';', ':'), ('said', 'VBD'), ('Kleinfeld', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   In/NNP   the/DT   (GPE U.S./NNP)   alone/NN   ,/,   more/RBR   than/IN   46/CD   billion/CD   cans/NNS   were/VBD   put/VBN   into/IN   landfills/NNS   last/JJ   year,&rdquo/NN   ;/:   said/VBD   (PERSON Kleinfeld/NNP)   ./.)
+----------------------------------
+original sentence: 
+&ldquo;If we could instead recycle about half of those lost cans, we could achieve our goal of a 75 percent recycling rate and save the emissions of two coal fired power plants.&rdquo;
+Kleinfeld was joined by Helmut Wieser, Alcoa Executive Vice President and President of Alcoa Global Rolled Products; and Kevin Anton, Vice President of Global Primary Products Finance and Strategy.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('If', 'NNP'), ('we', 'PRP'), ('could', 'MD'), ('instead', 'VB'), ('recycle', 'NN'), ('about', 'IN'), ('half', 'DT'), ('of', 'IN'), ('those', 'DT'), ('lost', 'VBN'), ('cans', 'NNS'), (',', ','), ('we', 'PRP'), ('could', 'MD'), ('achieve', 'VB'), ('our', 'PRP$'), ('goal', 'NN'), ('of', 'IN'), ('a', 'DT'), ('75', 'CD'), ('percent', 'NN'), ('recycling', 'VBG'), ('rate', 'NN'), ('and', 'CC'), ('save', 'VB'), ('the', 'DT'), ('emissions', 'NNS'), ('of', 'IN'), ('two', 'CD'), ('coal', 'JJ'), ('fired', 'VBN'), ('power', 'NN'), ('plants.&rdquo', '-NONE-'), (';', ':'), ('Kleinfeld', 'NNP'), ('was', 'VBD'), ('joined', 'VBN'), ('by', 'IN'), ('Helmut', 'NNP'), ('Wieser', 'NNP'), (',', ','), ('Alcoa', 'NNP'), ('Executive', 'NNP'), ('Vice', 'NNP'), ('President', 'NNP'), ('and', 'CC'), ('President', 'NNP'), ('of', 'IN'), ('Alcoa', 'NNP'), ('Global', 'NNP'), ('Rolled', 'NNP'), ('Products', 'NNPS'), (';', ':'), ('and', 'CC'), ('Kevin', 'NNP'), ('Anton', 'NNP'), (',', ','), ('Vice', 'NNP'), ('President', 'NNP'), ('of', 'IN'), ('Global', 'NNP'), ('Primary', 'NNP'), ('Products', 'NNPS'), ('Finance', 'NNP'), ('and', 'CC'), ('Strategy', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   If/NNP   we/PRP   could/MD   instead/VB   recycle/NN   about/IN   half/DT   of/IN   those/DT   lost/VBN   cans/NNS   ,/,   we/PRP   could/MD   achieve/VB   our/PRP$   goal/NN   of/IN   a/DT   75/CD   percent/NN   recycling/VBG   rate/NN   and/CC   save/VB   the/DT   emissions/NNS   of/IN   two/CD   coal/JJ   fired/VBN   power/NN   plants.&rdquo/-NONE-   ;/:   (PERSON Kleinfeld/NNP)   was/VBD   joined/VBN   by/IN   (PERSON Helmut/NNP Wieser/NNP)   ,/,   (PERSON Alcoa/NNP Executive/NNP)   Vice/NNP   President/NNP   and/CC   President/NNP   of/IN   (PERSON Alcoa/NNP Global/NNP Rolled/NNP Products/NNPS)   ;/:   and/CC   (PERSON Kevin/NNP Anton/NNP)   ,/,   Vice/NNP   President/NNP   of/IN   (PERSON Global/NNP Primary/NNP)   Products/NNPS   Finance/NNP   and/CC   (PERSON Strategy/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB instead/VB recycle/NN about/IN half/DT of/IN those/DT)
+	(VERB lost/VBN cans/NNS)
+	(VERB achieve/VB our/PRP$ goal/NN of/IN a/DT 75/CD percent/NN)
+	(VERB recycling/VBG rate/NN)
+	(VERB save/VB the/DT emissions/NNS of/IN two/CD coal/JJ)
+	(VERB fired/VBN power/NN)
+	(VERB was/VBD joined/VBN by/IN Helmut/NNP Wieser/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN If/NNP)
+	(NOUN Kleinfeld/NNP)
+	(NOUN Alcoa/NNP Executive/NNP Vice/NNP President/NNP)
+	(NOUN President/NNP)
+	(NOUN Alcoa/NNP Global/NNP Rolled/NNP Products/NNPS)
+	(NOUN Kevin/NNP Anton/NNP)
+	(NOUN Vice/NNP President/NNP)
+	(NOUN Global/NNP Primary/NNP Products/NNPS Finance/NNP)
+	(NOUN Strategy/NNP)
+
+----------------------------------
+original sentence: 
+The new Tennessee Operations Can Reclamation facility includes a new crusher and delacquering furnace and supporting building enclosures, utilities and environmental systems.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('Tennessee', 'NNP'), ('Operations', 'NNP'), ('Can', 'NNP'), ('Reclamation', 'NNP'), ('facility', 'NN'), ('includes', 'VBZ'), ('a', 'DT'), ('new', 'JJ'), ('crusher', 'NN'), ('and', 'CC'), ('delacquering', 'VBG'), ('furnace', 'NN'), ('and', 'CC'), ('supporting', 'VBG'), ('building', 'NN'), ('enclosures', 'NNS'), (',', ','), ('utilities', 'NNS'), ('and', 'CC'), ('environmental', 'JJ'), ('systems', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   (PERSON Tennessee/NNP Operations/NNP Can/NNP)   Reclamation/NNP   facility/NN   includes/VBZ   a/DT   new/JJ   crusher/NN   and/CC   delacquering/VBG   furnace/NN   and/CC   supporting/VBG   building/NN   enclosures/NNS   ,/,   utilities/NNS   and/CC   environmental/JJ   systems/NNS   ./.)
+----------------------------------
+original sentence: 
+These improvements will help increase capacity using state of the art environmental and fuel efficient technology as well as support future flexibility to process other scrap types.
+
+POS tagged sentence: 
+[('These', 'DT'), ('improvements', 'NNS'), ('will', 'MD'), ('help', 'VB'), ('increase', 'VB'), ('capacity', 'NN'), ('using', 'VBG'), ('state', 'NN'), ('of', 'IN'), ('the', 'DT'), ('art', 'NN'), ('environmental', 'NN'), ('and', 'CC'), ('fuel', 'NN'), ('efficient', 'NN'), ('technology', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('support', 'NN'), ('future', 'NN'), ('flexibility', 'NN'), ('to', 'TO'), ('process', 'NN'), ('other', 'JJ'), ('scrap', 'NN'), ('types', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   improvements/NNS   will/MD   help/VB   increase/VB   capacity/NN   using/VBG   state/NN   of/IN   the/DT   art/NN   environmental/NN   and/CC   fuel/NN   efficient/NN   technology/NN   as/IN   well/RB   as/IN   support/NN   future/NN   flexibility/NN   to/TO   process/NN   other/JJ   scrap/NN   types/NNS   ./.)
+----------------------------------
+original sentence: 
+Recycling an aluminum can saves 95 percent of the energy it takes to make a can from new metal.
+
+POS tagged sentence: 
+[('Recycling', 'VBG'), ('an', 'DT'), ('aluminum', 'NN'), ('can', 'MD'), ('saves', 'NNS'), ('95', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('the', 'DT'), ('energy', 'NN'), ('it', 'PRP'), ('takes', 'VBZ'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('can', 'NN'), ('from', 'IN'), ('new', 'JJ'), ('metal', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Recycling/VBG   an/DT   aluminum/NN   can/MD   saves/NNS   95/CD   percent/NN   of/IN   the/DT   energy/NN   it/PRP   takes/VBZ   to/TO   make/VB   a/DT   can/NN   from/IN   new/JJ   metal/NN   ./.)
+----------------------------------
+original sentence: 
+A used beverage container can be recycled and back on the shelf in 60 days, something no other beverage package can do.
+
+POS tagged sentence: 
+[('A', 'DT'), ('used', 'VBN'), ('beverage', 'NN'), ('container', 'NN'), ('can', 'MD'), ('be', 'VB'), ('recycled', 'VBN'), ('and', 'CC'), ('back', 'RB'), ('on', 'IN'), ('the', 'DT'), ('shelf', 'NN'), ('in', 'IN'), ('60', 'CD'), ('days', 'NNS'), (',', ','), ('something', 'NN'), ('no', 'DT'), ('other', 'JJ'), ('beverage', 'NN'), ('package', 'NN'), ('can', 'MD'), ('do', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   used/VBN   beverage/NN   container/NN   can/MD   be/VB   recycled/VBN   and/CC   back/RB   on/IN   the/DT   shelf/NN   in/IN   60/CD   days/NNS   ,/,   something/NN   no/DT   other/JJ   beverage/NN   package/NN   can/MD   do/VB   ./.)
+----------------------------------
+original sentence: 
+In 2009, Alcoa announced a commitment to work toward increasing recycling rates in North America to 75 percent by 2015.
+
+POS tagged sentence: 
+[('In', 'IN'), ('2009', 'CD'), (',', ','), ('Alcoa', 'NNP'), ('announced', 'VBD'), ('a', 'DT'), ('commitment', 'NN'), ('to', 'TO'), ('work', 'VB'), ('toward', 'IN'), ('increasing', 'VBG'), ('recycling', 'NN'), ('rates', 'NNS'), ('in', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('to', 'TO'), ('75', 'CD'), ('percent', 'NN'), ('by', 'IN'), ('2015', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   2009/CD   ,/,   (PERSON Alcoa/NNP)   announced/VBD   a/DT   commitment/NN   to/TO   work/VB   toward/IN   increasing/VBG   recycling/NN   rates/NNS   in/IN   (GPE North/NNP America/NNP)   to/TO   75/CD   percent/NN   by/IN   2015/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD a/DT commitment/NN)
+	(VERB work/VB toward/IN)
+	(VERB   increasing/VBG   recycling/NN   rates/NNS   in/IN   North/NNP   America/NNP)
+
+tagged sentence:
+	 increasing recycling rates in North America	res:1
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN 75/CD percent/NN)
+
+----------------------------------
+original sentence: 
+Increasing recycling capacity is part of the overall strategy to drive recycling rates.
+
+POS tagged sentence: 
+[('Increasing', 'VBG'), ('recycling', 'NN'), ('capacity', 'NN'), ('is', 'VBZ'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('overall', 'JJ'), ('strategy', 'NN'), ('to', 'TO'), ('drive', 'VB'), ('recycling', 'NN'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Increasing/VBG   recycling/NN   capacity/NN   is/VBZ   part/NN   of/IN   the/DT   overall/JJ   strategy/NN   to/TO   drive/VB   recycling/NN   rates/NNS   ./.)
+----------------------------------
+original sentence: 
+&ldquo;Today Americans recycle about 54 percent of all beverage cans produced in North America,&rdquo; Kleinfeld said.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Today', 'NNP'), ('Americans', 'NNPS'), ('recycle', 'NN'), ('about', 'IN'), ('54', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('all', 'DT'), ('beverage', 'NN'), ('cans', 'NNS'), ('produced', 'VBN'), ('in', 'IN'), ('North', 'NNP'), ('America,&rdquo', 'NNP'), (';', ':'), ('Kleinfeld', 'NNP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Today/NNP   Americans/NNPS   recycle/NN   about/IN   54/CD   percent/NN   of/IN   all/DT   beverage/NN   cans/NNS   produced/VBN   in/IN   (GPE North/NNP)   America,&rdquo/NNP   ;/:   (PERSON Kleinfeld/NNP)   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&ldquo;If everyone would recycle one more can a week, we can reach our 75 percent goal.&rdquo;
+Note to Editors: High resolution photos of the event are available on  under News Releases.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('If', 'NNP'), ('everyone', 'NN'), ('would', 'MD'), ('recycle', 'VB'), ('one', 'CD'), ('more', 'JJR'), ('can', 'MD'), ('a', 'DT'), ('week', 'NN'), (',', ','), ('we', 'PRP'), ('can', 'MD'), ('reach', 'VB'), ('our', 'PRP$'), ('75', 'CD'), ('percent', 'NN'), ('goal.&rdquo', '-NONE-'), (';', ':'), ('Note', 'NNP'), ('to', 'TO'), ('Editors', 'NNP'), (':', ':'), ('High', 'JJ'), ('resolution', 'NN'), ('photos', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('event', 'NN'), ('are', 'VBP'), ('available', 'JJ'), ('on', 'IN'), ('under', 'IN'), ('News', 'NNP'), ('Releases', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   If/NNP   everyone/NN   would/MD   recycle/VB   one/CD   more/JJR   can/MD   a/DT   week/NN   ,/,   we/PRP   can/MD   reach/VB   our/PRP$   75/CD   percent/NN   goal.&rdquo/-NONE-   ;/:   Note/NNP   to/TO   (GPE Editors/NNP)   :/:   High/JJ   resolution/NN   photos/NNS   of/IN   the/DT   event/NN   are/VBP   available/JJ   on/IN   under/IN   (ORGANIZATION News/NNP Releases/NNP)   ./.)
+----------------------------------
+original sentence: 
+Vantex Resources Ltd: Galloway Project Abbastar Intersects 9.8 g/t Gold Over 4.7 Metres at Talbot Lake Project, Ontario Sierra Monitor Corporation Ships First Order of Gas and Flame Detection Systems for Abu Dhabi Company for Onshore Oil Operation La Quinta Acquires Historical Data on its Easter Project in Nevada Pinetree Capital Ltd. Acquires Securities of Canadian Arrow Mines Ltd. Westcore Announces Agreement with 49 North to Acquire Interests in Additional Manitoba Coal Permits 49 North Resources Inc. Acquires Manitoba Coal Exploration Permits and Enters Agreement With Westcore Energy Ltd. Advanced Explorations' Corporate Update Medoro files NI 43 101 gold resource estimate report on Marmato Project
+Alcan Tianjin Alloy Products unveils Shi De He Jin TM as brand name for aluminium alloy cables in China Copyright &copy; 2010  | All Rights Reserved
+
+
+POS tagged sentence: 
+[('Vantex', 'NNP'), ('Resources', 'NNPS'), ('Ltd', 'NNP'), (':', ':'), ('Galloway', 'NNP'), ('Project', 'NNP'), ('Abbastar', 'NNP'), ('Intersects', 'NNP'), ('9.8', 'CD'), ('g/t', 'JJ'), ('Gold', 'NNP'), ('Over', 'NNP'), ('4.7', 'CD'), ('Metres', 'NNS'), ('at', 'IN'), ('Talbot', 'NNP'), ('Lake', 'NNP'), ('Project', 'NNP'), (',', ','), ('Ontario', 'NNP'), ('Sierra', 'NNP'), ('Monitor', 'NNP'), ('Corporation', 'NNP'), ('Ships', 'NNP'), ('First', 'NNP'), ('Order', 'NNP'), ('of', 'IN'), ('Gas', 'NNP'), ('and', 'CC'), ('Flame', 'NNP'), ('Detection', 'NNP'), ('Systems', 'NNPS'), ('for', 'IN'), ('Abu', 'NNP'), ('Dhabi', 'NNP'), ('Company', 'NNP'), ('for', 'IN'), ('Onshore', 'NNP'), ('Oil', 'NNP'), ('Operation', 'NNP'), ('La', 'NNP'), ('Quinta', 'NNP'), ('Acquires', 'NNP'), ('Historical', 'NNP'), ('Data', 'NNP'), ('on', 'IN'), ('its', 'PRP$'), ('Easter', 'NNP'), ('Project', 'NNP'), ('in', 'IN'), ('Nevada', 'NNP'), ('Pinetree', 'NNP'), ('Capital', 'NNP'), ('Ltd.', 'NNP'), ('Acquires', 'NNP'), ('Securities', 'NNP'), ('of', 'IN'), ('Canadian', 'JJ'), ('Arrow', 'NNP'), ('Mines', 'NNP'), ('Ltd.', 'NNP'), ('Westcore', 'NNP'), ('Announces', 'NNPS'), ('Agreement', 'NNP'), ('with', 'IN'), ('49', 'CD'), ('North', 'NNP'), ('to', 'TO'), ('Acquire', 'NNP'), ('Interests', 'NNPS'), ('in', 'IN'), ('Additional', 'NNP'), ('Manitoba', 'NNP'), ('Coal', 'NNP'), ('Permits', 'NNP'), ('49', 'CD'), ('North', 'NNP'), ('Resources', 'NNPS'), ('Inc.', 'NNP'), ('Acquires', 'NNP'), ('Manitoba', 'NNP'), ('Coal', 'NNP'), ('Exploration', 'NNP'), ('Permits', 'NNP'), ('and', 'CC'), ('Enters', 'NNP'), ('Agreement', 'NNP'), ('With', 'NNP'), ('Westcore', 'NNP'), ('Energy', 'NNP'), ('Ltd.', 'NNP'), ('Advanced', 'NNP'), ('Explorations', 'NNP'), ("'", 'POS'), ('Corporate', 'NNP'), ('Update', 'NNP'), ('Medoro', 'NNP'), ('files', 'VBZ'), ('NI', 'NNP'), ('43', 'CD'), ('101', 'CD'), ('gold', 'NN'), ('resource', 'NN'), ('estimate', 'NN'), ('report', 'NN'), ('on', 'IN'), ('Marmato', 'NNP'), ('Project', 'NNP'), ('Alcan', 'NNP'), ('Tianjin', 'NNP'), ('Alloy', 'NNP'), ('Products', 'NNPS'), ('unveils', 'NNS'), ('Shi', 'NNP'), ('De', 'NNP'), ('He', 'NNP'), ('Jin', 'NNP'), ('TM', 'NNP'), ('as', 'IN'), ('brand', 'NN'), ('name', 'NN'), ('for', 'IN'), ('aluminium', 'NN'), ('alloy', 'NN'), ('cables', 'NNS'), ('in', 'IN'), ('China', 'NNP'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), ('|', 'CD'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Vantex/NNP)   (ORGANIZATION Resources/NNPS)   Ltd/NNP   :/:   (PERSON Galloway/NNP Project/NNP Abbastar/NNP)   Intersects/NNP   9.8/CD   g/t/JJ   (ORGANIZATION Gold/NNP)   Over/NNP   4.7/CD   Metres/NNS   at/IN   (ORGANIZATION Talbot/NNP Lake/NNP Project/NNP)   ,/,   (PERSON     Ontario/NNP     Sierra/NNP     Monitor/NNP     Corporation/NNP     Ships/NNP)   First/NNP   Order/NNP   of/IN   (ORGANIZATION Gas/NNP)   and/CC   (PERSON Flame/NNP Detection/NNP Systems/NNPS)   for/IN   (PERSON Abu/NNP Dhabi/NNP Company/NNP)   for/IN   (PERSON Onshore/NNP Oil/NNP)   Operation/NNP   La/NNP   (PERSON Quinta/NNP Acquires/NNP Historical/NNP Data/NNP)   on/IN   its/PRP$   Easter/NNP   Project/NNP   in/IN   (GPE Nevada/NNP)   Pinetree/NNP   Capital/NNP   Ltd./NNP   (PERSON Acquires/NNP Securities/NNP)   of/IN   (GPE Canadian/JJ)   (ORGANIZATION Arrow/NNP Mines/NNP)   Ltd./NNP   Westcore/NNP   Announces/NNPS   Agreement/NNP   with/IN   49/CD   (GPE North/NNP)   to/TO   (ORGANIZATION Acquire/NNP Interests/NNPS)   in/IN   (ORGANIZATION Additional/NNP Manitoba/NNP Coal/NNP)   Permits/NNP   49/CD   (GPE North/NNP)   Resources/NNPS   Inc./NNP   Acquires/NNP   Manitoba/NNP   Coal/NNP   Exploration/NNP   Permits/NNP   and/CC   (ORGANIZATION Enters/NNP)   Agreement/NNP   With/NNP   Westcore/NNP   Energy/NNP   Ltd./NNP   Advanced/NNP   Explorations/NNP   '/POS   (ORGANIZATION Corporate/NNP Update/NNP Medoro/NNP)   files/VBZ   NI/NNP   43/CD   101/CD   gold/NN   resource/NN   estimate/NN   report/NN   on/IN   (PERSON Marmato/NNP Project/NNP Alcan/NNP Tianjin/NNP Alloy/NNP)   Products/NNPS   unveils/NNS   (PERSON Shi/NNP De/NNP)   He/NNP   Jin/NNP   TM/NNP   as/IN   brand/NN   name/NN   for/IN   aluminium/NN   alloy/NN   cables/NNS   in/IN   (GPE China/NNP)   Copyright/NNP   &copy/NNP   ;/:   2010/CD   |/CD   All/NNP   Rights/NNP   Reserved/NNP)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

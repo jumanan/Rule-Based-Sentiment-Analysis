@@ -1,0 +1,106 @@
+
+----------------------------------
+original sentence: 
+Las Vegas Sands LVS Honored For Training Efforts
+Play Blackjack Online Casino
+Las Vegas Sands LVS Honored For Training Efforts
+Las Vegas Sands LVS As the Sands Casino Resort Bethlehem readies for the implementation of table games owner Las Vegas Sands Corp  understands the importance of aiding those who develop gambling addictions.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('LVS', 'NNP'), ('Honored', 'NNP'), ('For', 'NNP'), ('Training', 'NNP'), ('Efforts', 'NNPS'), ('Play', 'NNP'), ('Blackjack', 'NNP'), ('Online', 'NNP'), ('Casino', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('LVS', 'NNP'), ('Honored', 'NNP'), ('For', 'NNP'), ('Training', 'NNP'), ('Efforts', 'NNPS'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('LVS', 'NNP'), ('As', 'NNP'), ('the', 'DT'), ('Sands', 'NNP'), ('Casino', 'NNP'), ('Resort', 'NNP'), ('Bethlehem', 'NNP'), ('readies', 'VBZ'), ('for', 'IN'), ('the', 'DT'), ('implementation', 'NN'), ('of', 'IN'), ('table', 'JJ'), ('games', 'NNS'), ('owner', 'NN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp', 'NNP'), ('understands', 'NNS'), ('the', 'DT'), ('importance', 'NN'), ('of', 'IN'), ('aiding', 'VBG'), ('those', 'DT'), ('who', 'WP'), ('develop', 'NN'), ('gambling', 'VBG'), ('addictions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   (ORGANIZATION     LVS/NNP     Honored/NNP     For/NNP     Training/NNP     Efforts/NNPS     Play/NNP     Blackjack/NNP     Online/NNP     Casino/NNP     Las/NNP     Vegas/NNP     Sands/NNPS)   (ORGANIZATION     LVS/NNP     Honored/NNP     For/NNP     Training/NNP     Efforts/NNPS     Las/NNP     Vegas/NNP     Sands/NNPS)   (ORGANIZATION LVS/NNP)   As/NNP   the/DT   (ORGANIZATION Sands/NNP Casino/NNP Resort/NNP Bethlehem/NNP)   readies/VBZ   for/IN   the/DT   implementation/NN   of/IN   table/JJ   games/NNS   owner/NN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp/NNP)   understands/NNS   the/DT   importance/NN   of/IN   aiding/VBG   those/DT   who/WP   develop/NN   gambling/VBG   addictions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   readies/VBZ   for/IN   the/DT   implementation/NN   of/IN   table/JJ   games/NNS   owner/NN   Las/NNP   Vegas/NNP   Sands/NNPS   Corp/NNP   understands/NNS   the/DT   importance/NN   of/IN)
+	(VERB aiding/VBG those/DT)
+	(VERB gambling/VBG addictions/NNS)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS LVS/NNP)
+	(NOUN Honored/NNP For/NNP Training/NNP Efforts/NNPS)
+	(NOUN Play/NNP Blackjack/NNP Online/NNP Casino/NNP)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS LVS/NNP)
+	(NOUN Honored/NNP For/NNP Training/NNP Efforts/NNPS)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS LVS/NNP)
+	(NOUN As/NNP)
+	(NOUN Sands/NNP Casino/NNP Resort/NNP Bethlehem/NNP)
+	(NOUN develop/NN)
+
+----------------------------------
+original sentence: 
+‚ÄúContinued gambling addiction training is especially important as the casino prepares to add table games in July,‚Äù Sands Bethlehem President Robert DeSalvio said Thursday, &#8220;It&#8217;s a good opportunity to double back these efforts.&#8221;
+This week Sands sponsored its fifth training session in the past three years to train counselors and social workers on how to handle the issue.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Continued', 'VBN'), ('gambling', 'NN'), ('addiction', 'NN'), ('training', 'NN'), ('is', 'VBZ'), ('especially', 'RB'), ('important', 'JJ'), ('as', 'IN'), ('the', 'DT'), ('casino', 'NN'), ('prepares', 'NNS'), ('to', 'TO'), ('add', 'VB'), ('table', 'JJ'), ('games', 'NNS'), ('in', 'IN'), ('July', 'NNP'), (',', ','), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('Sands', 'NNPS'), ('Bethlehem', 'NNP'), ('President', 'NNP'), ('Robert', 'NNP'), ('DeSalvio', 'NNP'), ('said', 'VBD'), ('Thursday', 'NNP'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('It&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('a', 'DT'), ('good', 'JJ'), ('opportunity', 'NN'), ('to', 'TO'), ('double', 'JJ'), ('back', 'NN'), ('these', 'DT'), ('efforts.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('This', 'DT'), ('week', 'NN'), ('Sands', 'VBZ'), ('sponsored', 'VBN'), ('its', 'PRP$'), ('fifth', 'JJ'), ('training', 'NN'), ('session', 'NN'), ('in', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('three', 'CD'), ('years', 'NNS'), ('to', 'TO'), ('train', 'VB'), ('counselors', 'NNS'), ('and', 'CC'), ('social', 'JJ'), ('workers', 'NNS'), ('on', 'IN'), ('how', 'WRB'), ('to', 'TO'), ('handle', 'VB'), ('the', 'DT'), ('issue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   Continued/VBN   gambling/NN   addiction/NN   training/NN   is/VBZ   especially/RB   important/JJ   as/IN   the/DT   casino/NN   prepares/NNS   to/TO   add/VB   table/JJ   games/NNS   in/IN   (GPE July/NNP)   ,/,   ‚/NNP   Ä/NNP   ù/NNP   Sands/NNPS   (PERSON Bethlehem/NNP)   President/NNP   (PERSON Robert/NNP DeSalvio/NNP)   said/VBD   Thursday/NNP   ,/,   &/CC   #/#   8220/CD   ;/:   It&/JJ   #/#   8217/CD   ;/:   s/NNS   a/DT   good/JJ   opportunity/NN   to/TO   double/JJ   back/NN   these/DT   efforts.&/JJ   #/#   8221/CD   ;/:   This/DT   week/NN   Sands/VBZ   sponsored/VBN   its/PRP$   fifth/JJ   training/NN   session/NN   in/IN   the/DT   past/JJ   three/CD   years/NNS   to/TO   train/VB   counselors/NNS   and/CC   social/JJ   workers/NNS   on/IN   how/WRB   to/TO   handle/VB   the/DT   issue/NN   ./.)
+----------------------------------
+original sentence: 
+While all Pennsylvania casinos must have a state approved problem gambling plan, Nanette Horner, director of the state&#8217;s Office of Compulsive and Problem Gambling said &#8220;Sands has really embraced training.
+
+POS tagged sentence: 
+[('While', 'IN'), ('all', 'DT'), ('Pennsylvania', 'NNP'), ('casinos', 'NNS'), ('must', 'MD'), ('have', 'VB'), ('a', 'DT'), ('state', 'NN'), ('approved', 'VBD'), ('problem', 'NN'), ('gambling', 'NN'), ('plan', 'NN'), (',', ','), ('Nanette', 'NNP'), ('Horner', 'NNP'), (',', ','), ('director', 'NN'), ('of', 'IN'), ('the', 'DT'), ('state&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Office', 'NNP'), ('of', 'IN'), ('Compulsive', 'NNP'), ('and', 'CC'), ('Problem', 'NNP'), ('Gambling', 'NNP'), ('said', 'VBD'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Sands', 'NNS'), ('has', 'VBZ'), ('really', 'RB'), ('embraced', 'VBN'), ('training', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   all/DT   (GPE Pennsylvania/NNP)   casinos/NNS   must/MD   have/VB   a/DT   state/NN   approved/VBD   problem/NN   gambling/NN   plan/NN   ,/,   (PERSON Nanette/NNP Horner/NNP)   ,/,   director/NN   of/IN   the/DT   state&/JJ   #/#   8217/CD   ;/:   s/NNS   Office/NNP   of/IN   (ORGANIZATION Compulsive/NNP)   and/CC   (PERSON Problem/NNP Gambling/NNP)   said/VBD   &/CC   #/#   8220/CD   ;/:   (PERSON Sands/NNS)   has/VBZ   really/RB   embraced/VBN   training/NN   ./.)
+----------------------------------
+original sentence: 
+They started these programs even before their license was awarded.&#8221; The Council on Compulsive Gambling has even honored the gaming company for their training efforts both statewide and nationally.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('started', 'VBD'), ('these', 'DT'), ('programs', 'NNS'), ('even', 'RB'), ('before', 'IN'), ('their', 'PRP$'), ('license', 'NN'), ('was', 'VBD'), ('awarded.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('The', 'DT'), ('Council', 'NNP'), ('on', 'IN'), ('Compulsive', 'NNP'), ('Gambling', 'NNP'), ('has', 'VBZ'), ('even', 'RB'), ('honored', 'VBN'), ('the', 'DT'), ('gaming', 'NN'), ('company', 'NN'), ('for', 'IN'), ('their', 'PRP$'), ('training', 'NN'), ('efforts', 'NNS'), ('both', 'DT'), ('statewide', 'JJ'), ('and', 'CC'), ('nationally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   started/VBD   these/DT   programs/NNS   even/RB   before/IN   their/PRP$   license/NN   was/VBD   awarded.&/JJ   #/#   8221/CD   ;/:   The/DT   (ORGANIZATION Council/NNP)   on/IN   (ORGANIZATION Compulsive/NNP)   Gambling/NNP   has/VBZ   even/RB   honored/VBN   the/DT   gaming/NN   company/NN   for/IN   their/PRP$   training/NN   efforts/NNS   both/DT   statewide/JJ   and/CC   nationally/RB   ./.)
+----------------------------------
+original sentence: 
+Sands Bethlehem held its first local gambling training course in November 2006 and did not receive its gaming license until the following month.
+
+POS tagged sentence: 
+[('Sands', 'NNS'), ('Bethlehem', 'PRP'), ('held', 'VBD'), ('its', 'PRP$'), ('first', 'JJ'), ('local', 'JJ'), ('gambling', 'NN'), ('training', 'NN'), ('course', 'NN'), ('in', 'IN'), ('November', 'NNP'), ('2006', 'CD'), ('and', 'CC'), ('did', 'VBD'), ('not', 'RB'), ('receive', 'VB'), ('its', 'PRP$'), ('gaming', 'NN'), ('license', 'NN'), ('until', 'IN'), ('the', 'DT'), ('following', 'JJ'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sands/NNS   Bethlehem/PRP   held/VBD   its/PRP$   first/JJ   local/JJ   gambling/NN   training/NN   course/NN   in/IN   November/NNP   2006/CD   and/CC   did/VBD   not/RB   receive/VB   its/PRP$   gaming/NN   license/NN   until/IN   the/DT   following/JJ   month/NN   ./.)
+----------------------------------
+original sentence: 
+According to Jim Pappas, executive director for the state&#8217;s compulsive gambling council more than 400 counselors in the Lehigh Valley and Scranton areas have completed 30 hours of problem gambling training, the highest amount in the state.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Jim', 'NNP'), ('Pappas', 'NNP'), (',', ','), ('executive', 'JJ'), ('director', 'NN'), ('for', 'IN'), ('the', 'DT'), ('state&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('compulsive', 'VBP'), ('gambling', 'VBG'), ('council', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('400', 'CD'), ('counselors', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Lehigh', 'NNP'), ('Valley', 'NNP'), ('and', 'CC'), ('Scranton', 'NNP'), ('areas', 'NNS'), ('have', 'VBP'), ('completed', 'VBN'), ('30', 'CD'), ('hours', 'NNS'), ('of', 'IN'), ('problem', 'NN'), ('gambling', 'VBG'), ('training', 'NN'), (',', ','), ('the', 'DT'), ('highest', 'JJS'), ('amount', 'NN'), ('in', 'IN'), ('the', 'DT'), ('state', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (PERSON Jim/NNP Pappas/NNP)   ,/,   executive/JJ   director/NN   for/IN   the/DT   state&/NN   #/#   8217/CD   ;/:   s/NNS   compulsive/VBP   gambling/VBG   council/NN   more/JJR   than/IN   400/CD   counselors/NNS   in/IN   the/DT   (ORGANIZATION Lehigh/NNP Valley/NNP)   and/CC   (GPE Scranton/NNP)   areas/NNS   have/VBP   completed/VBN   30/CD   hours/NNS   of/IN   problem/NN   gambling/VBG   training/NN   ,/,   the/DT   highest/JJS   amount/NN   in/IN   the/DT   state/NN   ./.)
+----------------------------------
+original sentence: 
+Join the forum discussion of this news story
+Las Vegas Sands LVS Expands On PA Casino
+Sands Outspends PA Casinos To Lobby Gaming Expansion
+Mayor Pressures Sands To Fulfill Promise
+Table GamesTo Restart Sands Stalled Casino Project
+Las Vegas Sands Donates To Penn Charities
+
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('the', 'DT'), ('forum', 'NN'), ('discussion', 'NN'), ('of', 'IN'), ('this', 'DT'), ('news', 'NN'), ('story', 'NN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('LVS', 'NNP'), ('Expands', 'NNPS'), ('On', 'NNP'), ('PA', 'NNP'), ('Casino', 'NNP'), ('Sands', 'NNPS'), ('Outspends', 'NNP'), ('PA', 'NNP'), ('Casinos', 'NNP'), ('To', 'NNP'), ('Lobby', 'NNP'), ('Gaming', 'NNP'), ('Expansion', 'NNP'), ('Mayor', 'NNP'), ('Pressures', 'NNP'), ('Sands', 'NNP'), ('To', 'NNP'), ('Fulfill', 'NNP'), ('Promise', 'NNP'), ('Table', 'NNP'), ('GamesTo', 'NNP'), ('Restart', 'NNP'), ('Sands', 'NNPS'), ('Stalled', 'NNP'), ('Casino', 'NNP'), ('Project', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Donates', 'NNP'), ('To', 'NNP'), ('Penn', 'NNP'), ('Charities', 'NNPS')]
+
+
+ERTAGGED sentence: (S   Join/NNP   the/DT   forum/NN   discussion/NN   of/IN   this/DT   news/NN   story/NN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS)   (ORGANIZATION LVS/NNP Expands/NNPS)   On/NNP   PA/NNP   Casino/NNP   Sands/NNPS   (PERSON Outspends/NNP PA/NNP Casinos/NNP To/NNP Lobby/NNP)   Gaming/NNP   Expansion/NNP   Mayor/NNP   Pressures/NNP   (PERSON Sands/NNP To/NNP Fulfill/NNP Promise/NNP Table/NNP)   GamesTo/NNP   Restart/NNP   Sands/NNPS   (PERSON Stalled/NNP Casino/NNP Project/NNP Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Donates/NNP To/NNP Penn/NNP)   Charities/NNPS)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Join/NNP)
+	(NOUN forum/NN discussion/NN)
+	(NOUN news/NN story/NN Las/NNP Vegas/NNP)
+	(NOUN Sands/NNPS LVS/NNP Expands/NNPS On/NNP)
+	(NOUN PA/NNP Casino/NNP Sands/NNPS Outspends/NNP)
+	(NOUN PA/NNP Casinos/NNP To/NNP Lobby/NNP)
+	(NOUN Gaming/NNP Expansion/NNP Mayor/NNP Pressures/NNP)
+	(NOUN Sands/NNP To/NNP Fulfill/NNP Promise/NNP)
+	(NOUN Table/NNP GamesTo/NNP Restart/NNP Sands/NNPS)
+	(NOUN Stalled/NNP Casino/NNP Project/NNP Las/NNP)
+	(NOUN Vegas/NNP Sands/NNPS Donates/NNP To/NNP)
+	(NOUN Penn/NNP Charities/NNPS)
+
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

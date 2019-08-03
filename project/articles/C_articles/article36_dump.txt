@@ -1,0 +1,256 @@
+
+----------------------------------
+original sentence: 
+ Citigroup Bailout to Net U.S. $8 Billion | HULIQ Skip to main content
+Citigroup Bailout to Net U.S. $8 Billion
+The U.S. currently owns about 27 percent of Citigroup, as part of the biggest bailout of previously ailing banks.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('Bailout', 'NNP'), ('to', 'TO'), ('Net', 'NNP'), ('U.S.', 'NNP'), ('$', '$'), ('8', 'CD'), ('Billion', 'CD'), ('|', 'CD'), ('HULIQ', 'NNP'), ('Skip', 'NNP'), ('to', 'TO'), ('main', 'VB'), ('content', 'NN'), ('Citigroup', 'NNP'), ('Bailout', 'NNP'), ('to', 'TO'), ('Net', 'NNP'), ('U.S.', 'NNP'), ('$', '$'), ('8', 'CD'), ('Billion', 'CD'), ('The', 'DT'), ('U.S.', 'NNP'), ('currently', 'RB'), ('owns', 'VBZ'), ('about', 'IN'), ('27', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('biggest', 'JJS'), ('bailout', 'IN'), ('of', 'IN'), ('previously', 'RB'), ('ailing', 'VBG'), ('banks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   (ORGANIZATION Bailout/NNP)   to/TO   (PERSON Net/NNP U.S./NNP)   $/$   8/CD   Billion/CD   |/CD   (ORGANIZATION HULIQ/NNP Skip/NNP)   to/TO   main/VB   content/NN   (PERSON Citigroup/NNP Bailout/NNP)   to/TO   (PERSON Net/NNP U.S./NNP)   $/$   8/CD   Billion/CD   The/DT   (GPE U.S./NNP)   currently/RB   owns/VBZ   about/IN   27/CD   percent/NN   of/IN   (GPE Citigroup/NNP)   ,/,   as/IN   part/NN   of/IN   the/DT   biggest/JJS   bailout/IN   of/IN   previously/RB   ailing/VBG   banks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB main/VB content/NN Citigroup/NNP Bailout/NNP)
+
+tagged sentence:
+	 main content Citigroup Bailout	res:-1
+	(VERB owns/VBZ about/IN 27/CD percent/NN of/IN Citigroup/NNP)
+	(VERB ailing/VBG banks/NNS)
+noun phrases to consider:
+	(NOUN Citigroup/NNP Bailout/NNP)
+
+tagged sentence:
+	 Citigroup Bailout	res:-1
+	(NOUN Net/NNP U.S./NNP)
+	(NOUN |/CD HULIQ/NNP Skip/NNP)
+	(NOUN Net/NNP U.S./NNP)
+	(NOUN U.S./NNP)
+	(NOUN part/NN)
+	(NOUN the/DT biggest/JJS)
+
+----------------------------------
+original sentence: 
+Those who having been watching the stock price NYSE: C of Citigroup, however, will note a fact: the stock has been rising.
+
+POS tagged sentence: 
+[('Those', 'DT'), ('who', 'WP'), ('having', 'VBG'), ('been', 'VBN'), ('watching', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('of', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('however', 'RB'), (',', ','), ('will', 'MD'), ('note', 'VB'), ('a', 'DT'), ('fact', 'NN'), (':', ':'), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('rising', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Those/DT   who/WP   having/VBG   been/VBN   watching/VBG   the/DT   stock/NN   price/NN   NYSE/NNP   :/:   C/NNP   of/IN   (GPE Citigroup/NNP)   ,/,   however/RB   ,/,   will/MD   note/VB   a/DT   fact/NN   :/:   the/DT   stock/NN   has/VBZ   been/VBN   rising/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   having/VBG   been/VBN   watching/VBG   the/DT   stock/NN   price/NN   NYSE/NNP)
+	(VERB note/VB a/DT fact/NN)
+	(VERB has/VBZ been/VBN rising/VBG)
+noun phrases to consider:
+	(NOUN C/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Thus, despite all criticism, it appears the Obama Administration will reap a hefty profit on the bailout.
+
+POS tagged sentence: 
+[('Thus', 'RB'), (',', ','), ('despite', 'IN'), ('all', 'DT'), ('criticism', 'NN'), (',', ','), ('it', 'PRP'), ('appears', 'VBZ'), ('the', 'DT'), ('Obama', 'NNP'), ('Administration', 'NNP'), ('will', 'MD'), ('reap', 'VB'), ('a', 'DT'), ('hefty', 'JJ'), ('profit', 'NN'), ('on', 'IN'), ('the', 'DT'), ('bailout', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Thus/RB   ,/,   despite/IN   all/DT   criticism/NN   ,/,   it/PRP   appears/VBZ   the/DT   (ORGANIZATION Obama/NNP Administration/NNP)   will/MD   reap/VB   a/DT   hefty/JJ   profit/NN   on/IN   the/DT   bailout/NN   ./.)
+----------------------------------
+original sentence: 
+In fact, at today's prices, the sale would amount to a profit of more than $8 billion.
+
+POS tagged sentence: 
+[('In', 'IN'), ('fact', 'NN'), (',', ','), ('at', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('prices', 'NNS'), (',', ','), ('the', 'DT'), ('sale', 'NN'), ('would', 'MD'), ('amount', 'VB'), ('to', 'TO'), ('a', 'DT'), ('profit', 'NN'), ('of', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   fact/NN   ,/,   at/IN   today/NN   's/POS   prices/NNS   ,/,   the/DT   sale/NN   would/MD   amount/VB   to/TO   a/DT   profit/NN   of/IN   more/JJR   than/IN   $/$   8/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+This would be the largest profit returned from any bailed out firm; if done in one transaction, it would be the second largest stock sale in history.
+
+POS tagged sentence: 
+[('This', 'DT'), ('would', 'MD'), ('be', 'VB'), ('the', 'DT'), ('largest', 'JJS'), ('profit', 'NN'), ('returned', 'VBD'), ('from', 'IN'), ('any', 'DT'), ('bailed', 'VBN'), ('out', 'RP'), ('firm', 'NN'), (';', ':'), ('if', 'IN'), ('done', 'NN'), ('in', 'IN'), ('one', 'CD'), ('transaction', 'NN'), (',', ','), ('it', 'PRP'), ('would', 'MD'), ('be', 'VB'), ('the', 'DT'), ('second', 'JJ'), ('largest', 'JJS'), ('stock', 'NN'), ('sale', 'NN'), ('in', 'IN'), ('history', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   would/MD   be/VB   the/DT   largest/JJS   profit/NN   returned/VBD   from/IN   any/DT   bailed/VBN   out/RP   firm/NN   ;/:   if/IN   done/NN   in/IN   one/CD   transaction/NN   ,/,   it/PRP   would/MD   be/VB   the/DT   second/JJ   largest/JJS   stock/NN   sale/NN   in/IN   history/NN   ./.)
+----------------------------------
+original sentence: 
+Only the 1987 stock offering by Japan's Nippon Telegraph and Telephone, which raised $36.8 billion, would be larger, according to Thomson Reuters.
+
+POS tagged sentence: 
+[('Only', 'RB'), ('the', 'DT'), ('1987', 'CD'), ('stock', 'NN'), ('offering', 'NN'), ('by', 'IN'), ('Japan', 'NNP'), ("'s", 'POS'), ('Nippon', 'NNP'), ('Telegraph', 'NNP'), ('and', 'CC'), ('Telephone', 'NNP'), (',', ','), ('which', 'WDT'), ('raised', 'VBN'), ('$', '$'), ('36.8', 'CD'), ('billion', 'CD'), (',', ','), ('would', 'MD'), ('be', 'VB'), ('larger', 'JJR'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Thomson', 'NNP'), ('Reuters', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Only/RB   the/DT   1987/CD   stock/NN   offering/NN   by/IN   (GPE Japan/NNP)   's/POS   (PERSON Nippon/NNP Telegraph/NNP)   and/CC   (GPE Telephone/NNP)   ,/,   which/WDT   raised/VBN   $/$   36.8/CD   billion/CD   ,/,   would/MD   be/VB   larger/JJR   ,/,   according/VBG   to/TO   (PERSON Thomson/NNP Reuters/NNP)   ./.)
+----------------------------------
+original sentence: 
+Here's how all this came to pass: in October and November of 2008,  received more than $45 billion in federal aid in exchange for preferred shares.
+
+POS tagged sentence: 
+[('Here', 'RB'), ("'s", 'VBZ'), ('how', 'WRB'), ('all', 'DT'), ('this', 'DT'), ('came', 'NN'), ('to', 'TO'), ('pass', 'VB'), (':', ':'), ('in', 'IN'), ('October', 'NNP'), ('and', 'CC'), ('November', 'NNP'), ('of', 'IN'), ('2008', 'CD'), (',', ','), ('received', 'VBD'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('45', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('federal', 'JJ'), ('aid', 'NN'), ('in', 'IN'), ('exchange', 'NN'), ('for', 'IN'), ('preferred', 'VBN'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Here/RB   's/VBZ   how/WRB   all/DT   this/DT   came/NN   to/TO   pass/VB   :/:   in/IN   October/NNP   and/CC   November/NNP   of/IN   2008/CD   ,/,   received/VBD   more/JJR   than/IN   $/$   45/CD   billion/CD   in/IN   federal/JJ   aid/NN   in/IN   exchange/NN   for/IN   preferred/VBN   shares/NNS   ./.)
+----------------------------------
+original sentence: 
+This was later restructured, with $20 billion converted into a loan, and the remaining $25 billion was converted into common stock at the price of $3.25 a share.
+
+POS tagged sentence: 
+[('This', 'DT'), ('was', 'VBD'), ('later', 'JJ'), ('restructured', 'VBN'), (',', ','), ('with', 'IN'), ('$', '$'), ('20', 'CD'), ('billion', 'CD'), ('converted', 'VBN'), ('into', 'IN'), ('a', 'DT'), ('loan', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('remaining', 'VBG'), ('$', '$'), ('25', 'CD'), ('billion', 'CD'), ('was', 'VBD'), ('converted', 'VBN'), ('into', 'IN'), ('common', 'JJ'), ('stock', 'NN'), ('at', 'IN'), ('the', 'DT'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('3.25', 'CD'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   was/VBD   later/JJ   restructured/VBN   ,/,   with/IN   $/$   20/CD   billion/CD   converted/VBN   into/IN   a/DT   loan/NN   ,/,   and/CC   the/DT   remaining/VBG   $/$   25/CD   billion/CD   was/VBD   converted/VBN   into/IN   common/JJ   stock/NN   at/IN   the/DT   price/NN   of/IN   $/$   3.25/CD   a/DT   share/NN   ./.)
+----------------------------------
+original sentence: 
+Those shares have grown in value to $33 billion.
+
+POS tagged sentence: 
+[('Those', 'DT'), ('shares', 'NNS'), ('have', 'VBP'), ('grown', 'VBN'), ('in', 'IN'), ('value', 'NN'), ('to', 'TO'), ('$', '$'), ('33', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Those/DT   shares/NNS   have/VBP   grown/VBN   in/IN   value/NN   to/TO   $/$   33/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+Citigroup was the only bank that gave common shares to the government.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('only', 'JJ'), ('bank', 'NN'), ('that', 'WDT'), ('gave', 'VBD'), ('common', 'JJ'), ('shares', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('government', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   was/VBD   the/DT   only/JJ   bank/NN   that/WDT   gave/VBD   common/JJ   shares/NNS   to/TO   the/DT   government/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD the/DT only/JJ bank/NN)
+	(VERB gave/VBD common/JJ shares/NNS)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN government/NN)
+
+----------------------------------
+original sentence: 
+It was because the firm was in such bad shape that it could not promise to pay back its aid in cash.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('was', 'VBD'), ('because', 'IN'), ('the', 'DT'), ('firm', 'NN'), ('was', 'VBD'), ('in', 'IN'), ('such', 'JJ'), ('bad', 'JJ'), ('shape', 'NN'), ('that', 'WDT'), ('it', 'PRP'), ('could', 'MD'), ('not', 'RB'), ('promise', 'VB'), ('to', 'TO'), ('pay', 'VB'), ('back', 'RB'), ('its', 'PRP$'), ('aid', 'NN'), ('in', 'IN'), ('cash', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   was/VBD   because/IN   the/DT   firm/NN   was/VBD   in/IN   such/JJ   bad/JJ   shape/NN   that/WDT   it/PRP   could/MD   not/RB   promise/VB   to/TO   pay/VB   back/RB   its/PRP$   aid/NN   in/IN   cash/NN   ./.)
+----------------------------------
+original sentence: 
+Much as with anyone who decided to jump on the firms shares when they reached a low of about a dollar, ablut a year ago, the profits of such a sale are marked.
+
+POS tagged sentence: 
+[('Much', 'RB'), ('as', 'IN'), ('with', 'IN'), ('anyone', 'NN'), ('who', 'WP'), ('decided', 'VBD'), ('to', 'TO'), ('jump', 'VB'), ('on', 'IN'), ('the', 'DT'), ('firms', 'NNS'), ('shares', 'NNS'), ('when', 'WRB'), ('they', 'PRP'), ('reached', 'VBD'), ('a', 'DT'), ('low', 'JJ'), ('of', 'IN'), ('about', 'RB'), ('a', 'DT'), ('dollar', 'NN'), (',', ','), ('ablut', 'NN'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), (',', ','), ('the', 'DT'), ('profits', 'NNS'), ('of', 'IN'), ('such', 'JJ'), ('a', 'DT'), ('sale', 'NN'), ('are', 'VBP'), ('marked', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Much/RB   as/IN   with/IN   anyone/NN   who/WP   decided/VBD   to/TO   jump/VB   on/IN   the/DT   firms/NNS   shares/NNS   when/WRB   they/PRP   reached/VBD   a/DT   low/JJ   of/IN   about/RB   a/DT   dollar/NN   ,/,   ablut/NN   a/DT   year/NN   ago/IN   ,/,   the/DT   profits/NNS   of/IN   such/JJ   a/DT   sale/NN   are/VBP   marked/VBN   ./.)
+----------------------------------
+original sentence: 
+Due to the size of the fees on such a deal, other leading financial firms, including Morgan Stanley, J.P. Morgan Chase, and Goldman Sachs, are lining up to be chosen as the deal's underwriters.
+
+POS tagged sentence: 
+[('Due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('size', 'NN'), ('of', 'IN'), ('the', 'DT'), ('fees', 'NNS'), ('on', 'IN'), ('such', 'JJ'), ('a', 'DT'), ('deal', 'NN'), (',', ','), ('other', 'JJ'), ('leading', 'VBG'), ('financial', 'JJ'), ('firms', 'NNS'), (',', ','), ('including', 'VBG'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), (',', ','), ('J.P.', 'NNP'), ('Morgan', 'NNP'), ('Chase', 'NNP'), (',', ','), ('and', 'CC'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), (',', ','), ('are', 'VBP'), ('lining', 'VBG'), ('up', 'RP'), ('to', 'TO'), ('be', 'VB'), ('chosen', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('deal', 'NN'), ("'s", 'POS'), ('underwriters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Due/JJ   to/TO   the/DT   size/NN   of/IN   the/DT   fees/NNS   on/IN   such/JJ   a/DT   deal/NN   ,/,   other/JJ   leading/VBG   financial/JJ   firms/NNS   ,/,   including/VBG   (PERSON Morgan/NNP Stanley/NNP)   ,/,   (ORGANIZATION J.P./NNP Morgan/NNP)   Chase/NNP   ,/,   and/CC   (ORGANIZATION Goldman/NNP Sachs/NNP)   ,/,   are/VBP   lining/VBG   up/RP   to/TO   be/VB   chosen/VBN   as/IN   the/DT   deal/NN   's/POS   underwriters/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB leading/VBG financial/JJ firms/NNS)
+	(VERB including/VBG Morgan/NNP Stanley/NNP)
+	(VERB are/VBP lining/VBG)
+	(VERB be/VB chosen/VBN as/IN the/DT deal/NN)
+noun phrases to consider:
+	(NOUN Due/JJ)
+	(NOUN size/NN)
+	(NOUN fees/NNS)
+	(NOUN such/JJ)
+	(NOUN deal/NN)
+	(NOUN other/JJ)
+	(NOUN J.P./NNP Morgan/NNP Chase/NNP)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN underwriters/NNS)
+
+----------------------------------
+original sentence: 
+In fact, some, such as Goldman Sachs, are offering their services nearly free to the Treasury Department, to boost their chances.
+
+POS tagged sentence: 
+[('In', 'IN'), ('fact', 'NN'), (',', ','), ('some', 'DT'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), (',', ','), ('are', 'VBP'), ('offering', 'VBG'), ('their', 'PRP$'), ('services', 'NNS'), ('nearly', 'RB'), ('free', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), (',', ','), ('to', 'TO'), ('boost', 'VB'), ('their', 'PRP$'), ('chances', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   fact/NN   ,/,   some/DT   ,/,   such/JJ   as/IN   (ORGANIZATION Goldman/NNP Sachs/NNP)   ,/,   are/VBP   offering/VBG   their/PRP$   services/NNS   nearly/RB   free/JJ   to/TO   the/DT   (ORGANIZATION Treasury/NNP Department/NNP)   ,/,   to/TO   boost/VB   their/PRP$   chances/NNS   ./.)
+----------------------------------
+original sentence: 
+Some said that such a result from Citigroup would make the government bailout of trouble financial firms a success.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('said', 'VBD'), ('that', 'IN'), ('such', 'JJ'), ('a', 'DT'), ('result', 'NN'), ('from', 'IN'), ('Citigroup', 'NNP'), ('would', 'MD'), ('make', 'VB'), ('the', 'DT'), ('government', 'NN'), ('bailout', 'IN'), ('of', 'IN'), ('trouble', 'JJ'), ('financial', 'JJ'), ('firms', 'NNS'), ('a', 'DT'), ('success', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   said/VBD   that/IN   such/JJ   a/DT   result/NN   from/IN   (GPE Citigroup/NNP)   would/MD   make/VB   the/DT   government/NN   bailout/IN   of/IN   trouble/JJ   financial/JJ   firms/NNS   a/DT   success/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN such/JJ a/DT result/NN from/IN Citigroup/NNP)
+	(VERB   make/VB   the/DT   government/NN   bailout/IN   of/IN   trouble/JJ   financial/JJ   firms/NNS   a/DT   success/NN)
+
+tagged sentence:
+	 make the government bailout of trouble financial firms a success	res:1
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+Also, once this sale happens, Citigroup would be able to cut nearly all of its ties to the Troubled Assets Relief Program TARP Neither the federal government or Citigroup commented on the news.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('once', 'RB'), ('this', 'DT'), ('sale', 'NN'), ('happens', 'VBZ'), (',', ','), ('Citigroup', 'NNP'), ('would', 'MD'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('cut', 'VB'), ('nearly', 'RB'), ('all', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('ties', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('Troubled', 'NNP'), ('Assets', 'NNPS'), ('Relief', 'NNP'), ('Program', 'NNP'), ('TARP', 'NNP'), ('Neither', 'NNP'), ('the', 'DT'), ('federal', 'JJ'), ('government', 'NN'), ('or', 'CC'), ('Citigroup', 'NNP'), ('commented', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('news', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   once/RB   this/DT   sale/NN   happens/VBZ   ,/,   (PERSON Citigroup/NNP)   would/MD   be/VB   able/JJ   to/TO   cut/VB   nearly/RB   all/DT   of/IN   its/PRP$   ties/NNS   to/TO   the/DT   (ORGANIZATION Troubled/NNP Assets/NNPS)   Relief/NNP   Program/NNP   TARP/NNP   Neither/NNP   the/DT   federal/JJ   government/NN   or/CC   (PERSON Citigroup/NNP)   commented/VBD   on/IN   the/DT   news/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB happens/VBZ)
+	(VERB be/VB able/JJ)
+
+tagged sentence:
+	 be able	res:1
+	(VERB cut/VB nearly/RB all/DT of/IN its/PRP$ ties/NNS)
+
+tagged sentence:
+	 cut nearly all of its ties	res:-1
+	(VERB commented/VBD on/IN the/DT news/NN)
+noun phrases to consider:
+	(NOUN sale/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN Troubled/NNP Assets/NNPS Relief/NNP Program/NNP)
+	(NOUN TARP/NNP Neither/NNP)
+	(NOUN the/DT federal/JJ government/NN)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+Written by Michael Santo
+ on Sat, 2010 03 27 14:47
+QuoteFuneral.com Makes Funeral Planning Easy
+Fill Out The Free Form and Receive Up To 4 Quotes
+When Funeral Homes Compete You Save
+
+
+POS tagged sentence: 
+[('Written', 'NNP'), ('by', 'IN'), ('Michael', 'NNP'), ('Santo', 'NNP'), ('on', 'IN'), ('Sat', 'NNP'), (',', ','), ('2010', 'CD'), ('03', 'CD'), ('27', 'CD'), ('14', 'CD'), (':', ':'), ('47', 'CD'), ('QuoteFuneral.com', 'JJ'), ('Makes', 'NNS'), ('Funeral', 'NNP'), ('Planning', 'NNP'), ('Easy', 'NNP'), ('Fill', 'NNP'), ('Out', 'NNP'), ('The', 'NNP'), ('Free', 'NNP'), ('Form', 'NNP'), ('and', 'CC'), ('Receive', 'NNP'), ('Up', 'NNP'), ('To', 'NNP'), ('4', 'CD'), ('Quotes', 'NNPS'), ('When', 'NNP'), ('Funeral', 'NNP'), ('Homes', 'NNP'), ('Compete', 'NNP'), ('You', 'NNP'), ('Save', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Written/NNP)   by/IN   (PERSON Michael/NNP Santo/NNP)   on/IN   (ORGANIZATION Sat/NNP)   ,/,   2010/CD   03/CD   27/CD   14/CD   :/:   47/CD   QuoteFuneral.com/JJ   Makes/NNS   (ORGANIZATION Funeral/NNP)   Planning/NNP   Easy/NNP   Fill/NNP   Out/NNP   The/NNP   (ORGANIZATION Free/NNP Form/NNP)   and/CC   (PERSON Receive/NNP Up/NNP To/NNP)   4/CD   Quotes/NNPS   When/NNP   Funeral/NNP   Homes/NNP   Compete/NNP   You/NNP   Save/NNP)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Written/NNP)
+	(NOUN Michael/NNP Santo/NNP)
+	(NOUN Sat/NNP)
+	(NOUN   47/CD   QuoteFuneral.com/JJ   Makes/NNS   Funeral/NNP   Planning/NNP   Easy/NNP)
+
+tagged sentence:
+	 47 QuoteFuneral.com Makes Funeral Planning Easy	res:1
+	(NOUN Fill/NNP Out/NNP The/NNP Free/NNP)
+	(NOUN Form/NNP)
+	(NOUN Receive/NNP Up/NNP To/NNP)
+	(NOUN 4/CD Quotes/NNPS When/NNP Funeral/NNP Homes/NNP)
+	(NOUN Compete/NNP You/NNP Save/NNP)
+
+
+veryneg:0	neg:3	pos:3	verypos:0	total:2

@@ -1,0 +1,485 @@
+
+----------------------------------
+original sentence: 
+ Contra Costa Times, Walnut Creek, Calif., Drew Voros column: Voros: Banks profit from U.S. debt rather than lending Contra Costa Times, Walnut Creek, Calif., Drew Voros column: Voros: Banks profit from U.S. debt rather than lending
+Wednesday, March 17, 2010 9:52 AM
+ Source: Contra Costa Times Walnut Creek, Calif. By Drew Voros, Contra Costa Times, Walnut Creek, Calif.
+
+
+Mar.
+
+POS tagged sentence: 
+[('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), (',', ','), ('Walnut', 'NNP'), ('Creek', 'NNP'), (',', ','), ('Calif.', 'NNP'), (',', ','), ('Drew', 'NNP'), ('Voros', 'NNP'), ('column', 'NN'), (':', ':'), ('Voros', 'NNP'), (':', ':'), ('Banks', 'NNS'), ('profit', 'NN'), ('from', 'IN'), ('U.S.', 'NNP'), ('debt', 'NN'), ('rather', 'RB'), ('than', 'IN'), ('lending', 'VBG'), ('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), (',', ','), ('Walnut', 'NNP'), ('Creek', 'NNP'), (',', ','), ('Calif.', 'NNP'), (',', ','), ('Drew', 'NNP'), ('Voros', 'NNP'), ('column', 'NN'), (':', ':'), ('Voros', 'NNP'), (':', ':'), ('Banks', 'NNS'), ('profit', 'NN'), ('from', 'IN'), ('U.S.', 'NNP'), ('debt', 'NN'), ('rather', 'RB'), ('than', 'IN'), ('lending', 'VBG'), ('Wednesday', 'NNP'), (',', ','), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('9', 'CD'), (':', ':'), ('52', 'CD'), ('AM', 'NNP'), ('Source', 'NNP'), (':', ':'), ('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), ('Walnut', 'NNP'), ('Creek', 'NNP'), (',', ','), ('Calif.', 'NNP'), ('By', 'NNP'), ('Drew', 'NNP'), ('Voros', 'NNP'), (',', ','), ('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), (',', ','), ('Walnut', 'NNP'), ('Creek', 'NNP'), (',', ','), ('Calif', 'NNP'), ('.', '.'), ('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Contra/NNP)   (PERSON Costa/NNP Times/NNP)   ,/,   (PERSON Walnut/NNP Creek/NNP)   ,/,   (GPE Calif./NNP)   ,/,   (PERSON Drew/NNP Voros/NNP)   column/NN   :/:   (PERSON Voros/NNP)   :/:   Banks/NNS   profit/NN   from/IN   (GPE U.S./NNP)   debt/NN   rather/RB   than/IN   lending/VBG   (PERSON Contra/NNP Costa/NNP Times/NNP)   ,/,   (PERSON Walnut/NNP Creek/NNP)   ,/,   (GPE Calif./NNP)   ,/,   (PERSON Drew/NNP Voros/NNP)   column/NN   :/:   (PERSON Voros/NNP)   :/:   Banks/NNS   profit/NN   from/IN   (GPE U.S./NNP)   debt/NN   rather/RB   than/IN   lending/VBG   Wednesday/NNP   ,/,   March/NNP   17/CD   ,/,   2010/CD   9/CD   :/:   52/CD   AM/NNP   Source/NNP   :/:   (PERSON Contra/NNP Costa/NNP Times/NNP Walnut/NNP Creek/NNP)   ,/,   Calif./NNP   By/NNP   (PERSON Drew/NNP Voros/NNP)   ,/,   (PERSON Contra/NNP Costa/NNP Times/NNP)   ,/,   (PERSON Walnut/NNP Creek/NNP)   ,/,   (GPE Calif/NNP)   ./.   (PERSON Mar/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lending/VBG Contra/NNP Costa/NNP Times/NNP)
+	(VERB lending/VBG Wednesday/NNP)
+noun phrases to consider:
+	(NOUN Contra/NNP Costa/NNP Times/NNP)
+	(NOUN Walnut/NNP Creek/NNP)
+	(NOUN Calif./NNP)
+	(NOUN Drew/NNP Voros/NNP column/NN)
+	(NOUN Voros/NNP)
+	(NOUN Banks/NNS profit/NN)
+	(NOUN U.S./NNP debt/NN)
+	(NOUN Walnut/NNP Creek/NNP)
+	(NOUN Calif./NNP)
+	(NOUN Drew/NNP Voros/NNP column/NN)
+	(NOUN Voros/NNP)
+	(NOUN Banks/NNS profit/NN)
+	(NOUN U.S./NNP debt/NN)
+	(NOUN March/NNP)
+	(NOUN 52/CD AM/NNP Source/NNP)
+	(NOUN Contra/NNP Costa/NNP Times/NNP Walnut/NNP)
+	(NOUN Creek/NNP)
+	(NOUN Calif./NNP By/NNP Drew/NNP Voros/NNP)
+	(NOUN Contra/NNP Costa/NNP Times/NNP)
+	(NOUN Walnut/NNP Creek/NNP)
+	(NOUN Calif/NNP)
+	(NOUN Mar/NNP)
+
+----------------------------------
+original sentence: 
+17 Comedian Steve Martin has told this joke for more than 30 years: "Let me tell you how to make a million dollars?
+
+POS tagged sentence: 
+[('17', 'CD'), ('Comedian', 'JJ'), ('Steve', 'NNP'), ('Martin', 'NNP'), ('has', 'VBZ'), ('told', 'VBN'), ('this', 'DT'), ('joke', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('30', 'CD'), ('years', 'NNS'), (':', ':'), ('"', ':'), ('Let', 'NNP'), ('me', 'PRP'), ('tell', 'VBD'), ('you', 'PRP'), ('how', 'WRB'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('million', 'NN'), ('dollars', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   17/CD   (ORGANIZATION Comedian/JJ Steve/NNP Martin/NNP)   has/VBZ   told/VBN   this/DT   joke/NN   for/IN   more/JJR   than/IN   30/CD   years/NNS   :/:   "/:   Let/NNP   me/PRP   tell/VBD   you/PRP   how/WRB   to/TO   make/VB   a/DT   million/NN   dollars/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   told/VBN   this/DT   joke/NN   for/IN   more/JJR   than/IN   30/CD   years/NNS)
+	(VERB tell/VBD you/PRP)
+	(VERB make/VB a/DT million/NN dollars/NNS)
+noun phrases to consider:
+	(NOUN 17/CD Comedian/JJ Steve/NNP Martin/NNP)
+	(NOUN Let/NNP)
+
+----------------------------------
+original sentence: 
+First, .... get a million dollars drum rim shot .
+
+POS tagged sentence: 
+[('First', 'NNP'), (',', ','), ('....', ':'), ('get', 'NN'), ('a', 'DT'), ('million', 'NN'), ('dollars', 'NNS'), ('drum', 'NN'), ('rim', 'NN'), ('shot', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE First/NNP)   ,/,   ..../:   get/NN   a/DT   million/NN   dollars/NNS   drum/NN   rim/NN   shot/NN   ./.)
+----------------------------------
+original sentence: 
+" 
+If you're a large American bank, you can "get $1 million" for $2,500 in interest a year.
+
+POS tagged sentence: 
+[('"', 'NN'), ('If', 'IN'), ('you', 'PRP'), ("'re", 'VBP'), ('a', 'DT'), ('large', 'JJ'), ('American', 'NN'), ('bank', 'NN'), (',', ','), ('you', 'PRP'), ('can', 'MD'), ('"', 'VB'), ('get', 'VB'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('"', 'CD'), ('for', 'IN'), ('$', '$'), ('2,500', 'CD'), ('in', 'IN'), ('interest', 'NN'), ('a', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   If/IN   you/PRP   're/VBP   a/DT   large/JJ   (GPE American/NN)   bank/NN   ,/,   you/PRP   can/MD   "/VB   get/VB   $/$   1/CD   million/CD   "/CD   for/IN   $/$   2,500/CD   in/IN   interest/NN   a/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+Since December 2008, the Federal Reserve's bank lending rate has held steady at 0.25 percent, as close to free money as it gets.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('December', 'NNP'), ('2008', 'CD'), (',', ','), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ("'s", 'POS'), ('bank', 'NN'), ('lending', 'VBG'), ('rate', 'NN'), ('has', 'VBZ'), ('held', 'VBN'), ('steady', 'JJ'), ('at', 'IN'), ('0.25', 'CD'), ('percent', 'NN'), (',', ','), ('as', 'IN'), ('close', 'JJ'), ('to', 'TO'), ('free', 'JJ'), ('money', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('gets', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   December/NNP   2008/CD   ,/,   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   's/POS   bank/NN   lending/VBG   rate/NN   has/VBZ   held/VBN   steady/JJ   at/IN   0.25/CD   percent/NN   ,/,   as/IN   close/JJ   to/TO   free/JJ   money/NN   as/IN   it/PRP   gets/VBZ   ./.)
+----------------------------------
+original sentence: 
+Tuesday, the Fed voted to keep this sweet deal for banks in place, despite some talk it is ready to begin raising key lending rates.
+
+POS tagged sentence: 
+[('Tuesday', 'NNP'), (',', ','), ('the', 'DT'), ('Fed', 'NNP'), ('voted', 'VBD'), ('to', 'TO'), ('keep', 'VB'), ('this', 'DT'), ('sweet', 'JJ'), ('deal', 'NN'), ('for', 'IN'), ('banks', 'NNS'), ('in', 'IN'), ('place', 'NN'), (',', ','), ('despite', 'IN'), ('some', 'DT'), ('talk', 'NN'), ('it', 'PRP'), ('is', 'VBZ'), ('ready', 'RB'), ('to', 'TO'), ('begin', 'VB'), ('raising', 'NN'), ('key', 'NN'), ('lending', 'VBG'), ('rates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Tuesday/NNP   ,/,   the/DT   (ORGANIZATION Fed/NNP)   voted/VBD   to/TO   keep/VB   this/DT   sweet/JJ   deal/NN   for/IN   banks/NNS   in/IN   place/NN   ,/,   despite/IN   some/DT   talk/NN   it/PRP   is/VBZ   ready/RB   to/TO   begin/VB   raising/NN   key/NN   lending/VBG   rates/NNS   ./.)
+----------------------------------
+original sentence: 
+For now, the nearly free money continues to flow.
+
+POS tagged sentence: 
+[('For', 'IN'), ('now', 'RB'), (',', ','), ('the', 'DT'), ('nearly', 'RB'), ('free', 'JJ'), ('money', 'NN'), ('continues', 'VBZ'), ('to', 'TO'), ('flow', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   now/RB   ,/,   the/DT   nearly/RB   free/JJ   money/NN   continues/VBZ   to/TO   flow/VB   ./.)
+----------------------------------
+original sentence: 
+Don't stop a good thing, conventional banking wisdom says, by raising interest rates and rocking the recovery boat.
+
+POS tagged sentence: 
+[('Do', 'NNP'), ("n't", 'RB'), ('stop', 'VB'), ('a', 'DT'), ('good', 'JJ'), ('thing', 'NN'), (',', ','), ('conventional', 'JJ'), ('banking', 'NN'), ('wisdom', 'NN'), ('says', 'VBZ'), (',', ','), ('by', 'IN'), ('raising', 'NN'), ('interest', 'NN'), ('rates', 'NNS'), ('and', 'CC'), ('rocking', 'VBG'), ('the', 'DT'), ('recovery', 'NN'), ('boat', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Do/NNP   n't/RB   stop/VB   a/DT   good/JJ   thing/NN   ,/,   conventional/JJ   banking/NN   wisdom/NN   says/VBZ   ,/,   by/IN   raising/NN   interest/NN   rates/NNS   and/CC   rocking/VBG   the/DT   recovery/NN   boat/NN   ./.)
+----------------------------------
+original sentence: 
+But conventional banking, where banks profit from loans they originate, is missing at sea.
+
+POS tagged sentence: 
+[('But', 'CC'), ('conventional', 'JJ'), ('banking', 'NN'), (',', ','), ('where', 'WRB'), ('banks', 'NNS'), ('profit', 'VBP'), ('from', 'IN'), ('loans', 'NNS'), ('they', 'PRP'), ('originate', 'VBP'), (',', ','), ('is', 'VBZ'), ('missing', 'VBG'), ('at', 'IN'), ('sea', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   conventional/JJ   banking/NN   ,/,   where/WRB   banks/NNS   profit/VBP   from/IN   loans/NNS   they/PRP   originate/VBP   ,/,   is/VBZ   missing/VBG   at/IN   sea/NN   ./.)
+----------------------------------
+original sentence: 
+Instead, big American banks have learned how that nearly free money can buy sure bets, which create profit and produce those multimillion dollar bank bonuses that have even the White House crying foul.
+
+POS tagged sentence: 
+[('Instead', 'RB'), (',', ','), ('big', 'JJ'), ('American', 'JJ'), ('banks', 'NNS'), ('have', 'VBP'), ('learned', 'VBN'), ('how', 'WRB'), ('that', 'IN'), ('nearly', 'RB'), ('free', 'JJ'), ('money', 'NN'), ('can', 'MD'), ('buy', 'VB'), ('sure', 'JJ'), ('bets', 'NNS'), (',', ','), ('which', 'WDT'), ('create', 'VB'), ('profit', 'NN'), ('and', 'CC'), ('produce', 'VB'), ('those', 'DT'), ('multimillion', 'NN'), ('dollar', 'NN'), ('bank', 'NN'), ('bonuses', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('even', 'RB'), ('the', 'DT'), ('White', 'NNP'), ('House', 'NNP'), ('crying', 'NN'), ('foul', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Instead/RB   ,/,   big/JJ   (GPE American/JJ)   banks/NNS   have/VBP   learned/VBN   how/WRB   that/IN   nearly/RB   free/JJ   money/NN   can/MD   buy/VB   sure/JJ   bets/NNS   ,/,   which/WDT   create/VB   profit/NN   and/CC   produce/VB   those/DT   multimillion/NN   dollar/NN   bank/NN   bonuses/NNS   that/WDT   have/VBP   even/RB   the/DT   (FACILITY White/NNP House/NNP)   crying/NN   foul/NN   ./.)
+----------------------------------
+original sentence: 
+But those complaints in the Oval Office ring hollow.
+
+POS tagged sentence: 
+[('But', 'CC'), ('those', 'DT'), ('complaints', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Oval', 'NNP'), ('Office', 'NNP'), ('ring', 'NN'), ('hollow', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   those/DT   complaints/NNS   in/IN   the/DT   (FACILITY Oval/NNP Office/NNP)   ring/NN   hollow/NN   ./.)
+----------------------------------
+original sentence: 
+The Obama administration and the Federal Reserve are the main enablers for a profit machine that cannot fail.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Obama', 'NNP'), ('administration', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('main', 'JJ'), ('enablers', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('profit', 'NN'), ('machine', 'NN'), ('that', 'WDT'), ('can', 'MD'), ('not', 'RB'), ('fail', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Obama/NNP)   administration/NN   and/CC   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   are/VBP   the/DT   main/JJ   enablers/NNS   for/IN   a/DT   profit/NN   machine/NN   that/WDT   can/MD   not/RB   fail/VB   ./.)
+----------------------------------
+original sentence: 
+Banks have been making profits by taking the nearly free money 0.25 percent interest and buying Treasury bonds in a way that makes Steve Martin's joke sound more prophetic than comedic.
+
+POS tagged sentence: 
+[('Banks', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('making', 'VBG'), ('profits', 'NNS'), ('by', 'IN'), ('taking', 'VBG'), ('the', 'DT'), ('nearly', 'RB'), ('free', 'JJ'), ('money', 'NN'), ('0.25', 'CD'), ('percent', 'NN'), ('interest', 'NN'), ('and', 'CC'), ('buying', 'VBG'), ('Treasury', 'NNP'), ('bonds', 'NNS'), ('in', 'IN'), ('a', 'DT'), ('way', 'NN'), ('that', 'WDT'), ('makes', 'VBZ'), ('Steve', 'NNP'), ('Martin', 'NNP'), ("'s", 'POS'), ('joke', 'NN'), ('sound', 'NN'), ('more', 'RBR'), ('prophetic', 'JJ'), ('than', 'IN'), ('comedic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Banks/NNS   have/VBP   been/VBN   making/VBG   profits/NNS   by/IN   taking/VBG   the/DT   nearly/RB   free/JJ   money/NN   0.25/CD   percent/NN   interest/NN   and/CC   buying/VBG   (ORGANIZATION Treasury/NNP)   bonds/NNS   in/IN   a/DT   way/NN   that/WDT   makes/VBZ   (PERSON Steve/NNP Martin/NNP)   's/POS   joke/NN   sound/NN   more/RBR   prophetic/JJ   than/IN   comedic/JJ   ./.)
+----------------------------------
+original sentence: 
+The profit is the reason for the executive bonuses that attract more attention than why they were 
+In Steve Martin Banking Math, American banks "get" $1 million from the Fed and then move over to the Treasury bond line and purchase a 10 year note, which has been paying around 3.7 percent annually.
+
+POS tagged sentence: 
+[('The', 'DT'), ('profit', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('reason', 'NN'), ('for', 'IN'), ('the', 'DT'), ('executive', 'JJ'), ('bonuses', 'NNS'), ('that', 'WDT'), ('attract', 'NN'), ('more', 'RBR'), ('attention', 'NN'), ('than', 'IN'), ('why', 'WRB'), ('they', 'PRP'), ('were', 'VBD'), ('In', 'NNP'), ('Steve', 'NNP'), ('Martin', 'NNP'), ('Banking', 'NNP'), ('Math', 'NNP'), (',', ','), ('American', 'NNP'), ('banks', 'NNS'), ('"', ':'), ('get', 'NN'), ('"', ':'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('from', 'IN'), ('the', 'DT'), ('Fed', 'NNP'), ('and', 'CC'), ('then', 'RB'), ('move', 'VB'), ('over', 'IN'), ('to', 'TO'), ('the', 'DT'), ('Treasury', 'NNP'), ('bond', 'NN'), ('line', 'NN'), ('and', 'CC'), ('purchase', 'NN'), ('a', 'DT'), ('10', 'CD'), ('year', 'NN'), ('note', 'NN'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('been', 'VBN'), ('paying', 'VBG'), ('around', 'IN'), ('3.7', 'CD'), ('percent', 'NN'), ('annually', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   profit/NN   is/VBZ   the/DT   reason/NN   for/IN   the/DT   executive/JJ   bonuses/NNS   that/WDT   attract/NN   more/RBR   attention/NN   than/IN   why/WRB   they/PRP   were/VBD   In/NNP   (PERSON Steve/NNP Martin/NNP Banking/NNP Math/NNP)   ,/,   (GPE American/NNP)   banks/NNS   "/:   get/NN   "/:   $/$   1/CD   million/CD   from/IN   the/DT   (ORGANIZATION Fed/NNP)   and/CC   then/RB   move/VB   over/IN   to/TO   the/DT   (ORGANIZATION Treasury/NNP)   bond/NN   line/NN   and/CC   purchase/NN   a/DT   10/CD   year/NN   note/NN   ,/,   which/WDT   has/VBZ   been/VBN   paying/VBG   around/IN   3.7/CD   percent/NN   annually/RB   ./.)
+----------------------------------
+original sentence: 
+With a yield spread of 3.45 percent, an annual profit of $34,500 is realized per $1 million.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('yield', 'NN'), ('spread', 'NN'), ('of', 'IN'), ('3.45', 'CD'), ('percent', 'NN'), (',', ','), ('an', 'DT'), ('annual', 'JJ'), ('profit', 'NN'), ('of', 'IN'), ('$', '$'), ('34,500', 'CD'), ('is', 'VBZ'), ('realized', 'VBN'), ('per', 'IN'), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   yield/NN   spread/NN   of/IN   3.45/CD   percent/NN   ,/,   an/DT   annual/JJ   profit/NN   of/IN   $/$   34,500/CD   is/VBZ   realized/VBN   per/IN   $/$   1/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+Of course, for the biggest American banks, $1 million transactions of this sort would be silly.
+
+POS tagged sentence: 
+[('Of', 'IN'), ('course', 'NN'), (',', ','), ('for', 'IN'), ('the', 'DT'), ('biggest', 'JJS'), ('American', 'NNP'), ('banks', 'NNS'), (',', ','), ('$', '$'), ('1', 'CD'), ('million', 'CD'), ('transactions', 'NNS'), ('of', 'IN'), ('this', 'DT'), ('sort', 'NN'), ('would', 'MD'), ('be', 'VB'), ('silly', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Of/IN   course/NN   ,/,   for/IN   the/DT   biggest/JJS   (GPE American/NNP)   banks/NNS   ,/,   $/$   1/CD   million/CD   transactions/NNS   of/IN   this/DT   sort/NN   would/MD   be/VB   silly/RB   ./.)
+----------------------------------
+original sentence: 
+Banks aren't pikers.
+
+POS tagged sentence: 
+[('Banks', 'NNS'), ('are', 'VBP'), ("n't", 'RB'), ('pikers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Banks/NNS are/VBP n't/RB pikers/NNS ./.)
+----------------------------------
+original sentence: 
+They "get" more like $100 million at a time, many times over, many banks over.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('"', 'VBP'), ('get', 'VB'), ('"', ':'), ('more', 'JJR'), ('like', 'IN'), ('$', '$'), ('100', 'CD'), ('million', 'CD'), ('at', 'IN'), ('a', 'DT'), ('time', 'NN'), (',', ','), ('many', 'JJ'), ('times', 'NNS'), ('over', 'IN'), (',', ','), ('many', 'JJ'), ('banks', 'NNS'), ('over', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   "/VBP   get/VB   "/:   more/JJR   like/IN   $/$   100/CD   million/CD   at/IN   a/DT   time/NN   ,/,   many/JJ   times/NNS   over/IN   ,/,   many/JJ   banks/NNS   over/IN   ./.)
+----------------------------------
+original sentence: 
+Simple math shows that each of those deals produces nearly $3.5 million in profit per year.
+
+POS tagged sentence: 
+[('Simple', 'NNP'), ('math', 'NN'), ('shows', 'VBZ'), ('that', 'IN'), ('each', 'DT'), ('of', 'IN'), ('those', 'DT'), ('deals', 'NNS'), ('produces', 'NNS'), ('nearly', 'RB'), ('$', '$'), ('3.5', 'CD'), ('million', 'CD'), ('in', 'IN'), ('profit', 'NN'), ('per', 'IN'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Simple/NNP)   math/NN   shows/VBZ   that/IN   each/DT   of/IN   those/DT   deals/NNS   produces/NNS   nearly/RB   $/$   3.5/CD   million/CD   in/IN   profit/NN   per/IN   year/NN   ./.)
+----------------------------------
+original sentence: 
+Do you see now how to make a million dollars?
+
+POS tagged sentence: 
+[('Do', 'NNP'), ('you', 'PRP'), ('see', 'VB'), ('now', 'RB'), ('how', 'WRB'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('million', 'NN'), ('dollars', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Do/NNP   you/PRP   see/VB   now/RB   how/WRB   to/TO   make/VB   a/DT   million/NN   dollars/NNS   ?/.)
+----------------------------------
+original sentence: 
+The nearly free money available to banks, though, was intended to be lent, not spent on U.S. debt.
+
+POS tagged sentence: 
+[('The', 'DT'), ('nearly', 'RB'), ('free', 'JJ'), ('money', 'NN'), ('available', 'JJ'), ('to', 'TO'), ('banks', 'NNS'), (',', ','), ('though', 'IN'), (',', ','), ('was', 'VBD'), ('intended', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('lent', 'VBN'), (',', ','), ('not', 'RB'), ('spent', 'VBN'), ('on', 'IN'), ('U.S.', 'NNP'), ('debt', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   nearly/RB   free/JJ   money/NN   available/JJ   to/TO   banks/NNS   ,/,   though/IN   ,/,   was/VBD   intended/VBN   to/TO   be/VB   lent/VBN   ,/,   not/RB   spent/VBN   on/IN   (GPE U.S./NNP)   debt/NN   ./.)
+----------------------------------
+original sentence: 
+But buying 10 year notes has had unintended consequences that keeps everyone happy, especially since Uncle Sam is finding its debt a tougher sell overseas.
+
+POS tagged sentence: 
+[('But', 'CC'), ('buying', 'VBG'), ('10', 'CD'), ('year', 'NN'), ('notes', 'NNS'), ('has', 'VBZ'), ('had', 'VBN'), ('unintended', 'VBN'), ('consequences', 'NNS'), ('that', 'IN'), ('keeps', 'NNS'), ('everyone', 'VBP'), ('happy', 'JJ'), (',', ','), ('especially', 'RB'), ('since', 'IN'), ('Uncle', 'NNP'), ('Sam', 'NNP'), ('is', 'VBZ'), ('finding', 'VBG'), ('its', 'PRP$'), ('debt', 'NN'), ('a', 'DT'), ('tougher', 'NN'), ('sell', 'NN'), ('overseas', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   buying/VBG   10/CD   year/NN   notes/NNS   has/VBZ   had/VBN   unintended/VBN   consequences/NNS   that/IN   keeps/NNS   everyone/VBP   happy/JJ   ,/,   especially/RB   since/IN   (PERSON Uncle/NNP Sam/NNP)   is/VBZ   finding/VBG   its/PRP$   debt/NN   a/DT   tougher/NN   sell/NN   overseas/RB   ./.)
+----------------------------------
+original sentence: 
+Because the 10 year note is closely tied to mortgage rates, the more of those that sell, the cheaper mortgages are, at least that's what conventional banking wisdom also says.
+
+POS tagged sentence: 
+[('Because', 'IN'), ('the', 'DT'), ('10', 'CD'), ('year', 'NN'), ('note', 'NN'), ('is', 'VBZ'), ('closely', 'RB'), ('tied', 'VBN'), ('to', 'TO'), ('mortgage', 'NN'), ('rates', 'NNS'), (',', ','), ('the', 'DT'), ('more', 'RBR'), ('of', 'IN'), ('those', 'DT'), ('that', 'WDT'), ('sell', 'VBP'), (',', ','), ('the', 'DT'), ('cheaper', 'NN'), ('mortgages', 'NNS'), ('are', 'VBP'), (',', ','), ('at', 'IN'), ('least', 'JJS'), ('that', 'IN'), ("'s", 'POS'), ('what', 'WP'), ('conventional', 'JJ'), ('banking', 'NN'), ('wisdom', 'NN'), ('also', 'RB'), ('says', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Because/IN   the/DT   10/CD   year/NN   note/NN   is/VBZ   closely/RB   tied/VBN   to/TO   mortgage/NN   rates/NNS   ,/,   the/DT   more/RBR   of/IN   those/DT   that/WDT   sell/VBP   ,/,   the/DT   cheaper/NN   mortgages/NNS   are/VBP   ,/,   at/IN   least/JJS   that/IN   's/POS   what/WP   conventional/JJ   banking/NN   wisdom/NN   also/RB   says/VBZ   ./.)
+----------------------------------
+original sentence: 
+More affirmation of our New Normal Banking surfaced Monday.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('affirmation', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('New', 'NNP'), ('Normal', 'NNP'), ('Banking', 'NNP'), ('surfaced', 'VBD'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   affirmation/NN   of/IN   our/PRP$   (GPE New/NNP Normal/NNP)   Banking/NNP   surfaced/VBD   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+The Treasury Department said loan originations by nine U.S. banks that received government financial assistance dropped 35 percent in January from the prior month.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('said', 'VBD'), ('loan', 'NN'), ('originations', 'NNS'), ('by', 'IN'), ('nine', 'CD'), ('U.S.', 'NNP'), ('banks', 'NNS'), ('that', 'WDT'), ('received', 'VBD'), ('government', 'NN'), ('financial', 'JJ'), ('assistance', 'NN'), ('dropped', 'VBD'), ('35', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('January', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('prior', 'JJ'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Treasury/NNP Department/NNP)   said/VBD   loan/NN   originations/NNS   by/IN   nine/CD   (GPE U.S./NNP)   banks/NNS   that/WDT   received/VBD   government/NN   financial/JJ   assistance/NN   dropped/VBD   35/CD   percent/NN   in/IN   January/NNP   from/IN   the/DT   prior/JJ   month/NN   ./.)
+----------------------------------
+original sentence: 
+Citigroup Inc., which reported the most among the nine, said originations fell 35 percent to $10.6 billion from a month earlier.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('which', 'WDT'), ('reported', 'VBD'), ('the', 'DT'), ('most', 'JJS'), ('among', 'IN'), ('the', 'DT'), ('nine', 'CD'), (',', ','), ('said', 'VBD'), ('originations', 'NNS'), ('fell', 'VBD'), ('35', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('10.6', 'CD'), ('billion', 'CD'), ('from', 'IN'), ('a', 'DT'), ('month', 'NN'), ('earlier', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   (ORGANIZATION Inc./NNP)   ,/,   which/WDT   reported/VBD   the/DT   most/JJS   among/IN   the/DT   nine/CD   ,/,   said/VBD   originations/NNS   fell/VBD   35/CD   percent/NN   to/TO   $/$   10.6/CD   billion/CD   from/IN   a/DT   month/NN   earlier/RBR   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD the/DT most/JJS among/IN the/DT nine/CD)
+	(VERB said/VBD originations/NNS)
+	(VERB fell/VBD 35/CD percent/NN)
+
+tagged sentence:
+	 fell 35 percent	res:-1
+noun phrases to consider:
+	(NOUN Citigroup/NNP Inc./NNP)
+	(NOUN month/NN)
+
+----------------------------------
+original sentence: 
+Last week Citigroup's CEO Vikram Pandit told an investor conference the bank was back on the road to profitability after 2009 saw an $8 billion loss.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('week', 'NN'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('CEO', 'NNP'), ('Vikram', 'NNP'), ('Pandit', 'NNP'), ('told', 'VBD'), ('an', 'DT'), ('investor', 'NN'), ('conference', 'NN'), ('the', 'DT'), ('bank', 'NN'), ('was', 'VBD'), ('back', 'RB'), ('on', 'IN'), ('the', 'DT'), ('road', 'NN'), ('to', 'TO'), ('profitability', 'NN'), ('after', 'IN'), ('2009', 'CD'), ('saw', 'NN'), ('an', 'DT'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('loss', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   week/NN   (PERSON Citigroup/NNP)   's/POS   (ORGANIZATION CEO/NNP Vikram/NNP Pandit/NNP)   told/VBD   an/DT   investor/NN   conference/NN   the/DT   bank/NN   was/VBD   back/RB   on/IN   the/DT   road/NN   to/TO   profitability/NN   after/IN   2009/CD   saw/NN   an/DT   $/$   8/CD   billion/CD   loss/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB told/VBD an/DT investor/NN conference/NN the/DT bank/NN)
+	(VERB was/VBD back/RB on/IN the/DT road/NN)
+noun phrases to consider:
+	(NOUN Last/JJ week/NN Citigroup/NNP)
+	(NOUN CEO/NNP Vikram/NNP Pandit/NNP)
+	(NOUN profitability/NN)
+	(NOUN 2009/CD saw/NN)
+	(NOUN billion/CD loss/NN)
+
+tagged sentence:
+	 billion loss	res:-1
+
+----------------------------------
+original sentence: 
+Well, that road is not paved with loans to consumer and businesses.
+
+POS tagged sentence: 
+[('Well', 'NNP'), (',', ','), ('that', 'IN'), ('road', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('paved', 'VBN'), ('with', 'IN'), ('loans', 'NNS'), ('to', 'TO'), ('consumer', 'NN'), ('and', 'CC'), ('businesses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Well/NNP)   ,/,   that/IN   road/NN   is/VBZ   not/RB   paved/VBN   with/IN   loans/NNS   to/TO   consumer/NN   and/CC   businesses/NNS   ./.)
+----------------------------------
+original sentence: 
+Citi profits from using free money to buy taxpayer financed bonds instead of reviving Main Street.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('profits', 'NNS'), ('from', 'IN'), ('using', 'VBG'), ('free', 'JJ'), ('money', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('taxpayer', 'NN'), ('financed', 'VBN'), ('bonds', 'NNS'), ('instead', 'RB'), ('of', 'IN'), ('reviving', 'VBG'), ('Main', 'NNP'), ('Street', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   profits/NNS   from/IN   using/VBG   free/JJ   money/NN   to/TO   buy/VB   taxpayer/NN   financed/VBN   bonds/NNS   instead/RB   of/IN   reviving/VBG   (PERSON Main/NNP Street/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB using/VBG free/JJ money/NN)
+	(VERB buy/VB taxpayer/NN)
+	(VERB financed/VBN bonds/NNS instead/RB of/IN)
+	(VERB reviving/VBG Main/NNP Street/NNP)
+noun phrases to consider:
+	(NOUN Citi/NNP profits/NNS)
+
+----------------------------------
+original sentence: 
+Welcome to the recovery.
+
+POS tagged sentence: 
+[('Welcome', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Welcome/NNP) to/TO the/DT recovery/NN ./.)
+----------------------------------
+original sentence: 
+Drew Voros is the business editor.
+
+POS tagged sentence: 
+[('Drew', 'NNP'), ('Voros', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('business', 'NN'), ('editor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Drew/NNP)   (PERSON Voros/NNP)   is/VBZ   the/DT   business/NN   editor/NN   ./.)
+----------------------------------
+original sentence: 
+His column runs on Wednesdays.
+
+POS tagged sentence: 
+[('His', 'PRP$'), ('column', 'NN'), ('runs', 'VBZ'), ('on', 'IN'), ('Wednesdays', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S His/PRP$ column/NN runs/VBZ on/IN Wednesdays/NNPS ./.)
+----------------------------------
+original sentence: 
+He can be reached at avoros@bayareanewsgroup.com.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('can', 'MD'), ('be', 'VB'), ('reached', 'VBN'), ('at', 'IN'), ('avoros', 'NNS'), ('@', ':'), ('bayareanewsgroup.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   can/MD   be/VB   reached/VBN   at/IN   avoros/NNS   @/:   bayareanewsgroup.com/JJ   ./.)
+----------------------------------
+original sentence: 
+Follow him at Twitter.com/bizeditor.
+
+POS tagged sentence: 
+[('Follow', 'NNP'), ('him', 'PRP'), ('at', 'IN'), ('Twitter.com/bizeditor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Follow/NNP him/PRP at/IN Twitter.com/bizeditor/NN ./.)
+----------------------------------
+original sentence: 
+To see more of the Contra Costa Times, or to subscribe to the newspaper, go to http://www.contracostatimes.com/.
+
+POS tagged sentence: 
+[('To', 'TO'), ('see', 'VB'), ('more', 'JJR'), ('of', 'IN'), ('the', 'DT'), ('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), (',', ','), ('or', 'CC'), ('to', 'TO'), ('subscribe', 'VB'), ('to', 'TO'), ('the', 'DT'), ('newspaper', 'NN'), (',', ','), ('go', 'VBP'), ('to', 'TO'), ('http', 'VB'), (':', ':'), ('//www.contracostatimes.com/', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   see/VB   more/JJR   of/IN   the/DT   (ORGANIZATION Contra/NNP Costa/NNP Times/NNP)   ,/,   or/CC   to/TO   subscribe/VB   to/TO   the/DT   newspaper/NN   ,/,   go/VBP   to/TO   http/VB   :/:   //www.contracostatimes.com//JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB more/JJR of/IN the/DT Contra/NNP Costa/NNP Times/NNP)
+	(VERB subscribe/VB to/TO the/DT newspaper/NN)
+	(VERB go/VBP to/TO http/VB)
+noun phrases to consider:
+	(NOUN //www.contracostatimes.com//JJ)
+
+----------------------------------
+original sentence: 
+Copyright c 2010, Contra Costa Times, Walnut Creek, Calif.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('c', 'NN'), ('2010', 'CD'), (',', ','), ('Contra', 'NNP'), ('Costa', 'NNP'), ('Times', 'NNP'), (',', ','), ('Walnut', 'NNP'), ('Creek', 'NNP'), (',', ','), ('Calif', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Copyright/NNP)   c/NN   2010/CD   ,/,   (PERSON Contra/NNP Costa/NNP Times/NNP)   ,/,   (PERSON Walnut/NNP Creek/NNP)   ,/,   (GPE Calif/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Copyright/NNP c/NN)
+	(NOUN Contra/NNP Costa/NNP Times/NNP)
+	(NOUN Walnut/NNP Creek/NNP)
+	(NOUN Calif/NNP)
+
+----------------------------------
+original sentence: 
+Distributed by McClatchy Tribune Information Services.
+
+POS tagged sentence: 
+[('Distributed', 'NNP'), ('by', 'IN'), ('McClatchy', 'NNP'), ('Tribune', 'NNP'), ('Information', 'NNP'), ('Services', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Distributed/NNP)   by/IN   (ORGANIZATION     McClatchy/NNP     Tribune/NNP     Information/NNP     Services/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Distributed/NNP)
+	(NOUN McClatchy/NNP Tribune/NNP Information/NNP Services/NNPS)
+
+----------------------------------
+original sentence: 
+For reprints, email tmsreprints@permissionsgroup.com, call 800 374 7985 or 847 635 6550, send a fax to 847 635 6968, or write to The Permissions Group Inc., 1247 Milwaukee Ave., Suite 303, Glenview, IL 60025, USA.
+
+POS tagged sentence: 
+[('For', 'IN'), ('reprints', 'NNS'), (',', ','), ('email', 'NN'), ('tmsreprints', 'NNS'), ('@', ':'), ('permissionsgroup.com', 'JJ'), (',', ','), ('call', 'NN'), ('800', 'CD'), ('374', 'CD'), ('7985', 'CD'), ('or', 'CC'), ('847', 'CD'), ('635', 'CD'), ('6550', 'CD'), (',', ','), ('send', 'NN'), ('a', 'DT'), ('fax', 'NN'), ('to', 'TO'), ('847', 'CD'), ('635', 'CD'), ('6968', 'CD'), (',', ','), ('or', 'CC'), ('write', 'VB'), ('to', 'TO'), ('The', 'DT'), ('Permissions', 'NNS'), ('Group', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('1247', 'CD'), ('Milwaukee', 'NNP'), ('Ave.', 'NNP'), (',', ','), ('Suite', 'NNP'), ('303', 'CD'), (',', ','), ('Glenview', 'NNP'), (',', ','), ('IL', 'NNP'), ('60025', 'CD'), (',', ','), ('USA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   reprints/NNS   ,/,   email/NN   tmsreprints/NNS   @/:   permissionsgroup.com/JJ   ,/,   call/NN   800/CD   374/CD   7985/CD   or/CC   847/CD   635/CD   6550/CD   ,/,   send/NN   a/DT   fax/NN   to/TO   847/CD   635/CD   6968/CD   ,/,   or/CC   write/VB   to/TO   The/DT   (ORGANIZATION Permissions/NNS Group/NNP Inc./NNP)   ,/,   1247/CD   (PERSON Milwaukee/NNP Ave./NNP)   ,/,   (ORGANIZATION Suite/NNP)   303/CD   ,/,   (PERSON Glenview/NNP)   ,/,   IL/NNP   60025/CD   ,/,   (ORGANIZATION USA/NNP)   ./.)
+----------------------------------
+original sentence: 
+A service of YellowBrix, Inc.
+
+POS tagged sentence: 
+[('A', 'DT'), ('service', 'NN'), ('of', 'IN'), ('YellowBrix', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   service/NN   of/IN   (ORGANIZATION YellowBrix/NNP)   ,/,   (PERSON Inc/NNP)   ./.)
+----------------------------------
+original sentence: 
+Subscribe to Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+  Related Press Releases
+ |  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('Related', 'NNP'), ('Press', 'NNP'), ('Releases', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   (GPE Rate/NNP)   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   (PERSON Related/NNP Press/NNP Releases/NNP)   |/NNP   |/NNP   |/NNP   Join/NNP   Blog/NNP   (PERSON Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB copryright/VBD 2010/CD all/DT rights/NNS)
+	(VERB reserved/VBN Fundamental/NNP data/NNS)
+	(VERB   is/VBZ   provided/VBN   by/IN   Zacks/NNP   Investment/NNP   Research/NNP)
+	(VERB is/VBZ provided/VBN by/IN)
+	(VERB provided/VBD by/IN)
+noun phrases to consider:
+	(NOUN Subscribe/NNP)
+	(NOUN Rate/NNP)
+	(NOUN Commentary/NNP Name/NNP)
+	(NOUN Alert/NNP)
+	(NOUN new/JJ comments/NNS)
+	(NOUN Your/NNP email/NN)
+	(NOUN Website/NNP)
+	(NOUN Title/NNP)
+	(NOUN RadEditor/NNP hidden/NN textarea/NN Related/NNP)
+	(NOUN Press/NNP Releases/NNP |/NNP |/NNP)
+	(NOUN |/NNP Join/NNP Blog/NNP Network/NNP)
+	(NOUN market/NN data/NNS)
+	(NOUN Commentary/NNP)
+	(NOUN Press/NNP Releases/NNP)
+
+
+veryneg:0	neg:2	pos:0	verypos:0	total:1

@@ -1,0 +1,133 @@
+
+----------------------------------
+original sentence: 
+Morning Market News Blockbuster NYSE:BBI , Ford NYSE:F , Intel NASDAQ:INTC , Microsoft NASDAQ:MSFT | Oakshire Financial
+Bourbon & Bayonets
+ &gt; Morning Market News &#8211; Blockbuster NYSE:BBI , Ford NYSE:F , Intel NASDAQ:INTC , Microsoft NASDAQ:MSFT Morning Market News &#8211; Blockbuster NYSE:BBI , Ford NYSE:F , Intel NASDAQ:INTC , Microsoft NASDAQ:MSFT Bourbon & Bayonets
+According to the US Labor Department, wholesale prices declined more than anticipated last month.Â  February saw prices fall 0.6%, twice more than initially expected.Â  This is the largest decline in wholesale prices since July of last year.Â  Economists are attributing most of this decline to fluxuations in energy and food prices, as the core PPI Producer Price Index actually rose 0.1% last month.Â  The PPI excludes the volatile food and energy markets, and beat the experts predictions last month A 0.1% decline was anticipated .
+
+POS tagged sentence: 
+[('Morning', 'VBG'), ('Market', 'NN'), ('News', 'NNS'), ('Blockbuster', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BBI', 'NNP'), (',', ','), ('Ford', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('F', 'NN'), (',', ','), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('Microsoft', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('|', ':'), ('Oakshire', 'NNP'), ('Financial', 'NNP'), ('Bourbon', 'NNP'), ('&', 'CC'), ('Bayonets', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('Morning', 'NNP'), ('Market', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Blockbuster', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BBI', 'NNP'), (',', ','), ('Ford', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('F', 'NN'), (',', ','), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('Microsoft', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('Morning', 'NNP'), ('Market', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('Blockbuster', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BBI', 'NNP'), (',', ','), ('Ford', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('F', 'NN'), (',', ','), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('Microsoft', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('Bourbon', 'NNP'), ('&', 'CC'), ('Bayonets', 'NNP'), ('According', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('US', 'NNP'), ('Labor', 'NNP'), ('Department', 'NNP'), (',', ','), ('wholesale', 'JJ'), ('prices', 'NNS'), ('declined', 'VBD'), ('more', 'JJR'), ('than', 'IN'), ('anticipated', 'VBN'), ('last', 'JJ'), ('month.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('February', 'NNP'), ('saw', 'VBD'), ('prices', 'NNS'), ('fall', 'VBP'), ('0.6', 'CD'), ('%', 'NN'), (',', ','), ('twice', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('initially', 'RB'), ('expected.', 'NNP'), ('\xc2', ':'), ('\xa0', ':'), ('This', 'DT'), ('is', 'VBZ'), ('the', 'DT'), ('largest', 'JJS'), ('decline', 'NN'), ('in', 'IN'), ('wholesale', 'JJ'), ('prices', 'NNS'), ('since', 'IN'), ('July', 'NNP'), ('of', 'IN'), ('last', 'JJ'), ('year.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Economists', 'NNP'), ('are', 'VBP'), ('attributing', 'VBG'), ('most', 'JJS'), ('of', 'IN'), ('this', 'DT'), ('decline', 'NN'), ('to', 'TO'), ('fluxuations', 'NNS'), ('in', 'IN'), ('energy', 'NN'), ('and', 'CC'), ('food', 'NN'), ('prices', 'NNS'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('core', 'NN'), ('PPI', 'NNP'), ('Producer', 'NNP'), ('Price', 'NNP'), ('Index', 'NNP'), ('actually', 'RB'), ('rose', 'VBD'), ('0.1', 'CD'), ('%', 'NN'), ('last', 'JJ'), ('month.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('PPI', 'NNP'), ('excludes', 'VBZ'), ('the', 'DT'), ('volatile', 'JJ'), ('food', 'NN'), ('and', 'CC'), ('energy', 'NN'), ('markets', 'NNS'), (',', ','), ('and', 'CC'), ('beat', 'VB'), ('the', 'DT'), ('experts', 'NNS'), ('predictions', 'NNS'), ('last', 'JJ'), ('month', 'NN'), ('A', 'DT'), ('0.1', 'CD'), ('%', 'NN'), ('decline', 'NN'), ('was', 'VBD'), ('anticipated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Morning/VBG   (ORGANIZATION Market/NN News/NNS Blockbuster/NNP)   NYSE/NNP   :/:   BBI/NNP   ,/,   (ORGANIZATION Ford/NNP)   NYSE/NNP   :/:   F/NN   ,/,   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   (PERSON Microsoft/NNP NASDAQ/NNP)   :/:   MSFT/NNP   |/:   (PERSON Oakshire/NNP Financial/NNP Bourbon/NNP)   &/CC   (ORGANIZATION Bayonets/NNP)   &gt/NNP   ;/:   Morning/NNP   (PERSON Market/NNP News/NNP)   &/CC   #/#   8211/CD   ;/:   (PERSON Blockbuster/NNP NYSE/NNP)   :/:   BBI/NNP   ,/,   (ORGANIZATION Ford/NNP)   NYSE/NNP   :/:   F/NN   ,/,   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   (PERSON Microsoft/NNP NASDAQ/NNP)   :/:   (ORGANIZATION MSFT/NNP)   Morning/NNP   (PERSON Market/NNP News/NNP)   &/CC   #/#   8211/CD   ;/:   (PERSON Blockbuster/NNP NYSE/NNP)   :/:   BBI/NNP   ,/,   (ORGANIZATION Ford/NNP)   NYSE/NNP   :/:   F/NN   ,/,   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   (PERSON Microsoft/NNP NASDAQ/NNP)   :/:   (ORGANIZATION MSFT/NNP Bourbon/NNP)   &/CC   (ORGANIZATION Bayonets/NNP)   According/NNP   to/TO   the/DT   (ORGANIZATION US/NNP Labor/NNP Department/NNP)   ,/,   wholesale/JJ   prices/NNS   declined/VBD   more/JJR   than/IN   anticipated/VBN   last/JJ   month./NNP   Â/NNP    /NNP   February/NNP   saw/VBD   prices/NNS   fall/VBP   0.6/CD   %/NN   ,/,   twice/NN   more/JJR   than/IN   initially/RB   expected./NNP   Â/:    /:   This/DT   is/VBZ   the/DT   largest/JJS   decline/NN   in/IN   wholesale/JJ   prices/NNS   since/IN   July/NNP   of/IN   last/JJ   year./NNP   Â/NNP    /NNP   Economists/NNP   are/VBP   attributing/VBG   most/JJS   of/IN   this/DT   decline/NN   to/TO   fluxuations/NNS   in/IN   energy/NN   and/CC   food/NN   prices/NNS   ,/,   as/IN   the/DT   core/NN   (ORGANIZATION PPI/NNP)   Producer/NNP   Price/NNP   Index/NNP   actually/RB   rose/VBD   0.1/CD   %/NN   last/JJ   month./NNP   Â/NNP    /NNP   The/NNP   (ORGANIZATION PPI/NNP)   excludes/VBZ   the/DT   volatile/JJ   food/NN   and/CC   energy/NN   markets/NNS   ,/,   and/CC   beat/VB   the/DT   experts/NNS   predictions/NNS   last/JJ   month/NN   A/DT   0.1/CD   %/NN   decline/NN   was/VBD   anticipated/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Morning/VBG Market/NN News/NNS Blockbuster/NNP NYSE/NNP)
+	(VERB declined/VBD more/JJR than/IN)
+	(VERB anticipated/VBN last/JJ month./NNP Â/NNP  /NNP February/NNP)
+	(VERB saw/VBD prices/NNS)
+	(VERB fall/VBP 0.6/CD %/NN)
+	(VERB   is/VBZ   the/DT   largest/JJS   decline/NN   in/IN   wholesale/JJ   prices/NNS   since/IN   July/NNP   of/IN   last/JJ   year./NNP   Â/NNP    /NNP   Economists/NNP)
+	(VERB are/VBP attributing/VBG most/JJS of/IN this/DT decline/NN)
+	(VERB   rose/VBD   0.1/CD   %/NN   last/JJ   month./NNP   Â/NNP    /NNP   The/NNP   PPI/NNP)
+	(VERB excludes/VBZ the/DT volatile/JJ food/NN)
+	(VERB   beat/VB   the/DT   experts/NNS   predictions/NNS   last/JJ   month/NN   A/DT   0.1/CD   %/NN   decline/NN)
+	(VERB was/VBD anticipated/VBN)
+noun phrases to consider:
+	(NOUN BBI/NNP)
+	(NOUN Ford/NNP NYSE/NNP)
+	(NOUN F/NN)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN Microsoft/NNP NASDAQ/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN Oakshire/NNP Financial/NNP Bourbon/NNP)
+	(NOUN Bayonets/NNP &gt/NNP)
+	(NOUN Morning/NNP Market/NNP News/NNP)
+	(NOUN Blockbuster/NNP NYSE/NNP)
+	(NOUN BBI/NNP)
+	(NOUN Ford/NNP NYSE/NNP)
+	(NOUN F/NN)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN Microsoft/NNP NASDAQ/NNP)
+	(NOUN MSFT/NNP Morning/NNP Market/NNP News/NNP)
+	(NOUN Blockbuster/NNP NYSE/NNP)
+	(NOUN BBI/NNP)
+	(NOUN Ford/NNP NYSE/NNP)
+	(NOUN F/NN)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN Microsoft/NNP NASDAQ/NNP)
+	(NOUN MSFT/NNP Bourbon/NNP)
+	(NOUN Bayonets/NNP According/NNP)
+	(NOUN US/NNP Labor/NNP Department/NNP)
+	(NOUN wholesale/JJ prices/NNS)
+	(NOUN twice/NN more/JJR)
+	(NOUN expected./NNP)
+	(NOUN fluxuations/NNS)
+	(NOUN energy/NN)
+	(NOUN food/NN prices/NNS)
+	(NOUN core/NN PPI/NNP Producer/NNP Price/NNP)
+	(NOUN Index/NNP)
+	(NOUN energy/NN markets/NNS)
+
+----------------------------------
+original sentence: 
+This decline in wholesale prices decreases the threat of inflation, while an increase in core PPI also decreases the possibility of the dreaded deflation.Â  This is good news for the markets, and no doubt increased investor confidence.Â  The US stock markets were up today accordingly.Â  In the world markets, OPEC Organization of Petroleum Exporting Countries has announced that itâ€™s leaving oil production quota levels unchanged after a recent meeting in Vienna, which caused an increase in oil prices.
+
+POS tagged sentence: 
+[('This', 'DT'), ('decline', 'NN'), ('in', 'IN'), ('wholesale', 'JJ'), ('prices', 'NNS'), ('decreases', 'NNS'), ('the', 'DT'), ('threat', 'NN'), ('of', 'IN'), ('inflation', 'NN'), (',', ','), ('while', 'IN'), ('an', 'DT'), ('increase', 'NN'), ('in', 'IN'), ('core', 'NN'), ('PPI', 'NNP'), ('also', 'RB'), ('decreases', 'VBZ'), ('the', 'DT'), ('possibility', 'NN'), ('of', 'IN'), ('the', 'DT'), ('dreaded', 'VBN'), ('deflation.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('This', 'NNP'), ('is', 'VBZ'), ('good', 'JJ'), ('news', 'NN'), ('for', 'IN'), ('the', 'DT'), ('markets', 'NNS'), (',', ','), ('and', 'CC'), ('no', 'DT'), ('doubt', 'NN'), ('increased', 'VBD'), ('investor', 'NN'), ('confidence.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('US', 'NNP'), ('stock', 'NN'), ('markets', 'NNS'), ('were', 'VBD'), ('up', 'RB'), ('today', 'NN'), ('accordingly.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('In', 'NNP'), ('the', 'DT'), ('world', 'NN'), ('markets', 'NNS'), (',', ','), ('OPEC', 'NNP'), ('Organization', 'NNP'), ('of', 'IN'), ('Petroleum', 'NNP'), ('Exporting', 'NNP'), ('Countries', 'NNPS'), ('has', 'VBZ'), ('announced', 'VBN'), ('that', 'IN'), ('it', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('leaving', 'VBG'), ('oil', 'NN'), ('production', 'NN'), ('quota', 'NN'), ('levels', 'NNS'), ('unchanged', 'JJ'), ('after', 'IN'), ('a', 'DT'), ('recent', 'JJ'), ('meeting', 'NN'), ('in', 'IN'), ('Vienna', 'NNP'), (',', ','), ('which', 'WDT'), ('caused', 'VBN'), ('an', 'DT'), ('increase', 'NN'), ('in', 'IN'), ('oil', 'NN'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   decline/NN   in/IN   wholesale/JJ   prices/NNS   decreases/NNS   the/DT   threat/NN   of/IN   inflation/NN   ,/,   while/IN   an/DT   increase/NN   in/IN   core/NN   (ORGANIZATION PPI/NNP)   also/RB   decreases/VBZ   the/DT   possibility/NN   of/IN   the/DT   dreaded/VBN   deflation./NNP   Â/NNP    /NNP   This/NNP   is/VBZ   good/JJ   news/NN   for/IN   the/DT   markets/NNS   ,/,   and/CC   no/DT   doubt/NN   increased/VBD   investor/NN   confidence./NNP   Â/NNP    /NNP   The/NNP   (ORGANIZATION US/NNP)   stock/NN   markets/NNS   were/VBD   up/RB   today/NN   accordingly./NNP   Â/NNP    /NNP   In/NNP   the/DT   world/NN   markets/NNS   ,/,   (ORGANIZATION OPEC/NNP Organization/NNP)   of/IN   (PERSON Petroleum/NNP Exporting/NNP)   Countries/NNPS   has/VBZ   announced/VBN   that/IN   it/PRP   â/VBP   €/:   ™/:   s/NNS   leaving/VBG   oil/NN   production/NN   quota/NN   levels/NNS   unchanged/JJ   after/IN   a/DT   recent/JJ   meeting/NN   in/IN   (GSP Vienna/NNP)   ,/,   which/WDT   caused/VBN   an/DT   increase/NN   in/IN   oil/NN   prices/NNS   ./.)
+----------------------------------
+original sentence: 
+Blockbusterâ€™s NYSE:BBI  recent internal audit appears to be poor, causing the stock to tumble.Â  The struggling video chain is now seriously flirting with the idea of voluntary bankruptcy, a move they had announced as possible to investors a month ago.Â  Video store business is down due to the growing popularity of streaming video, DVD mailings, and rental kiosks.
+
+POS tagged sentence: 
+[('Blockbuster', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('NYSE', 'VBP'), (':', ':'), ('BBI', 'NNP'), ('recent', 'JJ'), ('internal', 'JJ'), ('audit', 'NN'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('poor', 'JJ'), (',', ','), ('causing', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('to', 'TO'), ('tumble.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('struggling', 'NN'), ('video', 'NN'), ('chain', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('seriously', 'RB'), ('flirting', 'VBG'), ('with', 'IN'), ('the', 'DT'), ('idea', 'NN'), ('of', 'IN'), ('voluntary', 'JJ'), ('bankruptcy', 'NN'), (',', ','), ('a', 'DT'), ('move', 'NN'), ('they', 'PRP'), ('had', 'VBD'), ('announced', 'VBN'), ('as', 'IN'), ('possible', 'JJ'), ('to', 'TO'), ('investors', 'NNS'), ('a', 'DT'), ('month', 'NN'), ('ago.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Video', 'NNP'), ('store', 'NN'), ('business', 'NN'), ('is', 'VBZ'), ('down', 'IN'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('growing', 'VBG'), ('popularity', 'NN'), ('of', 'IN'), ('streaming', 'VBG'), ('video', 'NN'), (',', ','), ('DVD', 'NNP'), ('mailings', 'NNS'), (',', ','), ('and', 'CC'), ('rental', 'JJ'), ('kiosks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Blockbuster/NNP   â/:   €/:   ™/:   s/NNS   NYSE/VBP   :/:   BBI/NNP   recent/JJ   internal/JJ   audit/NN   appears/VBZ   to/TO   be/VB   poor/JJ   ,/,   causing/VBG   the/DT   stock/NN   to/TO   tumble./NNP   Â/NNP    /NNP   The/NNP   struggling/NN   video/NN   chain/NN   is/VBZ   now/RB   seriously/RB   flirting/VBG   with/IN   the/DT   idea/NN   of/IN   voluntary/JJ   bankruptcy/NN   ,/,   a/DT   move/NN   they/PRP   had/VBD   announced/VBN   as/IN   possible/JJ   to/TO   investors/NNS   a/DT   month/NN   ago./NNP   Â/NNP    /NNP   Video/NNP   store/NN   business/NN   is/VBZ   down/IN   due/JJ   to/TO   the/DT   growing/VBG   popularity/NN   of/IN   streaming/VBG   video/NN   ,/,   (ORGANIZATION DVD/NNP)   mailings/NNS   ,/,   and/CC   rental/JJ   kiosks/NNS   ./.)
+----------------------------------
+original sentence: 
+Ford Motor Company NYSE:F  continues to announce good news, as their European sales totals have climbed 1.8% for the new year.Â  According to Fox Business, Italy leads the pack in the purchase of the American auto giants cars.Â  Despite the increase in sales numbers, Fordâ€™s overall market share remained stable, declining just 0.3% for the year.Â  So far theyâ€™ve sold approximately 93,000 vehicles to European customers in 2010.
+
+POS tagged sentence: 
+[('Ford', 'NNP'), ('Motor', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('F', 'NN'), ('continues', 'VBZ'), ('to', 'TO'), ('announce', 'NN'), ('good', 'NN'), ('news', 'NN'), (',', ','), ('as', 'IN'), ('their', 'PRP$'), ('European', 'JJ'), ('sales', 'NNS'), ('totals', 'NNS'), ('have', 'VBP'), ('climbed', 'VBN'), ('1.8', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('year.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('According', 'NNP'), ('to', 'TO'), ('Fox', 'NNP'), ('Business', 'NNP'), (',', ','), ('Italy', 'NNP'), ('leads', 'NNS'), ('the', 'DT'), ('pack', 'NN'), ('in', 'IN'), ('the', 'DT'), ('purchase', 'NN'), ('of', 'IN'), ('the', 'DT'), ('American', 'NNP'), ('auto', 'NN'), ('giants', 'NNS'), ('cars.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Despite', 'NNP'), ('the', 'DT'), ('increase', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('numbers', 'NNS'), (',', ','), ('Ford', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('overall', 'JJ'), ('market', 'NN'), ('share', 'NN'), ('remained', 'VBD'), ('stable', 'NN'), (',', ','), ('declining', 'VBG'), ('just', 'RB'), ('0.3', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('year.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('So', 'NNP'), ('far', 'RB'), ('they', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('ve', 'NN'), ('sold', 'VBD'), ('approximately', 'RB'), ('93,000', 'CD'), ('vehicles', 'NNS'), ('to', 'TO'), ('European', 'JJ'), ('customers', 'NNS'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Ford/NNP   Motor/NNP   Company/NNP   NYSE/NNP   :/:   F/NN   continues/VBZ   to/TO   announce/NN   good/NN   news/NN   ,/,   as/IN   their/PRP$   (GPE European/JJ)   sales/NNS   totals/NNS   have/VBP   climbed/VBN   1.8/CD   %/NN   for/IN   the/DT   new/JJ   year./NNP   Â/NNP    /NNP   According/NNP   to/TO   (PERSON Fox/NNP Business/NNP)   ,/,   (GPE Italy/NNP)   leads/NNS   the/DT   pack/NN   in/IN   the/DT   purchase/NN   of/IN   the/DT   (GPE American/NNP)   auto/NN   giants/NNS   cars./NNP   Â/NNP    /NNP   Despite/NNP   the/DT   increase/NN   in/IN   sales/NNS   numbers/NNS   ,/,   (ORGANIZATION Ford/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   overall/JJ   market/NN   share/NN   remained/VBD   stable/NN   ,/,   declining/VBG   just/RB   0.3/CD   %/NN   for/IN   the/DT   year./NNP   Â/NNP    /NNP   So/NNP   far/RB   they/PRP   â/VBP   €/:   ™/:   ve/NN   sold/VBD   approximately/RB   93,000/CD   vehicles/NNS   to/TO   (GPE European/JJ)   customers/NNS   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Intel Corporation NASDAQ:INTC  broke resistance yesterday to set a new 52 week high.Â  The tech companies stock has been rising steadily for the past two weeks.Â  In other tech news, a jury has awarded $106 million to company VirnetX after determining that
+ Microsoft Corporation NASDAQ:MSFT violated two of itâ€™s patents.Â  Bill Gatesâ€™ tech giant has said itâ€™s disappointed with the ruling and plans to appeal.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('broke', 'NN'), ('resistance', 'NN'), ('yesterday', 'NN'), ('to', 'TO'), ('set', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('The', 'NNP'), ('tech', 'NN'), ('companies', 'NNS'), ('stock', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('rising', 'VBG'), ('steadily', 'RB'), ('for', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('two', 'CD'), ('weeks.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('In', 'NNP'), ('other', 'JJ'), ('tech', 'NN'), ('news', 'NN'), (',', ','), ('a', 'DT'), ('jury', 'NN'), ('has', 'VBZ'), ('awarded', 'VBN'), ('$', '$'), ('106', 'CD'), ('million', 'CD'), ('to', 'TO'), ('company', 'NN'), ('VirnetX', 'NNP'), ('after', 'IN'), ('determining', 'VBG'), ('that', 'IN'), ('Microsoft', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('violated', 'VBD'), ('two', 'CD'), ('of', 'IN'), ('it', 'PRP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('patents.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Bill', 'NNP'), ('Gates', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('tech', 'NN'), ('giant', 'NN'), ('has', 'VBZ'), ('said', 'VBN'), ('it', 'PRP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('disappointed', 'VBD'), ('with', 'IN'), ('the', 'DT'), ('ruling', 'NN'), ('and', 'CC'), ('plans', 'VBZ'), ('to', 'TO'), ('appeal', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   broke/NN   resistance/NN   yesterday/NN   to/TO   set/VB   a/DT   new/JJ   52/CD   week/NN   high./NNP   Â/NNP    /NNP   The/NNP   tech/NN   companies/NNS   stock/NN   has/VBZ   been/VBN   rising/VBG   steadily/RB   for/IN   the/DT   past/JJ   two/CD   weeks./NNP   Â/NNP    /NNP   In/NNP   other/JJ   tech/NN   news/NN   ,/,   a/DT   jury/NN   has/VBZ   awarded/VBN   $/$   106/CD   million/CD   to/TO   company/NN   (ORGANIZATION VirnetX/NNP)   after/IN   determining/VBG   that/IN   (PERSON Microsoft/NNP Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION MSFT/NNP)   violated/VBD   two/CD   of/IN   it/PRP   â/:   €/:   ™/:   s/NNS   patents./NNP   Â/NNP    /NNP   (PERSON Bill/NNP Gates/NNP)   â/NNP   €/NNP   ™/NNP   tech/NN   giant/NN   has/VBZ   said/VBN   it/PRP   â/:   €/:   ™/:   s/NNS   disappointed/VBD   with/IN   the/DT   ruling/NN   and/CC   plans/VBZ   to/TO   appeal/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   set/VB   a/DT   new/JJ   52/CD   week/NN   high./NNP   Â/NNP    /NNP   The/NNP   tech/NN   companies/NNS   stock/NN)
+	(VERB   has/VBZ   been/VBN   rising/VBG   steadily/RB   for/IN   the/DT   past/JJ   two/CD   weeks./NNP   Â/NNP    /NNP   In/NNP   other/JJ   tech/NN   news/NN)
+	(VERB has/VBZ awarded/VBN)
+	(VERB   determining/VBG   that/IN   Microsoft/NNP   Corporation/NNP   NASDAQ/NNP)
+	(VERB violated/VBD two/CD of/IN it/PRP)
+	(VERB has/VBZ said/VBN it/PRP)
+	(VERB disappointed/VBD with/IN the/DT ruling/NN)
+	(VERB plans/VBZ to/TO appeal/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP broke/NN resistance/NN yesterday/NN)
+	(NOUN jury/NN)
+	(NOUN company/NN VirnetX/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN s/NNS patents./NNP Â/NNP  /NNP)
+	(NOUN Bill/NNP Gates/NNP â/NNP €/NNP)
+	(NOUN ™/NNP tech/NN giant/NN)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Click here to continue exploring Oakshire Financial
+
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('continue', 'VB'), ('exploring', 'NN'), ('Oakshire', 'NNP'), ('Financial', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Click/NNP)   here/RB   to/TO   continue/VB   exploring/NN   (PERSON Oakshire/NNP Financial/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

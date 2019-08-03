@@ -1,0 +1,156 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Approaching Resistance Intel | Trading Ideas
+ Approaching Resistance Intel  Written by Danny Miller  Monday, 15 March 2010 08:16 New York, March 15th TradersHuddle.com Shares of Intel Corporation NASDAQ:INTC are trading very close to calculated resistance at $21.29 with the current price action closing at just $21.27 placing the stock near levels that make it difficult to buy.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Approaching', 'NNP'), ('Resistance', 'NNP'), ('Intel', 'NNP'), ('|', 'NNP'), ('Trading', 'NNP'), ('Ideas', 'NNP'), ('Approaching', 'NNP'), ('Resistance', 'NNP'), ('Intel', 'NNP'), ('Written', 'NNP'), ('by', 'IN'), ('Danny', 'NNP'), ('Miller', 'NNP'), ('Monday', 'NNP'), (',', ','), ('15', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('16', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('March', 'NNP'), ('15th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('are', 'VBP'), ('trading', 'VBG'), ('very', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('calculated', 'VBN'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('21.29', 'CD'), ('with', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('price', 'NN'), ('action', 'NN'), ('closing', 'VBG'), ('at', 'IN'), ('just', 'RB'), ('$', '$'), ('21.27', 'CD'), ('placing', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('near', 'IN'), ('levels', 'NNS'), ('that', 'WDT'), ('make', 'VBP'), ('it', 'PRP'), ('difficult', 'JJ'), ('to', 'TO'), ('buy', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   Approaching/NNP   Resistance/NNP   Intel/NNP   |/NNP   Trading/NNP   Ideas/NNP   Approaching/NNP   Resistance/NNP   Intel/NNP   Written/NNP   by/IN   (PERSON Danny/NNP Miller/NNP)   Monday/NNP   ,/,   15/CD   March/NNP   2010/CD   08/CD   :/:   16/CD   (GPE New/NNP York/NNP)   ,/,   March/NNP   15th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   NASDAQ/NNP   :/:   INTC/NNP   are/VBP   trading/VBG   very/RB   close/JJ   to/TO   calculated/VBN   resistance/NN   at/IN   $/$   21.29/CD   with/IN   the/DT   current/JJ   price/NN   action/NN   closing/VBG   at/IN   just/RB   $/$   21.27/CD   placing/VBG   the/DT   stock/NN   near/IN   levels/NNS   that/WDT   make/VBP   it/PRP   difficult/JJ   to/TO   buy/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP trading/VBG very/RB close/JJ)
+
+tagged sentence:
+	 are trading very close	res:1
+	(VERB calculated/VBN resistance/NN at/IN)
+	(VERB closing/VBG at/IN just/RB)
+	(VERB placing/VBG the/DT stock/NN near/IN levels/NNS)
+	(VERB make/VBP it/PRP difficult/JJ)
+
+tagged sentence:
+	 make it difficult	res:-1
+	(VERB buy/VB)
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Approaching/NNP Resistance/NNP Intel/NNP)
+	(NOUN |/NNP Trading/NNP Ideas/NNP Approaching/NNP)
+	(NOUN Resistance/NNP Intel/NNP Written/NNP)
+	(NOUN Danny/NNP Miller/NNP Monday/NNP)
+	(NOUN 15/CD March/NNP)
+	(NOUN 16/CD New/NNP York/NNP)
+	(NOUN March/NNP)
+	(NOUN 15th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Intel/NNP Corporation/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+	(NOUN the/DT current/JJ price/NN action/NN)
+
+----------------------------------
+original sentence: 
+Intel Corporation NASDAQ:INTC designs, manufactures, and sells microprocessors, chipsets, embedded processors and microcontrollers, flash memory products, graphics products, and other computer related components.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('designs', 'NNS'), (',', ','), ('manufactures', 'NNS'), (',', ','), ('and', 'CC'), ('sells', 'NNS'), ('microprocessors', 'NNS'), (',', ','), ('chipsets', 'NNS'), (',', ','), ('embedded', 'VBD'), ('processors', 'NNS'), ('and', 'CC'), ('microcontrollers', 'NNS'), (',', ','), ('flash', 'NN'), ('memory', 'NN'), ('products', 'NNS'), (',', ','), ('graphics', 'NNS'), ('products', 'NNS'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('computer', 'NN'), ('related', 'VBD'), ('components', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   designs/NNS   ,/,   manufactures/NNS   ,/,   and/CC   sells/NNS   microprocessors/NNS   ,/,   chipsets/NNS   ,/,   embedded/VBD   processors/NNS   and/CC   microcontrollers/NNS   ,/,   flash/NN   memory/NN   products/NNS   ,/,   graphics/NNS   products/NNS   ,/,   and/CC   other/JJ   computer/NN   related/VBD   components/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB embedded/VBD processors/NNS)
+	(VERB related/VBD components/NNS)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP designs/NNS)
+	(NOUN manufactures/NNS)
+	(NOUN sells/NNS microprocessors/NNS)
+	(NOUN chipsets/NNS)
+	(NOUN microcontrollers/NNS)
+	(NOUN flash/NN memory/NN products/NNS)
+	(NOUN graphics/NNS products/NNS)
+	(NOUN other/JJ computer/NN)
+
+----------------------------------
+original sentence: 
+The largest chipmaker in the world was founded in 1968 and is based in Santa Clara, CA.
+Intel's current stock range is defined by current calculated support defined at $18.95 and by the resistance level at $21.29, the stock is clearly over extended from support, making it difficult to establishing new long positions at this level.
+
+POS tagged sentence: 
+[('The', 'DT'), ('largest', 'JJS'), ('chipmaker', 'NN'), ('in', 'IN'), ('the', 'DT'), ('world', 'NN'), ('was', 'VBD'), ('founded', 'VBN'), ('in', 'IN'), ('1968', 'CD'), ('and', 'CC'), ('is', 'VBZ'), ('based', 'VBN'), ('in', 'IN'), ('Santa', 'NNP'), ('Clara', 'NNP'), (',', ','), ('CA', 'NNP'), ('.', '.'), ('Intel', 'NNP'), ("'s", 'POS'), ('current', 'JJ'), ('stock', 'NN'), ('range', 'NN'), ('is', 'VBZ'), ('defined', 'VBN'), ('by', 'IN'), ('current', 'JJ'), ('calculated', 'VBN'), ('support', 'NN'), ('defined', 'VBN'), ('at', 'IN'), ('$', '$'), ('18.95', 'CD'), ('and', 'CC'), ('by', 'IN'), ('the', 'DT'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('21.29', 'CD'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('clearly', 'RB'), ('over', 'IN'), ('extended', 'JJ'), ('from', 'IN'), ('support', 'NN'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('difficult', 'VBD'), ('to', 'TO'), ('establishing', 'NN'), ('new', 'JJ'), ('long', 'JJ'), ('positions', 'NNS'), ('at', 'IN'), ('this', 'DT'), ('level', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   largest/JJS   chipmaker/NN   in/IN   the/DT   world/NN   was/VBD   founded/VBN   in/IN   1968/CD   and/CC   is/VBZ   based/VBN   in/IN   (GPE Santa/NNP Clara/NNP)   ,/,   (ORGANIZATION CA/NNP)   ./.   (ORGANIZATION Intel/NNP)   's/POS   current/JJ   stock/NN   range/NN   is/VBZ   defined/VBN   by/IN   current/JJ   calculated/VBN   support/NN   defined/VBN   at/IN   $/$   18.95/CD   and/CC   by/IN   the/DT   resistance/NN   level/NN   at/IN   $/$   21.29/CD   ,/,   the/DT   stock/NN   is/VBZ   clearly/RB   over/IN   extended/JJ   from/IN   support/NN   ,/,   making/VBG   it/PRP   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD founded/VBN in/IN 1968/CD)
+	(VERB is/VBZ based/VBN in/IN Santa/NNP Clara/NNP)
+	(VERB is/VBZ defined/VBN by/IN current/JJ)
+	(VERB calculated/VBN support/NN)
+	(VERB defined/VBN at/IN)
+	(VERB is/VBZ clearly/RB over/IN extended/JJ from/IN support/NN)
+
+tagged sentence:
+	 is clearly over extended from support	res:1
+	(VERB making/VBG it/PRP)
+	(VERB   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN)
+
+tagged sentence:
+	 difficult to establishing new long positions at this level	res:-1
+noun phrases to consider:
+	(NOUN The/DT largest/JJS chipmaker/NN)
+	(NOUN world/NN)
+	(NOUN CA/NNP)
+	(NOUN Intel/NNP)
+	(NOUN current/JJ stock/NN range/NN)
+	(NOUN resistance/NN level/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Traders don't have a clear entry point for Intel, as the stock is well above support, however, as the stock pulls back towards $18.95 it will definitely provide a reference point to establish a trade.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('have', 'VB'), ('a', 'DT'), ('clear', 'JJ'), ('entry', 'NN'), ('point', 'NN'), ('for', 'IN'), ('Intel', 'NNP'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('well', 'RB'), ('above', 'IN'), ('support', 'NN'), (',', ','), ('however', 'RB'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('pulls', 'NNS'), ('back', 'VBP'), ('towards', 'NNS'), ('$', '$'), ('18.95', 'CD'), ('it', 'PRP'), ('will', 'MD'), ('definitely', 'RB'), ('provide', 'VB'), ('a', 'DT'), ('reference', 'NN'), ('point', 'NN'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('trade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   (ORGANIZATION Intel/NNP)   ,/,   as/IN   the/DT   stock/NN   is/VBZ   well/RB   above/IN   support/NN   ,/,   however/RB   ,/,   as/IN   the/DT   stock/NN   pulls/NNS   back/VBP   towards/NNS   $/$   18.95/CD   it/PRP   will/MD   definitely/RB   provide/VB   a/DT   reference/NN   point/NN   to/TO   establish/VB   a/DT   trade/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   Intel/NNP)
+	(VERB is/VBZ well/RB above/IN support/NN)
+
+tagged sentence:
+	 is well above support	res:1
+	(VERB back/VBP towards/NNS)
+	(VERB provide/VB a/DT reference/NN point/NN)
+	(VERB establish/VB a/DT trade/NN)
+noun phrases to consider:
+	(NOUN Traders/NNS)
+	(NOUN stock/NN)
+	(NOUN stock/NN pulls/NNS)
+
+----------------------------------
+original sentence: 
+On the other hand if the stock decides to break above resistance level at $21.29 then traders will get an opportunity to enter Intel stock by establishing a position as the stock moves to a higher range.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('hand', 'NN'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('decides', 'VBZ'), ('to', 'TO'), ('break', 'VB'), ('above', 'IN'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('21.29', 'CD'), ('then', 'RB'), ('traders', 'NNS'), ('will', 'MD'), ('get', 'VB'), ('an', 'DT'), ('opportunity', 'NN'), ('to', 'TO'), ('enter', 'VB'), ('Intel', 'NNP'), ('stock', 'NN'), ('by', 'IN'), ('establishing', 'NN'), ('a', 'DT'), ('position', 'NN'), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('moves', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('higher', 'JJR'), ('range', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   other/JJ   hand/NN   if/IN   the/DT   stock/NN   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN   $/$   21.29/CD   then/RB   traders/NNS   will/MD   get/VB   an/DT   opportunity/NN   to/TO   enter/VB   (ORGANIZATION Intel/NNP)   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS   to/TO   a/DT   higher/JJR   range/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN)
+
+tagged sentence:
+	 decides to break above resistance level at	res:-1
+	(VERB get/VB an/DT opportunity/NN)
+
+tagged sentence:
+	 get an opportunity	res:1
+	(VERB   enter/VB   Intel/NNP   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS)
+
+tagged sentence:
+	 enter Intel stock by establishing a position as the stock moves	res:1
+noun phrases to consider:
+	(NOUN the/DT other/JJ hand/NN)
+	(NOUN stock/NN)
+	(NOUN traders/NNS)
+	(NOUN a/DT higher/JJR range/NN)
+
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:3	pos:5	verypos:0	total:0

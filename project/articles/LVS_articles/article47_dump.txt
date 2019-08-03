@@ -1,0 +1,130 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+SmarTrend&#039;s Candlestick Scanner Detects Bullish Harami Pattern for Las Vegas Sands LVS Monday, March 29, 2010 08:30
+Mon, 03/29/2010 08:30
+SmarTrend&apos;s candlestick pattern scanner has detected a bullish harami candle pattern for shares of Las Vegas Sands 
+Friday&apos;s real body is within the previous day&apos;s body and may imply that traders and investors believe that the recent move lower is exhausted.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('SmarTrend&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Candlestick', 'NNP'), ('Scanner', 'NNP'), ('Detects', 'NNP'), ('Bullish', 'NNP'), ('Harami', 'NNP'), ('Pattern', 'NNP'), ('for', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('LVS', 'NNP'), ('Monday', 'NNP'), (',', ','), ('March', 'NNP'), ('29', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('30', 'CD'), ('Mon', 'NNP'), (',', ','), ('03/29/2010', 'CD'), ('08', 'CD'), (':', ':'), ('30', 'CD'), ('SmarTrend&apos', 'NNS'), (';', ':'), ('s', 'NNS'), ('candlestick', 'VBP'), ('pattern', 'NN'), ('scanner', 'NN'), ('has', 'VBZ'), ('detected', 'VBN'), ('a', 'DT'), ('bullish', 'JJ'), ('harami', 'NN'), ('candle', 'NN'), ('pattern', 'NN'), ('for', 'IN'), ('shares', 'NNS'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Friday&apos', 'NNP'), (';', ':'), ('s', 'NNS'), ('real', 'VBP'), ('body', 'NN'), ('is', 'VBZ'), ('within', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('day&apos', 'NNS'), (';', ':'), ('s', 'NNS'), ('body', 'VBP'), ('and', 'CC'), ('may', 'MD'), ('imply', 'RB'), ('that', 'IN'), ('traders', 'NNS'), ('and', 'CC'), ('investors', 'NNS'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('recent', 'JJ'), ('move', 'NN'), ('lower', 'JJR'), ('is', 'VBZ'), ('exhausted', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION SmarTrend/NNP Alert/NNP)   SmarTrend&/NNP   #/#   039/CD   ;/:   s/NNS   (PERSON     Candlestick/NNP     Scanner/NNP     Detects/NNP     Bullish/NNP     Harami/NNP     Pattern/NNP)   for/IN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS LVS/NNP)   Monday/NNP   ,/,   March/NNP   29/CD   ,/,   2010/CD   08/CD   :/:   30/CD   Mon/NNP   ,/,   03/29/2010/CD   08/CD   :/:   30/CD   SmarTrend&apos/NNS   ;/:   s/NNS   candlestick/VBP   pattern/NN   scanner/NN   has/VBZ   detected/VBN   a/DT   bullish/JJ   harami/NN   candle/NN   pattern/NN   for/IN   shares/NNS   of/IN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Friday&apos/NNP)   ;/:   s/NNS   real/VBP   body/NN   is/VBZ   within/IN   the/DT   previous/JJ   day&apos/NNS   ;/:   s/NNS   body/VBP   and/CC   may/MD   imply/RB   that/IN   traders/NNS   and/CC   investors/NNS   believe/VBP   that/IN   the/DT   recent/JJ   move/NN   lower/JJR   is/VBZ   exhausted/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB candlestick/VBP pattern/NN scanner/NN)
+	(VERB   has/VBZ   detected/VBN   a/DT   bullish/JJ   harami/NN   candle/NN   pattern/NN   for/IN   shares/NNS   of/IN   Las/NNP   Vegas/NNP   Sands/NNPS   Friday&apos/NNP)
+	(VERB real/VBP body/NN)
+	(VERB is/VBZ within/IN the/DT previous/JJ day&apos/NNS)
+	(VERB body/VBP)
+	(VERB believe/VBP that/IN the/DT recent/JJ move/NN lower/JJR)
+	(VERB is/VBZ exhausted/VBN)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP SmarTrend&/NNP)
+	(NOUN s/NNS Candlestick/NNP Scanner/NNP Detects/NNP)
+	(NOUN Bullish/NNP Harami/NNP Pattern/NNP)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS LVS/NNP)
+	(NOUN Monday/NNP)
+	(NOUN March/NNP)
+	(NOUN 30/CD Mon/NNP)
+	(NOUN 30/CD SmarTrend&apos/NNS)
+	(NOUN s/NNS)
+	(NOUN s/NNS)
+	(NOUN s/NNS)
+	(NOUN traders/NNS)
+	(NOUN investors/NNS)
+
+----------------------------------
+original sentence: 
+A green candle today would confirm this trend reversal.
+
+POS tagged sentence: 
+[('A', 'DT'), ('green', 'JJ'), ('candle', 'NN'), ('today', 'NN'), ('would', 'MD'), ('confirm', 'VB'), ('this', 'DT'), ('trend', 'NN'), ('reversal', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   green/JJ   candle/NN   today/NN   would/MD   confirm/VB   this/DT   trend/NN   reversal/NN   ./.)
+----------------------------------
+original sentence: 
+Also, the narrower the green real body yesterday, the more reliable the harami.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('the', 'DT'), ('narrower', 'NN'), ('the', 'DT'), ('green', 'JJ'), ('real', 'JJ'), ('body', 'NN'), ('yesterday', 'NN'), (',', ','), ('the', 'DT'), ('more', 'RBR'), ('reliable', 'JJ'), ('the', 'DT'), ('harami', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   the/DT   narrower/NN   the/DT   green/JJ   real/JJ   body/NN   yesterday/NN   ,/,   the/DT   more/RBR   reliable/JJ   the/DT   harami/NN   ./.)
+----------------------------------
+original sentence: 
+Friday, this company traded 53,789,620 shares, versus the previous day&apos;s total volume of 43,107,550.
+
+POS tagged sentence: 
+[('Friday', 'NNP'), (',', ','), ('this', 'DT'), ('company', 'NN'), ('traded', 'VBD'), ('53,789,620', 'CD'), ('shares', 'NNS'), (',', ','), ('versus', 'CC'), ('the', 'DT'), ('previous', 'JJ'), ('day&apos', 'NNS'), (';', ':'), ('s', 'NNS'), ('total', 'VBP'), ('volume', 'NN'), ('of', 'IN'), ('43,107,550', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Friday/NNP   ,/,   this/DT   company/NN   traded/VBD   53,789,620/CD   shares/NNS   ,/,   versus/CC   the/DT   previous/JJ   day&apos/NNS   ;/:   s/NNS   total/VBP   volume/NN   of/IN   43,107,550/CD   ./.)
+----------------------------------
+original sentence: 
+Decreased volume also is an indicator that the selling pressure may have subsided.
+
+POS tagged sentence: 
+[('Decreased', 'VBN'), ('volume', 'NN'), ('also', 'RB'), ('is', 'VBZ'), ('an', 'DT'), ('indicator', 'NN'), ('that', 'IN'), ('the', 'DT'), ('selling', 'NN'), ('pressure', 'NN'), ('may', 'MD'), ('have', 'VB'), ('subsided', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Decreased/VBN   volume/NN   also/RB   is/VBZ   an/DT   indicator/NN   that/IN   the/DT   selling/NN   pressure/NN   may/MD   have/VB   subsided/VBN   ./.)
+----------------------------------
+original sentence: 
+SmarTrend issued an Uptrend alert on shares of Las Vegas Sands on November 11, 2009 at $17.51 per share 25% return since that call .
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('issued', 'VBD'), ('an', 'DT'), ('Uptrend', 'NNP'), ('alert', 'NN'), ('on', 'IN'), ('shares', 'NNS'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('on', 'IN'), ('November', 'NNP'), ('11', 'CD'), (',', ','), ('2009', 'CD'), ('at', 'IN'), ('$', '$'), ('17.51', 'CD'), ('per', 'IN'), ('share', 'NN'), ('25', 'CD'), ('%', 'NN'), ('return', 'NN'), ('since', 'IN'), ('that', 'DT'), ('call', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   issued/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   shares/NNS   of/IN   (PERSON Las/NNP Vegas/NNP Sands/NNPS)   on/IN   November/NNP   11/CD   ,/,   2009/CD   at/IN   $/$   17.51/CD   per/IN   share/NN   25/CD   %/NN   return/NN   since/IN   that/DT   call/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   issued/VBD   an/DT   Uptrend/NNP   alert/NN   on/IN   shares/NNS   of/IN   Las/NNP   Vegas/NNP   Sands/NNPS   on/IN   November/NNP   11/CD)
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN share/NN)
+	(NOUN 25/CD %/NN return/NN)
+	(NOUN call/NN)
+
+----------------------------------
+original sentence: 
+This bullish candle pattern may point to a continuation of the previously called Uptrend.
+
+POS tagged sentence: 
+[('This', 'DT'), ('bullish', 'NN'), ('candle', 'NN'), ('pattern', 'NN'), ('may', 'MD'), ('point', 'VB'), ('to', 'TO'), ('a', 'DT'), ('continuation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('previously', 'RB'), ('called', 'VBN'), ('Uptrend', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   bullish/NN   candle/NN   pattern/NN   may/MD   point/VB   to/TO   a/DT   continuation/NN   of/IN   the/DT   previously/RB   called/VBN   (PERSON Uptrend/NNP)   ./.)
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

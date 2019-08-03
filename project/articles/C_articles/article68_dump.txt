@@ -1,0 +1,110 @@
+
+----------------------------------
+original sentence: 
+Citibank NYSE: C Cuts Outlook on Worldwide Financials Sector to Neutral American Banking News
+Citibank NYSE: C Cuts Outlook on Worldwide Financials Sector to Neutral
+ March 18th, 2010 &bull;  &bull; by admin  Filed Under: Citibank‚Äôs NYSE: C team of equity strategists have cut their stance on the worldwide financial sector to ‚Äúneutral‚Äù, down from ‚Äúoverweight‚Äù on Thursday, citing the sector‚Äôs ultra high beta equity trade in recent years.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Cuts', 'NNPS'), ('Outlook', 'NNP'), ('on', 'IN'), ('Worldwide', 'NNP'), ('Financials', 'NNP'), ('Sector', 'NNP'), ('to', 'TO'), ('Neutral', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Cuts', 'NNPS'), ('Outlook', 'NNP'), ('on', 'IN'), ('Worldwide', 'NNP'), ('Financials', 'NNP'), ('Sector', 'NNP'), ('to', 'TO'), ('Neutral', 'NNP'), ('March', 'NNP'), ('18th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('NYSE', 'VBP'), (':', ':'), ('C', 'NNP'), ('team', 'NN'), ('of', 'IN'), ('equity', 'NN'), ('strategists', 'NNS'), ('have', 'VBP'), ('cut', 'VBN'), ('their', 'PRP$'), ('stance', 'NN'), ('on', 'IN'), ('the', 'DT'), ('worldwide', 'NN'), ('financial', 'JJ'), ('sector', 'NN'), ('to', 'TO'), ('\xe2', 'VB'), ('\x80', ':'), ('\x9c', ':'), ('neutral', 'JJ'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9d', ':'), (',', ','), ('down', 'RB'), ('from', 'IN'), ('\xe2', 'CD'), ('\x80', 'CD'), ('\x9c', 'CD'), ('overweight', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('on', 'IN'), ('Thursday', 'NNP'), (',', ','), ('citing', 'VBG'), ('the', 'DT'), ('sector', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('ultra', 'VBP'), ('high', 'JJ'), ('beta', 'NN'), ('equity', 'NN'), ('trade', 'NN'), ('in', 'IN'), ('recent', 'JJ'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Cuts/NNPS   Outlook/NNP   on/IN   (ORGANIZATION Worldwide/NNP Financials/NNP)   Sector/NNP   to/TO   (ORGANIZATION Neutral/NNP American/NNP)   Banking/NNP   News/NNP   (PERSON Citibank/NNP NYSE/NNP)   :/:   C/NNP   Cuts/NNPS   Outlook/NNP   on/IN   (ORGANIZATION Worldwide/NNP Financials/NNP)   Sector/NNP   to/TO   (ORGANIZATION Neutral/NNP)   March/NNP   18th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP)   ‚/:   Ä/:   ô/:   s/NNS   NYSE/VBP   :/:   C/NNP   team/NN   of/IN   equity/NN   strategists/NNS   have/VBP   cut/VBN   their/PRP$   stance/NN   on/IN   the/DT   worldwide/NN   financial/JJ   sector/NN   to/TO   ‚/VB   Ä/:   ú/:   neutral/JJ   ‚/NN   Ä/:   ù/:   ,/,   down/RB   from/IN   ‚/CD   Ä/CD   ú/CD   overweight/NN   ‚/:   Ä/:   ù/:   on/IN   Thursday/NNP   ,/,   citing/VBG   the/DT   sector/NN   ‚/:   Ä/:   ô/:   s/NNS   ultra/VBP   high/JJ   beta/NN   equity/NN   trade/NN   in/IN   recent/JJ   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB NYSE/VBP)
+	(VERB   have/VBP   cut/VBN   their/PRP$   stance/NN   on/IN   the/DT   worldwide/NN   financial/JJ   sector/NN)
+
+tagged sentence:
+	 have cut their stance on the worldwide financial sector	res:-1
+	(VERB ‚/VB)
+	(VERB citing/VBG the/DT sector/NN)
+	(VERB   ultra/VBP   high/JJ   beta/NN   equity/NN   trade/NN   in/IN   recent/JJ   years/NNS)
+
+tagged sentence:
+	 ultra high beta equity trade in recent years	res:1
+noun phrases to consider:
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Cuts/NNPS Outlook/NNP)
+	(NOUN Worldwide/NNP Financials/NNP Sector/NNP)
+	(NOUN Neutral/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Cuts/NNPS Outlook/NNP)
+	(NOUN Worldwide/NNP Financials/NNP Sector/NNP)
+	(NOUN Neutral/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP)
+	(NOUN s/NNS)
+	(NOUN C/NNP team/NN)
+	(NOUN equity/NN strategists/NNS)
+	(NOUN neutral/JJ ‚/NN)
+	(NOUN ú/CD overweight/NN)
+	(NOUN Thursday/NNP)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+Citi noted that global equities are up more than 63% from their March 2009 lows and that the magnitude of the rebound has been consistent with the bear market that preceded the rebound.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('noted', 'VBD'), ('that', 'IN'), ('global', 'JJ'), ('equities', 'NNS'), ('are', 'VBP'), ('up', 'RP'), ('more', 'RBR'), ('than', 'IN'), ('63', 'CD'), ('%', 'NN'), ('from', 'IN'), ('their', 'PRP$'), ('March', 'NNP'), ('2009', 'CD'), ('lows', 'VBZ'), ('and', 'CC'), ('that', 'IN'), ('the', 'DT'), ('magnitude', 'NN'), ('of', 'IN'), ('the', 'DT'), ('rebound', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('consistent', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('bear', 'JJ'), ('market', 'NN'), ('that', 'IN'), ('preceded', 'JJ'), ('the', 'DT'), ('rebound', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   noted/VBD   that/IN   global/JJ   equities/NNS   are/VBP   up/RP   more/RBR   than/IN   63/CD   %/NN   from/IN   their/PRP$   March/NNP   2009/CD   lows/VBZ   and/CC   that/IN   the/DT   magnitude/NN   of/IN   the/DT   rebound/NN   has/VBZ   been/VBN   consistent/JJ   with/IN   the/DT   bear/JJ   market/NN   that/IN   preceded/JJ   the/DT   rebound/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB noted/VBD that/IN global/JJ equities/NNS)
+	(VERB are/VBP)
+	(VERB lows/VBZ)
+	(VERB   has/VBZ   been/VBN   consistent/JJ   with/IN   the/DT   bear/JJ   market/NN   that/IN   preceded/JJ   the/DT   rebound/NN)
+
+tagged sentence:
+	 has been consistent with the bear market that preceded the rebound	res:1
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN 63/CD %/NN)
+	(NOUN March/NNP)
+	(NOUN magnitude/NN)
+	(NOUN rebound/NN)
+
+tagged sentence:
+	 rebound	res:1
+
+----------------------------------
+original sentence: 
+&#8220;Global equities typically grind higher in months 12 to 36 of a market recovery.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Global', 'NNP'), ('equities', 'NNS'), ('typically', 'RB'), ('grind', 'VBP'), ('higher', 'JJR'), ('in', 'IN'), ('months', 'NNS'), ('12', 'CD'), ('to', 'TO'), ('36', 'CD'), ('of', 'IN'), ('a', 'DT'), ('market', 'NN'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (GPE Global/NNP)   equities/NNS   typically/RB   grind/VBP   higher/JJR   in/IN   months/NNS   12/CD   to/TO   36/CD   of/IN   a/DT   market/NN   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+So buy the dips and don&#8217;t chase the rallies too hard,&#8221; they said.
+
+POS tagged sentence: 
+[('So', 'IN'), ('buy', 'NN'), ('the', 'DT'), ('dips', 'NNS'), ('and', 'CC'), ('don&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('chase', 'NN'), ('the', 'DT'), ('rallies', 'NNS'), ('too', 'RB'), ('hard,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('they', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   buy/NN   the/DT   dips/NNS   and/CC   don&/JJ   #/#   8217/CD   ;/:   t/NN   chase/NN   the/DT   rallies/NNS   too/RB   hard,&/JJ   #/#   8221/CD   ;/:   they/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+‚ÄúOutperformance for ultra high beta sectors tends to fade one year after the market bottom‚Äù, they added.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x9c', ':'), ('Outperformance', 'NNP'), ('for', 'IN'), ('ultra', 'NN'), ('high', 'JJ'), ('beta', 'NN'), ('sectors', 'NNS'), ('tends', 'NNS'), ('to', 'TO'), ('fade', 'VB'), ('one', 'CD'), ('year', 'NN'), ('after', 'IN'), ('the', 'DT'), ('market', 'NN'), ('bottom', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), (',', ','), ('they', 'PRP'), ('added', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ú/:   Outperformance/NNP   for/IN   ultra/NN   high/JJ   beta/NN   sectors/NNS   tends/NNS   to/TO   fade/VB   one/CD   year/NN   after/IN   the/DT   market/NN   bottom/NN   ‚/:   Ä/:   ù/:   ,/,   they/PRP   added/VBD   ./.)
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:1	pos:3	verypos:0	total:1

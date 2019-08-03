@@ -1,0 +1,675 @@
+
+----------------------------------
+original sentence: 
+E Trade names CEO; Citi gains on analyst upgrade Financial Stocks MarketWatch
+Become a MarketWatch member today
+ March 22, 2010, 4:11 p.m. EDT Citigroup shares buoy financial sector; E Trade falls
+View all Financial Stocks Financial shares stumble on weak profit outlook
+Financials slightly higher on AmEx, exchanges
+ By MarketWatch  BOSTON MarketWatch U.S. financial stocks closed up slightly Monday with Citigroup Inc. shares offsetting losses by E Trade Financial Corp. and American International Group Inc. following an analyst upgrade of Citi.
+
+POS tagged sentence: 
+[('E', 'NNP'), ('Trade', 'NNP'), ('names', 'VBZ'), ('CEO', 'NNP'), (';', ':'), ('Citi', 'NNP'), ('gains', 'VBZ'), ('on', 'IN'), ('analyst', 'NN'), ('upgrade', 'NN'), ('Financial', 'NNP'), ('Stocks', 'NNP'), ('MarketWatch', 'NNP'), ('Become', 'NNP'), ('a', 'DT'), ('MarketWatch', 'NNP'), ('member', 'NN'), ('today', 'NN'), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('11', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), ('Citigroup', 'NNP'), ('shares', 'NNS'), ('buoy', 'VBP'), ('financial', 'JJ'), ('sector', 'NN'), (';', ':'), ('E', 'NNP'), ('Trade', 'NNP'), ('falls', 'VBZ'), ('View', 'NNP'), ('all', 'DT'), ('Financial', 'NNP'), ('Stocks', 'NNP'), ('Financial', 'NNP'), ('shares', 'NNS'), ('stumble', 'JJ'), ('on', 'IN'), ('weak', 'JJ'), ('profit', 'NN'), ('outlook', 'NN'), ('Financials', 'NNS'), ('slightly', 'RB'), ('higher', 'JJR'), ('on', 'IN'), ('AmEx', 'NNP'), (',', ','), ('exchanges', 'NNS'), ('By', 'IN'), ('MarketWatch', 'NNP'), ('BOSTON', 'NNP'), ('MarketWatch', 'NNP'), ('U.S.', 'NNP'), ('financial', 'JJ'), ('stocks', 'NNS'), ('closed', 'VBD'), ('up', 'RB'), ('slightly', 'RB'), ('Monday', 'NNP'), ('with', 'IN'), ('Citigroup', 'NNP'), ('Inc.', 'NNP'), ('shares', 'NNS'), ('offsetting', 'VBG'), ('losses', 'NNS'), ('by', 'IN'), ('E', 'NNP'), ('Trade', 'NNP'), ('Financial', 'NNP'), ('Corp.', 'NNP'), ('and', 'CC'), ('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('following', 'VBG'), ('an', 'DT'), ('analyst', 'NN'), ('upgrade', 'NN'), ('of', 'IN'), ('Citi', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   E/NNP   Trade/NNP   names/VBZ   (ORGANIZATION CEO/NNP)   ;/:   (PERSON Citi/NNP)   gains/VBZ   on/IN   analyst/NN   upgrade/NN   Financial/NNP   Stocks/NNP   MarketWatch/NNP   Become/NNP   a/DT   (ORGANIZATION MarketWatch/NNP)   member/NN   today/NN   March/NNP   22/CD   ,/,   2010/CD   ,/,   4/CD   :/:   11/CD   p.m./NN   (ORGANIZATION EDT/NNP Citigroup/NNP)   shares/NNS   buoy/VBP   financial/JJ   sector/NN   ;/:   E/NNP   Trade/NNP   falls/VBZ   (PERSON View/NNP)   all/DT   Financial/NNP   Stocks/NNP   Financial/NNP   shares/NNS   stumble/JJ   on/IN   weak/JJ   profit/NN   outlook/NN   Financials/NNS   slightly/RB   higher/JJR   on/IN   (ORGANIZATION AmEx/NNP)   ,/,   exchanges/NNS   By/IN   (ORGANIZATION MarketWatch/NNP)   (ORGANIZATION BOSTON/NNP)   MarketWatch/NNP   (GPE U.S./NNP)   financial/JJ   stocks/NNS   closed/VBD   up/RB   slightly/RB   Monday/NNP   with/IN   (ORGANIZATION Citigroup/NNP Inc./NNP)   shares/NNS   offsetting/VBG   losses/NNS   by/IN   (ORGANIZATION E/NNP Trade/NNP)   Financial/NNP   Corp./NNP   and/CC   (ORGANIZATION American/NNP International/NNP Group/NNP)   Inc./NNP   following/VBG   an/DT   analyst/NN   upgrade/NN   of/IN   (GPE Citi/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB names/VBZ CEO/NNP)
+	(VERB   gains/VBZ   on/IN   analyst/NN   upgrade/NN   Financial/NNP   Stocks/NNP   MarketWatch/NNP   Become/NNP   a/DT   MarketWatch/NNP   member/NN   today/NN   March/NNP   22/CD)
+	(VERB buoy/VBP financial/JJ sector/NN)
+	(VERB   falls/VBZ   View/NNP   all/DT   Financial/NNP   Stocks/NNP   Financial/NNP   shares/NNS   stumble/JJ   on/IN   weak/JJ   profit/NN   outlook/NN   Financials/NNS   slightly/RB   higher/JJR   on/IN   AmEx/NNP)
+
+tagged sentence:
+	 falls View all Financial Stocks Financial shares stumble on weak profit outlook Financials slightly higher on AmEx	res:1
+	(VERB   closed/VBD   up/RB   slightly/RB   Monday/NNP   with/IN   Citigroup/NNP   Inc./NNP   shares/NNS)
+	(VERB   offsetting/VBG   losses/NNS   by/IN   E/NNP   Trade/NNP   Financial/NNP   Corp./NNP)
+
+tagged sentence:
+	 offsetting losses by E Trade Financial Corp.	res:-1
+	(VERB following/VBG an/DT analyst/NN upgrade/NN of/IN Citi/NNP)
+noun phrases to consider:
+	(NOUN E/NNP Trade/NNP)
+	(NOUN Citi/NNP)
+	(NOUN 11/CD p.m./NN EDT/NNP Citigroup/NNP shares/NNS)
+	(NOUN E/NNP Trade/NNP)
+	(NOUN exchanges/NNS)
+	(NOUN MarketWatch/NNP BOSTON/NNP MarketWatch/NNP U.S./NNP)
+	(NOUN financial/JJ stocks/NNS)
+	(NOUN American/NNP International/NNP Group/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+/quotes/comstock/13*!c
+ shares closed up 4% following an upgrade by Rochdale Research, which lifted the stock to buy from neutral, and increased the price target to $5 from $3.75 a share.
+
+POS tagged sentence: 
+[('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('c', 'NN'), ('shares', 'NNS'), ('closed', 'VBD'), ('up', 'RB'), ('4', 'CD'), ('%', 'NN'), ('following', 'VBG'), ('an', 'DT'), ('upgrade', 'NN'), ('by', 'IN'), ('Rochdale', 'NNP'), ('Research', 'NNP'), (',', ','), ('which', 'WDT'), ('lifted', 'VBN'), ('the', 'DT'), ('stock', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('from', 'IN'), ('neutral', 'JJ'), (',', ','), ('and', 'CC'), ('increased', 'VBD'), ('the', 'DT'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('$', '$'), ('5', 'CD'), ('from', 'IN'), ('$', '$'), ('3.75', 'CD'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   /quotes/comstock/13/-NONE-   */-NONE-   !/.   c/NN   shares/NNS   closed/VBD   up/RB   4/CD   %/NN   following/VBG   an/DT   upgrade/NN   by/IN   (ORGANIZATION Rochdale/NNP Research/NNP)   ,/,   which/WDT   lifted/VBN   the/DT   stock/NN   to/TO   buy/VB   from/IN   neutral/JJ   ,/,   and/CC   increased/VBD   the/DT   price/NN   target/NN   to/TO   $/$   5/CD   from/IN   $/$   3.75/CD   a/DT   share/NN   ./.)
+----------------------------------
+original sentence: 
+Citi, which received a government bailout during the credit crunch, will be a "money making machine again and the stock is long term chief," wrote Rochdale analyst Richard Bove in a research note.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), (',', ','), ('which', 'WDT'), ('received', 'VBD'), ('a', 'DT'), ('government', 'NN'), ('bailout', 'IN'), ('during', 'IN'), ('the', 'DT'), ('credit', 'NN'), ('crunch', 'NN'), (',', ','), ('will', 'MD'), ('be', 'VB'), ('a', 'DT'), ('"', 'NN'), ('money', 'NN'), ('making', 'VBG'), ('machine', 'NN'), ('again', 'RB'), ('and', 'CC'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('long', 'JJ'), ('term', 'NN'), ('chief', 'NN'), (',', ','), ('"', ':'), ('wrote', 'VBD'), ('Rochdale', 'NNP'), ('analyst', 'NN'), ('Richard', 'NNP'), ('Bove', 'NNP'), ('in', 'IN'), ('a', 'DT'), ('research', 'NN'), ('note', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citi/NNP)   ,/,   which/WDT   received/VBD   a/DT   government/NN   bailout/IN   during/IN   the/DT   credit/NN   crunch/NN   ,/,   will/MD   be/VB   a/DT   "/NN   money/NN   making/VBG   machine/NN   again/RB   and/CC   the/DT   stock/NN   is/VBZ   long/JJ   term/NN   chief/NN   ,/,   "/:   wrote/VBD   (GPE Rochdale/NNP)   analyst/NN   (PERSON Richard/NNP Bove/NNP)   in/IN   a/DT   research/NN   note/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   received/VBD   a/DT   government/NN   bailout/IN   during/IN   the/DT   credit/NN   crunch/NN)
+	(VERB be/VB a/DT "/NN money/NN)
+	(VERB making/VBG machine/NN again/RB)
+	(VERB is/VBZ long/JJ term/NN chief/NN)
+	(VERB   wrote/VBD   Rochdale/NNP   analyst/NN   Richard/NNP   Bove/NNP   in/IN   a/DT   research/NN   note/NN)
+noun phrases to consider:
+	(NOUN Citi/NNP)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+"The economy is turning around.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('economy', 'NN'), ('is', 'VBZ'), ('turning', 'VBG'), ('around', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S "/NN The/DT economy/NN is/VBZ turning/VBG around/IN ./.)
+----------------------------------
+original sentence: 
+This means an improving loan loss situation," he added.
+
+POS tagged sentence: 
+[('This', 'DT'), ('means', 'VBZ'), ('an', 'DT'), ('improving', 'NN'), ('loan', 'NN'), ('loss', 'NN'), ('situation', 'NN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('added', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   means/VBZ   an/DT   improving/NN   loan/NN   loss/NN   situation/NN   ,/,   "/:   he/PRP   added/VBD   ./.)
+----------------------------------
+original sentence: 
+"The company's balance sheet has too much liquidity and it is over capitalized.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('balance', 'NN'), ('sheet', 'NN'), ('has', 'VBZ'), ('too', 'RB'), ('much', 'JJ'), ('liquidity', 'NN'), ('and', 'CC'), ('it', 'PRP'), ('is', 'VBZ'), ('over', 'IN'), ('capitalized', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   company/NN   's/POS   balance/NN   sheet/NN   has/VBZ   too/RB   much/JJ   liquidity/NN   and/CC   it/PRP   is/VBZ   over/IN   capitalized/VBN   ./.)
+----------------------------------
+original sentence: 
+This gives management the flexibility to offload the problem operations and to support longer term growth.
+
+POS tagged sentence: 
+[('This', 'DT'), ('gives', 'VBZ'), ('management', 'NN'), ('the', 'DT'), ('flexibility', 'NN'), ('to', 'TO'), ('offload', 'VB'), ('the', 'DT'), ('problem', 'NN'), ('operations', 'NNS'), ('and', 'CC'), ('to', 'TO'), ('support', 'VB'), ('longer', 'JJR'), ('term', 'NN'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   gives/VBZ   management/NN   the/DT   flexibility/NN   to/TO   offload/VB   the/DT   problem/NN   operations/NNS   and/CC   to/TO   support/VB   longer/JJR   term/NN   growth/NN   ./.)
+----------------------------------
+original sentence: 
+"  E Trade Financial Corp. shares closed lower after the online broker named a Citi veteran as its new CEO and announced a 1 for 10 reverse stock split.
+
+POS tagged sentence: 
+[('"', 'NN'), ('E', 'NNP'), ('Trade', 'NNP'), ('Financial', 'NNP'), ('Corp.', 'NNP'), ('shares', 'NNS'), ('closed', 'VBD'), ('lower', 'JJR'), ('after', 'IN'), ('the', 'DT'), ('online', 'NN'), ('broker', 'NN'), ('named', 'VBD'), ('a', 'DT'), ('Citi', 'NNP'), ('veteran', 'NN'), ('as', 'IN'), ('its', 'PRP$'), ('new', 'JJ'), ('CEO', 'NNP'), ('and', 'CC'), ('announced', 'VBD'), ('a', 'DT'), ('1', 'CD'), ('for', 'IN'), ('10', 'CD'), ('reverse', 'NN'), ('stock', 'NN'), ('split', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   E/NNP   (PERSON Trade/NNP Financial/NNP)   Corp./NNP   shares/NNS   closed/VBD   lower/JJR   after/IN   the/DT   online/NN   broker/NN   named/VBD   a/DT   Citi/NNP   veteran/NN   as/IN   its/PRP$   new/JJ   CEO/NNP   and/CC   announced/VBD   a/DT   1/CD   for/IN   10/CD   reverse/NN   stock/NN   split/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB closed/VBD lower/JJR after/IN the/DT online/NN broker/NN)
+
+tagged sentence:
+	 closed lower after the online broker	res:-1
+	(VERB   named/VBD   a/DT   Citi/NNP   veteran/NN   as/IN   its/PRP$   new/JJ   CEO/NNP)
+	(VERB   announced/VBD   a/DT   1/CD   for/IN   10/CD   reverse/NN   stock/NN   split/NN)
+noun phrases to consider:
+	(NOUN "/NN E/NNP Trade/NNP Financial/NNP)
+	(NOUN Corp./NNP shares/NNS)
+
+----------------------------------
+original sentence: 
+Shares of E Trade /quotes/comstock/15*!etfc
+ fell as low as $1.45 and closed down nearly 4%.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('E', 'NNP'), ('Trade', 'NNP'), ('/quotes/comstock/15', 'NNP'), ('*', '-NONE-'), ('!', '.'), ('etfc', 'NN'), ('fell', 'VBD'), ('as', 'IN'), ('low', 'JJ'), ('as', 'IN'), ('$', '$'), ('1.45', 'CD'), ('and', 'CC'), ('closed', 'VBD'), ('down', 'RP'), ('nearly', 'RB'), ('4', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION E/NNP Trade/NNP)   /quotes/comstock/15/NNP   */-NONE-   !/.   etfc/NN   fell/VBD   as/IN   low/JJ   as/IN   $/$   1.45/CD   and/CC   closed/VBD   down/RP   nearly/RB   4/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+An exchange traded fund tracking the financial portion of the S&P 500 Index, Financial Select Sector SPDR Fund /quotes/comstock/13*!xlf
+, closed up half a point.
+
+POS tagged sentence: 
+[('An', 'DT'), ('exchange', 'NN'), ('traded', 'VBN'), ('fund', 'NN'), ('tracking', 'NN'), ('the', 'DT'), ('financial', 'JJ'), ('portion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('Index', 'NNP'), (',', ','), ('Financial', 'NNP'), ('Select', 'NNP'), ('Sector', 'NNP'), ('SPDR', 'NNP'), ('Fund', 'NNP'), ('/quotes/comstock/13', 'NNP'), ('*', '-NONE-'), ('!', '.'), ('xlf', 'NN'), (',', ','), ('closed', 'VBD'), ('up', 'RB'), ('half', 'DT'), ('a', 'DT'), ('point', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   exchange/NN   traded/VBN   fund/NN   tracking/NN   the/DT   financial/JJ   portion/NN   of/IN   the/DT   S&P/NNP   500/CD   (GPE Index/NNP)   ,/,   (PERSON Financial/NNP Select/NNP)   Sector/NNP   (ORGANIZATION SPDR/NNP Fund/NNP)   /quotes/comstock/13/NNP   */-NONE-   !/.   xlf/NN   ,/,   closed/VBD   up/RB   half/DT   a/DT   point/NN   ./.)
+----------------------------------
+original sentence: 
+E Trade said its board has named Steven Freiberg as CEO, effective April 1.
+
+POS tagged sentence: 
+[('E', 'NNP'), ('Trade', 'NNP'), ('said', 'VBD'), ('its', 'PRP$'), ('board', 'NN'), ('has', 'VBZ'), ('named', 'VBN'), ('Steven', 'NNP'), ('Freiberg', 'NNP'), ('as', 'IN'), ('CEO', 'NNP'), (',', ','), ('effective', 'JJ'), ('April', 'NNP'), ('1', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   E/NNP   (PERSON Trade/NNP)   said/VBD   its/PRP$   board/NN   has/VBZ   named/VBN   (PERSON Steven/NNP Freiberg/NNP)   as/IN   (ORGANIZATION CEO/NNP)   ,/,   effective/JJ   April/NNP   1/CD   ./.)
+----------------------------------
+original sentence: 
+Freiberg, 53, has worked at Citi for three decades and succeeds Robert Druskin, who will stay on as E Trade's chairman, according to a news release.
+
+POS tagged sentence: 
+[('Freiberg', 'NNP'), (',', ','), ('53', 'CD'), (',', ','), ('has', 'VBZ'), ('worked', 'VBN'), ('at', 'IN'), ('Citi', 'NNP'), ('for', 'IN'), ('three', 'CD'), ('decades', 'NNS'), ('and', 'CC'), ('succeeds', 'NNS'), ('Robert', 'NNP'), ('Druskin', 'NNP'), (',', ','), ('who', 'WP'), ('will', 'MD'), ('stay', 'VB'), ('on', 'IN'), ('as', 'IN'), ('E', 'NNP'), ('Trade', 'NNP'), ("'s", 'POS'), ('chairman', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('news', 'NN'), ('release', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Freiberg/NNP)   ,/,   53/CD   ,/,   has/VBZ   worked/VBN   at/IN   (ORGANIZATION Citi/NNP)   for/IN   three/CD   decades/NNS   and/CC   succeeds/NNS   (PERSON Robert/NNP Druskin/NNP)   ,/,   who/WP   will/MD   stay/VB   on/IN   as/IN   (ORGANIZATION E/NNP Trade/NNP)   's/POS   chairman/NN   ,/,   according/VBG   to/TO   a/DT   news/NN   release/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ worked/VBN at/IN Citi/NNP for/IN three/CD decades/NNS)
+	(VERB stay/VB on/IN as/IN E/NNP Trade/NNP)
+	(VERB according/VBG to/TO a/DT news/NN release/NN)
+noun phrases to consider:
+	(NOUN Freiberg/NNP)
+	(NOUN succeeds/NNS Robert/NNP Druskin/NNP)
+
+tagged sentence:
+	 succeeds Robert Druskin	res:1
+	(NOUN chairman/NN)
+
+----------------------------------
+original sentence: 
+/quotes/comstock/15*!etfc
+ "With 2009's successful recapitalization behind us, our permanent CEO in place on April 1, and a focus on returning to sustained profitability, we believe a reverse stock split is a logical next step for the company as we complete our financial and managerial restructuring," Druskin said in a prepared statement.
+
+POS tagged sentence: 
+[('/quotes/comstock/15', 'NN'), ('*', '-NONE-'), ('!', '.'), ('etfc', 'NN'), ('"', ':'), ('With', 'IN'), ('2009', 'CD'), ("'s", 'POS'), ('successful', 'JJ'), ('recapitalization', 'NN'), ('behind', 'IN'), ('us', 'PRP'), (',', ','), ('our', 'PRP$'), ('permanent', 'NN'), ('CEO', 'NNP'), ('in', 'IN'), ('place', 'NN'), ('on', 'IN'), ('April', 'NNP'), ('1', 'CD'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('focus', 'NN'), ('on', 'IN'), ('returning', 'NN'), ('to', 'TO'), ('sustained', 'VBN'), ('profitability', 'NN'), (',', ','), ('we', 'PRP'), ('believe', 'VBP'), ('a', 'DT'), ('reverse', 'NN'), ('stock', 'NN'), ('split', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('logical', 'JJ'), ('next', 'JJ'), ('step', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('as', 'IN'), ('we', 'PRP'), ('complete', 'VBP'), ('our', 'PRP$'), ('financial', 'JJ'), ('and', 'CC'), ('managerial', 'JJ'), ('restructuring', 'NN'), (',', ','), ('"', ':'), ('Druskin', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('prepared', 'VBN'), ('statement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   /quotes/comstock/15/NN   */-NONE-   !/.   etfc/NN   "/:   With/IN   2009/CD   's/POS   successful/JJ   recapitalization/NN   behind/IN   us/PRP   ,/,   our/PRP$   permanent/NN   CEO/NNP   in/IN   place/NN   on/IN   April/NNP   1/CD   ,/,   and/CC   a/DT   focus/NN   on/IN   returning/NN   to/TO   sustained/VBN   profitability/NN   ,/,   we/PRP   believe/VBP   a/DT   reverse/NN   stock/NN   split/NN   is/VBZ   a/DT   logical/JJ   next/JJ   step/NN   for/IN   the/DT   company/NN   as/IN   we/PRP   complete/VBP   our/PRP$   financial/JJ   and/CC   managerial/JJ   restructuring/NN   ,/,   "/:   (PERSON Druskin/NNP)   said/VBD   in/IN   a/DT   prepared/VBN   statement/NN   ./.)
+----------------------------------
+original sentence: 
+E Trade's banking operations have been hit by loan losses during the credit crunch and housing downturn.
+
+POS tagged sentence: 
+[('E', 'NNP'), ('Trade', 'NNP'), ("'s", 'POS'), ('banking', 'NN'), ('operations', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('hit', 'VBN'), ('by', 'IN'), ('loan', 'NN'), ('losses', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('credit', 'NN'), ('crunch', 'NN'), ('and', 'CC'), ('housing', 'NN'), ('downturn', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   E/NNP   (PERSON Trade/NNP)   's/POS   banking/NN   operations/NNS   have/VBP   been/VBN   hit/VBN   by/IN   loan/NN   losses/NNS   during/IN   the/DT   credit/NN   crunch/NN   and/CC   housing/NN   downturn/NN   ./.)
+----------------------------------
+original sentence: 
+In the core brokerage business, the firm recently cut commissions after rivals such as Charles Schwab Corp. /quotes/comstock/13*!schw
+ and Fidelity Investments announced fee reductions and sparked a price war.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('core', 'NN'), ('brokerage', 'NN'), ('business', 'NN'), (',', ','), ('the', 'DT'), ('firm', 'NN'), ('recently', 'RB'), ('cut', 'VBD'), ('commissions', 'NNS'), ('after', 'IN'), ('rivals', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Charles', 'NNP'), ('Schwab', 'NNP'), ('Corp.', 'NNP'), ('/quotes/comstock/13', 'NNP'), ('*', '-NONE-'), ('!', '.'), ('schw', 'NN'), ('and', 'CC'), ('Fidelity', 'NNP'), ('Investments', 'NNPS'), ('announced', 'VBD'), ('fee', 'NN'), ('reductions', 'NNS'), ('and', 'CC'), ('sparked', 'VBD'), ('a', 'DT'), ('price', 'NN'), ('war', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   core/NN   brokerage/NN   business/NN   ,/,   the/DT   firm/NN   recently/RB   cut/VBD   commissions/NNS   after/IN   rivals/NNS   such/JJ   as/IN   (PERSON Charles/NNP Schwab/NNP)   Corp./NNP   /quotes/comstock/13/NNP   */-NONE-   !/.   schw/NN   and/CC   (ORGANIZATION Fidelity/NNP Investments/NNPS)   announced/VBD   fee/NN   reductions/NNS   and/CC   sparked/VBD   a/DT   price/NN   war/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   cut/VBD   commissions/NNS   after/IN   rivals/NNS   such/JJ   as/IN   Charles/NNP   Schwab/NNP   Corp./NNP   /quotes/comstock/13/NNP)
+	(VERB announced/VBD fee/NN reductions/NNS)
+	(VERB sparked/VBD a/DT price/NN war/NN)
+noun phrases to consider:
+	(NOUN core/NN brokerage/NN business/NN)
+	(NOUN firm/NN)
+	(NOUN schw/NN)
+	(NOUN Fidelity/NNP Investments/NNPS)
+
+----------------------------------
+original sentence: 
+In late January, E Trade said its fourth quarter net loss narrowed to $67 million from $276 million in the year ago quarter.
+
+POS tagged sentence: 
+[('In', 'IN'), ('late', 'JJ'), ('January', 'NNP'), (',', ','), ('E', 'NNP'), ('Trade', 'NNP'), ('said', 'VBD'), ('its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('loss', 'NN'), ('narrowed', 'VBD'), ('to', 'TO'), ('$', '$'), ('67', 'CD'), ('million', 'CD'), ('from', 'IN'), ('$', '$'), ('276', 'CD'), ('million', 'CD'), ('in', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   late/JJ   January/NNP   ,/,   (ORGANIZATION E/NNP Trade/NNP)   said/VBD   its/PRP$   fourth/JJ   quarter/NN   net/NN   loss/NN   narrowed/VBD   to/TO   $/$   67/CD   million/CD   from/IN   $/$   276/CD   million/CD   in/IN   the/DT   year/NN   ago/IN   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+It set aside nearly $300 million to cover potential loan losses in the fourth quarter.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('set', 'VBD'), ('aside', 'JJ'), ('nearly', 'RB'), ('$', '$'), ('300', 'CD'), ('million', 'CD'), ('to', 'TO'), ('cover', 'VB'), ('potential', 'JJ'), ('loan', 'NN'), ('losses', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   set/VBD   aside/JJ   nearly/RB   $/$   300/CD   million/CD   to/TO   cover/VB   potential/JJ   loan/NN   losses/NNS   in/IN   the/DT   fourth/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Week ahead in markets
+ Grianne McCarthy outlines the week's economic highlights on the News Hub panel, including housing data.
+
+POS tagged sentence: 
+[('Week', 'NNP'), ('ahead', 'RB'), ('in', 'IN'), ('markets', 'NNS'), ('Grianne', 'NNP'), ('McCarthy', 'NNP'), ('outlines', 'VBZ'), ('the', 'DT'), ('week', 'NN'), ("'s", 'POS'), ('economic', 'JJ'), ('highlights', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('News', 'NNP'), ('Hub', 'NNP'), ('panel', 'NN'), (',', ','), ('including', 'VBG'), ('housing', 'NN'), ('data', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Week/NNP)   ahead/RB   in/IN   markets/NNS   (PERSON Grianne/NNP McCarthy/NNP)   outlines/VBZ   the/DT   week/NN   's/POS   economic/JJ   highlights/NNS   on/IN   the/DT   (ORGANIZATION News/NNP Hub/NNP)   panel/NN   ,/,   including/VBG   housing/NN   data/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB outlines/VBZ the/DT week/NN)
+	(VERB including/VBG housing/NN data/NNS)
+noun phrases to consider:
+	(NOUN Week/NNP)
+	(NOUN markets/NNS Grianne/NNP McCarthy/NNP)
+	(NOUN economic/JJ highlights/NNS)
+	(NOUN News/NNP Hub/NNP panel/NN)
+
+----------------------------------
+original sentence: 
+E Trade in September 2009 said CEO Donald Layton was stepping down at the end of the year.
+
+POS tagged sentence: 
+[('E', 'NNP'), ('Trade', 'NNP'), ('in', 'IN'), ('September', 'NNP'), ('2009', 'CD'), ('said', 'VBD'), ('CEO', 'NNP'), ('Donald', 'NNP'), ('Layton', 'NNP'), ('was', 'VBD'), ('stepping', 'VBG'), ('down', 'RB'), ('at', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   E/NNP   Trade/NNP   in/IN   September/NNP   2009/CD   said/VBD   (ORGANIZATION CEO/NNP Donald/NNP Layton/NNP)   was/VBD   stepping/VBG   down/RB   at/IN   the/DT   end/NN   of/IN   the/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+Druskin served as interim chief while the board searched for a replacement.
+
+POS tagged sentence: 
+[('Druskin', 'NNP'), ('served', 'VBD'), ('as', 'IN'), ('interim', 'JJ'), ('chief', 'NN'), ('while', 'IN'), ('the', 'DT'), ('board', 'NN'), ('searched', 'VBD'), ('for', 'IN'), ('a', 'DT'), ('replacement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Druskin/NNP)   served/VBD   as/IN   interim/JJ   chief/NN   while/IN   the/DT   board/NN   searched/VBD   for/IN   a/DT   replacement/NN   ./.)
+----------------------------------
+original sentence: 
+"We don't know Mr. Freiberg personally, but he seems to have the requisite experience to help the company's path to recovery and maintain its competitive position in the discount brokerage space, especially given his experience in consumer finance the past few years," said BMO Capital Markets analyst Michael Vinciquerra in a report Monday.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('do', 'VBP'), ("n't", 'RB'), ('know', 'VB'), ('Mr.', 'NNP'), ('Freiberg', 'NNP'), ('personally', 'RB'), (',', ','), ('but', 'CC'), ('he', 'PRP'), ('seems', 'VBZ'), ('to', 'TO'), ('have', 'VB'), ('the', 'DT'), ('requisite', 'JJ'), ('experience', 'NN'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('path', 'NN'), ('to', 'TO'), ('recovery', 'VB'), ('and', 'CC'), ('maintain', 'VB'), ('its', 'PRP$'), ('competitive', 'JJ'), ('position', 'NN'), ('in', 'IN'), ('the', 'DT'), ('discount', 'NN'), ('brokerage', 'NN'), ('space', 'NN'), (',', ','), ('especially', 'RB'), ('given', 'VBN'), ('his', 'PRP$'), ('experience', 'NN'), ('in', 'IN'), ('consumer', 'NN'), ('finance', 'NN'), ('the', 'DT'), ('past', 'JJ'), ('few', 'JJ'), ('years', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('BMO', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), ('analyst', 'NN'), ('Michael', 'NNP'), ('Vinciquerra', 'NNP'), ('in', 'IN'), ('a', 'DT'), ('report', 'NN'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   do/VBP   n't/RB   know/VB   (PERSON Mr./NNP Freiberg/NNP)   personally/RB   ,/,   but/CC   he/PRP   seems/VBZ   to/TO   have/VB   the/DT   requisite/JJ   experience/NN   to/TO   help/VB   the/DT   company/NN   's/POS   path/NN   to/TO   recovery/VB   and/CC   maintain/VB   its/PRP$   competitive/JJ   position/NN   in/IN   the/DT   discount/NN   brokerage/NN   space/NN   ,/,   especially/RB   given/VBN   his/PRP$   experience/NN   in/IN   consumer/NN   finance/NN   the/DT   past/JJ   few/JJ   years/NNS   ,/,   "/:   said/VBD   (ORGANIZATION BMO/NNP Capital/NNP Markets/NNPS)   analyst/NN   (PERSON Michael/NNP Vinciquerra/NNP)   in/IN   a/DT   report/NN   Monday/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB do/VBP n't/RB know/VB Mr./NNP Freiberg/NNP personally/RB)
+	(VERB seems/VBZ to/TO have/VB the/DT requisite/JJ experience/NN)
+	(VERB help/VB the/DT company/NN)
+	(VERB recovery/VB)
+	(VERB   maintain/VB   its/PRP$   competitive/JJ   position/NN   in/IN   the/DT   discount/NN   brokerage/NN   space/NN)
+
+tagged sentence:
+	 maintain its competitive position in the discount brokerage space	res:1
+	(VERB   given/VBN   his/PRP$   experience/NN   in/IN   consumer/NN   finance/NN   the/DT   past/JJ   few/JJ   years/NNS)
+	(VERB   said/VBD   BMO/NNP   Capital/NNP   Markets/NNPS   analyst/NN   Michael/NNP   Vinciquerra/NNP   in/IN   a/DT   report/NN   Monday/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN path/NN)
+
+----------------------------------
+original sentence: 
+American International Group Inc. /quotes/comstock/13*!aig
+ also lost ground Monday on news former CEO Hank Greenberg's Starr International will sell up to 10 million shares of the bailed out insurance giant.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('/quotes/comstock/13', 'NNP'), ('*', '-NONE-'), ('!', '.'), ('aig', 'NN'), ('also', 'RB'), ('lost', 'VBD'), ('ground', 'VBN'), ('Monday', 'NNP'), ('on', 'IN'), ('news', 'NN'), ('former', 'JJ'), ('CEO', 'NNP'), ('Hank', 'NNP'), ('Greenberg', 'NNP'), ("'s", 'POS'), ('Starr', 'NNP'), ('International', 'NNP'), ('will', 'MD'), ('sell', 'VB'), ('up', 'RP'), ('to', 'TO'), ('10', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('bailed', 'VBN'), ('out', 'RP'), ('insurance', 'NN'), ('giant', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION International/NNP Group/NNP Inc./NNP)   /quotes/comstock/13/NNP   */-NONE-   !/.   aig/NN   also/RB   lost/VBD   ground/VBN   Monday/NNP   on/IN   news/NN   former/JJ   (ORGANIZATION CEO/NNP Hank/NNP Greenberg/NNP)   's/POS   (PERSON Starr/NNP International/NNP)   will/MD   sell/VB   up/RP   to/TO   10/CD   million/CD   shares/NNS   of/IN   the/DT   bailed/VBN   out/RP   insurance/NN   giant/NN   ./.)
+----------------------------------
+original sentence: 
+In other analyst ratings actions, Jefferies Group Inc. /quotes/comstock/13*!jef
+ shares slipped after Ticonderoga Securities analyst Douglas Sipkin downgraded the stock to sell from neutral.
+
+POS tagged sentence: 
+[('In', 'IN'), ('other', 'JJ'), ('analyst', 'NN'), ('ratings', 'NNS'), ('actions', 'NNS'), (',', ','), ('Jefferies', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('/quotes/comstock/13', 'NNP'), ('*', '-NONE-'), ('!', '.'), ('jef', 'NN'), ('shares', 'NNS'), ('slipped', 'VBD'), ('after', 'IN'), ('Ticonderoga', 'NNP'), ('Securities', 'NNPS'), ('analyst', 'NN'), ('Douglas', 'NNP'), ('Sipkin', 'NNP'), ('downgraded', 'VBD'), ('the', 'DT'), ('stock', 'NN'), ('to', 'TO'), ('sell', 'VB'), ('from', 'IN'), ('neutral', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   other/JJ   analyst/NN   ratings/NNS   actions/NNS   ,/,   (PERSON Jefferies/NNP Group/NNP)   Inc./NNP   /quotes/comstock/13/NNP   */-NONE-   !/.   jef/NN   shares/NNS   slipped/VBD   after/IN   (ORGANIZATION Ticonderoga/NNP Securities/NNPS)   analyst/NN   (PERSON Douglas/NNP Sipkin/NNP)   downgraded/VBD   the/DT   stock/NN   to/TO   sell/VB   from/IN   neutral/JJ   ./.)
+----------------------------------
+original sentence: 
+More Financial Stocks
+Financials slightly higher on AmEx, exchanges
+Financial stocks close in positive territory
+Financials falter after Moody's subpoena
+Financial stocks rally past Goldman
+Goldman rebound, Citigroup boost financial stocks
+Explore related topics
+ Citigroup Inc  E*Trade Financial Corp  Financial Select Sector SPDR ETF  Charles Schwab Corp The  American Intl Group Inc Sears starts to look like a retailer again
+Sears Holdings Corp. is buying another chunk of its majority owned Sears Canada business, but the real stunner is that people actually seem to be shopping at its U.S. stores.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('Financial', 'JJ'), ('Stocks', 'NNS'), ('Financials', 'NNS'), ('slightly', 'RB'), ('higher', 'JJR'), ('on', 'IN'), ('AmEx', 'NNP'), (',', ','), ('exchanges', 'NNS'), ('Financial', 'NNP'), ('stocks', 'NNS'), ('close', 'JJ'), ('in', 'IN'), ('positive', 'JJ'), ('territory', 'NN'), ('Financials', 'NNS'), ('falter', 'NN'), ('after', 'IN'), ('Moody', 'NNP'), ("'s", 'POS'), ('subpoena', 'NN'), ('Financial', 'NNP'), ('stocks', 'NNS'), ('rally', 'RB'), ('past', 'JJ'), ('Goldman', 'NNP'), ('Goldman', 'NNP'), ('rebound', 'NN'), (',', ','), ('Citigroup', 'NNP'), ('boost', 'NN'), ('financial', 'JJ'), ('stocks', 'NNS'), ('Explore', 'NNP'), ('related', 'VBD'), ('topics', 'NNS'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('E', 'NNP'), ('*', '-NONE-'), ('Trade', 'VB'), ('Financial', 'JJ'), ('Corp', 'NNP'), ('Financial', 'NNP'), ('Select', 'NNP'), ('Sector', 'NNP'), ('SPDR', 'NNP'), ('ETF', 'NNP'), ('Charles', 'NNP'), ('Schwab', 'NNP'), ('Corp', 'NNP'), ('The', 'NNP'), ('American', 'NNP'), ('Intl', 'NNP'), ('Group', 'NNP'), ('Inc', 'NNP'), ('Sears', 'NNP'), ('starts', 'VBZ'), ('to', 'TO'), ('look', 'VB'), ('like', 'IN'), ('a', 'DT'), ('retailer', 'NN'), ('again', 'RB'), ('Sears', 'VBZ'), ('Holdings', 'NNS'), ('Corp.', 'NNP'), ('is', 'VBZ'), ('buying', 'VBG'), ('another', 'DT'), ('chunk', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('majority', 'NN'), ('owned', 'VBN'), ('Sears', 'NNS'), ('Canada', 'NNP'), ('business', 'NN'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('real', 'JJ'), ('stunner', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('people', 'NNS'), ('actually', 'RB'), ('seem', 'VBP'), ('to', 'TO'), ('be', 'VB'), ('shopping', 'VBG'), ('at', 'IN'), ('its', 'PRP$'), ('U.S.', 'NNP'), ('stores', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   Financial/JJ   Stocks/NNS   Financials/NNS   slightly/RB   higher/JJR   on/IN   (ORGANIZATION AmEx/NNP)   ,/,   exchanges/NNS   Financial/NNP   stocks/NNS   close/JJ   in/IN   positive/JJ   territory/NN   Financials/NNS   falter/NN   after/IN   (PERSON Moody/NNP)   's/POS   subpoena/NN   Financial/NNP   stocks/NNS   rally/RB   past/JJ   (ORGANIZATION Goldman/NNP Goldman/NNP)   rebound/NN   ,/,   (GPE Citigroup/NNP)   boost/NN   financial/JJ   stocks/NNS   (PERSON Explore/NNP)   related/VBD   topics/NNS   (PERSON Citigroup/NNP Inc/NNP)   E/NNP   */-NONE-   Trade/VB   (ORGANIZATION Financial/JJ Corp/NNP)   Financial/NNP   Select/NNP   Sector/NNP   SPDR/NNP   ETF/NNP   (PERSON     Charles/NNP     Schwab/NNP     Corp/NNP     The/NNP     American/NNP     Intl/NNP     Group/NNP     Inc/NNP     Sears/NNP)   starts/VBZ   to/TO   look/VB   like/IN   a/DT   retailer/NN   again/RB   Sears/VBZ   (ORGANIZATION Holdings/NNS Corp./NNP)   is/VBZ   buying/VBG   another/DT   chunk/NN   of/IN   its/PRP$   majority/NN   owned/VBN   (PERSON Sears/NNS Canada/NNP)   business/NN   ,/,   but/CC   the/DT   real/JJ   stunner/NN   is/VBZ   that/IN   people/NNS   actually/RB   seem/VBP   to/TO   be/VB   shopping/VBG   at/IN   its/PRP$   (GPE U.S./NNP)   stores/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB related/VBD topics/NNS Citigroup/NNP Inc/NNP E/NNP)
+	(VERB   Trade/VB   Financial/JJ   Corp/NNP   Financial/NNP   Select/NNP   Sector/NNP   SPDR/NNP   ETF/NNP   Charles/NNP   Schwab/NNP   Corp/NNP   The/NNP   American/NNP   Intl/NNP   Group/NNP   Inc/NNP   Sears/NNP)
+	(VERB starts/VBZ to/TO look/VB like/IN a/DT retailer/NN again/RB)
+	(VERB Sears/VBZ Holdings/NNS Corp./NNP)
+	(VERB   is/VBZ   buying/VBG   another/DT   chunk/NN   of/IN   its/PRP$   majority/NN)
+	(VERB owned/VBN Sears/NNS Canada/NNP business/NN)
+	(VERB is/VBZ that/IN people/NNS actually/RB)
+	(VERB   seem/VBP   to/TO   be/VB   shopping/VBG   at/IN   its/PRP$   U.S./NNP   stores/NNS)
+noun phrases to consider:
+	(NOUN More/JJR Financial/JJ Stocks/NNS Financials/NNS)
+	(NOUN slightly/RB higher/JJR)
+	(NOUN AmEx/NNP)
+	(NOUN exchanges/NNS Financial/NNP stocks/NNS close/JJ)
+	(NOUN positive/JJ territory/NN Financials/NNS falter/NN)
+	(NOUN Moody/NNP)
+	(NOUN subpoena/NN Financial/NNP stocks/NNS)
+	(NOUN rally/RB past/JJ Goldman/NNP Goldman/NNP rebound/NN)
+	(NOUN Citigroup/NNP boost/NN financial/JJ stocks/NNS Explore/NNP)
+
+tagged sentence:
+	 Citigroup boost financial stocks Explore	res:1
+	(NOUN the/DT real/JJ stunner/NN)
+
+----------------------------------
+original sentence: 
+U.S. suspects Goldman tip off on Buffett deal: WSJ
+New home sales surge 27% to 411,000 pace
+Apple passes Microsoft on S&P 500 market cap list
+Greece gives up, formally requests rescue
+U.S. stock futures retain slight edge after data
+BS, the real story is the buy recomendation by Dick Bove.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('suspects', 'NNS'), ('Goldman', 'NNP'), ('tip', 'NN'), ('off', 'IN'), ('on', 'IN'), ('Buffett', 'NNP'), ('deal', 'NN'), (':', ':'), ('WSJ', 'NNP'), ('New', 'NNP'), ('home', 'NN'), ('sales', 'NNS'), ('surge', 'NN'), ('27', 'CD'), ('%', 'NN'), ('to', 'TO'), ('411,000', 'CD'), ('pace', 'NN'), ('Apple', 'NNP'), ('passes', 'NNS'), ('Microsoft', 'NNP'), ('on', 'IN'), ('S&P', 'NNP'), ('500', 'CD'), ('market', 'NN'), ('cap', 'NN'), ('list', 'NN'), ('Greece', 'NNP'), ('gives', 'VBZ'), ('up', 'RP'), (',', ','), ('formally', 'RB'), ('requests', 'VBZ'), ('rescue', 'JJ'), ('U.S.', 'NNP'), ('stock', 'NN'), ('futures', 'NNS'), ('retain', 'NN'), ('slight', 'VBD'), ('edge', 'NN'), ('after', 'IN'), ('data', 'NNS'), ('BS', 'NNP'), (',', ','), ('the', 'DT'), ('real', 'JJ'), ('story', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('buy', 'NN'), ('recomendation', 'NN'), ('by', 'IN'), ('Dick', 'NNP'), ('Bove', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   suspects/NNS   (ORGANIZATION Goldman/NNP)   tip/NN   off/IN   on/IN   (PERSON Buffett/NNP)   deal/NN   :/:   (ORGANIZATION WSJ/NNP New/NNP)   home/NN   sales/NNS   surge/NN   27/CD   %/NN   to/TO   411,000/CD   pace/NN   Apple/NNP   passes/NNS   (PERSON Microsoft/NNP)   on/IN   S&P/NNP   500/CD   market/NN   cap/NN   list/NN   (GPE Greece/NNP)   gives/VBZ   up/RP   ,/,   formally/RB   requests/VBZ   rescue/JJ   (GPE U.S./NNP)   stock/NN   futures/NNS   retain/NN   slight/VBD   edge/NN   after/IN   data/NNS   BS/NNP   ,/,   the/DT   real/JJ   story/NN   is/VBZ   the/DT   buy/NN   recomendation/NN   by/IN   (PERSON Dick/NNP Bove/NNP)   ./.)
+----------------------------------
+original sentence: 
+Due some real research on whats happening at Citi.
+
+POS tagged sentence: 
+[('Due', 'JJ'), ('some', 'DT'), ('real', 'JJ'), ('research', 'NN'), ('on', 'IN'), ('whats', 'NNS'), ('happening', 'VBG'), ('at', 'IN'), ('Citi', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Due/JJ   some/DT   real/JJ   research/NN   on/IN   whats/NNS   happening/VBG   at/IN   (ORGANIZATION Citi/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB happening/VBG at/IN Citi/NNP)
+noun phrases to consider:
+	(NOUN Due/JJ)
+	(NOUN some/DT real/JJ research/NN)
+	(NOUN whats/NNS)
+
+----------------------------------
+original sentence: 
+Go to Bloomberg and steal a story, look smart.&quot;
+10:06 a.m. March 22, 2010
++1 Vote 1 Up / 0 Down MarketWatch's Latest Tweets
+"Defining 'last activity' on a credit report: Plus more credit report help, including how to dispute an inaccuracy 3:59 p.m. EDT, April 23, 2010 from "Raters were overwhelmed, understaffed and pressured by banks, panel reveals 3:34 p.m. EDT, April 23, 2010 from "U.S. stocks gain Friday; Dow's 8 week win streak is longest since 2004 3:04 p.m. EDT, April 23, 2010 from "German business climate best in nearly two years 12:54 p.m. EDT, April 23, 2010 from "Psst N.Y. Times, you're in the wrong business 12:35 p.m. EDT, April 23, 2010 from /quotes/comstock/13*!c
+/marketstate/country/US
+The market is closed
+/quotes/comstock/15*!etfc
+E*Trade Financial Corp ETFC /marketstate/country/US
+The market is closed
+/quotes/comstock/13*!xlf
+Financial Select Sector... XLF /marketstate/country/US
+The market is closed
+/quotes/comstock/13*!schw
+Charles Schwab Corp The SCHW /marketstate/country/US
+The market is closed
+/quotes/comstock/13*!aig
+American Intl Group Inc AIG /marketstate/country/US
+The market is closed
+/quotes/comstock/13*!jef
+Jefferies Group Inc JEF /marketstate/country/US
+The market is closed
+/marketstate/country/us
+/marketstate/country/uk
+/marketstate/country/jp
+/marketstate/country/us
+/marketstate/country/uk
+/marketstate/country/jp
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166568
+U.S. stocks end higher, led by energy stocks
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166566
+Dream Kitchen on a Budget
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166565
+MarketEdge: Not All Derivatives Are For Exchanges
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166561
+Palm shares up, Amazon slips in evening session
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166559
+Exelon profit up 5%, raises low end of 2010 view
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166557
+Schlumberger stock surges on upbeat outlook
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166555
+MarketWatch's Take On Tech For April 23
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166553
+Western Digital shares jump on strong profit gain
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166550
+Oil service, natural gas shares touch new highs
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166548
+Texas Instruments expected to post 50% sales gain
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166547
+Shareholder sues Goldman Sachs board: report
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166546
+Closing bell from MarketWatch Radio Network
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166545
+Western Digital leads gains across tech sector
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166543
+Asia's Week Ahead: Earnings, Japan data in focus
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166542
+U.S. stocks end session, week on upbeat note
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166541
+Shareholder sues Goldman Sachs Blankfein: report
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166540
+Lions Gate amends shareholder rights plan
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166539
+Nasdaq Composite up 11.08 points at 2,530.15
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166537
+S&P 500 gains 8.61 points to 1,217.28
+8c077dc4 5ad2 4f73 b9c3 a381c5fece05:166538
+Inspector: SEC staff watched porn during crisis
+Loading more headlines...
+/quotes/comstock/10w!i:dji/delayed
+/quotes/comstock/10y!i:comp
+/quotes/comstock/21z!i1:in\x
+Email address or display name
+The action you requested requires a MarketWatch Community display name.
+
+POS tagged sentence: 
+[('Go', 'NNP'), ('to', 'TO'), ('Bloomberg', 'NNP'), ('and', 'CC'), ('steal', 'NN'), ('a', 'DT'), ('story', 'NN'), (',', ','), ('look', 'NN'), ('smart.&quot', 'NN'), (';', ':'), ('10', 'CD'), (':', ':'), ('06', 'CD'), ('a.m.', 'NNP'), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), ('+', ':'), ('1', 'CD'), ('Vote', 'NNP'), ('1', 'CD'), ('Up', 'NNP'), ('/', 'NNP'), ('0', '-NONE-'), ('Down', 'NNP'), ('MarketWatch', 'NNP'), ("'s", 'POS'), ('Latest', 'NNP'), ('Tweets', 'NNPS'), ('"', 'NNP'), ('Defining', 'NNP'), ("'last", 'NNP'), ('activity', 'NN'), ("'", 'POS'), ('on', 'IN'), ('a', 'DT'), ('credit', 'NN'), ('report', 'NN'), (':', ':'), ('Plus', 'NNP'), ('more', 'JJR'), ('credit', 'NN'), ('report', 'NN'), ('help', 'NN'), (',', ','), ('including', 'VBG'), ('how', 'WRB'), ('to', 'TO'), ('dispute', 'VB'), ('an', 'DT'), ('inaccuracy', 'NN'), ('3', 'CD'), (':', ':'), ('59', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('from', 'IN'), ('"', 'CD'), ('Raters', 'NNS'), ('were', 'VBD'), ('overwhelmed', 'VBN'), (',', ','), ('understaffed', 'VBN'), ('and', 'CC'), ('pressured', 'JJ'), ('by', 'IN'), ('banks', 'NNS'), (',', ','), ('panel', 'NN'), ('reveals', 'NNS'), ('3', 'CD'), (':', ':'), ('34', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('from', 'IN'), ('"', 'CD'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('gain', 'NN'), ('Friday', 'NNP'), (';', ':'), ('Dow', 'NNP'), ("'s", 'POS'), ('8', 'CD'), ('week', 'NN'), ('win', 'NN'), ('streak', 'NN'), ('is', 'VBZ'), ('longest', 'VBN'), ('since', 'IN'), ('2004', 'CD'), ('3', 'CD'), (':', ':'), ('04', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('from', 'IN'), ('"', 'CD'), ('German', 'JJ'), ('business', 'NN'), ('climate', 'NN'), ('best', 'JJS'), ('in', 'IN'), ('nearly', 'RB'), ('two', 'CD'), ('years', 'NNS'), ('12', 'CD'), (':', ':'), ('54', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('from', 'IN'), ('"', 'CD'), ('Psst', 'NNP'), ('N.Y.', 'NNP'), ('Times', 'NNP'), (',', ','), ('you', 'PRP'), ("'re", 'VBP'), ('in', 'IN'), ('the', 'DT'), ('wrong', 'JJ'), ('business', 'NN'), ('12', 'CD'), (':', ':'), ('35', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('from', 'IN'), ('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('c', 'NN'), ('/marketstate/country/US', 'JJ'), ('The', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/quotes/comstock/15', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('etfc', 'NN'), ('E', 'NNP'), ('*', '-NONE-'), ('Trade', 'VB'), ('Financial', 'JJ'), ('Corp', 'NNP'), ('ETFC', 'NNP'), ('/marketstate/country/US', 'NNP'), ('The', 'NNP'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('xlf', 'NN'), ('Financial', 'NNP'), ('Select', 'NNP'), ('Sector...', 'NNP'), ('XLF', 'NNP'), ('/marketstate/country/US', 'NNP'), ('The', 'NNP'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('schw', 'NN'), ('Charles', 'NNP'), ('Schwab', 'NNP'), ('Corp', 'NNP'), ('The', 'NNP'), ('SCHW', 'NNP'), ('/marketstate/country/US', 'NNP'), ('The', 'NNP'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('aig', 'NN'), ('American', 'NNP'), ('Intl', 'NNP'), ('Group', 'NNP'), ('Inc', 'NNP'), ('AIG', 'NNP'), ('/marketstate/country/US', 'NNP'), ('The', 'NNP'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/quotes/comstock/13', '-NONE-'), ('*', '-NONE-'), ('!', '.'), ('jef', 'NN'), ('Jefferies', 'NNS'), ('Group', 'NNP'), ('Inc', 'NNP'), ('JEF', 'NNP'), ('/marketstate/country/US', 'NNP'), ('The', 'NNP'), ('market', 'NN'), ('is', 'VBZ'), ('closed', 'VBN'), ('/marketstate/country/us', 'JJ'), ('/marketstate/country/uk', 'NN'), ('/marketstate/country/jp', 'NN'), ('/marketstate/country/us', 'JJ'), ('/marketstate/country/uk', 'NN'), ('/marketstate/country/jp', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166568', 'CD'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('end', 'VBP'), ('higher', 'JJR'), (',', ','), ('led', 'VBN'), ('by', 'IN'), ('energy', 'NN'), ('stocks', 'NNS'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166566', 'CD'), ('Dream', 'NNP'), ('Kitchen', 'NNP'), ('on', 'IN'), ('a', 'DT'), ('Budget', 'NNP'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166565', 'CD'), ('MarketEdge', 'NNP'), (':', ':'), ('Not', 'RB'), ('All', 'DT'), ('Derivatives', 'NNP'), ('Are', 'NNP'), ('For', 'NNP'), ('Exchanges', 'NNP'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166561', 'CD'), ('Palm', 'NNP'), ('shares', 'NNS'), ('up', 'IN'), (',', ','), ('Amazon', 'NNP'), ('slips', 'NNS'), ('in', 'IN'), ('evening', 'NN'), ('session', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166559', 'CD'), ('Exelon', 'NNP'), ('profit', 'NN'), ('up', 'IN'), ('5', 'CD'), ('%', 'NN'), (',', ','), ('raises', 'VBZ'), ('low', 'JJ'), ('end', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('view', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166557', 'CD'), ('Schlumberger', 'NNP'), ('stock', 'NN'), ('surges', 'NNS'), ('on', 'IN'), ('upbeat', 'JJ'), ('outlook', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166555', 'CD'), ('MarketWatch', 'NN'), ("'s", 'POS'), ('Take', 'NNP'), ('On', 'NNP'), ('Tech', 'NNP'), ('For', 'NNP'), ('April', 'NNP'), ('23', 'CD'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166553', 'CD'), ('Western', 'NNP'), ('Digital', 'NNP'), ('shares', 'NNS'), ('jump', 'VB'), ('on', 'IN'), ('strong', 'JJ'), ('profit', 'NN'), ('gain', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166550', 'CD'), ('Oil', 'NNP'), ('service', 'NN'), (',', ','), ('natural', 'JJ'), ('gas', 'NN'), ('shares', 'NNS'), ('touch', 'VBP'), ('new', 'JJ'), ('highs', 'NNS'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166548', 'CD'), ('Texas', 'NNP'), ('Instruments', 'NNP'), ('expected', 'VBD'), ('to', 'TO'), ('post', 'VB'), ('50', 'CD'), ('%', 'NN'), ('sales', 'NNS'), ('gain', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166547', 'CD'), ('Shareholder', 'NNP'), ('sues', 'NNS'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('board', 'NN'), (':', ':'), ('report', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166546', 'CD'), ('Closing', 'NNP'), ('bell', 'NN'), ('from', 'IN'), ('MarketWatch', 'NNP'), ('Radio', 'NNP'), ('Network', 'NNP'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166545', 'CD'), ('Western', 'NNP'), ('Digital', 'NNP'), ('leads', 'NNS'), ('gains', 'VBZ'), ('across', 'IN'), ('tech', 'JJ'), ('sector', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166543', 'CD'), ('Asia', 'NNP'), ("'s", 'POS'), ('Week', 'NNP'), ('Ahead', 'NNP'), (':', ':'), ('Earnings', 'NNS'), (',', ','), ('Japan', 'NNP'), ('data', 'NNS'), ('in', 'IN'), ('focus', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166542', 'CD'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('end', 'VBP'), ('session', 'NN'), (',', ','), ('week', 'NN'), ('on', 'IN'), ('upbeat', 'NN'), ('note', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166541', 'CD'), ('Shareholder', 'NNP'), ('sues', 'NNS'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Blankfein', 'NNP'), (':', ':'), ('report', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166540', 'CD'), ('Lions', 'NNS'), ('Gate', 'NNP'), ('amends', 'NNS'), ('shareholder', 'NN'), ('rights', 'NNS'), ('plan', 'NN'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166539', 'CD'), ('Nasdaq', 'NNP'), ('Composite', 'NNP'), ('up', 'IN'), ('11.08', 'CD'), ('points', 'NNS'), ('at', 'IN'), ('2,530.15', 'CD'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166537', 'CD'), ('S&P', 'NNP'), ('500', 'CD'), ('gains', 'NNS'), ('8.61', 'CD'), ('points', 'NNS'), ('to', 'TO'), ('1,217.28', 'CD'), ('8c077dc4', 'CD'), ('5ad2', 'CD'), ('4f73', 'CD'), ('b9c3', 'NNP'), ('a381c5fece05', 'NNP'), (':', ':'), ('166538', 'CD'), ('Inspector', 'NNP'), (':', ':'), ('SEC', 'NNP'), ('staff', 'NN'), ('watched', 'VBD'), ('porn', 'NN'), ('during', 'IN'), ('crisis', 'NN'), ('Loading', 'NNP'), ('more', 'RBR'), ('headlines..', 'NNP'), ('.', '.'), ('/quotes/comstock/10w', 'JJ'), ('!', '.'), ('i', 'PRP'), (':', ':'), ('dji/delayed', 'JJ'), ('/quotes/comstock/10y', 'JJ'), ('!', '.'), ('i', 'PRP'), (':', ':'), ('comp', 'VB'), ('/quotes/comstock/21z', 'JJ'), ('!', '.'), ('i1', 'NNP'), (':', ':'), ('in', 'IN'), ('\\', 'NN'), ('x', 'NN'), ('Email', 'NNP'), ('address', 'NN'), ('or', 'CC'), ('display', 'NN'), ('name', 'NN'), ('The', 'DT'), ('action', 'NN'), ('you', 'PRP'), ('requested', 'VBD'), ('requires', 'NNS'), ('a', 'DT'), ('MarketWatch', 'NN'), ('Community', 'NNP'), ('display', 'NN'), ('name', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Go/NNP   to/TO   (PERSON Bloomberg/NNP)   and/CC   steal/NN   a/DT   story/NN   ,/,   look/NN   smart.&quot/NN   ;/:   10/CD   :/:   06/CD   a.m./NNP   March/NNP   22/CD   ,/,   2010/CD   +/:   1/CD   Vote/NNP   1/CD   Up/NNP   //NNP   0/-NONE-   (PERSON Down/NNP MarketWatch/NNP)   's/POS   (ORGANIZATION Latest/NNP Tweets/NNPS)   "/NNP   Defining/NNP   'last/NNP   activity/NN   '/POS   on/IN   a/DT   credit/NN   report/NN   :/:   Plus/NNP   more/JJR   credit/NN   report/NN   help/NN   ,/,   including/VBG   how/WRB   to/TO   dispute/VB   an/DT   inaccuracy/NN   3/CD   :/:   59/CD   p.m./NN   (ORGANIZATION EDT/NNP)   ,/,   April/NNP   23/CD   ,/,   2010/CD   from/IN   "/CD   Raters/NNS   were/VBD   overwhelmed/VBN   ,/,   understaffed/VBN   and/CC   pressured/JJ   by/IN   banks/NNS   ,/,   panel/NN   reveals/NNS   3/CD   :/:   34/CD   p.m./NN   (ORGANIZATION EDT/NNP)   ,/,   April/NNP   23/CD   ,/,   2010/CD   from/IN   "/CD   (GPE U.S./NNP)   stocks/NNS   gain/NN   Friday/NNP   ;/:   (PERSON Dow/NNP)   's/POS   8/CD   week/NN   win/NN   streak/NN   is/VBZ   longest/VBN   since/IN   2004/CD   3/CD   :/:   04/CD   p.m./NN   (ORGANIZATION EDT/NNP)   ,/,   April/NNP   23/CD   ,/,   2010/CD   from/IN   "/CD   (GPE German/JJ)   business/NN   climate/NN   best/JJS   in/IN   nearly/RB   two/CD   years/NNS   12/CD   :/:   54/CD   p.m./NN   (ORGANIZATION EDT/NNP)   ,/,   April/NNP   23/CD   ,/,   2010/CD   from/IN   "/CD   (PERSON Psst/NNP)   N.Y./NNP   Times/NNP   ,/,   you/PRP   're/VBP   in/IN   the/DT   wrong/JJ   business/NN   12/CD   :/:   35/CD   p.m./NN   (ORGANIZATION EDT/NNP)   ,/,   April/NNP   23/CD   ,/,   2010/CD   from/IN   /quotes/comstock/13/-NONE-   */-NONE-   !/.   c/NN   /marketstate/country/US/JJ   The/DT   market/NN   is/VBZ   closed/VBN   /quotes/comstock/15/-NONE-   */-NONE-   !/.   etfc/NN   E/NNP   */-NONE-   Trade/VB   (ORGANIZATION Financial/JJ Corp/NNP)   ETFC/NNP   /marketstate/country/US/NNP   The/NNP   market/NN   is/VBZ   closed/VBN   /quotes/comstock/13/-NONE-   */-NONE-   !/.   xlf/NN   Financial/NNP   Select/NNP   Sector.../NNP   XLF/NNP   /marketstate/country/US/NNP   The/NNP   market/NN   is/VBZ   closed/VBN   /quotes/comstock/13/-NONE-   */-NONE-   !/.   schw/NN   (PERSON Charles/NNP Schwab/NNP Corp/NNP The/NNP)   (ORGANIZATION SCHW/NNP)   /marketstate/country/US/NNP   The/NNP   market/NN   is/VBZ   closed/VBN   /quotes/comstock/13/-NONE-   */-NONE-   !/.   aig/NN   (ORGANIZATION American/NNP Intl/NNP Group/NNP Inc/NNP)   AIG/NNP   /marketstate/country/US/NNP   The/NNP   market/NN   is/VBZ   closed/VBN   /quotes/comstock/13/-NONE-   */-NONE-   !/.   jef/NN   Jefferies/NNS   (PERSON Group/NNP Inc/NNP)   JEF/NNP   /marketstate/country/US/NNP   The/NNP   market/NN   is/VBZ   closed/VBN   /marketstate/country/us/JJ   /marketstate/country/uk/NN   /marketstate/country/jp/NN   /marketstate/country/us/JJ   /marketstate/country/uk/NN   /marketstate/country/jp/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166568/CD   (GPE U.S./NNP)   stocks/NNS   end/VBP   higher/JJR   ,/,   led/VBN   by/IN   energy/NN   stocks/NNS   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166566/CD   Dream/NNP   Kitchen/NNP   on/IN   a/DT   Budget/NNP   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166565/CD   MarketEdge/NNP   :/:   Not/RB   All/DT   Derivatives/NNP   Are/NNP   For/NNP   Exchanges/NNP   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166561/CD   (GPE Palm/NNP)   shares/NNS   up/IN   ,/,   (GPE Amazon/NNP)   slips/NNS   in/IN   evening/NN   session/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166559/CD   Exelon/NNP   profit/NN   up/IN   5/CD   %/NN   ,/,   raises/VBZ   low/JJ   end/NN   of/IN   2010/CD   view/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166557/CD   Schlumberger/NNP   stock/NN   surges/NNS   on/IN   upbeat/JJ   outlook/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166555/CD   (ORGANIZATION MarketWatch/NN)   's/POS   (PERSON Take/NNP On/NNP Tech/NNP For/NNP)   April/NNP   23/CD   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166553/CD   (LOCATION Western/NNP)   (ORGANIZATION Digital/NNP)   shares/NNS   jump/VB   on/IN   strong/JJ   profit/NN   gain/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166550/CD   Oil/NNP   service/NN   ,/,   natural/JJ   gas/NN   shares/NNS   touch/VBP   new/JJ   highs/NNS   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166548/CD   (PERSON Texas/NNP Instruments/NNP)   expected/VBD   to/TO   post/VB   50/CD   %/NN   sales/NNS   gain/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166547/CD   Shareholder/NNP   sues/NNS   (ORGANIZATION Goldman/NNP Sachs/NNP)   board/NN   :/:   report/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166546/CD   Closing/NNP   bell/NN   from/IN   (ORGANIZATION MarketWatch/NNP Radio/NNP)   Network/NNP   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166545/CD   (LOCATION Western/NNP)   (ORGANIZATION Digital/NNP)   leads/NNS   gains/VBZ   across/IN   tech/JJ   sector/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166543/CD   (GPE Asia/NNP)   's/POS   (ORGANIZATION Week/NNP)   Ahead/NNP   :/:   Earnings/NNS   ,/,   (GPE Japan/NNP)   data/NNS   in/IN   focus/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166542/CD   (GPE U.S./NNP)   stocks/NNS   end/VBP   session/NN   ,/,   week/NN   on/IN   upbeat/NN   note/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166541/CD   Shareholder/NNP   sues/NNS   (ORGANIZATION Goldman/NNP Sachs/NNP)   Blankfein/NNP   :/:   report/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166540/CD   Lions/NNS   (ORGANIZATION Gate/NNP)   amends/NNS   shareholder/NN   rights/NNS   plan/NN   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166539/CD   (ORGANIZATION Nasdaq/NNP Composite/NNP)   up/IN   11.08/CD   points/NNS   at/IN   2,530.15/CD   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166537/CD   S&P/NNP   500/CD   gains/NNS   8.61/CD   points/NNS   to/TO   1,217.28/CD   8c077dc4/CD   5ad2/CD   4f73/CD   (ORGANIZATION b9c3/NNP)   a381c5fece05/NNP   :/:   166538/CD   Inspector/NNP   :/:   SEC/NNP   staff/NN   watched/VBD   porn/NN   during/IN   crisis/NN   Loading/NNP   more/RBR   headlines../NNP   ./.   /quotes/comstock/10w/JJ   !/.   i/PRP   :/:   dji/delayed/JJ   /quotes/comstock/10y/JJ   !/.   i/PRP   :/:   comp/VB   /quotes/comstock/21z/JJ   !/.   i1/NNP   :/:   in/IN   \/NN   x/NN   (PERSON Email/NNP)   address/NN   or/CC   display/NN   name/NN   The/DT   action/NN   you/PRP   requested/VBD   requires/NNS   a/DT   (ORGANIZATION MarketWatch/NN Community/NNP)   display/NN   name/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB including/VBG)
+	(VERB dispute/VB an/DT inaccuracy/NN 3/CD)
+	(VERB were/VBD overwhelmed/VBN)
+	(VERB understaffed/VBN)
+	(VERB is/VBZ longest/VBN since/IN 2004/CD 3/CD)
+	(VERB 're/VBP in/IN the/DT wrong/JJ business/NN 12/CD)
+	(VERB is/VBZ closed/VBN)
+	(VERB   Trade/VB   Financial/JJ   Corp/NNP   ETFC/NNP   /marketstate/country/US/NNP   The/NNP   market/NN)
+	(VERB is/VBZ closed/VBN)
+	(VERB is/VBZ closed/VBN)
+	(VERB is/VBZ closed/VBN)
+	(VERB is/VBZ closed/VBN)
+	(VERB   is/VBZ   closed/VBN   /marketstate/country/us/JJ   /marketstate/country/uk/NN   /marketstate/country/jp/NN   /marketstate/country/us/JJ   /marketstate/country/uk/NN   /marketstate/country/jp/NN   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB end/VBP higher/JJR)
+	(VERB   led/VBN   by/IN   energy/NN   stocks/NNS   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB   raises/VBZ   low/JJ   end/NN   of/IN   2010/CD   view/NN   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB   jump/VB   on/IN   strong/JJ   profit/NN   gain/NN   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB   touch/VBP   new/JJ   highs/NNS   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB   expected/VBD   to/TO   post/VB   50/CD   %/NN   sales/NNS   gain/NN   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB   gains/VBZ   across/IN   tech/JJ   sector/NN   8c077dc4/CD   5ad2/CD   4f73/CD   b9c3/NNP   a381c5fece05/NNP)
+	(VERB end/VBP session/NN)
+	(VERB watched/VBD porn/NN during/IN crisis/NN Loading/NNP)
+
+tagged sentence:
+	 watched porn during crisis Loading	res:-1
+	(VERB comp/VB /quotes/comstock/21z/JJ)
+	(VERB   requested/VBD   requires/NNS   a/DT   MarketWatch/NN   Community/NNP   display/NN   name/NN)
+noun phrases to consider:
+	(NOUN Go/NNP)
+	(NOUN Bloomberg/NNP)
+	(NOUN steal/NN)
+	(NOUN story/NN)
+	(NOUN look/NN smart.&quot/NN)
+	(NOUN 06/CD a.m./NNP March/NNP)
+	(NOUN 1/CD Vote/NNP)
+	(NOUN 1/CD Up/NNP //NNP)
+	(NOUN Down/NNP MarketWatch/NNP)
+	(NOUN Latest/NNP Tweets/NNPS "/NNP Defining/NNP)
+	(NOUN 'last/NNP activity/NN)
+	(NOUN credit/NN report/NN)
+	(NOUN Plus/NNP more/JJR credit/NN report/NN help/NN)
+	(NOUN 59/CD p.m./NN EDT/NNP)
+	(NOUN April/NNP)
+	(NOUN "/CD Raters/NNS)
+	(NOUN pressured/JJ)
+	(NOUN banks/NNS)
+	(NOUN panel/NN reveals/NNS)
+	(NOUN 34/CD p.m./NN EDT/NNP)
+	(NOUN April/NNP)
+	(NOUN "/CD U.S./NNP stocks/NNS gain/NN Friday/NNP)
+
+tagged sentence:
+	 " U.S. stocks gain Friday	res:1
+	(NOUN Dow/NNP)
+	(NOUN 8/CD week/NN win/NN streak/NN)
+	(NOUN 04/CD p.m./NN EDT/NNP)
+	(NOUN April/NNP)
+	(NOUN "/CD German/JJ business/NN climate/NN)
+	(NOUN best/JJS)
+	(NOUN years/NNS)
+	(NOUN 54/CD p.m./NN EDT/NNP)
+	(NOUN April/NNP)
+	(NOUN "/CD Psst/NNP N.Y./NNP Times/NNP)
+	(NOUN 35/CD p.m./NN EDT/NNP)
+	(NOUN April/NNP)
+	(NOUN c/NN /marketstate/country/US/JJ)
+	(NOUN market/NN)
+	(NOUN etfc/NN E/NNP)
+	(NOUN xlf/NN Financial/NNP Select/NNP Sector.../NNP)
+	(NOUN XLF/NNP /marketstate/country/US/NNP The/NNP market/NN)
+	(NOUN schw/NN Charles/NNP Schwab/NNP Corp/NNP)
+	(NOUN The/NNP SCHW/NNP /marketstate/country/US/NNP The/NNP)
+	(NOUN market/NN)
+	(NOUN aig/NN American/NNP Intl/NNP Group/NNP)
+	(NOUN Inc/NNP AIG/NNP /marketstate/country/US/NNP The/NNP)
+	(NOUN market/NN)
+	(NOUN jef/NN Jefferies/NNS Group/NNP Inc/NNP)
+	(NOUN JEF/NNP /marketstate/country/US/NNP The/NNP market/NN)
+	(NOUN 166568/CD U.S./NNP stocks/NNS)
+	(NOUN 166566/CD Dream/NNP Kitchen/NNP)
+	(NOUN Budget/NNP)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166565/CD MarketEdge/NNP)
+	(NOUN Derivatives/NNP Are/NNP For/NNP Exchanges/NNP)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166561/CD Palm/NNP shares/NNS)
+	(NOUN Amazon/NNP slips/NNS)
+	(NOUN evening/NN session/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166559/CD Exelon/NNP profit/NN)
+	(NOUN 5/CD %/NN)
+	(NOUN 166557/CD Schlumberger/NNP stock/NN surges/NNS)
+	(NOUN upbeat/JJ outlook/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166555/CD MarketWatch/NN)
+	(NOUN Take/NNP On/NNP Tech/NNP For/NNP)
+	(NOUN April/NNP)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166553/CD Western/NNP Digital/NNP shares/NNS)
+	(NOUN 166550/CD Oil/NNP service/NN)
+	(NOUN natural/JJ gas/NN shares/NNS)
+	(NOUN 166548/CD Texas/NNP Instruments/NNP)
+	(NOUN 166547/CD Shareholder/NNP sues/NNS Goldman/NNP Sachs/NNP)
+	(NOUN board/NN)
+	(NOUN report/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166546/CD Closing/NNP bell/NN)
+	(NOUN MarketWatch/NNP Radio/NNP Network/NNP)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166545/CD Western/NNP Digital/NNP leads/NNS)
+	(NOUN 166543/CD Asia/NNP)
+	(NOUN Week/NNP Ahead/NNP)
+	(NOUN Earnings/NNS)
+	(NOUN Japan/NNP data/NNS)
+	(NOUN focus/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166542/CD U.S./NNP stocks/NNS)
+	(NOUN week/NN)
+	(NOUN upbeat/NN note/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166541/CD Shareholder/NNP sues/NNS Goldman/NNP Sachs/NNP)
+	(NOUN Blankfein/NNP)
+	(NOUN report/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166540/CD Lions/NNS Gate/NNP amends/NNS shareholder/NN)
+	(NOUN rights/NNS plan/NN)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166539/CD Nasdaq/NNP Composite/NNP)
+	(NOUN 11.08/CD points/NNS)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166537/CD S&P/NNP)
+	(NOUN 500/CD gains/NNS)
+
+tagged sentence:
+	 500 gains	res:1
+	(NOUN 8.61/CD points/NNS)
+	(NOUN 4f73/CD b9c3/NNP a381c5fece05/NNP)
+	(NOUN 166538/CD Inspector/NNP)
+	(NOUN SEC/NNP staff/NN)
+	(NOUN headlines../NNP)
+	(NOUN /quotes/comstock/10w/JJ)
+	(NOUN dji/delayed/JJ /quotes/comstock/10y/JJ)
+	(NOUN i1/NNP)
+	(NOUN \/NN x/NN Email/NNP address/NN)
+	(NOUN display/NN name/NN)
+	(NOUN action/NN)
+
+----------------------------------
+original sentence: 
+Email address or display name
+Get your FREE membership now Â»
+ MarketWatch Community is a free service that lets you discover, organize and share MarketWatch stories with other readers.
+
+POS tagged sentence: 
+[('Email', 'NNP'), ('address', 'NN'), ('or', 'CC'), ('display', 'NN'), ('name', 'NN'), ('Get', 'NNP'), ('your', 'PRP$'), ('FREE', 'NNP'), ('membership', 'NN'), ('now', 'RB'), ('\xc2', '.'), ('\xbb', ':'), ('MarketWatch', 'NN'), ('Community', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('free', 'JJ'), ('service', 'NN'), ('that', 'WDT'), ('lets', 'VBZ'), ('you', 'PRP'), ('discover', 'RB'), (',', ','), ('organize', 'VBP'), ('and', 'CC'), ('share', 'NN'), ('MarketWatch', 'NN'), ('stories', 'NNS'), ('with', 'IN'), ('other', 'JJ'), ('readers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Email/NNP)   address/NN   or/CC   display/NN   name/NN   Get/NNP   your/PRP$   (ORGANIZATION FREE/NNP)   membership/NN   now/RB   Â/.   »/:   (ORGANIZATION MarketWatch/NN Community/NNP)   is/VBZ   a/DT   free/JJ   service/NN   that/WDT   lets/VBZ   you/PRP   discover/RB   ,/,   organize/VBP   and/CC   share/NN   (ORGANIZATION MarketWatch/NN)   stories/NNS   with/IN   other/JJ   readers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT free/JJ service/NN)
+	(VERB lets/VBZ you/PRP discover/RB)
+	(VERB organize/VBP)
+noun phrases to consider:
+	(NOUN Email/NNP address/NN)
+	(NOUN display/NN name/NN Get/NNP)
+	(NOUN FREE/NNP membership/NN)
+	(NOUN MarketWatch/NN Community/NNP)
+	(NOUN share/NN MarketWatch/NN stories/NNS)
+	(NOUN other/JJ readers/NNS)
+
+----------------------------------
+original sentence: 
+The action you requested is only available to MarketWatch members.
+
+POS tagged sentence: 
+[('The', 'DT'), ('action', 'NN'), ('you', 'PRP'), ('requested', 'VBD'), ('is', 'VBZ'), ('only', 'RB'), ('available', 'JJ'), ('to', 'TO'), ('MarketWatch', 'NNP'), ('members', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   action/NN   you/PRP   requested/VBD   is/VBZ   only/RB   available/JJ   to/TO   (ORGANIZATION MarketWatch/NNP)   members/NNS   ./.)
+----------------------------------
+original sentence: 
+Please sign in or register.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('sign', 'NN'), ('in', 'IN'), ('or', 'CC'), ('register', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Please/NN) sign/NN in/IN or/CC register/NN ./.)
+----------------------------------
+original sentence: 
+Email address or display name
+Don't have a MarketWatch account?
+
+POS tagged sentence: 
+[('Email', 'NNP'), ('address', 'NN'), ('or', 'CC'), ('display', 'NN'), ('name', 'NN'), ('Do', 'NNP'), ("n't", 'RB'), ('have', 'VB'), ('a', 'DT'), ('MarketWatch', 'NNP'), ('account', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Email/NNP)   address/NN   or/CC   display/NN   name/NN   Do/NNP   n't/RB   have/VB   a/DT   (ORGANIZATION MarketWatch/NNP)   account/NN   ?/.)
+----------------------------------
+original sentence: 
+Get your FREE membership now Â»
+ By registering, you are agreeing to MarketWatch's Terms of Service and to receiving periodic news and special offers via email about MarketWatch enhancements, products and services. 
+
+POS tagged sentence: 
+[('Get', 'NN'), ('your', 'PRP$'), ('FREE', 'NNP'), ('membership', 'NN'), ('now', 'RB'), ('\xc2', '.'), ('\xbb', ':'), ('By', 'IN'), ('registering', 'NN'), (',', ','), ('you', 'PRP'), ('are', 'VBP'), ('agreeing', 'VBG'), ('to', 'TO'), ('MarketWatch', 'NNP'), ("'s", 'POS'), ('Terms', 'NNP'), ('of', 'IN'), ('Service', 'NNP'), ('and', 'CC'), ('to', 'TO'), ('receiving', 'VBG'), ('periodic', 'JJ'), ('news', 'NN'), ('and', 'CC'), ('special', 'JJ'), ('offers', 'NNS'), ('via', 'IN'), ('email', 'NN'), ('about', 'IN'), ('MarketWatch', 'NNP'), ('enhancements', 'NNS'), (',', ','), ('products', 'NNS'), ('and', 'CC'), ('services', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   your/PRP$   (ORGANIZATION FREE/NNP)   membership/NN   now/RB   Â/.   »/:   By/IN   registering/NN   ,/,   you/PRP   are/VBP   agreeing/VBG   to/TO   (ORGANIZATION MarketWatch/NNP)   's/POS   Terms/NNP   of/IN   (GPE Service/NNP)   and/CC   to/TO   receiving/VBG   periodic/JJ   news/NN   and/CC   special/JJ   offers/NNS   via/IN   email/NN   about/IN   (ORGANIZATION MarketWatch/NNP)   enhancements/NNS   ,/,   products/NNS   and/CC   services/NNS   ./.)
+
+veryneg:0	neg:3	pos:6	verypos:0	total:4

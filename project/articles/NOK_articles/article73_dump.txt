@@ -1,0 +1,51 @@
+
+----------------------------------
+original sentence: 
+Page expired MSN Money
+MSN Money Page no longer available
+ The page you requested is no longer available.
+
+POS tagged sentence: 
+[('Page', 'NN'), ('expired', 'VBD'), ('MSN', 'NNP'), ('Money', 'NNP'), ('MSN', 'NNP'), ('Money', 'NNP'), ('Page', 'NNP'), ('no', 'DT'), ('longer', 'NN'), ('available', 'JJ'), ('The', 'DT'), ('page', 'NN'), ('you', 'PRP'), ('requested', 'VBD'), ('is', 'VBZ'), ('no', 'DT'), ('longer', 'NN'), ('available', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Page/NN)   expired/VBD   (ORGANIZATION MSN/NNP Money/NNP)   MSN/NNP   Money/NNP   Page/NNP   no/DT   longer/NN   available/JJ   The/DT   page/NN   you/PRP   requested/VBD   is/VBZ   no/DT   longer/NN   available/JJ   ./.)
+----------------------------------
+original sentence: 
+Please see the link below to the MSN Money News Center.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('see', 'VBP'), ('the', 'DT'), ('link', 'NN'), ('below', 'IN'), ('to', 'TO'), ('the', 'DT'), ('MSN', 'NNP'), ('Money', 'NNP'), ('News', 'NNP'), ('Center', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   see/VBP   the/DT   link/NN   below/IN   to/TO   the/DT   (ORGANIZATION MSN/NNP Money/NNP News/NNP Center/NNP)   ./.)
+----------------------------------
+original sentence: 
+Click here to go to the MSN Money News Center home page.
+
+POS tagged sentence: 
+[('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('go', 'VB'), ('to', 'TO'), ('the', 'DT'), ('MSN', 'NNP'), ('Money', 'NNP'), ('News', 'NNP'), ('Center', 'NNP'), ('home', 'NN'), ('page', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Click/NNP)   here/RB   to/TO   go/VB   to/TO   the/DT   (ORGANIZATION MSN/NNP Money/NNP News/NNP Center/NNP)   home/NN   page/NN   ./.)
+----------------------------------
+original sentence: 
+&copy; 2009 Microsoft Corporation and/or its suppliers.
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('2009', 'CD'), ('Microsoft', 'NNP'), ('Corporation', 'NNP'), ('and/or', 'NNP'), ('its', 'PRP$'), ('suppliers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &copy/JJ   ;/:   2009/CD   (ORGANIZATION Microsoft/NNP Corporation/NNP)   and/or/NNP   its/PRP$   suppliers/NNS   ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

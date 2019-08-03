@@ -1,0 +1,119 @@
+
+----------------------------------
+original sentence: 
+* DBRS Confirms Alcoa Inc. at BBB with a Stable Trend | TradingMarkets.com  New ETF Book by Larry Connors Click here to read more
+ * DBRS Confirms Alcoa Inc. at BBB with a Stable Trend
+Posted on: Wed, 17 Mar 2010 16:34:07 EDT
+ Do you know when to trade  ?
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('DBRS', 'VBZ'), ('Confirms', 'NNP'), ('Alcoa', 'NNP'), ('Inc.', 'NNP'), ('at', 'IN'), ('BBB', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('Stable', 'NNP'), ('Trend', 'NNP'), ('|', 'NNP'), ('TradingMarkets.com', 'NNP'), ('New', 'NNP'), ('ETF', 'NNP'), ('Book', 'NNP'), ('by', 'IN'), ('Larry', 'NNP'), ('Connors', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('*', '-NONE-'), ('DBRS', 'NNS'), ('Confirms', 'NNS'), ('Alcoa', 'NNP'), ('Inc.', 'NNP'), ('at', 'IN'), ('BBB', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('Stable', 'NNP'), ('Trend', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), (':', ':'), ('Wed', 'NNP'), (',', ','), ('17', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('16', 'CD'), (':', ':'), ('34', 'CD'), (':', ':'), ('07', 'CD'), ('EDT', 'NNP'), ('Do', 'NNP'), ('you', 'PRP'), ('know', 'VB'), ('when', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   DBRS/VBZ   (ORGANIZATION Confirms/NNP Alcoa/NNP Inc./NNP)   at/IN   (ORGANIZATION BBB/NNP)   with/IN   a/DT   Stable/NNP   Trend/NNP   |/NNP   TradingMarkets.com/NNP   New/NNP   ETF/NNP   Book/NNP   by/IN   (PERSON Larry/NNP Connors/NNP Click/NNP)   here/RB   to/TO   read/VB   more/JJR   */-NONE-   DBRS/NNS   Confirms/NNS   (PERSON Alcoa/NNP Inc./NNP)   at/IN   (ORGANIZATION BBB/NNP)   with/IN   a/DT   Stable/NNP   Trend/NNP   Posted/NNP   on/IN   :/:   Wed/NNP   ,/,   17/CD   Mar/NNP   2010/CD   16/CD   :/:   34/CD   :/:   07/CD   (ORGANIZATION EDT/NNP)   Do/NNP   you/PRP   know/VB   when/WRB   to/TO   trade/VB   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   DBRS/VBZ   Confirms/NNP   Alcoa/NNP   Inc./NNP   at/IN   BBB/NNP   with/IN   a/DT   Stable/NNP   Trend/NNP   |/NNP   TradingMarkets.com/NNP   New/NNP   ETF/NNP   Book/NNP   by/IN   Larry/NNP   Connors/NNP   Click/NNP   here/RB)
+
+tagged sentence:
+	 DBRS Confirms Alcoa Inc. at BBB with a Stable Trend | TradingMarkets.com New ETF Book by Larry Connors Click here	res:1
+	(VERB read/VB more/JJR)
+	(VERB know/VB)
+	(VERB trade/VB)
+noun phrases to consider:
+	(NOUN DBRS/NNS Confirms/NNS Alcoa/NNP Inc./NNP)
+	(NOUN BBB/NNP)
+	(NOUN Stable/NNP Trend/NNP Posted/NNP)
+	(NOUN Wed/NNP)
+	(NOUN 17/CD Mar/NNP)
+	(NOUN 07/CD EDT/NNP Do/NNP)
+
+----------------------------------
+original sentence: 
+Check for a  from TradingMarkets  Mar 17, 2010 Dow Jones Commodities News via Comtex  MORE TO FOLLOW Dow Jones Newswires For full details on Alcoa Inc AA .
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('from', 'IN'), ('TradingMarkets', 'NNPS'), ('Mar', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Commodities', 'NNP'), ('News', 'NNP'), ('via', 'IN'), ('Comtex', 'NNP'), ('MORE', 'NNP'), ('TO', 'NNP'), ('FOLLOW', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Newswires', 'NNP'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   for/IN   a/DT   from/IN   (ORGANIZATION TradingMarkets/NNPS)   Mar/NNP   17/CD   ,/,   2010/CD   Dow/NNP   (PERSON Jones/NNP Commodities/NNP News/NNP)   via/IN   (ORGANIZATION Comtex/NNP)   MORE/NNP   TO/NNP   FOLLOW/NNP   Dow/NNP   (PERSON Jones/NNP Newswires/NNP For/NNP)   full/JJ   details/NNS   on/IN   (PERSON Alcoa/NNP Inc/NNP AA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Check/NNP)
+	(NOUN TradingMarkets/NNPS Mar/NNP)
+	(NOUN 2010/CD Dow/NNP Jones/NNP Commodities/NNP News/NNP)
+	(NOUN Comtex/NNP MORE/NNP TO/NNP FOLLOW/NNP)
+	(NOUN Dow/NNP Jones/NNP Newswires/NNP For/NNP)
+	(NOUN full/JJ details/NNS)
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP)
+
+----------------------------------
+original sentence: 
+Alcoa Inc AA has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Inc/NNP)   AA/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP)
+
+----------------------------------
+original sentence: 
+Details on Alcoa Inc AA Short Term PowerRatings is available at Learn new strategies, how to trade in this market, and the stocks you should be focusing on each day.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Alcoa', 'NNP'), ('Inc', 'NNP'), ('AA', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Learn', 'NNP'), ('new', 'JJ'), ('strategies', 'NNS'), (',', ','), ('how', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stocks', 'NNS'), ('you', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (PERSON Alcoa/NNP Inc/NNP AA/NNP Short/NNP Term/NNP)   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION Learn/NNP)   new/JJ   strategies/NNS   ,/,   how/WRB   to/TO   trade/VB   in/IN   this/DT   market/NN   ,/,   and/CC   the/DT   stocks/NNS   you/PRP   should/MD   be/VB   focusing/VBG   on/IN   each/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN Learn/NNP new/JJ strategies/NNS)
+	(VERB trade/VB in/IN this/DT market/NN)
+	(VERB be/VB focusing/VBG on/IN each/DT day/NN)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Alcoa/NNP Inc/NNP AA/NNP Short/NNP)
+	(NOUN Term/NNP PowerRatings/NNP)
+	(NOUN stocks/NNS)
+
+----------------------------------
+original sentence: 
+Join us for our  20 minute tele seminars during the week.
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('us', 'PRP'), ('for', 'IN'), ('our', 'PRP$'), ('20', 'CD'), ('minute', 'NN'), ('tele', 'NN'), ('seminars', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Join/NNP   us/PRP   for/IN   our/PRP$   20/CD   minute/NN   tele/NN   seminars/NNS   during/IN   the/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Thursday April 29 12:30 PM Hear What Kevin Haggerty Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Thursday', 'NNP'), ('April', 'NNP'), ('29', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Kevin', 'NNP'), ('Haggerty', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Thursday/NNP   April/NNP   29/CD   12/CD   :/:   30/CD   PM/NNP   Hear/NNP   What/NNP   (PERSON Kevin/NNP Haggerty/NNP Sees/NNP)   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Wednesday April 28 01:00 PM Hear What Gary Kaltbaum Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Wednesday', 'NNP'), ('April', 'NNP'), ('28', 'CD'), ('01', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Gary', 'NNP'), ('Kaltbaum', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Wednesday/NNP   April/NNP   28/CD   01/CD   :/:   00/CD   PM/NNP   Hear/NNP   What/NNP   Gary/NNP   Kaltbaum/NNP   Sees/NNP   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+* Attendance is strictly limited and are filled on a first come, first served basis. 
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Attendance', 'VB'), ('is', 'VBZ'), ('strictly', 'RB'), ('limited', 'VBN'), ('and', 'CC'), ('are', 'VBP'), ('filled', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('first', 'JJ'), ('come', 'NN'), (',', ','), ('first', 'JJ'), ('served', 'VBD'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Attendance/VB   is/VBZ   strictly/RB   limited/VBN   and/CC   are/VBP   filled/VBN   on/IN   a/DT   first/JJ   come/NN   ,/,   first/JJ   served/VBD   basis/NN   ./.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

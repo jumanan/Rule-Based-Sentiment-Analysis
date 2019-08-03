@@ -1,0 +1,293 @@
+
+----------------------------------
+original sentence: 
+Intel, AMD Seen Headed for Lift in Q1 Earnings InternetNews.com
+Select a newsletter and click Join to sign up!
+
+POS tagged sentence: 
+[('Intel', 'NNP'), (',', ','), ('AMD', 'NNP'), ('Seen', 'NNP'), ('Headed', 'NNP'), ('for', 'IN'), ('Lift', 'NNP'), ('in', 'IN'), ('Q1', 'NNP'), ('Earnings', 'NNP'), ('InternetNews.com', 'NNP'), ('Select', 'NNP'), ('a', 'DT'), ('newsletter', 'NN'), ('and', 'CC'), ('click', 'NN'), ('Join', 'NNP'), ('to', 'TO'), ('sign', 'VB'), ('up', 'IN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   ,/,   (ORGANIZATION AMD/NNP Seen/NNP Headed/NNP)   for/IN   Lift/NNP   in/IN   (ORGANIZATION Q1/NNP Earnings/NNP)   InternetNews.com/NNP   Select/NNP   a/DT   newsletter/NN   and/CC   click/NN   (PERSON Join/NNP)   to/TO   sign/VB   up/IN   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sign/VB up/IN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN AMD/NNP Seen/NNP Headed/NNP)
+	(NOUN Lift/NNP)
+	(NOUN Q1/NNP Earnings/NNP InternetNews.com/NNP Select/NNP)
+	(NOUN newsletter/NN)
+	(NOUN click/NN Join/NNP)
+
+----------------------------------
+original sentence: 
+InternetNews.com Podcast
+Channel XML/RSS Feeds
+Enterprise IT Planet News
+ Click a Topic to Expand
+My Grand Google Obsession
+Microsoft's Past Present And Future
+Cradle to Grave Information Management
+Tech's Legal Battles
+Platforms and New Packages
+Open Source Ecosystem
+PC Sales Rebounding, Set for Growth, Say Analysts
+[April 15, 2010] Both Gartner and IDC found plenty of positives in their PC sales reports covering the first quarter of 2010.
+
+POS tagged sentence: 
+[('InternetNews.com', 'NN'), ('Podcast', 'NNP'), ('Channel', 'NNP'), ('XML/RSS', 'NNP'), ('Feeds', 'NNP'), ('Enterprise', 'NNP'), ('IT', 'NNP'), ('Planet', 'NNP'), ('News', 'NNP'), ('Click', 'NNP'), ('a', 'DT'), ('Topic', 'NNP'), ('to', 'TO'), ('Expand', 'NNP'), ('My', 'NNP'), ('Grand', 'NNP'), ('Google', 'NNP'), ('Obsession', 'NNP'), ('Microsoft', 'NNP'), ("'s", 'POS'), ('Past', 'NNP'), ('Present', 'NNP'), ('And', 'CC'), ('Future', 'NNP'), ('Cradle', 'NNP'), ('to', 'TO'), ('Grave', 'NNP'), ('Information', 'NNP'), ('Management', 'NNP'), ('Tech', 'NNP'), ("'s", 'POS'), ('Legal', 'NNP'), ('Battles', 'NNP'), ('Platforms', 'NNP'), ('and', 'CC'), ('New', 'NNP'), ('Packages', 'NNP'), ('Open', 'NNP'), ('Source', 'NNP'), ('Ecosystem', 'NNP'), ('PC', 'NNP'), ('Sales', 'NNP'), ('Rebounding', 'NNP'), (',', ','), ('Set', 'NNP'), ('for', 'IN'), ('Growth', 'NN'), (',', ','), ('Say', 'NNP'), ('Analysts', 'NNPS'), ('[', 'NNP'), ('April', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), (']', ':'), ('Both', 'DT'), ('Gartner', 'NNP'), ('and', 'CC'), ('IDC', 'NNP'), ('found', 'VBD'), ('plenty', 'NN'), ('of', 'IN'), ('positives', 'NNS'), ('in', 'IN'), ('their', 'PRP$'), ('PC', 'NN'), ('sales', 'NNS'), ('reports', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   InternetNews.com/NN   (PERSON Podcast/NNP Channel/NNP)   XML/RSS/NNP   Feeds/NNP   Enterprise/NNP   IT/NNP   Planet/NNP   News/NNP   (PERSON Click/NNP)   a/DT   Topic/NNP   to/TO   (GPE Expand/NNP)   My/NNP   Grand/NNP   Google/NNP   Obsession/NNP   (PERSON Microsoft/NNP)   's/POS   (PERSON Past/NNP Present/NNP)   And/CC   (PERSON Future/NNP Cradle/NNP)   to/TO   (PERSON Grave/NNP Information/NNP)   Management/NNP   (PERSON Tech/NNP)   's/POS   (PERSON Legal/NNP Battles/NNP Platforms/NNP)   and/CC   (GPE New/NNP)   Packages/NNP   Open/NNP   (PERSON Source/NNP Ecosystem/NNP PC/NNP Sales/NNP Rebounding/NNP)   ,/,   (PERSON Set/NNP)   for/IN   (GPE Growth/NN)   ,/,   (ORGANIZATION Say/NNP Analysts/NNPS)   [/NNP   April/NNP   15/CD   ,/,   2010/CD   ]/:   Both/DT   (PERSON Gartner/NNP)   and/CC   (ORGANIZATION IDC/NNP)   found/VBD   plenty/NN   of/IN   positives/NNS   in/IN   their/PRP$   PC/NN   sales/NNS   reports/NNS   covering/VBG   the/DT   first/JJ   quarter/NN   of/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+But where are business sales headed?
+
+POS tagged sentence: 
+[('But', 'CC'), ('where', 'WRB'), ('are', 'VBP'), ('business', 'NN'), ('sales', 'NNS'), ('headed', 'VBD'), ('?', '.')]
+
+
+ERTAGGED sentence: (S But/CC where/WRB are/VBP business/NN sales/NNS headed/VBD ?/.)
+----------------------------------
+original sentence: 
+Mozilla Shares Insight Into Firefox Usage
+[April 2, 2010] Who knew that Antarctica represented the open source Web browser's most popular market?
+
+POS tagged sentence: 
+[('Mozilla', 'NNP'), ('Shares', 'NNP'), ('Insight', 'NNP'), ('Into', 'NNP'), ('Firefox', 'NNP'), ('Usage', 'NNP'), ('[', 'NNP'), ('April', 'NNP'), ('2', 'CD'), (',', ','), ('2010', 'CD'), (']', ':'), ('Who', 'WP'), ('knew', 'RB'), ('that', 'IN'), ('Antarctica', 'NNP'), ('represented', 'VBD'), ('the', 'DT'), ('open', 'JJ'), ('source', 'NN'), ('Web', 'NNP'), ('browser', 'NN'), ("'s", 'POS'), ('most', 'JJS'), ('popular', 'JJ'), ('market', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mozilla/NNP)   (PERSON Shares/NNP Insight/NNP Into/NNP Firefox/NNP Usage/NNP)   [/NNP   April/NNP   2/CD   ,/,   2010/CD   ]/:   Who/WP   knew/RB   that/IN   (PERSON Antarctica/NNP)   represented/VBD   the/DT   open/JJ   source/NN   Web/NNP   browser/NN   's/POS   most/JJS   popular/JJ   market/NN   ?/.)
+----------------------------------
+original sentence: 
+Windows 7's Early Buyers Happy, Study Finds
+[March 31, 2010] With Windows 7 SP1 on the horizon, a new survey gives Microsoft more reason to crow about its newest OS.
+
+POS tagged sentence: 
+[('Windows', 'NNS'), ('7', 'CD'), ("'s", 'POS'), ('Early', 'NNP'), ('Buyers', 'NNP'), ('Happy', 'NNP'), (',', ','), ('Study', 'NNP'), ('Finds', 'NNPS'), ('[', 'NNP'), ('March', 'NNP'), ('31', 'CD'), (',', ','), ('2010', 'CD'), (']', ':'), ('With', 'IN'), ('Windows', 'NNP'), ('7', 'CD'), ('SP1', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('horizon', 'NN'), (',', ','), ('a', 'DT'), ('new', 'JJ'), ('survey', 'NN'), ('gives', 'VBZ'), ('Microsoft', 'NNP'), ('more', 'RBR'), ('reason', 'NN'), ('to', 'TO'), ('crow', 'VB'), ('about', 'IN'), ('its', 'PRP$'), ('newest', 'NN'), ('OS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Windows/NNS   7/CD   's/POS   Early/NNP   Buyers/NNP   Happy/NNP   ,/,   (ORGANIZATION Study/NNP Finds/NNPS)   [/NNP   March/NNP   31/CD   ,/,   2010/CD   ]/:   With/IN   Windows/NNP   7/CD   SP1/NNP   on/IN   the/DT   horizon/NN   ,/,   a/DT   new/JJ   survey/NN   gives/VBZ   (PERSON Microsoft/NNP)   more/RBR   reason/NN   to/TO   crow/VB   about/IN   its/PRP$   newest/NN   OS/NNP   ./.)
+----------------------------------
+original sentence: 
+Smartphones to Lead U.S.
+
+POS tagged sentence: 
+[('Smartphones', 'NNS'), ('to', 'TO'), ('Lead', 'NNP'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Smartphones/NNS to/TO (ORGANIZATION Lead/NNP U.S/NNP) ./.)
+----------------------------------
+original sentence: 
+Mobile Phones in 2011
+[March 29, 2010] Phones that support application downloads and advanced features are set to dominate the industry.
+
+POS tagged sentence: 
+[('Mobile', 'NNP'), ('Phones', 'NNP'), ('in', 'IN'), ('2011', 'CD'), ('[', 'CD'), ('March', 'NNP'), ('29', 'CD'), (',', ','), ('2010', 'CD'), (']', ':'), ('Phones', 'NNP'), ('that', 'IN'), ('support', 'NN'), ('application', 'NN'), ('downloads', 'NNS'), ('and', 'CC'), ('advanced', 'JJ'), ('features', 'NNS'), ('are', 'VBP'), ('set', 'VBN'), ('to', 'TO'), ('dominate', 'VB'), ('the', 'DT'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mobile/NNP)   (ORGANIZATION Phones/NNP)   in/IN   2011/CD   [/CD   March/NNP   29/CD   ,/,   2010/CD   ]/:   (PERSON Phones/NNP)   that/IN   support/NN   application/NN   downloads/NNS   and/CC   advanced/JJ   features/NNS   are/VBP   set/VBN   to/TO   dominate/VB   the/DT   industry/NN   ./.)
+----------------------------------
+original sentence: 
+&#91; More Stats &#93;
+Intel, AMD Seen Headed for Lift in Q1 Earnings
+Analyst at Broadpoint AmTech looks to the two chipmakers to turn in a healthy first quarter performance, thanks in part to an improved forecast for server sales.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('91', 'CD'), (';', ':'), ('More', 'NNP'), ('Stats', 'NNPS'), ('&', 'CC'), ('#', '#'), ('93', 'CD'), (';', ':'), ('Intel', 'NNP'), (',', ','), ('AMD', 'NNP'), ('Seen', 'NNP'), ('Headed', 'NNP'), ('for', 'IN'), ('Lift', 'NNP'), ('in', 'IN'), ('Q1', 'NNP'), ('Earnings', 'NNP'), ('Analyst', 'NNP'), ('at', 'IN'), ('Broadpoint', 'NNP'), ('AmTech', 'NNP'), ('looks', 'VBZ'), ('to', 'TO'), ('the', 'DT'), ('two', 'CD'), ('chipmakers', 'NNS'), ('to', 'TO'), ('turn', 'VB'), ('in', 'IN'), ('a', 'DT'), ('healthy', 'JJ'), ('first', 'JJ'), ('quarter', 'NN'), ('performance', 'NN'), (',', ','), ('thanks', 'NNS'), ('in', 'IN'), ('part', 'NN'), ('to', 'TO'), ('an', 'DT'), ('improved', 'VBN'), ('forecast', 'NN'), ('for', 'IN'), ('server', 'NN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   91/CD   ;/:   (ORGANIZATION More/NNP Stats/NNPS)   &/CC   #/#   93/CD   ;/:   (ORGANIZATION Intel/NNP)   ,/,   (ORGANIZATION AMD/NNP Seen/NNP Headed/NNP)   for/IN   Lift/NNP   in/IN   (ORGANIZATION Q1/NNP Earnings/NNP Analyst/NNP)   at/IN   (ORGANIZATION Broadpoint/NNP)   AmTech/NNP   looks/VBZ   to/TO   the/DT   two/CD   chipmakers/NNS   to/TO   turn/VB   in/IN   a/DT   healthy/JJ   first/JJ   quarter/NN   performance/NN   ,/,   thanks/NNS   in/IN   part/NN   to/TO   an/DT   improved/VBN   forecast/NN   for/IN   server/NN   sales/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB looks/VBZ to/TO the/DT two/CD chipmakers/NNS)
+	(VERB   turn/VB   in/IN   a/DT   healthy/JJ   first/JJ   quarter/NN   performance/NN)
+	(VERB improved/VBN forecast/NN for/IN server/NN sales/NNS)
+noun phrases to consider:
+	(NOUN More/NNP Stats/NNPS)
+	(NOUN Intel/NNP)
+	(NOUN AMD/NNP Seen/NNP Headed/NNP)
+	(NOUN Lift/NNP)
+	(NOUN Q1/NNP Earnings/NNP Analyst/NNP)
+	(NOUN Broadpoint/NNP AmTech/NNP)
+	(NOUN thanks/NNS)
+	(NOUN part/NN)
+
+----------------------------------
+original sentence: 
+Thanks to a better than expected server market, Intel and AMD are both on track to beat their estimates when they report their first quarter earnings, according to an analyst with Broadpoint AmTech.
+
+POS tagged sentence: 
+[('Thanks', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('server', 'NN'), ('market', 'NN'), (',', ','), ('Intel', 'NNP'), ('and', 'CC'), ('AMD', 'NNP'), ('are', 'VBP'), ('both', 'DT'), ('on', 'IN'), ('track', 'NN'), ('to', 'TO'), ('beat', 'VB'), ('their', 'PRP$'), ('estimates', 'NNS'), ('when', 'WRB'), ('they', 'PRP'), ('report', 'VBP'), ('their', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('an', 'DT'), ('analyst', 'NN'), ('with', 'IN'), ('Broadpoint', 'NNP'), ('AmTech', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Thanks/NNS)   to/TO   a/DT   better/JJR   than/IN   expected/VBN   server/NN   market/NN   ,/,   (ORGANIZATION Intel/NNP)   and/CC   (ORGANIZATION AMD/NNP)   are/VBP   both/DT   on/IN   track/NN   to/TO   beat/VB   their/PRP$   estimates/NNS   when/WRB   they/PRP   report/VBP   their/PRP$   first/JJ   quarter/NN   earnings/NNS   ,/,   according/VBG   to/TO   an/DT   analyst/NN   with/IN   (PERSON Broadpoint/NNP AmTech/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expected/VBN server/NN market/NN)
+	(VERB are/VBP both/DT on/IN track/NN)
+	(VERB beat/VB their/PRP$ estimates/NNS)
+	(VERB report/VBP their/PRP$ first/JJ quarter/NN earnings/NNS)
+	(VERB   according/VBG   to/TO   an/DT   analyst/NN   with/IN   Broadpoint/NNP   AmTech/NNP)
+noun phrases to consider:
+	(NOUN Thanks/NNS)
+	(NOUN a/DT better/JJR)
+	(NOUN Intel/NNP)
+	(NOUN AMD/NNP)
+
+----------------------------------
+original sentence: 
+Both firms have rolled out new chips targeting the high end server market, which positions them well to benefit from an uptick in sales.
+
+POS tagged sentence: 
+[('Both', 'DT'), ('firms', 'NNS'), ('have', 'VBP'), ('rolled', 'VBN'), ('out', 'RP'), ('new', 'JJ'), ('chips', 'NNS'), ('targeting', 'VBG'), ('the', 'DT'), ('high', 'JJ'), ('end', 'NN'), ('server', 'NN'), ('market', 'NN'), (',', ','), ('which', 'WDT'), ('positions', 'NNS'), ('them', 'PRP'), ('well', 'RB'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('an', 'DT'), ('uptick', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Both/DT   firms/NNS   have/VBP   rolled/VBN   out/RP   new/JJ   chips/NNS   targeting/VBG   the/DT   high/JJ   end/NN   server/NN   market/NN   ,/,   which/WDT   positions/NNS   them/PRP   well/RB   to/TO   benefit/VB   from/IN   an/DT   uptick/NN   in/IN   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Server Watch has the story about the improved forecast for Intel and AMD
+, and what the full year forecast looks like for the companies.
+
+POS tagged sentence: 
+[('Server', 'RB'), ('Watch', 'VBP'), ('has', 'VBZ'), ('the', 'DT'), ('story', 'NN'), ('about', 'IN'), ('the', 'DT'), ('improved', 'VBN'), ('forecast', 'NN'), ('for', 'IN'), ('Intel', 'NNP'), ('and', 'CC'), ('AMD', 'NNP'), (',', ','), ('and', 'CC'), ('what', 'WP'), ('the', 'DT'), ('full', 'JJ'), ('year', 'NN'), ('forecast', 'NN'), ('looks', 'VBZ'), ('like', 'IN'), ('for', 'IN'), ('the', 'DT'), ('companies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Server/RB   Watch/VBP   has/VBZ   the/DT   story/NN   about/IN   the/DT   improved/VBN   forecast/NN   for/IN   (ORGANIZATION Intel/NNP)   and/CC   (ORGANIZATION AMD/NNP)   ,/,   and/CC   what/WP   the/DT   full/JJ   year/NN   forecast/NN   looks/VBZ   like/IN   for/IN   the/DT   companies/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Watch/VBP has/VBZ the/DT story/NN about/IN the/DT)
+	(VERB improved/VBN forecast/NN for/IN Intel/NNP)
+
+tagged sentence:
+	 improved forecast for Intel	res:1
+	(VERB looks/VBZ like/IN for/IN the/DT companies/NNS)
+noun phrases to consider:
+	(NOUN AMD/NNP)
+	(NOUN the/DT full/JJ year/NN forecast/NN)
+
+----------------------------------
+original sentence: 
+Stating it believes server sales are being underestimated by Wall Street, Broadpoint AmTech's latest report predicts both Intel and AMD will post better than expected earnings in the first quarter.
+
+POS tagged sentence: 
+[('Stating', 'VBG'), ('it', 'PRP'), ('believes', 'VBZ'), ('server', 'RB'), ('sales', 'NNS'), ('are', 'VBP'), ('being', 'VBG'), ('underestimated', 'VBN'), ('by', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), (',', ','), ('Broadpoint', 'NNP'), ('AmTech', 'NNP'), ("'s", 'POS'), ('latest', 'JJS'), ('report', 'NN'), ('predicts', 'NNS'), ('both', 'DT'), ('Intel', 'NNP'), ('and', 'CC'), ('AMD', 'NNP'), ('will', 'MD'), ('post', 'VB'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('earnings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stating/VBG   it/PRP   believes/VBZ   server/RB   sales/NNS   are/VBP   being/VBG   underestimated/VBN   by/IN   (FACILITY Wall/NNP Street/NNP)   ,/,   (PERSON Broadpoint/NNP AmTech/NNP)   's/POS   latest/JJS   report/NN   predicts/NNS   both/DT   (ORGANIZATION Intel/NNP)   and/CC   (ORGANIZATION AMD/NNP)   will/MD   post/VB   better/JJR   than/IN   expected/VBN   earnings/NNS   in/IN   the/DT   first/JJ   quarter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Stating/VBG it/PRP)
+	(VERB believes/VBZ server/RB sales/NNS)
+	(VERB are/VBP being/VBG underestimated/VBN by/IN Wall/NNP Street/NNP)
+	(VERB post/VB better/JJR than/IN)
+	(VERB expected/VBN earnings/NNS in/IN the/DT first/JJ quarter/NN)
+noun phrases to consider:
+	(NOUN Broadpoint/NNP AmTech/NNP)
+	(NOUN latest/JJS report/NN predicts/NNS)
+	(NOUN Intel/NNP)
+	(NOUN AMD/NNP)
+
+----------------------------------
+original sentence: 
+Broadpoint analyst Doug Freedman said the server sales recovery will continue in 2010.
+
+POS tagged sentence: 
+[('Broadpoint', 'NNP'), ('analyst', 'NN'), ('Doug', 'NNP'), ('Freedman', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('server', 'NN'), ('sales', 'NNS'), ('recovery', 'NN'), ('will', 'MD'), ('continue', 'VB'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Broadpoint/NNP)   analyst/NN   (PERSON Doug/NNP Freedman/NNP)   said/VBD   the/DT   server/NN   sales/NNS   recovery/NN   will/MD   continue/VB   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Because these processors are more expensive and deliver higher profit margins, both chipmakers figure to exceed analysts' revenue and earnings targets.
+
+POS tagged sentence: 
+[('Because', 'IN'), ('these', 'DT'), ('processors', 'NNS'), ('are', 'VBP'), ('more', 'RBR'), ('expensive', 'JJ'), ('and', 'CC'), ('deliver', 'NN'), ('higher', 'JJR'), ('profit', 'NN'), ('margins', 'NNS'), (',', ','), ('both', 'DT'), ('chipmakers', 'NNS'), ('figure', 'VBP'), ('to', 'TO'), ('exceed', 'VB'), ('analysts', 'NNS'), ("'", 'POS'), ('revenue', 'NN'), ('and', 'CC'), ('earnings', 'NNS'), ('targets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Because/IN   these/DT   processors/NNS   are/VBP   more/RBR   expensive/JJ   and/CC   deliver/NN   higher/JJR   profit/NN   margins/NNS   ,/,   both/DT   chipmakers/NNS   figure/VBP   to/TO   exceed/VB   analysts/NNS   '/POS   revenue/NN   and/CC   earnings/NNS   targets/NNS   ./.)
+----------------------------------
+original sentence: 
+Both chip firms have new high end products out for servers.
+
+POS tagged sentence: 
+[('Both', 'DT'), ('chip', 'NN'), ('firms', 'NNS'), ('have', 'VBP'), ('new', 'JJ'), ('high', 'JJ'), ('end', 'NN'), ('products', 'NNS'), ('out', 'IN'), ('for', 'IN'), ('servers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Both/DT   chip/NN   firms/NNS   have/VBP   new/JJ   high/JJ   end/NN   products/NNS   out/IN   for/IN   servers/NNS   ./.)
+----------------------------------
+original sentence: 
+AMD NYSE: AMD released the eight and 12 core Magny Cours
+, while Intel NASDAQ: INTC is now shipping the eight core Nehalem EX
+ and will introduce new Westmere generation 32nm Xeon processors later this month.
+
+POS tagged sentence: 
+[('AMD', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AMD', 'NNP'), ('released', 'VBD'), ('the', 'DT'), ('eight', 'CD'), ('and', 'CC'), ('12', 'CD'), ('core', 'NN'), ('Magny', 'NNP'), ('Cours', 'NNP'), (',', ','), ('while', 'IN'), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('is', 'VBZ'), ('now', 'RB'), ('shipping', 'VBG'), ('the', 'DT'), ('eight', 'CD'), ('core', 'NN'), ('Nehalem', 'NNP'), ('EX', 'NNP'), ('and', 'CC'), ('will', 'MD'), ('introduce', 'VB'), ('new', 'JJ'), ('Westmere', 'NNP'), ('generation', 'NN'), ('32nm', 'CD'), ('Xeon', 'NNP'), ('processors', 'NNS'), ('later', 'JJ'), ('this', 'DT'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION AMD/NNP)   NYSE/NNP   :/:   (ORGANIZATION AMD/NNP)   released/VBD   the/DT   eight/CD   and/CC   12/CD   core/NN   (PERSON Magny/NNP Cours/NNP)   ,/,   while/IN   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   is/VBZ   now/RB   shipping/VBG   the/DT   eight/CD   core/NN   (PERSON Nehalem/NNP EX/NNP)   and/CC   will/MD   introduce/VB   new/JJ   Westmere/NNP   generation/NN   32nm/CD   Xeon/NNP   processors/NNS   later/JJ   this/DT   month/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB released/VBD the/DT eight/CD)
+	(VERB   is/VBZ   now/RB   shipping/VBG   the/DT   eight/CD   core/NN   Nehalem/NNP   EX/NNP)
+	(VERB   introduce/VB   new/JJ   Westmere/NNP   generation/NN   32nm/CD   Xeon/NNP   processors/NNS   later/JJ   this/DT   month/NN)
+noun phrases to consider:
+	(NOUN AMD/NNP NYSE/NNP)
+	(NOUN AMD/NNP)
+	(NOUN 12/CD core/NN Magny/NNP Cours/NNP)
+	(NOUN Intel/NNP NASDAQ/NNP)
+	(NOUN INTC/NNP)
+
+----------------------------------
+original sentence: 
+Broadpoint projects server sales of approximately 14.1 million units this year, up 19 percent year over year and from its previous estimate of 13.9 million units.
+
+POS tagged sentence: 
+[('Broadpoint', 'NNP'), ('projects', 'NNS'), ('server', 'IN'), ('sales', 'NNS'), ('of', 'IN'), ('approximately', 'RB'), ('14.1', 'CD'), ('million', 'CD'), ('units', 'NNS'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('up', 'RB'), ('19', 'CD'), ('percent', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('and', 'CC'), ('from', 'IN'), ('its', 'PRP$'), ('previous', 'JJ'), ('estimate', 'NN'), ('of', 'IN'), ('13.9', 'CD'), ('million', 'CD'), ('units', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Broadpoint/NNP)   projects/NNS   server/IN   sales/NNS   of/IN   approximately/RB   14.1/CD   million/CD   units/NNS   this/DT   year/NN   ,/,   up/RB   19/CD   percent/NN   year/NN   over/IN   year/NN   and/CC   from/IN   its/PRP$   previous/JJ   estimate/NN   of/IN   13.9/CD   million/CD   units/NNS   ./.)
+----------------------------------
+original sentence: 
+It expects more action in the first half of the year, with the second half cooling off to 7 percent and 5 percent year over year growth in the third and fourth quarter, respectively.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('expects', 'VBZ'), ('more', 'JJR'), ('action', 'NN'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('half', 'DT'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), (',', ','), ('with', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('half', 'DT'), ('cooling', 'NN'), ('off', 'IN'), ('to', 'TO'), ('7', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('5', 'CD'), ('percent', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('the', 'DT'), ('third', 'JJ'), ('and', 'CC'), ('fourth', 'JJ'), ('quarter', 'NN'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   expects/VBZ   more/JJR   action/NN   in/IN   the/DT   first/JJ   half/DT   of/IN   the/DT   year/NN   ,/,   with/IN   the/DT   second/JJ   half/DT   cooling/NN   off/IN   to/TO   7/CD   percent/NN   and/CC   5/CD   percent/NN   year/NN   over/IN   year/NN   growth/NN   in/IN   the/DT   third/JJ   and/CC   fourth/JJ   quarter/NN   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Read the full story at Server Watch: 'Rising Tide' for x86 Servers Lifting Intel, AMD
+7 Day InternetNews Summary
+More InternetNews.com
+Systems Engineer Sr UNIX TX JAVA Developer Ã¢&euro;&ldquo; Trading Industry NYC Inside Sales Executive New Business PA Risk Developer C# T SQL ASP.Net IL SALES EXECUTIVE Technology Sales New Business NoCA Business Systems Analyst Clearing SQL Server ASP VB IL Search all Jobs &raquo;
+Post Your Job &raquo;
+
+
+POS tagged sentence: 
+[('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('story', 'NN'), ('at', 'IN'), ('Server', 'NNP'), ('Watch', 'NNP'), (':', ':'), ("'Rising", 'JJ'), ('Tide', 'NNP'), ("'", "''"), ('for', 'IN'), ('x86', 'NNP'), ('Servers', 'NNPS'), ('Lifting', 'NNP'), ('Intel', 'NNP'), (',', ','), ('AMD', 'NNP'), ('7', 'CD'), ('Day', 'NNP'), ('InternetNews', 'NNP'), ('Summary', 'NNP'), ('More', 'NNP'), ('InternetNews.com', 'NNP'), ('Systems', 'NNPS'), ('Engineer', 'NNP'), ('Sr', 'NNP'), ('UNIX', 'NNP'), ('TX', 'NNP'), ('JAVA', 'NNP'), ('Developer', 'NNP'), ('\xc3', 'NNP'), ('\xa2', 'NNP'), ('&euro', 'NNP'), (';', ':'), ('&ldquo', 'NNP'), (';', ':'), ('Trading', 'NNP'), ('Industry', 'NNP'), ('NYC', 'NNP'), ('Inside', 'NNP'), ('Sales', 'NNP'), ('Executive', 'NNP'), ('New', 'NNP'), ('Business', 'NNP'), ('PA', 'NNP'), ('Risk', 'NNP'), ('Developer', 'NNP'), ('C', 'NNP'), ('#', '#'), ('T', 'NNP'), ('SQL', 'NNP'), ('ASP.Net', 'JJ'), ('IL', 'NNP'), ('SALES', 'NNP'), ('EXECUTIVE', 'NNP'), ('Technology', 'NNP'), ('Sales', 'NNP'), ('New', 'NNP'), ('Business', 'NNP'), ('NoCA', 'NNP'), ('Business', 'NNP'), ('Systems', 'NNPS'), ('Analyst', 'NNP'), ('Clearing', 'NNP'), ('SQL', 'NNP'), ('Server', 'NNP'), ('ASP', 'NNP'), ('VB', 'NNP'), ('IL', 'NNP'), ('Search', 'NNP'), ('all', 'DT'), ('Jobs', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Post', 'NNP'), ('Your', 'NNP'), ('Job', 'NNP'), ('&raquo', 'NNP'), (';', ':')]
+
+
+ERTAGGED sentence: (S   Read/NNP   the/DT   full/JJ   story/NN   at/IN   (ORGANIZATION Server/NNP Watch/NNP)   :/:   'Rising/JJ   Tide/NNP   '/''   for/IN   (ORGANIZATION x86/NNP Servers/NNPS)   Lifting/NNP   Intel/NNP   ,/,   (ORGANIZATION AMD/NNP)   7/CD   Day/NNP   InternetNews/NNP   Summary/NNP   More/NNP   InternetNews.com/NNP   Systems/NNPS   (PERSON Engineer/NNP Sr/NNP)   (ORGANIZATION UNIX/NNP)   TX/NNP   JAVA/NNP   Developer/NNP   Ã/NNP   ¢/NNP   &euro/NNP   ;/:   &ldquo/NNP   ;/:   Trading/NNP   Industry/NNP   NYC/NNP   Inside/NNP   (PERSON     Sales/NNP     Executive/NNP     New/NNP     Business/NNP     PA/NNP     Risk/NNP     Developer/NNP)   C/NNP   #/#   T/NNP   SQL/NNP   ASP.Net/JJ   IL/NNP   SALES/NNP   EXECUTIVE/NNP   Technology/NNP   (PERSON Sales/NNP New/NNP Business/NNP)   NoCA/NNP   (ORGANIZATION Business/NNP Systems/NNPS Analyst/NNP)   Clearing/NNP   SQL/NNP   Server/NNP   ASP/NNP   VB/NNP   IL/NNP   Search/NNP   all/DT   Jobs/NNP   &raquo/NNP   ;/:   (PERSON Post/NNP Your/NNP Job/NNP)   &raquo/NNP   ;/:)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Read/NNP)
+	(NOUN the/DT full/JJ story/NN)
+	(NOUN Server/NNP Watch/NNP)
+	(NOUN 'Rising/JJ Tide/NNP)
+	(NOUN x86/NNP Servers/NNPS Lifting/NNP Intel/NNP)
+	(NOUN AMD/NNP)
+	(NOUN 7/CD Day/NNP InternetNews/NNP Summary/NNP More/NNP)
+	(NOUN InternetNews.com/NNP Systems/NNPS Engineer/NNP Sr/NNP)
+	(NOUN UNIX/NNP TX/NNP JAVA/NNP Developer/NNP)
+	(NOUN Ã/NNP ¢/NNP &euro/NNP)
+	(NOUN &ldquo/NNP)
+	(NOUN Trading/NNP Industry/NNP NYC/NNP Inside/NNP)
+	(NOUN Sales/NNP Executive/NNP New/NNP Business/NNP)
+	(NOUN PA/NNP Risk/NNP Developer/NNP C/NNP)
+	(NOUN   T/NNP   SQL/NNP   ASP.Net/JJ   IL/NNP   SALES/NNP   EXECUTIVE/NNP   Technology/NNP)
+	(NOUN Sales/NNP New/NNP Business/NNP NoCA/NNP)
+	(NOUN Business/NNP Systems/NNPS Analyst/NNP Clearing/NNP)
+	(NOUN SQL/NNP Server/NNP ASP/NNP VB/NNP)
+	(NOUN IL/NNP Search/NNP)
+	(NOUN Jobs/NNP &raquo/NNP)
+	(NOUN Post/NNP Your/NNP Job/NNP &raquo/NNP)
+
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

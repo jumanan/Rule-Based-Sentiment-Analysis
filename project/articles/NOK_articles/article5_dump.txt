@@ -1,0 +1,136 @@
+
+----------------------------------
+original sentence: 
+Buyers Accumulate Shares of Nokia, Up 0.5% NOK | Benzinga.com
+Buyers Accumulate Shares of Nokia, Up 0.5% NOK Posted on 04/07/10 at 11:03am by  is one of today's best performing stocks, up 0.5% to $15.64.
+
+POS tagged sentence: 
+[('Buyers', 'NNS'), ('Accumulate', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Nokia', 'NNP'), (',', ','), ('Up', 'NNP'), ('0.5', 'CD'), ('%', 'NN'), ('NOK', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Buyers', 'NNP'), ('Accumulate', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Nokia', 'NNP'), (',', ','), ('Up', 'NNP'), ('0.5', 'CD'), ('%', 'NN'), ('NOK', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/07/10', 'CD'), ('at', 'IN'), ('11', 'CD'), (':', ':'), ('03am', 'CD'), ('by', 'IN'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('best', 'JJS'), ('performing', 'VBG'), ('stocks', 'NNS'), (',', ','), ('up', 'RB'), ('0.5', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('15.64', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Buyers/NNS   (ORGANIZATION Accumulate/NNP Shares/NNP)   of/IN   (GPE Nokia/NNP)   ,/,   Up/NNP   0.5/CD   %/NN   (ORGANIZATION NOK/NNP)   |/NNP   Benzinga.com/NNP   Buyers/NNP   Accumulate/NNP   Shares/NNP   of/IN   (GPE Nokia/NNP)   ,/,   Up/NNP   0.5/CD   %/NN   (ORGANIZATION NOK/NNP Posted/NNP)   on/IN   04/07/10/CD   at/IN   11/CD   :/:   03am/CD   by/IN   is/VBZ   one/CD   of/IN   today/NN   's/POS   best/JJS   performing/VBG   stocks/NNS   ,/,   up/RB   0.5/CD   %/NN   to/TO   $/$   15.64/CD   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 0.5/CD)
+
+tagged sentence:
+	 up 0.5	res:+1
+verb phrases to consider:
+	(VERB is/VBZ one/CD of/IN today/NN)
+	(VERB performing/VBG stocks/NNS)
+noun phrases to consider:
+	(NOUN Buyers/NNS Accumulate/NNP Shares/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN Up/NNP)
+	(NOUN 0.5/CD %/NN NOK/NNP |/NNP Benzinga.com/NNP)
+	(NOUN Buyers/NNP Accumulate/NNP Shares/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN Up/NNP)
+	(NOUN 0.5/CD %/NN NOK/NNP Posted/NNP)
+	(NOUN best/JJS)
+	(NOUN %/NN)
+
+----------------------------------
+original sentence: 
+The S&P is currently trading fractionally lower to 1,187 and the Dow Jones Industrial Average is trading 0.2% lower to 10,943.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), ('is', 'VBZ'), ('currently', 'RB'), ('trading', 'VBG'), ('fractionally', 'RB'), ('lower', 'JJR'), ('to', 'TO'), ('1,187', 'CD'), ('and', 'CC'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('is', 'VBZ'), ('trading', 'VBG'), ('0.2', 'CD'), ('%', 'NN'), ('lower', 'JJR'), ('to', 'TO'), ('10,943', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   is/VBZ   currently/RB   trading/VBG   fractionally/RB   lower/JJR   to/TO   1,187/CD   and/CC   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   is/VBZ   trading/VBG   0.2/CD   %/NN   lower/JJR   to/TO   10,943/CD   ./.)
+----------------------------------
+original sentence: 
+Nokia is in SmarTrend's Consumer PC & Wireless industry and this industry is currently in an Uptrend according to our research.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('is', 'VBZ'), ('in', 'IN'), ('SmarTrend', 'NNP'), ("'s", 'POS'), ('Consumer', 'NNP'), ('PC', 'NNP'), ('&', 'CC'), ('Wireless', 'NNP'), ('industry', 'NN'), ('and', 'CC'), ('this', 'DT'), ('industry', 'NN'), ('is', 'VBZ'), ('currently', 'RB'), ('in', 'IN'), ('an', 'DT'), ('Uptrend', 'NNP'), ('according', 'VBG'), ('to', 'TO'), ('our', 'PRP$'), ('research', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia/NNP)   is/VBZ   in/IN   (ORGANIZATION SmarTrend/NNP)   's/POS   (ORGANIZATION Consumer/NNP)   PC/NNP   &/CC   (ORGANIZATION Wireless/NNP)   industry/NN   and/CC   this/DT   industry/NN   is/VBZ   currently/RB   in/IN   an/DT   Uptrend/NNP   according/VBG   to/TO   our/PRP$   research/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ in/IN SmarTrend/NNP)
+	(VERB is/VBZ currently/RB in/IN an/DT Uptrend/NNP)
+	(VERB according/VBG to/TO our/PRP$ research/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+	(NOUN Consumer/NNP PC/NNP)
+	(NOUN Wireless/NNP industry/NN)
+	(NOUN industry/NN)
+
+----------------------------------
+original sentence: 
+We are monitoring many other stocks on the move within this industry.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('are', 'VBP'), ('monitoring', 'VBG'), ('many', 'JJ'), ('other', 'JJ'), ('stocks', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('move', 'NN'), ('within', 'IN'), ('this', 'DT'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   are/VBP   monitoring/VBG   many/JJ   other/JJ   stocks/NNS   on/IN   the/DT   move/NN   within/IN   this/DT   industry/NN   ./.)
+----------------------------------
+original sentence: 
+SmarTrend is tracking trends for Nokia and other fast moving stocks every day.
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('is', 'VBZ'), ('tracking', 'VBG'), ('trends', 'NNS'), ('for', 'IN'), ('Nokia', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('fast', 'NN'), ('moving', 'VBG'), ('stocks', 'NNS'), ('every', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   is/VBZ   tracking/VBG   trends/NNS   for/IN   (PERSON Nokia/NNP)   and/CC   other/JJ   fast/NN   moving/VBG   stocks/NNS   every/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ tracking/VBG trends/NNS for/IN Nokia/NNP)
+	(VERB moving/VBG stocks/NNS every/DT day/NN)
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN other/JJ fast/NN)
+
+----------------------------------
+original sentence: 
+Visit our site for the latest trend data and alerts on Nokia.
+
+POS tagged sentence: 
+[('Visit', 'NN'), ('our', 'PRP$'), ('site', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('trend', 'NN'), ('data', 'NNS'), ('and', 'CC'), ('alerts', 'NNS'), ('on', 'IN'), ('Nokia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Visit/NN)   our/PRP$   site/JJ   for/IN   the/DT   latest/JJS   trend/NN   data/NNS   and/CC   alerts/NNS   on/IN   (GPE Nokia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Visit/NN)
+	(NOUN site/JJ)
+	(NOUN the/DT latest/JJS trend/NN data/NNS)
+	(NOUN alerts/NNS)
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Write to Chip Brian at cbrian@tradethetrend.com
+ 
+SmarTrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Write', 'NNP'), ('to', 'TO'), ('Chip', 'NNP'), ('Brian', 'NNP'), ('at', 'IN'), ('cbrian', 'JJ'), ('@', 'NN'), ('tradethetrend.com', 'NN'), ('SmarTrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Write/NNP)   to/TO   (GPE Chip/NNP Brian/NNP)   at/IN   cbrian/JJ   @/NN   tradethetrend.com/NN   (ORGANIZATION SmarTrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.mysmartrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.mysmartrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.mysmartrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at: http://www.mysmartrend.com/signup
+Bookmark/Search this post with: You are not watching this post, click to start watching
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.mysmartrend.com/signup', 'JJ'), ('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('There', 'EX'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   :/:   http/NN   :/:   //www.mysmartrend.com/signup/JJ   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   There/EX   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:1

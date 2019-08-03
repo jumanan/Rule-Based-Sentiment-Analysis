@@ -1,0 +1,338 @@
+
+----------------------------------
+original sentence: 
+ Semiconductor industry growing fast Semiconductor industry growing fast
+Saturday, March 20, 2010 1:53 PM
+ Source: The Tribune By Ed Taylor, The Tribune, Mesa, Ariz.
+
+
+Mar.
+
+POS tagged sentence: 
+[('Semiconductor', 'NNP'), ('industry', 'NN'), ('growing', 'VBG'), ('fast', 'RB'), ('Semiconductor', 'NNP'), ('industry', 'NN'), ('growing', 'VBG'), ('fast', 'RB'), ('Saturday', 'NNP'), (',', ','), ('March', 'NNP'), ('20', 'CD'), (',', ','), ('2010', 'CD'), ('1', 'CD'), (':', ':'), ('53', 'CD'), ('PM', 'NNP'), ('Source', 'NNP'), (':', ':'), ('The', 'DT'), ('Tribune', 'NNP'), ('By', 'NNP'), ('Ed', 'NNP'), ('Taylor', 'NNP'), (',', ','), ('The', 'NNP'), ('Tribune', 'NNP'), (',', ','), ('Mesa', 'NNP'), (',', ','), ('Ariz', 'NNP'), ('.', '.'), ('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Semiconductor/NNP)   industry/NN   growing/VBG   fast/RB   Semiconductor/NNP   industry/NN   growing/VBG   fast/RB   Saturday/NNP   ,/,   March/NNP   20/CD   ,/,   2010/CD   1/CD   :/:   53/CD   PM/NNP   Source/NNP   :/:   The/DT   Tribune/NNP   By/NNP   Ed/NNP   Taylor/NNP   ,/,   (ORGANIZATION The/NNP Tribune/NNP)   ,/,   (PERSON Mesa/NNP)   ,/,   (PERSON Ariz/NNP)   ./.   (PERSON Mar/NNP)   ./.)
+----------------------------------
+original sentence: 
+20 While most sectors of the economy continue to struggle, the semiconductor industry is showing some bounce in its step.
+
+POS tagged sentence: 
+[('20', 'CD'), ('While', 'IN'), ('most', 'JJS'), ('sectors', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('economy', 'NN'), ('continue', 'VBP'), ('to', 'TO'), ('struggle', 'VB'), (',', ','), ('the', 'DT'), ('semiconductor', 'NN'), ('industry', 'NN'), ('is', 'VBZ'), ('showing', 'VBG'), ('some', 'DT'), ('bounce', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('step', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   20/CD   While/IN   most/JJS   sectors/NNS   of/IN   the/DT   economy/NN   continue/VBP   to/TO   struggle/VB   ,/,   the/DT   semiconductor/NN   industry/NN   is/VBZ   showing/VBG   some/DT   bounce/NN   in/IN   its/PRP$   step/NN   ./.)
+----------------------------------
+original sentence: 
+That's good news for the East Valley because semiconductor manufacturing makes up one of the largest segments of the local economy with major employers such as Intel, Freescale and Microchip Technology.
+
+POS tagged sentence: 
+[('That', 'DT'), ("'s", 'VBZ'), ('good', 'JJ'), ('news', 'NN'), ('for', 'IN'), ('the', 'DT'), ('East', 'NNP'), ('Valley', 'NNP'), ('because', 'IN'), ('semiconductor', 'NN'), ('manufacturing', 'VBG'), ('makes', 'NNS'), ('up', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('largest', 'JJS'), ('segments', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('local', 'JJ'), ('economy', 'NN'), ('with', 'IN'), ('major', 'JJ'), ('employers', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Intel', 'NNP'), (',', ','), ('Freescale', 'NNP'), ('and', 'CC'), ('Microchip', 'NNP'), ('Technology', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   's/VBZ   good/JJ   news/NN   for/IN   the/DT   (LOCATION East/NNP Valley/NNP)   because/IN   semiconductor/NN   manufacturing/VBG   makes/NNS   up/IN   one/CD   of/IN   the/DT   largest/JJS   segments/NNS   of/IN   the/DT   local/JJ   economy/NN   with/IN   major/JJ   employers/NNS   such/JJ   as/IN   (ORGANIZATION Intel/NNP)   ,/,   (GPE Freescale/NNP)   and/CC   (PERSON Microchip/NNP Technology/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   's/VBZ   good/JJ   news/NN   for/IN   the/DT   East/NNP   Valley/NNP   because/IN   semiconductor/NN)
+	(VERB   manufacturing/VBG   makes/NNS   up/IN   one/CD   of/IN   the/DT   largest/JJS   segments/NNS   of/IN   the/DT   local/JJ   economy/NN   with/IN   major/JJ   employers/NNS   such/JJ   as/IN   Intel/NNP)
+
+tagged sentence:
+	 manufacturing makes up one of the largest segments of the local economy with major employers such as Intel	res:1
+noun phrases to consider:
+	(NOUN Freescale/NNP)
+	(NOUN Microchip/NNP Technology/NNP)
+
+----------------------------------
+original sentence: 
+Some evidence of the turnaround: 
+Worldwide semiconductor sales were up 47 percent in January, the latest month that data are available, from an admittedly weak January 2009; 
+Intel Corp., the largest private sector employer in the East Valley, enjoyed a 28 percent year over year revenue increase in the fourth quarter of 2009 and an 875 percent jump in profits; 
+Phoenix based ON Semiconductor reported a 5 percent sequential increase in sales in the fourth quarter over the previous quarter and predicted an increase of another 3 to 5 percent in the first three months of this year.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('evidence', 'NN'), ('of', 'IN'), ('the', 'DT'), ('turnaround', 'NN'), (':', ':'), ('Worldwide', 'NNP'), ('semiconductor', 'NN'), ('sales', 'NNS'), ('were', 'VBD'), ('up', 'RB'), ('47', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('January', 'NNP'), (',', ','), ('the', 'DT'), ('latest', 'JJS'), ('month', 'NN'), ('that', 'WDT'), ('data', 'NNS'), ('are', 'VBP'), ('available', 'JJ'), (',', ','), ('from', 'IN'), ('an', 'DT'), ('admittedly', 'RB'), ('weak', 'JJ'), ('January', 'NNP'), ('2009', 'CD'), (';', ':'), ('Intel', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('the', 'DT'), ('largest', 'JJS'), ('private', 'JJ'), ('sector', 'NN'), ('employer', 'NN'), ('in', 'IN'), ('the', 'DT'), ('East', 'NNP'), ('Valley', 'NNP'), (',', ','), ('enjoyed', 'VBD'), ('a', 'DT'), ('28', 'CD'), ('percent', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('revenue', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('an', 'DT'), ('875', 'CD'), ('percent', 'NN'), ('jump', 'NN'), ('in', 'IN'), ('profits', 'NNS'), (';', ':'), ('Phoenix', 'NNP'), ('based', 'VBN'), ('ON', 'NNP'), ('Semiconductor', 'NNP'), ('reported', 'VBD'), ('a', 'DT'), ('5', 'CD'), ('percent', 'NN'), ('sequential', 'JJ'), ('increase', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('over', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('quarter', 'NN'), ('and', 'CC'), ('predicted', 'VBD'), ('an', 'DT'), ('increase', 'NN'), ('of', 'IN'), ('another', 'DT'), ('3', 'CD'), ('to', 'TO'), ('5', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('three', 'CD'), ('months', 'NNS'), ('of', 'IN'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   evidence/NN   of/IN   the/DT   turnaround/NN   :/:   Worldwide/NNP   semiconductor/NN   sales/NNS   were/VBD   up/RB   47/CD   percent/NN   in/IN   January/NNP   ,/,   the/DT   latest/JJS   month/NN   that/WDT   data/NNS   are/VBP   available/JJ   ,/,   from/IN   an/DT   admittedly/RB   weak/JJ   January/NNP   2009/CD   ;/:   (ORGANIZATION Intel/NNP Corp./NNP)   ,/,   the/DT   largest/JJS   private/JJ   sector/NN   employer/NN   in/IN   the/DT   (LOCATION East/NNP Valley/NNP)   ,/,   enjoyed/VBD   a/DT   28/CD   percent/NN   year/NN   over/IN   year/NN   revenue/NN   increase/NN   in/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD   and/CC   an/DT   875/CD   percent/NN   jump/NN   in/IN   profits/NNS   ;/:   (PERSON Phoenix/NNP)   based/VBN   ON/NNP   Semiconductor/NNP   reported/VBD   a/DT   5/CD   percent/NN   sequential/JJ   increase/NN   in/IN   sales/NNS   in/IN   the/DT   fourth/JJ   quarter/NN   over/IN   the/DT   previous/JJ   quarter/NN   and/CC   predicted/VBD   an/DT   increase/NN   of/IN   another/DT   3/CD   to/TO   5/CD   percent/NN   in/IN   the/DT   first/JJ   three/CD   months/NNS   of/IN   this/DT   year/NN   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 47/CD)
+
+tagged sentence:
+	 up 47	res:+1
+verb phrases to consider:
+	(VERB were/VBD)
+	(VERB are/VBP available/JJ)
+	(VERB   enjoyed/VBD   a/DT   28/CD   percent/NN   year/NN   over/IN   year/NN   revenue/NN   increase/NN   in/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD)
+	(VERB based/VBN ON/NNP Semiconductor/NNP)
+	(VERB   reported/VBD   a/DT   5/CD   percent/NN   sequential/JJ   increase/NN   in/IN   sales/NNS   in/IN   the/DT   fourth/JJ   quarter/NN   over/IN   the/DT   previous/JJ   quarter/NN)
+	(VERB predicted/VBD an/DT increase/NN of/IN another/DT 3/CD)
+noun phrases to consider:
+	(NOUN evidence/NN)
+	(NOUN turnaround/NN)
+	(NOUN Worldwide/NNP semiconductor/NN sales/NNS)
+	(NOUN percent/NN)
+	(NOUN January/NNP)
+	(NOUN the/DT latest/JJS month/NN)
+	(NOUN data/NNS)
+	(NOUN an/DT admittedly/RB weak/JJ January/NNP)
+	(NOUN Intel/NNP Corp./NNP)
+	(NOUN the/DT largest/JJS private/JJ sector/NN employer/NN)
+	(NOUN East/NNP Valley/NNP)
+	(NOUN 875/CD percent/NN jump/NN)
+	(NOUN profits/NNS)
+	(NOUN Phoenix/NNP)
+	(NOUN 5/CD percent/NN)
+	(NOUN the/DT first/JJ three/CD months/NNS)
+	(NOUN year/NN)
+
+----------------------------------
+original sentence: 
+But no one is more upbeat than Microchip Technology, the Chandler based company that makes microcontrollers used in many consumer and industrial products.
+
+POS tagged sentence: 
+[('But', 'CC'), ('no', 'DT'), ('one', 'NN'), ('is', 'VBZ'), ('more', 'RBR'), ('upbeat', 'JJ'), ('than', 'IN'), ('Microchip', 'NNP'), ('Technology', 'NNP'), (',', ','), ('the', 'DT'), ('Chandler', 'NNP'), ('based', 'VBN'), ('company', 'NN'), ('that', 'WDT'), ('makes', 'VBZ'), ('microcontrollers', 'NNS'), ('used', 'VBN'), ('in', 'IN'), ('many', 'JJ'), ('consumer', 'NN'), ('and', 'CC'), ('industrial', 'JJ'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   no/DT   one/NN   is/VBZ   more/RBR   upbeat/JJ   than/IN   (PERSON Microchip/NNP Technology/NNP)   ,/,   the/DT   (ORGANIZATION Chandler/NNP)   based/VBN   company/NN   that/WDT   makes/VBZ   microcontrollers/NNS   used/VBN   in/IN   many/JJ   consumer/NN   and/CC   industrial/JJ   products/NNS   ./.)
+----------------------------------
+original sentence: 
+Chief Executive Steve Sanghi said the company is headed toward record bookings this quarter and is adding equipment and personnel in its factories to accommodate expected further growth.
+
+POS tagged sentence: 
+[('Chief', 'NN'), ('Executive', 'JJ'), ('Steve', 'NNP'), ('Sanghi', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('is', 'VBZ'), ('headed', 'VBN'), ('toward', 'IN'), ('record', 'NN'), ('bookings', 'NNS'), ('this', 'DT'), ('quarter', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('adding', 'VBG'), ('equipment', 'NN'), ('and', 'CC'), ('personnel', 'NN'), ('in', 'IN'), ('its', 'PRP$'), ('factories', 'NNS'), ('to', 'TO'), ('accommodate', 'VB'), ('expected', 'VBN'), ('further', 'RB'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Chief/NN)   (PERSON Executive/JJ Steve/NNP Sanghi/NNP)   said/VBD   the/DT   company/NN   is/VBZ   headed/VBN   toward/IN   record/NN   bookings/NNS   this/DT   quarter/NN   and/CC   is/VBZ   adding/VBG   equipment/NN   and/CC   personnel/NN   in/IN   its/PRP$   factories/NNS   to/TO   accommodate/VB   expected/VBN   further/RB   growth/NN   ./.)
+----------------------------------
+original sentence: 
+After returning from a 10 day trip to China, where he met with distributors, Sanghi said demand for the company's products in Asia "continues to be very robust.
+
+POS tagged sentence: 
+[('After', 'IN'), ('returning', 'VBG'), ('from', 'IN'), ('a', 'DT'), ('10', 'CD'), ('day', 'NN'), ('trip', 'NN'), ('to', 'TO'), ('China', 'NNP'), (',', ','), ('where', 'WRB'), ('he', 'PRP'), ('met', 'VBD'), ('with', 'IN'), ('distributors', 'NNS'), (',', ','), ('Sanghi', 'NNP'), ('said', 'VBD'), ('demand', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('products', 'NNS'), ('in', 'IN'), ('Asia', 'NNP'), ('"', 'NNP'), ('continues', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('very', 'RB'), ('robust', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   returning/VBG   from/IN   a/DT   10/CD   day/NN   trip/NN   to/TO   (GPE China/NNP)   ,/,   where/WRB   he/PRP   met/VBD   with/IN   distributors/NNS   ,/,   (PERSON Sanghi/NNP)   said/VBD   demand/NN   for/IN   the/DT   company/NN   's/POS   products/NNS   in/IN   (GPE Asia/NNP)   "/NNP   continues/VBZ   to/TO   be/VB   very/RB   robust/JJ   ./.)
+----------------------------------
+original sentence: 
+Post Lunar New Year we are seeing very strong activity in China.
+
+POS tagged sentence: 
+[('Post', 'NNP'), ('Lunar', 'NNP'), ('New', 'NNP'), ('Year', 'NNP'), ('we', 'PRP'), ('are', 'VBP'), ('seeing', 'VBG'), ('very', 'RB'), ('strong', 'JJ'), ('activity', 'NN'), ('in', 'IN'), ('China', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Post/NNP)   (PERSON Lunar/NNP New/NNP)   Year/NNP   we/PRP   are/VBP   seeing/VBG   very/RB   strong/JJ   activity/NN   in/IN   (GPE China/NNP)   ./.)
+----------------------------------
+original sentence: 
+" 
+He also said demand is strong in Europe.
+
+POS tagged sentence: 
+[('"', 'NN'), ('He', 'PRP'), ('also', 'RB'), ('said', 'VBD'), ('demand', 'NN'), ('is', 'VBZ'), ('strong', 'JJ'), ('in', 'IN'), ('Europe', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   He/PRP   also/RB   said/VBD   demand/NN   is/VBZ   strong/JJ   in/IN   (GPE Europe/NNP)   ./.)
+----------------------------------
+original sentence: 
+And because of the greater than expected growth, Microchip has increased its forecast for current quarter sales and earnings.
+
+POS tagged sentence: 
+[('And', 'CC'), ('because', 'IN'), ('of', 'IN'), ('the', 'DT'), ('greater', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('growth', 'NN'), (',', ','), ('Microchip', 'NNP'), ('has', 'VBZ'), ('increased', 'VBN'), ('its', 'PRP$'), ('forecast', 'NN'), ('for', 'IN'), ('current', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('and', 'CC'), ('earnings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   because/IN   of/IN   the/DT   greater/JJR   than/IN   expected/VBN   growth/NN   ,/,   (PERSON Microchip/NNP)   has/VBZ   increased/VBN   its/PRP$   forecast/NN   for/IN   current/JJ   quarter/NN   sales/NNS   and/CC   earnings/NNS   ./.)
+----------------------------------
+original sentence: 
+Sanghi said the company has more than 130 job openings worldwide.
+
+POS tagged sentence: 
+[('Sanghi', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('more', 'JJR'), ('than', 'IN'), ('130', 'CD'), ('job', 'NN'), ('openings', 'NNS'), ('worldwide', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sanghi/NNP)   said/VBD   the/DT   company/NN   has/VBZ   more/JJR   than/IN   130/CD   job/NN   openings/NNS   worldwide/VBP   ./.)
+----------------------------------
+original sentence: 
+In Arizona, Microchip has been hiring production workers at its Tempe fabrication plant and also has openings for design, information technology and product test engineers.
+
+POS tagged sentence: 
+[('In', 'IN'), ('Arizona', 'NNP'), (',', ','), ('Microchip', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('hiring', 'VBG'), ('production', 'NN'), ('workers', 'NNS'), ('at', 'IN'), ('its', 'PRP$'), ('Tempe', 'NNP'), ('fabrication', 'NN'), ('plant', 'NN'), ('and', 'CC'), ('also', 'RB'), ('has', 'VBZ'), ('openings', 'NNS'), ('for', 'IN'), ('design', 'NN'), (',', ','), ('information', 'NN'), ('technology', 'NN'), ('and', 'CC'), ('product', 'NN'), ('test', 'NN'), ('engineers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   (GPE Arizona/NNP)   ,/,   (PERSON Microchip/NNP)   has/VBZ   been/VBN   hiring/VBG   production/NN   workers/NNS   at/IN   its/PRP$   Tempe/NNP   fabrication/NN   plant/NN   and/CC   also/RB   has/VBZ   openings/NNS   for/IN   design/NN   ,/,   information/NN   technology/NN   and/CC   product/NN   test/NN   engineers/NNS   ./.)
+----------------------------------
+original sentence: 
+The company, which employs nearly 1,500 people in Arizona, has been hiring since the first of this year, he said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), (',', ','), ('which', 'WDT'), ('employs', 'NNS'), ('nearly', 'RB'), ('1,500', 'CD'), ('people', 'NNS'), ('in', 'IN'), ('Arizona', 'NNP'), (',', ','), ('has', 'VBZ'), ('been', 'VBN'), ('hiring', 'VBG'), ('since', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('of', 'IN'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   ,/,   which/WDT   employs/NNS   nearly/RB   1,500/CD   people/NNS   in/IN   (GPE Arizona/NNP)   ,/,   has/VBZ   been/VBN   hiring/VBG   since/IN   the/DT   first/JJ   of/IN   this/DT   year/NN   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Sanghi attributed the company's good fortune to the fact that it sells worldwide, and economies in many parts of the world especially Asia are faring better than the United States.
+
+POS tagged sentence: 
+[('Sanghi', 'NNP'), ('attributed', 'VBD'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('good', 'JJ'), ('fortune', 'NN'), ('to', 'TO'), ('the', 'DT'), ('fact', 'NN'), ('that', 'IN'), ('it', 'PRP'), ('sells', 'VBZ'), ('worldwide', 'JJ'), (',', ','), ('and', 'CC'), ('economies', 'NNS'), ('in', 'IN'), ('many', 'JJ'), ('parts', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ('especially', 'RB'), ('Asia', 'NNP'), ('are', 'VBP'), ('faring', 'VBG'), ('better', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sanghi/NNP)   attributed/VBD   the/DT   company/NN   's/POS   good/JJ   fortune/NN   to/TO   the/DT   fact/NN   that/IN   it/PRP   sells/VBZ   worldwide/JJ   ,/,   and/CC   economies/NNS   in/IN   many/JJ   parts/NNS   of/IN   the/DT   world/NN   especially/RB   (GPE Asia/NNP)   are/VBP   faring/VBG   better/JJR   than/IN   the/DT   (GPE United/NNP States/NNPS)   ./.)
+----------------------------------
+original sentence: 
+He added that stimulus packages around the world are creating additional demand for cars, appliances and other products that use Microchip's circuits.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('added', 'VBD'), ('that', 'IN'), ('stimulus', 'NN'), ('packages', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), ('are', 'VBP'), ('creating', 'VBG'), ('additional', 'JJ'), ('demand', 'NN'), ('for', 'IN'), ('cars', 'NNS'), (',', ','), ('appliances', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('products', 'NNS'), ('that', 'WDT'), ('use', 'NN'), ('Microchip', 'NNP'), ("'s", 'POS'), ('circuits', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   added/VBD   that/IN   stimulus/NN   packages/NNS   around/IN   the/DT   world/NN   are/VBP   creating/VBG   additional/JJ   demand/NN   for/IN   cars/NNS   ,/,   appliances/NNS   and/CC   other/JJ   products/NNS   that/WDT   use/NN   (PERSON Microchip/NNP)   's/POS   circuits/NNS   ./.)
+----------------------------------
+original sentence: 
+Other semiconductor companies also are starting to report stronger demand, including Taiwan Semiconductor Manufacturing Corp. and Texas Instruments, said Brian Matas, vice president of IC Insights, a Scottsdale based market research firm.
+
+POS tagged sentence: 
+[('Other', 'JJ'), ('semiconductor', 'NN'), ('companies', 'NNS'), ('also', 'RB'), ('are', 'VBP'), ('starting', 'VBG'), ('to', 'TO'), ('report', 'VB'), ('stronger', 'JJR'), ('demand', 'NN'), (',', ','), ('including', 'VBG'), ('Taiwan', 'NNP'), ('Semiconductor', 'NNP'), ('Manufacturing', 'NNP'), ('Corp.', 'NNP'), ('and', 'CC'), ('Texas', 'NNP'), ('Instruments', 'NNPS'), (',', ','), ('said', 'VBD'), ('Brian', 'NNP'), ('Matas', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('of', 'IN'), ('IC', 'NNP'), ('Insights', 'NNP'), (',', ','), ('a', 'DT'), ('Scottsdale', 'NNP'), ('based', 'VBN'), ('market', 'NN'), ('research', 'NN'), ('firm', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Other/JJ   semiconductor/NN   companies/NNS   also/RB   are/VBP   starting/VBG   to/TO   report/VB   stronger/JJR   demand/NN   ,/,   including/VBG   (GPE Taiwan/NNP)   Semiconductor/NNP   Manufacturing/NNP   Corp./NNP   and/CC   (ORGANIZATION Texas/NNP Instruments/NNPS)   ,/,   said/VBD   (PERSON Brian/NNP Matas/NNP)   ,/,   vice/NN   president/NN   of/IN   (ORGANIZATION IC/NNP Insights/NNP)   ,/,   a/DT   Scottsdale/NNP   based/VBN   market/NN   research/NN   firm/NN   ./.)
+----------------------------------
+original sentence: 
+"Factories are running at 90 to 93 percent of capacity, which is a good sign for the industry," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Factories', 'NNS'), ('are', 'VBP'), ('running', 'VBG'), ('at', 'IN'), ('90', 'CD'), ('to', 'TO'), ('93', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('capacity', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('a', 'DT'), ('good', 'JJ'), ('sign', 'NN'), ('for', 'IN'), ('the', 'DT'), ('industry', 'NN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Factories/NNS   are/VBP   running/VBG   at/IN   90/CD   to/TO   93/CD   percent/NN   of/IN   capacity/NN   ,/,   which/WDT   is/VBZ   a/DT   good/JJ   sign/NN   for/IN   the/DT   industry/NN   ,/,   "/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+"And there has not been a lot of capital spending to expand capacity.
+
+POS tagged sentence: 
+[('"', 'NN'), ('And', 'CC'), ('there', 'EX'), ('has', 'VBZ'), ('not', 'RB'), ('been', 'VBN'), ('a', 'DT'), ('lot', 'NN'), ('of', 'IN'), ('capital', 'NN'), ('spending', 'NN'), ('to', 'TO'), ('expand', 'VB'), ('capacity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   And/CC   there/EX   has/VBZ   not/RB   been/VBN   a/DT   lot/NN   of/IN   capital/NN   spending/NN   to/TO   expand/VB   capacity/NN   ./.)
+----------------------------------
+original sentence: 
+That will drive up prices for a while.
+
+POS tagged sentence: 
+[('That', 'DT'), ('will', 'MD'), ('drive', 'VB'), ('up', 'RP'), ('prices', 'NNS'), ('for', 'IN'), ('a', 'DT'), ('while', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   will/MD   drive/VB   up/RP   prices/NNS   for/IN   a/DT   while/NN   ./.)
+----------------------------------
+original sentence: 
+" 
+Companies that make analog chips such as Fairchild Semiconductor and Analog Devices also are taking more optimistic views of the future, he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Companies', 'NNS'), ('that', 'WDT'), ('make', 'VBP'), ('analog', 'VBP'), ('chips', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Fairchild', 'NNP'), ('Semiconductor', 'NNP'), ('and', 'CC'), ('Analog', 'NNP'), ('Devices', 'NNPS'), ('also', 'RB'), ('are', 'VBP'), ('taking', 'VBG'), ('more', 'JJR'), ('optimistic', 'JJ'), ('views', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('future', 'NN'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Companies/NNS   that/WDT   make/VBP   analog/VBP   chips/NNS   such/JJ   as/IN   (PERSON Fairchild/NNP Semiconductor/NNP)   and/CC   (ORGANIZATION Analog/NNP Devices/NNPS)   also/RB   are/VBP   taking/VBG   more/JJR   optimistic/JJ   views/NNS   of/IN   the/DT   future/NN   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+"Some companies are more excited than others ... but I think we will hear more about the strengthening of demand going into the second quarter," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Some', 'DT'), ('companies', 'NNS'), ('are', 'VBP'), ('more', 'RBR'), ('excited', 'VBN'), ('than', 'IN'), ('others', 'NNS'), ('...', ':'), ('but', 'CC'), ('I', 'PRP'), ('think', 'VBP'), ('we', 'PRP'), ('will', 'MD'), ('hear', 'VB'), ('more', 'RBR'), ('about', 'IN'), ('the', 'DT'), ('strengthening', 'NN'), ('of', 'IN'), ('demand', 'NN'), ('going', 'VBG'), ('into', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), (',', ','), ('"', 'NNP'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Some/DT   companies/NNS   are/VBP   more/RBR   excited/VBN   than/IN   others/NNS   .../:   but/CC   I/PRP   think/VBP   we/PRP   will/MD   hear/VB   more/RBR   about/IN   the/DT   strengthening/NN   of/IN   demand/NN   going/VBG   into/IN   the/DT   second/JJ   quarter/NN   ,/,   "/NNP   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+With some companies improving their outlooks, IC Insights has bumped up its 2010 growth forecast for the industry from 15 percent at the start of the year to 27 percent now, he said.
+
+POS tagged sentence: 
+[('With', 'IN'), ('some', 'DT'), ('companies', 'NNS'), ('improving', 'VBG'), ('their', 'PRP$'), ('outlooks', 'NNS'), (',', ','), ('IC', 'NNP'), ('Insights', 'NNP'), ('has', 'VBZ'), ('bumped', 'VBN'), ('up', 'RP'), ('its', 'PRP$'), ('2010', 'CD'), ('growth', 'NN'), ('forecast', 'NN'), ('for', 'IN'), ('the', 'DT'), ('industry', 'NN'), ('from', 'IN'), ('15', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('the', 'DT'), ('start', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), ('to', 'TO'), ('27', 'CD'), ('percent', 'NN'), ('now', 'RB'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   some/DT   companies/NNS   improving/VBG   their/PRP$   outlooks/NNS   ,/,   (ORGANIZATION IC/NNP Insights/NNP)   has/VBZ   bumped/VBN   up/RP   its/PRP$   2010/CD   growth/NN   forecast/NN   for/IN   the/DT   industry/NN   from/IN   15/CD   percent/NN   at/IN   the/DT   start/NN   of/IN   the/DT   year/NN   to/TO   27/CD   percent/NN   now/RB   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Digital televisions, smart phones and other consumer devices such as Apple's iPad tablet computer are some of the end products spurring demand for semiconductors, he said.
+
+POS tagged sentence: 
+[('Digital', 'NNP'), ('televisions', 'NNS'), (',', ','), ('smart', 'NN'), ('phones', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('consumer', 'NN'), ('devices', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('tablet', 'NN'), ('computer', 'NN'), ('are', 'VBP'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('end', 'NN'), ('products', 'NNS'), ('spurring', 'VBG'), ('demand', 'NN'), ('for', 'IN'), ('semiconductors', 'NNS'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Digital/NNP)   televisions/NNS   ,/,   smart/NN   phones/NNS   and/CC   other/JJ   consumer/NN   devices/NNS   such/JJ   as/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP)   tablet/NN   computer/NN   are/VBP   some/DT   of/IN   the/DT   end/NN   products/NNS   spurring/VBG   demand/NN   for/IN   semiconductors/NNS   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+To see more of The Tribune, or to subscribe to the newspaper, go to http://www.eastvalleytribune.com.
+
+POS tagged sentence: 
+[('To', 'TO'), ('see', 'VB'), ('more', 'JJR'), ('of', 'IN'), ('The', 'DT'), ('Tribune', 'NNP'), (',', ','), ('or', 'CC'), ('to', 'TO'), ('subscribe', 'VB'), ('to', 'TO'), ('the', 'DT'), ('newspaper', 'NN'), (',', ','), ('go', 'VBP'), ('to', 'TO'), ('http', 'VB'), (':', ':'), ('//www.eastvalleytribune.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   see/VB   more/JJR   of/IN   The/DT   (ORGANIZATION Tribune/NNP)   ,/,   or/CC   to/TO   subscribe/VB   to/TO   the/DT   newspaper/NN   ,/,   go/VBP   to/TO   http/VB   :/:   //www.eastvalleytribune.com/JJ   ./.)
+----------------------------------
+original sentence: 
+Copyright c 2010, The Tribune, Mesa, Ariz.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('c', 'NN'), ('2010', 'CD'), (',', ','), ('The', 'DT'), ('Tribune', 'NNP'), (',', ','), ('Mesa', 'NNP'), (',', ','), ('Ariz', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Copyright/NNP)   c/NN   2010/CD   ,/,   The/DT   (ORGANIZATION Tribune/NNP)   ,/,   (PERSON Mesa/NNP)   ,/,   (PERSON Ariz/NNP)   ./.)
+----------------------------------
+original sentence: 
+Distributed by McClatchy Tribune Information Services.
+
+POS tagged sentence: 
+[('Distributed', 'NNP'), ('by', 'IN'), ('McClatchy', 'NNP'), ('Tribune', 'NNP'), ('Information', 'NNP'), ('Services', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Distributed/NNP)   by/IN   (ORGANIZATION     McClatchy/NNP     Tribune/NNP     Information/NNP     Services/NNPS)   ./.)
+----------------------------------
+original sentence: 
+For reprints, email tmsreprints@permissionsgroup.com, call 800 374 7985 or 847 635 6550, send a fax to 847 635 6968, or write to The Permissions Group Inc., 1247 Milwaukee Ave., Suite 303, Glenview, IL 60025, USA.
+
+POS tagged sentence: 
+[('For', 'IN'), ('reprints', 'NNS'), (',', ','), ('email', 'NN'), ('tmsreprints', 'NNS'), ('@', ':'), ('permissionsgroup.com', 'JJ'), (',', ','), ('call', 'NN'), ('800', 'CD'), ('374', 'CD'), ('7985', 'CD'), ('or', 'CC'), ('847', 'CD'), ('635', 'CD'), ('6550', 'CD'), (',', ','), ('send', 'NN'), ('a', 'DT'), ('fax', 'NN'), ('to', 'TO'), ('847', 'CD'), ('635', 'CD'), ('6968', 'CD'), (',', ','), ('or', 'CC'), ('write', 'VB'), ('to', 'TO'), ('The', 'DT'), ('Permissions', 'NNS'), ('Group', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('1247', 'CD'), ('Milwaukee', 'NNP'), ('Ave.', 'NNP'), (',', ','), ('Suite', 'NNP'), ('303', 'CD'), (',', ','), ('Glenview', 'NNP'), (',', ','), ('IL', 'NNP'), ('60025', 'CD'), (',', ','), ('USA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   reprints/NNS   ,/,   email/NN   tmsreprints/NNS   @/:   permissionsgroup.com/JJ   ,/,   call/NN   800/CD   374/CD   7985/CD   or/CC   847/CD   635/CD   6550/CD   ,/,   send/NN   a/DT   fax/NN   to/TO   847/CD   635/CD   6968/CD   ,/,   or/CC   write/VB   to/TO   The/DT   (ORGANIZATION Permissions/NNS Group/NNP Inc./NNP)   ,/,   1247/CD   (PERSON Milwaukee/NNP Ave./NNP)   ,/,   (ORGANIZATION Suite/NNP)   303/CD   ,/,   (PERSON Glenview/NNP)   ,/,   IL/NNP   60025/CD   ,/,   (ORGANIZATION USA/NNP)   ./.)
+----------------------------------
+original sentence: 
+NASDAQ NMS:INTC, NASDAQ NMS:MCHP, NYSE:TXN, NYSE:FCS, NYSE:ADI,
+A service of YellowBrix, Inc.
+
+POS tagged sentence: 
+[('NASDAQ', 'NNP'), ('NMS', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('NASDAQ', 'NNP'), ('NMS', 'NNP'), (':', ':'), ('MCHP', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('TXN', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('FCS', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('ADI', 'NNP'), (',', ','), ('A', 'DT'), ('service', 'NN'), ('of', 'IN'), ('YellowBrix', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NASDAQ/NNP)   NMS/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   (ORGANIZATION NASDAQ/NNP)   NMS/NNP   :/:   MCHP/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   TXN/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   FCS/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   ADI/NNP   ,/,   A/DT   service/NN   of/IN   (ORGANIZATION YellowBrix/NNP)   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN NASDAQ/NNP NMS/NNP)
+	(NOUN INTC/NNP)
+	(NOUN NASDAQ/NNP NMS/NNP)
+	(NOUN MCHP/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN TXN/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN FCS/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN ADI/NNP)
+	(NOUN service/NN)
+	(NOUN YellowBrix/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Subscribe to Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+  Related Press Releases
+ |  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('Related', 'NNP'), ('Press', 'NNP'), ('Releases', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   (GPE Rate/NNP)   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   (PERSON Related/NNP Press/NNP Releases/NNP)   |/NNP   |/NNP   |/NNP   Join/NNP   Blog/NNP   (PERSON Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:1

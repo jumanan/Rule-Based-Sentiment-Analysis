@@ -1,0 +1,79 @@
+
+----------------------------------
+original sentence: 
+
+Stock Watch | Latest Stock Market News
+
+Comtex SmarTrend Alert
+Get the Latest Stock Market News
+ articles are composed by
+team of analysts 7 days a week and include breaking corporate and economic news items that may have an impact on stock prices.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Watch', 'NN'), ('|', ':'), ('Latest', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('News', 'NNP'), ('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Get', 'NNP'), ('the', 'DT'), ('Latest', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('News', 'NNP'), ('articles', 'VBZ'), ('are', 'VBP'), ('composed', 'VBN'), ('by', 'IN'), ('team', 'NN'), ('of', 'IN'), ('analysts', 'NNS'), ('7', 'CD'), ('days', 'NNS'), ('a', 'DT'), ('week', 'NN'), ('and', 'CC'), ('include', 'VBP'), ('breaking', 'VBG'), ('corporate', 'JJ'), ('and', 'CC'), ('economic', 'JJ'), ('news', 'NN'), ('items', 'NNS'), ('that', 'WDT'), ('may', 'MD'), ('have', 'VB'), ('an', 'DT'), ('impact', 'NN'), ('on', 'IN'), ('stock', 'NN'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Watch/NN)   |/:   (PERSON Latest/NNP Stock/NNP Market/NNP News/NNP Comtex/NNP)   SmarTrend/NNP   (PERSON Alert/NNP Get/NNP)   the/DT   (ORGANIZATION Latest/NNP Stock/NNP Market/NNP News/NNP)   articles/VBZ   are/VBP   composed/VBN   by/IN   team/NN   of/IN   analysts/NNS   7/CD   days/NNS   a/DT   week/NN   and/CC   include/VBP   breaking/VBG   corporate/JJ   and/CC   economic/JJ   news/NN   items/NNS   that/WDT   may/MD   have/VB   an/DT   impact/NN   on/IN   stock/NN   prices/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   articles/VBZ   are/VBP   composed/VBN   by/IN   team/NN   of/IN   analysts/NNS   7/CD   days/NNS   a/DT   week/NN)
+	(VERB include/VBP breaking/VBG corporate/JJ)
+
+tagged sentence:
+	 include breaking corporate	res:-1
+	(VERB have/VB an/DT impact/NN on/IN stock/NN prices/NNS)
+noun phrases to consider:
+	(NOUN Stock/NN Watch/NN)
+	(NOUN Latest/NNP Stock/NNP Market/NNP News/NNP)
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Get/NNP)
+	(NOUN Latest/NNP Stock/NNP Market/NNP News/NNP)
+	(NOUN economic/JJ news/NN items/NNS)
+
+----------------------------------
+original sentence: 
+These stories include earnings results, consensus estimates, price targets, and more.
+
+POS tagged sentence: 
+[('These', 'DT'), ('stories', 'NNS'), ('include', 'VBP'), ('earnings', 'NNS'), ('results', 'NNS'), (',', ','), ('consensus', 'NN'), ('estimates', 'NNS'), (',', ','), ('price', 'NN'), ('targets', 'NNS'), (',', ','), ('and', 'CC'), ('more', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   stories/NNS   include/VBP   earnings/NNS   results/NNS   ,/,   consensus/NN   estimates/NNS   ,/,   price/NN   targets/NNS   ,/,   and/CC   more/JJR   ./.)
+----------------------------------
+original sentence: 
+Get the latest stock market news with  Analytics Group, our research staff, and our news editors report on potentially market moving events, including upgrades and downgrades, and provide daily market analysis and commentary.
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('latest', 'JJS'), ('stock', 'NN'), ('market', 'NN'), ('news', 'NN'), ('with', 'IN'), ('Analytics', 'NNP'), ('Group', 'NNP'), (',', ','), ('our', 'PRP$'), ('research', 'NN'), ('staff', 'NN'), (',', ','), ('and', 'CC'), ('our', 'PRP$'), ('news', 'NN'), ('editors', 'NNS'), ('report', 'NN'), ('on', 'IN'), ('potentially', 'RB'), ('market', 'NN'), ('moving', 'VBG'), ('events', 'NNS'), (',', ','), ('including', 'VBG'), ('upgrades', 'NNS'), ('and', 'CC'), ('downgrades', 'NNS'), (',', ','), ('and', 'CC'), ('provide', 'VB'), ('daily', 'JJ'), ('market', 'NN'), ('analysis', 'NN'), ('and', 'CC'), ('commentary', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   latest/JJS   stock/NN   market/NN   news/NN   with/IN   (PERSON Analytics/NNP Group/NNP)   ,/,   our/PRP$   research/NN   staff/NN   ,/,   and/CC   our/PRP$   news/NN   editors/NNS   report/NN   on/IN   potentially/RB   market/NN   moving/VBG   events/NNS   ,/,   including/VBG   upgrades/NNS   and/CC   downgrades/NNS   ,/,   and/CC   provide/VB   daily/JJ   market/NN   analysis/NN   and/CC   commentary/JJ   ./.)
+----------------------------------
+original sentence: 
+You always get the latest stock market news
+ and unique, insightful stock market analysis from the  stock watch and coverage on the latest stock market news can work for you.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('always', 'RB'), ('get', 'VB'), ('the', 'DT'), ('latest', 'JJS'), ('stock', 'NN'), ('market', 'NN'), ('news', 'NN'), ('and', 'CC'), ('unique', 'JJ'), (',', ','), ('insightful', 'JJ'), ('stock', 'NN'), ('market', 'NN'), ('analysis', 'NN'), ('from', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('watch', 'NN'), ('and', 'CC'), ('coverage', 'NN'), ('on', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('stock', 'NN'), ('market', 'NN'), ('news', 'NN'), ('can', 'MD'), ('work', 'VB'), ('for', 'IN'), ('you', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   always/RB   get/VB   the/DT   latest/JJS   stock/NN   market/NN   news/NN   and/CC   unique/JJ   ,/,   insightful/JJ   stock/NN   market/NN   analysis/NN   from/IN   the/DT   stock/NN   watch/NN   and/CC   coverage/NN   on/IN   the/DT   latest/JJS   stock/NN   market/NN   news/NN   can/MD   work/VB   for/IN   you/PRP   ./.)
+----------------------------------
+original sentence: 
+Take the guesswork and emotions out of trading.
+
+POS tagged sentence: 
+[('Take', 'NNP'), ('the', 'DT'), ('guesswork', 'NN'), ('and', 'CC'), ('emotions', 'NNS'), ('out', 'IN'), ('of', 'IN'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Take/NNP   the/DT   guesswork/NN   and/CC   emotions/NNS   out/IN   of/IN   trading/NN   ./.)
+----------------------------------
+original sentence: 
+Become a subscriber now and take advantage of our FREE 14 day trial.
+
+
+POS tagged sentence: 
+[('Become', 'NNP'), ('a', 'DT'), ('subscriber', 'NN'), ('now', 'RB'), ('and', 'CC'), ('take', 'VB'), ('advantage', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('FREE', 'NNP'), ('14', 'CD'), ('day', 'NN'), ('trial', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Become/NNP   a/DT   subscriber/NN   now/RB   and/CC   take/VB   advantage/NN   of/IN   our/PRP$   FREE/NNP   14/CD   day/NN   trial/NN   ./.)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

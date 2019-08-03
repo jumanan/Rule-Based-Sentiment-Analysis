@@ -1,0 +1,37 @@
+
+----------------------------------
+original sentence: 
+Bloomberg New Energy Finance 3.0
+ Â Â 
+New Energy Desktop, Briefing or Insight Service Subscription RequiredÂ 
+
+Please log on to continue...
+
+POS tagged sentence: 
+[('Bloomberg', 'NNP'), ('New', 'NNP'), ('Energy', 'NNP'), ('Finance', 'NNP'), ('3.0', 'CD'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('New', 'NNP'), ('Energy', 'NNP'), ('Desktop', 'NNP'), (',', ','), ('Briefing', 'NNP'), ('or', 'CC'), ('Insight', 'NNP'), ('Service', 'NNP'), ('Subscription', 'NNP'), ('Required', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('Please', 'NNP'), ('log', 'NN'), ('on', 'IN'), ('to', 'TO'), ('continue..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Bloomberg/NNP)   (ORGANIZATION New/NNP Energy/NNP)   Finance/NNP   3.0/CD   Â/CD    /CD   Â/CD    /CD   New/NNP   (PERSON Energy/NNP Desktop/NNP)   ,/,   (GPE Briefing/NNP)   or/CC   (PERSON Insight/NNP Service/NNP)   Subscription/NNP   Required/NNP   Â/NNP    /NNP   Please/NNP   log/NN   on/IN   to/TO   continue../NNP   ./.)
+----------------------------------
+original sentence: 
+Please contact a member of our team if you would like more information:
+sales@newenergyfinance.com
+ 20 7092 8800 Europe  212 744 1988 Americas  10 8454 9195 Asia Click here to learn more about  Â© 2010 Bloomberg L.P. ALL RIGHTS RESERVED.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('contact', 'NN'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('team', 'NN'), ('if', 'IN'), ('you', 'PRP'), ('would', 'MD'), ('like', 'VB'), ('more', 'RBR'), ('information', 'NN'), (':', ':'), ('sales', 'NNS'), ('@', 'IN'), ('newenergyfinance.com', 'JJ'), ('20', 'CD'), ('7092', 'CD'), ('8800', 'CD'), ('Europe', 'NNP'), ('212', 'CD'), ('744', 'CD'), ('1988', 'CD'), ('Americas', 'NNP'), ('10', 'CD'), ('8454', 'CD'), ('9195', 'CD'), ('Asia', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('\xc2', 'CD'), ('\xa9', 'CD'), ('2010', 'CD'), ('Bloomberg', 'NNP'), ('L.P.', 'NNP'), ('ALL', 'NNP'), ('RIGHTS', 'NNP'), ('RESERVED', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   contact/NN   a/DT   member/NN   of/IN   our/PRP$   team/NN   if/IN   you/PRP   would/MD   like/VB   more/RBR   information/NN   :/:   sales/NNS   @/IN   newenergyfinance.com/JJ   20/CD   7092/CD   8800/CD   Europe/NNP   212/CD   744/CD   1988/CD   Americas/NNP   10/CD   8454/CD   9195/CD   (GPE Asia/NNP)   (PERSON Click/NNP)   here/RB   to/TO   learn/VB   more/JJR   about/IN   Â/CD   ©/CD   2010/CD   (ORGANIZATION Bloomberg/NNP)   L.P./NNP   ALL/NNP   RIGHTS/NNP   RESERVED/NNP   ./.)
+----------------------------------
+original sentence: 
+UK Office Tel: +44 20 3216 4153, US Office Tel: +1 212 617 7123, Email: info@newenergyfinance.com
+This desktop is optimised for IE 6.0+ and for a screen resolution of 1280x1024 or higher 
+
+POS tagged sentence: 
+[('UK', 'NNP'), ('Office', 'NNP'), ('Tel', 'NNP'), (':', ':'), ('+', ':'), ('44', 'CD'), ('20', 'CD'), ('3216', 'CD'), ('4153', 'CD'), (',', ','), ('US', 'NNP'), ('Office', 'NNP'), ('Tel', 'NNP'), (':', ':'), ('+', ':'), ('1', 'CD'), ('212', 'CD'), ('617', 'CD'), ('7123', 'CD'), (',', ','), ('Email', 'NNP'), (':', ':'), ('info', 'NN'), ('@', ':'), ('newenergyfinance.com', 'JJ'), ('This', 'DT'), ('desktop', 'NN'), ('is', 'VBZ'), ('optimised', 'VBN'), ('for', 'IN'), ('IE', 'NNP'), ('6.0', 'CD'), ('+', 'CD'), ('and', 'CC'), ('for', 'IN'), ('a', 'DT'), ('screen', 'NN'), ('resolution', 'NN'), ('of', 'IN'), ('1280x1024', 'CD'), ('or', 'CC'), ('higher', 'JJR')]
+
+
+ERTAGGED sentence: (S   UK/NNP   Office/NNP   Tel/NNP   :/:   +/:   44/CD   20/CD   3216/CD   4153/CD   ,/,   (GSP US/NNP)   Office/NNP   Tel/NNP   :/:   +/:   1/CD   212/CD   617/CD   7123/CD   ,/,   (PERSON Email/NNP)   :/:   info/NN   @/:   newenergyfinance.com/JJ   This/DT   desktop/NN   is/VBZ   optimised/VBN   for/IN   IE/NNP   6.0/CD   +/CD   and/CC   for/IN   a/DT   screen/NN   resolution/NN   of/IN   1280x1024/CD   or/CC   higher/JJR)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

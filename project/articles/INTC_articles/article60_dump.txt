@@ -1,0 +1,1379 @@
+
+----------------------------------
+original sentence: 
+Intel Launches Its Most Secure Data Center Processor | Business Wire
+ March 16, 2010 03:01 AM Eastern Daylight Time Intel Launches Its Most Secure Data Center Processor
+Second Generation High K Metal Gate 32nm Processors Blend Security, Performance, Energy Efficiency
+SANTA CLARA, Calif.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Launches', 'NNP'), ('Its', 'NNP'), ('Most', 'NNP'), ('Secure', 'NNP'), ('Data', 'NNP'), ('Center', 'NNP'), ('Processor', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('03', 'CD'), (':', ':'), ('01', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Intel', 'NNP'), ('Launches', 'NNP'), ('Its', 'NNP'), ('Most', 'NNP'), ('Secure', 'NNP'), ('Data', 'NNP'), ('Center', 'NNP'), ('Processor', 'NNP'), ('Second', 'NNP'), ('Generation', 'NNP'), ('High', 'NNP'), ('K', 'NNP'), ('Metal', 'NNP'), ('Gate', 'NNP'), ('32nm', 'CD'), ('Processors', 'NNP'), ('Blend', 'NNP'), ('Security', 'NNP'), (',', ','), ('Performance', 'NNP'), (',', ','), ('Energy', 'NNP'), ('Efficiency', 'NNP'), ('SANTA', 'NNP'), ('CLARA', 'NNP'), (',', ','), ('Calif', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (PERSON Launches/NNP Its/NNP Most/NNP)   Secure/NNP   Data/NNP   Center/NNP   Processor/NNP   |/NNP   Business/NNP   Wire/NNP   March/NNP   16/CD   ,/,   2010/CD   03/CD   :/:   01/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Intel/NNP   Launches/NNP   Its/NNP   Most/NNP   Secure/NNP   Data/NNP   Center/NNP   Processor/NNP   Second/NNP   Generation/NNP   High/NNP   K/NNP   (ORGANIZATION Metal/NNP)   Gate/NNP   32nm/CD   Processors/NNP   Blend/NNP   Security/NNP   ,/,   (GPE Performance/NNP)   ,/,   (PERSON Energy/NNP Efficiency/NNP SANTA/NNP CLARA/NNP)   ,/,   (GPE Calif/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Intel/NNP Launches/NNP Its/NNP Most/NNP)
+	(NOUN Secure/NNP Data/NNP Center/NNP Processor/NNP)
+	(NOUN |/NNP Business/NNP Wire/NNP March/NNP)
+	(NOUN 01/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Intel/NNP Launches/NNP Its/NNP Most/NNP)
+	(NOUN Secure/NNP Data/NNP Center/NNP Processor/NNP)
+	(NOUN Second/NNP Generation/NNP High/NNP K/NNP)
+
+tagged sentence:
+	 Second Generation High K	res:1
+	(NOUN Metal/NNP Gate/NNP)
+	(NOUN 32nm/CD Processors/NNP Blend/NNP Security/NNP)
+	(NOUN Performance/NNP)
+	(NOUN Energy/NNP Efficiency/NNP SANTA/NNP CLARA/NNP)
+	(NOUN Calif/NNP)
+
+----------------------------------
+original sentence: 
+Combining unprecedented security, performance and energy efficiency, Intel Corporation today launched the Intel&#174; Xeon&#174; Processor 5600 series.
+
+POS tagged sentence: 
+[('Combining', 'VBG'), ('unprecedented', 'VBN'), ('security', 'NN'), (',', ','), ('performance', 'NN'), ('and', 'CC'), ('energy', 'NN'), ('efficiency', 'NN'), (',', ','), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('today', 'NN'), ('launched', 'VBD'), ('the', 'DT'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Xeon&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Processor', 'NNP'), ('5600', 'CD'), ('series', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Combining/VBG   unprecedented/VBN   security/NN   ,/,   performance/NN   and/CC   energy/NN   efficiency/NN   ,/,   (ORGANIZATION Intel/NNP Corporation/NNP)   today/NN   launched/VBD   the/DT   Intel&/NN   #/#   174/CD   ;/:   Xeon&/JJ   #/#   174/CD   ;/:   Processor/NNP   5600/CD   series/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Combining/VBG unprecedented/VBN security/NN)
+	(VERB launched/VBD the/DT Intel&/NN)
+noun phrases to consider:
+	(NOUN performance/NN)
+	(NOUN energy/NN efficiency/NN)
+
+tagged sentence:
+	 energy efficiency	res:1
+	(NOUN Intel/NNP Corporation/NNP today/NN)
+	(NOUN Xeon&/JJ)
+	(NOUN Processor/NNP)
+	(NOUN 5600/CD series/NNS)
+
+----------------------------------
+original sentence: 
+The new processors deliver two new security features  Advanced Encryption Standard New Instructions Intel
+Intel&#174; Trusted Execution Technology Intel
+ that enable faster encryption and decryption performance for more secure transactions and virtualized environments, providing data centers with a stronger foundation for cloud security.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('processors', 'NNS'), ('deliver', 'VBP'), ('two', 'CD'), ('new', 'JJ'), ('security', 'NN'), ('features', 'NNS'), ('Advanced', 'NNP'), ('Encryption', 'NNP'), ('Standard', 'NNP'), ('New', 'NNP'), ('Instructions', 'NNP'), ('Intel', 'NNP'), ('Intel&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Trusted', 'NNP'), ('Execution', 'NNP'), ('Technology', 'NNP'), ('Intel', 'NNP'), ('that', 'IN'), ('enable', 'JJ'), ('faster', 'NN'), ('encryption', 'NN'), ('and', 'CC'), ('decryption', 'NN'), ('performance', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('secure', 'NN'), ('transactions', 'NNS'), ('and', 'CC'), ('virtualized', 'VBD'), ('environments', 'NNS'), (',', ','), ('providing', 'VBG'), ('data', 'NNS'), ('centers', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('stronger', 'JJR'), ('foundation', 'NN'), ('for', 'IN'), ('cloud', 'NN'), ('security', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   processors/NNS   deliver/VBP   two/CD   new/JJ   security/NN   features/NNS   (PERSON     Advanced/NNP     Encryption/NNP     Standard/NNP     New/NNP     Instructions/NNP     Intel/NNP)   Intel&/NNP   #/#   174/CD   ;/:   (PERSON Trusted/NNP Execution/NNP Technology/NNP Intel/NNP)   that/IN   enable/JJ   faster/NN   encryption/NN   and/CC   decryption/NN   performance/NN   for/IN   more/JJR   secure/NN   transactions/NNS   and/CC   virtualized/VBD   environments/NNS   ,/,   providing/VBG   data/NNS   centers/NNS   with/IN   a/DT   stronger/JJR   foundation/NN   for/IN   cloud/NN   security/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   deliver/VBP   two/CD   new/JJ   security/NN   features/NNS   Advanced/NNP   Encryption/NNP   Standard/NNP   New/NNP   Instructions/NNP   Intel/NNP   Intel&/NNP)
+
+tagged sentence:
+	 deliver two new security features Advanced Encryption Standard New Instructions Intel Intel&	res:1
+	(VERB virtualized/VBD environments/NNS)
+	(VERB   providing/VBG   data/NNS   centers/NNS   with/IN   a/DT   stronger/JJR   foundation/NN   for/IN   cloud/NN   security/NN)
+
+tagged sentence:
+	 providing data centers with a stronger foundation for cloud security	res:1
+noun phrases to consider:
+	(NOUN The/DT new/JJ processors/NNS)
+	(NOUN Trusted/NNP Execution/NNP Technology/NNP Intel/NNP)
+	(NOUN enable/JJ faster/NN encryption/NN)
+
+tagged sentence:
+	 enable faster encryption	res:1
+	(NOUN decryption/NN performance/NN)
+	(NOUN more/JJR secure/NN transactions/NNS)
+
+----------------------------------
+original sentence: 
+&#8220;We take advantage of the increased core count on the Intel Core i7 980X by adding greater animation detail to fighting units on both land and sea, allowing the game to have higher visual fidelity.&#8221;
+ These are also the first server and workstation chips based on the groundbreaking, new Intel 32nm logic technology, which uses Intel&#8217;s second generation high k metal gate transistors to increase speed and decrease energy consumption.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('take', 'VBP'), ('advantage', 'NN'), ('of', 'IN'), ('the', 'DT'), ('increased', 'VBN'), ('core', 'NN'), ('count', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('by', 'IN'), ('adding', 'NN'), ('greater', 'JJR'), ('animation', 'NN'), ('detail', 'NN'), ('to', 'TO'), ('fighting', 'VBG'), ('units', 'NNS'), ('on', 'IN'), ('both', 'DT'), ('land', 'NN'), ('and', 'CC'), ('sea', 'NN'), (',', ','), ('allowing', 'VBG'), ('the', 'DT'), ('game', 'NN'), ('to', 'TO'), ('have', 'VB'), ('higher', 'JJR'), ('visual', 'JJ'), ('fidelity.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('These', 'DT'), ('are', 'VBP'), ('also', 'RB'), ('the', 'DT'), ('first', 'JJ'), ('server', 'NN'), ('and', 'CC'), ('workstation', 'NN'), ('chips', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('groundbreaking', 'NN'), (',', ','), ('new', 'JJ'), ('Intel', 'NNP'), ('32nm', 'CD'), ('logic', 'NN'), ('technology', 'NN'), (',', ','), ('which', 'WDT'), ('uses', 'NNS'), ('Intel&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('second', 'VBP'), ('generation', 'NN'), ('high', 'JJ'), ('k', 'NN'), ('metal', 'NN'), ('gate', 'NN'), ('transistors', 'NNS'), ('to', 'TO'), ('increase', 'VB'), ('speed', 'NN'), ('and', 'CC'), ('decrease', 'VB'), ('energy', 'NN'), ('consumption', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   take/VBP   advantage/NN   of/IN   the/DT   increased/VBN   core/NN   count/NN   on/IN   the/DT   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   by/IN   adding/NN   greater/JJR   animation/NN   detail/NN   to/TO   fighting/VBG   units/NNS   on/IN   both/DT   land/NN   and/CC   sea/NN   ,/,   allowing/VBG   the/DT   game/NN   to/TO   have/VB   higher/JJR   visual/JJ   fidelity.&/NN   #/#   8221/CD   ;/:   These/DT   are/VBP   also/RB   the/DT   first/JJ   server/NN   and/CC   workstation/NN   chips/NNS   based/VBN   on/IN   the/DT   groundbreaking/NN   ,/,   new/JJ   Intel/NNP   32nm/CD   logic/NN   technology/NN   ,/,   which/WDT   uses/NNS   Intel&/-NONE-   #/#   8217/CD   ;/:   s/NNS   second/VBP   generation/NN   high/JJ   k/NN   metal/NN   gate/NN   transistors/NNS   to/TO   increase/VB   speed/NN   and/CC   decrease/VB   energy/NN   consumption/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB take/VBP advantage/NN of/IN the/DT)
+
+tagged sentence:
+	 take advantage of the	res:1
+	(VERB   increased/VBN   core/NN   count/NN   on/IN   the/DT   Intel/NNP   Core/NNP   i7/NNP   980X/CD   by/IN   adding/NN   greater/JJR   animation/NN   detail/NN)
+
+tagged sentence:
+	 increased core count on the Intel Core i7 980X by adding greater animation detail	res:1
+	(VERB fighting/VBG units/NNS on/IN both/DT land/NN)
+	(VERB allowing/VBG the/DT game/NN)
+	(VERB have/VB higher/JJR visual/JJ fidelity.&/NN)
+	(VERB are/VBP also/RB the/DT first/JJ server/NN)
+	(VERB based/VBN on/IN the/DT groundbreaking/NN)
+	(VERB   second/VBP   generation/NN   high/JJ   k/NN   metal/NN   gate/NN   transistors/NNS)
+
+tagged sentence:
+	 second generation high k metal gate transistors	res:1
+	(VERB increase/VB speed/NN)
+
+tagged sentence:
+	 increase speed	res:1
+	(VERB decrease/VB energy/NN consumption/NN)
+noun phrases to consider:
+	(NOUN sea/NN)
+	(NOUN workstation/NN chips/NNS)
+	(NOUN new/JJ Intel/NNP)
+	(NOUN 32nm/CD logic/NN technology/NN)
+	(NOUN uses/NNS)
+	(NOUN s/NNS)
+
+----------------------------------
+original sentence: 
+The Intel Xeon Processor 5600 series supports up to six cores per processor and delivers up to 60 percent greater performance than the 45nm Intel Xeon processor 5500 series.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('Processor', 'NNP'), ('5600', 'CD'), ('series', 'NNS'), ('supports', 'NNS'), ('up', 'IN'), ('to', 'TO'), ('six', 'CD'), ('cores', 'NNS'), ('per', 'IN'), ('processor', 'NN'), ('and', 'CC'), ('delivers', 'NNS'), ('up', 'RP'), ('to', 'TO'), ('60', 'CD'), ('percent', 'NN'), ('greater', 'JJR'), ('performance', 'NN'), ('than', 'IN'), ('the', 'DT'), ('45nm', 'CD'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5500', 'CD'), ('series', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   Processor/NNP   5600/CD   series/NNS   supports/NNS   up/IN   to/TO   six/CD   cores/NNS   per/IN   processor/NN   and/CC   delivers/NNS   up/RP   to/TO   60/CD   percent/NN   greater/JJR   performance/NN   than/IN   the/DT   45nm/CD   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5500/CD   series/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Intel/NNP Xeon/NNP Processor/NNP)
+	(NOUN 5600/CD series/NNS supports/NNS)
+	(NOUN six/CD cores/NNS)
+	(NOUN processor/NN)
+	(NOUN delivers/NNS)
+	(NOUN 60/CD percent/NN)
+	(NOUN greater/JJR performance/NN)
+
+tagged sentence:
+	 greater performance	res:1
+	(NOUN 45nm/CD Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5500/CD series/NNS)
+
+----------------------------------
+original sentence: 
+In addition, data centers can replace 15 single core servers with a single new one, and achieve a return on their investment in as little as 5 months.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('data', 'NNS'), ('centers', 'NNS'), ('can', 'MD'), ('replace', 'VB'), ('15', 'CD'), ('single', 'JJ'), ('core', 'NN'), ('servers', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('new', 'JJ'), ('one', 'CD'), (',', ','), ('and', 'CC'), ('achieve', 'VB'), ('a', 'DT'), ('return', 'NN'), ('on', 'IN'), ('their', 'PRP$'), ('investment', 'NN'), ('in', 'IN'), ('as', 'IN'), ('little', 'JJ'), ('as', 'IN'), ('5', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   data/NNS   centers/NNS   can/MD   replace/VB   15/CD   single/JJ   core/NN   servers/NNS   with/IN   a/DT   single/JJ   new/JJ   one/CD   ,/,   and/CC   achieve/VB   a/DT   return/NN   on/IN   their/PRP$   investment/NN   in/IN   as/IN   little/JJ   as/IN   5/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Data centers will also benefit from the power efficiency of the Intel Xeon processor 5600 series.
+
+POS tagged sentence: 
+[('Data', 'NNP'), ('centers', 'NNS'), ('will', 'MD'), ('also', 'RB'), ('benefit', 'VB'), ('from', 'IN'), ('the', 'DT'), ('power', 'NN'), ('efficiency', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Data/NNP)   centers/NNS   will/MD   also/RB   benefit/VB   from/IN   the/DT   power/NN   efficiency/NN   of/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   benefit/VB   from/IN   the/DT   power/NN   efficiency/NN   of/IN   the/DT   Intel/NNP   Xeon/NNP   processor/NN   5600/CD   series/NNS)
+
+tagged sentence:
+	 benefit from the power efficiency of the Intel Xeon processor 5600 series	res:1
+noun phrases to consider:
+	(NOUN Data/NNP centers/NNS)
+
+----------------------------------
+original sentence: 
+A two socket server using the new low voltage Intel Xeon processor L5640 can deliver the same performance as a server using the previous generation&#8217;s champion; the Intel Xeon processors X5570 series, but with up to 30 percent lower platform power.
+
+POS tagged sentence: 
+[('A', 'DT'), ('two', 'CD'), ('socket', 'NN'), ('server', 'NN'), ('using', 'VBG'), ('the', 'DT'), ('new', 'JJ'), ('low', 'JJ'), ('voltage', 'NN'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('L5640', 'NNP'), ('can', 'MD'), ('deliver', 'VB'), ('the', 'DT'), ('same', 'JJ'), ('performance', 'NN'), ('as', 'IN'), ('a', 'DT'), ('server', 'NN'), ('using', 'VBG'), ('the', 'DT'), ('previous', 'JJ'), ('generation&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('champion', 'NN'), (';', ':'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processors', 'NNS'), ('X5570', 'NNP'), ('series', 'NN'), (',', ','), ('but', 'CC'), ('with', 'IN'), ('up', 'RP'), ('to', 'TO'), ('30', 'CD'), ('percent', 'NN'), ('lower', 'JJR'), ('platform', 'NN'), ('power', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   two/CD   socket/NN   server/NN   using/VBG   the/DT   new/JJ   low/JJ   voltage/NN   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   L5640/NNP   can/MD   deliver/VB   the/DT   same/JJ   performance/NN   as/IN   a/DT   server/NN   using/VBG   the/DT   previous/JJ   generation&/NN   #/#   8217/CD   ;/:   s/NNS   champion/NN   ;/:   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processors/NNS   (ORGANIZATION X5570/NNP)   series/NN   ,/,   but/CC   with/IN   up/RP   to/TO   30/CD   percent/NN   lower/JJR   platform/NN   power/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   using/VBG   the/DT   new/JJ   low/JJ   voltage/NN   Intel/NNP   Xeon/NNP   processor/NN   L5640/NNP)
+	(VERB deliver/VB the/DT same/JJ performance/NN as/IN a/DT server/NN)
+	(VERB using/VBG the/DT previous/JJ generation&/NN)
+noun phrases to consider:
+	(NOUN two/CD socket/NN server/NN)
+	(NOUN s/NNS champion/NN)
+	(NOUN Intel/NNP Xeon/NNP processors/NNS X5570/NNP)
+	(NOUN series/NN)
+	(NOUN 30/CD percent/NN)
+	(NOUN lower/JJR platform/NN power/NN)
+
+----------------------------------
+original sentence: 
+For more information, see www.intel.com/performance/server/xeon/summary.htm
+ &#8220;The Intel Xeon Processor 5600 series will be the backbone of mainstream computing environments,&#8221; said Kirk Skaugen, vice president and general manager of the Intel Architecture Group.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('see', 'VB'), ('www.intel.com/performance/server/xeon/summary.htm', 'JJ'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('The', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('Processor', 'NNP'), ('5600', 'CD'), ('series', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('the', 'DT'), ('backbone', 'NN'), ('of', 'IN'), ('mainstream', 'NN'), ('computing', 'VBG'), ('environments,&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Kirk', 'NNP'), ('Skaugen', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('general', 'JJ'), ('manager', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Architecture', 'NNP'), ('Group', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   see/VB   www.intel.com/performance/server/xeon/summary.htm/JJ   &/CC   #/#   8220/CD   ;/:   The/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   Processor/NNP   5600/CD   series/NNS   will/MD   be/VB   the/DT   backbone/NN   of/IN   mainstream/NN   computing/VBG   environments,&/NN   #/#   8221/CD   ;/:   said/VBD   (PERSON Kirk/NNP Skaugen/NNP)   ,/,   vice/NN   president/NN   and/CC   general/JJ   manager/NN   of/IN   the/DT   (ORGANIZATION Intel/NNP Architecture/NNP Group/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB www.intel.com/performance/server/xeon/summary.htm/JJ)
+	(VERB be/VB the/DT backbone/NN of/IN mainstream/NN)
+	(VERB computing/VBG environments,&/NN)
+	(VERB said/VBD Kirk/NNP Skaugen/NNP)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN Intel/NNP Xeon/NNP Processor/NNP)
+	(NOUN 5600/CD series/NNS)
+	(NOUN vice/NN president/NN)
+	(NOUN general/JJ manager/NN)
+	(NOUN Intel/NNP Architecture/NNP Group/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;New security capabilities will boost the confidence of IT managers.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('New', 'NNP'), ('security', 'NN'), ('capabilities', 'NNS'), ('will', 'MD'), ('boost', 'VB'), ('the', 'DT'), ('confidence', 'NN'), ('of', 'IN'), ('IT', 'PRP'), ('managers', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   (GPE New/NNP)   security/NN   capabilities/NNS   will/MD   boost/VB   the/DT   confidence/NN   of/IN   IT/PRP   managers/VBZ   ./.)
+----------------------------------
+original sentence: 
+Improvements in performance, server virtualization and power consumption will foster productivity and efficiency for a broad range of applications ranging from data transactions to workstations performing medical imaging and digital prototyping.&#8221;  With emerging threats, new architectures and an ever changing regulatory environment, security is an increasing concern for IT managers, and often an impediment to deploying more advanced computing infrastructures.
+
+POS tagged sentence: 
+[('Improvements', 'NNS'), ('in', 'IN'), ('performance', 'NN'), (',', ','), ('server', 'RB'), ('virtualization', 'NN'), ('and', 'CC'), ('power', 'NN'), ('consumption', 'NN'), ('will', 'MD'), ('foster', 'VB'), ('productivity', 'NN'), ('and', 'CC'), ('efficiency', 'NN'), ('for', 'IN'), ('a', 'DT'), ('broad', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('applications', 'NNS'), ('ranging', 'VBG'), ('from', 'IN'), ('data', 'NNS'), ('transactions', 'NNS'), ('to', 'TO'), ('workstations', 'NNS'), ('performing', 'VBG'), ('medical', 'JJ'), ('imaging', 'NN'), ('and', 'CC'), ('digital', 'JJ'), ('prototyping.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('With', 'NNP'), ('emerging', 'NN'), ('threats', 'NNS'), (',', ','), ('new', 'JJ'), ('architectures', 'NNS'), ('and', 'CC'), ('an', 'DT'), ('ever', 'NN'), ('changing', 'VBG'), ('regulatory', 'JJ'), ('environment', 'NN'), (',', ','), ('security', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('increasing', 'VBG'), ('concern', 'NN'), ('for', 'IN'), ('IT', 'PRP'), ('managers', 'NNS'), (',', ','), ('and', 'CC'), ('often', 'RB'), ('an', 'DT'), ('impediment', 'NN'), ('to', 'TO'), ('deploying', 'NN'), ('more', 'JJR'), ('advanced', 'JJ'), ('computing', 'NN'), ('infrastructures', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Improvements/NNS   in/IN   performance/NN   ,/,   server/RB   virtualization/NN   and/CC   power/NN   consumption/NN   will/MD   foster/VB   productivity/NN   and/CC   efficiency/NN   for/IN   a/DT   broad/JJ   range/NN   of/IN   applications/NNS   ranging/VBG   from/IN   data/NNS   transactions/NNS   to/TO   workstations/NNS   performing/VBG   medical/JJ   imaging/NN   and/CC   digital/JJ   prototyping.&/NN   #/#   8221/CD   ;/:   With/NNP   emerging/NN   threats/NNS   ,/,   new/JJ   architectures/NNS   and/CC   an/DT   ever/NN   changing/VBG   regulatory/JJ   environment/NN   ,/,   security/NN   is/VBZ   an/DT   increasing/VBG   concern/NN   for/IN   IT/PRP   managers/NNS   ,/,   and/CC   often/RB   an/DT   impediment/NN   to/TO   deploying/NN   more/JJR   advanced/JJ   computing/NN   infrastructures/NNS   ./.)
+----------------------------------
+original sentence: 
+The Intel Xeon processor 5600 series addresses these issues with features that help ensure greater data integrity.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('addresses', 'NNS'), ('these', 'DT'), ('issues', 'NNS'), ('with', 'IN'), ('features', 'NNS'), ('that', 'IN'), ('help', 'NN'), ('ensure', 'NN'), ('greater', 'JJR'), ('data', 'NNS'), ('integrity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   addresses/NNS   these/DT   issues/NNS   with/IN   features/NNS   that/IN   help/NN   ensure/NN   greater/JJR   data/NNS   integrity/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD series/NNS addresses/NNS)
+	(NOUN issues/NNS)
+	(NOUN features/NNS)
+	(NOUN help/NN ensure/NN greater/JJR data/NNS integrity/NN)
+
+tagged sentence:
+	 help ensure greater data integrity	res:1
+
+----------------------------------
+original sentence: 
+The Intel Xeon processor 5600 series includes Intel AES NI, a new set of instructions first introduced with the new 2010 Intel&#174; Core&#174; processor family.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('includes', 'VBZ'), ('Intel', 'NNP'), ('AES', 'NNP'), ('NI', 'NNP'), (',', ','), ('a', 'DT'), ('new', 'JJ'), ('set', 'NN'), ('of', 'IN'), ('instructions', 'NNS'), ('first', 'JJ'), ('introduced', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('2010', 'CD'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Core&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('processor', 'NN'), ('family', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   includes/VBZ   (ORGANIZATION Intel/NNP)   AES/NNP   NI/NNP   ,/,   a/DT   new/JJ   set/NN   of/IN   instructions/NNS   first/JJ   introduced/VBN   with/IN   the/DT   new/JJ   2010/CD   Intel&/JJ   #/#   174/CD   ;/:   Core&/JJ   #/#   174/CD   ;/:   processor/NN   family/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB includes/VBZ Intel/NNP AES/NNP NI/NNP)
+	(VERB introduced/VBN with/IN the/DT new/JJ 2010/CD Intel&/JJ)
+noun phrases to consider:
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD series/NNS)
+	(NOUN a/DT new/JJ set/NN)
+	(NOUN instructions/NNS first/JJ)
+	(NOUN Core&/JJ)
+	(NOUN processor/NN family/NN)
+
+----------------------------------
+original sentence: 
+These instructions accelerate AES performance to enable faster data encryption and decryption for a wide range of applications such as database encryption features, full disk encryption and secure internet transactions.
+
+POS tagged sentence: 
+[('These', 'DT'), ('instructions', 'NNS'), ('accelerate', 'VBP'), ('AES', 'NNS'), ('performance', 'NN'), ('to', 'TO'), ('enable', 'JJ'), ('faster', 'NN'), ('data', 'NNS'), ('encryption', 'NN'), ('and', 'CC'), ('decryption', 'NN'), ('for', 'IN'), ('a', 'DT'), ('wide', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('applications', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('database', 'NN'), ('encryption', 'NN'), ('features', 'NNS'), (',', ','), ('full', 'JJ'), ('disk', 'NN'), ('encryption', 'NN'), ('and', 'CC'), ('secure', 'NN'), ('internet', 'NN'), ('transactions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   instructions/NNS   accelerate/VBP   (ORGANIZATION AES/NNS)   performance/NN   to/TO   enable/JJ   faster/NN   data/NNS   encryption/NN   and/CC   decryption/NN   for/IN   a/DT   wide/JJ   range/NN   of/IN   applications/NNS   such/JJ   as/IN   database/NN   encryption/NN   features/NNS   ,/,   full/JJ   disk/NN   encryption/NN   and/CC   secure/NN   internet/NN   transactions/NNS   ./.)
+----------------------------------
+original sentence: 
+Intel TXT will provide added security that cloud environments have been waiting for by enabling a more secure platform launch environment, along with providing more protection for applications that move between virtualized servers.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('TXT', 'NNP'), ('will', 'MD'), ('provide', 'VB'), ('added', 'VBN'), ('security', 'NN'), ('that', 'IN'), ('cloud', 'NN'), ('environments', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('waiting', 'VBG'), ('for', 'IN'), ('by', 'IN'), ('enabling', 'VBG'), ('a', 'DT'), ('more', 'JJR'), ('secure', 'NN'), ('platform', 'NN'), ('launch', 'NN'), ('environment', 'NN'), (',', ','), ('along', 'IN'), ('with', 'IN'), ('providing', 'VBG'), ('more', 'JJR'), ('protection', 'NN'), ('for', 'IN'), ('applications', 'NNS'), ('that', 'WDT'), ('move', 'NN'), ('between', 'IN'), ('virtualized', 'JJ'), ('servers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (ORGANIZATION TXT/NNP)   will/MD   provide/VB   added/VBN   security/NN   that/IN   cloud/NN   environments/NNS   have/VBP   been/VBN   waiting/VBG   for/IN   by/IN   enabling/VBG   a/DT   more/JJR   secure/NN   platform/NN   launch/NN   environment/NN   ,/,   along/IN   with/IN   providing/VBG   more/JJR   protection/NN   for/IN   applications/NNS   that/WDT   move/NN   between/IN   virtualized/JJ   servers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   provide/VB   added/VBN   security/NN   that/IN   cloud/NN   environments/NNS)
+	(VERB have/VBP been/VBN waiting/VBG for/IN by/IN)
+	(VERB   enabling/VBG   a/DT   more/JJR   secure/NN   platform/NN   launch/NN   environment/NN)
+	(VERB providing/VBG more/JJR protection/NN for/IN applications/NNS)
+noun phrases to consider:
+	(NOUN Intel/NNP TXT/NNP)
+	(NOUN move/NN)
+	(NOUN virtualized/JJ servers/NNS)
+
+----------------------------------
+original sentence: 
+Hardware based capabilities integrated into the processor shield against malicious software to allow important applications and data to run more securely in a virtualized environment.
+
+POS tagged sentence: 
+[('Hardware', 'NN'), ('based', 'VBN'), ('capabilities', 'NNS'), ('integrated', 'VBN'), ('into', 'IN'), ('the', 'DT'), ('processor', 'NN'), ('shield', 'NN'), ('against', 'IN'), ('malicious', 'JJ'), ('software', 'NN'), ('to', 'TO'), ('allow', 'VB'), ('important', 'JJ'), ('applications', 'NNS'), ('and', 'CC'), ('data', 'NNS'), ('to', 'TO'), ('run', 'VB'), ('more', 'JJR'), ('securely', 'RB'), ('in', 'IN'), ('a', 'DT'), ('virtualized', 'JJ'), ('environment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Hardware/NN)   based/VBN   capabilities/NNS   integrated/VBN   into/IN   the/DT   processor/NN   shield/NN   against/IN   malicious/JJ   software/NN   to/TO   allow/VB   important/JJ   applications/NNS   and/CC   data/NNS   to/TO   run/VB   more/JJR   securely/RB   in/IN   a/DT   virtualized/JJ   environment/NN   ./.)
+----------------------------------
+original sentence: 
+Working together, Intel TXT and Intel AES can ensure that virtualized environments experience better performance and functionality, and are more secure when they are launched, migrated or at rest.
+
+POS tagged sentence: 
+[('Working', 'VBG'), ('together', 'RB'), (',', ','), ('Intel', 'NNP'), ('TXT', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('AES', 'NNP'), ('can', 'MD'), ('ensure', 'VB'), ('that', 'IN'), ('virtualized', 'JJ'), ('environments', 'NNS'), ('experience', 'NN'), ('better', 'RBR'), ('performance', 'NN'), ('and', 'CC'), ('functionality', 'NN'), (',', ','), ('and', 'CC'), ('are', 'VBP'), ('more', 'RBR'), ('secure', 'JJ'), ('when', 'WRB'), ('they', 'PRP'), ('are', 'VBP'), ('launched', 'VBN'), (',', ','), ('migrated', 'VBN'), ('or', 'CC'), ('at', 'IN'), ('rest', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Working/VBG   together/RB   ,/,   (ORGANIZATION Intel/NNP)   TXT/NNP   and/CC   (ORGANIZATION Intel/NNP)   AES/NNP   can/MD   ensure/VB   that/IN   virtualized/JJ   environments/NNS   experience/NN   better/RBR   performance/NN   and/CC   functionality/NN   ,/,   and/CC   are/VBP   more/RBR   secure/JJ   when/WRB   they/PRP   are/VBP   launched/VBN   ,/,   migrated/VBN   or/CC   at/IN   rest/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Working/VBG together/RB)
+	(VERB   ensure/VB   that/IN   virtualized/JJ   environments/NNS   experience/NN)
+	(VERB are/VBP)
+	(VERB are/VBP launched/VBN)
+	(VERB migrated/VBN)
+noun phrases to consider:
+	(NOUN Intel/NNP TXT/NNP)
+	(NOUN Intel/NNP AES/NNP)
+	(NOUN performance/NN)
+	(NOUN functionality/NN)
+	(NOUN secure/JJ)
+	(NOUN rest/NN)
+
+----------------------------------
+original sentence: 
+More Performance, Less Energy
+ The security of the Intel Xeon processor 5600 series is matched by performance, versatility and energy efficiency that will help increase the efficiency of data center operations.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('Performance', 'NNP'), (',', ','), ('Less', 'NNP'), ('Energy', 'NNP'), ('The', 'NNP'), ('security', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('is', 'VBZ'), ('matched', 'VBN'), ('by', 'IN'), ('performance', 'NN'), (',', ','), ('versatility', 'NN'), ('and', 'CC'), ('energy', 'NN'), ('efficiency', 'NN'), ('that', 'WDT'), ('will', 'MD'), ('help', 'VB'), ('increase', 'VB'), ('the', 'DT'), ('efficiency', 'NN'), ('of', 'IN'), ('data', 'NNS'), ('center', 'NN'), ('operations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   Performance/NNP   ,/,   (PERSON Less/NNP Energy/NNP)   The/NNP   security/NN   of/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   is/VBZ   matched/VBN   by/IN   performance/NN   ,/,   versatility/NN   and/CC   energy/NN   efficiency/NN   that/WDT   will/MD   help/VB   increase/VB   the/DT   efficiency/NN   of/IN   data/NNS   center/NN   operations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ matched/VBN by/IN performance/NN)
+	(VERB   help/VB   increase/VB   the/DT   efficiency/NN   of/IN   data/NNS   center/NN   operations/NNS)
+
+tagged sentence:
+	 help increase the efficiency of data center operations	res:1
+noun phrases to consider:
+	(NOUN More/JJR Performance/NNP)
+	(NOUN Less/NNP Energy/NNP The/NNP security/NN)
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD series/NNS)
+	(NOUN versatility/NN)
+
+tagged sentence:
+	 versatility	res:1
+	(NOUN energy/NN efficiency/NN)
+
+tagged sentence:
+	 energy efficiency	res:1
+
+----------------------------------
+original sentence: 
+Technologies such as Intel&#174; Turbo Boost Technology
+Intel&#174; Hyper Threading Technology
+Intel&#174; Virtualization Technology VT  adjust to the performance requirements of users, enhance multitasking and increase the reliability and manageability of consolidated IT environments.
+
+POS tagged sentence: 
+[('Technologies', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Turbo', 'NNP'), ('Boost', 'NNP'), ('Technology', 'NNP'), ('Intel&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Hyper', 'NNP'), ('Threading', 'NNP'), ('Technology', 'NNP'), ('Intel&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Virtualization', 'NNP'), ('Technology', 'NNP'), ('VT', 'NNP'), ('adjust', 'MD'), ('to', 'TO'), ('the', 'DT'), ('performance', 'NN'), ('requirements', 'NNS'), ('of', 'IN'), ('users', 'NNS'), (',', ','), ('enhance', 'NN'), ('multitasking', 'VBG'), ('and', 'CC'), ('increase', 'VB'), ('the', 'DT'), ('reliability', 'NN'), ('and', 'CC'), ('manageability', 'NN'), ('of', 'IN'), ('consolidated', 'VBN'), ('IT', 'PRP'), ('environments', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Technologies/NNS   such/JJ   as/IN   Intel&/JJ   #/#   174/CD   ;/:   (PERSON Turbo/NNP Boost/NNP Technology/NNP)   Intel&/NNP   #/#   174/CD   ;/:   (PERSON Hyper/NNP Threading/NNP Technology/NNP)   Intel&/NNP   #/#   174/CD   ;/:   (ORGANIZATION Virtualization/NNP Technology/NNP)   VT/NNP   adjust/MD   to/TO   the/DT   performance/NN   requirements/NNS   of/IN   users/NNS   ,/,   enhance/NN   multitasking/VBG   and/CC   increase/VB   the/DT   reliability/NN   and/CC   manageability/NN   of/IN   consolidated/VBN   IT/PRP   environments/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB multitasking/VBG)
+	(VERB increase/VB the/DT reliability/NN)
+	(VERB consolidated/VBN IT/PRP)
+	(VERB environments/VBZ)
+noun phrases to consider:
+	(NOUN Technologies/NNS such/JJ)
+	(NOUN Intel&/JJ)
+	(NOUN Turbo/NNP Boost/NNP Technology/NNP Intel&/NNP)
+
+tagged sentence:
+	 Turbo Boost Technology Intel&	res:1
+	(NOUN Hyper/NNP Threading/NNP Technology/NNP Intel&/NNP)
+	(NOUN Virtualization/NNP Technology/NNP VT/NNP)
+	(NOUN performance/NN requirements/NNS)
+	(NOUN users/NNS)
+	(NOUN enhance/NN)
+	(NOUN manageability/NN)
+
+----------------------------------
+original sentence: 
+The frequency optimized quad core version of the Intel Xeon processor 5600 series peaks at 3.46 GHz with a TDP of 130 watts, while the six core version reaches 3.33 GHz with a TDP of 130 watts.
+
+POS tagged sentence: 
+[('The', 'DT'), ('frequency', 'NN'), ('optimized', 'VBD'), ('quad', 'NN'), ('core', 'NN'), ('version', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('peaks', 'NNS'), ('at', 'IN'), ('3.46', 'CD'), ('GHz', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('TDP', 'NNP'), ('of', 'IN'), ('130', 'CD'), ('watts', 'NNS'), (',', ','), ('while', 'IN'), ('the', 'DT'), ('six', 'CD'), ('core', 'NN'), ('version', 'NN'), ('reaches', 'NNS'), ('3.33', 'CD'), ('GHz', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('TDP', 'NNP'), ('of', 'IN'), ('130', 'CD'), ('watts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   frequency/NN   optimized/VBD   quad/NN   core/NN   version/NN   of/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   peaks/NNS   at/IN   3.46/CD   GHz/NNP   with/IN   a/DT   (ORGANIZATION TDP/NNP)   of/IN   130/CD   watts/NNS   ,/,   while/IN   the/DT   six/CD   core/NN   version/NN   reaches/NNS   3.33/CD   GHz/NNP   with/IN   a/DT   (ORGANIZATION TDP/NNP)   of/IN   130/CD   watts/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   optimized/VBD   quad/NN   core/NN   version/NN   of/IN   the/DT   Intel/NNP   Xeon/NNP   processor/NN   5600/CD   series/NNS   peaks/NNS   at/IN   3.46/CD   GHz/NNP   with/IN   a/DT   TDP/NNP   of/IN   130/CD   watts/NNS)
+noun phrases to consider:
+	(NOUN frequency/NN)
+	(NOUN six/CD core/NN version/NN reaches/NNS)
+	(NOUN 3.33/CD GHz/NNP)
+	(NOUN TDP/NNP)
+	(NOUN 130/CD watts/NNS)
+
+----------------------------------
+original sentence: 
+Advanced six core versions will top out at 2.93 GHz and TDP of 95 watts, and the standard quad core processor will reach 2.66 GHz at 80 watts.
+
+POS tagged sentence: 
+[('Advanced', 'NNP'), ('six', 'CD'), ('core', 'NN'), ('versions', 'NNS'), ('will', 'MD'), ('top', 'VB'), ('out', 'RP'), ('at', 'IN'), ('2.93', 'CD'), ('GHz', 'NNP'), ('and', 'CC'), ('TDP', 'NNP'), ('of', 'IN'), ('95', 'CD'), ('watts', 'NNS'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('standard', 'JJ'), ('quad', 'NN'), ('core', 'NN'), ('processor', 'NN'), ('will', 'MD'), ('reach', 'VB'), ('2.66', 'CD'), ('GHz', 'NNP'), ('at', 'IN'), ('80', 'CD'), ('watts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Advanced/NNP   six/CD   core/NN   versions/NNS   will/MD   top/VB   out/RP   at/IN   2.93/CD   (ORGANIZATION GHz/NNP)   and/CC   (ORGANIZATION TDP/NNP)   of/IN   95/CD   watts/NNS   ,/,   and/CC   the/DT   standard/JJ   quad/NN   core/NN   processor/NN   will/MD   reach/VB   2.66/CD   GHz/NNP   at/IN   80/CD   watts/NNS   ./.)
+----------------------------------
+original sentence: 
+Low voltage versions of the chip will have TDPs as low as 60 watts and 40 watts and feature six and four cores respectively.
+
+POS tagged sentence: 
+[('Low', 'NNP'), ('voltage', 'NN'), ('versions', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('chip', 'NN'), ('will', 'MD'), ('have', 'VB'), ('TDPs', 'NNP'), ('as', 'IN'), ('low', 'JJ'), ('as', 'IN'), ('60', 'CD'), ('watts', 'NNS'), ('and', 'CC'), ('40', 'CD'), ('watts', 'NNS'), ('and', 'CC'), ('feature', 'NN'), ('six', 'CD'), ('and', 'CC'), ('four', 'CD'), ('cores', 'NNS'), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Low/NNP)   voltage/NN   versions/NNS   of/IN   the/DT   chip/NN   will/MD   have/VB   (ORGANIZATION TDPs/NNP)   as/IN   low/JJ   as/IN   60/CD   watts/NNS   and/CC   40/CD   watts/NNS   and/CC   feature/NN   six/CD   and/CC   four/CD   cores/NNS   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Intel also announced the availability of the Intel&#174; Xeon&#174; processor L3406 series.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('also', 'RB'), ('announced', 'VBD'), ('the', 'DT'), ('availability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Xeon&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('processor', 'NN'), ('L3406', 'NNP'), ('series', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   also/RB   announced/VBD   the/DT   availability/NN   of/IN   the/DT   Intel&/JJ   #/#   174/CD   ;/:   Xeon&/JJ   #/#   174/CD   ;/:   processor/NN   (ORGANIZATION L3406/NNP)   series/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD the/DT availability/NN of/IN the/DT Intel&/JJ)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN Xeon&/JJ)
+	(NOUN processor/NN L3406/NNP series/NN)
+
+----------------------------------
+original sentence: 
+Targeted for use in the single processor micro server segment, the Intel Xeon processor L3406 series has a TDP of only 30 watts, making it ideal for high density form factors and power sensitive environments.
+
+POS tagged sentence: 
+[('Targeted', 'NNP'), ('for', 'IN'), ('use', 'NN'), ('in', 'IN'), ('the', 'DT'), ('single', 'JJ'), ('processor', 'NN'), ('micro', 'NN'), ('server', 'NN'), ('segment', 'NN'), (',', ','), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('L3406', 'NNP'), ('series', 'NN'), ('has', 'VBZ'), ('a', 'DT'), ('TDP', 'NNP'), ('of', 'IN'), ('only', 'RB'), ('30', 'CD'), ('watts', 'NNS'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('ideal', 'RB'), ('for', 'IN'), ('high', 'JJ'), ('density', 'NN'), ('form', 'NN'), ('factors', 'NNS'), ('and', 'CC'), ('power', 'NN'), ('sensitive', 'JJ'), ('environments', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Targeted/NNP)   for/IN   use/NN   in/IN   the/DT   single/JJ   processor/NN   micro/NN   server/NN   segment/NN   ,/,   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   (ORGANIZATION L3406/NNP)   series/NN   has/VBZ   a/DT   (ORGANIZATION TDP/NNP)   of/IN   only/RB   30/CD   watts/NNS   ,/,   making/VBG   it/PRP   ideal/RB   for/IN   high/JJ   density/NN   form/NN   factors/NNS   and/CC   power/NN   sensitive/JJ   environments/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT TDP/NNP of/IN)
+	(VERB   making/VBG   it/PRP   ideal/RB   for/IN   high/JJ   density/NN   form/NN   factors/NNS)
+noun phrases to consider:
+	(NOUN Targeted/NNP)
+	(NOUN use/NN)
+	(NOUN the/DT single/JJ processor/NN micro/NN server/NN segment/NN)
+	(NOUN Intel/NNP Xeon/NNP processor/NN L3406/NNP)
+	(NOUN series/NN)
+	(NOUN watts/NNS)
+	(NOUN power/NN sensitive/JJ environments/NNS)
+
+----------------------------------
+original sentence: 
+World Record Performance
+ The Intel Xeon processor 5600 series extends performance gains delivered by the Intel Xeon Processor 5500 with 12 new world records for two socket servers and workstations.
+
+POS tagged sentence: 
+[('World', 'NN'), ('Record', 'NNP'), ('Performance', 'NNP'), ('The', 'NNP'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('extends', 'NNS'), ('performance', 'NN'), ('gains', 'NNS'), ('delivered', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('Processor', 'NNP'), ('5500', 'CD'), ('with', 'IN'), ('12', 'CD'), ('new', 'JJ'), ('world', 'NN'), ('records', 'NNS'), ('for', 'IN'), ('two', 'CD'), ('socket', 'NN'), ('servers', 'NNS'), ('and', 'CC'), ('workstations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   World/NN   (PERSON Record/NNP Performance/NNP The/NNP Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   extends/NNS   performance/NN   gains/NNS   delivered/VBN   by/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   Processor/NNP   5500/CD   with/IN   12/CD   new/JJ   world/NN   records/NNS   for/IN   two/CD   socket/NN   servers/NNS   and/CC   workstations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   delivered/VBN   by/IN   the/DT   Intel/NNP   Xeon/NNP   Processor/NNP   5500/CD   with/IN   12/CD   new/JJ   world/NN   records/NNS   for/IN   two/CD   socket/NN   servers/NNS)
+noun phrases to consider:
+	(NOUN World/NN Record/NNP Performance/NNP The/NNP)
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD series/NNS extends/NNS performance/NN gains/NNS)
+
+tagged sentence:
+	 5600 series extends performance gains	res:1
+	(NOUN workstations/NNS)
+
+----------------------------------
+original sentence: 
+These processors enable outstanding energy efficient performance and establish a new SPECpower*_ssj2008 record for a single node server and a multi node server.
+
+POS tagged sentence: 
+[('These', 'DT'), ('processors', 'NNS'), ('enable', 'JJ'), ('outstanding', 'JJ'), ('energy', 'NN'), ('efficient', 'NN'), ('performance', 'NN'), ('and', 'CC'), ('establish', 'JJ'), ('a', 'DT'), ('new', 'JJ'), ('SPECpower', 'NN'), ('*', '-NONE-'), ('_ssj2008', 'CD'), ('record', 'NN'), ('for', 'IN'), ('a', 'DT'), ('single', 'JJ'), ('node', 'NN'), ('server', 'NN'), ('and', 'CC'), ('a', 'DT'), ('multi', 'NN'), ('node', 'NN'), ('server', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   processors/NNS   enable/JJ   outstanding/JJ   energy/NN   efficient/NN   performance/NN   and/CC   establish/JJ   a/DT   new/JJ   SPECpower/NN   */-NONE-   _ssj2008/CD   record/NN   for/IN   a/DT   single/JJ   node/NN   server/NN   and/CC   a/DT   multi/NN   node/NN   server/NN   ./.)
+----------------------------------
+original sentence: 
+Specifically, the IBM* x3650 M3 single node server system delivered 2,927 overall ssj_ops/watt, up to a 42 percent gain over the previous generation Intel Xeon processor 5500 series, and IBM* dx360 M3 multi node server system reports a result of overall 3,038 ssj_ops/watt, up to a 31 percent gain over previous generation processors.
+
+POS tagged sentence: 
+[('Specifically', 'RB'), (',', ','), ('the', 'DT'), ('IBM', 'NNP'), ('*', '-NONE-'), ('x3650', 'NNP'), ('M3', 'NNP'), ('single', 'JJ'), ('node', 'NN'), ('server', 'NN'), ('system', 'NN'), ('delivered', 'VBD'), ('2,927', 'CD'), ('overall', 'JJ'), ('ssj_ops/watt', 'JJ'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('42', 'CD'), ('percent', 'NN'), ('gain', 'NN'), ('over', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('generation', 'NN'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5500', 'CD'), ('series', 'NNS'), (',', ','), ('and', 'CC'), ('IBM', 'NNP'), ('*', '-NONE-'), ('dx360', 'NNP'), ('M3', 'NNP'), ('multi', 'NN'), ('node', 'NN'), ('server', 'NN'), ('system', 'NN'), ('reports', 'NNS'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('overall', 'JJ'), ('3,038', 'CD'), ('ssj_ops/watt', 'JJ'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('31', 'CD'), ('percent', 'NN'), ('gain', 'NN'), ('over', 'IN'), ('previous', 'JJ'), ('generation', 'NN'), ('processors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Specifically/RB   ,/,   the/DT   (ORGANIZATION IBM/NNP)   */-NONE-   (ORGANIZATION x3650/NNP)   M3/NNP   single/JJ   node/NN   server/NN   system/NN   delivered/VBD   2,927/CD   overall/JJ   ssj_ops/watt/JJ   ,/,   up/RB   to/TO   a/DT   42/CD   percent/NN   gain/NN   over/IN   the/DT   previous/JJ   generation/NN   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5500/CD   series/NNS   ,/,   and/CC   (ORGANIZATION IBM/NNP)   */-NONE-   (ORGANIZATION dx360/NNP)   M3/NNP   multi/NN   node/NN   server/NN   system/NN   reports/NNS   a/DT   result/NN   of/IN   overall/JJ   3,038/CD   ssj_ops/watt/JJ   ,/,   up/RB   to/TO   a/DT   31/CD   percent/NN   gain/NN   over/IN   previous/JJ   generation/NN   processors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB delivered/VBD 2,927/CD overall/JJ ssj_ops/watt/JJ)
+noun phrases to consider:
+	(NOUN IBM/NNP)
+	(NOUN x3650/NNP M3/NNP single/JJ node/NN server/NN system/NN)
+	(NOUN 42/CD percent/NN gain/NN)
+	(NOUN   the/DT   previous/JJ   generation/NN   Intel/NNP   Xeon/NNP   processor/NN)
+	(NOUN 5500/CD series/NNS)
+	(NOUN IBM/NNP)
+	(NOUN dx360/NNP M3/NNP multi/NN node/NN)
+	(NOUN server/NN system/NN reports/NNS)
+	(NOUN result/NN)
+	(NOUN overall/JJ 3,038/CD)
+	(NOUN ssj_ops/watt/JJ)
+	(NOUN 31/CD percent/NN gain/NN)
+	(NOUN previous/JJ generation/NN processors/NNS)
+
+----------------------------------
+original sentence: 
+Fujitsu&#8217;s* PRIMERGY* RX300 S6 two socket server with two Intel Xeon processors L5640 series meets the needs of those customers who desire performance of the Intel Xeon processor X5570 series but uses up to 30 percent lower platform power.
+
+POS tagged sentence: 
+[('Fujitsu&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('PRIMERGY', 'NNP'), ('*', '-NONE-'), ('RX300', 'NNP'), ('S6', 'NNP'), ('two', 'CD'), ('socket', 'NN'), ('server', 'NN'), ('with', 'IN'), ('two', 'CD'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processors', 'NNS'), ('L5640', 'NNP'), ('series', 'NN'), ('meets', 'NNS'), ('the', 'DT'), ('needs', 'NNS'), ('of', 'IN'), ('those', 'DT'), ('customers', 'NNS'), ('who', 'WP'), ('desire', 'NN'), ('performance', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('X5570', 'NNP'), ('series', 'NN'), ('but', 'CC'), ('uses', 'VBZ'), ('up', 'RP'), ('to', 'TO'), ('30', 'CD'), ('percent', 'NN'), ('lower', 'JJR'), ('platform', 'NN'), ('power', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Fujitsu&/NN   #/#   8217/CD   ;/:   s/NNS   */-NONE-   (ORGANIZATION PRIMERGY/NNP)   */-NONE-   (ORGANIZATION RX300/NNP)   S6/NNP   two/CD   socket/NN   server/NN   with/IN   two/CD   (ORGANIZATION Intel/NNP Xeon/NNP)   processors/NNS   (ORGANIZATION L5640/NNP)   series/NN   meets/NNS   the/DT   needs/NNS   of/IN   those/DT   customers/NNS   who/WP   desire/NN   performance/NN   of/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   (ORGANIZATION X5570/NNP)   series/NN   but/CC   uses/VBZ   up/RP   to/TO   30/CD   percent/NN   lower/JJR   platform/NN   power/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB uses/VBZ)
+noun phrases to consider:
+	(NOUN Fujitsu&/NN)
+	(NOUN s/NNS)
+	(NOUN PRIMERGY/NNP)
+	(NOUN RX300/NNP S6/NNP)
+	(NOUN two/CD socket/NN server/NN)
+	(NOUN two/CD Intel/NNP Xeon/NNP processors/NNS L5640/NNP)
+	(NOUN series/NN meets/NNS)
+	(NOUN needs/NNS)
+	(NOUN customers/NNS)
+	(NOUN desire/NN performance/NN)
+	(NOUN Intel/NNP Xeon/NNP processor/NN X5570/NNP)
+	(NOUN series/NN)
+	(NOUN 30/CD percent/NN)
+	(NOUN lower/JJR platform/NN power/NN)
+
+----------------------------------
+original sentence: 
+Fujitsu&#8217;s* PRIMERGY* RX300 S6 system established world record Java* performance a SPECjbb2005* score of 928,393 bops, up to a 46 percent boost over previous generation , world record ERP performance SAP* SD 2 Tier ERP 6.0 Unicode score of 4,860 benchmark users, up to a 27 percent boost over previous generation result and world record Web serving performance SPECweb2005* score of 104,422, up to a 25 percent boost over previous generation result .
+
+POS tagged sentence: 
+[('Fujitsu&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('PRIMERGY', 'NNP'), ('*', '-NONE-'), ('RX300', 'NNP'), ('S6', 'NNP'), ('system', 'NN'), ('established', 'VBD'), ('world', 'NN'), ('record', 'NN'), ('Java', 'NNP'), ('*', '-NONE-'), ('performance', 'VB'), ('a', 'DT'), ('SPECjbb2005', 'NNP'), ('*', '-NONE-'), ('score', 'VB'), ('of', 'IN'), ('928,393', 'CD'), ('bops', 'NNS'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('46', 'CD'), ('percent', 'NN'), ('boost', 'NN'), ('over', 'IN'), ('previous', 'JJ'), ('generation', 'NN'), (',', ','), ('world', 'NN'), ('record', 'NN'), ('ERP', 'NNP'), ('performance', 'NN'), ('SAP', 'NNP'), ('*', '-NONE-'), ('SD', 'NNP'), ('2', 'CD'), ('Tier', 'NNP'), ('ERP', 'NNP'), ('6.0', 'CD'), ('Unicode', 'NNP'), ('score', 'NN'), ('of', 'IN'), ('4,860', 'CD'), ('benchmark', 'NN'), ('users', 'NNS'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('27', 'CD'), ('percent', 'NN'), ('boost', 'NN'), ('over', 'IN'), ('previous', 'JJ'), ('generation', 'NN'), ('result', 'NN'), ('and', 'CC'), ('world', 'NN'), ('record', 'NN'), ('Web', 'NNP'), ('serving', 'NN'), ('performance', 'NN'), ('SPECweb2005', 'NNP'), ('*', '-NONE-'), ('score', 'VB'), ('of', 'IN'), ('104,422', 'CD'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('25', 'CD'), ('percent', 'NN'), ('boost', 'NN'), ('over', 'IN'), ('previous', 'JJ'), ('generation', 'NN'), ('result', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Fujitsu&/NN   #/#   8217/CD   ;/:   s/NNS   */-NONE-   (ORGANIZATION PRIMERGY/NNP)   */-NONE-   (ORGANIZATION RX300/NNP)   S6/NNP   system/NN   established/VBD   world/NN   record/NN   (PERSON Java/NNP)   */-NONE-   performance/VB   a/DT   (ORGANIZATION SPECjbb2005/NNP)   */-NONE-   score/VB   of/IN   928,393/CD   bops/NNS   ,/,   up/RB   to/TO   a/DT   46/CD   percent/NN   boost/NN   over/IN   previous/JJ   generation/NN   ,/,   world/NN   record/NN   (ORGANIZATION ERP/NNP)   performance/NN   (ORGANIZATION SAP/NNP)   */-NONE-   SD/NNP   2/CD   Tier/NNP   ERP/NNP   6.0/CD   (GPE Unicode/NNP)   score/NN   of/IN   4,860/CD   benchmark/NN   users/NNS   ,/,   up/RB   to/TO   a/DT   27/CD   percent/NN   boost/NN   over/IN   previous/JJ   generation/NN   result/NN   and/CC   world/NN   record/NN   Web/NNP   serving/NN   performance/NN   (ORGANIZATION SPECweb2005/NNP)   */-NONE-   score/VB   of/IN   104,422/CD   ,/,   up/RB   to/TO   a/DT   25/CD   percent/NN   boost/NN   over/IN   previous/JJ   generation/NN   result/NN   ./.)
+----------------------------------
+original sentence: 
+Dell&#8217;s* PowerEdge* R710 system established a new 2S server platform performance world record for SPECint*rate_base2006 with a score of 355 and for SPECfp*_rate_base2006 with a score of 248.
+
+POS tagged sentence: 
+[('Dell&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('PowerEdge', 'VB'), ('*', '-NONE-'), ('R710', 'CD'), ('system', 'NN'), ('established', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('2S', 'CD'), ('server', 'NN'), ('platform', 'NN'), ('performance', 'NN'), ('world', 'NN'), ('record', 'NN'), ('for', 'IN'), ('SPECint', 'NNP'), ('*', '-NONE-'), ('rate_base2006', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('score', 'NN'), ('of', 'IN'), ('355', 'CD'), ('and', 'CC'), ('for', 'IN'), ('SPECfp', 'NNP'), ('*', '-NONE-'), ('_rate_base2006', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('score', 'NN'), ('of', 'IN'), ('248', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Dell&/NN   #/#   8217/CD   ;/:   s/NNS   */-NONE-   PowerEdge/VB   */-NONE-   R710/CD   system/NN   established/VBD   a/DT   new/JJ   2S/CD   server/NN   platform/NN   performance/NN   world/NN   record/NN   for/IN   (ORGANIZATION SPECint/NNP)   */-NONE-   rate_base2006/NNP   with/IN   a/DT   score/NN   of/IN   355/CD   and/CC   for/IN   (ORGANIZATION SPECfp/NNP)   */-NONE-   (ORGANIZATION _rate_base2006/NNP)   with/IN   a/DT   score/NN   of/IN   248/CD   ./.)
+----------------------------------
+original sentence: 
+Cisco&#8217;s* UCS* B250 M2 servers powered with two Intel Xeon processor X5680 series set a world record for virtualization performance with a VMMark* score of 35.83 at 26 tiles, up to a 42 percent performance gain over previous generation product.
+
+POS tagged sentence: 
+[('Cisco&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('UCS', 'NNS'), ('*', '-NONE-'), ('B250', 'CD'), ('M2', 'NNP'), ('servers', 'NNS'), ('powered', 'VBD'), ('with', 'IN'), ('two', 'CD'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('X5680', 'NNP'), ('series', 'NN'), ('set', 'VBD'), ('a', 'DT'), ('world', 'NN'), ('record', 'NN'), ('for', 'IN'), ('virtualization', 'NN'), ('performance', 'NN'), ('with', 'IN'), ('a', 'DT'), ('VMMark', 'NNP'), ('*', '-NONE-'), ('score', 'VB'), ('of', 'IN'), ('35.83', 'CD'), ('at', 'IN'), ('26', 'CD'), ('tiles', 'NNS'), (',', ','), ('up', 'RB'), ('to', 'TO'), ('a', 'DT'), ('42', 'CD'), ('percent', 'NN'), ('performance', 'NN'), ('gain', 'NN'), ('over', 'IN'), ('previous', 'JJ'), ('generation', 'NN'), ('product', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Cisco&/NN   #/#   8217/CD   ;/:   s/NNS   */-NONE-   UCS/NNS   */-NONE-   B250/CD   M2/NNP   servers/NNS   powered/VBD   with/IN   two/CD   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   (ORGANIZATION X5680/NNP)   series/NN   set/VBD   a/DT   world/NN   record/NN   for/IN   virtualization/NN   performance/NN   with/IN   a/DT   (ORGANIZATION VMMark/NNP)   */-NONE-   score/VB   of/IN   35.83/CD   at/IN   26/CD   tiles/NNS   ,/,   up/RB   to/TO   a/DT   42/CD   percent/NN   performance/NN   gain/NN   over/IN   previous/JJ   generation/NN   product/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   powered/VBD   with/IN   two/CD   Intel/NNP   Xeon/NNP   processor/NN   X5680/NNP   series/NN)
+	(VERB   set/VBD   a/DT   world/NN   record/NN   for/IN   virtualization/NN   performance/NN   with/IN   a/DT   VMMark/NNP)
+	(VERB score/VB of/IN 35.83/CD at/IN 26/CD tiles/NNS)
+noun phrases to consider:
+	(NOUN Cisco&/NN)
+	(NOUN s/NNS)
+	(NOUN UCS/NNS)
+	(NOUN B250/CD M2/NNP servers/NNS)
+	(NOUN 42/CD percent/NN performance/NN gain/NN)
+	(NOUN previous/JJ generation/NN product/NN)
+
+----------------------------------
+original sentence: 
+Cisco&#8217;s* UCS* B200 M2 platform delivered a record score on SPEComp*Mbase2001 and Cisco&#8217;s* UCS C250 M2 platform also delivered a world record on SPECjAppServer2004* benchmark.
+
+POS tagged sentence: 
+[('Cisco&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('UCS', 'NNS'), ('*', '-NONE-'), ('B200', 'CD'), ('M2', 'NNP'), ('platform', 'NN'), ('delivered', 'VBD'), ('a', 'DT'), ('record', 'NN'), ('score', 'NN'), ('on', 'IN'), ('SPEComp', 'NNP'), ('*', '-NONE-'), ('Mbase2001', 'NNP'), ('and', 'CC'), ('Cisco&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('UCS', 'NNS'), ('C250', 'NNP'), ('M2', 'NNP'), ('platform', 'NN'), ('also', 'RB'), ('delivered', 'VBD'), ('a', 'DT'), ('world', 'NN'), ('record', 'NN'), ('on', 'IN'), ('SPECjAppServer2004', 'NNP'), ('*', '-NONE-'), ('benchmark', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Cisco&/NN   #/#   8217/CD   ;/:   s/NNS   */-NONE-   UCS/NNS   */-NONE-   B200/CD   M2/NNP   platform/NN   delivered/VBD   a/DT   record/NN   score/NN   on/IN   (ORGANIZATION SPEComp/NNP)   */-NONE-   (ORGANIZATION Mbase2001/NNP)   and/CC   Cisco&/NNP   #/#   8217/CD   ;/:   s/NNS   */-NONE-   (ORGANIZATION UCS/NNS)   (ORGANIZATION C250/NNP)   M2/NNP   platform/NN   also/RB   delivered/VBD   a/DT   world/NN   record/NN   on/IN   (ORGANIZATION SPECjAppServer2004/NNP)   */-NONE-   benchmark/VB   ./.)
+----------------------------------
+original sentence: 
+For detailed performance results and more information about world record claims see www.intel.com/performance/server/xeon/summary.htm
+New Embedded Processors
+ In addition to enterprise class processors, Intel launched today three unique processors for the embedded computing segment, including the first six core processors, the Intel Xeon E5645 and L5638, the quad core L5618 and E5620 processors.
+
+POS tagged sentence: 
+[('For', 'IN'), ('detailed', 'VBN'), ('performance', 'NN'), ('results', 'NNS'), ('and', 'CC'), ('more', 'JJR'), ('information', 'NN'), ('about', 'IN'), ('world', 'NN'), ('record', 'NN'), ('claims', 'VBZ'), ('see', 'NN'), ('www.intel.com/performance/server/xeon/summary.htm', 'NN'), ('New', 'NNP'), ('Embedded', 'NNP'), ('Processors', 'NNP'), ('In', 'NNP'), ('addition', 'NN'), ('to', 'TO'), ('enterprise', 'VB'), ('class', 'NN'), ('processors', 'NNS'), (',', ','), ('Intel', 'NNP'), ('launched', 'VBD'), ('today', 'NN'), ('three', 'CD'), ('unique', 'JJ'), ('processors', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('embedded', 'VBN'), ('computing', 'NN'), ('segment', 'NN'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('first', 'JJ'), ('six', 'CD'), ('core', 'NN'), ('processors', 'NNS'), (',', ','), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('E5645', 'NNP'), ('and', 'CC'), ('L5638', 'NNP'), (',', ','), ('the', 'DT'), ('quad', 'NN'), ('core', 'NN'), ('L5618', 'NNP'), ('and', 'CC'), ('E5620', 'NNP'), ('processors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   detailed/VBN   performance/NN   results/NNS   and/CC   more/JJR   information/NN   about/IN   world/NN   record/NN   claims/VBZ   see/NN   www.intel.com/performance/server/xeon/summary.htm/NN   (ORGANIZATION New/NNP Embedded/NNP Processors/NNP)   In/NNP   addition/NN   to/TO   enterprise/VB   class/NN   processors/NNS   ,/,   (ORGANIZATION Intel/NNP)   launched/VBD   today/NN   three/CD   unique/JJ   processors/NNS   for/IN   the/DT   embedded/VBN   computing/NN   segment/NN   ,/,   including/VBG   the/DT   first/JJ   six/CD   core/NN   processors/NNS   ,/,   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   E5645/NNP   and/CC   (ORGANIZATION L5638/NNP)   ,/,   the/DT   quad/NN   core/NN   (ORGANIZATION L5618/NNP)   and/CC   (ORGANIZATION E5620/NNP)   processors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB detailed/VBN performance/NN results/NNS)
+	(VERB   claims/VBZ   see/NN   www.intel.com/performance/server/xeon/summary.htm/NN   New/NNP   Embedded/NNP   Processors/NNP   In/NNP   addition/NN)
+	(VERB enterprise/VB class/NN processors/NNS)
+	(VERB   launched/VBD   today/NN   three/CD   unique/JJ   processors/NNS   for/IN   the/DT)
+	(VERB embedded/VBN computing/NN segment/NN)
+	(VERB including/VBG the/DT first/JJ six/CD core/NN processors/NNS)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN world/NN record/NN)
+	(NOUN Intel/NNP)
+	(NOUN Intel/NNP Xeon/NNP E5645/NNP)
+	(NOUN L5638/NNP)
+	(NOUN quad/NN core/NN L5618/NNP)
+	(NOUN E5620/NNP processors/NNS)
+
+----------------------------------
+original sentence: 
+These processors, featuring 7 year lifecycle support, are built for thermally constrained and robust communications environments, and will route applications more quickly and efficiently between connected devices.
+
+POS tagged sentence: 
+[('These', 'DT'), ('processors', 'NNS'), (',', ','), ('featuring', 'VBG'), ('7', 'CD'), ('year', 'NN'), ('lifecycle', 'NN'), ('support', 'NN'), (',', ','), ('are', 'VBP'), ('built', 'VBN'), ('for', 'IN'), ('thermally', 'RB'), ('constrained', 'VBN'), ('and', 'CC'), ('robust', 'RB'), ('communications', 'NNS'), ('environments', 'NNS'), (',', ','), ('and', 'CC'), ('will', 'MD'), ('route', 'VB'), ('applications', 'NNS'), ('more', 'RBR'), ('quickly', 'RB'), ('and', 'CC'), ('efficiently', 'RB'), ('between', 'IN'), ('connected', 'VBN'), ('devices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   processors/NNS   ,/,   featuring/VBG   7/CD   year/NN   lifecycle/NN   support/NN   ,/,   are/VBP   built/VBN   for/IN   thermally/RB   constrained/VBN   and/CC   robust/RB   communications/NNS   environments/NNS   ,/,   and/CC   will/MD   route/VB   applications/NNS   more/RBR   quickly/RB   and/CC   efficiently/RB   between/IN   connected/VBN   devices/NNS   ./.)
+----------------------------------
+original sentence: 
+Today Intel also announced availability of the new Intel&#174; Core&#8482; i7 980X Processor Extreme Edition, the company&#8217;s first 32nm, six core processor with 12 computing threads for client applications.
+
+POS tagged sentence: 
+[('Today', 'NN'), ('Intel', 'NNP'), ('also', 'RB'), ('announced', 'VBD'), ('availability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Core&', 'JJ'), ('#', '#'), ('8482', 'CD'), (';', ':'), ('i7', 'NNP'), ('980X', 'CD'), ('Processor', 'NNP'), ('Extreme', 'NNP'), ('Edition', 'NNP'), (',', ','), ('the', 'DT'), ('company&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('first', 'RB'), ('32nm', 'CD'), (',', ','), ('six', 'CD'), ('core', 'NN'), ('processor', 'NN'), ('with', 'IN'), ('12', 'CD'), ('computing', 'VBG'), ('threads', 'NNS'), ('for', 'IN'), ('client', 'NN'), ('applications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   (ORGANIZATION Intel/NNP)   also/RB   announced/VBD   availability/NN   of/IN   the/DT   new/JJ   Intel&/NN   #/#   174/CD   ;/:   Core&/JJ   #/#   8482/CD   ;/:   i7/NNP   980X/CD   Processor/NNP   Extreme/NNP   Edition/NNP   ,/,   the/DT   company&/NNP   #/#   8217/CD   ;/:   s/NNS   first/RB   32nm/CD   ,/,   six/CD   core/NN   processor/NN   with/IN   12/CD   computing/VBG   threads/NNS   for/IN   client/NN   applications/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD availability/NN of/IN the/DT new/JJ Intel&/NN)
+	(VERB computing/VBG threads/NNS for/IN client/NN applications/NNS)
+noun phrases to consider:
+	(NOUN Today/NN Intel/NNP)
+	(NOUN Core&/JJ)
+	(NOUN i7/NNP)
+	(NOUN 980X/CD Processor/NNP Extreme/NNP Edition/NNP)
+	(NOUN company&/NNP)
+	(NOUN s/NNS)
+	(NOUN six/CD core/NN processor/NN)
+
+----------------------------------
+original sentence: 
+Offering stunning performance for digital content creation, 3 D rendering, multitasking and hardcore gaming, the new Intel Core i7 980X is drop in compatible** with most existing Intel&#174; X58 Express chipset based motherboards.
+
+POS tagged sentence: 
+[('Offering', 'VBG'), ('stunning', 'NN'), ('performance', 'NN'), ('for', 'IN'), ('digital', 'JJ'), ('content', 'NN'), ('creation', 'NN'), (',', ','), ('3', 'CD'), ('D', 'NNP'), ('rendering', 'NN'), (',', ','), ('multitasking', 'VBG'), ('and', 'CC'), ('hardcore', 'JJR'), ('gaming', 'NN'), (',', ','), ('the', 'DT'), ('new', 'JJ'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('is', 'VBZ'), ('drop', 'NN'), ('in', 'IN'), ('compatible', 'JJ'), ('*', '-NONE-'), ('*', '-NONE-'), ('with', 'IN'), ('most', 'JJS'), ('existing', 'VBG'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('X58', 'NNP'), ('Express', 'NNP'), ('chipset', 'NN'), ('based', 'VBN'), ('motherboards', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Offering/VBG   stunning/NN   performance/NN   for/IN   digital/JJ   content/NN   creation/NN   ,/,   3/CD   D/NNP   rendering/NN   ,/,   multitasking/VBG   and/CC   hardcore/JJR   gaming/NN   ,/,   the/DT   new/JJ   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   is/VBZ   drop/NN   in/IN   compatible/JJ   */-NONE-   */-NONE-   with/IN   most/JJS   existing/VBG   Intel&/JJ   #/#   174/CD   ;/:   (ORGANIZATION X58/NNP Express/NNP)   chipset/NN   based/VBN   motherboards/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   Offering/VBG   stunning/NN   performance/NN   for/IN   digital/JJ   content/NN   creation/NN)
+	(VERB multitasking/VBG)
+	(VERB is/VBZ drop/NN in/IN compatible/JJ)
+
+tagged sentence:
+	 is drop in compatible	res:-1
+	(VERB existing/VBG Intel&/JJ)
+	(VERB based/VBN motherboards/NNS)
+noun phrases to consider:
+	(NOUN 3/CD D/NNP rendering/NN)
+	(NOUN hardcore/JJR gaming/NN)
+	(NOUN the/DT new/JJ Intel/NNP Core/NNP i7/NNP)
+	(NOUN most/JJS)
+	(NOUN X58/NNP Express/NNP chipset/NN)
+
+----------------------------------
+original sentence: 
+Running at 3.33 GHz, the Intel Core i7 980X is overclocking enabled*** to provide flexibility to advanced users who want to adjust their speed settings, and has 12MB of Intel&#174; Smart Cache &#8211; 50 percent more than the current Intel flagship desktop processor.
+
+POS tagged sentence: 
+[('Running', 'VBG'), ('at', 'IN'), ('3.33', 'CD'), ('GHz', 'NNP'), (',', ','), ('the', 'DT'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('is', 'VBZ'), ('overclocking', 'VBG'), ('enabled', 'VBN'), ('*', '-NONE-'), ('*', '-NONE-'), ('*', '-NONE-'), ('to', 'TO'), ('provide', 'VB'), ('flexibility', 'NN'), ('to', 'TO'), ('advanced', 'JJ'), ('users', 'NNS'), ('who', 'WP'), ('want', 'VBP'), ('to', 'TO'), ('adjust', 'VB'), ('their', 'PRP$'), ('speed', 'NN'), ('settings', 'NNS'), (',', ','), ('and', 'CC'), ('has', 'VBZ'), ('12MB', 'CD'), ('of', 'IN'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Smart', 'NNP'), ('Cache', 'NNP'), ('&', 'CC'), ('#', '#'), ('8211', 'CD'), (';', ':'), ('50', 'CD'), ('percent', 'NN'), ('more', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('Intel', 'NNP'), ('flagship', 'NN'), ('desktop', 'NN'), ('processor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Running/VBG   at/IN   3.33/CD   GHz/NNP   ,/,   the/DT   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   is/VBZ   overclocking/VBG   enabled/VBN   */-NONE-   */-NONE-   */-NONE-   to/TO   provide/VB   flexibility/NN   to/TO   advanced/JJ   users/NNS   who/WP   want/VBP   to/TO   adjust/VB   their/PRP$   speed/NN   settings/NNS   ,/,   and/CC   has/VBZ   12MB/CD   of/IN   Intel&/JJ   #/#   174/CD   ;/:   (PERSON Smart/NNP Cache/NNP)   &/CC   #/#   8211/CD   ;/:   50/CD   percent/NN   more/JJR   than/IN   the/DT   current/JJ   (ORGANIZATION Intel/NNP)   flagship/NN   desktop/NN   processor/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Running/VBG at/IN 3.33/CD GHz/NNP)
+	(VERB is/VBZ overclocking/VBG enabled/VBN)
+
+tagged sentence:
+	 is overclocking enabled	res:1
+	(VERB provide/VB flexibility/NN)
+	(VERB want/VBP to/TO adjust/VB their/PRP$ speed/NN settings/NNS)
+	(VERB has/VBZ 12MB/CD of/IN Intel&/JJ)
+noun phrases to consider:
+	(NOUN Intel/NNP Core/NNP i7/NNP)
+	(NOUN advanced/JJ users/NNS)
+
+tagged sentence:
+	 advanced users	res:1
+	(NOUN Smart/NNP Cache/NNP)
+	(NOUN 50/CD percent/NN)
+	(NOUN more/JJR)
+	(NOUN   the/DT   current/JJ   Intel/NNP   flagship/NN   desktop/NN   processor/NN)
+
+----------------------------------
+original sentence: 
+At the recent Game Developer&#8217;s Conference in San Francisco, highly threaded games and digital content creation titles were shown, such as Ubisoft* R.U.S.E*, Sega&#8217;s* Napoleon: Total War*, and Cakewalk* Sonar Producer*
+ &#8220;Napoleon: Total War is based on our second generation multi threaded engine and the latest Intel Core i7 980X processor, allowing us to bring a more realistic user experience by immersing them more deeply in the heat of battle,&#8221; said Mike Simpson, creative director, Creative Assembly Software*.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('recent', 'JJ'), ('Game', 'NNP'), ('Developer&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Conference', 'NNP'), ('in', 'IN'), ('San', 'NNP'), ('Francisco', 'NNP'), (',', ','), ('highly', 'RB'), ('threaded', 'VBN'), ('games', 'NNS'), ('and', 'CC'), ('digital', 'JJ'), ('content', 'NN'), ('creation', 'NN'), ('titles', 'NNS'), ('were', 'VBD'), ('shown', 'VBN'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('Ubisoft', 'NNP'), ('*', '-NONE-'), ('R.U.S.E', 'JJ'), ('*', '-NONE-'), (',', ','), ('Sega&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('*', '-NONE-'), ('Napoleon', 'NNP'), (':', ':'), ('Total', 'JJ'), ('War', 'NN'), ('*', '-NONE-'), (',', ','), ('and', 'CC'), ('Cakewalk', 'NNP'), ('*', '-NONE-'), ('Sonar', 'NNP'), ('Producer', 'NNP'), ('*', '-NONE-'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Napoleon', 'NNP'), (':', ':'), ('Total', 'JJ'), ('War', 'NN'), ('is', 'VBZ'), ('based', 'VBN'), ('on', 'IN'), ('our', 'PRP$'), ('second', 'JJ'), ('generation', 'NN'), ('multi', 'NN'), ('threaded', 'VBD'), ('engine', 'NN'), ('and', 'CC'), ('the', 'DT'), ('latest', 'JJS'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('processor', 'NN'), (',', ','), ('allowing', 'VBG'), ('us', 'PRP'), ('to', 'TO'), ('bring', 'VB'), ('a', 'DT'), ('more', 'RBR'), ('realistic', 'JJ'), ('user', 'NN'), ('experience', 'NN'), ('by', 'IN'), ('immersing', 'NN'), ('them', 'PRP'), ('more', 'JJR'), ('deeply', 'RB'), ('in', 'IN'), ('the', 'DT'), ('heat', 'NN'), ('of', 'IN'), ('battle,&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Mike', 'NNP'), ('Simpson', 'NNP'), (',', ','), ('creative', 'JJ'), ('director', 'NN'), (',', ','), ('Creative', 'NNP'), ('Assembly', 'NNP'), ('Software', 'NNP'), ('*', '-NONE-'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   recent/JJ   Game/NNP   Developer&/NNP   #/#   8217/CD   ;/:   s/NNS   Conference/NNP   in/IN   (GPE San/NNP Francisco/NNP)   ,/,   highly/RB   threaded/VBN   games/NNS   and/CC   digital/JJ   content/NN   creation/NN   titles/NNS   were/VBD   shown/VBN   ,/,   such/JJ   as/IN   (ORGANIZATION Ubisoft/NNP)   */-NONE-   R.U.S.E/JJ   */-NONE-   ,/,   Sega&/NNP   #/#   8217/CD   ;/:   s/NNS   */-NONE-   Napoleon/NNP   :/:   Total/JJ   War/NN   */-NONE-   ,/,   and/CC   (ORGANIZATION Cakewalk/NNP)   */-NONE-   (PERSON Sonar/NNP Producer/NNP)   */-NONE-   &/CC   #/#   8220/CD   ;/:   (PERSON Napoleon/NNP)   :/:   Total/JJ   War/NN   is/VBZ   based/VBN   on/IN   our/PRP$   second/JJ   generation/NN   multi/NN   threaded/VBD   engine/NN   and/CC   the/DT   latest/JJS   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   processor/NN   ,/,   allowing/VBG   us/PRP   to/TO   bring/VB   a/DT   more/RBR   realistic/JJ   user/NN   experience/NN   by/IN   immersing/NN   them/PRP   more/JJR   deeply/RB   in/IN   the/DT   heat/NN   of/IN   battle,&/NNP   #/#   8221/CD   ;/:   said/VBD   (PERSON Mike/NNP Simpson/NNP)   ,/,   creative/JJ   director/NN   ,/,   (ORGANIZATION Creative/NNP Assembly/NNP Software/NNP)   */-NONE-   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB threaded/VBN games/NNS)
+	(VERB were/VBD shown/VBN)
+	(VERB   is/VBZ   based/VBN   on/IN   our/PRP$   second/JJ   generation/NN   multi/NN)
+	(VERB threaded/VBD engine/NN)
+	(VERB allowing/VBG us/PRP)
+	(VERB bring/VB a/DT)
+	(VERB said/VBD Mike/NNP Simpson/NNP)
+noun phrases to consider:
+	(NOUN the/DT recent/JJ Game/NNP Developer&/NNP)
+	(NOUN s/NNS Conference/NNP)
+	(NOUN San/NNP Francisco/NNP)
+	(NOUN digital/JJ content/NN creation/NN titles/NNS)
+	(NOUN such/JJ)
+	(NOUN Ubisoft/NNP)
+	(NOUN R.U.S.E/JJ)
+	(NOUN Sega&/NNP)
+	(NOUN s/NNS)
+	(NOUN Napoleon/NNP)
+	(NOUN Total/JJ War/NN)
+	(NOUN Cakewalk/NNP)
+	(NOUN Sonar/NNP Producer/NNP)
+	(NOUN Napoleon/NNP)
+	(NOUN Total/JJ War/NN)
+	(NOUN the/DT latest/JJS Intel/NNP Core/NNP i7/NNP)
+	(NOUN 980X/CD processor/NN)
+	(NOUN realistic/JJ user/NN experience/NN)
+	(NOUN immersing/NN)
+	(NOUN more/JJR)
+	(NOUN heat/NN)
+	(NOUN battle,&/NNP)
+	(NOUN creative/JJ director/NN)
+	(NOUN Creative/NNP Assembly/NNP Software/NNP)
+
+----------------------------------
+original sentence: 
+&#8220;We take advantage of the increased core count on the Intel Core i7 980X by adding greater animation detail to fighting units on both land and sea, allowing the game to have higher visual fidelity.&#8221;  Starting today and continuing over the next 45 days, server and workstation systems based on the Intel Xeon processor 5600 series are expected to be announced by a wide variety of system manufacturers around the world, including Cisco*, Dell*, Fujitsu*, HP, IBM* and Oracle*.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('take', 'VBP'), ('advantage', 'NN'), ('of', 'IN'), ('the', 'DT'), ('increased', 'VBN'), ('core', 'NN'), ('count', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('by', 'IN'), ('adding', 'NN'), ('greater', 'JJR'), ('animation', 'NN'), ('detail', 'NN'), ('to', 'TO'), ('fighting', 'VBG'), ('units', 'NNS'), ('on', 'IN'), ('both', 'DT'), ('land', 'NN'), ('and', 'CC'), ('sea', 'NN'), (',', ','), ('allowing', 'VBG'), ('the', 'DT'), ('game', 'NN'), ('to', 'TO'), ('have', 'VB'), ('higher', 'JJR'), ('visual', 'JJ'), ('fidelity.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Starting', 'NNP'), ('today', 'NN'), ('and', 'CC'), ('continuing', 'VBG'), ('over', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('45', 'CD'), ('days', 'NNS'), (',', ','), ('server', 'RB'), ('and', 'CC'), ('workstation', 'NN'), ('systems', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('are', 'VBP'), ('expected', 'VBN'), ('to', 'TO'), ('be', 'VB'), ('announced', 'VBN'), ('by', 'IN'), ('a', 'DT'), ('wide', 'JJ'), ('variety', 'NN'), ('of', 'IN'), ('system', 'NN'), ('manufacturers', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), ('including', 'VBG'), ('Cisco', 'NNP'), ('*', '-NONE-'), (',', ','), ('Dell', 'NNP'), ('*', '-NONE-'), (',', ','), ('Fujitsu', 'NNP'), ('*', '-NONE-'), (',', ','), ('HP', 'NNP'), (',', ','), ('IBM', 'NNP'), ('*', '-NONE-'), ('and', 'CC'), ('Oracle', 'NNP'), ('*', '-NONE-'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   We/PRP   take/VBP   advantage/NN   of/IN   the/DT   increased/VBN   core/NN   count/NN   on/IN   the/DT   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   by/IN   adding/NN   greater/JJR   animation/NN   detail/NN   to/TO   fighting/VBG   units/NNS   on/IN   both/DT   land/NN   and/CC   sea/NN   ,/,   allowing/VBG   the/DT   game/NN   to/TO   have/VB   higher/JJR   visual/JJ   fidelity.&/NN   #/#   8221/CD   ;/:   Starting/NNP   today/NN   and/CC   continuing/VBG   over/IN   the/DT   next/JJ   45/CD   days/NNS   ,/,   server/RB   and/CC   workstation/NN   systems/NNS   based/VBN   on/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   are/VBP   expected/VBN   to/TO   be/VB   announced/VBN   by/IN   a/DT   wide/JJ   variety/NN   of/IN   system/NN   manufacturers/NNS   around/IN   the/DT   world/NN   ,/,   including/VBG   (PERSON Cisco/NNP)   */-NONE-   ,/,   (ORGANIZATION Dell/NNP)   */-NONE-   ,/,   (PERSON Fujitsu/NNP)   */-NONE-   ,/,   (ORGANIZATION HP/NNP)   ,/,   (ORGANIZATION IBM/NNP)   */-NONE-   and/CC   (PERSON Oracle/NNP)   */-NONE-   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB take/VBP advantage/NN of/IN the/DT)
+
+tagged sentence:
+	 take advantage of the	res:1
+	(VERB   increased/VBN   core/NN   count/NN   on/IN   the/DT   Intel/NNP   Core/NNP   i7/NNP   980X/CD   by/IN   adding/NN   greater/JJR   animation/NN   detail/NN)
+
+tagged sentence:
+	 increased core count on the Intel Core i7 980X by adding greater animation detail	res:1
+	(VERB fighting/VBG units/NNS on/IN both/DT land/NN)
+	(VERB allowing/VBG the/DT game/NN)
+	(VERB have/VB higher/JJR visual/JJ fidelity.&/NN)
+	(VERB continuing/VBG over/IN the/DT next/JJ 45/CD days/NNS)
+	(VERB   based/VBN   on/IN   the/DT   Intel/NNP   Xeon/NNP   processor/NN   5600/CD   series/NNS)
+	(VERB are/VBP expected/VBN)
+	(VERB   be/VB   announced/VBN   by/IN   a/DT   wide/JJ   variety/NN   of/IN   system/NN   manufacturers/NNS   around/IN   the/DT   world/NN)
+	(VERB including/VBG Cisco/NNP)
+noun phrases to consider:
+	(NOUN sea/NN)
+	(NOUN Starting/NNP today/NN)
+	(NOUN workstation/NN systems/NNS)
+	(NOUN Dell/NNP)
+	(NOUN Fujitsu/NNP)
+	(NOUN HP/NNP)
+	(NOUN IBM/NNP)
+	(NOUN Oracle/NNP)
+
+----------------------------------
+original sentence: 
+Many software vendors are also supporting Intel Xeon processor 5600 based platforms, including Citrix*, IBM*, Microsoft*, Novell*, Oracle*, Red Hat*, SAP AG* and VMware*.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('software', 'NN'), ('vendors', 'NNS'), ('are', 'VBP'), ('also', 'RB'), ('supporting', 'VBG'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('based', 'VBN'), ('platforms', 'NNS'), (',', ','), ('including', 'VBG'), ('Citrix', 'NNP'), ('*', '-NONE-'), (',', ','), ('IBM', 'NNP'), ('*', '-NONE-'), (',', ','), ('Microsoft', 'NNP'), ('*', '-NONE-'), (',', ','), ('Novell', 'NNP'), ('*', '-NONE-'), (',', ','), ('Oracle', 'NNP'), ('*', '-NONE-'), (',', ','), ('Red', 'NNP'), ('Hat', 'NNP'), ('*', '-NONE-'), (',', ','), ('SAP', 'NNP'), ('AG', 'NNP'), ('*', '-NONE-'), ('and', 'CC'), ('VMware', 'NNP'), ('*', '-NONE-'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   software/NN   vendors/NNS   are/VBP   also/RB   supporting/VBG   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   based/VBN   platforms/NNS   ,/,   including/VBG   (PERSON Citrix/NNP)   */-NONE-   ,/,   (ORGANIZATION IBM/NNP)   */-NONE-   ,/,   (ORGANIZATION Microsoft/NNP)   */-NONE-   ,/,   (ORGANIZATION Novell/NNP)   */-NONE-   ,/,   (PERSON Oracle/NNP)   */-NONE-   ,/,   (PERSON Red/NNP Hat/NNP)   */-NONE-   ,/,   (ORGANIZATION SAP/NNP)   AG/NNP   */-NONE-   and/CC   (ORGANIZATION VMware/NNP)   */-NONE-   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   also/RB   supporting/VBG   Intel/NNP   Xeon/NNP   processor/NN   5600/CD)
+	(VERB based/VBN platforms/NNS)
+	(VERB including/VBG Citrix/NNP)
+noun phrases to consider:
+	(NOUN Many/JJ software/NN vendors/NNS)
+	(NOUN IBM/NNP)
+	(NOUN Microsoft/NNP)
+	(NOUN Novell/NNP)
+	(NOUN Oracle/NNP)
+	(NOUN Red/NNP Hat/NNP)
+	(NOUN SAP/NNP AG/NNP)
+	(NOUN VMware/NNP)
+
+----------------------------------
+original sentence: 
+To learn more about how Intel and major software vendors deliver outstanding platforms, please visit www.intel.com/business
+ The Intel Xeon processor 5600 series ranges in price from $387 to $1,663 in quantities of 1,000.
+
+POS tagged sentence: 
+[('To', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('how', 'WRB'), ('Intel', 'NNP'), ('and', 'CC'), ('major', 'JJ'), ('software', 'NN'), ('vendors', 'NNS'), ('deliver', 'VBP'), ('outstanding', 'JJ'), ('platforms', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('www.intel.com/business', 'NN'), ('The', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('series', 'NNS'), ('ranges', 'NNS'), ('in', 'IN'), ('price', 'NN'), ('from', 'IN'), ('$', '$'), ('387', 'CD'), ('to', 'TO'), ('$', '$'), ('1,663', 'CD'), ('in', 'IN'), ('quantities', 'NNS'), ('of', 'IN'), ('1,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   learn/VB   more/JJR   about/IN   how/WRB   (ORGANIZATION Intel/NNP)   and/CC   major/JJ   software/NN   vendors/NNS   deliver/VBP   outstanding/JJ   platforms/NNS   ,/,   please/VB   visit/NN   www.intel.com/business/NN   The/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   series/NNS   ranges/NNS   in/IN   price/NN   from/IN   $/$   387/CD   to/TO   $/$   1,663/CD   in/IN   quantities/NNS   of/IN   1,000/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB learn/VB more/JJR about/IN)
+	(VERB deliver/VBP outstanding/JJ platforms/NNS)
+
+tagged sentence:
+	 deliver outstanding platforms	res:1
+	(VERB   please/VB   visit/NN   www.intel.com/business/NN   The/DT   Intel/NNP   Xeon/NNP   processor/NN   5600/CD   series/NNS   ranges/NNS   in/IN   price/NN   from/IN)
+
+tagged sentence:
+	 please visit www.intel.com/business The Intel Xeon processor 5600 series ranges in price from	res:1
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN major/JJ software/NN vendors/NNS)
+	(NOUN quantities/NNS)
+
+----------------------------------
+original sentence: 
+The E5645, L5638 and L5618 embedded processors are priced at $958, $958 and $530, respectively, in quantities of 1,000.
+
+POS tagged sentence: 
+[('The', 'DT'), ('E5645', 'NNP'), (',', ','), ('L5638', 'NNP'), ('and', 'CC'), ('L5618', 'NNP'), ('embedded', 'VBD'), ('processors', 'NNS'), ('are', 'VBP'), ('priced', 'VBN'), ('at', 'IN'), ('$', '$'), ('958', 'CD'), (',', ','), ('$', '$'), ('958', 'CD'), ('and', 'CC'), ('$', '$'), ('530', 'CD'), (',', ','), ('respectively', 'RB'), (',', ','), ('in', 'IN'), ('quantities', 'NNS'), ('of', 'IN'), ('1,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION E5645/NNP)   ,/,   (ORGANIZATION L5638/NNP)   and/CC   (ORGANIZATION L5618/NNP)   embedded/VBD   processors/NNS   are/VBP   priced/VBN   at/IN   $/$   958/CD   ,/,   $/$   958/CD   and/CC   $/$   530/CD   ,/,   respectively/RB   ,/,   in/IN   quantities/NNS   of/IN   1,000/CD   ./.)
+----------------------------------
+original sentence: 
+The Intel Core i7 980X is priced at $999 in 1000 unit quantities.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('is', 'VBZ'), ('priced', 'VBN'), ('at', 'IN'), ('$', '$'), ('999', 'CD'), ('in', 'IN'), ('1000', 'CD'), ('unit', 'NN'), ('quantities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   is/VBZ   priced/VBN   at/IN   $/$   999/CD   in/IN   1000/CD   unit/NN   quantities/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ priced/VBN at/IN)
+noun phrases to consider:
+	(NOUN Intel/NNP Core/NNP i7/NNP)
+	(NOUN 1000/CD unit/NN quantities/NNS)
+
+----------------------------------
+original sentence: 
+To facilitate reseller transition to this new processor series, all currently shipping Intel Server Boards and Systems that support the previous generation Intel Xeon processor 5500 series also support the Intel Xeon processor 5600 Series.
+
+POS tagged sentence: 
+[('To', 'TO'), ('facilitate', 'VB'), ('reseller', 'NN'), ('transition', 'NN'), ('to', 'TO'), ('this', 'DT'), ('new', 'JJ'), ('processor', 'NN'), ('series', 'NNS'), (',', ','), ('all', 'DT'), ('currently', 'RB'), ('shipping', 'VBG'), ('Intel', 'NNP'), ('Server', 'NNP'), ('Boards', 'NNP'), ('and', 'CC'), ('Systems', 'NNPS'), ('that', 'IN'), ('support', 'NN'), ('the', 'DT'), ('previous', 'JJ'), ('generation', 'NN'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5500', 'CD'), ('series', 'NNS'), ('also', 'RB'), ('support', 'NN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('Series', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   facilitate/VB   reseller/NN   transition/NN   to/TO   this/DT   new/JJ   processor/NN   series/NNS   ,/,   all/DT   currently/RB   shipping/VBG   (ORGANIZATION Intel/NNP Server/NNP Boards/NNP)   and/CC   (ORGANIZATION Systems/NNPS)   that/IN   support/NN   the/DT   previous/JJ   generation/NN   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5500/CD   series/NNS   also/RB   support/NN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   Series/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB facilitate/VB reseller/NN transition/NN)
+	(VERB shipping/VBG Intel/NNP Server/NNP Boards/NNP)
+noun phrases to consider:
+	(NOUN this/DT new/JJ processor/NN series/NNS)
+	(NOUN Systems/NNPS)
+	(NOUN support/NN)
+	(NOUN   the/DT   previous/JJ   generation/NN   Intel/NNP   Xeon/NNP   processor/NN)
+	(NOUN 5500/CD series/NNS)
+	(NOUN support/NN)
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD Series/NNP)
+
+----------------------------------
+original sentence: 
+For more details on the Intel Xeon processor 5600 processor series, visit .
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('details', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('processor', 'NN'), ('5600', 'CD'), ('processor', 'NN'), ('series', 'NNS'), (',', ','), ('visit', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   details/NNS   on/IN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   processor/NN   5600/CD   processor/NN   series/NNS   ,/,   visit/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN more/JJR details/NNS)
+	(NOUN Intel/NNP Xeon/NNP processor/NN)
+	(NOUN 5600/CD processor/NN series/NNS)
+	(NOUN visit/NN)
+
+----------------------------------
+original sentence: 
+For more details on world records and other claims, visit www.intel.com/performance/server/xeon/summary.htm
+ More information on the Intel Core i7 980X is available at www.intel.com/products/processor/corei7ee/index.htm
+ Intel NASDAQ:INTC , the world leader in silicon innovation, develops technologies, products and initiatives to continually advance how people work and live.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('details', 'NNS'), ('on', 'IN'), ('world', 'NN'), ('records', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('claims', 'NNS'), (',', ','), ('visit', 'NN'), ('www.intel.com/performance/server/xeon/summary.htm', 'NN'), ('More', 'RBR'), ('information', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Core', 'NNP'), ('i7', 'NNP'), ('980X', 'CD'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/products/processor/corei7ee/index.htm', 'JJ'), ('Intel', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ('leader', 'NN'), ('in', 'IN'), ('silicon', 'NN'), ('innovation', 'NN'), (',', ','), ('develops', 'VBZ'), ('technologies', 'NNS'), (',', ','), ('products', 'NNS'), ('and', 'CC'), ('initiatives', 'NNS'), ('to', 'TO'), ('continually', 'RB'), ('advance', 'NN'), ('how', 'WRB'), ('people', 'NNS'), ('work', 'VBP'), ('and', 'CC'), ('live', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   details/NNS   on/IN   world/NN   records/NNS   and/CC   other/JJ   claims/NNS   ,/,   visit/NN   www.intel.com/performance/server/xeon/summary.htm/NN   More/RBR   information/NN   on/IN   the/DT   (ORGANIZATION Intel/NNP Core/NNP)   i7/NNP   980X/CD   is/VBZ   available/JJ   at/IN   www.intel.com/products/processor/corei7ee/index.htm/JJ   (ORGANIZATION Intel/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   ,/,   the/DT   world/NN   leader/NN   in/IN   silicon/NN   innovation/NN   ,/,   develops/VBZ   technologies/NNS   ,/,   products/NNS   and/CC   initiatives/NNS   to/TO   continually/RB   advance/NN   how/WRB   people/NNS   work/VBP   and/CC   live/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   www.intel.com/products/processor/corei7ee/index.htm/JJ   Intel/NNP   NASDAQ/NNP)
+	(VERB develops/VBZ technologies/NNS)
+	(VERB work/VBP)
+noun phrases to consider:
+	(NOUN more/JJR details/NNS)
+	(NOUN world/NN records/NNS)
+	(NOUN other/JJ claims/NNS)
+	(NOUN visit/NN www.intel.com/performance/server/xeon/summary.htm/NN)
+	(NOUN information/NN)
+	(NOUN Intel/NNP Core/NNP i7/NNP)
+	(NOUN INTC/NNP)
+	(NOUN world/NN leader/NN)
+	(NOUN silicon/NN innovation/NN)
+	(NOUN products/NNS)
+	(NOUN initiatives/NNS)
+	(NOUN advance/NN)
+	(NOUN people/NNS)
+	(NOUN live/JJ)
+
+----------------------------------
+original sentence: 
+Additional information about Intel is available at www.intel.com/pressroom
+ Intel, Xeon, Core, and the Intel logo are trademarks of Intel Corporation in the United States and other countries.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('information', 'NN'), ('about', 'IN'), ('Intel', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/pressroom', 'JJ'), ('Intel', 'NNP'), (',', ','), ('Xeon', 'NNP'), (',', ','), ('Core', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('Intel', 'NNP'), ('logo', 'NN'), ('are', 'VBP'), ('trademarks', 'NNS'), ('of', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   information/NN   about/IN   (ORGANIZATION Intel/NNP)   is/VBZ   available/JJ   at/IN   www.intel.com/pressroom/JJ   (ORGANIZATION Intel/NNP)   ,/,   (PERSON Xeon/NNP)   ,/,   (GPE Core/NNP)   ,/,   and/CC   the/DT   (ORGANIZATION Intel/NNP)   logo/NN   are/VBP   trademarks/NNS   of/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   in/IN   the/DT   (GPE United/NNP States/NNPS)   and/CC   other/JJ   countries/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ available/JJ at/IN www.intel.com/pressroom/JJ Intel/NNP)
+	(VERB   are/VBP   trademarks/NNS   of/IN   Intel/NNP   Corporation/NNP   in/IN   the/DT   United/NNP   States/NNPS)
+noun phrases to consider:
+	(NOUN Additional/JJ information/NN)
+	(NOUN Intel/NNP)
+	(NOUN Xeon/NNP)
+	(NOUN Core/NNP)
+	(NOUN Intel/NNP logo/NN)
+	(NOUN other/JJ countries/NNS)
+
+----------------------------------
+original sentence: 
+* Other names and brands may be claimed as the property of others.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Other', 'JJ'), ('names', 'NNS'), ('and', 'CC'), ('brands', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('claimed', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('property', 'NN'), ('of', 'IN'), ('others', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Other/JJ   names/NNS   and/CC   brands/NNS   may/MD   be/VB   claimed/VBN   as/IN   the/DT   property/NN   of/IN   others/NNS   ./.)
+----------------------------------
+original sentence: 
+** As always, check with your board vendor for specific support details.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('*', '-NONE-'), ('As', 'IN'), ('always', 'RB'), (',', ','), ('check', 'NN'), ('with', 'IN'), ('your', 'PRP$'), ('board', 'NN'), ('vendor', 'NN'), ('for', 'IN'), ('specific', 'JJ'), ('support', 'NN'), ('details', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   */-NONE-   As/IN   always/RB   ,/,   check/NN   with/IN   your/PRP$   board/NN   vendor/NN   for/IN   specific/JJ   support/NN   details/NNS   ./.)
+----------------------------------
+original sentence: 
+A BIOS update will be required.
+
+POS tagged sentence: 
+[('A', 'DT'), ('BIOS', 'NNP'), ('update', 'NN'), ('will', 'MD'), ('be', 'VB'), ('required', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   (ORGANIZATION BIOS/NNP)   update/NN   will/MD   be/VB   required/VBN   ./.)
+----------------------------------
+original sentence: 
+*** Warning: Altering clock frequency and/or voltage may i reduce system stability and useful life of the system and processor; ii cause the processor and other system components to fail; iii cause reductions in system performance; iv cause additional heat or other damage; and v affect system data integrity.
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('*', '-NONE-'), ('*', '-NONE-'), ('Warning', 'VBG'), (':', ':'), ('Altering', 'VBG'), ('clock', 'NN'), ('frequency', 'NN'), ('and/or', 'NN'), ('voltage', 'NN'), ('may', 'MD'), ('i', 'VB'), ('reduce', 'NN'), ('system', 'NN'), ('stability', 'NN'), ('and', 'CC'), ('useful', 'JJ'), ('life', 'NN'), ('of', 'IN'), ('the', 'DT'), ('system', 'NN'), ('and', 'CC'), ('processor', 'NN'), (';', ':'), ('ii', 'NN'), ('cause', 'NN'), ('the', 'DT'), ('processor', 'NN'), ('and', 'CC'), ('other', 'JJ'), ('system', 'NN'), ('components', 'NNS'), ('to', 'TO'), ('fail', 'VB'), (';', ':'), ('iii', 'NN'), ('cause', 'NN'), ('reductions', 'NNS'), ('in', 'IN'), ('system', 'NN'), ('performance', 'NN'), (';', ':'), ('iv', 'NN'), ('cause', 'NN'), ('additional', 'JJ'), ('heat', 'NN'), ('or', 'CC'), ('other', 'JJ'), ('damage', 'NN'), (';', ':'), ('and', 'CC'), ('v', 'NN'), ('affect', 'NN'), ('system', 'NN'), ('data', 'NNS'), ('integrity', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   */-NONE-   */-NONE-   Warning/VBG   :/:   Altering/VBG   clock/NN   frequency/NN   and/or/NN   voltage/NN   may/MD   i/VB   reduce/NN   system/NN   stability/NN   and/CC   useful/JJ   life/NN   of/IN   the/DT   system/NN   and/CC   processor/NN   ;/:   ii/NN   cause/NN   the/DT   processor/NN   and/CC   other/JJ   system/NN   components/NNS   to/TO   fail/VB   ;/:   iii/NN   cause/NN   reductions/NNS   in/IN   system/NN   performance/NN   ;/:   iv/NN   cause/NN   additional/JJ   heat/NN   or/CC   other/JJ   damage/NN   ;/:   and/CC   v/NN   affect/NN   system/NN   data/NNS   integrity/NN   ./.)
+----------------------------------
+original sentence: 
+Intel has not tested, and does not warranty, the operation of the processor beyond its specifications.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('has', 'VBZ'), ('not', 'RB'), ('tested', 'VBN'), (',', ','), ('and', 'CC'), ('does', 'VBZ'), ('not', 'RB'), ('warranty', 'NN'), (',', ','), ('the', 'DT'), ('operation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('processor', 'NN'), ('beyond', 'NN'), ('its', 'PRP$'), ('specifications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   has/VBZ   not/RB   tested/VBN   ,/,   and/CC   does/VBZ   not/RB   warranty/NN   ,/,   the/DT   operation/NN   of/IN   the/DT   processor/NN   beyond/NN   its/PRP$   specifications/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ not/RB tested/VBN)
+	(VERB does/VBZ not/RB warranty/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN operation/NN)
+	(NOUN processor/NN beyond/NN)
+	(NOUN specifications/NNS)
+
+----------------------------------
+original sentence: 
+World record claim based on comparison of two socket server platforms based on x86 architecture.
+
+POS tagged sentence: 
+[('World', 'NN'), ('record', 'VBD'), ('claim', 'NN'), ('based', 'VBN'), ('on', 'IN'), ('comparison', 'NN'), ('of', 'IN'), ('two', 'CD'), ('socket', 'NN'), ('server', 'NN'), ('platforms', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('x86', 'NNP'), ('architecture', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON World/NN)   record/VBD   claim/NN   based/VBN   on/IN   comparison/NN   of/IN   two/CD   socket/NN   server/NN   platforms/NNS   based/VBN   on/IN   (ORGANIZATION x86/NNP)   architecture/NN   ./.)
+----------------------------------
+original sentence: 
+Performance results based on published/submitted results as of March 16, 2010.
+
+POS tagged sentence: 
+[('Performance', 'NN'), ('results', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('published/submitted', 'JJ'), ('results', 'NNS'), ('as', 'IN'), ('of', 'IN'), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Performance/NN)   results/NNS   based/VBN   on/IN   published/submitted/JJ   results/NNS   as/IN   of/IN   March/NNP   16/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Platform configuration details are available at www.intel.com/performance/server/xeon/summary.htm
+ Performance tests and ratings are measured using specific computer systems and/or components and reflect the approximate performance of Intel products as measured by those tests.
+
+POS tagged sentence: 
+[('Platform', 'NN'), ('configuration', 'NN'), ('details', 'NNS'), ('are', 'VBP'), ('available', 'JJ'), ('at', 'IN'), ('www.intel.com/performance/server/xeon/summary.htm', 'JJ'), ('Performance', 'NNP'), ('tests', 'NNS'), ('and', 'CC'), ('ratings', 'NNS'), ('are', 'VBP'), ('measured', 'VBN'), ('using', 'VBG'), ('specific', 'JJ'), ('computer', 'NN'), ('systems', 'NNS'), ('and/or', 'JJ'), ('components', 'NNS'), ('and', 'CC'), ('reflect', 'VB'), ('the', 'DT'), ('approximate', 'NN'), ('performance', 'NN'), ('of', 'IN'), ('Intel', 'NNP'), ('products', 'NNS'), ('as', 'IN'), ('measured', 'VBN'), ('by', 'IN'), ('those', 'DT'), ('tests', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Platform/NN)   configuration/NN   details/NNS   are/VBP   available/JJ   at/IN   www.intel.com/performance/server/xeon/summary.htm/JJ   Performance/NNP   tests/NNS   and/CC   ratings/NNS   are/VBP   measured/VBN   using/VBG   specific/JJ   computer/NN   systems/NNS   and/or/JJ   components/NNS   and/CC   reflect/VB   the/DT   approximate/NN   performance/NN   of/IN   (ORGANIZATION Intel/NNP)   products/NNS   as/IN   measured/VBN   by/IN   those/DT   tests/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   available/JJ   at/IN   www.intel.com/performance/server/xeon/summary.htm/JJ   Performance/NNP   tests/NNS)
+	(VERB   are/VBP   measured/VBN   using/VBG   specific/JJ   computer/NN   systems/NNS   and/or/JJ   components/NNS)
+	(VERB   reflect/VB   the/DT   approximate/NN   performance/NN   of/IN   Intel/NNP   products/NNS   as/IN)
+	(VERB measured/VBN by/IN those/DT tests/NNS)
+noun phrases to consider:
+	(NOUN Platform/NN configuration/NN details/NNS)
+	(NOUN ratings/NNS)
+
+----------------------------------
+original sentence: 
+Any difference in system hardware or software design or configuration may affect actual performance.
+
+POS tagged sentence: 
+[('Any', 'DT'), ('difference', 'NN'), ('in', 'IN'), ('system', 'NN'), ('hardware', 'NN'), ('or', 'CC'), ('software', 'NN'), ('design', 'NN'), ('or', 'CC'), ('configuration', 'NN'), ('may', 'MD'), ('affect', 'VB'), ('actual', 'JJ'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Any/DT   difference/NN   in/IN   system/NN   hardware/NN   or/CC   software/NN   design/NN   or/CC   configuration/NN   may/MD   affect/VB   actual/JJ   performance/NN   ./.)
+----------------------------------
+original sentence: 
+Buyers should consult other sources of information to evaluate the performance of systems or components they are considering purchasing.
+
+POS tagged sentence: 
+[('Buyers', 'NNS'), ('should', 'MD'), ('consult', 'VB'), ('other', 'JJ'), ('sources', 'NNS'), ('of', 'IN'), ('information', 'NN'), ('to', 'TO'), ('evaluate', 'VB'), ('the', 'DT'), ('performance', 'NN'), ('of', 'IN'), ('systems', 'NNS'), ('or', 'CC'), ('components', 'NNS'), ('they', 'PRP'), ('are', 'VBP'), ('considering', 'VBG'), ('purchasing', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Buyers/NNS   should/MD   consult/VB   other/JJ   sources/NNS   of/IN   information/NN   to/TO   evaluate/VB   the/DT   performance/NN   of/IN   systems/NNS   or/CC   components/NNS   they/PRP   are/VBP   considering/VBG   purchasing/VBG   ./.)
+----------------------------------
+original sentence: 
+For more information on performance tests and on the performance of Intel products, visit www.intel.com/performance/resources/limits.htm
+ or call U.S. 800 628 8686 or 916 356 3104.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('on', 'IN'), ('performance', 'NN'), ('tests', 'NNS'), ('and', 'CC'), ('on', 'IN'), ('the', 'DT'), ('performance', 'NN'), ('of', 'IN'), ('Intel', 'NNP'), ('products', 'NNS'), (',', ','), ('visit', 'NN'), ('www.intel.com/performance/resources/limits.htm', 'NN'), ('or', 'CC'), ('call', 'NN'), ('U.S.', 'NNP'), ('800', 'CD'), ('628', 'CD'), ('8686', 'CD'), ('or', 'CC'), ('916', 'CD'), ('356', 'CD'), ('3104', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   on/IN   performance/NN   tests/NNS   and/CC   on/IN   the/DT   performance/NN   of/IN   (ORGANIZATION Intel/NNP)   products/NNS   ,/,   visit/NN   www.intel.com/performance/resources/limits.htm/NN   or/CC   call/NN   (GPE U.S./NNP)   800/CD   628/CD   8686/CD   or/CC   916/CD   356/CD   3104/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN performance/NN tests/NNS)
+	(NOUN performance/NN)
+	(NOUN Intel/NNP products/NNS)
+	(NOUN visit/NN www.intel.com/performance/resources/limits.htm/NN)
+	(NOUN call/NN U.S./NNP)
+
+----------------------------------
+original sentence: 
+Intel&#174; Virtualization Technology requires a computer system with an enabled Intel&#174; processor, BIOS, virtual machine monitor VMM and, for some uses, certain platform software enabled for it.
+
+POS tagged sentence: 
+[('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Virtualization', 'NNP'), ('Technology', 'NNP'), ('requires', 'VBZ'), ('a', 'DT'), ('computer', 'NN'), ('system', 'NN'), ('with', 'IN'), ('an', 'DT'), ('enabled', 'VBN'), ('Intel&', '-NONE-'), ('#', '#'), ('174', 'CD'), (';', ':'), ('processor', 'NN'), (',', ','), ('BIOS', 'NNP'), (',', ','), ('virtual', 'JJ'), ('machine', 'NN'), ('monitor', 'NN'), ('VMM', 'NNP'), ('and', 'CC'), (',', ','), ('for', 'IN'), ('some', 'DT'), ('uses', 'NNS'), (',', ','), ('certain', 'JJ'), ('platform', 'NN'), ('software', 'NN'), ('enabled', 'VBD'), ('for', 'IN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Intel&/NN   #/#   174/CD   ;/:   (ORGANIZATION Virtualization/NNP Technology/NNP)   requires/VBZ   a/DT   computer/NN   system/NN   with/IN   an/DT   enabled/VBN   Intel&/-NONE-   #/#   174/CD   ;/:   processor/NN   ,/,   (ORGANIZATION BIOS/NNP)   ,/,   virtual/JJ   machine/NN   monitor/NN   (ORGANIZATION VMM/NNP)   and/CC   ,/,   for/IN   some/DT   uses/NNS   ,/,   certain/JJ   platform/NN   software/NN   enabled/VBD   for/IN   it/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB requires/VBZ a/DT computer/NN system/NN with/IN an/DT)
+	(VERB enabled/VBN)
+	(VERB enabled/VBD for/IN it/PRP)
+noun phrases to consider:
+	(NOUN Intel&/NN)
+	(NOUN Virtualization/NNP Technology/NNP)
+	(NOUN processor/NN)
+	(NOUN BIOS/NNP)
+	(NOUN virtual/JJ machine/NN monitor/NN VMM/NNP)
+	(NOUN uses/NNS)
+	(NOUN certain/JJ platform/NN software/NN)
+
+----------------------------------
+original sentence: 
+Functionality, performance or other benefits will vary depending on hardware and software configurations and may require a BIOS update.
+
+POS tagged sentence: 
+[('Functionality', 'NN'), (',', ','), ('performance', 'NN'), ('or', 'CC'), ('other', 'JJ'), ('benefits', 'NNS'), ('will', 'MD'), ('vary', 'VB'), ('depending', 'VBG'), ('on', 'IN'), ('hardware', 'NN'), ('and', 'CC'), ('software', 'NN'), ('configurations', 'NNS'), ('and', 'CC'), ('may', 'MD'), ('require', 'VB'), ('a', 'DT'), ('BIOS', 'NNP'), ('update', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Functionality/NN)   ,/,   performance/NN   or/CC   other/JJ   benefits/NNS   will/MD   vary/VB   depending/VBG   on/IN   hardware/NN   and/CC   software/NN   configurations/NNS   and/CC   may/MD   require/VB   a/DT   (ORGANIZATION BIOS/NNP)   update/NN   ./.)
+----------------------------------
+original sentence: 
+Software applications may not be compatible with all operating systems.
+
+POS tagged sentence: 
+[('Software', 'NN'), ('applications', 'NNS'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('compatible', 'JJ'), ('with', 'IN'), ('all', 'DT'), ('operating', 'VBG'), ('systems', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Software/NN)   applications/NNS   may/MD   not/RB   be/VB   compatible/JJ   with/IN   all/DT   operating/VBG   systems/NNS   ./.)
+----------------------------------
+original sentence: 
+Please check with your application vendor.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('check', 'VBD'), ('with', 'IN'), ('your', 'PRP$'), ('application', 'NN'), ('vendor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   check/VBD   with/IN   your/PRP$   application/NN   vendor/NN   ./.)
+----------------------------------
+original sentence: 
+Intel&#174; Hyper Threading Technology Intel&#174; HT Technology requires a computer system with a processor supporting Intel&#174; HT Technology and an Intel&#174; HT Technology enabled chipset, BIOS, and operating system.
+
+POS tagged sentence: 
+[('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Hyper', 'NNP'), ('Threading', 'NNP'), ('Technology', 'NNP'), ('Intel&', 'NNP'), ('#', '#'), ('174', 'CD'), (';', ':'), ('HT', 'NNP'), ('Technology', 'NNP'), ('requires', 'VBZ'), ('a', 'DT'), ('computer', 'NN'), ('system', 'NN'), ('with', 'IN'), ('a', 'DT'), ('processor', 'NN'), ('supporting', 'VBG'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('HT', 'NNP'), ('Technology', 'NNP'), ('and', 'CC'), ('an', 'DT'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('HT', 'NNP'), ('Technology', 'NNP'), ('enabled', 'VBD'), ('chipset', 'VBN'), (',', ','), ('BIOS', 'NNP'), (',', ','), ('and', 'CC'), ('operating', 'NN'), ('system', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Intel&/NN   #/#   174/CD   ;/:   (PERSON Hyper/NNP Threading/NNP Technology/NNP)   Intel&/NNP   #/#   174/CD   ;/:   (ORGANIZATION HT/NNP Technology/NNP)   requires/VBZ   a/DT   computer/NN   system/NN   with/IN   a/DT   processor/NN   supporting/VBG   Intel&/NN   #/#   174/CD   ;/:   (ORGANIZATION HT/NNP Technology/NNP)   and/CC   an/DT   Intel&/JJ   #/#   174/CD   ;/:   (ORGANIZATION HT/NNP Technology/NNP)   enabled/VBD   chipset/VBN   ,/,   (ORGANIZATION BIOS/NNP)   ,/,   and/CC   operating/NN   system/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   requires/VBZ   a/DT   computer/NN   system/NN   with/IN   a/DT   processor/NN)
+	(VERB supporting/VBG Intel&/NN)
+	(VERB enabled/VBD chipset/VBN)
+noun phrases to consider:
+	(NOUN Intel&/NN)
+	(NOUN Hyper/NNP Threading/NNP Technology/NNP Intel&/NNP)
+	(NOUN HT/NNP Technology/NNP)
+	(NOUN HT/NNP Technology/NNP)
+	(NOUN an/DT Intel&/JJ)
+	(NOUN HT/NNP Technology/NNP)
+	(NOUN BIOS/NNP)
+	(NOUN operating/NN system/NN)
+
+----------------------------------
+original sentence: 
+Performance will vary depending on the specific hardware and software you use.
+
+POS tagged sentence: 
+[('Performance', 'NN'), ('will', 'MD'), ('vary', 'VB'), ('depending', 'VBG'), ('on', 'IN'), ('the', 'DT'), ('specific', 'JJ'), ('hardware', 'NN'), ('and', 'CC'), ('software', 'NN'), ('you', 'PRP'), ('use', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Performance/NN)   will/MD   vary/VB   depending/VBG   on/IN   the/DT   specific/JJ   hardware/NN   and/CC   software/NN   you/PRP   use/VBP   ./.)
+----------------------------------
+original sentence: 
+For more information including details on which processors support Intel&#174; HT Technology, see www.intel.com/products/ht/hyperthreading_more.htm
+ Intel&#174; Turbo Boost Technology requires a Platform with a processor with Intel Turbo Boost Technology capability.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), ('including', 'VBG'), ('details', 'NNS'), ('on', 'IN'), ('which', 'WDT'), ('processors', 'NNS'), ('support', 'VBP'), ('Intel&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('HT', 'NNP'), ('Technology', 'NNP'), (',', ','), ('see', 'VB'), ('www.intel.com/products/ht/hyperthreading_more.htm', 'JJ'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('Turbo', 'NNP'), ('Boost', 'NNP'), ('Technology', 'NNP'), ('requires', 'VBZ'), ('a', 'DT'), ('Platform', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('processor', 'NN'), ('with', 'IN'), ('Intel', 'NNP'), ('Turbo', 'NNP'), ('Boost', 'NNP'), ('Technology', 'NNP'), ('capability', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   including/VBG   details/NNS   on/IN   which/WDT   processors/NNS   support/VBP   Intel&/JJ   #/#   174/CD   ;/:   (ORGANIZATION HT/NNP Technology/NNP)   ,/,   see/VB   www.intel.com/products/ht/hyperthreading_more.htm/JJ   Intel&/NN   #/#   174/CD   ;/:   (PERSON Turbo/NNP Boost/NNP Technology/NNP)   requires/VBZ   a/DT   Platform/NNP   with/IN   a/DT   processor/NN   with/IN   (ORGANIZATION Intel/NNP Turbo/NNP Boost/NNP Technology/NNP)   capability/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB including/VBG details/NNS on/IN)
+	(VERB support/VBP Intel&/JJ)
+	(VERB   see/VB   www.intel.com/products/ht/hyperthreading_more.htm/JJ   Intel&/NN)
+	(VERB   requires/VBZ   a/DT   Platform/NNP   with/IN   a/DT   processor/NN   with/IN   Intel/NNP   Turbo/NNP   Boost/NNP   Technology/NNP   capability/NN)
+
+tagged sentence:
+	 requires a Platform with a processor with Intel Turbo Boost Technology capability	res:1
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN processors/NNS)
+	(NOUN HT/NNP Technology/NNP)
+	(NOUN Turbo/NNP Boost/NNP Technology/NNP)
+
+tagged sentence:
+	 Turbo Boost Technology	res:1
+
+----------------------------------
+original sentence: 
+Intel Turbo Boost Technology performance varies depending on hardware, software and overall system configuration.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Turbo', 'NNP'), ('Boost', 'NNP'), ('Technology', 'NNP'), ('performance', 'NN'), ('varies', 'NNS'), ('depending', 'VBG'), ('on', 'IN'), ('hardware', 'NN'), (',', ','), ('software', 'NN'), ('and', 'CC'), ('overall', 'JJ'), ('system', 'NN'), ('configuration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (PERSON Turbo/NNP Boost/NNP Technology/NNP)   performance/NN   varies/NNS   depending/VBG   on/IN   hardware/NN   ,/,   software/NN   and/CC   overall/JJ   system/NN   configuration/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB depending/VBG on/IN hardware/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP Turbo/NNP Boost/NNP Technology/NNP)
+
+tagged sentence:
+	 Intel Turbo Boost Technology	res:1
+	(NOUN performance/NN varies/NNS)
+	(NOUN software/NN)
+	(NOUN overall/JJ system/NN configuration/NN)
+
+----------------------------------
+original sentence: 
+Check with your platform manufacturer on whether your system delivers Intel Turbo Boost Technology.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('with', 'IN'), ('your', 'PRP$'), ('platform', 'NN'), ('manufacturer', 'NN'), ('on', 'IN'), ('whether', 'IN'), ('your', 'PRP$'), ('system', 'NN'), ('delivers', 'NNS'), ('Intel', 'NNP'), ('Turbo', 'NNP'), ('Boost', 'NNP'), ('Technology', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   with/IN   your/PRP$   platform/NN   manufacturer/NN   on/IN   whether/IN   your/PRP$   system/NN   delivers/NNS   (ORGANIZATION Intel/NNP Turbo/NNP Boost/NNP Technology/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Check/NNP)
+	(NOUN platform/NN manufacturer/NN)
+	(NOUN system/NN delivers/NNS Intel/NNP Turbo/NNP)
+	(NOUN Boost/NNP Technology/NNP)
+
+tagged sentence:
+	 Boost Technology	res:1
+
+----------------------------------
+original sentence: 
+For more information, see www.intel.com/technology/turboboost
+ Intel&#174; processor numbers are not a measure of performance.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('see', 'VB'), ('www.intel.com/technology/turboboost', 'JJ'), ('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('processor', 'NN'), ('numbers', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('a', 'DT'), ('measure', 'NN'), ('of', 'IN'), ('performance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   see/VB   www.intel.com/technology/turboboost/JJ   Intel&/NN   #/#   174/CD   ;/:   processor/NN   numbers/NNS   are/VBP   not/RB   a/DT   measure/NN   of/IN   performance/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB see/VB www.intel.com/technology/turboboost/JJ Intel&/NN)
+	(VERB are/VBP not/RB a/DT measure/NN of/IN performance/NN)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN processor/NN numbers/NNS)
+
+----------------------------------
+original sentence: 
+Processor numbers differentiate features within each processor family, not across different processor families.
+
+POS tagged sentence: 
+[('Processor', 'NNP'), ('numbers', 'NNS'), ('differentiate', 'VBP'), ('features', 'NNS'), ('within', 'IN'), ('each', 'DT'), ('processor', 'NN'), ('family', 'NN'), (',', ','), ('not', 'RB'), ('across', 'IN'), ('different', 'JJ'), ('processor', 'NN'), ('families', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Processor/NNP   numbers/NNS   differentiate/VBP   features/NNS   within/IN   each/DT   processor/NN   family/NN   ,/,   not/RB   across/IN   different/JJ   processor/NN   families/NNS   ./.)
+----------------------------------
+original sentence: 
+See www.intel.com/products/processor_number/
+ for details.
+
+POS tagged sentence: 
+[('See', 'NNP'), ('www.intel.com/products/processor_number/', 'NNP'), ('for', 'IN'), ('details', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON See/NNP)   www.intel.com/products/processor_number//NNP   for/IN   details/NNS   ./.)
+----------------------------------
+original sentence: 
+Intel&#174; products are not intended for use in medical, life saving, life sustaining, critical control or safety systems, or in nuclear facility applications.
+
+POS tagged sentence: 
+[('Intel&', 'NN'), ('#', '#'), ('174', 'CD'), (';', ':'), ('products', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('intended', 'VBN'), ('for', 'IN'), ('use', 'NN'), ('in', 'IN'), ('medical', 'JJ'), (',', ','), ('life', 'NN'), ('saving', 'VBG'), (',', ','), ('life', 'NN'), ('sustaining', 'VBG'), (',', ','), ('critical', 'JJ'), ('control', 'NN'), ('or', 'CC'), ('safety', 'NN'), ('systems', 'NNS'), (',', ','), ('or', 'CC'), ('in', 'IN'), ('nuclear', 'JJ'), ('facility', 'NN'), ('applications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Intel&/NN   #/#   174/CD   ;/:   products/NNS   are/VBP   not/RB   intended/VBN   for/IN   use/NN   in/IN   medical/JJ   ,/,   life/NN   saving/VBG   ,/,   life/NN   sustaining/VBG   ,/,   critical/JJ   control/NN   or/CC   safety/NN   systems/NNS   ,/,   or/CC   in/IN   nuclear/JJ   facility/NN   applications/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP not/RB intended/VBN for/IN use/NN in/IN medical/JJ)
+	(VERB saving/VBG)
+	(VERB sustaining/VBG)
+noun phrases to consider:
+	(NOUN Intel&/NN)
+	(NOUN products/NNS)
+	(NOUN life/NN)
+	(NOUN life/NN)
+	(NOUN critical/JJ control/NN)
+
+tagged sentence:
+	 critical control	res:-1
+	(NOUN safety/NN systems/NNS)
+	(NOUN nuclear/JJ facility/NN applications/NNS)
+
+----------------------------------
+original sentence: 
+All dates and products specified are for planning purposes only and are subject to change without notice.
+
+POS tagged sentence: 
+[('All', 'DT'), ('dates', 'NNS'), ('and', 'CC'), ('products', 'NNS'), ('specified', 'VBN'), ('are', 'VBP'), ('for', 'IN'), ('planning', 'VBG'), ('purposes', 'NNS'), ('only', 'RB'), ('and', 'CC'), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('change', 'VB'), ('without', 'IN'), ('notice', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   dates/NNS   and/CC   products/NNS   specified/VBN   are/VBP   for/IN   planning/VBG   purposes/NNS   only/RB   and/CC   are/VBP   subject/JJ   to/TO   change/VB   without/IN   notice/NN   ./.)
+----------------------------------
+original sentence: 
+Intel does not control or audit the design or implementation of third party benchmarks or Web sites referenced in this document.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('does', 'VBZ'), ('not', 'RB'), ('control', 'NN'), ('or', 'CC'), ('audit', 'NN'), ('the', 'DT'), ('design', 'NN'), ('or', 'CC'), ('implementation', 'NN'), ('of', 'IN'), ('third', 'JJ'), ('party', 'NN'), ('benchmarks', 'NNS'), ('or', 'CC'), ('Web', 'NNP'), ('sites', 'VBZ'), ('referenced', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('document', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   does/VBZ   not/RB   control/NN   or/CC   audit/NN   the/DT   design/NN   or/CC   implementation/NN   of/IN   third/JJ   party/NN   benchmarks/NNS   or/CC   Web/NNP   sites/VBZ   referenced/VBN   in/IN   this/DT   document/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB does/VBZ not/RB control/NN)
+	(VERB sites/VBZ referenced/VBN in/IN this/DT document/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN audit/NN)
+	(NOUN design/NN)
+	(NOUN implementation/NN)
+	(NOUN third/JJ party/NN benchmarks/NNS)
+	(NOUN Web/NNP)
+
+----------------------------------
+original sentence: 
+Intel encourages all of its customers to visit the referenced Web sites or others where similar performance benchmarks are reported and confirm whether the referenced benchmarks are accurate and reflect performance of systems available for purchase.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('encourages', 'VBZ'), ('all', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('customers', 'NNS'), ('to', 'TO'), ('visit', 'VB'), ('the', 'DT'), ('referenced', 'VBN'), ('Web', 'NNP'), ('sites', 'NNS'), ('or', 'CC'), ('others', 'NNS'), ('where', 'WRB'), ('similar', 'JJ'), ('performance', 'NN'), ('benchmarks', 'NNS'), ('are', 'VBP'), ('reported', 'VBN'), ('and', 'CC'), ('confirm', 'NN'), ('whether', 'IN'), ('the', 'DT'), ('referenced', 'VBN'), ('benchmarks', 'NNS'), ('are', 'VBP'), ('accurate', 'JJ'), ('and', 'CC'), ('reflect', 'NN'), ('performance', 'NN'), ('of', 'IN'), ('systems', 'NNS'), ('available', 'JJ'), ('for', 'IN'), ('purchase', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   encourages/VBZ   all/DT   of/IN   its/PRP$   customers/NNS   to/TO   visit/VB   the/DT   referenced/VBN   Web/NNP   sites/NNS   or/CC   others/NNS   where/WRB   similar/JJ   performance/NN   benchmarks/NNS   are/VBP   reported/VBN   and/CC   confirm/NN   whether/IN   the/DT   referenced/VBN   benchmarks/NNS   are/VBP   accurate/JJ   and/CC   reflect/NN   performance/NN   of/IN   systems/NNS   available/JJ   for/IN   purchase/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB encourages/VBZ all/DT of/IN its/PRP$ customers/NNS)
+
+tagged sentence:
+	 encourages all of its customers	res:1
+	(VERB visit/VB the/DT)
+	(VERB referenced/VBN Web/NNP sites/NNS)
+	(VERB are/VBP reported/VBN)
+	(VERB referenced/VBN benchmarks/NNS)
+	(VERB are/VBP accurate/JJ)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN others/NNS)
+	(NOUN similar/JJ performance/NN benchmarks/NNS)
+	(NOUN confirm/NN)
+	(NOUN reflect/NN performance/NN)
+	(NOUN systems/NNS available/JJ)
+	(NOUN purchase/NN)
+
+tagged sentence:
+	 purchase	res:2
+
+----------------------------------
+original sentence: 
+Contacts  Intel Corporation
+Office: 408 653 5324
+Mobile: 408 250 7265
+nick.knupffer@intel.com
+ http://www.businesswire.com/news/home/20100316005652/en/Intel Launches Secure Data Center Processor
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Contacts', 'NNS'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Office', 'NNP'), (':', ':'), ('408', 'CD'), ('653', 'CD'), ('5324', 'CD'), ('Mobile', 'NNP'), (':', ':'), ('408', 'CD'), ('250', 'CD'), ('7265', 'CD'), ('nick.knupffer', 'JJ'), ('@', 'NN'), ('intel.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100316005652/en/Intel', 'JJ'), ('Launches', 'NNS'), ('Secure', 'NNP'), ('Data', 'NNP'), ('Center', 'NNP'), ('Processor', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Contacts/NNS   (ORGANIZATION Intel/NNP Corporation/NNP)   Office/NNP   :/:   408/CD   653/CD   5324/CD   Mobile/NNP   :/:   408/CD   250/CD   7265/CD   nick.knupffer/JJ   @/NN   intel.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100316005652/en/Intel/JJ   Launches/NNS   (ORGANIZATION Secure/NNP Data/NNP Center/NNP)   Processor/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Contacts/NNS Intel/NNP Corporation/NNP Office/NNP)
+	(NOUN 5324/CD Mobile/NNP)
+	(NOUN 7265/CD nick.knupffer/JJ @/NN intel.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100316005652/en/Intel/JJ   Launches/NNS   Secure/NNP   Data/NNP   Center/NNP)
+	(NOUN Processor/NNP Company/NNP Information/NNP Center/NNP)
+	(NOUN More/NNP Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:2	pos:28	verypos:1	total:16

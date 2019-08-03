@@ -1,0 +1,391 @@
+
+----------------------------------
+original sentence: 
+Potash Corp.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Potash/NNP) (ORGANIZATION Corp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Potash/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Guides Higher Zacks.com
+     Free Stock Screener  Find winning stocks with our new and improved .
+
+POS tagged sentence: 
+[('Guides', 'NNP'), ('Higher', 'NNP'), ('Zacks.com', 'NNP'), ('Free', 'NNP'), ('Stock', 'NNP'), ('Screener', 'NNP'), ('Find', 'NNP'), ('winning', 'NN'), ('stocks', 'NNS'), ('with', 'IN'), ('our', 'PRP$'), ('new', 'JJ'), ('and', 'CC'), ('improved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Guides/NNP)   (PERSON Higher/NNP)   Zacks.com/NNP   Free/NNP   Stock/NNP   Screener/NNP   Find/NNP   winning/NN   stocks/NNS   with/IN   our/PRP$   new/JJ   and/CC   improved/VBN   ./.)
+----------------------------------
+original sentence: 
+Now more powerful, easier to use, but still free.
+
+POS tagged sentence: 
+[('Now', 'RB'), ('more', 'JJR'), ('powerful', 'JJ'), (',', ','), ('easier', 'JJR'), ('to', 'TO'), ('use', 'VB'), (',', ','), ('but', 'CC'), ('still', 'RB'), ('free', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Now/RB   more/JJR   powerful/JJ   ,/,   easier/JJR   to/TO   use/VB   ,/,   but/CC   still/RB   free/JJ   ./.)
+----------------------------------
+original sentence: 
+Sponsored Links  Potash Corp.
+
+POS tagged sentence: 
+[('Sponsored', 'NNP'), ('Links', 'NNP'), ('Potash', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Sponsored/NNP) (PERSON Links/NNP Potash/NNP Corp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Sponsored/NNP Links/NNP Potash/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Guides Higher
+ By: Zacks Equity Research  March 15, 2010 | Recommended this article  Potash Corporation of Saskatchewan
+ , the world's largest fertilizer manufacturer, has recently raised its first quarter 2010 forecast.
+
+POS tagged sentence: 
+[('Guides', 'NNP'), ('Higher', 'NNP'), ('By', 'NNP'), (':', ':'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), ('March', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), ('|', ':'), ('Recommended', 'NNP'), ('this', 'DT'), ('article', 'NN'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), (',', ','), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('largest', 'JJS'), ('fertilizer', 'NN'), ('manufacturer', 'NN'), (',', ','), ('has', 'VBZ'), ('recently', 'RB'), ('raised', 'VBN'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('2010', 'CD'), ('forecast', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Guides/NNP)   Higher/NNP   By/NNP   :/:   (PERSON Zacks/NNP Equity/NNP Research/NNP)   March/NNP   15/CD   ,/,   2010/CD   |/:   Recommended/NNP   this/DT   article/NN   (PERSON Potash/NNP Corporation/NNP)   of/IN   (GPE Saskatchewan/NNP)   ,/,   the/DT   world/NN   's/POS   largest/JJS   fertilizer/NN   manufacturer/NN   ,/,   has/VBZ   recently/RB   raised/VBN   its/PRP$   first/JJ   quarter/NN   2010/CD   forecast/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   recently/RB   raised/VBN   its/PRP$   first/JJ   quarter/NN   2010/CD   forecast/NN)
+noun phrases to consider:
+	(NOUN Guides/NNP Higher/NNP By/NNP)
+	(NOUN Zacks/NNP Equity/NNP Research/NNP March/NNP)
+	(NOUN Recommended/NNP)
+	(NOUN article/NN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP)
+	(NOUN world/NN)
+	(NOUN largest/JJS fertilizer/NN manufacturer/NN)
+
+----------------------------------
+original sentence: 
+Potash Corp now expects its first quarter earnings to be in the range of $1.30 to $1.50 per share, above its prior forecast of 70 cents to $1 per share.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp', 'NNP'), ('now', 'RB'), ('expects', 'VBZ'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('1.30', 'CD'), ('to', 'TO'), ('$', '$'), ('1.50', 'CD'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('above', 'IN'), ('its', 'PRP$'), ('prior', 'JJ'), ('forecast', 'NN'), ('of', 'IN'), ('70', 'CD'), ('cents', 'NNS'), ('to', 'TO'), ('$', '$'), ('1', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corp/NNP)   now/RB   expects/VBZ   its/PRP$   first/JJ   quarter/NN   earnings/NNS   to/TO   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   1.30/CD   to/TO   $/$   1.50/CD   per/IN   share/NN   ,/,   above/IN   its/PRP$   prior/JJ   forecast/NN   of/IN   70/CD   cents/NNS   to/TO   $/$   1/CD   per/IN   share/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expects/VBZ its/PRP$ first/JJ quarter/NN earnings/NNS)
+	(VERB be/VB in/IN the/DT range/NN of/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corp/NNP)
+	(NOUN share/NN)
+	(NOUN prior/JJ forecast/NN)
+	(NOUN 70/CD cents/NNS)
+	(NOUN share/NN)
+
+----------------------------------
+original sentence: 
+The upward revision reflects a sharp rebound in potash demand, which is expected to drive a record quarter for North American sales volumes and strong offshore shipments, as well as higher than expected margins in nitrogen and phosphate.
+
+POS tagged sentence: 
+[('The', 'DT'), ('upward', 'NN'), ('revision', 'NN'), ('reflects', 'VBZ'), ('a', 'DT'), ('sharp', 'JJ'), ('rebound', 'NN'), ('in', 'IN'), ('potash', 'NN'), ('demand', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('drive', 'VB'), ('a', 'DT'), ('record', 'NN'), ('quarter', 'NN'), ('for', 'IN'), ('North', 'NNP'), ('American', 'NNP'), ('sales', 'NNS'), ('volumes', 'VBZ'), ('and', 'CC'), ('strong', 'JJ'), ('offshore', 'NN'), ('shipments', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('higher', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('margins', 'NNS'), ('in', 'IN'), ('nitrogen', 'NN'), ('and', 'CC'), ('phosphate', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   upward/NN   revision/NN   reflects/VBZ   a/DT   sharp/JJ   rebound/NN   in/IN   potash/NN   demand/NN   ,/,   which/WDT   is/VBZ   expected/VBN   to/TO   drive/VB   a/DT   record/NN   quarter/NN   for/IN   (GPE North/NNP American/NNP)   sales/NNS   volumes/VBZ   and/CC   strong/JJ   offshore/NN   shipments/NNS   ,/,   as/IN   well/RB   as/IN   higher/JJR   than/IN   expected/VBN   margins/NNS   in/IN   nitrogen/NN   and/CC   phosphate/VB   ./.)
+----------------------------------
+original sentence: 
+The increased demand was the result of strong farm returns, limited supplies at distributors and the agricultural need to replace soil nutrients after a period of lower demand in 2009.
+
+POS tagged sentence: 
+[('The', 'DT'), ('increased', 'VBN'), ('demand', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('result', 'NN'), ('of', 'IN'), ('strong', 'JJ'), ('farm', 'NN'), ('returns', 'NNS'), (',', ','), ('limited', 'VBN'), ('supplies', 'NNS'), ('at', 'IN'), ('distributors', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('agricultural', 'JJ'), ('need', 'NN'), ('to', 'TO'), ('replace', 'VB'), ('soil', 'NN'), ('nutrients', 'NNS'), ('after', 'IN'), ('a', 'DT'), ('period', 'NN'), ('of', 'IN'), ('lower', 'JJR'), ('demand', 'NN'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   increased/VBN   demand/NN   was/VBD   the/DT   result/NN   of/IN   strong/JJ   farm/NN   returns/NNS   ,/,   limited/VBN   supplies/NNS   at/IN   distributors/NNS   and/CC   the/DT   agricultural/JJ   need/NN   to/TO   replace/VB   soil/NN   nutrients/NNS   after/IN   a/DT   period/NN   of/IN   lower/JJR   demand/NN   in/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+In January this year, Potash Corporation had issued a cautious guidance after it was forced to repeatedly revise down its 2009 outlook in the face of weak potash demand.
+
+POS tagged sentence: 
+[('In', 'IN'), ('January', 'NNP'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('had', 'VBD'), ('issued', 'VBN'), ('a', 'DT'), ('cautious', 'JJ'), ('guidance', 'NN'), ('after', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('forced', 'VBN'), ('to', 'TO'), ('repeatedly', 'RB'), ('revise', 'VB'), ('down', 'IN'), ('its', 'PRP$'), ('2009', 'CD'), ('outlook', 'NN'), ('in', 'IN'), ('the', 'DT'), ('face', 'NN'), ('of', 'IN'), ('weak', 'JJ'), ('potash', 'NN'), ('demand', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   January/NNP   this/DT   year/NN   ,/,   (PERSON Potash/NNP Corporation/NNP)   had/VBD   issued/VBN   a/DT   cautious/JJ   guidance/NN   after/IN   it/PRP   was/VBD   forced/VBN   to/TO   repeatedly/RB   revise/VB   down/IN   its/PRP$   2009/CD   outlook/NN   in/IN   the/DT   face/NN   of/IN   weak/JJ   potash/NN   demand/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   had/VBD   issued/VBN   a/DT   cautious/JJ   guidance/NN   after/IN   it/PRP)
+	(VERB was/VBD forced/VBN)
+
+tagged sentence:
+	 was forced	res:-1
+	(VERB   revise/VB   down/IN   its/PRP$   2009/CD   outlook/NN   in/IN   the/DT   face/NN   of/IN   weak/JJ   potash/NN   demand/NN)
+
+tagged sentence:
+	 revise down its 2009 outlook in the face of weak potash demand	res:-1
+noun phrases to consider:
+	(NOUN January/NNP)
+	(NOUN year/NN)
+	(NOUN Potash/NNP Corporation/NNP)
+
+----------------------------------
+original sentence: 
+At the time, the forecast was well below market expectations and its shares fell as much as 8%.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('time', 'NN'), (',', ','), ('the', 'DT'), ('forecast', 'NN'), ('was', 'VBD'), ('well', 'RB'), ('below', 'IN'), ('market', 'NN'), ('expectations', 'NNS'), ('and', 'CC'), ('its', 'PRP$'), ('shares', 'NNS'), ('fell', 'VBD'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('8', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   time/NN   ,/,   the/DT   forecast/NN   was/VBD   well/RB   below/IN   market/NN   expectations/NNS   and/CC   its/PRP$   shares/NNS   fell/VBD   as/IN   much/JJ   as/IN   8/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Last month, Canpotex, the potash export arm of Potash Corporation, Mosaic MOS and Agrium AGU , signed potash supply deals with Indian and Chinese buyers.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('month', 'NN'), (',', ','), ('Canpotex', 'NNP'), (',', ','), ('the', 'DT'), ('potash', 'NN'), ('export', 'NN'), ('arm', 'NN'), ('of', 'IN'), ('Potash', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Mosaic', 'NNP'), ('MOS', 'NNP'), ('and', 'CC'), ('Agrium', 'NNP'), ('AGU', 'NNP'), (',', ','), ('signed', 'VBD'), ('potash', 'NN'), ('supply', 'NN'), ('deals', 'NNS'), ('with', 'IN'), ('Indian', 'JJ'), ('and', 'CC'), ('Chinese', 'JJ'), ('buyers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   month/NN   ,/,   (GPE Canpotex/NNP)   ,/,   the/DT   potash/NN   export/NN   arm/NN   of/IN   (ORGANIZATION Potash/NNP Corporation/NNP)   ,/,   (PERSON Mosaic/NNP MOS/NNP)   and/CC   (PERSON Agrium/NNP AGU/NNP)   ,/,   signed/VBD   potash/NN   supply/NN   deals/NNS   with/IN   (GPE Indian/JJ)   and/CC   (GPE Chinese/JJ)   buyers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB signed/VBD potash/NN supply/NN deals/NNS with/IN Indian/JJ)
+noun phrases to consider:
+	(NOUN Last/JJ month/NN)
+	(NOUN Canpotex/NNP)
+	(NOUN potash/NN export/NN arm/NN)
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Mosaic/NNP MOS/NNP)
+	(NOUN Agrium/NNP AGU/NNP)
+	(NOUN Chinese/JJ buyers/NNS)
+
+----------------------------------
+original sentence: 
+China, India, Brazil and the U.S. account for roughly 65% of the world's potash demand, while Canada, Russia and Belarus together account for the vast majority of global supply.
+
+POS tagged sentence: 
+[('China', 'NNP'), (',', ','), ('India', 'NNP'), (',', ','), ('Brazil', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('U.S.', 'NNP'), ('account', 'NN'), ('for', 'IN'), ('roughly', 'RB'), ('65', 'CD'), ('%', 'NN'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('potash', 'NN'), ('demand', 'NN'), (',', ','), ('while', 'IN'), ('Canada', 'NNP'), (',', ','), ('Russia', 'NNP'), ('and', 'CC'), ('Belarus', 'NNP'), ('together', 'RB'), ('account', 'NN'), ('for', 'IN'), ('the', 'DT'), ('vast', 'JJ'), ('majority', 'NN'), ('of', 'IN'), ('global', 'JJ'), ('supply', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE China/NNP)   ,/,   (GPE India/NNP)   ,/,   (PERSON Brazil/NNP)   and/CC   the/DT   (GPE U.S./NNP)   account/NN   for/IN   roughly/RB   65/CD   %/NN   of/IN   the/DT   world/NN   's/POS   potash/NN   demand/NN   ,/,   while/IN   (GPE Canada/NNP)   ,/,   (GPE Russia/NNP)   and/CC   (GPE Belarus/NNP)   together/RB   account/NN   for/IN   the/DT   vast/JJ   majority/NN   of/IN   global/JJ   supply/NN   ./.)
+----------------------------------
+original sentence: 
+Indicating that both distributors and growers are reverting to their traditional buying habits, prices of potash in the U.S. have edged up in the recent days to $425&minus;$450 per ton.
+
+POS tagged sentence: 
+[('Indicating', 'VBG'), ('that', 'IN'), ('both', 'DT'), ('distributors', 'NNS'), ('and', 'CC'), ('growers', 'NNS'), ('are', 'VBP'), ('reverting', 'VBG'), ('to', 'TO'), ('their', 'PRP$'), ('traditional', 'JJ'), ('buying', 'NN'), ('habits', 'NNS'), (',', ','), ('prices', 'NNS'), ('of', 'IN'), ('potash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('have', 'VBP'), ('edged', 'VBN'), ('up', 'IN'), ('in', 'IN'), ('the', 'DT'), ('recent', 'JJ'), ('days', 'NNS'), ('to', 'TO'), ('$', '$'), ('425&minus', 'CD'), (';', ':'), ('$', '$'), ('450', 'CD'), ('per', 'IN'), ('ton', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Indicating/VBG   that/IN   both/DT   distributors/NNS   and/CC   growers/NNS   are/VBP   reverting/VBG   to/TO   their/PRP$   traditional/JJ   buying/NN   habits/NNS   ,/,   prices/NNS   of/IN   potash/NN   in/IN   the/DT   (GPE U.S./NNP)   have/VBP   edged/VBN   up/IN   in/IN   the/DT   recent/JJ   days/NNS   to/TO   $/$   425&minus/CD   ;/:   $/$   450/CD   per/IN   ton/NN   ./.)
+----------------------------------
+original sentence: 
+Potash Corporation reiterated its positive long term view on the potash market and remains committed to its plans to increase capacity from the current 11.5 million tons level to 18 million tons by 2015.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('reiterated', 'VBD'), ('its', 'PRP$'), ('positive', 'JJ'), ('long', 'JJ'), ('term', 'NN'), ('view', 'NN'), ('on', 'IN'), ('the', 'DT'), ('potash', 'NN'), ('market', 'NN'), ('and', 'CC'), ('remains', 'VBZ'), ('committed', 'VBN'), ('to', 'TO'), ('its', 'PRP$'), ('plans', 'NNS'), ('to', 'TO'), ('increase', 'VB'), ('capacity', 'NN'), ('from', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('11.5', 'CD'), ('million', 'CD'), ('tons', 'NNS'), ('level', 'NN'), ('to', 'TO'), ('18', 'CD'), ('million', 'CD'), ('tons', 'NNS'), ('by', 'IN'), ('2015', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   reiterated/VBD   its/PRP$   positive/JJ   long/JJ   term/NN   view/NN   on/IN   the/DT   potash/NN   market/NN   and/CC   remains/VBZ   committed/VBN   to/TO   its/PRP$   plans/NNS   to/TO   increase/VB   capacity/NN   from/IN   the/DT   current/JJ   11.5/CD   million/CD   tons/NNS   level/NN   to/TO   18/CD   million/CD   tons/NNS   by/IN   2015/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   reiterated/VBD   its/PRP$   positive/JJ   long/JJ   term/NN   view/NN   on/IN   the/DT   potash/NN   market/NN)
+	(VERB remains/VBZ committed/VBN)
+	(VERB   increase/VB   capacity/NN   from/IN   the/DT   current/JJ   11.5/CD   million/CD   tons/NNS   level/NN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN plans/NNS)
+	(NOUN million/CD tons/NNS)
+
+----------------------------------
+original sentence: 
+Potash Corporation is scheduled to release its first quarter results on April 29.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('is', 'VBZ'), ('scheduled', 'VBN'), ('to', 'TO'), ('release', 'VB'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('on', 'IN'), ('April', 'NNP'), ('29', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   is/VBZ   scheduled/VBN   to/TO   release/VB   its/PRP$   first/JJ   quarter/NN   results/NNS   on/IN   April/NNP   29/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ scheduled/VBN)
+	(VERB   release/VB   its/PRP$   first/JJ   quarter/NN   results/NNS   on/IN   April/NNP   29/CD)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+
+----------------------------------
+original sentence: 
+Free Stock Analysis From Zacks
+Includes Zacks Long Term Recommendation and Target Price
+Disclosure / Disclaimer Link
+ANALYST BLOG ARCHIVE
+Zacks Blog: Zacks #1 Rank Additions for Thursday Zacks Equity Research: Report For POT
+Zacks Blog: Company News for March 5, 2010
+Zacks Blog: Zacks Analyst Blog Highlights: Potash, Kinross Gold, Agrium, Research In Motion and Rogers Communications
+Zacks Blog: An Olympian #1 Canadian Stock
+Recommended this article  Best Stocks.
+
+POS tagged sentence: 
+[('Free', 'NNP'), ('Stock', 'NNP'), ('Analysis', 'NNP'), ('From', 'NNP'), ('Zacks', 'NNP'), ('Includes', 'NNP'), ('Zacks', 'NNP'), ('Long', 'NNP'), ('Term', 'NNP'), ('Recommendation', 'NNP'), ('and', 'CC'), ('Target', 'NNP'), ('Price', 'NNP'), ('Disclosure', 'NNP'), ('/', 'NNP'), ('Disclaimer', 'NNP'), ('Link', 'NNP'), ('ANALYST', 'NNP'), ('BLOG', 'NNP'), ('ARCHIVE', 'NNP'), ('Zacks', 'NNP'), ('Blog', 'NNP'), (':', ':'), ('Zacks', 'NNS'), ('#', '#'), ('1', 'CD'), ('Rank', 'NNP'), ('Additions', 'NNP'), ('for', 'IN'), ('Thursday', 'NNP'), ('Zacks', 'NNP'), ('Equity', 'NNP'), ('Research', 'NNP'), (':', ':'), ('Report', 'NNP'), ('For', 'NNP'), ('POT', 'NNP'), ('Zacks', 'NNP'), ('Blog', 'NNP'), (':', ':'), ('Company', 'NNP'), ('News', 'NNP'), ('for', 'IN'), ('March', 'NNP'), ('5', 'CD'), (',', ','), ('2010', 'CD'), ('Zacks', 'NNS'), ('Blog', 'NNP'), (':', ':'), ('Zacks', 'NNS'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Highlights', 'NNP'), (':', ':'), ('Potash', 'NNP'), (',', ','), ('Kinross', 'NNP'), ('Gold', 'NNP'), (',', ','), ('Agrium', 'NNP'), (',', ','), ('Research', 'NNP'), ('In', 'NNP'), ('Motion', 'NNP'), ('and', 'CC'), ('Rogers', 'NNP'), ('Communications', 'NNPS'), ('Zacks', 'NNP'), ('Blog', 'NNP'), (':', ':'), ('An', 'DT'), ('Olympian', 'JJ'), ('#', '#'), ('1', 'CD'), ('Canadian', 'JJ'), ('Stock', 'NNP'), ('Recommended', 'NNP'), ('this', 'DT'), ('article', 'NN'), ('Best', 'NNP'), ('Stocks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Free/NNP)   (PERSON Stock/NNP Analysis/NNP)   From/NNP   (PERSON Zacks/NNP Includes/NNP Zacks/NNP Long/NNP Term/NNP)   Recommendation/NNP   and/CC   (PERSON Target/NNP Price/NNP Disclosure/NNP)   //NNP   Disclaimer/NNP   (PERSON Link/NNP ANALYST/NNP)   (ORGANIZATION BLOG/NNP)   ARCHIVE/NNP   (PERSON Zacks/NNP Blog/NNP)   :/:   Zacks/NNS   #/#   1/CD   (ORGANIZATION Rank/NNP Additions/NNP)   for/IN   Thursday/NNP   (PERSON Zacks/NNP Equity/NNP Research/NNP)   :/:   Report/NNP   For/NNP   POT/NNP   (PERSON Zacks/NNP Blog/NNP)   :/:   (ORGANIZATION Company/NNP News/NNP)   for/IN   March/NNP   5/CD   ,/,   2010/CD   Zacks/NNS   (PERSON Blog/NNP)   :/:   Zacks/NNS   (PERSON Analyst/NNP Blog/NNP Highlights/NNP)   :/:   (PERSON Potash/NNP)   ,/,   (PERSON Kinross/NNP Gold/NNP)   ,/,   (GPE Agrium/NNP)   ,/,   (PERSON Research/NNP In/NNP Motion/NNP)   and/CC   (ORGANIZATION Rogers/NNP Communications/NNPS Zacks/NNP)   Blog/NNP   :/:   An/DT   Olympian/JJ   #/#   1/CD   (GPE Canadian/JJ)   Stock/NNP   Recommended/NNP   this/DT   article/NN   (PERSON Best/NNP Stocks/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Free/NNP Stock/NNP Analysis/NNP From/NNP)
+	(NOUN Zacks/NNP Includes/NNP Zacks/NNP Long/NNP)
+	(NOUN Term/NNP Recommendation/NNP)
+	(NOUN Target/NNP Price/NNP Disclosure/NNP //NNP)
+	(NOUN Disclaimer/NNP Link/NNP ANALYST/NNP BLOG/NNP)
+	(NOUN ARCHIVE/NNP Zacks/NNP Blog/NNP)
+	(NOUN Zacks/NNS)
+	(NOUN 1/CD Rank/NNP Additions/NNP)
+	(NOUN Thursday/NNP Zacks/NNP Equity/NNP Research/NNP)
+	(NOUN Report/NNP For/NNP POT/NNP Zacks/NNP)
+	(NOUN Blog/NNP)
+	(NOUN Company/NNP News/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Zacks/NNS Blog/NNP)
+	(NOUN Zacks/NNS Analyst/NNP Blog/NNP Highlights/NNP)
+	(NOUN Potash/NNP)
+	(NOUN Kinross/NNP Gold/NNP)
+	(NOUN Agrium/NNP)
+	(NOUN Research/NNP In/NNP Motion/NNP)
+	(NOUN Rogers/NNP Communications/NNPS Zacks/NNP Blog/NNP)
+	(NOUN An/DT Olympian/JJ)
+	(NOUN 1/CD Canadian/JJ Stock/NNP Recommended/NNP)
+	(NOUN article/NN Best/NNP Stocks/NNP)
+
+----------------------------------
+original sentence: 
+Best Insight.
+
+POS tagged sentence: 
+[('Best', 'JJS'), ('Insight', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Best/JJS Insight/NNP ./.)
+----------------------------------
+original sentence: 
+Join Now...it's FREE!
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('Now...it', 'NN'), ("'s", 'POS'), ('FREE', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (GPE Join/NNP) Now...it/NN 's/POS (ORGANIZATION FREE/NNP) !/.)
+----------------------------------
+original sentence: 
+Over 550,000 investors look forward to the timely insights in our email newsletter; Zacks Profit from the Pros.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('550,000', 'CD'), ('investors', 'NNS'), ('look', 'VBP'), ('forward', 'RB'), ('to', 'TO'), ('the', 'DT'), ('timely', 'JJ'), ('insights', 'NNS'), ('in', 'IN'), ('our', 'PRP$'), ('email', 'NN'), ('newsletter', 'NN'), (';', ':'), ('Zacks', 'NNP'), ('Profit', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   550,000/CD   investors/NNS   look/VBP   forward/RB   to/TO   the/DT   timely/JJ   insights/NNS   in/IN   our/PRP$   email/NN   newsletter/NN   ;/:   (PERSON Zacks/NNP Profit/NNP)   from/IN   the/DT   Pros/NNP   ./.)
+----------------------------------
+original sentence: 
+In each daily issue you will find: Zacks FREE Registration
+" /> See the Most Recent Issue
+More Zacks Resources
+Evaluate your stocks and use the Zacks Rank to eliminate the losers and keep the winners.
+
+POS tagged sentence: 
+[('In', 'IN'), ('each', 'DT'), ('daily', 'JJ'), ('issue', 'NN'), ('you', 'PRP'), ('will', 'MD'), ('find', 'VB'), (':', ':'), ('Zacks', 'NNS'), ('FREE', 'VBP'), ('Registration', 'NNP'), ('"', 'NNP'), ('/', 'NNP'), ('>', 'NNP'), ('See', 'NNP'), ('the', 'DT'), ('Most', 'NNP'), ('Recent', 'NNP'), ('Issue', 'NNP'), ('More', 'NNP'), ('Zacks', 'NNP'), ('Resources', 'NNPS'), ('Evaluate', 'NNP'), ('your', 'PRP$'), ('stocks', 'NNS'), ('and', 'CC'), ('use', 'VB'), ('the', 'DT'), ('Zacks', 'NNP'), ('Rank', 'NNP'), ('to', 'TO'), ('eliminate', 'VB'), ('the', 'DT'), ('losers', 'NNS'), ('and', 'CC'), ('keep', 'VB'), ('the', 'DT'), ('winners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   each/DT   daily/JJ   issue/NN   you/PRP   will/MD   find/VB   :/:   Zacks/NNS   FREE/VBP   Registration/NNP   "/NNP   //NNP   >/NNP   See/NNP   the/DT   (ORGANIZATION Most/NNP)   Recent/NNP   Issue/NNP   More/NNP   Zacks/NNP   Resources/NNPS   Evaluate/NNP   your/PRP$   stocks/NNS   and/CC   use/VB   the/DT   (ORGANIZATION Zacks/NNP Rank/NNP)   to/TO   eliminate/VB   the/DT   losers/NNS   and/CC   keep/VB   the/DT   winners/NNS   ./.)
+----------------------------------
+original sentence: 
+Mutual Fund Rank Home
+Evaluate your funds with the Mutual Fund Rank for both your personal and retirement funds.
+
+POS tagged sentence: 
+[('Mutual', 'JJ'), ('Fund', 'NN'), ('Rank', 'NNP'), ('Home', 'NNP'), ('Evaluate', 'NNP'), ('your', 'PRP$'), ('funds', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('Mutual', 'NNP'), ('Fund', 'NNP'), ('Rank', 'NNP'), ('for', 'IN'), ('both', 'DT'), ('your', 'PRP$'), ('personal', 'JJ'), ('and', 'CC'), ('retirement', 'NN'), ('funds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mutual/JJ)   (ORGANIZATION Fund/NN Rank/NNP Home/NNP)   Evaluate/NNP   your/PRP$   funds/NNS   with/IN   the/DT   (ORGANIZATION Mutual/NNP Fund/NNP Rank/NNP)   for/IN   both/DT   your/PRP$   personal/JJ   and/CC   retirement/NN   funds/NNS   ./.)
+----------------------------------
+original sentence: 
+Stock/Mutual Fund Screening
+Find better stocks and mutual funds.
+
+POS tagged sentence: 
+[('Stock/Mutual', 'JJ'), ('Fund', 'NN'), ('Screening', 'NNP'), ('Find', 'NNP'), ('better', 'JJR'), ('stocks', 'NNS'), ('and', 'CC'), ('mutual', 'JJ'), ('funds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stock/Mutual/JJ   Fund/NN   Screening/NNP   Find/NNP   better/JJR   stocks/NNS   and/CC   mutual/JJ   funds/NNS   ./.)
+----------------------------------
+original sentence: 
+The ones most likely to beat the market and provide a positive return.
+
+POS tagged sentence: 
+[('The', 'DT'), ('ones', 'NNS'), ('most', 'JJS'), ('likely', 'JJ'), ('to', 'TO'), ('beat', 'VB'), ('the', 'DT'), ('market', 'NN'), ('and', 'CC'), ('provide', 'VB'), ('a', 'DT'), ('positive', 'JJ'), ('return', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   ones/NNS   most/JJS   likely/JJ   to/TO   beat/VB   the/DT   market/NN   and/CC   provide/VB   a/DT   positive/JJ   return/NN   ./.)
+----------------------------------
+original sentence: 
+Track your Portfolio and find out where your stocks/mutual funds stack up with the Zacks Rank.
+
+POS tagged sentence: 
+[('Track', 'NNP'), ('your', 'PRP$'), ('Portfolio', 'NNP'), ('and', 'CC'), ('find', 'VB'), ('out', 'RP'), ('where', 'WRB'), ('your', 'PRP$'), ('stocks/mutual', 'JJ'), ('funds', 'NNS'), ('stack', 'VBP'), ('up', 'RP'), ('with', 'IN'), ('the', 'DT'), ('Zacks', 'NNS'), ('Rank', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Track/NNP   your/PRP$   (GPE Portfolio/NNP)   and/CC   find/VB   out/RP   where/WRB   your/PRP$   stocks/mutual/JJ   funds/NNS   stack/VBP   up/RP   with/IN   the/DT   (ORGANIZATION Zacks/NNS Rank/NNP)   ./.)
+----------------------------------
+original sentence: 
+Profit from the Pros
+Apr 23, 2010 16:45 pm ET
+Profit from the Pros
+Subscription Services
+Chart Patterns Trader
+Copyright 2009 Zacks Investment Research  Zacks Investment Research is one of the most highly regarded firms in the investment industry.
+
+POS tagged sentence: 
+[('Profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('Apr', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('16', 'CD'), (':', ':'), ('45', 'CD'), ('pm', 'NN'), ('ET', 'NNP'), ('Profit', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Pros', 'NNP'), ('Subscription', 'NNP'), ('Services', 'NNPS'), ('Chart', 'NNP'), ('Patterns', 'NNP'), ('Trader', 'NNP'), ('Copyright', 'NNP'), ('2009', 'CD'), ('Zacks', 'NNS'), ('Investment', 'NNP'), ('Research', 'NNP'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), ('is', 'VBZ'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('highly', 'RB'), ('regarded', 'VBN'), ('firms', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('investment', 'NN'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Profit/NN)   from/IN   the/DT   (ORGANIZATION Pros/NNP)   Apr/NNP   23/CD   ,/,   2010/CD   16/CD   :/:   45/CD   pm/NN   ET/NNP   Profit/NNP   from/IN   the/DT   (ORGANIZATION Pros/NNP Subscription/NNP Services/NNPS)   Chart/NNP   (PERSON Patterns/NNP Trader/NNP)   Copyright/NNP   2009/CD   Zacks/NNS   (ORGANIZATION Investment/NNP Research/NNP Zacks/NNP Investment/NNP)   Research/NNP   is/VBZ   one/CD   of/IN   the/DT   most/RBS   highly/RB   regarded/VBN   firms/NNS   in/IN   the/DT   investment/NN   industry/NN   ./.)
+----------------------------------
+original sentence: 
+The guiding principle behind our work is that there must be a good reason for brokerage firms to spend billions of dollars a year on stock research.
+
+POS tagged sentence: 
+[('The', 'DT'), ('guiding', 'NN'), ('principle', 'NN'), ('behind', 'IN'), ('our', 'PRP$'), ('work', 'NN'), ('is', 'VBZ'), ('that', 'IN'), ('there', 'EX'), ('must', 'MD'), ('be', 'VB'), ('a', 'DT'), ('good', 'JJ'), ('reason', 'NN'), ('for', 'IN'), ('brokerage', 'NN'), ('firms', 'NNS'), ('to', 'TO'), ('spend', 'VB'), ('billions', 'NNS'), ('of', 'IN'), ('dollars', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('on', 'IN'), ('stock', 'NN'), ('research', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   guiding/NN   principle/NN   behind/IN   our/PRP$   work/NN   is/VBZ   that/IN   there/EX   must/MD   be/VB   a/DT   good/JJ   reason/NN   for/IN   brokerage/NN   firms/NNS   to/TO   spend/VB   billions/NNS   of/IN   dollars/NNS   a/DT   year/NN   on/IN   stock/NN   research/NN   ./.)
+----------------------------------
+original sentence: 
+Obviously, these investment experts know something special that may be indicative of the future direction of stock prices.
+
+POS tagged sentence: 
+[('Obviously', 'RB'), (',', ','), ('these', 'DT'), ('investment', 'NN'), ('experts', 'NNS'), ('know', 'VBP'), ('something', 'NN'), ('special', 'JJ'), ('that', 'IN'), ('may', 'MD'), ('be', 'VB'), ('indicative', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('future', 'NN'), ('direction', 'NN'), ('of', 'IN'), ('stock', 'NN'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Obviously/RB   ,/,   these/DT   investment/NN   experts/NNS   know/VBP   something/NN   special/JJ   that/IN   may/MD   be/VB   indicative/JJ   of/IN   the/DT   future/NN   direction/NN   of/IN   stock/NN   prices/NNS   ./.)
+----------------------------------
+original sentence: 
+From day one, we were determined to unlock that secret knowledge and make it available to our clients to help them improve their investment results.
+
+POS tagged sentence: 
+[('From', 'IN'), ('day', 'NN'), ('one', 'CD'), (',', ','), ('we', 'PRP'), ('were', 'VBD'), ('determined', 'VBN'), ('to', 'TO'), ('unlock', 'VB'), ('that', 'IN'), ('secret', 'NN'), ('knowledge', 'NN'), ('and', 'CC'), ('make', 'VB'), ('it', 'PRP'), ('available', 'JJ'), ('to', 'TO'), ('our', 'PRP$'), ('clients', 'NNS'), ('to', 'TO'), ('help', 'VB'), ('them', 'PRP'), ('improve', 'VB'), ('their', 'PRP$'), ('investment', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   From/IN   day/NN   one/CD   ,/,   we/PRP   were/VBD   determined/VBN   to/TO   unlock/VB   that/IN   secret/NN   knowledge/NN   and/CC   make/VB   it/PRP   available/JJ   to/TO   our/PRP$   clients/NNS   to/TO   help/VB   them/PRP   improve/VB   their/PRP$   investment/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+NYSE and AMEX data is at least 20 minutes delayed.
+
+POS tagged sentence: 
+[('NYSE', 'NNP'), ('and', 'CC'), ('AMEX', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('at', 'IN'), ('least', 'JJS'), ('20', 'CD'), ('minutes', 'NNS'), ('delayed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NYSE/NNP)   and/CC   (ORGANIZATION AMEX/NNP)   data/NNS   is/VBZ   at/IN   least/JJS   20/CD   minutes/NNS   delayed/VBN   ./.)
+----------------------------------
+original sentence: 
+NASDAQ data is at least 15 minutes delayed.
+
+
+POS tagged sentence: 
+[('NASDAQ', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('at', 'IN'), ('least', 'JJS'), ('15', 'CD'), ('minutes', 'NNS'), ('delayed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE NASDAQ/NNP)   data/NNS   is/VBZ   at/IN   least/JJS   15/CD   minutes/NNS   delayed/VBN   ./.)
+
+veryneg:0	neg:2	pos:0	verypos:0	total:0

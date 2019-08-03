@@ -1,0 +1,157 @@
+
+----------------------------------
+original sentence: 
+U.S. Equity Market Preview AAPL, EXC, HSP, ITMN, MRK | Benzinga.com
+U.S. Equity Market Preview AAPL, EXC, HSP, ITMN, MRK Recent Articles by Ed Liston
+Posted on 04/05/10 at 7:33am by Shares of the following companies may see some unusual movements in trading on Monday, according to Bloomberg.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('Equity', 'NNP'), ('Market', 'NNP'), ('Preview', 'NNP'), ('AAPL', 'NNP'), (',', ','), ('EXC', 'NNP'), (',', ','), ('HSP', 'NNP'), (',', ','), ('ITMN', 'NNP'), (',', ','), ('MRK', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('U.S.', 'NNP'), ('Equity', 'NNP'), ('Market', 'NNP'), ('Preview', 'NNP'), ('AAPL', 'NNP'), (',', ','), ('EXC', 'NNP'), (',', ','), ('HSP', 'NNP'), (',', ','), ('ITMN', 'NNP'), (',', ','), ('MRK', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Ed', 'NNP'), ('Liston', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/05/10', 'CD'), ('at', 'IN'), ('7', 'CD'), (':', ':'), ('33am', 'CD'), ('by', 'IN'), ('Shares', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('following', 'JJ'), ('companies', 'NNS'), ('may', 'MD'), ('see', 'VB'), ('some', 'DT'), ('unusual', 'JJ'), ('movements', 'NNS'), ('in', 'IN'), ('trading', 'NN'), ('on', 'IN'), ('Monday', 'NNP'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Bloomberg', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   (ORGANIZATION Equity/NNP Market/NNP)   Preview/NNP   AAPL/NNP   ,/,   (ORGANIZATION EXC/NNP)   ,/,   (ORGANIZATION HSP/NNP)   ,/,   (ORGANIZATION ITMN/NNP)   ,/,   (ORGANIZATION MRK/NNP)   |/NNP   Benzinga.com/NNP   (GPE U.S./NNP)   Equity/NNP   (PERSON Market/NNP Preview/NNP AAPL/NNP)   ,/,   (ORGANIZATION EXC/NNP)   ,/,   (ORGANIZATION HSP/NNP)   ,/,   (ORGANIZATION ITMN/NNP)   ,/,   (ORGANIZATION MRK/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Ed/NNP Liston/NNP Posted/NNP)   on/IN   04/05/10/CD   at/IN   7/CD   :/:   33am/CD   by/IN   (PERSON Shares/NNP)   of/IN   the/DT   following/JJ   companies/NNS   may/MD   see/VB   some/DT   unusual/JJ   movements/NNS   in/IN   trading/NN   on/IN   Monday/NNP   ,/,   according/VBG   to/TO   (GPE Bloomberg/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   see/VB   some/DT   unusual/JJ   movements/NNS   in/IN   trading/NN   on/IN   Monday/NNP)
+	(VERB according/VBG to/TO Bloomberg/NNP)
+noun phrases to consider:
+	(NOUN U.S./NNP Equity/NNP Market/NNP Preview/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN EXC/NNP)
+	(NOUN HSP/NNP)
+	(NOUN ITMN/NNP)
+	(NOUN MRK/NNP |/NNP Benzinga.com/NNP U.S./NNP)
+	(NOUN Equity/NNP Market/NNP Preview/NNP AAPL/NNP)
+	(NOUN EXC/NNP)
+	(NOUN HSP/NNP)
+	(NOUN ITMN/NNP)
+	(NOUN MRK/NNP Recent/NNP Articles/NNP)
+	(NOUN Ed/NNP Liston/NNP Posted/NNP)
+	(NOUN Shares/NNP)
+	(NOUN the/DT following/JJ companies/NNS)
+
+----------------------------------
+original sentence: 
+Apple Inc. NASDAQ:  will probably sell double the estimated iPad tablet computers on its debut weekend, according to Gene Munster, an analyst at Piper Jaffray & Co.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('will', 'MD'), ('probably', 'RB'), ('sell', 'VB'), ('double', 'JJ'), ('the', 'DT'), ('estimated', 'VBN'), ('iPad', 'NNP'), ('tablet', 'NN'), ('computers', 'NNS'), ('on', 'IN'), ('its', 'PRP$'), ('debut', 'NN'), ('weekend', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Gene', 'NNP'), ('Munster', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('at', 'IN'), ('Piper', 'NNP'), ('Jaffray', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Apple/NNP)   (ORGANIZATION Inc./NNP)   NASDAQ/NNP   :/:   will/MD   probably/RB   sell/VB   double/JJ   the/DT   estimated/VBN   (ORGANIZATION iPad/NNP)   tablet/NN   computers/NNS   on/IN   its/PRP$   debut/NN   weekend/NN   ,/,   according/VBG   to/TO   (PERSON Gene/NNP Munster/NNP)   ,/,   an/DT   analyst/NN   at/IN   (ORGANIZATION Piper/NNP Jaffray/NNP)   &/CC   Co/NNP   ./.)
+----------------------------------
+original sentence: 
+In an interview, Munster said that the company may sell 700,000 units of the new device.
+
+POS tagged sentence: 
+[('In', 'IN'), ('an', 'DT'), ('interview', 'NN'), (',', ','), ('Munster', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('may', 'MD'), ('sell', 'VB'), ('700,000', 'CD'), ('units', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('device', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   an/DT   interview/NN   ,/,   (PERSON Munster/NNP)   said/VBD   that/IN   the/DT   company/NN   may/MD   sell/VB   700,000/CD   units/NNS   of/IN   the/DT   new/JJ   device/NN   ./.)
+----------------------------------
+original sentence: 
+Shares of Apple are up 0.35% to $236.80 in pre market trading on Monday.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Apple', 'NNP'), ('are', 'VBP'), ('up', 'RP'), ('0.35', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('236.80', 'CD'), ('in', 'IN'), ('pre', 'NN'), ('market', 'NN'), ('trading', 'NN'), ('on', 'IN'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   Apple/NNP   are/VBP   up/RP   0.35/CD   %/NN   to/TO   $/$   236.80/CD   in/IN   pre/NN   market/NN   trading/NN   on/IN   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+Exelon Corporation NYSE:  , a utilities services holding company, expects to take a charge of $65 million in its first quarter due to the new healthcare law.
+
+POS tagged sentence: 
+[('Exelon', 'NNP'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), (',', ','), ('a', 'DT'), ('utilities', 'NNS'), ('services', 'NNS'), ('holding', 'VBG'), ('company', 'NN'), (',', ','), ('expects', 'VBZ'), ('to', 'TO'), ('take', 'VB'), ('a', 'DT'), ('charge', 'NN'), ('of', 'IN'), ('$', '$'), ('65', 'CD'), ('million', 'CD'), ('in', 'IN'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('new', 'JJ'), ('healthcare', 'NN'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Exelon/NNP)   (ORGANIZATION Corporation/NNP)   NYSE/NNP   :/:   ,/,   a/DT   utilities/NNS   services/NNS   holding/VBG   company/NN   ,/,   expects/VBZ   to/TO   take/VB   a/DT   charge/NN   of/IN   $/$   65/CD   million/CD   in/IN   its/PRP$   first/JJ   quarter/NN   due/JJ   to/TO   the/DT   new/JJ   healthcare/NN   law/NN   ./.)
+----------------------------------
+original sentence: 
+Shares of Exelon Corporation were down 0.63% to $44 in after hours trading on Thursday.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Exelon', 'NNP'), ('Corporation', 'NNP'), ('were', 'VBD'), ('down', 'RB'), ('0.63', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('44', 'CD'), ('in', 'IN'), ('after', 'IN'), ('hours', 'NNS'), ('trading', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (PERSON Exelon/NNP Corporation/NNP)   were/VBD   down/RB   0.63/CD   %/NN   to/TO   $/$   44/CD   in/IN   after/IN   hours/NNS   trading/NN   on/IN   Thursday/NNP   ./.)
+----------------------------------
+original sentence: 
+Hospira, Inc. NYSE:  , a specialty pharmaceutical and medication delivery company, announced that it has completed the acquisition of a unit of Orchid Chemicals & Pharmaceuticals Ltd. Shares of Hospira were up 0.27% to $56.67 in after hours trading on Thursday.
+
+POS tagged sentence: 
+[('Hospira', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), (',', ','), ('a', 'DT'), ('specialty', 'NN'), ('pharmaceutical', 'JJ'), ('and', 'CC'), ('medication', 'NN'), ('delivery', 'NN'), ('company', 'NN'), (',', ','), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('completed', 'VBN'), ('the', 'DT'), ('acquisition', 'NN'), ('of', 'IN'), ('a', 'DT'), ('unit', 'NN'), ('of', 'IN'), ('Orchid', 'NNP'), ('Chemicals', 'NNPS'), ('&', 'CC'), ('Pharmaceuticals', 'NNP'), ('Ltd.', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Hospira', 'NNP'), ('were', 'VBD'), ('up', 'RP'), ('0.27', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('56.67', 'CD'), ('in', 'IN'), ('after', 'IN'), ('hours', 'NNS'), ('trading', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Hospira/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   ,/,   a/DT   specialty/NN   pharmaceutical/JJ   and/CC   medication/NN   delivery/NN   company/NN   ,/,   announced/VBD   that/IN   it/PRP   has/VBZ   completed/VBN   the/DT   acquisition/NN   of/IN   a/DT   unit/NN   of/IN   (ORGANIZATION Orchid/NNP Chemicals/NNPS)   &/CC   (ORGANIZATION Pharmaceuticals/NNP)   Ltd./NNP   Shares/NNP   of/IN   (ORGANIZATION Hospira/NNP)   were/VBD   up/RP   0.27/CD   %/NN   to/TO   $/$   56.67/CD   in/IN   after/IN   hours/NNS   trading/NN   on/IN   Thursday/NNP   ./.)
+----------------------------------
+original sentence: 
+InterMune, Inc. NASDAQ:  , a biotech company, said in a company filing that SAC Capitalâ€™s Steven A. Cohen had taken an 8.2% passive stake in the company.
+
+POS tagged sentence: 
+[('InterMune', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), (',', ','), ('a', 'DT'), ('biotech', 'NN'), ('company', 'NN'), (',', ','), ('said', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('company', 'NN'), ('filing', 'NN'), ('that', 'IN'), ('SAC', 'NNP'), ('Capital', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Steven', 'NNP'), ('A.', 'NNP'), ('Cohen', 'NNP'), ('had', 'VBD'), ('taken', 'VBN'), ('an', 'DT'), ('8.2', 'CD'), ('%', 'NN'), ('passive', 'JJ'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION InterMune/NNP)   ,/,   Inc./NNP   NASDAQ/NNP   :/:   ,/,   a/DT   biotech/NN   company/NN   ,/,   said/VBD   in/IN   a/DT   company/NN   filing/NN   that/IN   (ORGANIZATION SAC/NNP Capital/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   (PERSON Steven/NNP A./NNP Cohen/NNP)   had/VBD   taken/VBN   an/DT   8.2/CD   %/NN   passive/JJ   stake/NN   in/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+Shares of InterMune were up 0.17% to $45.86 in after hours trading on Thursday.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('InterMune', 'NNP'), ('were', 'VBD'), ('up', 'RP'), ('0.17', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('45.86', 'CD'), ('in', 'IN'), ('after', 'IN'), ('hours', 'NNS'), ('trading', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION InterMune/NNP)   were/VBD   up/RP   0.17/CD   %/NN   to/TO   $/$   45.86/CD   in/IN   after/IN   hours/NNS   trading/NN   on/IN   Thursday/NNP   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc. NYSE:  , a global healthcare company, has filed a lawsuit as it looks to prevent Swiss drug maker Novartisâ€™s Sandoz unit from selling a generic version of the Cancidas antifungal treatment.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), (',', ','), ('a', 'DT'), ('global', 'JJ'), ('healthcare', 'NN'), ('company', 'NN'), (',', ','), ('has', 'VBZ'), ('filed', 'VBN'), ('a', 'DT'), ('lawsuit', 'NN'), ('as', 'IN'), ('it', 'PRP'), ('looks', 'VBZ'), ('to', 'TO'), ('prevent', 'VB'), ('Swiss', 'NNP'), ('drug', 'NN'), ('maker', 'NN'), ('Novartis', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Sandoz', 'NNP'), ('unit', 'NN'), ('from', 'IN'), ('selling', 'VBG'), ('a', 'DT'), ('generic', 'JJ'), ('version', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Cancidas', 'NNP'), ('antifungal', 'NN'), ('treatment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   ,/,   a/DT   global/JJ   healthcare/NN   company/NN   ,/,   has/VBZ   filed/VBN   a/DT   lawsuit/NN   as/IN   it/PRP   looks/VBZ   to/TO   prevent/VB   (GPE Swiss/NNP)   drug/NN   maker/NN   (PERSON Novartis/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   (GPE Sandoz/NNP)   unit/NN   from/IN   selling/VBG   a/DT   generic/JJ   version/NN   of/IN   the/DT   (GPE Cancidas/NNP)   antifungal/NN   treatment/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ filed/VBN a/DT lawsuit/NN as/IN it/PRP)
+	(VERB   looks/VBZ   to/TO   prevent/VB   Swiss/NNP   drug/NN   maker/NN   Novartis/NNP   â/NNP   €/NNP   ™/NNP)
+	(VERB s/VBZ Sandoz/NNP unit/NN from/IN)
+	(VERB   selling/VBG   a/DT   generic/JJ   version/NN   of/IN   the/DT   Cancidas/NNP   antifungal/NN   treatment/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN a/DT global/JJ healthcare/NN company/NN)
+
+----------------------------------
+original sentence: 
+Shares of Merck & Co. closed 0.96% higher at $37.71 in trading on Thursday.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('closed', 'VBD'), ('0.96', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('at', 'IN'), ('$', '$'), ('37.71', 'CD'), ('in', 'IN'), ('trading', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   closed/VBD   0.96/CD   %/NN   higher/JJR   at/IN   $/$   37.71/CD   in/IN   trading/NN   on/IN   Thursday/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB closed/VBD 0.96/CD %/NN higher/JJR at/IN)
+noun phrases to consider:
+	(NOUN Shares/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN trading/NN)
+	(NOUN Thursday/NNP)
+
+----------------------------------
+original sentence: 
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,269 @@
+
+----------------------------------
+original sentence: 
+Week Starts On A Sour Note For Las Vegas Sands Stock
+Week Starts On A Sour Note For Las Vegas Sands Stock
+
+Las Vegas Sands and other US based gaming companies with interest in Macau will be watching closely on Tuesday as Macau Chief Executive Fernando Chui speaks about the future of the gambling capital of the world.
+
+POS tagged sentence: 
+[('Week', 'NNP'), ('Starts', 'NNP'), ('On', 'NNP'), ('A', 'NNP'), ('Sour', 'NNP'), ('Note', 'NNP'), ('For', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Stock', 'NNP'), ('Week', 'NNP'), ('Starts', 'NNP'), ('On', 'NNP'), ('A', 'NNP'), ('Sour', 'NNP'), ('Note', 'NNP'), ('For', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Stock', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('US', 'NNP'), ('based', 'VBD'), ('gaming', 'VBG'), ('companies', 'NNS'), ('with', 'IN'), ('interest', 'NN'), ('in', 'IN'), ('Macau', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('watching', 'VBG'), ('closely', 'RB'), ('on', 'IN'), ('Tuesday', 'NNP'), ('as', 'IN'), ('Macau', 'NNP'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Fernando', 'NNP'), ('Chui', 'NNP'), ('speaks', 'VBZ'), ('about', 'IN'), ('the', 'DT'), ('future', 'NN'), ('of', 'IN'), ('the', 'DT'), ('gambling', 'NN'), ('capital', 'NN'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Week/NNP)   (PERSON Starts/NNP On/NNP)   A/NNP   Sour/NNP   Note/NNP   For/NNP   Las/NNP   Vegas/NNP   Sands/NNPS   Stock/NNP   Week/NNP   Starts/NNP   On/NNP   A/NNP   Sour/NNP   Note/NNP   For/NNP   Las/NNP   Vegas/NNP   Sands/NNPS   (PERSON Stock/NNP Las/NNP Vegas/NNP Sands/NNPS)   and/CC   other/JJ   (ORGANIZATION US/NNP)   based/VBD   gaming/VBG   companies/NNS   with/IN   interest/NN   in/IN   (GPE Macau/NNP)   will/MD   be/VB   watching/VBG   closely/RB   on/IN   Tuesday/NNP   as/IN   (PERSON Macau/NNP Chief/NNP Executive/NNP Fernando/NNP Chui/NNP)   speaks/VBZ   about/IN   the/DT   future/NN   of/IN   the/DT   gambling/NN   capital/NN   of/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   based/VBD   gaming/VBG   companies/NNS   with/IN   interest/NN   in/IN   Macau/NNP)
+	(VERB   be/VB   watching/VBG   closely/RB   on/IN   Tuesday/NNP   as/IN   Macau/NNP   Chief/NNP   Executive/NNP   Fernando/NNP   Chui/NNP)
+	(VERB   speaks/VBZ   about/IN   the/DT   future/NN   of/IN   the/DT   gambling/NN   capital/NN   of/IN   the/DT   world/NN)
+noun phrases to consider:
+	(NOUN Week/NNP Starts/NNP On/NNP A/NNP)
+	(NOUN Sour/NNP Note/NNP For/NNP Las/NNP)
+	(NOUN Vegas/NNP Sands/NNPS Stock/NNP Week/NNP)
+	(NOUN Starts/NNP On/NNP A/NNP Sour/NNP)
+	(NOUN Note/NNP For/NNP Las/NNP Vegas/NNP)
+	(NOUN Sands/NNPS Stock/NNP Las/NNP Vegas/NNP)
+	(NOUN Sands/NNPS)
+	(NOUN other/JJ US/NNP)
+
+----------------------------------
+original sentence: 
+On Monday, however, Sands watched as their stock dropped on the US market.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Monday', 'NNP'), (',', ','), ('however', 'RB'), (',', ','), ('Sands', 'NNP'), ('watched', 'VBD'), ('as', 'IN'), ('their', 'PRP$'), ('stock', 'NN'), ('dropped', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('US', 'NNP'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Monday/NNP   ,/,   however/RB   ,/,   (PERSON Sands/NNP)   watched/VBD   as/IN   their/PRP$   stock/NN   dropped/VBD   on/IN   the/DT   (GSP US/NNP)   market/NN   ./.)
+----------------------------------
+original sentence: 
+The company's stock fell 4.59%, closing at $18.69.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('stock', 'NN'), ('fell', 'VBD'), ('4.59', 'CD'), ('%', 'NN'), (',', ','), ('closing', 'JJ'), ('at', 'IN'), ('$', '$'), ('18.69', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   's/POS   stock/NN   fell/VBD   4.59/CD   %/NN   ,/,   closing/JJ   at/IN   $/$   18.69/CD   ./.)
+----------------------------------
+original sentence: 
+Sands is coming off of a week when the stock price rose towards the $20 plateau.
+
+POS tagged sentence: 
+[('Sands', 'NNS'), ('is', 'VBZ'), ('coming', 'VBG'), ('off', 'RP'), ('of', 'IN'), ('a', 'DT'), ('week', 'NN'), ('when', 'WRB'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('rose', 'VBD'), ('towards', 'NNS'), ('the', 'DT'), ('$', '$'), ('20', 'CD'), ('plateau', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sands/NNS)   is/VBZ   coming/VBG   off/RP   of/IN   a/DT   week/NN   when/WRB   the/DT   stock/NN   price/NN   rose/VBD   towards/NNS   the/DT   $/$   20/CD   plateau/CD   ./.)
+----------------------------------
+original sentence: 
+MGM Mirage is another company that will be interested to see what Chui has to say tomorrow.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('Mirage', 'NNP'), ('is', 'VBZ'), ('another', 'DT'), ('company', 'NN'), ('that', 'WDT'), ('will', 'MD'), ('be', 'VB'), ('interested', 'JJ'), ('to', 'TO'), ('see', 'VB'), ('what', 'WP'), ('Chui', 'NNP'), ('has', 'VBZ'), ('to', 'TO'), ('say', 'VB'), ('tomorrow', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MGM/NNP Mirage/NNP)   is/VBZ   another/DT   company/NN   that/WDT   will/MD   be/VB   interested/JJ   to/TO   see/VB   what/WP   (PERSON Chui/NNP)   has/VBZ   to/TO   say/VB   tomorrow/NN   ./.)
+----------------------------------
+original sentence: 
+MGM stock fell to $11.38 on a day when most big gaming companies experienced losses to their prices.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('stock', 'NN'), ('fell', 'VBD'), ('to', 'TO'), ('$', '$'), ('11.38', 'CD'), ('on', 'IN'), ('a', 'DT'), ('day', 'NN'), ('when', 'WRB'), ('most', 'JJS'), ('big', 'JJ'), ('gaming', 'NN'), ('companies', 'NNS'), ('experienced', 'VBN'), ('losses', 'NNS'), ('to', 'TO'), ('their', 'PRP$'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MGM/NNP)   stock/NN   fell/VBD   to/TO   $/$   11.38/CD   on/IN   a/DT   day/NN   when/WRB   most/JJS   big/JJ   gaming/NN   companies/NNS   experienced/VBN   losses/NNS   to/TO   their/PRP$   prices/NNS   ./.)
+----------------------------------
+original sentence: 
+MGM stock was down 3.56%.
+
+POS tagged sentence: 
+[('MGM', 'NNP'), ('stock', 'NN'), ('was', 'VBD'), ('down', 'IN'), ('3.56', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION MGM/NNP) stock/NN was/VBD down/IN 3.56/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Two other stocks fell over three percent.
+
+POS tagged sentence: 
+[('Two', 'CD'), ('other', 'JJ'), ('stocks', 'NNS'), ('fell', 'VBD'), ('over', 'IN'), ('three', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Two/CD   other/JJ   stocks/NNS   fell/VBD   over/IN   three/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+Boyd Gaming was down 3.10%, at $8.45, and Century Casinos dropped to $2.27, down 3.40%.
+
+POS tagged sentence: 
+[('Boyd', 'NNP'), ('Gaming', 'NNP'), ('was', 'VBD'), ('down', 'RB'), ('3.10', 'CD'), ('%', 'NN'), (',', ','), ('at', 'IN'), ('$', '$'), ('8.45', 'CD'), (',', ','), ('and', 'CC'), ('Century', 'NNP'), ('Casinos', 'NNP'), ('dropped', 'VBD'), ('to', 'TO'), ('$', '$'), ('2.27', 'CD'), (',', ','), ('down', 'IN'), ('3.40', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Boyd/NNP)   Gaming/NNP   was/VBD   down/RB   3.10/CD   %/NN   ,/,   at/IN   $/$   8.45/CD   ,/,   and/CC   (ORGANIZATION Century/NNP Casinos/NNP)   dropped/VBD   to/TO   $/$   2.27/CD   ,/,   down/IN   3.40/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Wynn Resorts remained the most stable of all the US based gaming stocks, but still fell 1.40%, closing Monday at $70.47.
+
+POS tagged sentence: 
+[('Wynn', 'NNP'), ('Resorts', 'NNP'), ('remained', 'VBD'), ('the', 'DT'), ('most', 'JJS'), ('stable', 'JJ'), ('of', 'IN'), ('all', 'DT'), ('the', 'DT'), ('US', 'NNP'), ('based', 'VBN'), ('gaming', 'VBG'), ('stocks', 'NNS'), (',', ','), ('but', 'CC'), ('still', 'RB'), ('fell', 'VBD'), ('1.40', 'CD'), ('%', 'NN'), (',', ','), ('closing', 'JJ'), ('Monday', 'NNP'), ('at', 'IN'), ('$', '$'), ('70.47', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wynn/NNP)   (PERSON Resorts/NNP)   remained/VBD   the/DT   most/JJS   stable/JJ   of/IN   all/DT   the/DT   (ORGANIZATION US/NNP)   based/VBN   gaming/VBG   stocks/NNS   ,/,   but/CC   still/RB   fell/VBD   1.40/CD   %/NN   ,/,   closing/JJ   Monday/NNP   at/IN   $/$   70.47/CD   ./.)
+----------------------------------
+original sentence: 
+The Archon Corporation was one of the few bright spots today.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Archon', 'NNP'), ('Corporation', 'NNP'), ('was', 'VBD'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('few', 'JJ'), ('bright', 'JJ'), ('spots', 'NNS'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Archon/NNP Corporation/NNP)   was/VBD   one/CD   of/IN   the/DT   few/JJ   bright/JJ   spots/NNS   today/NN   ./.)
+----------------------------------
+original sentence: 
+Archon stock was up 5.43%, ending the day at $18.45.
+
+POS tagged sentence: 
+[('Archon', 'NNP'), ('stock', 'NN'), ('was', 'VBD'), ('up', 'RB'), ('5.43', 'CD'), ('%', 'NN'), (',', ','), ('ending', 'VBG'), ('the', 'DT'), ('day', 'NN'), ('at', 'IN'), ('$', '$'), ('18.45', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Archon/NNP)   stock/NN   was/VBD   up/RB   5.43/CD   %/NN   ,/,   ending/VBG   the/DT   day/NN   at/IN   $/$   18.45/CD   ./.)
+----------------------------------
+original sentence: 
+Investors may be swayed on Tuesday by the speech that is given by Chui.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('swayed', 'VBN'), ('on', 'IN'), ('Tuesday', 'NNP'), ('by', 'IN'), ('the', 'DT'), ('speech', 'NN'), ('that', 'IN'), ('is', 'VBZ'), ('given', 'VBN'), ('by', 'IN'), ('Chui', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investors/NNS   may/MD   be/VB   swayed/VBN   on/IN   Tuesday/NNP   by/IN   the/DT   speech/NN   that/IN   is/VBZ   given/VBN   by/IN   (PERSON Chui/NNP)   ./.)
+----------------------------------
+original sentence: 
+It is anticipated that Chui will give details of possible caps to the amount of tables allowed in Macau casinos.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('anticipated', 'VBN'), ('that', 'IN'), ('Chui', 'NNP'), ('will', 'MD'), ('give', 'VB'), ('details', 'NNS'), ('of', 'IN'), ('possible', 'JJ'), ('caps', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('amount', 'NN'), ('of', 'IN'), ('tables', 'NNS'), ('allowed', 'VBN'), ('in', 'IN'), ('Macau', 'NNP'), ('casinos', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   anticipated/VBN   that/IN   (PERSON Chui/NNP)   will/MD   give/VB   details/NNS   of/IN   possible/JJ   caps/NNS   to/TO   the/DT   amount/NN   of/IN   tables/NNS   allowed/VBN   in/IN   (GPE Macau/NNP)   casinos/NNS   ./.)
+----------------------------------
+original sentence: 
+Get $15 Free at the Best New Online Casino!
+
+POS tagged sentence: 
+[('Get', 'NN'), ('$', '$'), ('15', 'CD'), ('Free', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('Best', 'NNP'), ('New', 'NNP'), ('Online', 'NNP'), ('Casino', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Get/NN   $/$   15/CD   Free/NNP   at/IN   the/DT   (ORGANIZATION Best/NNP New/NNP Online/NNP Casino/NNP)   !/.)
+----------------------------------
+original sentence: 
+Share This Casino News
+2 Responses to &quot;Week Starts On A Sour Note For Las Vegas Sands Stock&quot; dolphinron at 16 Mar 2010 6:52:19 AM EDT
+said this on 16 Mar 2010 6:52:19 AM EDT might have started on sour note but HELLLLLOOOO TUESDAY!!!!!
+
+POS tagged sentence: 
+[('Share', 'NN'), ('This', 'DT'), ('Casino', 'NNP'), ('News', 'NNP'), ('2', 'CD'), ('Responses', 'NNS'), ('to', 'TO'), ('&quot', 'JJ'), (';', ':'), ('Week', 'NNP'), ('Starts', 'NNPS'), ('On', 'NNP'), ('A', 'NNP'), ('Sour', 'NNP'), ('Note', 'NNP'), ('For', 'NNP'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Stock&quot', 'JJ'), (';', ':'), ('dolphinron', 'NN'), ('at', 'IN'), ('16', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('6', 'CD'), (':', ':'), ('52', 'CD'), (':', ':'), ('19', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('said', 'VBD'), ('this', 'DT'), ('on', 'IN'), ('16', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('6', 'CD'), (':', ':'), ('52', 'CD'), (':', ':'), ('19', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('might', 'MD'), ('have', 'VB'), ('started', 'VBN'), ('on', 'IN'), ('sour', 'PRP$'), ('note', 'NN'), ('but', 'CC'), ('HELLLLLOOOO', 'NNP'), ('TUESDAY', 'NNP'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Share/NN)   This/DT   (ORGANIZATION Casino/NNP)   News/NNP   2/CD   Responses/NNS   to/TO   &quot/JJ   ;/:   (ORGANIZATION Week/NNP Starts/NNPS)   On/NNP   A/NNP   Sour/NNP   Note/NNP   For/NNP   Las/NNP   Vegas/NNP   Sands/NNPS   Stock&quot/JJ   ;/:   dolphinron/NN   at/IN   16/CD   Mar/NNP   2010/CD   6/CD   :/:   52/CD   :/:   19/CD   AM/NNP   EDT/NNP   said/VBD   this/DT   on/IN   16/CD   Mar/NNP   2010/CD   6/CD   :/:   52/CD   :/:   19/CD   AM/NNP   EDT/NNP   might/MD   have/VB   started/VBN   on/IN   sour/PRP$   note/NN   but/CC   (ORGANIZATION HELLLLLOOOO/NNP)   TUESDAY/NNP   !/.   !/.   !/.   !/.   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD this/DT on/IN 16/CD Mar/NNP 2010/CD 6/CD)
+	(VERB have/VB started/VBN on/IN sour/PRP$ note/NN)
+noun phrases to consider:
+	(NOUN Share/NN)
+	(NOUN Casino/NNP News/NNP)
+	(NOUN 2/CD Responses/NNS)
+	(NOUN &quot/JJ)
+	(NOUN Week/NNP Starts/NNPS On/NNP A/NNP)
+	(NOUN Sour/NNP Note/NNP For/NNP Las/NNP)
+	(NOUN Vegas/NNP Sands/NNPS Stock&quot/JJ)
+	(NOUN dolphinron/NN)
+	(NOUN 16/CD Mar/NNP)
+	(NOUN 19/CD AM/NNP EDT/NNP)
+	(NOUN 19/CD AM/NNP EDT/NNP)
+	(NOUN HELLLLLOOOO/NNP TUESDAY/NNP)
+
+----------------------------------
+original sentence: 
+all good from here baby!!!!!!
+
+POS tagged sentence: 
+[('all', 'DT'), ('good', 'JJ'), ('from', 'IN'), ('here', 'RB'), ('baby', 'JJ'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S all/DT good/JJ from/IN here/RB baby/JJ !/. !/. !/. !/. !/. !/.)
+----------------------------------
+original sentence: 
+Reply to this comment
+ Comment Replies Disabled dolphinron at 16 Mar 2010 6:54:05 AM EDT
+said this on 16 Mar 2010 6:54:05 AM EDT Go to reuters article about what happened in macau today and see why all my excitement!!!!
+
+POS tagged sentence: 
+[('Reply', 'RB'), ('to', 'TO'), ('this', 'DT'), ('comment', 'NN'), ('Comment', 'NNP'), ('Replies', 'NNP'), ('Disabled', 'NNP'), ('dolphinron', 'NN'), ('at', 'IN'), ('16', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('6', 'CD'), (':', ':'), ('54', 'CD'), (':', ':'), ('05', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('said', 'VBD'), ('this', 'DT'), ('on', 'IN'), ('16', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('6', 'CD'), (':', ':'), ('54', 'CD'), (':', ':'), ('05', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('Go', 'NNP'), ('to', 'TO'), ('reuters', 'NNS'), ('article', 'NN'), ('about', 'IN'), ('what', 'WP'), ('happened', 'VBN'), ('in', 'IN'), ('macau', 'NN'), ('today', 'NN'), ('and', 'CC'), ('see', 'VB'), ('why', 'WRB'), ('all', 'DT'), ('my', 'PRP$'), ('excitement', 'NN'), ('!', '.'), ('!', '.'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Reply/RB   to/TO   this/DT   comment/NN   (ORGANIZATION Comment/NNP)   Replies/NNP   Disabled/NNP   dolphinron/NN   at/IN   16/CD   Mar/NNP   2010/CD   6/CD   :/:   54/CD   :/:   05/CD   AM/NNP   EDT/NNP   said/VBD   this/DT   on/IN   16/CD   Mar/NNP   2010/CD   6/CD   :/:   54/CD   :/:   05/CD   AM/NNP   EDT/NNP   Go/NNP   to/TO   reuters/NNS   article/NN   about/IN   what/WP   happened/VBN   in/IN   macau/NN   today/NN   and/CC   see/VB   why/WRB   all/DT   my/PRP$   excitement/NN   !/.   !/.   !/.   !/.)
+----------------------------------
+original sentence: 
+Sorry forgot to leave link to why I am so happy for Sands.
+
+POS tagged sentence: 
+[('Sorry', 'NNP'), ('forgot', 'VBD'), ('to', 'TO'), ('leave', 'VB'), ('link', 'NN'), ('to', 'TO'), ('why', 'WRB'), ('I', 'PRP'), ('am', 'VBP'), ('so', 'RB'), ('happy', 'JJ'), ('for', 'IN'), ('Sands', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sorry/NNP)   forgot/VBD   to/TO   leave/VB   link/NN   to/TO   why/WRB   I/PRP   am/VBP   so/RB   happy/JJ   for/IN   (PERSON Sands/NNS)   ./.)
+----------------------------------
+original sentence: 
+OH YEAHHHHHH!!!
+
+POS tagged sentence: 
+[('OH', 'UH'), ('YEAHHHHHH', 'NNP'), ('!', '.'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S OH/UH YEAHHHHHH/NNP !/. !/. !/.)
+----------------------------------
+original sentence: 
+Reply to this comment
+ Comment Replies Disabled You are replying to the above comment.
+
+POS tagged sentence: 
+[('Reply', 'RB'), ('to', 'TO'), ('this', 'DT'), ('comment', 'NN'), ('Comment', 'NNP'), ('Replies', 'NNP'), ('Disabled', 'NNP'), ('You', 'NNP'), ('are', 'VBP'), ('replying', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('above', 'NN'), ('comment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Reply/RB   to/TO   this/DT   comment/NN   (ORGANIZATION Comment/NNP)   Replies/NNP   Disabled/NNP   You/NNP   are/VBP   replying/VBG   to/TO   the/DT   above/NN   comment/NN   ./.)
+----------------------------------
+original sentence: 
+Cancel this &quot;reply&quot;
+Please copy the characters from the image below into the text field below.
+
+POS tagged sentence: 
+[('Cancel', 'NNP'), ('this', 'DT'), ('&quot', 'JJ'), (';', ':'), ('reply&quot', 'JJ'), (';', ':'), ('Please', 'NNP'), ('copy', 'NN'), ('the', 'DT'), ('characters', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('image', 'NN'), ('below', 'IN'), ('into', 'IN'), ('the', 'DT'), ('text', 'NN'), ('field', 'NN'), ('below', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Cancel/NNP)   this/DT   &quot/JJ   ;/:   reply&quot/JJ   ;/:   (GPE Please/NNP)   copy/NN   the/DT   characters/NNS   from/IN   the/DT   image/NN   below/IN   into/IN   the/DT   text/NN   field/NN   below/IN   ./.)
+----------------------------------
+original sentence: 
+Doing this helps us prevent automated submissions.
+
+POS tagged sentence: 
+[('Doing', 'VBG'), ('this', 'DT'), ('helps', 'NNS'), ('us', 'PRP'), ('prevent', 'VBP'), ('automated', 'VBN'), ('submissions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Doing/VBG   this/DT   helps/NNS   us/PRP   prevent/VBP   automated/VBN   submissions/NNS   ./.)
+----------------------------------
+original sentence: 
+&copy; Copyright 2010 .
+
+POS tagged sentence: 
+[('&copy', 'JJ'), (';', ':'), ('Copyright', 'NNP'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S &copy/JJ ;/: Copyright/NNP 2010/CD ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

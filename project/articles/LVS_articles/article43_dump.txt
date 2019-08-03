@@ -1,0 +1,118 @@
+
+----------------------------------
+original sentence: 
+ Holiday Week Begins Higher, Opened Longs In LVS, WFMI & NKE | iStockAnalyst.com Holiday Week Begins Higher, Opened Longs In LVS, WFMI & NKE
+ Tuesday, March 30, 2010 2:27 PM
+Vote for next session
+The next market session will close:
+The Dow closed the day 45 points higher, more or less where it opened for the day.
+
+POS tagged sentence: 
+[('Holiday', 'NNP'), ('Week', 'NNP'), ('Begins', 'NNP'), ('Higher', 'NNP'), (',', ','), ('Opened', 'NNP'), ('Longs', 'NNP'), ('In', 'NNP'), ('LVS', 'NNP'), (',', ','), ('WFMI', 'NNP'), ('&', 'CC'), ('NKE', 'NNP'), ('|', 'NNP'), ('iStockAnalyst.com', 'NNP'), ('Holiday', 'NNP'), ('Week', 'NNP'), ('Begins', 'NNP'), ('Higher', 'NNP'), (',', ','), ('Opened', 'NNP'), ('Longs', 'NNP'), ('In', 'NNP'), ('LVS', 'NNP'), (',', ','), ('WFMI', 'NNP'), ('&', 'CC'), ('NKE', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('30', 'CD'), (',', ','), ('2010', 'CD'), ('2', 'CD'), (':', ':'), ('27', 'CD'), ('PM', 'NNP'), ('Vote', 'NNP'), ('for', 'IN'), ('next', 'JJ'), ('session', 'NN'), ('The', 'DT'), ('next', 'JJ'), ('market', 'NN'), ('session', 'NN'), ('will', 'MD'), ('close', 'VB'), (':', ':'), ('The', 'DT'), ('Dow', 'NNP'), ('closed', 'VBD'), ('the', 'DT'), ('day', 'NN'), ('45', 'CD'), ('points', 'NNS'), ('higher', 'JJR'), (',', ','), ('more', 'JJR'), ('or', 'CC'), ('less', 'JJR'), ('where', 'WRB'), ('it', 'PRP'), ('opened', 'VBD'), ('for', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Holiday/NNP   Week/NNP   (PERSON Begins/NNP Higher/NNP)   ,/,   (PERSON Opened/NNP Longs/NNP)   In/NNP   LVS/NNP   ,/,   (ORGANIZATION WFMI/NNP)   &/CC   (ORGANIZATION NKE/NNP)   |/NNP   iStockAnalyst.com/NNP   Holiday/NNP   Week/NNP   (PERSON Begins/NNP Higher/NNP)   ,/,   (PERSON Opened/NNP Longs/NNP)   In/NNP   LVS/NNP   ,/,   (ORGANIZATION WFMI/NNP)   &/CC   (ORGANIZATION NKE/NNP)   Tuesday/NNP   ,/,   March/NNP   30/CD   ,/,   2010/CD   2/CD   :/:   27/CD   PM/NNP   Vote/NNP   for/IN   next/JJ   session/NN   The/DT   next/JJ   market/NN   session/NN   will/MD   close/VB   :/:   The/DT   (ORGANIZATION Dow/NNP)   closed/VBD   the/DT   day/NN   45/CD   points/NNS   higher/JJR   ,/,   more/JJR   or/CC   less/JJR   where/WRB   it/PRP   opened/VBD   for/IN   the/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB close/VB)
+	(VERB closed/VBD the/DT day/NN 45/CD points/NNS higher/JJR)
+	(VERB opened/VBD for/IN the/DT day/NN)
+noun phrases to consider:
+	(NOUN Holiday/NNP Week/NNP Begins/NNP Higher/NNP)
+	(NOUN Opened/NNP Longs/NNP In/NNP LVS/NNP)
+	(NOUN WFMI/NNP)
+	(NOUN NKE/NNP |/NNP iStockAnalyst.com/NNP Holiday/NNP)
+	(NOUN Week/NNP Begins/NNP Higher/NNP)
+	(NOUN Opened/NNP Longs/NNP In/NNP LVS/NNP)
+	(NOUN WFMI/NNP)
+	(NOUN NKE/NNP Tuesday/NNP)
+	(NOUN March/NNP)
+	(NOUN 27/CD PM/NNP Vote/NNP)
+	(NOUN next/JJ session/NN)
+	(NOUN The/DT next/JJ market/NN session/NN)
+	(NOUN Dow/NNP)
+	(NOUN more/JJR)
+	(NOUN less/JJR)
+
+----------------------------------
+original sentence: 
+Volume was light with Passover today and the holiday week with the markets closed on Good Friday.
+
+POS tagged sentence: 
+[('Volume', 'NN'), ('was', 'VBD'), ('light', 'JJ'), ('with', 'IN'), ('Passover', 'NNP'), ('today', 'NN'), ('and', 'CC'), ('the', 'DT'), ('holiday', 'NN'), ('week', 'NN'), ('with', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('closed', 'VBD'), ('on', 'IN'), ('Good', 'NNP'), ('Friday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Volume/NN)   was/VBD   light/JJ   with/IN   (GPE Passover/NNP)   today/NN   and/CC   the/DT   holiday/NN   week/NN   with/IN   the/DT   markets/NNS   closed/VBD   on/IN   (PERSON Good/NNP)   Friday/NNP   ./.)
+----------------------------------
+original sentence: 
+Citigroup  lost 3% after the Treasury announced it will begin selling its 7.7 billion share stake in the company throughout 2010 likely acting as a ceiling on the stock throughout the year.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('lost', 'VBD'), ('3', 'CD'), ('%', 'NN'), ('after', 'IN'), ('the', 'DT'), ('Treasury', 'NNP'), ('announced', 'VBD'), ('it', 'PRP'), ('will', 'MD'), ('begin', 'VB'), ('selling', 'NN'), ('its', 'PRP$'), ('7.7', 'CD'), ('billion', 'CD'), ('share', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('company', 'NN'), ('throughout', 'IN'), ('2010', 'CD'), ('likely', 'JJ'), ('acting', 'NN'), ('as', 'IN'), ('a', 'DT'), ('ceiling', 'NN'), ('on', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('throughout', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citigroup/NNP)   lost/VBD   3/CD   %/NN   after/IN   the/DT   (ORGANIZATION Treasury/NNP)   announced/VBD   it/PRP   will/MD   begin/VB   selling/NN   its/PRP$   7.7/CD   billion/CD   share/NN   stake/NN   in/IN   the/DT   company/NN   throughout/IN   2010/CD   likely/JJ   acting/NN   as/IN   a/DT   ceiling/NN   on/IN   the/DT   stock/NN   throughout/IN   the/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+Research Related Stocks: Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+   The above story is the opinion of the author only and it does not reflect iStockAnalyst opinion.
+
+POS tagged sentence: 
+[('Research', 'NN'), ('Related', 'VBN'), ('Stocks', 'NNS'), (':', ':'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('The', 'DT'), ('above', 'NN'), ('story', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('opinion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('author', 'NN'), ('only', 'RB'), ('and', 'CC'), ('it', 'PRP'), ('does', 'VBZ'), ('not', 'RB'), ('reflect', 'VB'), ('iStockAnalyst', 'NNP'), ('opinion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Research/NN   Related/VBN   Stocks/NNS   :/:   Rate/NNP   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   The/DT   above/NN   story/NN   is/VBZ   the/DT   opinion/NN   of/IN   the/DT   author/NN   only/RB   and/CC   it/PRP   does/VBZ   not/RB   reflect/VB   (ORGANIZATION iStockAnalyst/NNP)   opinion/NN   ./.)
+----------------------------------
+original sentence: 
+Further, the author is not personally advising you regarding the suitability of the story for your investment needs.
+
+POS tagged sentence: 
+[('Further', 'RB'), (',', ','), ('the', 'DT'), ('author', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('personally', 'RB'), ('advising', 'VBG'), ('you', 'PRP'), ('regarding', 'VBG'), ('the', 'DT'), ('suitability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('story', 'NN'), ('for', 'IN'), ('your', 'PRP$'), ('investment', 'NN'), ('needs', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Further/RB   ,/,   the/DT   author/NN   is/VBZ   not/RB   personally/RB   advising/VBG   you/PRP   regarding/VBG   the/DT   suitability/NN   of/IN   the/DT   story/NN   for/IN   your/PRP$   investment/NN   needs/VBZ   ./.)
+----------------------------------
+original sentence: 
+In no event iStockAnalyst will be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from or arising out of, or in connection with the use of this information.
+
+POS tagged sentence: 
+[('In', 'IN'), ('no', 'DT'), ('event', 'NN'), ('iStockAnalyst', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('liable', 'JJ'), ('for', 'IN'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('including', 'VBG'), ('without', 'IN'), ('limitation', 'NN'), (',', ','), ('indirect', 'JJ'), ('or', 'CC'), ('consequential', 'JJ'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), (',', ','), ('or', 'CC'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('whatsoever', 'NN'), ('arising', 'VBG'), ('from', 'IN'), ('or', 'CC'), ('arising', 'VBG'), ('out', 'RP'), ('of', 'IN'), (',', ','), ('or', 'CC'), ('in', 'IN'), ('connection', 'NN'), ('with', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('this', 'DT'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   no/DT   event/NN   (ORGANIZATION iStockAnalyst/NNP)   will/MD   be/VB   liable/JJ   for/IN   any/DT   loss/NN   or/CC   damage/NN   including/VBG   without/IN   limitation/NN   ,/,   indirect/JJ   or/CC   consequential/JJ   loss/NN   or/CC   damage/NN   ,/,   or/CC   any/DT   loss/NN   or/CC   damage/NN   whatsoever/NN   arising/VBG   from/IN   or/CC   arising/VBG   out/RP   of/IN   ,/,   or/CC   in/IN   connection/NN   with/IN   the/DT   use/NN   of/IN   this/DT   information/NN   ./.)
+----------------------------------
+original sentence: 
+Please consult your investment advisor before making any investment decision.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('consult', 'VBD'), ('your', 'PRP$'), ('investment', 'NN'), ('advisor', 'NN'), ('before', 'IN'), ('making', 'VBG'), ('any', 'DT'), ('investment', 'NN'), ('decision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   consult/VBD   your/PRP$   investment/NN   advisor/NN   before/IN   making/VBG   any/DT   investment/NN   decision/NN   ./.)
+----------------------------------
+original sentence: 
+Related Press Releases
+Recent Articles by Brandon Rowley
+Research Related Stocks:  Subscribe to Email Alerts
+ or  for articles from more than 500 contributors, press releases, SEC filings and full text news from more than four thousand sources.
+
+POS tagged sentence: 
+[('Related', 'JJ'), ('Press', 'NN'), ('Releases', 'NNS'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Brandon', 'NNP'), ('Rowley', 'NNP'), ('Research', 'NNP'), ('Related', 'NNP'), ('Stocks', 'NNP'), (':', ':'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Email', 'NNP'), ('Alerts', 'NNP'), ('or', 'CC'), ('for', 'IN'), ('articles', 'NNS'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('500', 'CD'), ('contributors', 'NNS'), (',', ','), ('press', 'NN'), ('releases', 'NNS'), (',', ','), ('SEC', 'NNP'), ('filings', 'NNS'), ('and', 'CC'), ('full', 'JJ'), ('text', 'NN'), ('news', 'NN'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('four', 'CD'), ('thousand', 'NN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Related/JJ)   Press/NN   Releases/NNS   (PERSON Recent/NNP Articles/NNP)   by/IN   (PERSON Brandon/NNP Rowley/NNP Research/NNP Related/NNP Stocks/NNP)   :/:   Subscribe/NNP   to/TO   (PERSON Email/NNP Alerts/NNP)   or/CC   for/IN   articles/NNS   from/IN   more/RBR   than/IN   500/CD   contributors/NNS   ,/,   press/NN   releases/NNS   ,/,   (ORGANIZATION SEC/NNP)   filings/NNS   and/CC   full/JJ   text/NN   news/NN   from/IN   more/RBR   than/IN   four/CD   thousand/NN   sources/NNS   ./.)
+----------------------------------
+original sentence: 
+|  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('|', 'NN'), ('|', '``'), ('|', ':'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   |/NN   |/``   |/:   (PERSON Join/NNP Blog/NNP Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

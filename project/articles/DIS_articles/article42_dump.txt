@@ -1,0 +1,307 @@
+
+----------------------------------
+original sentence: 
+afaqs!
+
+POS tagged sentence: 
+[('afaqs', 'NNS'), ('!', 'VBP')]
+
+
+ERTAGGED sentence: (S afaqs/NNS !/VBP)
+----------------------------------
+original sentence: 
+&gt; news & features &gt; Walt Disney India ties up with Sun Distribution Services
+10th Anniversary Party
+Self Financing Campaign Workshop
+Mobile Conversations
+ > Media Publishing & Television
+Walt Disney India ties up with Sun Distribution Services
+ | afaqs!
+
+POS tagged sentence: 
+[('&gt', 'JJ'), (';', ':'), ('news', 'NN'), ('&', 'CC'), ('features', 'NNS'), ('&gt', 'JJ'), (';', ':'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('India', 'NNP'), ('ties', 'NNS'), ('up', 'IN'), ('with', 'IN'), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), ('10th', 'CD'), ('Anniversary', 'NNP'), ('Party', 'NNP'), ('Self', 'NNP'), ('Financing', 'NNP'), ('Campaign', 'NNP'), ('Workshop', 'NNP'), ('Mobile', 'NNP'), ('Conversations', 'NNP'), ('>', 'NNP'), ('Media', 'NNP'), ('Publishing', 'NNP'), ('&', 'CC'), ('Television', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('India', 'NNP'), ('ties', 'NNS'), ('up', 'IN'), ('with', 'IN'), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), ('|', 'NNP'), ('afaqs', 'NNS'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   &gt/JJ   ;/:   news/NN   &/CC   features/NNS   &gt/JJ   ;/:   (PERSON Walt/NNP Disney/NNP India/NNP)   ties/NNS   up/IN   with/IN   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   10th/CD   Anniversary/NNP   Party/NNP   Self/NNP   Financing/NNP   Campaign/NNP   Workshop/NNP   Mobile/NNP   Conversations/NNP   >/NNP   Media/NNP   Publishing/NNP   &/CC   (ORGANIZATION Television/NNP Walt/NNP Disney/NNP)   India/NNP   ties/NNS   up/IN   with/IN   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   |/NNP   afaqs/NNS   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN &gt/JJ)
+	(NOUN news/NN)
+	(NOUN features/NNS &gt/JJ)
+	(NOUN Walt/NNP Disney/NNP India/NNP ties/NNS)
+	(NOUN Sun/NNP Distribution/NNP Services/NNPS)
+	(NOUN 10th/CD Anniversary/NNP Party/NNP Self/NNP Financing/NNP)
+	(NOUN Campaign/NNP Workshop/NNP Mobile/NNP Conversations/NNP)
+	(NOUN >/NNP Media/NNP Publishing/NNP)
+	(NOUN Television/NNP Walt/NNP Disney/NNP India/NNP)
+	(NOUN ties/NNS)
+	(NOUN Sun/NNP Distribution/NNP Services/NNPS |/NNP)
+	(NOUN afaqs/NNS)
+
+----------------------------------
+original sentence: 
+| Mumbai, March 24, 2010
+The Walt Disney Company India has signed a multi year agreement with Sun Distribution Services, a division of Kal Comm of the Sun Network Group , for channel distribution of Disney Channel, Disney XD and Hungama TV across multiple platforms including cable TV, direct to home DTH and IPTV.
+
+POS tagged sentence: 
+[('|', 'NN'), ('Mumbai', 'NNP'), (',', ','), ('March', 'NNP'), ('24', 'CD'), (',', ','), ('2010', 'CD'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('India', 'NNP'), ('has', 'VBZ'), ('signed', 'VBN'), ('a', 'DT'), ('multi', 'NN'), ('year', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), (',', ','), ('a', 'DT'), ('division', 'NN'), ('of', 'IN'), ('Kal', 'NNP'), ('Comm', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Sun', 'NNP'), ('Network', 'NNP'), ('Group', 'NNP'), (',', ','), ('for', 'IN'), ('channel', 'NN'), ('distribution', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('Channel', 'NNP'), (',', ','), ('Disney', 'NNP'), ('XD', 'NNP'), ('and', 'CC'), ('Hungama', 'NNP'), ('TV', 'NNP'), ('across', 'IN'), ('multiple', 'NN'), ('platforms', 'NNS'), ('including', 'VBG'), ('cable', 'JJ'), ('TV', 'NN'), (',', ','), ('direct', 'JJ'), ('to', 'TO'), ('home', 'NN'), ('DTH', 'NNP'), ('and', 'CC'), ('IPTV', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   |/NN   (PERSON Mumbai/NNP)   ,/,   March/NNP   24/CD   ,/,   2010/CD   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP India/NNP)   has/VBZ   signed/VBN   a/DT   multi/NN   year/NN   agreement/NN   with/IN   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   ,/,   a/DT   division/NN   of/IN   (PERSON Kal/NNP Comm/NNP)   of/IN   the/DT   (ORGANIZATION Sun/NNP Network/NNP Group/NNP)   ,/,   for/IN   channel/NN   distribution/NN   of/IN   (ORGANIZATION Disney/NNP Channel/NNP)   ,/,   (PERSON Disney/NNP XD/NNP)   and/CC   (PERSON Hungama/NNP TV/NNP)   across/IN   multiple/NN   platforms/NNS   including/VBG   cable/JJ   TV/NN   ,/,   direct/JJ   to/TO   home/NN   (ORGANIZATION DTH/NNP)   and/CC   (ORGANIZATION IPTV/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   signed/VBN   a/DT   multi/NN   year/NN   agreement/NN   with/IN   Sun/NNP   Distribution/NNP   Services/NNPS)
+
+tagged sentence:
+	 has signed a multi year agreement with Sun Distribution Services	res:2
+	(VERB including/VBG cable/JJ TV/NN)
+noun phrases to consider:
+	(NOUN |/NN Mumbai/NNP)
+	(NOUN March/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP India/NNP)
+	(NOUN division/NN)
+	(NOUN Kal/NNP Comm/NNP)
+	(NOUN Sun/NNP Network/NNP Group/NNP)
+	(NOUN channel/NN distribution/NN)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN Disney/NNP XD/NNP)
+	(NOUN Hungama/NNP TV/NNP)
+	(NOUN multiple/NN platforms/NNS)
+	(NOUN direct/JJ)
+	(NOUN home/NN DTH/NNP)
+	(NOUN IPTV/NNP)
+
+----------------------------------
+original sentence: 
+The deal comes into effect from April 1.
+
+POS tagged sentence: 
+[('The', 'DT'), ('deal', 'NN'), ('comes', 'VBZ'), ('into', 'IN'), ('effect', 'NN'), ('from', 'IN'), ('April', 'NNP'), ('1', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   deal/NN   comes/VBZ   into/IN   effect/NN   from/IN   April/NNP   1/CD   ./.)
+----------------------------------
+original sentence: 
+STAR DEN was the distribution network for The Walt Disney Company in India prior to this development.
+
+POS tagged sentence: 
+[('STAR', 'NN'), ('DEN', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('distribution', 'NN'), ('network', 'NN'), ('for', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('in', 'IN'), ('India', 'NNP'), ('prior', 'RB'), ('to', 'TO'), ('this', 'DT'), ('development', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION STAR/NN)   (ORGANIZATION DEN/NNP)   was/VBD   the/DT   distribution/NN   network/NN   for/IN   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   in/IN   (GPE India/NNP)   prior/RB   to/TO   this/DT   development/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   the/DT   distribution/NN   network/NN   for/IN   The/DT   Walt/NNP   Disney/NNP   Company/NNP   in/IN   India/NNP   prior/RB)
+noun phrases to consider:
+	(NOUN STAR/NN DEN/NNP)
+	(NOUN development/NN)
+
+----------------------------------
+original sentence: 
+As part of the agreement, Sun Distribution Services will take Disney's television channels to kids and families in more than 70 million homes across the country.
+
+POS tagged sentence: 
+[('As', 'IN'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('agreement', 'NN'), (',', ','), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), ('will', 'MD'), ('take', 'VB'), ('Disney', 'NNP'), ("'s", 'POS'), ('television', 'NN'), ('channels', 'NNS'), ('to', 'TO'), ('kids', 'NNS'), ('and', 'CC'), ('families', 'NNS'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('70', 'CD'), ('million', 'CD'), ('homes', 'NNS'), ('across', 'IN'), ('the', 'DT'), ('country', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   part/NN   of/IN   the/DT   agreement/NN   ,/,   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   will/MD   take/VB   (PERSON Disney/NNP)   's/POS   television/NN   channels/NNS   to/TO   kids/NNS   and/CC   families/NNS   in/IN   more/JJR   than/IN   70/CD   million/CD   homes/NNS   across/IN   the/DT   country/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB take/VB Disney/NNP)
+noun phrases to consider:
+	(NOUN part/NN)
+	(NOUN agreement/NN)
+	(NOUN Sun/NNP Distribution/NNP Services/NNPS)
+	(NOUN television/NN channels/NNS)
+	(NOUN kids/NNS)
+	(NOUN families/NNS)
+	(NOUN more/JJR)
+	(NOUN million/CD homes/NNS)
+	(NOUN country/NN)
+
+----------------------------------
+original sentence: 
+The Disney network of channels mainly caters to children in the age group of 4 14 years.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Disney', 'NNP'), ('network', 'NN'), ('of', 'IN'), ('channels', 'NNS'), ('mainly', 'RB'), ('caters', 'NNS'), ('to', 'TO'), ('children', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('age', 'NN'), ('group', 'NN'), ('of', 'IN'), ('4', 'CD'), ('14', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Disney/NNP)   network/NN   of/IN   channels/NNS   mainly/RB   caters/NNS   to/TO   children/NNS   in/IN   the/DT   age/NN   group/NN   of/IN   4/CD   14/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Disney/NNP network/NN)
+	(NOUN channels/NNS)
+	(NOUN caters/NNS)
+	(NOUN children/NNS)
+	(NOUN age/NN group/NN)
+	(NOUN 14/CD years/NNS)
+
+----------------------------------
+original sentence: 
+"We have partnered Sun Distribution Services to further strengthen the reach and relevance of Disney in India.
+
+POS tagged sentence: 
+[('"', 'NN'), ('We', 'PRP'), ('have', 'VBP'), ('partnered', 'VBN'), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), ('to', 'TO'), ('further', 'RBR'), ('strengthen', 'RB'), ('the', 'DT'), ('reach', 'NN'), ('and', 'CC'), ('relevance', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('in', 'IN'), ('India', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   We/PRP   have/VBP   partnered/VBN   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   to/TO   further/RBR   strengthen/RB   the/DT   reach/NN   and/CC   relevance/NN   of/IN   (GPE Disney/NNP)   in/IN   (GPE India/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP partnered/VBN Sun/NNP Distribution/NNP Services/NNPS)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN reach/NN)
+	(NOUN relevance/NN)
+	(NOUN Disney/NNP)
+	(NOUN India/NNP)
+
+----------------------------------
+original sentence: 
+Our agreement further consolidates the position of Disney Channel, Disney XD and Hungama TV across multiple platforms in the country and provides kids and families increased access to content anywhere and anytime," says Mahesh Samat, managing director, The Walt Disney Company India, in an official communiquÃ©.
+
+POS tagged sentence: 
+[('Our', 'PRP$'), ('agreement', 'NN'), ('further', 'RB'), ('consolidates', 'VBZ'), ('the', 'DT'), ('position', 'NN'), ('of', 'IN'), ('Disney', 'NNP'), ('Channel', 'NNP'), (',', ','), ('Disney', 'NNP'), ('XD', 'NNP'), ('and', 'CC'), ('Hungama', 'NNP'), ('TV', 'NNP'), ('across', 'IN'), ('multiple', 'NN'), ('platforms', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('country', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('kids', 'NNS'), ('and', 'CC'), ('families', 'NNS'), ('increased', 'VBD'), ('access', 'NN'), ('to', 'TO'), ('content', 'NN'), ('anywhere', 'RB'), ('and', 'CC'), ('anytime', 'RB'), (',', ','), ('"', ':'), ('says', 'VBZ'), ('Mahesh', 'NNP'), ('Samat', 'NNP'), (',', ','), ('managing', 'VBG'), ('director', 'NN'), (',', ','), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('India', 'NNP'), (',', ','), ('in', 'IN'), ('an', 'DT'), ('official', 'NN'), ('communiqu', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Our/PRP$   agreement/NN   further/RB   consolidates/VBZ   the/DT   position/NN   of/IN   (ORGANIZATION Disney/NNP Channel/NNP)   ,/,   (PERSON Disney/NNP XD/NNP)   and/CC   (PERSON Hungama/NNP TV/NNP)   across/IN   multiple/NN   platforms/NNS   in/IN   the/DT   country/NN   and/CC   provides/VBZ   kids/NNS   and/CC   families/NNS   increased/VBD   access/NN   to/TO   content/NN   anywhere/RB   and/CC   anytime/RB   ,/,   "/:   says/VBZ   (PERSON Mahesh/NNP Samat/NNP)   ,/,   managing/VBG   director/NN   ,/,   (ORGANIZATION The/NNP Walt/NNP Disney/NNP Company/NNP India/NNP)   ,/,   in/IN   an/DT   official/NN   communiqu/NN   Ã/:   ©/:   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   consolidates/VBZ   the/DT   position/NN   of/IN   Disney/NNP   Channel/NNP)
+
+tagged sentence:
+	 consolidates the position of Disney Channel	res:1
+	(VERB provides/VBZ kids/NNS)
+	(VERB increased/VBD access/NN)
+	(VERB says/VBZ Mahesh/NNP Samat/NNP)
+	(VERB managing/VBG director/NN)
+noun phrases to consider:
+	(NOUN agreement/NN)
+	(NOUN Disney/NNP XD/NNP)
+	(NOUN Hungama/NNP TV/NNP)
+	(NOUN multiple/NN platforms/NNS)
+	(NOUN country/NN)
+	(NOUN families/NNS)
+	(NOUN content/NN)
+	(NOUN The/NNP Walt/NNP Disney/NNP Company/NNP)
+	(NOUN India/NNP)
+	(NOUN official/NN communiqu/NN)
+
+----------------------------------
+original sentence: 
+Tony D'Silva, chief operating officer, Sun Distribution Services, says in a statement to the media, "The Sun network commands consumer loyalty from television viewers across India and the entry of the Disney channel network will help make us a more comprehensive and entertaining package of offerings, with content that appeals to kids and families.
+
+POS tagged sentence: 
+[('Tony', 'NNP'), ("D'Silva", 'NNP'), (',', ','), ('chief', 'NN'), ('operating', 'NN'), ('officer', 'NN'), (',', ','), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), (',', ','), ('says', 'VBZ'), ('in', 'IN'), ('a', 'DT'), ('statement', 'NN'), ('to', 'TO'), ('the', 'DT'), ('media', 'NNS'), (',', ','), ('"', ':'), ('The', 'DT'), ('Sun', 'NNP'), ('network', 'NN'), ('commands', 'NNS'), ('consumer', 'NN'), ('loyalty', 'NN'), ('from', 'IN'), ('television', 'NN'), ('viewers', 'NNS'), ('across', 'IN'), ('India', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('entry', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Disney', 'NNP'), ('channel', 'NN'), ('network', 'NN'), ('will', 'MD'), ('help', 'VB'), ('make', 'VB'), ('us', 'PRP'), ('a', 'DT'), ('more', 'RBR'), ('comprehensive', 'JJ'), ('and', 'CC'), ('entertaining', 'JJ'), ('package', 'NN'), ('of', 'IN'), ('offerings', 'NNS'), (',', ','), ('with', 'IN'), ('content', 'NN'), ('that', 'IN'), ('appeals', 'NNS'), ('to', 'TO'), ('kids', 'NNS'), ('and', 'CC'), ('families', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Tony/NNP)   D'Silva/NNP   ,/,   chief/NN   operating/NN   officer/NN   ,/,   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   ,/,   says/VBZ   in/IN   a/DT   statement/NN   to/TO   the/DT   media/NNS   ,/,   "/:   The/DT   (ORGANIZATION Sun/NNP)   network/NN   commands/NNS   consumer/NN   loyalty/NN   from/IN   television/NN   viewers/NNS   across/IN   (GPE India/NNP)   and/CC   the/DT   entry/NN   of/IN   the/DT   (ORGANIZATION Disney/NNP)   channel/NN   network/NN   will/MD   help/VB   make/VB   us/PRP   a/DT   more/RBR   comprehensive/JJ   and/CC   entertaining/JJ   package/NN   of/IN   offerings/NNS   ,/,   with/IN   content/NN   that/IN   appeals/NNS   to/TO   kids/NNS   and/CC   families/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB says/VBZ in/IN a/DT statement/NN)
+	(VERB help/VB make/VB us/PRP a/DT)
+noun phrases to consider:
+	(NOUN Tony/NNP D'Silva/NNP)
+	(NOUN chief/NN operating/NN officer/NN)
+	(NOUN Sun/NNP Distribution/NNP Services/NNPS)
+	(NOUN media/NNS)
+	(NOUN Sun/NNP network/NN commands/NNS consumer/NN)
+	(NOUN loyalty/NN)
+	(NOUN television/NN viewers/NNS)
+	(NOUN India/NNP)
+	(NOUN entry/NN)
+	(NOUN Disney/NNP channel/NN network/NN)
+	(NOUN comprehensive/JJ)
+	(NOUN entertaining/JJ package/NN)
+	(NOUN offerings/NNS)
+	(NOUN content/NN)
+	(NOUN appeals/NNS)
+	(NOUN kids/NNS)
+	(NOUN families/NNS)
+
+----------------------------------
+original sentence: 
+" He adds that this is a significant milestone for Sun Distribution Services towards creating an alliance of strong television stations catering to different audiences and geographies.
+
+POS tagged sentence: 
+[('"', 'NN'), ('He', 'PRP'), ('adds', 'VBZ'), ('that', 'IN'), ('this', 'DT'), ('is', 'VBZ'), ('a', 'DT'), ('significant', 'JJ'), ('milestone', 'NN'), ('for', 'IN'), ('Sun', 'NNP'), ('Distribution', 'NNP'), ('Services', 'NNPS'), ('towards', 'NNS'), ('creating', 'VBG'), ('an', 'DT'), ('alliance', 'NN'), ('of', 'IN'), ('strong', 'JJ'), ('television', 'NN'), ('stations', 'NNS'), ('catering', 'VBG'), ('to', 'TO'), ('different', 'JJ'), ('audiences', 'NNS'), ('and', 'CC'), ('geographies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   He/PRP   adds/VBZ   that/IN   this/DT   is/VBZ   a/DT   significant/JJ   milestone/NN   for/IN   (ORGANIZATION Sun/NNP Distribution/NNP Services/NNPS)   towards/NNS   creating/VBG   an/DT   alliance/NN   of/IN   strong/JJ   television/NN   stations/NNS   catering/VBG   to/TO   different/JJ   audiences/NNS   and/CC   geographies/NNS   ./.)
+----------------------------------
+original sentence: 
+For the record, Disney Channel, Disney XD and Hungama TV bring to their TG local and international programming, including animation and live action, pre school programmes and original movies.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('record', 'NN'), (',', ','), ('Disney', 'NNP'), ('Channel', 'NNP'), (',', ','), ('Disney', 'NNP'), ('XD', 'NNP'), ('and', 'CC'), ('Hungama', 'NNP'), ('TV', 'NNP'), ('bring', 'NN'), ('to', 'TO'), ('their', 'PRP$'), ('TG', 'NNP'), ('local', 'JJ'), ('and', 'CC'), ('international', 'JJ'), ('programming', 'NN'), (',', ','), ('including', 'VBG'), ('animation', 'NN'), ('and', 'CC'), ('live', 'JJ'), ('action', 'NN'), (',', ','), ('pre', 'NN'), ('school', 'NN'), ('programmes', 'VBZ'), ('and', 'CC'), ('original', 'JJ'), ('movies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   record/NN   ,/,   (PERSON Disney/NNP Channel/NNP)   ,/,   (PERSON Disney/NNP XD/NNP)   and/CC   (PERSON Hungama/NNP)   TV/NNP   bring/NN   to/TO   their/PRP$   TG/NNP   local/JJ   and/CC   international/JJ   programming/NN   ,/,   including/VBG   animation/NN   and/CC   live/JJ   action/NN   ,/,   pre/NN   school/NN   programmes/VBZ   and/CC   original/JJ   movies/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB including/VBG animation/NN)
+	(VERB programmes/VBZ)
+noun phrases to consider:
+	(NOUN record/NN)
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN Disney/NNP XD/NNP)
+	(NOUN Hungama/NNP TV/NNP bring/NN)
+	(NOUN TG/NNP local/JJ)
+	(NOUN international/JJ programming/NN)
+	(NOUN live/JJ action/NN)
+	(NOUN pre/NN school/NN)
+	(NOUN original/JJ movies/NNS)
+
+----------------------------------
+original sentence: 
+Disney Channel broadcasts popular live action series such as the Tween franchises Hannah Montana and High School Musical, locally produced shows, animation series and preschool shows such as Mickey Mouse Club House and Handy Manny.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('Channel', 'NNP'), ('broadcasts', 'VBZ'), ('popular', 'JJ'), ('live', 'JJ'), ('action', 'NN'), ('series', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('the', 'DT'), ('Tween', 'NNP'), ('franchises', 'VBZ'), ('Hannah', 'NNP'), ('Montana', 'NNP'), ('and', 'CC'), ('High', 'NNP'), ('School', 'NNP'), ('Musical', 'NNP'), (',', ','), ('locally', 'RB'), ('produced', 'VBN'), ('shows', 'NNS'), (',', ','), ('animation', 'NN'), ('series', 'NNS'), ('and', 'CC'), ('preschool', 'NN'), ('shows', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('Mickey', 'NNP'), ('Mouse', 'NNP'), ('Club', 'NNP'), ('House', 'NNP'), ('and', 'CC'), ('Handy', 'NNP'), ('Manny', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   (ORGANIZATION Channel/NNP)   broadcasts/VBZ   popular/JJ   live/JJ   action/NN   series/NNS   such/JJ   as/IN   the/DT   (ORGANIZATION Tween/NNP)   franchises/VBZ   (PERSON Hannah/NNP Montana/NNP)   and/CC   (ORGANIZATION High/NNP School/NNP Musical/NNP)   ,/,   locally/RB   produced/VBN   shows/NNS   ,/,   animation/NN   series/NNS   and/CC   preschool/NN   shows/NNS   such/JJ   as/IN   (PERSON Mickey/NNP Mouse/NNP Club/NNP House/NNP)   and/CC   (PERSON Handy/NNP Manny/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   broadcasts/VBZ   popular/JJ   live/JJ   action/NN   series/NNS   such/JJ   as/IN   the/DT   Tween/NNP)
+	(VERB franchises/VBZ Hannah/NNP Montana/NNP)
+	(VERB produced/VBN shows/NNS)
+noun phrases to consider:
+	(NOUN Disney/NNP Channel/NNP)
+	(NOUN High/NNP School/NNP Musical/NNP)
+	(NOUN animation/NN series/NNS)
+	(NOUN preschool/NN shows/NNS such/JJ)
+	(NOUN Mickey/NNP Mouse/NNP Club/NNP House/NNP)
+	(NOUN Handy/NNP Manny/NNP)
+
+----------------------------------
+original sentence: 
+Disney XD showcases quintessential Tween boy passions such as sports, music, technology and gaming.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('XD', 'NNP'), ('showcases', 'VBZ'), ('quintessential', 'JJ'), ('Tween', 'NNP'), ('boy', 'NN'), ('passions', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('sports', 'NNS'), (',', ','), ('music', 'JJ'), (',', ','), ('technology', 'NN'), ('and', 'CC'), ('gaming', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Disney/NNP)   XD/NNP   showcases/VBZ   quintessential/JJ   Tween/NNP   boy/NN   passions/NNS   such/JJ   as/IN   sports/NNS   ,/,   music/JJ   ,/,   technology/NN   and/CC   gaming/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   showcases/VBZ   quintessential/JJ   Tween/NNP   boy/NN   passions/NNS   such/JJ   as/IN   sports/NNS)
+	(VERB gaming/VBG)
+noun phrases to consider:
+	(NOUN Disney/NNP XD/NNP)
+	(NOUN music/JJ)
+	(NOUN technology/NN)
+
+----------------------------------
+original sentence: 
+Hungama TV, on the other hand, has shows such as Doraemon, Kiteretsu and Shinchan available to audiences in Hindi, Tamil and Telugu.
+
+POS tagged sentence: 
+[('Hungama', 'NNP'), ('TV', 'NN'), (',', ','), ('on', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('hand', 'NN'), (',', ','), ('has', 'VBZ'), ('shows', 'VBZ'), ('such', 'JJ'), ('as', 'IN'), ('Doraemon', 'NNP'), (',', ','), ('Kiteretsu', 'NNP'), ('and', 'CC'), ('Shinchan', 'NNP'), ('available', 'JJ'), ('to', 'TO'), ('audiences', 'NNS'), ('in', 'IN'), ('Hindi', 'NNP'), (',', ','), ('Tamil', 'NNP'), ('and', 'CC'), ('Telugu', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Hungama/NNP)   TV/NN   ,/,   on/IN   the/DT   other/JJ   hand/NN   ,/,   has/VBZ   shows/VBZ   such/JJ   as/IN   (PERSON Doraemon/NNP)   ,/,   (PERSON Kiteretsu/NNP)   and/CC   (ORGANIZATION Shinchan/NNP)   available/JJ   to/TO   audiences/NNS   in/IN   (GPE Hindi/NNP)   ,/,   (PERSON Tamil/NNP)   and/CC   (GPE Telugu/NNP)   ./.)
+----------------------------------
+original sentence: 
+>>Archive media stories
+ >>Last 30 days' stories
+
+
+POS tagged sentence: 
+[('>', 'NN'), ('>', '``'), ('Archive', 'JJ'), ('media', 'NNS'), ('stories', 'NNS'), ('>', 'VBP'), ('>', ':'), ('Last', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ("'", 'POS'), ('stories', 'NNS')]
+
+
+ERTAGGED sentence: (S   >/NN   >/``   Archive/JJ   media/NNS   stories/NNS   >/VBP   >/:   Last/JJ   30/CD   days/NNS   '/POS   stories/NNS)
+
+veryneg:0	neg:0	pos:1	verypos:1	total:0

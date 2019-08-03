@@ -1,0 +1,593 @@
+
+----------------------------------
+original sentence: 
+Business & Financial News, Breaking US & International News | Reuters.com
+Communications Equipment
+NOK on New York Consolidated
+Price Change % chg Latest Key Developments
+ Nokia Corporation's And Siemens AG's Nokia Siemens Networks Signs Deal With Mobile Telesystems DJ
+Dow Jones reported that Nokia Siemens Networks, a Joint Venture company of Nokia Corporation and Siemens AG has signed a full operation and maintenance managed services contract with Mobile TeleSystems.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('&', 'CC'), ('Financial', 'NNP'), ('News', 'NNP'), (',', ','), ('Breaking', 'NNP'), ('US', 'NNP'), ('&', 'CC'), ('International', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Reuters.com', 'NNP'), ('Communications', 'NNPS'), ('Equipment', 'NNP'), ('NOK', 'NNP'), ('on', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('Consolidated', 'NNP'), ('Price', 'NNP'), ('Change', 'NNP'), ('%', 'NN'), ('chg', 'NN'), ('Latest', 'NNP'), ('Key', 'NNP'), ('Developments', 'NNP'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('And', 'NNP'), ('Siemens', 'NNP'), ('AG', 'NNP'), ("'s", 'POS'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('Signs', 'NNP'), ('Deal', 'NNP'), ('With', 'NNP'), ('Mobile', 'NNP'), ('Telesystems', 'NNP'), ('DJ', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), (',', ','), ('a', 'DT'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('company', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ('has', 'VBZ'), ('signed', 'VBN'), ('a', 'DT'), ('full', 'JJ'), ('operation', 'NN'), ('and', 'CC'), ('maintenance', 'NN'), ('managed', 'VBD'), ('services', 'NNS'), ('contract', 'NN'), ('with', 'IN'), ('Mobile', 'NNP'), ('TeleSystems', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   &/CC   (ORGANIZATION Financial/NNP News/NNP)   ,/,   (PERSON Breaking/NNP US/NNP)   &/CC   (ORGANIZATION International/NNP News/NNP)   |/NNP   Reuters.com/NNP   Communications/NNPS   Equipment/NNP   NOK/NNP   on/IN   (GPE New/NNP York/NNP)   Consolidated/NNP   Price/NNP   Change/NNP   %/NN   chg/NN   (PERSON     Latest/NNP     Key/NNP     Developments/NNP     Nokia/NNP     Corporation/NNP)   's/POS   (PERSON And/NNP Siemens/NNP AG/NNP)   's/POS   (PERSON     Nokia/NNP     Siemens/NNP     Networks/NNP     Signs/NNP     Deal/NNP     With/NNP     Mobile/NNP     Telesystems/NNP     DJ/NNP     Dow/NNP     Jones/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ,/,   a/DT   (ORGANIZATION Joint/NNP Venture/NNP)   company/NN   of/IN   (PERSON Nokia/NNP Corporation/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   has/VBZ   signed/VBN   a/DT   full/JJ   operation/NN   and/CC   maintenance/NN   managed/VBD   services/NNS   contract/NN   with/IN   (PERSON Mobile/NNP TeleSystems/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Siemens/NNP Networks/NNP)
+	(VERB has/VBZ signed/VBN a/DT full/JJ operation/NN)
+	(VERB   managed/VBD   services/NNS   contract/NN   with/IN   Mobile/NNP   TeleSystems/NNP)
+noun phrases to consider:
+	(NOUN Business/NN)
+	(NOUN Financial/NNP News/NNP)
+	(NOUN Breaking/NNP US/NNP)
+	(NOUN International/NNP News/NNP |/NNP Reuters.com/NNP)
+	(NOUN Communications/NNPS Equipment/NNP NOK/NNP)
+	(NOUN New/NNP York/NNP Consolidated/NNP Price/NNP)
+	(NOUN Change/NNP %/NN chg/NN Latest/NNP)
+	(NOUN Key/NNP Developments/NNP Nokia/NNP Corporation/NNP)
+	(NOUN And/NNP Siemens/NNP AG/NNP)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP Signs/NNP)
+
+tagged sentence:
+	 Nokia Siemens Networks Signs	res:2
+	(NOUN Deal/NNP With/NNP Mobile/NNP Telesystems/NNP)
+	(NOUN DJ/NNP Dow/NNP Jones/NNP)
+	(NOUN Joint/NNP Venture/NNP company/NN)
+	(NOUN Nokia/NNP Corporation/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN maintenance/NN)
+
+----------------------------------
+original sentence: 
+Mobile TeleSystems will outsource the daily operation and maintenance of its entire mobile network across Central Russia to Nokia Siemens Networks.
+
+POS tagged sentence: 
+[('Mobile', 'NNP'), ('TeleSystems', 'NNP'), ('will', 'MD'), ('outsource', 'VB'), ('the', 'DT'), ('daily', 'JJ'), ('operation', 'NN'), ('and', 'CC'), ('maintenance', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('entire', 'JJ'), ('mobile', 'JJ'), ('network', 'NN'), ('across', 'IN'), ('Central', 'NNP'), ('Russia', 'NNP'), ('to', 'TO'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mobile/NNP)   (ORGANIZATION TeleSystems/NNP)   will/MD   outsource/VB   the/DT   daily/JJ   operation/NN   and/CC   maintenance/NN   of/IN   its/PRP$   entire/JJ   mobile/JJ   network/NN   across/IN   (ORGANIZATION Central/NNP Russia/NNP)   to/TO   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB outsource/VB the/DT daily/JJ operation/NN)
+noun phrases to consider:
+	(NOUN Mobile/NNP TeleSystems/NNP)
+	(NOUN maintenance/NN)
+	(NOUN entire/JJ mobile/JJ network/NN)
+	(NOUN Central/NNP Russia/NNP)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+
+----------------------------------
+original sentence: 
+Contract is a five year managed services deal and Mobile TeleSystems will transfer around 250 employees to Nokia Siemens Networks.
+
+POS tagged sentence: 
+[('Contract', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('five', 'CD'), ('year', 'NN'), ('managed', 'VBN'), ('services', 'NNS'), ('deal', 'VBP'), ('and', 'CC'), ('Mobile', 'NNP'), ('TeleSystems', 'NNP'), ('will', 'MD'), ('transfer', 'VB'), ('around', 'IN'), ('250', 'CD'), ('employees', 'NNS'), ('to', 'TO'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP Contract/NN)   is/VBZ   a/DT   five/CD   year/NN   managed/VBN   services/NNS   deal/VBP   and/CC   (PERSON Mobile/NNP TeleSystems/NNP)   will/MD   transfer/VB   around/IN   250/CD   employees/NNS   to/TO   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT five/CD year/NN)
+	(VERB managed/VBN services/NNS)
+	(VERB deal/VBP)
+	(VERB transfer/VB around/IN 250/CD employees/NNS)
+noun phrases to consider:
+	(NOUN Contract/NN)
+	(NOUN Mobile/NNP TeleSystems/NNP)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+
+----------------------------------
+original sentence: 
+Smartphone Competition Hits Nokia Corporation, Shares Dive; Cuts FY 2010 Profit Outlook Reuters
+Thursday, 22 Apr 2010 09:13am EDT
+Reuters reported that Nokia Corporation cut its profit outlook and delayed the launch of phones it needs to compete with the iPhone and Blackberry.
+
+POS tagged sentence: 
+[('Smartphone', 'NNP'), ('Competition', 'NNP'), ('Hits', 'NNP'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Shares', 'NNP'), ('Dive', 'NNP'), (';', ':'), ('Cuts', 'NNP'), ('FY', 'NNP'), ('2010', 'CD'), ('Profit', 'NNP'), ('Outlook', 'NNP'), ('Reuters', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('22', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('13am', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ('cut', 'VBD'), ('its', 'PRP$'), ('profit', 'NN'), ('outlook', 'NN'), ('and', 'CC'), ('delayed', 'VBD'), ('the', 'DT'), ('launch', 'NN'), ('of', 'IN'), ('phones', 'NNS'), ('it', 'PRP'), ('needs', 'VBZ'), ('to', 'TO'), ('compete', 'VB'), ('with', 'IN'), ('the', 'DT'), ('iPhone', 'NNP'), ('and', 'CC'), ('Blackberry', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Smartphone/NNP)   (ORGANIZATION Competition/NNP Hits/NNP Nokia/NNP Corporation/NNP)   ,/,   (PERSON Shares/NNP Dive/NNP)   ;/:   (PERSON Cuts/NNP)   FY/NNP   2010/CD   Profit/NNP   Outlook/NNP   Reuters/NNP   Thursday/NNP   ,/,   22/CD   Apr/NNP   2010/CD   09/CD   :/:   13am/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Corporation/NNP)   cut/VBD   its/PRP$   profit/NN   outlook/NN   and/CC   delayed/VBD   the/DT   launch/NN   of/IN   phones/NNS   it/PRP   needs/VBZ   to/TO   compete/VB   with/IN   the/DT   (ORGANIZATION iPhone/NNP)   and/CC   (PERSON Blackberry/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Corporation/NNP)
+	(VERB cut/VBD its/PRP$ profit/NN outlook/NN)
+
+tagged sentence:
+	 cut its profit outlook	res:-1
+	(VERB delayed/VBD the/DT launch/NN of/IN phones/NNS it/PRP)
+
+tagged sentence:
+	 delayed the launch of phones it	res:-1
+	(VERB needs/VBZ to/TO compete/VB with/IN the/DT iPhone/NNP)
+noun phrases to consider:
+	(NOUN Smartphone/NNP Competition/NNP Hits/NNP Nokia/NNP)
+	(NOUN Corporation/NNP)
+	(NOUN Shares/NNP Dive/NNP)
+	(NOUN Cuts/NNP FY/NNP)
+	(NOUN 2010/CD Profit/NNP Outlook/NNP Reuters/NNP Thursday/NNP)
+	(NOUN 22/CD Apr/NNP)
+	(NOUN 13am/CD EDT/NNP Reuters/NNP)
+	(NOUN Blackberry/NNP)
+
+----------------------------------
+original sentence: 
+The Company cut the outlook for its fiscal 2010 operating profit margin at its key phone unit to 11% 13%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('cut', 'VBD'), ('the', 'DT'), ('outlook', 'NN'), ('for', 'IN'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('2010', 'CD'), ('operating', 'NN'), ('profit', 'NN'), ('margin', 'NN'), ('at', 'IN'), ('its', 'PRP$'), ('key', 'JJ'), ('phone', 'NN'), ('unit', 'NN'), ('to', 'TO'), ('11', 'CD'), ('%', 'NN'), ('13', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   cut/VBD   the/DT   outlook/NN   for/IN   its/PRP$   fiscal/JJ   2010/CD   operating/NN   profit/NN   margin/NN   at/IN   its/PRP$   key/JJ   phone/NN   unit/NN   to/TO   11/CD   %/NN   13/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Nokia Corporation's And Siemens AG's Nokia Siemens Networks In EUR750 Million Pact With China Mobile, China Unicom DJ
+Thursday, 22 Apr 2010 07:16am EDT
+Dow Jones reported that Nokia Siemens Networks, a Joint Venture company of Nokia Corporation and Siemens AG said that China Mobile Communications Corp China Mobile and China United Network Telecommuncations Corp China Unicom have signed frame agreements worth EUR750 million to continue purchasing GSM, WCDMA and TD SCDMA mobile network equipment and solutions from Nokia Siemens Networks.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('And', 'NNP'), ('Siemens', 'NNP'), ('AG', 'NNP'), ("'s", 'POS'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('In', 'NNP'), ('EUR750', 'NNP'), ('Million', 'NNP'), ('Pact', 'NNP'), ('With', 'NNP'), ('China', 'NNP'), ('Mobile', 'NNP'), (',', ','), ('China', 'NNP'), ('Unicom', 'NNP'), ('DJ', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('22', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('16am', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), (',', ','), ('a', 'DT'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('company', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('China', 'NNP'), ('Mobile', 'NNP'), ('Communications', 'NNPS'), ('Corp', 'NNP'), ('China', 'NNP'), ('Mobile', 'NNP'), ('and', 'CC'), ('China', 'NNP'), ('United', 'NNP'), ('Network', 'NNP'), ('Telecommuncations', 'NNP'), ('Corp', 'NNP'), ('China', 'NNP'), ('Unicom', 'NNP'), ('have', 'VBP'), ('signed', 'VBN'), ('frame', 'NN'), ('agreements', 'NNS'), ('worth', 'IN'), ('EUR750', 'NNP'), ('million', 'CD'), ('to', 'TO'), ('continue', 'VB'), ('purchasing', 'VBG'), ('GSM', 'NNP'), (',', ','), ('WCDMA', 'NNP'), ('and', 'CC'), ('TD', 'NNP'), ('SCDMA', 'NNP'), ('mobile', 'NN'), ('network', 'NN'), ('equipment', 'NN'), ('and', 'CC'), ('solutions', 'NNS'), ('from', 'IN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Corporation/NNP)   's/POS   (PERSON And/NNP Siemens/NNP AG/NNP)   's/POS   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   In/NNP   EUR750/NNP   Million/NNP   Pact/NNP   With/NNP   (GPE China/NNP)   Mobile/NNP   ,/,   (GPE China/NNP)   (ORGANIZATION Unicom/NNP)   DJ/NNP   Thursday/NNP   ,/,   22/CD   Apr/NNP   2010/CD   07/CD   :/:   16am/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ,/,   a/DT   (ORGANIZATION Joint/NNP Venture/NNP)   company/NN   of/IN   (PERSON Nokia/NNP Corporation/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   said/VBD   that/IN   (GPE China/NNP)   Mobile/NNP   Communications/NNPS   (ORGANIZATION Corp/NNP China/NNP Mobile/NNP)   and/CC   (GPE China/NNP)   (ORGANIZATION     United/NNP     Network/NNP     Telecommuncations/NNP     Corp/NNP     China/NNP     Unicom/NNP)   have/VBP   signed/VBN   frame/NN   agreements/NNS   worth/IN   (ORGANIZATION EUR750/NNP)   million/CD   to/TO   continue/VB   purchasing/VBG   (ORGANIZATION GSM/NNP)   ,/,   (ORGANIZATION WCDMA/NNP)   and/CC   (ORGANIZATION TD/NNP)   SCDMA/NNP   mobile/NN   network/NN   equipment/NN   and/CC   solutions/NNS   from/IN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Siemens/NNP Networks/NNP)
+	(VERB   said/VBD   that/IN   China/NNP   Mobile/NNP   Communications/NNPS   Corp/NNP   China/NNP   Mobile/NNP)
+	(VERB   have/VBP   signed/VBN   frame/NN   agreements/NNS   worth/IN   EUR750/NNP   million/CD)
+	(VERB continue/VB purchasing/VBG GSM/NNP)
+noun phrases to consider:
+	(NOUN Nokia/NNP Corporation/NNP)
+	(NOUN And/NNP Siemens/NNP AG/NNP)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP In/NNP)
+	(NOUN EUR750/NNP Million/NNP Pact/NNP With/NNP)
+	(NOUN China/NNP Mobile/NNP)
+	(NOUN China/NNP Unicom/NNP DJ/NNP Thursday/NNP)
+	(NOUN 22/CD Apr/NNP)
+	(NOUN 16am/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN Joint/NNP Venture/NNP company/NN)
+	(NOUN Nokia/NNP Corporation/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN China/NNP United/NNP Network/NNP Telecommuncations/NNP)
+	(NOUN Corp/NNP China/NNP Unicom/NNP)
+	(NOUN WCDMA/NNP)
+	(NOUN TD/NNP SCDMA/NNP mobile/NN network/NN)
+	(NOUN equipment/NN)
+	(NOUN solutions/NNS)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+
+----------------------------------
+original sentence: 
+The agreements reinforce the vendor's ties with the two Chinese operators, who signed similar agreements last year.
+
+POS tagged sentence: 
+[('The', 'DT'), ('agreements', 'NNS'), ('reinforce', 'VBP'), ('the', 'DT'), ('vendor', 'NN'), ("'s", 'POS'), ('ties', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('two', 'CD'), ('Chinese', 'JJ'), ('operators', 'NNS'), (',', ','), ('who', 'WP'), ('signed', 'VBN'), ('similar', 'JJ'), ('agreements', 'NNS'), ('last', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   agreements/NNS   reinforce/VBP   the/DT   vendor/NN   's/POS   ties/NNS   with/IN   the/DT   two/CD   (GPE Chinese/JJ)   operators/NNS   ,/,   who/WP   signed/VBN   similar/JJ   agreements/NNS   last/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Under the scope of the current agreements, China Mobile plans to purchase Nokia Siemens Networks' GSM and TD SCDMA network equipment, and its IP Multimedia Subsystem solution.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('the', 'DT'), ('scope', 'NN'), ('of', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('agreements', 'NNS'), (',', ','), ('China', 'NNP'), ('Mobile', 'NNP'), ('plans', 'VBZ'), ('to', 'TO'), ('purchase', 'VB'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ("'", 'POS'), ('GSM', 'NNP'), ('and', 'CC'), ('TD', 'NNP'), ('SCDMA', 'NNP'), ('network', 'NN'), ('equipment', 'NN'), (',', ','), ('and', 'CC'), ('its', 'PRP$'), ('IP', 'NNP'), ('Multimedia', 'NNP'), ('Subsystem', 'NNP'), ('solution', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   the/DT   scope/NN   of/IN   the/DT   current/JJ   agreements/NNS   ,/,   (GPE China/NNP)   Mobile/NNP   plans/VBZ   to/TO   purchase/VB   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   '/POS   (ORGANIZATION GSM/NNP)   and/CC   (ORGANIZATION TD/NNP)   SCDMA/NNP   network/NN   equipment/NN   ,/,   and/CC   its/PRP$   IP/NNP   Multimedia/NNP   Subsystem/NNP   solution/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB plans/VBZ to/TO purchase/VB Nokia/NNP Siemens/NNP Networks/NNP)
+
+tagged sentence:
+	 plans to purchase Nokia Siemens Networks	res:2
+noun phrases to consider:
+	(NOUN scope/NN)
+	(NOUN the/DT current/JJ agreements/NNS)
+	(NOUN China/NNP Mobile/NNP)
+	(NOUN GSM/NNP)
+	(NOUN TD/NNP SCDMA/NNP network/NN equipment/NN)
+	(NOUN IP/NNP Multimedia/NNP Subsystem/NNP solution/NN)
+
+----------------------------------
+original sentence: 
+China Unicom will source Nokia Siemens Networks' GSM and WCDMA equipment, as well as its HSPA solution, while continuing to purchase direct tunnel packet core technology.
+
+POS tagged sentence: 
+[('China', 'NNP'), ('Unicom', 'NNP'), ('will', 'MD'), ('source', 'VB'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ("'", 'POS'), ('GSM', 'NNP'), ('and', 'CC'), ('WCDMA', 'NNP'), ('equipment', 'NN'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('its', 'PRP$'), ('HSPA', 'NNP'), ('solution', 'NN'), (',', ','), ('while', 'IN'), ('continuing', 'VBG'), ('to', 'TO'), ('purchase', 'VB'), ('direct', 'JJ'), ('tunnel', 'NN'), ('packet', 'NN'), ('core', 'NN'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE China/NNP)   (ORGANIZATION Unicom/NNP)   will/MD   source/VB   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   '/POS   (ORGANIZATION GSM/NNP)   and/CC   (ORGANIZATION WCDMA/NNP)   equipment/NN   ,/,   as/IN   well/RB   as/IN   its/PRP$   (ORGANIZATION HSPA/NNP)   solution/NN   ,/,   while/IN   continuing/VBG   to/TO   purchase/VB   direct/JJ   tunnel/NN   packet/NN   core/NN   technology/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB source/VB Nokia/NNP Siemens/NNP Networks/NNP)
+	(VERB   continuing/VBG   to/TO   purchase/VB   direct/JJ   tunnel/NN   packet/NN   core/NN   technology/NN)
+noun phrases to consider:
+	(NOUN China/NNP Unicom/NNP)
+	(NOUN GSM/NNP)
+	(NOUN WCDMA/NNP equipment/NN)
+	(NOUN HSPA/NNP solution/NN)
+
+----------------------------------
+original sentence: 
+Nokia Corporation To Launch Nokia C, Nokia X In India Business Standard
+Wednesday, 21 Apr 2010 09:30am EDT
+Business Standard reported that Nokia Corporation said it would roll out two new phone series 'Nokia X' and 'Nokia C' within this quarter in India to widen its handset portfolio.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Corporation', 'NNP'), ('To', 'NNP'), ('Launch', 'NNP'), ('Nokia', 'NNP'), ('C', 'NNP'), (',', ','), ('Nokia', 'NNP'), ('X', 'NNP'), ('In', 'NNP'), ('India', 'NNP'), ('Business', 'NNP'), ('Standard', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('21', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('30am', 'CD'), ('EDT', 'NNP'), ('Business', 'NNP'), ('Standard', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('would', 'MD'), ('roll', 'VB'), ('out', 'RP'), ('two', 'CD'), ('new', 'JJ'), ('phone', 'NN'), ('series', 'NNS'), ("'Nokia", 'NNP'), ('X', 'NNP'), ("'", 'POS'), ('and', 'CC'), ("'Nokia", 'NNP'), ('C', 'NNP'), ("'", 'POS'), ('within', 'IN'), ('this', 'DT'), ('quarter', 'NN'), ('in', 'IN'), ('India', 'NNP'), ('to', 'TO'), ('widen', 'VB'), ('its', 'PRP$'), ('handset', 'NN'), ('portfolio', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Corporation/NNP To/NNP Launch/NNP Nokia/NNP)   C/NNP   ,/,   (PERSON Nokia/NNP)   X/NNP   In/NNP   (GPE India/NNP)   Business/NNP   (PERSON Standard/NNP)   Wednesday/NNP   ,/,   21/CD   Apr/NNP   2010/CD   09/CD   :/:   30am/CD   (ORGANIZATION EDT/NNP Business/NNP Standard/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Corporation/NNP)   said/VBD   it/PRP   would/MD   roll/VB   out/RP   two/CD   new/JJ   phone/NN   series/NNS   'Nokia/NNP   X/NNP   '/POS   and/CC   'Nokia/NNP   C/NNP   '/POS   within/IN   this/DT   quarter/NN   in/IN   (GPE India/NNP)   to/TO   widen/VB   its/PRP$   handset/NN   portfolio/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Corporation/NNP)
+	(VERB said/VBD it/PRP)
+	(VERB roll/VB)
+	(VERB widen/VB its/PRP$ handset/NN portfolio/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP Corporation/NNP To/NNP Launch/NNP)
+	(NOUN Nokia/NNP C/NNP)
+	(NOUN Nokia/NNP X/NNP In/NNP India/NNP)
+	(NOUN Business/NNP Standard/NNP Wednesday/NNP)
+	(NOUN 21/CD Apr/NNP)
+	(NOUN 30am/CD EDT/NNP Business/NNP Standard/NNP)
+	(NOUN two/CD new/JJ phone/NN series/NNS 'Nokia/NNP X/NNP)
+	(NOUN 'Nokia/NNP C/NNP)
+	(NOUN quarter/NN)
+	(NOUN India/NNP)
+
+----------------------------------
+original sentence: 
+Apart from this, the Company also plans to launch new mobile handset fitted with linux based Maemo software in the country within the next two to three months.
+
+POS tagged sentence: 
+[('Apart', 'NNP'), ('from', 'IN'), ('this', 'DT'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('also', 'RB'), ('plans', 'VBZ'), ('to', 'TO'), ('launch', 'VB'), ('new', 'JJ'), ('mobile', 'JJ'), ('handset', 'NN'), ('fitted', 'VBD'), ('with', 'IN'), ('linux', 'NN'), ('based', 'VBN'), ('Maemo', 'NNP'), ('software', 'NN'), ('in', 'IN'), ('the', 'DT'), ('country', 'NN'), ('within', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('two', 'CD'), ('to', 'TO'), ('three', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apart/NNP)   from/IN   this/DT   ,/,   the/DT   (ORGANIZATION Company/NNP)   also/RB   plans/VBZ   to/TO   launch/VB   new/JJ   mobile/JJ   handset/NN   fitted/VBD   with/IN   linux/NN   based/VBN   (PERSON Maemo/NNP)   software/NN   in/IN   the/DT   country/NN   within/IN   the/DT   next/JJ   two/CD   to/TO   three/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, the Company also launched four new affordable mobile phones Nokia 2690, Nokia 1800, Nokia 1616 and Nokia 1280 for entry level consumers.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('also', 'RB'), ('launched', 'VBD'), ('four', 'CD'), ('new', 'JJ'), ('affordable', 'JJ'), ('mobile', 'JJ'), ('phones', 'NNS'), ('Nokia', 'NNP'), ('2690', 'CD'), (',', ','), ('Nokia', 'NNP'), ('1800', 'CD'), (',', ','), ('Nokia', 'NNP'), ('1616', 'CD'), ('and', 'CC'), ('Nokia', 'NNP'), ('1280', 'CD'), ('for', 'IN'), ('entry', 'NN'), ('level', 'NN'), ('consumers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   the/DT   (ORGANIZATION Company/NNP)   also/RB   launched/VBD   four/CD   new/JJ   affordable/JJ   mobile/JJ   phones/NNS   Nokia/NNP   2690/CD   ,/,   Nokia/NNP   1800/CD   ,/,   Nokia/NNP   1616/CD   and/CC   Nokia/NNP   1280/CD   for/IN   entry/NN   level/NN   consumers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   launched/VBD   four/CD   new/JJ   affordable/JJ   mobile/JJ   phones/NNS   Nokia/NNP   2690/CD)
+noun phrases to consider:
+	(NOUN Company/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN Nokia/NNP)
+	(NOUN entry/NN level/NN consumers/NNS)
+
+----------------------------------
+original sentence: 
+Nokia Oyj and Siemens AG Joint Venture Wins Qatari Third Generation Upgrade Deal Reuters
+Tuesday, 20 Apr 2010 04:12am EDT
+Reuters reported that Nokia Oyj and Siemens AG joint venture, Nokia Siemens Networks, has received a third generation 3G network upgrade deal from Qatar Telecom.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('Wins', 'NNP'), ('Qatari', 'NNP'), ('Third', 'NNP'), ('Generation', 'NNP'), ('Upgrade', 'NNP'), ('Deal', 'NNP'), ('Reuters', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('20', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('12am', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ('joint', 'NN'), ('venture', 'NN'), (',', ','), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), (',', ','), ('has', 'VBZ'), ('received', 'VBN'), ('a', 'DT'), ('third', 'JJ'), ('generation', 'NN'), ('3G', 'CD'), ('network', 'NN'), ('upgrade', 'NN'), ('deal', 'NN'), ('from', 'IN'), ('Qatar', 'NNP'), ('Telecom', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Oyj/NNP)   and/CC   (PERSON     Siemens/NNP     AG/NNP     Joint/NNP     Venture/NNP     Wins/NNP     Qatari/NNP     Third/NNP)   Generation/NNP   (PERSON Upgrade/NNP Deal/NNP Reuters/NNP)   Tuesday/NNP   ,/,   20/CD   Apr/NNP   2010/CD   04/CD   :/:   12am/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Oyj/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   joint/NN   venture/NN   ,/,   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ,/,   has/VBZ   received/VBN   a/DT   third/JJ   generation/NN   3G/CD   network/NN   upgrade/NN   deal/NN   from/IN   (PERSON Qatar/NNP Telecom/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Oyj/NNP)
+	(VERB   has/VBZ   received/VBN   a/DT   third/JJ   generation/NN   3G/CD   network/NN   upgrade/NN   deal/NN   from/IN   Qatar/NNP   Telecom/NNP)
+
+tagged sentence:
+	 has received a third generation 3G network upgrade deal from Qatar Telecom	res:2
+noun phrases to consider:
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP Joint/NNP Venture/NNP)
+	(NOUN Wins/NNP Qatari/NNP Third/NNP Generation/NNP)
+	(NOUN Upgrade/NNP Deal/NNP Reuters/NNP Tuesday/NNP)
+	(NOUN 20/CD Apr/NNP)
+	(NOUN 12am/CD EDT/NNP Reuters/NNP)
+	(NOUN Siemens/NNP AG/NNP joint/NN venture/NN)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+
+----------------------------------
+original sentence: 
+The value of the deal was not disclosed.
+
+POS tagged sentence: 
+[('The', 'DT'), ('value', 'NN'), ('of', 'IN'), ('the', 'DT'), ('deal', 'NN'), ('was', 'VBD'), ('not', 'RB'), ('disclosed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   value/NN   of/IN   the/DT   deal/NN   was/VBD   not/RB   disclosed/VBN   ./.)
+----------------------------------
+original sentence: 
+Nokia Oyj and Siemens AG Joint Venture Receives Order from T Mobile and 3 DJ
+Friday, 16 Apr 2010 05:33am EDT
+Dow Jones reported that Nokia Oyj and Siemens AG's joint venture Nokia Siemens Networks has received an order worth GBP 400 million from T Mobile and 3 to expand the operators' third generation 3G joint network in the United Kingdom.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('Receives', 'NNP'), ('Order', 'NNP'), ('from', 'IN'), ('T', 'NNP'), ('Mobile', 'NNP'), ('and', 'CC'), ('3', 'CD'), ('DJ', 'NNP'), ('Friday', 'NNP'), (',', ','), ('16', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('33am', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ("'s", 'POS'), ('joint', 'JJ'), ('venture', 'NN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('has', 'VBZ'), ('received', 'VBN'), ('an', 'DT'), ('order', 'NN'), ('worth', 'NN'), ('GBP', 'NNP'), ('400', 'CD'), ('million', 'CD'), ('from', 'IN'), ('T', 'NNP'), ('Mobile', 'NNP'), ('and', 'CC'), ('3', 'CD'), ('to', 'TO'), ('expand', 'VB'), ('the', 'DT'), ('operators', 'NNS'), ("'", 'POS'), ('third', 'JJ'), ('generation', 'NN'), ('3G', 'CD'), ('joint', 'NN'), ('network', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('Kingdom', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Oyj/NNP)   and/CC   (PERSON     Siemens/NNP     AG/NNP     Joint/NNP     Venture/NNP     Receives/NNP     Order/NNP)   from/IN   (ORGANIZATION T/NNP Mobile/NNP)   and/CC   3/CD   DJ/NNP   Friday/NNP   ,/,   16/CD   Apr/NNP   2010/CD   05/CD   :/:   33am/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Oyj/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   's/POS   joint/JJ   venture/NN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   has/VBZ   received/VBN   an/DT   order/NN   worth/NN   GBP/NNP   400/CD   million/CD   from/IN   (ORGANIZATION T/NNP Mobile/NNP)   and/CC   3/CD   to/TO   expand/VB   the/DT   operators/NNS   '/POS   third/JJ   generation/NN   3G/CD   joint/NN   network/NN   in/IN   the/DT   (ORGANIZATION United/NNP Kingdom/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Oyj/NNP)
+	(VERB   has/VBZ   received/VBN   an/DT   order/NN   worth/NN   GBP/NNP   400/CD   million/CD   from/IN   T/NNP   Mobile/NNP)
+	(VERB expand/VB the/DT operators/NNS)
+noun phrases to consider:
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP Joint/NNP Venture/NNP)
+	(NOUN Receives/NNP Order/NNP)
+	(NOUN T/NNP Mobile/NNP)
+	(NOUN 3/CD DJ/NNP Friday/NNP)
+	(NOUN 16/CD Apr/NNP)
+	(NOUN 33am/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN joint/JJ venture/NN Nokia/NNP Siemens/NNP Networks/NNP)
+	(NOUN third/JJ generation/NN)
+	(NOUN 3G/CD joint/NN network/NN)
+	(NOUN United/NNP Kingdom/NNP)
+
+----------------------------------
+original sentence: 
+Nokia Oyj's and Siemens AG's Joint Venture Receives Contract from Telefonica o2 Germany Reuters
+Thursday, 15 Apr 2010 04:04am EDT
+Reuters reported that Nokia Siemens Networks, a Joint Venture company of Nokia Oyj and Siemens AG, has received a contract from Telefonica o2 Germany for extending its network capacity across Germany in preparation for future traffic growth.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Oyj', 'NNP'), ("'s", 'POS'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ("'s", 'POS'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('Receives', 'NNP'), ('Contract', 'NNP'), ('from', 'IN'), ('Telefonica', 'NNP'), ('o2', 'NNP'), ('Germany', 'NNP'), ('Reuters', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('15', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('04am', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), (',', ','), ('a', 'DT'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('company', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), (',', ','), ('has', 'VBZ'), ('received', 'VBN'), ('a', 'DT'), ('contract', 'NN'), ('from', 'IN'), ('Telefonica', 'NNP'), ('o2', 'NNP'), ('Germany', 'NNP'), ('for', 'IN'), ('extending', 'VBG'), ('its', 'PRP$'), ('network', 'NN'), ('capacity', 'NN'), ('across', 'IN'), ('Germany', 'NNP'), ('in', 'IN'), ('preparation', 'NN'), ('for', 'IN'), ('future', 'JJ'), ('traffic', 'JJ'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Oyj/NNP)   's/POS   and/CC   (PERSON Siemens/NNP AG/NNP)   's/POS   (PERSON Joint/NNP Venture/NNP Receives/NNP Contract/NNP)   from/IN   (ORGANIZATION Telefonica/NNP)   o2/NNP   Germany/NNP   Reuters/NNP   Thursday/NNP   ,/,   15/CD   Apr/NNP   2010/CD   04/CD   :/:   04am/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ,/,   a/DT   (ORGANIZATION Joint/NNP Venture/NNP)   company/NN   of/IN   (PERSON Nokia/NNP Oyj/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   ,/,   has/VBZ   received/VBN   a/DT   contract/NN   from/IN   (ORGANIZATION Telefonica/NNP)   o2/NNP   Germany/NNP   for/IN   extending/VBG   its/PRP$   network/NN   capacity/NN   across/IN   (GPE Germany/NNP)   in/IN   preparation/NN   for/IN   future/JJ   traffic/JJ   growth/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Siemens/NNP Networks/NNP)
+	(VERB   has/VBZ   received/VBN   a/DT   contract/NN   from/IN   Telefonica/NNP   o2/NNP   Germany/NNP   for/IN)
+	(VERB   extending/VBG   its/PRP$   network/NN   capacity/NN   across/IN   Germany/NNP   in/IN   preparation/NN   for/IN   future/JJ   traffic/JJ   growth/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN Joint/NNP Venture/NNP Receives/NNP Contract/NNP)
+	(NOUN Telefonica/NNP o2/NNP Germany/NNP Reuters/NNP)
+	(NOUN Thursday/NNP)
+	(NOUN 15/CD Apr/NNP)
+	(NOUN 04am/CD EDT/NNP Reuters/NNP)
+	(NOUN Joint/NNP Venture/NNP company/NN)
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+
+----------------------------------
+original sentence: 
+The deal includes network implementation, project management and logistics.
+
+POS tagged sentence: 
+[('The', 'DT'), ('deal', 'NN'), ('includes', 'VBZ'), ('network', 'NN'), ('implementation', 'NN'), (',', ','), ('project', 'NN'), ('management', 'NN'), ('and', 'CC'), ('logistics', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   deal/NN   includes/VBZ   network/NN   implementation/NN   ,/,   project/NN   management/NN   and/CC   logistics/NNS   ./.)
+----------------------------------
+original sentence: 
+It is also extending existing supplier contracts with Telefonica o2 for second and third generation technology.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('also', 'RB'), ('extending', 'VBG'), ('existing', 'VBG'), ('supplier', 'JJR'), ('contracts', 'NNS'), ('with', 'IN'), ('Telefonica', 'NNP'), ('o2', 'NNP'), ('for', 'IN'), ('second', 'JJ'), ('and', 'CC'), ('third', 'JJ'), ('generation', 'NN'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   also/RB   extending/VBG   existing/VBG   supplier/JJR   contracts/NNS   with/IN   (ORGANIZATION Telefonica/NNP)   o2/NNP   for/IN   second/JJ   and/CC   third/JJ   generation/NN   technology/NN   ./.)
+----------------------------------
+original sentence: 
+No financial details were announced.
+
+POS tagged sentence: 
+[('No', 'DT'), ('financial', 'JJ'), ('details', 'NNS'), ('were', 'VBD'), ('announced', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S No/DT financial/JJ details/NNS were/VBD announced/VBN ./.)
+----------------------------------
+original sentence: 
+Nokia Corporation Launches Three New Mobile Phones DJ
+Tuesday, 13 Apr 2010 04:22am EDT
+Dow Jones reported that Nokia Corporation is launching three new mobile phones, intended to offer strong messaging and social networking tools at an affordable price.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Corporation', 'NNP'), ('Launches', 'NNP'), ('Three', 'NNP'), ('New', 'NNP'), ('Mobile', 'NNP'), ('Phones', 'NNP'), ('DJ', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('13', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('22am', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Corporation', 'NNP'), ('is', 'VBZ'), ('launching', 'VBG'), ('three', 'CD'), ('new', 'JJ'), ('mobile', 'JJ'), ('phones', 'NNS'), (',', ','), ('intended', 'VBN'), ('to', 'TO'), ('offer', 'VB'), ('strong', 'JJ'), ('messaging', 'NN'), ('and', 'CC'), ('social', 'JJ'), ('networking', 'NN'), ('tools', 'NNS'), ('at', 'IN'), ('an', 'DT'), ('affordable', 'JJ'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Corporation/NNP Launches/NNP)   Three/NNP   New/NNP   Mobile/NNP   (PERSON Phones/NNP DJ/NNP)   Tuesday/NNP   ,/,   13/CD   Apr/NNP   2010/CD   04/CD   :/:   22am/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Corporation/NNP)   is/VBZ   launching/VBG   three/CD   new/JJ   mobile/JJ   phones/NNS   ,/,   intended/VBN   to/TO   offer/VB   strong/JJ   messaging/NN   and/CC   social/JJ   networking/NN   tools/NNS   at/IN   an/DT   affordable/JJ   price/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Corporation/NNP)
+	(VERB is/VBZ launching/VBG three/CD new/JJ mobile/JJ phones/NNS)
+	(VERB intended/VBN to/TO offer/VB strong/JJ messaging/NN)
+
+tagged sentence:
+	 intended to offer strong messaging	res:1
+noun phrases to consider:
+	(NOUN Nokia/NNP Corporation/NNP Launches/NNP Three/NNP)
+	(NOUN New/NNP Mobile/NNP Phones/NNP DJ/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN 13/CD Apr/NNP)
+	(NOUN 22am/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN social/JJ networking/NN tools/NNS)
+	(NOUN an/DT affordable/JJ price/NN)
+
+----------------------------------
+original sentence: 
+The Nokia C3 device, which is built on Nokia's Series 40 platform, has a full QWERTY keyboard and gives access to social networking services Facebook and Twitter on the homescreen.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Nokia', 'NNP'), ('C3', 'NNP'), ('device', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('built', 'VBN'), ('on', 'IN'), ('Nokia', 'NNP'), ("'s", 'POS'), ('Series', 'NNP'), ('40', 'CD'), ('platform', 'NN'), (',', ','), ('has', 'VBZ'), ('a', 'DT'), ('full', 'JJ'), ('QWERTY', 'NNP'), ('keyboard', 'NN'), ('and', 'CC'), ('gives', 'VBZ'), ('access', 'NN'), ('to', 'TO'), ('social', 'JJ'), ('networking', 'NN'), ('services', 'NNS'), ('Facebook', 'NNP'), ('and', 'CC'), ('Twitter', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('homescreen', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Nokia/NNP)   C3/NNP   device/NN   ,/,   which/WDT   is/VBZ   built/VBN   on/IN   (PERSON Nokia/NNP)   's/POS   Series/NNP   40/CD   platform/NN   ,/,   has/VBZ   a/DT   full/JJ   (ORGANIZATION QWERTY/NNP)   keyboard/NN   and/CC   gives/VBZ   access/NN   to/TO   social/JJ   networking/NN   services/NNS   (PERSON Facebook/NNP)   and/CC   (PERSON Twitter/NNP)   on/IN   the/DT   homescreen/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ built/VBN on/IN Nokia/NNP)
+	(VERB has/VBZ a/DT full/JJ QWERTY/NNP keyboard/NN)
+	(VERB gives/VBZ access/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP C3/NNP device/NN)
+	(NOUN Series/NNP)
+	(NOUN 40/CD platform/NN)
+	(NOUN social/JJ networking/NN services/NNS Facebook/NNP)
+	(NOUN Twitter/NNP)
+	(NOUN homescreen/NN)
+
+----------------------------------
+original sentence: 
+Nokia Oyj's and Siemens AG's Joint Venture Collaborates with Chunghwa Telecom Co., Ltd. in Taiwan DJ
+Monday, 12 Apr 2010 01:03am EDT
+Dow Jones reported that Nokia Siemens Networks, a joint venture between Nokia Oyj and Siemens AG, is collaborating with Chunghwa Telecom Co., Ltd. on a live FDD LTE trial in Taiwan in a move to advance the development of new generation mobile broadband.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Oyj', 'NNP'), ("'s", 'POS'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), ("'s", 'POS'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('Collaborates', 'NNP'), ('with', 'IN'), ('Chunghwa', 'NNP'), ('Telecom', 'NNP'), ('Co.', 'NNP'), (',', ','), ('Ltd.', 'NNP'), ('in', 'IN'), ('Taiwan', 'NNP'), ('DJ', 'NNP'), ('Monday', 'NNP'), (',', ','), ('12', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('01', 'CD'), (':', ':'), ('03am', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), (',', ','), ('a', 'DT'), ('joint', 'JJ'), ('venture', 'NN'), ('between', 'IN'), ('Nokia', 'NNP'), ('Oyj', 'NNP'), ('and', 'CC'), ('Siemens', 'NNP'), ('AG', 'NNP'), (',', ','), ('is', 'VBZ'), ('collaborating', 'VBG'), ('with', 'IN'), ('Chunghwa', 'NNP'), ('Telecom', 'NNP'), ('Co.', 'NNP'), (',', ','), ('Ltd.', 'NNP'), ('on', 'IN'), ('a', 'DT'), ('live', 'JJ'), ('FDD', 'NNP'), ('LTE', 'NNP'), ('trial', 'NN'), ('in', 'IN'), ('Taiwan', 'NNP'), ('in', 'IN'), ('a', 'DT'), ('move', 'NN'), ('to', 'TO'), ('advance', 'NN'), ('the', 'DT'), ('development', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('generation', 'NN'), ('mobile', 'NN'), ('broadband', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Oyj/NNP)   's/POS   and/CC   (PERSON Siemens/NNP AG/NNP)   's/POS   (PERSON Joint/NNP Venture/NNP Collaborates/NNP)   with/IN   (PERSON Chunghwa/NNP Telecom/NNP)   Co./NNP   ,/,   Ltd./NNP   in/IN   (GPE Taiwan/NNP)   DJ/NNP   Monday/NNP   ,/,   12/CD   Apr/NNP   2010/CD   01/CD   :/:   03am/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   ,/,   a/DT   joint/JJ   venture/NN   between/IN   (PERSON Nokia/NNP Oyj/NNP)   and/CC   (PERSON Siemens/NNP AG/NNP)   ,/,   is/VBZ   collaborating/VBG   with/IN   (PERSON Chunghwa/NNP Telecom/NNP)   Co./NNP   ,/,   Ltd./NNP   on/IN   a/DT   live/JJ   (ORGANIZATION FDD/NNP)   LTE/NNP   trial/NN   in/IN   (GPE Taiwan/NNP)   in/IN   a/DT   move/NN   to/TO   advance/NN   the/DT   development/NN   of/IN   new/JJ   generation/NN   mobile/NN   broadband/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Nokia/NNP Siemens/NNP Networks/NNP)
+	(VERB   is/VBZ   collaborating/VBG   with/IN   Chunghwa/NNP   Telecom/NNP   Co./NNP)
+noun phrases to consider:
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN Joint/NNP Venture/NNP Collaborates/NNP)
+	(NOUN Chunghwa/NNP Telecom/NNP Co./NNP)
+	(NOUN Ltd./NNP)
+	(NOUN Taiwan/NNP DJ/NNP Monday/NNP)
+	(NOUN 12/CD Apr/NNP)
+	(NOUN 03am/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN a/DT joint/JJ venture/NN)
+	(NOUN Nokia/NNP Oyj/NNP)
+	(NOUN Siemens/NNP AG/NNP)
+	(NOUN Ltd./NNP)
+	(NOUN a/DT live/JJ FDD/NNP LTE/NNP trial/NN)
+	(NOUN Taiwan/NNP)
+	(NOUN move/NN)
+	(NOUN advance/NN)
+	(NOUN development/NN)
+	(NOUN new/JJ generation/NN mobile/NN broadband/NN)
+
+----------------------------------
+original sentence: 
+For the trial, Nokia Siemens Networks is providing commercial platforms for FDD LTE, enabling Chunghwa Telecom to evaluate this technology as a natural evolution path for WCDMA.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('trial', 'NN'), (',', ','), ('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('is', 'VBZ'), ('providing', 'VBG'), ('commercial', 'JJ'), ('platforms', 'NNS'), ('for', 'IN'), ('FDD', 'NNP'), ('LTE', 'NNP'), (',', ','), ('enabling', 'VBG'), ('Chunghwa', 'NNP'), ('Telecom', 'NNP'), ('to', 'TO'), ('evaluate', 'VB'), ('this', 'DT'), ('technology', 'NN'), ('as', 'IN'), ('a', 'DT'), ('natural', 'JJ'), ('evolution', 'NN'), ('path', 'NN'), ('for', 'IN'), ('WCDMA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   trial/NN   ,/,   (PERSON Nokia/NNP Siemens/NNP Networks/NNP)   is/VBZ   providing/VBG   commercial/JJ   platforms/NNS   for/IN   (ORGANIZATION FDD/NNP)   LTE/NNP   ,/,   enabling/VBG   (PERSON Chunghwa/NNP Telecom/NNP)   to/TO   evaluate/VB   this/DT   technology/NN   as/IN   a/DT   natural/JJ   evolution/NN   path/NN   for/IN   (ORGANIZATION WCDMA/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   providing/VBG   commercial/JJ   platforms/NNS   for/IN   FDD/NNP   LTE/NNP)
+	(VERB enabling/VBG Chunghwa/NNP Telecom/NNP)
+	(VERB   evaluate/VB   this/DT   technology/NN   as/IN   a/DT   natural/JJ   evolution/NN   path/NN   for/IN   WCDMA/NNP)
+noun phrases to consider:
+	(NOUN trial/NN)
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+
+----------------------------------
+original sentence: 
+Nokia Siemens Networks will provide all necessary LTE equipment including core network and base stations, based on commercial platforms, and will also provide related technical support.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Siemens', 'NNP'), ('Networks', 'NNP'), ('will', 'MD'), ('provide', 'VB'), ('all', 'DT'), ('necessary', 'JJ'), ('LTE', 'NNP'), ('equipment', 'NN'), ('including', 'VBG'), ('core', 'NN'), ('network', 'NN'), ('and', 'CC'), ('base', 'NN'), ('stations', 'NNS'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('commercial', 'JJ'), ('platforms', 'NNS'), (',', ','), ('and', 'CC'), ('will', 'MD'), ('also', 'RB'), ('provide', 'VB'), ('related', 'VBN'), ('technical', 'JJ'), ('support', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION Siemens/NNP Networks/NNP)   will/MD   provide/VB   all/DT   necessary/JJ   (ORGANIZATION LTE/NNP)   equipment/NN   including/VBG   core/NN   network/NN   and/CC   base/NN   stations/NNS   ,/,   based/VBN   on/IN   commercial/JJ   platforms/NNS   ,/,   and/CC   will/MD   also/RB   provide/VB   related/VBN   technical/JJ   support/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provide/VB all/DT necessary/JJ LTE/NNP equipment/NN)
+	(VERB including/VBG core/NN network/NN)
+	(VERB based/VBN on/IN commercial/JJ platforms/NNS)
+	(VERB provide/VB related/VBN technical/JJ support/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP Siemens/NNP Networks/NNP)
+	(NOUN base/NN stations/NNS)
+
+----------------------------------
+original sentence: 
+Nokia Oyj Completes Acquisition Of Novarra, Inc.
+Friday, 9 Apr 2010 11:25am EDT
+Nokia Oyj announced that it has completed the acquisition of Novarra, Inc., initially announced on March 26, 2010.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Oyj', 'NNP'), ('Completes', 'NNP'), ('Acquisition', 'NNP'), ('Of', 'NNP'), ('Novarra', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('Friday', 'NNP'), (',', ','), ('9', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('25am', 'CD'), ('EDT', 'NNP'), ('Nokia', 'NNP'), ('Oyj', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('completed', 'VBN'), ('the', 'DT'), ('acquisition', 'NN'), ('of', 'IN'), ('Novarra', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('initially', 'RB'), ('announced', 'VBD'), ('on', 'IN'), ('March', 'NNP'), ('26', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (ORGANIZATION     Oyj/NNP     Completes/NNP     Acquisition/NNP     Of/NNP     Novarra/NNP)   ,/,   (PERSON Inc/NNP)   ./.   Friday/NNP   ,/,   9/CD   Apr/NNP   2010/CD   11/CD   :/:   25am/CD   (ORGANIZATION EDT/NNP Nokia/NNP Oyj/NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   completed/VBN   the/DT   acquisition/NN   of/IN   (GPE Novarra/NNP)   ,/,   Inc./NNP   ,/,   initially/RB   announced/VBD   on/IN   March/NNP   26/CD   ,/,   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB has/VBZ completed/VBN the/DT acquisition/NN of/IN Novarra/NNP)
+	(VERB announced/VBD on/IN March/NNP 26/CD)
+noun phrases to consider:
+	(NOUN Nokia/NNP Oyj/NNP Completes/NNP Acquisition/NNP)
+	(NOUN Of/NNP Novarra/NNP)
+	(NOUN Inc/NNP)
+	(NOUN Friday/NNP)
+	(NOUN 9/CD Apr/NNP)
+	(NOUN 25am/CD EDT/NNP Nokia/NNP Oyj/NNP)
+	(NOUN Inc./NNP)
+
+----------------------------------
+original sentence: 
+Novarra's mobile browser and services platform will be used by Nokia to deliver enhanced Internet experiences on Nokia Series 40 mobile phones.
+
+POS tagged sentence: 
+[('Novarra', 'NNP'), ("'s", 'POS'), ('mobile', 'JJ'), ('browser', 'NN'), ('and', 'CC'), ('services', 'NNS'), ('platform', 'NN'), ('will', 'MD'), ('be', 'VB'), ('used', 'VBN'), ('by', 'IN'), ('Nokia', 'NNP'), ('to', 'TO'), ('deliver', 'VB'), ('enhanced', 'VBN'), ('Internet', 'NNP'), ('experiences', 'NNS'), ('on', 'IN'), ('Nokia', 'NNP'), ('Series', 'NNP'), ('40', 'CD'), ('mobile', 'JJ'), ('phones', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Novarra/NNP)   's/POS   mobile/JJ   browser/NN   and/CC   services/NNS   platform/NN   will/MD   be/VB   used/VBN   by/IN   (PERSON Nokia/NNP)   to/TO   deliver/VB   enhanced/VBN   Internet/NNP   experiences/NNS   on/IN   (PERSON Nokia/NNP Series/NNP)   40/CD   mobile/JJ   phones/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB used/VBN by/IN Nokia/NNP)
+	(VERB   deliver/VB   enhanced/VBN   Internet/NNP   experiences/NNS   on/IN   Nokia/NNP   Series/NNP   40/CD   mobile/JJ   phones/NNS)
+
+tagged sentence:
+	 deliver enhanced Internet experiences on Nokia Series 40 mobile phones	res:1
+noun phrases to consider:
+	(NOUN Novarra/NNP)
+	(NOUN mobile/JJ browser/NN)
+	(NOUN services/NNS platform/NN)
+
+----------------------------------
+original sentence: 
+BUY OR SELL Free navigation finally to hit TomTom?
+
+POS tagged sentence: 
+[('BUY', 'NNP'), ('OR', 'CC'), ('SELL', 'NNP'), ('Free', 'NNP'), ('navigation', 'NN'), ('finally', 'RB'), ('to', 'TO'), ('hit', 'VB'), ('TomTom', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   BUY/NNP   OR/CC   (ORGANIZATION SELL/NNP Free/NNP)   navigation/NN   finally/RB   to/TO   hit/VB   (ORGANIZATION TomTom/NNP)   ?/.)
+----------------------------------
+original sentence: 
+AMSTERDAM, April 23 Reuters Shares in Dutch navigation
+device maker TomTom suffered another blow after the
+world's top cellphone maker Nokia said 10 million of
+its smartphone users had downloaded free navigation on their
+phones.
+
+POS tagged sentence: 
+[('AMSTERDAM', 'NN'), (',', ','), ('April', 'NNP'), ('23', 'CD'), ('Reuters', 'NNP'), ('Shares', 'NNP'), ('in', 'IN'), ('Dutch', 'NNP'), ('navigation', 'NN'), ('device', 'NN'), ('maker', 'NN'), ('TomTom', 'NNP'), ('suffered', 'VBD'), ('another', 'DT'), ('blow', 'NN'), ('after', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('top', 'JJ'), ('cellphone', 'NN'), ('maker', 'NN'), ('Nokia', 'NNP'), ('said', 'VBD'), ('10', 'CD'), ('million', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('smartphone', 'NN'), ('users', 'NNS'), ('had', 'VBD'), ('downloaded', 'VBN'), ('free', 'JJ'), ('navigation', 'NN'), ('on', 'IN'), ('their', 'PRP$'), ('phones', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE AMSTERDAM/NN)   ,/,   April/NNP   23/CD   (ORGANIZATION Reuters/NNP Shares/NNP)   in/IN   (GPE Dutch/NNP)   navigation/NN   device/NN   maker/NN   (ORGANIZATION TomTom/NNP)   suffered/VBD   another/DT   blow/NN   after/IN   the/DT   world/NN   's/POS   top/JJ   cellphone/NN   maker/NN   (PERSON Nokia/NNP)   said/VBD   10/CD   million/CD   of/IN   its/PRP$   smartphone/NN   users/NNS   had/VBD   downloaded/VBN   free/JJ   navigation/NN   on/IN   their/PRP$   phones/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB suffered/VBD another/DT blow/NN after/IN the/DT world/NN)
+	(VERB   said/VBD   10/CD   million/CD   of/IN   its/PRP$   smartphone/NN   users/NNS)
+	(VERB   had/VBD   downloaded/VBN   free/JJ   navigation/NN   on/IN   their/PRP$   phones/NNS)
+noun phrases to consider:
+	(NOUN AMSTERDAM/NN)
+	(NOUN April/NNP)
+	(NOUN 23/CD Reuters/NNP Shares/NNP)
+	(NOUN Dutch/NNP navigation/NN device/NN maker/NN)
+	(NOUN TomTom/NNP)
+	(NOUN top/JJ cellphone/NN maker/NN Nokia/NNP)
+
+tagged sentence:
+	 top cellphone maker Nokia	res:1
+
+----------------------------------
+original sentence: 
+&#187; More NOK News
+&#187; More Financials
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('NOK', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Financials', 'NNPS')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP)   (ORGANIZATION NOK/NNP News/NNP)   &/CC   #/#   187/CD   ;/:   (ORGANIZATION More/NNP Financials/NNPS))Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN More/NNP NOK/NNP News/NNP)
+	(NOUN More/NNP Financials/NNPS)
+
+
+veryneg:0	neg:2	pos:3	verypos:3	total:3

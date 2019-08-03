@@ -1,0 +1,237 @@
+
+----------------------------------
+original sentence: 
+Stock Market Update: Citigroup NYSE:C , Palm NASDAQ:PALM , Apple NASDAQ:AAPL , Google NASDAQ:GOOG , JPMorgan Chase NYSE:JPM | Jutia Group
+Friday, April 23rd, 2010
+Stock Market Update: Citigroup NYSE:C , Palm NASDAQ:PALM , Apple NASDAQ:AAPL , Google NASDAQ:GOOG , JPMorgan Chase NYSE:JPM  March 19th, 2010 &bull;  Filed Under: Google NASDAQ:GOOG JPMorgan Chase NYSE:JPM  may pull out of syndicate loan talks aimed at helping fund India&rsquo;s Bharti Airtel Ltd.&rsquo;s bid to buy African assets of Kuwait&rsquo;s Mobile Telecommunications Co., the Wall Street Journal reported, citing people familiar with the matter.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Market', 'NN'), ('Update', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Palm', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('PALM', 'NNP'), (',', ','), ('Apple', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), (',', ','), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), (',', ','), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), ('|', ':'), ('Jutia', 'NNP'), ('Group', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23rd', 'CD'), (',', ','), ('2010', 'CD'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Update', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Palm', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('PALM', 'NNP'), (',', ','), ('Apple', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), (',', ','), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), (',', ','), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), ('March', 'NNP'), ('19th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), ('may', 'MD'), ('pull', 'VB'), ('out', 'RP'), ('of', 'IN'), ('syndicate', 'NN'), ('loan', 'NN'), ('talks', 'NNS'), ('aimed', 'VBN'), ('at', 'IN'), ('helping', 'NN'), ('fund', 'NN'), ('India&rsquo', 'NN'), (';', ':'), ('s', 'NNS'), ('Bharti', 'NNP'), ('Airtel', 'NNP'), ('Ltd.&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('bid', 'VBD'), ('to', 'TO'), ('buy', 'VB'), ('African', 'JJ'), ('assets', 'NNS'), ('of', 'IN'), ('Kuwait&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('Mobile', 'NNP'), ('Telecommunications', 'NNP'), ('Co.', 'NNP'), (',', ','), ('the', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('reported', 'VBD'), (',', ','), ('citing', 'VBG'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Market/NN Update/NNP)   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (PERSON Palm/NNP NASDAQ/NNP)   :/:   PALM/NNP   ,/,   (PERSON Apple/NNP NASDAQ/NNP)   :/:   AAPL/NNP   ,/,   (PERSON Google/NNP NASDAQ/NNP)   :/:   GOOG/NNP   ,/,   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   NYSE/NNP   :/:   JPM/NNP   |/:   (PERSON Jutia/NNP Group/NNP)   Friday/NNP   ,/,   April/NNP   23rd/CD   ,/,   2010/CD   Stock/NNP   (PERSON Market/NNP Update/NNP)   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (PERSON Palm/NNP NASDAQ/NNP)   :/:   PALM/NNP   ,/,   (PERSON Apple/NNP NASDAQ/NNP)   :/:   AAPL/NNP   ,/,   (PERSON Google/NNP NASDAQ/NNP)   :/:   GOOG/NNP   ,/,   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   NYSE/NNP   :/:   (ORGANIZATION JPM/NNP)   March/NNP   19th/CD   ,/,   2010/CD   &bull/JJ   ;/:   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Google/NNP NASDAQ/NNP)   :/:   (ORGANIZATION GOOG/NNP)   JPMorgan/NNP   Chase/NNP   NYSE/NNP   :/:   JPM/NNP   may/MD   pull/VB   out/RP   of/IN   syndicate/NN   loan/NN   talks/NNS   aimed/VBN   at/IN   helping/NN   fund/NN   India&rsquo/NN   ;/:   s/NNS   (PERSON Bharti/NNP Airtel/NNP)   Ltd.&rsquo/NNP   ;/:   s/NNS   bid/VBD   to/TO   buy/VB   (GPE African/JJ)   assets/NNS   of/IN   (GPE Kuwait&rsquo/NNP)   ;/:   s/NNS   (PERSON Mobile/NNP Telecommunications/NNP)   Co./NNP   ,/,   the/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP)   reported/VBD   ,/,   citing/VBG   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB pull/VB)
+	(VERB aimed/VBN at/IN helping/NN fund/NN India&rsquo/NN)
+	(VERB   bid/VBD   to/TO   buy/VB   African/JJ   assets/NNS   of/IN   Kuwait&rsquo/NNP)
+	(VERB reported/VBD)
+	(VERB citing/VBG people/NNS familiar/JJ with/IN the/DT matter/NN)
+noun phrases to consider:
+	(NOUN Stock/NN Market/NN Update/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Palm/NNP NASDAQ/NNP)
+	(NOUN PALM/NNP)
+	(NOUN Apple/NNP NASDAQ/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP)
+	(NOUN JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP)
+	(NOUN Jutia/NNP Group/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Stock/NNP Market/NNP Update/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Palm/NNP NASDAQ/NNP)
+	(NOUN PALM/NNP)
+	(NOUN Apple/NNP NASDAQ/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP)
+	(NOUN JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN Filed/NNP Under/NNP)
+	(NOUN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP)
+	(NOUN syndicate/NN loan/NN talks/NNS)
+	(NOUN s/NNS Bharti/NNP Airtel/NNP Ltd.&rsquo/NNP)
+	(NOUN s/NNS)
+	(NOUN s/NNS Mobile/NNP Telecommunications/NNP Co./NNP)
+	(NOUN Wall/NNP Street/NNP Journal/NNP)
+
+----------------------------------
+original sentence: 
+Citigroup is part of the group negotiating the $8.5 million U.S. dollar denominated loan but may quit because of the tight pricing; other banks include Standard Chartered Plc, Barclays Plc and State Bank of India Ltd., the newspaper said.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('is', 'VBZ'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('group', 'NN'), ('negotiating', 'VBG'), ('the', 'DT'), ('$', '$'), ('8.5', 'CD'), ('million', 'CD'), ('U.S.', 'NNP'), ('dollar', 'NN'), ('denominated', 'VBD'), ('loan', 'NN'), ('but', 'CC'), ('may', 'MD'), ('quit', 'VB'), ('because', 'IN'), ('of', 'IN'), ('the', 'DT'), ('tight', 'JJ'), ('pricing', 'NN'), (';', ':'), ('other', 'JJ'), ('banks', 'NNS'), ('include', 'VBP'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('Plc', 'NNP'), (',', ','), ('Barclays', 'NNP'), ('Plc', 'NNP'), ('and', 'CC'), ('State', 'NNP'), ('Bank', 'NNP'), ('of', 'IN'), ('India', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('the', 'DT'), ('newspaper', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   is/VBZ   part/NN   of/IN   the/DT   group/NN   negotiating/VBG   the/DT   $/$   8.5/CD   million/CD   (GPE U.S./NNP)   dollar/NN   denominated/VBD   loan/NN   but/CC   may/MD   quit/VB   because/IN   of/IN   the/DT   tight/JJ   pricing/NN   ;/:   other/JJ   banks/NNS   include/VBP   (PERSON Standard/NNP Chartered/NNP Plc/NNP)   ,/,   (PERSON Barclays/NNP Plc/NNP)   and/CC   (ORGANIZATION State/NNP Bank/NNP)   of/IN   (GPE India/NNP)   Ltd./NNP   ,/,   the/DT   newspaper/NN   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ part/NN of/IN the/DT group/NN)
+	(VERB negotiating/VBG the/DT)
+	(VERB denominated/VBD loan/NN)
+	(VERB quit/VB because/IN of/IN the/DT tight/JJ pricing/NN)
+
+tagged sentence:
+	 quit because of the tight pricing	res:-1
+	(VERB include/VBP Standard/NNP Chartered/NNP Plc/NNP)
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN million/CD U.S./NNP dollar/NN)
+	(NOUN other/JJ banks/NNS)
+	(NOUN Barclays/NNP Plc/NNP)
+	(NOUN State/NNP Bank/NNP)
+	(NOUN India/NNP Ltd./NNP)
+	(NOUN newspaper/NN)
+
+----------------------------------
+original sentence: 
+&ndash;
+ were off by more than 15% in premarket trading Friday despite reporting higher than expected quarterly earnings and a smaller loss Thursday.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('were', 'VBD'), ('off', 'RP'), ('by', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('15', 'CD'), ('%', 'NN'), ('in', 'IN'), ('premarket', 'NN'), ('trading', 'NN'), ('Friday', 'NNP'), ('despite', 'IN'), ('reporting', 'VBG'), ('higher', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('quarterly', 'RB'), ('earnings', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('smaller', 'JJR'), ('loss', 'NN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   were/VBD   off/RP   by/IN   more/JJR   than/IN   15/CD   %/NN   in/IN   premarket/NN   trading/NN   Friday/NNP   despite/IN   reporting/VBG   higher/JJR   than/IN   expected/VBN   quarterly/RB   earnings/NNS   and/CC   a/DT   smaller/JJR   loss/NN   Thursday/NNP   ./.)
+----------------------------------
+original sentence: 
+The company said consumers are passing on its flagship Pre and Pixi phones for other brands of smart phone, such as the  Android based phones.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('said', 'VBD'), ('consumers', 'NNS'), ('are', 'VBP'), ('passing', 'VBG'), ('on', 'IN'), ('its', 'PRP$'), ('flagship', 'NN'), ('Pre', 'NNP'), ('and', 'CC'), ('Pixi', 'NNP'), ('phones', 'NNS'), ('for', 'IN'), ('other', 'JJ'), ('brands', 'NNS'), ('of', 'IN'), ('smart', 'NN'), ('phone', 'NN'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('the', 'DT'), ('Android', 'NNP'), ('based', 'VBN'), ('phones', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   said/VBD   consumers/NNS   are/VBP   passing/VBG   on/IN   its/PRP$   flagship/NN   Pre/NNP   and/CC   (ORGANIZATION Pixi/NNP)   phones/NNS   for/IN   other/JJ   brands/NNS   of/IN   smart/NN   phone/NN   ,/,   such/JJ   as/IN   the/DT   (ORGANIZATION Android/NNP)   based/VBN   phones/NNS   ./.)
+----------------------------------
+original sentence: 
+The lackluster results are further evidence that the one time mobile pioneer is being trumped by rivals and could become a takeover target.
+
+POS tagged sentence: 
+[('The', 'DT'), ('lackluster', 'NN'), ('results', 'NNS'), ('are', 'VBP'), ('further', 'JJ'), ('evidence', 'NN'), ('that', 'IN'), ('the', 'DT'), ('one', 'CD'), ('time', 'NN'), ('mobile', 'NN'), ('pioneer', 'NN'), ('is', 'VBZ'), ('being', 'VBG'), ('trumped', 'VBN'), ('by', 'IN'), ('rivals', 'NNS'), ('and', 'CC'), ('could', 'MD'), ('become', 'VB'), ('a', 'DT'), ('takeover', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   lackluster/NN   results/NNS   are/VBP   further/JJ   evidence/NN   that/IN   the/DT   one/CD   time/NN   mobile/NN   pioneer/NN   is/VBZ   being/VBG   trumped/VBN   by/IN   rivals/NNS   and/CC   could/MD   become/VB   a/DT   takeover/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+ The pressure is building on Texas Rangers owner Tom Hicks.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('pressure', 'NN'), ('is', 'VBZ'), ('building', 'VBG'), ('on', 'IN'), ('Texas', 'NNP'), ('Rangers', 'NNP'), ('owner', 'NN'), ('Tom', 'NNP'), ('Hicks', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   The/DT   pressure/NN   is/VBZ   building/VBG   on/IN   (PERSON Texas/NNP Rangers/NNP)   owner/NN   (PERSON Tom/NNP Hicks/NNP)   ./.)
+----------------------------------
+original sentence: 
+A group of banks including  is rebuffing an effort by the Texas sports investor to keep as much as $90 million from the sale of the Rangers baseball team, according to people familiar with the matter.
+
+POS tagged sentence: 
+[('A', 'DT'), ('group', 'NN'), ('of', 'IN'), ('banks', 'NNS'), ('including', 'VBG'), ('is', 'VBZ'), ('rebuffing', 'VBG'), ('an', 'DT'), ('effort', 'NN'), ('by', 'IN'), ('the', 'DT'), ('Texas', 'NNP'), ('sports', 'NNS'), ('investor', 'NN'), ('to', 'TO'), ('keep', 'VB'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('$', '$'), ('90', 'CD'), ('million', 'CD'), ('from', 'IN'), ('the', 'DT'), ('sale', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Rangers', 'NNP'), ('baseball', 'NN'), ('team', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('people', 'NNS'), ('familiar', 'JJ'), ('with', 'IN'), ('the', 'DT'), ('matter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   group/NN   of/IN   banks/NNS   including/VBG   is/VBZ   rebuffing/VBG   an/DT   effort/NN   by/IN   the/DT   (GPE Texas/NNP)   sports/NNS   investor/NN   to/TO   keep/VB   as/IN   much/JJ   as/IN   $/$   90/CD   million/CD   from/IN   the/DT   sale/NN   of/IN   the/DT   (ORGANIZATION Rangers/NNP)   baseball/NN   team/NN   ,/,   according/VBG   to/TO   people/NNS   familiar/JJ   with/IN   the/DT   matter/NN   ./.)
+----------------------------------
+original sentence: 
+The banks, which Mr. Hicks&#8217;s Hicks Sports Group owes more than $500 million, have told him that they won&#8217;t approve any sale agreement that allows him to keep a substantial portion of the sale proceeds.
+
+POS tagged sentence: 
+[('The', 'DT'), ('banks', 'NNS'), (',', ','), ('which', 'WDT'), ('Mr.', 'NNP'), ('Hicks&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Hicks', 'VBZ'), ('Sports', 'NNS'), ('Group', 'NNP'), ('owes', 'NNS'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('500', 'CD'), ('million', 'CD'), (',', ','), ('have', 'VBP'), ('told', 'VBN'), ('him', 'PRP'), ('that', 'IN'), ('they', 'PRP'), ('won&', 'VBP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('approve', 'VBP'), ('any', 'DT'), ('sale', 'NN'), ('agreement', 'NN'), ('that', 'WDT'), ('allows', 'VBZ'), ('him', 'PRP'), ('to', 'TO'), ('keep', 'VB'), ('a', 'DT'), ('substantial', 'JJ'), ('portion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('sale', 'NN'), ('proceeds', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   banks/NNS   ,/,   which/WDT   (PERSON Mr./NNP)   Hicks&/NNP   #/#   8217/CD   ;/:   s/NNS   Hicks/VBZ   (ORGANIZATION Sports/NNS Group/NNP)   owes/NNS   more/JJR   than/IN   $/$   500/CD   million/CD   ,/,   have/VBP   told/VBN   him/PRP   that/IN   they/PRP   won&/VBP   #/#   8217/CD   ;/:   t/NN   approve/VBP   any/DT   sale/NN   agreement/NN   that/WDT   allows/VBZ   him/PRP   to/TO   keep/VB   a/DT   substantial/JJ   portion/NN   of/IN   the/DT   sale/NN   proceeds/VBZ   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+The Wall Street Journal
+Democrats pushing for health care reform are closer to the finish line than ever, but it&#8217;s not over yet.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('Democrats', 'NNPS'), ('pushing', 'VBG'), ('for', 'IN'), ('health', 'NN'), ('care', 'NN'), ('reform', 'NN'), ('are', 'VBP'), ('closer', 'JJR'), ('to', 'TO'), ('the', 'DT'), ('finish', 'JJ'), ('line', 'NN'), ('than', 'IN'), ('ever', 'RB'), (',', ','), ('but', 'CC'), ('it&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('not', 'RB'), ('over', 'IN'), ('yet', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   The/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP)   Democrats/NNPS   pushing/VBG   for/IN   health/NN   care/NN   reform/NN   are/VBP   closer/JJR   to/TO   the/DT   finish/JJ   line/NN   than/IN   ever/RB   ,/,   but/CC   it&/NNP   #/#   8217/CD   ;/:   s/NNS   not/RB   over/IN   yet/RB   ./.)
+----------------------------------
+original sentence: 
+And the question of cost will remain a central issue in coming days.
+
+POS tagged sentence: 
+[('And', 'CC'), ('the', 'DT'), ('question', 'NN'), ('of', 'IN'), ('cost', 'NN'), ('will', 'MD'), ('remain', 'VB'), ('a', 'DT'), ('central', 'JJ'), ('issue', 'NN'), ('in', 'IN'), ('coming', 'VBG'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   the/DT   question/NN   of/IN   cost/NN   will/MD   remain/VB   a/DT   central/JJ   issue/NN   in/IN   coming/VBG   days/NNS   ./.)
+----------------------------------
+original sentence: 
+On Thursday, the Congressional Budget Office weighed in with a key, if still very preliminary, cost estimate.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Thursday', 'NNP'), (',', ','), ('the', 'DT'), ('Congressional', 'NNP'), ('Budget', 'NNP'), ('Office', 'NNP'), ('weighed', 'VBD'), ('in', 'RP'), ('with', 'IN'), ('a', 'DT'), ('key', 'JJ'), (',', ','), ('if', 'IN'), ('still', 'RB'), ('very', 'RB'), ('preliminary', 'JJ'), (',', ','), ('cost', 'NN'), ('estimate', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Thursday/NNP   ,/,   the/DT   (ORGANIZATION Congressional/NNP Budget/NNP)   Office/NNP   weighed/VBD   in/RP   with/IN   a/DT   key/JJ   ,/,   if/IN   still/RB   very/RB   preliminary/JJ   ,/,   cost/NN   estimate/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB weighed/VBD)
+noun phrases to consider:
+	(NOUN Thursday/NNP)
+	(NOUN Congressional/NNP Budget/NNP Office/NNP)
+	(NOUN a/DT key/JJ)
+	(NOUN still/RB very/RB preliminary/JJ)
+	(NOUN cost/NN estimate/NN)
+
+----------------------------------
+original sentence: 
+for the full story.
+
+POS tagged sentence: 
+[('for', 'IN'), ('the', 'DT'), ('full', 'JJ'), ('story', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S for/IN the/DT full/JJ story/NN ./.)
+----------------------------------
+original sentence: 
+&ndash;CNN Money
+JPMorgan gets paid to borrow $271 billion
+ naked capitalism, 4/16/10 Citigroupâ€™s Chuck Prince confirms that risky behavior drives out prudent when risk is rewarded
+ naked capitalism, 4/9/10  All Allan, 4/8/10  Read more on Sign Up for JutiaGroup Underground and Receive Handpicked Stories Delivered to Your Inbox!!
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('CNN', 'NNP'), ('Money', 'NNP'), ('JPMorgan', 'NNP'), ('gets', 'VBZ'), ('paid', 'VBN'), ('to', 'TO'), ('borrow', 'VB'), ('$', '$'), ('271', 'CD'), ('billion', 'CD'), ('naked', 'VBN'), ('capitalism', 'NN'), (',', ','), ('4/16/10', 'CD'), ('Citigroup', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Chuck', 'NNP'), ('Prince', 'NNP'), ('confirms', 'VBZ'), ('that', 'IN'), ('risky', 'JJ'), ('behavior', 'NN'), ('drives', 'NNS'), ('out', 'IN'), ('prudent', 'NN'), ('when', 'WRB'), ('risk', 'NN'), ('is', 'VBZ'), ('rewarded', 'VBN'), ('naked', 'VBN'), ('capitalism', 'NN'), (',', ','), ('4/9/10', 'CD'), ('All', 'DT'), ('Allan', 'NNP'), (',', ','), ('4/8/10', 'CD'), ('Read', 'NNP'), ('more', 'RBR'), ('on', 'IN'), ('Sign', 'NNP'), ('Up', 'NNP'), ('for', 'IN'), ('JutiaGroup', 'NNP'), ('Underground', 'NNP'), ('and', 'CC'), ('Receive', 'NNP'), ('Handpicked', 'NNP'), ('Stories', 'NNP'), ('Delivered', 'NNP'), ('to', 'TO'), ('Your', 'NNP'), ('Inbox', 'NNP'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   (ORGANIZATION CNN/NNP Money/NNP)   JPMorgan/NNP   gets/VBZ   paid/VBN   to/TO   borrow/VB   $/$   271/CD   billion/CD   naked/VBN   capitalism/NN   ,/,   4/16/10/CD   Citigroup/NNP   â/NNP   €/NNP   ™/NNP   s/VBZ   (PERSON Chuck/NNP Prince/NNP)   confirms/VBZ   that/IN   risky/JJ   behavior/NN   drives/NNS   out/IN   prudent/NN   when/WRB   risk/NN   is/VBZ   rewarded/VBN   naked/VBN   capitalism/NN   ,/,   4/9/10/CD   All/DT   Allan/NNP   ,/,   4/8/10/CD   Read/NNP   more/RBR   on/IN   (ORGANIZATION Sign/NNP Up/NNP)   for/IN   (ORGANIZATION JutiaGroup/NNP Underground/NNP)   and/CC   (PERSON Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)   to/TO   Your/NNP   Inbox/NNP   !/.   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gets/VBZ paid/VBN)
+	(VERB borrow/VB)
+	(VERB naked/VBN capitalism/NN)
+	(VERB s/VBZ Chuck/NNP Prince/NNP)
+	(VERB   confirms/VBZ   that/IN   risky/JJ   behavior/NN   drives/NNS   out/IN   prudent/NN)
+	(VERB is/VBZ rewarded/VBN naked/VBN capitalism/NN)
+noun phrases to consider:
+	(NOUN &ndash/JJ)
+	(NOUN CNN/NNP Money/NNP JPMorgan/NNP)
+	(NOUN 4/16/10/CD Citigroup/NNP â/NNP €/NNP ™/NNP)
+	(NOUN risk/NN)
+	(NOUN Allan/NNP)
+	(NOUN 4/8/10/CD Read/NNP)
+	(NOUN Sign/NNP Up/NNP)
+	(NOUN JutiaGroup/NNP Underground/NNP)
+	(NOUN Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)
+	(NOUN Your/NNP Inbox/NNP)
+
+----------------------------------
+original sentence: 
+Mail will not be published required Notify me of followup comments via e mail
+Where Will The Dow Jones Industrial Average Be At Year's End?
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Where', 'WRB'), ('Will', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('Be', 'NNP'), ('At', 'NNP'), ('Year', 'NNP'), ("'s", 'POS'), ('End', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   Notify/NNP   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   Where/WRB   (PERSON     Will/NNP     The/NNP     Dow/NNP     Jones/NNP     Industrial/NNP     Average/NNP     Be/NNP     At/NNP     Year/NNP)   's/POS   End/NNP   ?/.)
+----------------------------------
+original sentence: 
+Improve the web with 
+
+POS tagged sentence: 
+[('Improve', 'NNP'), ('the', 'DT'), ('web', 'NN'), ('with', 'IN')]
+
+
+ERTAGGED sentence: (S Improve/NNP the/DT web/NN with/IN)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

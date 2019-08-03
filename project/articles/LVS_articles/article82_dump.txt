@@ -1,0 +1,196 @@
+
+----------------------------------
+original sentence: 
+ Global Markets Up, Waiting On Gold For A Trade | iStockAnalyst.com Global Markets Up, Waiting On Gold For A Trade
+ Wednesday, March 17, 2010 9:45 AM
+Vote for next session
+The next market session will close:
+Tokyo was up 125 points last night gaining 1.17% after the Bank of Japan doubled its lending program to $221 billion.
+
+POS tagged sentence: 
+[('Global', 'JJ'), ('Markets', 'NNS'), ('Up', 'IN'), (',', ','), ('Waiting', 'NNP'), ('On', 'NNP'), ('Gold', 'NNP'), ('For', 'NNP'), ('A', 'DT'), ('Trade', 'NNP'), ('|', 'NNP'), ('iStockAnalyst.com', 'NNP'), ('Global', 'NNP'), ('Markets', 'NNPS'), ('Up', 'NNP'), (',', ','), ('Waiting', 'NNP'), ('On', 'NNP'), ('Gold', 'NNP'), ('For', 'NNP'), ('A', 'DT'), ('Trade', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('March', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('9', 'CD'), (':', ':'), ('45', 'CD'), ('AM', 'NNP'), ('Vote', 'NNP'), ('for', 'IN'), ('next', 'JJ'), ('session', 'NN'), ('The', 'DT'), ('next', 'JJ'), ('market', 'NN'), ('session', 'NN'), ('will', 'MD'), ('close', 'VB'), (':', ':'), ('Tokyo', 'NNP'), ('was', 'VBD'), ('up', 'IN'), ('125', 'CD'), ('points', 'NNS'), ('last', 'JJ'), ('night', 'NN'), ('gaining', 'VBG'), ('1.17', 'CD'), ('%', 'NN'), ('after', 'IN'), ('the', 'DT'), ('Bank', 'NNP'), ('of', 'IN'), ('Japan', 'NNP'), ('doubled', 'VBD'), ('its', 'PRP$'), ('lending', 'NN'), ('program', 'NN'), ('to', 'TO'), ('$', '$'), ('221', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Global/JJ)   (ORGANIZATION Markets/NNS Up/IN)   ,/,   (PERSON Waiting/NNP On/NNP Gold/NNP For/NNP)   A/DT   (ORGANIZATION Trade/NNP)   |/NNP   iStockAnalyst.com/NNP   Global/NNP   Markets/NNPS   Up/NNP   ,/,   (PERSON Waiting/NNP On/NNP Gold/NNP For/NNP)   A/DT   Trade/NNP   Wednesday/NNP   ,/,   March/NNP   17/CD   ,/,   2010/CD   9/CD   :/:   45/CD   AM/NNP   Vote/NNP   for/IN   next/JJ   session/NN   The/DT   next/JJ   market/NN   session/NN   will/MD   close/VB   :/:   (PERSON Tokyo/NNP)   was/VBD   up/IN   125/CD   points/NNS   last/JJ   night/NN   gaining/VBG   1.17/CD   %/NN   after/IN   the/DT   (ORGANIZATION Bank/NNP)   of/IN   (GPE Japan/NNP)   doubled/VBD   its/PRP$   lending/NN   program/NN   to/TO   $/$   221/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+London is up almost half a percent in early trade.
+
+POS tagged sentence: 
+[('London', 'NNP'), ('is', 'VBZ'), ('up', 'IN'), ('almost', 'RB'), ('half', 'DT'), ('a', 'DT'), ('percent', 'NN'), ('in', 'IN'), ('early', 'JJ'), ('trade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE London/NNP)   is/VBZ   up/IN   almost/RB   half/DT   a/DT   percent/NN   in/IN   early/JJ   trade/NN   ./.)
+----------------------------------
+original sentence: 
+US futures are trading marginally higher pre market.
+
+POS tagged sentence: 
+[('US', 'PRP'), ('futures', 'NNS'), ('are', 'VBP'), ('trading', 'VBG'), ('marginally', 'RB'), ('higher', 'JJR'), ('pre', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP US/PRP)   futures/NNS   are/VBP   trading/VBG   marginally/RB   higher/JJR   pre/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+I took a few longs overnight LVS, FCX, V, AGU, GLD and I'm looking for momentum continuation today.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('took', 'VBD'), ('a', 'DT'), ('few', 'JJ'), ('longs', 'NNS'), ('overnight', 'RB'), ('LVS', 'NNP'), (',', ','), ('FCX', 'NNP'), (',', ','), ('V', 'NNP'), (',', ','), ('AGU', 'NNP'), (',', ','), ('GLD', 'NNP'), ('and', 'CC'), ('I', 'PRP'), ("'m", 'VBP'), ('looking', 'VBG'), ('for', 'IN'), ('momentum', 'NN'), ('continuation', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   took/VBD   a/DT   few/JJ   longs/NNS   overnight/RB   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION FCX/NNP)   ,/,   (ORGANIZATION V/NNP)   ,/,   (ORGANIZATION AGU/NNP)   ,/,   (ORGANIZATION GLD/NNP)   and/CC   I/PRP   'm/VBP   looking/VBG   for/IN   momentum/NN   continuation/NN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB took/VBD a/DT few/JJ longs/NNS overnight/RB LVS/NNP)
+	(VERB 'm/VBP looking/VBG for/IN momentum/NN continuation/NN today/NN)
+noun phrases to consider:
+	(NOUN FCX/NNP)
+	(NOUN V/NNP)
+	(NOUN AGU/NNP)
+	(NOUN GLD/NNP)
+
+----------------------------------
+original sentence: 
+Jim Rogers believes the euro is destined for failure in 15 20 years.
+
+POS tagged sentence: 
+[('Jim', 'NNP'), ('Rogers', 'NNP'), ('believes', 'VBZ'), ('the', 'DT'), ('euro', 'NN'), ('is', 'VBZ'), ('destined', 'VBN'), ('for', 'IN'), ('failure', 'NN'), ('in', 'IN'), ('15', 'CD'), ('20', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Jim/NNP)   (ORGANIZATION Rogers/NNP)   believes/VBZ   the/DT   euro/NN   is/VBZ   destined/VBN   for/IN   failure/NN   in/IN   15/CD   20/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+He is currently long but he says, "We've had currency unions in history, they didn't survive, this one won't survive either".
+
+POS tagged sentence: 
+[('He', 'PRP'), ('is', 'VBZ'), ('currently', 'RB'), ('long', 'RB'), ('but', 'CC'), ('he', 'PRP'), ('says', 'VBZ'), (',', ','), ('"', 'NNP'), ('We', 'NNP'), ("'ve", 'NNP'), ('had', 'VBD'), ('currency', 'NN'), ('unions', 'NNS'), ('in', 'IN'), ('history', 'NN'), (',', ','), ('they', 'PRP'), ('did', 'VBD'), ("n't", 'RB'), ('survive', 'VB'), (',', ','), ('this', 'DT'), ('one', 'CD'), ('wo', 'MD'), ("n't", 'RB'), ('survive', 'VB'), ('either', 'DT'), ('"', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   is/VBZ   currently/RB   long/RB   but/CC   he/PRP   says/VBZ   ,/,   "/NNP   We/NNP   've/NNP   had/VBD   currency/NN   unions/NNS   in/IN   history/NN   ,/,   they/PRP   did/VBD   n't/RB   survive/VB   ,/,   this/DT   one/CD   wo/MD   n't/RB   survive/VB   either/DT   "/NN   ./.)
+----------------------------------
+original sentence: 
+For the US, he is certain of one thing: "Yes we're going to have another recession, I guarantee you.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('US', 'NNP'), (',', ','), ('he', 'PRP'), ('is', 'VBZ'), ('certain', 'JJ'), ('of', 'IN'), ('one', 'CD'), ('thing', 'NN'), (':', ':'), ('"', ':'), ('Yes', 'NNS'), ('we', 'PRP'), ("'re", 'VBP'), ('going', 'VBG'), ('to', 'TO'), ('have', 'VB'), ('another', 'DT'), ('recession', 'NN'), (',', ','), ('I', 'PRP'), ('guarantee', 'VBP'), ('you', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   (GSP US/NNP)   ,/,   he/PRP   is/VBZ   certain/JJ   of/IN   one/CD   thing/NN   :/:   "/:   Yes/NNS   we/PRP   're/VBP   going/VBG   to/TO   have/VB   another/DT   recession/NN   ,/,   I/PRP   guarantee/VBP   you/PRP   ./.)
+----------------------------------
+original sentence: 
+Certainly by 2012 say, it's time for another recession".
+
+POS tagged sentence: 
+[('Certainly', 'RB'), ('by', 'IN'), ('2012', 'CD'), ('say', 'VBP'), (',', ','), ('it', 'PRP'), ("'s", 'VBZ'), ('time', 'NN'), ('for', 'IN'), ('another', 'DT'), ('recession', 'NN'), ('"', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Certainly/RB   by/IN   2012/CD   say/VBP   ,/,   it/PRP   's/VBZ   time/NN   for/IN   another/DT   recession/NN   "/:   ./.)
+----------------------------------
+original sentence: 
+I didn't really want to hear that.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('did', 'VBD'), ("n't", 'RB'), ('really', 'RB'), ('want', 'VB'), ('to', 'TO'), ('hear', 'VB'), ('that', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S I/PRP did/VBD n't/RB really/RB want/VB to/TO hear/VB that/IN ./.)
+----------------------------------
+original sentence: 
+Let's hope he's wrong though I fear he's going to be right.
+
+POS tagged sentence: 
+[('Let', 'NNP'), ("'s", 'POS'), ('hope', 'NN'), ('he', 'PRP'), ("'s", 'VBZ'), ('wrong', 'JJ'), ('though', 'IN'), ('I', 'PRP'), ('fear', 'VBP'), ('he', 'PRP'), ("'s", 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('be', 'VB'), ('right', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Let/NNP)   's/POS   hope/NN   he/PRP   's/VBZ   wrong/JJ   though/IN   I/PRP   fear/VBP   he/PRP   's/VBZ   going/VBG   to/TO   be/VB   right/RB   ./.)
+----------------------------------
+original sentence: 
+I'm waiting on gold to break through the 1,140 area before it really gets rockin' again.
+
+POS tagged sentence: 
+[('I', 'PRP'), ("'m", 'VBP'), ('waiting', 'VBG'), ('on', 'IN'), ('gold', 'NN'), ('to', 'TO'), ('break', 'VB'), ('through', 'IN'), ('the', 'DT'), ('1,140', 'CD'), ('area', 'NN'), ('before', 'IN'), ('it', 'PRP'), ('really', 'RB'), ('gets', 'VBZ'), ('rockin', 'NN'), ("'", "''"), ('again', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   'm/VBP   waiting/VBG   on/IN   gold/NN   to/TO   break/VB   through/IN   the/DT   1,140/CD   area/NN   before/IN   it/PRP   really/RB   gets/VBZ   rockin/NN   '/''   again/RB   ./.)
+----------------------------------
+original sentence: 
+The consolidation action above previous all time highs has been very healthy.
+
+POS tagged sentence: 
+[('The', 'DT'), ('consolidation', 'NN'), ('action', 'NN'), ('above', 'IN'), ('previous', 'JJ'), ('all', 'DT'), ('time', 'NN'), ('highs', 'NNS'), ('has', 'VBZ'), ('been', 'VBN'), ('very', 'RB'), ('healthy', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   consolidation/NN   action/NN   above/IN   previous/JJ   all/DT   time/NN   highs/NNS   has/VBZ   been/VBN   very/RB   healthy/JJ   ./.)
+----------------------------------
+original sentence: 
+A move above the trendline would signal a change in the short term trend and I will get much more aggressively long.
+
+POS tagged sentence: 
+[('A', 'DT'), ('move', 'NN'), ('above', 'IN'), ('the', 'DT'), ('trendline', 'NN'), ('would', 'MD'), ('signal', 'VB'), ('a', 'DT'), ('change', 'NN'), ('in', 'IN'), ('the', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('trend', 'NN'), ('and', 'CC'), ('I', 'PRP'), ('will', 'MD'), ('get', 'VB'), ('much', 'RB'), ('more', 'JJR'), ('aggressively', 'RB'), ('long', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   move/NN   above/IN   the/DT   trendline/NN   would/MD   signal/VB   a/DT   change/NN   in/IN   the/DT   short/JJ   term/NN   trend/NN   and/CC   I/PRP   will/MD   get/VB   much/RB   more/JJR   aggressively/RB   long/JJ   ./.)
+----------------------------------
+original sentence: 
+Research Related Stocks: Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+   The above story is the opinion of the author only and it does not reflect iStockAnalyst opinion.
+
+POS tagged sentence: 
+[('Research', 'NN'), ('Related', 'VBN'), ('Stocks', 'NNS'), (':', ':'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('The', 'DT'), ('above', 'NN'), ('story', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('opinion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('author', 'NN'), ('only', 'RB'), ('and', 'CC'), ('it', 'PRP'), ('does', 'VBZ'), ('not', 'RB'), ('reflect', 'VB'), ('iStockAnalyst', 'NNP'), ('opinion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Research/NN   Related/VBN   Stocks/NNS   :/:   Rate/NNP   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   The/DT   above/NN   story/NN   is/VBZ   the/DT   opinion/NN   of/IN   the/DT   author/NN   only/RB   and/CC   it/PRP   does/VBZ   not/RB   reflect/VB   (ORGANIZATION iStockAnalyst/NNP)   opinion/NN   ./.)
+----------------------------------
+original sentence: 
+Further, the author is not personally advising you regarding the suitability of the story for your investment needs.
+
+POS tagged sentence: 
+[('Further', 'RB'), (',', ','), ('the', 'DT'), ('author', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('personally', 'RB'), ('advising', 'VBG'), ('you', 'PRP'), ('regarding', 'VBG'), ('the', 'DT'), ('suitability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('story', 'NN'), ('for', 'IN'), ('your', 'PRP$'), ('investment', 'NN'), ('needs', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Further/RB   ,/,   the/DT   author/NN   is/VBZ   not/RB   personally/RB   advising/VBG   you/PRP   regarding/VBG   the/DT   suitability/NN   of/IN   the/DT   story/NN   for/IN   your/PRP$   investment/NN   needs/VBZ   ./.)
+----------------------------------
+original sentence: 
+In no event iStockAnalyst will be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from or arising out of, or in connection with the use of this information.
+
+POS tagged sentence: 
+[('In', 'IN'), ('no', 'DT'), ('event', 'NN'), ('iStockAnalyst', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('liable', 'JJ'), ('for', 'IN'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('including', 'VBG'), ('without', 'IN'), ('limitation', 'NN'), (',', ','), ('indirect', 'JJ'), ('or', 'CC'), ('consequential', 'JJ'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), (',', ','), ('or', 'CC'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('whatsoever', 'NN'), ('arising', 'VBG'), ('from', 'IN'), ('or', 'CC'), ('arising', 'VBG'), ('out', 'RP'), ('of', 'IN'), (',', ','), ('or', 'CC'), ('in', 'IN'), ('connection', 'NN'), ('with', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('this', 'DT'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   no/DT   event/NN   (ORGANIZATION iStockAnalyst/NNP)   will/MD   be/VB   liable/JJ   for/IN   any/DT   loss/NN   or/CC   damage/NN   including/VBG   without/IN   limitation/NN   ,/,   indirect/JJ   or/CC   consequential/JJ   loss/NN   or/CC   damage/NN   ,/,   or/CC   any/DT   loss/NN   or/CC   damage/NN   whatsoever/NN   arising/VBG   from/IN   or/CC   arising/VBG   out/RP   of/IN   ,/,   or/CC   in/IN   connection/NN   with/IN   the/DT   use/NN   of/IN   this/DT   information/NN   ./.)
+----------------------------------
+original sentence: 
+Please consult your investment advisor before making any investment decision.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('consult', 'VBD'), ('your', 'PRP$'), ('investment', 'NN'), ('advisor', 'NN'), ('before', 'IN'), ('making', 'VBG'), ('any', 'DT'), ('investment', 'NN'), ('decision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   consult/VBD   your/PRP$   investment/NN   advisor/NN   before/IN   making/VBG   any/DT   investment/NN   decision/NN   ./.)
+----------------------------------
+original sentence: 
+Related Press Releases
+Recent Articles by Brandon Rowley
+Research Related Stocks:  Subscribe to Email Alerts
+ or  for articles from more than 500 contributors, press releases, SEC filings and full text news from more than four thousand sources.
+
+POS tagged sentence: 
+[('Related', 'JJ'), ('Press', 'NN'), ('Releases', 'NNS'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Brandon', 'NNP'), ('Rowley', 'NNP'), ('Research', 'NNP'), ('Related', 'NNP'), ('Stocks', 'NNP'), (':', ':'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Email', 'NNP'), ('Alerts', 'NNP'), ('or', 'CC'), ('for', 'IN'), ('articles', 'NNS'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('500', 'CD'), ('contributors', 'NNS'), (',', ','), ('press', 'NN'), ('releases', 'NNS'), (',', ','), ('SEC', 'NNP'), ('filings', 'NNS'), ('and', 'CC'), ('full', 'JJ'), ('text', 'NN'), ('news', 'NN'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('four', 'CD'), ('thousand', 'NN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Related/JJ)   Press/NN   Releases/NNS   (PERSON Recent/NNP Articles/NNP)   by/IN   (PERSON Brandon/NNP Rowley/NNP Research/NNP Related/NNP Stocks/NNP)   :/:   Subscribe/NNP   to/TO   (PERSON Email/NNP Alerts/NNP)   or/CC   for/IN   articles/NNS   from/IN   more/RBR   than/IN   500/CD   contributors/NNS   ,/,   press/NN   releases/NNS   ,/,   (ORGANIZATION SEC/NNP)   filings/NNS   and/CC   full/JJ   text/NN   news/NN   from/IN   more/RBR   than/IN   four/CD   thousand/NN   sources/NNS   ./.)
+----------------------------------
+original sentence: 
+|  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('|', 'NN'), ('|', '``'), ('|', ':'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   |/NN   |/``   |/:   (PERSON Join/NNP Blog/NNP Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

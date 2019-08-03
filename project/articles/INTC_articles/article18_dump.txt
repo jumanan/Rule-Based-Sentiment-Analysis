@@ -1,0 +1,177 @@
+
+----------------------------------
+original sentence: 
+Chartpoppers.com releases a Consolidated Investment Analysis on Intel Corp. | The First Reporter
+Chartpoppers.com releases a Consolidated Investment Analysis on Intel Corp.
+, March 31, 2010 Chartpoppers.com has just release its Consolidated  Analysis for Intel Corp. NASDAQ:INTC Intel Corp. NASDAQ:INTC designs, manufactures, and sells integrated circuits for computing and communications industries worldwide.
+
+POS tagged sentence: 
+[('Chartpoppers.com', 'NN'), ('releases', 'NNS'), ('a', 'DT'), ('Consolidated', 'NNP'), ('Investment', 'NNP'), ('Analysis', 'NNP'), ('on', 'IN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('|', 'NNP'), ('The', 'NNP'), ('First', 'NNP'), ('Reporter', 'NNP'), ('Chartpoppers.com', 'NNP'), ('releases', 'NNS'), ('a', 'DT'), ('Consolidated', 'NNP'), ('Investment', 'NNP'), ('Analysis', 'NNP'), ('on', 'IN'), ('Intel', 'NNP'), ('Corp', 'NNP'), ('.', '.'), (',', ','), ('March', 'NNP'), ('31', 'CD'), (',', ','), ('2010', 'CD'), ('Chartpoppers.com', 'JJ'), ('has', 'VBZ'), ('just', 'RB'), ('release', 'NN'), ('its', 'PRP$'), ('Consolidated', 'NNP'), ('Analysis', 'NNP'), ('for', 'IN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('designs', 'NNS'), (',', ','), ('manufactures', 'NNS'), (',', ','), ('and', 'CC'), ('sells', 'NNS'), ('integrated', 'VBD'), ('circuits', 'NNS'), ('for', 'IN'), ('computing', 'VBG'), ('and', 'CC'), ('communications', 'NNS'), ('industries', 'NNS'), ('worldwide', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Chartpoppers.com/NN   releases/NNS   a/DT   (ORGANIZATION Consolidated/NNP Investment/NNP Analysis/NNP)   on/IN   (ORGANIZATION Intel/NNP Corp./NNP)   |/NNP   The/NNP   First/NNP   Reporter/NNP   Chartpoppers.com/NNP   releases/NNS   a/DT   (ORGANIZATION Consolidated/NNP Investment/NNP Analysis/NNP)   on/IN   (ORGANIZATION Intel/NNP Corp/NNP)   ./.   ,/,   March/NNP   31/CD   ,/,   2010/CD   Chartpoppers.com/JJ   has/VBZ   just/RB   release/NN   its/PRP$   Consolidated/NNP   Analysis/NNP   for/IN   (ORGANIZATION Intel/NNP Corp./NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP Intel/NNP)   Corp./NNP   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   designs/NNS   ,/,   manufactures/NNS   ,/,   and/CC   sells/NNS   integrated/VBD   circuits/NNS   for/IN   computing/VBG   and/CC   communications/NNS   industries/NNS   worldwide/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   just/RB   release/NN   its/PRP$   Consolidated/NNP   Analysis/NNP   for/IN   Intel/NNP   Corp./NNP   NASDAQ/NNP)
+	(VERB integrated/VBD circuits/NNS for/IN)
+	(VERB computing/VBG)
+	(VERB worldwide/VBP)
+noun phrases to consider:
+	(NOUN Chartpoppers.com/NN releases/NNS)
+	(NOUN Consolidated/NNP Investment/NNP Analysis/NNP)
+	(NOUN Intel/NNP Corp./NNP |/NNP The/NNP)
+	(NOUN First/NNP Reporter/NNP Chartpoppers.com/NNP releases/NNS)
+	(NOUN Consolidated/NNP Investment/NNP Analysis/NNP)
+	(NOUN Intel/NNP Corp/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Chartpoppers.com/JJ)
+	(NOUN INTC/NNP Intel/NNP Corp./NNP NASDAQ/NNP)
+	(NOUN INTC/NNP designs/NNS)
+	(NOUN manufactures/NNS)
+	(NOUN sells/NNS)
+	(NOUN communications/NNS industries/NNS)
+
+----------------------------------
+original sentence: 
+It offers microprocessor products used in desktops, nettops, workstations, servers, embedded products, communications products, notebooks, netbooks, mobile Internet devices, and consumer electronics, as well as in embedded designs, such as industrial equipment, point of sale systems, panel PCs, automotive information/entertainment systems, and medical equipment.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('offers', 'VBZ'), ('microprocessor', 'NN'), ('products', 'NNS'), ('used', 'VBN'), ('in', 'IN'), ('desktops', 'NNS'), (',', ','), ('nettops', 'NNS'), (',', ','), ('workstations', 'NNS'), (',', ','), ('servers', 'NNS'), (',', ','), ('embedded', 'VBD'), ('products', 'NNS'), (',', ','), ('communications', 'NNS'), ('products', 'NNS'), (',', ','), ('notebooks', 'NNS'), (',', ','), ('netbooks', 'NNS'), (',', ','), ('mobile', 'JJ'), ('Internet', 'NNP'), ('devices', 'NNS'), (',', ','), ('and', 'CC'), ('consumer', 'NN'), ('electronics', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('in', 'IN'), ('embedded', 'VBN'), ('designs', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('industrial', 'JJ'), ('equipment', 'NN'), (',', ','), ('point', 'NN'), ('of', 'IN'), ('sale', 'NN'), ('systems', 'NNS'), (',', ','), ('panel', 'NN'), ('PCs', 'NNS'), (',', ','), ('automotive', 'JJ'), ('information/entertainment', 'JJ'), ('systems', 'NNS'), (',', ','), ('and', 'CC'), ('medical', 'JJ'), ('equipment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   offers/VBZ   microprocessor/NN   products/NNS   used/VBN   in/IN   desktops/NNS   ,/,   nettops/NNS   ,/,   workstations/NNS   ,/,   servers/NNS   ,/,   embedded/VBD   products/NNS   ,/,   communications/NNS   products/NNS   ,/,   notebooks/NNS   ,/,   netbooks/NNS   ,/,   mobile/JJ   Internet/NNP   devices/NNS   ,/,   and/CC   consumer/NN   electronics/NNS   ,/,   as/IN   well/RB   as/IN   in/IN   embedded/VBN   designs/NNS   ,/,   such/JJ   as/IN   industrial/JJ   equipment/NN   ,/,   point/NN   of/IN   sale/NN   systems/NNS   ,/,   panel/NN   PCs/NNS   ,/,   automotive/JJ   information/entertainment/JJ   systems/NNS   ,/,   and/CC   medical/JJ   equipment/NN   ./.)
+----------------------------------
+original sentence: 
+The full report is available at  page at http://www.chartpoppers.com
+Chartpoppers.com is a  and investment commentary provider.
+
+POS tagged sentence: 
+[('The', 'DT'), ('full', 'JJ'), ('report', 'NN'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('page', 'NN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.chartpoppers.com', 'JJ'), ('Chartpoppers.com', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('and', 'CC'), ('investment', 'NN'), ('commentary', 'NN'), ('provider', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   full/JJ   report/NN   is/VBZ   available/JJ   at/IN   page/NN   at/IN   http/NN   :/:   //www.chartpoppers.com/JJ   Chartpoppers.com/NN   is/VBZ   a/DT   and/CC   investment/NN   commentary/NN   provider/NN   ./.)
+----------------------------------
+original sentence: 
+Chartpoppers.com aims to bring undervalued, up and coming companies into the sight of both experienced and non experienced .
+
+POS tagged sentence: 
+[('Chartpoppers.com', 'NN'), ('aims', 'NNS'), ('to', 'TO'), ('bring', 'VB'), ('undervalued', 'VBN'), (',', ','), ('up', 'RB'), ('and', 'CC'), ('coming', 'VBG'), ('companies', 'NNS'), ('into', 'IN'), ('the', 'DT'), ('sight', 'NN'), ('of', 'IN'), ('both', 'DT'), ('experienced', 'VBN'), ('and', 'CC'), ('non', 'NN'), ('experienced', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Chartpoppers.com/NN   aims/NNS   to/TO   bring/VB   undervalued/VBN   ,/,   up/RB   and/CC   coming/VBG   companies/NNS   into/IN   the/DT   sight/NN   of/IN   both/DT   experienced/VBN   and/CC   non/NN   experienced/VBD   ./.)
+----------------------------------
+original sentence: 
+We try to help investors, at whatever stage in their careers, to get a grasp on the necessary  data that they need in order to make a educated investment decision.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('try', 'VBP'), ('to', 'TO'), ('help', 'VB'), ('investors', 'NNS'), (',', ','), ('at', 'IN'), ('whatever', 'NN'), ('stage', 'NN'), ('in', 'IN'), ('their', 'PRP$'), ('careers', 'NNS'), (',', ','), ('to', 'TO'), ('get', 'VB'), ('a', 'DT'), ('grasp', 'NN'), ('on', 'IN'), ('the', 'DT'), ('necessary', 'JJ'), ('data', 'NNS'), ('that', 'WDT'), ('they', 'PRP'), ('need', 'VBP'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('make', 'VB'), ('a', 'DT'), ('educated', 'JJ'), ('investment', 'NN'), ('decision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   try/VBP   to/TO   help/VB   investors/NNS   ,/,   at/IN   whatever/NN   stage/NN   in/IN   their/PRP$   careers/NNS   ,/,   to/TO   get/VB   a/DT   grasp/NN   on/IN   the/DT   necessary/JJ   data/NNS   that/WDT   they/PRP   need/VBP   in/IN   order/NN   to/TO   make/VB   a/DT   educated/JJ   investment/NN   decision/NN   ./.)
+----------------------------------
+original sentence: 
+From our daily trading ideas to a in depth coverage of what&#8217;s going on in the markets, we are sure that chartpoppers.com is exactly what you need in order succeed.
+
+POS tagged sentence: 
+[('From', 'IN'), ('our', 'PRP$'), ('daily', 'JJ'), ('trading', 'NN'), ('ideas', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('in', 'IN'), ('depth', 'NN'), ('coverage', 'NN'), ('of', 'IN'), ('what&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('going', 'VBG'), ('on', 'IN'), ('in', 'IN'), ('the', 'DT'), ('markets', 'NNS'), (',', ','), ('we', 'PRP'), ('are', 'VBP'), ('sure', 'JJ'), ('that', 'IN'), ('chartpoppers.com', 'JJ'), ('is', 'VBZ'), ('exactly', 'RB'), ('what', 'WP'), ('you', 'PRP'), ('need', 'VBP'), ('in', 'IN'), ('order', 'NN'), ('succeed', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   From/IN   our/PRP$   daily/JJ   trading/NN   ideas/NNS   to/TO   a/DT   in/IN   depth/NN   coverage/NN   of/IN   what&/NNP   #/#   8217/CD   ;/:   s/NNS   going/VBG   on/IN   in/IN   the/DT   markets/NNS   ,/,   we/PRP   are/VBP   sure/JJ   that/IN   chartpoppers.com/JJ   is/VBZ   exactly/RB   what/WP   you/PRP   need/VBP   in/IN   order/NN   succeed/NN   ./.)
+----------------------------------
+original sentence: 
+For More information please visit us at http://www.chartpoppers.com
+Chartpoppers.com Disclosure
+ DO NOT BASE ANY INVESTMENT DECISION UPON ANY MATERIALS FOUND ON THIS REPORT.
+
+POS tagged sentence: 
+[('For', 'IN'), ('More', 'JJR'), ('information', 'NN'), ('please', 'NN'), ('visit', 'NN'), ('us', 'PRP'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.chartpoppers.com', 'JJ'), ('Chartpoppers.com', 'NN'), ('Disclosure', 'NNP'), ('DO', 'NNP'), ('NOT', 'NNP'), ('BASE', 'NNP'), ('ANY', 'NNP'), ('INVESTMENT', 'NNP'), ('DECISION', 'NNP'), ('UPON', 'NNP'), ('ANY', 'NNP'), ('MATERIALS', 'NNPS'), ('FOUND', 'NNP'), ('ON', 'NNP'), ('THIS', 'NNP'), ('REPORT', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   More/JJR   information/NN   please/NN   visit/NN   us/PRP   at/IN   http/NN   :/:   //www.chartpoppers.com/JJ   Chartpoppers.com/NN   (PERSON Disclosure/NNP DO/NNP)   NOT/NNP   BASE/NNP   ANY/NNP   INVESTMENT/NNP   DECISION/NNP   UPON/NNP   ANY/NNP   MATERIALS/NNPS   FOUND/NNP   ON/NNP   THIS/NNP   REPORT/NNP   ./.)
+----------------------------------
+original sentence: 
+We are not registered as a securities broker dealer or an investment adviser either with the U.S. Securities and Exchange Commission the &#8220;SEC&#8221; or with any state securities regulatory authority.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('registered', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('securities', 'NNS'), ('broker', 'NN'), ('dealer', 'NN'), ('or', 'CC'), ('an', 'DT'), ('investment', 'NN'), ('adviser', 'NN'), ('either', 'DT'), ('with', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('the', 'DT'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('SEC&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('or', 'CC'), ('with', 'IN'), ('any', 'DT'), ('state', 'NN'), ('securities', 'NNS'), ('regulatory', 'JJ'), ('authority', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   are/VBP   not/RB   registered/VBN   as/IN   a/DT   securities/NNS   broker/NN   dealer/NN   or/CC   an/DT   investment/NN   adviser/NN   either/DT   with/IN   the/DT   (GPE U.S./NNP)   Securities/NNPS   and/CC   (ORGANIZATION Exchange/NNP)   Commission/NNP   the/DT   &/CC   #/#   8220/CD   ;/:   SEC&/JJ   #/#   8221/CD   ;/:   or/CC   with/IN   any/DT   state/NN   securities/NNS   regulatory/JJ   authority/NN   ./.)
+----------------------------------
+original sentence: 
+We are neither licensed nor qualified to provide investment advice.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('are', 'VBP'), ('neither', 'DT'), ('licensed', 'VBN'), ('nor', 'CC'), ('qualified', 'VBN'), ('to', 'TO'), ('provide', 'VB'), ('investment', 'NN'), ('advice', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   are/VBP   neither/DT   licensed/VBN   nor/CC   qualified/VBN   to/TO   provide/VB   investment/NN   advice/NN   ./.)
+----------------------------------
+original sentence: 
+ChartPoppers.com nor its affiliates have a beneficial interest in the mentioned company; nor have they received compensation of any kind for any of the companies listed in this communication.
+
+POS tagged sentence: 
+[('ChartPoppers.com', 'NN'), ('nor', 'CC'), ('its', 'PRP$'), ('affiliates', 'NNS'), ('have', 'VBP'), ('a', 'DT'), ('beneficial', 'JJ'), ('interest', 'NN'), ('in', 'IN'), ('the', 'DT'), ('mentioned', 'VBN'), ('company', 'NN'), (';', ':'), ('nor', 'CC'), ('have', 'VBP'), ('they', 'PRP'), ('received', 'VBD'), ('compensation', 'NN'), ('of', 'IN'), ('any', 'DT'), ('kind', 'NN'), ('for', 'IN'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('companies', 'NNS'), ('listed', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('communication', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ChartPoppers.com/NN   nor/CC   its/PRP$   affiliates/NNS   have/VBP   a/DT   beneficial/JJ   interest/NN   in/IN   the/DT   mentioned/VBN   company/NN   ;/:   nor/CC   have/VBP   they/PRP   received/VBD   compensation/NN   of/IN   any/DT   kind/NN   for/IN   any/DT   of/IN   the/DT   companies/NNS   listed/VBN   in/IN   this/DT   communication/NN   ./.)
+----------------------------------
+original sentence: 
+The information contained in our report is not an offer to buy or sell securities.
+
+POS tagged sentence: 
+[('The', 'DT'), ('information', 'NN'), ('contained', 'VBD'), ('in', 'IN'), ('our', 'PRP$'), ('report', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('an', 'DT'), ('offer', 'NN'), ('to', 'TO'), ('buy', 'VB'), ('or', 'CC'), ('sell', 'VB'), ('securities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   information/NN   contained/VBD   in/IN   our/PRP$   report/NN   is/VBZ   not/RB   an/DT   offer/NN   to/TO   buy/VB   or/CC   sell/VB   securities/NNS   ./.)
+----------------------------------
+original sentence: 
+We distribute opinions, comments and information free of charge exclusively to individuals who wish to receive them.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('distribute', 'VBP'), ('opinions', 'NNS'), (',', ','), ('comments', 'NNS'), ('and', 'CC'), ('information', 'NN'), ('free', 'JJ'), ('of', 'IN'), ('charge', 'NN'), ('exclusively', 'RB'), ('to', 'TO'), ('individuals', 'NNS'), ('who', 'WP'), ('wish', 'NN'), ('to', 'TO'), ('receive', 'VB'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   distribute/VBP   opinions/NNS   ,/,   comments/NNS   and/CC   information/NN   free/JJ   of/IN   charge/NN   exclusively/RB   to/TO   individuals/NNS   who/WP   wish/NN   to/TO   receive/VB   them/PRP   ./.)
+----------------------------------
+original sentence: 
+info@chartpoppers.com
+Hello there!
+
+POS tagged sentence: 
+[('info', 'NN'), ('@', 'IN'), ('chartpoppers.com', 'JJ'), ('Hello', 'NNP'), ('there', 'RB'), ('!', '.')]
+
+
+ERTAGGED sentence: (S info/NN @/IN chartpoppers.com/JJ Hello/NNP there/RB !/.)
+----------------------------------
+original sentence: 
+If you are new here, you might want to subscribe to the RSS feed
+ for updates on this topic.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('are', 'VBP'), ('new', 'JJ'), ('here', 'RB'), (',', ','), ('you', 'PRP'), ('might', 'MD'), ('want', 'VB'), ('to', 'TO'), ('subscribe', 'VB'), ('to', 'TO'), ('the', 'DT'), ('RSS', 'NNP'), ('feed', 'VBD'), ('for', 'IN'), ('updates', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('topic', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   are/VBP   new/JJ   here/RB   ,/,   you/PRP   might/MD   want/VB   to/TO   subscribe/VB   to/TO   the/DT   (ORGANIZATION RSS/NNP)   feed/VBD   for/IN   updates/NNS   on/IN   this/DT   topic/JJ   ./.)
+----------------------------------
+original sentence: 
+New Book&#8217;s Twist On One of the Oldest Stories
+Hot Shipping Stocks Gainers DRYS, EGLE, FRO, GNK Click here to cancel reply.
+
+POS tagged sentence: 
+[('New', 'NNP'), ('Book&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Twist', 'VBP'), ('On', 'IN'), ('One', 'CD'), ('of', 'IN'), ('the', 'DT'), ('Oldest', 'NNP'), ('Stories', 'NNP'), ('Hot', 'NNP'), ('Shipping', 'NNP'), ('Stocks', 'NNP'), ('Gainers', 'NNP'), ('DRYS', 'NNP'), (',', ','), ('EGLE', 'NNP'), (',', ','), ('FRO', 'NNP'), (',', ','), ('GNK', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP)   Book&/NNP   #/#   8217/CD   ;/:   s/NNS   Twist/VBP   On/IN   One/CD   of/IN   the/DT   (ORGANIZATION Oldest/NNP Stories/NNP Hot/NNP)   Shipping/NNP   Stocks/NNP   Gainers/NNP   DRYS/NNP   ,/,   (ORGANIZATION EGLE/NNP)   ,/,   (ORGANIZATION FRO/NNP)   ,/,   (ORGANIZATION GNK/NNP Click/NNP)   here/RB   to/TO   cancel/VB   reply/RB   ./.)
+----------------------------------
+original sentence: 
+Mail will not be published Required Notify me of followup comments via e mail
+Click to cancel reply
+Plugin by wpburn.com 
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('Required', 'NNP'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Click', 'NNP'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('Plugin', 'NNP'), ('by', 'IN'), ('wpburn.com', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   (PERSON Required/NNP Notify/NNP)   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   (PERSON Click/NNP)   to/TO   cancel/VB   reply/RB   Plugin/NNP   by/IN   wpburn.com/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

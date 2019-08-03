@@ -1,0 +1,140 @@
+
+----------------------------------
+original sentence: 
+Top 5 Stocks In The Services Sector With The Highest Cash WMT, NWSA, AMZN, LVS, EBAY | Benzinga.com
+Top 5 Stocks In The Services Sector With The Highest Cash WMT, NWSA, AMZN, LVS, EBAY Recent Articles by Monica Gerson
+Posted on 04/07/10 at 8:00am by Below are the top 5 services stocks in terms of cash.
+
+POS tagged sentence: 
+[('Top', 'NNP'), ('5', 'CD'), ('Stocks', 'NNS'), ('In', 'IN'), ('The', 'DT'), ('Services', 'NNPS'), ('Sector', 'NNP'), ('With', 'NNP'), ('The', 'NNP'), ('Highest', 'NNP'), ('Cash', 'NNP'), ('WMT', 'NNP'), (',', ','), ('NWSA', 'NNP'), (',', ','), ('AMZN', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('EBAY', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Top', 'NNP'), ('5', 'CD'), ('Stocks', 'NNS'), ('In', 'IN'), ('The', 'DT'), ('Services', 'NNPS'), ('Sector', 'NNP'), ('With', 'NNP'), ('The', 'NNP'), ('Highest', 'NNP'), ('Cash', 'NNP'), ('WMT', 'NNP'), (',', ','), ('NWSA', 'NNP'), (',', ','), ('AMZN', 'NNP'), (',', ','), ('LVS', 'NNP'), (',', ','), ('EBAY', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Monica', 'NNP'), ('Gerson', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/07/10', 'CD'), ('at', 'IN'), ('8', 'CD'), (':', ':'), ('00am', 'CD'), ('by', 'IN'), ('Below', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('top', 'JJ'), ('5', 'CD'), ('services', 'NNS'), ('stocks', 'NNS'), ('in', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('cash', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Top/NNP   5/CD   Stocks/NNS   In/IN   The/DT   (ORGANIZATION Services/NNPS)   Sector/NNP   With/NNP   The/NNP   (PERSON Highest/NNP Cash/NNP WMT/NNP)   ,/,   (ORGANIZATION NWSA/NNP)   ,/,   (ORGANIZATION AMZN/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION EBAY/NNP)   |/NNP   Benzinga.com/NNP   Top/NNP   5/CD   Stocks/NNS   In/IN   The/DT   (ORGANIZATION Services/NNPS)   Sector/NNP   With/NNP   The/NNP   (PERSON Highest/NNP Cash/NNP WMT/NNP)   ,/,   (ORGANIZATION NWSA/NNP)   ,/,   (ORGANIZATION AMZN/NNP)   ,/,   (ORGANIZATION LVS/NNP)   ,/,   (ORGANIZATION EBAY/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Monica/NNP Gerson/NNP Posted/NNP)   on/IN   04/07/10/CD   at/IN   8/CD   :/:   00am/CD   by/IN   (PERSON Below/NNP)   are/VBP   the/DT   top/JJ   5/CD   services/NNS   stocks/NNS   in/IN   terms/NNS   of/IN   cash/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   the/DT   top/JJ   5/CD   services/NNS   stocks/NNS   in/IN   terms/NNS   of/IN   cash/NN)
+noun phrases to consider:
+	(NOUN Top/NNP)
+	(NOUN 5/CD Stocks/NNS)
+	(NOUN Services/NNPS Sector/NNP With/NNP The/NNP)
+	(NOUN Highest/NNP Cash/NNP WMT/NNP)
+	(NOUN NWSA/NNP)
+	(NOUN AMZN/NNP)
+	(NOUN LVS/NNP)
+	(NOUN EBAY/NNP |/NNP Benzinga.com/NNP Top/NNP)
+	(NOUN 5/CD Stocks/NNS)
+	(NOUN Services/NNPS Sector/NNP With/NNP The/NNP)
+	(NOUN Highest/NNP Cash/NNP WMT/NNP)
+	(NOUN NWSA/NNP)
+	(NOUN AMZN/NNP)
+	(NOUN LVS/NNP)
+	(NOUN EBAY/NNP Recent/NNP Articles/NNP)
+	(NOUN Monica/NNP Gerson/NNP Posted/NNP)
+	(NOUN Below/NNP)
+
+----------------------------------
+original sentence: 
+Wal Mart Stores Inc NYSE:  had $ 7.91 billion in cash in the latest quarter.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('Stores', 'NNPS'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('had', 'VBD'), ('$', '$'), ('7.91', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (ORGANIZATION Mart/NNP Stores/NNPS Inc/NNP)   NYSE/NNP   :/:   had/VBD   $/$   7.91/CD   billion/CD   in/IN   cash/NN   in/IN   the/DT   latest/JJS   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+WMTâ€™s debt liabilities in the same period stood at $41.34 billion.
+
+POS tagged sentence: 
+[('WMT', 'NN'), ('\xe2', '``'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('debt', 'NN'), ('liabilities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('stood', 'NN'), ('at', 'IN'), ('$', '$'), ('41.34', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION WMT/NN)   â/``   €/:   ™/:   s/NNS   debt/NN   liabilities/NNS   in/IN   the/DT   same/JJ   period/NN   stood/NN   at/IN   $/$   41.34/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+had $7.27 billion in cash in the latest quarter.
+
+POS tagged sentence: 
+[('had', 'VBD'), ('$', '$'), ('7.27', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   had/VBD   $/$   7.27/CD   billion/CD   in/IN   cash/NN   in/IN   the/DT   latest/JJS   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+NWSAâ€™s debt liabilities in the same period stood at $15.28 billion.
+
+POS tagged sentence: 
+[('NWSA', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('debt', 'NN'), ('liabilities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('stood', 'NN'), ('at', 'IN'), ('$', '$'), ('15.28', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE NWSA/NNP)   â/:   €/:   ™/:   s/NNS   debt/NN   liabilities/NNS   in/IN   the/DT   same/JJ   period/NN   stood/NN   at/IN   $/$   15.28/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+Amazon.com Inc NASDAQ:  had $6.37 billion in cash in the latest quarter.
+
+POS tagged sentence: 
+[('Amazon.com', 'NN'), ('Inc', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('had', 'VBD'), ('$', '$'), ('6.37', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Amazon.com/NN Inc/NNP)   NASDAQ/NNP   :/:   had/VBD   $/$   6.37/CD   billion/CD   in/IN   cash/NN   in/IN   the/DT   latest/JJS   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+AMZNâ€™s debt liabilities in the same period stood at $393.00M million.
+
+POS tagged sentence: 
+[('AMZN', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('debt', 'NN'), ('liabilities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('stood', 'NN'), ('at', 'IN'), ('$', '$'), ('393.00M', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE AMZN/NNP)   â/:   €/:   ™/:   s/NNS   debt/NN   liabilities/NNS   in/IN   the/DT   same/JJ   period/NN   stood/NN   at/IN   $/$   393.00M/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands Corp NYSE:  had $4.96 billion in cash in the latest quarter LVSâ€™ debt liabilities in the same period stood at $11.03 billion.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('had', 'VBD'), ('$', '$'), ('4.96', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('quarter', 'NN'), ('LVS', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('debt', 'NN'), ('liabilities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('stood', 'NN'), ('at', 'IN'), ('$', '$'), ('11.03', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS Corp/NNP)   NYSE/NNP   :/:   had/VBD   $/$   4.96/CD   billion/CD   in/IN   cash/NN   in/IN   the/DT   latest/JJS   quarter/NN   (ORGANIZATION LVS/NNP)   â/NNP   €/NNP   ™/NNP   debt/NN   liabilities/NNS   in/IN   the/DT   same/JJ   period/NN   stood/NN   at/IN   $/$   11.03/CD   billion/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB had/VBD)
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN cash/NN)
+	(NOUN the/DT latest/JJS quarter/NN LVS/NNP â/NNP €/NNP)
+	(NOUN ™/NNP debt/NN liabilities/NNS)
+	(NOUN the/DT same/JJ period/NN stood/NN)
+
+----------------------------------
+original sentence: 
+had $4.94 billion in cash in the latest quarter.
+
+POS tagged sentence: 
+[('had', 'VBD'), ('$', '$'), ('4.94', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('in', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   had/VBD   $/$   4.94/CD   billion/CD   in/IN   cash/NN   in/IN   the/DT   latest/JJS   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+EBAY had no debt liabilities in the same period.
+
+POS tagged sentence: 
+[('EBAY', 'NNP'), ('had', 'VBD'), ('no', 'DT'), ('debt', 'NN'), ('liabilities', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION EBAY/NNP)   had/VBD   no/DT   debt/NN   liabilities/NNS   in/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+To see more trading ideas, Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('To', 'TO'), ('see', 'VB'), ('more', 'JJR'), ('trading', 'NN'), ('ideas', 'NNS'), (',', ','), ('Bookmark/Search', 'JJ'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   see/VB   more/JJR   trading/NN   ideas/NNS   ,/,   Bookmark/Search/JJ   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

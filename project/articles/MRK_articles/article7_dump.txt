@@ -1,0 +1,372 @@
+
+----------------------------------
+original sentence: 
+Top 10 Dow Jones 30 Stocks with Highest Return on Assets: MSFT, MRK, MCD, KO, JNJ, IBM, MMM, WMT, CSCO, XOM Apr 07, 2010 China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), (':', ':'), ('MSFT', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('MCD', 'NNP'), (',', ','), ('KO', 'NNP'), (',', ','), ('JNJ', 'NNP'), (',', ','), ('IBM', 'NNP'), (',', ','), ('MMM', 'NNP'), (',', ','), ('WMT', 'NNP'), (',', ','), ('CSCO', 'NNP'), (',', ','), ('XOM', 'NNP'), ('Apr', 'NNP'), ('07', 'CD'), (',', ','), ('2010', 'CD'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Return/NNP)   on/IN   Assets/NNPS   :/:   MSFT/NNP   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION MCD/NNP)   ,/,   (ORGANIZATION KO/NNP)   ,/,   (ORGANIZATION JNJ/NNP)   ,/,   (ORGANIZATION IBM/NNP)   ,/,   (ORGANIZATION MMM/NNP)   ,/,   (ORGANIZATION WMT/NNP)   ,/,   (ORGANIZATION CSCO/NNP)   ,/,   (ORGANIZATION XOM/NNP)   Apr/NNP   07/CD   ,/,   2010/CD   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Return/NNP)
+	(NOUN Assets/NNPS)
+	(NOUN MSFT/NNP)
+	(NOUN MRK/NNP)
+	(NOUN MCD/NNP)
+	(NOUN KO/NNP)
+	(NOUN JNJ/NNP)
+	(NOUN IBM/NNP)
+	(NOUN MMM/NNP)
+	(NOUN WMT/NNP)
+	(NOUN CSCO/NNP)
+	(NOUN XOM/NNP Apr/NNP)
+	(NOUN 2010/CD China/NNP Analyst/NNP News/NNP)
+	(NOUN Research/NNP)
+	(NOUN U.S/NNP)
+
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+Year to Date Performance
+Institutional Ownership
+Wednesday, April 07, 2010
+Top 10 Dow Jones 30 Stocks with Highest Return on Assets: MSFT, MRK, MCD, KO, JNJ, IBM, MMM, WMT, CSCO, XOM Apr 07, 2010 Below are the top 10 Dow 30 INDEXDJX:.DJI stocks with highest Return on Assets ratio for the last 12 months.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('Year', 'NNP'), ('to', 'TO'), ('Date', 'NNP'), ('Performance', 'NNP'), ('Institutional', 'NNP'), ('Ownership', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('April', 'NNP'), ('07', 'CD'), (',', ','), ('2010', 'CD'), ('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), (':', ':'), ('MSFT', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('MCD', 'NNP'), (',', ','), ('KO', 'NNP'), (',', ','), ('JNJ', 'NNP'), (',', ','), ('IBM', 'NNP'), (',', ','), ('MMM', 'NNP'), (',', ','), ('WMT', 'NNP'), (',', ','), ('CSCO', 'NNP'), (',', ','), ('XOM', 'NNP'), ('Apr', 'NNP'), ('07', 'CD'), (',', ','), ('2010', 'CD'), ('Below', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('top', 'JJ'), ('10', 'CD'), ('Dow', 'NNP'), ('30', 'CD'), ('INDEXDJX', 'NNP'), (':', ':'), ('.DJI', 'JJ'), ('stocks', 'NNS'), ('with', 'IN'), ('highest', 'JJS'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('ratio', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   Year/NNP   to/TO   (ORGANIZATION Date/NNP Performance/NNP)   Institutional/NNP   Ownership/NNP   Wednesday/NNP   ,/,   April/NNP   07/CD   ,/,   2010/CD   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Return/NNP)   on/IN   Assets/NNPS   :/:   MSFT/NNP   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION MCD/NNP)   ,/,   (ORGANIZATION KO/NNP)   ,/,   (ORGANIZATION JNJ/NNP)   ,/,   (ORGANIZATION IBM/NNP)   ,/,   (ORGANIZATION MMM/NNP)   ,/,   (ORGANIZATION WMT/NNP)   ,/,   (ORGANIZATION CSCO/NNP)   ,/,   (ORGANIZATION XOM/NNP)   Apr/NNP   07/CD   ,/,   2010/CD   Below/NNP   are/VBP   the/DT   top/JJ   10/CD   Dow/NNP   30/CD   INDEXDJX/NNP   :/:   .DJI/JJ   stocks/NNS   with/IN   highest/JJS   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   ratio/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Listed/VBN Chinese/JJ Stocks/NNS Year/NNP)
+	(VERB are/VBP the/DT top/JJ 10/CD Dow/NNP 30/CD INDEXDJX/NNP)
+noun phrases to consider:
+	(NOUN Date/NNP Performance/NNP Institutional/NNP Ownership/NNP)
+	(NOUN Wednesday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Return/NNP)
+	(NOUN Assets/NNPS)
+	(NOUN MSFT/NNP)
+	(NOUN MRK/NNP)
+	(NOUN MCD/NNP)
+	(NOUN KO/NNP)
+	(NOUN JNJ/NNP)
+	(NOUN IBM/NNP)
+	(NOUN MMM/NNP)
+	(NOUN WMT/NNP)
+	(NOUN CSCO/NNP)
+	(NOUN XOM/NNP Apr/NNP)
+	(NOUN 2010/CD Below/NNP)
+	(NOUN .DJI/JJ stocks/NNS)
+	(NOUN highest/JJS Return/NNP)
+	(NOUN Assets/NNPS ratio/NN)
+	(NOUN the/DT last/JJ 12/CD months/NNS)
+
+----------------------------------
+original sentence: 
+Microsoft Corporation NASDAQ:MSFT  has the 1st highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Microsoft', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('1st', 'CD'), ('highest', 'JJS'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Microsoft/NNP)   (ORGANIZATION Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION MSFT/NNP)   has/VBZ   the/DT   1st/CD   highest/JJS   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 21.99% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('21.99', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   21.99/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.79 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.79', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.79/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc. NYSE:MRK  has the 2nd highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('2nd', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION MRK/NNP)   has/VBZ   the/DT   2nd/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   the/DT   2nd/JJ   highest/NN   Return/NNP   on/IN   Assets/NNPS   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+
+----------------------------------
+original sentence: 
+Its ROA was 16.35% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('16.35', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   16.35/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.34 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.34', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.34/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+McDonald&#39;s Corporation NYSE:MCD  has the 3rd highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('McDonald&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MCD', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('3rd', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   McDonald&/NN   #/#   39/CD   ;/:   s/NNS   (ORGANIZATION Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION MCD/NNP)   has/VBZ   the/DT   3rd/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 15.51% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('15.51', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   15.51/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.78 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.78', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.78/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+The Coca Cola Company NYSE:KO  has the 4th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Coca', 'NNP'), ('Cola', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('KO', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('4th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Coca/NNP Cola/NNP Company/NNP)   NYSE/NNP   :/:   KO/NNP   has/VBZ   the/DT   4th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 15.49% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('15.49', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   15.49/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.69 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.69', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.69/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Johnson & Johnson NYSE:JNJ  has the 5th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JNJ', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('5th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP NYSE/NNP)   :/:   (ORGANIZATION JNJ/NNP)   has/VBZ   the/DT   5th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 13.66% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('13.66', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   13.66/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.69 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.69', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.69/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+International Business Machines Corp. NYSE:IBM  has the 6th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('International', 'NNP'), ('Business', 'NNP'), ('Machines', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('IBM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('6th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION International/NNP)   (ORGANIZATION Business/NNP Machines/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION IBM/NNP)   has/VBZ   the/DT   6th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 12.29% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('12.29', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   12.29/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.88 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.88', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.88/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+3M Company NYSE:MMM  has the 7th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('3M', 'CD'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MMM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('7th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   3M/CD   Company/NNP   NYSE/NNP   :/:   (ORGANIZATION MMM/NNP)   has/VBZ   the/DT   7th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 12.23% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('12.23', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   12.23/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.87 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.87', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.87/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Wal Mart Stores, Inc. NYSE:WMT  has the 8th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Wal', 'NNP'), ('Mart', 'NNP'), ('Stores', 'NNPS'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('WMT', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('8th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wal/NNP)   (ORGANIZATION Mart/NNP Stores/NNPS)   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION WMT/NNP)   has/VBZ   the/DT   8th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 8.93% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('8.93', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   8.93/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 2.44 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('2.44', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   2.44/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Cisco Systems, Inc. NASDAQ:CSCO  has the 9th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Cisco', 'NNP'), ('Systems', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('CSCO', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('9th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Cisco/NNP)   (ORGANIZATION Systems/NNP)   ,/,   Inc./NNP   NASDAQ/NNP   :/:   (ORGANIZATION CSCO/NNP)   has/VBZ   the/DT   9th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 8.81% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('8.81', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   8.81/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 0.52 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('0.52', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   0.52/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Exxon Mobil Corporation NYSE:XOM  has the 10th highest Return on Assets in this segment of the market.
+
+POS tagged sentence: 
+[('Exxon', 'NNP'), ('Mobil', 'NNP'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('XOM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('10th', 'JJ'), ('highest', 'NN'), ('Return', 'NNP'), ('on', 'IN'), ('Assets', 'NNPS'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Exxon/NNP)   (PERSON Mobil/NNP Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION XOM/NNP)   has/VBZ   the/DT   10th/JJ   highest/NN   (PERSON Return/NNP)   on/IN   (ORGANIZATION Assets/NNPS)   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its ROA was 8.52% for the last 12 months.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('ROA', 'NNP'), ('was', 'VBD'), ('8.52', 'CD'), ('%', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (ORGANIZATION ROA/NNP)   was/VBD   8.52/CD   %/NN   for/IN   the/DT   last/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Its Asset Turnover ratio revenue divided by assets was 1.35 for the same period.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('Asset', 'NNP'), ('Turnover', 'NNP'), ('ratio', 'NN'), ('revenue', 'NN'), ('divided', 'VBD'), ('by', 'IN'), ('assets', 'NNS'), ('was', 'VBD'), ('1.35', 'CD'), ('for', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   (PERSON Asset/NNP Turnover/NNP)   ratio/NN   revenue/NN   divided/VBD   by/IN   assets/NNS   was/VBD   1.35/CD   for/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+SUBSCRIBE TO OUR FREE DAILY EMAIL UPDATES
+
+
+POS tagged sentence: 
+[('SUBSCRIBE', 'NN'), ('TO', 'TO'), ('OUR', 'NNP'), ('FREE', 'NNP'), ('DAILY', 'NNP'), ('EMAIL', 'NNP'), ('UPDATES', 'NNP')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SUBSCRIBE/NN)   TO/TO   (ORGANIZATION OUR/NNP)   FREE/NNP   DAILY/NNP   EMAIL/NNP   UPDATES/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

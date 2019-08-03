@@ -1,0 +1,309 @@
+
+----------------------------------
+original sentence: 
+ TSX bounces back for first positive session in three days Division of Canwest Publishing Inc. TSX bounces back for first positive session in three days
+By Derek Abma, Financial Post
+Some of the stronger stocks on the TSX's main index Monday included Research in Motion Ltd. and Potash Corp of Saskatchewan Inc.
+Vancouver Sun graphics, .
+
+POS tagged sentence: 
+[('TSX', 'NNP'), ('bounces', 'NNS'), ('back', 'VBP'), ('for', 'IN'), ('first', 'JJ'), ('positive', 'JJ'), ('session', 'NN'), ('in', 'IN'), ('three', 'CD'), ('days', 'NNS'), ('Division', 'NNP'), ('of', 'IN'), ('Canwest', 'NNP'), ('Publishing', 'NNP'), ('Inc.', 'NNP'), ('TSX', 'NNP'), ('bounces', 'VBZ'), ('back', 'RB'), ('for', 'IN'), ('first', 'JJ'), ('positive', 'JJ'), ('session', 'NN'), ('in', 'IN'), ('three', 'CD'), ('days', 'NNS'), ('By', 'IN'), ('Derek', 'NNP'), ('Abma', 'NNP'), (',', ','), ('Financial', 'NNP'), ('Post', 'NNP'), ('Some', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('stronger', 'JJR'), ('stocks', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('TSX', 'NNP'), ("'s", 'POS'), ('main', 'JJ'), ('index', 'NN'), ('Monday', 'NNP'), ('included', 'VBD'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('Ltd.', 'NNP'), ('and', 'CC'), ('Potash', 'NNP'), ('Corp', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('Vancouver', 'NNP'), ('Sun', 'NNP'), ('graphics', 'NNS'), (',', ','), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TSX/NNP   bounces/NNS   back/VBP   for/IN   first/JJ   positive/JJ   session/NN   in/IN   three/CD   days/NNS   Division/NNP   of/IN   (GPE Canwest/NNP)   Publishing/NNP   Inc./NNP   TSX/NNP   bounces/VBZ   back/RB   for/IN   first/JJ   positive/JJ   session/NN   in/IN   three/CD   days/NNS   By/IN   (PERSON Derek/NNP Abma/NNP)   ,/,   (PERSON Financial/NNP Post/NNP Some/NNP)   of/IN   the/DT   stronger/JJR   stocks/NNS   on/IN   the/DT   (ORGANIZATION TSX/NNP)   's/POS   main/JJ   index/NN   Monday/NNP   included/VBD   Research/NNP   in/IN   (GPE Motion/NNP)   Ltd./NNP   and/CC   (PERSON Potash/NNP Corp/NNP)   of/IN   (GPE Saskatchewan/NNP)   Inc/NNP   ./.   (PERSON Vancouver/NNP Sun/NNP)   graphics/NNS   ,/,   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   back/VBP   for/IN   first/JJ   positive/JJ   session/NN   in/IN   three/CD   days/NNS   Division/NNP   of/IN   Canwest/NNP   Publishing/NNP   Inc./NNP   TSX/NNP)
+	(VERB   bounces/VBZ   back/RB   for/IN   first/JJ   positive/JJ   session/NN   in/IN   three/CD   days/NNS   By/IN   Derek/NNP   Abma/NNP)
+	(VERB included/VBD Research/NNP in/IN Motion/NNP Ltd./NNP)
+noun phrases to consider:
+	(NOUN TSX/NNP bounces/NNS)
+	(NOUN Financial/NNP Post/NNP Some/NNP)
+	(NOUN the/DT stronger/JJR stocks/NNS)
+	(NOUN TSX/NNP)
+	(NOUN main/JJ index/NN Monday/NNP)
+	(NOUN Potash/NNP Corp/NNP)
+	(NOUN Saskatchewan/NNP Inc/NNP)
+	(NOUN Vancouver/NNP Sun/NNP graphics/NNS)
+
+----------------------------------
+original sentence: 
+The Toronto Stock Exchange came back from earlier losses Monday to post its first gain in three days.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Toronto', 'NNP'), ('Stock', 'NNP'), ('Exchange', 'NNP'), ('came', 'VBD'), ('back', 'RP'), ('from', 'IN'), ('earlier', 'JJR'), ('losses', 'NNS'), ('Monday', 'NNP'), ('to', 'TO'), ('post', 'VB'), ('its', 'PRP$'), ('first', 'JJ'), ('gain', 'NN'), ('in', 'IN'), ('three', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Toronto/NNP Stock/NNP Exchange/NNP)   came/VBD   back/RP   from/IN   earlier/JJR   losses/NNS   Monday/NNP   to/TO   post/VB   its/PRP$   first/JJ   gain/NN   in/IN   three/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+The S&P/TSX composite index closed up 19.19 points, or 0.16 per cent, to 11,967.17.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P/TSX', 'JJ'), ('composite', 'JJ'), ('index', 'NN'), ('closed', 'VBD'), ('up', 'RB'), ('19.19', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.16', 'CD'), ('per', 'IN'), ('cent', 'NN'), (',', ','), ('to', 'TO'), ('11,967.17', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/TSX/JJ   composite/JJ   index/NN   closed/VBD   up/RB   19.19/CD   points/NNS   ,/,   or/CC   0.16/CD   per/IN   cent/NN   ,/,   to/TO   11,967.17/CD   ./.)
+----------------------------------
+original sentence: 
+Financials and materials were positive, while energy and consumer staples lost ground.
+
+POS tagged sentence: 
+[('Financials', 'NNS'), ('and', 'CC'), ('materials', 'NNS'), ('were', 'VBD'), ('positive', 'JJ'), (',', ','), ('while', 'IN'), ('energy', 'NN'), ('and', 'CC'), ('consumer', 'NN'), ('staples', 'NNS'), ('lost', 'VBD'), ('ground', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Financials/NNS   and/CC   materials/NNS   were/VBD   positive/JJ   ,/,   while/IN   energy/NN   and/CC   consumer/NN   staples/NNS   lost/VBD   ground/NN   ./.)
+----------------------------------
+original sentence: 
+The TSX Venture composite was down 9.47 points, or 0.61 per cent, 1,544.59.
+
+POS tagged sentence: 
+[('The', 'DT'), ('TSX', 'NNP'), ('Venture', 'NNP'), ('composite', 'JJ'), ('was', 'VBD'), ('down', 'RB'), ('9.47', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.61', 'CD'), ('per', 'IN'), ('cent', 'NN'), (',', ','), ('1,544.59', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION TSX/NNP Venture/NNP)   composite/JJ   was/VBD   down/RB   9.47/CD   points/NNS   ,/,   or/CC   0.61/CD   per/IN   cent/NN   ,/,   1,544.59/CD   ./.)
+----------------------------------
+original sentence: 
+Lower commodity prices were among the early detriments to Bay Street enthusiasm.
+
+POS tagged sentence: 
+[('Lower', 'JJR'), ('commodity', 'NN'), ('prices', 'NNS'), ('were', 'VBD'), ('among', 'IN'), ('the', 'DT'), ('early', 'JJ'), ('detriments', 'NNS'), ('to', 'TO'), ('Bay', 'NNP'), ('Street', 'NNP'), ('enthusiasm', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Lower/JJR   commodity/NN   prices/NNS   were/VBD   among/IN   the/DT   early/JJ   detriments/NNS   to/TO   (PERSON Bay/NNP Street/NNP)   enthusiasm/NN   ./.)
+----------------------------------
+original sentence: 
+By the end of the day, crude oil managed to see a rise of 57 cents to $81.25 U.S. a barrel on the New York Mercantile Exchange.
+
+POS tagged sentence: 
+[('By', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), (',', ','), ('crude', 'JJ'), ('oil', 'NN'), ('managed', 'VBN'), ('to', 'TO'), ('see', 'VB'), ('a', 'DT'), ('rise', 'NN'), ('of', 'IN'), ('57', 'CD'), ('cents', 'NNS'), ('to', 'TO'), ('$', '$'), ('81.25', 'CD'), ('U.S.', 'NNP'), ('a', 'DT'), ('barrel', 'NN'), ('on', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Mercantile', 'NNP'), ('Exchange', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   the/DT   end/NN   of/IN   the/DT   day/NN   ,/,   crude/JJ   oil/NN   managed/VBN   to/TO   see/VB   a/DT   rise/NN   of/IN   57/CD   cents/NNS   to/TO   $/$   81.25/CD   (GPE U.S./NNP)   a/DT   barrel/NN   on/IN   the/DT   (GPE New/NNP York/NNP)   Mercantile/NNP   Exchange/NNP   ./.)
+----------------------------------
+original sentence: 
+Gold was down $8.10 to $1,099.50 U.S. an ounce.
+
+POS tagged sentence: 
+[('Gold', 'NNP'), ('was', 'VBD'), ('down', 'RB'), ('$', '$'), ('8.10', 'CD'), ('to', 'TO'), ('$', '$'), ('1,099.50', 'CD'), ('U.S.', 'NNP'), ('an', 'DT'), ('ounce', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Gold/NNP)   was/VBD   down/RB   $/$   8.10/CD   to/TO   $/$   1,099.50/CD   (GPE U.S./NNP)   an/DT   ounce/NN   ./.)
+----------------------------------
+original sentence: 
+The Canadian dollar was down 24 basis points to 98.15 cents U.S. after coming within a cent of parity to the American greenback last week.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Canadian', 'JJ'), ('dollar', 'NN'), ('was', 'VBD'), ('down', 'IN'), ('24', 'CD'), ('basis', 'NN'), ('points', 'NNS'), ('to', 'TO'), ('98.15', 'CD'), ('cents', 'NNS'), ('U.S.', 'NNP'), ('after', 'IN'), ('coming', 'VBG'), ('within', 'IN'), ('a', 'DT'), ('cent', 'NN'), ('of', 'IN'), ('parity', 'NN'), ('to', 'TO'), ('the', 'DT'), ('American', 'NNP'), ('greenback', 'NN'), ('last', 'JJ'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE Canadian/JJ)   dollar/NN   was/VBD   down/IN   24/CD   basis/NN   points/NNS   to/TO   98.15/CD   cents/NNS   (GPE U.S./NNP)   after/IN   coming/VBG   within/IN   a/DT   cent/NN   of/IN   parity/NN   to/TO   the/DT   (GPE American/NNP)   greenback/NN   last/JJ   week/NN   ./.)
+----------------------------------
+original sentence: 
+Some of the stronger stocks on the TSX included Research in Motion Ltd., which was up 1.47 per cent to $75.12, and Potash Corp. of Saskatchewan Inc., which rose 1.58 per cent to $124.94.
+
+POS tagged sentence: 
+[('Some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('stronger', 'JJR'), ('stocks', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('TSX', 'NNP'), ('included', 'VBD'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('up', 'RB'), ('1.47', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('to', 'TO'), ('$', '$'), ('75.12', 'CD'), (',', ','), ('and', 'CC'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('which', 'WDT'), ('rose', 'VBD'), ('1.58', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('to', 'TO'), ('$', '$'), ('124.94', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   of/IN   the/DT   stronger/JJR   stocks/NNS   on/IN   the/DT   (ORGANIZATION TSX/NNP)   included/VBD   Research/NNP   in/IN   (GPE Motion/NNP)   Ltd./NNP   ,/,   which/WDT   was/VBD   up/RB   1.47/CD   per/IN   cent/NN   to/TO   $/$   75.12/CD   ,/,   and/CC   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   ,/,   which/WDT   rose/VBD   1.58/CD   per/IN   cent/NN   to/TO   $/$   124.94/CD   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 1.47/CD)
+
+tagged sentence:
+	 up 1.47	res:+1
+verb phrases to consider:
+	(VERB included/VBD Research/NNP in/IN Motion/NNP Ltd./NNP)
+	(VERB was/VBD)
+	(VERB rose/VBD 1.58/CD per/IN cent/NN)
+noun phrases to consider:
+	(NOUN the/DT stronger/JJR stocks/NNS)
+	(NOUN TSX/NNP)
+	(NOUN cent/NN)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+PotashCorp.
+
+POS tagged sentence: 
+[('PotashCorp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION PotashCorp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN PotashCorp/NNP)
+
+----------------------------------
+original sentence: 
+saw gains after Moscow based brokerage Metropol rated Russian potash producers OAO Uralkali and OAO Silvinit both &quot;buy&quot; stocks.
+
+POS tagged sentence: 
+[('saw', 'VBD'), ('gains', 'NNS'), ('after', 'IN'), ('Moscow', 'NNP'), ('based', 'VBN'), ('brokerage', 'NN'), ('Metropol', 'NNP'), ('rated', 'VBD'), ('Russian', 'NNP'), ('potash', 'NN'), ('producers', 'NNS'), ('OAO', 'NNP'), ('Uralkali', 'NNP'), ('and', 'CC'), ('OAO', 'NNP'), ('Silvinit', 'NNP'), ('both', 'DT'), ('&quot', 'JJ'), (';', ':'), ('buy&quot', 'JJ'), (';', ':'), ('stocks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   saw/VBD   gains/NNS   after/IN   (GPE Moscow/NNP)   based/VBN   brokerage/NN   (PERSON Metropol/NNP)   rated/VBD   (GPE Russian/NNP)   potash/NN   producers/NNS   (ORGANIZATION OAO/NNP Uralkali/NNP)   and/CC   (ORGANIZATION OAO/NNP Silvinit/NNP)   both/DT   &quot/JJ   ;/:   buy&quot/JJ   ;/:   stocks/NNS   ./.)
+----------------------------------
+original sentence: 
+TSX health care stocks were also up following Sunday's passage by the U.S. House of Representatives of President Barack Obama's health care reform legislation on Sunday.
+
+POS tagged sentence: 
+[('TSX', 'NNP'), ('health', 'NN'), ('care', 'NN'), ('stocks', 'NNS'), ('were', 'VBD'), ('also', 'RB'), ('up', 'IN'), ('following', 'VBG'), ('Sunday', 'NNP'), ("'s", 'POS'), ('passage', 'NN'), ('by', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('House', 'NNP'), ('of', 'IN'), ('Representatives', 'NNPS'), ('of', 'IN'), ('President', 'NNP'), ('Barack', 'NNP'), ('Obama', 'NNP'), ("'s", 'POS'), ('health', 'NN'), ('care', 'NN'), ('reform', 'NN'), ('legislation', 'NN'), ('on', 'IN'), ('Sunday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION TSX/NNP)   health/NN   care/NN   stocks/NNS   were/VBD   also/RB   up/IN   following/VBG   Sunday/NNP   's/POS   passage/NN   by/IN   the/DT   (GPE U.S./NNP)   (ORGANIZATION House/NNP)   of/IN   (ORGANIZATION Representatives/NNPS)   of/IN   President/NNP   (PERSON Barack/NNP Obama/NNP)   's/POS   health/NN   care/NN   reform/NN   legislation/NN   on/IN   Sunday/NNP   ./.)
+----------------------------------
+original sentence: 
+Drug maker Biovail Corp. saw a gain of 0.99 per cent to close at $16.27 after founder Eugene Melnyk, who has battled the current regime in recent years, said he has divested most of his holdings in the company.
+
+POS tagged sentence: 
+[('Drug', 'NN'), ('maker', 'NN'), ('Biovail', 'NNP'), ('Corp.', 'NNP'), ('saw', 'VBD'), ('a', 'DT'), ('gain', 'NN'), ('of', 'IN'), ('0.99', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('to', 'TO'), ('close', 'VB'), ('at', 'IN'), ('$', '$'), ('16.27', 'CD'), ('after', 'IN'), ('founder', 'NN'), ('Eugene', 'NNP'), ('Melnyk', 'NNP'), (',', ','), ('who', 'WP'), ('has', 'VBZ'), ('battled', 'VBN'), ('the', 'DT'), ('current', 'JJ'), ('regime', 'NN'), ('in', 'IN'), ('recent', 'JJ'), ('years', 'NNS'), (',', ','), ('said', 'VBD'), ('he', 'PRP'), ('has', 'VBZ'), ('divested', 'VBN'), ('most', 'RBS'), ('of', 'IN'), ('his', 'PRP$'), ('holdings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Drug/NN)   maker/NN   (PERSON Biovail/NNP)   Corp./NNP   saw/VBD   a/DT   gain/NN   of/IN   0.99/CD   per/IN   cent/NN   to/TO   close/VB   at/IN   $/$   16.27/CD   after/IN   founder/NN   (PERSON Eugene/NNP Melnyk/NNP)   ,/,   who/WP   has/VBZ   battled/VBN   the/DT   current/JJ   regime/NN   in/IN   recent/JJ   years/NNS   ,/,   said/VBD   he/PRP   has/VBZ   divested/VBN   most/RBS   of/IN   his/PRP$   holdings/NNS   in/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+The health sector was also key in boosting U.S. markets on Monday.
+
+POS tagged sentence: 
+[('The', 'DT'), ('health', 'NN'), ('sector', 'NN'), ('was', 'VBD'), ('also', 'RB'), ('key', 'JJ'), ('in', 'IN'), ('boosting', 'NN'), ('U.S.', 'NNP'), ('markets', 'NNS'), ('on', 'IN'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   health/NN   sector/NN   was/VBD   also/RB   key/JJ   in/IN   boosting/NN   (GPE U.S./NNP)   markets/NNS   on/IN   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+The Dow Jones industrial average was up 43.91 points, or 0.41 per cent, to 10,785.89.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('industrial', 'JJ'), ('average', 'NN'), ('was', 'VBD'), ('up', 'RB'), ('43.91', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.41', 'CD'), ('per', 'IN'), ('cent', 'NN'), (',', ','), ('to', 'TO'), ('10,785.89', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP Jones/NNP)   industrial/JJ   average/NN   was/VBD   up/RB   43.91/CD   points/NNS   ,/,   or/CC   0.41/CD   per/IN   cent/NN   ,/,   to/TO   10,785.89/CD   ./.)
+----------------------------------
+original sentence: 
+The Nasdaq composite index gained 20.99 points, or 0.88 per cent, to 2,395.40.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Nasdaq', 'NNP'), ('composite', 'JJ'), ('index', 'NN'), ('gained', 'VBD'), ('20.99', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.88', 'CD'), ('per', 'IN'), ('cent', 'NN'), (',', ','), ('to', 'TO'), ('2,395.40', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Nasdaq/NNP)   composite/JJ   index/NN   gained/VBD   20.99/CD   points/NNS   ,/,   or/CC   0.88/CD   per/IN   cent/NN   ,/,   to/TO   2,395.40/CD   ./.)
+----------------------------------
+original sentence: 
+&quot;People perceive there's going to be a whole lot more public money coming into health care, so that could be good for a number of different companies that provide either equipment or services or whatever,&quot; said Michael Sprung, president of Sprung and Co. Investment Counsel Inc. in Toronto.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('People', 'NNP'), ('perceive', 'JJ'), ('there', 'EX'), ("'s", 'VBZ'), ('going', 'VBG'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('whole', 'JJ'), ('lot', 'NN'), ('more', 'RBR'), ('public', 'JJ'), ('money', 'NN'), ('coming', 'VBG'), ('into', 'IN'), ('health', 'NN'), ('care', 'NN'), (',', ','), ('so', 'RB'), ('that', 'IN'), ('could', 'MD'), ('be', 'VB'), ('good', 'JJ'), ('for', 'IN'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('different', 'JJ'), ('companies', 'NNS'), ('that', 'WDT'), ('provide', 'VB'), ('either', 'DT'), ('equipment', 'NN'), ('or', 'CC'), ('services', 'NNS'), ('or', 'CC'), ('whatever,&quot', 'JJ'), (';', ':'), ('said', 'VBD'), ('Michael', 'NNP'), ('Sprung', 'NNP'), (',', ','), ('president', 'NN'), ('of', 'IN'), ('Sprung', 'NNP'), ('and', 'CC'), ('Co.', 'NNP'), ('Investment', 'NNP'), ('Counsel', 'NNP'), ('Inc.', 'NNP'), ('in', 'IN'), ('Toronto', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   People/NNP   perceive/JJ   there/EX   's/VBZ   going/VBG   to/TO   be/VB   a/DT   whole/JJ   lot/NN   more/RBR   public/JJ   money/NN   coming/VBG   into/IN   health/NN   care/NN   ,/,   so/RB   that/IN   could/MD   be/VB   good/JJ   for/IN   a/DT   number/NN   of/IN   different/JJ   companies/NNS   that/WDT   provide/VB   either/DT   equipment/NN   or/CC   services/NNS   or/CC   whatever,&quot/JJ   ;/:   said/VBD   (PERSON Michael/NNP Sprung/NNP)   ,/,   president/NN   of/IN   (GPE Sprung/NNP)   and/CC   Co./NNP   Investment/NNP   Counsel/NNP   Inc./NNP   in/IN   (GPE Toronto/NNP)   ./.)
+----------------------------------
+original sentence: 
+On the overall tone of the markets on Monday, Sprung said: &quot;It's almost like investors were just stepping back Monday .
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('overall', 'JJ'), ('tone', 'NN'), ('of', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('on', 'IN'), ('Monday', 'NNP'), (',', ','), ('Sprung', 'NNP'), ('said', 'VBD'), (':', ':'), ('&quot', 'JJ'), (';', ':'), ('It', 'PRP'), ("'s", 'VBZ'), ('almost', 'RB'), ('like', 'IN'), ('investors', 'NNS'), ('were', 'VBD'), ('just', 'RB'), ('stepping', 'VBG'), ('back', 'RB'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   overall/JJ   tone/NN   of/IN   the/DT   markets/NNS   on/IN   Monday/NNP   ,/,   (PERSON Sprung/NNP)   said/VBD   :/:   &quot/JJ   ;/:   It/PRP   's/VBZ   almost/RB   like/IN   investors/NNS   were/VBD   just/RB   stepping/VBG   back/RB   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+There wasn't any real direction to the market.&quot;
+Colin Cieszynski, an analyst with CMC Markets Canada, said the way stocks and commodity prices improved toward day's end &quot;suggests that underlying bullish interest on anticipation of an improving global economy remains intact.&quot;
+However, he warned that some of the &quot;potential headwinds&quot; for markets in the coming week include U.S. Federal Reserve chairman Ben Bernanke's testimony before Congress and the United Kingdom's budget.
+
+POS tagged sentence: 
+[('There', 'EX'), ('was', 'VBD'), ("n't", 'RB'), ('any', 'DT'), ('real', 'JJ'), ('direction', 'NN'), ('to', 'TO'), ('the', 'DT'), ('market.&quot', 'JJ'), (';', ':'), ('Colin', 'NNP'), ('Cieszynski', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('with', 'IN'), ('CMC', 'NNP'), ('Markets', 'NNPS'), ('Canada', 'NNP'), (',', ','), ('said', 'VBD'), ('the', 'DT'), ('way', 'NN'), ('stocks', 'NNS'), ('and', 'CC'), ('commodity', 'NN'), ('prices', 'NNS'), ('improved', 'VBN'), ('toward', 'IN'), ('day', 'NN'), ("'s", 'POS'), ('end', 'NN'), ('&quot', 'NN'), (';', ':'), ('suggests', 'NNS'), ('that', 'WDT'), ('underlying', 'VBG'), ('bullish', 'JJ'), ('interest', 'NN'), ('on', 'IN'), ('anticipation', 'NN'), ('of', 'IN'), ('an', 'DT'), ('improving', 'VBG'), ('global', 'JJ'), ('economy', 'NN'), ('remains', 'VBZ'), ('intact.&quot', 'JJ'), (';', ':'), ('However', 'NNP'), (',', ','), ('he', 'PRP'), ('warned', 'VBD'), ('that', 'IN'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('&quot', 'JJ'), (';', ':'), ('potential', 'JJ'), ('headwinds&quot', 'NN'), (';', ':'), ('for', 'IN'), ('markets', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('coming', 'VBG'), ('week', 'NN'), ('include', 'NN'), ('U.S.', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('chairman', 'NN'), ('Ben', 'NNP'), ('Bernanke', 'NNP'), ("'s", 'POS'), ('testimony', 'NN'), ('before', 'IN'), ('Congress', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('United', 'NNP'), ('Kingdom', 'NNP'), ("'s", 'POS'), ('budget', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   was/VBD   n't/RB   any/DT   real/JJ   direction/NN   to/TO   the/DT   market.&quot/JJ   ;/:   (PERSON Colin/NNP Cieszynski/NNP)   ,/,   an/DT   analyst/NN   with/IN   (ORGANIZATION CMC/NNP Markets/NNPS Canada/NNP)   ,/,   said/VBD   the/DT   way/NN   stocks/NNS   and/CC   commodity/NN   prices/NNS   improved/VBN   toward/IN   day/NN   's/POS   end/NN   &quot/NN   ;/:   suggests/NNS   that/WDT   underlying/VBG   bullish/JJ   interest/NN   on/IN   anticipation/NN   of/IN   an/DT   improving/VBG   global/JJ   economy/NN   remains/VBZ   intact.&quot/JJ   ;/:   However/NNP   ,/,   he/PRP   warned/VBD   that/IN   some/DT   of/IN   the/DT   &quot/JJ   ;/:   potential/JJ   headwinds&quot/NN   ;/:   for/IN   markets/NNS   in/IN   the/DT   coming/VBG   week/NN   include/NN   (GPE U.S./NNP)   Federal/NNP   Reserve/NNP   chairman/NN   (PERSON Ben/NNP Bernanke/NNP)   's/POS   testimony/NN   before/IN   (ORGANIZATION Congress/NNP)   and/CC   the/DT   (ORGANIZATION United/NNP Kingdom/NNP)   's/POS   budget/NN   ./.)
+----------------------------------
+original sentence: 
+European markets were relatively flat Monday.
+
+POS tagged sentence: 
+[('European', 'JJ'), ('markets', 'NNS'), ('were', 'VBD'), ('relatively', 'RB'), ('flat', 'JJ'), ('Monday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE European/JJ)   markets/NNS   were/VBD   relatively/RB   flat/JJ   Monday/NNP   ./.)
+----------------------------------
+original sentence: 
+Hong Kong's Hang Seng index took a hefty 2.05 per cent loss on the day, while markets in Japan were closed for a holiday.
+
+POS tagged sentence: 
+[('Hong', 'NNP'), ('Kong', 'NNP'), ("'s", 'POS'), ('Hang', 'NNP'), ('Seng', 'NNP'), ('index', 'NN'), ('took', 'VBD'), ('a', 'DT'), ('hefty', 'JJ'), ('2.05', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('loss', 'NN'), ('on', 'IN'), ('the', 'DT'), ('day', 'NN'), (',', ','), ('while', 'IN'), ('markets', 'NNS'), ('in', 'IN'), ('Japan', 'NNP'), ('were', 'VBD'), ('closed', 'VBN'), ('for', 'IN'), ('a', 'DT'), ('holiday', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Hong/NNP Kong/NNP)   's/POS   (PERSON Hang/NNP Seng/NNP)   index/NN   took/VBD   a/DT   hefty/JJ   2.05/CD   per/IN   cent/NN   loss/NN   on/IN   the/DT   day/NN   ,/,   while/IN   markets/NNS   in/IN   (GPE Japan/NNP)   were/VBD   closed/VBN   for/IN   a/DT   holiday/NN   ./.)
+----------------------------------
+original sentence: 
+Ã‚Â© Copyright c Canwest News Service
+Related Stories from Around the Web
+Some of the stronger stocks on the TSX's main index Monday included Research in Motion Ltd. and Potash Corp of Saskatchewan Inc.
+Vancouver Sun graphics, .
+
+POS tagged sentence: 
+[('\xc3', 'NN'), ('\x82', '``'), ('\xc2', ':'), ('\xa9', ':'), ('Copyright', 'NNP'), ('c', 'NN'), ('Canwest', 'NNP'), ('News', 'NNP'), ('Service', 'NNP'), ('Related', 'NNP'), ('Stories', 'NNP'), ('from', 'IN'), ('Around', 'NNP'), ('the', 'DT'), ('Web', 'NNP'), ('Some', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('stronger', 'JJR'), ('stocks', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('TSX', 'NNP'), ("'s", 'POS'), ('main', 'JJ'), ('index', 'NN'), ('Monday', 'NNP'), ('included', 'VBD'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('Ltd.', 'NNP'), ('and', 'CC'), ('Potash', 'NNP'), ('Corp', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('Vancouver', 'NNP'), ('Sun', 'NNP'), ('graphics', 'NNS'), (',', ','), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Ã/NN   ‚/``   Â/:   ©/:   Copyright/NNP   c/NN   (PERSON Canwest/NNP News/NNP Service/NNP Related/NNP Stories/NNP)   from/IN   (GPE Around/NNP)   the/DT   Web/NNP   Some/NNP   of/IN   the/DT   stronger/JJR   stocks/NNS   on/IN   the/DT   (ORGANIZATION TSX/NNP)   's/POS   main/JJ   index/NN   Monday/NNP   included/VBD   Research/NNP   in/IN   (GPE Motion/NNP)   Ltd./NNP   and/CC   (PERSON Potash/NNP Corp/NNP)   of/IN   (GPE Saskatchewan/NNP)   Inc/NNP   ./.   (PERSON Vancouver/NNP Sun/NNP)   graphics/NNS   ,/,   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB included/VBD Research/NNP in/IN Motion/NNP Ltd./NNP)
+noun phrases to consider:
+	(NOUN Ã/NN)
+	(NOUN Copyright/NNP c/NN Canwest/NNP News/NNP)
+	(NOUN Service/NNP Related/NNP Stories/NNP)
+	(NOUN Around/NNP)
+	(NOUN Web/NNP Some/NNP)
+	(NOUN the/DT stronger/JJR stocks/NNS)
+	(NOUN TSX/NNP)
+	(NOUN main/JJ index/NN Monday/NNP)
+	(NOUN Potash/NNP Corp/NNP)
+	(NOUN Saskatchewan/NNP Inc/NNP)
+	(NOUN Vancouver/NNP Sun/NNP graphics/NNS)
+
+----------------------------------
+original sentence: 
+Photo Galleries &#187;
+More Photo Galleries
+Photos: Iron Man 2 stars gather...
+Iron Man 2 stars Mickey Rourke, Scarlett Johansson...
+Photos: Joannie Rochette joins...
+
+POS tagged sentence: 
+[('Photo', 'NNP'), ('Galleries', 'NNPS'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Photo', 'NNP'), ('Galleries', 'NNPS'), ('Photos', 'NNP'), (':', ':'), ('Iron', 'NNP'), ('Man', 'NNP'), ('2', 'CD'), ('stars', 'NNS'), ('gather..', 'NNP'), ('.', '.'), ('Iron', 'NNP'), ('Man', 'NNP'), ('2', 'CD'), ('stars', 'NNS'), ('Mickey', 'NNP'), ('Rourke', 'NNP'), (',', ','), ('Scarlett', 'NNP'), ('Johansson..', 'NNP'), ('.', '.'), ('Photos', 'NNP'), (':', ':'), ('Joannie', 'NNP'), ('Rochette', 'NNP'), ('joins..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Photo/NNP)   (ORGANIZATION Galleries/NNPS)   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP Photo/NNP)   Galleries/NNPS   Photos/NNP   :/:   (PERSON Iron/NNP Man/NNP)   2/CD   stars/NNS   gather../NNP   ./.   (PERSON Iron/NNP Man/NNP)   2/CD   stars/NNS   (PERSON Mickey/NNP Rourke/NNP)   ,/,   (PERSON Scarlett/NNP Johansson../NNP)   ./.   (PERSON Photos/NNP)   :/:   (PERSON Joannie/NNP Rochette/NNP)   joins../NNP   ./.)
+----------------------------------
+original sentence: 
+Under sunny skies and with sidewalks jammed, the cream...
+Photos: Tears flow as Lorena Ochoa...
+Mexico's Lorena Ochoa leaves a news conference in ...
+More Photo Galleries &#187;
+Most Popular Business
+Breaking News Alerts
+Sign up to receive e mail alerts on breaking news from The Vancouver Sun.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('sunny', 'JJ'), ('skies', 'NNS'), ('and', 'CC'), ('with', 'IN'), ('sidewalks', 'NNS'), ('jammed', 'VBN'), (',', ','), ('the', 'DT'), ('cream..', 'NNP'), ('.', '.'), ('Photos', 'NNP'), (':', ':'), ('Tears', 'NNS'), ('flow', 'VBP'), ('as', 'RB'), ('Lorena', 'NNP'), ('Ochoa..', 'NNP'), ('.', '.'), ('Mexico', 'NNP'), ("'s", 'POS'), ('Lorena', 'NNP'), ('Ochoa', 'NNP'), ('leaves', 'VBZ'), ('a', 'DT'), ('news', 'NN'), ('conference', 'NN'), ('in', 'IN'), ('..', 'NNP'), ('.', '.'), ('More', 'JJR'), ('Photo', 'NNP'), ('Galleries', 'NNPS'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('Most', 'NNP'), ('Popular', 'NNP'), ('Business', 'NNP'), ('Breaking', 'NNP'), ('News', 'NNP'), ('Alerts', 'NNP'), ('Sign', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('receive', 'VB'), ('e', 'NN'), ('mail', 'NN'), ('alerts', 'NNS'), ('on', 'IN'), ('breaking', 'VBG'), ('news', 'NN'), ('from', 'IN'), ('The', 'DT'), ('Vancouver', 'NNP'), ('Sun', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   sunny/JJ   skies/NNS   and/CC   with/IN   sidewalks/NNS   jammed/VBN   ,/,   the/DT   cream../NNP   ./.   (PERSON Photos/NNP)   :/:   Tears/NNS   flow/VBP   as/RB   (PERSON Lorena/NNP Ochoa../NNP)   ./.   (PERSON Mexico/NNP)   's/POS   (PERSON Lorena/NNP Ochoa/NNP)   leaves/VBZ   a/DT   news/NN   conference/NN   in/IN   ../NNP   ./.   More/JJR   (ORGANIZATION Photo/NNP Galleries/NNPS)   &/CC   #/#   187/CD   ;/:   Most/NNP   Popular/NNP   Business/NNP   Breaking/NNP   News/NNP   (PERSON Alerts/NNP Sign/NNP)   up/IN   to/TO   receive/VB   e/NN   mail/NN   alerts/NNS   on/IN   breaking/VBG   news/NN   from/IN   The/DT   (ORGANIZATION Vancouver/NNP Sun/NNP)   ./.)
+----------------------------------
+original sentence: 
+more business headlines &#187;
+Retail sales softer than expected
+Retail sales rose by a less than expected 0.5% to $36 billion in February, led by higher vehicle sales, Statistics Canada reported Friday
+ Comments TSX on verge of full week of gains
+Global bank tax debate a 'distraction,' Carney warns
+Praise can be dangerous, financial watchdog warns
+
+
+POS tagged sentence: 
+[('more', 'JJR'), ('business', 'NN'), ('headlines', 'NNS'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('Retail', 'NNP'), ('sales', 'NNS'), ('softer', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('Retail', 'NNP'), ('sales', 'NNS'), ('rose', 'VBD'), ('by', 'IN'), ('a', 'DT'), ('less', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('0.5', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('36', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('February', 'NNP'), (',', ','), ('led', 'VBD'), ('by', 'IN'), ('higher', 'JJR'), ('vehicle', 'NN'), ('sales', 'NNS'), (',', ','), ('Statistics', 'NNP'), ('Canada', 'NNP'), ('reported', 'VBD'), ('Friday', 'NNP'), ('Comments', 'NNP'), ('TSX', 'NNP'), ('on', 'IN'), ('verge', 'NN'), ('of', 'IN'), ('full', 'JJ'), ('week', 'NN'), ('of', 'IN'), ('gains', 'NNS'), ('Global', 'NNP'), ('bank', 'NN'), ('tax', 'NN'), ('debate', 'NN'), ('a', 'DT'), ("'distraction,", 'NN'), ("'", "''"), ('Carney', 'NNP'), ('warns', 'VBZ'), ('Praise', 'NNP'), ('can', 'MD'), ('be', 'VB'), ('dangerous', 'JJ'), (',', ','), ('financial', 'JJ'), ('watchdog', 'NN'), ('warns', 'NNS')]
+
+
+ERTAGGED sentence: (S   more/JJR   business/NN   headlines/NNS   &/CC   #/#   187/CD   ;/:   (GPE Retail/NNP)   sales/NNS   softer/JJR   than/IN   expected/VBN   (GPE Retail/NNP)   sales/NNS   rose/VBD   by/IN   a/DT   less/JJR   than/IN   expected/VBN   0.5/CD   %/NN   to/TO   $/$   36/CD   billion/CD   in/IN   February/NNP   ,/,   led/VBD   by/IN   higher/JJR   vehicle/NN   sales/NNS   ,/,   (PERSON Statistics/NNP Canada/NNP)   reported/VBD   Friday/NNP   Comments/NNP   TSX/NNP   on/IN   verge/NN   of/IN   full/JJ   week/NN   of/IN   gains/NNS   (PERSON Global/NNP)   bank/NN   tax/NN   debate/NN   a/DT   'distraction,/NN   '/''   (PERSON Carney/NNP)   warns/VBZ   (PERSON Praise/NNP)   can/MD   be/VB   dangerous/JJ   ,/,   financial/JJ   watchdog/NN   warns/NNS)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:1

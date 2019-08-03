@@ -1,0 +1,369 @@
+
+----------------------------------
+original sentence: 
+Top 10 Dow Jones 30 Stocks with Highest Upside: PFE, AA, BAC, MRK, MSFT, JPM, XOM, INTC, HPQ, IBM Apr 03, 2010 China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Upside', 'NNP'), (':', ':'), ('PFE', 'NNP'), (',', ','), ('AA', 'NNP'), (',', ','), ('BAC', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('MSFT', 'NNP'), (',', ','), ('JPM', 'NNP'), (',', ','), ('XOM', 'NNP'), (',', ','), ('INTC', 'NNP'), (',', ','), ('HPQ', 'NNP'), (',', ','), ('IBM', 'NNP'), ('Apr', 'NNP'), ('03', 'CD'), (',', ','), ('2010', 'CD'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Upside/NNP)   :/:   PFE/NNP   ,/,   (ORGANIZATION AA/NNP)   ,/,   (ORGANIZATION BAC/NNP)   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION MSFT/NNP)   ,/,   (ORGANIZATION JPM/NNP)   ,/,   (ORGANIZATION XOM/NNP)   ,/,   (ORGANIZATION INTC/NNP)   ,/,   (ORGANIZATION HPQ/NNP)   ,/,   (ORGANIZATION IBM/NNP)   Apr/NNP   03/CD   ,/,   2010/CD   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Upside/NNP)
+	(NOUN PFE/NNP)
+	(NOUN AA/NNP)
+	(NOUN BAC/NNP)
+	(NOUN MRK/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN JPM/NNP)
+	(NOUN XOM/NNP)
+	(NOUN INTC/NNP)
+	(NOUN HPQ/NNP)
+	(NOUN IBM/NNP Apr/NNP)
+	(NOUN 2010/CD China/NNP Analyst/NNP News/NNP)
+	(NOUN Research/NNP)
+	(NOUN U.S/NNP)
+
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+China Analyst News and Research on U.S.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('China', 'NNP'), ('Analyst', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('on', 'IN'), ('U.S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   (GPE China/NNP)   Analyst/NNP   News/NNP   and/CC   Research/NNP   on/IN   U.S/NNP   ./.)
+----------------------------------
+original sentence: 
+Listed Chinese Stocks
+Year to Date Performance
+Institutional Ownership
+Saturday, April 03, 2010
+Top 10 Dow Jones 30 Stocks with Highest Upside: PFE, AA, BAC, MRK, MSFT, JPM, XOM, INTC, HPQ, IBM Apr 03, 2010 Below are the top 10 Dow 30 DJIA stocks with highest upside potential, based on the difference between current price and Wall Street analysts&#39; average target price.
+
+POS tagged sentence: 
+[('Listed', 'VBN'), ('Chinese', 'JJ'), ('Stocks', 'NNS'), ('Year', 'NNP'), ('to', 'TO'), ('Date', 'NNP'), ('Performance', 'NNP'), ('Institutional', 'NNP'), ('Ownership', 'NNP'), ('Saturday', 'NNP'), (',', ','), ('April', 'NNP'), ('03', 'CD'), (',', ','), ('2010', 'CD'), ('Top', 'NNP'), ('10', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('30', 'CD'), ('Stocks', 'NNS'), ('with', 'IN'), ('Highest', 'NNP'), ('Upside', 'NNP'), (':', ':'), ('PFE', 'NNP'), (',', ','), ('AA', 'NNP'), (',', ','), ('BAC', 'NNP'), (',', ','), ('MRK', 'NNP'), (',', ','), ('MSFT', 'NNP'), (',', ','), ('JPM', 'NNP'), (',', ','), ('XOM', 'NNP'), (',', ','), ('INTC', 'NNP'), (',', ','), ('HPQ', 'NNP'), (',', ','), ('IBM', 'NNP'), ('Apr', 'NNP'), ('03', 'CD'), (',', ','), ('2010', 'CD'), ('Below', 'NNP'), ('are', 'VBP'), ('the', 'DT'), ('top', 'JJ'), ('10', 'CD'), ('Dow', 'NNP'), ('30', 'CD'), ('DJIA', 'NNP'), ('stocks', 'NNS'), ('with', 'IN'), ('highest', 'JJS'), ('upside', 'JJ'), ('potential', 'NN'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('difference', 'NN'), ('between', 'IN'), ('current', 'JJ'), ('price', 'NN'), ('and', 'CC'), ('Wall', 'NNP'), ('Street', 'NNP'), ('analysts&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('average', 'JJ'), ('target', 'NN'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Listed/VBN   (GPE Chinese/JJ)   Stocks/NNS   Year/NNP   to/TO   (ORGANIZATION Date/NNP Performance/NNP)   Institutional/NNP   Ownership/NNP   Saturday/NNP   ,/,   April/NNP   03/CD   ,/,   2010/CD   Top/NNP   10/CD   Dow/NNP   Jones/NNP   30/CD   Stocks/NNS   with/IN   (PERSON Highest/NNP Upside/NNP)   :/:   PFE/NNP   ,/,   (ORGANIZATION AA/NNP)   ,/,   (ORGANIZATION BAC/NNP)   ,/,   (ORGANIZATION MRK/NNP)   ,/,   (ORGANIZATION MSFT/NNP)   ,/,   (ORGANIZATION JPM/NNP)   ,/,   (ORGANIZATION XOM/NNP)   ,/,   (ORGANIZATION INTC/NNP)   ,/,   (ORGANIZATION HPQ/NNP)   ,/,   (ORGANIZATION IBM/NNP)   Apr/NNP   03/CD   ,/,   2010/CD   Below/NNP   are/VBP   the/DT   top/JJ   10/CD   Dow/NNP   30/CD   (ORGANIZATION DJIA/NNP)   stocks/NNS   with/IN   highest/JJS   upside/JJ   potential/NN   ,/,   based/VBN   on/IN   the/DT   difference/NN   between/IN   current/JJ   price/NN   and/CC   (ORGANIZATION Wall/NNP Street/NNP)   analysts&/NNP   #/#   39/CD   ;/:   average/JJ   target/NN   price/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Listed/VBN Chinese/JJ Stocks/NNS Year/NNP)
+	(VERB   are/VBP   the/DT   top/JJ   10/CD   Dow/NNP   30/CD   DJIA/NNP   stocks/NNS   with/IN   highest/JJS   upside/JJ   potential/NN)
+	(VERB   based/VBN   on/IN   the/DT   difference/NN   between/IN   current/JJ   price/NN)
+noun phrases to consider:
+	(NOUN Date/NNP Performance/NNP Institutional/NNP Ownership/NNP)
+	(NOUN Saturday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Top/NNP)
+	(NOUN 10/CD Dow/NNP Jones/NNP)
+	(NOUN 30/CD Stocks/NNS)
+	(NOUN Highest/NNP Upside/NNP)
+	(NOUN PFE/NNP)
+	(NOUN AA/NNP)
+	(NOUN BAC/NNP)
+	(NOUN MRK/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN JPM/NNP)
+	(NOUN XOM/NNP)
+	(NOUN INTC/NNP)
+	(NOUN HPQ/NNP)
+	(NOUN IBM/NNP Apr/NNP)
+	(NOUN 2010/CD Below/NNP)
+	(NOUN Wall/NNP Street/NNP analysts&/NNP)
+	(NOUN average/JJ target/NN price/NN)
+
+----------------------------------
+original sentence: 
+Pfizer Inc. NYSE:PFE  has the 1st highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Pfizer', 'NNP'), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('PFE', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('1st', 'CD'), ('highest', 'JJS'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Pfizer/NNP)   (ORGANIZATION Inc./NNP)   NYSE/NNP   :/:   (ORGANIZATION PFE/NNP)   has/VBZ   the/DT   1st/CD   highest/JJS   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 27.3%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('27.3', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 27.3/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $21.75 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('21.75', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   21.75/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Alcoa Inc. NYSE:AA  has the 2nd highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('2nd', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Inc./NNP)   NYSE/NNP   :/:   AA/NNP   has/VBZ   the/DT   2nd/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 22.0%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('22.0', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 22.0/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $17.93 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('17.93', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   17.93/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Bank of America Corporation NYSE:BAC  has the 3rd highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('3rd', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION BAC/NNP)   has/VBZ   the/DT   3rd/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 19.2%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('19.2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 19.2/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $21.50 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('21.50', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   21.50/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc. NYSE:MRK  has the 4th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('4th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   (ORGANIZATION MRK/NNP)   has/VBZ   the/DT   4th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   the/DT   4th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+
+----------------------------------
+original sentence: 
+Its upside is 18.9%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('18.9', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 18.9/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $44.82 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('44.82', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   44.82/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Microsoft Corporation NASDAQ:MSFT  has the 5th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Microsoft', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('5th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Microsoft/NNP)   (ORGANIZATION Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION MSFT/NNP)   has/VBZ   the/DT   5th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 17.1%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('17.1', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 17.1/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $34.15 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('34.15', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   34.15/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+JPMorgan Chase & Co. NYSE:JPM  has the 6th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('6th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   &/CC   Co./NNP   NYSE/NNP   :/:   (ORGANIZATION JPM/NNP)   has/VBZ   the/DT   6th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 17.0%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('17.0', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 17.0/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $52.84 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('52.84', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   52.84/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Exxon Mobil Corporation NYSE:XOM  has the 7th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Exxon', 'NNP'), ('Mobil', 'NNP'), ('Corporation', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('XOM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('7th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Exxon/NNP)   (PERSON Mobil/NNP Corporation/NNP)   NYSE/NNP   :/:   (ORGANIZATION XOM/NNP)   has/VBZ   the/DT   7th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 14.9%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('14.9', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 14.9/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $77.71 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('77.71', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   77.71/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Intel Corporation NASDAQ:INTC  has the 8th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('8th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION INTC/NNP)   has/VBZ   the/DT   8th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 14.9%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('14.9', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 14.9/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $25.73 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('25.73', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   25.73/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Hewlett Packard Company NYSE:HPQ  has the 9th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('Hewlett', 'NNP'), ('Packard', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('HPQ', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('9th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Hewlett/NNP)   (PERSON Packard/NNP Company/NNP)   NYSE/NNP   :/:   (ORGANIZATION HPQ/NNP)   has/VBZ   the/DT   9th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 13.2%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('13.2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 13.2/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $60.25 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('60.25', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   60.25/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+International Business Machines Corp. NYSE:IBM  has the 10th highest upside potential in this segment of the market.
+
+POS tagged sentence: 
+[('International', 'NNP'), ('Business', 'NNP'), ('Machines', 'NNPS'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('IBM', 'NNP'), ('has', 'VBZ'), ('the', 'DT'), ('10th', 'JJ'), ('highest', 'NN'), ('upside', 'NN'), ('potential', 'NN'), ('in', 'IN'), ('this', 'DT'), ('segment', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION International/NNP)   (ORGANIZATION Business/NNP Machines/NNPS Corp./NNP)   NYSE/NNP   :/:   (ORGANIZATION IBM/NNP)   has/VBZ   the/DT   10th/JJ   highest/NN   upside/NN   potential/NN   in/IN   this/DT   segment/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Its upside is 13.0%.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('upside', 'NN'), ('is', 'VBZ'), ('13.0', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Its/PRP$ upside/NN is/VBZ 13.0/CD %/NN ./.)
+----------------------------------
+original sentence: 
+Its consensus target price is $144.97 based on the average of all estimates.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('consensus', 'NN'), ('target', 'NN'), ('price', 'NN'), ('is', 'VBZ'), ('$', '$'), ('144.97', 'CD'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('average', 'NN'), ('of', 'IN'), ('all', 'DT'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   consensus/NN   target/NN   price/NN   is/VBZ   $/$   144.97/CD   based/VBN   on/IN   the/DT   average/NN   of/IN   all/DT   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+SUBSCRIBE TO OUR FREE DAILY EMAIL UPDATES
+
+
+POS tagged sentence: 
+[('SUBSCRIBE', 'NN'), ('TO', 'TO'), ('OUR', 'NNP'), ('FREE', 'NNP'), ('DAILY', 'NNP'), ('EMAIL', 'NNP'), ('UPDATES', 'NNP')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SUBSCRIBE/NN)   TO/TO   (ORGANIZATION OUR/NNP)   FREE/NNP   DAILY/NNP   EMAIL/NNP   UPDATES/NNP)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,413 @@
+
+----------------------------------
+original sentence: 
+A Microcap Tech Stock Yielding 7% | StreetAuthority.com
+Hi, Guest
+Government Driven Inv.
+
+POS tagged sentence: 
+[('A', 'DT'), ('Microcap', 'NNP'), ('Tech', 'NNP'), ('Stock', 'NNP'), ('Yielding', 'NNP'), ('7', 'CD'), ('%', 'NN'), ('|', ':'), ('StreetAuthority.com', 'JJ'), ('Hi', 'NNP'), (',', ','), ('Guest', 'NNP'), ('Government', 'NNP'), ('Driven', 'NNP'), ('Inv', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   (ORGANIZATION Microcap/NNP Tech/NNP Stock/NNP)   Yielding/NNP   7/CD   %/NN   |/:   StreetAuthority.com/JJ   Hi/NNP   ,/,   (PERSON Guest/NNP)   Government/NNP   Driven/NNP   Inv/NNP   ./.)
+----------------------------------
+original sentence: 
+Double Digit Trading
+High Yield Investing
+Dividend Opportunities
+High Yield International
+Mastering the Markets
+A Microcap Tech Stock Yielding 7%
+Tech stocks are notoriously stingy dividend payers.
+
+POS tagged sentence: 
+[('Double', 'JJ'), ('Digit', 'NN'), ('Trading', 'NN'), ('High', 'NNP'), ('Yield', 'NNP'), ('Investing', 'NNP'), ('Dividend', 'NNP'), ('Opportunities', 'NNPS'), ('High', 'NNP'), ('Yield', 'NNP'), ('International', 'NNP'), ('Mastering', 'NNP'), ('the', 'DT'), ('Markets', 'NNPS'), ('A', 'DT'), ('Microcap', 'NNP'), ('Tech', 'NNP'), ('Stock', 'NNP'), ('Yielding', 'NNP'), ('7', 'CD'), ('%', 'NN'), ('Tech', 'NNP'), ('stocks', 'NNS'), ('are', 'VBP'), ('notoriously', 'RB'), ('stingy', 'JJ'), ('dividend', 'NN'), ('payers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Double/JJ)   (ORGANIZATION Digit/NN Trading/NN High/NNP Yield/NNP)   Investing/NNP   Dividend/NNP   Opportunities/NNPS   High/NNP   (PERSON Yield/NNP International/NNP)   Mastering/NNP   the/DT   Markets/NNPS   A/DT   (ORGANIZATION Microcap/NNP Tech/NNP Stock/NNP)   Yielding/NNP   7/CD   %/NN   Tech/NNP   stocks/NNS   are/VBP   notoriously/RB   stingy/JJ   dividend/NN   payers/NNS   ./.)
+----------------------------------
+original sentence: 
+Typically, these companies use earnings to fuel growth and to keep up with the competition, not to pay shareholders.
+
+POS tagged sentence: 
+[('Typically', 'RB'), (',', ','), ('these', 'DT'), ('companies', 'NNS'), ('use', 'VBP'), ('earnings', 'NNS'), ('to', 'TO'), ('fuel', 'VB'), ('growth', 'NN'), ('and', 'CC'), ('to', 'TO'), ('keep', 'VB'), ('up', 'RP'), ('with', 'IN'), ('the', 'DT'), ('competition', 'NN'), (',', ','), ('not', 'RB'), ('to', 'TO'), ('pay', 'VB'), ('shareholders', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Typically/RB   ,/,   these/DT   companies/NNS   use/VBP   earnings/NNS   to/TO   fuel/VB   growth/NN   and/CC   to/TO   keep/VB   up/RP   with/IN   the/DT   competition/NN   ,/,   not/RB   to/TO   pay/VB   shareholders/NNS   ./.)
+----------------------------------
+original sentence: 
+In fact, the tech rich Nasdaq Composite  yields just 0.8% less than half of what the S&P 500 yields.
+
+POS tagged sentence: 
+[('In', 'IN'), ('fact', 'NN'), (',', ','), ('the', 'DT'), ('tech', 'NN'), ('rich', 'NN'), ('Nasdaq', 'NNP'), ('Composite', 'NNP'), ('yields', 'VBZ'), ('just', 'RB'), ('0.8', 'CD'), ('%', 'NN'), ('less', 'RBR'), ('than', 'IN'), ('half', 'PDT'), ('of', 'IN'), ('what', 'WP'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('yields', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   fact/NN   ,/,   the/DT   tech/NN   rich/NN   (PERSON Nasdaq/NNP Composite/NNP)   yields/VBZ   just/RB   0.8/CD   %/NN   less/RBR   than/IN   half/PDT   of/IN   what/WP   the/DT   S&P/NNP   500/CD   yields/NNS   ./.)
+----------------------------------
+original sentence: 
+There is a small group of tech stocks that do pay nice dividends.
+
+POS tagged sentence: 
+[('There', 'EX'), ('is', 'VBZ'), ('a', 'DT'), ('small', 'JJ'), ('group', 'NN'), ('of', 'IN'), ('tech', 'NN'), ('stocks', 'NNS'), ('that', 'WDT'), ('do', 'VBP'), ('pay', 'VBP'), ('nice', 'JJ'), ('dividends', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   is/VBZ   a/DT   small/JJ   group/NN   of/IN   tech/NN   stocks/NNS   that/WDT   do/VBP   pay/VBP   nice/JJ   dividends/NNS   ./.)
+----------------------------------
+original sentence: 
+These companies aren&#39;t from some obscure corner of the tech world.
+
+POS tagged sentence: 
+[('These', 'DT'), ('companies', 'NNS'), ('aren&', '-NONE-'), ('#', '#'), ('39', 'CD'), (';', ':'), ('t', 'NN'), ('from', 'IN'), ('some', 'DT'), ('obscure', 'NN'), ('corner', 'NN'), ('of', 'IN'), ('the', 'DT'), ('tech', 'NN'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   companies/NNS   aren&/-NONE-   #/#   39/CD   ;/:   t/NN   from/IN   some/DT   obscure/NN   corner/NN   of/IN   the/DT   tech/NN   world/NN   ./.)
+----------------------------------
+original sentence: 
+In fact, they&#39;re software companies whose business models allow them to afford both growth and distributions to shareholders.
+
+POS tagged sentence: 
+[('In', 'IN'), ('fact', 'NN'), (',', ','), ('they&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('re', 'NN'), ('software', 'NN'), ('companies', 'NNS'), ('whose', 'WP$'), ('business', 'NN'), ('models', 'NNS'), ('allow', 'VBP'), ('them', 'PRP'), ('to', 'TO'), ('afford', 'VB'), ('both', 'DT'), ('growth', 'NN'), ('and', 'CC'), ('distributions', 'NNS'), ('to', 'TO'), ('shareholders', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   fact/NN   ,/,   they&/NNP   #/#   39/CD   ;/:   re/NN   software/NN   companies/NNS   whose/WP$   business/NN   models/NNS   allow/VBP   them/PRP   to/TO   afford/VB   both/DT   growth/NN   and/CC   distributions/NNS   to/TO   shareholders/NNS   ./.)
+----------------------------------
+original sentence: 
+In the case of this little company, moreover, shares haven&#39;t fully recovered from the beating they took in 2008, and its earnings are just beginning to.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('case', 'NN'), ('of', 'IN'), ('this', 'DT'), ('little', 'JJ'), ('company', 'NN'), (',', ','), ('moreover', 'RB'), (',', ','), ('shares', 'NNS'), ('haven&', '-NONE-'), ('#', '#'), ('39', 'CD'), (';', ':'), ('t', 'NN'), ('fully', 'RB'), ('recovered', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('beating', 'NN'), ('they', 'PRP'), ('took', 'VBD'), ('in', 'IN'), ('2008', 'CD'), (',', ','), ('and', 'CC'), ('its', 'PRP$'), ('earnings', 'NNS'), ('are', 'VBP'), ('just', 'RB'), ('beginning', 'VBG'), ('to', 'TO'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   case/NN   of/IN   this/DT   little/JJ   company/NN   ,/,   moreover/RB   ,/,   shares/NNS   haven&/-NONE-   #/#   39/CD   ;/:   t/NN   fully/RB   recovered/VBD   from/IN   the/DT   beating/NN   they/PRP   took/VBD   in/IN   2008/CD   ,/,   and/CC   its/PRP$   earnings/NNS   are/VBP   just/RB   beginning/VBG   to/TO   ./.)
+----------------------------------
+original sentence: 
+Despite the weaker results, the company hasn&#39;t lowered its dividend, and earnings still support it.
+
+POS tagged sentence: 
+[('Despite', 'IN'), ('the', 'DT'), ('weaker', 'NN'), ('results', 'NNS'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('hasn&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('t', 'NN'), ('lowered', 'VBD'), ('its', 'PRP$'), ('dividend', 'NN'), (',', ','), ('and', 'CC'), ('earnings', 'NNS'), ('still', 'RB'), ('support', 'NN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Despite/IN   the/DT   weaker/NN   results/NNS   ,/,   the/DT   company/NN   hasn&/NN   #/#   39/CD   ;/:   t/NN   lowered/VBD   its/PRP$   dividend/NN   ,/,   and/CC   earnings/NNS   still/RB   support/NN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+Wayside Technology Group Nasdaq: WSTG  distributes, sells and markets software from, for example, Intel Nasdaq: INTC  Quest Nasdaq: QSFT SolarWind&#39;s NYSE: SWI , to software development and information technology professionals.
+
+POS tagged sentence: 
+[('Wayside', 'NNP'), ('Technology', 'NNP'), ('Group', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('WSTG', 'NNP'), ('distributes', 'VBZ'), (',', ','), ('sells', 'NNS'), ('and', 'CC'), ('markets', 'NNS'), ('software', 'NN'), ('from', 'IN'), (',', ','), ('for', 'IN'), ('example', 'NN'), (',', ','), ('Intel', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('INTC', 'NNP'), ('Quest', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('QSFT', 'NNP'), ('SolarWind&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('NYSE', 'VBP'), (':', ':'), ('SWI', 'NNP'), (',', ','), ('to', 'TO'), ('software', 'VB'), ('development', 'NN'), ('and', 'CC'), ('information', 'NN'), ('technology', 'NN'), ('professionals', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wayside/NNP)   (ORGANIZATION Technology/NNP Group/NNP)   Nasdaq/NNP   :/:   (ORGANIZATION WSTG/NNP)   distributes/VBZ   ,/,   sells/NNS   and/CC   markets/NNS   software/NN   from/IN   ,/,   for/IN   example/NN   ,/,   (ORGANIZATION Intel/NNP)   Nasdaq/NNP   :/:   (ORGANIZATION INTC/NNP Quest/NNP)   Nasdaq/NNP   :/:   (ORGANIZATION QSFT/NNP)   SolarWind&/NNP   #/#   39/CD   ;/:   s/NNS   NYSE/VBP   :/:   SWI/NNP   ,/,   to/TO   software/VB   development/NN   and/CC   information/NN   technology/NN   professionals/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB distributes/VBZ)
+	(VERB NYSE/VBP)
+	(VERB software/VB development/NN)
+noun phrases to consider:
+	(NOUN Wayside/NNP Technology/NNP Group/NNP Nasdaq/NNP)
+	(NOUN WSTG/NNP)
+	(NOUN sells/NNS)
+	(NOUN markets/NNS software/NN)
+	(NOUN example/NN)
+	(NOUN Intel/NNP Nasdaq/NNP)
+	(NOUN INTC/NNP Quest/NNP Nasdaq/NNP)
+	(NOUN QSFT/NNP SolarWind&/NNP)
+	(NOUN s/NNS)
+	(NOUN SWI/NNP)
+	(NOUN information/NN technology/NN professionals/NNS)
+
+----------------------------------
+original sentence: 
+The $42 million New Jersey based company has been around since 1982 and has been listed on the Nasdaq since its 1995 initial public offering.
+
+POS tagged sentence: 
+[('The', 'DT'), ('$', '$'), ('42', 'CD'), ('million', 'CD'), ('New', 'NNP'), ('Jersey', 'NNP'), ('based', 'VBN'), ('company', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('around', 'IN'), ('since', 'IN'), ('1982', 'CD'), ('and', 'CC'), ('has', 'VBZ'), ('been', 'VBN'), ('listed', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('Nasdaq', 'NNP'), ('since', 'IN'), ('its', 'PRP$'), ('1995', 'CD'), ('initial', 'JJ'), ('public', 'JJ'), ('offering', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   $/$   42/CD   million/CD   (GPE New/NNP Jersey/NNP)   based/VBN   company/NN   has/VBZ   been/VBN   around/IN   since/IN   1982/CD   and/CC   has/VBZ   been/VBN   listed/VBN   on/IN   the/DT   (ORGANIZATION Nasdaq/NNP)   since/IN   its/PRP$   1995/CD   initial/JJ   public/JJ   offering/NN   ./.)
+----------------------------------
+original sentence: 
+Wayside pays quarterly distributions that have increased +50% since 2003.
+
+POS tagged sentence: 
+[('Wayside', 'NNP'), ('pays', 'VBZ'), ('quarterly', 'JJ'), ('distributions', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('increased', 'VBN'), ('+', '-NONE-'), ('50', 'CD'), ('%', 'NN'), ('since', 'IN'), ('2003', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Wayside/NNP)   pays/VBZ   quarterly/JJ   distributions/NNS   that/WDT   have/VBP   increased/VBN   +/-NONE-   50/CD   %/NN   since/IN   2003/CD   ./.)
+----------------------------------
+original sentence: 
+The current distribution is $0.15 and has been at that level since 2007, giving the company a forward and historical yield of 7.0%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('current', 'JJ'), ('distribution', 'NN'), ('is', 'VBZ'), ('$', '$'), ('0.15', 'CD'), ('and', 'CC'), ('has', 'VBZ'), ('been', 'VBN'), ('at', 'IN'), ('that', 'IN'), ('level', 'NN'), ('since', 'IN'), ('2007', 'CD'), (',', ','), ('giving', 'VBG'), ('the', 'DT'), ('company', 'NN'), ('a', 'DT'), ('forward', 'NN'), ('and', 'CC'), ('historical', 'JJ'), ('yield', 'NN'), ('of', 'IN'), ('7.0', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   current/JJ   distribution/NN   is/VBZ   $/$   0.15/CD   and/CC   has/VBZ   been/VBN   at/IN   that/IN   level/NN   since/IN   2007/CD   ,/,   giving/VBG   the/DT   company/NN   a/DT   forward/NN   and/CC   historical/JJ   yield/NN   of/IN   7.0/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+The company&#39;s 2009 earnings of $0.65 per share cover the dividend.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('2009', 'CD'), ('earnings', 'NNS'), ('of', 'IN'), ('$', '$'), ('0.65', 'CD'), ('per', 'IN'), ('share', 'NN'), ('cover', 'NN'), ('the', 'DT'), ('dividend', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company&/NN   #/#   39/CD   ;/:   s/NNS   2009/CD   earnings/NNS   of/IN   $/$   0.65/CD   per/IN   share/NN   cover/NN   the/DT   dividend/NN   ./.)
+----------------------------------
+original sentence: 
+In 2009, Wayside&#39;s  totaled $2.9 million, down 9.5% from 2008.
+
+POS tagged sentence: 
+[('In', 'IN'), ('2009', 'CD'), (',', ','), ('Wayside&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('totaled', 'VBD'), ('$', '$'), ('2.9', 'CD'), ('million', 'CD'), (',', ','), ('down', 'IN'), ('9.5', 'CD'), ('%', 'NN'), ('from', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   2009/CD   ,/,   Wayside&/NNP   #/#   39/CD   ;/:   s/NNS   totaled/VBD   $/$   2.9/CD   million/CD   ,/,   down/IN   9.5/CD   %/NN   from/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+This was due to a 15.9% drop in sales.
+
+POS tagged sentence: 
+[('This', 'DT'), ('was', 'VBD'), ('due', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('15.9', 'CD'), ('%', 'NN'), ('drop', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   was/VBD   due/JJ   to/TO   a/DT   15.9/CD   %/NN   drop/NN   in/IN   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Wayside says that the economic downturn was causing current and potential customers to delay or reduce technology purchases, which resulted in longer sales cycles and slower adoption of new technologies.
+
+POS tagged sentence: 
+[('Wayside', 'NNP'), ('says', 'VBZ'), ('that', 'IN'), ('the', 'DT'), ('economic', 'JJ'), ('downturn', 'NN'), ('was', 'VBD'), ('causing', 'VBG'), ('current', 'JJ'), ('and', 'CC'), ('potential', 'JJ'), ('customers', 'NNS'), ('to', 'TO'), ('delay', 'VB'), ('or', 'CC'), ('reduce', 'VB'), ('technology', 'NN'), ('purchases', 'NNS'), (',', ','), ('which', 'WDT'), ('resulted', 'VBN'), ('in', 'IN'), ('longer', 'JJR'), ('sales', 'NNS'), ('cycles', 'NNS'), ('and', 'CC'), ('slower', 'JJR'), ('adoption', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('technologies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Wayside/NNP)   says/VBZ   that/IN   the/DT   economic/JJ   downturn/NN   was/VBD   causing/VBG   current/JJ   and/CC   potential/JJ   customers/NNS   to/TO   delay/VB   or/CC   reduce/VB   technology/NN   purchases/NNS   ,/,   which/WDT   resulted/VBN   in/IN   longer/JJR   sales/NNS   cycles/NNS   and/CC   slower/JJR   adoption/NN   of/IN   new/JJ   technologies/NNS   ./.)
+----------------------------------
+original sentence: 
+But there&#39;s a silver lining.
+
+POS tagged sentence: 
+[('But', 'CC'), ('there&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('a', 'DT'), ('silver', 'NN'), ('lining', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   there&/JJ   #/#   39/CD   ;/:   s/NNS   a/DT   silver/NN   lining/VBG   ./.)
+----------------------------------
+original sentence: 
+Fourth quarter 2009 sales topped the same period in 2008, increasing +6%.
+
+POS tagged sentence: 
+[('Fourth', 'JJ'), ('quarter', 'NN'), ('2009', 'CD'), ('sales', 'NNS'), ('topped', 'VBD'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('in', 'IN'), ('2008', 'CD'), (',', ','), ('increasing', 'VBG'), ('+', ':'), ('6', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Fourth/JJ)   quarter/NN   2009/CD   sales/NNS   topped/VBD   the/DT   same/JJ   period/NN   in/IN   2008/CD   ,/,   increasing/VBG   +/:   6/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+This was the first time quarter over quarter sales rose in 2009.
+
+POS tagged sentence: 
+[('This', 'DT'), ('was', 'VBD'), ('the', 'DT'), ('first', 'JJ'), ('time', 'NN'), ('quarter', 'NN'), ('over', 'IN'), ('quarter', 'NN'), ('sales', 'NNS'), ('rose', 'VBD'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   was/VBD   the/DT   first/JJ   time/NN   quarter/NN   over/IN   quarter/NN   sales/NNS   rose/VBD   in/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+In addition to help from the economy, Wayside&#39;s management plans to grow the business by investing in information technology and marketing, and expanding its sales team and software offerings.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('help', 'VB'), ('from', 'IN'), ('the', 'DT'), ('economy', 'NN'), (',', ','), ('Wayside&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('management', 'NN'), ('plans', 'NNS'), ('to', 'TO'), ('grow', 'VB'), ('the', 'DT'), ('business', 'NN'), ('by', 'IN'), ('investing', 'NN'), ('in', 'IN'), ('information', 'NN'), ('technology', 'NN'), ('and', 'CC'), ('marketing', 'NN'), (',', ','), ('and', 'CC'), ('expanding', 'VBG'), ('its', 'PRP$'), ('sales', 'NNS'), ('team', 'NN'), ('and', 'CC'), ('software', 'NN'), ('offerings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   help/VB   from/IN   the/DT   economy/NN   ,/,   Wayside&/NNP   #/#   39/CD   ;/:   s/NNS   management/NN   plans/NNS   to/TO   grow/VB   the/DT   business/NN   by/IN   investing/NN   in/IN   information/NN   technology/NN   and/CC   marketing/NN   ,/,   and/CC   expanding/VBG   its/PRP$   sales/NNS   team/NN   and/CC   software/NN   offerings/NNS   ./.)
+----------------------------------
+original sentence: 
+The company should have no problems finding the capital to implement its strategy.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('should', 'MD'), ('have', 'VB'), ('no', 'DT'), ('problems', 'NNS'), ('finding', 'VBG'), ('the', 'DT'), ('capital', 'NN'), ('to', 'TO'), ('implement', 'VB'), ('its', 'PRP$'), ('strategy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   should/MD   have/VB   no/DT   problems/NNS   finding/VBG   the/DT   capital/NN   to/TO   implement/VB   its/PRP$   strategy/NN   ./.)
+----------------------------------
+original sentence: 
+Wayside has a solid .
+
+POS tagged sentence: 
+[('Wayside', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('solid', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Wayside/NNP) has/VBZ a/DT solid/JJ ./.)
+----------------------------------
+original sentence: 
+It has no debt, $3.44 in cash per share, and a  of $5.20 per share.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('no', 'DT'), ('debt', 'NN'), (',', ','), ('$', '$'), ('3.44', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('of', 'IN'), ('$', '$'), ('5.20', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   no/DT   debt/NN   ,/,   $/$   3.44/CD   in/IN   cash/NN   per/IN   share/NN   ,/,   and/CC   a/DT   of/IN   $/$   5.20/CD   per/IN   share/NN   ./.)
+----------------------------------
+original sentence: 
+The company&#39;s shares have underperformed the market during the past year, setting the stage for a possible comeback.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('shares', 'NNS'), ('have', 'VBP'), ('underperformed', 'VBN'), ('the', 'DT'), ('market', 'NN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('year', 'NN'), (',', ','), ('setting', 'VBG'), ('the', 'DT'), ('stage', 'NN'), ('for', 'IN'), ('a', 'DT'), ('possible', 'JJ'), ('comeback', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company&/NN   #/#   39/CD   ;/:   s/NNS   shares/NNS   have/VBP   underperformed/VBN   the/DT   market/NN   during/IN   the/DT   past/JJ   year/NN   ,/,   setting/VBG   the/DT   stage/NN   for/IN   a/DT   possible/JJ   comeback/NN   ./.)
+----------------------------------
+original sentence: 
+While the S&P has gained +55% during the past twelve months, Wayside has only gained +32%.
+
+POS tagged sentence: 
+[('While', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('has', 'VBZ'), ('gained', 'VBN'), ('+', '-NONE-'), ('55', 'CD'), ('%', 'NN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('twelve', 'NN'), ('months', 'NNS'), (',', ','), ('Wayside', 'NNP'), ('has', 'VBZ'), ('only', 'RB'), ('gained', 'VBN'), ('+', '-NONE-'), ('32', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   the/DT   S&P/NNP   has/VBZ   gained/VBN   +/-NONE-   55/CD   %/NN   during/IN   the/DT   past/JJ   twelve/NN   months/NNS   ,/,   (PERSON Wayside/NNP)   has/VBZ   only/RB   gained/VBN   +/-NONE-   32/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+But since the beginning of the year, it&#39;s begun to outperform, returning +10% since January 1st, compared with the S&P 500&#39;s +4%.
+
+POS tagged sentence: 
+[('But', 'CC'), ('since', 'IN'), ('the', 'DT'), ('beginning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), (',', ','), ('it&', 'NNP'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('begun', 'VBP'), ('to', 'TO'), ('outperform', 'NN'), (',', ','), ('returning', 'VBG'), ('+', ':'), ('10', 'CD'), ('%', 'NN'), ('since', 'IN'), ('January', 'NNP'), ('1st', 'CD'), (',', ','), ('compared', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500&', 'CD'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('+', 'VBP'), ('4', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   since/IN   the/DT   beginning/NN   of/IN   the/DT   year/NN   ,/,   it&/NNP   #/#   39/CD   ;/:   s/NNS   begun/VBP   to/TO   outperform/NN   ,/,   returning/VBG   +/:   10/CD   %/NN   since/IN   January/NNP   1st/CD   ,/,   compared/VBN   with/IN   the/DT   S&P/NNP   500&/CD   #/#   39/CD   ;/:   s/NNS   +/VBP   4/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Despite these recent gains, the shares are still undervalued perhaps because no one follows this company.
+
+POS tagged sentence: 
+[('Despite', 'IN'), ('these', 'DT'), ('recent', 'JJ'), ('gains', 'NNS'), (',', ','), ('the', 'DT'), ('shares', 'NNS'), ('are', 'VBP'), ('still', 'RB'), ('undervalued', 'VBN'), ('perhaps', 'RB'), ('because', 'IN'), ('no', 'DT'), ('one', 'NN'), ('follows', 'VBZ'), ('this', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Despite/IN   these/DT   recent/JJ   gains/NNS   ,/,   the/DT   shares/NNS   are/VBP   still/RB   undervalued/VBN   perhaps/RB   because/IN   no/DT   one/NN   follows/VBZ   this/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+Wayside&#39;s current  of 7.0% is not only about +15% higher than its five year average, but also more than +300% higher than the S&P 500&#39;s current average yield of 1.8.
+
+POS tagged sentence: 
+[('Wayside&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('current', 'VBP'), ('of', 'IN'), ('7.0', 'CD'), ('%', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('only', 'RB'), ('about', 'RB'), ('+', ':'), ('15', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('its', 'PRP$'), ('five', 'CD'), ('year', 'NN'), ('average', 'JJ'), (',', ','), ('but', 'CC'), ('also', 'RB'), ('more', 'RBR'), ('than', 'IN'), ('+', 'CD'), ('300', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500&', 'CD'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('current', 'VBP'), ('average', 'JJ'), ('yield', 'NN'), ('of', 'IN'), ('1.8', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Wayside&/NN   #/#   39/CD   ;/:   s/NNS   current/VBP   of/IN   7.0/CD   %/NN   is/VBZ   not/RB   only/RB   about/RB   +/:   15/CD   %/NN   higher/JJR   than/IN   its/PRP$   five/CD   year/NN   average/JJ   ,/,   but/CC   also/RB   more/RBR   than/IN   +/CD   300/CD   %/NN   higher/JJR   than/IN   the/DT   S&P/NNP   500&/CD   #/#   39/CD   ;/:   s/NNS   current/VBP   average/JJ   yield/NN   of/IN   1.8/CD   ./.)
+----------------------------------
+original sentence: 
+Its price to earnings ratio P/E of 13.5 is 35% lower than the S&P 500&#39;s average  of 21 and 20% lower than its five year average P/E of 17.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('price', 'NN'), ('to', 'TO'), ('earnings', 'NNS'), ('ratio', 'NN'), ('P/E', 'NN'), ('of', 'IN'), ('13.5', 'CD'), ('is', 'VBZ'), ('35', 'CD'), ('%', 'NN'), ('lower', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500&', 'CD'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('average', 'VBP'), ('of', 'IN'), ('21', 'CD'), ('and', 'CC'), ('20', 'CD'), ('%', 'NN'), ('lower', 'JJR'), ('than', 'IN'), ('its', 'PRP$'), ('five', 'CD'), ('year', 'NN'), ('average', 'JJ'), ('P/E', 'NN'), ('of', 'IN'), ('17', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   price/NN   to/TO   earnings/NNS   ratio/NN   P/E/NN   of/IN   13.5/CD   is/VBZ   35/CD   %/NN   lower/JJR   than/IN   the/DT   S&P/NNP   500&/CD   #/#   39/CD   ;/:   s/NNS   average/VBP   of/IN   21/CD   and/CC   20/CD   %/NN   lower/JJR   than/IN   its/PRP$   five/CD   year/NN   average/JJ   P/E/NN   of/IN   17/CD   ./.)
+----------------------------------
+original sentence: 
+One caveat: Wayside is a small company whose shares are thinly traded, which could lead to volatility.
+
+POS tagged sentence: 
+[('One', 'CD'), ('caveat', 'NN'), (':', ':'), ('Wayside', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('small', 'JJ'), ('company', 'NN'), ('whose', 'WP$'), ('shares', 'NNS'), ('are', 'VBP'), ('thinly', 'RB'), ('traded', 'VBN'), (',', ','), ('which', 'WDT'), ('could', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('volatility', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   caveat/NN   :/:   (PERSON Wayside/NNP)   is/VBZ   a/DT   small/JJ   company/NN   whose/WP$   shares/NNS   are/VBP   thinly/RB   traded/VBN   ,/,   which/WDT   could/MD   lead/VB   to/TO   volatility/NN   ./.)
+----------------------------------
+original sentence: 
+The company&#39;s average daily volume is just 6,000 shares Microsoft Nasdaq: MSFT , by contrast, trades about 50 million shares daily.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('average', 'VBP'), ('daily', 'JJ'), ('volume', 'NN'), ('is', 'VBZ'), ('just', 'RB'), ('6,000', 'CD'), ('shares', 'NNS'), ('Microsoft', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('MSFT', 'NNP'), (',', ','), ('by', 'IN'), ('contrast', 'NN'), (',', ','), ('trades', 'VBZ'), ('about', 'IN'), ('50', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('daily', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company&/NN   #/#   39/CD   ;/:   s/NNS   average/VBP   daily/JJ   volume/NN   is/VBZ   just/RB   6,000/CD   shares/NNS   (PERSON Microsoft/NNP Nasdaq/NNP)   :/:   MSFT/NNP   ,/,   by/IN   contrast/NN   ,/,   trades/VBZ   about/IN   50/CD   million/CD   shares/NNS   daily/JJ   ./.)
+----------------------------------
+original sentence: 
+But if you&#39;re in the market for a small cap dividend payer with upside potential, then you should consider this high yielding tech stock.
+
+POS tagged sentence: 
+[('But', 'CC'), ('if', 'IN'), ('you&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('re', 'NN'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('for', 'IN'), ('a', 'DT'), ('small', 'JJ'), ('cap', 'NN'), ('dividend', 'NN'), ('payer', 'NN'), ('with', 'IN'), ('upside', 'JJ'), ('potential', 'JJ'), (',', ','), ('then', 'RB'), ('you', 'PRP'), ('should', 'MD'), ('consider', 'VB'), ('this', 'DT'), ('high', 'JJ'), ('yielding', 'NN'), ('tech', 'NN'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   if/IN   you&/JJ   #/#   39/CD   ;/:   re/NN   in/IN   the/DT   market/NN   for/IN   a/DT   small/JJ   cap/NN   dividend/NN   payer/NN   with/IN   upside/JJ   potential/JJ   ,/,   then/RB   you/PRP   should/MD   consider/VB   this/DT   high/JJ   yielding/NN   tech/NN   stock/NN   ./.)
+----------------------------------
+original sentence: 
+P.S.
+
+POS tagged sentence: 
+[('P.S', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S P.S/NNS ./.)
+----------------------------------
+original sentence: 
+If you&#39;re looking for both high yields and enormous capital gains, then you need to learn more about our &quot;Income Security of the Month&quot; for March 2010.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('re', 'NN'), ('looking', 'VBG'), ('for', 'IN'), ('both', 'DT'), ('high', 'JJ'), ('yields', 'NNS'), ('and', 'CC'), ('enormous', 'JJ'), ('capital', 'NN'), ('gains', 'NNS'), (',', ','), ('then', 'RB'), ('you', 'PRP'), ('need', 'VBP'), ('to', 'TO'), ('learn', 'VB'), ('more', 'JJR'), ('about', 'IN'), ('our', 'PRP$'), ('&quot', 'JJ'), (';', ':'), ('Income', 'NNP'), ('Security', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Month&quot', 'JJ'), (';', ':'), ('for', 'IN'), ('March', 'NNP'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you&/JJ   #/#   39/CD   ;/:   re/NN   looking/VBG   for/IN   both/DT   high/JJ   yields/NNS   and/CC   enormous/JJ   capital/NN   gains/NNS   ,/,   then/RB   you/PRP   need/VBP   to/TO   learn/VB   more/JJR   about/IN   our/PRP$   &quot/JJ   ;/:   (PERSON Income/NNP Security/NNP)   of/IN   the/DT   Month&quot/JJ   ;/:   for/IN   March/NNP   2010/CD   ./.)
+----------------------------------
+original sentence: 
+With a strong history of paying increasing dividends,  is currently yielding an eye popping 10.2%.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('strong', 'JJ'), ('history', 'NN'), ('of', 'IN'), ('paying', 'VBG'), ('increasing', 'VBG'), ('dividends', 'NNS'), (',', ','), ('is', 'VBZ'), ('currently', 'RB'), ('yielding', 'VBG'), ('an', 'DT'), ('eye', 'NN'), ('popping', 'VBG'), ('10.2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   strong/JJ   history/NN   of/IN   paying/VBG   increasing/VBG   dividends/NNS   ,/,   is/VBZ   currently/RB   yielding/VBG   an/DT   eye/NN   popping/VBG   10.2/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+That&#39;s double the 10 year Treasury yield, nearly three times what &quot;AAA&quot; rated corporate bonds pay you and five times what you get from the S&P 500!
+
+POS tagged sentence: 
+[('That&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('double', 'JJ'), ('the', 'DT'), ('10', 'CD'), ('year', 'NN'), ('Treasury', 'NNP'), ('yield', 'NN'), (',', ','), ('nearly', 'RB'), ('three', 'CD'), ('times', 'NNS'), ('what', 'WP'), ('&quot', '-NONE-'), (';', ':'), ('AAA&quot', 'JJ'), (';', ':'), ('rated', 'VBN'), ('corporate', 'JJ'), ('bonds', 'NNS'), ('pay', 'VBP'), ('you', 'PRP'), ('and', 'CC'), ('five', 'CD'), ('times', 'NNS'), ('what', 'WP'), ('you', 'PRP'), ('get', 'VBP'), ('from', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   That&/NN   #/#   39/CD   ;/:   s/NNS   double/JJ   the/DT   10/CD   year/NN   (ORGANIZATION Treasury/NNP)   yield/NN   ,/,   nearly/RB   three/CD   times/NNS   what/WP   &quot/-NONE-   ;/:   AAA&quot/JJ   ;/:   rated/VBN   corporate/JJ   bonds/NNS   pay/VBP   you/PRP   and/CC   five/CD   times/NNS   what/WP   you/PRP   get/VBP   from/IN   the/DT   S&P/NNP   500/CD   !/.)
+----------------------------------
+original sentence: 
+Disclosure: Anthony Haddad does not own shares of any security mentioned in this article.
+
+POS tagged sentence: 
+[('Disclosure', 'NN'), (':', ':'), ('Anthony', 'NNP'), ('Haddad', 'NNP'), ('does', 'VBZ'), ('not', 'RB'), ('own', 'VB'), ('shares', 'NNS'), ('of', 'IN'), ('any', 'DT'), ('security', 'NN'), ('mentioned', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('article', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disclosure/NN)   :/:   (PERSON Anthony/NNP Haddad/NNP)   does/VBZ   not/RB   own/VB   shares/NNS   of/IN   any/DT   security/NN   mentioned/VBD   in/IN   this/DT   article/NN   ./.)
+----------------------------------
+original sentence: 
+Friday, March 19, 2010 12:20 PM
+Anthony Haddad is a writer and editor at StreetAuthority.com.
+
+POS tagged sentence: 
+[('Friday', 'NNP'), (',', ','), ('March', 'NNP'), ('19', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('20', 'CD'), ('PM', 'NNP'), ('Anthony', 'NNP'), ('Haddad', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('writer', 'NN'), ('and', 'CC'), ('editor', 'NN'), ('at', 'IN'), ('StreetAuthority.com', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Friday/NNP   ,/,   March/NNP   19/CD   ,/,   2010/CD   12/CD   :/:   20/CD   PM/NNP   (PERSON Anthony/NNP Haddad/NNP)   is/VBZ   a/DT   writer/NN   and/CC   editor/NN   at/IN   StreetAuthority.com/NNP   ./.)
+----------------------------------
+original sentence: 
+Prior to joining the company he was an editor at a large financial magazine in Los...
+
+POS tagged sentence: 
+[('Prior', 'RB'), ('to', 'TO'), ('joining', 'NN'), ('the', 'DT'), ('company', 'NN'), ('he', 'PRP'), ('was', 'VBD'), ('an', 'DT'), ('editor', 'NN'), ('at', 'IN'), ('a', 'DT'), ('large', 'JJ'), ('financial', 'JJ'), ('magazine', 'NN'), ('in', 'IN'), ('Los..', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Prior/RB   to/TO   joining/NN   the/DT   company/NN   he/PRP   was/VBD   an/DT   editor/NN   at/IN   a/DT   large/JJ   financial/JJ   magazine/NN   in/IN   (GPE Los../NNP)   ./.)
+----------------------------------
+original sentence: 
+This Small, Ignored Company Is Positioned for Huge Growth
+This Small Biotech Firm's Shares Could Rocket in the Next 30 Days
+This Microcap "War" Stock Has Hiked Dividends +500% and Now Pays 10.1%
+Forgot Username/Password
+Read our articles on iPhone for FREE!
+
+POS tagged sentence: 
+[('This', 'DT'), ('Small', 'JJ'), (',', ','), ('Ignored', 'NNP'), ('Company', 'NNP'), ('Is', 'NNP'), ('Positioned', 'NNP'), ('for', 'IN'), ('Huge', 'NNP'), ('Growth', 'NNP'), ('This', 'NNP'), ('Small', 'NNP'), ('Biotech', 'NNP'), ('Firm', 'NNP'), ("'s", 'POS'), ('Shares', 'NNS'), ('Could', 'MD'), ('Rocket', 'VB'), ('in', 'IN'), ('the', 'DT'), ('Next', 'JJ'), ('30', 'CD'), ('Days', 'NNS'), ('This', 'DT'), ('Microcap', 'NNP'), ('"', 'NNP'), ('War', 'NNP'), ('"', 'NNP'), ('Stock', 'NNP'), ('Has', 'NNP'), ('Hiked', 'NNP'), ('Dividends', 'NNP'), ('+', 'NNP'), ('500', 'CD'), ('%', 'NN'), ('and', 'CC'), ('Now', 'NNP'), ('Pays', 'NNPS'), ('10.1', 'CD'), ('%', 'NN'), ('Forgot', 'NNP'), ('Username/Password', 'NNP'), ('Read', 'NNP'), ('our', 'PRP$'), ('articles', 'NNS'), ('on', 'IN'), ('iPhone', 'NNP'), ('for', 'IN'), ('FREE', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   Small/JJ   ,/,   (PERSON Ignored/NNP Company/NNP Is/NNP Positioned/NNP)   for/IN   (PERSON Huge/NNP Growth/NNP)   This/NNP   Small/NNP   (PERSON Biotech/NNP Firm/NNP)   's/POS   Shares/NNS   Could/MD   Rocket/VB   in/IN   the/DT   Next/JJ   30/CD   Days/NNS   This/DT   Microcap/NNP   "/NNP   War/NNP   "/NNP   (PERSON Stock/NNP Has/NNP Hiked/NNP Dividends/NNP)   +/NNP   500/CD   %/NN   and/CC   (ORGANIZATION Now/NNP Pays/NNPS)   10.1/CD   %/NN   (PERSON Forgot/NNP)   Username/Password/NNP   Read/NNP   our/PRP$   articles/NNS   on/IN   (ORGANIZATION iPhone/NNP)   for/IN   (ORGANIZATION FREE/NNP)   !/.)
+----------------------------------
+original sentence: 
+StreetAuthority iPhone application
+Instantly access all StreetAuthority articles on your iPhone
+
+
+POS tagged sentence: 
+[('StreetAuthority', 'NN'), ('iPhone', 'NN'), ('application', 'NN'), ('Instantly', 'RB'), ('access', 'NN'), ('all', 'DT'), ('StreetAuthority', 'NNP'), ('articles', 'NNS'), ('on', 'IN'), ('your', 'PRP$'), ('iPhone', 'NNP')]
+
+
+ERTAGGED sentence: (S   (GPE StreetAuthority/NN)   (ORGANIZATION iPhone/NN)   application/NN   Instantly/RB   access/NN   all/DT   StreetAuthority/NNP   articles/NNS   on/IN   your/PRP$   (ORGANIZATION iPhone/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

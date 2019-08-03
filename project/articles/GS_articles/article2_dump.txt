@@ -1,0 +1,268 @@
+
+----------------------------------
+original sentence: 
+Market News: General Motors, Goldman Sachs NYSE:GS , Family Dollar NYSE:FDO | WallStNation.com
+Market News: General Motors, Goldman Sachs NYSE:GS , Family Dollar NYSE:FDO  Submitted by WSN_Staff on Wed, 04/07/2010 11:18.  said it has completed &quot;fresh start accounting&quot; and would file its third quarter and full year financial results on Wednesday, paving the way for the company to go public.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('News', 'NNS'), (':', ':'), ('General', 'NNP'), ('Motors', 'NNPS'), (',', ','), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), ('|', ':'), ('WallStNation.com', 'JJ'), ('Market', 'NN'), ('News', 'NNS'), (':', ':'), ('General', 'NNP'), ('Motors', 'NNPS'), (',', ','), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), ('Submitted', 'NNP'), ('by', 'IN'), ('WSN_Staff', 'NNP'), ('on', 'IN'), ('Wed', 'NNP'), (',', ','), ('04/07/2010', 'CD'), ('11', 'CD'), (':', ':'), ('18.', 'CD'), ('said', 'VBD'), ('it', 'PRP'), ('has', 'VBZ'), ('completed', 'VBN'), ('&quot', 'JJ'), (';', ':'), ('fresh', 'JJ'), ('start', 'NN'), ('accounting&quot', 'NN'), (';', ':'), ('and', 'CC'), ('would', 'MD'), ('file', 'VB'), ('its', 'PRP$'), ('third', 'JJ'), ('quarter', 'NN'), ('and', 'CC'), ('full', 'JJ'), ('year', 'NN'), ('financial', 'JJ'), ('results', 'NNS'), ('on', 'IN'), ('Wednesday', 'NNP'), (',', ','), ('paving', 'VBG'), ('the', 'DT'), ('way', 'NN'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('go', 'VB'), ('public', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   News/NNS   :/:   (ORGANIZATION General/NNP Motors/NNPS)   ,/,   (ORGANIZATION Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   FDO/NNP   |/:   WallStNation.com/JJ   (ORGANIZATION Market/NN News/NNS)   :/:   (ORGANIZATION General/NNP Motors/NNPS)   ,/,   (ORGANIZATION Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   (ORGANIZATION FDO/NNP)   Submitted/NNP   by/IN   (ORGANIZATION WSN_Staff/NNP)   on/IN   Wed/NNP   ,/,   04/07/2010/CD   11/CD   :/:   18./CD   said/VBD   it/PRP   has/VBZ   completed/VBN   &quot/JJ   ;/:   fresh/JJ   start/NN   accounting&quot/NN   ;/:   and/CC   would/MD   file/VB   its/PRP$   third/JJ   quarter/NN   and/CC   full/JJ   year/NN   financial/JJ   results/NNS   on/IN   Wednesday/NNP   ,/,   paving/VBG   the/DT   way/NN   for/IN   the/DT   company/NN   to/TO   go/VB   public/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD it/PRP)
+	(VERB has/VBZ completed/VBN &quot/JJ)
+	(VERB file/VB its/PRP$ third/JJ quarter/NN)
+	(VERB paving/VBG the/DT way/NN for/IN the/DT company/NN)
+	(VERB go/VB public/JJ)
+noun phrases to consider:
+	(NOUN Market/NN News/NNS)
+	(NOUN General/NNP Motors/NNPS)
+	(NOUN Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Family/NNP Dollar/NNP NYSE/NNP)
+	(NOUN FDO/NNP)
+	(NOUN WallStNation.com/JJ Market/NN News/NNS)
+	(NOUN General/NNP Motors/NNPS)
+	(NOUN Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Family/NNP Dollar/NNP NYSE/NNP)
+	(NOUN FDO/NNP Submitted/NNP)
+	(NOUN WSN_Staff/NNP)
+	(NOUN Wed/NNP)
+	(NOUN fresh/JJ start/NN accounting&quot/NN)
+	(NOUN full/JJ year/NN)
+	(NOUN financial/JJ results/NNS)
+	(NOUN Wednesday/NNP)
+
+----------------------------------
+original sentence: 
+For the period form July 10 through Dec. 31, the Detroit automaker said it lost $4.3 billion as it rang up $57.5 billion in revenue.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('period', 'NN'), ('form', 'NN'), ('July', 'NNP'), ('10', 'CD'), ('through', 'IN'), ('Dec.', 'NNP'), ('31', 'CD'), (',', ','), ('the', 'DT'), ('Detroit', 'NNP'), ('automaker', 'NN'), ('said', 'VBD'), ('it', 'PRP'), ('lost', 'VBD'), ('$', '$'), ('4.3', 'CD'), ('billion', 'CD'), ('as', 'IN'), ('it', 'PRP'), ('rang', 'VBD'), ('up', 'RP'), ('$', '$'), ('57.5', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('revenue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   period/NN   form/NN   July/NNP   10/CD   through/IN   Dec./NNP   31/CD   ,/,   the/DT   (ORGANIZATION Detroit/NNP)   automaker/NN   said/VBD   it/PRP   lost/VBD   $/$   4.3/CD   billion/CD   as/IN   it/PRP   rang/VBD   up/RP   $/$   57.5/CD   billion/CD   in/IN   revenue/NN   ./.)
+----------------------------------
+original sentence: 
+Net cash provided by operating activities was $1 billion.
+
+POS tagged sentence: 
+[('Net', 'JJ'), ('cash', 'NN'), ('provided', 'VBD'), ('by', 'IN'), ('operating', 'NN'), ('activities', 'NNS'), ('was', 'VBD'), ('$', '$'), ('1', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Net/JJ   cash/NN   provided/VBD   by/IN   operating/NN   activities/NNS   was/VBD   $/$   1/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+&quot;I continue to believe we have a chance of achieving profitability in 2010,&quot; said Chief Financial Officer Chris Liddell.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('I', 'PRP'), ('continue', 'VBP'), ('to', 'TO'), ('believe', 'VB'), ('we', 'PRP'), ('have', 'VBP'), ('a', 'DT'), ('chance', 'NN'), ('of', 'IN'), ('achieving', 'VBG'), ('profitability', 'NN'), ('in', 'IN'), ('2010,&quot', 'CD'), (';', ':'), ('said', 'VBD'), ('Chief', 'NNP'), ('Financial', 'NNP'), ('Officer', 'NNP'), ('Chris', 'NNP'), ('Liddell', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   I/PRP   continue/VBP   to/TO   believe/VB   we/PRP   have/VBP   a/DT   chance/NN   of/IN   achieving/VBG   profitability/NN   in/IN   2010,&quot/CD   ;/:   said/VBD   (PERSON Chief/NNP Financial/NNP)   Officer/NNP   (PERSON Chris/NNP Liddell/NNP)   ./.)
+----------------------------------
+original sentence: 
+GM also remains committed to repaying the outstanding balance of the U.S. Treasury and Export Development Canada loans by June.
+
+POS tagged sentence: 
+[('GM', 'NNP'), ('also', 'RB'), ('remains', 'VBZ'), ('committed', 'VBN'), ('to', 'TO'), ('repaying', 'NN'), ('the', 'DT'), ('outstanding', 'JJ'), ('balance', 'NN'), ('of', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('and', 'CC'), ('Export', 'NNP'), ('Development', 'NNP'), ('Canada', 'NNP'), ('loans', 'NNS'), ('by', 'IN'), ('June', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   GM/NNP   also/RB   remains/VBZ   committed/VBN   to/TO   repaying/NN   the/DT   outstanding/JJ   balance/NN   of/IN   the/DT   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP)   and/CC   (PERSON Export/NNP Development/NNP Canada/NNP)   loans/NNS   by/IN   June/NNP   ./.)
+----------------------------------
+original sentence: 
+GM emerged from bankruptcy on July 10.
+
+POS tagged sentence: 
+[('GM', 'NNP'), ('emerged', 'VBD'), ('from', 'IN'), ('bankruptcy', 'NN'), ('on', 'IN'), ('July', 'NNP'), ('10', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S GM/NNP emerged/VBD from/IN bankruptcy/NN on/IN July/NNP 10/CD ./.)
+----------------------------------
+original sentence: 
+‚Äì Shares of Family Dollar
+ NYSE:FDO are up $1.71, or almost 5%, at $39.51 after the company this morning met fiscal Q2 sales and beat profit estimates, and forecast this year‚Äôs profit well above estimates.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x93', ':'), ('Shares', 'NNS'), ('of', 'IN'), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), ('are', 'VBP'), ('up', 'RP'), ('$', '$'), ('1.71', 'CD'), (',', ','), ('or', 'CC'), ('almost', 'RB'), ('5', 'CD'), ('%', 'NN'), (',', ','), ('at', 'IN'), ('$', '$'), ('39.51', 'CD'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('this', 'DT'), ('morning', 'NN'), ('met', 'NN'), ('fiscal', 'JJ'), ('Q2', 'NNP'), ('sales', 'NNS'), ('and', 'CC'), ('beat', 'VB'), ('profit', 'NN'), ('estimates', 'NNS'), (',', ','), ('and', 'CC'), ('forecast', 'NN'), ('this', 'DT'), ('year', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('profit', 'NN'), ('well', 'RB'), ('above', 'IN'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ì/:   Shares/NNS   of/IN   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   FDO/NNP   are/VBP   up/RP   $/$   1.71/CD   ,/,   or/CC   almost/RB   5/CD   %/NN   ,/,   at/IN   $/$   39.51/CD   after/IN   the/DT   company/NN   this/DT   morning/NN   met/NN   fiscal/JJ   Q2/NNP   sales/NNS   and/CC   beat/VB   profit/NN   estimates/NNS   ,/,   and/CC   forecast/NN   this/DT   year/NN   ‚/:   Ä/:   ô/:   s/NNS   profit/NN   well/RB   above/IN   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Family Dollar had previously pre announced second quarter sales on March 4, so the 5% jump in revenue, to $2.09 billion was not a surprise.
+
+POS tagged sentence: 
+[('Family', 'RB'), ('Dollar', 'JJ'), ('had', 'VBD'), ('previously', 'RB'), ('pre', 'JJ'), ('announced', 'VBN'), ('second', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('on', 'IN'), ('March', 'NNP'), ('4', 'CD'), (',', ','), ('so', 'RB'), ('the', 'DT'), ('5', 'CD'), ('%', 'NN'), ('jump', 'NN'), ('in', 'IN'), ('revenue', 'NN'), (',', ','), ('to', 'TO'), ('$', '$'), ('2.09', 'CD'), ('billion', 'CD'), ('was', 'VBD'), ('not', 'RB'), ('a', 'DT'), ('surprise', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Family/RB   (PERSON Dollar/JJ)   had/VBD   previously/RB   pre/JJ   announced/VBN   second/JJ   quarter/NN   sales/NNS   on/IN   March/NNP   4/CD   ,/,   so/RB   the/DT   5/CD   %/NN   jump/NN   in/IN   revenue/NN   ,/,   to/TO   $/$   2.09/CD   billion/CD   was/VBD   not/RB   a/DT   surprise/NN   ./.)
+----------------------------------
+original sentence: 
+But the profit of 81 cents per share, 3 cents better than expected, was above the 75 cents to 80 cents range the company had offered at the time.
+
+POS tagged sentence: 
+[('But', 'CC'), ('the', 'DT'), ('profit', 'NN'), ('of', 'IN'), ('81', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('3', 'CD'), ('cents', 'NNS'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), (',', ','), ('was', 'VBD'), ('above', 'IN'), ('the', 'DT'), ('75', 'CD'), ('cents', 'NNS'), ('to', 'TO'), ('80', 'CD'), ('cents', 'NNS'), ('range', 'VBP'), ('the', 'DT'), ('company', 'NN'), ('had', 'VBD'), ('offered', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   the/DT   profit/NN   of/IN   81/CD   cents/NNS   per/IN   share/NN   ,/,   3/CD   cents/NNS   better/JJR   than/IN   expected/VBN   ,/,   was/VBD   above/IN   the/DT   75/CD   cents/NNS   to/TO   80/CD   cents/NNS   range/VBP   the/DT   company/NN   had/VBD   offered/VBN   at/IN   the/DT   time/NN   ./.)
+----------------------------------
+original sentence: 
+The upside was in tight controls on operating costs, such as lower utility costs, and a higher gross profit as a percentage of sales, thanks to ‚Äúhigher purchase mark ups‚Äù and ‚Äúreductions in markdown expenses [and] freight expenses,‚Äù the company said.
+
+POS tagged sentence: 
+[('The', 'DT'), ('upside', 'NN'), ('was', 'VBD'), ('in', 'IN'), ('tight', 'JJ'), ('controls', 'NNS'), ('on', 'IN'), ('operating', 'NN'), ('costs', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('lower', 'JJR'), ('utility', 'NN'), ('costs', 'NNS'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('higher', 'JJR'), ('gross', 'NN'), ('profit', 'NN'), ('as', 'IN'), ('a', 'DT'), ('percentage', 'NN'), ('of', 'IN'), ('sales', 'NNS'), (',', ','), ('thanks', 'NNS'), ('to', 'TO'), ('\xe2', 'VB'), ('\x80', ':'), ('\x9c', ':'), ('higher', 'JJR'), ('purchase', 'NN'), ('mark', 'NN'), ('ups', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('and', 'CC'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('reductions', 'NNS'), ('in', 'IN'), ('markdown', 'NN'), ('expenses', 'NNS'), ('[', ':'), ('and', 'CC'), (']', ':'), ('freight', 'NN'), ('expenses', 'NNS'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('the', 'DT'), ('company', 'NN'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   upside/NN   was/VBD   in/IN   tight/JJ   controls/NNS   on/IN   operating/NN   costs/NNS   ,/,   such/JJ   as/IN   lower/JJR   utility/NN   costs/NNS   ,/,   and/CC   a/DT   higher/JJR   gross/NN   profit/NN   as/IN   a/DT   percentage/NN   of/IN   sales/NNS   ,/,   thanks/NNS   to/TO   ‚/VB   Ä/:   ú/:   higher/JJR   purchase/NN   mark/NN   ups/NNS   ‚/:   Ä/:   ù/:   and/CC   ‚/:   Ä/:   ú/:   reductions/NNS   in/IN   markdown/NN   expenses/NNS   [/:   and/CC   ]/:   freight/NN   expenses/NNS   ,/,   ‚/:   Ä/:   ù/:   the/DT   company/NN   said/VBD   ./.)
+----------------------------------
+original sentence: 
+For Q3, the company sees sales momentum continuing, reporting same store sales up 11%, which was quite a jump from the 3.6% of Q2.
+
+POS tagged sentence: 
+[('For', 'IN'), ('Q3', 'NNP'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('sees', 'VBZ'), ('sales', 'NNS'), ('momentum', 'NN'), ('continuing', 'VBG'), (',', ','), ('reporting', 'VBG'), ('same', 'JJ'), ('store', 'NN'), ('sales', 'NNS'), ('up', 'IN'), ('11', 'CD'), ('%', 'NN'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('quite', 'RB'), ('a', 'DT'), ('jump', 'NN'), ('from', 'IN'), ('the', 'DT'), ('3.6', 'CD'), ('%', 'NN'), ('of', 'IN'), ('Q2', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   (ORGANIZATION Q3/NNP)   ,/,   the/DT   company/NN   sees/VBZ   sales/NNS   momentum/NN   continuing/VBG   ,/,   reporting/VBG   same/JJ   store/NN   sales/NNS   up/IN   11/CD   %/NN   ,/,   which/WDT   was/VBD   quite/RB   a/DT   jump/NN   from/IN   the/DT   3.6/CD   %/NN   of/IN   (ORGANIZATION Q2/NNP)   ./.)
+----------------------------------
+original sentence: 
+Total Q3 same store sales will probably rise 6% to 8%, the company said, yielding profit per share of 71 cents to 76 cents, ahead of the 70 cents analysts have forecast.
+
+POS tagged sentence: 
+[('Total', 'JJ'), ('Q3', 'NNP'), ('same', 'NN'), ('store', 'NN'), ('sales', 'NNS'), ('will', 'MD'), ('probably', 'RB'), ('rise', 'VB'), ('6', 'CD'), ('%', 'NN'), ('to', 'TO'), ('8', 'CD'), ('%', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('said', 'VBD'), (',', ','), ('yielding', 'NN'), ('profit', 'NN'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('71', 'CD'), ('cents', 'NNS'), ('to', 'TO'), ('76', 'CD'), ('cents', 'NNS'), (',', ','), ('ahead', 'RB'), ('of', 'IN'), ('the', 'DT'), ('70', 'CD'), ('cents', 'NNS'), ('analysts', 'NNS'), ('have', 'VBP'), ('forecast', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Total/JJ)   (ORGANIZATION Q3/NNP)   same/NN   store/NN   sales/NNS   will/MD   probably/RB   rise/VB   6/CD   %/NN   to/TO   8/CD   %/NN   ,/,   the/DT   company/NN   said/VBD   ,/,   yielding/NN   profit/NN   per/IN   share/NN   of/IN   71/CD   cents/NNS   to/TO   76/CD   cents/NNS   ,/,   ahead/RB   of/IN   the/DT   70/CD   cents/NNS   analysts/NNS   have/VBP   forecast/VBN   ./.)
+----------------------------------
+original sentence: 
+For the year, the company forecast profit per share of $2.48 to $2.58, ahead of the $2.47 forecast.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('year', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('forecast', 'VBD'), ('profit', 'NN'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('2.48', 'CD'), ('to', 'TO'), ('$', '$'), ('2.58', 'CD'), (',', ','), ('ahead', 'RB'), ('of', 'IN'), ('the', 'DT'), ('$', '$'), ('2.47', 'CD'), ('forecast', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   year/NN   ,/,   the/DT   company/NN   forecast/VBD   profit/NN   per/IN   share/NN   of/IN   $/$   2.48/CD   to/TO   $/$   2.58/CD   ,/,   ahead/RB   of/IN   the/DT   $/$   2.47/CD   forecast/CD   ./.)
+----------------------------------
+original sentence: 
+‚Äì 
+In its annual letter to shareholders,  NYSE:GS and its chief executive, Lloyd Blankfein, are on the defensive.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x93', ':'), ('In', 'NNP'), ('its', 'PRP$'), ('annual', 'JJ'), ('letter', 'NN'), ('to', 'TO'), ('shareholders', 'NNS'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('chief', 'NN'), ('executive', 'NN'), (',', ','), ('Lloyd', 'NNP'), ('Blankfein', 'NNP'), (',', ','), ('are', 'VBP'), ('on', 'IN'), ('the', 'DT'), ('defensive', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ì/:   In/NNP   its/PRP$   annual/JJ   letter/NN   to/TO   shareholders/NNS   ,/,   (ORGANIZATION NYSE/NNP)   :/:   GS/NNP   and/CC   its/PRP$   chief/NN   executive/NN   ,/,   (PERSON Lloyd/NNP Blankfein/NNP)   ,/,   are/VBP   on/IN   the/DT   defensive/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP on/IN the/DT defensive/JJ)
+noun phrases to consider:
+	(NOUN ‚/NN)
+	(NOUN In/NNP)
+	(NOUN annual/JJ letter/NN)
+	(NOUN shareholders/NNS)
+	(NOUN NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN chief/NN executive/NN)
+	(NOUN Lloyd/NNP Blankfein/NNP)
+
+----------------------------------
+original sentence: 
+Blankfein defends the bank's moves in securing its payout from American International Group Inc. and states the firm has always placed its clients' needs first and suggests that it never bet against them.
+
+POS tagged sentence: 
+[('Blankfein', 'NNP'), ('defends', 'VBZ'), ('the', 'DT'), ('bank', 'NN'), ("'s", 'POS'), ('moves', 'NNS'), ('in', 'IN'), ('securing', 'NN'), ('its', 'PRP$'), ('payout', 'NN'), ('from', 'IN'), ('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('and', 'CC'), ('states', 'VBZ'), ('the', 'DT'), ('firm', 'NN'), ('has', 'VBZ'), ('always', 'RB'), ('placed', 'VBN'), ('its', 'PRP$'), ('clients', 'NNS'), ("'", 'POS'), ('needs', 'NNS'), ('first', 'RB'), ('and', 'CC'), ('suggests', 'NNS'), ('that', 'IN'), ('it', 'PRP'), ('never', 'RB'), ('bet', 'VB'), ('against', 'IN'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Blankfein/NNP)   defends/VBZ   the/DT   bank/NN   's/POS   moves/NNS   in/IN   securing/NN   its/PRP$   payout/NN   from/IN   (ORGANIZATION American/NNP International/NNP Group/NNP Inc./NNP)   and/CC   states/VBZ   the/DT   firm/NN   has/VBZ   always/RB   placed/VBN   its/PRP$   clients/NNS   '/POS   needs/NNS   first/RB   and/CC   suggests/NNS   that/IN   it/PRP   never/RB   bet/VB   against/IN   them/PRP   ./.)
+----------------------------------
+original sentence: 
+The latter assertion is somewhat disingenuous.
+
+POS tagged sentence: 
+[('The', 'DT'), ('latter', 'NN'), ('assertion', 'NN'), ('is', 'VBZ'), ('somewhat', 'RB'), ('disingenuous', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   latter/NN   assertion/NN   is/VBZ   somewhat/RB   disingenuous/JJ   ./.)
+----------------------------------
+original sentence: 
+Blankfein appears to be referring to charges that Goldman made bets against mortgage securities it underwrote, a claim laid bare in January at the Financial Inquiry Commission.¬† &quot;It sounds to me a little bit like selling a car with faulty brakes, then buying an insurance policy on the buyer of those cars,&quot; the commission chairman, Phil Angelides told Blankfein during his testimony.
+
+POS tagged sentence: 
+[('Blankfein', 'NNP'), ('appears', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('referring', 'VBG'), ('to', 'TO'), ('charges', 'NNS'), ('that', 'IN'), ('Goldman', 'NNP'), ('made', 'VBD'), ('bets', 'NNS'), ('against', 'IN'), ('mortgage', 'NN'), ('securities', 'NNS'), ('it', 'PRP'), ('underwrote', 'VBP'), (',', ','), ('a', 'DT'), ('claim', 'NN'), ('laid', 'VBD'), ('bare', 'NN'), ('in', 'IN'), ('January', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('Financial', 'NNP'), ('Inquiry', 'NNP'), ('Commission.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('&quot', 'NNP'), (';', ':'), ('It', 'PRP'), ('sounds', 'VBZ'), ('to', 'TO'), ('me', 'PRP'), ('a', 'DT'), ('little', 'RB'), ('bit', 'NN'), ('like', 'IN'), ('selling', 'NN'), ('a', 'DT'), ('car', 'NN'), ('with', 'IN'), ('faulty', 'NN'), ('brakes', 'NNS'), (',', ','), ('then', 'RB'), ('buying', 'VBG'), ('an', 'DT'), ('insurance', 'NN'), ('policy', 'NN'), ('on', 'IN'), ('the', 'DT'), ('buyer', 'NN'), ('of', 'IN'), ('those', 'DT'), ('cars,&quot', 'JJ'), (';', ':'), ('the', 'DT'), ('commission', 'NN'), ('chairman', 'NN'), (',', ','), ('Phil', 'NNP'), ('Angelides', 'NNP'), ('told', 'VBD'), ('Blankfein', 'NNP'), ('during', 'IN'), ('his', 'PRP$'), ('testimony', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Blankfein/NNP)   appears/VBZ   to/TO   be/VB   referring/VBG   to/TO   charges/NNS   that/IN   (PERSON Goldman/NNP)   made/VBD   bets/NNS   against/IN   mortgage/NN   securities/NNS   it/PRP   underwrote/VBP   ,/,   a/DT   claim/NN   laid/VBD   bare/NN   in/IN   January/NNP   at/IN   the/DT   (ORGANIZATION Financial/NNP Inquiry/NNP)   Commission./NNP   ¬/NNP   †/NNP   &quot/NNP   ;/:   It/PRP   sounds/VBZ   to/TO   me/PRP   a/DT   little/RB   bit/NN   like/IN   selling/NN   a/DT   car/NN   with/IN   faulty/NN   brakes/NNS   ,/,   then/RB   buying/VBG   an/DT   insurance/NN   policy/NN   on/IN   the/DT   buyer/NN   of/IN   those/DT   cars,&quot/JJ   ;/:   the/DT   commission/NN   chairman/NN   ,/,   (PERSON Phil/NNP Angelides/NNP)   told/VBD   (PERSON Blankfein/NNP)   during/IN   his/PRP$   testimony/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB appears/VBZ to/TO be/VB referring/VBG)
+	(VERB made/VBD bets/NNS against/IN mortgage/NN securities/NNS it/PRP)
+	(VERB underwrote/VBP)
+	(VERB   laid/VBD   bare/NN   in/IN   January/NNP   at/IN   the/DT   Financial/NNP   Inquiry/NNP   Commission./NNP   ¬/NNP   †/NNP   &quot/NNP)
+
+tagged sentence:
+	 laid bare in January at the Financial Inquiry Commission. ¬ † &quot	res:-1
+	(VERB   sounds/VBZ   to/TO   me/PRP   a/DT   little/RB   bit/NN   like/IN   selling/NN   a/DT   car/NN   with/IN   faulty/NN   brakes/NNS)
+	(VERB   buying/VBG   an/DT   insurance/NN   policy/NN   on/IN   the/DT   buyer/NN   of/IN   those/DT   cars,&quot/JJ)
+	(VERB told/VBD Blankfein/NNP during/IN his/PRP$ testimony/NN)
+noun phrases to consider:
+	(NOUN Blankfein/NNP)
+	(NOUN charges/NNS)
+	(NOUN Goldman/NNP)
+	(NOUN claim/NN)
+	(NOUN commission/NN chairman/NN)
+	(NOUN Phil/NNP Angelides/NNP)
+
+----------------------------------
+original sentence: 
+‚Äì Thanks for visiting , to assist your investing research  that link directly to articles related to the given stock/security.
+
+POS tagged sentence: 
+[('\xe2', 'NN'), ('\x80', '``'), ('\x93', ':'), ('Thanks', 'NNS'), ('for', 'IN'), ('visiting', 'VBG'), (',', ','), ('to', 'TO'), ('assist', 'VB'), ('your', 'PRP$'), ('investing', 'NN'), ('research', 'NN'), ('that', 'WDT'), ('link', 'NN'), ('directly', 'RB'), ('to', 'TO'), ('articles', 'NNS'), ('related', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('given', 'VBN'), ('stock/security', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ‚/NN   Ä/``   ì/:   Thanks/NNS   for/IN   visiting/VBG   ,/,   to/TO   assist/VB   your/PRP$   investing/NN   research/NN   that/WDT   link/NN   directly/RB   to/TO   articles/NNS   related/VBN   to/TO   the/DT   given/VBN   stock/security/NN   ./.)
+----------------------------------
+original sentence: 
+Share WallStNation.com Content
+
+Share this article with others, WallStNation.com is the Independent Wall Street Newspaper.
+
+POS tagged sentence: 
+[('Share', 'NN'), ('WallStNation.com', 'NN'), ('Content', 'NNP'), ('Share', 'NNP'), ('this', 'DT'), ('article', 'NN'), ('with', 'IN'), ('others', 'NNS'), (',', ','), ('WallStNation.com', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('Independent', 'NNP'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Newspaper', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Share/NN)   WallStNation.com/NN   (ORGANIZATION Content/NNP Share/NNP)   this/DT   article/NN   with/IN   others/NNS   ,/,   WallStNation.com/NNP   is/VBZ   the/DT   (ORGANIZATION Independent/NNP Wall/NNP Street/NNP Newspaper/NNP)   ./.)
+----------------------------------
+original sentence: 
+Thanks for Reading!
+
+POS tagged sentence: 
+[('Thanks', 'NNS'), ('for', 'IN'), ('Reading', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S Thanks/NNS for/IN Reading/NNP !/.)
+----------------------------------
+original sentence: 
+Daily Market Summary
+
+Please Review the WallStNation.com  and remember that information provided by our site is at the investor's sole financial risk.
+
+POS tagged sentence: 
+[('Daily', 'RB'), ('Market', 'NNP'), ('Summary', 'NNP'), ('Please', 'NNP'), ('Review', 'NNP'), ('the', 'DT'), ('WallStNation.com', 'NNP'), ('and', 'CC'), ('remember', 'NN'), ('that', 'IN'), ('information', 'NN'), ('provided', 'VBD'), ('by', 'IN'), ('our', 'PRP$'), ('site', 'JJ'), ('is', 'VBZ'), ('at', 'IN'), ('the', 'DT'), ('investor', 'NN'), ("'s", 'POS'), ('sole', 'JJ'), ('financial', 'JJ'), ('risk', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Daily/RB   (PERSON Market/NNP Summary/NNP Please/NNP)   Review/NNP   the/DT   WallStNation.com/NNP   and/CC   remember/NN   that/IN   information/NN   provided/VBD   by/IN   our/PRP$   site/JJ   is/VBZ   at/IN   the/DT   investor/NN   's/POS   sole/JJ   financial/JJ   risk/NN   ./.)
+----------------------------------
+original sentence: 
+Please Review for more Details
+Text Ad Space and other Ad Formats for only $15 per week, learn more&gt;&gt;
+Buy this text Ad Space for only $15 per week, learn more&gt;&gt;
+
+
+POS tagged sentence: 
+[('Please', 'NN'), ('Review', 'NNP'), ('for', 'IN'), ('more', 'JJR'), ('Details', 'NNS'), ('Text', 'NNP'), ('Ad', 'NNP'), ('Space', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('Ad', 'NNP'), ('Formats', 'NNP'), ('for', 'IN'), ('only', 'RB'), ('$', '$'), ('15', 'CD'), ('per', 'IN'), ('week', 'NN'), (',', ','), ('learn', 'NN'), ('more&gt', 'NN'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Buy', 'NNP'), ('this', 'DT'), ('text', 'NN'), ('Ad', 'NNP'), ('Space', 'NNP'), ('for', 'IN'), ('only', 'RB'), ('$', '$'), ('15', 'CD'), ('per', 'IN'), ('week', 'NN'), (',', ','), ('learn', 'NN'), ('more&gt', 'NN'), (';', ':'), ('&gt', 'JJ'), (';', ':')]
+
+
+ERTAGGED sentence: (S   (PERSON Please/NN Review/NNP)   for/IN   more/JJR   Details/NNS   (PERSON Text/NNP Ad/NNP Space/NNP)   and/CC   other/JJ   Ad/NNP   Formats/NNP   for/IN   only/RB   $/$   15/CD   per/IN   week/NN   ,/,   learn/NN   more&gt/NN   ;/:   &gt/JJ   ;/:   Buy/NNP   this/DT   text/NN   Ad/NNP   Space/NNP   for/IN   only/RB   $/$   15/CD   per/IN   week/NN   ,/,   learn/NN   more&gt/NN   ;/:   &gt/JJ   ;/:)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

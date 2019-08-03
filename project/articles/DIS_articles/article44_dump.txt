@@ -1,0 +1,182 @@
+
+----------------------------------
+original sentence: 
+Walt Disney Co. exec.
+
+POS tagged sentence: 
+[('Walt', 'NNP'), ('Disney', 'NNP'), ('Co.', 'NNP'), ('exec', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Walt/NNP) (ORGANIZATION Disney/NNP) Co./NNP exec/NN ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Co./NNP exec/NN)
+
+----------------------------------
+original sentence: 
+acquires 3BD home | BlockShopper Los Angeles
+Sign up to access L.A. foreclosures
+Need help lowering your mortgage payment?
+
+POS tagged sentence: 
+[('acquires', 'NNS'), ('3BD', 'VBP'), ('home', 'NN'), ('|', ':'), ('BlockShopper', 'NNP'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Sign', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('access', 'NN'), ('L.A.', 'NNP'), ('foreclosures', 'NNS'), ('Need', 'NNP'), ('help', 'NN'), ('lowering', 'VBG'), ('your', 'PRP$'), ('mortgage', 'NN'), ('payment', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   acquires/NNS   3BD/VBP   home/NN   |/:   (ORGANIZATION BlockShopper/NNP Los/NNP Angeles/NNP Sign/NNP)   up/IN   to/TO   access/NN   L.A./NNP   foreclosures/NNS   Need/NNP   help/NN   lowering/VBG   your/PRP$   mortgage/NN   payment/NN   ?/.)
+----------------------------------
+original sentence: 
+Housing bust mysteries revealed
+Receive up to 4 rate quotes fast
+
+&gt;
+Los Angeles Venice
+
+Walt Disney Co. exec.
+
+POS tagged sentence: 
+[('Housing', 'VBG'), ('bust', 'NN'), ('mysteries', 'NNS'), ('revealed', 'VBD'), ('Receive', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('4', 'CD'), ('rate', 'NN'), ('quotes', 'VBZ'), ('fast', 'RB'), ('&gt', 'JJ'), (';', ':'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Venice', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co.', 'NNP'), ('exec', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Housing/VBG   bust/NN   mysteries/NNS   revealed/VBD   (PERSON Receive/NNP)   up/IN   to/TO   4/CD   rate/NN   quotes/VBZ   fast/RB   &gt/JJ   ;/:   (GPE Los/NNP Angeles/NNP)   Venice/NNP   Walt/NNP   Disney/NNP   Co./NNP   exec/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Housing/VBG bust/NN mysteries/NNS)
+	(VERB revealed/VBD Receive/NNP up/IN)
+	(VERB quotes/VBZ fast/RB &gt/JJ)
+noun phrases to consider:
+	(NOUN 4/CD rate/NN)
+	(NOUN Los/NNP Angeles/NNP Venice/NNP Walt/NNP)
+	(NOUN Disney/NNP Co./NNP exec/NN)
+
+----------------------------------
+original sentence: 
+acquires 3BD home
+John G. Tabis and Kelly L. Tabis bought a three bedroom, 2.5 bath home at 665 Washington Blvd.
+
+POS tagged sentence: 
+[('acquires', 'NNS'), ('3BD', 'VBP'), ('home', 'NN'), ('John', 'NNP'), ('G.', 'NNP'), ('Tabis', 'NNP'), ('and', 'CC'), ('Kelly', 'NNP'), ('L.', 'NNP'), ('Tabis', 'NNP'), ('bought', 'VBD'), ('a', 'DT'), ('three', 'CD'), ('bedroom', 'NN'), (',', ','), ('2.5', 'CD'), ('bath', 'NN'), ('home', 'NN'), ('at', 'IN'), ('665', 'CD'), ('Washington', 'NNP'), ('Blvd', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   acquires/NNS   3BD/VBP   home/NN   (PERSON John/NNP G./NNP Tabis/NNP)   and/CC   (PERSON Kelly/NNP L./NNP Tabis/NNP)   bought/VBD   a/DT   three/CD   bedroom/NN   ,/,   2.5/CD   bath/NN   home/NN   at/IN   665/CD   (GPE Washington/NNP Blvd/NNP)   ./.)
+----------------------------------
+original sentence: 
+in Venice from Jeremiah A. Kean Mayman for $762,500 on Feb. 5.
+
+POS tagged sentence: 
+[('in', 'IN'), ('Venice', 'NNP'), ('from', 'IN'), ('Jeremiah', 'NNP'), ('A.', 'NNP'), ('Kean', 'NNP'), ('Mayman', 'NNP'), ('for', 'IN'), ('$', '$'), ('762,500', 'CD'), ('on', 'IN'), ('Feb.', 'NNP'), ('5', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   in/IN   (GPE Venice/NNP)   from/IN   (PERSON Jeremiah/NNP A./NNP Kean/NNP Mayman/NNP)   for/IN   $/$   762,500/CD   on/IN   Feb./NNP   5/CD   ./.)
+----------------------------------
+original sentence: 
+Mayman bought Unit #210 for $248,000 in June 2005.
+
+POS tagged sentence: 
+[('Mayman', 'NNP'), ('bought', 'VBD'), ('Unit', 'NNP'), ('#', '#'), ('210', 'CD'), ('for', 'IN'), ('$', '$'), ('248,000', 'CD'), ('in', 'IN'), ('June', 'NNP'), ('2005', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mayman/NNP)   bought/VBD   (PERSON Unit/NNP)   #/#   210/CD   for/IN   $/$   248,000/CD   in/IN   June/NNP   2005/CD   ./.)
+----------------------------------
+original sentence: 
+The 1,752 square foot house was built in 1978.
+ is the corporate brand manager senior manager at The Walt Disney Co.
+Prior to this, he was the brand management consultant at Universal Music Group, account supervisor at Noble BBDS Chicago and an associate consultant at Bain & Co.
+
+POS tagged sentence: 
+[('The', 'DT'), ('1,752', 'CD'), ('square', 'NN'), ('foot', 'NN'), ('house', 'NN'), ('was', 'VBD'), ('built', 'VBN'), ('in', 'IN'), ('1978', 'CD'), ('.', '.'), ('is', 'VBZ'), ('the', 'DT'), ('corporate', 'JJ'), ('brand', 'NN'), ('manager', 'NN'), ('senior', 'JJ'), ('manager', 'NN'), ('at', 'IN'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Co', 'NNP'), ('.', '.'), ('Prior', 'NNP'), ('to', 'TO'), ('this', 'DT'), (',', ','), ('he', 'PRP'), ('was', 'VBD'), ('the', 'DT'), ('brand', 'NN'), ('management', 'NN'), ('consultant', 'NN'), ('at', 'IN'), ('Universal', 'NNP'), ('Music', 'NNP'), ('Group', 'NNP'), (',', ','), ('account', 'NN'), ('supervisor', 'NN'), ('at', 'IN'), ('Noble', 'NNP'), ('BBDS', 'NNP'), ('Chicago', 'NNP'), ('and', 'CC'), ('an', 'DT'), ('associate', 'NN'), ('consultant', 'NN'), ('at', 'IN'), ('Bain', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   1,752/CD   square/NN   foot/NN   house/NN   was/VBD   built/VBN   in/IN   1978/CD   ./.   is/VBZ   the/DT   corporate/JJ   brand/NN   manager/NN   senior/JJ   manager/NN   at/IN   (FACILITY The/DT Walt/NNP Disney/NNP Co/NNP)   ./.   Prior/NNP   to/TO   this/DT   ,/,   he/PRP   was/VBD   the/DT   brand/NN   management/NN   consultant/NN   at/IN   (ORGANIZATION Universal/NNP Music/NNP Group/NNP)   ,/,   account/NN   supervisor/NN   at/IN   (ORGANIZATION Noble/NNP)   BBDS/NNP   Chicago/NNP   and/CC   an/DT   associate/NN   consultant/NN   at/IN   (ORGANIZATION Bain/NNP)   &/CC   Co/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD built/VBN in/IN 1978/CD)
+	(VERB   is/VBZ   the/DT   corporate/JJ   brand/NN   manager/NN   senior/JJ   manager/NN   at/IN   The/DT   Walt/NNP   Disney/NNP   Co/NNP)
+	(VERB   was/VBD   the/DT   brand/NN   management/NN   consultant/NN   at/IN   Universal/NNP   Music/NNP   Group/NNP)
+noun phrases to consider:
+	(NOUN 1,752/CD square/NN foot/NN house/NN)
+	(NOUN Prior/NNP)
+	(NOUN account/NN supervisor/NN)
+	(NOUN Noble/NNP BBDS/NNP Chicago/NNP)
+	(NOUN associate/NN consultant/NN)
+	(NOUN Bain/NNP)
+	(NOUN Co/NNP)
+
+----------------------------------
+original sentence: 
+He attended the University of Notre Dame and UCLA.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('attended', 'VBD'), ('the', 'DT'), ('University', 'NNP'), ('of', 'IN'), ('Notre', 'NNP'), ('Dame', 'NNP'), ('and', 'CC'), ('UCLA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   attended/VBD   the/DT   (ORGANIZATION University/NNP)   of/IN   (PERSON Notre/NNP Dame/NNP)   and/CC   (ORGANIZATION UCLA/NNP)   ./.)
+----------------------------------
+original sentence: 
+, there have been 251 home sales in  during the past 12 months, with a median sales price of $830,000.
+
+POS tagged sentence: 
+[(',', ','), ('there', 'EX'), ('have', 'VBP'), ('been', 'VBN'), ('251', 'CD'), ('home', 'NN'), ('sales', 'NNS'), ('in', 'IN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('12', 'CD'), ('months', 'NNS'), (',', ','), ('with', 'IN'), ('a', 'DT'), ('median', 'JJ'), ('sales', 'NNS'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('830,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   ,/,   there/EX   have/VBP   been/VBN   251/CD   home/NN   sales/NNS   in/IN   during/IN   the/DT   past/JJ   12/CD   months/NNS   ,/,   with/IN   a/DT   median/JJ   sales/NNS   price/NN   of/IN   $/$   830,000/CD   ./.)
+----------------------------------
+original sentence: 
+665 Washington Boulevard, Unit: 210
+
+John G Tabis and Kelly L Tabis
+
+
+Jeremiah A Kean Mayman
+
+
+Scenes from Venice 
+More news from
+Los Angeles Venice:
+
+
+Sunset Strip Realty
+
+2 Mahealani Dominguez
+
+Sotheby's International Realty
+
+3 Richard Schulman
+
+Keller Williams Realty Westside
+
+
+Keller Williams Realty
+
+
+Keller Williams Realty 
+A local marketing option that works for real estate agents.
+
+POS tagged sentence: 
+[('665', 'CD'), ('Washington', 'NNP'), ('Boulevard', 'NNP'), (',', ','), ('Unit', 'NNP'), (':', ':'), ('210', 'CD'), ('John', 'NNP'), ('G', 'NNP'), ('Tabis', 'NNP'), ('and', 'CC'), ('Kelly', 'NNP'), ('L', 'NNP'), ('Tabis', 'NNP'), ('Jeremiah', 'NNP'), ('A', 'NNP'), ('Kean', 'NNP'), ('Mayman', 'NNP'), ('Scenes', 'NNP'), ('from', 'IN'), ('Venice', 'NNP'), ('More', 'NNP'), ('news', 'NN'), ('from', 'IN'), ('Los', 'NNP'), ('Angeles', 'NNP'), ('Venice', 'NNP'), (':', ':'), ('Sunset', 'NNP'), ('Strip', 'NNP'), ('Realty', 'NNP'), ('2', 'CD'), ('Mahealani', 'NNP'), ('Dominguez', 'NNP'), ('Sotheby', 'NNP'), ("'s", 'POS'), ('International', 'NNP'), ('Realty', 'NNP'), ('3', 'CD'), ('Richard', 'NNP'), ('Schulman', 'NNP'), ('Keller', 'NNP'), ('Williams', 'NNP'), ('Realty', 'NNP'), ('Westside', 'NNP'), ('Keller', 'NNP'), ('Williams', 'NNP'), ('Realty', 'NNP'), ('Keller', 'NNP'), ('Williams', 'NNP'), ('Realty', 'NNP'), ('A', 'DT'), ('local', 'JJ'), ('marketing', 'NN'), ('option', 'NN'), ('that', 'WDT'), ('works', 'VBZ'), ('for', 'IN'), ('real', 'JJ'), ('estate', 'NN'), ('agents', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   665/CD   (GPE Washington/NNP Boulevard/NNP)   ,/,   (PERSON Unit/NNP)   :/:   210/CD   (PERSON John/NNP)   G/NNP   Tabis/NNP   and/CC   (PERSON Kelly/NNP)   L/NNP   Tabis/NNP   Jeremiah/NNP   A/NNP   Kean/NNP   Mayman/NNP   Scenes/NNP   from/IN   (ORGANIZATION Venice/NNP More/NNP)   news/NN   from/IN   (GPE Los/NNP Angeles/NNP)   Venice/NNP   :/:   (PERSON Sunset/NNP Strip/NNP)   Realty/NNP   2/CD   (PERSON Mahealani/NNP Dominguez/NNP Sotheby/NNP)   's/POS   (ORGANIZATION International/NNP)   Realty/NNP   3/CD   (PERSON     Richard/NNP     Schulman/NNP     Keller/NNP     Williams/NNP     Realty/NNP     Westside/NNP     Keller/NNP     Williams/NNP     Realty/NNP     Keller/NNP     Williams/NNP     Realty/NNP)   A/DT   local/JJ   marketing/NN   option/NN   that/WDT   works/VBZ   for/IN   real/JJ   estate/NN   agents/NNS   ./.)
+----------------------------------
+original sentence: 
+More BlockShopper:
+
+
+Copyright &copy; BlockShopper LLC.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('BlockShopper', 'NNP'), (':', ':'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('BlockShopper', 'NNP'), ('LLC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   BlockShopper/NNP   :/:   (PERSON Copyright/NNP &copy/NNP)   ;/:   (ORGANIZATION BlockShopper/NNP)   LLC/NNP   ./.)
+----------------------------------
+original sentence: 
+&middot;
+
+Sign up for Active Agent
+
+
+POS tagged sentence: 
+[('&middot', 'JJ'), (';', ':'), ('Sign', 'NNP'), ('up', 'IN'), ('for', 'IN'), ('Active', 'JJ'), ('Agent', 'NNP')]
+
+
+ERTAGGED sentence: (S &middot/JJ ;/: Sign/NNP up/IN for/IN (PERSON Active/JJ Agent/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

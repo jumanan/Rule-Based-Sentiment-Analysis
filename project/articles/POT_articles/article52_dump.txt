@@ -1,0 +1,668 @@
+
+----------------------------------
+original sentence: 
+Did The Market Flush Out The Weak Handed Shorts?
+
+POS tagged sentence: 
+[('Did', 'NNP'), ('The', 'DT'), ('Market', 'NNP'), ('Flush', 'NNP'), ('Out', 'NNP'), ('The', 'NNP'), ('Weak', 'NNP'), ('Handed', 'NNP'), ('Shorts', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Did/NNP   The/DT   (ORGANIZATION Market/NNP Flush/NNP)   Out/NNP   The/NNP   (ORGANIZATION Weak/NNP Handed/NNP Shorts/NNP)   ?/.)
+----------------------------------
+original sentence: 
+NYSE:SPY , NYSE:POT , NYSE:GS , NASDAQ:AAPL InTheMoneyStocks
+Institutional Investor
+Individual Premium Services
+Intra Day Stock Chat
+Education, Seminars, Webinars
+Individual Consulting
+Institutional Consulting
+ includes all below Daily Analysis Videos
+Daily Market Reports
+Pro Trader Watch List
+Weekly Market Report
+Economic & Earnings Alerts
+Premium Technical Video Archive
+Premium Market Report Archive
+Premium Hot Charts Archive
+Preferred Forex Broker
+Preferred Stock Broker
+Preferred Futures Broker
+"Thank you for the gold play.
+
+POS tagged sentence: 
+[('NYSE', 'NNP'), (':', ':'), ('SPY', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), ('InTheMoneyStocks', 'NNP'), ('Institutional', 'NNP'), ('Investor', 'NNP'), ('Individual', 'NNP'), ('Premium', 'NNP'), ('Services', 'NNPS'), ('Intra', 'NNP'), ('Day', 'NNP'), ('Stock', 'NNP'), ('Chat', 'NNP'), ('Education', 'NNP'), (',', ','), ('Seminars', 'NNP'), (',', ','), ('Webinars', 'NNP'), ('Individual', 'NNP'), ('Consulting', 'NNP'), ('Institutional', 'NNP'), ('Consulting', 'NNP'), ('includes', 'VBZ'), ('all', 'DT'), ('below', 'IN'), ('Daily', 'NNP'), ('Analysis', 'NNP'), ('Videos', 'NNP'), ('Daily', 'NNP'), ('Market', 'NNP'), ('Reports', 'NNP'), ('Pro', 'NNP'), ('Trader', 'NNP'), ('Watch', 'NNP'), ('List', 'NNP'), ('Weekly', 'NNP'), ('Market', 'NNP'), ('Report', 'NNP'), ('Economic', 'NNP'), ('&', 'CC'), ('Earnings', 'NNP'), ('Alerts', 'NNP'), ('Premium', 'NNP'), ('Technical', 'NNP'), ('Video', 'NNP'), ('Archive', 'NNP'), ('Premium', 'NNP'), ('Market', 'NNP'), ('Report', 'NNP'), ('Archive', 'NNP'), ('Premium', 'NNP'), ('Hot', 'NNP'), ('Charts', 'NNP'), ('Archive', 'NNP'), ('Preferred', 'NNP'), ('Forex', 'NNP'), ('Broker', 'NNP'), ('Preferred', 'NNP'), ('Stock', 'NNP'), ('Broker', 'NNP'), ('Preferred', 'NNP'), ('Futures', 'NNP'), ('Broker', 'NNP'), ('"', 'NNP'), ('Thank', 'NNP'), ('you', 'PRP'), ('for', 'IN'), ('the', 'DT'), ('gold', 'NN'), ('play', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   NYSE/NNP   :/:   SPY/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   POT/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   GS/NNP   ,/,   (ORGANIZATION NASDAQ/NNP)   :/:   (ORGANIZATION AAPL/NNP)   (ORGANIZATION InTheMoneyStocks/NNP Institutional/NNP)   Investor/NNP   Individual/NNP   Premium/NNP   Services/NNPS   Intra/NNP   Day/NNP   Stock/NNP   Chat/NNP   Education/NNP   ,/,   (PERSON Seminars/NNP)   ,/,   (PERSON Webinars/NNP Individual/NNP Consulting/NNP)   Institutional/NNP   Consulting/NNP   includes/VBZ   all/DT   below/IN   (PERSON     Daily/NNP     Analysis/NNP     Videos/NNP     Daily/NNP     Market/NNP     Reports/NNP     Pro/NNP     Trader/NNP     Watch/NNP     List/NNP     Weekly/NNP     Market/NNP     Report/NNP     Economic/NNP)   &/CC   (PERSON     Earnings/NNP     Alerts/NNP     Premium/NNP     Technical/NNP     Video/NNP     Archive/NNP     Premium/NNP     Market/NNP     Report/NNP     Archive/NNP     Premium/NNP     Hot/NNP     Charts/NNP     Archive/NNP)   Preferred/NNP   Forex/NNP   (PERSON Broker/NNP Preferred/NNP Stock/NNP Broker/NNP)   Preferred/NNP   (PERSON Futures/NNP Broker/NNP)   "/NNP   Thank/NNP   you/PRP   for/IN   the/DT   gold/NN   play/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   includes/VBZ   all/DT   below/IN   Daily/NNP   Analysis/NNP   Videos/NNP   Daily/NNP   Market/NNP   Reports/NNP   Pro/NNP   Trader/NNP   Watch/NNP   List/NNP   Weekly/NNP   Market/NNP   Report/NNP   Economic/NNP)
+noun phrases to consider:
+	(NOUN NYSE/NNP)
+	(NOUN SPY/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN POT/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN NASDAQ/NNP)
+	(NOUN AAPL/NNP InTheMoneyStocks/NNP Institutional/NNP Investor/NNP)
+	(NOUN Individual/NNP Premium/NNP Services/NNPS Intra/NNP)
+	(NOUN Day/NNP Stock/NNP Chat/NNP Education/NNP)
+	(NOUN Seminars/NNP)
+	(NOUN Webinars/NNP Individual/NNP Consulting/NNP Institutional/NNP)
+	(NOUN Consulting/NNP)
+	(NOUN Earnings/NNP Alerts/NNP Premium/NNP Technical/NNP)
+	(NOUN Video/NNP Archive/NNP Premium/NNP Market/NNP)
+	(NOUN Report/NNP Archive/NNP Premium/NNP Hot/NNP)
+	(NOUN Charts/NNP Archive/NNP Preferred/NNP Forex/NNP)
+	(NOUN Broker/NNP Preferred/NNP Stock/NNP Broker/NNP)
+	(NOUN Preferred/NNP Futures/NNP Broker/NNP "/NNP)
+	(NOUN Thank/NNP)
+	(NOUN gold/NN play/NN)
+
+----------------------------------
+original sentence: 
+Grabbed 30cents early profits in the DGP"
+ Did The Market Flush Out The Weak Handed Shorts?
+
+POS tagged sentence: 
+[('Grabbed', 'NNP'), ('30cents', 'NNS'), ('early', 'RB'), ('profits', 'VBZ'), ('in', 'IN'), ('the', 'DT'), ('DGP', 'NNP'), ('"', 'NNP'), ('Did', 'NNP'), ('The', 'NNP'), ('Market', 'NNP'), ('Flush', 'NNP'), ('Out', 'NNP'), ('The', 'NNP'), ('Weak', 'NNP'), ('Handed', 'NNP'), ('Shorts', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Grabbed/NNP)   30cents/NNS   early/RB   profits/VBZ   in/IN   the/DT   DGP/NNP   "/NNP   Did/NNP   The/NNP   (PERSON Market/NNP Flush/NNP)   Out/NNP   The/NNP   (ORGANIZATION Weak/NNP Handed/NNP Shorts/NNP)   ?/.)
+----------------------------------
+original sentence: 
+NYSE:SPY , NYSE:POT , NYSE:GS , NASDAQ:AAPL  By Gareth Soloway on March 12th, 2010 12:02pm Eastern Time  As I research the markets day after day, I find some interesting technical signals and signs recurring.
+
+POS tagged sentence: 
+[('NYSE', 'NNP'), (':', ':'), ('SPY', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), (',', ','), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), ('By', 'NNP'), ('Gareth', 'NNP'), ('Soloway', 'NNP'), ('on', 'IN'), ('March', 'NNP'), ('12th', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('02pm', 'CD'), ('Eastern', 'NNP'), ('Time', 'NNP'), ('As', 'NNP'), ('I', 'NNP'), ('research', 'NN'), ('the', 'DT'), ('markets', 'NNS'), ('day', 'NN'), ('after', 'IN'), ('day', 'NN'), (',', ','), ('I', 'PRP'), ('find', 'VBP'), ('some', 'DT'), ('interesting', 'JJ'), ('technical', 'JJ'), ('signals', 'NNS'), ('and', 'CC'), ('signs', 'NNS'), ('recurring', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   NYSE/NNP   :/:   SPY/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   POT/NNP   ,/,   (ORGANIZATION NYSE/NNP)   :/:   GS/NNP   ,/,   (ORGANIZATION NASDAQ/NNP)   :/:   AAPL/NNP   By/NNP   (PERSON Gareth/NNP Soloway/NNP)   on/IN   March/NNP   12th/CD   ,/,   2010/CD   12/CD   :/:   02pm/CD   (FACILITY Eastern/NNP Time/NNP)   As/NNP   I/NNP   research/NN   the/DT   markets/NNS   day/NN   after/IN   day/NN   ,/,   I/PRP   find/VBP   some/DT   interesting/JJ   technical/JJ   signals/NNS   and/CC   signs/NNS   recurring/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB find/VBP some/DT interesting/JJ technical/JJ signals/NNS)
+	(VERB recurring/VBG)
+noun phrases to consider:
+	(NOUN NYSE/NNP)
+	(NOUN SPY/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN POT/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN NASDAQ/NNP)
+	(NOUN AAPL/NNP By/NNP Gareth/NNP Soloway/NNP)
+	(NOUN March/NNP)
+	(NOUN 02pm/CD Eastern/NNP Time/NNP As/NNP I/NNP)
+	(NOUN research/NN)
+	(NOUN markets/NNS day/NN)
+	(NOUN day/NN)
+	(NOUN signs/NNS)
+
+----------------------------------
+original sentence: 
+One that I mentioned recently was in relation to the previous 52 week high on the SPDR S&P 500 ETF NYSE:SPY .
+
+POS tagged sentence: 
+[('One', 'CD'), ('that', 'WDT'), ('I', 'PRP'), ('mentioned', 'VBD'), ('recently', 'RB'), ('was', 'VBD'), ('in', 'IN'), ('relation', 'NN'), ('to', 'TO'), ('the', 'DT'), ('previous', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('SPDR', 'NNP'), ('S&P', 'NNP'), ('500', 'CD'), ('ETF', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SPY', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   that/WDT   I/PRP   mentioned/VBD   recently/RB   was/VBD   in/IN   relation/NN   to/TO   the/DT   previous/JJ   52/CD   week/NN   high/JJ   on/IN   the/DT   (ORGANIZATION SPDR/NNP)   S&P/NNP   500/CD   (ORGANIZATION ETF/NNP)   NYSE/NNP   :/:   SPY/NNP   ./.)
+----------------------------------
+original sentence: 
+The previous 52 week high was $115.14, until it was taken out over the last few days.
+
+POS tagged sentence: 
+[('The', 'DT'), ('previous', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('was', 'VBD'), ('$', '$'), ('115.14', 'CD'), (',', ','), ('until', 'IN'), ('it', 'PRP'), ('was', 'VBD'), ('taken', 'VBN'), ('out', 'RP'), ('over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('few', 'JJ'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   previous/JJ   52/CD   week/NN   high/JJ   was/VBD   $/$   115.14/CD   ,/,   until/IN   it/PRP   was/VBD   taken/VBN   out/RP   over/IN   the/DT   last/JJ   few/JJ   days/NNS   ./.)
+----------------------------------
+original sentence: 
+My previous thesis and call was that the institutions, seeing the markets hit the 52 week high of $115.14, would take the market through that level to approximately $116.00.
+
+POS tagged sentence: 
+[('My', 'PRP$'), ('previous', 'JJ'), ('thesis', 'NN'), ('and', 'CC'), ('call', 'NN'), ('was', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('institutions', 'NNS'), (',', ','), ('seeing', 'VBG'), ('the', 'DT'), ('markets', 'NNS'), ('hit', 'VBD'), ('the', 'DT'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('of', 'IN'), ('$', '$'), ('115.14', 'CD'), (',', ','), ('would', 'MD'), ('take', 'VB'), ('the', 'DT'), ('market', 'NN'), ('through', 'IN'), ('that', 'DT'), ('level', 'NN'), ('to', 'TO'), ('approximately', 'RB'), ('$', '$'), ('116.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   My/PRP$   previous/JJ   thesis/NN   and/CC   call/NN   was/VBD   that/IN   the/DT   institutions/NNS   ,/,   seeing/VBG   the/DT   markets/NNS   hit/VBD   the/DT   52/CD   week/NN   high/JJ   of/IN   $/$   115.14/CD   ,/,   would/MD   take/VB   the/DT   market/NN   through/IN   that/DT   level/NN   to/TO   approximately/RB   $/$   116.00/CD   ./.)
+----------------------------------
+original sentence: 
+The reason for this theory is due to the weak handed amateur shorts in the market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('reason', 'NN'), ('for', 'IN'), ('this', 'DT'), ('theory', 'NN'), ('is', 'VBZ'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('weak', 'JJ'), ('handed', 'VBN'), ('amateur', 'NN'), ('shorts', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   reason/NN   for/IN   this/DT   theory/NN   is/VBZ   due/JJ   to/TO   the/DT   weak/JJ   handed/VBN   amateur/NN   shorts/NNS   in/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+When any major stock or market hits a key major resistance level, amateurs and pros will sell or short it.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('any', 'DT'), ('major', 'JJ'), ('stock', 'NN'), ('or', 'CC'), ('market', 'NN'), ('hits', 'NNS'), ('a', 'DT'), ('key', 'JJ'), ('major', 'JJ'), ('resistance', 'NN'), ('level', 'NN'), (',', ','), ('amateurs', 'NNS'), ('and', 'CC'), ('pros', 'NNS'), ('will', 'MD'), ('sell', 'VB'), ('or', 'CC'), ('short', 'JJ'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   any/DT   major/JJ   stock/NN   or/CC   market/NN   hits/NNS   a/DT   key/JJ   major/JJ   resistance/NN   level/NN   ,/,   amateurs/NNS   and/CC   pros/NNS   will/MD   sell/VB   or/CC   short/JJ   it/PRP   ./.)
+----------------------------------
+original sentence: 
+That creates the key resistance at that level and the reason for the markets to stall.
+
+POS tagged sentence: 
+[('That', 'DT'), ('creates', 'VBZ'), ('the', 'DT'), ('key', 'NN'), ('resistance', 'NN'), ('at', 'IN'), ('that', 'DT'), ('level', 'NN'), ('and', 'CC'), ('the', 'DT'), ('reason', 'NN'), ('for', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('to', 'TO'), ('stall', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   creates/VBZ   the/DT   key/NN   resistance/NN   at/IN   that/DT   level/NN   and/CC   the/DT   reason/NN   for/IN   the/DT   markets/NNS   to/TO   stall/VB   ./.)
+----------------------------------
+original sentence: 
+The key is to understand the institutional money and realize they will push the market through this level to scare the amateur shorts out of the market, grabbing their money.
+
+POS tagged sentence: 
+[('The', 'DT'), ('key', 'JJ'), ('is', 'VBZ'), ('to', 'TO'), ('understand', 'VB'), ('the', 'DT'), ('institutional', 'JJ'), ('money', 'NN'), ('and', 'CC'), ('realize', 'VB'), ('they', 'PRP'), ('will', 'MD'), ('push', 'VB'), ('the', 'DT'), ('market', 'NN'), ('through', 'IN'), ('this', 'DT'), ('level', 'NN'), ('to', 'TO'), ('scare', 'VB'), ('the', 'DT'), ('amateur', 'NN'), ('shorts', 'NNS'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), (',', ','), ('grabbing', 'VBG'), ('their', 'PRP$'), ('money', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   key/JJ   is/VBZ   to/TO   understand/VB   the/DT   institutional/JJ   money/NN   and/CC   realize/VB   they/PRP   will/MD   push/VB   the/DT   market/NN   through/IN   this/DT   level/NN   to/TO   scare/VB   the/DT   amateur/NN   shorts/NNS   out/IN   of/IN   the/DT   market/NN   ,/,   grabbing/VBG   their/PRP$   money/NN   ./.)
+----------------------------------
+original sentence: 
+When the $115.14 level was hit, traders shorted the market.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('the', 'DT'), ('$', '$'), ('115.14', 'CD'), ('level', 'NN'), ('was', 'VBD'), ('hit', 'VBN'), (',', ','), ('traders', 'NNS'), ('shorted', 'VBD'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   the/DT   $/$   115.14/CD   level/NN   was/VBD   hit/VBN   ,/,   traders/NNS   shorted/VBD   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Sure enough, the market was driven higher today, jumping to $116.00.
+
+POS tagged sentence: 
+[('Sure', 'RB'), ('enough', 'RB'), (',', ','), ('the', 'DT'), ('market', 'NN'), ('was', 'VBD'), ('driven', 'VBN'), ('higher', 'JJR'), ('today', 'NN'), (',', ','), ('jumping', 'VBG'), ('to', 'TO'), ('$', '$'), ('116.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sure/RB   enough/RB   ,/,   the/DT   market/NN   was/VBD   driven/VBN   higher/JJR   today/NN   ,/,   jumping/VBG   to/TO   $/$   116.00/CD   ./.)
+----------------------------------
+original sentence: 
+Once the weak hands are out, the market can then fall and institutions bank even more money.
+
+POS tagged sentence: 
+[('Once', 'RB'), ('the', 'DT'), ('weak', 'JJ'), ('hands', 'NNS'), ('are', 'VBP'), ('out', 'IN'), (',', ','), ('the', 'DT'), ('market', 'NN'), ('can', 'MD'), ('then', 'RB'), ('fall', 'VB'), ('and', 'CC'), ('institutions', 'NNS'), ('bank', 'NN'), ('even', 'RB'), ('more', 'RBR'), ('money', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Once/RB   the/DT   weak/JJ   hands/NNS   are/VBP   out/IN   ,/,   the/DT   market/NN   can/MD   then/RB   fall/VB   and/CC   institutions/NNS   bank/NN   even/RB   more/RBR   money/NN   ./.)
+----------------------------------
+original sentence: 
+This is a sad but true fact of the markets.
+
+POS tagged sentence: 
+[('This', 'DT'), ('is', 'VBZ'), ('a', 'DT'), ('sad', 'JJ'), ('but', 'CC'), ('true', 'JJ'), ('fact', 'NN'), ('of', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   is/VBZ   a/DT   sad/JJ   but/CC   true/JJ   fact/NN   of/IN   the/DT   markets/NNS   ./.)
+----------------------------------
+original sentence: 
+We must all understand the game.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('must', 'MD'), ('all', 'VB'), ('understand', 'NN'), ('the', 'DT'), ('game', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S We/PRP must/MD all/VB understand/NN the/DT game/NN ./.)
+----------------------------------
+original sentence: 
+I said to my premium subscribers in last nights Research Center video that I would look for the markets to go to $116.00.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('said', 'VBD'), ('to', 'TO'), ('my', 'PRP$'), ('premium', 'NN'), ('subscribers', 'NNS'), ('in', 'IN'), ('last', 'JJ'), ('nights', 'NNS'), ('Research', 'NNP'), ('Center', 'NNP'), ('video', 'NN'), ('that', 'WDT'), ('I', 'PRP'), ('would', 'MD'), ('look', 'VB'), ('for', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('to', 'TO'), ('go', 'VB'), ('to', 'TO'), ('$', '$'), ('116.00', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   said/VBD   to/TO   my/PRP$   premium/NN   subscribers/NNS   in/IN   last/JJ   nights/NNS   (PERSON Research/NNP Center/NNP)   video/NN   that/WDT   I/PRP   would/MD   look/VB   for/IN   the/DT   markets/NNS   to/TO   go/VB   to/TO   $/$   116.00/CD   ./.)
+----------------------------------
+original sentence: 
+Sure enough, that is the high range of the day.
+
+POS tagged sentence: 
+[('Sure', 'RB'), ('enough', 'RB'), (',', ','), ('that', 'IN'), ('is', 'VBZ'), ('the', 'DT'), ('high', 'JJ'), ('range', 'NN'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sure/RB   enough/RB   ,/,   that/IN   is/VBZ   the/DT   high/JJ   range/NN   of/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Since then, the markets have faded beautifully.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('then', 'RB'), (',', ','), ('the', 'DT'), ('markets', 'NNS'), ('have', 'VBP'), ('faded', 'VBN'), ('beautifully', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   then/RB   ,/,   the/DT   markets/NNS   have/VBP   faded/VBN   beautifully/RB   ./.)
+----------------------------------
+original sentence: 
+Learn the game, profit from the game.
+
+POS tagged sentence: 
+[('Learn', 'NNP'), ('the', 'DT'), ('game', 'NN'), (',', ','), ('profit', 'NN'), ('from', 'IN'), ('the', 'DT'), ('game', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Learn/NNP the/DT game/NN ,/, profit/NN from/IN the/DT game/NN ./.)
+----------------------------------
+original sentence: 
+The markets today are hovering flat, after a gap higher.
+
+POS tagged sentence: 
+[('The', 'DT'), ('markets', 'NNS'), ('today', 'NN'), ('are', 'VBP'), ('hovering', 'VBG'), ('flat', 'JJ'), (',', ','), ('after', 'IN'), ('a', 'DT'), ('gap', 'NN'), ('higher', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   markets/NNS   today/NN   are/VBP   hovering/VBG   flat/JJ   ,/,   after/IN   a/DT   gap/NN   higher/RBR   ./.)
+----------------------------------
+original sentence: 
+The gap higher came on the back of 8:30am ET Retail Sales numbers that were slightly better than expected.
+
+POS tagged sentence: 
+[('The', 'DT'), ('gap', 'NN'), ('higher', 'JJR'), ('came', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('back', 'NN'), ('of', 'IN'), ('8', 'CD'), (':', ':'), ('30am', 'CD'), ('ET', 'NNP'), ('Retail', 'NNP'), ('Sales', 'NNP'), ('numbers', 'NNS'), ('that', 'WDT'), ('were', 'VBD'), ('slightly', 'RB'), ('better', 'RBR'), ('than', 'IN'), ('expected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   gap/NN   higher/JJR   came/VBD   on/IN   the/DT   back/NN   of/IN   8/CD   :/:   30am/CD   ET/NNP   Retail/NNP   Sales/NNP   numbers/NNS   that/WDT   were/VBD   slightly/RB   better/RBR   than/IN   expected/VBN   ./.)
+----------------------------------
+original sentence: 
+As soon as the market opened, it dumped.
+
+POS tagged sentence: 
+[('As', 'IN'), ('soon', 'RB'), ('as', 'IN'), ('the', 'DT'), ('market', 'NN'), ('opened', 'VBD'), (',', ','), ('it', 'PRP'), ('dumped', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   soon/RB   as/IN   the/DT   market/NN   opened/VBD   ,/,   it/PRP   dumped/VBD   ./.)
+----------------------------------
+original sentence: 
+The selling continued on some poor consumer sentiment numbers.
+
+POS tagged sentence: 
+[('The', 'DT'), ('selling', 'NN'), ('continued', 'VBD'), ('on', 'IN'), ('some', 'DT'), ('poor', 'JJ'), ('consumer', 'NN'), ('sentiment', 'NN'), ('numbers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   selling/NN   continued/VBD   on/IN   some/DT   poor/JJ   consumer/NN   sentiment/NN   numbers/NNS   ./.)
+----------------------------------
+original sentence: 
+The University of Michigan index came in less than expected.
+
+POS tagged sentence: 
+[('The', 'DT'), ('University', 'NNP'), ('of', 'IN'), ('Michigan', 'NNP'), ('index', 'NN'), ('came', 'VBD'), ('in', 'IN'), ('less', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION University/NNP)   of/IN   (GPE Michigan/NNP)   index/NN   came/VBD   in/IN   less/JJR   than/IN   expected/VBN   ./.)
+----------------------------------
+original sentence: 
+The markets sold from a high of the day on the SPY at $115.97, all the way to a low of $115.14.
+
+POS tagged sentence: 
+[('The', 'DT'), ('markets', 'NNS'), ('sold', 'VBD'), ('from', 'IN'), ('a', 'DT'), ('high', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), ('on', 'IN'), ('the', 'DT'), ('SPY', 'NNP'), ('at', 'IN'), ('$', '$'), ('115.97', 'CD'), (',', ','), ('all', 'DT'), ('the', 'DT'), ('way', 'NN'), ('to', 'TO'), ('a', 'DT'), ('low', 'JJ'), ('of', 'IN'), ('$', '$'), ('115.14', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   markets/NNS   sold/VBD   from/IN   a/DT   high/JJ   of/IN   the/DT   day/NN   on/IN   the/DT   (ORGANIZATION SPY/NNP)   at/IN   $/$   115.97/CD   ,/,   all/DT   the/DT   way/NN   to/TO   a/DT   low/JJ   of/IN   $/$   115.14/CD   ./.)
+----------------------------------
+original sentence: 
+Notice the number of the low of the day?
+
+POS tagged sentence: 
+[('Notice', 'NNP'), ('the', 'DT'), ('number', 'NN'), ('of', 'IN'), ('the', 'DT'), ('low', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('day', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Notice/NNP   the/DT   number/NN   of/IN   the/DT   low/JJ   of/IN   the/DT   day/NN   ?/.)
+----------------------------------
+original sentence: 
+Yes, the previous 52 week high.
+
+POS tagged sentence: 
+[('Yes', 'NNS'), (',', ','), ('the', 'DT'), ('previous', 'JJ'), ('52', 'CD'), ('week', 'NN'), ('high', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Yes/NNS ,/, the/DT previous/JJ 52/CD week/NN high/JJ ./.)
+----------------------------------
+original sentence: 
+Poetic in many ways.
+
+POS tagged sentence: 
+[('Poetic', 'JJ'), ('in', 'IN'), ('many', 'JJ'), ('ways', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Poetic/JJ) in/IN many/JJ ways/NNS ./.)
+----------------------------------
+original sentence: 
+Since that low, the markets have gone sideways to higher, floating on extremely light Friday volume.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('that', 'DT'), ('low', 'JJ'), (',', ','), ('the', 'DT'), ('markets', 'NNS'), ('have', 'VBP'), ('gone', 'VBN'), ('sideways', 'NNS'), ('to', 'TO'), ('higher', 'JJR'), (',', ','), ('floating', 'VBG'), ('on', 'IN'), ('extremely', 'RB'), ('light', 'JJ'), ('Friday', 'NNP'), ('volume', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   that/DT   low/JJ   ,/,   the/DT   markets/NNS   have/VBP   gone/VBN   sideways/NNS   to/TO   higher/JJR   ,/,   floating/VBG   on/IN   extremely/RB   light/JJ   Friday/NNP   volume/NN   ./.)
+----------------------------------
+original sentence: 
+Potash Corp. Saskatchewan NYSE:POT gapped higher today on the back of comments from the company.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp.', 'NNP'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('gapped', 'VBD'), ('higher', 'JJR'), ('today', 'NN'), ('on', 'IN'), ('the', 'DT'), ('back', 'NN'), ('of', 'IN'), ('comments', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   Corp./NNP   Saskatchewan/NNP   NYSE/NNP   :/:   POT/NNP   gapped/VBD   higher/JJR   today/NN   on/IN   the/DT   back/NN   of/IN   comments/NNS   from/IN   the/DT   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   gapped/VBD   higher/JJR   today/NN   on/IN   the/DT   back/NN   of/IN   comments/NNS   from/IN   the/DT   company/NN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corp./NNP Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+
+----------------------------------
+original sentence: 
+They said their earnings would be higher for the first quarter.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('said', 'VBD'), ('their', 'PRP$'), ('earnings', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('higher', 'JJR'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   said/VBD   their/PRP$   earnings/NNS   would/MD   be/VB   higher/JJR   for/IN   the/DT   first/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Potash Corp. stated earnings would be in the range of $1.30 $1.50, well above the initial guidance of $0.70 $1.00 per share.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corp.', 'NNP'), ('stated', 'VBD'), ('earnings', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('in', 'IN'), ('the', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('1.30', 'CD'), ('$', '$'), ('1.50', 'CD'), (',', ','), ('well', 'RB'), ('above', 'IN'), ('the', 'DT'), ('initial', 'JJ'), ('guidance', 'NN'), ('of', 'IN'), ('$', '$'), ('0.70', 'CD'), ('$', '$'), ('1.00', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corp./NNP)   stated/VBD   earnings/NNS   would/MD   be/VB   in/IN   the/DT   range/NN   of/IN   $/$   1.30/CD   $/$   1.50/CD   ,/,   well/RB   above/IN   the/DT   initial/JJ   guidance/NN   of/IN   $/$   0.70/CD   $/$   1.00/CD   per/IN   share/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB stated/VBD earnings/NNS)
+	(VERB be/VB in/IN the/DT range/NN of/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN the/DT initial/JJ guidance/NN)
+	(NOUN share/NN)
+
+----------------------------------
+original sentence: 
+The stock soared almost 7% on the day.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('soared', 'VBD'), ('almost', 'RB'), ('7', 'CD'), ('%', 'NN'), ('on', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   soared/VBD   almost/RB   7/CD   %/NN   on/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+The financial sector is strong today and one of the main reasons the markets are holding flat on the day and not selling.
+
+POS tagged sentence: 
+[('The', 'DT'), ('financial', 'JJ'), ('sector', 'NN'), ('is', 'VBZ'), ('strong', 'JJ'), ('today', 'NN'), ('and', 'CC'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('main', 'JJ'), ('reasons', 'NNS'), ('the', 'DT'), ('markets', 'NNS'), ('are', 'VBP'), ('holding', 'VBG'), ('flat', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('day', 'NN'), ('and', 'CC'), ('not', 'RB'), ('selling', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   financial/JJ   sector/NN   is/VBZ   strong/JJ   today/NN   and/CC   one/CD   of/IN   the/DT   main/JJ   reasons/NNS   the/DT   markets/NNS   are/VBP   holding/VBG   flat/JJ   on/IN   the/DT   day/NN   and/CC   not/RB   selling/VBG   ./.)
+----------------------------------
+original sentence: 
+The key today seems to be Goldman Sachs Group, Inc. NYSE:GS .
+
+POS tagged sentence: 
+[('The', 'DT'), ('key', 'JJ'), ('today', 'NN'), ('seems', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   key/JJ   today/NN   seems/VBZ   to/TO   be/VB   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   GS/NNP   ./.)
+----------------------------------
+original sentence: 
+This stock is single handedly keeping the markets up.
+
+POS tagged sentence: 
+[('This', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('single', 'JJ'), ('handedly', 'RB'), ('keeping', 'VBG'), ('the', 'DT'), ('markets', 'NNS'), ('up', 'RP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   stock/NN   is/VBZ   single/JJ   handedly/RB   keeping/VBG   the/DT   markets/NNS   up/RP   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs is higher by 1.40% today.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('is', 'VBZ'), ('higher', 'JJR'), ('by', 'IN'), ('1.40', 'CD'), ('%', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (ORGANIZATION Sachs/NNP)   is/VBZ   higher/JJR   by/IN   1.40/CD   %/NN   today/NN   ./.)
+----------------------------------
+original sentence: 
+Another key to the markets holding flat is clearly Apple Inc. NASDAQ:AAPL .
+
+POS tagged sentence: 
+[('Another', 'DT'), ('key', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('markets', 'NNS'), ('holding', 'VBG'), ('flat', 'JJ'), ('is', 'VBZ'), ('clearly', 'RB'), ('Apple', 'NNP'), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Another/DT   key/JJ   to/TO   the/DT   markets/NNS   holding/VBG   flat/JJ   is/VBZ   clearly/RB   (PERSON Apple/NNP Inc./NNP)   NASDAQ/NNP   :/:   AAPL/NNP   ./.)
+----------------------------------
+original sentence: 
+The technology sector is not very strong today but Apple is making up for it.
+
+POS tagged sentence: 
+[('The', 'DT'), ('technology', 'NN'), ('sector', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('very', 'RB'), ('strong', 'JJ'), ('today', 'NN'), ('but', 'CC'), ('Apple', 'NNP'), ('is', 'VBZ'), ('making', 'VBG'), ('up', 'RP'), ('for', 'IN'), ('it', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   technology/NN   sector/NN   is/VBZ   not/RB   very/RB   strong/JJ   today/NN   but/CC   (PERSON Apple/NNP)   is/VBZ   making/VBG   up/RP   for/IN   it/PRP   ./.)
+----------------------------------
+original sentence: 
+The stock continues to hold most of its gains today up $1.36 to $226.86.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('continues', 'VBZ'), ('to', 'TO'), ('hold', 'VB'), ('most', 'JJS'), ('of', 'IN'), ('its', 'PRP$'), ('gains', 'NNS'), ('today', 'NN'), ('up', 'RB'), ('$', '$'), ('1.36', 'CD'), ('to', 'TO'), ('$', '$'), ('226.86', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   continues/VBZ   to/TO   hold/VB   most/JJS   of/IN   its/PRP$   gains/NNS   today/NN   up/RB   $/$   1.36/CD   to/TO   $/$   226.86/CD   ./.)
+----------------------------------
+original sentence: 
+Optimism over the release of the IPAD is still luring buyers into the stock.
+
+POS tagged sentence: 
+[('Optimism', 'NNP'), ('over', 'IN'), ('the', 'DT'), ('release', 'NN'), ('of', 'IN'), ('the', 'DT'), ('IPAD', 'NNP'), ('is', 'VBZ'), ('still', 'RB'), ('luring', 'VBG'), ('buyers', 'NNS'), ('into', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Optimism/NNP   over/IN   the/DT   release/NN   of/IN   the/DT   (ORGANIZATION IPAD/NNP)   is/VBZ   still/RB   luring/VBG   buyers/NNS   into/IN   the/DT   stock/NN   ./.)
+----------------------------------
+original sentence: 
+Both Goldman Sachs and Apple Computer are near term overbought and due for pullbacks.
+
+POS tagged sentence: 
+[('Both', 'DT'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('and', 'CC'), ('Apple', 'NNP'), ('Computer', 'NNP'), ('are', 'VBP'), ('near', 'IN'), ('term', 'NN'), ('overbought', 'NN'), ('and', 'CC'), ('due', 'JJ'), ('for', 'IN'), ('pullbacks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Both/DT   (ORGANIZATION Goldman/NNP Sachs/NNP)   and/CC   (PERSON Apple/NNP Computer/NNP)   are/VBP   near/IN   term/NN   overbought/NN   and/CC   due/JJ   for/IN   pullbacks/NNS   ./.)
+----------------------------------
+original sentence: 
+However, due to the light volume this may be hard to come by.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('light', 'NN'), ('volume', 'NN'), ('this', 'DT'), ('may', 'MD'), ('be', 'VB'), ('hard', 'RB'), ('to', 'TO'), ('come', 'VB'), ('by', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   due/JJ   to/TO   the/DT   light/NN   volume/NN   this/DT   may/MD   be/VB   hard/RB   to/TO   come/VB   by/IN   ./.)
+----------------------------------
+original sentence: 
+The last key to the market holding up today instead of selling hard is the dollar.
+
+POS tagged sentence: 
+[('The', 'DT'), ('last', 'JJ'), ('key', 'NN'), ('to', 'TO'), ('the', 'DT'), ('market', 'NN'), ('holding', 'VBG'), ('up', 'RP'), ('today', 'NN'), ('instead', 'RB'), ('of', 'IN'), ('selling', 'VBG'), ('hard', 'JJ'), ('is', 'VBZ'), ('the', 'DT'), ('dollar', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   last/JJ   key/NN   to/TO   the/DT   market/NN   holding/VBG   up/RP   today/NN   instead/RB   of/IN   selling/VBG   hard/JJ   is/VBZ   the/DT   dollar/NN   ./.)
+----------------------------------
+original sentence: 
+The dollar is getting hammered.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dollar', 'NN'), ('is', 'VBZ'), ('getting', 'VBG'), ('hammered', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT dollar/NN is/VBZ getting/VBG hammered/VBN ./.)
+----------------------------------
+original sentence: 
+As the dollar drops, bids come in the market.
+
+POS tagged sentence: 
+[('As', 'IN'), ('the', 'DT'), ('dollar', 'NN'), ('drops', 'NNS'), (',', ','), ('bids', 'NNS'), ('come', 'VBP'), ('in', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   the/DT   dollar/NN   drops/NNS   ,/,   bids/NNS   come/VBP   in/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+To understand this one must understand money flow and commodities in relation to the dollar.
+
+POS tagged sentence: 
+[('To', 'TO'), ('understand', 'VB'), ('this', 'DT'), ('one', 'CD'), ('must', 'MD'), ('understand', 'VB'), ('money', 'NN'), ('flow', 'NN'), ('and', 'CC'), ('commodities', 'NNS'), ('in', 'IN'), ('relation', 'NN'), ('to', 'TO'), ('the', 'DT'), ('dollar', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   understand/VB   this/DT   one/CD   must/MD   understand/VB   money/NN   flow/NN   and/CC   commodities/NNS   in/IN   relation/NN   to/TO   the/DT   dollar/NN   ./.)
+----------------------------------
+original sentence: 
+When money flows out of the dollar it looks for someplace else to go.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('money', 'NN'), ('flows', 'VBZ'), ('out', 'RP'), ('of', 'IN'), ('the', 'DT'), ('dollar', 'NN'), ('it', 'PRP'), ('looks', 'VBZ'), ('for', 'IN'), ('someplace', 'NN'), ('else', 'RB'), ('to', 'TO'), ('go', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   money/NN   flows/VBZ   out/RP   of/IN   the/DT   dollar/NN   it/PRP   looks/VBZ   for/IN   someplace/NN   else/RB   to/TO   go/VB   ./.)
+----------------------------------
+original sentence: 
+Someplace where returns will be decent.
+
+POS tagged sentence: 
+[('Someplace', 'NN'), ('where', 'WRB'), ('returns', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('decent', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Someplace/NN)   where/WRB   returns/NNS   will/MD   be/VB   decent/VBN   ./.)
+----------------------------------
+original sentence: 
+The answer to that is stocks.
+
+POS tagged sentence: 
+[('The', 'DT'), ('answer', 'NN'), ('to', 'TO'), ('that', 'DT'), ('is', 'VBZ'), ('stocks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S The/DT answer/NN to/TO that/DT is/VBZ stocks/NNS ./.)
+----------------------------------
+original sentence: 
+In addition, when the dollar drops, commodities must move higher to compensate.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('when', 'WRB'), ('the', 'DT'), ('dollar', 'NN'), ('drops', 'NNS'), (',', ','), ('commodities', 'NNS'), ('must', 'MD'), ('move', 'VB'), ('higher', 'JJR'), ('to', 'TO'), ('compensate', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   when/WRB   the/DT   dollar/NN   drops/NNS   ,/,   commodities/NNS   must/MD   move/VB   higher/JJR   to/TO   compensate/VB   ./.)
+----------------------------------
+original sentence: 
+As commodities jump, so do commodity stocks which are now a huge part of the S&P 500.
+
+POS tagged sentence: 
+[('As', 'IN'), ('commodities', 'NNS'), ('jump', 'VB'), (',', ','), ('so', 'RB'), ('do', 'VBP'), ('commodity', 'NN'), ('stocks', 'NNS'), ('which', 'WDT'), ('are', 'VBP'), ('now', 'RB'), ('a', 'DT'), ('huge', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   commodities/NNS   jump/VB   ,/,   so/RB   do/VBP   commodity/NN   stocks/NNS   which/WDT   are/VBP   now/RB   a/DT   huge/JJ   part/NN   of/IN   the/DT   S&P/NNP   500/CD   ./.)
+----------------------------------
+original sentence: 
+Therefore, this takes the markets up a little as well.
+
+POS tagged sentence: 
+[('Therefore', 'NNP'), (',', ','), ('this', 'DT'), ('takes', 'VBZ'), ('the', 'DT'), ('markets', 'NNS'), ('up', 'RP'), ('a', 'DT'), ('little', 'RB'), ('as', 'IN'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Therefore/NNP)   ,/,   this/DT   takes/VBZ   the/DT   markets/NNS   up/RP   a/DT   little/RB   as/IN   well/RB   ./.)
+----------------------------------
+original sentence: 
+Chief Market Strategist
+ InTheMoneyStocks.com
+All comments made by InTheMoneyStocks, LLC and its subsidiaries, instructors, and representatives are for educational and informational purposes only and should not be construed as investment advice regarding the purchase or sale of securities, or any other financial instrument of any kind.
+
+POS tagged sentence: 
+[('Chief', 'NN'), ('Market', 'NN'), ('Strategist', 'NNP'), ('InTheMoneyStocks.com', 'NNP'), ('All', 'NNP'), ('comments', 'VBZ'), ('made', 'VBN'), ('by', 'IN'), ('InTheMoneyStocks', 'NNP'), (',', ','), ('LLC', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('subsidiaries', 'NNS'), (',', ','), ('instructors', 'NNS'), (',', ','), ('and', 'CC'), ('representatives', 'NNS'), ('are', 'VBP'), ('for', 'IN'), ('educational', 'JJ'), ('and', 'CC'), ('informational', 'JJ'), ('purposes', 'NNS'), ('only', 'RB'), ('and', 'CC'), ('should', 'MD'), ('not', 'RB'), ('be', 'VB'), ('construed', 'VBN'), ('as', 'IN'), ('investment', 'NN'), ('advice', 'NN'), ('regarding', 'VBG'), ('the', 'DT'), ('purchase', 'NN'), ('or', 'CC'), ('sale', 'NN'), ('of', 'IN'), ('securities', 'NNS'), (',', ','), ('or', 'CC'), ('any', 'DT'), ('other', 'JJ'), ('financial', 'JJ'), ('instrument', 'NN'), ('of', 'IN'), ('any', 'DT'), ('kind', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Chief/NN)   (PERSON Market/NN Strategist/NNP)   InTheMoneyStocks.com/NNP   All/NNP   comments/VBZ   made/VBN   by/IN   (ORGANIZATION InTheMoneyStocks/NNP)   ,/,   (ORGANIZATION LLC/NNP)   and/CC   its/PRP$   subsidiaries/NNS   ,/,   instructors/NNS   ,/,   and/CC   representatives/NNS   are/VBP   for/IN   educational/JJ   and/CC   informational/JJ   purposes/NNS   only/RB   and/CC   should/MD   not/RB   be/VB   construed/VBN   as/IN   investment/NN   advice/NN   regarding/VBG   the/DT   purchase/NN   or/CC   sale/NN   of/IN   securities/NNS   ,/,   or/CC   any/DT   other/JJ   financial/JJ   instrument/NN   of/IN   any/DT   kind/NN   ./.)
+----------------------------------
+original sentence: 
+Please consult with your financial adviser before making an investment decision regarding any securities mentioned herein.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('consult', 'VBD'), ('with', 'IN'), ('your', 'PRP$'), ('financial', 'JJ'), ('adviser', 'NN'), ('before', 'IN'), ('making', 'VBG'), ('an', 'DT'), ('investment', 'NN'), ('decision', 'NN'), ('regarding', 'VBG'), ('any', 'DT'), ('securities', 'NNS'), ('mentioned', 'VBD'), ('herein', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   consult/VBD   with/IN   your/PRP$   financial/JJ   adviser/NN   before/IN   making/VBG   an/DT   investment/NN   decision/NN   regarding/VBG   any/DT   securities/NNS   mentioned/VBD   herein/NN   ./.)
+----------------------------------
+original sentence: 
+InTheMoneyStocks, LLC and its representatives assume no responsibility for your trading and investment results.
+
+POS tagged sentence: 
+[('InTheMoneyStocks', 'NNS'), (',', ','), ('LLC', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('representatives', 'NNS'), ('assume', 'NN'), ('no', 'DT'), ('responsibility', 'NN'), ('for', 'IN'), ('your', 'PRP$'), ('trading', 'NN'), ('and', 'CC'), ('investment', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   InTheMoneyStocks/NNS   ,/,   (ORGANIZATION LLC/NNP)   and/CC   its/PRP$   representatives/NNS   assume/NN   no/DT   responsibility/NN   for/IN   your/PRP$   trading/NN   and/CC   investment/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+All information on the website was obtained from sources believed to be reliable, but we do not warrant its completeness or accuracy, or warrant any results from the use of the information.
+
+POS tagged sentence: 
+[('All', 'DT'), ('information', 'NN'), ('on', 'IN'), ('the', 'DT'), ('website', 'JJ'), ('was', 'VBD'), ('obtained', 'VBN'), ('from', 'IN'), ('sources', 'NNS'), ('believed', 'VBD'), ('to', 'TO'), ('be', 'VB'), ('reliable', 'JJ'), (',', ','), ('but', 'CC'), ('we', 'PRP'), ('do', 'VBP'), ('not', 'RB'), ('warrant', 'VB'), ('its', 'PRP$'), ('completeness', 'NN'), ('or', 'CC'), ('accuracy', 'NN'), (',', ','), ('or', 'CC'), ('warrant', 'NN'), ('any', 'DT'), ('results', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('the', 'DT'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   information/NN   on/IN   the/DT   website/JJ   was/VBD   obtained/VBN   from/IN   sources/NNS   believed/VBD   to/TO   be/VB   reliable/JJ   ,/,   but/CC   we/PRP   do/VBP   not/RB   warrant/VB   its/PRP$   completeness/NN   or/CC   accuracy/NN   ,/,   or/CC   warrant/NN   any/DT   results/NNS   from/IN   the/DT   use/NN   of/IN   the/DT   information/NN   ./.)
+----------------------------------
+original sentence: 
+InTheMoneyStocks, LLC, its employees, representatives and affiliated individuals may have a position or effect transactions in the securities herein and or otherwise employ trading strategies that may be consistent or inconsistent with the provided strategies.
+
+POS tagged sentence: 
+[('InTheMoneyStocks', 'NNS'), (',', ','), ('LLC', 'NNP'), (',', ','), ('its', 'PRP$'), ('employees', 'NNS'), (',', ','), ('representatives', 'NNS'), ('and', 'CC'), ('affiliated', 'VBD'), ('individuals', 'NNS'), ('may', 'MD'), ('have', 'VB'), ('a', 'DT'), ('position', 'NN'), ('or', 'CC'), ('effect', 'NN'), ('transactions', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('securities', 'NNS'), ('herein', 'VBP'), ('and', 'CC'), ('or', 'CC'), ('otherwise', 'RB'), ('employ', 'JJ'), ('trading', 'NN'), ('strategies', 'NNS'), ('that', 'WDT'), ('may', 'MD'), ('be', 'VB'), ('consistent', 'JJ'), ('or', 'CC'), ('inconsistent', 'NN'), ('with', 'IN'), ('the', 'DT'), ('provided', 'VBN'), ('strategies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   InTheMoneyStocks/NNS   ,/,   (ORGANIZATION LLC/NNP)   ,/,   its/PRP$   employees/NNS   ,/,   representatives/NNS   and/CC   affiliated/VBD   individuals/NNS   may/MD   have/VB   a/DT   position/NN   or/CC   effect/NN   transactions/NNS   in/IN   the/DT   securities/NNS   herein/VBP   and/CC   or/CC   otherwise/RB   employ/JJ   trading/NN   strategies/NNS   that/WDT   may/MD   be/VB   consistent/JJ   or/CC   inconsistent/NN   with/IN   the/DT   provided/VBN   strategies/NNS   ./.)
+----------------------------------
+original sentence: 
+Trading of any type involves a very high degree of risk.
+
+POS tagged sentence: 
+[('Trading', 'NN'), ('of', 'IN'), ('any', 'DT'), ('type', 'NN'), ('involves', 'VBZ'), ('a', 'DT'), ('very', 'RB'), ('high', 'JJ'), ('degree', 'NN'), ('of', 'IN'), ('risk', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Trading/NN   of/IN   any/DT   type/NN   involves/VBZ   a/DT   very/RB   high/JJ   degree/NN   of/IN   risk/NN   ./.)
+----------------------------------
+original sentence: 
+Futures and Options trading are not suitable for all investors.
+
+POS tagged sentence: 
+[('Futures', 'NNS'), ('and', 'CC'), ('Options', 'NNS'), ('trading', 'NN'), ('are', 'VBP'), ('not', 'RB'), ('suitable', 'JJ'), ('for', 'IN'), ('all', 'DT'), ('investors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Futures/NNS   and/CC   Options/NNS   trading/NN   are/VBP   not/RB   suitable/JJ   for/IN   all/DT   investors/NNS   ./.)
+----------------------------------
+original sentence: 
+Past results are not indicative of future results.
+
+POS tagged sentence: 
+[('Past', 'JJ'), ('results', 'NNS'), ('are', 'VBP'), ('not', 'RB'), ('indicative', 'JJ'), ('of', 'IN'), ('future', 'JJ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Past/JJ)   results/NNS   are/VBP   not/RB   indicative/JJ   of/IN   future/JJ   results/NNS   ./.)
+----------------------------------
+original sentence: 
+InTheMoneyStocks, LLC, its subsidiaries and all affiliated individuals assume no responsibilities for your trading and investment results.
+
+POS tagged sentence: 
+[('InTheMoneyStocks', 'NNS'), (',', ','), ('LLC', 'NNP'), (',', ','), ('its', 'PRP$'), ('subsidiaries', 'NNS'), ('and', 'CC'), ('all', 'DT'), ('affiliated', 'VBN'), ('individuals', 'NNS'), ('assume', 'VBP'), ('no', 'DT'), ('responsibilities', 'NNS'), ('for', 'IN'), ('your', 'PRP$'), ('trading', 'NN'), ('and', 'CC'), ('investment', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   InTheMoneyStocks/NNS   ,/,   (ORGANIZATION LLC/NNP)   ,/,   its/PRP$   subsidiaries/NNS   and/CC   all/DT   affiliated/VBN   individuals/NNS   assume/VBP   no/DT   responsibilities/NNS   for/IN   your/PRP$   trading/NN   and/CC   investment/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+|  | Copyright 2007 2010. inthemoneystocks.com.
+
+POS tagged sentence: 
+[('|', 'NN'), ('|', '``'), ('Copyright', 'NNP'), ('2007', 'CD'), ('2010.', 'CD'), ('inthemoneystocks.com', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   |/NN   |/``   Copyright/NNP   2007/CD   2010./CD   inthemoneystocks.com/JJ   ./.)
+----------------------------------
+original sentence: 
+All rights reserved
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

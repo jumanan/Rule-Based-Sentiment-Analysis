@@ -1,0 +1,159 @@
+
+----------------------------------
+original sentence: 
+A post earnings checkup on Agrium Inc.; AGU, TRA, CF, POT
+ A post earnings checkup on Agrium Inc.; AGU, TRA, CF, POT  Wednesday, 10 March 2010 04:09 Earnings season can make investing tricky.
+
+POS tagged sentence: 
+[('A', 'DT'), ('post', 'NN'), ('earnings', 'NNS'), ('checkup', 'VBP'), ('on', 'IN'), ('Agrium', 'NNP'), ('Inc.', 'NNP'), (';', ':'), ('AGU', 'NNP'), (',', ','), ('TRA', 'NNP'), (',', ','), ('CF', 'NNP'), (',', ','), ('POT', 'NNP'), ('A', 'DT'), ('post', 'NN'), ('earnings', 'NNS'), ('checkup', 'VBP'), ('on', 'IN'), ('Agrium', 'NNP'), ('Inc.', 'NNP'), (';', ':'), ('AGU', 'NNP'), (',', ','), ('TRA', 'NNP'), (',', ','), ('CF', 'NNP'), (',', ','), ('POT', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('10', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('09', 'CD'), ('Earnings', 'NNS'), ('season', 'NN'), ('can', 'MD'), ('make', 'VB'), ('investing', 'NN'), ('tricky', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   post/NN   earnings/NNS   checkup/VBP   on/IN   (ORGANIZATION Agrium/NNP Inc./NNP)   ;/:   (ORGANIZATION AGU/NNP)   ,/,   (ORGANIZATION TRA/NNP)   ,/,   (ORGANIZATION CF/NNP)   ,/,   (ORGANIZATION POT/NNP)   A/DT   post/NN   earnings/NNS   checkup/VBP   on/IN   (ORGANIZATION Agrium/NNP Inc./NNP)   ;/:   (ORGANIZATION AGU/NNP)   ,/,   (ORGANIZATION TRA/NNP)   ,/,   (ORGANIZATION CF/NNP)   ,/,   (ORGANIZATION POT/NNP)   Wednesday/NNP   ,/,   10/CD   March/NNP   2010/CD   04/CD   :/:   09/CD   Earnings/NNS   season/NN   can/MD   make/VB   investing/NN   tricky/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB checkup/VBP on/IN Agrium/NNP Inc./NNP)
+	(VERB checkup/VBP on/IN Agrium/NNP Inc./NNP)
+	(VERB make/VB investing/NN tricky/NN)
+noun phrases to consider:
+	(NOUN post/NN earnings/NNS)
+	(NOUN AGU/NNP)
+	(NOUN TRA/NNP)
+	(NOUN CF/NNP)
+	(NOUN POT/NNP)
+	(NOUN post/NN earnings/NNS)
+	(NOUN AGU/NNP)
+	(NOUN TRA/NNP)
+	(NOUN CF/NNP)
+	(NOUN POT/NNP Wednesday/NNP)
+	(NOUN 10/CD March/NNP)
+	(NOUN 09/CD Earnings/NNS season/NN)
+
+----------------------------------
+original sentence: 
+Many investors try to time trades based on earnings announcements, but usually find such trading is inconsistent and risky.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('investors', 'NNS'), ('try', 'VBP'), ('to', 'TO'), ('time', 'VB'), ('trades', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('earnings', 'NNS'), ('announcements', 'NNS'), (',', ','), ('but', 'CC'), ('usually', 'RB'), ('find', 'VBP'), ('such', 'JJ'), ('trading', 'NN'), ('is', 'VBZ'), ('inconsistent', 'JJ'), ('and', 'CC'), ('risky', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   investors/NNS   try/VBP   to/TO   time/VB   trades/NNS   based/VBN   on/IN   earnings/NNS   announcements/NNS   ,/,   but/CC   usually/RB   find/VBP   such/JJ   trading/NN   is/VBZ   inconsistent/JJ   and/CC   risky/JJ   ./.)
+----------------------------------
+original sentence: 
+It is often better to take a look at how the market has reacted to a company‚Äôs results a few weeks after the initial announcement.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('often', 'RB'), ('better', 'RBR'), ('to', 'TO'), ('take', 'VB'), ('a', 'DT'), ('look', 'NN'), ('at', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('has', 'VBZ'), ('reacted', 'VBN'), ('to', 'TO'), ('a', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('results', 'NNS'), ('a', 'DT'), ('few', 'JJ'), ('weeks', 'NNS'), ('after', 'IN'), ('the', 'DT'), ('initial', 'JJ'), ('announcement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   often/RB   better/RBR   to/TO   take/VB   a/DT   look/NN   at/IN   how/WRB   the/DT   market/NN   has/VBZ   reacted/VBN   to/TO   a/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   results/NNS   a/DT   few/JJ   weeks/NNS   after/IN   the/DT   initial/JJ   announcement/NN   ./.)
+----------------------------------
+original sentence: 
+Agrium Inc. AGU released its earnings filing on 02/09.
+
+POS tagged sentence: 
+[('Agrium', 'NN'), ('Inc.', 'NNP'), ('AGU', 'NNP'), ('released', 'VBD'), ('its', 'PRP$'), ('earnings', 'NNS'), ('filing', 'VBG'), ('on', 'IN'), ('02/09', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Agrium/NN)   (ORGANIZATION Inc./NNP)   AGU/NNP   released/VBD   its/PRP$   earnings/NNS   filing/VBG   on/IN   02/09/CD   ./.)
+----------------------------------
+original sentence: 
+The company reported a change in quarter over quarter sales of 40.76% and posted an EPS trailing twelve months of 2.92.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('reported', 'VBD'), ('a', 'DT'), ('change', 'NN'), ('in', 'IN'), ('quarter', 'NN'), ('over', 'IN'), ('quarter', 'NN'), ('sales', 'NNS'), ('of', 'IN'), ('40.76', 'CD'), ('%', 'NN'), ('and', 'CC'), ('posted', 'VBD'), ('an', 'DT'), ('EPS', 'NNP'), ('trailing', 'NN'), ('twelve', 'VB'), ('months', 'NNS'), ('of', 'IN'), ('2.92', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   reported/VBD   a/DT   change/NN   in/IN   quarter/NN   over/IN   quarter/NN   sales/NNS   of/IN   40.76/CD   %/NN   and/CC   posted/VBD   an/DT   (ORGANIZATION EPS/NNP)   trailing/NN   twelve/VB   months/NNS   of/IN   2.92/CD   ./.)
+----------------------------------
+original sentence: 
+One way to gauge performance is look at a stock compared to other stocks in its industry with similar market caps.
+
+POS tagged sentence: 
+[('One', 'CD'), ('way', 'NN'), ('to', 'TO'), ('gauge', 'VB'), ('performance', 'NN'), ('is', 'VBZ'), ('look', 'NN'), ('at', 'IN'), ('a', 'DT'), ('stock', 'NN'), ('compared', 'VBN'), ('to', 'TO'), ('other', 'JJ'), ('stocks', 'NNS'), ('in', 'IN'), ('its', 'PRP$'), ('industry', 'NN'), ('with', 'IN'), ('similar', 'JJ'), ('market', 'NN'), ('caps', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   way/NN   to/TO   gauge/VB   performance/NN   is/VBZ   look/NN   at/IN   a/DT   stock/NN   compared/VBN   to/TO   other/JJ   stocks/NNS   in/IN   its/PRP$   industry/NN   with/IN   similar/JJ   market/NN   caps/NNS   ./.)
+----------------------------------
+original sentence: 
+AGU peer Terra Industries Inc. TRA has seen a 43.13% stock price gain over about the last month, while another peer, CF Industries Holdings, Inc. CF saw a 6.91% gain.
+
+POS tagged sentence: 
+[('AGU', 'NNP'), ('peer', 'NN'), ('Terra', 'NNP'), ('Industries', 'NNPS'), ('Inc.', 'NNP'), ('TRA', 'NNP'), ('has', 'VBZ'), ('seen', 'VBN'), ('a', 'DT'), ('43.13', 'CD'), ('%', 'NN'), ('stock', 'NN'), ('price', 'NN'), ('gain', 'NN'), ('over', 'IN'), ('about', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('month', 'NN'), (',', ','), ('while', 'IN'), ('another', 'DT'), ('peer', 'NN'), (',', ','), ('CF', 'NNP'), ('Industries', 'NNPS'), ('Holdings', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('CF', 'NNP'), ('saw', 'VBD'), ('a', 'DT'), ('6.91', 'CD'), ('%', 'NN'), ('gain', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   AGU/NNP   peer/NN   (ORGANIZATION Terra/NNP Industries/NNPS Inc./NNP)   TRA/NNP   has/VBZ   seen/VBN   a/DT   43.13/CD   %/NN   stock/NN   price/NN   gain/NN   over/IN   about/IN   the/DT   last/JJ   month/NN   ,/,   while/IN   another/DT   peer/NN   ,/,   (ORGANIZATION CF/NNP Industries/NNPS Holdings/NNP)   ,/,   Inc./NNP   CF/NNP   saw/VBD   a/DT   6.91/CD   %/NN   gain/NN   ./.)
+----------------------------------
+original sentence: 
+So with a return of 14.97%, Agrium Inc. saw less price gain than TRA and beat CF‚Äôs price performance over the last month.
+
+POS tagged sentence: 
+[('So', 'IN'), ('with', 'IN'), ('a', 'DT'), ('return', 'NN'), ('of', 'IN'), ('14.97', 'CD'), ('%', 'NN'), (',', ','), ('Agrium', 'NNP'), ('Inc.', 'NNP'), ('saw', 'VBD'), ('less', 'JJR'), ('price', 'NN'), ('gain', 'NN'), ('than', 'IN'), ('TRA', 'NNP'), ('and', 'CC'), ('beat', 'VB'), ('CF', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('price', 'NN'), ('performance', 'NN'), ('over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   with/IN   a/DT   return/NN   of/IN   14.97/CD   %/NN   ,/,   (PERSON Agrium/NNP Inc./NNP)   saw/VBD   less/JJR   price/NN   gain/NN   than/IN   (ORGANIZATION TRA/NNP)   and/CC   beat/VB   (ORGANIZATION CF/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   price/NN   performance/NN   over/IN   the/DT   last/JJ   month/NN   ./.)
+----------------------------------
+original sentence: 
+Now, let‚Äôs see how Agrium Inc. stock performance compares to the rest of the market by looking at it compared to the Standard & Poor‚Äôs 500 Index .INX .
+
+POS tagged sentence: 
+[('Now', 'RB'), (',', ','), ('let', 'VB'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('see', 'VBP'), ('how', 'WRB'), ('Agrium', 'NNP'), ('Inc.', 'NNP'), ('stock', 'NN'), ('performance', 'NN'), ('compares', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('by', 'IN'), ('looking', 'VBG'), ('at', 'IN'), ('it', 'PRP'), ('compared', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('Standard', 'NNP'), ('&', 'CC'), ('Poor', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('500', 'CD'), ('Index', 'NN'), ('.INX', '-NONE-'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Now/RB   ,/,   let/VB   ‚/:   Ä/:   ô/:   s/NNS   see/VBP   how/WRB   (PERSON Agrium/NNP)   Inc./NNP   stock/NN   performance/NN   compares/NNS   to/TO   the/DT   rest/NN   of/IN   the/DT   market/NN   by/IN   looking/VBG   at/IN   it/PRP   compared/VBN   to/TO   the/DT   (ORGANIZATION Standard/NNP)   &/CC   (PERSON Poor/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   500/CD   Index/NN   .INX/-NONE-   ./.)
+----------------------------------
+original sentence: 
+Since 02/09, the S&P 500 index has returned around 6.5%, and again, AGU saw about a 14.97% gain during that time.
+
+POS tagged sentence: 
+[('Since', 'IN'), ('02/09', 'CD'), (',', ','), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('index', 'NN'), ('has', 'VBZ'), ('returned', 'VBN'), ('around', 'IN'), ('6.5', 'CD'), ('%', 'NN'), (',', ','), ('and', 'CC'), ('again', 'RB'), (',', ','), ('AGU', 'NNP'), ('saw', 'VBD'), ('about', 'IN'), ('a', 'DT'), ('14.97', 'CD'), ('%', 'NN'), ('gain', 'NN'), ('during', 'IN'), ('that', 'DT'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Since/IN   02/09/CD   ,/,   the/DT   S&P/NNP   500/CD   index/NN   has/VBZ   returned/VBN   around/IN   6.5/CD   %/NN   ,/,   and/CC   again/RB   ,/,   (ORGANIZATION AGU/NNP)   saw/VBD   about/IN   a/DT   14.97/CD   %/NN   gain/NN   during/IN   that/DT   time/NN   ./.)
+----------------------------------
+original sentence: 
+Not bad.
+
+POS tagged sentence: 
+[('Not', 'RB'), ('bad', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Not/RB bad/JJ ./.)
+----------------------------------
+original sentence: 
+Compared to the rest of the ‚ÄúAgricultural Chemicals‚Äù industry
+ Since the AGU announcement about 30 days ago , the stock has posted a 14.97% gain.
+
+POS tagged sentence: 
+[('Compared', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('rest', 'NN'), ('of', 'IN'), ('the', 'DT'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('Agricultural', 'NNP'), ('Chemicals', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('industry', 'NN'), ('Since', 'IN'), ('the', 'DT'), ('AGU', 'NNP'), ('announcement', 'NN'), ('about', 'IN'), ('30', 'CD'), ('days', 'NNS'), ('ago', 'RB'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ('posted', 'VBN'), ('a', 'DT'), ('14.97', 'CD'), ('%', 'NN'), ('gain', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Compared/NNP   to/TO   the/DT   rest/NN   of/IN   the/DT   ‚/NNP   Ä/NNP   ú/NNP   Agricultural/NNP   Chemicals/NNP   ‚/NNP   Ä/NNP   ù/NNP   industry/NN   Since/IN   the/DT   (ORGANIZATION AGU/NNP)   announcement/NN   about/IN   30/CD   days/NNS   ago/RB   ,/,   the/DT   stock/NN   has/VBZ   posted/VBN   a/DT   14.97/CD   %/NN   gain/NN   ./.)
+----------------------------------
+original sentence: 
+Over that same period, the stock‚Äôs industry, Agricultural Chemicals, saw a 6.40% gain.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('that', 'DT'), ('same', 'JJ'), ('period', 'NN'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('industry', 'NN'), (',', ','), ('Agricultural', 'NNP'), ('Chemicals', 'NNPS'), (',', ','), ('saw', 'VBD'), ('a', 'DT'), ('6.40', 'CD'), ('%', 'NN'), ('gain', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   that/DT   same/JJ   period/NN   ,/,   the/DT   stock/NN   ‚/:   Ä/:   ô/:   s/NNS   industry/NN   ,/,   (ORGANIZATION Agricultural/NNP Chemicals/NNPS)   ,/,   saw/VBD   a/DT   6.40/CD   %/NN   gain/NN   ./.)
+----------------------------------
+original sentence: 
+That means AGU that has outperformed its industry as a whole 133.91% since the earnings announcement.
+
+POS tagged sentence: 
+[('That', 'DT'), ('means', 'VBZ'), ('AGU', 'NNP'), ('that', 'IN'), ('has', 'VBZ'), ('outperformed', 'VBN'), ('its', 'PRP$'), ('industry', 'NN'), ('as', 'IN'), ('a', 'DT'), ('whole', 'JJ'), ('133.91', 'CD'), ('%', 'NN'), ('since', 'IN'), ('the', 'DT'), ('earnings', 'NNS'), ('announcement', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   means/VBZ   (ORGANIZATION AGU/NNP)   that/IN   has/VBZ   outperformed/VBN   its/PRP$   industry/NN   as/IN   a/DT   whole/JJ   133.91/CD   %/NN   since/IN   the/DT   earnings/NNS   announcement/NN   ./.)
+----------------------------------
+original sentence: 
+Small differences aren‚Äôt significant, but when the spread is large it indicates the stock is either much more or much less favored than its group as a whole.
+
+
+POS tagged sentence: 
+[('Small', 'JJ'), ('differences', 'NNS'), ('aren', 'VBN'), ('\xe2', '-NONE-'), ('\x80', ':'), ('\x99', ':'), ('t', 'NN'), ('significant', 'JJ'), (',', ','), ('but', 'CC'), ('when', 'WRB'), ('the', 'DT'), ('spread', 'NN'), ('is', 'VBZ'), ('large', 'JJ'), ('it', 'PRP'), ('indicates', 'VBZ'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('either', 'DT'), ('much', 'JJ'), ('more', 'RBR'), ('or', 'CC'), ('much', 'RB'), ('less', 'JJR'), ('favored', 'VBN'), ('than', 'IN'), ('its', 'PRP$'), ('group', 'NN'), ('as', 'IN'), ('a', 'DT'), ('whole', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Small/JJ   differences/NNS   aren/VBN   ‚/-NONE-   Ä/:   ô/:   t/NN   significant/JJ   ,/,   but/CC   when/WRB   the/DT   spread/NN   is/VBZ   large/JJ   it/PRP   indicates/VBZ   the/DT   stock/NN   is/VBZ   either/DT   much/JJ   more/RBR   or/CC   much/RB   less/JJR   favored/VBN   than/IN   its/PRP$   group/NN   as/IN   a/DT   whole/JJ   ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

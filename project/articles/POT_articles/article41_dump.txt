@@ -1,0 +1,148 @@
+
+----------------------------------
+original sentence: 
+ &raquo; mikehavRx.com News Bytes: $DCTH, $TRA, $POT, $SUPG, $ACCP.OB, $AMLN | OneMedPlace &raquo; Archive WHAT IS ONEMEDPLACE?
+
+POS tagged sentence: 
+[('&raquo', 'NN'), (';', ':'), ('mikehavRx.com', 'JJ'), ('News', 'NN'), ('Bytes', 'VBZ'), (':', ':'), ('$', '$'), ('DCTH', 'NNP'), (',', ','), ('$', '$'), ('TRA', 'NNP'), (',', ','), ('$', '$'), ('POT', 'NNP'), (',', ','), ('$', '$'), ('SUPG', 'NNP'), (',', ','), ('$', '$'), ('ACCP.OB', 'JJ'), (',', ','), ('$', '$'), ('AMLN', 'NNP'), ('|', 'CD'), ('OneMedPlace', 'NNP'), ('&raquo', 'NNP'), (';', ':'), ('Archive', 'NNP'), ('WHAT', 'NNP'), ('IS', 'NNP'), ('ONEMEDPLACE', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &raquo/NN)   ;/:   mikehavRx.com/JJ   News/NN   Bytes/VBZ   :/:   $/$   (ORGANIZATION DCTH/NNP)   ,/,   $/$   (ORGANIZATION TRA/NNP)   ,/,   $/$   (ORGANIZATION POT/NNP)   ,/,   $/$   (ORGANIZATION SUPG/NNP)   ,/,   $/$   ACCP.OB/JJ   ,/,   $/$   AMLN/NNP   |/CD   (ORGANIZATION OneMedPlace/NNP)   &raquo/NNP   ;/:   (PERSON Archive/NNP)   WHAT/NNP   IS/NNP   ONEMEDPLACE/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Bytes/VBZ)
+noun phrases to consider:
+	(NOUN &raquo/NN)
+	(NOUN mikehavRx.com/JJ News/NN)
+	(NOUN DCTH/NNP)
+	(NOUN TRA/NNP)
+	(NOUN POT/NNP)
+	(NOUN SUPG/NNP)
+	(NOUN ACCP.OB/JJ)
+	(NOUN AMLN/NNP)
+	(NOUN |/CD OneMedPlace/NNP &raquo/NNP)
+	(NOUN Archive/NNP WHAT/NNP IS/NNP ONEMEDPLACE/NNP)
+
+----------------------------------
+original sentence: 
+mikehavRx.com News Bytes: $DCTH, $TRA, $POT, $SUPG, $ACCP.OB, $AMLN
+HavRx Global Crop Science Index: Potash NYSE: POT is poised to open trading at new highs after posting strong earnings and upping its guidance.
+
+POS tagged sentence: 
+[('mikehavRx.com', 'NN'), ('News', 'NN'), ('Bytes', 'VBZ'), (':', ':'), ('$', '$'), ('DCTH', 'NNP'), (',', ','), ('$', '$'), ('TRA', 'NNP'), (',', ','), ('$', '$'), ('POT', 'NNP'), (',', ','), ('$', '$'), ('SUPG', 'NNP'), (',', ','), ('$', '$'), ('ACCP.OB', 'JJ'), (',', ','), ('$', '$'), ('AMLN', 'NNP'), ('HavRx', 'NNP'), ('Global', 'NNP'), ('Crop', 'NNP'), ('Science', 'NNP'), ('Index', 'NNP'), (':', ':'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('is', 'VBZ'), ('poised', 'VBN'), ('to', 'TO'), ('open', 'VB'), ('trading', 'NN'), ('at', 'IN'), ('new', 'JJ'), ('highs', 'NNS'), ('after', 'IN'), ('posting', 'VBG'), ('strong', 'JJ'), ('earnings', 'NNS'), ('and', 'CC'), ('upping', 'VBG'), ('its', 'PRP$'), ('guidance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   mikehavRx.com/NN   News/NN   Bytes/VBZ   :/:   $/$   (ORGANIZATION DCTH/NNP)   ,/,   $/$   (ORGANIZATION TRA/NNP)   ,/,   $/$   (ORGANIZATION POT/NNP)   ,/,   $/$   (ORGANIZATION SUPG/NNP)   ,/,   $/$   ACCP.OB/JJ   ,/,   $/$   (ORGANIZATION AMLN/NNP)   HavRx/NNP   Global/NNP   Crop/NNP   Science/NNP   Index/NNP   :/:   (PERSON Potash/NNP NYSE/NNP)   :/:   POT/NNP   is/VBZ   poised/VBN   to/TO   open/VB   trading/NN   at/IN   new/JJ   highs/NNS   after/IN   posting/VBG   strong/JJ   earnings/NNS   and/CC   upping/VBG   its/PRP$   guidance/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Bytes/VBZ)
+	(VERB is/VBZ poised/VBN)
+	(VERB open/VB trading/NN at/IN new/JJ highs/NNS after/IN)
+	(VERB posting/VBG strong/JJ earnings/NNS)
+
+tagged sentence:
+	 posting strong earnings	res:1
+	(VERB upping/VBG its/PRP$ guidance/NN)
+noun phrases to consider:
+	(NOUN mikehavRx.com/NN News/NN)
+	(NOUN DCTH/NNP)
+	(NOUN TRA/NNP)
+	(NOUN POT/NNP)
+	(NOUN SUPG/NNP)
+	(NOUN ACCP.OB/JJ)
+	(NOUN AMLN/NNP HavRx/NNP Global/NNP Crop/NNP)
+	(NOUN Science/NNP Index/NNP)
+	(NOUN Potash/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+
+----------------------------------
+original sentence: 
+Meanwhile, Yara International OTC: YARIY.PK has withdrawn its bid for Terra Industries NYSE: TRA , which will be acquired by CF Industries NYSE: CF .
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('Yara', 'NNP'), ('International', 'NNP'), ('OTC', 'NNP'), (':', ':'), ('YARIY.PK', 'JJ'), ('has', 'VBZ'), ('withdrawn', 'VBN'), ('its', 'PRP$'), ('bid', 'NN'), ('for', 'IN'), ('Terra', 'NNP'), ('Industries', 'NNPS'), ('NYSE', 'NNP'), (':', ':'), ('TRA', 'NNP'), (',', ','), ('which', 'WDT'), ('will', 'MD'), ('be', 'VB'), ('acquired', 'VBN'), ('by', 'IN'), ('CF', 'NNP'), ('Industries', 'NNPS'), ('NYSE', 'NNP'), (':', ':'), ('CF', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   (PERSON Yara/NNP International/NNP)   OTC/NNP   :/:   YARIY.PK/JJ   has/VBZ   withdrawn/VBN   its/PRP$   bid/NN   for/IN   (ORGANIZATION Terra/NNP Industries/NNPS)   NYSE/NNP   :/:   TRA/NNP   ,/,   which/WDT   will/MD   be/VB   acquired/VBN   by/IN   (ORGANIZATION CF/NNP Industries/NNPS)   NYSE/NNP   :/:   CF/NNP   ./.)
+----------------------------------
+original sentence: 
+In addition, Agrium NYSE: AGU has dropped its hostile bid for CF.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('Agrium', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AGU', 'NNP'), ('has', 'VBZ'), ('dropped', 'VBN'), ('its', 'PRP$'), ('hostile', 'JJ'), ('bid', 'NN'), ('for', 'IN'), ('CF', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   (PERSON Agrium/NNP NYSE/NNP)   :/:   (ORGANIZATION AGU/NNP)   has/VBZ   dropped/VBN   its/PRP$   hostile/JJ   bid/NN   for/IN   (ORGANIZATION CF/NNP)   ./.)
+----------------------------------
+original sentence: 
+DCTH conducted an update conference call today and still expects pivotal study results in April.
+
+POS tagged sentence: 
+[('DCTH', 'NNP'), ('conducted', 'VBD'), ('an', 'DT'), ('update', 'NN'), ('conference', 'NN'), ('call', 'NN'), ('today', 'NN'), ('and', 'CC'), ('still', 'RB'), ('expects', 'VBZ'), ('pivotal', 'JJ'), ('study', 'NN'), ('results', 'NNS'), ('in', 'IN'), ('April', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION DCTH/NNP)   conducted/VBD   an/DT   update/NN   conference/NN   call/NN   today/NN   and/CC   still/RB   expects/VBZ   pivotal/JJ   study/NN   results/NNS   in/IN   April/NNP   ./.)
+----------------------------------
+original sentence: 
+The pending FDA filing will be based on these results with Fast Track status and rolling submission to expedite the process while a filing for CE Mark Europe clearance as a Class III medical device is now expected by year end.
+
+POS tagged sentence: 
+[('The', 'DT'), ('pending', 'VBG'), ('FDA', 'NNP'), ('filing', 'NN'), ('will', 'MD'), ('be', 'VB'), ('based', 'VBN'), ('on', 'IN'), ('these', 'DT'), ('results', 'NNS'), ('with', 'IN'), ('Fast', 'NNP'), ('Track', 'NNP'), ('status', 'NN'), ('and', 'CC'), ('rolling', 'VBG'), ('submission', 'NN'), ('to', 'TO'), ('expedite', 'VB'), ('the', 'DT'), ('process', 'NN'), ('while', 'IN'), ('a', 'DT'), ('filing', 'NN'), ('for', 'IN'), ('CE', 'NNP'), ('Mark', 'NNP'), ('Europe', 'NNP'), ('clearance', 'NN'), ('as', 'IN'), ('a', 'DT'), ('Class', 'NNP'), ('III', 'NNP'), ('medical', 'JJ'), ('device', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('expected', 'VBN'), ('by', 'IN'), ('year', 'NN'), ('end', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   pending/VBG   (ORGANIZATION FDA/NNP)   filing/NN   will/MD   be/VB   based/VBN   on/IN   these/DT   results/NNS   with/IN   (PERSON Fast/NNP Track/NNP)   status/NN   and/CC   rolling/VBG   submission/NN   to/TO   expedite/VB   the/DT   process/NN   while/IN   a/DT   filing/NN   for/IN   (ORGANIZATION CE/NNP Mark/NNP Europe/NNP)   clearance/NN   as/IN   a/DT   Class/NNP   III/NNP   medical/JJ   device/NN   is/VBZ   now/RB   expected/VBN   by/IN   year/NN   end/NN   ./.)
+----------------------------------
+original sentence: 
+Access reported several ongoing negotiations with additional companies that are interested in its Cobalamin Oral Drug Delivery Technology while simultaneously evaluating options for advancing oral insulin to proof of concept studies in humans as soon as possible.
+
+POS tagged sentence: 
+[('Access', 'NN'), ('reported', 'VBD'), ('several', 'JJ'), ('ongoing', 'JJ'), ('negotiations', 'NNS'), ('with', 'IN'), ('additional', 'JJ'), ('companies', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('interested', 'JJ'), ('in', 'IN'), ('its', 'PRP$'), ('Cobalamin', 'NNP'), ('Oral', 'NNP'), ('Drug', 'NNP'), ('Delivery', 'NNP'), ('Technology', 'NNP'), ('while', 'IN'), ('simultaneously', 'RB'), ('evaluating', 'VBG'), ('options', 'NNS'), ('for', 'IN'), ('advancing', 'VBG'), ('oral', 'JJ'), ('insulin', 'NN'), ('to', 'TO'), ('proof', 'VB'), ('of', 'IN'), ('concept', 'NN'), ('studies', 'NNS'), ('in', 'IN'), ('humans', 'NNS'), ('as', 'IN'), ('soon', 'RB'), ('as', 'IN'), ('possible', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Access/NN)   reported/VBD   several/JJ   ongoing/JJ   negotiations/NNS   with/IN   additional/JJ   companies/NNS   that/WDT   are/VBP   interested/JJ   in/IN   its/PRP$   (PERSON     Cobalamin/NNP     Oral/NNP     Drug/NNP     Delivery/NNP     Technology/NNP)   while/IN   simultaneously/RB   evaluating/VBG   options/NNS   for/IN   advancing/VBG   oral/JJ   insulin/NN   to/TO   proof/VB   of/IN   concept/NN   studies/NNS   in/IN   humans/NNS   as/IN   soon/RB   as/IN   possible/JJ   ./.)
+----------------------------------
+original sentence: 
+Based upon previous guidance, Access may initiate proof of concept Phase 1 equivalent studies for oral insulin in humans in Eastern Europe or India during 2H10 with expected duration of 3 5 months and cost of $250 300,000 .
+
+POS tagged sentence: 
+[('Based', 'VBN'), ('upon', 'IN'), ('previous', 'JJ'), ('guidance', 'NN'), (',', ','), ('Access', 'NNP'), ('may', 'MD'), ('initiate', 'VB'), ('proof', 'IN'), ('of', 'IN'), ('concept', 'NN'), ('Phase', 'NNP'), ('1', 'CD'), ('equivalent', 'NN'), ('studies', 'NNS'), ('for', 'IN'), ('oral', 'JJ'), ('insulin', 'NN'), ('in', 'IN'), ('humans', 'NNS'), ('in', 'IN'), ('Eastern', 'NNP'), ('Europe', 'NNP'), ('or', 'CC'), ('India', 'NNP'), ('during', 'IN'), ('2H10', 'CD'), ('with', 'IN'), ('expected', 'VBN'), ('duration', 'NN'), ('of', 'IN'), ('3', 'CD'), ('5', 'CD'), ('months', 'NNS'), ('and', 'CC'), ('cost', 'VB'), ('of', 'IN'), ('$', '$'), ('250', 'CD'), ('300,000', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Based/VBN   upon/IN   previous/JJ   guidance/NN   ,/,   (PERSON Access/NNP)   may/MD   initiate/VB   proof/IN   of/IN   concept/NN   Phase/NNP   1/CD   equivalent/NN   studies/NNS   for/IN   oral/JJ   insulin/NN   in/IN   humans/NNS   in/IN   (GPE Eastern/NNP Europe/NNP)   or/CC   (GPE India/NNP)   during/IN   2H10/CD   with/IN   expected/VBN   duration/NN   of/IN   3/CD   5/CD   months/NNS   and/CC   cost/VB   of/IN   $/$   250/CD   300,000/CD   ./.)
+----------------------------------
+original sentence: 
+Earlier this morning,  OTC: ESALY.PK announced FDA approval for a five day dosing regimen for anti cancer drug Dacogen decitabine to treat patients with myelodysplastic syndromes MDS .
+
+POS tagged sentence: 
+[('Earlier', 'JJR'), ('this', 'DT'), ('morning', 'NN'), (',', ','), ('OTC', 'NNP'), (':', ':'), ('ESALY.PK', 'JJ'), ('announced', 'VBN'), ('FDA', 'NNP'), ('approval', 'NN'), ('for', 'IN'), ('a', 'DT'), ('five', 'CD'), ('day', 'NN'), ('dosing', 'VBG'), ('regimen', 'NNS'), ('for', 'IN'), ('anti', 'NN'), ('cancer', 'NN'), ('drug', 'NN'), ('Dacogen', 'NNP'), ('decitabine', 'NN'), ('to', 'TO'), ('treat', 'VB'), ('patients', 'NNS'), ('with', 'IN'), ('myelodysplastic', 'JJ'), ('syndromes', 'NNS'), ('MDS', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earlier/JJR   this/DT   morning/NN   ,/,   (ORGANIZATION OTC/NNP)   :/:   ESALY.PK/JJ   announced/VBN   (ORGANIZATION FDA/NNP)   approval/NN   for/IN   a/DT   five/CD   day/NN   dosing/VBG   regimen/NNS   for/IN   anti/NN   cancer/NN   drug/NN   (PERSON Dacogen/NNP)   decitabine/NN   to/TO   treat/VB   patients/NNS   with/IN   myelodysplastic/JJ   syndromes/NNS   MDS/NNS   ./.)
+----------------------------------
+original sentence: 
+Dacogen was approved by FDA in May 2006 for a three day regimen and developed by  NASDAQ: SUPG and mikehavRx.com Index Updates is a premium service that provides investors with time saving information and updates on unique global baskets of stocks that are organized and managed within the 18 HavRx Stock Indexes outlined below that are being tracked at the Investars YOU website since June 2009.
+
+POS tagged sentence: 
+[('Dacogen', 'NNP'), ('was', 'VBD'), ('approved', 'VBN'), ('by', 'IN'), ('FDA', 'NNP'), ('in', 'IN'), ('May', 'NNP'), ('2006', 'CD'), ('for', 'IN'), ('a', 'DT'), ('three', 'CD'), ('day', 'NN'), ('regimen', 'NNS'), ('and', 'CC'), ('developed', 'VBD'), ('by', 'IN'), ('NASDAQ', 'NNP'), (':', ':'), ('SUPG', 'NNP'), ('and', 'CC'), ('mikehavRx.com', 'NNP'), ('Index', 'NNP'), ('Updates', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('premium', 'NN'), ('service', 'NN'), ('that', 'WDT'), ('provides', 'VBZ'), ('investors', 'NNS'), ('with', 'IN'), ('time', 'NN'), ('saving', 'VBG'), ('information', 'NN'), ('and', 'CC'), ('updates', 'VBZ'), ('on', 'IN'), ('unique', 'JJ'), ('global', 'JJ'), ('baskets', 'NNS'), ('of', 'IN'), ('stocks', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('organized', 'VBN'), ('and', 'CC'), ('managed', 'VBN'), ('within', 'IN'), ('the', 'DT'), ('18', 'CD'), ('HavRx', 'NNP'), ('Stock', 'NNP'), ('Indexes', 'NNP'), ('outlined', 'VBD'), ('below', 'IN'), ('that', 'DT'), ('are', 'VBP'), ('being', 'VBG'), ('tracked', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('Investars', 'NNS'), ('YOU', 'PRP'), ('website', 'VBP'), ('since', 'IN'), ('June', 'NNP'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Dacogen/NNP)   was/VBD   approved/VBN   by/IN   (ORGANIZATION FDA/NNP)   in/IN   May/NNP   2006/CD   for/IN   a/DT   three/CD   day/NN   regimen/NNS   and/CC   developed/VBD   by/IN   (ORGANIZATION NASDAQ/NNP)   :/:   SUPG/NNP   and/CC   mikehavRx.com/NNP   Index/NNP   Updates/NNP   is/VBZ   a/DT   premium/NN   service/NN   that/WDT   provides/VBZ   investors/NNS   with/IN   time/NN   saving/VBG   information/NN   and/CC   updates/VBZ   on/IN   unique/JJ   global/JJ   baskets/NNS   of/IN   stocks/NNS   that/WDT   are/VBP   organized/VBN   and/CC   managed/VBN   within/IN   the/DT   18/CD   (ORGANIZATION HavRx/NNP Stock/NNP Indexes/NNP)   outlined/VBD   below/IN   that/DT   are/VBP   being/VBG   tracked/VBN   at/IN   the/DT   Investars/NNS   YOU/PRP   website/VBP   since/IN   June/NNP   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Please visit  for more details on my new publishing company, website, and premium service.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('visit', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('details', 'NNS'), ('on', 'IN'), ('my', 'PRP$'), ('new', 'JJ'), ('publishing', 'NN'), ('company', 'NN'), (',', ','), ('website', 'IN'), (',', ','), ('and', 'CC'), ('premium', 'NN'), ('service', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   visit/NN   for/IN   more/JJR   details/NNS   on/IN   my/PRP$   new/JJ   publishing/NN   company/NN   ,/,   website/IN   ,/,   and/CC   premium/NN   service/NN   ./.)
+----------------------------------
+original sentence: 
+Disclosure: Long ACCP.OB, DCTH
+ 12 March 2010 |  &copy; 2010 OneMedPlace 
+
+POS tagged sentence: 
+[('Disclosure', 'NN'), (':', ':'), ('Long', 'JJ'), ('ACCP.OB', 'NN'), (',', ','), ('DCTH', 'NNP'), ('12', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('|', 'CD'), ('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('OneMedPlace', 'NN')]
+
+
+ERTAGGED sentence: (S   (GPE Disclosure/NN)   :/:   (GPE Long/JJ)   ACCP.OB/NN   ,/,   (ORGANIZATION DCTH/NNP)   12/CD   March/NNP   2010/CD   |/CD   &copy/JJ   ;/:   2010/CD   OneMedPlace/NN)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

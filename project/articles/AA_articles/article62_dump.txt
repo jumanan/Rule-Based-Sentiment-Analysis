@@ -1,0 +1,175 @@
+
+----------------------------------
+original sentence: 
+TradersHuddle.com Alcoa Closing in to Resistance | Trading Ideas
+ Alcoa Closing in to Resistance  Written by Danny Miller  Friday, 12 March 2010 08:52 New York, March 12th TradersHuddle.com Shares of Alcoa, Inc. NYSE:AA are trading very close to calculated resistance at $14.02 with the current price action closing at just $13.64 placing the stock near levels that make it difficult to buy.
+
+POS tagged sentence: 
+[('TradersHuddle.com', 'NN'), ('Alcoa', 'NNP'), ('Closing', 'NNP'), ('in', 'IN'), ('to', 'TO'), ('Resistance', 'NNP'), ('|', 'NNP'), ('Trading', 'NNP'), ('Ideas', 'NNP'), ('Alcoa', 'NNP'), ('Closing', 'NNP'), ('in', 'IN'), ('to', 'TO'), ('Resistance', 'NNP'), ('Written', 'NNP'), ('by', 'IN'), ('Danny', 'NNP'), ('Miller', 'NNP'), ('Friday', 'NNP'), (',', ','), ('12', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('52', 'CD'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('March', 'NNP'), ('12th', 'CD'), ('TradersHuddle.com', 'NNP'), ('Shares', 'NNP'), ('of', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('are', 'VBP'), ('trading', 'VBG'), ('very', 'RB'), ('close', 'JJ'), ('to', 'TO'), ('calculated', 'VBN'), ('resistance', 'NN'), ('at', 'IN'), ('$', '$'), ('14.02', 'CD'), ('with', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('price', 'NN'), ('action', 'NN'), ('closing', 'VBG'), ('at', 'IN'), ('just', 'RB'), ('$', '$'), ('13.64', 'CD'), ('placing', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('near', 'IN'), ('levels', 'NNS'), ('that', 'WDT'), ('make', 'VBP'), ('it', 'PRP'), ('difficult', 'JJ'), ('to', 'TO'), ('buy', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   TradersHuddle.com/NN   (PERSON Alcoa/NNP Closing/NNP)   in/IN   to/TO   (ORGANIZATION Resistance/NNP)   |/NNP   Trading/NNP   Ideas/NNP   Alcoa/NNP   Closing/NNP   in/IN   to/TO   (ORGANIZATION Resistance/NNP Written/NNP)   by/IN   (PERSON Danny/NNP Miller/NNP)   Friday/NNP   ,/,   12/CD   March/NNP   2010/CD   08/CD   :/:   52/CD   (GPE New/NNP York/NNP)   ,/,   March/NNP   12th/CD   TradersHuddle.com/NNP   Shares/NNP   of/IN   (GPE Alcoa/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   AA/NNP   are/VBP   trading/VBG   very/RB   close/JJ   to/TO   calculated/VBN   resistance/NN   at/IN   $/$   14.02/CD   with/IN   the/DT   current/JJ   price/NN   action/NN   closing/VBG   at/IN   just/RB   $/$   13.64/CD   placing/VBG   the/DT   stock/NN   near/IN   levels/NNS   that/WDT   make/VBP   it/PRP   difficult/JJ   to/TO   buy/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP trading/VBG very/RB close/JJ)
+
+tagged sentence:
+	 are trading very close	res:1
+	(VERB calculated/VBN resistance/NN at/IN)
+	(VERB closing/VBG at/IN just/RB)
+	(VERB placing/VBG the/DT stock/NN near/IN levels/NNS)
+	(VERB make/VBP it/PRP difficult/JJ)
+
+tagged sentence:
+	 make it difficult	res:-1
+	(VERB buy/VB)
+noun phrases to consider:
+	(NOUN TradersHuddle.com/NN Alcoa/NNP Closing/NNP)
+	(NOUN Resistance/NNP |/NNP Trading/NNP Ideas/NNP)
+	(NOUN Alcoa/NNP Closing/NNP)
+	(NOUN Resistance/NNP Written/NNP)
+	(NOUN Danny/NNP Miller/NNP Friday/NNP)
+	(NOUN 12/CD March/NNP)
+	(NOUN 52/CD New/NNP York/NNP)
+	(NOUN March/NNP)
+	(NOUN 12th/CD TradersHuddle.com/NNP Shares/NNP)
+	(NOUN Alcoa/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN AA/NNP)
+	(NOUN the/DT current/JJ price/NN action/NN)
+
+----------------------------------
+original sentence: 
+Alcoa Inc. produces primary aluminum, fabricated aluminum, and alumina, and participates in mining, refining, smelting, fabricating, and recycling.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Inc.', 'NNP'), ('produces', 'VBZ'), ('primary', 'JJ'), ('aluminum', 'NN'), (',', ','), ('fabricated', 'VBD'), ('aluminum', 'NN'), (',', ','), ('and', 'CC'), ('alumina', 'NN'), (',', ','), ('and', 'CC'), ('participates', 'VBZ'), ('in', 'IN'), ('mining', 'NN'), (',', ','), ('refining', 'VBG'), (',', ','), ('smelting', 'VBG'), (',', ','), ('fabricating', 'VBG'), (',', ','), ('and', 'CC'), ('recycling', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Inc./NNP)   produces/VBZ   primary/JJ   aluminum/NN   ,/,   fabricated/VBD   aluminum/NN   ,/,   and/CC   alumina/NN   ,/,   and/CC   participates/VBZ   in/IN   mining/NN   ,/,   refining/VBG   ,/,   smelting/VBG   ,/,   fabricating/VBG   ,/,   and/CC   recycling/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB produces/VBZ primary/JJ aluminum/NN)
+	(VERB fabricated/VBD aluminum/NN)
+	(VERB participates/VBZ in/IN mining/NN)
+	(VERB refining/VBG)
+	(VERB smelting/VBG)
+	(VERB fabricating/VBG)
+	(VERB recycling/VBG)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Inc./NNP)
+	(NOUN alumina/NN)
+
+----------------------------------
+original sentence: 
+Its products are used in aircraft, automobiles, commercial transportation, building and construction, oil and gas, defense, and other industrial applications.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('products', 'NNS'), ('are', 'VBP'), ('used', 'VBN'), ('in', 'IN'), ('aircraft', 'NN'), (',', ','), ('automobiles', 'NNS'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('oil', 'NN'), ('and', 'CC'), ('gas', 'NN'), (',', ','), ('defense', 'NN'), (',', ','), ('and', 'CC'), ('other', 'JJ'), ('industrial', 'JJ'), ('applications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   products/NNS   are/VBP   used/VBN   in/IN   aircraft/NN   ,/,   automobiles/NNS   ,/,   commercial/JJ   transportation/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   oil/NN   and/CC   gas/NN   ,/,   defense/NN   ,/,   and/CC   other/JJ   industrial/JJ   applications/NNS   ./.)
+----------------------------------
+original sentence: 
+Alcoa was founded in 1888 and serves customers worldwide.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('was', 'VBD'), ('founded', 'VBN'), ('in', 'IN'), ('1888', 'CD'), ('and', 'CC'), ('serves', 'NNS'), ('customers', 'NNS'), ('worldwide', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   was/VBD   founded/VBN   in/IN   1888/CD   and/CC   serves/NNS   customers/NNS   worldwide/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD founded/VBN in/IN 1888/CD)
+	(VERB worldwide/VBP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN serves/NNS customers/NNS)
+
+----------------------------------
+original sentence: 
+Alcoa's current stock range is defined by current calculated support defined at $12.80 and by the resistance level at $14.02, the stock is clearly over extended from support, making it difficult to establishing new long positions at this level.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ("'s", 'POS'), ('current', 'JJ'), ('stock', 'NN'), ('range', 'NN'), ('is', 'VBZ'), ('defined', 'VBN'), ('by', 'IN'), ('current', 'JJ'), ('calculated', 'VBN'), ('support', 'NN'), ('defined', 'VBN'), ('at', 'IN'), ('$', '$'), ('12.80', 'CD'), ('and', 'CC'), ('by', 'IN'), ('the', 'DT'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('14.02', 'CD'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('clearly', 'RB'), ('over', 'IN'), ('extended', 'JJ'), ('from', 'IN'), ('support', 'NN'), (',', ','), ('making', 'VBG'), ('it', 'PRP'), ('difficult', 'VBD'), ('to', 'TO'), ('establishing', 'NN'), ('new', 'JJ'), ('long', 'JJ'), ('positions', 'NNS'), ('at', 'IN'), ('this', 'DT'), ('level', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   's/POS   current/JJ   stock/NN   range/NN   is/VBZ   defined/VBN   by/IN   current/JJ   calculated/VBN   support/NN   defined/VBN   at/IN   $/$   12.80/CD   and/CC   by/IN   the/DT   resistance/NN   level/NN   at/IN   $/$   14.02/CD   ,/,   the/DT   stock/NN   is/VBZ   clearly/RB   over/IN   extended/JJ   from/IN   support/NN   ,/,   making/VBG   it/PRP   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ defined/VBN by/IN current/JJ)
+	(VERB calculated/VBN support/NN)
+	(VERB defined/VBN at/IN)
+	(VERB is/VBZ clearly/RB over/IN extended/JJ from/IN support/NN)
+
+tagged sentence:
+	 is clearly over extended from support	res:1
+	(VERB making/VBG it/PRP)
+	(VERB   difficult/VBD   to/TO   establishing/NN   new/JJ   long/JJ   positions/NNS   at/IN   this/DT   level/NN)
+
+tagged sentence:
+	 difficult to establishing new long positions at this level	res:-1
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN current/JJ stock/NN range/NN)
+	(NOUN resistance/NN level/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Traders don't have a clear entry point for Alcoa, as the stock is well above support, however, as the stock pulls back towards $12.80 it will definitely provide a reference point to establish a trade.
+
+POS tagged sentence: 
+[('Traders', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('have', 'VB'), ('a', 'DT'), ('clear', 'JJ'), ('entry', 'NN'), ('point', 'NN'), ('for', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('well', 'RB'), ('above', 'IN'), ('support', 'NN'), (',', ','), ('however', 'RB'), (',', ','), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('pulls', 'NNS'), ('back', 'VBP'), ('towards', 'NNS'), ('$', '$'), ('12.80', 'CD'), ('it', 'PRP'), ('will', 'MD'), ('definitely', 'RB'), ('provide', 'VB'), ('a', 'DT'), ('reference', 'NN'), ('point', 'NN'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('trade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Traders/NNS   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   (PERSON Alcoa/NNP)   ,/,   as/IN   the/DT   stock/NN   is/VBZ   well/RB   above/IN   support/NN   ,/,   however/RB   ,/,   as/IN   the/DT   stock/NN   pulls/NNS   back/VBP   towards/NNS   $/$   12.80/CD   it/PRP   will/MD   definitely/RB   provide/VB   a/DT   reference/NN   point/NN   to/TO   establish/VB   a/DT   trade/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   do/VBP   n't/RB   have/VB   a/DT   clear/JJ   entry/NN   point/NN   for/IN   Alcoa/NNP)
+	(VERB is/VBZ well/RB above/IN support/NN)
+
+tagged sentence:
+	 is well above support	res:1
+	(VERB back/VBP towards/NNS)
+	(VERB provide/VB a/DT reference/NN point/NN)
+	(VERB establish/VB a/DT trade/NN)
+noun phrases to consider:
+	(NOUN Traders/NNS)
+	(NOUN stock/NN)
+	(NOUN stock/NN pulls/NNS)
+
+----------------------------------
+original sentence: 
+On the other hand if the stock decides to break above resistance level at $14.02 then traders will get an opportunity to enter Alcoa stock by establishing a position as the stock moves to a higher range.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('other', 'JJ'), ('hand', 'NN'), ('if', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('decides', 'VBZ'), ('to', 'TO'), ('break', 'VB'), ('above', 'IN'), ('resistance', 'NN'), ('level', 'NN'), ('at', 'IN'), ('$', '$'), ('14.02', 'CD'), ('then', 'RB'), ('traders', 'NNS'), ('will', 'MD'), ('get', 'VB'), ('an', 'DT'), ('opportunity', 'NN'), ('to', 'TO'), ('enter', 'VB'), ('Alcoa', 'NNP'), ('stock', 'NN'), ('by', 'IN'), ('establishing', 'NN'), ('a', 'DT'), ('position', 'NN'), ('as', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('moves', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('higher', 'JJR'), ('range', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   other/JJ   hand/NN   if/IN   the/DT   stock/NN   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN   $/$   14.02/CD   then/RB   traders/NNS   will/MD   get/VB   an/DT   opportunity/NN   to/TO   enter/VB   (PERSON Alcoa/NNP)   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS   to/TO   a/DT   higher/JJR   range/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   decides/VBZ   to/TO   break/VB   above/IN   resistance/NN   level/NN   at/IN)
+
+tagged sentence:
+	 decides to break above resistance level at	res:-1
+	(VERB get/VB an/DT opportunity/NN)
+
+tagged sentence:
+	 get an opportunity	res:1
+	(VERB   enter/VB   Alcoa/NNP   stock/NN   by/IN   establishing/NN   a/DT   position/NN   as/IN   the/DT   stock/NN   moves/NNS)
+
+tagged sentence:
+	 enter Alcoa stock by establishing a position as the stock moves	res:1
+noun phrases to consider:
+	(NOUN the/DT other/JJ hand/NN)
+	(NOUN stock/NN)
+	(NOUN traders/NNS)
+	(NOUN a/DT higher/JJR range/NN)
+
+----------------------------------
+original sentence: 
+Google  Facebook  Twitter  Linkedin  Yahoo  Del.icoi.us  Windows Live 
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Facebook', 'NNP'), ('Twitter', 'NNP'), ('Linkedin', 'NNP'), ('Yahoo', 'NNP'), ('Del.icoi.us', 'NNP'), ('Windows', 'NNP'), ('Live', 'NNP')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (PERSON Facebook/NNP Twitter/NNP Linkedin/NNP Yahoo/NNP)   Del.icoi.us/NNP   Windows/NNP   Live/NNP)
+
+veryneg:0	neg:3	pos:5	verypos:0	total:0

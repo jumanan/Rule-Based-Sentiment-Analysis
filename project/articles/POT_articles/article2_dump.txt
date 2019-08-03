@@ -1,0 +1,195 @@
+
+----------------------------------
+original sentence: 
+Monsanto Co. Falls Short of Analyst Expectations; MON, SYT, POT
+ Monsanto Co. Falls Short of Analyst Expectations; MON, SYT, POT  Wednesday, 07 April 2010 05:31 Analysts were expecting  to report earnings of  per share for last quarter, but MON missed expectations with actual earnings of  3 cents below the consensus estimate.
+
+POS tagged sentence: 
+[('Monsanto', 'IN'), ('Co.', 'NNP'), ('Falls', 'NNP'), ('Short', 'NNP'), ('of', 'IN'), ('Analyst', 'NNP'), ('Expectations', 'NNPS'), (';', ':'), ('MON', 'NNP'), (',', ','), ('SYT', 'NNP'), (',', ','), ('POT', 'NNP'), ('Monsanto', 'NNP'), ('Co.', 'NNP'), ('Falls', 'NNP'), ('Short', 'NNP'), ('of', 'IN'), ('Analyst', 'NNP'), ('Expectations', 'NNPS'), (';', ':'), ('MON', 'NNP'), (',', ','), ('SYT', 'NNP'), (',', ','), ('POT', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('07', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('05', 'CD'), (':', ':'), ('31', 'CD'), ('Analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('to', 'TO'), ('report', 'VB'), ('earnings', 'NNS'), ('of', 'IN'), ('per', 'JJR'), ('share', 'NN'), ('for', 'IN'), ('last', 'JJ'), ('quarter', 'NN'), (',', ','), ('but', 'CC'), ('MON', 'NNP'), ('missed', 'VBD'), ('expectations', 'NNS'), ('with', 'IN'), ('actual', 'JJ'), ('earnings', 'NNS'), ('of', 'IN'), ('3', 'CD'), ('cents', 'NNS'), ('below', 'IN'), ('the', 'DT'), ('consensus', 'NN'), ('estimate', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Monsanto/IN Co./NNP)   Falls/NNP   Short/NNP   of/IN   (ORGANIZATION Analyst/NNP Expectations/NNPS)   ;/:   (ORGANIZATION MON/NNP)   ,/,   (ORGANIZATION SYT/NNP)   ,/,   (ORGANIZATION POT/NNP Monsanto/NNP)   Co./NNP   Falls/NNP   Short/NNP   of/IN   (ORGANIZATION Analyst/NNP Expectations/NNPS)   ;/:   (ORGANIZATION MON/NNP)   ,/,   (ORGANIZATION SYT/NNP)   ,/,   (ORGANIZATION POT/NNP)   Wednesday/NNP   ,/,   07/CD   April/NNP   2010/CD   05/CD   :/:   31/CD   Analysts/NNS   were/VBD   expecting/VBG   to/TO   report/VB   earnings/NNS   of/IN   per/JJR   share/NN   for/IN   last/JJ   quarter/NN   ,/,   but/CC   (ORGANIZATION MON/NNP)   missed/VBD   expectations/NNS   with/IN   actual/JJ   earnings/NNS   of/IN   3/CD   cents/NNS   below/IN   the/DT   consensus/NN   estimate/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD expecting/VBG)
+	(VERB   report/VB   earnings/NNS   of/IN   per/JJR   share/NN   for/IN   last/JJ   quarter/NN)
+	(VERB   missed/VBD   expectations/NNS   with/IN   actual/JJ   earnings/NNS   of/IN   3/CD   cents/NNS   below/IN   the/DT   consensus/NN   estimate/NN)
+noun phrases to consider:
+	(NOUN Co./NNP Falls/NNP Short/NNP)
+	(NOUN Analyst/NNP Expectations/NNPS)
+	(NOUN MON/NNP)
+	(NOUN SYT/NNP)
+	(NOUN POT/NNP Monsanto/NNP Co./NNP Falls/NNP)
+	(NOUN Short/NNP)
+	(NOUN Analyst/NNP Expectations/NNPS)
+	(NOUN MON/NNP)
+	(NOUN SYT/NNP)
+	(NOUN POT/NNP Wednesday/NNP)
+	(NOUN 07/CD April/NNP)
+	(NOUN 31/CD Analysts/NNS)
+	(NOUN MON/NNP)
+
+----------------------------------
+original sentence: 
+MON also issued earnings guidance for next quarter that is in line with current analyst expectations.
+
+POS tagged sentence: 
+[('MON', 'NNP'), ('also', 'RB'), ('issued', 'VBD'), ('earnings', 'NNS'), ('guidance', 'NN'), ('for', 'IN'), ('next', 'JJ'), ('quarter', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('current', 'JJ'), ('analyst', 'NN'), ('expectations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MON/NNP)   also/RB   issued/VBD   earnings/NNS   guidance/NN   for/IN   next/JJ   quarter/NN   that/WDT   is/VBZ   in/IN   line/NN   with/IN   current/JJ   analyst/NN   expectations/NNS   ./.)
+----------------------------------
+original sentence: 
+Today's announcement shows that MON has suffered some year over year setbacks.
+
+POS tagged sentence: 
+[('Today', 'NN'), ("'s", 'POS'), ('announcement', 'NN'), ('shows', 'VBZ'), ('that', 'IN'), ('MON', 'NNP'), ('has', 'VBZ'), ('suffered', 'VBN'), ('some', 'DT'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('setbacks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   's/POS   announcement/NN   shows/VBZ   that/IN   (ORGANIZATION MON/NNP)   has/VBZ   suffered/VBN   some/DT   year/NN   over/IN   year/NN   setbacks/NNS   ./.)
+----------------------------------
+original sentence: 
+The company reported gains of  last quarter compared with net gains of  during the same quarter a year ago.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('reported', 'VBD'), ('gains', 'NNS'), ('of', 'IN'), ('last', 'JJ'), ('quarter', 'NN'), ('compared', 'VBN'), ('with', 'IN'), ('net', 'JJ'), ('gains', 'NNS'), ('of', 'IN'), ('during', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('quarter', 'NN'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   reported/VBD   gains/NNS   of/IN   last/JJ   quarter/NN   compared/VBN   with/IN   net/JJ   gains/NNS   of/IN   during/IN   the/DT   same/JJ   quarter/NN   a/DT   year/NN   ago/IN   ./.)
+----------------------------------
+original sentence: 
+5 Profitable Options Trades for 2010
+Review of today's action: Join Live!
+
+POS tagged sentence: 
+[('5', 'LS'), ('Profitable', 'JJ'), ('Options', 'NNS'), ('Trades', 'NNP'), ('for', 'IN'), ('2010', 'CD'), ('Review', 'NNP'), ('of', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('action', 'NN'), (':', ':'), ('Join', 'NNP'), ('Live', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   5/LS   Profitable/JJ   Options/NNS   Trades/NNP   for/IN   2010/CD   Review/NNP   of/IN   today/NN   's/POS   action/NN   :/:   (PERSON Join/NNP Live/NNP)   !/.)
+----------------------------------
+original sentence: 
+We'll have to see if this negative announcement hurts MON's stock price in the near term.
+
+POS tagged sentence: 
+[('We', 'PRP'), ("'ll", 'MD'), ('have', 'VB'), ('to', 'TO'), ('see', 'VB'), ('if', 'IN'), ('this', 'DT'), ('negative', 'JJ'), ('announcement', 'NN'), ('hurts', 'NNS'), ('MON', 'NNP'), ("'s", 'POS'), ('stock', 'NN'), ('price', 'NN'), ('in', 'IN'), ('the', 'DT'), ('near', 'NN'), ('term', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   'll/MD   have/VB   to/TO   see/VB   if/IN   this/DT   negative/JJ   announcement/NN   hurts/NNS   (ORGANIZATION MON/NNP)   's/POS   stock/NN   price/NN   in/IN   the/DT   near/NN   term/NN   ./.)
+----------------------------------
+original sentence: 
+MON has lost 0.04 percent during the past month and is currently below its 200 day moving average.
+
+POS tagged sentence: 
+[('MON', 'NNP'), ('has', 'VBZ'), ('lost', 'VBN'), ('0.04', 'CD'), ('percent', 'NN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('month', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('currently', 'RB'), ('below', 'IN'), ('its', 'PRP$'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MON/NNP)   has/VBZ   lost/VBN   0.04/CD   percent/NN   during/IN   the/DT   past/JJ   month/NN   and/CC   is/VBZ   currently/RB   below/IN   its/PRP$   200/CD   day/NN   moving/VBG   average/NN   ./.)
+----------------------------------
+original sentence: 
+MON is a part of the Agricultural Chemicals industry along with stocks like Potash Corp. of Saskatchewan, Inc. .
+
+POS tagged sentence: 
+[('MON', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('part', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Agricultural', 'NNP'), ('Chemicals', 'NNP'), ('industry', 'NN'), ('along', 'IN'), ('with', 'IN'), ('stocks', 'NNS'), ('like', 'IN'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MON/NNP)   is/VBZ   a/DT   part/NN   of/IN   the/DT   (ORGANIZATION Agricultural/NNP Chemicals/NNP)   industry/NN   along/IN   with/IN   stocks/NNS   like/IN   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   ,/,   Inc./NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   part/NN   of/IN   the/DT   Agricultural/NNP   Chemicals/NNP   industry/NN   along/IN   with/IN   stocks/NNS   like/IN   Potash/NNP   Corp./NNP   of/IN   Saskatchewan/NNP)
+noun phrases to consider:
+	(NOUN MON/NNP)
+	(NOUN Inc./NNP)
+
+----------------------------------
+original sentence: 
+During the next five years, analysts expect the earnings per share EPS growth rate in the industry to be 12.48 percent.
+
+POS tagged sentence: 
+[('During', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('five', 'CD'), ('years', 'NNS'), (',', ','), ('analysts', 'NNS'), ('expect', 'VBP'), ('the', 'DT'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('growth', 'NN'), ('rate', 'NN'), ('in', 'IN'), ('the', 'DT'), ('industry', 'NN'), ('to', 'TO'), ('be', 'VB'), ('12.48', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   the/DT   next/JJ   five/CD   years/NNS   ,/,   analysts/NNS   expect/VBP   the/DT   earnings/NNS   per/IN   share/NN   EPS/NNS   growth/NN   rate/NN   in/IN   the/DT   industry/NN   to/TO   be/VB   12.48/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+If you compare MON's projected EPS growth rate of 13.5 percent to that of the industry, you can see that analysts expect MON to outperform the industry in the future by 1.02 percent.
+
+POS tagged sentence: 
+[('If', 'IN'), ('you', 'PRP'), ('compare', 'VBP'), ('MON', 'NNP'), ("'s", 'POS'), ('projected', 'VBN'), ('EPS', 'NNP'), ('growth', 'NN'), ('rate', 'NN'), ('of', 'IN'), ('13.5', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('that', 'DT'), ('of', 'IN'), ('the', 'DT'), ('industry', 'NN'), (',', ','), ('you', 'PRP'), ('can', 'MD'), ('see', 'VB'), ('that', 'IN'), ('analysts', 'NNS'), ('expect', 'VBP'), ('MON', 'NNP'), ('to', 'TO'), ('outperform', 'VB'), ('the', 'DT'), ('industry', 'NN'), ('in', 'IN'), ('the', 'DT'), ('future', 'NN'), ('by', 'IN'), ('1.02', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   you/PRP   compare/VBP   (ORGANIZATION MON/NNP)   's/POS   projected/VBN   (ORGANIZATION EPS/NNP)   growth/NN   rate/NN   of/IN   13.5/CD   percent/NN   to/TO   that/DT   of/IN   the/DT   industry/NN   ,/,   you/PRP   can/MD   see/VB   that/IN   analysts/NNS   expect/VBP   (ORGANIZATION MON/NNP)   to/TO   outperform/VB   the/DT   industry/NN   in/IN   the/DT   future/NN   by/IN   1.02/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+Analysts also believe SYT's earnings are going to grow at a rate of 7.5 percent while POT's earnings are going to grow at a rate of 16.48 percent.
+
+POS tagged sentence: 
+[('Analysts', 'NNS'), ('also', 'RB'), ('believe', 'VBP'), ('SYT', 'NNP'), ("'s", 'POS'), ('earnings', 'NNS'), ('are', 'VBP'), ('going', 'VBG'), ('to', 'TO'), ('grow', 'VB'), ('at', 'IN'), ('a', 'DT'), ('rate', 'NN'), ('of', 'IN'), ('7.5', 'CD'), ('percent', 'NN'), ('while', 'IN'), ('POT', 'NNP'), ("'s", 'POS'), ('earnings', 'NNS'), ('are', 'VBP'), ('going', 'VBG'), ('to', 'TO'), ('grow', 'VB'), ('at', 'IN'), ('a', 'DT'), ('rate', 'NN'), ('of', 'IN'), ('16.48', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Analysts/NNS   also/RB   believe/VBP   (ORGANIZATION SYT/NNP)   's/POS   earnings/NNS   are/VBP   going/VBG   to/TO   grow/VB   at/IN   a/DT   rate/NN   of/IN   7.5/CD   percent/NN   while/IN   (ORGANIZATION POT/NNP)   's/POS   earnings/NNS   are/VBP   going/VBG   to/TO   grow/VB   at/IN   a/DT   rate/NN   of/IN   16.48/CD   percent/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP SYT/NNP)
+	(VERB are/VBP going/VBG)
+	(VERB   grow/VB   at/IN   a/DT   rate/NN   of/IN   7.5/CD   percent/NN   while/IN   POT/NNP)
+	(VERB are/VBP going/VBG)
+	(VERB grow/VB at/IN a/DT rate/NN of/IN 16.48/CD percent/NN)
+noun phrases to consider:
+	(NOUN Analysts/NNS)
+	(NOUN earnings/NNS)
+	(NOUN earnings/NNS)
+
+----------------------------------
+original sentence: 
+SYT has lost 0.03 percent during the past month and is currently above its 200 day moving average.
+
+POS tagged sentence: 
+[('SYT', 'NN'), ('has', 'VBZ'), ('lost', 'VBN'), ('0.03', 'CD'), ('percent', 'NN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('month', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('currently', 'RB'), ('above', 'RB'), ('its', 'PRP$'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SYT/NN)   has/VBZ   lost/VBN   0.03/CD   percent/NN   during/IN   the/DT   past/JJ   month/NN   and/CC   is/VBZ   currently/RB   above/RB   its/PRP$   200/CD   day/NN   moving/VBG   average/NN   ./.)
+----------------------------------
+original sentence: 
+POT has lost 0.01 percent during the past month and is currently above its 200 day moving average.
+
+POS tagged sentence: 
+[('POT', 'NN'), ('has', 'VBZ'), ('lost', 'VBN'), ('0.01', 'CD'), ('percent', 'NN'), ('during', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('month', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('currently', 'RB'), ('above', 'RB'), ('its', 'PRP$'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION POT/NN)   has/VBZ   lost/VBN   0.01/CD   percent/NN   during/IN   the/DT   past/JJ   month/NN   and/CC   is/VBZ   currently/RB   above/RB   its/PRP$   200/CD   day/NN   moving/VBG   average/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   lost/VBN   0.01/CD   percent/NN   during/IN   the/DT   past/JJ   month/NN)
+	(VERB is/VBZ currently/RB above/RB its/PRP$ 200/CD day/NN)
+	(VERB moving/VBG average/NN)
+noun phrases to consider:
+	(NOUN POT/NN)
+
+----------------------------------
+original sentence: 
+Earnings season can be a volatile time in the stock market.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('season', 'VBP'), ('can', 'MD'), ('be', 'VB'), ('a', 'DT'), ('volatile', 'JJ'), ('time', 'NN'), ('in', 'IN'), ('the', 'DT'), ('stock', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   season/VBP   can/MD   be/VB   a/DT   volatile/JJ   time/NN   in/IN   the/DT   stock/NN   market/NN   ./.)
+----------------------------------
+original sentence: 
+Check out these videos and articles to be better prepared to take advantage of the large price moves that tend to accompany earnings announcements.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('out', 'IN'), ('these', 'DT'), ('videos', 'NNS'), ('and', 'CC'), ('articles', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('better', 'JJR'), ('prepared', 'VBN'), ('to', 'TO'), ('take', 'VB'), ('advantage', 'NN'), ('of', 'IN'), ('the', 'DT'), ('large', 'JJ'), ('price', 'NN'), ('moves', 'NNS'), ('that', 'WDT'), ('tend', 'NN'), ('to', 'TO'), ('accompany', 'VB'), ('earnings', 'NNS'), ('announcements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   out/IN   these/DT   videos/NNS   and/CC   articles/NNS   to/TO   be/VB   better/JJR   prepared/VBN   to/TO   take/VB   advantage/NN   of/IN   the/DT   large/JJ   price/NN   moves/NNS   that/WDT   tend/NN   to/TO   accompany/VB   earnings/NNS   announcements/NNS   ./.)
+----------------------------------
+original sentence: 
+Earnings Season is Here Find Out How to Trade It
+Using Options to Trade Earnings
+Understanding Stock Analyst Research and Recommendations
+
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('Season', 'NNP'), ('is', 'VBZ'), ('Here', 'NNP'), ('Find', 'NNP'), ('Out', 'NNP'), ('How', 'NNP'), ('to', 'TO'), ('Trade', 'NNP'), ('It', 'NNP'), ('Using', 'NNP'), ('Options', 'NNPS'), ('to', 'TO'), ('Trade', 'NNP'), ('Earnings', 'NNP'), ('Understanding', 'NNP'), ('Stock', 'NNP'), ('Analyst', 'NNP'), ('Research', 'NNP'), ('and', 'CC'), ('Recommendations', 'NNPS')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   (PERSON Season/NNP)   is/VBZ   (PERSON Here/NNP Find/NNP Out/NNP How/NNP)   to/TO   (PERSON Trade/NNP It/NNP Using/NNP)   Options/NNPS   to/TO   (PERSON     Trade/NNP     Earnings/NNP     Understanding/NNP     Stock/NNP     Analyst/NNP     Research/NNP)   and/CC   (ORGANIZATION Recommendations/NNPS))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

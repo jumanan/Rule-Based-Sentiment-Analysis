@@ -1,0 +1,289 @@
+
+----------------------------------
+original sentence: 
+ Stocks rise after increase in consumer spending Stocks rise after increase in consumer spending
+Monday, March 29, 2010 12:13 PM
+ Source: Associated Press/AP Online By STEPHEN BERNARD and TIM PARADIS
+
+
+NEW YORK Stocks rose Monday after an increase in consumer spending boosted confidence in the economy.
+
+POS tagged sentence: 
+[('Stocks', 'NNS'), ('rise', 'VBP'), ('after', 'IN'), ('increase', 'NN'), ('in', 'IN'), ('consumer', 'NN'), ('spending', 'NN'), ('Stocks', 'NNS'), ('rise', 'VBP'), ('after', 'IN'), ('increase', 'NN'), ('in', 'IN'), ('consumer', 'NN'), ('spending', 'NN'), ('Monday', 'NNP'), (',', ','), ('March', 'NNP'), ('29', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('13', 'CD'), ('PM', 'NNP'), ('Source', 'NNP'), (':', ':'), ('Associated', 'NNP'), ('Press/AP', 'NNP'), ('Online', 'NNP'), ('By', 'NNP'), ('STEPHEN', 'NNP'), ('BERNARD', 'NNP'), ('and', 'CC'), ('TIM', 'NNP'), ('PARADIS', 'NNP'), ('NEW', 'NNP'), ('YORK', 'NNP'), ('Stocks', 'NNP'), ('rose', 'VBD'), ('Monday', 'NNP'), ('after', 'IN'), ('an', 'DT'), ('increase', 'NN'), ('in', 'IN'), ('consumer', 'NN'), ('spending', 'NN'), ('boosted', 'VBD'), ('confidence', 'NN'), ('in', 'IN'), ('the', 'DT'), ('economy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stocks/NNS   rise/VBP   after/IN   increase/NN   in/IN   consumer/NN   spending/NN   Stocks/NNS   rise/VBP   after/IN   increase/NN   in/IN   consumer/NN   spending/NN   Monday/NNP   ,/,   March/NNP   29/CD   ,/,   2010/CD   12/CD   :/:   13/CD   PM/NNP   Source/NNP   :/:   (ORGANIZATION Associated/NNP)   Press/AP/NNP   Online/NNP   By/NNP   (ORGANIZATION STEPHEN/NNP)   (ORGANIZATION BERNARD/NNP)   and/CC   (ORGANIZATION TIM/NNP)   (ORGANIZATION PARADIS/NNP)   NEW/NNP   YORK/NNP   (PERSON Stocks/NNP)   rose/VBD   Monday/NNP   after/IN   an/DT   increase/NN   in/IN   consumer/NN   spending/NN   boosted/VBD   confidence/NN   in/IN   the/DT   economy/NN   ./.)
+----------------------------------
+original sentence: 
+The Dow Jones industrial average rose 45 points in morning trading.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('industrial', 'JJ'), ('average', 'NN'), ('rose', 'VBD'), ('45', 'CD'), ('points', 'NNS'), ('in', 'IN'), ('morning', 'NN'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP Jones/NNP)   industrial/JJ   average/NN   rose/VBD   45/CD   points/NNS   in/IN   morning/NN   trading/NN   ./.)
+----------------------------------
+original sentence: 
+Broader indexes also climbed.
+
+POS tagged sentence: 
+[('Broader', 'NNP'), ('indexes', 'NNS'), ('also', 'RB'), ('climbed', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Broader/NNP) indexes/NNS also/RB climbed/VBD ./.)
+----------------------------------
+original sentence: 
+The Commerce Department said consumer spending rose for the fifth consecutive month in February, matching economists' expectations.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Commerce', 'NNP'), ('Department', 'NNP'), ('said', 'VBD'), ('consumer', 'NN'), ('spending', 'NN'), ('rose', 'VBD'), ('for', 'IN'), ('the', 'DT'), ('fifth', 'JJ'), ('consecutive', 'JJ'), ('month', 'NN'), ('in', 'IN'), ('February', 'NNP'), (',', ','), ('matching', 'VBG'), ('economists', 'NNS'), ("'", 'POS'), ('expectations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Commerce/NNP Department/NNP)   said/VBD   consumer/NN   spending/NN   rose/VBD   for/IN   the/DT   fifth/JJ   consecutive/JJ   month/NN   in/IN   February/NNP   ,/,   matching/VBG   economists/NNS   '/POS   expectations/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD consumer/NN spending/NN)
+	(VERB   rose/VBD   for/IN   the/DT   fifth/JJ   consecutive/JJ   month/NN   in/IN   February/NNP)
+	(VERB matching/VBG economists/NNS)
+noun phrases to consider:
+	(NOUN Commerce/NNP Department/NNP)
+	(NOUN expectations/NNS)
+
+----------------------------------
+original sentence: 
+Job creation and healthy consumer spending are considered keys to a sustained recovery.
+
+POS tagged sentence: 
+[('Job', 'NNP'), ('creation', 'NN'), ('and', 'CC'), ('healthy', 'JJ'), ('consumer', 'NN'), ('spending', 'NN'), ('are', 'VBP'), ('considered', 'VBN'), ('keys', 'NNS'), ('to', 'TO'), ('a', 'DT'), ('sustained', 'VBN'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Job/NNP)   creation/NN   and/CC   healthy/JJ   consumer/NN   spending/NN   are/VBP   considered/VBN   keys/NNS   to/TO   a/DT   sustained/VBN   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+At the end of the week, investors will get the Labor Department's monthly employment report, which is expected to show employers added jobs this month for only the second time since the recession began in December 2007.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('week', 'NN'), (',', ','), ('investors', 'NNS'), ('will', 'MD'), ('get', 'VB'), ('the', 'DT'), ('Labor', 'NNP'), ('Department', 'NNP'), ("'s", 'POS'), ('monthly', 'JJ'), ('employment', 'NN'), ('report', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('show', 'VB'), ('employers', 'NNS'), ('added', 'VBD'), ('jobs', 'NNS'), ('this', 'DT'), ('month', 'NN'), ('for', 'IN'), ('only', 'RB'), ('the', 'DT'), ('second', 'JJ'), ('time', 'NN'), ('since', 'IN'), ('the', 'DT'), ('recession', 'NN'), ('began', 'VBD'), ('in', 'IN'), ('December', 'NNP'), ('2007', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   end/NN   of/IN   the/DT   week/NN   ,/,   investors/NNS   will/MD   get/VB   the/DT   (ORGANIZATION Labor/NNP Department/NNP)   's/POS   monthly/JJ   employment/NN   report/NN   ,/,   which/WDT   is/VBZ   expected/VBN   to/TO   show/VB   employers/NNS   added/VBD   jobs/NNS   this/DT   month/NN   for/IN   only/RB   the/DT   second/JJ   time/NN   since/IN   the/DT   recession/NN   began/VBD   in/IN   December/NNP   2007/CD   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, easing concern about debt problems in Greece reduced demand for the dollar.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('easing', 'VBG'), ('concern', 'NN'), ('about', 'IN'), ('debt', 'NN'), ('problems', 'NNS'), ('in', 'IN'), ('Greece', 'NNP'), ('reduced', 'VBD'), ('demand', 'NN'), ('for', 'IN'), ('the', 'DT'), ('dollar', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   easing/VBG   concern/NN   about/IN   debt/NN   problems/NNS   in/IN   (GPE Greece/NNP)   reduced/VBD   demand/NN   for/IN   the/DT   dollar/NN   ./.)
+----------------------------------
+original sentence: 
+The dollar's decline in turn increased demand for commodities, which become more attractive to foreign investors when the dollar falls since most of them are priced in dollars.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dollar', 'NN'), ("'s", 'POS'), ('decline', 'NN'), ('in', 'IN'), ('turn', 'NN'), ('increased', 'VBD'), ('demand', 'NN'), ('for', 'IN'), ('commodities', 'NNS'), (',', ','), ('which', 'WDT'), ('become', 'DT'), ('more', 'RBR'), ('attractive', 'JJ'), ('to', 'TO'), ('foreign', 'JJ'), ('investors', 'NNS'), ('when', 'WRB'), ('the', 'DT'), ('dollar', 'NN'), ('falls', 'VBZ'), ('since', 'IN'), ('most', 'JJS'), ('of', 'IN'), ('them', 'PRP'), ('are', 'VBP'), ('priced', 'VBN'), ('in', 'IN'), ('dollars', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dollar/NN   's/POS   decline/NN   in/IN   turn/NN   increased/VBD   demand/NN   for/IN   commodities/NNS   ,/,   which/WDT   become/DT   more/RBR   attractive/JJ   to/TO   foreign/JJ   investors/NNS   when/WRB   the/DT   dollar/NN   falls/VBZ   since/IN   most/JJS   of/IN   them/PRP   are/VBP   priced/VBN   in/IN   dollars/NNS   ./.)
+----------------------------------
+original sentence: 
+Energy and materials stocks led the market higher.
+
+POS tagged sentence: 
+[('Energy', 'NNP'), ('and', 'CC'), ('materials', 'NNS'), ('stocks', 'NNS'), ('led', 'VBD'), ('the', 'DT'), ('market', 'NN'), ('higher', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Energy/NNP)   and/CC   materials/NNS   stocks/NNS   led/VBD   the/DT   market/NN   higher/JJR   ./.)
+----------------------------------
+original sentence: 
+In the latest news from Greece, the debt strapped government said it was moving ahead with plans to issue a new seven year bond.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('news', 'NN'), ('from', 'IN'), ('Greece', 'NNP'), (',', ','), ('the', 'DT'), ('debt', 'NN'), ('strapped', 'VBD'), ('government', 'NN'), ('said', 'VBD'), ('it', 'PRP'), ('was', 'VBD'), ('moving', 'VBG'), ('ahead', 'RB'), ('with', 'IN'), ('plans', 'NNS'), ('to', 'TO'), ('issue', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('seven', 'CD'), ('year', 'NN'), ('bond', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   latest/JJS   news/NN   from/IN   (GPE Greece/NNP)   ,/,   the/DT   debt/NN   strapped/VBD   government/NN   said/VBD   it/PRP   was/VBD   moving/VBG   ahead/RB   with/IN   plans/NNS   to/TO   issue/VB   a/DT   new/JJ   seven/CD   year/NN   bond/NN   ./.)
+----------------------------------
+original sentence: 
+European leaders and the International Monetary Fund agreed last week to provide a safety net should Greece or other countries that use the euro fail to raise money by issuing new debt.
+
+POS tagged sentence: 
+[('European', 'JJ'), ('leaders', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('International', 'NNP'), ('Monetary', 'NNP'), ('Fund', 'NNP'), ('agreed', 'VBD'), ('last', 'JJ'), ('week', 'NN'), ('to', 'TO'), ('provide', 'VB'), ('a', 'DT'), ('safety', 'NN'), ('net', 'NN'), ('should', 'MD'), ('Greece', 'VB'), ('or', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('that', 'IN'), ('use', 'NN'), ('the', 'DT'), ('euro', 'NN'), ('fail', 'NN'), ('to', 'TO'), ('raise', 'VB'), ('money', 'NN'), ('by', 'IN'), ('issuing', 'NN'), ('new', 'JJ'), ('debt', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE European/JJ)   leaders/NNS   and/CC   the/DT   (ORGANIZATION International/NNP Monetary/NNP Fund/NNP)   agreed/VBD   last/JJ   week/NN   to/TO   provide/VB   a/DT   safety/NN   net/NN   should/MD   Greece/VB   or/CC   other/JJ   countries/NNS   that/IN   use/NN   the/DT   euro/NN   fail/NN   to/TO   raise/VB   money/NN   by/IN   issuing/NN   new/JJ   debt/NN   ./.)
+----------------------------------
+original sentence: 
+Concerns about Greece's fiscal crisis have been pounding the euro, Europe's shared currency.
+
+POS tagged sentence: 
+[('Concerns', 'NNS'), ('about', 'IN'), ('Greece', 'NNP'), ("'s", 'POS'), ('fiscal', 'JJ'), ('crisis', 'NN'), ('have', 'VBP'), ('been', 'VBN'), ('pounding', 'VBG'), ('the', 'DT'), ('euro', 'NN'), (',', ','), ('Europe', 'NNP'), ("'s", 'POS'), ('shared', 'VBN'), ('currency', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Concerns/NNS   about/IN   (GPE Greece/NNP)   's/POS   fiscal/JJ   crisis/NN   have/VBP   been/VBN   pounding/VBG   the/DT   euro/NN   ,/,   (GPE Europe/NNP)   's/POS   shared/VBN   currency/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP been/VBN pounding/VBG the/DT euro/NN)
+	(VERB shared/VBN currency/NN)
+noun phrases to consider:
+	(NOUN Concerns/NNS)
+	(NOUN Greece/NNP)
+	(NOUN fiscal/JJ crisis/NN)
+	(NOUN Europe/NNP)
+
+----------------------------------
+original sentence: 
+Financial shares were mixed after the Treasury Department said it would start to sell the shares it owns in Citigroup Inc.
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('shares', 'NNS'), ('were', 'VBD'), ('mixed', 'VBN'), ('after', 'IN'), ('the', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('would', 'MD'), ('start', 'VB'), ('to', 'TO'), ('sell', 'VB'), ('the', 'DT'), ('shares', 'NNS'), ('it', 'PRP'), ('owns', 'VBZ'), ('in', 'IN'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Financial/JJ   shares/NNS   were/VBD   mixed/VBN   after/IN   the/DT   (ORGANIZATION Treasury/NNP Department/NNP)   said/VBD   it/PRP   would/MD   start/VB   to/TO   sell/VB   the/DT   shares/NNS   it/PRP   owns/VBZ   in/IN   (ORGANIZATION Citigroup/NNP Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB were/VBD mixed/VBN after/IN the/DT Treasury/NNP Department/NNP)
+	(VERB said/VBD it/PRP)
+	(VERB start/VB to/TO sell/VB the/DT shares/NNS it/PRP)
+	(VERB owns/VBZ in/IN Citigroup/NNP Inc/NNP)
+noun phrases to consider:
+	(NOUN Financial/JJ shares/NNS)
+
+----------------------------------
+original sentence: 
+The government took 7.7 billion Citigroup shares in exchange for $25 billion it gave the bank during the 2008 credit crisis.
+
+POS tagged sentence: 
+[('The', 'DT'), ('government', 'NN'), ('took', 'VBD'), ('7.7', 'CD'), ('billion', 'CD'), ('Citigroup', 'NNP'), ('shares', 'NNS'), ('in', 'IN'), ('exchange', 'NN'), ('for', 'IN'), ('$', '$'), ('25', 'CD'), ('billion', 'CD'), ('it', 'PRP'), ('gave', 'VBD'), ('the', 'DT'), ('bank', 'NN'), ('during', 'IN'), ('the', 'DT'), ('2008', 'CD'), ('credit', 'NN'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   government/NN   took/VBD   7.7/CD   billion/CD   Citigroup/NNP   shares/NNS   in/IN   exchange/NN   for/IN   $/$   25/CD   billion/CD   it/PRP   gave/VBD   the/DT   bank/NN   during/IN   the/DT   2008/CD   credit/NN   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   took/VBD   7.7/CD   billion/CD   Citigroup/NNP   shares/NNS   in/IN   exchange/NN   for/IN)
+	(VERB   gave/VBD   the/DT   bank/NN   during/IN   the/DT   2008/CD   credit/NN   crisis/NN)
+
+tagged sentence:
+	 gave the bank during the 2008 credit crisis	res:-1
+noun phrases to consider:
+	(NOUN government/NN)
+
+----------------------------------
+original sentence: 
+The planned sale during the next year could result in a profit of more than $7.5 billion.
+
+POS tagged sentence: 
+[('The', 'DT'), ('planned', 'VBN'), ('sale', 'NN'), ('during', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('year', 'NN'), ('could', 'MD'), ('result', 'VB'), ('in', 'IN'), ('a', 'DT'), ('profit', 'NN'), ('of', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('$', '$'), ('7.5', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   planned/VBN   sale/NN   during/IN   the/DT   next/JJ   year/NN   could/MD   result/VB   in/IN   a/DT   profit/NN   of/IN   more/JJR   than/IN   $/$   7.5/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+The stock market has been climbing at a steady pace since early February on expectations that the economy is improving.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('market', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('climbing', 'VBG'), ('at', 'IN'), ('a', 'DT'), ('steady', 'JJ'), ('pace', 'NN'), ('since', 'IN'), ('early', 'JJ'), ('February', 'NNP'), ('on', 'IN'), ('expectations', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('economy', 'NN'), ('is', 'VBZ'), ('improving', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   market/NN   has/VBZ   been/VBN   climbing/VBG   at/IN   a/DT   steady/JJ   pace/NN   since/IN   early/JJ   February/NNP   on/IN   expectations/NNS   that/IN   the/DT   economy/NN   is/VBZ   improving/VBG   ./.)
+----------------------------------
+original sentence: 
+Many reports still point to a weak economy but indicate that conditions are improving.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('reports', 'NNS'), ('still', 'RB'), ('point', 'VBP'), ('to', 'TO'), ('a', 'DT'), ('weak', 'JJ'), ('economy', 'NN'), ('but', 'CC'), ('indicate', 'JJ'), ('that', 'IN'), ('conditions', 'NNS'), ('are', 'VBP'), ('improving', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   reports/NNS   still/RB   point/VBP   to/TO   a/DT   weak/JJ   economy/NN   but/CC   indicate/JJ   that/IN   conditions/NNS   are/VBP   improving/VBG   ./.)
+----------------------------------
+original sentence: 
+"The market seems to be holding up pretty well and probably will for a while," said Frank Haines, chief investment officer at Christian Brothers Investment Services in New York.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('market', 'NN'), ('seems', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('holding', 'VBG'), ('up', 'RP'), ('pretty', 'RB'), ('well', 'RB'), ('and', 'CC'), ('probably', 'RB'), ('will', 'MD'), ('for', 'IN'), ('a', 'DT'), ('while', 'NN'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Frank', 'NNP'), ('Haines', 'NNP'), (',', ','), ('chief', 'NN'), ('investment', 'NN'), ('officer', 'NN'), ('at', 'IN'), ('Christian', 'NNP'), ('Brothers', 'NNPS'), ('Investment', 'NNP'), ('Services', 'NNPS'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   market/NN   seems/VBZ   to/TO   be/VB   holding/VBG   up/RP   pretty/RB   well/RB   and/CC   probably/RB   will/MD   for/IN   a/DT   while/NN   ,/,   "/:   said/VBD   (PERSON Frank/NNP Haines/NNP)   ,/,   chief/NN   investment/NN   officer/NN   at/IN   (ORGANIZATION     Christian/NNP     Brothers/NNPS     Investment/NNP     Services/NNPS)   in/IN   (GPE New/NNP York/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB seems/VBZ to/TO be/VB holding/VBG)
+	(VERB said/VBD Frank/NNP Haines/NNP)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN market/NN)
+	(NOUN while/NN)
+	(NOUN chief/NN investment/NN officer/NN)
+	(NOUN Christian/NNP Brothers/NNPS Investment/NNP Services/NNPS)
+	(NOUN New/NNP York/NNP)
+
+----------------------------------
+original sentence: 
+Haines said low interest rates will help stocks for now but that longer term threats like uncertainty about policies in Washington and rising debt levels in the U.S. and other countries could eventually hurt markets.
+
+POS tagged sentence: 
+[('Haines', 'NNS'), ('said', 'VBD'), ('low', 'JJ'), ('interest', 'NN'), ('rates', 'NNS'), ('will', 'MD'), ('help', 'VB'), ('stocks', 'NNS'), ('for', 'IN'), ('now', 'RB'), ('but', 'CC'), ('that', 'IN'), ('longer', 'JJR'), ('term', 'NN'), ('threats', 'NNS'), ('like', 'IN'), ('uncertainty', 'NN'), ('about', 'IN'), ('policies', 'NNS'), ('in', 'IN'), ('Washington', 'NNP'), ('and', 'CC'), ('rising', 'VBG'), ('debt', 'NN'), ('levels', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('could', 'MD'), ('eventually', 'RB'), ('hurt', 'VB'), ('markets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Haines/NNS)   said/VBD   low/JJ   interest/NN   rates/NNS   will/MD   help/VB   stocks/NNS   for/IN   now/RB   but/CC   that/IN   longer/JJR   term/NN   threats/NNS   like/IN   uncertainty/NN   about/IN   policies/NNS   in/IN   (GPE Washington/NNP)   and/CC   rising/VBG   debt/NN   levels/NNS   in/IN   the/DT   (GPE U.S./NNP)   and/CC   other/JJ   countries/NNS   could/MD   eventually/RB   hurt/VB   markets/NNS   ./.)
+----------------------------------
+original sentence: 
+In late morning trading, the Dow rose 45.04, or 0.4 percent, to 10,895.40.
+
+POS tagged sentence: 
+[('In', 'IN'), ('late', 'JJ'), ('morning', 'NN'), ('trading', 'NN'), (',', ','), ('the', 'DT'), ('Dow', 'NNP'), ('rose', 'VBD'), ('45.04', 'CD'), (',', ','), ('or', 'CC'), ('0.4', 'CD'), ('percent', 'NN'), (',', ','), ('to', 'TO'), ('10,895.40', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   late/JJ   morning/NN   trading/NN   ,/,   the/DT   (ORGANIZATION Dow/NNP)   rose/VBD   45.04/CD   ,/,   or/CC   0.4/CD   percent/NN   ,/,   to/TO   10,895.40/CD   ./.)
+----------------------------------
+original sentence: 
+The broader Standard & Poor's 500 index rose 5.97, or 0.5 percent, to 1,172.56, and the Nasdaq composite index rose 11.06, or 0.5 percent, to 2,406.19.
+
+POS tagged sentence: 
+[('The', 'DT'), ('broader', 'JJR'), ('Standard', 'NNP'), ('&', 'CC'), ('Poor', 'NNP'), ("'s", 'POS'), ('500', 'CD'), ('index', 'NN'), ('rose', 'VBD'), ('5.97', 'CD'), (',', ','), ('or', 'CC'), ('0.5', 'CD'), ('percent', 'NN'), (',', ','), ('to', 'TO'), ('1,172.56', 'CD'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('Nasdaq', 'NNP'), ('composite', 'JJ'), ('index', 'NN'), ('rose', 'VBD'), ('11.06', 'CD'), (',', ','), ('or', 'CC'), ('0.5', 'CD'), ('percent', 'NN'), (',', ','), ('to', 'TO'), ('2,406.19', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   broader/JJR   (PERSON Standard/NNP)   &/CC   (PERSON Poor/NNP)   's/POS   500/CD   index/NN   rose/VBD   5.97/CD   ,/,   or/CC   0.5/CD   percent/NN   ,/,   to/TO   1,172.56/CD   ,/,   and/CC   the/DT   (ORGANIZATION Nasdaq/NNP)   composite/JJ   index/NN   rose/VBD   11.06/CD   ,/,   or/CC   0.5/CD   percent/NN   ,/,   to/TO   2,406.19/CD   ./.)
+----------------------------------
+original sentence: 
+Bond prices were mixed.
+
+POS tagged sentence: 
+[('Bond', 'NN'), ('prices', 'NNS'), ('were', 'VBD'), ('mixed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Bond/NN) prices/NNS were/VBD mixed/VBN ./.)
+----------------------------------
+original sentence: 
+Subscribe to Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+  Related Press Releases
+ |  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('Subscribe', 'NNP'), ('to', 'TO'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('Related', 'NNP'), ('Press', 'NNP'), ('Releases', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('|', 'NNP'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   (GPE Subscribe/NNP)   to/TO   (GPE Rate/NNP)   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   (PERSON Related/NNP Press/NNP Releases/NNP)   |/NNP   |/NNP   |/NNP   Join/NNP   Blog/NNP   (PERSON Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB copryright/VBD 2010/CD all/DT rights/NNS)
+	(VERB reserved/VBN Fundamental/NNP data/NNS)
+	(VERB   is/VBZ   provided/VBN   by/IN   Zacks/NNP   Investment/NNP   Research/NNP)
+	(VERB is/VBZ provided/VBN by/IN)
+	(VERB provided/VBD by/IN)
+noun phrases to consider:
+	(NOUN Subscribe/NNP)
+	(NOUN Rate/NNP)
+	(NOUN Commentary/NNP Name/NNP)
+	(NOUN Alert/NNP)
+	(NOUN new/JJ comments/NNS)
+	(NOUN Your/NNP email/NN)
+	(NOUN Website/NNP)
+	(NOUN Title/NNP)
+	(NOUN RadEditor/NNP hidden/NN textarea/NN Related/NNP)
+	(NOUN Press/NNP Releases/NNP |/NNP |/NNP)
+	(NOUN |/NNP Join/NNP Blog/NNP Network/NNP)
+	(NOUN market/NN data/NNS)
+	(NOUN Commentary/NNP)
+	(NOUN Press/NNP Releases/NNP)
+
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

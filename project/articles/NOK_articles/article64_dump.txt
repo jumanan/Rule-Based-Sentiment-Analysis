@@ -1,0 +1,193 @@
+
+----------------------------------
+original sentence: 
+EETimes.com Analyst: Smartphones sales surged in 4Q '09
+Analyst: Smartphones sales surged in 4Q '09
+ 03/15/2010 11:39 AM EDT SAN JOSE, Calif. &#151; Smartphone sales surged 25 percent in the fourth quarter of 2009 compared to sales in the previous quarter with Apple, Nokia and Research in Motion all riding the wave.
+
+POS tagged sentence: 
+[('EETimes.com', 'NN'), ('Analyst', 'NN'), (':', ':'), ('Smartphones', 'NNS'), ('sales', 'NNS'), ('surged', 'VBD'), ('in', 'IN'), ('4Q', 'CD'), ("'09", '-NONE-'), ('Analyst', 'NNP'), (':', ':'), ('Smartphones', 'NNP'), ('sales', 'NNS'), ('surged', 'VBD'), ('in', 'IN'), ('4Q', 'CD'), ("'09", '-NONE-'), ('03/15/2010', 'CD'), ('11', 'CD'), (':', ':'), ('39', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('SAN', 'NNP'), ('JOSE', 'NNP'), (',', ','), ('Calif.', 'NNP'), ('&', 'CC'), ('#', '#'), ('151', 'CD'), (';', ':'), ('Smartphone', 'NNP'), ('sales', 'NNS'), ('surged', 'VBD'), ('25', 'CD'), ('percent', 'NN'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('compared', 'VBN'), ('to', 'TO'), ('sales', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('quarter', 'NN'), ('with', 'IN'), ('Apple', 'NNP'), (',', ','), ('Nokia', 'NNP'), ('and', 'CC'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('all', 'DT'), ('riding', 'VBG'), ('the', 'DT'), ('wave', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   EETimes.com/NN   Analyst/NN   :/:   Smartphones/NNS   sales/NNS   surged/VBD   in/IN   4Q/CD   '09/-NONE-   Analyst/NNP   :/:   Smartphones/NNP   sales/NNS   surged/VBD   in/IN   4Q/CD   '09/-NONE-   03/15/2010/CD   11/CD   :/:   39/CD   AM/NNP   EDT/NNP   SAN/NNP   JOSE/NNP   ,/,   (GPE Calif./NNP)   &/CC   #/#   151/CD   ;/:   Smartphone/NNP   sales/NNS   surged/VBD   25/CD   percent/NN   in/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD   compared/VBN   to/TO   sales/NNS   in/IN   the/DT   previous/JJ   quarter/NN   with/IN   (PERSON Apple/NNP)   ,/,   (PERSON Nokia/NNP)   and/CC   Research/NNP   in/IN   (GPE Motion/NNP)   all/DT   riding/VBG   the/DT   wave/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB surged/VBD in/IN 4Q/CD)
+	(VERB surged/VBD in/IN 4Q/CD)
+	(VERB   surged/VBD   25/CD   percent/NN   in/IN   the/DT   fourth/JJ   quarter/NN   of/IN   2009/CD)
+	(VERB   compared/VBN   to/TO   sales/NNS   in/IN   the/DT   previous/JJ   quarter/NN   with/IN   Apple/NNP)
+	(VERB riding/VBG the/DT wave/NN)
+noun phrases to consider:
+	(NOUN EETimes.com/NN Analyst/NN)
+	(NOUN Smartphones/NNS sales/NNS)
+	(NOUN Analyst/NNP)
+	(NOUN Smartphones/NNP sales/NNS)
+	(NOUN 39/CD AM/NNP EDT/NNP SAN/NNP JOSE/NNP)
+	(NOUN Calif./NNP)
+	(NOUN Smartphone/NNP sales/NNS)
+	(NOUN Nokia/NNP)
+	(NOUN Research/NNP)
+	(NOUN Motion/NNP)
+
+----------------------------------
+original sentence: 
+The rise represents a particularly sharp rebound from generally depressed sales last year, said an analyst from ABI Research.
+
+POS tagged sentence: 
+[('The', 'DT'), ('rise', 'NN'), ('represents', 'VBZ'), ('a', 'DT'), ('particularly', 'RB'), ('sharp', 'JJ'), ('rebound', 'NN'), ('from', 'IN'), ('generally', 'RB'), ('depressed', 'VBN'), ('sales', 'NNS'), ('last', 'JJ'), ('year', 'NN'), (',', ','), ('said', 'VBD'), ('an', 'DT'), ('analyst', 'NN'), ('from', 'IN'), ('ABI', 'NNP'), ('Research', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   rise/NN   represents/VBZ   a/DT   particularly/RB   sharp/JJ   rebound/NN   from/IN   generally/RB   depressed/VBN   sales/NNS   last/JJ   year/NN   ,/,   said/VBD   an/DT   analyst/NN   from/IN   (ORGANIZATION ABI/NNP Research/NNP)   ./.)
+----------------------------------
+original sentence: 
+Handset sales are usually strongest in the fourth quarter, but the period last year was significantly above average, ABI said in its latest quarterly report
+.
+
+POS tagged sentence: 
+[('Handset', 'NNP'), ('sales', 'NNS'), ('are', 'VBP'), ('usually', 'RB'), ('strongest', 'JJS'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), (',', ','), ('but', 'CC'), ('the', 'DT'), ('period', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('was', 'VBD'), ('significantly', 'RB'), ('above', 'IN'), ('average', 'JJ'), (',', ','), ('ABI', 'NNP'), ('said', 'VBD'), ('in', 'IN'), ('its', 'PRP$'), ('latest', 'JJS'), ('quarterly', 'JJ'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Handset/NNP)   sales/NNS   are/VBP   usually/RB   strongest/JJS   in/IN   the/DT   fourth/JJ   quarter/NN   ,/,   but/CC   the/DT   period/NN   last/JJ   year/NN   was/VBD   significantly/RB   above/IN   average/JJ   ,/,   (ORGANIZATION ABI/NNP)   said/VBD   in/IN   its/PRP$   latest/JJS   quarterly/JJ   report/NN   ./.)
+----------------------------------
+original sentence: 
+Falling prices and new entry level smartphones helped drive sales.
+
+POS tagged sentence: 
+[('Falling', 'VBG'), ('prices', 'NNS'), ('and', 'CC'), ('new', 'JJ'), ('entry', 'NN'), ('level', 'NN'), ('smartphones', 'NNS'), ('helped', 'VBD'), ('drive', 'JJ'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Falling/VBG   prices/NNS   and/CC   new/JJ   entry/NN   level/NN   smartphones/NNS   helped/VBD   drive/JJ   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+"The robust strength of this market's recovery is very encouraging indeed," said Michael Morgan, an analyst at ABI.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('robust', 'NN'), ('strength', 'NN'), ('of', 'IN'), ('this', 'DT'), ('market', 'NN'), ("'s", 'VBZ'), ('recovery', 'JJ'), ('is', 'VBZ'), ('very', 'RB'), ('encouraging', 'VBG'), ('indeed', 'RB'), (',', ','), ('"', ':'), ('said', 'VBD'), ('Michael', 'NNP'), ('Morgan', 'NNP'), (',', ','), ('an', 'DT'), ('analyst', 'NN'), ('at', 'IN'), ('ABI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   robust/NN   strength/NN   of/IN   this/DT   market/NN   's/VBZ   recovery/JJ   is/VBZ   very/RB   encouraging/VBG   indeed/RB   ,/,   "/:   said/VBD   (PERSON Michael/NNP Morgan/NNP)   ,/,   an/DT   analyst/NN   at/IN   (ORGANIZATION ABI/NNP)   ./.)
+----------------------------------
+original sentence: 
+"Granted, the fourth quarter is usually better than the third, but 3Q saw only a 3.6 percent growth over the second quarter," he said.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Granted', 'VBN'), (',', ','), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('is', 'VBZ'), ('usually', 'RB'), ('better', 'RBR'), ('than', 'IN'), ('the', 'DT'), ('third', 'JJ'), (',', ','), ('but', 'CC'), ('3Q', 'CD'), ('saw', 'VBD'), ('only', 'RB'), ('a', 'DT'), ('3.6', 'CD'), ('percent', 'NN'), ('growth', 'NN'), ('over', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), (',', ','), ('"', 'NNP'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Granted/VBN   ,/,   the/DT   fourth/JJ   quarter/NN   is/VBZ   usually/RB   better/RBR   than/IN   the/DT   third/JJ   ,/,   but/CC   3Q/CD   saw/VBD   only/RB   a/DT   3.6/CD   percent/NN   growth/NN   over/IN   the/DT   second/JJ   quarter/NN   ,/,   "/NNP   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Apple had its best smartphone quarter on record, and Nokia did extremely well, shipping 21 million smartphones compared to its usual 15 16 million.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ('had', 'VBD'), ('its', 'PRP$'), ('best', 'JJS'), ('smartphone', 'NN'), ('quarter', 'NN'), ('on', 'IN'), ('record', 'NN'), (',', ','), ('and', 'CC'), ('Nokia', 'NNP'), ('did', 'VBD'), ('extremely', 'RB'), ('well', 'RB'), (',', ','), ('shipping', 'VBG'), ('21', 'CD'), ('million', 'CD'), ('smartphones', 'NNS'), ('compared', 'VBN'), ('to', 'TO'), ('its', 'PRP$'), ('usual', 'JJ'), ('15', 'CD'), ('16', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Apple/NNP)   had/VBD   its/PRP$   best/JJS   smartphone/NN   quarter/NN   on/IN   record/NN   ,/,   and/CC   (PERSON Nokia/NNP)   did/VBD   extremely/RB   well/RB   ,/,   shipping/VBG   21/CD   million/CD   smartphones/NNS   compared/VBN   to/TO   its/PRP$   usual/JJ   15/CD   16/CD   million/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   had/VBD   its/PRP$   best/JJS   smartphone/NN   quarter/NN   on/IN   record/NN)
+	(VERB did/VBD extremely/RB well/RB)
+
+tagged sentence:
+	 did extremely well	res:1
+	(VERB shipping/VBG 21/CD million/CD smartphones/NNS)
+	(VERB compared/VBN to/TO its/PRP$ usual/JJ 15/CD 16/CD million/CD)
+noun phrases to consider:
+	(NOUN Apple/NNP)
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+RIM had a strong showing as well with its BlackBerry Curve selling more units than the Apple iPhone in some markets, ABI reported.
+
+POS tagged sentence: 
+[('RIM', 'NNP'), ('had', 'VBD'), ('a', 'DT'), ('strong', 'JJ'), ('showing', 'NN'), ('as', 'IN'), ('well', 'RB'), ('with', 'IN'), ('its', 'PRP$'), ('BlackBerry', 'NNP'), ('Curve', 'NNP'), ('selling', 'NN'), ('more', 'JJR'), ('units', 'NNS'), ('than', 'IN'), ('the', 'DT'), ('Apple', 'NNP'), ('iPhone', 'NNP'), ('in', 'IN'), ('some', 'DT'), ('markets', 'NNS'), (',', ','), ('ABI', 'NNP'), ('reported', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION RIM/NNP)   had/VBD   a/DT   strong/JJ   showing/NN   as/IN   well/RB   with/IN   its/PRP$   (ORGANIZATION BlackBerry/NNP Curve/NNP)   selling/NN   more/JJR   units/NNS   than/IN   the/DT   (ORGANIZATION Apple/NNP)   iPhone/NNP   in/IN   some/DT   markets/NNS   ,/,   (ORGANIZATION ABI/NNP)   reported/VBD   ./.)
+----------------------------------
+original sentence: 
+North America showed the strongest growth at 30 percent, however both Apple and RIM increased sales significantly in Europe and Asia.
+
+POS tagged sentence: 
+[('North', 'NNP'), ('America', 'NNP'), ('showed', 'VBD'), ('the', 'DT'), ('strongest', 'JJS'), ('growth', 'NN'), ('at', 'IN'), ('30', 'CD'), ('percent', 'NN'), (',', ','), ('however', 'RB'), ('both', 'DT'), ('Apple', 'NNP'), ('and', 'CC'), ('RIM', 'NNP'), ('increased', 'VBD'), ('sales', 'NNS'), ('significantly', 'RB'), ('in', 'IN'), ('Europe', 'NNP'), ('and', 'CC'), ('Asia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE North/NNP)   (PERSON America/NNP)   showed/VBD   the/DT   strongest/JJS   growth/NN   at/IN   30/CD   percent/NN   ,/,   however/RB   both/DT   Apple/NNP   and/CC   (ORGANIZATION RIM/NNP)   increased/VBD   sales/NNS   significantly/RB   in/IN   (GPE Europe/NNP)   and/CC   (GPE Asia/NNP)   ./.)
+----------------------------------
+original sentence: 
+Apple iPhone sales in Asia Pacific rose 500 percent year over year in 2009, thanks to new carrier deals there.
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ('iPhone', 'NNP'), ('sales', 'NNS'), ('in', 'IN'), ('Asia', 'NNP'), ('Pacific', 'NNP'), ('rose', 'VBD'), ('500', 'CD'), ('percent', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('thanks', 'NNS'), ('to', 'TO'), ('new', 'JJ'), ('carrier', 'NN'), ('deals', 'NNS'), ('there', 'EX'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Apple/NNP)   (ORGANIZATION iPhone/NNP)   sales/NNS   in/IN   (GPE Asia/NNP)   Pacific/NNP   rose/VBD   500/CD   percent/NN   year/NN   over/IN   year/NN   in/IN   2009/CD   ,/,   thanks/NNS   to/TO   new/JJ   carrier/NN   deals/NNS   there/EX   ./.)
+----------------------------------
+original sentence: 
+Free Subscription to EE Times
+
+Click here for your Free Subscription to EETimes Europe
+Looking for a new job?
+
+POS tagged sentence: 
+[('Free', 'NNP'), ('Subscription', 'NNP'), ('to', 'TO'), ('EE', 'NNP'), ('Times', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('for', 'IN'), ('your', 'PRP$'), ('Free', 'NNP'), ('Subscription', 'NNP'), ('to', 'TO'), ('EETimes', 'NNP'), ('Europe', 'NNP'), ('Looking', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('job', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Free/NNP)   Subscription/NNP   to/TO   (ORGANIZATION EE/NNP Times/NNP Click/NNP)   here/RB   for/IN   your/PRP$   Free/NNP   Subscription/NNP   to/TO   (ORGANIZATION EETimes/NNP Europe/NNP)   Looking/NNP   for/IN   a/DT   new/JJ   job/NN   ?/.)
+----------------------------------
+original sentence: 
+Boeing seeking Sr Software Engineer 5/6 in Annapolis Junction, MD
+
+
+Applied Materials seeking Test Engineer with Robotics Exp in Tainan, Taiwan
+
+
+Thomson Reuters seeking Interaction Designer in San Francisco, CA
+
+
+Osram Sylvania seeking Technical Lighting Trainer in Danvers, MA
+
+
+MLB Advanced Media seeking Java Software Engineer New York, NY
+
+New York Gains Grant For 'Green Jobs'
+The $600,000 grant is part of a new initiative that will support the growth of green energy jobs and businesses across New York State.
+
+POS tagged sentence: 
+[('Boeing', 'NNP'), ('seeking', 'VBG'), ('Sr', 'NNP'), ('Software', 'NNP'), ('Engineer', 'NNP'), ('5/6', 'CD'), ('in', 'IN'), ('Annapolis', 'NNP'), ('Junction', 'NNP'), (',', ','), ('MD', 'NNP'), ('Applied', 'NNP'), ('Materials', 'NNPS'), ('seeking', 'VBG'), ('Test', 'NN'), ('Engineer', 'NNP'), ('with', 'IN'), ('Robotics', 'NNP'), ('Exp', 'NNP'), ('in', 'IN'), ('Tainan', 'NNP'), (',', ','), ('Taiwan', 'NNP'), ('Thomson', 'NNP'), ('Reuters', 'NNP'), ('seeking', 'VBG'), ('Interaction', 'NNP'), ('Designer', 'NNP'), ('in', 'IN'), ('San', 'NNP'), ('Francisco', 'NNP'), (',', ','), ('CA', 'NNP'), ('Osram', 'NNP'), ('Sylvania', 'NNP'), ('seeking', 'VBG'), ('Technical', 'NNP'), ('Lighting', 'NNP'), ('Trainer', 'NNP'), ('in', 'IN'), ('Danvers', 'NNP'), (',', ','), ('MA', 'NNP'), ('MLB', 'NNP'), ('Advanced', 'NNP'), ('Media', 'NNP'), ('seeking', 'VBG'), ('Java', 'NNP'), ('Software', 'NNP'), ('Engineer', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), (',', ','), ('NY', 'NNP'), ('New', 'NNP'), ('York', 'NNP'), ('Gains', 'NNP'), ('Grant', 'NNP'), ('For', 'NNP'), ("'Green", 'NNP'), ('Jobs', 'NNP'), ("'", 'POS'), ('The', 'NNP'), ('$', '$'), ('600,000', 'CD'), ('grant', 'NN'), ('is', 'VBZ'), ('part', 'NN'), ('of', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('initiative', 'NN'), ('that', 'WDT'), ('will', 'MD'), ('support', 'VB'), ('the', 'DT'), ('growth', 'NN'), ('of', 'IN'), ('green', 'JJ'), ('energy', 'NN'), ('jobs', 'NNS'), ('and', 'CC'), ('businesses', 'NNS'), ('across', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('State', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Boeing/NNP   seeking/VBG   (PERSON Sr/NNP Software/NNP)   Engineer/NNP   5/6/CD   in/IN   (PERSON Annapolis/NNP Junction/NNP)   ,/,   (ORGANIZATION MD/NNP Applied/NNP Materials/NNPS)   seeking/VBG   (PERSON Test/NN Engineer/NNP)   with/IN   (PERSON Robotics/NNP Exp/NNP)   in/IN   (GPE Tainan/NNP)   ,/,   (GPE Taiwan/NNP)   (PERSON Thomson/NNP Reuters/NNP)   seeking/VBG   (ORGANIZATION Interaction/NNP Designer/NNP)   in/IN   (GPE San/NNP Francisco/NNP)   ,/,   (ORGANIZATION CA/NNP Osram/NNP Sylvania/NNP)   seeking/VBG   (PERSON Technical/NNP Lighting/NNP Trainer/NNP)   in/IN   (GPE Danvers/NNP)   ,/,   (ORGANIZATION MA/NNP)   MLB/NNP   Advanced/NNP   Media/NNP   seeking/VBG   (PERSON Java/NNP Software/NNP Engineer/NNP New/NNP York/NNP)   ,/,   (ORGANIZATION NY/NNP New/NNP York/NNP Gains/NNP Grant/NNP For/NNP)   'Green/NNP   Jobs/NNP   '/POS   The/NNP   $/$   600,000/CD   grant/NN   is/VBZ   part/NN   of/IN   a/DT   new/JJ   initiative/NN   that/WDT   will/MD   support/VB   the/DT   growth/NN   of/IN   green/JJ   energy/NN   jobs/NNS   and/CC   businesses/NNS   across/IN   (GPE New/NNP York/NNP State/NNP)   ./.)
+----------------------------------
+original sentence: 
+For more great jobs, career related news, features and services, please visit EETimes' Q&A: Rick Hill, CEO of Novellus
+Analysts split on Altera inventory build fears
+Analysis: Freescale moves closer to IPO
+Viewpoint: Maximizing the value of your IP
+Renesas gets in touch with Immersion touch interface
+All White Papers &#187;
+ Site Features
+Automotive DesignLine
+Digital Home DesignLine
+EE Times Supply Network
+Industrial Control DesignLine
+Mobile Handset DesignLine
+Power Management DesignLine
+Programmable Logic DesignLine
+Video/Imaging DesignLine
+Wireless Net DesignLine
+Electronics Supply & Manufacturing China
+Microwave Engineering Europe
+Analog Designline Europe
+Automotive Designline Europe
+Power Designline Europe
+All materials on this site  All rights reserved.
+
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('great', 'JJ'), ('jobs', 'NNS'), (',', ','), ('career', 'NN'), ('related', 'VBD'), ('news', 'NN'), (',', ','), ('features', 'NNS'), ('and', 'CC'), ('services', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('EETimes', 'NNP'), ("'", "''"), ('Q&A', 'NNP'), (':', ':'), ('Rick', 'NNP'), ('Hill', 'NNP'), (',', ','), ('CEO', 'NNP'), ('of', 'IN'), ('Novellus', 'NNP'), ('Analysts', 'NNPS'), ('split', 'NN'), ('on', 'IN'), ('Altera', 'NNP'), ('inventory', 'NN'), ('build', 'NN'), ('fears', 'NNS'), ('Analysis', 'NNP'), (':', ':'), ('Freescale', 'NNP'), ('moves', 'NNS'), ('closer', 'JJR'), ('to', 'TO'), ('IPO', 'NNP'), ('Viewpoint', 'NNP'), (':', ':'), ('Maximizing', 'NNP'), ('the', 'DT'), ('value', 'NN'), ('of', 'IN'), ('your', 'PRP$'), ('IP', 'NNP'), ('Renesas', 'NNP'), ('gets', 'VBZ'), ('in', 'IN'), ('touch', 'NN'), ('with', 'IN'), ('Immersion', 'NNP'), ('touch', 'NN'), ('interface', 'NN'), ('All', 'DT'), ('White', 'NNP'), ('Papers', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('Site', 'NNP'), ('Features', 'NNP'), ('Automotive', 'NNP'), ('DesignLine', 'NNP'), ('Digital', 'NNP'), ('Home', 'NNP'), ('DesignLine', 'NNP'), ('EE', 'NNP'), ('Times', 'NNP'), ('Supply', 'NNP'), ('Network', 'NNP'), ('Industrial', 'NNP'), ('Control', 'NNP'), ('DesignLine', 'NNP'), ('Mobile', 'NNP'), ('Handset', 'NNP'), ('DesignLine', 'NNP'), ('Power', 'NNP'), ('Management', 'NNP'), ('DesignLine', 'NNP'), ('Programmable', 'NNP'), ('Logic', 'NNP'), ('DesignLine', 'NNP'), ('Video/Imaging', 'NNP'), ('DesignLine', 'NNP'), ('Wireless', 'NNP'), ('Net', 'NNP'), ('DesignLine', 'NNP'), ('Electronics', 'NNP'), ('Supply', 'NNP'), ('&', 'CC'), ('Manufacturing', 'NNP'), ('China', 'NNP'), ('Microwave', 'NNP'), ('Engineering', 'NNP'), ('Europe', 'NNP'), ('Analog', 'NNP'), ('Designline', 'NNP'), ('Europe', 'NNP'), ('Automotive', 'NNP'), ('Designline', 'NNP'), ('Europe', 'NNP'), ('Power', 'NNP'), ('Designline', 'NNP'), ('Europe', 'NNP'), ('All', 'NNP'), ('materials', 'NNS'), ('on', 'IN'), ('this', 'DT'), ('site', 'NN'), ('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   great/JJ   jobs/NNS   ,/,   career/NN   related/VBD   news/NN   ,/,   features/NNS   and/CC   services/NNS   ,/,   please/VB   visit/NN   (ORGANIZATION EETimes/NNP)   '/''   Q&A/NNP   :/:   (PERSON Rick/NNP Hill/NNP)   ,/,   (ORGANIZATION CEO/NNP)   of/IN   (ORGANIZATION Novellus/NNP Analysts/NNPS)   split/NN   on/IN   (GPE Altera/NNP)   inventory/NN   build/NN   fears/NNS   Analysis/NNP   :/:   Freescale/NNP   moves/NNS   closer/JJR   to/TO   (ORGANIZATION IPO/NNP)   Viewpoint/NNP   :/:   Maximizing/NNP   the/DT   value/NN   of/IN   your/PRP$   IP/NNP   (PERSON Renesas/NNP)   gets/VBZ   in/IN   touch/NN   with/IN   (PERSON Immersion/NNP)   touch/NN   interface/NN   All/DT   (FACILITY White/NNP Papers/NNP)   &/CC   #/#   187/CD   ;/:   (FACILITY Site/NNP Features/NNP Automotive/NNP)   DesignLine/NNP   (ORGANIZATION Digital/NNP Home/NNP)   DesignLine/NNP   EE/NNP   Times/NNP   Supply/NNP   (PERSON Network/NNP Industrial/NNP Control/NNP)   DesignLine/NNP   Mobile/NNP   (PERSON Handset/NNP)   DesignLine/NNP   Power/NNP   Management/NNP   DesignLine/NNP   Programmable/NNP   Logic/NNP   DesignLine/NNP   Video/Imaging/NNP   DesignLine/NNP   Wireless/NNP   Net/NNP   DesignLine/NNP   Electronics/NNP   Supply/NNP   &/CC   Manufacturing/NNP   (GPE China/NNP)   (PERSON     Microwave/NNP     Engineering/NNP     Europe/NNP     Analog/NNP     Designline/NNP     Europe/NNP     Automotive/NNP     Designline/NNP     Europe/NNP     Power/NNP     Designline/NNP     Europe/NNP)   All/NNP   materials/NNS   on/IN   this/DT   site/NN   All/DT   rights/NNS   reserved/VBN   ./.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

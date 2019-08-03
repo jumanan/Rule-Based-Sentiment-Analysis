@@ -1,0 +1,225 @@
+
+----------------------------------
+original sentence: 
+ Disney disregards ex homosexuals OneNewsNow.com Disney disregards ex homosexuals
+Charlie Butts OneNewsNow 3/12/2010 6:45:00 AM
+The Walt Disney Company has declined a motion to add former homosexuals to its sexual orientation and non discrimination policy and diversity training, a measure that would have meant protections for those who have left that lifestyle.
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('disregards', 'NNS'), ('ex', 'NN'), ('homosexuals', 'NNS'), ('OneNewsNow.com', '-NONE-'), ('Disney', 'NNP'), ('disregards', 'NNS'), ('ex', 'NN'), ('homosexuals', 'NNS'), ('Charlie', 'NNP'), ('Butts', 'NNP'), ('OneNewsNow', 'NNP'), ('3/12/2010', 'CD'), ('6', 'CD'), (':', ':'), ('45', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('The', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('has', 'VBZ'), ('declined', 'VBN'), ('a', 'DT'), ('motion', 'NN'), ('to', 'TO'), ('add', 'VB'), ('former', 'JJ'), ('homosexuals', 'NNS'), ('to', 'TO'), ('its', 'PRP$'), ('sexual', 'JJ'), ('orientation', 'NN'), ('and', 'CC'), ('non', 'NN'), ('discrimination', 'NN'), ('policy', 'NN'), ('and', 'CC'), ('diversity', 'NN'), ('training', 'NN'), (',', ','), ('a', 'DT'), ('measure', 'NN'), ('that', 'WDT'), ('would', 'MD'), ('have', 'VB'), ('meant', 'JJ'), ('protections', 'NNS'), ('for', 'IN'), ('those', 'DT'), ('who', 'WP'), ('have', 'VBP'), ('left', 'VBN'), ('that', 'IN'), ('lifestyle', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   disregards/NNS   ex/NN   homosexuals/NNS   OneNewsNow.com/-NONE-   (ORGANIZATION Disney/NNP)   disregards/NNS   ex/NN   homosexuals/NNS   (PERSON Charlie/NNP Butts/NNP)   OneNewsNow/NNP   3/12/2010/CD   6/CD   :/:   45/CD   :/:   00/CD   AM/NNP   The/NNP   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   has/VBZ   declined/VBN   a/DT   motion/NN   to/TO   add/VB   former/JJ   homosexuals/NNS   to/TO   its/PRP$   sexual/JJ   orientation/NN   and/CC   non/NN   discrimination/NN   policy/NN   and/CC   diversity/NN   training/NN   ,/,   a/DT   measure/NN   that/WDT   would/MD   have/VB   meant/JJ   protections/NNS   for/IN   those/DT   who/WP   have/VBP   left/VBN   that/IN   lifestyle/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ declined/VBN a/DT motion/NN)
+
+tagged sentence:
+	 has declined a motion	res:-1
+	(VERB add/VB former/JJ homosexuals/NNS)
+	(VERB have/VB meant/JJ protections/NNS for/IN those/DT)
+	(VERB have/VBP left/VBN that/IN lifestyle/NN)
+noun phrases to consider:
+	(NOUN Disney/NNP disregards/NNS ex/NN homosexuals/NNS)
+
+tagged sentence:
+	 Disney disregards ex homosexuals	res:-1
+	(NOUN Disney/NNP disregards/NNS ex/NN homosexuals/NNS)
+
+tagged sentence:
+	 Disney disregards ex homosexuals	res:-1
+	(NOUN Charlie/NNP Butts/NNP OneNewsNow/NNP)
+	(NOUN 00/CD AM/NNP The/NNP Walt/NNP Disney/NNP)
+	(NOUN Company/NNP)
+	(NOUN sexual/JJ orientation/NN)
+	(NOUN non/NN discrimination/NN policy/NN)
+	(NOUN diversity/NN training/NN)
+	(NOUN measure/NN)
+
+----------------------------------
+original sentence: 
+Greg Quinlan, director ofÂ 
+Parents and Friends of Ex Gays and Gays
+Â  PFOX , presented the resolution at the recent annual shareholders meeting in San Antonio.
+
+POS tagged sentence: 
+[('Greg', 'NNP'), ('Quinlan', 'NNP'), (',', ','), ('director', 'NN'), ('of', 'IN'), ('\xc2', 'NN'), ('\xa0', ':'), ('Parents', 'NNS'), ('and', 'CC'), ('Friends', 'NNPS'), ('of', 'IN'), ('Ex', 'NNP'), ('Gays', 'NNP'), ('and', 'CC'), ('Gays', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('PFOX', 'NNP'), (',', ','), ('presented', 'VBD'), ('the', 'DT'), ('resolution', 'NN'), ('at', 'IN'), ('the', 'DT'), ('recent', 'JJ'), ('annual', 'JJ'), ('shareholders', 'NNS'), ('meeting', 'VBG'), ('in', 'IN'), ('San', 'NNP'), ('Antonio', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Greg/NNP)   (ORGANIZATION Quinlan/NNP)   ,/,   director/NN   of/IN   Â/NN    /:   Parents/NNS   and/CC   Friends/NNPS   of/IN   Ex/NNP   Gays/NNP   and/CC   (PERSON Gays/NNP)   Â/NNP    /NNP   PFOX/NNP   ,/,   presented/VBD   the/DT   resolution/NN   at/IN   the/DT   recent/JJ   annual/JJ   shareholders/NNS   meeting/VBG   in/IN   (GPE San/NNP Antonio/NNP)   ./.)
+----------------------------------
+original sentence: 
+But he explains thatÂ Disney board chairmanÂ John E. Pepper "responded in saying that the current policies were very inclusive and were very broad and that they could not lift every possible nuance to come.
+
+POS tagged sentence: 
+[('But', 'CC'), ('he', 'PRP'), ('explains', 'VBZ'), ('that', 'IN'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('Disney', 'NNP'), ('board', 'NN'), ('chairman', 'NN'), ('\xc2', ':'), ('\xa0', ':'), ('John', 'NNP'), ('E.', 'NNP'), ('Pepper', 'NNP'), ('"', 'NNP'), ('responded', 'VBD'), ('in', 'IN'), ('saying', 'NN'), ('that', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('policies', 'NNS'), ('were', 'VBD'), ('very', 'RB'), ('inclusive', 'JJ'), ('and', 'CC'), ('were', 'VBD'), ('very', 'RB'), ('broad', 'JJ'), ('and', 'CC'), ('that', 'IN'), ('they', 'PRP'), ('could', 'MD'), ('not', 'RB'), ('lift', 'VB'), ('every', 'DT'), ('possible', 'JJ'), ('nuance', 'NN'), ('to', 'TO'), ('come', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   he/PRP   explains/VBZ   that/IN   Â/CD    /CD   Disney/NNP   board/NN   chairman/NN   Â/:    /:   (PERSON John/NNP E./NNP)   Pepper/NNP   "/NNP   responded/VBD   in/IN   saying/NN   that/IN   the/DT   current/JJ   policies/NNS   were/VBD   very/RB   inclusive/JJ   and/CC   were/VBD   very/RB   broad/JJ   and/CC   that/IN   they/PRP   could/MD   not/RB   lift/VB   every/DT   possible/JJ   nuance/NN   to/TO   come/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB explains/VBZ that/IN Â/CD  /CD Disney/NNP board/NN chairman/NN)
+	(VERB   responded/VBD   in/IN   saying/NN   that/IN   the/DT   current/JJ   policies/NNS)
+	(VERB were/VBD very/RB inclusive/JJ)
+	(VERB were/VBD very/RB broad/JJ)
+	(VERB lift/VB every/DT possible/JJ nuance/NN)
+	(VERB come/VB)
+noun phrases to consider:
+	(NOUN John/NNP E./NNP Pepper/NNP "/NNP)
+
+----------------------------------
+original sentence: 
+"
+ But, since the days of Michael Eisner as CEO, several so called "nuances" have been added "where they included transsexuals, transvestites, as well as gay, lesbian and bisexual," Quinlan adds.
+
+POS tagged sentence: 
+[('"', 'NN'), ('But', 'CC'), (',', ','), ('since', 'IN'), ('the', 'DT'), ('days', 'NNS'), ('of', 'IN'), ('Michael', 'NNP'), ('Eisner', 'NNP'), ('as', 'IN'), ('CEO', 'NNP'), (',', ','), ('several', 'JJ'), ('so', 'RB'), ('called', 'VBN'), ('"', '-NONE-'), ('nuances', 'NNS'), ('"', ':'), ('have', 'VBP'), ('been', 'VBN'), ('added', 'VBN'), ('"', '-NONE-'), ('where', 'WRB'), ('they', 'PRP'), ('included', 'VBD'), ('transsexuals', 'NNS'), (',', ','), ('transvestites', 'VBZ'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('gay', 'NN'), (',', ','), ('lesbian', 'JJ'), ('and', 'CC'), ('bisexual', 'JJ'), (',', ','), ('"', ':'), ('Quinlan', 'NNP'), ('adds', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   But/CC   ,/,   since/IN   the/DT   days/NNS   of/IN   (PERSON Michael/NNP Eisner/NNP)   as/IN   (ORGANIZATION CEO/NNP)   ,/,   several/JJ   so/RB   called/VBN   "/-NONE-   nuances/NNS   "/:   have/VBP   been/VBN   added/VBN   "/-NONE-   where/WRB   they/PRP   included/VBD   transsexuals/NNS   ,/,   transvestites/VBZ   ,/,   as/IN   well/RB   as/IN   gay/NN   ,/,   lesbian/JJ   and/CC   bisexual/JJ   ,/,   "/:   (PERSON Quinlan/NNP)   adds/VBZ   ./.)
+----------------------------------
+original sentence: 
+"Transexual, transvestite is...still considered a mental health disorder," he notes.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Transexual', 'NNP'), (',', ','), ('transvestite', 'JJ'), ('is...still', 'NN'), ('considered', 'VBN'), ('a', 'DT'), ('mental', 'JJ'), ('health', 'NN'), ('disorder', 'NN'), (',', ','), ('"', ':'), ('he', 'PRP'), ('notes', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Transexual/NNP)   ,/,   transvestite/JJ   is...still/NN   considered/VBN   a/DT   mental/JJ   health/NN   disorder/NN   ,/,   "/:   he/PRP   notes/VBZ   ./.)
+----------------------------------
+original sentence: 
+That is also in accordance withÂ the diagnostic manual used by most mental health professionals.Â But those who have left the homosexual lifestyle are, in effect, placed in a closet, says Quinlan.
+
+POS tagged sentence: 
+[('That', 'DT'), ('is', 'VBZ'), ('also', 'RB'), ('in', 'IN'), ('accordance', 'NN'), ('with', 'IN'), ('\xc2', 'CD'), ('\xa0', 'CD'), ('the', 'DT'), ('diagnostic', 'JJ'), ('manual', 'JJ'), ('used', 'VBN'), ('by', 'IN'), ('most', 'JJS'), ('mental', 'JJ'), ('health', 'NN'), ('professionals.', 'NNP'), ('\xc2', 'NNP'), ('\xa0', 'NNP'), ('But', 'CC'), ('those', 'DT'), ('who', 'WP'), ('have', 'VBP'), ('left', 'VBN'), ('the', 'DT'), ('homosexual', 'JJ'), ('lifestyle', 'NN'), ('are', 'VBP'), (',', ','), ('in', 'IN'), ('effect', 'NN'), (',', ','), ('placed', 'VBN'), ('in', 'IN'), ('a', 'DT'), ('closet', 'NN'), (',', ','), ('says', 'VBZ'), ('Quinlan', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   is/VBZ   also/RB   in/IN   accordance/NN   with/IN   Â/CD    /CD   the/DT   diagnostic/JJ   manual/JJ   used/VBN   by/IN   most/JJS   mental/JJ   health/NN   professionals./NNP   Â/NNP    /NNP   But/CC   those/DT   who/WP   have/VBP   left/VBN   the/DT   homosexual/JJ   lifestyle/NN   are/VBP   ,/,   in/IN   effect/NN   ,/,   placed/VBN   in/IN   a/DT   closet/NN   ,/,   says/VBZ   (PERSON Quinlan/NNP)   ./.)
+----------------------------------
+original sentence: 
+"Well, they don't want to recognize anyone's right of self determination Â and that was the point," the PFOX director notes.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Well', 'NNP'), (',', ','), ('they', 'PRP'), ('do', 'VBP'), ("n't", 'RB'), ('want', 'VB'), ('to', 'TO'), ('recognize', 'VB'), ('anyone', 'NN'), ("'s", 'POS'), ('right', 'NN'), ('of', 'IN'), ('self', 'NN'), ('determination', 'NN'), ('\xc2', ':'), ('\xa0', ':'), ('and', 'CC'), ('that', 'IN'), ('was', 'VBD'), ('the', 'DT'), ('point', 'NN'), (',', ','), ('"', ':'), ('the', 'DT'), ('PFOX', 'NNP'), ('director', 'NN'), ('notes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   Well/NNP   ,/,   they/PRP   do/VBP   n't/RB   want/VB   to/TO   recognize/VB   anyone/NN   's/POS   right/NN   of/IN   self/NN   determination/NN   Â/:    /:   and/CC   that/IN   was/VBD   the/DT   point/NN   ,/,   "/:   the/DT   (ORGANIZATION PFOX/NNP)   director/NN   notes/NNS   ./.)
+----------------------------------
+original sentence: 
+The resolution did not carry the required three percent vote to be considered again next year, but PFOX does not plan to give up the fight.
+
+POS tagged sentence: 
+[('The', 'DT'), ('resolution', 'NN'), ('did', 'VBD'), ('not', 'RB'), ('carry', 'VB'), ('the', 'DT'), ('required', 'VBN'), ('three', 'CD'), ('percent', 'NN'), ('vote', 'NN'), ('to', 'TO'), ('be', 'VB'), ('considered', 'VBN'), ('again', 'RB'), ('next', 'JJ'), ('year', 'NN'), (',', ','), ('but', 'CC'), ('PFOX', 'NNP'), ('does', 'VBZ'), ('not', 'RB'), ('plan', 'VB'), ('to', 'TO'), ('give', 'VB'), ('up', 'IN'), ('the', 'DT'), ('fight', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   resolution/NN   did/VBD   not/RB   carry/VB   the/DT   required/VBN   three/CD   percent/NN   vote/NN   to/TO   be/VB   considered/VBN   again/RB   next/JJ   year/NN   ,/,   but/CC   (ORGANIZATION PFOX/NNP)   does/VBZ   not/RB   plan/VB   to/TO   give/VB   up/IN   the/DT   fight/NN   ./.)
+----------------------------------
+original sentence: 
+Quinlan stresses that years ago, many Christians sold their Disney stock out of objection to pro homosexual policies, and he believes that Christians ought to retain ownership so they can exercise a more powerful voice in corporate affairs.
+
+POS tagged sentence: 
+[('Quinlan', 'NNP'), ('stresses', 'VBZ'), ('that', 'IN'), ('years', 'NNS'), ('ago', 'IN'), (',', ','), ('many', 'JJ'), ('Christians', 'NNS'), ('sold', 'VBN'), ('their', 'PRP$'), ('Disney', 'NNP'), ('stock', 'NN'), ('out', 'RP'), ('of', 'IN'), ('objection', 'NN'), ('to', 'TO'), ('pro', 'VB'), ('homosexual', 'JJ'), ('policies', 'NNS'), (',', ','), ('and', 'CC'), ('he', 'PRP'), ('believes', 'VBZ'), ('that', 'IN'), ('Christians', 'NNPS'), ('ought', 'MD'), ('to', 'TO'), ('retain', 'VB'), ('ownership', 'NN'), ('so', 'IN'), ('they', 'PRP'), ('can', 'MD'), ('exercise', 'VB'), ('a', 'DT'), ('more', 'RBR'), ('powerful', 'JJ'), ('voice', 'NN'), ('in', 'IN'), ('corporate', 'JJ'), ('affairs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Quinlan/NNP)   stresses/VBZ   that/IN   years/NNS   ago/IN   ,/,   many/JJ   Christians/NNS   sold/VBN   their/PRP$   (ORGANIZATION Disney/NNP)   stock/NN   out/RP   of/IN   objection/NN   to/TO   pro/VB   homosexual/JJ   policies/NNS   ,/,   and/CC   he/PRP   believes/VBZ   that/IN   Christians/NNPS   ought/MD   to/TO   retain/VB   ownership/NN   so/IN   they/PRP   can/MD   exercise/VB   a/DT   more/RBR   powerful/JJ   voice/NN   in/IN   corporate/JJ   affairs/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB stresses/VBZ that/IN years/NNS ago/IN)
+	(VERB sold/VBN their/PRP$ Disney/NNP stock/NN)
+	(VERB pro/VB homosexual/JJ policies/NNS)
+	(VERB believes/VBZ that/IN Christians/NNPS)
+	(VERB retain/VB ownership/NN so/IN they/PRP)
+	(VERB exercise/VB a/DT)
+noun phrases to consider:
+	(NOUN Quinlan/NNP)
+	(NOUN many/JJ Christians/NNS)
+	(NOUN objection/NN)
+
+tagged sentence:
+	 objection	res:-1
+	(NOUN powerful/JJ voice/NN)
+	(NOUN corporate/JJ affairs/NNS)
+
+----------------------------------
+original sentence: 
+Connect with Facebook to comment
+Logout of this site and Facebook
+You have 140 characters left.
+
+POS tagged sentence: 
+[('Connect', 'NNP'), ('with', 'IN'), ('Facebook', 'NNP'), ('to', 'TO'), ('comment', 'VB'), ('Logout', 'IN'), ('of', 'IN'), ('this', 'DT'), ('site', 'NN'), ('and', 'CC'), ('Facebook', 'NNP'), ('You', 'NNP'), ('have', 'VBP'), ('140', 'CD'), ('characters', 'NNS'), ('left', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP Connect/NNP)   with/IN   (PERSON Facebook/NNP)   to/TO   comment/VB   Logout/IN   of/IN   this/DT   site/NN   and/CC   (PERSON Facebook/NNP You/NNP)   have/VBP   140/CD   characters/NNS   left/VBN   ./.)
+----------------------------------
+original sentence: 
+OneNewsNow.com Business
+Other Stories in Business
+Offering Christians moral investing help
+American imbalance Made in China
+OneNewsNow.com recovers from weekend hacking
+Islam gets special treatment in America
+Does Wal Mart control its employees&#39; presidential votes?
+
+POS tagged sentence: 
+[('OneNewsNow.com', 'NN'), ('Business', 'NN'), ('Other', 'JJ'), ('Stories', 'NNS'), ('in', 'IN'), ('Business', 'NNP'), ('Offering', 'NNP'), ('Christians', 'NNP'), ('moral', 'JJ'), ('investing', 'NN'), ('help', 'NN'), ('American', 'JJ'), ('imbalance', 'NN'), ('Made', 'NNP'), ('in', 'IN'), ('China', 'NNP'), ('OneNewsNow.com', 'NNP'), ('recovers', 'NNS'), ('from', 'IN'), ('weekend', 'NN'), ('hacking', 'VBG'), ('Islam', 'NNP'), ('gets', 'NNS'), ('special', 'JJ'), ('treatment', 'NN'), ('in', 'IN'), ('America', 'NNP'), ('Does', 'NNP'), ('Wal', 'NNP'), ('Mart', 'NNP'), ('control', 'NN'), ('its', 'PRP$'), ('employees&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('presidential', 'JJ'), ('votes', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   OneNewsNow.com/NN   Business/NN   Other/JJ   Stories/NNS   in/IN   (ORGANIZATION Business/NNP)   Offering/NNP   Christians/NNP   moral/JJ   investing/NN   help/NN   (GPE American/JJ)   imbalance/NN   (PERSON Made/NNP)   in/IN   (GPE China/NNP)   OneNewsNow.com/NNP   recovers/NNS   from/IN   weekend/NN   hacking/VBG   (ORGANIZATION Islam/NNP)   gets/NNS   special/JJ   treatment/NN   in/IN   (GPE America/NNP)   Does/NNP   Wal/NNP   Mart/NNP   control/NN   its/PRP$   employees&/NN   #/#   39/CD   ;/:   presidential/JJ   votes/NNS   ?/.)
+----------------------------------
+original sentence: 
+Abortion advocate nominated for top human rights post at U.N.
+McDonald&#39;s boycott blows into Chicago
+AFA calls for McDonald&#39;s boycott
+Heinz in pickle over homosexual laced mayo ad
+Neutrality in culture war lauded
+Canada: Unborn victims of crime bill blocked
+California Supreme Court Refuses to Stay Same Sex &#39;Marriage&#39; Decision
+DOJ urged to pursue hard core cases
+Does your healthcare plan fund abortion?
+
+POS tagged sentence: 
+[('Abortion', 'NN'), ('advocate', 'VBP'), ('nominated', 'VBN'), ('for', 'IN'), ('top', 'JJ'), ('human', 'NN'), ('rights', 'NNS'), ('post', 'NN'), ('at', 'IN'), ('U.N', 'JJ'), ('.', '.'), ('McDonald&', 'NN'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('boycott', 'VBP'), ('blows', 'NNS'), ('into', 'IN'), ('Chicago', 'NNP'), ('AFA', 'NNP'), ('calls', 'VBZ'), ('for', 'IN'), ('McDonald&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('boycott', 'VBP'), ('Heinz', 'NNP'), ('in', 'IN'), ('pickle', 'NN'), ('over', 'IN'), ('homosexual', 'JJ'), ('laced', 'VBN'), ('mayo', 'NN'), ('ad', 'NN'), ('Neutrality', 'NNP'), ('in', 'IN'), ('culture', 'NN'), ('war', 'NN'), ('lauded', 'VBD'), ('Canada', 'NNP'), (':', ':'), ('Unborn', 'NNP'), ('victims', 'NNS'), ('of', 'IN'), ('crime', 'NN'), ('bill', 'NN'), ('blocked', 'VBD'), ('California', 'NNP'), ('Supreme', 'NNP'), ('Court', 'NNP'), ('Refuses', 'NNP'), ('to', 'TO'), ('Stay', 'NNP'), ('Same', 'NNP'), ('Sex', 'NNP'), ('&', 'CC'), ('#', '#'), ('39', 'CD'), (';', ':'), ('Marriage&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('Decision', 'NNP'), ('DOJ', 'NNP'), ('urged', 'VBD'), ('to', 'TO'), ('pursue', 'VB'), ('hard', 'JJ'), ('core', 'NN'), ('cases', 'NNS'), ('Does', 'VBZ'), ('your', 'PRP$'), ('healthcare', 'NN'), ('plan', 'NN'), ('fund', 'NN'), ('abortion', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Abortion/NN   advocate/VBP   nominated/VBN   for/IN   top/JJ   human/NN   rights/NNS   post/NN   at/IN   (ORGANIZATION U.N/JJ)   ./.   McDonald&/NN   #/#   39/CD   ;/:   s/NNS   boycott/VBP   blows/NNS   into/IN   (GPE Chicago/NNP)   AFA/NNP   calls/VBZ   for/IN   McDonald&/JJ   #/#   39/CD   ;/:   s/NNS   boycott/VBP   (PERSON Heinz/NNP)   in/IN   pickle/NN   over/IN   homosexual/JJ   laced/VBN   mayo/NN   ad/NN   Neutrality/NNP   in/IN   culture/NN   war/NN   lauded/VBD   (GPE Canada/NNP)   :/:   Unborn/NNP   victims/NNS   of/IN   crime/NN   bill/NN   blocked/VBD   (GPE California/NNP)   (ORGANIZATION Supreme/NNP Court/NNP)   Refuses/NNP   to/TO   (PERSON Stay/NNP Same/NNP Sex/NNP)   &/CC   #/#   39/CD   ;/:   Marriage&/JJ   #/#   39/CD   ;/:   Decision/NNP   DOJ/NNP   urged/VBD   to/TO   pursue/VB   hard/JJ   core/NN   cases/NNS   Does/VBZ   your/PRP$   healthcare/NN   plan/NN   fund/NN   abortion/NN   ?/.)
+----------------------------------
+original sentence: 
+Ethanol vs. rising food costs
+Clothing company financial troubles no longer a &#39;Secret&#39;
+Activist will withdraw proposal for Ford
+Financial expert welcomes plan to overhaul federal regulatory system
+Financial columnist says lesson to be learned from collapse of Bear Stearns
+Journalist warns taxpayers may pay for Fed&#39;s mistakes
+If you believe OneNewsNow.com is an important source for Christian news,
+small tax deductible gift
+ Porn on the job at SEC  Greece wants rescue plan  TX big rig chase Arizona governor signs tough new illegals law
+Report says health care will cover more, cost more
+GOP ramps up attacks on SEC over porn surfing
+Sarah Palin testifies in e mail hacking case
+Environment concerns grow over oil rig fire
+ US renews call for Iran to release detained hikers 2 Senate to hold hearing on W.Va. mine disaster
+GOP asks high court to undo 'soft money' ban 2 Financial leaders encouraged by signs of recovery
+White House: Oil spill no reason to stop drilling 2 Kyrgyz officials use force to quell squatters
+Christian activist arrested on the heels of human rights attorney's release
+Rice bags and change bring love of Christ to children
+Volunteers cut ministry's costs, share in kingdom building
+Ancient ways come face to face with the hope of Christ
+All Original Content Copyright 2006 2008 American Family News Network All Rights Reserved.
+
+POS tagged sentence: 
+[('Ethanol', 'NNP'), ('vs.', 'NNP'), ('rising', 'VBG'), ('food', 'NN'), ('costs', 'NNS'), ('Clothing', 'VBG'), ('company', 'NN'), ('financial', 'JJ'), ('troubles', 'NNS'), ('no', 'DT'), ('longer', 'NN'), ('a', 'DT'), ('&', 'CC'), ('#', '#'), ('39', 'CD'), (';', ':'), ('Secret&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('Activist', 'NNP'), ('will', 'MD'), ('withdraw', 'VB'), ('proposal', 'NN'), ('for', 'IN'), ('Ford', 'NNP'), ('Financial', 'NNP'), ('expert', 'NN'), ('welcomes', 'VBZ'), ('plan', 'NN'), ('to', 'TO'), ('overhaul', 'VB'), ('federal', 'JJ'), ('regulatory', 'JJ'), ('system', 'NN'), ('Financial', 'NNP'), ('columnist', 'NN'), ('says', 'VBZ'), ('lesson', 'NN'), ('to', 'TO'), ('be', 'VB'), ('learned', 'VBN'), ('from', 'IN'), ('collapse', 'NN'), ('of', 'IN'), ('Bear', 'NNP'), ('Stearns', 'NNP'), ('Journalist', 'NNP'), ('warns', 'VBZ'), ('taxpayers', 'NNS'), ('may', 'MD'), ('pay', 'VB'), ('for', 'IN'), ('Fed&', 'JJ'), ('#', '#'), ('39', 'CD'), (';', ':'), ('s', 'NNS'), ('mistakes', 'VBZ'), ('If', 'IN'), ('you', 'PRP'), ('believe', 'VBP'), ('OneNewsNow.com', 'JJ'), ('is', 'VBZ'), ('an', 'DT'), ('important', 'JJ'), ('source', 'NN'), ('for', 'IN'), ('Christian', 'NNP'), ('news', 'NN'), (',', ','), ('small', 'JJ'), ('tax', 'NN'), ('deductible', 'JJ'), ('gift', 'NN'), ('Porn', 'NNP'), ('on', 'IN'), ('the', 'DT'), ('job', 'NN'), ('at', 'IN'), ('SEC', 'NNP'), ('Greece', 'NNP'), ('wants', 'VBZ'), ('rescue', 'JJ'), ('plan', 'NN'), ('TX', 'NNP'), ('big', 'JJ'), ('rig', 'NN'), ('chase', 'NN'), ('Arizona', 'NNP'), ('governor', 'NN'), ('signs', 'NNS'), ('tough', 'IN'), ('new', 'JJ'), ('illegals', 'NNS'), ('law', 'NN'), ('Report', 'NNP'), ('says', 'VBZ'), ('health', 'NN'), ('care', 'NN'), ('will', 'MD'), ('cover', 'VB'), ('more', 'RBR'), (',', ','), ('cost', 'NN'), ('more', 'JJR'), ('GOP', 'NNP'), ('ramps', 'NNS'), ('up', 'IN'), ('attacks', 'NNS'), ('on', 'IN'), ('SEC', 'NNP'), ('over', 'IN'), ('porn', 'NN'), ('surfing', 'VBG'), ('Sarah', 'NNP'), ('Palin', 'NNP'), ('testifies', 'VBZ'), ('in', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('hacking', 'VBG'), ('case', 'NN'), ('Environment', 'NNP'), ('concerns', 'NNS'), ('grow', 'VBP'), ('over', 'IN'), ('oil', 'NN'), ('rig', 'NN'), ('fire', 'NN'), ('US', 'NNP'), ('renews', 'VBZ'), ('call', 'NN'), ('for', 'IN'), ('Iran', 'NNP'), ('to', 'TO'), ('release', 'VB'), ('detained', 'VBN'), ('hikers', 'NNS'), ('2', 'CD'), ('Senate', 'NNP'), ('to', 'TO'), ('hold', 'VB'), ('hearing', 'NN'), ('on', 'IN'), ('W.Va.', 'NNP'), ('mine', 'NN'), ('disaster', 'NN'), ('GOP', 'NNP'), ('asks', 'VBZ'), ('high', 'JJ'), ('court', 'NN'), ('to', 'TO'), ('undo', 'VB'), ("'soft", 'JJ'), ('money', 'NN'), ("'", "''"), ('ban', 'NN'), ('2', 'CD'), ('Financial', 'JJ'), ('leaders', 'NNS'), ('encouraged', 'VBD'), ('by', 'IN'), ('signs', 'NNS'), ('of', 'IN'), ('recovery', 'NN'), ('White', 'NNP'), ('House', 'NNP'), (':', ':'), ('Oil', 'NN'), ('spill', 'NN'), ('no', 'DT'), ('reason', 'NN'), ('to', 'TO'), ('stop', 'VB'), ('drilling', 'NN'), ('2', 'CD'), ('Kyrgyz', 'NNP'), ('officials', 'NNS'), ('use', 'VBP'), ('force', 'NN'), ('to', 'TO'), ('quell', 'VB'), ('squatters', 'NNS'), ('Christian', 'JJ'), ('activist', 'NN'), ('arrested', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('heels', 'NNS'), ('of', 'IN'), ('human', 'JJ'), ('rights', 'NNS'), ('attorney', 'NN'), ("'s", 'POS'), ('release', 'NN'), ('Rice', 'NNP'), ('bags', 'NNS'), ('and', 'CC'), ('change', 'NN'), ('bring', 'VBG'), ('love', 'NN'), ('of', 'IN'), ('Christ', 'NNP'), ('to', 'TO'), ('children', 'NNS'), ('Volunteers', 'NNPS'), ('cut', 'VBD'), ('ministry', 'NN'), ("'s", 'POS'), ('costs', 'NNS'), (',', ','), ('share', 'NN'), ('in', 'IN'), ('kingdom', 'NN'), ('building', 'NN'), ('Ancient', 'NNP'), ('ways', 'NNS'), ('come', 'VBP'), ('face', 'NN'), ('to', 'TO'), ('face', 'VB'), ('with', 'IN'), ('the', 'DT'), ('hope', 'NN'), ('of', 'IN'), ('Christ', 'NNP'), ('All', 'NNP'), ('Original', 'NNP'), ('Content', 'NNP'), ('Copyright', 'NNP'), ('2006', 'CD'), ('2008', 'CD'), ('American', 'NNP'), ('Family', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Ethanol/NNP)   vs./NNP   rising/VBG   food/NN   costs/NNS   Clothing/VBG   company/NN   financial/JJ   troubles/NNS   no/DT   longer/NN   a/DT   &/CC   #/#   39/CD   ;/:   Secret&/JJ   #/#   39/CD   ;/:   (PERSON Activist/NNP)   will/MD   withdraw/VB   proposal/NN   for/IN   (ORGANIZATION Ford/NNP)   Financial/NNP   expert/NN   welcomes/VBZ   plan/NN   to/TO   overhaul/VB   federal/JJ   regulatory/JJ   system/NN   Financial/NNP   columnist/NN   says/VBZ   lesson/NN   to/TO   be/VB   learned/VBN   from/IN   collapse/NN   of/IN   (ORGANIZATION Bear/NNP Stearns/NNP Journalist/NNP)   warns/VBZ   taxpayers/NNS   may/MD   pay/VB   for/IN   Fed&/JJ   #/#   39/CD   ;/:   s/NNS   mistakes/VBZ   If/IN   you/PRP   believe/VBP   OneNewsNow.com/JJ   is/VBZ   an/DT   important/JJ   source/NN   for/IN   (ORGANIZATION Christian/NNP)   news/NN   ,/,   small/JJ   tax/NN   deductible/JJ   gift/NN   (PERSON Porn/NNP)   on/IN   the/DT   job/NN   at/IN   (ORGANIZATION SEC/NNP Greece/NNP)   wants/VBZ   rescue/JJ   plan/NN   TX/NNP   big/JJ   rig/NN   chase/NN   (GPE Arizona/NNP)   governor/NN   signs/NNS   tough/IN   new/JJ   illegals/NNS   law/NN   (ORGANIZATION Report/NNP)   says/VBZ   health/NN   care/NN   will/MD   cover/VB   more/RBR   ,/,   cost/NN   more/JJR   (ORGANIZATION GOP/NNP)   ramps/NNS   up/IN   attacks/NNS   on/IN   (ORGANIZATION SEC/NNP)   over/IN   porn/NN   surfing/VBG   (PERSON Sarah/NNP Palin/NNP)   testifies/VBZ   in/IN   e/NN   mail/NN   hacking/VBG   case/NN   Environment/NNP   concerns/NNS   grow/VBP   over/IN   oil/NN   rig/NN   fire/NN   (ORGANIZATION US/NNP)   renews/VBZ   call/NN   for/IN   (GPE Iran/NNP)   to/TO   release/VB   detained/VBN   hikers/NNS   2/CD   (ORGANIZATION Senate/NNP)   to/TO   hold/VB   hearing/NN   on/IN   W.Va./NNP   mine/NN   disaster/NN   (ORGANIZATION GOP/NNP)   asks/VBZ   high/JJ   court/NN   to/TO   undo/VB   'soft/JJ   money/NN   '/''   ban/NN   2/CD   Financial/JJ   leaders/NNS   encouraged/VBD   by/IN   signs/NNS   of/IN   recovery/NN   (FACILITY White/NNP House/NNP)   :/:   Oil/NN   spill/NN   no/DT   reason/NN   to/TO   stop/VB   drilling/NN   2/CD   (GPE Kyrgyz/NNP)   officials/NNS   use/VBP   force/NN   to/TO   quell/VB   squatters/NNS   (GPE Christian/JJ)   activist/NN   arrested/VBD   on/IN   the/DT   heels/NNS   of/IN   human/JJ   rights/NNS   attorney/NN   's/POS   release/NN   Rice/NNP   bags/NNS   and/CC   change/NN   bring/VBG   love/NN   of/IN   (GPE Christ/NNP)   to/TO   children/NNS   (ORGANIZATION Volunteers/NNPS)   cut/VBD   ministry/NN   's/POS   costs/NNS   ,/,   share/NN   in/IN   kingdom/NN   building/NN   Ancient/NNP   ways/NNS   come/VBP   face/NN   to/TO   face/VB   with/IN   the/DT   hope/NN   of/IN   (ORGANIZATION Christ/NNP All/NNP Original/NNP)   Content/NNP   Copyright/NNP   2006/CD   2008/CD   (GPE American/NNP)   (ORGANIZATION Family/NNP News/NNP Network/NNP)   All/NNP   Rights/NNP   Reserved/NNP   ./.)
+----------------------------------
+original sentence: 
+Get the ONN RSS Feed
+"OneNewsNow", "OneNewsNow.com", and the "OneNewsNow World" logo, are Trademarks of the American Family News Network All Rights Reserved
+4/23/2010 4:15:11 PM
+
+
+POS tagged sentence: 
+[('Get', 'NN'), ('the', 'DT'), ('ONN', 'NNP'), ('RSS', 'NNP'), ('Feed', 'NNP'), ('"', 'NNP'), ('OneNewsNow', 'NNP'), ('"', 'NNP'), (',', ','), ('"', 'NNP'), ('OneNewsNow.com', 'NNP'), ('"', 'NNP'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('"', 'NNP'), ('OneNewsNow', 'NNP'), ('World', 'NNP'), ('"', 'NNP'), ('logo', 'NN'), (',', ','), ('are', 'VBP'), ('Trademarks', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('American', 'NNP'), ('Family', 'NNP'), ('News', 'NNP'), ('Network', 'NNP'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('4/23/2010', 'CD'), ('4', 'CD'), (':', ':'), ('15', 'CD'), (':', ':'), ('11', 'CD'), ('PM', 'NNP')]
+
+
+ERTAGGED sentence: (S   Get/NN   the/DT   (ORGANIZATION ONN/NNP)   RSS/NNP   Feed/NNP   "/NNP   OneNewsNow/NNP   "/NNP   ,/,   "/NNP   OneNewsNow.com/NNP   "/NNP   ,/,   and/CC   the/DT   "/NNP   OneNewsNow/NNP   World/NNP   "/NNP   logo/NN   ,/,   are/VBP   (ORGANIZATION Trademarks/NNP)   of/IN   the/DT   (ORGANIZATION American/NNP Family/NNP News/NNP Network/NNP)   All/NNP   Rights/NNP   Reserved/NNP   4/23/2010/CD   4/CD   :/:   15/CD   :/:   11/CD   PM/NNP)
+
+veryneg:0	neg:4	pos:0	verypos:0	total:3

@@ -1,0 +1,423 @@
+
+----------------------------------
+original sentence: 
+GTx terminates license agreement with Merck for selective androgen receptor modulators | TradingMarkets.com  New ETF Book by Larry Connors Click here to read more
+ GTx terminates license agreement with Merck for selective androgen receptor modulators
+Posted on: Wed, 17 Mar 2010 14:01:39 EDT
+,  Do you know when to trade  &  ?
+
+POS tagged sentence: 
+[('GTx', 'NNP'), ('terminates', 'VBZ'), ('license', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('Merck', 'NNP'), ('for', 'IN'), ('selective', 'JJ'), ('androgen', 'NN'), ('receptor', 'NN'), ('modulators', 'NNS'), ('|', ':'), ('TradingMarkets.com', 'JJ'), ('New', 'NNP'), ('ETF', 'NNP'), ('Book', 'NNP'), ('by', 'IN'), ('Larry', 'NNP'), ('Connors', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('read', 'VB'), ('more', 'JJR'), ('GTx', 'NNP'), ('terminates', 'VBZ'), ('license', 'NN'), ('agreement', 'NN'), ('with', 'IN'), ('Merck', 'NNP'), ('for', 'IN'), ('selective', 'JJ'), ('androgen', 'NN'), ('receptor', 'NN'), ('modulators', 'NNS'), ('Posted', 'NNP'), ('on', 'IN'), (':', ':'), ('Wed', 'NNP'), (',', ','), ('17', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('14', 'CD'), (':', ':'), ('01', 'CD'), (':', ':'), ('39', 'CD'), ('EDT', 'NNP'), (',', ','), ('Do', 'NNP'), ('you', 'PRP'), ('know', 'VB'), ('when', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('&', 'CC'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GTx/NNP)   terminates/VBZ   license/NN   agreement/NN   with/IN   (PERSON Merck/NNP)   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS   |/:   TradingMarkets.com/JJ   (ORGANIZATION New/NNP)   ETF/NNP   Book/NNP   by/IN   (PERSON Larry/NNP Connors/NNP Click/NNP)   here/RB   to/TO   read/VB   more/JJR   (ORGANIZATION GTx/NNP)   terminates/VBZ   license/NN   agreement/NN   with/IN   (PERSON Merck/NNP)   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS   (PERSON Posted/NNP)   on/IN   :/:   Wed/NNP   ,/,   17/CD   Mar/NNP   2010/CD   14/CD   :/:   01/CD   :/:   39/CD   EDT/NNP   ,/,   Do/NNP   you/PRP   know/VB   when/WRB   to/TO   trade/VB   &/CC   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   terminates/VBZ   license/NN   agreement/NN   with/IN   Merck/NNP   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS)
+
+tagged sentence:
+	 terminates license agreement with Merck for selective androgen receptor modulators	res:-1
+	(VERB read/VB more/JJR GTx/NNP)
+	(VERB   terminates/VBZ   license/NN   agreement/NN   with/IN   Merck/NNP   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS   Posted/NNP   on/IN)
+
+tagged sentence:
+	 terminates license agreement with Merck for selective androgen receptor modulators Posted on	res:-1
+	(VERB know/VB)
+	(VERB trade/VB)
+noun phrases to consider:
+	(NOUN GTx/NNP)
+	(NOUN TradingMarkets.com/JJ New/NNP ETF/NNP Book/NNP)
+	(NOUN Larry/NNP Connors/NNP Click/NNP)
+	(NOUN Wed/NNP)
+	(NOUN 17/CD Mar/NNP)
+	(NOUN 39/CD EDT/NNP)
+	(NOUN Do/NNP)
+
+----------------------------------
+original sentence: 
+Check for a  from TradingMarkets  Mar 17, 2010 Datamonitor Financial Deals Tracker via COMTEX GTx, Inc. and Merck & Co., Inc. have terminated their exclusive license agreement for selective androgen receptor modulators SARM compounds and related SARM products.
+
+POS tagged sentence: 
+[('Check', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('from', 'IN'), ('TradingMarkets', 'NNPS'), ('Mar', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('Datamonitor', 'NNP'), ('Financial', 'NNP'), ('Deals', 'NNPS'), ('Tracker', 'NNP'), ('via', 'IN'), ('COMTEX', 'NNP'), ('GTx', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('have', 'VBP'), ('terminated', 'VBN'), ('their', 'PRP$'), ('exclusive', 'JJ'), ('license', 'NN'), ('agreement', 'NN'), ('for', 'IN'), ('selective', 'JJ'), ('androgen', 'NN'), ('receptor', 'NN'), ('modulators', 'NNS'), ('SARM', 'NNP'), ('compounds', 'NNS'), ('and', 'CC'), ('related', 'JJ'), ('SARM', 'NN'), ('products', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Check/NNP)   for/IN   a/DT   from/IN   (ORGANIZATION TradingMarkets/NNPS)   Mar/NNP   17/CD   ,/,   2010/CD   Datamonitor/NNP   Financial/NNP   Deals/NNPS   Tracker/NNP   via/IN   (ORGANIZATION COMTEX/NNP)   GTx/NNP   ,/,   Inc./NNP   and/CC   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   have/VBP   terminated/VBN   their/PRP$   exclusive/JJ   license/NN   agreement/NN   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS   (ORGANIZATION SARM/NNP)   compounds/NNS   and/CC   related/JJ   (ORGANIZATION SARM/NN)   products/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   terminated/VBN   their/PRP$   exclusive/JJ   license/NN   agreement/NN   for/IN   selective/JJ   androgen/NN   receptor/NN   modulators/NNS   SARM/NNP   compounds/NNS)
+
+tagged sentence:
+	 have terminated their exclusive license agreement for selective androgen receptor modulators SARM compounds	res:-1
+noun phrases to consider:
+	(NOUN Check/NNP)
+	(NOUN TradingMarkets/NNPS Mar/NNP)
+	(NOUN 2010/CD Datamonitor/NNP Financial/NNP Deals/NNPS Tracker/NNP)
+	(NOUN COMTEX/NNP GTx/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN related/JJ SARM/NN products/NNS)
+
+----------------------------------
+original sentence: 
+GTx is a biopharmaceutical company, while Merck is a research driven pharmaceutical company.
+
+POS tagged sentence: 
+[('GTx', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('biopharmaceutical', 'JJ'), ('company', 'NN'), (',', ','), ('while', 'IN'), ('Merck', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('research', 'NN'), ('driven', 'VBN'), ('pharmaceutical', 'JJ'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GTx/NNP)   is/VBZ   a/DT   biopharmaceutical/JJ   company/NN   ,/,   while/IN   (PERSON Merck/NNP)   is/VBZ   a/DT   research/NN   driven/VBN   pharmaceutical/JJ   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ a/DT biopharmaceutical/JJ company/NN)
+	(VERB is/VBZ a/DT research/NN)
+	(VERB driven/VBN pharmaceutical/JJ company/NN)
+noun phrases to consider:
+	(NOUN GTx/NNP)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Both the companies are based in the US.
+
+POS tagged sentence: 
+[('Both', 'DT'), ('the', 'DT'), ('companies', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('US', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Both/DT   the/DT   companies/NNS   are/VBP   based/VBN   in/IN   the/DT   (GSP US/NNP)   ./.)
+----------------------------------
+original sentence: 
+Under the terms of the termination, GTx has reacquired full rights to SARM program, including Ostarine TM .
+
+POS tagged sentence: 
+[('Under', 'IN'), ('the', 'DT'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('termination', 'NN'), (',', ','), ('GTx', 'NNP'), ('has', 'VBZ'), ('reacquired', 'VBN'), ('full', 'JJ'), ('rights', 'NNS'), ('to', 'TO'), ('SARM', 'NNP'), ('program', 'NN'), (',', ','), ('including', 'VBG'), ('Ostarine', 'NNP'), ('TM', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   the/DT   terms/NNS   of/IN   the/DT   termination/NN   ,/,   (ORGANIZATION GTx/NNP)   has/VBZ   reacquired/VBN   full/JJ   rights/NNS   to/TO   (ORGANIZATION SARM/NNP)   program/NN   ,/,   including/VBG   (PERSON Ostarine/NNP TM/NNP)   ./.)
+----------------------------------
+original sentence: 
+Merck will pay GTx the third and final payment of $5 million of cost reimbursements for research and development activities in late 2010.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('will', 'MD'), ('pay', 'VB'), ('GTx', 'NNP'), ('the', 'DT'), ('third', 'JJ'), ('and', 'CC'), ('final', 'JJ'), ('payment', 'NN'), ('of', 'IN'), ('$', '$'), ('5', 'CD'), ('million', 'CD'), ('of', 'IN'), ('cost', 'NN'), ('reimbursements', 'NNS'), ('for', 'IN'), ('research', 'NN'), ('and', 'CC'), ('development', 'NN'), ('activities', 'NNS'), ('in', 'IN'), ('late', 'JJ'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   will/MD   pay/VB   GTx/NNP   the/DT   third/JJ   and/CC   final/JJ   payment/NN   of/IN   $/$   5/CD   million/CD   of/IN   cost/NN   reimbursements/NNS   for/IN   research/NN   and/CC   development/NN   activities/NNS   in/IN   late/JJ   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB pay/VB GTx/NNP the/DT third/JJ)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN final/JJ payment/NN)
+	(NOUN cost/NN reimbursements/NNS)
+
+tagged sentence:
+	 cost reimbursements	res:-1
+	(NOUN research/NN)
+	(NOUN development/NN activities/NNS)
+	(NOUN late/JJ 2010/CD)
+
+tagged sentence:
+	 late 2010	res:-1
+
+----------------------------------
+original sentence: 
+Update on June 11, 2009: GTx announced results of a phase II clinical trial evaluating Ostarine TM MK 2866 , an investigational selective androgen receptor modulator SARM , in patients with cancer induced muscle loss, also known as cancer cachexia.
+
+POS tagged sentence: 
+[('Update', 'NNP'), ('on', 'IN'), ('June', 'NNP'), ('11', 'CD'), (',', ','), ('2009', 'CD'), (':', ':'), ('GTx', 'NNP'), ('announced', 'VBD'), ('results', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('phase', 'NN'), ('II', 'NNP'), ('clinical', 'JJ'), ('trial', 'NN'), ('evaluating', 'VBG'), ('Ostarine', 'NNP'), ('TM', 'NNP'), ('MK', 'NNP'), ('2866', 'CD'), (',', ','), ('an', 'DT'), ('investigational', 'JJ'), ('selective', 'JJ'), ('androgen', 'NN'), ('receptor', 'NN'), ('modulator', 'NN'), ('SARM', 'NN'), (',', ','), ('in', 'IN'), ('patients', 'NNS'), ('with', 'IN'), ('cancer', 'NN'), ('induced', 'VBN'), ('muscle', 'NN'), ('loss', 'NN'), (',', ','), ('also', 'RB'), ('known', 'VBN'), ('as', 'IN'), ('cancer', 'NN'), ('cachexia', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Update/NNP)   on/IN   June/NNP   11/CD   ,/,   2009/CD   :/:   (ORGANIZATION GTx/NNP)   announced/VBD   results/NNS   of/IN   a/DT   phase/NN   II/NNP   clinical/JJ   trial/NN   evaluating/VBG   (PERSON Ostarine/NNP TM/NNP)   MK/NNP   2866/CD   ,/,   an/DT   investigational/JJ   selective/JJ   androgen/NN   receptor/NN   modulator/NN   (ORGANIZATION SARM/NN)   ,/,   in/IN   patients/NNS   with/IN   cancer/NN   induced/VBN   muscle/NN   loss/NN   ,/,   also/RB   known/VBN   as/IN   cancer/NN   cachexia/NN   ./.)
+----------------------------------
+original sentence: 
+In the study, Ostarine treatment led to statistically significant increase in lean body mass LBM and improvement in muscle performance measured by stair climb in patients with cancer cachexia compared to baseline in both the Ostarine 1 mg and 3 mg treatment cohorts.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('study', 'NN'), (',', ','), ('Ostarine', 'NNP'), ('treatment', 'NN'), ('led', 'VBD'), ('to', 'TO'), ('statistically', 'RB'), ('significant', 'JJ'), ('increase', 'NN'), ('in', 'IN'), ('lean', 'NN'), ('body', 'NN'), ('mass', 'NN'), ('LBM', 'NNP'), ('and', 'CC'), ('improvement', 'NN'), ('in', 'IN'), ('muscle', 'NN'), ('performance', 'NN'), ('measured', 'VBD'), ('by', 'IN'), ('stair', 'NN'), ('climb', 'NN'), ('in', 'IN'), ('patients', 'NNS'), ('with', 'IN'), ('cancer', 'NN'), ('cachexia', 'NNS'), ('compared', 'VBN'), ('to', 'TO'), ('baseline', 'VB'), ('in', 'IN'), ('both', 'DT'), ('the', 'DT'), ('Ostarine', 'NNP'), ('1', 'CD'), ('mg', 'NN'), ('and', 'CC'), ('3', 'CD'), ('mg', 'NN'), ('treatment', 'NN'), ('cohorts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   study/NN   ,/,   (GPE Ostarine/NNP)   treatment/NN   led/VBD   to/TO   statistically/RB   significant/JJ   increase/NN   in/IN   lean/NN   body/NN   mass/NN   (ORGANIZATION LBM/NNP)   and/CC   improvement/NN   in/IN   muscle/NN   performance/NN   measured/VBD   by/IN   stair/NN   climb/NN   in/IN   patients/NNS   with/IN   cancer/NN   cachexia/NNS   compared/VBN   to/TO   baseline/VB   in/IN   both/DT   the/DT   Ostarine/NNP   1/CD   mg/NN   and/CC   3/CD   mg/NN   treatment/NN   cohorts/NNS   ./.)
+----------------------------------
+original sentence: 
+These study results were the subject of an oral podium presentation at the 2009 Annual Meeting of the Endocrine Society in Washington.
+
+POS tagged sentence: 
+[('These', 'DT'), ('study', 'NN'), ('results', 'NNS'), ('were', 'VBD'), ('the', 'DT'), ('subject', 'NN'), ('of', 'IN'), ('an', 'DT'), ('oral', 'JJ'), ('podium', 'NN'), ('presentation', 'NN'), ('at', 'IN'), ('the', 'DT'), ('2009', 'CD'), ('Annual', 'NNP'), ('Meeting', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Endocrine', 'NNP'), ('Society', 'NNP'), ('in', 'IN'), ('Washington', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   study/NN   results/NNS   were/VBD   the/DT   subject/NN   of/IN   an/DT   oral/JJ   podium/NN   presentation/NN   at/IN   the/DT   2009/CD   (PERSON Annual/NNP Meeting/NNP)   of/IN   the/DT   (ORGANIZATION Endocrine/NNP Society/NNP)   in/IN   (GPE Washington/NNP)   ./.)
+----------------------------------
+original sentence: 
+Announcement November 6, 2007 : GTx and Merck have signed an exclusive license agreement for the research, development and commercialization of SARM compounds and related SARM products, a new class of drugs with the potential to treat age related muscle loss sarcopenia as well as other musculoskeletal conditions.
+
+POS tagged sentence: 
+[('Announcement', 'NNP'), ('November', 'NNP'), ('6', 'CD'), (',', ','), ('2007', 'CD'), (':', ':'), ('GTx', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('have', 'VBP'), ('signed', 'VBN'), ('an', 'DT'), ('exclusive', 'JJ'), ('license', 'NN'), ('agreement', 'NN'), ('for', 'IN'), ('the', 'DT'), ('research', 'NN'), (',', ','), ('development', 'NN'), ('and', 'CC'), ('commercialization', 'NN'), ('of', 'IN'), ('SARM', 'NNP'), ('compounds', 'NNS'), ('and', 'CC'), ('related', 'JJ'), ('SARM', 'NN'), ('products', 'NNS'), (',', ','), ('a', 'DT'), ('new', 'JJ'), ('class', 'NN'), ('of', 'IN'), ('drugs', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('potential', 'JJ'), ('to', 'TO'), ('treat', 'VB'), ('age', 'NN'), ('related', 'VBN'), ('muscle', 'NN'), ('loss', 'NN'), ('sarcopenia', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('other', 'JJ'), ('musculoskeletal', 'JJ'), ('conditions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Announcement/NNP)   November/NNP   6/CD   ,/,   2007/CD   :/:   GTx/NNP   and/CC   (GPE Merck/NNP)   have/VBP   signed/VBN   an/DT   exclusive/JJ   license/NN   agreement/NN   for/IN   the/DT   research/NN   ,/,   development/NN   and/CC   commercialization/NN   of/IN   (ORGANIZATION SARM/NNP)   compounds/NNS   and/CC   related/JJ   (ORGANIZATION SARM/NN)   products/NNS   ,/,   a/DT   new/JJ   class/NN   of/IN   drugs/NNS   with/IN   the/DT   potential/JJ   to/TO   treat/VB   age/NN   related/VBN   muscle/NN   loss/NN   sarcopenia/NN   as/IN   well/RB   as/IN   other/JJ   musculoskeletal/JJ   conditions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   signed/VBN   an/DT   exclusive/JJ   license/NN   agreement/NN   for/IN   the/DT   research/NN)
+
+tagged sentence:
+	 have signed an exclusive license agreement for the research	res:2
+	(VERB treat/VB age/NN)
+	(VERB   related/VBN   muscle/NN   loss/NN   sarcopenia/NN   as/IN   well/RB   as/IN   other/JJ   musculoskeletal/JJ   conditions/NNS)
+noun phrases to consider:
+	(NOUN Announcement/NNP November/NNP)
+	(NOUN GTx/NNP)
+	(NOUN Merck/NNP)
+	(NOUN development/NN)
+	(NOUN commercialization/NN)
+	(NOUN SARM/NNP compounds/NNS)
+	(NOUN related/JJ SARM/NN products/NNS)
+	(NOUN a/DT new/JJ class/NN)
+	(NOUN drugs/NNS)
+	(NOUN the/DT potential/JJ)
+
+----------------------------------
+original sentence: 
+This collaboration includes GTx's lead SARM candidate, Ostarine, which is currently being evaluated in a phase II clinical trial for the treatment of muscle loss in patients with cancer, and establishes a broad SARM collaboration, under which GTx and Merck will pool their programs and partner to discover, develop and commercialize current as well as future SARM molecules.
+
+POS tagged sentence: 
+[('This', 'DT'), ('collaboration', 'NN'), ('includes', 'VBZ'), ('GTx', 'NNP'), ("'s", 'POS'), ('lead', 'NN'), ('SARM', 'NN'), ('candidate', 'NN'), (',', ','), ('Ostarine', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('currently', 'RB'), ('being', 'VBG'), ('evaluated', 'VBN'), ('in', 'IN'), ('a', 'DT'), ('phase', 'NN'), ('II', 'NNP'), ('clinical', 'JJ'), ('trial', 'NN'), ('for', 'IN'), ('the', 'DT'), ('treatment', 'NN'), ('of', 'IN'), ('muscle', 'NN'), ('loss', 'NN'), ('in', 'IN'), ('patients', 'NNS'), ('with', 'IN'), ('cancer', 'NN'), (',', ','), ('and', 'CC'), ('establishes', 'NNS'), ('a', 'DT'), ('broad', 'JJ'), ('SARM', 'NN'), ('collaboration', 'NN'), (',', ','), ('under', 'IN'), ('which', 'WDT'), ('GTx', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('will', 'MD'), ('pool', 'VB'), ('their', 'PRP$'), ('programs', 'NNS'), ('and', 'CC'), ('partner', 'NN'), ('to', 'TO'), ('discover', 'VB'), (',', ','), ('develop', 'VB'), ('and', 'CC'), ('commercialize', 'VB'), ('current', 'JJ'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('future', 'JJ'), ('SARM', 'NN'), ('molecules', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   collaboration/NN   includes/VBZ   (ORGANIZATION GTx/NNP)   's/POS   lead/NN   (ORGANIZATION SARM/NN)   candidate/NN   ,/,   (GPE Ostarine/NNP)   ,/,   which/WDT   is/VBZ   currently/RB   being/VBG   evaluated/VBN   in/IN   a/DT   phase/NN   II/NNP   clinical/JJ   trial/NN   for/IN   the/DT   treatment/NN   of/IN   muscle/NN   loss/NN   in/IN   patients/NNS   with/IN   cancer/NN   ,/,   and/CC   establishes/NNS   a/DT   broad/JJ   (ORGANIZATION SARM/NN)   collaboration/NN   ,/,   under/IN   which/WDT   (ORGANIZATION GTx/NNP)   and/CC   (PERSON Merck/NNP)   will/MD   pool/VB   their/PRP$   programs/NNS   and/CC   partner/NN   to/TO   discover/VB   ,/,   develop/VB   and/CC   commercialize/VB   current/JJ   as/IN   well/RB   as/IN   future/JJ   (ORGANIZATION SARM/NN)   molecules/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB includes/VBZ GTx/NNP)
+	(VERB   is/VBZ   currently/RB   being/VBG   evaluated/VBN   in/IN   a/DT   phase/NN   II/NNP   clinical/JJ   trial/NN   for/IN   the/DT   treatment/NN   of/IN   muscle/NN   loss/NN   in/IN   patients/NNS   with/IN   cancer/NN)
+	(VERB pool/VB their/PRP$ programs/NNS)
+	(VERB discover/VB)
+	(VERB develop/VB)
+	(VERB   commercialize/VB   current/JJ   as/IN   well/RB   as/IN   future/JJ   SARM/NN   molecules/NNS)
+noun phrases to consider:
+	(NOUN collaboration/NN)
+	(NOUN lead/NN SARM/NN candidate/NN)
+	(NOUN Ostarine/NNP)
+	(NOUN establishes/NNS)
+	(NOUN a/DT broad/JJ SARM/NN collaboration/NN)
+	(NOUN GTx/NNP)
+	(NOUN Merck/NNP)
+	(NOUN partner/NN)
+
+tagged sentence:
+	 partner	res:2
+
+----------------------------------
+original sentence: 
+As part of this agreement, Merck will be responsible for all future costs associated with ongoing development and, if approved, commercialization of Ostarine and other investigational SARMs resulting from the collaboration.
+
+POS tagged sentence: 
+[('As', 'IN'), ('part', 'NN'), ('of', 'IN'), ('this', 'DT'), ('agreement', 'NN'), (',', ','), ('Merck', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('responsible', 'JJ'), ('for', 'IN'), ('all', 'DT'), ('future', 'JJ'), ('costs', 'NNS'), ('associated', 'VBN'), ('with', 'IN'), ('ongoing', 'JJ'), ('development', 'NN'), ('and', 'CC'), (',', ','), ('if', 'IN'), ('approved', 'VBN'), (',', ','), ('commercialization', 'NN'), ('of', 'IN'), ('Ostarine', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('investigational', 'JJ'), ('SARMs', 'NNS'), ('resulting', 'VBG'), ('from', 'IN'), ('the', 'DT'), ('collaboration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   part/NN   of/IN   this/DT   agreement/NN   ,/,   (PERSON Merck/NNP)   will/MD   be/VB   responsible/JJ   for/IN   all/DT   future/JJ   costs/NNS   associated/VBN   with/IN   ongoing/JJ   development/NN   and/CC   ,/,   if/IN   approved/VBN   ,/,   commercialization/NN   of/IN   (GPE Ostarine/NNP)   and/CC   other/JJ   investigational/JJ   SARMs/NNS   resulting/VBG   from/IN   the/DT   collaboration/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB responsible/JJ for/IN all/DT future/JJ costs/NNS)
+
+tagged sentence:
+	 be responsible for all future costs	res:-1
+	(VERB associated/VBN with/IN ongoing/JJ development/NN)
+	(VERB approved/VBN)
+
+tagged sentence:
+	 approved	res:2
+	(VERB resulting/VBG from/IN the/DT collaboration/NN)
+noun phrases to consider:
+	(NOUN part/NN)
+	(NOUN agreement/NN)
+	(NOUN Merck/NNP)
+	(NOUN commercialization/NN)
+	(NOUN Ostarine/NNP)
+	(NOUN other/JJ investigational/JJ SARMs/NNS)
+
+----------------------------------
+original sentence: 
+Under the terms of the agreement and related stock purchase agreement, GTx and Merck will combine their respective SARM research programs.
+
+POS tagged sentence: 
+[('Under', 'IN'), ('the', 'DT'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('agreement', 'NN'), ('and', 'CC'), ('related', 'JJ'), ('stock', 'NN'), ('purchase', 'NN'), ('agreement', 'NN'), (',', ','), ('GTx', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('will', 'MD'), ('combine', 'VB'), ('their', 'PRP$'), ('respective', 'JJ'), ('SARM', 'NN'), ('research', 'NN'), ('programs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Under/IN   the/DT   terms/NNS   of/IN   the/DT   agreement/NN   and/CC   related/JJ   stock/NN   purchase/NN   agreement/NN   ,/,   (ORGANIZATION GTx/NNP)   and/CC   (PERSON Merck/NNP)   will/MD   combine/VB   their/PRP$   respective/JJ   (ORGANIZATION SARM/NN)   research/NN   programs/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   combine/VB   their/PRP$   respective/JJ   SARM/NN   research/NN   programs/NNS)
+noun phrases to consider:
+	(NOUN terms/NNS)
+	(NOUN agreement/NN)
+	(NOUN related/JJ stock/NN purchase/NN agreement/NN)
+	(NOUN GTx/NNP)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+GTx will receive an upfront payment of $40 million plus $15 million in research reimbursements to be paid over the initial three years of the collaboration.
+
+POS tagged sentence: 
+[('GTx', 'NNP'), ('will', 'MD'), ('receive', 'VB'), ('an', 'DT'), ('upfront', 'NN'), ('payment', 'NN'), ('of', 'IN'), ('$', '$'), ('40', 'CD'), ('million', 'CD'), ('plus', 'NNS'), ('$', '$'), ('15', 'CD'), ('million', 'CD'), ('in', 'IN'), ('research', 'NN'), ('reimbursements', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('paid', 'VBN'), ('over', 'RP'), ('the', 'DT'), ('initial', 'JJ'), ('three', 'CD'), ('years', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('collaboration', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GTx/NNP)   will/MD   receive/VB   an/DT   upfront/NN   payment/NN   of/IN   $/$   40/CD   million/CD   plus/NNS   $/$   15/CD   million/CD   in/IN   research/NN   reimbursements/NNS   to/TO   be/VB   paid/VBN   over/RP   the/DT   initial/JJ   three/CD   years/NNS   of/IN   the/DT   collaboration/NN   ./.)
+----------------------------------
+original sentence: 
+In addition, Merck will make an equity investment of $30 million in GTx common stock at a 40% premium to the 30 day average closing price.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('Merck', 'NNP'), ('will', 'MD'), ('make', 'VB'), ('an', 'DT'), ('equity', 'NN'), ('investment', 'NN'), ('of', 'IN'), ('$', '$'), ('30', 'CD'), ('million', 'CD'), ('in', 'IN'), ('GTx', 'NNP'), ('common', 'JJ'), ('stock', 'NN'), ('at', 'IN'), ('a', 'DT'), ('40', 'CD'), ('%', 'NN'), ('premium', 'NN'), ('to', 'TO'), ('the', 'DT'), ('30', 'CD'), ('day', 'NN'), ('average', 'NN'), ('closing', 'NN'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   (PERSON Merck/NNP)   will/MD   make/VB   an/DT   equity/NN   investment/NN   of/IN   $/$   30/CD   million/CD   in/IN   (ORGANIZATION GTx/NNP)   common/JJ   stock/NN   at/IN   a/DT   40/CD   %/NN   premium/NN   to/TO   the/DT   30/CD   day/NN   average/NN   closing/NN   price/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB make/VB an/DT equity/NN investment/NN of/IN)
+noun phrases to consider:
+	(NOUN addition/NN)
+	(NOUN Merck/NNP)
+	(NOUN GTx/NNP common/JJ stock/NN)
+	(NOUN 40/CD %/NN premium/NN)
+	(NOUN 30/CD day/NN average/NN closing/NN price/NN)
+
+----------------------------------
+original sentence: 
+GTx will also be eligible to receive up to $422 million in future milestone payments associated with the development and approval of a drug candidate if multiple indications receive regulatory approval.
+
+POS tagged sentence: 
+[('GTx', 'NNP'), ('will', 'MD'), ('also', 'RB'), ('be', 'VB'), ('eligible', 'JJ'), ('to', 'TO'), ('receive', 'VB'), ('up', 'RP'), ('to', 'TO'), ('$', '$'), ('422', 'CD'), ('million', 'CD'), ('in', 'IN'), ('future', 'JJ'), ('milestone', 'NN'), ('payments', 'NNS'), ('associated', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('development', 'NN'), ('and', 'CC'), ('approval', 'NN'), ('of', 'IN'), ('a', 'DT'), ('drug', 'NN'), ('candidate', 'NN'), ('if', 'IN'), ('multiple', 'NN'), ('indications', 'NNS'), ('receive', 'VBP'), ('regulatory', 'JJ'), ('approval', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GTx/NNP)   will/MD   also/RB   be/VB   eligible/JJ   to/TO   receive/VB   up/RP   to/TO   $/$   422/CD   million/CD   in/IN   future/JJ   milestone/NN   payments/NNS   associated/VBN   with/IN   the/DT   development/NN   and/CC   approval/NN   of/IN   a/DT   drug/NN   candidate/NN   if/IN   multiple/NN   indications/NNS   receive/VBP   regulatory/JJ   approval/NN   ./.)
+----------------------------------
+original sentence: 
+Additional milestones may be received for the development and approval of other collaboration drug candidates.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('milestones', 'NNS'), ('may', 'MD'), ('be', 'VB'), ('received', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('development', 'NN'), ('and', 'CC'), ('approval', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('collaboration', 'NN'), ('drug', 'NN'), ('candidates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   milestones/NNS   may/MD   be/VB   received/VBN   for/IN   the/DT   development/NN   and/CC   approval/NN   of/IN   other/JJ   collaboration/NN   drug/NN   candidates/NNS   ./.)
+----------------------------------
+original sentence: 
+GTx will receive royalties on any resulting worldwide product revenue.
+
+POS tagged sentence: 
+[('GTx', 'NNP'), ('will', 'MD'), ('receive', 'VB'), ('royalties', 'NNS'), ('on', 'IN'), ('any', 'DT'), ('resulting', 'VBG'), ('worldwide', 'NN'), ('product', 'NN'), ('revenue', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GTx/NNP)   will/MD   receive/VB   royalties/NNS   on/IN   any/DT   resulting/VBG   worldwide/NN   product/NN   revenue/NN   ./.)
+----------------------------------
+original sentence: 
+Deal Type Partnership Sub Category Development,Research and discovery,Commercialization,Licensing Agreement,Acquisition of Rights Deal Status Terminated: 2010 03 15 Partner 1 Company GTX INC/TN Partner 2 Company Merck & Co., Inc. formerly Schering Plough Corporation Partner 3 Company Merck Sharp & Dohme Corp. formerly Merck & Co., Inc. For full details on Merck & Co MRK .
+
+POS tagged sentence: 
+[('Deal', 'NNP'), ('Type', 'NNP'), ('Partnership', 'NNP'), ('Sub', 'NNP'), ('Category', 'NNP'), ('Development,Research', 'NNP'), ('and', 'CC'), ('discovery,Commercialization,Licensing', 'JJ'), ('Agreement,Acquisition', 'NN'), ('of', 'IN'), ('Rights', 'NNS'), ('Deal', 'NNP'), ('Status', 'NNP'), ('Terminated', 'NNP'), (':', ':'), ('2010', 'CD'), ('03', 'CD'), ('15', 'CD'), ('Partner', 'NNP'), ('1', 'CD'), ('Company', 'NNP'), ('GTX', 'NNP'), ('INC/TN', 'NNP'), ('Partner', 'NNP'), ('2', 'CD'), ('Company', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('formerly', 'RB'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('Corporation', 'NNP'), ('Partner', 'NNP'), ('3', 'CD'), ('Company', 'NNP'), ('Merck', 'NNP'), ('Sharp', 'NNP'), ('&', 'CC'), ('Dohme', 'NNP'), ('Corp.', 'NNP'), ('formerly', 'RB'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Deal/NNP)   (ORGANIZATION Type/NNP Partnership/NNP Sub/NNP Category/NNP)   Development,Research/NNP   and/CC   discovery,Commercialization,Licensing/JJ   Agreement,Acquisition/NN   of/IN   (ORGANIZATION Rights/NNS Deal/NNP)   Status/NNP   Terminated/NNP   :/:   2010/CD   03/CD   15/CD   Partner/NNP   1/CD   Company/NNP   GTX/NNP   INC/TN/NNP   Partner/NNP   2/CD   Company/NNP   Merck/NNP   &/CC   Co./NNP   ,/,   Inc./NNP   formerly/RB   Schering/NNP   Plough/NNP   Corporation/NNP   Partner/NNP   3/CD   (ORGANIZATION Company/NNP Merck/NNP Sharp/NNP)   &/CC   (PERSON Dohme/NNP)   Corp./NNP   formerly/RB   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   For/NNP   full/JJ   details/NNS   on/IN   (ORGANIZATION Merck/NNP)   &/CC   Co/NNP   MRK/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Deal/NNP Type/NNP Partnership/NNP Sub/NNP)
+	(NOUN Category/NNP Development,Research/NNP)
+	(NOUN   discovery,Commercialization,Licensing/JJ   Agreement,Acquisition/NN)
+	(NOUN Rights/NNS Deal/NNP Status/NNP Terminated/NNP)
+	(NOUN 15/CD Partner/NNP)
+	(NOUN 1/CD Company/NNP GTX/NNP INC/TN/NNP Partner/NNP)
+	(NOUN 2/CD Company/NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Schering/NNP Plough/NNP Corporation/NNP Partner/NNP)
+
+tagged sentence:
+	 Schering Plough Corporation Partner	res:2
+	(NOUN 3/CD Company/NNP Merck/NNP Sharp/NNP)
+	(NOUN Dohme/NNP Corp./NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP For/NNP full/JJ details/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP)
+
+----------------------------------
+original sentence: 
+Merck & Co MRK has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co/NNP   MRK/NNP   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   Short/NNP   Term/NNP   PowerRatings/NNP   at/IN   TradingMarkets/NNPS)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP)
+
+----------------------------------
+original sentence: 
+Details on Merck & Co MRK Short Term PowerRatings is available at For full details on Gtx GTXI .
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co', 'NNP'), ('MRK', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('For', 'NNP'), ('full', 'JJ'), ('details', 'NNS'), ('on', 'IN'), ('Gtx', 'NNP'), ('GTXI', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (ORGANIZATION Merck/NNP)   &/CC   Co/NNP   MRK/NNP   Short/NNP   Term/NNP   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION For/NNP)   full/JJ   details/NNS   on/IN   (PERSON Gtx/NNP GTXI/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   available/JJ   at/IN   For/NNP   full/JJ   details/NNS   on/IN   Gtx/NNP   GTXI/NNP)
+noun phrases to consider:
+	(NOUN Details/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co/NNP MRK/NNP Short/NNP Term/NNP)
+	(NOUN PowerRatings/NNP)
+
+----------------------------------
+original sentence: 
+Gtx GTXI has Short Term PowerRatings at TradingMarkets.
+
+POS tagged sentence: 
+[('Gtx', 'NNP'), ('GTXI', 'NNP'), ('has', 'VBZ'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('at', 'IN'), ('TradingMarkets', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Gtx/NNP)   (ORGANIZATION GTXI/NNP)   has/VBZ   (PERSON Short/NNP Term/NNP)   PowerRatings/NNP   at/IN   (ORGANIZATION TradingMarkets/NNPS)   ./.)
+----------------------------------
+original sentence: 
+Details on Gtx GTXI Short Term PowerRatings is available at Learn new strategies, how to trade in this market, and the stocks you should be focusing on each day.
+
+POS tagged sentence: 
+[('Details', 'NNS'), ('on', 'IN'), ('Gtx', 'NNP'), ('GTXI', 'NNP'), ('Short', 'NNP'), ('Term', 'NNP'), ('PowerRatings', 'NNP'), ('is', 'VBZ'), ('available', 'JJ'), ('at', 'IN'), ('Learn', 'NNP'), ('new', 'JJ'), ('strategies', 'NNS'), (',', ','), ('how', 'WRB'), ('to', 'TO'), ('trade', 'VB'), ('in', 'IN'), ('this', 'DT'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stocks', 'NNS'), ('you', 'PRP'), ('should', 'MD'), ('be', 'VB'), ('focusing', 'VBG'), ('on', 'IN'), ('each', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Details/NNS   on/IN   (PERSON Gtx/NNP GTXI/NNP Short/NNP Term/NNP)   PowerRatings/NNP   is/VBZ   available/JJ   at/IN   (ORGANIZATION Learn/NNP)   new/JJ   strategies/NNS   ,/,   how/WRB   to/TO   trade/VB   in/IN   this/DT   market/NN   ,/,   and/CC   the/DT   stocks/NNS   you/PRP   should/MD   be/VB   focusing/VBG   on/IN   each/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+Join us for our  20 minute tele seminars during the week.
+
+POS tagged sentence: 
+[('Join', 'NNP'), ('us', 'PRP'), ('for', 'IN'), ('our', 'PRP$'), ('20', 'CD'), ('minute', 'NN'), ('tele', 'NN'), ('seminars', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Join/NNP   us/PRP   for/IN   our/PRP$   20/CD   minute/NN   tele/NN   seminars/NNS   during/IN   the/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Thursday April 29 12:30 PM Hear What Kevin Haggerty Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Thursday', 'NNP'), ('April', 'NNP'), ('29', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Kevin', 'NNP'), ('Haggerty', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Thursday/NNP   April/NNP   29/CD   12/CD   :/:   30/CD   PM/NNP   Hear/NNP   What/NNP   (PERSON Kevin/NNP Haggerty/NNP Sees/NNP)   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+Wednesday April 28 01:00 PM Hear What Gary Kaltbaum Sees in the Stock Market Today!
+
+POS tagged sentence: 
+[('Wednesday', 'NNP'), ('April', 'NNP'), ('28', 'CD'), ('01', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('Hear', 'NNP'), ('What', 'NNP'), ('Gary', 'NNP'), ('Kaltbaum', 'NNP'), ('Sees', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Today', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Wednesday/NNP   April/NNP   28/CD   01/CD   :/:   00/CD   PM/NNP   Hear/NNP   What/NNP   Gary/NNP   Kaltbaum/NNP   Sees/NNP   in/IN   the/DT   Stock/NNP   (PERSON Market/NNP)   Today/NNP   !/.)
+----------------------------------
+original sentence: 
+* Attendance is strictly limited and are filled on a first come, first served basis. 
+
+POS tagged sentence: 
+[('*', '-NONE-'), ('Attendance', 'VB'), ('is', 'VBZ'), ('strictly', 'RB'), ('limited', 'VBN'), ('and', 'CC'), ('are', 'VBP'), ('filled', 'VBN'), ('on', 'IN'), ('a', 'DT'), ('first', 'JJ'), ('come', 'NN'), (',', ','), ('first', 'JJ'), ('served', 'VBD'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   */-NONE-   Attendance/VB   is/VBZ   strictly/RB   limited/VBN   and/CC   are/VBP   filled/VBN   on/IN   a/DT   first/JJ   come/NN   ,/,   first/JJ   served/VBD   basis/NN   ./.)
+
+veryneg:0	neg:6	pos:0	verypos:4	total:6

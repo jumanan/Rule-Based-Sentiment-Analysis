@@ -1,0 +1,525 @@
+
+----------------------------------
+original sentence: 
+ Market Closing Update: Bank Shares Help Stocks Rebound | iStockAnalyst.com Market Closing Update: Bank Shares Help Stocks Rebound
+ Thursday, March 11, 2010 4:30 PM
+Vote for next session
+The next market session will close:
+ NYSE up 25.5 0.4% to 7,353.21.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Closing', 'NNP'), ('Update', 'NNP'), (':', ':'), ('Bank', 'NNP'), ('Shares', 'NNPS'), ('Help', 'NNP'), ('Stocks', 'NNP'), ('Rebound', 'NNP'), ('|', 'NNP'), ('iStockAnalyst.com', 'NNP'), ('Market', 'NNP'), ('Closing', 'NNP'), ('Update', 'NNP'), (':', ':'), ('Bank', 'NNP'), ('Shares', 'NNPS'), ('Help', 'NNP'), ('Stocks', 'NNP'), ('Rebound', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('March', 'NNP'), ('11', 'CD'), (',', ','), ('2010', 'CD'), ('4', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('Vote', 'NNP'), ('for', 'IN'), ('next', 'JJ'), ('session', 'NN'), ('The', 'DT'), ('next', 'JJ'), ('market', 'NN'), ('session', 'NN'), ('will', 'MD'), ('close', 'VB'), (':', ':'), ('NYSE', 'NNP'), ('up', 'IN'), ('25.5', 'CD'), ('0.4', 'CD'), ('%', 'NN'), ('to', 'TO'), ('7,353.21', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Market/NN Closing/NNP Update/NNP)   :/:   (ORGANIZATION Bank/NNP Shares/NNPS Help/NNP Stocks/NNP Rebound/NNP)   |/NNP   iStockAnalyst.com/NNP   (PERSON Market/NNP Closing/NNP Update/NNP)   :/:   (ORGANIZATION Bank/NNP Shares/NNPS Help/NNP Stocks/NNP Rebound/NNP)   Thursday/NNP   ,/,   March/NNP   11/CD   ,/,   2010/CD   4/CD   :/:   30/CD   PM/NNP   Vote/NNP   for/IN   next/JJ   session/NN   The/DT   next/JJ   market/NN   session/NN   will/MD   close/VB   :/:   NYSE/NNP   up/IN   25.5/CD   0.4/CD   %/NN   to/TO   7,353.21/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB close/VB)
+noun phrases to consider:
+	(NOUN Market/NN Closing/NNP Update/NNP)
+	(NOUN Bank/NNP Shares/NNPS Help/NNP Stocks/NNP)
+	(NOUN Rebound/NNP |/NNP iStockAnalyst.com/NNP Market/NNP)
+	(NOUN Closing/NNP Update/NNP)
+	(NOUN Bank/NNP Shares/NNPS Help/NNP Stocks/NNP)
+	(NOUN Rebound/NNP Thursday/NNP)
+	(NOUN March/NNP)
+	(NOUN 30/CD PM/NNP Vote/NNP)
+	(NOUN next/JJ session/NN)
+	(NOUN The/DT next/JJ market/NN session/NN)
+	(NOUN NYSE/NNP)
+	(NOUN 0.4/CD %/NN)
+
+----------------------------------
+original sentence: 
+DJIA up 44 0.4% to 10,612.
+
+POS tagged sentence: 
+[('DJIA', 'NNP'), ('up', 'IN'), ('44', 'CD'), ('0.4', 'CD'), ('%', 'NN'), ('to', 'TO'), ('10,612', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S DJIA/NNP up/IN 44/CD 0.4/CD %/NN to/TO 10,612/CD ./.)
+----------------------------------
+original sentence: 
+S&P 500 up 4 0.4% to 1,150.
+
+POS tagged sentence: 
+[('S&P', 'NNP'), ('500', 'CD'), ('up', 'IN'), ('4', 'CD'), ('0.4', 'CD'), ('%', 'NN'), ('to', 'TO'), ('1,150', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S S&P/NNP 500/CD up/IN 4/CD 0.4/CD %/NN to/TO 1,150/CD ./.)
+----------------------------------
+original sentence: 
+Nasdaq up 9.5 0.4% to 2,368.
+
+POS tagged sentence: 
+[('Nasdaq', 'NNP'), ('up', 'IN'), ('9.5', 'CD'), ('0.4', 'CD'), ('%', 'NN'), ('to', 'TO'), ('2,368', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Nasdaq/NNP) up/IN 9.5/CD 0.4/CD %/NN to/TO 2,368/CD ./.)
+----------------------------------
+original sentence: 
+GLOBAL SENTIMENT  Hang Seng up 0.9%  + FRPT inks contract.
+
+POS tagged sentence: 
+[('GLOBAL', 'NNP'), ('SENTIMENT', 'NNP'), ('Hang', 'NNP'), ('Seng', 'NNP'), ('up', 'IN'), ('0.9', 'CD'), ('%', 'NN'), ('+', ':'), ('FRPT', 'NNP'), ('inks', 'NNS'), ('contract', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION GLOBAL/NNP)   (ORGANIZATION SENTIMENT/NNP Hang/NNP Seng/NNP)   up/IN   0.9/CD   %/NN   +/:   (ORGANIZATION FRPT/NNP)   inks/NNS   contract/NN   ./.)
+----------------------------------
+original sentence: 
++ GYMB continues evening advance seen on better than expected results, guidance.
+
+POS tagged sentence: 
+[('+', 'NN'), ('GYMB', 'NNP'), ('continues', 'VBZ'), ('evening', 'VBG'), ('advance', 'NN'), ('seen', 'IN'), ('on', 'IN'), ('better', 'JJR'), ('than', 'IN'), ('expected', 'VBN'), ('results', 'NNS'), (',', ','), ('guidance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION GYMB/NNP)   continues/VBZ   evening/VBG   advance/NN   seen/IN   on/IN   better/JJR   than/IN   expected/VBN   results/NNS   ,/,   guidance/NN   ./.)
+----------------------------------
+original sentence: 
++ LVLT gets analyst upgrade.
+
+POS tagged sentence: 
+[('+', 'NN'), ('LVLT', 'NNP'), ('gets', 'VBZ'), ('analyst', 'NN'), ('upgrade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S +/NN (ORGANIZATION LVLT/NNP) gets/VBZ analyst/NN upgrade/NN ./.)
+----------------------------------
+original sentence: 
++ DVN, BP both gain as DVN selling $7 bln in assets to BP.
+
+POS tagged sentence: 
+[('+', 'NN'), ('DVN', 'NNP'), (',', ','), ('BP', 'NNP'), ('both', 'DT'), ('gain', 'NN'), ('as', 'IN'), ('DVN', 'NNP'), ('selling', 'NN'), ('$', '$'), ('7', 'CD'), ('bln', 'CD'), ('in', 'IN'), ('assets', 'NNS'), ('to', 'TO'), ('BP', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION DVN/NNP)   ,/,   BP/NNP   both/DT   gain/NN   as/IN   (ORGANIZATION DVN/NNP)   selling/NN   $/$   7/CD   bln/CD   in/IN   assets/NNS   to/TO   BP/NNP   ./.)
+----------------------------------
+original sentence: 
++ CLNE beats with Q4.
+
+POS tagged sentence: 
+[('+', 'NN'), ('CLNE', 'NNP'), ('beats', 'NNS'), ('with', 'IN'), ('Q4', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION CLNE/NNP)   beats/NNS   with/IN   (ORGANIZATION Q4/NNP)   ./.)
+----------------------------------
+original sentence: 
++ TEAR inks deal with TLCVision.
+
+POS tagged sentence: 
+[('+', 'NN'), ('TEAR', 'NNP'), ('inks', 'VBZ'), ('deal', 'NN'), ('with', 'IN'), ('TLCVision', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION TEAR/NNP)   inks/VBZ   deal/NN   with/IN   (ORGANIZATION TLCVision/NNP)   ./.)
+----------------------------------
+original sentence: 
++ FCEL inks new deal, reports results.
+
+POS tagged sentence: 
+[('+', 'NN'), ('FCEL', 'NNP'), ('inks', 'VBZ'), ('new', 'JJ'), ('deal', 'NN'), (',', ','), ('reports', 'VBZ'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION FCEL/NNP)   inks/VBZ   new/JJ   deal/NN   ,/,   reports/VBZ   results/NNS   ./.)
+----------------------------------
+original sentence: 
++ DPS gets upgrade.
+
+POS tagged sentence: 
+[('+', 'NN'), ('DPS', 'NNS'), ('gets', 'VBZ'), ('upgrade', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S +/NN (ORGANIZATION DPS/NNS) gets/VBZ upgrade/NN ./.)
+----------------------------------
+original sentence: 
++ BPAX jumps on Leukemia vaccine study results.
+
+POS tagged sentence: 
+[('+', 'NN'), ('BPAX', 'NNP'), ('jumps', 'NNS'), ('on', 'IN'), ('Leukemia', 'NNP'), ('vaccine', 'NN'), ('study', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   +/NN   (ORGANIZATION BPAX/NNP)   jumps/NNS   on/IN   (GPE Leukemia/NNP)   vaccine/NN   study/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+SFD beats with Q3 EPS, sales shy.
+
+POS tagged sentence: 
+[('SFD', 'NNP'), ('beats', 'NNS'), ('with', 'IN'), ('Q3', 'NNP'), ('EPS', 'NNP'), (',', ','), ('sales', 'NNS'), ('shy', 'WRB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   SFD/NNP   beats/NNS   with/IN   (ORGANIZATION Q3/NNP)   EPS/NNP   ,/,   sales/NNS   shy/WRB   ./.)
+----------------------------------
+original sentence: 
+MW continues evening decline that followed sales miss.
+
+POS tagged sentence: 
+[('MW', 'NNP'), ('continues', 'VBZ'), ('evening', 'VBG'), ('decline', 'NN'), ('that', 'IN'), ('followed', 'VBN'), ('sales', 'NNS'), ('miss', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   MW/NNP   continues/VBZ   evening/VBG   decline/NN   that/IN   followed/VBN   sales/NNS   miss/NNS   ./.)
+----------------------------------
+original sentence: 
+YHOO gets analyst downgrade  JTX misses Q3 estimates.
+
+POS tagged sentence: 
+[('YHOO', 'NNP'), ('gets', 'VBZ'), ('analyst', 'NN'), ('downgrade', 'NN'), ('JTX', 'NNP'), ('misses', 'NNS'), ('Q3', 'NNP'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION YHOO/NNP)   gets/VBZ   analyst/NN   downgrade/NN   (ORGANIZATION JTX/NNP)   misses/NNS   Q3/NNP   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+MARKET DIRECTION  Stocks turned higher in afternoon trading, but were confined to the tight trading ranges that have dominated action all this week.
+
+POS tagged sentence: 
+[('MARKET', 'NN'), ('DIRECTION', 'NN'), ('Stocks', 'NNS'), ('turned', 'VBD'), ('higher', 'JJR'), ('in', 'IN'), ('afternoon', 'NN'), ('trading', 'NN'), (',', ','), ('but', 'CC'), ('were', 'VBD'), ('confined', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('tight', 'JJ'), ('trading', 'NN'), ('ranges', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('dominated', 'VBN'), ('action', 'NN'), ('all', 'DT'), ('this', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE MARKET/NN)   (ORGANIZATION DIRECTION/NN Stocks/NNS)   turned/VBD   higher/JJR   in/IN   afternoon/NN   trading/NN   ,/,   but/CC   were/VBD   confined/VBN   to/TO   the/DT   tight/JJ   trading/NN   ranges/NNS   that/WDT   have/VBP   dominated/VBN   action/NN   all/DT   this/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Still, with the slim closing gain, stocks have advanced over three straight sessions.
+
+POS tagged sentence: 
+[('Still', 'RB'), (',', ','), ('with', 'IN'), ('the', 'DT'), ('slim', 'NN'), ('closing', 'NN'), ('gain', 'NN'), (',', ','), ('stocks', 'NNS'), ('have', 'VBP'), ('advanced', 'VBN'), ('over', 'IN'), ('three', 'CD'), ('straight', 'JJ'), ('sessions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Still/RB   ,/,   with/IN   the/DT   slim/NN   closing/NN   gain/NN   ,/,   stocks/NNS   have/VBP   advanced/VBN   over/IN   three/CD   straight/JJ   sessions/NNS   ./.)
+----------------------------------
+original sentence: 
+Financial shares fronted the rebound.
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('shares', 'NNS'), ('fronted', 'VBD'), ('the', 'DT'), ('rebound', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Financial/JJ shares/NNS fronted/VBD the/DT rebound/NN ./.)
+----------------------------------
+original sentence: 
+A lackluster jobless claims report and signs of inflation acceleration in China depressed stocks in the early going.
+
+POS tagged sentence: 
+[('A', 'DT'), ('lackluster', 'NN'), ('jobless', 'NN'), ('claims', 'VBZ'), ('report', 'NN'), ('and', 'CC'), ('signs', 'NNS'), ('of', 'IN'), ('inflation', 'NN'), ('acceleration', 'NN'), ('in', 'IN'), ('China', 'NNP'), ('depressed', 'VBD'), ('stocks', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('early', 'JJ'), ('going', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   lackluster/NN   jobless/NN   claims/VBZ   report/NN   and/CC   signs/NNS   of/IN   inflation/NN   acceleration/NN   in/IN   (GPE China/NNP)   depressed/VBD   stocks/NNS   in/IN   the/DT   early/JJ   going/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB claims/VBZ report/NN)
+	(VERB depressed/VBD stocks/NNS in/IN the/DT early/JJ going/NN)
+noun phrases to consider:
+	(NOUN lackluster/NN jobless/NN)
+	(NOUN signs/NNS)
+	(NOUN inflation/NN acceleration/NN)
+	(NOUN China/NNP)
+
+----------------------------------
+original sentence: 
+Stocks have been looking for clear direction for the last two days.
+
+POS tagged sentence: 
+[('Stocks', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('looking', 'VBG'), ('for', 'IN'), ('clear', 'JJ'), ('direction', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Stocks/NNS   have/VBP   been/VBN   looking/VBG   for/IN   clear/JJ   direction/NN   for/IN   the/DT   last/JJ   two/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+The Dow and S&P 500 have been hovering near 15 month highs, but investors seem more interested in consolidating positions and waiting for more evidence the economy is improving.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('and', 'CC'), ('S&P', 'NNP'), ('500', 'CD'), ('have', 'VBP'), ('been', 'VBN'), ('hovering', 'VBG'), ('near', 'IN'), ('15', 'CD'), ('month', 'NN'), ('highs', 'NNS'), (',', ','), ('but', 'CC'), ('investors', 'NNS'), ('seem', 'VBP'), ('more', 'JJR'), ('interested', 'JJ'), ('in', 'IN'), ('consolidating', 'NN'), ('positions', 'NNS'), ('and', 'CC'), ('waiting', 'VBG'), ('for', 'IN'), ('more', 'JJR'), ('evidence', 'NN'), ('the', 'DT'), ('economy', 'NN'), ('is', 'VBZ'), ('improving', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP)   and/CC   S&P/NNP   500/CD   have/VBP   been/VBN   hovering/VBG   near/IN   15/CD   month/NN   highs/NNS   ,/,   but/CC   investors/NNS   seem/VBP   more/JJR   interested/JJ   in/IN   consolidating/NN   positions/NNS   and/CC   waiting/VBG   for/IN   more/JJR   evidence/NN   the/DT   economy/NN   is/VBZ   improving/VBG   ./.)
+----------------------------------
+original sentence: 
+This morning, the Labor Department set the tone for trading when it said the number of workers filing for first time jobless benefits fell by 6,000 to a seasonally adjusted 462,000 last week.
+
+POS tagged sentence: 
+[('This', 'DT'), ('morning', 'NN'), (',', ','), ('the', 'DT'), ('Labor', 'NNP'), ('Department', 'NNP'), ('set', 'VBD'), ('the', 'DT'), ('tone', 'NN'), ('for', 'IN'), ('trading', 'NN'), ('when', 'WRB'), ('it', 'PRP'), ('said', 'VBD'), ('the', 'DT'), ('number', 'NN'), ('of', 'IN'), ('workers', 'NNS'), ('filing', 'VBG'), ('for', 'IN'), ('first', 'JJ'), ('time', 'NN'), ('jobless', 'NN'), ('benefits', 'NNS'), ('fell', 'VBD'), ('by', 'IN'), ('6,000', 'CD'), ('to', 'TO'), ('a', 'DT'), ('seasonally', 'RB'), ('adjusted', 'VBN'), ('462,000', 'CD'), ('last', 'JJ'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   morning/NN   ,/,   the/DT   (ORGANIZATION Labor/NNP Department/NNP)   set/VBD   the/DT   tone/NN   for/IN   trading/NN   when/WRB   it/PRP   said/VBD   the/DT   number/NN   of/IN   workers/NNS   filing/VBG   for/IN   first/JJ   time/NN   jobless/NN   benefits/NNS   fell/VBD   by/IN   6,000/CD   to/TO   a/DT   seasonally/RB   adjusted/VBN   462,000/CD   last/JJ   week/NN   ./.)
+----------------------------------
+original sentence: 
+Economists forecast 460,000, according to Thomson Reuters.
+
+POS tagged sentence: 
+[('Economists', 'NNS'), ('forecast', 'VBP'), ('460,000', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Thomson', 'NNP'), ('Reuters', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Economists/NNS   forecast/VBP   460,000/CD   ,/,   according/VBG   to/TO   (PERSON Thomson/NNP Reuters/NNP)   ./.)
+----------------------------------
+original sentence: 
+The Commerce Department also reported that the country's trade deficit fell in January on declines in imported oil and cars.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Commerce', 'NNP'), ('Department', 'NNP'), ('also', 'RB'), ('reported', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('country', 'NN'), ("'s", 'POS'), ('trade', 'NN'), ('deficit', 'NN'), ('fell', 'VBD'), ('in', 'IN'), ('January', 'NNP'), ('on', 'IN'), ('declines', 'NNS'), ('in', 'IN'), ('imported', 'VBN'), ('oil', 'NN'), ('and', 'CC'), ('cars', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Commerce/NNP Department/NNP)   also/RB   reported/VBD   that/IN   the/DT   country/NN   's/POS   trade/NN   deficit/NN   fell/VBD   in/IN   January/NNP   on/IN   declines/NNS   in/IN   imported/VBN   oil/NN   and/CC   cars/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN the/DT country/NN)
+	(VERB fell/VBD in/IN January/NNP on/IN declines/NNS in/IN)
+	(VERB imported/VBN oil/NN)
+noun phrases to consider:
+	(NOUN Commerce/NNP Department/NNP)
+	(NOUN trade/NN deficit/NN)
+	(NOUN cars/NNS)
+
+----------------------------------
+original sentence: 
+U.S. exports dipped 0.3%, cooling some hopes that exports would help drive the domestic recovery.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('exports', 'NNS'), ('dipped', 'VBD'), ('0.3', 'CD'), ('%', 'NN'), (',', ','), ('cooling', 'VBG'), ('some', 'DT'), ('hopes', 'NNS'), ('that', 'IN'), ('exports', 'NNS'), ('would', 'MD'), ('help', 'VB'), ('drive', 'JJ'), ('the', 'DT'), ('domestic', 'JJ'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   exports/NNS   dipped/VBD   0.3/CD   %/NN   ,/,   cooling/VBG   some/DT   hopes/NNS   that/IN   exports/NNS   would/MD   help/VB   drive/JJ   the/DT   domestic/JJ   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, China reported that its inflation rate jumped 2.7% in February from 1.5% in January, raising concern that the economic giant may raise interest rates to cool its economy.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('China', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('its', 'PRP$'), ('inflation', 'NN'), ('rate', 'NN'), ('jumped', 'VBD'), ('2.7', 'CD'), ('%', 'NN'), ('in', 'IN'), ('February', 'NNP'), ('from', 'IN'), ('1.5', 'CD'), ('%', 'NN'), ('in', 'IN'), ('January', 'NNP'), (',', ','), ('raising', 'VBG'), ('concern', 'NN'), ('that', 'WDT'), ('the', 'DT'), ('economic', 'JJ'), ('giant', 'NN'), ('may', 'MD'), ('raise', 'VB'), ('interest', 'NN'), ('rates', 'NNS'), ('to', 'TO'), ('cool', 'JJ'), ('its', 'PRP$'), ('economy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   (GPE China/NNP)   reported/VBD   that/IN   its/PRP$   inflation/NN   rate/NN   jumped/VBD   2.7/CD   %/NN   in/IN   February/NNP   from/IN   1.5/CD   %/NN   in/IN   January/NNP   ,/,   raising/VBG   concern/NN   that/WDT   the/DT   economic/JJ   giant/NN   may/MD   raise/VB   interest/NN   rates/NNS   to/TO   cool/JJ   its/PRP$   economy/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN its/PRP$ inflation/NN rate/NN)
+	(VERB   jumped/VBD   2.7/CD   %/NN   in/IN   February/NNP   from/IN   1.5/CD   %/NN   in/IN   January/NNP)
+	(VERB raising/VBG concern/NN)
+
+tagged sentence:
+	 raising concern	res:-1
+	(VERB raise/VB interest/NN rates/NNS)
+noun phrases to consider:
+	(NOUN China/NNP)
+	(NOUN the/DT economic/JJ giant/NN)
+	(NOUN cool/JJ)
+	(NOUN economy/NN)
+
+----------------------------------
+original sentence: 
+The move could slow one of the world's fastest growing economies and put a damper on a global recovery.
+
+POS tagged sentence: 
+[('The', 'DT'), ('move', 'NN'), ('could', 'MD'), ('slow', 'VB'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('fastest', 'NN'), ('growing', 'VBG'), ('economies', 'NNS'), ('and', 'CC'), ('put', 'VBD'), ('a', 'DT'), ('damper', 'NN'), ('on', 'IN'), ('a', 'DT'), ('global', 'JJ'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   move/NN   could/MD   slow/VB   one/CD   of/IN   the/DT   world/NN   's/POS   fastest/NN   growing/VBG   economies/NNS   and/CC   put/VBD   a/DT   damper/NN   on/IN   a/DT   global/JJ   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+On Wednesday, China announced that exports grew 46% in February compared with last year, signaling a rise in consumer demand around the globe, and particularly in the United States.
+
+POS tagged sentence: 
+[('On', 'IN'), ('Wednesday', 'NNP'), (',', ','), ('China', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('exports', 'NNS'), ('grew', 'VBD'), ('46', 'CD'), ('%', 'NN'), ('in', 'IN'), ('February', 'NNP'), ('compared', 'VBN'), ('with', 'IN'), ('last', 'JJ'), ('year', 'NN'), (',', ','), ('signaling', 'VBG'), ('a', 'DT'), ('rise', 'NN'), ('in', 'IN'), ('consumer', 'NN'), ('demand', 'NN'), ('around', 'IN'), ('the', 'DT'), ('globe', 'NN'), (',', ','), ('and', 'CC'), ('particularly', 'RB'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   Wednesday/NNP   ,/,   (GPE China/NNP)   announced/VBD   that/IN   exports/NNS   grew/VBD   46/CD   %/NN   in/IN   February/NNP   compared/VBN   with/IN   last/JJ   year/NN   ,/,   signaling/VBG   a/DT   rise/NN   in/IN   consumer/NN   demand/NN   around/IN   the/DT   globe/NN   ,/,   and/CC   particularly/RB   in/IN   the/DT   (GPE United/NNP States/NNPS)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN exports/NNS)
+	(VERB grew/VBD 46/CD %/NN in/IN February/NNP)
+	(VERB compared/VBN with/IN last/JJ year/NN)
+	(VERB   signaling/VBG   a/DT   rise/NN   in/IN   consumer/NN   demand/NN   around/IN   the/DT   globe/NN)
+noun phrases to consider:
+	(NOUN Wednesday/NNP)
+	(NOUN China/NNP)
+	(NOUN United/NNP States/NNPS)
+
+----------------------------------
+original sentence: 
+It's the third consecutive monthly increase and the fastest pace in three years.
+
+POS tagged sentence: 
+[('It', 'PRP'), ("'s", 'VBZ'), ('the', 'DT'), ('third', 'JJ'), ('consecutive', 'JJ'), ('monthly', 'JJ'), ('increase', 'NN'), ('and', 'CC'), ('the', 'DT'), ('fastest', 'JJS'), ('pace', 'NN'), ('in', 'IN'), ('three', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   's/VBZ   the/DT   third/JJ   consecutive/JJ   monthly/JJ   increase/NN   and/CC   the/DT   fastest/JJS   pace/NN   in/IN   three/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+Chinese imports also increased by 45%.
+
+POS tagged sentence: 
+[('Chinese', 'JJ'), ('imports', 'NNS'), ('also', 'RB'), ('increased', 'VBD'), ('by', 'IN'), ('45', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Chinese/JJ)   imports/NNS   also/RB   increased/VBD   by/IN   45/CD   %/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB increased/VBD by/IN 45/CD %/NN)
+noun phrases to consider:
+	(NOUN Chinese/JJ imports/NNS)
+
+----------------------------------
+original sentence: 
+Another key driver of trading corporate deal making continues.
+
+POS tagged sentence: 
+[('Another', 'DT'), ('key', 'JJ'), ('driver', 'NN'), ('of', 'IN'), ('trading', 'NN'), ('corporate', 'JJ'), ('deal', 'NN'), ('making', 'VBG'), ('continues', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Another/DT   key/JJ   driver/NN   of/IN   trading/NN   corporate/JJ   deal/NN   making/VBG   continues/NNS   ./.)
+----------------------------------
+original sentence: 
+BP PLC  said it would pay $7 billion to acquire from Devon Energy Corp.  exploration rights in Brazil, the U.S. Gulf of Mexico and Caspian Sea.
+
+POS tagged sentence: 
+[('BP', 'NNP'), ('PLC', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('would', 'MD'), ('pay', 'VB'), ('$', '$'), ('7', 'CD'), ('billion', 'CD'), ('to', 'TO'), ('acquire', 'VB'), ('from', 'IN'), ('Devon', 'NNP'), ('Energy', 'NNP'), ('Corp.', 'NNP'), ('exploration', 'NN'), ('rights', 'NNS'), ('in', 'IN'), ('Brazil', 'NNP'), (',', ','), ('the', 'DT'), ('U.S.', 'NNP'), ('Gulf', 'NNP'), ('of', 'IN'), ('Mexico', 'NNP'), ('and', 'CC'), ('Caspian', 'NNP'), ('Sea', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   BP/NNP   PLC/NNP   said/VBD   it/PRP   would/MD   pay/VB   $/$   7/CD   billion/CD   to/TO   acquire/VB   from/IN   (PERSON Devon/NNP Energy/NNP)   Corp./NNP   exploration/NN   rights/NNS   in/IN   (GPE Brazil/NNP)   ,/,   the/DT   (GPE U.S./NNP)   Gulf/NNP   of/IN   (GPE Mexico/NNP)   and/CC   (PERSON Caspian/NNP Sea/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD it/PRP)
+	(VERB pay/VB)
+	(VERB   acquire/VB   from/IN   Devon/NNP   Energy/NNP   Corp./NNP   exploration/NN   rights/NNS   in/IN   Brazil/NNP)
+noun phrases to consider:
+	(NOUN BP/NNP PLC/NNP)
+	(NOUN U.S./NNP Gulf/NNP)
+	(NOUN Mexico/NNP)
+	(NOUN Caspian/NNP Sea/NNP)
+
+----------------------------------
+original sentence: 
+Devon is up 1% in early trading; BP is down fractionally.
+
+POS tagged sentence: 
+[('Devon', 'NNP'), ('is', 'VBZ'), ('up', 'IN'), ('1', 'CD'), ('%', 'NN'), ('in', 'IN'), ('early', 'JJ'), ('trading', 'NN'), (';', ':'), ('BP', 'NNP'), ('is', 'VBZ'), ('down', 'RB'), ('fractionally', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Devon/NNP)   is/VBZ   up/IN   1/CD   %/NN   in/IN   early/JJ   trading/NN   ;/:   BP/NNP   is/VBZ   down/RB   fractionally/RB   ./.)
+----------------------------------
+original sentence: 
+Financial stocks are also higher at mid day, while a Citi Financial Services Conference in New York is providing some insights into the operations of top banks.
+
+POS tagged sentence: 
+[('Financial', 'JJ'), ('stocks', 'NNS'), ('are', 'VBP'), ('also', 'RB'), ('higher', 'JJR'), ('at', 'IN'), ('mid', 'JJ'), ('day', 'NN'), (',', ','), ('while', 'IN'), ('a', 'DT'), ('Citi', 'NNP'), ('Financial', 'NNP'), ('Services', 'NNPS'), ('Conference', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('is', 'VBZ'), ('providing', 'VBG'), ('some', 'DT'), ('insights', 'NNS'), ('into', 'IN'), ('the', 'DT'), ('operations', 'NNS'), ('of', 'IN'), ('top', 'JJ'), ('banks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Financial/JJ   stocks/NNS   are/VBP   also/RB   higher/JJR   at/IN   mid/JJ   day/NN   ,/,   while/IN   a/DT   (ORGANIZATION Citi/NNP Financial/NNP Services/NNPS Conference/NNP)   in/IN   (GPE New/NNP York/NNP)   is/VBZ   providing/VBG   some/DT   insights/NNS   into/IN   the/DT   operations/NNS   of/IN   top/JJ   banks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP also/RB higher/JJR at/IN mid/JJ day/NN)
+	(VERB   is/VBZ   providing/VBG   some/DT   insights/NNS   into/IN   the/DT   operations/NNS   of/IN   top/JJ   banks/NNS)
+noun phrases to consider:
+	(NOUN Financial/JJ stocks/NNS)
+	(NOUN Citi/NNP Financial/NNP Services/NNPS Conference/NNP)
+	(NOUN New/NNP York/NNP)
+
+----------------------------------
+original sentence: 
+Citi CEO Vikram Pandit is talking about Citi's profitability in the coming years.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('CEO', 'NNP'), ('Vikram', 'NNP'), ('Pandit', 'NNP'), ('is', 'VBZ'), ('talking', 'VBG'), ('about', 'IN'), ('Citi', 'NNP'), ("'s", 'POS'), ('profitability', 'NN'), ('in', 'IN'), ('the', 'DT'), ('coming', 'VBG'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   (ORGANIZATION CEO/NNP Vikram/NNP Pandit/NNP)   is/VBZ   talking/VBG   about/IN   (PERSON Citi/NNP)   's/POS   profitability/NN   in/IN   the/DT   coming/VBG   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ talking/VBG about/IN Citi/NNP)
+	(VERB coming/VBG years/NNS)
+noun phrases to consider:
+	(NOUN Citi/NNP CEO/NNP Vikram/NNP Pandit/NNP)
+	(NOUN profitability/NN)
+
+----------------------------------
+original sentence: 
+Research Related Stocks: Rate this Commentary
+ Name:   Alert for new comments:
+ Your email:  Your Website:
+ Title: RadEditor hidden textarea
+   The above story is the opinion of the author only and it does not reflect iStockAnalyst opinion.
+
+POS tagged sentence: 
+[('Research', 'NN'), ('Related', 'VBN'), ('Stocks', 'NNS'), (':', ':'), ('Rate', 'NNP'), ('this', 'DT'), ('Commentary', 'NNP'), ('Name', 'NNP'), (':', ':'), ('Alert', 'NNP'), ('for', 'IN'), ('new', 'JJ'), ('comments', 'NNS'), (':', ':'), ('Your', 'NNP'), ('email', 'NN'), (':', ':'), ('Your', 'PRP$'), ('Website', 'NNP'), (':', ':'), ('Title', 'NNP'), (':', ':'), ('RadEditor', 'NNP'), ('hidden', 'NN'), ('textarea', 'NN'), ('The', 'DT'), ('above', 'NN'), ('story', 'NN'), ('is', 'VBZ'), ('the', 'DT'), ('opinion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('author', 'NN'), ('only', 'RB'), ('and', 'CC'), ('it', 'PRP'), ('does', 'VBZ'), ('not', 'RB'), ('reflect', 'VB'), ('iStockAnalyst', 'NNP'), ('opinion', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Research/NN   Related/VBN   Stocks/NNS   :/:   Rate/NNP   this/DT   Commentary/NNP   Name/NNP   :/:   (PERSON Alert/NNP)   for/IN   new/JJ   comments/NNS   :/:   Your/NNP   email/NN   :/:   Your/PRP$   Website/NNP   :/:   Title/NNP   :/:   RadEditor/NNP   hidden/NN   textarea/NN   The/DT   above/NN   story/NN   is/VBZ   the/DT   opinion/NN   of/IN   the/DT   author/NN   only/RB   and/CC   it/PRP   does/VBZ   not/RB   reflect/VB   (ORGANIZATION iStockAnalyst/NNP)   opinion/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Related/VBN Stocks/NNS)
+	(VERB is/VBZ the/DT opinion/NN of/IN the/DT author/NN only/RB)
+	(VERB does/VBZ not/RB reflect/VB iStockAnalyst/NNP opinion/NN)
+noun phrases to consider:
+	(NOUN Research/NN)
+	(NOUN Rate/NNP)
+	(NOUN Commentary/NNP Name/NNP)
+	(NOUN Alert/NNP)
+	(NOUN new/JJ comments/NNS)
+	(NOUN Your/NNP email/NN)
+	(NOUN Website/NNP)
+	(NOUN Title/NNP)
+	(NOUN RadEditor/NNP hidden/NN textarea/NN)
+	(NOUN above/NN story/NN)
+
+----------------------------------
+original sentence: 
+Further, the author is not personally advising you regarding the suitability of the story for your investment needs.
+
+POS tagged sentence: 
+[('Further', 'RB'), (',', ','), ('the', 'DT'), ('author', 'NN'), ('is', 'VBZ'), ('not', 'RB'), ('personally', 'RB'), ('advising', 'VBG'), ('you', 'PRP'), ('regarding', 'VBG'), ('the', 'DT'), ('suitability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('story', 'NN'), ('for', 'IN'), ('your', 'PRP$'), ('investment', 'NN'), ('needs', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Further/RB   ,/,   the/DT   author/NN   is/VBZ   not/RB   personally/RB   advising/VBG   you/PRP   regarding/VBG   the/DT   suitability/NN   of/IN   the/DT   story/NN   for/IN   your/PRP$   investment/NN   needs/VBZ   ./.)
+----------------------------------
+original sentence: 
+In no event iStockAnalyst will be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from or arising out of, or in connection with the use of this information.
+
+POS tagged sentence: 
+[('In', 'IN'), ('no', 'DT'), ('event', 'NN'), ('iStockAnalyst', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('liable', 'JJ'), ('for', 'IN'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('including', 'VBG'), ('without', 'IN'), ('limitation', 'NN'), (',', ','), ('indirect', 'JJ'), ('or', 'CC'), ('consequential', 'JJ'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), (',', ','), ('or', 'CC'), ('any', 'DT'), ('loss', 'NN'), ('or', 'CC'), ('damage', 'NN'), ('whatsoever', 'NN'), ('arising', 'VBG'), ('from', 'IN'), ('or', 'CC'), ('arising', 'VBG'), ('out', 'RP'), ('of', 'IN'), (',', ','), ('or', 'CC'), ('in', 'IN'), ('connection', 'NN'), ('with', 'IN'), ('the', 'DT'), ('use', 'NN'), ('of', 'IN'), ('this', 'DT'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   no/DT   event/NN   (ORGANIZATION iStockAnalyst/NNP)   will/MD   be/VB   liable/JJ   for/IN   any/DT   loss/NN   or/CC   damage/NN   including/VBG   without/IN   limitation/NN   ,/,   indirect/JJ   or/CC   consequential/JJ   loss/NN   or/CC   damage/NN   ,/,   or/CC   any/DT   loss/NN   or/CC   damage/NN   whatsoever/NN   arising/VBG   from/IN   or/CC   arising/VBG   out/RP   of/IN   ,/,   or/CC   in/IN   connection/NN   with/IN   the/DT   use/NN   of/IN   this/DT   information/NN   ./.)
+----------------------------------
+original sentence: 
+Please consult your investment advisor before making any investment decision.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('consult', 'VBD'), ('your', 'PRP$'), ('investment', 'NN'), ('advisor', 'NN'), ('before', 'IN'), ('making', 'VBG'), ('any', 'DT'), ('investment', 'NN'), ('decision', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   consult/VBD   your/PRP$   investment/NN   advisor/NN   before/IN   making/VBG   any/DT   investment/NN   decision/NN   ./.)
+----------------------------------
+original sentence: 
+Related Press Releases
+Recent Articles by Midnight Trader
+Research Related Stocks:  Subscribe to Email Alerts
+ or  for articles from more than 500 contributors, press releases, SEC filings and full text news from more than four thousand sources.
+
+POS tagged sentence: 
+[('Related', 'JJ'), ('Press', 'NN'), ('Releases', 'NNS'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Midnight', 'NNP'), ('Trader', 'NNP'), ('Research', 'NNP'), ('Related', 'NNP'), ('Stocks', 'NNP'), (':', ':'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Email', 'NNP'), ('Alerts', 'NNP'), ('or', 'CC'), ('for', 'IN'), ('articles', 'NNS'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('500', 'CD'), ('contributors', 'NNS'), (',', ','), ('press', 'NN'), ('releases', 'NNS'), (',', ','), ('SEC', 'NNP'), ('filings', 'NNS'), ('and', 'CC'), ('full', 'JJ'), ('text', 'NN'), ('news', 'NN'), ('from', 'IN'), ('more', 'RBR'), ('than', 'IN'), ('four', 'CD'), ('thousand', 'NN'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Related/JJ)   Press/NN   Releases/NNS   (PERSON Recent/NNP Articles/NNP)   by/IN   (PERSON     Midnight/NNP     Trader/NNP     Research/NNP     Related/NNP     Stocks/NNP)   :/:   Subscribe/NNP   to/TO   (PERSON Email/NNP Alerts/NNP)   or/CC   for/IN   articles/NNS   from/IN   more/RBR   than/IN   500/CD   contributors/NNS   ,/,   press/NN   releases/NNS   ,/,   (ORGANIZATION SEC/NNP)   filings/NNS   and/CC   full/JJ   text/NN   news/NN   from/IN   more/RBR   than/IN   four/CD   thousand/NN   sources/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Related/JJ Press/NN Releases/NNS Recent/NNP Articles/NNP)
+	(NOUN Midnight/NNP Trader/NNP Research/NNP Related/NNP)
+	(NOUN Stocks/NNP)
+	(NOUN Subscribe/NNP)
+	(NOUN Email/NNP Alerts/NNP)
+	(NOUN articles/NNS)
+	(NOUN 500/CD contributors/NNS)
+	(NOUN press/NN releases/NNS)
+	(NOUN SEC/NNP filings/NNS)
+	(NOUN full/JJ text/NN news/NN)
+	(NOUN four/CD thousand/NN sources/NNS)
+
+----------------------------------
+original sentence: 
+|  |  |  Join Blog Network
+ copryright 2010 all rights reserved  Fundamental data is provided by Zacks Investment Research
+, market data is provided by , and Commentary and Press Releases provided by 
+
+POS tagged sentence: 
+[('|', 'NN'), ('|', '``'), ('|', ':'), ('Join', 'NNP'), ('Blog', 'NNP'), ('Network', 'NNP'), ('copryright', 'VBD'), ('2010', 'CD'), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('Fundamental', 'NNP'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), (',', ','), ('market', 'NN'), ('data', 'NNS'), ('is', 'VBZ'), ('provided', 'VBN'), ('by', 'IN'), (',', ','), ('and', 'CC'), ('Commentary', 'NNP'), ('and', 'CC'), ('Press', 'NNP'), ('Releases', 'NNP'), ('provided', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S   |/NN   |/``   |/:   (PERSON Join/NNP Blog/NNP Network/NNP)   copryright/VBD   2010/CD   all/DT   rights/NNS   reserved/VBN   (ORGANIZATION Fundamental/NNP)   data/NNS   is/VBZ   provided/VBN   by/IN   (PERSON Zacks/NNP Investment/NNP Research/NNP)   ,/,   market/NN   data/NNS   is/VBZ   provided/VBN   by/IN   ,/,   and/CC   (ORGANIZATION Commentary/NNP)   and/CC   Press/NNP   Releases/NNP   provided/VBD   by/IN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB copryright/VBD 2010/CD all/DT rights/NNS)
+	(VERB reserved/VBN Fundamental/NNP data/NNS)
+	(VERB   is/VBZ   provided/VBN   by/IN   Zacks/NNP   Investment/NNP   Research/NNP)
+	(VERB is/VBZ provided/VBN by/IN)
+	(VERB provided/VBD by/IN)
+noun phrases to consider:
+	(NOUN |/NN)
+	(NOUN Join/NNP Blog/NNP Network/NNP)
+	(NOUN market/NN data/NNS)
+	(NOUN Commentary/NNP)
+	(NOUN Press/NNP Releases/NNP)
+
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

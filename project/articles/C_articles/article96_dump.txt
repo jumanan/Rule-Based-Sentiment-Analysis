@@ -1,0 +1,420 @@
+
+----------------------------------
+original sentence: 
+Citigroup's Rollercoaster Ride: Slideshow
+ By Michael Baron
+Deputy Managing Editor  03/12/10 07:00 AM EST
+ C:NYSE shares finished above $4 on Thursday for the first time since early December.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ("'s", 'POS'), ('Rollercoaster', 'NNP'), ('Ride', 'NNP'), (':', ':'), ('Slideshow', 'NNP'), ('By', 'NNP'), ('Michael', 'NNP'), ('Baron', 'NNP'), ('Deputy', 'NNP'), ('Managing', 'NNP'), ('Editor', 'NNP'), ('03/12/10', 'CD'), ('07', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('EST', 'NNP'), ('C', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('shares', 'NNS'), ('finished', 'VBD'), ('above', 'IN'), ('$', '$'), ('4', 'CD'), ('on', 'IN'), ('Thursday', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('time', 'NN'), ('since', 'IN'), ('early', 'JJ'), ('December', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   's/POS   Rollercoaster/NNP   Ride/NNP   :/:   (PERSON Slideshow/NNP By/NNP)   (PERSON Michael/NNP Baron/NNP)   Deputy/NNP   Managing/NNP   Editor/NNP   03/12/10/CD   07/CD   :/:   00/CD   AM/NNP   EST/NNP   C/NNP   :/:   (ORGANIZATION NYSE/NNP)   shares/NNS   finished/VBD   above/IN   $/$   4/CD   on/IN   Thursday/NNP   for/IN   the/DT   first/JJ   time/NN   since/IN   early/JJ   December/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB finished/VBD above/IN)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN Rollercoaster/NNP Ride/NNP)
+	(NOUN Slideshow/NNP By/NNP Michael/NNP Baron/NNP)
+	(NOUN Deputy/NNP Managing/NNP Editor/NNP)
+	(NOUN 00/CD AM/NNP EST/NNP C/NNP)
+	(NOUN NYSE/NNP shares/NNS)
+	(NOUN Thursday/NNP)
+	(NOUN the/DT first/JJ time/NN)
+	(NOUN early/JJ December/NNP)
+
+----------------------------------
+original sentence: 
+This slideshow looks at the stock's ups and downs over the past year.
+
+POS tagged sentence: 
+[('This', 'DT'), ('slideshow', 'NN'), ('looks', 'VBZ'), ('at', 'IN'), ('the', 'DT'), ('stock', 'NN'), ("'s", 'POS'), ('ups', 'NNS'), ('and', 'CC'), ('downs', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   slideshow/NN   looks/VBZ   at/IN   the/DT   stock/NN   's/POS   ups/NNS   and/CC   downs/NNS   over/IN   the/DT   past/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Breaking the Buck: March 5, 2009
+At this time Citigroup was still one of the thirty supposed "blue chip" companies that comprised the Dow Jones Industrial Average
+ and the stock's drop below $1 was astounding psychological evidence of just how bad the markets had gotten.
+
+POS tagged sentence: 
+[('Breaking', 'VBG'), ('the', 'DT'), ('Buck', 'NNP'), (':', ':'), ('March', 'NNP'), ('5', 'CD'), (',', ','), ('2009', 'CD'), ('At', 'IN'), ('this', 'DT'), ('time', 'NN'), ('Citigroup', 'NNP'), ('was', 'VBD'), ('still', 'RB'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('thirty', 'NN'), ('supposed', 'VBD'), ('"', 'CD'), ('blue', 'JJ'), ('chip', 'NN'), ('"', ':'), ('companies', 'NNS'), ('that', 'WDT'), ('comprised', 'VBD'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('stock', 'NN'), ("'s", 'POS'), ('drop', 'NN'), ('below', 'IN'), ('$', '$'), ('1', 'CD'), ('was', 'VBD'), ('astounding', 'VBG'), ('psychological', 'JJ'), ('evidence', 'NN'), ('of', 'IN'), ('just', 'RB'), ('how', 'WRB'), ('bad', 'JJ'), ('the', 'DT'), ('markets', 'NNS'), ('had', 'VBD'), ('gotten', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Breaking/VBG   the/DT   Buck/NNP   :/:   March/NNP   5/CD   ,/,   2009/CD   At/IN   this/DT   time/NN   (PERSON Citigroup/NNP)   was/VBD   still/RB   one/CD   of/IN   the/DT   thirty/NN   supposed/VBD   "/CD   blue/JJ   chip/NN   "/:   companies/NNS   that/WDT   comprised/VBD   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   and/CC   the/DT   stock/NN   's/POS   drop/NN   below/IN   $/$   1/CD   was/VBD   astounding/VBG   psychological/JJ   evidence/NN   of/IN   just/RB   how/WRB   bad/JJ   the/DT   markets/NNS   had/VBD   gotten/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Breaking/VBG the/DT Buck/NNP)
+
+tagged sentence:
+	 Breaking the Buck	res:-1
+	(VERB was/VBD)
+	(VERB supposed/VBD "/CD blue/JJ chip/NN)
+	(VERB   comprised/VBD   the/DT   Dow/NNP   Jones/NNP   Industrial/NNP   Average/NNP)
+	(VERB   was/VBD   astounding/VBG   psychological/JJ   evidence/NN   of/IN   just/RB)
+	(VERB had/VBD gotten/VBN)
+noun phrases to consider:
+	(NOUN March/NNP)
+	(NOUN time/NN Citigroup/NNP)
+	(NOUN thirty/NN)
+	(NOUN companies/NNS)
+	(NOUN stock/NN)
+	(NOUN drop/NN)
+
+tagged sentence:
+	 drop	res:-1
+	(NOUN bad/JJ)
+
+tagged sentence:
+	 bad	res:-1
+	(NOUN markets/NNS)
+
+----------------------------------
+original sentence: 
+The company was eventually dropped from the Dow in June 2009, at the same time as American automotive icon The pair were replaced with some irony by  CSCO:NYSE and  TRV:NYSE , a remnant of the company that Citicorp had merged with in 1998 to form the original Citigroup.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('was', 'VBD'), ('eventually', 'RB'), ('dropped', 'VBD'), ('from', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('in', 'IN'), ('June', 'NNP'), ('2009', 'CD'), (',', ','), ('at', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('time', 'NN'), ('as', 'IN'), ('American', 'JJ'), ('automotive', 'JJ'), ('icon', 'NN'), ('The', 'DT'), ('pair', 'NN'), ('were', 'VBD'), ('replaced', 'VBN'), ('with', 'IN'), ('some', 'DT'), ('irony', 'NN'), ('by', 'IN'), ('CSCO', 'NNP'), (':', ':'), ('NYSE', 'NNP'), ('and', 'CC'), ('TRV', 'NNP'), (':', ':'), ('NYSE', 'NNP'), (',', ','), ('a', 'DT'), ('remnant', 'NN'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ('that', 'WDT'), ('Citicorp', 'NNP'), ('had', 'VBD'), ('merged', 'VBN'), ('with', 'IN'), ('in', 'IN'), ('1998', 'CD'), ('to', 'TO'), ('form', 'NN'), ('the', 'DT'), ('original', 'JJ'), ('Citigroup', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   was/VBD   eventually/RB   dropped/VBD   from/IN   the/DT   Dow/NNP   in/IN   June/NNP   2009/CD   ,/,   at/IN   the/DT   same/JJ   time/NN   as/IN   (GPE American/JJ)   automotive/JJ   icon/NN   The/DT   pair/NN   were/VBD   replaced/VBN   with/IN   some/DT   irony/NN   by/IN   (ORGANIZATION CSCO/NNP)   :/:   (ORGANIZATION NYSE/NNP)   and/CC   (ORGANIZATION TRV/NNP)   :/:   NYSE/NNP   ,/,   a/DT   remnant/NN   of/IN   the/DT   company/NN   that/WDT   (PERSON Citicorp/NNP)   had/VBD   merged/VBN   with/IN   in/IN   1998/CD   to/TO   form/NN   the/DT   original/JJ   Citigroup/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   was/VBD   eventually/RB   dropped/VBD   from/IN   the/DT   Dow/NNP   in/IN   June/NNP   2009/CD)
+	(VERB were/VBD replaced/VBN with/IN some/DT irony/NN by/IN CSCO/NNP)
+	(VERB had/VBD merged/VBN with/IN in/IN 1998/CD)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN the/DT same/JJ time/NN)
+	(NOUN American/JJ automotive/JJ icon/NN)
+	(NOUN pair/NN)
+	(NOUN NYSE/NNP)
+	(NOUN TRV/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN remnant/NN)
+	(NOUN company/NN)
+	(NOUN Citicorp/NNP)
+	(NOUN form/NN)
+	(NOUN the/DT original/JJ Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+Strong Quarter, Weak Stock: April 14, 2009
+Shares close at $4.01 as buying interest builds ahead of the company's first quarter report, which was released on April 17.
+
+POS tagged sentence: 
+[('Strong', 'JJ'), ('Quarter', 'NN'), (',', ','), ('Weak', 'NNP'), ('Stock', 'NNP'), (':', ':'), ('April', 'NNP'), ('14', 'CD'), (',', ','), ('2009', 'CD'), ('Shares', 'NNS'), ('close', 'JJ'), ('at', 'IN'), ('$', '$'), ('4.01', 'CD'), ('as', 'IN'), ('buying', 'NN'), ('interest', 'NN'), ('builds', 'NNS'), ('ahead', 'RB'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('first', 'JJ'), ('quarter', 'NN'), ('report', 'NN'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('released', 'VBN'), ('on', 'IN'), ('April', 'NNP'), ('17', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Strong/JJ)   (ORGANIZATION Quarter/NN)   ,/,   (PERSON Weak/NNP Stock/NNP)   :/:   April/NNP   14/CD   ,/,   2009/CD   Shares/NNS   close/JJ   at/IN   $/$   4.01/CD   as/IN   buying/NN   interest/NN   builds/NNS   ahead/RB   of/IN   the/DT   company/NN   's/POS   first/JJ   quarter/NN   report/NN   ,/,   which/WDT   was/VBD   released/VBN   on/IN   April/NNP   17/CD   ./.)
+----------------------------------
+original sentence: 
+At the time it represents the stock's first close above $4 since late January 2009.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('time', 'NN'), ('it', 'PRP'), ('represents', 'VBZ'), ('the', 'DT'), ('stock', 'NN'), ("'s", 'POS'), ('first', 'JJ'), ('close', 'NN'), ('above', 'IN'), ('$', '$'), ('4', 'CD'), ('since', 'IN'), ('late', 'JJ'), ('January', 'NNP'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   time/NN   it/PRP   represents/VBZ   the/DT   stock/NN   's/POS   first/JJ   close/NN   above/IN   $/$   4/CD   since/IN   late/JJ   January/NNP   2009/CD   ./.)
+----------------------------------
+original sentence: 
+The first quarter numbers hold up pretty well as revenue gets a boost from strong trading results to reach $24.8 billion but credit costs jump 76% year over year to $10.3 billion.
+
+POS tagged sentence: 
+[('The', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('numbers', 'NNS'), ('hold', 'VBP'), ('up', 'RP'), ('pretty', 'RB'), ('well', 'RB'), ('as', 'IN'), ('revenue', 'NN'), ('gets', 'NNS'), ('a', 'DT'), ('boost', 'NN'), ('from', 'IN'), ('strong', 'JJ'), ('trading', 'NN'), ('results', 'NNS'), ('to', 'TO'), ('reach', 'VB'), ('$', '$'), ('24.8', 'CD'), ('billion', 'CD'), ('but', 'CC'), ('credit', 'NN'), ('costs', 'NNS'), ('jump', 'VB'), ('76', 'CD'), ('%', 'NN'), ('year', 'NN'), ('over', 'IN'), ('year', 'NN'), ('to', 'TO'), ('$', '$'), ('10.3', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   first/JJ   quarter/NN   numbers/NNS   hold/VBP   up/RP   pretty/RB   well/RB   as/IN   revenue/NN   gets/NNS   a/DT   boost/NN   from/IN   strong/JJ   trading/NN   results/NNS   to/TO   reach/VB   $/$   24.8/CD   billion/CD   but/CC   credit/NN   costs/NNS   jump/VB   76/CD   %/NN   year/NN   over/IN   year/NN   to/TO   $/$   10.3/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+CEO Vikram Pandit pictured above describes the performance as "our best overall quarter since the second quarter of 2007" but the stock can't hold the gains and it dips back below $3 in the weeks that follow.
+
+POS tagged sentence: 
+[('CEO', 'NNP'), ('Vikram', 'NNP'), ('Pandit', 'NNP'), ('pictured', 'VBD'), ('above', 'IN'), ('describes', 'NNS'), ('the', 'DT'), ('performance', 'NN'), ('as', 'IN'), ('"', 'CD'), ('our', 'PRP$'), ('best', 'JJS'), ('overall', 'JJ'), ('quarter', 'NN'), ('since', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2007', 'CD'), ('"', 'CD'), ('but', 'CC'), ('the', 'DT'), ('stock', 'NN'), ('ca', 'MD'), ("n't", 'RB'), ('hold', 'VB'), ('the', 'DT'), ('gains', 'NNS'), ('and', 'CC'), ('it', 'PRP'), ('dips', 'VBZ'), ('back', 'RB'), ('below', 'IN'), ('$', '$'), ('3', 'CD'), ('in', 'IN'), ('the', 'DT'), ('weeks', 'NNS'), ('that', 'IN'), ('follow', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CEO/NNP)   (PERSON Vikram/NNP Pandit/NNP)   pictured/VBD   above/IN   describes/NNS   the/DT   performance/NN   as/IN   "/CD   our/PRP$   best/JJS   overall/JJ   quarter/NN   since/IN   the/DT   second/JJ   quarter/NN   of/IN   2007/CD   "/CD   but/CC   the/DT   stock/NN   ca/MD   n't/RB   hold/VB   the/DT   gains/NNS   and/CC   it/PRP   dips/VBZ   back/RB   below/IN   $/$   3/CD   in/IN   the/DT   weeks/NNS   that/IN   follow/JJ   ./.)
+----------------------------------
+original sentence: 
+The Peak: August 27, 2009
+August's rally proves fleeting as a summer romance.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Peak', 'NNP'), (':', ':'), ('August', 'NNP'), ('27', 'CD'), (',', ','), ('2009', 'CD'), ('August', 'NNP'), ("'s", 'POS'), ('rally', 'NN'), ('proves', 'NNS'), ('fleeting', 'VBG'), ('as', 'IN'), ('a', 'DT'), ('summer', 'NN'), ('romance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   Peak/NNP   :/:   August/NNP   27/CD   ,/,   2009/CD   August/NNP   's/POS   rally/NN   proves/NNS   fleeting/VBG   as/IN   a/DT   summer/NN   romance/NN   ./.)
+----------------------------------
+original sentence: 
+The stock pulls back in September before making another run to close at exactly $5 on Oct. 14, 2009, just ahead of the company's third quarter report.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('pulls', 'NNS'), ('back', 'VBP'), ('in', 'IN'), ('September', 'NNP'), ('before', 'IN'), ('making', 'VBG'), ('another', 'DT'), ('run', 'NN'), ('to', 'TO'), ('close', 'VB'), ('at', 'IN'), ('exactly', 'RB'), ('$', '$'), ('5', 'CD'), ('on', 'IN'), ('Oct.', 'NNP'), ('14', 'CD'), (',', ','), ('2009', 'CD'), (',', ','), ('just', 'RB'), ('ahead', 'RB'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ("'s", 'POS'), ('third', 'JJ'), ('quarter', 'NN'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   pulls/NNS   back/VBP   in/IN   September/NNP   before/IN   making/VBG   another/DT   run/NN   to/TO   close/VB   at/IN   exactly/RB   $/$   5/CD   on/IN   Oct./NNP   14/CD   ,/,   2009/CD   ,/,   just/RB   ahead/RB   of/IN   the/DT   company/NN   's/POS   third/JJ   quarter/NN   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB back/VBP in/IN September/NNP before/IN)
+	(VERB making/VBG another/DT run/NN)
+	(VERB close/VB at/IN exactly/RB)
+noun phrases to consider:
+	(NOUN stock/NN pulls/NNS)
+	(NOUN Oct./NNP)
+	(NOUN company/NN)
+	(NOUN third/JJ quarter/NN report/NN)
+
+----------------------------------
+original sentence: 
+Shares loses 5% the next day, despite Citigroup coming in with net income of $101 million for the three month period, and the stock hasn't seen $5 since.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('loses', 'NNS'), ('5', 'CD'), ('%', 'NN'), ('the', 'DT'), ('next', 'JJ'), ('day', 'NN'), (',', ','), ('despite', 'IN'), ('Citigroup', 'NNP'), ('coming', 'VBG'), ('in', 'IN'), ('with', 'IN'), ('net', 'JJ'), ('income', 'NN'), ('of', 'IN'), ('$', '$'), ('101', 'CD'), ('million', 'CD'), ('for', 'IN'), ('the', 'DT'), ('three', 'CD'), ('month', 'NN'), ('period', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stock', 'NN'), ('has', 'VBZ'), ("n't", 'RB'), ('seen', 'VBN'), ('$', '$'), ('5', 'CD'), ('since', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Shares/NNS)   loses/NNS   5/CD   %/NN   the/DT   next/JJ   day/NN   ,/,   despite/IN   (PERSON Citigroup/NNP)   coming/VBG   in/IN   with/IN   net/JJ   income/NN   of/IN   $/$   101/CD   million/CD   for/IN   the/DT   three/CD   month/NN   period/NN   ,/,   and/CC   the/DT   stock/NN   has/VBZ   n't/RB   seen/VBN   $/$   5/CD   since/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB coming/VBG in/IN with/IN net/JJ income/NN of/IN)
+	(VERB has/VBZ n't/RB seen/VBN)
+noun phrases to consider:
+	(NOUN Shares/NNS loses/NNS)
+	(NOUN 5/CD %/NN)
+	(NOUN the/DT next/JJ day/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN three/CD month/NN period/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+November saw a decline in equity trading volumes overall and all the most heavily traded names, Citigroup included, reflected this trend.
+
+POS tagged sentence: 
+[('November', 'NNP'), ('saw', 'VBD'), ('a', 'DT'), ('decline', 'NN'), ('in', 'IN'), ('equity', 'NN'), ('trading', 'NN'), ('volumes', 'VBZ'), ('overall', 'JJ'), ('and', 'CC'), ('all', 'DT'), ('the', 'DT'), ('most', 'RBS'), ('heavily', 'RB'), ('traded', 'VBN'), ('names', 'NNS'), (',', ','), ('Citigroup', 'NNP'), ('included', 'VBD'), (',', ','), ('reflected', 'VBN'), ('this', 'DT'), ('trend', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   November/NNP   saw/VBD   a/DT   decline/NN   in/IN   equity/NN   trading/NN   volumes/VBZ   overall/JJ   and/CC   all/DT   the/DT   most/RBS   heavily/RB   traded/VBN   names/NNS   ,/,   (PERSON Citigroup/NNP)   included/VBD   ,/,   reflected/VBN   this/DT   trend/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB saw/VBD a/DT decline/NN in/IN equity/NN trading/NN)
+
+tagged sentence:
+	 saw a decline in equity trading	res:-1
+	(VERB volumes/VBZ overall/JJ)
+	(VERB traded/VBN names/NNS)
+	(VERB included/VBD)
+	(VERB reflected/VBN this/DT trend/NN)
+noun phrases to consider:
+	(NOUN November/NNP)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+Market observers attributed the slowdown to investors choosing to take profits a bit earlier than usual, given the volatility of 2009, and the incredible run ups many stocks had seen from their March lows.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('observers', 'NNS'), ('attributed', 'VBD'), ('the', 'DT'), ('slowdown', 'NN'), ('to', 'TO'), ('investors', 'NNS'), ('choosing', 'VBG'), ('to', 'TO'), ('take', 'VB'), ('profits', 'NNS'), ('a', 'DT'), ('bit', 'NN'), ('earlier', 'RBR'), ('than', 'IN'), ('usual', 'JJ'), (',', ','), ('given', 'VBN'), ('the', 'DT'), ('volatility', 'NN'), ('of', 'IN'), ('2009', 'CD'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('incredible', 'JJ'), ('run', 'NN'), ('ups', 'NNS'), ('many', 'JJ'), ('stocks', 'NNS'), ('had', 'VBD'), ('seen', 'VBN'), ('from', 'IN'), ('their', 'PRP$'), ('March', 'NNP'), ('lows', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   observers/NNS   attributed/VBD   the/DT   slowdown/NN   to/TO   investors/NNS   choosing/VBG   to/TO   take/VB   profits/NNS   a/DT   bit/NN   earlier/RBR   than/IN   usual/JJ   ,/,   given/VBN   the/DT   volatility/NN   of/IN   2009/CD   ,/,   and/CC   the/DT   incredible/JJ   run/NN   ups/NNS   many/JJ   stocks/NNS   had/VBD   seen/VBN   from/IN   their/PRP$   March/NNP   lows/VBZ   ./.)
+----------------------------------
+original sentence: 
+Payback: December 7, 2009
+The shares' last close above $4 before yesterday.
+
+POS tagged sentence: 
+[('Payback', 'NNP'), (':', ':'), ('December', 'NNP'), ('7', 'CD'), (',', ','), ('2009', 'CD'), ('The', 'DT'), ('shares', 'NNS'), ("'", 'POS'), ('last', 'JJ'), ('close', 'NN'), ('above', 'IN'), ('$', '$'), ('4', 'CD'), ('before', 'IN'), ('yesterday', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Payback/NNP)   :/:   December/NNP   7/CD   ,/,   2009/CD   The/DT   shares/NNS   '/POS   last/JJ   close/NN   above/IN   $/$   4/CD   before/IN   yesterday/NN   ./.)
+----------------------------------
+original sentence: 
+Speculation that the company was planning to repay bailout funds before the end of the year began to surface at this time, and the stock slumped on worries of a dilutive share sale.
+
+POS tagged sentence: 
+[('Speculation', 'NN'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('was', 'VBD'), ('planning', 'VBG'), ('to', 'TO'), ('repay', 'VB'), ('bailout', 'IN'), ('funds', 'NNS'), ('before', 'IN'), ('the', 'DT'), ('end', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), ('began', 'VBD'), ('to', 'TO'), ('surface', 'VB'), ('at', 'IN'), ('this', 'DT'), ('time', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('stock', 'NN'), ('slumped', 'VBD'), ('on', 'IN'), ('worries', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('dilutive', 'JJ'), ('share', 'NN'), ('sale', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Speculation/NN   that/IN   the/DT   company/NN   was/VBD   planning/VBG   to/TO   repay/VB   bailout/IN   funds/NNS   before/IN   the/DT   end/NN   of/IN   the/DT   year/NN   began/VBD   to/TO   surface/VB   at/IN   this/DT   time/NN   ,/,   and/CC   the/DT   stock/NN   slumped/VBD   on/IN   worries/NNS   of/IN   a/DT   dilutive/JJ   share/NN   sale/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD planning/VBG)
+	(VERB   repay/VB   bailout/IN   funds/NNS   before/IN   the/DT   end/NN   of/IN   the/DT   year/NN)
+	(VERB began/VBD to/TO surface/VB at/IN this/DT time/NN)
+	(VERB   slumped/VBD   on/IN   worries/NNS   of/IN   a/DT   dilutive/JJ   share/NN   sale/NN)
+
+tagged sentence:
+	 slumped on worries of a dilutive share sale	res:1
+noun phrases to consider:
+	(NOUN Speculation/NN)
+	(NOUN company/NN)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Citigroup eventually priced a $17 billion equity offering at $3.15 per share as part of its TARP repayment plan.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('eventually', 'RB'), ('priced', 'VBN'), ('a', 'DT'), ('$', '$'), ('17', 'CD'), ('billion', 'CD'), ('equity', 'NN'), ('offering', 'NN'), ('at', 'IN'), ('$', '$'), ('3.15', 'CD'), ('per', 'IN'), ('share', 'NN'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('TARP', 'NNP'), ('repayment', 'NN'), ('plan', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   eventually/RB   priced/VBN   a/DT   $/$   17/CD   billion/CD   equity/NN   offering/NN   at/IN   $/$   3.15/CD   per/IN   share/NN   as/IN   part/NN   of/IN   its/PRP$   (ORGANIZATION TARP/NNP)   repayment/NN   plan/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB priced/VBN a/DT)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN billion/CD equity/NN offering/NN)
+	(NOUN share/NN)
+	(NOUN part/NN)
+	(NOUN TARP/NNP repayment/NN plan/NN)
+
+----------------------------------
+original sentence: 
+That $3.15 level now represents the near term closing low for the stock, a mark finished at on January 26 and then again on Feb. 8, a little over a month ago.
+
+POS tagged sentence: 
+[('That', 'DT'), ('$', '$'), ('3.15', 'CD'), ('level', 'NN'), ('now', 'RB'), ('represents', 'VBZ'), ('the', 'DT'), ('near', 'NN'), ('term', 'NN'), ('closing', 'NN'), ('low', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('stock', 'NN'), (',', ','), ('a', 'DT'), ('mark', 'NN'), ('finished', 'VBN'), ('at', 'IN'), ('on', 'IN'), ('January', 'NNP'), ('26', 'CD'), ('and', 'CC'), ('then', 'RB'), ('again', 'RB'), ('on', 'IN'), ('Feb.', 'NNP'), ('8', 'CD'), (',', ','), ('a', 'DT'), ('little', 'RB'), ('over', 'IN'), ('a', 'DT'), ('month', 'NN'), ('ago', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   $/$   3.15/CD   level/NN   now/RB   represents/VBZ   the/DT   near/NN   term/NN   closing/NN   low/JJ   for/IN   the/DT   stock/NN   ,/,   a/DT   mark/NN   finished/VBN   at/IN   on/IN   January/NNP   26/CD   and/CC   then/RB   again/RB   on/IN   Feb./NNP   8/CD   ,/,   a/DT   little/RB   over/IN   a/DT   month/NN   ago/RB   ./.)
+----------------------------------
+original sentence: 
+The late January decline came more than a week after the company posted its fourth quarter results.
+
+POS tagged sentence: 
+[('The', 'DT'), ('late', 'JJ'), ('January', 'NNP'), ('decline', 'NN'), ('came', 'VBD'), ('more', 'JJR'), ('than', 'IN'), ('a', 'DT'), ('week', 'NN'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('posted', 'VBD'), ('its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   late/JJ   January/NNP   decline/NN   came/VBD   more/JJR   than/IN   a/DT   week/NN   after/IN   the/DT   company/NN   posted/VBD   its/PRP$   fourth/JJ   quarter/NN   results/NNS   ./.)
+----------------------------------
+original sentence: 
+In general, investors cooled to the big banks after earnings season because of regulatory fears and concerns about still significant credit costs and the fragile economic recovery.
+
+POS tagged sentence: 
+[('In', 'IN'), ('general', 'JJ'), (',', ','), ('investors', 'NNS'), ('cooled', 'VBD'), ('to', 'TO'), ('the', 'DT'), ('big', 'JJ'), ('banks', 'NNS'), ('after', 'IN'), ('earnings', 'NNS'), ('season', 'NN'), ('because', 'IN'), ('of', 'IN'), ('regulatory', 'JJ'), ('fears', 'NNS'), ('and', 'CC'), ('concerns', 'NNS'), ('about', 'IN'), ('still', 'RB'), ('significant', 'JJ'), ('credit', 'NN'), ('costs', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('fragile', 'NN'), ('economic', 'JJ'), ('recovery', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   general/JJ   ,/,   investors/NNS   cooled/VBD   to/TO   the/DT   big/JJ   banks/NNS   after/IN   earnings/NNS   season/NN   because/IN   of/IN   regulatory/JJ   fears/NNS   and/CC   concerns/NNS   about/IN   still/RB   significant/JJ   credit/NN   costs/NNS   and/CC   the/DT   fragile/NN   economic/JJ   recovery/NN   ./.)
+----------------------------------
+original sentence: 
+New Hope: March 9, 2010
+Citigroup surges 7% on strong volume of 1.1 billion amid positive commentary from influential investor Bruce Berkowitz of Fairholme Capital Management pictured above and debt research firm , as well as news that it's seeing heavy demand for its sale of $2 billion in trust preferred securities.
+
+POS tagged sentence: 
+[('New', 'NNP'), ('Hope', 'NNP'), (':', ':'), ('March', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), ('Citigroup', 'NNP'), ('surges', 'NNS'), ('7', 'CD'), ('%', 'NN'), ('on', 'IN'), ('strong', 'JJ'), ('volume', 'NN'), ('of', 'IN'), ('1.1', 'CD'), ('billion', 'CD'), ('amid', 'IN'), ('positive', 'JJ'), ('commentary', 'NN'), ('from', 'IN'), ('influential', 'JJ'), ('investor', 'NN'), ('Bruce', 'NNP'), ('Berkowitz', 'NNP'), ('of', 'IN'), ('Fairholme', 'NNP'), ('Capital', 'NNP'), ('Management', 'NNP'), ('pictured', 'VBD'), ('above', 'IN'), ('and', 'CC'), ('debt', 'NN'), ('research', 'NN'), ('firm', 'NN'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('news', 'NN'), ('that', 'IN'), ('it', 'PRP'), ("'s", 'VBZ'), ('seeing', 'VBG'), ('heavy', 'JJ'), ('demand', 'NN'), ('for', 'IN'), ('its', 'PRP$'), ('sale', 'NN'), ('of', 'IN'), ('$', '$'), ('2', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('trust', 'NN'), ('preferred', 'VBD'), ('securities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE New/NNP Hope/NNP)   :/:   March/NNP   9/CD   ,/,   2010/CD   Citigroup/NNP   surges/NNS   7/CD   %/NN   on/IN   strong/JJ   volume/NN   of/IN   1.1/CD   billion/CD   amid/IN   positive/JJ   commentary/NN   from/IN   influential/JJ   investor/NN   (PERSON Bruce/NNP Berkowitz/NNP)   of/IN   (PERSON Fairholme/NNP Capital/NNP Management/NNP)   pictured/VBD   above/IN   and/CC   debt/NN   research/NN   firm/NN   ,/,   as/IN   well/RB   as/IN   news/NN   that/IN   it/PRP   's/VBZ   seeing/VBG   heavy/JJ   demand/NN   for/IN   its/PRP$   sale/NN   of/IN   $/$   2/CD   billion/CD   in/IN   trust/NN   preferred/VBD   securities/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB pictured/VBD above/IN)
+	(VERB   's/VBZ   seeing/VBG   heavy/JJ   demand/NN   for/IN   its/PRP$   sale/NN   of/IN)
+	(VERB preferred/VBD securities/NNS)
+noun phrases to consider:
+	(NOUN New/NNP Hope/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD Citigroup/NNP surges/NNS)
+	(NOUN 7/CD %/NN)
+	(NOUN strong/JJ volume/NN)
+
+tagged sentence:
+	 strong volume	res:1
+	(NOUN positive/JJ commentary/NN)
+
+tagged sentence:
+	 positive commentary	res:1
+	(NOUN influential/JJ investor/NN Bruce/NNP Berkowitz/NNP)
+
+tagged sentence:
+	 influential investor Bruce Berkowitz	res:1
+	(NOUN Fairholme/NNP Capital/NNP Management/NNP)
+	(NOUN debt/NN research/NN firm/NN)
+	(NOUN news/NN)
+	(NOUN trust/NN)
+
+----------------------------------
+original sentence: 
+A report that the U.S. Treasury could look to begin selling its 27% stake within the next three months is also a factor.
+
+POS tagged sentence: 
+[('A', 'DT'), ('report', 'NN'), ('that', 'WDT'), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('could', 'MD'), ('look', 'VB'), ('to', 'TO'), ('begin', 'VB'), ('selling', 'NN'), ('its', 'PRP$'), ('27', 'CD'), ('%', 'NN'), ('stake', 'NN'), ('within', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('three', 'CD'), ('months', 'NNS'), ('is', 'VBZ'), ('also', 'RB'), ('a', 'DT'), ('factor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   report/NN   that/WDT   the/DT   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP)   could/MD   look/VB   to/TO   begin/VB   selling/NN   its/PRP$   27/CD   %/NN   stake/NN   within/IN   the/DT   next/JJ   three/CD   months/NNS   is/VBZ   also/RB   a/DT   factor/NN   ./.)
+----------------------------------
+original sentence: 
+The close at $3.82 is its highest since Dec. 11, 2009.
+
+POS tagged sentence: 
+[('The', 'DT'), ('close', 'NN'), ('at', 'IN'), ('$', '$'), ('3.82', 'CD'), ('is', 'VBZ'), ('its', 'PRP$'), ('highest', 'JJS'), ('since', 'IN'), ('Dec.', 'NNP'), ('11', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   close/NN   at/IN   $/$   3.82/CD   is/VBZ   its/PRP$   highest/JJS   since/IN   Dec./NNP   11/CD   ,/,   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Driven by the favorable pricing of the TrUPs and a bullish presentation from CEO Pandit, the stock continues to rise and the rally culminates with Thursday's finish at $4.18, which puts the shares up more than 25% year to date, tops among the big banks.
+
+POS tagged sentence: 
+[('Driven', 'RB'), ('by', 'IN'), ('the', 'DT'), ('favorable', 'JJ'), ('pricing', 'NN'), ('of', 'IN'), ('the', 'DT'), ('TrUPs', 'NNP'), ('and', 'CC'), ('a', 'DT'), ('bullish', 'JJ'), ('presentation', 'NN'), ('from', 'IN'), ('CEO', 'NNP'), ('Pandit', 'NNP'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('continues', 'VBZ'), ('to', 'TO'), ('rise', 'VB'), ('and', 'CC'), ('the', 'DT'), ('rally', 'NN'), ('culminates', 'VBZ'), ('with', 'IN'), ('Thursday', 'NNP'), ("'s", 'POS'), ('finish', 'JJ'), ('at', 'IN'), ('$', '$'), ('4.18', 'CD'), (',', ','), ('which', 'WDT'), ('puts', 'NNS'), ('the', 'DT'), ('shares', 'NNS'), ('up', 'RP'), ('more', 'JJR'), ('than', 'IN'), ('25', 'CD'), ('%', 'NN'), ('year', 'NN'), ('to', 'TO'), ('date', 'NN'), (',', ','), ('tops', 'NNS'), ('among', 'IN'), ('the', 'DT'), ('big', 'JJ'), ('banks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Driven/RB   by/IN   the/DT   favorable/JJ   pricing/NN   of/IN   the/DT   (ORGANIZATION TrUPs/NNP)   and/CC   a/DT   bullish/JJ   presentation/NN   from/IN   (ORGANIZATION CEO/NNP Pandit/NNP)   ,/,   the/DT   stock/NN   continues/VBZ   to/TO   rise/VB   and/CC   the/DT   rally/NN   culminates/VBZ   with/IN   Thursday/NNP   's/POS   finish/JJ   at/IN   $/$   4.18/CD   ,/,   which/WDT   puts/NNS   the/DT   shares/NNS   up/RP   more/JJR   than/IN   25/CD   %/NN   year/NN   to/TO   date/NN   ,/,   tops/NNS   among/IN   the/DT   big/JJ   banks/NNS   ./.)
+----------------------------------
+original sentence: 
+The question becomes: What will it take for investors to be willing to slap down a finsky for single Citigroup share?
+
+POS tagged sentence: 
+[('The', 'DT'), ('question', 'NN'), ('becomes', 'VBZ'), (':', ':'), ('What', 'WP'), ('will', 'MD'), ('it', 'PRP'), ('take', 'VB'), ('for', 'IN'), ('investors', 'NNS'), ('to', 'TO'), ('be', 'VB'), ('willing', 'JJ'), ('to', 'TO'), ('slap', 'VB'), ('down', 'RP'), ('a', 'DT'), ('finsky', 'NN'), ('for', 'IN'), ('single', 'JJ'), ('Citigroup', 'NNP'), ('share', 'NN'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   question/NN   becomes/VBZ   :/:   What/WP   will/MD   it/PRP   take/VB   for/IN   investors/NNS   to/TO   be/VB   willing/JJ   to/TO   slap/VB   down/RP   a/DT   finsky/NN   for/IN   single/JJ   Citigroup/NNP   share/NN   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB becomes/VBZ)
+	(VERB take/VB for/IN investors/NNS)
+	(VERB be/VB willing/JJ)
+
+tagged sentence:
+	 be willing	res:-1
+	(VERB slap/VB)
+noun phrases to consider:
+	(NOUN question/NN)
+
+tagged sentence:
+	 question	res:-1
+	(NOUN finsky/NN)
+	(NOUN single/JJ Citigroup/NNP share/NN)
+
+----------------------------------
+original sentence: 
+Written by Michael Baron in New York
+&gt;&gt;Citigroup's Rollercoaster Ride: Slide Show
+&gt;&gt;Citigroup Shares Spike Higher After Speech
+&gt;&gt;Citigroup's Asset Shuffle
+&gt;&gt;More Changes for Citigroup's Board
+Try a 30 day FREE trial to RealMoney.com!
+
+
+POS tagged sentence: 
+[('Written', 'NNP'), ('by', 'IN'), ('Michael', 'NNP'), ('Baron', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('Rollercoaster', 'NNP'), ('Ride', 'NNP'), (':', ':'), ('Slide', 'NNP'), ('Show', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Citigroup', 'NNP'), ('Shares', 'NNP'), ('Spike', 'NNP'), ('Higher', 'NNP'), ('After', 'NNP'), ('Speech', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('Asset', 'NNP'), ('Shuffle', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('More', 'NNP'), ('Changes', 'NNP'), ('for', 'IN'), ('Citigroup', 'NNP'), ("'s", 'POS'), ('Board', 'NNP'), ('Try', 'NNP'), ('a', 'DT'), ('30', 'CD'), ('day', 'NN'), ('FREE', 'NNP'), ('trial', 'NN'), ('to', 'TO'), ('RealMoney.com', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Written/NNP)   by/IN   (PERSON Michael/NNP Baron/NNP)   in/IN   (GPE New/NNP York/NNP)   &gt/NNP   ;/:   &gt/JJ   ;/:   (PERSON Citigroup/NNP)   's/POS   Rollercoaster/NNP   Ride/NNP   :/:   (PERSON Slide/NNP Show/NNP)   &gt/NNP   ;/:   &gt/JJ   ;/:   (PERSON Citigroup/NNP Shares/NNP Spike/NNP Higher/NNP)   After/NNP   Speech/NNP   &gt/NNP   ;/:   &gt/JJ   ;/:   (PERSON Citigroup/NNP)   's/POS   (PERSON Asset/NNP Shuffle/NNP)   &gt/NNP   ;/:   &gt/JJ   ;/:   (PERSON More/NNP Changes/NNP)   for/IN   (PERSON Citigroup/NNP)   's/POS   (PERSON Board/NNP Try/NNP)   a/DT   30/CD   day/NN   (ORGANIZATION FREE/NNP)   trial/NN   to/TO   RealMoney.com/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Written/NNP)
+	(NOUN Michael/NNP Baron/NNP)
+	(NOUN New/NNP York/NNP &gt/NNP)
+	(NOUN &gt/JJ)
+	(NOUN Citigroup/NNP)
+	(NOUN Rollercoaster/NNP Ride/NNP)
+	(NOUN Slide/NNP Show/NNP &gt/NNP)
+	(NOUN &gt/JJ)
+	(NOUN Citigroup/NNP Shares/NNP Spike/NNP Higher/NNP)
+	(NOUN After/NNP Speech/NNP &gt/NNP)
+	(NOUN &gt/JJ)
+	(NOUN Citigroup/NNP)
+	(NOUN Asset/NNP Shuffle/NNP &gt/NNP)
+	(NOUN &gt/JJ)
+	(NOUN More/NNP Changes/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN Board/NNP Try/NNP)
+	(NOUN 30/CD day/NN FREE/NNP trial/NN)
+	(NOUN RealMoney.com/NNP)
+
+
+veryneg:0	neg:6	pos:4	verypos:0	total:6

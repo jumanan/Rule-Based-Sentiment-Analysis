@@ -1,0 +1,365 @@
+
+----------------------------------
+original sentence: 
+Earnings Preview: Intel Analyst Blog | Benzinga.com
+Earnings Preview: Intel Analyst Blog
+Recent Articles by Zacks
+Posted on 04/09/10 at 4:00pm by Intel Corporation Inc.  is slated to announce its first quarter 2010 results on April 13, 2010, and analyst estimates for future periods have been going up.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('Preview', 'NNP'), (':', ':'), ('Intel', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Earnings', 'NNP'), ('Preview', 'NNP'), (':', ':'), ('Intel', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Zacks', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/09/10', 'CD'), ('at', 'IN'), ('4', 'CD'), (':', ':'), ('00pm', 'CD'), ('by', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Inc.', 'NNP'), ('is', 'VBZ'), ('slated', 'VBN'), ('to', 'TO'), ('announce', 'NN'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('2010', 'CD'), ('results', 'NNS'), ('on', 'IN'), ('April', 'NNP'), ('13', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('and', 'CC'), ('analyst', 'NN'), ('estimates', 'NNS'), ('for', 'IN'), ('future', 'JJ'), ('periods', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('going', 'VBG'), ('up', 'RP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   Preview/NNP   :/:   (ORGANIZATION Intel/NNP Analyst/NNP Blog/NNP)   |/NNP   Benzinga.com/NNP   Earnings/NNP   Preview/NNP   :/:   (ORGANIZATION Intel/NNP Analyst/NNP Blog/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Zacks/NNP Posted/NNP)   on/IN   04/09/10/CD   at/IN   4/CD   :/:   00pm/CD   by/IN   (ORGANIZATION Intel/NNP Corporation/NNP Inc./NNP)   is/VBZ   slated/VBN   to/TO   announce/NN   its/PRP$   first/JJ   quarter/NN   2010/CD   results/NNS   on/IN   April/NNP   13/CD   ,/,   2010/CD   ,/,   and/CC   analyst/NN   estimates/NNS   for/IN   future/JJ   periods/NNS   have/VBP   been/VBN   going/VBG   up/RP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ slated/VBN)
+	(VERB have/VBP been/VBN going/VBG)
+noun phrases to consider:
+	(NOUN Earnings/NNS Preview/NNP)
+	(NOUN Intel/NNP Analyst/NNP Blog/NNP |/NNP)
+	(NOUN Benzinga.com/NNP Earnings/NNP Preview/NNP)
+	(NOUN Intel/NNP Analyst/NNP Blog/NNP Recent/NNP)
+	(NOUN Articles/NNP)
+	(NOUN Zacks/NNP Posted/NNP)
+	(NOUN Intel/NNP Corporation/NNP Inc./NNP)
+	(NOUN announce/NN)
+	(NOUN first/JJ quarter/NN)
+	(NOUN 2010/CD results/NNS)
+	(NOUN April/NNP)
+	(NOUN analyst/NN estimates/NNS)
+	(NOUN future/JJ periods/NNS)
+
+----------------------------------
+original sentence: 
+Fourth Quarter Highlights
+Intel reported very strong earnings in the fourth quarter, beating the Zacks Consensus Estimate by 6 cents.
+
+POS tagged sentence: 
+[('Fourth', 'JJ'), ('Quarter', 'NN'), ('Highlights', 'NNS'), ('Intel', 'NNP'), ('reported', 'VBD'), ('very', 'RB'), ('strong', 'JJ'), ('earnings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), (',', ','), ('beating', 'VBG'), ('the', 'DT'), ('Zacks', 'NNP'), ('Consensus', 'NNP'), ('Estimate', 'NNP'), ('by', 'IN'), ('6', 'CD'), ('cents', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Fourth/JJ)   (ORGANIZATION Quarter/NN Highlights/NNS)   (ORGANIZATION Intel/NNP)   reported/VBD   very/RB   strong/JJ   earnings/NNS   in/IN   the/DT   fourth/JJ   quarter/NN   ,/,   beating/VBG   the/DT   (ORGANIZATION Zacks/NNP Consensus/NNP Estimate/NNP)   by/IN   6/CD   cents/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   reported/VBD   very/RB   strong/JJ   earnings/NNS   in/IN   the/DT   fourth/JJ   quarter/NN)
+
+tagged sentence:
+	 reported very strong earnings in the fourth quarter	res:2
+	(VERB   beating/VBG   the/DT   Zacks/NNP   Consensus/NNP   Estimate/NNP   by/IN   6/CD   cents/NNS)
+noun phrases to consider:
+	(NOUN Fourth/JJ Quarter/NN Highlights/NNS Intel/NNP)
+
+----------------------------------
+original sentence: 
+Excluding the $1.25 billion fine paid to Advanced Micro Devices
+ and other one time items, earnings were 61 cents a share, or 27 cents higher than the Zacks Consensus.
+
+POS tagged sentence: 
+[('Excluding', 'VBG'), ('the', 'DT'), ('$', '$'), ('1.25', 'CD'), ('billion', 'CD'), ('fine', 'NN'), ('paid', 'VBN'), ('to', 'TO'), ('Advanced', 'NNP'), ('Micro', 'NNP'), ('Devices', 'NNPS'), ('and', 'CC'), ('other', 'JJ'), ('one', 'CD'), ('time', 'NN'), ('items', 'NNS'), (',', ','), ('earnings', 'NNS'), ('were', 'VBD'), ('61', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('or', 'CC'), ('27', 'CD'), ('cents', 'NNS'), ('higher', 'JJR'), ('than', 'IN'), ('the', 'DT'), ('Zacks', 'NNP'), ('Consensus', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Excluding/VBG   the/DT   $/$   1.25/CD   billion/CD   fine/NN   paid/VBN   to/TO   (PERSON Advanced/NNP Micro/NNP Devices/NNPS)   and/CC   other/JJ   one/CD   time/NN   items/NNS   ,/,   earnings/NNS   were/VBD   61/CD   cents/NNS   a/DT   share/NN   ,/,   or/CC   27/CD   cents/NNS   higher/JJR   than/IN   the/DT   (ORGANIZATION Zacks/NNP Consensus/NNP)   ./.)
+----------------------------------
+original sentence: 
+Strength was across all product groups and geographies, although notebooks and servers were the major drivers.
+
+POS tagged sentence: 
+[('Strength', 'NNP'), ('was', 'VBD'), ('across', 'IN'), ('all', 'DT'), ('product', 'NN'), ('groups', 'NNS'), ('and', 'CC'), ('geographies', 'NNS'), (',', ','), ('although', 'IN'), ('notebooks', 'NNS'), ('and', 'CC'), ('servers', 'NNS'), ('were', 'VBD'), ('the', 'DT'), ('major', 'JJ'), ('drivers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Strength/NNP)   was/VBD   across/IN   all/DT   product/NN   groups/NNS   and/CC   geographies/NNS   ,/,   although/IN   notebooks/NNS   and/CC   servers/NNS   were/VBD   the/DT   major/JJ   drivers/NNS   ./.)
+----------------------------------
+original sentence: 
+Atom products made significant headway, growing 46% from the year ago period.
+
+POS tagged sentence: 
+[('Atom', 'NNP'), ('products', 'NNS'), ('made', 'VBD'), ('significant', 'JJ'), ('headway', 'NN'), (',', ','), ('growing', 'VBG'), ('46', 'CD'), ('%', 'NN'), ('from', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Atom/NNP)   products/NNS   made/VBD   significant/JJ   headway/NN   ,/,   growing/VBG   46/CD   %/NN   from/IN   the/DT   year/NN   ago/IN   period/NN   ./.)
+----------------------------------
+original sentence: 
+The stronger volumes combined with better mix, higher average selling prices and lower production costs enabled the company to generate strong margins and over $3 billion in cash flow.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stronger', 'JJR'), ('volumes', 'NNS'), ('combined', 'VBN'), ('with', 'IN'), ('better', 'JJR'), ('mix', 'NN'), (',', ','), ('higher', 'JJR'), ('average', 'JJ'), ('selling', 'NN'), ('prices', 'NNS'), ('and', 'CC'), ('lower', 'JJR'), ('production', 'NN'), ('costs', 'NNS'), ('enabled', 'VBD'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('generate', 'VB'), ('strong', 'JJ'), ('margins', 'NNS'), ('and', 'CC'), ('over', 'IN'), ('$', '$'), ('3', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('cash', 'NN'), ('flow', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stronger/JJR   volumes/NNS   combined/VBN   with/IN   better/JJR   mix/NN   ,/,   higher/JJR   average/JJ   selling/NN   prices/NNS   and/CC   lower/JJR   production/NN   costs/NNS   enabled/VBD   the/DT   company/NN   to/TO   generate/VB   strong/JJ   margins/NNS   and/CC   over/IN   $/$   3/CD   billion/CD   in/IN   cash/NN   flow/NN   ./.)
+----------------------------------
+original sentence: 
+During the fourth quarter conference call, management stated that revenues would be down over 8% in the first quarter and gross margins would be down around 4 percentage points.
+
+POS tagged sentence: 
+[('During', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('conference', 'NN'), ('call', 'NN'), (',', ','), ('management', 'NN'), ('stated', 'VBD'), ('that', 'IN'), ('revenues', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('down', 'RB'), ('over', 'IN'), ('8', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('and', 'CC'), ('gross', 'NN'), ('margins', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('down', 'RB'), ('around', 'IN'), ('4', 'CD'), ('percentage', 'NN'), ('points', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   the/DT   fourth/JJ   quarter/NN   conference/NN   call/NN   ,/,   management/NN   stated/VBD   that/IN   revenues/NNS   would/MD   be/VB   down/RB   over/IN   8/CD   %/NN   in/IN   the/DT   first/JJ   quarter/NN   and/CC   gross/NN   margins/NNS   would/MD   be/VB   down/RB   around/IN   4/CD   percentage/NN   points/NNS   ./.)
+----------------------------------
+original sentence: 
+While operating expenses were guided down, this would still result in significant decline in operating margin.
+
+POS tagged sentence: 
+[('While', 'IN'), ('operating', 'NN'), ('expenses', 'NNS'), ('were', 'VBD'), ('guided', 'VBN'), ('down', 'RP'), (',', ','), ('this', 'DT'), ('would', 'MD'), ('still', 'RB'), ('result', 'VB'), ('in', 'IN'), ('significant', 'JJ'), ('decline', 'NN'), ('in', 'IN'), ('operating', 'NN'), ('margin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   While/IN   operating/NN   expenses/NNS   were/VBD   guided/VBN   down/RP   ,/,   this/DT   would/MD   still/RB   result/VB   in/IN   significant/JJ   decline/NN   in/IN   operating/NN   margin/NN   ./.)
+----------------------------------
+original sentence: 
+The full year forecast was also not too exciting.
+
+POS tagged sentence: 
+[('The', 'DT'), ('full', 'JJ'), ('year', 'NN'), ('forecast', 'NN'), ('was', 'VBD'), ('also', 'RB'), ('not', 'RB'), ('too', 'RB'), ('exciting', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   full/JJ   year/NN   forecast/NN   was/VBD   also/RB   not/RB   too/RB   exciting/VBG   ./.)
+----------------------------------
+original sentence: 
+Consequently, analyst expectations average around 37 cents for the March quarter and $1.64 for the year.
+
+POS tagged sentence: 
+[('Consequently', 'RB'), (',', ','), ('analyst', 'NN'), ('expectations', 'NNS'), ('average', 'JJ'), ('around', 'IN'), ('37', 'CD'), ('cents', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('March', 'NNP'), ('quarter', 'NN'), ('and', 'CC'), ('$', '$'), ('1.64', 'CD'), ('for', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Consequently/RB   ,/,   analyst/NN   expectations/NNS   average/JJ   around/IN   37/CD   cents/NNS   for/IN   the/DT   March/NNP   quarter/NN   and/CC   $/$   1.64/CD   for/IN   the/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+Earnings expectations for 2011 are around $1.80.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('expectations', 'NNS'), ('for', 'IN'), ('2011', 'CD'), ('are', 'VBP'), ('around', 'IN'), ('$', '$'), ('1.80', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   expectations/NNS   for/IN   2011/CD   are/VBP   around/IN   $/$   1.80/CD   ./.)
+----------------------------------
+original sentence: 
+Analyst opinion has turned increasingly positive over the last thirty days, with eight of the 40 analysts covering the stock making positive revisions for the upcoming quarter, 10 making positive revisions for fiscal 2010 and 9 for fiscal 2011.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('opinion', 'NN'), ('has', 'VBZ'), ('turned', 'VBN'), ('increasingly', 'RB'), ('positive', 'JJ'), ('over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('thirty', 'NN'), ('days', 'NNS'), (',', ','), ('with', 'IN'), ('eight', 'CD'), ('of', 'IN'), ('the', 'DT'), ('40', 'CD'), ('analysts', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('making', 'VBG'), ('positive', 'JJ'), ('revisions', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('upcoming', 'VBG'), ('quarter', 'NN'), (',', ','), ('10', 'CD'), ('making', 'VBG'), ('positive', 'JJ'), ('revisions', 'NNS'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), ('and', 'CC'), ('9', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Analyst/NN)   opinion/NN   has/VBZ   turned/VBN   increasingly/RB   positive/JJ   over/IN   the/DT   last/JJ   thirty/NN   days/NNS   ,/,   with/IN   eight/CD   of/IN   the/DT   40/CD   analysts/NNS   covering/VBG   the/DT   stock/NN   making/VBG   positive/JJ   revisions/NNS   for/IN   the/DT   upcoming/VBG   quarter/NN   ,/,   10/CD   making/VBG   positive/JJ   revisions/NNS   for/IN   fiscal/JJ   2010/CD   and/CC   9/CD   for/IN   fiscal/JJ   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Roughly half the revisions have been made over the past 7 days.
+
+POS tagged sentence: 
+[('Roughly', 'RB'), ('half', 'DT'), ('the', 'DT'), ('revisions', 'NNS'), ('have', 'VBP'), ('been', 'VBN'), ('made', 'VBN'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('7', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Roughly/RB   half/DT   the/DT   revisions/NNS   have/VBP   been/VBN   made/VBN   over/IN   the/DT   past/JJ   7/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+There are a number of reasons for the positive sentiment regarding Intel.
+
+POS tagged sentence: 
+[('There', 'EX'), ('are', 'VBP'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('reasons', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('positive', 'JJ'), ('sentiment', 'NN'), ('regarding', 'VBG'), ('Intel', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   are/VBP   a/DT   number/NN   of/IN   reasons/NNS   for/IN   the/DT   positive/JJ   sentiment/NN   regarding/VBG   (ORGANIZATION Intel/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   are/VBP   a/DT   number/NN   of/IN   reasons/NNS   for/IN   the/DT   positive/JJ   sentiment/NN)
+
+tagged sentence:
+	 are a number of reasons for the positive sentiment	res:1
+	(VERB regarding/VBG Intel/NNP)
+noun phrases to consider:
+
+----------------------------------
+original sentence: 
+First, Intel is a beneficiary of the resurgence in corporate IT spending and the ongoing server refresh cycle, which should continue through 2010 and 2011.
+
+POS tagged sentence: 
+[('First', 'NNP'), (',', ','), ('Intel', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('beneficiary', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('resurgence', 'NN'), ('in', 'IN'), ('corporate', 'JJ'), ('IT', 'PRP'), ('spending', 'NN'), ('and', 'CC'), ('the', 'DT'), ('ongoing', 'JJ'), ('server', 'NN'), ('refresh', 'NN'), ('cycle', 'NN'), (',', ','), ('which', 'WDT'), ('should', 'MD'), ('continue', 'VB'), ('through', 'IN'), ('2010', 'CD'), ('and', 'CC'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE First/NNP)   ,/,   (ORGANIZATION Intel/NNP)   is/VBZ   a/DT   beneficiary/JJ   of/IN   the/DT   resurgence/NN   in/IN   corporate/JJ   IT/PRP   spending/NN   and/CC   the/DT   ongoing/JJ   server/NN   refresh/NN   cycle/NN   ,/,   which/WDT   should/MD   continue/VB   through/IN   2010/CD   and/CC   2011/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   beneficiary/JJ   of/IN   the/DT   resurgence/NN   in/IN   corporate/JJ   IT/PRP   spending/NN)
+	(VERB continue/VB through/IN 2010/CD)
+noun phrases to consider:
+	(NOUN First/NNP)
+	(NOUN Intel/NNP)
+	(NOUN the/DT ongoing/JJ server/NN refresh/NN cycle/NN)
+
+----------------------------------
+original sentence: 
+Second, Intel has a compelling range of products, including the recently launched microprocessors that effectively expand its reach into the data center market.
+
+POS tagged sentence: 
+[('Second', 'JJ'), (',', ','), ('Intel', 'NNP'), ('has', 'VBZ'), ('a', 'DT'), ('compelling', 'NN'), ('range', 'NN'), ('of', 'IN'), ('products', 'NNS'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('recently', 'RB'), ('launched', 'VBD'), ('microprocessors', 'NNS'), ('that', 'IN'), ('effectively', 'RB'), ('expand', 'VBP'), ('its', 'PRP$'), ('reach', 'NN'), ('into', 'IN'), ('the', 'DT'), ('data', 'NNS'), ('center', 'NN'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Second/JJ)   ,/,   (ORGANIZATION Intel/NNP)   has/VBZ   a/DT   compelling/NN   range/NN   of/IN   products/NNS   ,/,   including/VBG   the/DT   recently/RB   launched/VBD   microprocessors/NNS   that/IN   effectively/RB   expand/VBP   its/PRP$   reach/NN   into/IN   the/DT   data/NNS   center/NN   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT compelling/NN range/NN of/IN products/NNS)
+	(VERB including/VBG the/DT recently/RB)
+	(VERB launched/VBD microprocessors/NNS that/IN effectively/RB)
+
+tagged sentence:
+	 launched microprocessors that effectively	res:1
+	(VERB   expand/VBP   its/PRP$   reach/NN   into/IN   the/DT   data/NNS   center/NN   market/NN)
+noun phrases to consider:
+	(NOUN Second/JJ)
+	(NOUN Intel/NNP)
+
+----------------------------------
+original sentence: 
+Third, pricing has been favorable for the company in recent months and product shortage is expected to drive prices higher.
+
+POS tagged sentence: 
+[('Third', 'JJ'), (',', ','), ('pricing', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('favorable', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('in', 'IN'), ('recent', 'JJ'), ('months', 'NNS'), ('and', 'CC'), ('product', 'NN'), ('shortage', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('drive', 'VB'), ('prices', 'NNS'), ('higher', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Third/JJ)   ,/,   pricing/NN   has/VBZ   been/VBN   favorable/JJ   for/IN   the/DT   company/NN   in/IN   recent/JJ   months/NNS   and/CC   product/NN   shortage/NN   is/VBZ   expected/VBN   to/TO   drive/VB   prices/NNS   higher/JJR   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   favorable/JJ   for/IN   the/DT   company/NN   in/IN   recent/JJ   months/NNS)
+	(VERB is/VBZ expected/VBN)
+	(VERB drive/VB prices/NNS higher/JJR)
+noun phrases to consider:
+	(NOUN Third/JJ)
+	(NOUN pricing/NN)
+	(NOUN product/NN shortage/NN)
+
+----------------------------------
+original sentence: 
+Fourth, Intel has been using its "tick tock" strategy to consistently lower costs of production, which should lead to further expansion in margins.
+
+POS tagged sentence: 
+[('Fourth', 'JJ'), (',', ','), ('Intel', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('using', 'VBG'), ('its', 'PRP$'), ('"', 'NNP'), ('tick', 'NN'), ('tock', 'NN'), ('"', ':'), ('strategy', 'NN'), ('to', 'TO'), ('consistently', 'RB'), ('lower', 'JJR'), ('costs', 'NNS'), ('of', 'IN'), ('production', 'NN'), (',', ','), ('which', 'WDT'), ('should', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('further', 'RBR'), ('expansion', 'NN'), ('in', 'IN'), ('margins', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Fourth/JJ)   ,/,   (ORGANIZATION Intel/NNP)   has/VBZ   been/VBN   using/VBG   its/PRP$   "/NNP   tick/NN   tock/NN   "/:   strategy/NN   to/TO   consistently/RB   lower/JJR   costs/NNS   of/IN   production/NN   ,/,   which/WDT   should/MD   lead/VB   to/TO   further/RBR   expansion/NN   in/IN   margins/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ been/VBN using/VBG its/PRP$ "/NNP tick/NN tock/NN)
+	(VERB lead/VB to/TO)
+noun phrases to consider:
+	(NOUN Fourth/JJ)
+	(NOUN Intel/NNP)
+	(NOUN strategy/NN)
+	(NOUN consistently/RB lower/JJR costs/NNS)
+
+tagged sentence:
+	 consistently lower costs	res:-1
+	(NOUN production/NN)
+	(NOUN expansion/NN)
+	(NOUN margins/NNS)
+
+----------------------------------
+original sentence: 
+The magnitude of revisions is significant, since the company reported its fourth quarter results.
+
+POS tagged sentence: 
+[('The', 'DT'), ('magnitude', 'NN'), ('of', 'IN'), ('revisions', 'NNS'), ('is', 'VBZ'), ('significant', 'JJ'), (',', ','), ('since', 'IN'), ('the', 'DT'), ('company', 'NN'), ('reported', 'VBD'), ('its', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   magnitude/NN   of/IN   revisions/NNS   is/VBZ   significant/JJ   ,/,   since/IN   the/DT   company/NN   reported/VBD   its/PRP$   fourth/JJ   quarter/NN   results/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ significant/JJ)
+	(VERB reported/VBD its/PRP$ fourth/JJ quarter/NN results/NNS)
+noun phrases to consider:
+	(NOUN magnitude/NN)
+	(NOUN revisions/NNS)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+Overall, estimates for the upcoming quarter have gone up from 34 cents 90 days ago to 38 cents current .
+
+POS tagged sentence: 
+[('Overall', 'JJ'), (',', ','), ('estimates', 'VBZ'), ('for', 'IN'), ('the', 'DT'), ('upcoming', 'VBG'), ('quarter', 'NN'), ('have', 'VBP'), ('gone', 'VBN'), ('up', 'RP'), ('from', 'IN'), ('34', 'CD'), ('cents', 'NNS'), ('90', 'CD'), ('days', 'NNS'), ('ago', 'RB'), ('to', 'TO'), ('38', 'CD'), ('cents', 'NNS'), ('current', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Overall/JJ)   ,/,   estimates/VBZ   for/IN   the/DT   upcoming/VBG   quarter/NN   have/VBP   gone/VBN   up/RP   from/IN   34/CD   cents/NNS   90/CD   days/NNS   ago/RB   to/TO   38/CD   cents/NNS   current/JJ   ./.)
+----------------------------------
+original sentence: 
+There has been an increase of 1 cent over the past 30 days.
+
+POS tagged sentence: 
+[('There', 'EX'), ('has', 'VBZ'), ('been', 'VBN'), ('an', 'DT'), ('increase', 'NN'), ('of', 'IN'), ('1', 'CD'), ('cent', 'NN'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   has/VBZ   been/VBN   an/DT   increase/NN   of/IN   1/CD   cent/NN   over/IN   the/DT   past/JJ   30/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+For fiscal 2010, estimates have gone up from $1.50 90 days ago to $1.67 current .
+
+POS tagged sentence: 
+[('For', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (',', ','), ('estimates', 'NNS'), ('have', 'VBP'), ('gone', 'VBN'), ('up', 'RP'), ('from', 'IN'), ('$', '$'), ('1.50', 'CD'), ('90', 'CD'), ('days', 'NNS'), ('ago', 'RB'), ('to', 'TO'), ('$', '$'), ('1.67', 'CD'), ('current', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   fiscal/JJ   2010/CD   ,/,   estimates/NNS   have/VBP   gone/VBN   up/RP   from/IN   $/$   1.50/CD   90/CD   days/NNS   ago/RB   to/TO   $/$   1.67/CD   current/JJ   ./.)
+----------------------------------
+original sentence: 
+There has been a 1 cent revision over the past 7 days.
+
+POS tagged sentence: 
+[('There', 'EX'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('1', 'CD'), ('cent', 'NN'), ('revision', 'NN'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('7', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   has/VBZ   been/VBN   a/DT   1/CD   cent/NN   revision/NN   over/IN   the/DT   past/JJ   7/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+For 2011, estimates have gone up from $1.68 90 days ago to $1.82 current , with a 1 cent increase over the last 7 days.
+
+POS tagged sentence: 
+[('For', 'IN'), ('2011', 'CD'), (',', ','), ('estimates', 'NNS'), ('have', 'VBP'), ('gone', 'VBN'), ('up', 'RP'), ('from', 'IN'), ('$', '$'), ('1.68', 'CD'), ('90', 'CD'), ('days', 'NNS'), ('ago', 'RB'), ('to', 'TO'), ('$', '$'), ('1.82', 'CD'), ('current', 'JJ'), (',', ','), ('with', 'IN'), ('a', 'DT'), ('1', 'CD'), ('cent', 'NN'), ('increase', 'NN'), ('over', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('7', 'CD'), ('days', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   2011/CD   ,/,   estimates/NNS   have/VBP   gone/VBN   up/RP   from/IN   $/$   1.68/CD   90/CD   days/NNS   ago/RB   to/TO   $/$   1.82/CD   current/JJ   ,/,   with/IN   a/DT   1/CD   cent/NN   increase/NN   over/IN   the/DT   last/JJ   7/CD   days/NNS   ./.)
+----------------------------------
+original sentence: 
+We currently have an Outperform recommendation on the shares, given the companyâ€™s strong market position, product range, new offerings, margin expansion potential and the ability to generate strong cash flows on a very consistent basis.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('currently', 'RB'), ('have', 'VBP'), ('an', 'DT'), ('Outperform', 'NNP'), ('recommendation', 'NN'), ('on', 'IN'), ('the', 'DT'), ('shares', 'NNS'), (',', ','), ('given', 'VBN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('strong', 'JJ'), ('market', 'NN'), ('position', 'NN'), (',', ','), ('product', 'NN'), ('range', 'NN'), (',', ','), ('new', 'JJ'), ('offerings', 'NNS'), (',', ','), ('margin', 'NN'), ('expansion', 'NN'), ('potential', 'NN'), ('and', 'CC'), ('the', 'DT'), ('ability', 'NN'), ('to', 'TO'), ('generate', 'VB'), ('strong', 'JJ'), ('cash', 'NN'), ('flows', 'VBZ'), ('on', 'IN'), ('a', 'DT'), ('very', 'RB'), ('consistent', 'JJ'), ('basis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   currently/RB   have/VBP   an/DT   Outperform/NNP   recommendation/NN   on/IN   the/DT   shares/NNS   ,/,   given/VBN   the/DT   company/NN   â/:   €/:   ™/:   s/NNS   strong/JJ   market/NN   position/NN   ,/,   product/NN   range/NN   ,/,   new/JJ   offerings/NNS   ,/,   margin/NN   expansion/NN   potential/NN   and/CC   the/DT   ability/NN   to/TO   generate/VB   strong/JJ   cash/NN   flows/VBZ   on/IN   a/DT   very/RB   consistent/JJ   basis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   an/DT   Outperform/NNP   recommendation/NN   on/IN   the/DT   shares/NNS)
+	(VERB given/VBN the/DT company/NN)
+	(VERB generate/VB strong/JJ cash/NN)
+	(VERB flows/VBZ on/IN a/DT very/RB consistent/JJ basis/NN)
+noun phrases to consider:
+	(NOUN s/NNS strong/JJ market/NN position/NN)
+	(NOUN product/NN range/NN)
+	(NOUN new/JJ offerings/NNS)
+	(NOUN margin/NN expansion/NN potential/NN)
+	(NOUN ability/NN)
+
+----------------------------------
+original sentence: 
+Read the full analyst report on "INTC"
+Read the full analyst report on "AMD"
+Zacks Investment Research
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('INTC', 'NNP'), ('"', 'NNP'), ('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('AMD', 'NNP'), ('"', 'NNP'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), ('Bookmark/Search', 'NNP'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('There', 'EX'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   INTC/NNP   "/NNP   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   AMD/NNP   "/NNP   (PERSON Zacks/NNP Investment/NNP Research/NNP)   Bookmark/Search/NNP   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   There/EX   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP not/RB watching/VBG this/DT post/NN)
+	(VERB start/VB watching/NN)
+	(VERB are/VBP)
+noun phrases to consider:
+	(NOUN Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP INTC/NNP "/NNP Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP AMD/NNP "/NNP Zacks/NNP)
+	(NOUN Investment/NNP Research/NNP Bookmark/Search/NNP)
+	(NOUN post/NN)
+	(NOUN click/NN)
+	(NOUN s/NNS Trading/NN Ideas/NNS)
+	(NOUN comments/NNS Receive/NNP Benzinga&/NNP)
+	(NOUN s/NNS Best/JJS 2010/CD Stock/NNP Idea/NNP)
+
+
+veryneg:0	neg:1	pos:2	verypos:1	total:1

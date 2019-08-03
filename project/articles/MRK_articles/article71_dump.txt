@@ -1,0 +1,590 @@
+
+----------------------------------
+original sentence: 
+Portola Pharmaceuticals and Merck Announce that Phase 2 Study Showed Investigational Factor Xa Inhibitor, Betrixaban, Reduced Incidence of Bleeding Compared to Warfarin in Patients with Atrial Fibrillation | Business Wire
+ March 15, 2010 08:00 AM Eastern Daylight Time Portola Pharmaceuticals and Merck Announce that Phase 2 Study Showed Investigational Factor Xa Inhibitor, Betrixaban, Reduced Incidence of Bleeding Compared to Warfarin in Patients with Atrial Fibrillation
+ Portola Pharmaceuticals and Merck today announced the results of EXPLORE Xa, a Phase 2 exploratory, dose finding study of betrixaban, an investigational oral direct Factor Xa inhibitor.
+
+POS tagged sentence: 
+[('Portola', 'NNP'), ('Pharmaceuticals', 'NNPS'), ('and', 'CC'), ('Merck', 'NNP'), ('Announce', 'NNP'), ('that', 'IN'), ('Phase', 'NNP'), ('2', 'CD'), ('Study', 'NNP'), ('Showed', 'NNP'), ('Investigational', 'NNP'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('Inhibitor', 'NNP'), (',', ','), ('Betrixaban', 'NNP'), (',', ','), ('Reduced', 'NNP'), ('Incidence', 'NNP'), ('of', 'IN'), ('Bleeding', 'NNP'), ('Compared', 'NNP'), ('to', 'TO'), ('Warfarin', 'NNP'), ('in', 'IN'), ('Patients', 'NNP'), ('with', 'IN'), ('Atrial', 'NNP'), ('Fibrillation', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('Announce', 'NNP'), ('that', 'IN'), ('Phase', 'NNP'), ('2', 'CD'), ('Study', 'NNP'), ('Showed', 'NNP'), ('Investigational', 'NNP'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('Inhibitor', 'NNP'), (',', ','), ('Betrixaban', 'NNP'), (',', ','), ('Reduced', 'NNP'), ('Incidence', 'NNP'), ('of', 'IN'), ('Bleeding', 'NNP'), ('Compared', 'NNP'), ('to', 'TO'), ('Warfarin', 'NNP'), ('in', 'IN'), ('Patients', 'NNP'), ('with', 'IN'), ('Atrial', 'NNP'), ('Fibrillation', 'NNP'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNP'), ('and', 'CC'), ('Merck', 'NNP'), ('today', 'NN'), ('announced', 'VBD'), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('EXPLORE', 'NNP'), ('Xa', 'NNP'), (',', ','), ('a', 'DT'), ('Phase', 'NNP'), ('2', 'CD'), ('exploratory', 'NN'), (',', ','), ('dose', 'NN'), ('finding', 'NN'), ('study', 'NN'), ('of', 'IN'), ('betrixaban', 'NN'), (',', ','), ('an', 'DT'), ('investigational', 'JJ'), ('oral', 'JJ'), ('direct', 'JJ'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('inhibitor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Portola/NNP)   (ORGANIZATION Pharmaceuticals/NNPS)   and/CC   (PERSON Merck/NNP Announce/NNP)   that/IN   Phase/NNP   2/CD   Study/NNP   Showed/NNP   Investigational/NNP   Factor/NNP   Xa/NNP   Inhibitor/NNP   ,/,   (GPE Betrixaban/NNP)   ,/,   (PERSON Reduced/NNP Incidence/NNP)   of/IN   Bleeding/NNP   Compared/NNP   to/TO   (GPE Warfarin/NNP)   in/IN   (GPE Patients/NNP)   with/IN   (PERSON Atrial/NNP Fibrillation/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   15/CD   ,/,   2010/CD   08/CD   :/:   00/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   (PERSON Portola/NNP Pharmaceuticals/NNP)   and/CC   (PERSON Merck/NNP Announce/NNP)   that/IN   Phase/NNP   2/CD   Study/NNP   Showed/NNP   Investigational/NNP   Factor/NNP   Xa/NNP   Inhibitor/NNP   ,/,   (GPE Betrixaban/NNP)   ,/,   (PERSON Reduced/NNP Incidence/NNP)   of/IN   Bleeding/NNP   Compared/NNP   to/TO   (GPE Warfarin/NNP)   in/IN   (GPE Patients/NNP)   with/IN   (PERSON     Atrial/NNP     Fibrillation/NNP     Portola/NNP     Pharmaceuticals/NNP)   and/CC   (GPE Merck/NNP)   today/NN   announced/VBD   the/DT   results/NNS   of/IN   (ORGANIZATION EXPLORE/NNP Xa/NNP)   ,/,   a/DT   Phase/NNP   2/CD   exploratory/NN   ,/,   dose/NN   finding/NN   study/NN   of/IN   betrixaban/NN   ,/,   an/DT   investigational/JJ   oral/JJ   direct/JJ   Factor/NNP   Xa/NNP   inhibitor/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD the/DT results/NNS of/IN EXPLORE/NNP Xa/NNP)
+noun phrases to consider:
+	(NOUN Portola/NNP Pharmaceuticals/NNPS)
+	(NOUN Merck/NNP Announce/NNP)
+	(NOUN Phase/NNP)
+	(NOUN 2/CD Study/NNP Showed/NNP Investigational/NNP Factor/NNP)
+	(NOUN Xa/NNP Inhibitor/NNP)
+	(NOUN Betrixaban/NNP)
+	(NOUN Reduced/NNP Incidence/NNP)
+	(NOUN Bleeding/NNP Compared/NNP)
+	(NOUN Warfarin/NNP)
+	(NOUN Patients/NNP)
+	(NOUN Atrial/NNP Fibrillation/NNP |/NNP Business/NNP)
+	(NOUN Wire/NNP March/NNP)
+	(NOUN 00/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Portola/NNP Pharmaceuticals/NNP)
+	(NOUN Merck/NNP Announce/NNP)
+	(NOUN Phase/NNP)
+	(NOUN 2/CD Study/NNP Showed/NNP Investigational/NNP Factor/NNP)
+	(NOUN Xa/NNP Inhibitor/NNP)
+	(NOUN Betrixaban/NNP)
+	(NOUN Reduced/NNP Incidence/NNP)
+	(NOUN Bleeding/NNP Compared/NNP)
+	(NOUN Warfarin/NNP)
+	(NOUN Patients/NNP)
+	(NOUN Atrial/NNP Fibrillation/NNP Portola/NNP Pharmaceuticals/NNP)
+	(NOUN Merck/NNP today/NN)
+	(NOUN Phase/NNP)
+	(NOUN 2/CD exploratory/NN)
+	(NOUN dose/NN finding/NN study/NN)
+	(NOUN betrixaban/NN)
+	(NOUN   an/DT   investigational/JJ   oral/JJ   direct/JJ   Factor/NNP   Xa/NNP   inhibitor/NN)
+
+----------------------------------
+original sentence: 
+Results showed that a once daily dose of oral betrixaban, given to patients with non valvular atrial fibrillation or atrial flutter and at least one risk factor for stroke, reduced the incidence of major and clinically relevant non major CRNM bleeds
+ compared to dose adjusted warfarin.
+
+POS tagged sentence: 
+[('Results', 'NNS'), ('showed', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('once', 'RB'), ('daily', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('oral', 'JJ'), ('betrixaban', 'NN'), (',', ','), ('given', 'VBN'), ('to', 'TO'), ('patients', 'NNS'), ('with', 'IN'), ('non', 'NN'), ('valvular', 'NN'), ('atrial', 'NN'), ('fibrillation', 'NN'), ('or', 'CC'), ('atrial', 'JJ'), ('flutter', 'NN'), ('and', 'CC'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('risk', 'NN'), ('factor', 'NN'), ('for', 'IN'), ('stroke', 'NN'), (',', ','), ('reduced', 'VBD'), ('the', 'DT'), ('incidence', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('and', 'CC'), ('clinically', 'RB'), ('relevant', 'JJ'), ('non', 'NN'), ('major', 'JJ'), ('CRNM', 'NNP'), ('bleeds', 'NNS'), ('compared', 'VBN'), ('to', 'TO'), ('dose', 'VB'), ('adjusted', 'VBN'), ('warfarin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Results/NNS   showed/VBD   that/IN   a/DT   once/RB   daily/JJ   dose/NN   of/IN   oral/JJ   betrixaban/NN   ,/,   given/VBN   to/TO   patients/NNS   with/IN   non/NN   valvular/NN   atrial/NN   fibrillation/NN   or/CC   atrial/JJ   flutter/NN   and/CC   at/IN   least/JJS   one/CD   risk/NN   factor/NN   for/IN   stroke/NN   ,/,   reduced/VBD   the/DT   incidence/NN   of/IN   major/JJ   and/CC   clinically/RB   relevant/JJ   non/NN   major/JJ   (ORGANIZATION CRNM/NNP)   bleeds/NNS   compared/VBN   to/TO   dose/VB   adjusted/VBN   warfarin/NN   ./.)
+----------------------------------
+original sentence: 
+The data were presented during a late breaking clinical trials session at the American College of Cardiology ACC 59
+ Annual Scientific Session in Atlanta.
+
+POS tagged sentence: 
+[('The', 'DT'), ('data', 'NNS'), ('were', 'VBD'), ('presented', 'VBN'), ('during', 'IN'), ('a', 'DT'), ('late', 'JJ'), ('breaking', 'NN'), ('clinical', 'JJ'), ('trials', 'NNS'), ('session', 'NN'), ('at', 'IN'), ('the', 'DT'), ('American', 'NNP'), ('College', 'NNP'), ('of', 'IN'), ('Cardiology', 'NNP'), ('ACC', 'NNP'), ('59', 'CD'), ('Annual', 'NNP'), ('Scientific', 'NNP'), ('Session', 'NNP'), ('in', 'IN'), ('Atlanta', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   data/NNS   were/VBD   presented/VBN   during/IN   a/DT   late/JJ   breaking/NN   clinical/JJ   trials/NNS   session/NN   at/IN   the/DT   (ORGANIZATION American/NNP College/NNP)   of/IN   (ORGANIZATION Cardiology/NNP)   ACC/NNP   59/CD   (PERSON Annual/NNP Scientific/NNP Session/NNP)   in/IN   (GPE Atlanta/NNP)   ./.)
+----------------------------------
+original sentence: 
+&#8220;Given that bleeding can be a significant safety issue for patients who take warfarin, there is a critical unmet need for anticoagulant therapy options&#8221;
+ "Given that bleeding can be a significant safety issue for patients who take warfarin, there is a critical unmet need for anticoagulant therapy options," said U.S. national coordinator in the study, Michael Ezekowitz, MB, ChB, DPhil, vice president of the Lankenau Institute for Medical Research and professor at Jefferson Medical College.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Given', 'NNP'), ('that', 'IN'), ('bleeding', 'VBG'), ('can', 'MD'), ('be', 'VB'), ('a', 'DT'), ('significant', 'JJ'), ('safety', 'NN'), ('issue', 'NN'), ('for', 'IN'), ('patients', 'NNS'), ('who', 'WP'), ('take', 'VB'), ('warfarin', 'VBP'), (',', ','), ('there', 'EX'), ('is', 'VBZ'), ('a', 'DT'), ('critical', 'JJ'), ('unmet', 'NN'), ('need', 'NN'), ('for', 'IN'), ('anticoagulant', 'JJ'), ('therapy', 'NN'), ('options&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('"', ':'), ('Given', 'NNP'), ('that', 'IN'), ('bleeding', 'VBG'), ('can', 'MD'), ('be', 'VB'), ('a', 'DT'), ('significant', 'JJ'), ('safety', 'NN'), ('issue', 'NN'), ('for', 'IN'), ('patients', 'NNS'), ('who', 'WP'), ('take', 'VB'), ('warfarin', 'VBP'), (',', ','), ('there', 'EX'), ('is', 'VBZ'), ('a', 'DT'), ('critical', 'JJ'), ('unmet', 'NN'), ('need', 'NN'), ('for', 'IN'), ('anticoagulant', 'JJ'), ('therapy', 'NN'), ('options', 'NNS'), (',', ','), ('"', ':'), ('said', 'VBD'), ('U.S.', 'NNP'), ('national', 'JJ'), ('coordinator', 'NN'), ('in', 'IN'), ('the', 'DT'), ('study', 'NN'), (',', ','), ('Michael', 'NNP'), ('Ezekowitz', 'NNP'), (',', ','), ('MB', 'NNP'), (',', ','), ('ChB', 'NNP'), (',', ','), ('DPhil', 'NNP'), (',', ','), ('vice', 'NN'), ('president', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Lankenau', 'NNP'), ('Institute', 'NNP'), ('for', 'IN'), ('Medical', 'NNP'), ('Research', 'NNP'), ('and', 'CC'), ('professor', 'NN'), ('at', 'IN'), ('Jefferson', 'NNP'), ('Medical', 'NNP'), ('College', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   Given/NNP   that/IN   bleeding/VBG   can/MD   be/VB   a/DT   significant/JJ   safety/NN   issue/NN   for/IN   patients/NNS   who/WP   take/VB   warfarin/VBP   ,/,   there/EX   is/VBZ   a/DT   critical/JJ   unmet/NN   need/NN   for/IN   anticoagulant/JJ   therapy/NN   options&/NN   #/#   8221/CD   ;/:   "/:   Given/NNP   that/IN   bleeding/VBG   can/MD   be/VB   a/DT   significant/JJ   safety/NN   issue/NN   for/IN   patients/NNS   who/WP   take/VB   warfarin/VBP   ,/,   there/EX   is/VBZ   a/DT   critical/JJ   unmet/NN   need/NN   for/IN   anticoagulant/JJ   therapy/NN   options/NNS   ,/,   "/:   said/VBD   (GPE U.S./NNP)   national/JJ   coordinator/NN   in/IN   the/DT   study/NN   ,/,   (PERSON Michael/NNP Ezekowitz/NNP)   ,/,   (ORGANIZATION MB/NNP)   ,/,   (ORGANIZATION ChB/NNP)   ,/,   (ORGANIZATION DPhil/NNP)   ,/,   vice/NN   president/NN   of/IN   the/DT   (ORGANIZATION Lankenau/NNP Institute/NNP)   for/IN   (ORGANIZATION Medical/NNP Research/NNP)   and/CC   professor/NN   at/IN   (ORGANIZATION Jefferson/NNP Medical/NNP College/NNP)   ./.)
+----------------------------------
+original sentence: 
+"The EXPLORE Xa study accomplished its objective of providing important information to guide the betrixaban dosing strategy for future investigational studies.
+
+POS tagged sentence: 
+[('"', 'NN'), ('The', 'DT'), ('EXPLORE', 'NNP'), ('Xa', 'NNP'), ('study', 'NN'), ('accomplished', 'VBD'), ('its', 'PRP$'), ('objective', 'NN'), ('of', 'IN'), ('providing', 'VBG'), ('important', 'JJ'), ('information', 'NN'), ('to', 'TO'), ('guide', 'VB'), ('the', 'DT'), ('betrixaban', 'NN'), ('dosing', 'VBG'), ('strategy', 'NN'), ('for', 'IN'), ('future', 'JJ'), ('investigational', 'JJ'), ('studies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   The/DT   (ORGANIZATION EXPLORE/NNP Xa/NNP)   study/NN   accomplished/VBD   its/PRP$   objective/NN   of/IN   providing/VBG   important/JJ   information/NN   to/TO   guide/VB   the/DT   betrixaban/NN   dosing/VBG   strategy/NN   for/IN   future/JJ   investigational/JJ   studies/NNS   ./.)
+----------------------------------
+original sentence: 
+"  In this multinational, dose finding study of 508 patients with non valvular atrial fibrillation or atrial flutter and at least one risk factor for stroke, a once daily dose of betrixaban 40 mg n=127 demonstrated significantly less major and CRNM bleeding than open label warfarin n=127, p=0.035 .
+
+POS tagged sentence: 
+[('"', 'NN'), ('In', 'IN'), ('this', 'DT'), ('multinational', 'JJ'), (',', ','), ('dose', 'JJ'), ('finding', 'NN'), ('study', 'NN'), ('of', 'IN'), ('508', 'CD'), ('patients', 'NNS'), ('with', 'IN'), ('non', 'NN'), ('valvular', 'NN'), ('atrial', 'NN'), ('fibrillation', 'NN'), ('or', 'CC'), ('atrial', 'JJ'), ('flutter', 'NN'), ('and', 'CC'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('risk', 'NN'), ('factor', 'NN'), ('for', 'IN'), ('stroke', 'NN'), (',', ','), ('a', 'DT'), ('once', 'RB'), ('daily', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('betrixaban', 'NN'), ('40', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('demonstrated', 'VBN'), ('significantly', 'RB'), ('less', 'JJR'), ('major', 'JJ'), ('and', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('than', 'IN'), ('open', 'JJ'), ('label', 'NN'), ('warfarin', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), (',', ','), ('p', 'NN'), ('=', ':'), ('0.035', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   In/IN   this/DT   multinational/JJ   ,/,   dose/JJ   finding/NN   study/NN   of/IN   508/CD   patients/NNS   with/IN   non/NN   valvular/NN   atrial/NN   fibrillation/NN   or/CC   atrial/JJ   flutter/NN   and/CC   at/IN   least/JJS   one/CD   risk/NN   factor/NN   for/IN   stroke/NN   ,/,   a/DT   once/RB   daily/JJ   dose/NN   of/IN   betrixaban/NN   40/CD   mg/NN   n/NN   =/:   127/CD   demonstrated/VBN   significantly/RB   less/JJR   major/JJ   and/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   than/IN   open/JJ   label/NN   warfarin/NN   n/NN   =/:   127/CD   ,/,   p/NN   =/:   0.035/CD   ./.)
+----------------------------------
+original sentence: 
+The risk of major and CRNM bleeding for the 60 mg n=127 and 80 mg n=127 doses of betrixaban was similar to warfarin.
+
+POS tagged sentence: 
+[('The', 'DT'), ('risk', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('and', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('for', 'IN'), ('the', 'DT'), ('60', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('and', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('doses', 'NNS'), ('of', 'IN'), ('betrixaban', 'NN'), ('was', 'VBD'), ('similar', 'JJ'), ('to', 'TO'), ('warfarin', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   risk/NN   of/IN   major/JJ   and/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   for/IN   the/DT   60/CD   mg/NN   n/NN   =/:   127/CD   and/CC   80/CD   mg/NN   n/NN   =/:   127/CD   doses/NNS   of/IN   betrixaban/NN   was/VBD   similar/JJ   to/TO   warfarin/VB   ./.)
+----------------------------------
+original sentence: 
+About the EXPLORE Xa Study
+ The Phase 2b randomized, parallel group study examined three blinded doses of betrixaban compared with open label, dose adjusted warfarin in 508 patients with non valvular atrial fibrillation or atrial flutter and at least one risk factor for stroke.
+
+POS tagged sentence: 
+[('About', 'IN'), ('the', 'DT'), ('EXPLORE', 'NNP'), ('Xa', 'NNP'), ('Study', 'NNP'), ('The', 'NNP'), ('Phase', 'NNP'), ('2b', 'CD'), ('randomized', 'VBD'), (',', ','), ('parallel', 'JJ'), ('group', 'NN'), ('study', 'NN'), ('examined', 'VBN'), ('three', 'CD'), ('blinded', 'VBN'), ('doses', 'NNS'), ('of', 'IN'), ('betrixaban', 'NN'), ('compared', 'VBN'), ('with', 'IN'), ('open', 'JJ'), ('label', 'NN'), (',', ','), ('dose', 'NN'), ('adjusted', 'VBD'), ('warfarin', 'NN'), ('in', 'IN'), ('508', 'CD'), ('patients', 'NNS'), ('with', 'IN'), ('non', 'NN'), ('valvular', 'NN'), ('atrial', 'NN'), ('fibrillation', 'NN'), ('or', 'CC'), ('atrial', 'JJ'), ('flutter', 'NN'), ('and', 'CC'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('risk', 'NN'), ('factor', 'NN'), ('for', 'IN'), ('stroke', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   the/DT   (ORGANIZATION EXPLORE/NNP Xa/NNP)   Study/NNP   The/NNP   Phase/NNP   2b/CD   randomized/VBD   ,/,   parallel/JJ   group/NN   study/NN   examined/VBN   three/CD   blinded/VBN   doses/NNS   of/IN   betrixaban/NN   compared/VBN   with/IN   open/JJ   label/NN   ,/,   dose/NN   adjusted/VBD   warfarin/NN   in/IN   508/CD   patients/NNS   with/IN   non/NN   valvular/NN   atrial/NN   fibrillation/NN   or/CC   atrial/JJ   flutter/NN   and/CC   at/IN   least/JJS   one/CD   risk/NN   factor/NN   for/IN   stroke/NN   ./.)
+----------------------------------
+original sentence: 
+Patients ranged from ages 46 to 91 and a total of 87 percent previously received a vitamin K antagonist.
+
+POS tagged sentence: 
+[('Patients', 'NNS'), ('ranged', 'VBD'), ('from', 'IN'), ('ages', 'NNS'), ('46', 'CD'), ('to', 'TO'), ('91', 'CD'), ('and', 'CC'), ('a', 'DT'), ('total', 'NN'), ('of', 'IN'), ('87', 'CD'), ('percent', 'NN'), ('previously', 'RB'), ('received', 'VBD'), ('a', 'DT'), ('vitamin', 'NN'), ('K', 'NNP'), ('antagonist', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Patients/NNS)   ranged/VBD   from/IN   ages/NNS   46/CD   to/TO   91/CD   and/CC   a/DT   total/NN   of/IN   87/CD   percent/NN   previously/RB   received/VBD   a/DT   vitamin/NN   K/NNP   antagonist/NN   ./.)
+----------------------------------
+original sentence: 
+Participants were not excluded for severe renal impairment, except those on dialysis.
+
+POS tagged sentence: 
+[('Participants', 'NNS'), ('were', 'VBD'), ('not', 'RB'), ('excluded', 'VBN'), ('for', 'IN'), ('severe', 'JJ'), ('renal', 'JJ'), ('impairment', 'NN'), (',', ','), ('except', 'IN'), ('those', 'DT'), ('on', 'IN'), ('dialysis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Participants/NNS   were/VBD   not/RB   excluded/VBN   for/IN   severe/JJ   renal/JJ   impairment/NN   ,/,   except/IN   those/DT   on/IN   dialysis/NN   ./.)
+----------------------------------
+original sentence: 
+One hundred and twenty seven patients were randomized to each of four treatment groups: betrixaban 40, 60 or 80 mg or open label warfarin INR 2 3 , the current standard of care.
+
+POS tagged sentence: 
+[('One', 'CD'), ('hundred', 'VBN'), ('and', 'CC'), ('twenty', 'NN'), ('seven', 'CD'), ('patients', 'NNS'), ('were', 'VBD'), ('randomized', 'VBN'), ('to', 'TO'), ('each', 'DT'), ('of', 'IN'), ('four', 'CD'), ('treatment', 'NN'), ('groups', 'NNS'), (':', ':'), ('betrixaban', 'JJ'), ('40', 'CD'), (',', ','), ('60', 'CD'), ('or', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('or', 'CC'), ('open', 'JJ'), ('label', 'NN'), ('warfarin', 'NN'), ('INR', 'NNP'), ('2', 'CD'), ('3', 'CD'), (',', ','), ('the', 'DT'), ('current', 'JJ'), ('standard', 'JJ'), ('of', 'IN'), ('care', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   hundred/VBN   and/CC   twenty/NN   seven/CD   patients/NNS   were/VBD   randomized/VBN   to/TO   each/DT   of/IN   four/CD   treatment/NN   groups/NNS   :/:   betrixaban/JJ   40/CD   ,/,   60/CD   or/CC   80/CD   mg/NN   or/CC   open/JJ   label/NN   warfarin/NN   INR/NNP   2/CD   3/CD   ,/,   the/DT   current/JJ   standard/JJ   of/IN   care/NN   ./.)
+----------------------------------
+original sentence: 
+The study was conducted in 35 centers in the U.S., Canada and Germany with a minimum follow up of three months and a maximum of 12 months.
+
+POS tagged sentence: 
+[('The', 'DT'), ('study', 'NN'), ('was', 'VBD'), ('conducted', 'VBN'), ('in', 'IN'), ('35', 'CD'), ('centers', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), (',', ','), ('Canada', 'NNP'), ('and', 'CC'), ('Germany', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('minimum', 'JJ'), ('follow', 'NN'), ('up', 'IN'), ('of', 'IN'), ('three', 'CD'), ('months', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('maximum', 'NN'), ('of', 'IN'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   study/NN   was/VBD   conducted/VBN   in/IN   35/CD   centers/NNS   in/IN   the/DT   (GPE U.S./NNP)   ,/,   (GPE Canada/NNP)   and/CC   (GPE Germany/NNP)   with/IN   a/DT   minimum/JJ   follow/NN   up/IN   of/IN   three/CD   months/NNS   and/CC   a/DT   maximum/NN   of/IN   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+The goal of the study was to assess the safety and tolerability of betrixaban compared to warfarin to provide information to guide further clinical development.
+
+POS tagged sentence: 
+[('The', 'DT'), ('goal', 'NN'), ('of', 'IN'), ('the', 'DT'), ('study', 'NN'), ('was', 'VBD'), ('to', 'TO'), ('assess', 'NN'), ('the', 'DT'), ('safety', 'NN'), ('and', 'CC'), ('tolerability', 'NN'), ('of', 'IN'), ('betrixaban', 'NN'), ('compared', 'VBN'), ('to', 'TO'), ('warfarin', 'VB'), ('to', 'TO'), ('provide', 'VB'), ('information', 'NN'), ('to', 'TO'), ('guide', 'VB'), ('further', 'JJ'), ('clinical', 'JJ'), ('development', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   goal/NN   of/IN   the/DT   study/NN   was/VBD   to/TO   assess/NN   the/DT   safety/NN   and/CC   tolerability/NN   of/IN   betrixaban/NN   compared/VBN   to/TO   warfarin/VB   to/TO   provide/VB   information/NN   to/TO   guide/VB   further/JJ   clinical/JJ   development/NN   ./.)
+----------------------------------
+original sentence: 
+The primary study endpoint was the time to occurrence of major or CRNM bleeding.
+
+POS tagged sentence: 
+[('The', 'DT'), ('primary', 'JJ'), ('study', 'NN'), ('endpoint', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('time', 'NN'), ('to', 'TO'), ('occurrence', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('or', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   primary/JJ   study/NN   endpoint/NN   was/VBD   the/DT   time/NN   to/TO   occurrence/NN   of/IN   major/JJ   or/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   ./.)
+----------------------------------
+original sentence: 
+The incidence crude rates of major or CRNM bleeding was 0.8 percent, 3.9 percent, 3.9 percent and 5.5 percent for the betrixaban 40 mg, 60 mg, and 80 mg and warfarin groups, respectively.
+
+POS tagged sentence: 
+[('The', 'DT'), ('incidence', 'NN'), ('crude', 'NN'), ('rates', 'NNS'), ('of', 'IN'), ('major', 'JJ'), ('or', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('was', 'VBD'), ('0.8', 'CD'), ('percent', 'NN'), (',', ','), ('3.9', 'CD'), ('percent', 'NN'), (',', ','), ('3.9', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('5.5', 'CD'), ('percent', 'NN'), ('for', 'IN'), ('the', 'DT'), ('betrixaban', 'NN'), ('40', 'CD'), ('mg', 'NN'), (',', ','), ('60', 'CD'), ('mg', 'NN'), (',', ','), ('and', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('and', 'CC'), ('warfarin', 'NN'), ('groups', 'NNS'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   incidence/NN   crude/NN   rates/NNS   of/IN   major/JJ   or/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   was/VBD   0.8/CD   percent/NN   ,/,   3.9/CD   percent/NN   ,/,   3.9/CD   percent/NN   and/CC   5.5/CD   percent/NN   for/IN   the/DT   betrixaban/NN   40/CD   mg/NN   ,/,   60/CD   mg/NN   ,/,   and/CC   80/CD   mg/NN   and/CC   warfarin/NN   groups/NNS   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+The secondary endpoints included the time to occurrence of any bleeding major, CRNM, and minimal and the time to occurrence of death, stroke ischemic or hemorrhagic , myocardial infarction, or other systemic embolism.
+
+POS tagged sentence: 
+[('The', 'DT'), ('secondary', 'JJ'), ('endpoints', 'NNS'), ('included', 'VBD'), ('the', 'DT'), ('time', 'NN'), ('to', 'TO'), ('occurrence', 'NN'), ('of', 'IN'), ('any', 'DT'), ('bleeding', 'NN'), ('major', 'JJ'), (',', ','), ('CRNM', 'NNP'), (',', ','), ('and', 'CC'), ('minimal', 'JJ'), ('and', 'CC'), ('the', 'DT'), ('time', 'NN'), ('to', 'TO'), ('occurrence', 'NN'), ('of', 'IN'), ('death', 'NN'), (',', ','), ('stroke', 'NN'), ('ischemic', 'JJ'), ('or', 'CC'), ('hemorrhagic', 'JJ'), (',', ','), ('myocardial', 'JJ'), ('infarction', 'NN'), (',', ','), ('or', 'CC'), ('other', 'JJ'), ('systemic', 'JJ'), ('embolism', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   secondary/JJ   endpoints/NNS   included/VBD   the/DT   time/NN   to/TO   occurrence/NN   of/IN   any/DT   bleeding/NN   major/JJ   ,/,   (ORGANIZATION CRNM/NNP)   ,/,   and/CC   minimal/JJ   and/CC   the/DT   time/NN   to/TO   occurrence/NN   of/IN   death/NN   ,/,   stroke/NN   ischemic/JJ   or/CC   hemorrhagic/JJ   ,/,   myocardial/JJ   infarction/NN   ,/,   or/CC   other/JJ   systemic/JJ   embolism/NN   ./.)
+----------------------------------
+original sentence: 
+The incidence crude rates of any bleeding was significantly lower compared to warfarin 31.5 percent for patients taking betrixaban 40 mg 17.3 percent, p=0.011 and 80 mg 18.9 percent, p=0.022 ; but not those taking betrixaban 60 mg 25.2 percent, p=0.309 .
+
+POS tagged sentence: 
+[('The', 'DT'), ('incidence', 'NN'), ('crude', 'NN'), ('rates', 'NNS'), ('of', 'IN'), ('any', 'DT'), ('bleeding', 'NN'), ('was', 'VBD'), ('significantly', 'RB'), ('lower', 'JJR'), ('compared', 'VBN'), ('to', 'TO'), ('warfarin', 'VB'), ('31.5', 'CD'), ('percent', 'NN'), ('for', 'IN'), ('patients', 'NNS'), ('taking', 'VBG'), ('betrixaban', 'NN'), ('40', 'CD'), ('mg', 'NN'), ('17.3', 'CD'), ('percent', 'NN'), (',', ','), ('p', 'NN'), ('=', ':'), ('0.011', 'CD'), ('and', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('18.9', 'CD'), ('percent', 'NN'), (',', ','), ('p', 'NN'), ('=', ':'), ('0.022', 'CD'), (';', ':'), ('but', 'CC'), ('not', 'RB'), ('those', 'DT'), ('taking', 'VBG'), ('betrixaban', 'NN'), ('60', 'CD'), ('mg', 'NN'), ('25.2', 'CD'), ('percent', 'NN'), (',', ','), ('p', 'NN'), ('=', ':'), ('0.309', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   incidence/NN   crude/NN   rates/NNS   of/IN   any/DT   bleeding/NN   was/VBD   significantly/RB   lower/JJR   compared/VBN   to/TO   warfarin/VB   31.5/CD   percent/NN   for/IN   patients/NNS   taking/VBG   betrixaban/NN   40/CD   mg/NN   17.3/CD   percent/NN   ,/,   p/NN   =/:   0.011/CD   and/CC   80/CD   mg/NN   18.9/CD   percent/NN   ,/,   p/NN   =/:   0.022/CD   ;/:   but/CC   not/RB   those/DT   taking/VBG   betrixaban/NN   60/CD   mg/NN   25.2/CD   percent/NN   ,/,   p/NN   =/:   0.309/CD   ./.)
+----------------------------------
+original sentence: 
+The number of events in the secondary composite endpoint of death, stroke, myocardial infarction or other systemic embolism ranged from 0 1 in each of the four dosing groups, which was the expected stroke/embolic event rate for the warfarin control group.
+
+POS tagged sentence: 
+[('The', 'DT'), ('number', 'NN'), ('of', 'IN'), ('events', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('secondary', 'JJ'), ('composite', 'JJ'), ('endpoint', 'NN'), ('of', 'IN'), ('death', 'NN'), (',', ','), ('stroke', 'NN'), (',', ','), ('myocardial', 'JJ'), ('infarction', 'NN'), ('or', 'CC'), ('other', 'JJ'), ('systemic', 'JJ'), ('embolism', 'NN'), ('ranged', 'VBD'), ('from', 'IN'), ('0', '-NONE-'), ('1', 'CD'), ('in', 'IN'), ('each', 'DT'), ('of', 'IN'), ('the', 'DT'), ('four', 'CD'), ('dosing', 'VBG'), ('groups', 'NNS'), (',', ','), ('which', 'WDT'), ('was', 'VBD'), ('the', 'DT'), ('expected', 'VBN'), ('stroke/embolic', 'JJ'), ('event', 'NN'), ('rate', 'NN'), ('for', 'IN'), ('the', 'DT'), ('warfarin', 'NN'), ('control', 'NN'), ('group', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   number/NN   of/IN   events/NNS   in/IN   the/DT   secondary/JJ   composite/JJ   endpoint/NN   of/IN   death/NN   ,/,   stroke/NN   ,/,   myocardial/JJ   infarction/NN   or/CC   other/JJ   systemic/JJ   embolism/NN   ranged/VBD   from/IN   0/-NONE-   1/CD   in/IN   each/DT   of/IN   the/DT   four/CD   dosing/VBG   groups/NNS   ,/,   which/WDT   was/VBD   the/DT   expected/VBN   stroke/embolic/JJ   event/NN   rate/NN   for/IN   the/DT   warfarin/NN   control/NN   group/NN   ./.)
+----------------------------------
+original sentence: 
+There was one stroke each in the betrixaban 60 mg and 80 mg groups, and one death each in the betrixaban 40 mg and warfarin groups.
+
+POS tagged sentence: 
+[('There', 'EX'), ('was', 'VBD'), ('one', 'CD'), ('stroke', 'NN'), ('each', 'DT'), ('in', 'IN'), ('the', 'DT'), ('betrixaban', 'NN'), ('60', 'CD'), ('mg', 'NN'), ('and', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('groups', 'NNS'), (',', ','), ('and', 'CC'), ('one', 'CD'), ('death', 'NN'), ('each', 'DT'), ('in', 'IN'), ('the', 'DT'), ('betrixaban', 'NN'), ('40', 'CD'), ('mg', 'NN'), ('and', 'CC'), ('warfarin', 'NN'), ('groups', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   was/VBD   one/CD   stroke/NN   each/DT   in/IN   the/DT   betrixaban/NN   60/CD   mg/NN   and/CC   80/CD   mg/NN   groups/NNS   ,/,   and/CC   one/CD   death/NN   each/DT   in/IN   the/DT   betrixaban/NN   40/CD   mg/NN   and/CC   warfarin/NN   groups/NNS   ./.)
+----------------------------------
+original sentence: 
+There were no myocardial infarctions or other systemic emboli in any of the four dosing groups.
+
+POS tagged sentence: 
+[('There', 'EX'), ('were', 'VBD'), ('no', 'DT'), ('myocardial', 'JJ'), ('infarctions', 'NNS'), ('or', 'CC'), ('other', 'JJ'), ('systemic', 'JJ'), ('emboli', 'NN'), ('in', 'IN'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('four', 'CD'), ('dosing', 'VBG'), ('groups', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   were/VBD   no/DT   myocardial/JJ   infarctions/NNS   or/CC   other/JJ   systemic/JJ   emboli/NN   in/IN   any/DT   of/IN   the/DT   four/CD   dosing/VBG   groups/NNS   ./.)
+----------------------------------
+original sentence: 
+The most common adverse events in the betrixaban groups combined n=381 were diarrhea 6 percent versus 0.8 percent on warfarin ; nausea 5.5 percent versus 1.6 percent on warfarin ; constipation 5.2 percent versus 2.4 percent on warfarin ; headache 5.2 percent versus 2.4 percent on warfarin and peripheral edema 6.8 percent versus 7.9 percent on warfarin .
+
+POS tagged sentence: 
+[('The', 'DT'), ('most', 'RBS'), ('common', 'JJ'), ('adverse', 'NN'), ('events', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('betrixaban', 'NN'), ('groups', 'NNS'), ('combined', 'VBN'), ('n', 'NN'), ('=', ':'), ('381', 'CD'), ('were', 'VBD'), ('diarrhea', 'NN'), ('6', 'CD'), ('percent', 'NN'), ('versus', 'NN'), ('0.8', 'CD'), ('percent', 'NN'), ('on', 'IN'), ('warfarin', 'NN'), (';', ':'), ('nausea', 'NN'), ('5.5', 'CD'), ('percent', 'NN'), ('versus', 'NN'), ('1.6', 'CD'), ('percent', 'NN'), ('on', 'IN'), ('warfarin', 'NN'), (';', ':'), ('constipation', 'NN'), ('5.2', 'CD'), ('percent', 'NN'), ('versus', 'NN'), ('2.4', 'CD'), ('percent', 'NN'), ('on', 'IN'), ('warfarin', 'NN'), (';', ':'), ('headache', 'NN'), ('5.2', 'CD'), ('percent', 'NN'), ('versus', 'NN'), ('2.4', 'CD'), ('percent', 'NN'), ('on', 'IN'), ('warfarin', 'NN'), ('and', 'CC'), ('peripheral', 'JJ'), ('edema', 'NN'), ('6.8', 'CD'), ('percent', 'NN'), ('versus', 'NN'), ('7.9', 'CD'), ('percent', 'NN'), ('on', 'IN'), ('warfarin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   most/RBS   common/JJ   adverse/NN   events/NNS   in/IN   the/DT   betrixaban/NN   groups/NNS   combined/VBN   n/NN   =/:   381/CD   were/VBD   diarrhea/NN   6/CD   percent/NN   versus/NN   0.8/CD   percent/NN   on/IN   warfarin/NN   ;/:   nausea/NN   5.5/CD   percent/NN   versus/NN   1.6/CD   percent/NN   on/IN   warfarin/NN   ;/:   constipation/NN   5.2/CD   percent/NN   versus/NN   2.4/CD   percent/NN   on/IN   warfarin/NN   ;/:   headache/NN   5.2/CD   percent/NN   versus/NN   2.4/CD   percent/NN   on/IN   warfarin/NN   and/CC   peripheral/JJ   edema/NN   6.8/CD   percent/NN   versus/NN   7.9/CD   percent/NN   on/IN   warfarin/NN   ./.)
+----------------------------------
+original sentence: 
+A numerically higher percentage of patient discontinuations occurred in each of the three betrixaban groups than in the open label warfarin group 8.7 9.4 percent vs. 6.3 percent .
+
+POS tagged sentence: 
+[('A', 'DT'), ('numerically', 'RB'), ('higher', 'JJR'), ('percentage', 'NN'), ('of', 'IN'), ('patient', 'NN'), ('discontinuations', 'NNS'), ('occurred', 'VBD'), ('in', 'IN'), ('each', 'DT'), ('of', 'IN'), ('the', 'DT'), ('three', 'CD'), ('betrixaban', 'NN'), ('groups', 'NNS'), ('than', 'IN'), ('in', 'IN'), ('the', 'DT'), ('open', 'JJ'), ('label', 'NN'), ('warfarin', 'NN'), ('group', 'NN'), ('8.7', 'CD'), ('9.4', 'CD'), ('percent', 'NN'), ('vs.', 'NNP'), ('6.3', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   numerically/RB   higher/JJR   percentage/NN   of/IN   patient/NN   discontinuations/NNS   occurred/VBD   in/IN   each/DT   of/IN   the/DT   three/CD   betrixaban/NN   groups/NNS   than/IN   in/IN   the/DT   open/JJ   label/NN   warfarin/NN   group/NN   8.7/CD   9.4/CD   percent/NN   vs./NNP   6.3/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+Today's Merck is working to help the world be well.
+
+POS tagged sentence: 
+[('Today', 'NN'), ("'s", 'POS'), ('Merck', 'NNP'), ('is', 'VBZ'), ('working', 'VBG'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('world', 'NN'), ('be', 'VB'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   's/POS   (ORGANIZATION Merck/NNP)   is/VBZ   working/VBG   to/TO   help/VB   the/DT   world/NN   be/VB   well/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ working/VBG)
+	(VERB help/VB the/DT world/NN)
+	(VERB be/VB well/RB)
+noun phrases to consider:
+	(NOUN Today/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Through our medicines, vaccines, biologic therapies, and consumer and animal products, we work with customers and operate in more than 140 countries to deliver innovative health solutions.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('our', 'PRP$'), ('medicines', 'NNS'), (',', ','), ('vaccines', 'NNS'), (',', ','), ('biologic', 'JJ'), ('therapies', 'NNS'), (',', ','), ('and', 'CC'), ('consumer', 'NN'), ('and', 'CC'), ('animal', 'JJ'), ('products', 'NNS'), (',', ','), ('we', 'PRP'), ('work', 'VBP'), ('with', 'IN'), ('customers', 'NNS'), ('and', 'CC'), ('operate', 'VBP'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('140', 'CD'), ('countries', 'NNS'), ('to', 'TO'), ('deliver', 'VB'), ('innovative', 'JJ'), ('health', 'NN'), ('solutions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   our/PRP$   medicines/NNS   ,/,   vaccines/NNS   ,/,   biologic/JJ   therapies/NNS   ,/,   and/CC   consumer/NN   and/CC   animal/JJ   products/NNS   ,/,   we/PRP   work/VBP   with/IN   customers/NNS   and/CC   operate/VBP   in/IN   more/JJR   than/IN   140/CD   countries/NNS   to/TO   deliver/VB   innovative/JJ   health/NN   solutions/NNS   ./.)
+----------------------------------
+original sentence: 
+We also demonstrate our commitment to increasing access to health care through far reaching programs that donate and deliver our products to the people who need them.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('also', 'RB'), ('demonstrate', 'VBP'), ('our', 'PRP$'), ('commitment', 'NN'), ('to', 'TO'), ('increasing', 'VBG'), ('access', 'NN'), ('to', 'TO'), ('health', 'NN'), ('care', 'NN'), ('through', 'IN'), ('far', 'RB'), ('reaching', 'VBG'), ('programs', 'NNS'), ('that', 'WDT'), ('donate', 'JJ'), ('and', 'CC'), ('deliver', 'NN'), ('our', 'PRP$'), ('products', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('people', 'NNS'), ('who', 'WP'), ('need', 'VBP'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   also/RB   demonstrate/VBP   our/PRP$   commitment/NN   to/TO   increasing/VBG   access/NN   to/TO   health/NN   care/NN   through/IN   far/RB   reaching/VBG   programs/NNS   that/WDT   donate/JJ   and/CC   deliver/NN   our/PRP$   products/NNS   to/TO   the/DT   people/NNS   who/WP   need/VBP   them/PRP   ./.)
+----------------------------------
+original sentence: 
+Merck.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Be Well.
+
+POS tagged sentence: 
+[('Be', 'VB'), ('Well', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Be/VB Well/NNP ./.)
+----------------------------------
+original sentence: 
+For more information, visit About Portola Pharmaceuticals, Inc.
+ Portola Pharmaceuticals develops innovative therapeutics based on targets with established proofs of concept that are designed to provide significant advances over current treatments for cardiovascular disease and inflammation.
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('visit', 'NN'), ('About', 'IN'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNPS'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNP'), ('develops', 'VBZ'), ('innovative', 'JJ'), ('therapeutics', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('targets', 'NNS'), ('with', 'IN'), ('established', 'JJ'), ('proofs', 'NNS'), ('of', 'IN'), ('concept', 'NN'), ('that', 'IN'), ('are', 'VBP'), ('designed', 'VBN'), ('to', 'TO'), ('provide', 'VB'), ('significant', 'JJ'), ('advances', 'NNS'), ('over', 'IN'), ('current', 'JJ'), ('treatments', 'NNS'), ('for', 'IN'), ('cardiovascular', 'JJ'), ('disease', 'NN'), ('and', 'CC'), ('inflammation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   visit/NN   About/IN   (ORGANIZATION Portola/NNP Pharmaceuticals/NNPS)   ,/,   (PERSON Inc/NNP)   ./.   (PERSON Portola/NNP Pharmaceuticals/NNP)   develops/VBZ   innovative/JJ   therapeutics/NNS   based/VBN   on/IN   targets/NNS   with/IN   established/JJ   proofs/NNS   of/IN   concept/NN   that/IN   are/VBP   designed/VBN   to/TO   provide/VB   significant/JJ   advances/NNS   over/IN   current/JJ   treatments/NNS   for/IN   cardiovascular/JJ   disease/NN   and/CC   inflammation/NN   ./.)
+----------------------------------
+original sentence: 
+The company has global development and commercialization agreements with two of the world&#8217;s leading pharmaceutical companies collectively valued at about $1B in upfront and milestone payments plus double digit royalties on future sales.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('global', 'JJ'), ('development', 'NN'), ('and', 'CC'), ('commercialization', 'NN'), ('agreements', 'NNS'), ('with', 'IN'), ('two', 'CD'), ('of', 'IN'), ('the', 'DT'), ('world&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('pharmaceutical', 'JJ'), ('companies', 'NNS'), ('collectively', 'RB'), ('valued', 'VBN'), ('at', 'IN'), ('about', 'IN'), ('$', '$'), ('1B', 'CD'), ('in', 'IN'), ('upfront', 'NN'), ('and', 'CC'), ('milestone', 'NN'), ('payments', 'NNS'), ('plus', 'CC'), ('double', 'JJ'), ('digit', 'NN'), ('royalties', 'NNS'), ('on', 'IN'), ('future', 'JJ'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   has/VBZ   global/JJ   development/NN   and/CC   commercialization/NN   agreements/NNS   with/IN   two/CD   of/IN   the/DT   world&/JJ   #/#   8217/CD   ;/:   s/NNS   leading/VBG   pharmaceutical/JJ   companies/NNS   collectively/RB   valued/VBN   at/IN   about/IN   $/$   1B/CD   in/IN   upfront/NN   and/CC   milestone/NN   payments/NNS   plus/CC   double/JJ   digit/NN   royalties/NNS   on/IN   future/JJ   sales/NNS   ./.)
+----------------------------------
+original sentence: 
+Betrixaban, its oral direct Factor Xa inhibitor, is licensed to Merck & Co., Inc., and elinogrel, its competitive and reversible P2Y12 ADP receptor antagonist, is licensed to Novartis.
+
+POS tagged sentence: 
+[('Betrixaban', 'NNP'), (',', ','), ('its', 'PRP$'), ('oral', 'JJ'), ('direct', 'JJ'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('inhibitor', 'NN'), (',', ','), ('is', 'VBZ'), ('licensed', 'VBN'), ('to', 'TO'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('and', 'CC'), ('elinogrel', 'NN'), (',', ','), ('its', 'PRP$'), ('competitive', 'JJ'), ('and', 'CC'), ('reversible', 'JJ'), ('P2Y12', 'NNP'), ('ADP', 'NNP'), ('receptor', 'NN'), ('antagonist', 'NN'), (',', ','), ('is', 'VBZ'), ('licensed', 'VBN'), ('to', 'TO'), ('Novartis', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Betrixaban/NNP)   ,/,   its/PRP$   oral/JJ   direct/JJ   Factor/NNP   Xa/NNP   inhibitor/NN   ,/,   is/VBZ   licensed/VBN   to/TO   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   ,/,   and/CC   elinogrel/NN   ,/,   its/PRP$   competitive/JJ   and/CC   reversible/JJ   (ORGANIZATION P2Y12/NNP)   ADP/NNP   receptor/NN   antagonist/NN   ,/,   is/VBZ   licensed/VBN   to/TO   (GPE Novartis/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ licensed/VBN)
+	(VERB is/VBZ licensed/VBN)
+noun phrases to consider:
+	(NOUN Betrixaban/NNP)
+	(NOUN oral/JJ direct/JJ Factor/NNP Xa/NNP inhibitor/NN)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN elinogrel/NN)
+	(NOUN competitive/JJ)
+	(NOUN reversible/JJ P2Y12/NNP ADP/NNP receptor/NN antagonist/NN)
+	(NOUN Novartis/NNP)
+
+----------------------------------
+original sentence: 
+Portola&#8217;s proprietary pipeline programs are focused on the discovery and development of PRT061103, a thromboxane receptor antagonist, which is targeted to address a significant unmet need as a potential aspirin alternative for patients intolerant to aspirin; PRT064445, a Factor Xa inhibitor antidote; and PRT062607, a novel, orally available Syk specific kinase inhibitor to treat chronic inflammatory diseases, including rheumatoid arthritis.
+
+POS tagged sentence: 
+[('Portola&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('proprietary', 'VBP'), ('pipeline', 'NN'), ('programs', 'NNS'), ('are', 'VBP'), ('focused', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('discovery', 'NN'), ('and', 'CC'), ('development', 'NN'), ('of', 'IN'), ('PRT061103', 'NNP'), (',', ','), ('a', 'DT'), ('thromboxane', 'NN'), ('receptor', 'NN'), ('antagonist', 'NN'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('targeted', 'VBN'), ('to', 'TO'), ('address', 'NN'), ('a', 'DT'), ('significant', 'JJ'), ('unmet', 'NN'), ('need', 'NN'), ('as', 'IN'), ('a', 'DT'), ('potential', 'JJ'), ('aspirin', 'NN'), ('alternative', 'NN'), ('for', 'IN'), ('patients', 'NNS'), ('intolerant', 'VBP'), ('to', 'TO'), ('aspirin', 'VB'), (';', ':'), ('PRT064445', 'NNP'), (',', ','), ('a', 'DT'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('inhibitor', 'NN'), ('antidote', 'NN'), (';', ':'), ('and', 'CC'), ('PRT062607', 'NNP'), (',', ','), ('a', 'DT'), ('novel', 'NN'), (',', ','), ('orally', 'RB'), ('available', 'JJ'), ('Syk', 'NNP'), ('specific', 'JJ'), ('kinase', 'NN'), ('inhibitor', 'NN'), ('to', 'TO'), ('treat', 'VB'), ('chronic', 'JJ'), ('inflammatory', 'NN'), ('diseases', 'NNS'), (',', ','), ('including', 'VBG'), ('rheumatoid', 'NN'), ('arthritis', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Portola&/NN   #/#   8217/CD   ;/:   s/NNS   proprietary/VBP   pipeline/NN   programs/NNS   are/VBP   focused/VBN   on/IN   the/DT   discovery/NN   and/CC   development/NN   of/IN   (ORGANIZATION PRT061103/NNP)   ,/,   a/DT   thromboxane/NN   receptor/NN   antagonist/NN   ,/,   which/WDT   is/VBZ   targeted/VBN   to/TO   address/NN   a/DT   significant/JJ   unmet/NN   need/NN   as/IN   a/DT   potential/JJ   aspirin/NN   alternative/NN   for/IN   patients/NNS   intolerant/VBP   to/TO   aspirin/VB   ;/:   (ORGANIZATION PRT064445/NNP)   ,/,   a/DT   Factor/NNP   Xa/NNP   inhibitor/NN   antidote/NN   ;/:   and/CC   (ORGANIZATION PRT062607/NNP)   ,/,   a/DT   novel/NN   ,/,   orally/RB   available/JJ   Syk/NNP   specific/JJ   kinase/NN   inhibitor/NN   to/TO   treat/VB   chronic/JJ   inflammatory/NN   diseases/NNS   ,/,   including/VBG   rheumatoid/NN   arthritis/NNS   ./.)
+----------------------------------
+original sentence: 
+For additional information, visit Forward Looking Statement
+ This news release includes &#8220;forward looking statements&#8221; within the meaning of the safe harbor provisions of the United States Private Securities Litigation Reform Act of 1995.
+
+POS tagged sentence: 
+[('For', 'IN'), ('additional', 'JJ'), ('information', 'NN'), (',', ','), ('visit', 'NN'), ('Forward', 'NNP'), ('Looking', 'NNP'), ('Statement', 'NNP'), ('This', 'NNP'), ('news', 'NN'), ('release', 'NN'), ('includes', 'VBZ'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('forward', 'RB'), ('looking', 'VBG'), ('statements&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('within', 'IN'), ('the', 'DT'), ('meaning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('safe', 'NN'), ('harbor', 'NN'), ('provisions', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), ('Private', 'NNP'), ('Securities', 'NNPS'), ('Litigation', 'NNP'), ('Reform', 'NNP'), ('Act', 'NNP'), ('of', 'IN'), ('1995', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   additional/JJ   information/NN   ,/,   visit/NN   (PERSON Forward/NNP Looking/NNP)   Statement/NNP   This/NNP   news/NN   release/NN   includes/VBZ   &/CC   #/#   8220/CD   ;/:   forward/RB   looking/VBG   statements&/NN   #/#   8221/CD   ;/:   within/IN   the/DT   meaning/NN   of/IN   the/DT   safe/NN   harbor/NN   provisions/NNS   of/IN   the/DT   (GPE United/NNP States/NNPS)   (ORGANIZATION     Private/NNP     Securities/NNPS     Litigation/NNP     Reform/NNP     Act/NNP)   of/IN   1995/CD   ./.)
+----------------------------------
+original sentence: 
+Such statements may include, but are not limited to, statements about the benefits of the merger between Merck and Schering Plough, including future financial and operating results, the combined company&#8217;s plans, objectives, expectations and intentions and other statements that are not historical facts.
+
+POS tagged sentence: 
+[('Such', 'JJ'), ('statements', 'NNS'), ('may', 'MD'), ('include', 'VB'), (',', ','), ('but', 'CC'), ('are', 'VBP'), ('not', 'RB'), ('limited', 'VBN'), ('to', 'TO'), (',', ','), ('statements', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('benefits', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('between', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Schering', 'NNP'), ('Plough', 'NNP'), (',', ','), ('including', 'VBG'), ('future', 'JJ'), ('financial', 'JJ'), ('and', 'CC'), ('operating', 'NN'), ('results', 'NNS'), (',', ','), ('the', 'DT'), ('combined', 'VBN'), ('company&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('plans', 'VBZ'), (',', ','), ('objectives', 'NNS'), (',', ','), ('expectations', 'NNS'), ('and', 'CC'), ('intentions', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('statements', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('not', 'RB'), ('historical', 'JJ'), ('facts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Such/JJ   statements/NNS   may/MD   include/VB   ,/,   but/CC   are/VBP   not/RB   limited/VBN   to/TO   ,/,   statements/NNS   about/IN   the/DT   benefits/NNS   of/IN   the/DT   merger/NN   between/IN   (PERSON Merck/NNP)   and/CC   (ORGANIZATION Schering/NNP Plough/NNP)   ,/,   including/VBG   future/JJ   financial/JJ   and/CC   operating/NN   results/NNS   ,/,   the/DT   combined/VBN   company&/-NONE-   #/#   8217/CD   ;/:   s/NNS   plans/VBZ   ,/,   objectives/NNS   ,/,   expectations/NNS   and/CC   intentions/NNS   and/CC   other/JJ   statements/NNS   that/IN   are/VBP   not/RB   historical/JJ   facts/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VB)
+	(VERB are/VBP not/RB limited/VBN)
+	(VERB including/VBG future/JJ financial/JJ)
+	(VERB combined/VBN)
+	(VERB plans/VBZ)
+	(VERB are/VBP not/RB historical/JJ facts/NNS)
+noun phrases to consider:
+	(NOUN Such/JJ statements/NNS)
+	(NOUN statements/NNS)
+	(NOUN benefits/NNS)
+
+tagged sentence:
+	 benefits	res:1
+	(NOUN merger/NN)
+
+tagged sentence:
+	 merger	res:2
+	(NOUN Merck/NNP)
+	(NOUN Schering/NNP Plough/NNP)
+	(NOUN operating/NN results/NNS)
+	(NOUN s/NNS)
+	(NOUN objectives/NNS)
+	(NOUN expectations/NNS)
+	(NOUN intentions/NNS)
+	(NOUN other/JJ statements/NNS)
+
+----------------------------------
+original sentence: 
+Such statements are based upon the current beliefs and expectations of Merck&#8217;s management and are subject to significant risks and uncertainties.
+
+POS tagged sentence: 
+[('Such', 'JJ'), ('statements', 'NNS'), ('are', 'VBP'), ('based', 'VBN'), ('upon', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('beliefs', 'NNS'), ('and', 'CC'), ('expectations', 'NNS'), ('of', 'IN'), ('Merck&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('management', 'NN'), ('and', 'CC'), ('are', 'VBP'), ('subject', 'JJ'), ('to', 'TO'), ('significant', 'JJ'), ('risks', 'NNS'), ('and', 'CC'), ('uncertainties', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Such/JJ   statements/NNS   are/VBP   based/VBN   upon/IN   the/DT   current/JJ   beliefs/NNS   and/CC   expectations/NNS   of/IN   Merck&/JJ   #/#   8217/CD   ;/:   s/NNS   management/NN   and/CC   are/VBP   subject/JJ   to/TO   significant/JJ   risks/NNS   and/CC   uncertainties/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP based/VBN upon/IN the/DT current/JJ beliefs/NNS)
+	(VERB are/VBP subject/JJ)
+
+tagged sentence:
+	 are subject	res:-1
+noun phrases to consider:
+	(NOUN Such/JJ statements/NNS)
+	(NOUN expectations/NNS)
+	(NOUN Merck&/JJ)
+	(NOUN s/NNS management/NN)
+	(NOUN significant/JJ risks/NNS)
+	(NOUN uncertainties/NNS)
+
+----------------------------------
+original sentence: 
+Actual results may differ from those set forth in the forward looking statements.
+
+POS tagged sentence: 
+[('Actual', 'JJ'), ('results', 'NNS'), ('may', 'MD'), ('differ', 'VB'), ('from', 'IN'), ('those', 'DT'), ('set', 'NN'), ('forth', 'NN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Actual/JJ)   results/NNS   may/MD   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   ./.)
+----------------------------------
+original sentence: 
+The following factors, among others, could cause actual results to differ from those set forth in the forward looking statements: the possibility that the expected synergies from the merger of Merck and Schering Plough will not be realized, or will not be realized within the expected time period, due to, among other things, the impact of pharmaceutical industry regulation and pending legislation that could affect the pharmaceutical industry; the risk that the businesses will not be integrated successfully; disruption from the merger making it more difficult to maintain business and operational relationships; Merck&#8217;s ability to accurately predict future market conditions; dependence on the effectiveness of Merck&#8217;s patents and other protections for innovative products; the risk of new and changing regulation and health policies in the U.S. and internationally and the exposure to litigation and/or regulatory actions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('following', 'VBG'), ('factors', 'NNS'), (',', ','), ('among', 'IN'), ('others', 'NNS'), (',', ','), ('could', 'MD'), ('cause', 'VB'), ('actual', 'JJ'), ('results', 'NNS'), ('to', 'TO'), ('differ', 'VB'), ('from', 'IN'), ('those', 'DT'), ('set', 'NN'), ('forth', 'NN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), (':', ':'), ('the', 'DT'), ('possibility', 'NN'), ('that', 'IN'), ('the', 'DT'), ('expected', 'VBN'), ('synergies', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('realized', 'VBN'), (',', ','), ('or', 'CC'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('realized', 'VBN'), ('within', 'IN'), ('the', 'DT'), ('expected', 'VBN'), ('time', 'NN'), ('period', 'NN'), (',', ','), ('due', 'JJ'), ('to', 'TO'), (',', ','), ('among', 'IN'), ('other', 'JJ'), ('things', 'NNS'), (',', ','), ('the', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('pharmaceutical', 'JJ'), ('industry', 'NN'), ('regulation', 'NN'), ('and', 'CC'), ('pending', 'VBG'), ('legislation', 'NN'), ('that', 'WDT'), ('could', 'MD'), ('affect', 'VB'), ('the', 'DT'), ('pharmaceutical', 'JJ'), ('industry', 'NN'), (';', ':'), ('the', 'DT'), ('risk', 'NN'), ('that', 'IN'), ('the', 'DT'), ('businesses', 'NNS'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('integrated', 'VBN'), ('successfully', 'RB'), (';', ':'), ('disruption', 'NN'), ('from', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('making', 'VBG'), ('it', 'PRP'), ('more', 'JJR'), ('difficult', 'JJ'), ('to', 'TO'), ('maintain', 'VB'), ('business', 'NN'), ('and', 'CC'), ('operational', 'JJ'), ('relationships', 'NNS'), (';', ':'), ('Merck&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('ability', 'NN'), ('to', 'TO'), ('accurately', 'RB'), ('predict', 'VB'), ('future', 'JJ'), ('market', 'NN'), ('conditions', 'NNS'), (';', ':'), ('dependence', 'NN'), ('on', 'IN'), ('the', 'DT'), ('effectiveness', 'NN'), ('of', 'IN'), ('Merck&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('patents', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('protections', 'NNS'), ('for', 'IN'), ('innovative', 'JJ'), ('products', 'NNS'), (';', ':'), ('the', 'DT'), ('risk', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('and', 'CC'), ('changing', 'VBG'), ('regulation', 'NN'), ('and', 'CC'), ('health', 'NN'), ('policies', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('internationally', 'RB'), ('and', 'CC'), ('the', 'DT'), ('exposure', 'NN'), ('to', 'TO'), ('litigation', 'NN'), ('and/or', 'NN'), ('regulatory', 'NN'), ('actions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   following/VBG   factors/NNS   ,/,   among/IN   others/NNS   ,/,   could/MD   cause/VB   actual/JJ   results/NNS   to/TO   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   :/:   the/DT   possibility/NN   that/IN   the/DT   expected/VBN   synergies/NNS   from/IN   the/DT   merger/NN   of/IN   (GPE Merck/NNP)   and/CC   (ORGANIZATION Schering/NNP Plough/NNP)   will/MD   not/RB   be/VB   realized/VBN   ,/,   or/CC   will/MD   not/RB   be/VB   realized/VBN   within/IN   the/DT   expected/VBN   time/NN   period/NN   ,/,   due/JJ   to/TO   ,/,   among/IN   other/JJ   things/NNS   ,/,   the/DT   impact/NN   of/IN   pharmaceutical/JJ   industry/NN   regulation/NN   and/CC   pending/VBG   legislation/NN   that/WDT   could/MD   affect/VB   the/DT   pharmaceutical/JJ   industry/NN   ;/:   the/DT   risk/NN   that/IN   the/DT   businesses/NNS   will/MD   not/RB   be/VB   integrated/VBN   successfully/RB   ;/:   disruption/NN   from/IN   the/DT   merger/NN   making/VBG   it/PRP   more/JJR   difficult/JJ   to/TO   maintain/VB   business/NN   and/CC   operational/JJ   relationships/NNS   ;/:   Merck&/JJ   #/#   8217/CD   ;/:   s/NNS   ability/NN   to/TO   accurately/RB   predict/VB   future/JJ   market/NN   conditions/NNS   ;/:   dependence/NN   on/IN   the/DT   effectiveness/NN   of/IN   Merck&/NNP   #/#   8217/CD   ;/:   s/NNS   patents/NNS   and/CC   other/JJ   protections/NNS   for/IN   innovative/JJ   products/NNS   ;/:   the/DT   risk/NN   of/IN   new/JJ   and/CC   changing/VBG   regulation/NN   and/CC   health/NN   policies/NNS   in/IN   the/DT   (GPE U.S./NNP)   and/CC   internationally/RB   and/CC   the/DT   exposure/NN   to/TO   litigation/NN   and/or/NN   regulatory/NN   actions/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB following/VBG factors/NNS)
+	(VERB cause/VB actual/JJ results/NNS)
+	(VERB   differ/VB   from/IN   those/DT   set/NN   forth/NN   in/IN   the/DT   forward/NN)
+	(VERB looking/VBG statements/NNS)
+	(VERB   expected/VBN   synergies/NNS   from/IN   the/DT   merger/NN   of/IN   Merck/NNP)
+
+tagged sentence:
+	 expected synergies from the merger of Merck	res:2
+	(VERB be/VB realized/VBN)
+	(VERB be/VB realized/VBN within/IN the/DT)
+	(VERB expected/VBN time/NN period/NN)
+	(VERB pending/VBG legislation/NN)
+	(VERB affect/VB the/DT pharmaceutical/JJ industry/NN)
+	(VERB be/VB integrated/VBN successfully/RB)
+	(VERB making/VBG it/PRP more/JJR difficult/JJ)
+	(VERB maintain/VB business/NN)
+	(VERB predict/VB future/JJ market/NN conditions/NNS)
+	(VERB changing/VBG regulation/NN)
+noun phrases to consider:
+	(NOUN others/NNS)
+	(NOUN possibility/NN)
+	(NOUN Schering/NNP Plough/NNP)
+	(NOUN due/JJ)
+	(NOUN other/JJ things/NNS)
+	(NOUN impact/NN)
+	(NOUN pharmaceutical/JJ industry/NN regulation/NN)
+	(NOUN risk/NN)
+	(NOUN businesses/NNS)
+	(NOUN disruption/NN)
+	(NOUN merger/NN)
+	(NOUN operational/JJ relationships/NNS)
+	(NOUN Merck&/JJ)
+	(NOUN s/NNS ability/NN)
+	(NOUN dependence/NN)
+
+tagged sentence:
+	 dependence	res:1
+	(NOUN effectiveness/NN)
+
+tagged sentence:
+	 effectiveness	res:1
+	(NOUN Merck&/NNP)
+	(NOUN s/NNS patents/NNS)
+	(NOUN other/JJ protections/NNS)
+	(NOUN innovative/JJ products/NNS)
+
+tagged sentence:
+	 innovative products	res:1
+	(NOUN risk/NN)
+	(NOUN new/JJ)
+	(NOUN health/NN policies/NNS)
+	(NOUN U.S./NNP)
+	(NOUN exposure/NN)
+	(NOUN litigation/NN and/or/NN regulatory/NN actions/NNS)
+
+----------------------------------
+original sentence: 
+Merck undertakes no obligation to publicly update any forward looking statement, whether as a result of new information, future events or otherwise.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('undertakes', 'VBZ'), ('no', 'DT'), ('obligation', 'NN'), ('to', 'TO'), ('publicly', 'RB'), ('update', 'VB'), ('any', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statement', 'NN'), (',', ','), ('whether', 'IN'), ('as', 'IN'), ('a', 'DT'), ('result', 'NN'), ('of', 'IN'), ('new', 'JJ'), ('information', 'NN'), (',', ','), ('future', 'JJ'), ('events', 'NNS'), ('or', 'CC'), ('otherwise', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   undertakes/VBZ   no/DT   obligation/NN   to/TO   publicly/RB   update/VB   any/DT   forward/NN   looking/VBG   statement/NN   ,/,   whether/IN   as/IN   a/DT   result/NN   of/IN   new/JJ   information/NN   ,/,   future/JJ   events/NNS   or/CC   otherwise/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB undertakes/VBZ no/DT obligation/NN)
+	(VERB update/VB any/DT forward/NN)
+	(VERB looking/VBG statement/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN result/NN)
+	(NOUN new/JJ information/NN)
+	(NOUN future/JJ events/NNS)
+
+----------------------------------
+original sentence: 
+Additional factors that could cause results to differ materially from those described in the forward looking statements can be found in Merck&#8217;s 2009 Annual Report on Form 10 K and the company&#8217;s other filings with the Securities and Exchange Commission SEC available at the SEC&#8217;s Internet site  Major bleeding was defined as: a fall in hemoglobin of 2g/dL or more or a transfusion of 2 units of packed cells or whole blood or bleeding at a critical site such as intracranial bleeding.
+
+POS tagged sentence: 
+[('Additional', 'JJ'), ('factors', 'NNS'), ('that', 'WDT'), ('could', 'MD'), ('cause', 'VB'), ('results', 'NNS'), ('to', 'TO'), ('differ', 'VB'), ('materially', 'RB'), ('from', 'IN'), ('those', 'DT'), ('described', 'VBN'), ('in', 'IN'), ('the', 'DT'), ('forward', 'NN'), ('looking', 'VBG'), ('statements', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('in', 'IN'), ('Merck&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('2009', 'CD'), ('Annual', 'NNP'), ('Report', 'NNP'), ('on', 'IN'), ('Form', 'NNP'), ('10', 'CD'), ('K', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('company&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('other', 'JJ'), ('filings', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('Securities', 'NNPS'), ('and', 'CC'), ('Exchange', 'NNP'), ('Commission', 'NNP'), ('SEC', 'NNP'), ('available', 'JJ'), ('at', 'IN'), ('the', 'DT'), ('SEC&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Internet', 'NNP'), ('site', 'NN'), ('Major', 'NNP'), ('bleeding', 'NN'), ('was', 'VBD'), ('defined', 'VBN'), ('as', 'IN'), (':', ':'), ('a', 'DT'), ('fall', 'NN'), ('in', 'IN'), ('hemoglobin', 'NN'), ('of', 'IN'), ('2g/dL', 'CD'), ('or', 'CC'), ('more', 'JJR'), ('or', 'CC'), ('a', 'DT'), ('transfusion', 'NN'), ('of', 'IN'), ('2', 'CD'), ('units', 'NNS'), ('of', 'IN'), ('packed', 'JJ'), ('cells', 'NNS'), ('or', 'CC'), ('whole', 'JJ'), ('blood', 'NN'), ('or', 'CC'), ('bleeding', 'VBG'), ('at', 'IN'), ('a', 'DT'), ('critical', 'JJ'), ('site', 'NN'), ('such', 'JJ'), ('as', 'IN'), ('intracranial', 'JJ'), ('bleeding', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Additional/JJ   factors/NNS   that/WDT   could/MD   cause/VB   results/NNS   to/TO   differ/VB   materially/RB   from/IN   those/DT   described/VBN   in/IN   the/DT   forward/NN   looking/VBG   statements/NNS   can/MD   be/VB   found/VBN   in/IN   Merck&/NNP   #/#   8217/CD   ;/:   s/NNS   2009/CD   (PERSON Annual/NNP Report/NNP)   on/IN   Form/NNP   10/CD   K/NNP   and/CC   the/DT   company&/NNP   #/#   8217/CD   ;/:   s/NNS   other/JJ   filings/NNS   with/IN   the/DT   (ORGANIZATION Securities/NNPS)   and/CC   (ORGANIZATION Exchange/NNP Commission/NNP)   SEC/NNP   available/JJ   at/IN   the/DT   SEC&/NNP   #/#   8217/CD   ;/:   s/NNS   Internet/NNP   site/NN   Major/NNP   bleeding/NN   was/VBD   defined/VBN   as/IN   :/:   a/DT   fall/NN   in/IN   hemoglobin/NN   of/IN   2g/dL/CD   or/CC   more/JJR   or/CC   a/DT   transfusion/NN   of/IN   2/CD   units/NNS   of/IN   packed/JJ   cells/NNS   or/CC   whole/JJ   blood/NN   or/CC   bleeding/VBG   at/IN   a/DT   critical/JJ   site/NN   such/JJ   as/IN   intracranial/JJ   bleeding/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB cause/VB results/NNS)
+	(VERB differ/VB materially/RB from/IN those/DT)
+	(VERB described/VBN in/IN the/DT forward/NN)
+	(VERB looking/VBG statements/NNS)
+	(VERB be/VB found/VBN in/IN Merck&/NNP)
+	(VERB was/VBD defined/VBN as/IN)
+	(VERB   bleeding/VBG   at/IN   a/DT   critical/JJ   site/NN   such/JJ   as/IN   intracranial/JJ   bleeding/NN)
+noun phrases to consider:
+	(NOUN Additional/JJ factors/NNS)
+	(NOUN s/NNS)
+	(NOUN 2009/CD Annual/NNP Report/NNP)
+	(NOUN Form/NNP)
+	(NOUN 10/CD K/NNP)
+	(NOUN company&/NNP)
+	(NOUN s/NNS other/JJ filings/NNS)
+	(NOUN Securities/NNPS)
+	(NOUN Exchange/NNP Commission/NNP SEC/NNP available/JJ)
+	(NOUN SEC&/NNP)
+	(NOUN s/NNS Internet/NNP site/NN Major/NNP)
+	(NOUN bleeding/NN)
+	(NOUN fall/NN)
+	(NOUN hemoglobin/NN)
+	(NOUN more/JJR)
+	(NOUN transfusion/NN)
+	(NOUN 2/CD units/NNS)
+	(NOUN packed/JJ cells/NNS)
+	(NOUN whole/JJ blood/NN)
+
+----------------------------------
+original sentence: 
+Photos/Multimedia Gallery Available: http://www.businesswire.com/cgi bin/mmg.cgi?eid=6213083&lang=en
+ Contacts Ian McConnell, +1 973 901 5722
+Paul Laland, +1 415 519 6610
+ Portola Pharmaceuticals Investor Contacts:
+Carol Ferguson, +1 908 423 4465
+Joe Romanelli, +1 908 423 5088  http://www.businesswire.com/news/home/20100315005261/en/Portola Pharmaceuticals Merck Announce Phase 2 Study
+ Smart Multimedia Gallery  Download Formats  More  Graphic: Business Wire  Download Formats  More Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('Photos/Multimedia', 'JJ'), ('Gallery', 'NNP'), ('Available', 'NNP'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/cgi', 'JJ'), ('bin/mmg.cgi', 'NN'), ('?', '.'), ('eid', 'NN'), ('=', ':'), ('6213083&lang', 'CD'), ('=', 'CD'), ('en', 'CD'), ('Contacts', 'NNS'), ('Ian', 'NNP'), ('McConnell', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('973', 'CD'), ('901', 'CD'), ('5722', 'CD'), ('Paul', 'NNP'), ('Laland', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('415', 'CD'), ('519', 'CD'), ('6610', 'CD'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNP'), ('Investor', 'NNP'), ('Contacts', 'NNP'), (':', ':'), ('Carol', 'NNP'), ('Ferguson', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('908', 'CD'), ('423', 'CD'), ('4465', 'CD'), ('Joe', 'NNP'), ('Romanelli', 'NNP'), (',', ','), ('+', 'NNP'), ('1', 'CD'), ('908', 'CD'), ('423', 'CD'), ('5088', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100315005261/en/Portola', 'JJ'), ('Pharmaceuticals', 'NNS'), ('Merck', 'NNP'), ('Announce', 'NNP'), ('Phase', 'NNP'), ('2', 'CD'), ('Study', 'NNP'), ('Smart', 'NNP'), ('Multimedia', 'NNP'), ('Gallery', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Graphic', 'NNP'), (':', ':'), ('Business', 'NNP'), ('Wire', 'NNP'), ('Download', 'NNP'), ('Formats', 'NNPS'), ('More', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   Photos/Multimedia/JJ   (PERSON Gallery/NNP Available/NNP)   :/:   http/NN   :/:   //www.businesswire.com/cgi/JJ   bin/mmg.cgi/NN   ?/.   eid/NN   =/:   6213083&lang/CD   =/CD   en/CD   Contacts/NNS   (PERSON Ian/NNP McConnell/NNP)   ,/,   +/NNP   1/CD   973/CD   901/CD   5722/CD   (PERSON Paul/NNP Laland/NNP)   ,/,   +/NNP   1/CD   415/CD   519/CD   6610/CD   (PERSON Portola/NNP Pharmaceuticals/NNP Investor/NNP Contacts/NNP)   :/:   (PERSON Carol/NNP Ferguson/NNP)   ,/,   +/NNP   1/CD   908/CD   423/CD   4465/CD   (PERSON Joe/NNP Romanelli/NNP)   ,/,   +/NNP   1/CD   908/CD   423/CD   5088/CD   http/NN   :/:   //www.businesswire.com/news/home/20100315005261/en/Portola/JJ   Pharmaceuticals/NNS   (PERSON Merck/NNP Announce/NNP)   Phase/NNP   2/CD   Study/NNP   (PERSON Smart/NNP Multimedia/NNP Gallery/NNP Download/NNP)   Formats/NNPS   More/NNP   Graphic/NNP   :/:   (PERSON Business/NNP Wire/NNP Download/NNP)   Formats/NNPS   More/NNP   Company/NNP   Information/NNP   Center/NNP   More/NNP   Business/NNP   Wire/NNP   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN Photos/Multimedia/JJ Gallery/NNP Available/NNP)
+	(NOUN http/NN)
+	(NOUN //www.businesswire.com/cgi/JJ bin/mmg.cgi/NN)
+	(NOUN eid/NN)
+	(NOUN en/CD Contacts/NNS Ian/NNP McConnell/NNP)
+	(NOUN +/NNP)
+	(NOUN 5722/CD Paul/NNP Laland/NNP)
+	(NOUN +/NNP)
+	(NOUN   6610/CD   Portola/NNP   Pharmaceuticals/NNP   Investor/NNP   Contacts/NNP)
+	(NOUN Carol/NNP Ferguson/NNP)
+	(NOUN +/NNP)
+	(NOUN 4465/CD Joe/NNP Romanelli/NNP)
+	(NOUN +/NNP)
+	(NOUN 5088/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100315005261/en/Portola/JJ   Pharmaceuticals/NNS   Merck/NNP   Announce/NNP   Phase/NNP)
+	(NOUN 2/CD Study/NNP Smart/NNP Multimedia/NNP Gallery/NNP)
+	(NOUN Download/NNP Formats/NNPS More/NNP Graphic/NNP)
+	(NOUN Business/NNP Wire/NNP Download/NNP Formats/NNPS)
+	(NOUN More/NNP Company/NNP Information/NNP Center/NNP)
+	(NOUN More/NNP Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:1	pos:4	verypos:2	total:6

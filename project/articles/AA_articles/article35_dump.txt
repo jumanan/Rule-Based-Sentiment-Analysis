@@ -1,0 +1,126 @@
+
+----------------------------------
+original sentence: 
+Alcoa spends $340,000 lobbying in 4th quarter Forbes.com
+Internet Infrastructure
+Corporate Citizenship
+Corporate Governance
+Retirement & College
+400 Richest Americans
+World's Richest People
+Washington & The World
+Alcoa spends $340,000 lobbying in 4th quarter
+03.26.10, 05:54 PM EDT
+WASHINGTON Aluminum manufacturing giant  spent $340,000 in the fourth quarter to lobby the government on issues ranging from energy to defense, according to a recent disclosure report.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('spends', 'NNS'), ('$', '$'), ('340,000', 'CD'), ('lobbying', 'VBG'), ('in', 'IN'), ('4th', 'JJ'), ('quarter', 'NN'), ('Forbes.com', 'NN'), ('Internet', 'NNP'), ('Infrastructure', 'NNP'), ('Corporate', 'NNP'), ('Citizenship', 'NNP'), ('Corporate', 'NNP'), ('Governance', 'NNP'), ('Retirement', 'NNP'), ('&', 'CC'), ('College', 'NNP'), ('400', 'CD'), ('Richest', 'NNP'), ('Americans', 'NNPS'), ('World', 'NNP'), ("'s", 'POS'), ('Richest', 'NNP'), ('People', 'NNP'), ('Washington', 'NNP'), ('&', 'CC'), ('The', 'NNP'), ('World', 'NNP'), ('Alcoa', 'NNP'), ('spends', 'VBZ'), ('$', '$'), ('340,000', 'CD'), ('lobbying', 'VBG'), ('in', 'IN'), ('4th', 'JJ'), ('quarter', 'NN'), ('03.26.10', 'CD'), (',', ','), ('05', 'CD'), (':', ':'), ('54', 'CD'), ('PM', 'NNP'), ('EDT', 'NNP'), ('WASHINGTON', 'NNP'), ('Aluminum', 'NNP'), ('manufacturing', 'NN'), ('giant', 'NN'), ('spent', 'NN'), ('$', '$'), ('340,000', 'CD'), ('in', 'IN'), ('the', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('to', 'TO'), ('lobby', 'VB'), ('the', 'DT'), ('government', 'NN'), ('on', 'IN'), ('issues', 'NNS'), ('ranging', 'VBG'), ('from', 'IN'), ('energy', 'NN'), ('to', 'TO'), ('defense', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('recent', 'JJ'), ('disclosure', 'NN'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   spends/NNS   $/$   340,000/CD   lobbying/VBG   in/IN   4th/JJ   quarter/NN   Forbes.com/NN   Internet/NNP   Infrastructure/NNP   Corporate/NNP   Citizenship/NNP   Corporate/NNP   Governance/NNP   Retirement/NNP   &/CC   College/NNP   400/CD   (ORGANIZATION Richest/NNP Americans/NNPS World/NNP)   's/POS   (PERSON Richest/NNP People/NNP Washington/NNP)   &/CC   The/NNP   World/NNP   Alcoa/NNP   spends/VBZ   $/$   340,000/CD   lobbying/VBG   in/IN   4th/JJ   quarter/NN   03.26.10/CD   ,/,   05/CD   :/:   54/CD   PM/NNP   EDT/NNP   (ORGANIZATION WASHINGTON/NNP Aluminum/NNP)   manufacturing/NN   giant/NN   spent/NN   $/$   340,000/CD   in/IN   the/DT   fourth/JJ   quarter/NN   to/TO   lobby/VB   the/DT   government/NN   on/IN   issues/NNS   ranging/VBG   from/IN   energy/NN   to/TO   defense/NN   ,/,   according/VBG   to/TO   a/DT   recent/JJ   disclosure/NN   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   lobbying/VBG   in/IN   4th/JJ   quarter/NN   Forbes.com/NN   Internet/NNP   Infrastructure/NNP   Corporate/NNP   Citizenship/NNP   Corporate/NNP   Governance/NNP   Retirement/NNP)
+	(VERB spends/VBZ)
+	(VERB lobbying/VBG in/IN 4th/JJ quarter/NN 03.26.10/CD)
+	(VERB lobby/VB the/DT government/NN on/IN issues/NNS)
+	(VERB ranging/VBG from/IN energy/NN)
+	(VERB according/VBG to/TO a/DT recent/JJ disclosure/NN report/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP spends/NNS)
+	(NOUN College/NNP)
+	(NOUN 400/CD Richest/NNP Americans/NNPS World/NNP)
+	(NOUN Richest/NNP People/NNP Washington/NNP)
+	(NOUN The/NNP World/NNP Alcoa/NNP)
+	(NOUN 54/CD PM/NNP EDT/NNP WASHINGTON/NNP Aluminum/NNP)
+	(NOUN manufacturing/NN giant/NN spent/NN)
+	(NOUN the/DT fourth/JJ quarter/NN)
+	(NOUN defense/NN)
+
+----------------------------------
+original sentence: 
+The total compared with $520,000 that the Pittsburgh company spent in the year ago quarter, according to the report filed Jan. 14 with the House clerk's office.
+
+POS tagged sentence: 
+[('The', 'DT'), ('total', 'NN'), ('compared', 'VBN'), ('with', 'IN'), ('$', '$'), ('520,000', 'CD'), ('that', 'WDT'), ('the', 'DT'), ('Pittsburgh', 'NNP'), ('company', 'NN'), ('spent', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('quarter', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('report', 'NN'), ('filed', 'VBD'), ('Jan.', 'NNP'), ('14', 'CD'), ('with', 'IN'), ('the', 'DT'), ('House', 'NNP'), ('clerk', 'NN'), ("'s", 'POS'), ('office', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   total/NN   compared/VBN   with/IN   $/$   520,000/CD   that/WDT   the/DT   (ORGANIZATION Pittsburgh/NNP)   company/NN   spent/VBD   in/IN   the/DT   year/NN   ago/IN   quarter/NN   ,/,   according/VBG   to/TO   the/DT   report/NN   filed/VBD   Jan./NNP   14/CD   with/IN   the/DT   (ORGANIZATION House/NNP)   clerk/NN   's/POS   office/NN   ./.)
+----------------------------------
+original sentence: 
+spent $380,000 in the third quarter.
+
+POS tagged sentence: 
+[('spent', 'NN'), ('$', '$'), ('380,000', 'CD'), ('in', 'IN'), ('the', 'DT'), ('third', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S spent/NN $/$ 380,000/CD in/IN the/DT third/JJ quarter/NN ./.)
+----------------------------------
+original sentence: 
+Alcoa said it lobbied the House of Representatives, the Senate and the Federal Regulatory Commission during the quarter.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('lobbied', 'VBD'), ('the', 'DT'), ('House', 'NNP'), ('of', 'IN'), ('Representatives', 'NNPS'), (',', ','), ('the', 'DT'), ('Senate', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Federal', 'NNP'), ('Regulatory', 'NNP'), ('Commission', 'NNP'), ('during', 'IN'), ('the', 'DT'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   said/VBD   it/PRP   lobbied/VBD   the/DT   (ORGANIZATION House/NNP)   of/IN   (ORGANIZATION Representatives/NNPS)   ,/,   the/DT   (ORGANIZATION Senate/NNP)   and/CC   the/DT   (ORGANIZATION Federal/NNP Regulatory/NNP Commission/NNP)   during/IN   the/DT   quarter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD it/PRP)
+	(VERB lobbied/VBD the/DT House/NNP of/IN Representatives/NNPS)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN Senate/NNP)
+	(NOUN Federal/NNP Regulatory/NNP Commission/NNP)
+	(NOUN quarter/NN)
+
+----------------------------------
+original sentence: 
+Among the issues discussed was power availability related to the Bonneville Power Association, and cap and trade related to climate legislation, including credit for early action and international trade implications.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('issues', 'NNS'), ('discussed', 'VBD'), ('was', 'VBD'), ('power', 'NN'), ('availability', 'NN'), ('related', 'VBD'), ('to', 'TO'), ('the', 'DT'), ('Bonneville', 'NNP'), ('Power', 'NNP'), ('Association', 'NNP'), (',', ','), ('and', 'CC'), ('cap', 'VB'), ('and', 'CC'), ('trade', 'NN'), ('related', 'VBD'), ('to', 'TO'), ('climate', 'VB'), ('legislation', 'NN'), (',', ','), ('including', 'VBG'), ('credit', 'NN'), ('for', 'IN'), ('early', 'JJ'), ('action', 'NN'), ('and', 'CC'), ('international', 'JJ'), ('trade', 'NN'), ('implications', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   issues/NNS   discussed/VBD   was/VBD   power/NN   availability/NN   related/VBD   to/TO   the/DT   (ORGANIZATION Bonneville/NNP Power/NNP Association/NNP)   ,/,   and/CC   cap/VB   and/CC   trade/NN   related/VBD   to/TO   climate/VB   legislation/NN   ,/,   including/VBG   credit/NN   for/IN   early/JJ   action/NN   and/CC   international/JJ   trade/NN   implications/NNS   ./.)
+----------------------------------
+original sentence: 
+Other topics included hydroelectric generating facilities, and defense and labor issues, according to the report.
+
+POS tagged sentence: 
+[('Other', 'JJ'), ('topics', 'NNS'), ('included', 'VBD'), ('hydroelectric', 'JJ'), ('generating', 'NN'), ('facilities', 'NNS'), (',', ','), ('and', 'CC'), ('defense', 'NN'), ('and', 'CC'), ('labor', 'NN'), ('issues', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Other/JJ   topics/NNS   included/VBD   hydroelectric/JJ   generating/NN   facilities/NNS   ,/,   and/CC   defense/NN   and/CC   labor/NN   issues/NNS   ,/,   according/VBG   to/TO   the/DT   report/NN   ./.)
+----------------------------------
+original sentence: 
+Copyright 2009 Associated Press.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2009', 'CD'), ('Associated', 'NNP'), ('Press', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Copyright/NNP 2009/CD (ORGANIZATION Associated/NNP Press/NNP) ./.)
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+This material may not be published broadcast, rewritten, or redistributed
+Greece Is Ancient News, Stocks Pop And Flop
+Billionaire Speaks Out: Steven Schonfeld
+A List Stars Get Animated
+ADVERTISEMENT &gt;&gt; Browse All Directories
+
+
+POS tagged sentence: 
+[('This', 'DT'), ('material', 'NN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('broadcast', 'JJ'), (',', ','), ('rewritten', 'RB'), (',', ','), ('or', 'CC'), ('redistributed', 'VBN'), ('Greece', 'NNP'), ('Is', 'NNP'), ('Ancient', 'NNP'), ('News', 'NNP'), (',', ','), ('Stocks', 'NNP'), ('Pop', 'NNP'), ('And', 'CC'), ('Flop', 'NNP'), ('Billionaire', 'NNP'), ('Speaks', 'NNP'), ('Out', 'NNP'), (':', ':'), ('Steven', 'NNP'), ('Schonfeld', 'NNP'), ('A', 'NNP'), ('List', 'NNP'), ('Stars', 'NNP'), ('Get', 'NNP'), ('Animated', 'NNP'), ('ADVERTISEMENT', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Browse', 'NNP'), ('All', 'NNP'), ('Directories', 'NNP')]
+
+
+ERTAGGED sentence: (S   This/DT   material/NN   may/MD   not/RB   be/VB   published/VBN   broadcast/JJ   ,/,   rewritten/RB   ,/,   or/CC   redistributed/VBN   (GPE Greece/NNP)   Is/NNP   Ancient/NNP   News/NNP   ,/,   (PERSON Stocks/NNP Pop/NNP)   And/CC   (PERSON Flop/NNP Billionaire/NNP Speaks/NNP Out/NNP)   :/:   (PERSON Steven/NNP Schonfeld/NNP)   A/NNP   List/NNP   Stars/NNP   Get/NNP   Animated/NNP   ADVERTISEMENT/NNP   &gt/NNP   ;/:   &gt/JJ   ;/:   (PERSON Browse/NNP All/NNP Directories/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

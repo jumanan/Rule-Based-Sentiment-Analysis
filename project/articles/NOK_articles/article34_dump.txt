@@ -1,0 +1,232 @@
+
+----------------------------------
+original sentence: 
+2.1 million payrise for Nokia CEO last year
+ 2.1 million payrise for Nokia CEO last year
+ Thursday, 25 March 2010 07:08 OLLI PEKKA KALLASVUO, the CEO of Nokia, received a hefty 68 per cent raise in compensation last year.
+
+POS tagged sentence: 
+[('2.1', 'CD'), ('million', 'CD'), ('payrise', 'NN'), ('for', 'IN'), ('Nokia', 'NNP'), ('CEO', 'NNP'), ('last', 'JJ'), ('year', 'NN'), ('2.1', 'CD'), ('million', 'CD'), ('payrise', 'NN'), ('for', 'IN'), ('Nokia', 'NNP'), ('CEO', 'NNP'), ('last', 'JJ'), ('year', 'NN'), ('Thursday', 'NNP'), (',', ','), ('25', 'CD'), ('March', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('08', 'CD'), ('OLLI', 'NNP'), ('PEKKA', 'NNP'), ('KALLASVUO', 'NNP'), (',', ','), ('the', 'DT'), ('CEO', 'NNP'), ('of', 'IN'), ('Nokia', 'NNP'), (',', ','), ('received', 'VBD'), ('a', 'DT'), ('hefty', 'JJ'), ('68', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('raise', 'NN'), ('in', 'IN'), ('compensation', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   2.1/CD   million/CD   payrise/NN   for/IN   (PERSON Nokia/NNP CEO/NNP)   last/JJ   year/NN   2.1/CD   million/CD   payrise/NN   for/IN   (PERSON Nokia/NNP CEO/NNP)   last/JJ   year/NN   Thursday/NNP   ,/,   25/CD   March/NNP   2010/CD   07/CD   :/:   08/CD   (ORGANIZATION OLLI/NNP)   PEKKA/NNP   KALLASVUO/NNP   ,/,   the/DT   (ORGANIZATION CEO/NNP)   of/IN   (GPE Nokia/NNP)   ,/,   received/VBD   a/DT   hefty/JJ   68/CD   per/IN   cent/NN   raise/NN   in/IN   compensation/NN   last/JJ   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   received/VBD   a/DT   hefty/JJ   68/CD   per/IN   cent/NN   raise/NN   in/IN   compensation/NN   last/JJ   year/NN)
+noun phrases to consider:
+	(NOUN million/CD payrise/NN)
+	(NOUN Nokia/NNP CEO/NNP last/JJ year/NN)
+	(NOUN million/CD payrise/NN)
+	(NOUN Nokia/NNP CEO/NNP last/JJ year/NN Thursday/NNP)
+	(NOUN 25/CD March/NNP)
+	(NOUN 08/CD OLLI/NNP PEKKA/NNP KALLASVUO/NNP)
+	(NOUN CEO/NNP)
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+According to information filed with regulators in America, Kallasvuo received 5.3 million euros in pay during 2009, up from 3.2 million the prior year.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('information', 'NN'), ('filed', 'VBN'), ('with', 'IN'), ('regulators', 'NNS'), ('in', 'IN'), ('America', 'NNP'), (',', ','), ('Kallasvuo', 'NNP'), ('received', 'VBD'), ('5.3', 'CD'), ('million', 'CD'), ('euros', 'NNS'), ('in', 'IN'), ('pay', 'NN'), ('during', 'IN'), ('2009', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('3.2', 'CD'), ('million', 'CD'), ('the', 'DT'), ('prior', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   information/NN   filed/VBN   with/IN   regulators/NNS   in/IN   (GPE America/NNP)   ,/,   (PERSON Kallasvuo/NNP)   received/VBD   5.3/CD   million/CD   euros/NNS   in/IN   pay/NN   during/IN   2009/CD   ,/,   up/RB   from/IN   3.2/CD   million/CD   the/DT   prior/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+Last year the total pay for the mobile phone companyâ€™s executive board was 20.4 million euros.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('year', 'NN'), ('the', 'DT'), ('total', 'NN'), ('pay', 'NN'), ('for', 'IN'), ('the', 'DT'), ('mobile', 'JJ'), ('phone', 'NN'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('executive', 'JJ'), ('board', 'NN'), ('was', 'VBD'), ('20.4', 'CD'), ('million', 'CD'), ('euros', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Last/JJ   year/NN   the/DT   total/NN   pay/NN   for/IN   the/DT   mobile/JJ   phone/NN   company/NN   â/:   €/:   ™/:   s/NNS   executive/JJ   board/NN   was/VBD   20.4/CD   million/CD   euros/NNS   ./.)
+----------------------------------
+original sentence: 
+In 2008 the group received 13.7 million.
+
+POS tagged sentence: 
+[('In', 'IN'), ('2008', 'CD'), ('the', 'DT'), ('group', 'NN'), ('received', 'VBD'), ('13.7', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S In/IN 2008/CD the/DT group/NN received/VBD 13.7/CD million/CD ./.)
+----------------------------------
+original sentence: 
+The main reason for the rise in pay was that share based compensation more than doubled.
+
+POS tagged sentence: 
+[('The', 'DT'), ('main', 'JJ'), ('reason', 'NN'), ('for', 'IN'), ('the', 'DT'), ('rise', 'NN'), ('in', 'IN'), ('pay', 'NN'), ('was', 'VBD'), ('that', 'IN'), ('share', 'NN'), ('based', 'VBN'), ('compensation', 'NN'), ('more', 'RBR'), ('than', 'IN'), ('doubled', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   main/JJ   reason/NN   for/IN   the/DT   rise/NN   in/IN   pay/NN   was/VBD   that/IN   share/NN   based/VBN   compensation/NN   more/RBR   than/IN   doubled/VBN   ./.)
+----------------------------------
+original sentence: 
+Nokia did not have a good year.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('did', 'VBD'), ('not', 'RB'), ('have', 'VB'), ('a', 'DT'), ('good', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   did/VBD   not/RB   have/VB   a/DT   good/JJ   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB did/VBD not/RB have/VB a/DT good/JJ year/NN)
+
+tagged sentence:
+	 did not have a good year	res:-1
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+
+----------------------------------
+original sentence: 
+Sales fell 19 per cent and profit plummeted 78 per cent.
+
+POS tagged sentence: 
+[('Sales', 'NNS'), ('fell', 'VBD'), ('19', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('and', 'CC'), ('profit', 'NN'), ('plummeted', 'VBD'), ('78', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sales/NNS)   fell/VBD   19/CD   per/IN   cent/NN   and/CC   profit/NN   plummeted/VBD   78/CD   per/IN   cent/NN   ./.)
+----------------------------------
+original sentence: 
+The total global workforce was cut by 2,276 employees.
+
+POS tagged sentence: 
+[('The', 'DT'), ('total', 'NN'), ('global', 'JJ'), ('workforce', 'NN'), ('was', 'VBD'), ('cut', 'VBN'), ('by', 'IN'), ('2,276', 'CD'), ('employees', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   total/NN   global/JJ   workforce/NN   was/VBD   cut/VBN   by/IN   2,276/CD   employees/NNS   ./.)
+----------------------------------
+original sentence: 
+Investors have suffered as well.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), ('have', 'VBP'), ('suffered', 'VBN'), ('as', 'IN'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Investors/NNS have/VBP suffered/VBN as/IN well/RB ./.)
+----------------------------------
+original sentence: 
+The share price fell 20 per cent during 2009 after a 58 per cent fall in 2008.
+
+POS tagged sentence: 
+[('The', 'DT'), ('share', 'NN'), ('price', 'NN'), ('fell', 'VBD'), ('20', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('during', 'IN'), ('2009', 'CD'), ('after', 'IN'), ('a', 'DT'), ('58', 'CD'), ('per', 'NN'), ('cent', 'NN'), ('fall', 'NN'), ('in', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   share/NN   price/NN   fell/VBD   20/CD   per/IN   cent/NN   during/IN   2009/CD   after/IN   a/DT   58/CD   per/NN   cent/NN   fall/NN   in/IN   2008/CD   ./.)
+----------------------------------
+original sentence: 
+In both years the stock price underperformed the market average, but a strong dividend payout has softened the hit on owners.
+
+POS tagged sentence: 
+[('In', 'IN'), ('both', 'DT'), ('years', 'NNS'), ('the', 'DT'), ('stock', 'NN'), ('price', 'NN'), ('underperformed', 'VBD'), ('the', 'DT'), ('market', 'NN'), ('average', 'NN'), (',', ','), ('but', 'CC'), ('a', 'DT'), ('strong', 'JJ'), ('dividend', 'NN'), ('payout', 'IN'), ('has', 'VBZ'), ('softened', 'VBN'), ('the', 'DT'), ('hit', 'NN'), ('on', 'IN'), ('owners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   both/DT   years/NNS   the/DT   stock/NN   price/NN   underperformed/VBD   the/DT   market/NN   average/NN   ,/,   but/CC   a/DT   strong/JJ   dividend/NN   payout/IN   has/VBZ   softened/VBN   the/DT   hit/NN   on/IN   owners/NNS   ./.)
+----------------------------------
+original sentence: 
+Although Nokia executives enjoyed a healthy rise in compensation last year, they are still paid much less than 2007 levels.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('Nokia', 'NNP'), ('executives', 'NNS'), ('enjoyed', 'VBD'), ('a', 'DT'), ('healthy', 'JJ'), ('rise', 'NN'), ('in', 'IN'), ('compensation', 'NN'), ('last', 'JJ'), ('year', 'NN'), (',', ','), ('they', 'PRP'), ('are', 'VBP'), ('still', 'RB'), ('paid', 'VBN'), ('much', 'RB'), ('less', 'JJR'), ('than', 'IN'), ('2007', 'CD'), ('levels', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   (GPE Nokia/NNP)   executives/NNS   enjoyed/VBD   a/DT   healthy/JJ   rise/NN   in/IN   compensation/NN   last/JJ   year/NN   ,/,   they/PRP   are/VBP   still/RB   paid/VBN   much/RB   less/JJR   than/IN   2007/CD   levels/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   enjoyed/VBD   a/DT   healthy/JJ   rise/NN   in/IN   compensation/NN   last/JJ   year/NN)
+
+tagged sentence:
+	 enjoyed a healthy rise in compensation last year	res:1
+	(VERB   are/VBP   still/RB   paid/VBN   much/RB   less/JJR   than/IN   2007/CD   levels/NNS)
+noun phrases to consider:
+	(NOUN Nokia/NNP executives/NNS)
+
+----------------------------------
+original sentence: 
+That year the CEO earned 8.2 million euros while the total management team took home 33.5 million.
+
+POS tagged sentence: 
+[('That', 'DT'), ('year', 'NN'), ('the', 'DT'), ('CEO', 'NNP'), ('earned', 'VBD'), ('8.2', 'CD'), ('million', 'CD'), ('euros', 'NNS'), ('while', 'IN'), ('the', 'DT'), ('total', 'JJ'), ('management', 'NN'), ('team', 'NN'), ('took', 'VBD'), ('home', 'NN'), ('33.5', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   year/NN   the/DT   (ORGANIZATION CEO/NNP)   earned/VBD   8.2/CD   million/CD   euros/NNS   while/IN   the/DT   total/JJ   management/NN   team/NN   took/VBD   home/NN   33.5/CD   million/CD   ./.)
+----------------------------------
+original sentence: 
+Top executives are usually compensated with a mixed package including a fixed salary, fringe benefits and bonuses.
+
+POS tagged sentence: 
+[('Top', 'NNP'), ('executives', 'NNS'), ('are', 'VBP'), ('usually', 'RB'), ('compensated', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('mixed', 'VBN'), ('package', 'NN'), ('including', 'VBG'), ('a', 'DT'), ('fixed', 'VBN'), ('salary', 'NN'), (',', ','), ('fringe', 'NN'), ('benefits', 'NNS'), ('and', 'CC'), ('bonuses', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Top/NNP   executives/NNS   are/VBP   usually/RB   compensated/VBN   with/IN   a/DT   mixed/VBN   package/NN   including/VBG   a/DT   fixed/VBN   salary/NN   ,/,   fringe/NN   benefits/NNS   and/CC   bonuses/NNS   ./.)
+----------------------------------
+original sentence: 
+Bonuses normally contain payments for reaching both short term and long term goals and are often paid in a mixture of cash, company stock and options.
+
+POS tagged sentence: 
+[('Bonuses', 'NNS'), ('normally', 'RB'), ('contain', 'VBP'), ('payments', 'NNS'), ('for', 'IN'), ('reaching', 'VBG'), ('both', 'DT'), ('short', 'JJ'), ('term', 'NN'), ('and', 'CC'), ('long', 'JJ'), ('term', 'NN'), ('goals', 'NNS'), ('and', 'CC'), ('are', 'VBP'), ('often', 'RB'), ('paid', 'VBN'), ('in', 'IN'), ('a', 'DT'), ('mixture', 'NN'), ('of', 'IN'), ('cash', 'NN'), (',', ','), ('company', 'NN'), ('stock', 'NN'), ('and', 'CC'), ('options', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Bonuses/NNS   normally/RB   contain/VBP   payments/NNS   for/IN   reaching/VBG   both/DT   short/JJ   term/NN   and/CC   long/JJ   term/NN   goals/NNS   and/CC   are/VBP   often/RB   paid/VBN   in/IN   a/DT   mixture/NN   of/IN   cash/NN   ,/,   company/NN   stock/NN   and/CC   options/NNS   ./.)
+----------------------------------
+original sentence: 
+As executives are paid for long term goals, yearly earnings and management pay typically donâ€™t move in tandem.
+
+POS tagged sentence: 
+[('As', 'IN'), ('executives', 'NNS'), ('are', 'VBP'), ('paid', 'VBN'), ('for', 'IN'), ('long', 'RB'), ('term', 'JJ'), ('goals', 'NNS'), (',', ','), ('yearly', 'RB'), ('earnings', 'NNS'), ('and', 'CC'), ('management', 'NN'), ('pay', 'NN'), ('typically', 'RB'), ('don', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('t', 'NN'), ('move', 'NN'), ('in', 'IN'), ('tandem', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   executives/NNS   are/VBP   paid/VBN   for/IN   long/RB   term/JJ   goals/NNS   ,/,   yearly/RB   earnings/NNS   and/CC   management/NN   pay/NN   typically/RB   don/NN   â/:   €/:   ™/:   t/NN   move/NN   in/IN   tandem/NN   ./.)
+----------------------------------
+original sentence: 
+Latest added news and articles
+The week in pictures
+Vilhonvuorenkatu 11 B
+info@helsinkitimes.fi
+This e mail address is being protected from spambots.
+
+POS tagged sentence: 
+[('Latest', 'JJS'), ('added', 'VBD'), ('news', 'NN'), ('and', 'CC'), ('articles', 'NNS'), ('The', 'DT'), ('week', 'NN'), ('in', 'IN'), ('pictures', 'NNS'), ('Vilhonvuorenkatu', 'NNP'), ('11', 'CD'), ('B', 'NNP'), ('info', 'NN'), ('@', ':'), ('helsinkitimes.fi', 'NNP'), ('This', 'NNP'), ('e', 'NN'), ('mail', 'NN'), ('address', 'NN'), ('is', 'VBZ'), ('being', 'VBG'), ('protected', 'VBN'), ('from', 'IN'), ('spambots', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Latest/JJS)   added/VBD   news/NN   and/CC   articles/NNS   The/DT   week/NN   in/IN   pictures/NNS   Vilhonvuorenkatu/NNP   11/CD   B/NNP   info/NN   @/:   helsinkitimes.fi/NNP   This/NNP   e/NN   mail/NN   address/NN   is/VBZ   being/VBG   protected/VBN   from/IN   spambots/NNS   ./.)
+----------------------------------
+original sentence: 
+You need JavaScript enabled to view it Available on annual subscription, and on sale at R kioskis, bookstores and newsstands price â‚¬3 .
+
+POS tagged sentence: 
+[('You', 'PRP'), ('need', 'VBP'), ('JavaScript', 'NNP'), ('enabled', 'VBD'), ('to', 'TO'), ('view', 'VB'), ('it', 'PRP'), ('Available', 'NNP'), ('on', 'IN'), ('annual', 'JJ'), ('subscription', 'NN'), (',', ','), ('and', 'CC'), ('on', 'IN'), ('sale', 'NN'), ('at', 'IN'), ('R', 'NNP'), ('kioskis', 'NNS'), (',', ','), ('bookstores', 'NNS'), ('and', 'CC'), ('newsstands', 'NNS'), ('price', 'NN'), ('\xe2', ':'), ('\x82', ':'), ('\xac', ':'), ('3', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   need/VBP   (ORGANIZATION JavaScript/NNP)   enabled/VBD   to/TO   view/VB   it/PRP   Available/NNP   on/IN   annual/JJ   subscription/NN   ,/,   and/CC   on/IN   sale/NN   at/IN   (ORGANIZATION R/NNP)   kioskis/NNS   ,/,   bookstores/NNS   and/CC   newsstands/NNS   price/NN   â/:   ‚/:   ¬/:   3/CD   ./.)
+----------------------------------
+original sentence: 
+Also available at hotels, tourist offices and airports and on over 350 Finnair flights every week.
+
+POS tagged sentence: 
+[('Also', 'RB'), ('available', 'JJ'), ('at', 'IN'), ('hotels', 'NNS'), (',', ','), ('tourist', 'VBP'), ('offices', 'NNS'), ('and', 'CC'), ('airports', 'NNS'), ('and', 'CC'), ('on', 'IN'), ('over', 'IN'), ('350', 'CD'), ('Finnair', 'NNP'), ('flights', 'NNS'), ('every', 'DT'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   available/JJ   at/IN   hotels/NNS   ,/,   tourist/VBP   offices/NNS   and/CC   airports/NNS   and/CC   on/IN   over/IN   350/CD   Finnair/NNP   flights/NNS   every/DT   week/NN   ./.)
+----------------------------------
+original sentence: 
+Publishing schedule 2010
+Rates and sizes 2010
+Helsinki Times media 2010
+Advertising material requirements
+&copy; Helsinki Times Oy.
+
+POS tagged sentence: 
+[('Publishing', 'NN'), ('schedule', 'NN'), ('2010', 'CD'), ('Rates', 'NNS'), ('and', 'CC'), ('sizes', 'NNS'), ('2010', 'CD'), ('Helsinki', 'NNP'), ('Times', 'NNP'), ('media', 'NNS'), ('2010', 'CD'), ('Advertising', 'NNP'), ('material', 'NN'), ('requirements', 'NNS'), ('&copy', 'JJ'), (';', ':'), ('Helsinki', 'NNP'), ('Times', 'NNP'), ('Oy', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Publishing/NN   schedule/NN   2010/CD   Rates/NNS   and/CC   sizes/NNS   2010/CD   Helsinki/NNP   Times/NNP   media/NNS   2010/CD   Advertising/NNP   material/NN   requirements/NNS   &copy/JJ   ;/:   (PERSON Helsinki/NNP Times/NNP Oy/NNP)   ./.)
+----------------------------------
+original sentence: 
+All Rights Reserved
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN')]
+
+
+ERTAGGED sentence: (S All/DT Rights/NNS Reserved/VBN)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:0

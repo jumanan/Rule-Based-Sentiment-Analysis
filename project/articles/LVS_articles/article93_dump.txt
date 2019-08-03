@@ -1,0 +1,143 @@
+
+----------------------------------
+original sentence: 
+Sands' owner moves up on Forbes billionaires list
+ Of The Morning Call
+Sheldon Adelson, founder of the casino company Las Vegas Sands that owns the Sands Casino Resort Bethlehem, bounced back in the ranks on Forbes magazine's annual list of The World's Billionaires.
+
+POS tagged sentence: 
+[('Sands', 'NNS'), ("'", 'POS'), ('owner', 'NN'), ('moves', 'NNS'), ('up', 'IN'), ('on', 'IN'), ('Forbes', 'NNPS'), ('billionaires', 'NNS'), ('list', 'VBP'), ('Of', 'IN'), ('The', 'DT'), ('Morning', 'NNP'), ('Call', 'NNP'), ('Sheldon', 'NNP'), ('Adelson', 'NNP'), (',', ','), ('founder', 'NN'), ('of', 'IN'), ('the', 'DT'), ('casino', 'NN'), ('company', 'NN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('that', 'IN'), ('owns', 'NNS'), ('the', 'DT'), ('Sands', 'NNS'), ('Casino', 'NNP'), ('Resort', 'NNP'), ('Bethlehem', 'NNP'), (',', ','), ('bounced', 'VBD'), ('back', 'RP'), ('in', 'IN'), ('the', 'DT'), ('ranks', 'NNS'), ('on', 'IN'), ('Forbes', 'NNP'), ('magazine', 'NN'), ("'s", 'POS'), ('annual', 'JJ'), ('list', 'NN'), ('of', 'IN'), ('The', 'DT'), ('World', 'NNP'), ("'s", 'POS'), ('Billionaires', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sands/NNS)   '/POS   owner/NN   moves/NNS   up/IN   on/IN   (ORGANIZATION Forbes/NNPS)   billionaires/NNS   list/VBP   Of/IN   The/DT   Morning/NNP   Call/NNP   Sheldon/NNP   (PERSON Adelson/NNP)   ,/,   founder/NN   of/IN   the/DT   casino/NN   company/NN   (PERSON Las/NNP Vegas/NNP Sands/NNPS)   that/IN   owns/NNS   the/DT   (ORGANIZATION Sands/NNS Casino/NNP Resort/NNP Bethlehem/NNP)   ,/,   bounced/VBD   back/RP   in/IN   the/DT   ranks/NNS   on/IN   (ORGANIZATION Forbes/NNP)   magazine/NN   's/POS   annual/JJ   list/NN   of/IN   The/DT   (ORGANIZATION World/NNP)   's/POS   (PERSON Billionaires/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   list/VBP   Of/IN   The/DT   Morning/NNP   Call/NNP   Sheldon/NNP   Adelson/NNP)
+	(VERB bounced/VBD)
+noun phrases to consider:
+	(NOUN Sands/NNS)
+	(NOUN owner/NN moves/NNS)
+	(NOUN Forbes/NNPS billionaires/NNS)
+	(NOUN founder/NN)
+	(NOUN casino/NN company/NN Las/NNP Vegas/NNP)
+	(NOUN Sands/NNPS)
+	(NOUN owns/NNS)
+	(NOUN Sands/NNS Casino/NNP Resort/NNP Bethlehem/NNP)
+	(NOUN ranks/NNS)
+	(NOUN Forbes/NNP magazine/NN)
+	(NOUN annual/JJ list/NN)
+	(NOUN World/NNP)
+	(NOUN Billionaires/NNP)
+
+----------------------------------
+original sentence: 
+But Chicago real estate investor Sam Zell, who in 2007 took The Morning Call's parent Tribune Co. private in a transaction that resulted in bankruptcy, continued his downward slide on the list of the world's wealthiest people.
+
+POS tagged sentence: 
+[('But', 'CC'), ('Chicago', 'NNP'), ('real', 'JJ'), ('estate', 'NN'), ('investor', 'NN'), ('Sam', 'NNP'), ('Zell', 'NNP'), (',', ','), ('who', 'WP'), ('in', 'IN'), ('2007', 'CD'), ('took', 'VBD'), ('The', 'DT'), ('Morning', 'NNP'), ('Call', 'NNP'), ("'s", 'POS'), ('parent', 'NN'), ('Tribune', 'NNP'), ('Co.', 'NNP'), ('private', 'JJ'), ('in', 'IN'), ('a', 'DT'), ('transaction', 'NN'), ('that', 'WDT'), ('resulted', 'VBN'), ('in', 'IN'), ('bankruptcy', 'NN'), (',', ','), ('continued', 'VBD'), ('his', 'PRP$'), ('downward', 'NN'), ('slide', 'NN'), ('on', 'IN'), ('the', 'DT'), ('list', 'NN'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('wealthiest', 'NN'), ('people', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (GPE Chicago/NNP)   real/JJ   estate/NN   investor/NN   (PERSON Sam/NNP Zell/NNP)   ,/,   who/WP   in/IN   2007/CD   took/VBD   The/DT   Morning/NNP   Call/NNP   's/POS   parent/NN   (PERSON Tribune/NNP)   Co./NNP   private/JJ   in/IN   a/DT   transaction/NN   that/WDT   resulted/VBN   in/IN   bankruptcy/NN   ,/,   continued/VBD   his/PRP$   downward/NN   slide/NN   on/IN   the/DT   list/NN   of/IN   the/DT   world/NN   's/POS   wealthiest/NN   people/NNS   ./.)
+----------------------------------
+original sentence: 
+Adelson's 2010 wealth ballooned to $9.3 billion, ranking him 73 on the Forbes list.
+
+POS tagged sentence: 
+[('Adelson', 'NNP'), ("'s", 'POS'), ('2010', 'CD'), ('wealth', 'NN'), ('ballooned', 'VBD'), ('to', 'TO'), ('$', '$'), ('9.3', 'CD'), ('billion', 'CD'), (',', ','), ('ranking', 'VBG'), ('him', 'PRP'), ('73', 'CD'), ('on', 'IN'), ('the', 'DT'), ('Forbes', 'NNP'), ('list', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Adelson/NNP)   's/POS   2010/CD   wealth/NN   ballooned/VBD   to/TO   $/$   9.3/CD   billion/CD   ,/,   ranking/VBG   him/PRP   73/CD   on/IN   the/DT   (ORGANIZATION Forbes/NNP)   list/NN   ./.)
+----------------------------------
+original sentence: 
+That's up from a 2009 net worth of $3.9 million and a rank of 178, a year when the value of Las Vegas Sands plummeted, according to Forbes.
+
+POS tagged sentence: 
+[('That', 'DT'), ("'s", 'VBZ'), ('up', 'RP'), ('from', 'IN'), ('a', 'DT'), ('2009', 'CD'), ('net', 'JJ'), ('worth', 'NN'), ('of', 'IN'), ('$', '$'), ('3.9', 'CD'), ('million', 'CD'), ('and', 'CC'), ('a', 'DT'), ('rank', 'NN'), ('of', 'IN'), ('178', 'CD'), (',', ','), ('a', 'DT'), ('year', 'NN'), ('when', 'WRB'), ('the', 'DT'), ('value', 'NN'), ('of', 'IN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('plummeted', 'VBD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Forbes', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   That/DT   's/VBZ   up/RP   from/IN   a/DT   2009/CD   net/JJ   worth/NN   of/IN   $/$   3.9/CD   million/CD   and/CC   a/DT   rank/NN   of/IN   178/CD   ,/,   a/DT   year/NN   when/WRB   the/DT   value/NN   of/IN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS)   plummeted/VBD   ,/,   according/VBG   to/TO   (GPE Forbes/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB 's/VBZ)
+	(VERB plummeted/VBD)
+	(VERB according/VBG to/TO Forbes/NNP)
+noun phrases to consider:
+	(NOUN a/DT 2009/CD net/JJ worth/NN)
+	(NOUN rank/NN)
+	(NOUN year/NN)
+	(NOUN value/NN)
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS)
+
+----------------------------------
+original sentence: 
+Zell's 2010 wealth climbed to $3.8 billion, compared to $3 billion in 2009, according to Forbes.
+
+POS tagged sentence: 
+[('Zell', 'NNP'), ("'s", 'POS'), ('2010', 'CD'), ('wealth', 'NN'), ('climbed', 'VBD'), ('to', 'TO'), ('$', '$'), ('3.8', 'CD'), ('billion', 'CD'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('$', '$'), ('3', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Forbes', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Zell/NNP)   's/POS   2010/CD   wealth/NN   climbed/VBD   to/TO   $/$   3.8/CD   billion/CD   ,/,   compared/VBN   to/TO   $/$   3/CD   billion/CD   in/IN   2009/CD   ,/,   according/VBG   to/TO   (GPE Forbes/NNP)   ./.)
+----------------------------------
+original sentence: 
+But his 2010 rank slipped to 237 from 205 in 2009, according to Forbes.
+
+POS tagged sentence: 
+[('But', 'CC'), ('his', 'PRP$'), ('2010', 'CD'), ('rank', 'NN'), ('slipped', 'VBD'), ('to', 'TO'), ('237', 'CD'), ('from', 'IN'), ('205', 'CD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Forbes', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   his/PRP$   2010/CD   rank/NN   slipped/VBD   to/TO   237/CD   from/IN   205/CD   in/IN   2009/CD   ,/,   according/VBG   to/TO   (GPE Forbes/NNP)   ./.)
+----------------------------------
+original sentence: 
+The number of billionaires climbed to 1,011, up from 793 in 2009, according to Forbes.
+
+POS tagged sentence: 
+[('The', 'DT'), ('number', 'NN'), ('of', 'IN'), ('billionaires', 'NNS'), ('climbed', 'VBN'), ('to', 'TO'), ('1,011', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('793', 'CD'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Forbes', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   number/NN   of/IN   billionaires/NNS   climbed/VBN   to/TO   1,011/CD   ,/,   up/RB   from/IN   793/CD   in/IN   2009/CD   ,/,   according/VBG   to/TO   (GPE Forbes/NNP)   ./.)
+----------------------------------
+original sentence: 
+So Zell slipped as the field of billionaires grew.
+
+POS tagged sentence: 
+[('So', 'IN'), ('Zell', 'NNP'), ('slipped', 'VBD'), ('as', 'IN'), ('the', 'DT'), ('field', 'NN'), ('of', 'IN'), ('billionaires', 'NNS'), ('grew', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   (PERSON Zell/NNP)   slipped/VBD   as/IN   the/DT   field/NN   of/IN   billionaires/NNS   grew/VBD   ./.)
+----------------------------------
+original sentence: 
+The world's richest person in 2010, according to Forbes, is Mexican telecom entrepreneur Carlos Slim Helu, with a net worth of $53.5 billion.
+
+POS tagged sentence: 
+[('The', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('richest', 'NN'), ('person', 'NN'), ('in', 'IN'), ('2010', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Forbes', 'NNP'), (',', ','), ('is', 'VBZ'), ('Mexican', 'NNP'), ('telecom', 'NN'), ('entrepreneur', 'NN'), ('Carlos', 'NNP'), ('Slim', 'NNP'), ('Helu', 'NNP'), (',', ','), ('with', 'IN'), ('a', 'DT'), ('net', 'JJ'), ('worth', 'NN'), ('of', 'IN'), ('$', '$'), ('53.5', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   world/NN   's/POS   richest/NN   person/NN   in/IN   2010/CD   ,/,   according/VBG   to/TO   (GPE Forbes/NNP)   ,/,   is/VBZ   (GPE Mexican/NNP)   telecom/NN   entrepreneur/NN   (PERSON Carlos/NNP Slim/NNP Helu/NNP)   ,/,   with/IN   a/DT   net/JJ   worth/NN   of/IN   $/$   53.5/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+It is the first time since 1994 that the a non U.S. billionaire was ranked the world's wealthiest person by the magazine.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('the', 'DT'), ('first', 'JJ'), ('time', 'NN'), ('since', 'IN'), ('1994', 'CD'), ('that', 'WDT'), ('the', 'DT'), ('a', 'DT'), ('non', 'NN'), ('U.S.', 'NNP'), ('billionaire', 'NN'), ('was', 'VBD'), ('ranked', 'VBN'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('wealthiest', 'NN'), ('person', 'NN'), ('by', 'IN'), ('the', 'DT'), ('magazine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   the/DT   first/JJ   time/NN   since/IN   1994/CD   that/WDT   the/DT   a/DT   non/NN   (GPE U.S./NNP)   billionaire/NN   was/VBD   ranked/VBN   the/DT   world/NN   's/POS   wealthiest/NN   person/NN   by/IN   the/DT   magazine/NN   ./.)
+----------------------------------
+original sentence: 
+View full article by default
+ &lt;&lt; Previous Article  Next Article &gt;&gt; Back to Breaking News Copyright &copy; 2010 The Morning Call.
+
+POS tagged sentence: 
+[('View', 'NNP'), ('full', 'JJ'), ('article', 'NN'), ('by', 'IN'), ('default', 'NN'), ('&lt', 'JJ'), (';', ':'), ('&lt', 'JJ'), (';', ':'), ('Previous', 'JJ'), ('Article', 'NNP'), ('Next', 'NNP'), ('Article', 'NNP'), ('&gt', 'NNP'), (';', ':'), ('&gt', 'JJ'), (';', ':'), ('Back', 'NNP'), ('to', 'TO'), ('Breaking', 'NNP'), ('News', 'NNP'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), ('The', 'DT'), ('Morning', 'NNP'), ('Call', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP View/NNP)   full/JJ   article/NN   by/IN   default/NN   &lt/JJ   ;/:   &lt/JJ   ;/:   Previous/JJ   (PERSON Article/NNP Next/NNP Article/NNP)   &gt/NNP   ;/:   &gt/JJ   ;/:   Back/NNP   to/TO   (ORGANIZATION Breaking/NNP News/NNP Copyright/NNP)   &copy/NNP   ;/:   2010/CD   The/DT   Morning/NNP   Call/NNP   ./.)
+----------------------------------
+original sentence: 
+Made Mobile by Starcut 
+
+POS tagged sentence: 
+[('Made', 'NNP'), ('Mobile', 'NNP'), ('by', 'IN'), ('Starcut', 'NNP')]
+
+
+ERTAGGED sentence: (S (PERSON Made/NNP) Mobile/NNP by/IN (PERSON Starcut/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

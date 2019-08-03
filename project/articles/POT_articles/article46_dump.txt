@@ -1,0 +1,126 @@
+
+----------------------------------
+original sentence: 
+Market Roundup POT, MOS, AGU, AAUKY.PK, XSRAF.PK, BHP, SVU, TM | Benzinga.com
+Market Roundup POT, MOS, AGU, AAUKY.PK, XSRAF.PK, BHP, SVU, TM Recent Articles by Monica Gerson
+Posted on 03/12/10 at 2:44pm by Potash makers have jumped today after Potash Corp NYSE:  projected a sharp rise in demand for the soil nutrient this year.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Roundup', 'NNP'), ('POT', 'NNP'), (',', ','), ('MOS', 'NNP'), (',', ','), ('AGU', 'NNP'), (',', ','), ('AAUKY.PK', 'NNP'), (',', ','), ('XSRAF.PK', 'NNP'), (',', ','), ('BHP', 'NNP'), (',', ','), ('SVU', 'NNP'), (',', ','), ('TM', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Market', 'NNP'), ('Roundup', 'NNP'), ('POT', 'NNP'), (',', ','), ('MOS', 'NNP'), (',', ','), ('AGU', 'NNP'), (',', ','), ('AAUKY.PK', 'NNP'), (',', ','), ('XSRAF.PK', 'NNP'), (',', ','), ('BHP', 'NNP'), (',', ','), ('SVU', 'NNP'), (',', ','), ('TM', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Monica', 'NNP'), ('Gerson', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/12/10', 'CD'), ('at', 'IN'), ('2', 'CD'), (':', ':'), ('44pm', 'CD'), ('by', 'IN'), ('Potash', 'NNP'), ('makers', 'NNS'), ('have', 'VBP'), ('jumped', 'VBN'), ('today', 'NN'), ('after', 'IN'), ('Potash', 'NNP'), ('Corp', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('projected', 'VBD'), ('a', 'DT'), ('sharp', 'JJ'), ('rise', 'NN'), ('in', 'IN'), ('demand', 'NN'), ('for', 'IN'), ('the', 'DT'), ('soil', 'NN'), ('nutrient', 'NN'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Market/NN)   (PERSON Roundup/NNP POT/NNP)   ,/,   (ORGANIZATION MOS/NNP)   ,/,   (ORGANIZATION AGU/NNP)   ,/,   AAUKY.PK/NNP   ,/,   XSRAF.PK/NNP   ,/,   (ORGANIZATION BHP/NNP)   ,/,   (ORGANIZATION SVU/NNP)   ,/,   (ORGANIZATION TM/NNP)   |/NNP   Benzinga.com/NNP   (PERSON Market/NNP Roundup/NNP POT/NNP)   ,/,   (ORGANIZATION MOS/NNP)   ,/,   (ORGANIZATION AGU/NNP)   ,/,   AAUKY.PK/NNP   ,/,   XSRAF.PK/NNP   ,/,   (ORGANIZATION BHP/NNP)   ,/,   (ORGANIZATION SVU/NNP)   ,/,   (ORGANIZATION TM/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Monica/NNP Gerson/NNP Posted/NNP)   on/IN   03/12/10/CD   at/IN   2/CD   :/:   44pm/CD   by/IN   (ORGANIZATION Potash/NNP)   makers/NNS   have/VBP   jumped/VBN   today/NN   after/IN   (PERSON Potash/NNP Corp/NNP)   NYSE/NNP   :/:   projected/VBD   a/DT   sharp/JJ   rise/NN   in/IN   demand/NN   for/IN   the/DT   soil/NN   nutrient/NN   this/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   have/VBP   jumped/VBN   today/NN   after/IN   Potash/NNP   Corp/NNP   NYSE/NNP)
+
+tagged sentence:
+	 have jumped today after Potash Corp NYSE	res:1
+	(VERB   projected/VBD   a/DT   sharp/JJ   rise/NN   in/IN   demand/NN   for/IN   the/DT   soil/NN   nutrient/NN   this/DT   year/NN)
+noun phrases to consider:
+	(NOUN Market/NN Roundup/NNP POT/NNP)
+	(NOUN MOS/NNP)
+	(NOUN AGU/NNP)
+	(NOUN AAUKY.PK/NNP)
+	(NOUN XSRAF.PK/NNP)
+	(NOUN BHP/NNP)
+	(NOUN SVU/NNP)
+	(NOUN TM/NNP |/NNP Benzinga.com/NNP Market/NNP)
+	(NOUN Roundup/NNP POT/NNP)
+	(NOUN MOS/NNP)
+	(NOUN AGU/NNP)
+	(NOUN AAUKY.PK/NNP)
+	(NOUN XSRAF.PK/NNP)
+	(NOUN BHP/NNP)
+	(NOUN SVU/NNP)
+	(NOUN TM/NNP Recent/NNP Articles/NNP)
+	(NOUN Monica/NNP Gerson/NNP Posted/NNP)
+	(NOUN Potash/NNP makers/NNS)
+
+----------------------------------
+original sentence: 
+POT expects record North American sales and strong exports during the current quarter.
+
+POS tagged sentence: 
+[('POT', 'NN'), ('expects', 'VBZ'), ('record', 'NN'), ('North', 'NNP'), ('American', 'NNP'), ('sales', 'NNS'), ('and', 'CC'), ('strong', 'JJ'), ('exports', 'NNS'), ('during', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION POT/NN)   expects/VBZ   record/NN   (LOCATION North/NNP American/NNP)   sales/NNS   and/CC   strong/JJ   exports/NNS   during/IN   the/DT   current/JJ   quarter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB expects/VBZ record/NN North/NNP American/NNP sales/NNS)
+noun phrases to consider:
+	(NOUN POT/NN)
+	(NOUN strong/JJ exports/NNS)
+	(NOUN the/DT current/JJ quarter/NN)
+
+----------------------------------
+original sentence: 
+The news has also driven up Agrium NYSE:  and Mosaic Company NYSE: Surging demand and prices in Asia has prompted BHP Billiton NYSE:  , Anglo American OTC: AAUKY.PK and Xstrata OTC: XSRAF.PK to ship coal to China from their Colombian mine.
+
+POS tagged sentence: 
+[('The', 'DT'), ('news', 'NN'), ('has', 'VBZ'), ('also', 'RB'), ('driven', 'VBN'), ('up', 'RP'), ('Agrium', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('and', 'CC'), ('Mosaic', 'NNP'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('Surging', 'NNP'), ('demand', 'NN'), ('and', 'CC'), ('prices', 'NNS'), ('in', 'IN'), ('Asia', 'NNP'), ('has', 'VBZ'), ('prompted', 'VBN'), ('BHP', 'NNP'), ('Billiton', 'NNP'), ('NYSE', 'NNP'), (':', ':'), (',', ','), ('Anglo', 'NNP'), ('American', 'NNP'), ('OTC', 'NNP'), (':', ':'), ('AAUKY.PK', 'JJ'), ('and', 'CC'), ('Xstrata', 'NNP'), ('OTC', 'NNP'), (':', ':'), ('XSRAF.PK', 'JJ'), ('to', 'TO'), ('ship', 'NN'), ('coal', 'NN'), ('to', 'TO'), ('China', 'NNP'), ('from', 'IN'), ('their', 'PRP$'), ('Colombian', 'JJ'), ('mine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   news/NN   has/VBZ   also/RB   driven/VBN   up/RP   (PERSON Agrium/NNP NYSE/NNP)   :/:   and/CC   (ORGANIZATION Mosaic/NNP Company/NNP)   NYSE/NNP   :/:   Surging/NNP   demand/NN   and/CC   prices/NNS   in/IN   (GPE Asia/NNP)   has/VBZ   prompted/VBN   (ORGANIZATION BHP/NNP Billiton/NNP)   NYSE/NNP   :/:   ,/,   (PERSON Anglo/NNP American/NNP)   OTC/NNP   :/:   AAUKY.PK/JJ   and/CC   (PERSON Xstrata/NNP OTC/NNP)   :/:   XSRAF.PK/JJ   to/TO   ship/NN   coal/NN   to/TO   (GPE China/NNP)   from/IN   their/PRP$   (GPE Colombian/JJ)   mine/NN   ./.)
+----------------------------------
+original sentence: 
+The joint venture may also enter the Indian market this year.
+
+POS tagged sentence: 
+[('The', 'DT'), ('joint', 'JJ'), ('venture', 'NN'), ('may', 'MD'), ('also', 'RB'), ('enter', 'VB'), ('the', 'DT'), ('Indian', 'NNP'), ('market', 'NN'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   joint/JJ   venture/NN   may/MD   also/RB   enter/VB   the/DT   (GPE Indian/NNP)   market/NN   this/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+shares received a boost following rumors of a leveraged buyout.
+
+POS tagged sentence: 
+[('shares', 'NNS'), ('received', 'VBD'), ('a', 'DT'), ('boost', 'NN'), ('following', 'VBG'), ('rumors', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('leveraged', 'JJ'), ('buyout', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   shares/NNS   received/VBD   a/DT   boost/NN   following/VBG   rumors/NNS   of/IN   a/DT   leveraged/JJ   buyout/NN   ./.)
+----------------------------------
+original sentence: 
+The stock soared as much as 11% before settling back when traders failed to find the source of the rumor.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('soared', 'VBD'), ('as', 'IN'), ('much', 'JJ'), ('as', 'IN'), ('11', 'CD'), ('%', 'NN'), ('before', 'IN'), ('settling', 'NN'), ('back', 'RB'), ('when', 'WRB'), ('traders', 'NNS'), ('failed', 'VBD'), ('to', 'TO'), ('find', 'VB'), ('the', 'DT'), ('source', 'NN'), ('of', 'IN'), ('the', 'DT'), ('rumor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   soared/VBD   as/IN   much/JJ   as/IN   11/CD   %/NN   before/IN   settling/NN   back/RB   when/WRB   traders/NNS   failed/VBD   to/TO   find/VB   the/DT   source/NN   of/IN   the/DT   rumor/NN   ./.)
+----------------------------------
+original sentence: 
+US sales have bounced back due to its 0% incentive plan.
+
+POS tagged sentence: 
+[('US', 'PRP'), ('sales', 'NNS'), ('have', 'VBP'), ('bounced', 'VBN'), ('back', 'RP'), ('due', 'JJ'), ('to', 'TO'), ('its', 'PRP$'), ('0', '-NONE-'), ('%', 'NN'), ('incentive', 'NN'), ('plan', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GSP US/PRP)   sales/NNS   have/VBP   bounced/VBN   back/RP   due/JJ   to/TO   its/PRP$   0/-NONE-   %/NN   incentive/NN   plan/NN   ./.)
+----------------------------------
+original sentence: 
+The plan has lifted TM‚Äôs market share from 12.8% to 16.8%.
+
+POS tagged sentence: 
+[('The', 'DT'), ('plan', 'NN'), ('has', 'VBZ'), ('lifted', 'VBN'), ('TM', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('market', 'NN'), ('share', 'NN'), ('from', 'IN'), ('12.8', 'CD'), ('%', 'NN'), ('to', 'TO'), ('16.8', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   plan/NN   has/VBZ   lifted/VBN   (ORGANIZATION TM/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   market/NN   share/NN   from/IN   12.8/CD   %/NN   to/TO   16.8/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+According to a report on Edmunds, ‚ÄúToyota‚Äôs daily retail sales rate is running at about 47% higher than that of the same period last year and about 71% higher than that of last month.‚Äù
+More Analyst Ratings here
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('report', 'NN'), ('on', 'IN'), ('Edmunds', 'NNS'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('Toyota', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('daily', 'RB'), ('retail', 'JJ'), ('sales', 'NNS'), ('rate', 'NN'), ('is', 'VBZ'), ('running', 'VBG'), ('at', 'IN'), ('about', 'IN'), ('47', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('that', 'DT'), ('of', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('last', 'JJ'), ('year', 'NN'), ('and', 'CC'), ('about', 'IN'), ('71', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('than', 'IN'), ('that', 'DT'), ('of', 'IN'), ('last', 'JJ'), ('month.', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('More', 'NNP'), ('Analyst', 'NNP'), ('Ratings', 'NNP'), ('here', 'RB'), ('Bookmark/Search', 'JJ'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   a/DT   report/NN   on/IN   Edmunds/NNS   ,/,   ‚/:   Ä/:   ú/:   (PERSON Toyota/NNP)   ‚/:   Ä/:   ô/:   s/NNS   daily/RB   retail/JJ   sales/NNS   rate/NN   is/VBZ   running/VBG   at/IN   about/IN   47/CD   %/NN   higher/JJR   than/IN   that/DT   of/IN   the/DT   same/JJ   period/NN   last/JJ   year/NN   and/CC   about/IN   71/CD   %/NN   higher/JJR   than/IN   that/DT   of/IN   last/JJ   month./NNP   ‚/NNP   Ä/NNP   ù/NNP   More/NNP   Analyst/NNP   Ratings/NNP   here/RB   Bookmark/Search/JJ   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

@@ -1,0 +1,83 @@
+
+----------------------------------
+original sentence: 
+
+Stock Market Surveillance | Candlestick Analysis | Trading
+
+Comtex SmarTrend Alert
+ Stock Market Surveillance Puts You on Alert
+ articles highlight any significant changes in stock price or volume using technical analysis in conjunction with proprietary trend analysis.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Market', 'NN'), ('Surveillance', 'NNP'), ('|', 'NNP'), ('Candlestick', 'NNP'), ('Analysis', 'NNP'), ('|', 'NNP'), ('Trading', 'NNP'), ('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Surveillance', 'NNP'), ('Puts', 'NNPS'), ('You', 'NNP'), ('on', 'IN'), ('Alert', 'NNP'), ('articles', 'NNS'), ('highlight', 'VBD'), ('any', 'DT'), ('significant', 'JJ'), ('changes', 'NNS'), ('in', 'IN'), ('stock', 'NN'), ('price', 'NN'), ('or', 'CC'), ('volume', 'NN'), ('using', 'VBG'), ('technical', 'JJ'), ('analysis', 'NN'), ('in', 'IN'), ('conjunction', 'NN'), ('with', 'IN'), ('proprietary', 'JJ'), ('trend', 'NN'), ('analysis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Market/NN Surveillance/NNP)   |/NNP   Candlestick/NNP   Analysis/NNP   |/NNP   Trading/NNP   Comtex/NNP   SmarTrend/NNP   (PERSON Alert/NNP Stock/NNP Market/NNP Surveillance/NNP)   Puts/NNPS   You/NNP   on/IN   (PERSON Alert/NNP)   articles/NNS   highlight/VBD   any/DT   significant/JJ   changes/NNS   in/IN   stock/NN   price/NN   or/CC   volume/NN   using/VBG   technical/JJ   analysis/NN   in/IN   conjunction/NN   with/IN   proprietary/JJ   trend/NN   analysis/NN   ./.)
+----------------------------------
+original sentence: 
+These articles cover such technical analysis components as candlestick analysis, moving average crossovers, market movers and pivot points.
+
+POS tagged sentence: 
+[('These', 'DT'), ('articles', 'NNS'), ('cover', 'VBP'), ('such', 'JJ'), ('technical', 'JJ'), ('analysis', 'NN'), ('components', 'NNS'), ('as', 'IN'), ('candlestick', 'NN'), ('analysis', 'NN'), (',', ','), ('moving', 'VBG'), ('average', 'NN'), ('crossovers', 'NNS'), (',', ','), ('market', 'NN'), ('movers', 'NNS'), ('and', 'CC'), ('pivot', 'NN'), ('points', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   articles/NNS   cover/VBP   such/JJ   technical/JJ   analysis/NN   components/NNS   as/IN   candlestick/NN   analysis/NN   ,/,   moving/VBG   average/NN   crossovers/NNS   ,/,   market/NN   movers/NNS   and/CC   pivot/NN   points/NNS   ./.)
+----------------------------------
+original sentence: 
+Candlestick Analysis & Trading
+ charts utilize candlesticks which allow for improved technical candlestick analysis
+ subscriber, you can create a portfolio or Watchlist and receive instant email alerts when one of the securities you are watching changes its trend.
+
+POS tagged sentence: 
+[('Candlestick', 'NNP'), ('Analysis', 'NNP'), ('&', 'CC'), ('Trading', 'NNP'), ('charts', 'NNS'), ('utilize', 'VBP'), ('candlesticks', 'NNS'), ('which', 'WDT'), ('allow', 'VBP'), ('for', 'IN'), ('improved', 'VBN'), ('technical', 'JJ'), ('candlestick', 'NN'), ('analysis', 'NN'), ('subscriber', 'NN'), (',', ','), ('you', 'PRP'), ('can', 'MD'), ('create', 'VB'), ('a', 'DT'), ('portfolio', 'NN'), ('or', 'CC'), ('Watchlist', 'NNP'), ('and', 'CC'), ('receive', 'JJ'), ('instant', 'NN'), ('email', 'NN'), ('alerts', 'NNS'), ('when', 'WRB'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('securities', 'NNS'), ('you', 'PRP'), ('are', 'VBP'), ('watching', 'VBG'), ('changes', 'NNS'), ('its', 'PRP$'), ('trend', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Candlestick/NNP)   (ORGANIZATION Analysis/NNP)   &/CC   Trading/NNP   charts/NNS   utilize/VBP   candlesticks/NNS   which/WDT   allow/VBP   for/IN   improved/VBN   technical/JJ   candlestick/NN   analysis/NN   subscriber/NN   ,/,   you/PRP   can/MD   create/VB   a/DT   portfolio/NN   or/CC   (ORGANIZATION Watchlist/NNP)   and/CC   receive/JJ   instant/NN   email/NN   alerts/NNS   when/WRB   one/CD   of/IN   the/DT   securities/NNS   you/PRP   are/VBP   watching/VBG   changes/NNS   its/PRP$   trend/NN   ./.)
+----------------------------------
+original sentence: 
+The daily candlestick line contains the market's open, high, low and close of a specific day.
+
+POS tagged sentence: 
+[('The', 'DT'), ('daily', 'JJ'), ('candlestick', 'NN'), ('line', 'NN'), ('contains', 'VBZ'), ('the', 'DT'), ('market', 'NN'), ("'s", 'POS'), ('open', 'JJ'), (',', ','), ('high', 'JJ'), (',', ','), ('low', 'JJ'), ('and', 'CC'), ('close', 'JJ'), ('of', 'IN'), ('a', 'DT'), ('specific', 'JJ'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   daily/JJ   candlestick/NN   line/NN   contains/VBZ   the/DT   market/NN   's/POS   open/JJ   ,/,   high/JJ   ,/,   low/JJ   and/CC   close/JJ   of/IN   a/DT   specific/JJ   day/NN   ./.)
+----------------------------------
+original sentence: 
+You can mouse over the data on the chart which will bring up a box with daily price including open, high, low, close , volume data, and the 50 day and 200 day moving averages.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('mouse', 'VB'), ('over', 'IN'), ('the', 'DT'), ('data', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('chart', 'NN'), ('which', 'WDT'), ('will', 'MD'), ('bring', 'VB'), ('up', 'RP'), ('a', 'DT'), ('box', 'NN'), ('with', 'IN'), ('daily', 'JJ'), ('price', 'NN'), ('including', 'VBG'), ('open', 'JJ'), (',', ','), ('high', 'JJ'), (',', ','), ('low', 'JJ'), (',', ','), ('close', 'JJ'), (',', ','), ('volume', 'NN'), ('data', 'NNS'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('50', 'CD'), ('day', 'NN'), ('and', 'CC'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('averages', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   mouse/VB   over/IN   the/DT   data/NNS   on/IN   the/DT   chart/NN   which/WDT   will/MD   bring/VB   up/RP   a/DT   box/NN   with/IN   daily/JJ   price/NN   including/VBG   open/JJ   ,/,   high/JJ   ,/,   low/JJ   ,/,   close/JJ   ,/,   volume/NN   data/NNS   ,/,   and/CC   the/DT   50/CD   day/NN   and/CC   200/CD   day/NN   moving/VBG   averages/NNS   ./.)
+----------------------------------
+original sentence: 
+Candlesticks help traders to gauge the emotions surrounding a stock, and thus make better predictions about where that stock might be headed and then  Analytics Group, our research staff, and our news editors report on potentially market moving events, including upgrades and downgrades, and provide daily market analysis and commentary.
+
+POS tagged sentence: 
+[('Candlesticks', 'NNS'), ('help', 'VBP'), ('traders', 'NNS'), ('to', 'TO'), ('gauge', 'VB'), ('the', 'DT'), ('emotions', 'NNS'), ('surrounding', 'VBG'), ('a', 'DT'), ('stock', 'NN'), (',', ','), ('and', 'CC'), ('thus', 'RB'), ('make', 'VB'), ('better', 'JJR'), ('predictions', 'NNS'), ('about', 'IN'), ('where', 'WRB'), ('that', 'IN'), ('stock', 'NN'), ('might', 'MD'), ('be', 'VB'), ('headed', 'VBN'), ('and', 'CC'), ('then', 'RB'), ('Analytics', 'NNP'), ('Group', 'NNP'), (',', ','), ('our', 'PRP$'), ('research', 'NN'), ('staff', 'NN'), (',', ','), ('and', 'CC'), ('our', 'PRP$'), ('news', 'NN'), ('editors', 'NNS'), ('report', 'NN'), ('on', 'IN'), ('potentially', 'RB'), ('market', 'NN'), ('moving', 'VBG'), ('events', 'NNS'), (',', ','), ('including', 'VBG'), ('upgrades', 'NNS'), ('and', 'CC'), ('downgrades', 'NNS'), (',', ','), ('and', 'CC'), ('provide', 'VB'), ('daily', 'JJ'), ('market', 'NN'), ('analysis', 'NN'), ('and', 'CC'), ('commentary', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Candlesticks/NNS   help/VBP   traders/NNS   to/TO   gauge/VB   the/DT   emotions/NNS   surrounding/VBG   a/DT   stock/NN   ,/,   and/CC   thus/RB   make/VB   better/JJR   predictions/NNS   about/IN   where/WRB   that/IN   stock/NN   might/MD   be/VB   headed/VBN   and/CC   then/RB   (PERSON Analytics/NNP Group/NNP)   ,/,   our/PRP$   research/NN   staff/NN   ,/,   and/CC   our/PRP$   news/NN   editors/NNS   report/NN   on/IN   potentially/RB   market/NN   moving/VBG   events/NNS   ,/,   including/VBG   upgrades/NNS   and/CC   downgrades/NNS   ,/,   and/CC   provide/VB   daily/JJ   market/NN   analysis/NN   and/CC   commentary/JJ   ./.)
+----------------------------------
+original sentence: 
+You always get the latest stock market news and unique, insightful stock market analysis from the Take the guesswork and emotions out of stock market surveillance, candlestick analysis and trading with our market surveillance reports.
+
+POS tagged sentence: 
+[('You', 'PRP'), ('always', 'RB'), ('get', 'VB'), ('the', 'DT'), ('latest', 'JJS'), ('stock', 'NN'), ('market', 'NN'), ('news', 'NN'), ('and', 'CC'), ('unique', 'JJ'), (',', ','), ('insightful', 'JJ'), ('stock', 'NN'), ('market', 'NN'), ('analysis', 'NN'), ('from', 'IN'), ('the', 'DT'), ('Take', 'NNP'), ('the', 'DT'), ('guesswork', 'NN'), ('and', 'CC'), ('emotions', 'NNS'), ('out', 'IN'), ('of', 'IN'), ('stock', 'NN'), ('market', 'NN'), ('surveillance', 'NN'), (',', ','), ('candlestick', 'NN'), ('analysis', 'NN'), ('and', 'CC'), ('trading', 'NN'), ('with', 'IN'), ('our', 'PRP$'), ('market', 'NN'), ('surveillance', 'NN'), ('reports', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   You/PRP   always/RB   get/VB   the/DT   latest/JJS   stock/NN   market/NN   news/NN   and/CC   unique/JJ   ,/,   insightful/JJ   stock/NN   market/NN   analysis/NN   from/IN   the/DT   Take/NNP   the/DT   guesswork/NN   and/CC   emotions/NNS   out/IN   of/IN   stock/NN   market/NN   surveillance/NN   ,/,   candlestick/NN   analysis/NN   and/CC   trading/NN   with/IN   our/PRP$   market/NN   surveillance/NN   reports/NNS   ./.)
+----------------------------------
+original sentence: 
+Become a SmarTrend subscriber now and take advantage of our FREE 14 day trial.
+
+
+POS tagged sentence: 
+[('Become', 'NNP'), ('a', 'DT'), ('SmarTrend', 'NNP'), ('subscriber', 'NN'), ('now', 'RB'), ('and', 'CC'), ('take', 'VB'), ('advantage', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('FREE', 'NNP'), ('14', 'CD'), ('day', 'NN'), ('trial', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Become/NNP   a/DT   (ORGANIZATION SmarTrend/NNP)   subscriber/NN   now/RB   and/CC   take/VB   advantage/NN   of/IN   our/PRP$   FREE/NNP   14/CD   day/NN   trial/NN   ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

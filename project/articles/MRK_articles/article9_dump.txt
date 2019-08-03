@@ -1,0 +1,249 @@
+
+----------------------------------
+original sentence: 
+Merck to Hold First Quarter 2010 Sales and Earnings Conference Call on May 4 | Business Wire
+ April 07, 2010 08:33 AM Eastern Daylight Time Merck to Hold First Quarter 2010 Sales and Earnings Conference Call on May 4
+WHITEHOUSE STATION, N.J.  Merck & Co., Inc. NYSE: MRK will hold its first quarter 2010 sales and earnings conference call with institutional investors and analysts beginning at 8 a.m. EDT on Tuesday, May 4.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('Sales', 'NNS'), ('and', 'CC'), ('Earnings', 'NNS'), ('Conference', 'NNP'), ('Call', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('4', 'CD'), ('|', 'CD'), ('Business', 'NNP'), ('Wire', 'NNP'), ('April', 'NNP'), ('07', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('33', 'CD'), ('AM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Merck', 'NNP'), ('to', 'TO'), ('Hold', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('Sales', 'NNS'), ('and', 'CC'), ('Earnings', 'NNS'), ('Conference', 'NNP'), ('Call', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('4', 'CD'), ('WHITEHOUSE', 'NNP'), ('STATION', 'NNP'), (',', ','), ('N.J.', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('will', 'MD'), ('hold', 'VB'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('2010', 'CD'), ('sales', 'NNS'), ('and', 'CC'), ('earnings', 'NNS'), ('conference', 'NN'), ('call', 'NN'), ('with', 'IN'), ('institutional', 'JJ'), ('investors', 'NNS'), ('and', 'CC'), ('analysts', 'NNS'), ('beginning', 'VBG'), ('at', 'IN'), ('8', 'CD'), ('a.m.', 'NNP'), ('EDT', 'NNP'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('May', 'NNP'), ('4', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   to/TO   (PERSON Hold/NNP First/NNP)   Quarter/NNP   2010/CD   Sales/NNS   and/CC   (ORGANIZATION Earnings/NNS Conference/NNP Call/NNP)   on/IN   May/NNP   4/CD   |/CD   (ORGANIZATION Business/NNP Wire/NNP)   April/NNP   07/CD   ,/,   2010/CD   08/CD   :/:   33/CD   AM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   Merck/NNP   to/TO   (PERSON Hold/NNP First/NNP)   Quarter/NNP   2010/CD   Sales/NNS   and/CC   (ORGANIZATION Earnings/NNS Conference/NNP Call/NNP)   on/IN   May/NNP   4/CD   (ORGANIZATION WHITEHOUSE/NNP)   STATION/NNP   ,/,   N.J./NNP   Merck/NNP   &/CC   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   MRK/NNP   will/MD   hold/VB   its/PRP$   first/JJ   quarter/NN   2010/CD   sales/NNS   and/CC   earnings/NNS   conference/NN   call/NN   with/IN   institutional/JJ   investors/NNS   and/CC   analysts/NNS   beginning/VBG   at/IN   8/CD   a.m./NNP   EDT/NNP   on/IN   Tuesday/NNP   ,/,   May/NNP   4/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB hold/VB its/PRP$ first/JJ quarter/NN 2010/CD sales/NNS)
+	(VERB beginning/VBG at/IN 8/CD a.m./NNP EDT/NNP on/IN Tuesday/NNP)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Hold/NNP First/NNP Quarter/NNP)
+	(NOUN 2010/CD Sales/NNS)
+	(NOUN Earnings/NNS Conference/NNP Call/NNP)
+	(NOUN May/NNP)
+	(NOUN |/CD Business/NNP Wire/NNP April/NNP)
+	(NOUN 33/CD AM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Hold/NNP First/NNP Quarter/NNP)
+	(NOUN 2010/CD Sales/NNS)
+	(NOUN Earnings/NNS Conference/NNP Call/NNP)
+	(NOUN May/NNP)
+	(NOUN 4/CD WHITEHOUSE/NNP STATION/NNP)
+	(NOUN N.J./NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN earnings/NNS conference/NN call/NN)
+	(NOUN institutional/JJ investors/NNS)
+	(NOUN analysts/NNS)
+	(NOUN May/NNP)
+
+----------------------------------
+original sentence: 
+During the call, Richard T. Clark, chairman, president and chief executive officer, Peter N. Kellogg, executive vice president and chief financial officer, and Kenneth C. Frazier, executive vice president and president, Global Human Health, will provide an overview of Merckâ€™s financial performance for the quarter as well as targets for the year.
+
+POS tagged sentence: 
+[('During', 'IN'), ('the', 'DT'), ('call', 'NN'), (',', ','), ('Richard', 'NNP'), ('T.', 'NNP'), ('Clark', 'NNP'), (',', ','), ('chairman', 'NN'), (',', ','), ('president', 'NN'), ('and', 'CC'), ('chief', 'NN'), ('executive', 'NN'), ('officer', 'NN'), (',', ','), ('Peter', 'NNP'), ('N.', 'NNP'), ('Kellogg', 'NNP'), (',', ','), ('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('chief', 'NN'), ('financial', 'JJ'), ('officer', 'NN'), (',', ','), ('and', 'CC'), ('Kenneth', 'NNP'), ('C.', 'NNP'), ('Frazier', 'NNP'), (',', ','), ('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN'), ('and', 'CC'), ('president', 'NN'), (',', ','), ('Global', 'NNP'), ('Human', 'NNP'), ('Health', 'NNP'), (',', ','), ('will', 'MD'), ('provide', 'VB'), ('an', 'DT'), ('overview', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('financial', 'JJ'), ('performance', 'NN'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('targets', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   the/DT   call/NN   ,/,   (PERSON Richard/NNP T./NNP Clark/NNP)   ,/,   chairman/NN   ,/,   president/NN   and/CC   chief/NN   executive/NN   officer/NN   ,/,   (PERSON Peter/NNP N./NNP Kellogg/NNP)   ,/,   executive/JJ   vice/NN   president/NN   and/CC   chief/NN   financial/JJ   officer/NN   ,/,   and/CC   (PERSON Kenneth/NNP C./NNP Frazier/NNP)   ,/,   executive/JJ   vice/NN   president/NN   and/CC   president/NN   ,/,   (PERSON Global/NNP Human/NNP Health/NNP)   ,/,   will/MD   provide/VB   an/DT   overview/NN   of/IN   (ORGANIZATION Merck/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   financial/JJ   performance/NN   for/IN   the/DT   quarter/NN   as/IN   well/RB   as/IN   targets/NNS   for/IN   the/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB provide/VB an/DT overview/NN of/IN Merck/NNP â/NNP €/NNP ™/NNP)
+	(VERB   s/VBZ   financial/JJ   performance/NN   for/IN   the/DT   quarter/NN   as/IN   well/RB   as/IN   targets/NNS   for/IN   the/DT   year/NN)
+noun phrases to consider:
+	(NOUN call/NN)
+	(NOUN Richard/NNP T./NNP Clark/NNP)
+	(NOUN chairman/NN)
+	(NOUN president/NN)
+	(NOUN chief/NN executive/NN officer/NN)
+	(NOUN Peter/NNP N./NNP Kellogg/NNP)
+	(NOUN executive/JJ vice/NN president/NN)
+	(NOUN chief/NN financial/JJ officer/NN)
+	(NOUN Kenneth/NNP C./NNP Frazier/NNP)
+	(NOUN executive/JJ vice/NN president/NN)
+	(NOUN president/NN)
+	(NOUN Global/NNP Human/NNP Health/NNP)
+
+----------------------------------
+original sentence: 
+Journalists are invited to listen only by calling 706 758 9928 or 800 399 7917.
+
+POS tagged sentence: 
+[('Journalists', 'NNS'), ('are', 'VBP'), ('invited', 'VBN'), ('to', 'TO'), ('listen', 'VB'), ('only', 'RB'), ('by', 'IN'), ('calling', 'NN'), ('706', 'CD'), ('758', 'CD'), ('9928', 'CD'), ('or', 'CC'), ('800', 'CD'), ('399', 'CD'), ('7917', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Journalists/NNS   are/VBP   invited/VBN   to/TO   listen/VB   only/RB   by/IN   calling/NN   706/CD   758/CD   9928/CD   or/CC   800/CD   399/CD   7917/CD   ./.)
+----------------------------------
+original sentence: 
+At the conclusion of the call, journalists who wish to ask questions are invited to call Media Relations.
+
+POS tagged sentence: 
+[('At', 'IN'), ('the', 'DT'), ('conclusion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('call', 'NN'), (',', ','), ('journalists', 'NNS'), ('who', 'WP'), ('wish', 'NN'), ('to', 'TO'), ('ask', 'VB'), ('questions', 'NNS'), ('are', 'VBP'), ('invited', 'VBN'), ('to', 'TO'), ('call', 'VB'), ('Media', 'NNP'), ('Relations', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   the/DT   conclusion/NN   of/IN   the/DT   call/NN   ,/,   journalists/NNS   who/WP   wish/NN   to/TO   ask/VB   questions/NNS   are/VBP   invited/VBN   to/TO   call/VB   (PERSON Media/NNP Relations/NNP)   ./.)
+----------------------------------
+original sentence: 
+A replay of the call will be available starting at 11 a.m. EDT on May 4 through 5 p.m. EDT on May 13.
+
+POS tagged sentence: 
+[('A', 'DT'), ('replay', 'NN'), ('of', 'IN'), ('the', 'DT'), ('call', 'NN'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('starting', 'NN'), ('at', 'IN'), ('11', 'CD'), ('a.m.', 'NNP'), ('EDT', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('4', 'CD'), ('through', 'IN'), ('5', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('13', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   replay/NN   of/IN   the/DT   call/NN   will/MD   be/VB   available/JJ   starting/NN   at/IN   11/CD   a.m./NNP   EDT/NNP   on/IN   May/NNP   4/CD   through/IN   5/CD   p.m./NN   (ORGANIZATION EDT/NNP)   on/IN   May/NNP   13/CD   ./.)
+----------------------------------
+original sentence: 
+To listen to the replay, dial 706 645 9291 or 800 642 1687 and enter ID No.
+
+POS tagged sentence: 
+[('To', 'TO'), ('listen', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('replay', 'NN'), (',', ','), ('dial', 'JJ'), ('706', 'CD'), ('645', 'CD'), ('9291', 'CD'), ('or', 'CC'), ('800', 'CD'), ('642', 'CD'), ('1687', 'CD'), ('and', 'CC'), ('enter', 'NN'), ('ID', 'NNP'), ('No', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   listen/VBN   to/TO   the/DT   replay/NN   ,/,   dial/JJ   706/CD   645/CD   9291/CD   or/CC   800/CD   642/CD   1687/CD   and/CC   enter/NN   ID/NNP   No/NNP   ./.)
+----------------------------------
+original sentence: 
+67781269.
+
+POS tagged sentence: 
+[('67781269', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S 67781269/CD ./.)
+----------------------------------
+original sentence: 
+Investors, journalists and the general public may access a live audio webcast of the call on Merckâ€™s Web site at http://www.merck.com/investors/events and presentations/home.html
+.
+
+POS tagged sentence: 
+[('Investors', 'NNS'), (',', ','), ('journalists', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('general', 'JJ'), ('public', 'JJ'), ('may', 'MD'), ('access', 'NN'), ('a', 'DT'), ('live', 'JJ'), ('audio', 'NN'), ('webcast', 'NN'), ('of', 'IN'), ('the', 'DT'), ('call', 'NN'), ('on', 'IN'), ('Merck', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Web', 'NNP'), ('site', 'NN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.merck.com/investors/events', 'NNS'), ('and', 'CC'), ('presentations/home.html', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Investors/NNS   ,/,   journalists/NNS   and/CC   the/DT   general/JJ   public/JJ   may/MD   access/NN   a/DT   live/JJ   audio/NN   webcast/NN   of/IN   the/DT   call/NN   on/IN   (PERSON Merck/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   Web/NNP   site/NN   at/IN   http/NN   :/:   //www.merck.com/investors/events/NNS   and/CC   presentations/home.html/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ Web/NNP site/NN at/IN http/NN)
+noun phrases to consider:
+	(NOUN Investors/NNS)
+	(NOUN journalists/NNS)
+	(NOUN the/DT general/JJ public/JJ)
+	(NOUN access/NN)
+	(NOUN a/DT live/JJ audio/NN webcast/NN)
+	(NOUN call/NN)
+	(NOUN Merck/NNP â/NNP €/NNP ™/NNP)
+	(NOUN //www.merck.com/investors/events/NNS)
+	(NOUN presentations/home.html/JJ)
+
+----------------------------------
+original sentence: 
+Software needed to listen to the webcast is available on the corporate web site and should be downloaded prior to the beginning of the webcast.
+
+POS tagged sentence: 
+[('Software', 'NN'), ('needed', 'VBD'), ('to', 'TO'), ('listen', 'VB'), ('to', 'TO'), ('the', 'DT'), ('webcast', 'NN'), ('is', 'VBZ'), ('available', 'JJ'), ('on', 'IN'), ('the', 'DT'), ('corporate', 'JJ'), ('web', 'NN'), ('site', 'NN'), ('and', 'CC'), ('should', 'MD'), ('be', 'VB'), ('downloaded', 'VBN'), ('prior', 'RB'), ('to', 'TO'), ('the', 'DT'), ('beginning', 'NN'), ('of', 'IN'), ('the', 'DT'), ('webcast', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Software/NN)   needed/VBD   to/TO   listen/VB   to/TO   the/DT   webcast/NN   is/VBZ   available/JJ   on/IN   the/DT   corporate/JJ   web/NN   site/NN   and/CC   should/MD   be/VB   downloaded/VBN   prior/RB   to/TO   the/DT   beginning/NN   of/IN   the/DT   webcast/JJ   ./.)
+----------------------------------
+original sentence: 
+A replay of the webcast will be available from 11 a.m. EDT on May 4 through 5 p.m. EDT on May 13.
+
+POS tagged sentence: 
+[('A', 'DT'), ('replay', 'NN'), ('of', 'IN'), ('the', 'DT'), ('webcast', 'JJ'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('from', 'IN'), ('11', 'CD'), ('a.m.', 'NNP'), ('EDT', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('4', 'CD'), ('through', 'IN'), ('5', 'CD'), ('p.m.', 'NN'), ('EDT', 'NNP'), ('on', 'IN'), ('May', 'NNP'), ('13', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   replay/NN   of/IN   the/DT   webcast/JJ   will/MD   be/VB   available/JJ   from/IN   11/CD   a.m./NNP   EDT/NNP   on/IN   May/NNP   4/CD   through/IN   5/CD   p.m./NN   (ORGANIZATION EDT/NNP)   on/IN   May/NNP   13/CD   ./.)
+----------------------------------
+original sentence: 
+The first quarter sales and earnings news release and supplemental financial disclosures also will be available in the Newsroom.
+
+POS tagged sentence: 
+[('The', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('sales', 'NNS'), ('and', 'CC'), ('earnings', 'NNS'), ('news', 'NN'), ('release', 'NN'), ('and', 'CC'), ('supplemental', 'JJ'), ('financial', 'JJ'), ('disclosures', 'NNS'), ('also', 'RB'), ('will', 'MD'), ('be', 'VB'), ('available', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('Newsroom', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   first/JJ   quarter/NN   sales/NNS   and/CC   earnings/NNS   news/NN   release/NN   and/CC   supplemental/JJ   financial/JJ   disclosures/NNS   also/RB   will/MD   be/VB   available/JJ   in/IN   the/DT   (ORGANIZATION Newsroom/NNP)   ./.)
+----------------------------------
+original sentence: 
+Today's Merck is working to help the world be well.
+
+POS tagged sentence: 
+[('Today', 'NN'), ("'s", 'POS'), ('Merck', 'NNP'), ('is', 'VBZ'), ('working', 'VBG'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('world', 'NN'), ('be', 'VB'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Today/NN   's/POS   (ORGANIZATION Merck/NNP)   is/VBZ   working/VBG   to/TO   help/VB   the/DT   world/NN   be/VB   well/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ working/VBG)
+	(VERB help/VB the/DT world/NN)
+	(VERB be/VB well/RB)
+noun phrases to consider:
+	(NOUN Today/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Through our medicines, vaccines, biologic therapies, and consumer and animal products, we work with customers and operate in more than 140 countries to deliver innovative health solutions.
+
+POS tagged sentence: 
+[('Through', 'IN'), ('our', 'PRP$'), ('medicines', 'NNS'), (',', ','), ('vaccines', 'NNS'), (',', ','), ('biologic', 'JJ'), ('therapies', 'NNS'), (',', ','), ('and', 'CC'), ('consumer', 'NN'), ('and', 'CC'), ('animal', 'JJ'), ('products', 'NNS'), (',', ','), ('we', 'PRP'), ('work', 'VBP'), ('with', 'IN'), ('customers', 'NNS'), ('and', 'CC'), ('operate', 'VBP'), ('in', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('140', 'CD'), ('countries', 'NNS'), ('to', 'TO'), ('deliver', 'VB'), ('innovative', 'JJ'), ('health', 'NN'), ('solutions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Through/IN   our/PRP$   medicines/NNS   ,/,   vaccines/NNS   ,/,   biologic/JJ   therapies/NNS   ,/,   and/CC   consumer/NN   and/CC   animal/JJ   products/NNS   ,/,   we/PRP   work/VBP   with/IN   customers/NNS   and/CC   operate/VBP   in/IN   more/JJR   than/IN   140/CD   countries/NNS   to/TO   deliver/VB   innovative/JJ   health/NN   solutions/NNS   ./.)
+----------------------------------
+original sentence: 
+We also demonstrate our commitment to increasing access to health care through far reaching programs that donate and deliver our products to the people who need them.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('also', 'RB'), ('demonstrate', 'VBP'), ('our', 'PRP$'), ('commitment', 'NN'), ('to', 'TO'), ('increasing', 'VBG'), ('access', 'NN'), ('to', 'TO'), ('health', 'NN'), ('care', 'NN'), ('through', 'IN'), ('far', 'RB'), ('reaching', 'VBG'), ('programs', 'NNS'), ('that', 'WDT'), ('donate', 'JJ'), ('and', 'CC'), ('deliver', 'NN'), ('our', 'PRP$'), ('products', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('people', 'NNS'), ('who', 'WP'), ('need', 'VBP'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   also/RB   demonstrate/VBP   our/PRP$   commitment/NN   to/TO   increasing/VBG   access/NN   to/TO   health/NN   care/NN   through/IN   far/RB   reaching/VBG   programs/NNS   that/WDT   donate/JJ   and/CC   deliver/NN   our/PRP$   products/NNS   to/TO   the/DT   people/NNS   who/WP   need/VBP   them/PRP   ./.)
+----------------------------------
+original sentence: 
+Merck.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Be Well.
+
+POS tagged sentence: 
+[('Be', 'VB'), ('Well', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Be/VB Well/NNP ./.)
+----------------------------------
+original sentence: 
+For more information, visit  Contacts  Merck & Co., Inc.
+David Caouette, 908 423 3461
+Amy Rose, 908 423 6537
+Alex Kelly, 908 423 5185  http://www.businesswire.com/news/home/20100407005934/en/Merck Hold First Quarter 2010 Sales Earnings Conference
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('For', 'IN'), ('more', 'JJR'), ('information', 'NN'), (',', ','), ('visit', 'NN'), ('Contacts', 'NNS'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('David', 'NNP'), ('Caouette', 'NNP'), (',', ','), ('908', 'CD'), ('423', 'CD'), ('3461', 'CD'), ('Amy', 'NNP'), ('Rose', 'NNP'), (',', ','), ('908', 'CD'), ('423', 'CD'), ('6537', 'CD'), ('Alex', 'NNP'), ('Kelly', 'NNP'), (',', ','), ('908', 'CD'), ('423', 'CD'), ('5185', 'CD'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100407005934/en/Merck', 'JJ'), ('Hold', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('Sales', 'NNS'), ('Earnings', 'NNS'), ('Conference', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   For/IN   more/JJR   information/NN   ,/,   visit/NN   Contacts/NNS   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   (PERSON Inc/NNP)   ./.   (PERSON David/NNP Caouette/NNP)   ,/,   908/CD   423/CD   3461/CD   Amy/NNP   Rose/NNP   ,/,   908/CD   423/CD   6537/CD   (PERSON Alex/NNP Kelly/NNP)   ,/,   908/CD   423/CD   5185/CD   http/NN   :/:   //www.businesswire.com/news/home/20100407005934/en/Merck/JJ   (ORGANIZATION Hold/NNP)   First/NNP   Quarter/NNP   2010/CD   Sales/NNS   Earnings/NNS   (ORGANIZATION     Conference/NNP     Company/NNP     Information/NNP     Center/NNP     More/NNP     Business/NNP     Wire/NNP)   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN more/JJR information/NN)
+	(NOUN visit/NN Contacts/NNS Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+	(NOUN David/NNP Caouette/NNP)
+	(NOUN 3461/CD Amy/NNP Rose/NNP)
+	(NOUN 6537/CD Alex/NNP Kelly/NNP)
+	(NOUN 5185/CD http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100407005934/en/Merck/JJ   Hold/NNP   First/NNP   Quarter/NNP)
+	(NOUN 2010/CD Sales/NNS Earnings/NNS Conference/NNP Company/NNP)
+	(NOUN Information/NNP Center/NNP More/NNP Business/NNP)
+	(NOUN Wire/NNP)
+
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,157 @@
+
+----------------------------------
+original sentence: 
+Walt Disney Company To Launch Russian Disney Channel | Disney Dreaming
+The Ultimate Disney News and Fan Site DisneyDreaming.com
+Walt Disney Company To Launch Russian Disney Channel
+ Mar 21 10 | By: The Walt Disney Company is planning on launching a version of the  in Russia this year.
+
+POS tagged sentence: 
+[('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('To', 'NNP'), ('Launch', 'NNP'), ('Russian', 'NNP'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('|', 'NNP'), ('Disney', 'NNP'), ('Dreaming', 'NNP'), ('The', 'NNP'), ('Ultimate', 'NNP'), ('Disney', 'NNP'), ('News', 'NNP'), ('and', 'CC'), ('Fan', 'NNP'), ('Site', 'NNP'), ('DisneyDreaming.com', 'NNP'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('To', 'NNP'), ('Launch', 'NNP'), ('Russian', 'NNP'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('Mar', 'NNP'), ('21', 'CD'), ('10', 'CD'), ('|', 'CD'), ('By', 'NNP'), (':', ':'), ('The', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('is', 'VBZ'), ('planning', 'VBG'), ('on', 'IN'), ('launching', 'VBG'), ('a', 'DT'), ('version', 'NN'), ('of', 'IN'), ('the', 'DT'), ('in', 'IN'), ('Russia', 'NNP'), ('this', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Walt/NNP)   (ORGANIZATION     Disney/NNP     Company/NNP     To/NNP     Launch/NNP     Russian/NNP     Disney/NNP)   Channel/NNP   |/NNP   Disney/NNP   Dreaming/NNP   The/NNP   (ORGANIZATION Ultimate/NNP Disney/NNP News/NNP)   and/CC   (PERSON Fan/NNP Site/NNP)   DisneyDreaming.com/NNP   Walt/NNP   (PERSON     Disney/NNP     Company/NNP     To/NNP     Launch/NNP     Russian/NNP     Disney/NNP     Channel/NNP     Mar/NNP)   21/CD   10/CD   |/CD   By/NNP   :/:   The/DT   (ORGANIZATION Walt/NNP Disney/NNP Company/NNP)   is/VBZ   planning/VBG   on/IN   launching/VBG   a/DT   version/NN   of/IN   the/DT   in/IN   (GPE Russia/NNP)   this/DT   year/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ planning/VBG on/IN)
+	(VERB   launching/VBG   a/DT   version/NN   of/IN   the/DT   in/IN   Russia/NNP   this/DT   year/NN)
+noun phrases to consider:
+	(NOUN Walt/NNP Disney/NNP Company/NNP To/NNP)
+	(NOUN Launch/NNP Russian/NNP Disney/NNP Channel/NNP)
+	(NOUN |/NNP Disney/NNP Dreaming/NNP The/NNP)
+
+tagged sentence:
+	 | Disney Dreaming The	res:1
+	(NOUN Ultimate/NNP Disney/NNP News/NNP)
+	(NOUN Fan/NNP Site/NNP DisneyDreaming.com/NNP Walt/NNP)
+	(NOUN Disney/NNP Company/NNP To/NNP Launch/NNP)
+	(NOUN Russian/NNP Disney/NNP Channel/NNP Mar/NNP)
+	(NOUN |/CD By/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP)
+
+----------------------------------
+original sentence: 
+The company would also produce upwards of three theatrical movies a year for the local market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('would', 'MD'), ('also', 'RB'), ('produce', 'VB'), ('upwards', 'NNS'), ('of', 'IN'), ('three', 'CD'), ('theatrical', 'JJ'), ('movies', 'NNS'), ('a', 'DT'), ('year', 'NN'), ('for', 'IN'), ('the', 'DT'), ('local', 'JJ'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   would/MD   also/RB   produce/VB   upwards/NNS   of/IN   three/CD   theatrical/JJ   movies/NNS   a/DT   year/NN   for/IN   the/DT   local/JJ   market/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   produce/VB   upwards/NNS   of/IN   three/CD   theatrical/JJ   movies/NNS   a/DT   year/NN   for/IN   the/DT   local/JJ   market/NN)
+noun phrases to consider:
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+The General Director of Disney CIS, Marina Zhigalova Ozkan, said, &#8220;We are planning to follow upon the success of our first movie for the Russian market, &#8216;The Book of Masters,&#8217; further developing local film production.
+
+POS tagged sentence: 
+[('The', 'DT'), ('General', 'NNP'), ('Director', 'NNP'), ('of', 'IN'), ('Disney', 'NNP'), ('CIS', 'NNP'), (',', ','), ('Marina', 'NNP'), ('Zhigalova', 'NNP'), ('Ozkan', 'NNP'), (',', ','), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('We', 'PRP'), ('are', 'VBP'), ('planning', 'VBG'), ('to', 'TO'), ('follow', 'VB'), ('upon', 'IN'), ('the', 'DT'), ('success', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('first', 'JJ'), ('movie', 'NN'), ('for', 'IN'), ('the', 'DT'), ('Russian', 'JJ'), ('market', 'NN'), (',', ','), ('&', 'CC'), ('#', '#'), ('8216', 'CD'), (';', ':'), ('The', 'DT'), ('Book', 'NNP'), ('of', 'IN'), ('Masters,&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('further', 'JJ'), ('developing', 'NN'), ('local', 'JJ'), ('film', 'NN'), ('production', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION General/NNP Director/NNP)   of/IN   (ORGANIZATION Disney/NNP)   CIS/NNP   ,/,   (PERSON Marina/NNP Zhigalova/NNP Ozkan/NNP)   ,/,   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   We/PRP   are/VBP   planning/VBG   to/TO   follow/VB   upon/IN   the/DT   success/NN   of/IN   our/PRP$   first/JJ   movie/NN   for/IN   the/DT   (GPE Russian/JJ)   market/NN   ,/,   &/CC   #/#   8216/CD   ;/:   The/DT   (ORGANIZATION Book/NNP)   of/IN   Masters,&/NNP   #/#   8217/CD   ;/:   further/JJ   developing/NN   local/JJ   film/NN   production/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB are/VBP planning/VBG)
+	(VERB   follow/VB   upon/IN   the/DT   success/NN   of/IN   our/PRP$   first/JJ   movie/NN   for/IN   the/DT   Russian/JJ   market/NN)
+noun phrases to consider:
+	(NOUN General/NNP Director/NNP)
+	(NOUN Disney/NNP CIS/NNP)
+	(NOUN Marina/NNP Zhigalova/NNP Ozkan/NNP)
+	(NOUN Book/NNP)
+	(NOUN Masters,&/NNP)
+	(NOUN further/JJ developing/NN)
+	(NOUN local/JJ film/NN production/NN)
+
+----------------------------------
+original sentence: 
+We would like to try different genres, like fantasy, action and films for teenagers, but all our films will definitely be targeted toward family audiences.&#8221; &#8220;Now we&#8217;re developing Jetix TV channel and have filed documents for Disney Channel registration on cable in Russia.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('would', 'MD'), ('like', 'VB'), ('to', 'TO'), ('try', 'VB'), ('different', 'JJ'), ('genres', 'NNS'), (',', ','), ('like', 'IN'), ('fantasy', 'JJ'), (',', ','), ('action', 'NN'), ('and', 'CC'), ('films', 'NNS'), ('for', 'IN'), ('teenagers', 'NNS'), (',', ','), ('but', 'CC'), ('all', 'DT'), ('our', 'PRP$'), ('films', 'NNS'), ('will', 'MD'), ('definitely', 'RB'), ('be', 'VB'), ('targeted', 'VBN'), ('toward', 'IN'), ('family', 'NN'), ('audiences.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Now', 'NNP'), ('we&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('re', 'NN'), ('developing', 'VBG'), ('Jetix', 'NNP'), ('TV', 'NNP'), ('channel', 'NN'), ('and', 'CC'), ('have', 'VB'), ('filed', 'VBN'), ('documents', 'NNS'), ('for', 'IN'), ('Disney', 'NNP'), ('Channel', 'NNP'), ('registration', 'NN'), ('on', 'IN'), ('cable', 'JJ'), ('in', 'IN'), ('Russia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   would/MD   like/VB   to/TO   try/VB   different/JJ   genres/NNS   ,/,   like/IN   fantasy/JJ   ,/,   action/NN   and/CC   films/NNS   for/IN   teenagers/NNS   ,/,   but/CC   all/DT   our/PRP$   films/NNS   will/MD   definitely/RB   be/VB   targeted/VBN   toward/IN   family/NN   audiences.&/NN   #/#   8221/CD   ;/:   &/CC   #/#   8220/CD   ;/:   Now/NNP   we&/NNP   #/#   8217/CD   ;/:   re/NN   developing/VBG   (PERSON Jetix/NNP)   TV/NNP   channel/NN   and/CC   have/VB   filed/VBN   documents/NNS   for/IN   (ORGANIZATION Disney/NNP)   Channel/NNP   registration/NN   on/IN   cable/JJ   in/IN   (GPE Russia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB like/VB to/TO try/VB different/JJ genres/NNS)
+	(VERB be/VB targeted/VBN toward/IN family/NN audiences.&/NN)
+	(VERB developing/VBG Jetix/NNP TV/NNP channel/NN)
+	(VERB   have/VB   filed/VBN   documents/NNS   for/IN   Disney/NNP   Channel/NNP   registration/NN   on/IN   cable/JJ   in/IN   Russia/NNP)
+noun phrases to consider:
+	(NOUN fantasy/JJ)
+	(NOUN action/NN)
+	(NOUN films/NNS)
+	(NOUN teenagers/NNS)
+	(NOUN films/NNS)
+	(NOUN Now/NNP we&/NNP)
+	(NOUN re/NN)
+
+----------------------------------
+original sentence: 
+The programming will include both international and local content, and we plan to gradually increase the number of local programs.&#8221;
+Source: www.hollywoodreporter.com
+One Response to &#8220;Walt Disney Company To Launch Russian Disney Channel&#8221;
+Click here to cancel reply.
+
+POS tagged sentence: 
+[('The', 'DT'), ('programming', 'NN'), ('will', 'MD'), ('include', 'VB'), ('both', 'DT'), ('international', 'JJ'), ('and', 'CC'), ('local', 'JJ'), ('content', 'NN'), (',', ','), ('and', 'CC'), ('we', 'PRP'), ('plan', 'VBP'), ('to', 'TO'), ('gradually', 'RB'), ('increase', 'VB'), ('the', 'DT'), ('number', 'NN'), ('of', 'IN'), ('local', 'JJ'), ('programs.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Source', 'NNP'), (':', ':'), ('www.hollywoodreporter.com', 'JJ'), ('One', 'CD'), ('Response', 'NNP'), ('to', 'TO'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('Company', 'NNP'), ('To', 'NNP'), ('Launch', 'NNP'), ('Russian', 'NNP'), ('Disney', 'NNP'), ('Channel&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('cancel', 'VB'), ('reply', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   programming/NN   will/MD   include/VB   both/DT   international/JJ   and/CC   local/JJ   content/NN   ,/,   and/CC   we/PRP   plan/VBP   to/TO   gradually/RB   increase/VB   the/DT   number/NN   of/IN   local/JJ   programs.&/NN   #/#   8221/CD   ;/:   (GPE Source/NNP)   :/:   www.hollywoodreporter.com/JJ   One/CD   Response/NNP   to/TO   &/CC   #/#   8220/CD   ;/:   (PERSON     Walt/NNP     Disney/NNP     Company/NNP     To/NNP     Launch/NNP     Russian/NNP     Disney/NNP)   Channel&/NNP   #/#   8221/CD   ;/:   (PERSON Click/NNP)   here/RB   to/TO   cancel/VB   reply/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VB both/DT international/JJ)
+	(VERB   plan/VBP   to/TO   gradually/RB   increase/VB   the/DT   number/NN   of/IN   local/JJ   programs.&/NN)
+	(VERB cancel/VB reply/RB)
+noun phrases to consider:
+	(NOUN programming/NN)
+	(NOUN local/JJ content/NN)
+	(NOUN Source/NNP)
+	(NOUN www.hollywoodreporter.com/JJ One/CD Response/NNP)
+	(NOUN Walt/NNP Disney/NNP Company/NNP To/NNP)
+	(NOUN Launch/NNP Russian/NNP Disney/NNP Channel&/NNP)
+	(NOUN Click/NNP)
+
+----------------------------------
+original sentence: 
+Mail will not be published required  Â©Copyright 2008 2010 DisneyDreaming.com All Rights Reserved | DisneyDreaming.com is a Fan Site and is Not A Â©Disney Company and does not claim to be.
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('\xc2', '-NONE-'), ('\xa9', ':'), ('Copyright', 'NNP'), ('2008', 'CD'), ('2010', 'CD'), ('DisneyDreaming.com', 'JJ'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('|', 'NNP'), ('DisneyDreaming.com', 'NNP'), ('is', 'VBZ'), ('a', 'DT'), ('Fan', 'NNP'), ('Site', 'NNP'), ('and', 'CC'), ('is', 'VBZ'), ('Not', 'RB'), ('A', 'DT'), ('\xc2', 'NN'), ('\xa9', ':'), ('Disney', 'NNP'), ('Company', 'NNP'), ('and', 'CC'), ('does', 'VBZ'), ('not', 'RB'), ('claim', 'VB'), ('to', 'TO'), ('be', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   Â/-NONE-   ©/:   Copyright/NNP   2008/CD   2010/CD   DisneyDreaming.com/JJ   All/NNP   Rights/NNP   Reserved/NNP   |/NNP   DisneyDreaming.com/NNP   is/VBZ   a/DT   Fan/NNP   Site/NNP   and/CC   is/VBZ   Not/RB   A/DT   Â/NN   ©/:   (PERSON Disney/NNP Company/NNP)   and/CC   does/VBZ   not/RB   claim/VB   to/TO   be/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB published/VBN required/VBN)
+	(VERB is/VBZ a/DT Fan/NNP Site/NNP)
+	(VERB is/VBZ Not/RB A/DT Â/NN)
+	(VERB does/VBZ not/RB claim/VB)
+	(VERB be/VB)
+noun phrases to consider:
+	(NOUN Mail/NNP)
+	(NOUN Copyright/NNP)
+	(NOUN   2010/CD   DisneyDreaming.com/JJ   All/NNP   Rights/NNP   Reserved/NNP   |/NNP)
+	(NOUN DisneyDreaming.com/NNP)
+	(NOUN Disney/NNP Company/NNP)
+
+----------------------------------
+original sentence: 
+All Fair Use Images Copyright Their Respective Owners.
+
+POS tagged sentence: 
+[('All', 'DT'), ('Fair', 'NNP'), ('Use', 'NNP'), ('Images', 'NNP'), ('Copyright', 'NNP'), ('Their', 'NNP'), ('Respective', 'NNP'), ('Owners', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   Fair/NNP   Use/NNP   (PERSON Images/NNP Copyright/NNP)   Their/NNP   Respective/NNP   Owners/NNP   ./.)
+----------------------------------
+original sentence: 
+| Visit Our Sister Site Photo and Copyright Information
+
+
+POS tagged sentence: 
+[('|', 'NN'), ('Visit', 'NN'), ('Our', 'NNP'), ('Sister', 'NNP'), ('Site', 'NNP'), ('Photo', 'NNP'), ('and', 'CC'), ('Copyright', 'NNP'), ('Information', 'NNP')]
+
+
+ERTAGGED sentence: (S   |/NN   (PERSON Visit/NN Our/NNP Sister/NNP Site/NNP Photo/NNP)   and/CC   (PERSON Copyright/NNP Information/NNP))
+
+veryneg:0	neg:0	pos:1	verypos:0	total:1

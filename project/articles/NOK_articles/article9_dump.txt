@@ -1,0 +1,177 @@
+
+----------------------------------
+original sentence: 
+ Stock Market Mixed In Trading F, AAPL, NOK, TM, SIRI | News Briefs
+Stock Market Mixed In Trading F, AAPL, NOK, TM, SIRI Tuesday, April 6, 2010
+The stock market has been trading in a tight range all day as investors wait for key reports.
+
+POS tagged sentence: 
+[('Stock', 'NN'), ('Market', 'NN'), ('Mixed', 'NNP'), ('In', 'NNP'), ('Trading', 'NNP'), ('F', 'NNP'), (',', ','), ('AAPL', 'NNP'), (',', ','), ('NOK', 'NNP'), (',', ','), ('TM', 'NNP'), (',', ','), ('SIRI', 'NNP'), ('|', 'NNP'), ('News', 'NNP'), ('Briefs', 'NNP'), ('Stock', 'NNP'), ('Market', 'NNP'), ('Mixed', 'NNP'), ('In', 'NNP'), ('Trading', 'NNP'), ('F', 'NNP'), (',', ','), ('AAPL', 'NNP'), (',', ','), ('NOK', 'NNP'), (',', ','), ('TM', 'NNP'), (',', ','), ('SIRI', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('April', 'NNP'), ('6', 'CD'), (',', ','), ('2010', 'CD'), ('The', 'DT'), ('stock', 'NN'), ('market', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('trading', 'VBG'), ('in', 'IN'), ('a', 'DT'), ('tight', 'JJ'), ('range', 'NN'), ('all', 'DT'), ('day', 'NN'), ('as', 'IN'), ('investors', 'NNS'), ('wait', 'VBP'), ('for', 'IN'), ('key', 'JJ'), ('reports', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Stock/NN)   (PERSON Market/NN Mixed/NNP)   In/NNP   Trading/NNP   F/NNP   ,/,   (ORGANIZATION AAPL/NNP)   ,/,   (ORGANIZATION NOK/NNP)   ,/,   (ORGANIZATION TM/NNP)   ,/,   (ORGANIZATION SIRI/NNP)   |/NNP   News/NNP   Briefs/NNP   Stock/NNP   (PERSON Market/NNP Mixed/NNP)   In/NNP   Trading/NNP   F/NNP   ,/,   (ORGANIZATION AAPL/NNP)   ,/,   (ORGANIZATION NOK/NNP)   ,/,   (ORGANIZATION TM/NNP)   ,/,   (ORGANIZATION SIRI/NNP)   Tuesday/NNP   ,/,   April/NNP   6/CD   ,/,   2010/CD   The/DT   stock/NN   market/NN   has/VBZ   been/VBN   trading/VBG   in/IN   a/DT   tight/JJ   range/NN   all/DT   day/NN   as/IN   investors/NNS   wait/VBP   for/IN   key/JJ   reports/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   trading/VBG   in/IN   a/DT   tight/JJ   range/NN   all/DT   day/NN   as/IN   investors/NNS)
+	(VERB wait/VBP for/IN key/JJ reports/NNS)
+noun phrases to consider:
+	(NOUN Stock/NN Market/NN Mixed/NNP In/NNP)
+	(NOUN Trading/NNP F/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN NOK/NNP)
+	(NOUN TM/NNP)
+	(NOUN SIRI/NNP |/NNP News/NNP Briefs/NNP)
+	(NOUN Stock/NNP Market/NNP Mixed/NNP In/NNP)
+	(NOUN Trading/NNP F/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN NOK/NNP)
+	(NOUN TM/NNP)
+	(NOUN SIRI/NNP Tuesday/NNP)
+	(NOUN April/NNP)
+	(NOUN stock/NN market/NN)
+
+----------------------------------
+original sentence: 
+The Fed is expected to issue a report which will help investors get a feel for the current tradewinds blowing through the market.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Fed', 'NNP'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('issue', 'VB'), ('a', 'DT'), ('report', 'NN'), ('which', 'WDT'), ('will', 'MD'), ('help', 'VB'), ('investors', 'NNS'), ('get', 'VB'), ('a', 'DT'), ('feel', 'NN'), ('for', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('tradewinds', 'NNS'), ('blowing', 'VBG'), ('through', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Fed/NNP)   is/VBZ   expected/VBN   to/TO   issue/VB   a/DT   report/NN   which/WDT   will/MD   help/VB   investors/NNS   get/VB   a/DT   feel/NN   for/IN   the/DT   current/JJ   tradewinds/NNS   blowing/VBG   through/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+Shares of Apple, Inc. NASDAQ:AAPL are at $238.76, up slightly for the day.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Apple', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), ('are', 'VBP'), ('at', 'IN'), ('$', '$'), ('238.76', 'CD'), (',', ','), ('up', 'RB'), ('slightly', 'RB'), ('for', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (GPE Apple/NNP)   ,/,   Inc./NNP   NASDAQ/NNP   :/:   AAPL/NNP   are/VBP   at/IN   $/$   238.76/CD   ,/,   up/RB   slightly/RB   for/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+The company has released its  table computer to worldwide acclaim.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('released', 'VBN'), ('its', 'PRP$'), ('table', 'JJ'), ('computer', 'NN'), ('to', 'TO'), ('worldwide', 'VB'), ('acclaim', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   has/VBZ   released/VBN   its/PRP$   table/JJ   computer/NN   to/TO   worldwide/VB   acclaim/NN   ./.)
+----------------------------------
+original sentence: 
+The iPad is doing so well it should come as no surprise that other companies are already preparing their &#8216;iPad killers.&#8217; One such product is coming from Nokia NYSE:NOK .
+
+POS tagged sentence: 
+[('The', 'DT'), ('iPad', 'NNP'), ('is', 'VBZ'), ('doing', 'VBG'), ('so', 'RB'), ('well', 'RB'), ('it', 'PRP'), ('should', 'MD'), ('come', 'VB'), ('as', 'RB'), ('no', 'DT'), ('surprise', 'NN'), ('that', 'IN'), ('other', 'JJ'), ('companies', 'NNS'), ('are', 'VBP'), ('already', 'RB'), ('preparing', 'VBG'), ('their', 'PRP$'), ('&', 'CC'), ('#', '#'), ('8216', 'CD'), (';', ':'), ('iPad', 'NNP'), ('killers.&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('One', 'CD'), ('such', 'JJ'), ('product', 'NN'), ('is', 'VBZ'), ('coming', 'VBG'), ('from', 'IN'), ('Nokia', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('NOK', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION iPad/NNP)   is/VBZ   doing/VBG   so/RB   well/RB   it/PRP   should/MD   come/VB   as/RB   no/DT   surprise/NN   that/IN   other/JJ   companies/NNS   are/VBP   already/RB   preparing/VBG   their/PRP$   &/CC   #/#   8216/CD   ;/:   (ORGANIZATION iPad/NNP)   killers.&/NNP   #/#   8217/CD   ;/:   One/CD   such/JJ   product/NN   is/VBZ   coming/VBG   from/IN   (PERSON Nokia/NNP NYSE/NNP)   :/:   NOK/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ doing/VBG so/RB well/RB it/PRP)
+	(VERB come/VB as/RB no/DT surprise/NN that/IN other/JJ companies/NNS)
+	(VERB are/VBP already/RB preparing/VBG their/PRP$)
+	(VERB is/VBZ coming/VBG from/IN Nokia/NNP NYSE/NNP)
+noun phrases to consider:
+	(NOUN iPad/NNP)
+	(NOUN iPad/NNP killers.&/NNP)
+	(NOUN One/CD such/JJ product/NN)
+	(NOUN NOK/NNP)
+
+----------------------------------
+original sentence: 
+They&#8217;re looking for a September release.
+
+POS tagged sentence: 
+[('They&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('re', 'NN'), ('looking', 'VBG'), ('for', 'IN'), ('a', 'DT'), ('September', 'NNP'), ('release', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They&/NN   #/#   8217/CD   ;/:   re/NN   looking/VBG   for/IN   a/DT   September/NNP   release/NN   ./.)
+----------------------------------
+original sentence: 
+Ford Motor Co. NYSE:F shares are down slightly for the day.
+
+POS tagged sentence: 
+[('Ford', 'NNP'), ('Motor', 'NNP'), ('Co.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('F', 'NN'), ('shares', 'NNS'), ('are', 'VBP'), ('down', 'RB'), ('slightly', 'RB'), ('for', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Ford/NNP   Motor/NNP   Co./NNP   NYSE/NNP   :/:   F/NN   shares/NNS   are/VBP   down/RB   slightly/RB   for/IN   the/DT   day/NN   ./.)
+----------------------------------
+original sentence: 
+The company has cooled off a bit in the last few weeks.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('cooled', 'VBN'), ('off', 'RP'), ('a', 'DT'), ('bit', 'NN'), ('in', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('few', 'JJ'), ('weeks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   has/VBZ   cooled/VBN   off/RP   a/DT   bit/NN   in/IN   the/DT   last/JJ   few/JJ   weeks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ cooled/VBN)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN bit/NN)
+	(NOUN the/DT last/JJ few/JJ weeks/NNS)
+
+----------------------------------
+original sentence: 
+They led the nation in autos sold in February, but have fallen back in March due to a resurgence by General Motors and Toyota, who used incentives to lure customers back on their lots.
+
+POS tagged sentence: 
+[('They', 'PRP'), ('led', 'VBD'), ('the', 'DT'), ('nation', 'NN'), ('in', 'IN'), ('autos', 'NNS'), ('sold', 'VBN'), ('in', 'IN'), ('February', 'NNP'), (',', ','), ('but', 'CC'), ('have', 'VBP'), ('fallen', 'VBN'), ('back', 'RB'), ('in', 'IN'), ('March', 'NNP'), ('due', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('resurgence', 'NN'), ('by', 'IN'), ('General', 'NNP'), ('Motors', 'NNPS'), ('and', 'CC'), ('Toyota', 'NNP'), (',', ','), ('who', 'WP'), ('used', 'VBN'), ('incentives', 'NNS'), ('to', 'TO'), ('lure', 'VB'), ('customers', 'NNS'), ('back', 'RB'), ('on', 'IN'), ('their', 'PRP$'), ('lots', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   They/PRP   led/VBD   the/DT   nation/NN   in/IN   autos/NNS   sold/VBN   in/IN   February/NNP   ,/,   but/CC   have/VBP   fallen/VBN   back/RB   in/IN   March/NNP   due/JJ   to/TO   a/DT   resurgence/NN   by/IN   (ORGANIZATION General/NNP Motors/NNPS)   and/CC   (GPE Toyota/NNP)   ,/,   who/WP   used/VBN   incentives/NNS   to/TO   lure/VB   customers/NNS   back/RB   on/IN   their/PRP$   lots/NNS   ./.)
+----------------------------------
+original sentence: 
+Toyota Motor Co. NYSE:TM announced they are paying a fine for $16.4 million related to their well chronicled acceleration troubles.
+
+POS tagged sentence: 
+[('Toyota', 'NNP'), ('Motor', 'NNP'), ('Co.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('TM', 'NNP'), ('announced', 'VBD'), ('they', 'PRP'), ('are', 'VBP'), ('paying', 'VBG'), ('a', 'DT'), ('fine', 'NN'), ('for', 'IN'), ('$', '$'), ('16.4', 'CD'), ('million', 'CD'), ('related', 'JJ'), ('to', 'TO'), ('their', 'PRP$'), ('well', 'NN'), ('chronicled', 'VBD'), ('acceleration', 'NN'), ('troubles', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Toyota/NNP)   (PERSON Motor/NNP)   Co./NNP   NYSE/NNP   :/:   TM/NNP   announced/VBD   they/PRP   are/VBP   paying/VBG   a/DT   fine/NN   for/IN   $/$   16.4/CD   million/CD   related/JJ   to/TO   their/PRP$   well/NN   chronicled/VBD   acceleration/NN   troubles/NNS   ./.)
+----------------------------------
+original sentence: 
+Sirius XM Radio, Inc. NASDAQ:SIRI is up slightly today at 0.870 a share.
+
+POS tagged sentence: 
+[('Sirius', 'NNP'), ('XM', 'NNP'), ('Radio', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('SIRI', 'NNP'), ('is', 'VBZ'), ('up', 'IN'), ('slightly', 'RB'), ('today', 'NN'), ('at', 'IN'), ('0.870', 'CD'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sirius/NNP)   (ORGANIZATION XM/NNP Radio/NNP)   ,/,   Inc./NNP   NASDAQ/NNP   :/:   (ORGANIZATION SIRI/NNP)   is/VBZ   up/IN   slightly/RB   today/NN   at/IN   0.870/CD   a/DT   share/NN   ./.)
+----------------------------------
+original sentence: 
+The company will be announcing earnings in a few weeks and many analysts expect decent numbers now that the automobile industry is making such a comeback.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('will', 'MD'), ('be', 'VB'), ('announcing', 'VBG'), ('earnings', 'NNS'), ('in', 'IN'), ('a', 'DT'), ('few', 'JJ'), ('weeks', 'NNS'), ('and', 'CC'), ('many', 'JJ'), ('analysts', 'NNS'), ('expect', 'VBP'), ('decent', 'NN'), ('numbers', 'NNS'), ('now', 'RB'), ('that', 'IN'), ('the', 'DT'), ('automobile', 'NN'), ('industry', 'NN'), ('is', 'VBZ'), ('making', 'VBG'), ('such', 'JJ'), ('a', 'DT'), ('comeback', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   will/MD   be/VB   announcing/VBG   earnings/NNS   in/IN   a/DT   few/JJ   weeks/NNS   and/CC   many/JJ   analysts/NNS   expect/VBP   decent/NN   numbers/NNS   now/RB   that/IN   the/DT   automobile/NN   industry/NN   is/VBZ   making/VBG   such/JJ   a/DT   comeback/NN   ./.)
+----------------------------------
+original sentence: 
+Sirius XM radios are offered as demos in a growing number of models so more cars moving off the lots means more subscribers for the company.
+
+POS tagged sentence: 
+[('Sirius', 'NNP'), ('XM', 'NNP'), ('radios', 'VBZ'), ('are', 'VBP'), ('offered', 'VBN'), ('as', 'IN'), ('demos', 'NNS'), ('in', 'IN'), ('a', 'DT'), ('growing', 'VBG'), ('number', 'NN'), ('of', 'IN'), ('models', 'NNS'), ('so', 'IN'), ('more', 'JJR'), ('cars', 'NNS'), ('moving', 'VBG'), ('off', 'RP'), ('the', 'DT'), ('lots', 'NNS'), ('means', 'VBZ'), ('more', 'JJR'), ('subscribers', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sirius/NNP)   XM/NNP   radios/VBZ   are/VBP   offered/VBN   as/IN   demos/NNS   in/IN   a/DT   growing/VBG   number/NN   of/IN   models/NNS   so/IN   more/JJR   cars/NNS   moving/VBG   off/RP   the/DT   lots/NNS   means/VBZ   more/JJR   subscribers/NNS   for/IN   the/DT   company/NN   ./.)
+----------------------------------
+original sentence: 
+This entry was posted on Tuesday, April 6th, 2010 at 12:54 pm and is filed under .
+
+POS tagged sentence: 
+[('This', 'DT'), ('entry', 'NN'), ('was', 'VBD'), ('posted', 'VBN'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('April', 'NNP'), ('6th', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('12', 'CD'), (':', ':'), ('54', 'CD'), ('pm', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('filed', 'VBN'), ('under', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   entry/NN   was/VBD   posted/VBN   on/IN   Tuesday/NNP   ,/,   April/NNP   6th/CD   ,/,   2010/CD   at/IN   12/CD   :/:   54/CD   pm/NN   and/CC   is/VBZ   filed/VBN   under/IN   ./.)
+----------------------------------
+original sentence: 
+You can follow any responses to this entry through the 
+
+POS tagged sentence: 
+[('You', 'PRP'), ('can', 'MD'), ('follow', 'VB'), ('any', 'DT'), ('responses', 'NNS'), ('to', 'TO'), ('this', 'DT'), ('entry', 'NN'), ('through', 'IN'), ('the', 'DT')]
+
+
+ERTAGGED sentence: (S   You/PRP   can/MD   follow/VB   any/DT   responses/NNS   to/TO   this/DT   entry/NN   through/IN   the/DT)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

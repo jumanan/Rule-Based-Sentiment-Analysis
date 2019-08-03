@@ -1,0 +1,161 @@
+
+----------------------------------
+original sentence: 
+Mind Reading Computer?
+
+POS tagged sentence: 
+[('Mind', 'NNP'), ('Reading', 'NNP'), ('Computer', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Mind/NNP) Reading/NNP Computer/NNP ?/.)
+----------------------------------
+original sentence: 
+Intel Corp.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION Intel/NNP Corp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Intel/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Thinks So | Benzinga.com
+Mind Reading Computer?
+
+POS tagged sentence: 
+[('Thinks', 'NNS'), ('So', 'RB'), ('|', ':'), ('Benzinga.com', 'JJ'), ('Mind', 'NNP'), ('Reading', 'NNP'), ('Computer', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   Thinks/NNS   So/RB   |/:   Benzinga.com/JJ   (ORGANIZATION Mind/NNP)   Reading/NNP   Computer/NNP   ?/.)
+----------------------------------
+original sentence: 
+Intel Corp.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (ORGANIZATION Intel/NNP Corp/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Intel/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+Thinks So
+Recent Articles by N.J. Beachum
+Posted on 04/08/10 at 11:30am by Intel Corp. NASDAQ:  has showcased a new device that claims to read people's minds.
+
+POS tagged sentence: 
+[('Thinks', 'NNS'), ('So', 'RB'), ('Recent', 'JJ'), ('Articles', 'NNS'), ('by', 'IN'), ('N.J.', 'NNP'), ('Beachum', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('04/08/10', 'CD'), ('at', 'IN'), ('11', 'CD'), (':', ':'), ('30am', 'CD'), ('by', 'IN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('has', 'VBZ'), ('showcased', 'VBN'), ('a', 'DT'), ('new', 'JJ'), ('device', 'NN'), ('that', 'WDT'), ('claims', 'VBZ'), ('to', 'TO'), ('read', 'VB'), ('people', 'NNS'), ("'s", 'POS'), ('minds', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Thinks/NNS   So/RB   Recent/JJ   Articles/NNS   by/IN   N.J./NNP   (PERSON Beachum/NNP Posted/NNP)   on/IN   04/08/10/CD   at/IN   11/CD   :/:   30am/CD   by/IN   (ORGANIZATION Intel/NNP Corp./NNP)   NASDAQ/NNP   :/:   has/VBZ   showcased/VBN   a/DT   new/JJ   device/NN   that/WDT   claims/VBZ   to/TO   read/VB   people/NNS   's/POS   minds/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ showcased/VBN a/DT new/JJ device/NN)
+	(VERB claims/VBZ to/TO read/VB people/NNS)
+noun phrases to consider:
+	(NOUN Thinks/NNS)
+	(NOUN So/RB Recent/JJ Articles/NNS)
+	(NOUN N.J./NNP Beachum/NNP Posted/NNP)
+	(NOUN Intel/NNP Corp./NNP NASDAQ/NNP)
+	(NOUN minds/NNS)
+
+----------------------------------
+original sentence: 
+Intel has released some spoilers on a variety of projects that are currently underway.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('has', 'VBZ'), ('released', 'VBN'), ('some', 'DT'), ('spoilers', 'NNS'), ('on', 'IN'), ('a', 'DT'), ('variety', 'NN'), ('of', 'IN'), ('projects', 'NNS'), ('that', 'IN'), ('are', 'VBP'), ('currently', 'RB'), ('underway', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   has/VBZ   released/VBN   some/DT   spoilers/NNS   on/IN   a/DT   variety/NN   of/IN   projects/NNS   that/IN   are/VBP   currently/RB   underway/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   released/VBN   some/DT   spoilers/NNS   on/IN   a/DT   variety/NN   of/IN   projects/NNS   that/IN)
+	(VERB are/VBP currently/RB underway/RB)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+
+----------------------------------
+original sentence: 
+One project that has grabbed the attention of others involves software that utilizes brain scans in an effort to conclude what the person is thinking.
+
+POS tagged sentence: 
+[('One', 'CD'), ('project', 'NN'), ('that', 'WDT'), ('has', 'VBZ'), ('grabbed', 'VBN'), ('the', 'DT'), ('attention', 'NN'), ('of', 'IN'), ('others', 'NNS'), ('involves', 'NNS'), ('software', 'VBP'), ('that', 'IN'), ('utilizes', 'NNS'), ('brain', 'VBP'), ('scans', 'NNS'), ('in', 'IN'), ('an', 'DT'), ('effort', 'NN'), ('to', 'TO'), ('conclude', 'VB'), ('what', 'WP'), ('the', 'DT'), ('person', 'NN'), ('is', 'VBZ'), ('thinking', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   One/CD   project/NN   that/WDT   has/VBZ   grabbed/VBN   the/DT   attention/NN   of/IN   others/NNS   involves/NNS   software/VBP   that/IN   utilizes/NNS   brain/VBP   scans/NNS   in/IN   an/DT   effort/NN   to/TO   conclude/VB   what/WP   the/DT   person/NN   is/VBZ   thinking/VBG   ./.)
+----------------------------------
+original sentence: 
+When provided two words, the machine has a 90% accuracy in determining which word the person is contemplating.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('provided', 'VBN'), ('two', 'CD'), ('words', 'NNS'), (',', ','), ('the', 'DT'), ('machine', 'NN'), ('has', 'VBZ'), ('a', 'DT'), ('90', 'CD'), ('%', 'NN'), ('accuracy', 'NN'), ('in', 'IN'), ('determining', 'NN'), ('which', 'WDT'), ('word', 'NN'), ('the', 'DT'), ('person', 'NN'), ('is', 'VBZ'), ('contemplating', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   provided/VBN   two/CD   words/NNS   ,/,   the/DT   machine/NN   has/VBZ   a/DT   90/CD   %/NN   accuracy/NN   in/IN   determining/NN   which/WDT   word/NN   the/DT   person/NN   is/VBZ   contemplating/VBG   ./.)
+----------------------------------
+original sentence: 
+This has huge potential for the future, especially for those that suffer from severe disabilities this device could assist with communication.
+
+POS tagged sentence: 
+[('This', 'DT'), ('has', 'VBZ'), ('huge', 'JJ'), ('potential', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('future', 'NN'), (',', ','), ('especially', 'RB'), ('for', 'IN'), ('those', 'DT'), ('that', 'WDT'), ('suffer', 'VBP'), ('from', 'IN'), ('severe', 'JJ'), ('disabilities', 'NNS'), ('this', 'DT'), ('device', 'NN'), ('could', 'MD'), ('assist', 'VB'), ('with', 'IN'), ('communication', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   has/VBZ   huge/JJ   potential/JJ   for/IN   the/DT   future/NN   ,/,   especially/RB   for/IN   those/DT   that/WDT   suffer/VBP   from/IN   severe/JJ   disabilities/NNS   this/DT   device/NN   could/MD   assist/VB   with/IN   communication/NN   ./.)
+----------------------------------
+original sentence: 
+We will all have to wait and see what else Intel has up its sleeves.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('will', 'MD'), ('all', 'VB'), ('have', 'VB'), ('to', 'TO'), ('wait', 'VB'), ('and', 'CC'), ('see', 'VB'), ('what', 'WP'), ('else', 'RB'), ('Intel', 'NNP'), ('has', 'VBZ'), ('up', 'RP'), ('its', 'PRP$'), ('sleeves', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   will/MD   all/VB   have/VB   to/TO   wait/VB   and/CC   see/VB   what/WP   else/RB   (ORGANIZATION Intel/NNP)   has/VBZ   up/RP   its/PRP$   sleeves/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB all/VB have/VB)
+	(VERB wait/VB)
+	(VERB see/VB)
+	(VERB has/VBZ)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN sleeves/NNS)
+
+----------------------------------
+original sentence: 
+Intel Corp. shares are down to $22.23 so far today in trading.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corp.', 'NNP'), ('shares', 'NNS'), ('are', 'VBP'), ('down', 'RB'), ('to', 'TO'), ('$', '$'), ('22.23', 'CD'), ('so', 'RB'), ('far', 'RB'), ('today', 'NN'), ('in', 'IN'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   Corp./NNP   shares/NNS   are/VBP   down/RB   to/TO   $/$   22.23/CD   so/RB   far/RB   today/NN   in/IN   trading/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP down/RB to/TO)
+
+tagged sentence:
+	 are down to	res:-1
+noun phrases to consider:
+	(NOUN Intel/NNP Corp./NNP shares/NNS)
+	(NOUN today/NN)
+	(NOUN trading/NN)
+
+----------------------------------
+original sentence: 
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('There', 'EX'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   There/EX   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:0

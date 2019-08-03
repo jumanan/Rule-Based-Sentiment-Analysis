@@ -1,0 +1,170 @@
+
+----------------------------------
+original sentence: 
+U.S. Government May Sell Citigroup Shares after April 19th NYSE: C American Banking News
+U.S. Government May Sell Citigroup Shares after April 19th NYSE: C  March 18th, 2010 &bull;  &bull; by admin  Filed Under: The U.S. government may begin winding down its ownership in Citigroup NYSE: C after the company releases its first quarter earnings numbers on April 19
+, according to a new report from the WSJ.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('Government', 'NNP'), ('May', 'NNP'), ('Sell', 'NNP'), ('Citigroup', 'NNP'), ('Shares', 'NNP'), ('after', 'IN'), ('April', 'NNP'), ('19th', 'CD'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('U.S.', 'NNP'), ('Government', 'NNP'), ('May', 'NNP'), ('Sell', 'NNP'), ('Citigroup', 'NNP'), ('Shares', 'NNP'), ('after', 'IN'), ('April', 'NNP'), ('19th', 'CD'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('March', 'NNP'), ('18th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('The', 'DT'), ('U.S.', 'NNP'), ('government', 'NN'), ('may', 'MD'), ('begin', 'VB'), ('winding', 'VBG'), ('down', 'IN'), ('its', 'PRP$'), ('ownership', 'NN'), ('in', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('releases', 'VBZ'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('numbers', 'NNS'), ('on', 'IN'), ('April', 'NNP'), ('19', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('new', 'JJ'), ('report', 'NN'), ('from', 'IN'), ('the', 'DT'), ('WSJ', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   Government/NNP   May/NNP   Sell/NNP   Citigroup/NNP   Shares/NNP   after/IN   April/NNP   19th/CD   NYSE/NNP   :/:   C/NNP   (ORGANIZATION American/NNP Banking/NNP News/NNP U.S./NNP)   Government/NNP   May/NNP   Sell/NNP   Citigroup/NNP   Shares/NNP   after/IN   April/NNP   19th/CD   NYSE/NNP   :/:   C/NNP   March/NNP   18th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   The/DT   (GPE U.S./NNP)   government/NN   may/MD   begin/VB   winding/VBG   down/IN   its/PRP$   ownership/NN   in/IN   (GPE Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   after/IN   the/DT   company/NN   releases/VBZ   its/PRP$   first/JJ   quarter/NN   earnings/NNS   numbers/NNS   on/IN   April/NNP   19/CD   ,/,   according/VBG   to/TO   a/DT   new/JJ   report/NN   from/IN   the/DT   (ORGANIZATION WSJ/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   begin/VB   winding/VBG   down/IN   its/PRP$   ownership/NN   in/IN   Citigroup/NNP   NYSE/NNP)
+
+tagged sentence:
+	 begin winding down its ownership in Citigroup NYSE	res:-1
+	(VERB   releases/VBZ   its/PRP$   first/JJ   quarter/NN   earnings/NNS   numbers/NNS   on/IN   April/NNP   19/CD)
+	(VERB   according/VBG   to/TO   a/DT   new/JJ   report/NN   from/IN   the/DT   WSJ/NNP)
+noun phrases to consider:
+	(NOUN U.S./NNP Government/NNP May/NNP Sell/NNP)
+	(NOUN Citigroup/NNP Shares/NNP)
+	(NOUN April/NNP)
+	(NOUN 19th/CD NYSE/NNP)
+	(NOUN C/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN U.S./NNP Government/NNP May/NNP Sell/NNP)
+	(NOUN Citigroup/NNP Shares/NNP)
+	(NOUN April/NNP)
+	(NOUN 19th/CD NYSE/NNP)
+	(NOUN C/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN U.S./NNP government/NN)
+	(NOUN C/NNP)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+The U.S. governmentâ€™s lock up period ended on Tuesday, allowing the 27% stake that the Treasury Department owns in Citigroup to be sold.
+
+POS tagged sentence: 
+[('The', 'DT'), ('U.S.', 'NNP'), ('government', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('lock', 'VBP'), ('up', 'RP'), ('period', 'NN'), ('ended', 'VBD'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('allowing', 'VBG'), ('the', 'DT'), ('27', 'CD'), ('%', 'NN'), ('stake', 'NN'), ('that', 'IN'), ('the', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('owns', 'VBZ'), ('in', 'IN'), ('Citigroup', 'NNP'), ('to', 'TO'), ('be', 'VB'), ('sold', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (GPE U.S./NNP)   government/NN   â/:   €/:   ™/:   s/NNS   lock/VBP   up/RP   period/NN   ended/VBD   on/IN   Tuesday/NNP   ,/,   allowing/VBG   the/DT   27/CD   %/NN   stake/NN   that/IN   the/DT   (ORGANIZATION Treasury/NNP Department/NNP)   owns/VBZ   in/IN   (GPE Citigroup/NNP)   to/TO   be/VB   sold/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lock/VBP)
+	(VERB ended/VBD on/IN Tuesday/NNP)
+	(VERB   allowing/VBG   the/DT   27/CD   %/NN   stake/NN   that/IN   the/DT   Treasury/NNP   Department/NNP)
+	(VERB owns/VBZ in/IN Citigroup/NNP)
+	(VERB be/VB sold/VBN)
+noun phrases to consider:
+	(NOUN U.S./NNP government/NN)
+	(NOUN s/NNS)
+	(NOUN period/NN)
+
+----------------------------------
+original sentence: 
+The government has not yet taken action to begin selling its billions of shares in the troubled financial company.
+
+POS tagged sentence: 
+[('The', 'DT'), ('government', 'NN'), ('has', 'VBZ'), ('not', 'RB'), ('yet', 'RB'), ('taken', 'VBN'), ('action', 'NN'), ('to', 'TO'), ('begin', 'VB'), ('selling', 'NN'), ('its', 'PRP$'), ('billions', 'NNS'), ('of', 'IN'), ('shares', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('troubled', 'JJ'), ('financial', 'JJ'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   government/NN   has/VBZ   not/RB   yet/RB   taken/VBN   action/NN   to/TO   begin/VB   selling/NN   its/PRP$   billions/NNS   of/IN   shares/NNS   in/IN   the/DT   troubled/JJ   financial/JJ   company/NN   ./.)
+----------------------------------
+original sentence: 
+Citigroup shares rose on Tuesday despite the lock up period ending.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ('shares', 'NNS'), ('rose', 'VBD'), ('on', 'IN'), ('Tuesday', 'NNP'), ('despite', 'IN'), ('the', 'DT'), ('lock', 'NN'), ('up', 'RP'), ('period', 'NN'), ('ending', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   shares/NNS   rose/VBD   on/IN   Tuesday/NNP   despite/IN   the/DT   lock/NN   up/RP   period/NN   ending/VBG   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rose/VBD on/IN Tuesday/NNP despite/IN the/DT lock/NN)
+	(VERB ending/VBG)
+noun phrases to consider:
+	(NOUN Citigroup/NNP shares/NNS)
+	(NOUN period/NN)
+
+----------------------------------
+original sentence: 
+According to the WSJ report, the U.S. government will likely not be able to sell shares of Citigroup until after the company reports its first quarter earnings on April 19
+, because the government is currently considered an affiliate of Citigroup and likely is in possession of what would be considered material non public information.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('WSJ', 'NNP'), ('report', 'NN'), (',', ','), ('the', 'DT'), ('U.S.', 'NNP'), ('government', 'NN'), ('will', 'MD'), ('likely', 'RB'), ('not', 'RB'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('sell', 'VB'), ('shares', 'NNS'), ('of', 'IN'), ('Citigroup', 'NNP'), ('until', 'IN'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('reports', 'VBZ'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('on', 'IN'), ('April', 'NNP'), ('19', 'CD'), (',', ','), ('because', 'IN'), ('the', 'DT'), ('government', 'NN'), ('is', 'VBZ'), ('currently', 'RB'), ('considered', 'VBN'), ('an', 'DT'), ('affiliate', 'NN'), ('of', 'IN'), ('Citigroup', 'NNP'), ('and', 'CC'), ('likely', 'JJ'), ('is', 'VBZ'), ('in', 'IN'), ('possession', 'NN'), ('of', 'IN'), ('what', 'WP'), ('would', 'MD'), ('be', 'VB'), ('considered', 'VBN'), ('material', 'NN'), ('non', 'NN'), ('public', 'JJ'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   the/DT   (ORGANIZATION WSJ/NNP)   report/NN   ,/,   the/DT   (GPE U.S./NNP)   government/NN   will/MD   likely/RB   not/RB   be/VB   able/JJ   to/TO   sell/VB   shares/NNS   of/IN   (GPE Citigroup/NNP)   until/IN   after/IN   the/DT   company/NN   reports/VBZ   its/PRP$   first/JJ   quarter/NN   earnings/NNS   on/IN   April/NNP   19/CD   ,/,   because/IN   the/DT   government/NN   is/VBZ   currently/RB   considered/VBN   an/DT   affiliate/NN   of/IN   (ORGANIZATION Citigroup/NNP)   and/CC   likely/JJ   is/VBZ   in/IN   possession/NN   of/IN   what/WP   would/MD   be/VB   considered/VBN   material/NN   non/NN   public/JJ   information/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB According/VBG to/TO the/DT WSJ/NNP report/NN)
+	(VERB be/VB able/JJ)
+
+tagged sentence:
+	 be able	res:1
+	(VERB   sell/VB   shares/NNS   of/IN   Citigroup/NNP   until/IN   after/IN   the/DT   company/NN)
+	(VERB   reports/VBZ   its/PRP$   first/JJ   quarter/NN   earnings/NNS   on/IN   April/NNP   19/CD)
+	(VERB   is/VBZ   currently/RB   considered/VBN   an/DT   affiliate/NN   of/IN   Citigroup/NNP)
+	(VERB is/VBZ in/IN possession/NN of/IN)
+	(VERB   be/VB   considered/VBN   material/NN   non/NN   public/JJ   information/NN)
+noun phrases to consider:
+	(NOUN U.S./NNP government/NN)
+	(NOUN government/NN)
+	(NOUN likely/JJ)
+
+----------------------------------
+original sentence: 
+If the government sold shares based on advanced negative information that it knew about Citigroupâ€™s earnings results, it would be tantamount to insider trading.
+
+POS tagged sentence: 
+[('If', 'IN'), ('the', 'DT'), ('government', 'NN'), ('sold', 'VBD'), ('shares', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('advanced', 'JJ'), ('negative', 'JJ'), ('information', 'NN'), ('that', 'WDT'), ('it', 'PRP'), ('knew', 'VBD'), ('about', 'IN'), ('Citigroup', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('earnings', 'NNS'), ('results', 'NNS'), (',', ','), ('it', 'PRP'), ('would', 'MD'), ('be', 'VB'), ('tantamount', 'NN'), ('to', 'TO'), ('insider', 'NN'), ('trading', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   the/DT   government/NN   sold/VBD   shares/NNS   based/VBN   on/IN   advanced/JJ   negative/JJ   information/NN   that/WDT   it/PRP   knew/VBD   about/IN   (PERSON Citigroup/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   earnings/NNS   results/NNS   ,/,   it/PRP   would/MD   be/VB   tantamount/NN   to/TO   insider/NN   trading/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB sold/VBD shares/NNS)
+	(VERB based/VBN on/IN advanced/JJ negative/JJ information/NN)
+	(VERB knew/VBD about/IN Citigroup/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ earnings/NNS results/NNS)
+	(VERB be/VB tantamount/NN)
+noun phrases to consider:
+	(NOUN government/NN)
+	(NOUN insider/NN trading/NN)
+
+----------------------------------
+original sentence: 
+Many believe that the government will wait until after Citigroup reports its first quarter earnings to begin selling shares.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('believe', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('government', 'NN'), ('will', 'MD'), ('wait', 'VB'), ('until', 'IN'), ('after', 'IN'), ('Citigroup', 'NNP'), ('reports', 'NNS'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('to', 'TO'), ('begin', 'VB'), ('selling', 'NN'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   believe/VBP   that/IN   the/DT   government/NN   will/MD   wait/VB   until/IN   after/IN   (ORGANIZATION Citigroup/NNP)   reports/NNS   its/PRP$   first/JJ   quarter/NN   earnings/NNS   to/TO   begin/VB   selling/NN   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP that/IN the/DT government/NN)
+	(VERB   wait/VB   until/IN   after/IN   Citigroup/NNP   reports/NNS   its/PRP$   first/JJ   quarter/NN   earnings/NNS)
+	(VERB begin/VB selling/NN shares/NNS)
+noun phrases to consider:
+	(NOUN Many/JJ)
+
+----------------------------------
+original sentence: 
+If Citi pre announces Â its earnings, the sale process could begin sooner.
+
+POS tagged sentence: 
+[('If', 'IN'), ('Citi', 'NNP'), ('pre', 'NN'), ('announces', 'NNS'), ('\xc2', ':'), ('\xa0', ':'), ('its', 'PRP$'), ('earnings', 'NNS'), (',', ','), ('the', 'DT'), ('sale', 'NN'), ('process', 'NN'), ('could', 'MD'), ('begin', 'VB'), ('sooner', 'RBR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   (PERSON Citi/NNP)   pre/NN   announces/NNS   Â/:    /:   its/PRP$   earnings/NNS   ,/,   the/DT   sale/NN   process/NN   could/MD   begin/VB   sooner/RBR   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB begin/VB)
+noun phrases to consider:
+	(NOUN Citi/NNP pre/NN announces/NNS)
+	(NOUN earnings/NNS)
+	(NOUN sale/NN process/NN)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:0

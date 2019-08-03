@@ -1,0 +1,180 @@
+
+----------------------------------
+original sentence: 
+Goldman Sachs Reduces Forecasts for Euro on Growth Update1 BusinessWeek
+Within the last week
+Within the last 2 weeks
+Within the last 30 days
+Within the last 60 days
+Within the last 90 days
+Within the last 180 days
+Within the last year
+Within the last two years
+Friday April 23, 2010
+Goldman Sachs Reduces Forecasts for Euro on Growth Update1 March 11, 2010, 4:07 AM EST
+More From Businessweek
+ Updates price in second paragraph.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Reduces', 'NNPS'), ('Forecasts', 'NNP'), ('for', 'IN'), ('Euro', 'NNP'), ('on', 'IN'), ('Growth', 'NNP'), ('Update1', 'NNP'), ('BusinessWeek', 'NNP'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('week', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('2', 'CD'), ('weeks', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('60', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('90', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('180', 'CD'), ('days', 'NNS'), ('Within', 'NNP'), ('the', 'DT'), ('last', 'JJ'), ('year', 'NN'), ('Within', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('two', 'CD'), ('years', 'NNS'), ('Friday', 'NNP'), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2010', 'CD'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Reduces', 'NNPS'), ('Forecasts', 'NNP'), ('for', 'IN'), ('Euro', 'NNP'), ('on', 'IN'), ('Growth', 'NNP'), ('Update1', 'NNP'), ('March', 'NNP'), ('11', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('07', 'CD'), ('AM', 'NNP'), ('EST', 'NNP'), ('More', 'NNP'), ('From', 'NNP'), ('Businessweek', 'NNP'), ('Updates', 'NNP'), ('price', 'NN'), ('in', 'IN'), ('second', 'JJ'), ('paragraph', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (ORGANIZATION Sachs/NNP Reduces/NNPS Forecasts/NNP)   for/IN   (GPE Euro/NNP)   on/IN   (PERSON Growth/NNP Update1/NNP)   BusinessWeek/NNP   Within/NNP   the/DT   last/JJ   week/NN   Within/IN   the/DT   last/JJ   2/CD   weeks/NNS   Within/NNP   the/DT   last/JJ   30/CD   days/NNS   Within/NNP   the/DT   last/JJ   60/CD   days/NNS   Within/NNP   the/DT   last/JJ   90/CD   days/NNS   Within/NNP   the/DT   last/JJ   180/CD   days/NNS   Within/NNP   the/DT   last/JJ   year/NN   Within/IN   the/DT   last/JJ   two/CD   years/NNS   Friday/NNP   April/NNP   23/CD   ,/,   2010/CD   (ORGANIZATION Goldman/NNP Sachs/NNP Reduces/NNPS Forecasts/NNP)   for/IN   (GPE Euro/NNP)   on/IN   (PERSON Growth/NNP Update1/NNP)   March/NNP   11/CD   ,/,   2010/CD   ,/,   4/CD   :/:   07/CD   AM/NNP   EST/NNP   More/NNP   From/NNP   Businessweek/NNP   Updates/NNP   price/NN   in/IN   second/JJ   paragraph/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP Reduces/NNPS Forecasts/NNP)
+
+tagged sentence:
+	 Goldman Sachs Reduces Forecasts	res:-1
+	(NOUN Euro/NNP)
+	(NOUN Growth/NNP Update1/NNP BusinessWeek/NNP Within/NNP)
+	(NOUN the/DT last/JJ week/NN)
+	(NOUN the/DT last/JJ 2/CD weeks/NNS Within/NNP)
+	(NOUN the/DT last/JJ 30/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 60/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 90/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ 180/CD days/NNS Within/NNP)
+	(NOUN the/DT last/JJ year/NN)
+	(NOUN the/DT last/JJ two/CD years/NNS Friday/NNP April/NNP)
+	(NOUN 2010/CD Goldman/NNP Sachs/NNP Reduces/NNPS Forecasts/NNP)
+
+tagged sentence:
+	 2010 Goldman Sachs Reduces Forecasts	res:-1
+	(NOUN Euro/NNP)
+	(NOUN Growth/NNP Update1/NNP March/NNP)
+	(NOUN 07/CD AM/NNP EST/NNP More/NNP From/NNP)
+	(NOUN Businessweek/NNP Updates/NNP price/NN)
+	(NOUN second/JJ paragraph/NN)
+
+----------------------------------
+original sentence: 
+By Candice Zachariahs
+ March 11 Bloomberg Goldman Sachs Group Inc. cut its forecasts for the euro against Norway&rsquo;s krone, the Swiss franc, the Swedish krona and Polish zloty, citing an &ldquo;increasing focus on growth differentiation.&rdquo;
+ Strategists including London based Thomas Stolper also revised lower their three month forecast for the pound versus the euro as U.K elections weigh on sterling.
+
+POS tagged sentence: 
+[('By', 'IN'), ('Candice', 'NNP'), ('Zachariahs', 'NNP'), ('March', 'NNP'), ('11', 'CD'), ('Bloomberg', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('Group', 'NNP'), ('Inc.', 'NNP'), ('cut', 'VBD'), ('its', 'PRP$'), ('forecasts', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('euro', 'NN'), ('against', 'IN'), ('Norway&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('krone', 'VBP'), (',', ','), ('the', 'DT'), ('Swiss', 'NNP'), ('franc', 'NN'), (',', ','), ('the', 'DT'), ('Swedish', 'NNP'), ('krona', 'NN'), ('and', 'CC'), ('Polish', 'JJ'), ('zloty', 'NN'), (',', ','), ('citing', 'VBG'), ('an', 'DT'), ('&ldquo', 'JJ'), (';', ':'), ('increasing', 'VBG'), ('focus', 'NN'), ('on', 'IN'), ('growth', 'NN'), ('differentiation.&rdquo', '-NONE-'), (';', ':'), ('Strategists', 'NNS'), ('including', 'VBG'), ('London', 'NNP'), ('based', 'VBN'), ('Thomas', 'NNP'), ('Stolper', 'NNP'), ('also', 'RB'), ('revised', 'VBD'), ('lower', 'JJR'), ('their', 'PRP$'), ('three', 'CD'), ('month', 'NN'), ('forecast', 'NN'), ('for', 'IN'), ('the', 'DT'), ('pound', 'NN'), ('versus', 'VBZ'), ('the', 'DT'), ('euro', 'NN'), ('as', 'IN'), ('U.K', 'JJ'), ('elections', 'NNS'), ('weigh', 'VBP'), ('on', 'IN'), ('sterling', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   (ORGANIZATION Candice/NNP Zachariahs/NNP)   March/NNP   11/CD   (ORGANIZATION Bloomberg/NNP)   (ORGANIZATION Goldman/NNP Sachs/NNP Group/NNP Inc./NNP)   cut/VBD   its/PRP$   forecasts/NNS   for/IN   the/DT   euro/NN   against/IN   (GPE Norway&rsquo/NNP)   ;/:   s/NNS   krone/VBP   ,/,   the/DT   (GPE Swiss/NNP)   franc/NN   ,/,   the/DT   (GPE Swedish/NNP)   krona/NN   and/CC   (GPE Polish/JJ)   zloty/NN   ,/,   citing/VBG   an/DT   &ldquo/JJ   ;/:   increasing/VBG   focus/NN   on/IN   growth/NN   differentiation.&rdquo/-NONE-   ;/:   Strategists/NNS   including/VBG   (GPE London/NNP)   based/VBN   (PERSON Thomas/NNP Stolper/NNP)   also/RB   revised/VBD   lower/JJR   their/PRP$   three/CD   month/NN   forecast/NN   for/IN   the/DT   pound/NN   versus/VBZ   the/DT   euro/NN   as/IN   U.K/JJ   elections/NNS   weigh/VBP   on/IN   sterling/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   cut/VBD   its/PRP$   forecasts/NNS   for/IN   the/DT   euro/NN   against/IN   Norway&rsquo/NNP)
+
+tagged sentence:
+	 cut its forecasts for the euro against Norway&rsquo	res:-1
+	(VERB krone/VBP)
+	(VERB citing/VBG an/DT &ldquo/JJ)
+	(VERB increasing/VBG focus/NN on/IN growth/NN)
+	(VERB including/VBG London/NNP)
+	(VERB based/VBN Thomas/NNP Stolper/NNP also/RB)
+	(VERB   revised/VBD   lower/JJR   their/PRP$   three/CD   month/NN   forecast/NN   for/IN   the/DT   pound/NN)
+	(VERB versus/VBZ the/DT euro/NN as/IN U.K/JJ elections/NNS)
+	(VERB weigh/VBP on/IN sterling/NN)
+noun phrases to consider:
+	(NOUN Candice/NNP Zachariahs/NNP March/NNP)
+	(NOUN 11/CD Bloomberg/NNP Goldman/NNP Sachs/NNP Group/NNP)
+	(NOUN Inc./NNP)
+	(NOUN s/NNS)
+	(NOUN Swiss/NNP franc/NN)
+	(NOUN Swedish/NNP krona/NN)
+	(NOUN Polish/JJ zloty/NN)
+	(NOUN Strategists/NNS)
+
+----------------------------------
+original sentence: 
+The bank now expects smaller gains in the pound to 87 pence per euro from 91.12 pence as of 9:01 a.m. in London, compared with a previous call for it to trade at 84 pence in three months.
+
+POS tagged sentence: 
+[('The', 'DT'), ('bank', 'NN'), ('now', 'RB'), ('expects', 'VBZ'), ('smaller', 'JJR'), ('gains', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('pound', 'NN'), ('to', 'TO'), ('87', 'CD'), ('pence', 'NN'), ('per', 'IN'), ('euro', 'NN'), ('from', 'IN'), ('91.12', 'CD'), ('pence', 'NN'), ('as', 'IN'), ('of', 'IN'), ('9', 'CD'), (':', ':'), ('01', 'CD'), ('a.m.', 'NNP'), ('in', 'IN'), ('London', 'NNP'), (',', ','), ('compared', 'VBN'), ('with', 'IN'), ('a', 'DT'), ('previous', 'JJ'), ('call', 'NN'), ('for', 'IN'), ('it', 'PRP'), ('to', 'TO'), ('trade', 'VB'), ('at', 'IN'), ('84', 'CD'), ('pence', 'NN'), ('in', 'IN'), ('three', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   bank/NN   now/RB   expects/VBZ   smaller/JJR   gains/NNS   in/IN   the/DT   pound/NN   to/TO   87/CD   pence/NN   per/IN   euro/NN   from/IN   91.12/CD   pence/NN   as/IN   of/IN   9/CD   :/:   01/CD   a.m./NNP   in/IN   (GPE London/NNP)   ,/,   compared/VBN   with/IN   a/DT   previous/JJ   call/NN   for/IN   it/PRP   to/TO   trade/VB   at/IN   84/CD   pence/NN   in/IN   three/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs left its six and 12 month forecasts unchanged.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('left', 'VBD'), ('its', 'PRP$'), ('six', 'CD'), ('and', 'CC'), ('12', 'CD'), ('month', 'NN'), ('forecasts', 'NNS'), ('unchanged', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP)   left/VBD   its/PRP$   six/CD   and/CC   12/CD   month/NN   forecasts/NNS   unchanged/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB left/VBD its/PRP$ six/CD)
+noun phrases to consider:
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN 12/CD month/NN forecasts/NNS)
+	(NOUN unchanged/JJ)
+
+----------------------------------
+original sentence: 
+To contact the reporter on this story: Candice Zachariahs in Sydney at czachariahs2@bloomberg.net
+To contact the editor responsible for this story: Garfield Reynolds at greynolds1@bloomberg.net
+ Related topics in Most Popular Stories
+Stock Picks: Chipotle, eBay, Netflix, Qualcomm
+It's About Time: Adobe Divests from iPhone OS
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('reporter', 'NN'), ('on', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Candice', 'NNP'), ('Zachariahs', 'NNP'), ('in', 'IN'), ('Sydney', 'NNP'), ('at', 'IN'), ('czachariahs2', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('To', 'TO'), ('contact', 'VB'), ('the', 'DT'), ('editor', 'NN'), ('responsible', 'JJ'), ('for', 'IN'), ('this', 'DT'), ('story', 'NN'), (':', ':'), ('Garfield', 'NNP'), ('Reynolds', 'NNP'), ('at', 'IN'), ('greynolds1', 'NNP'), ('@', 'NNP'), ('bloomberg.net', 'JJ'), ('Related', 'NNP'), ('topics', 'NNS'), ('in', 'IN'), ('Most', 'JJS'), ('Popular', 'JJ'), ('Stories', 'NNS'), ('Stock', 'NNP'), ('Picks', 'NNP'), (':', ':'), ('Chipotle', 'NNP'), (',', ','), ('eBay', 'NNP'), (',', ','), ('Netflix', 'NNP'), (',', ','), ('Qualcomm', 'NNP'), ('It', 'PRP'), ("'s", 'VBZ'), ('About', 'IN'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   contact/VB   the/DT   reporter/NN   on/IN   this/DT   story/NN   :/:   Candice/NNP   Zachariahs/NNP   in/IN   (GPE Sydney/NNP)   at/IN   (ORGANIZATION czachariahs2/NNP)   @/NNP   bloomberg.net/JJ   To/TO   contact/VB   the/DT   editor/NN   responsible/JJ   for/IN   this/DT   story/NN   :/:   (PERSON Garfield/NNP Reynolds/NNP)   at/IN   (ORGANIZATION greynolds1/NNP)   @/NNP   bloomberg.net/JJ   Related/NNP   topics/NNS   in/IN   Most/JJS   Popular/JJ   Stories/NNS   (PERSON Stock/NNP Picks/NNP)   :/:   (GPE Chipotle/NNP)   ,/,   (ORGANIZATION eBay/NNP)   ,/,   (PERSON Netflix/NNP)   ,/,   Qualcomm/NNP   It/PRP   's/VBZ   About/IN   Time/NNP   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+Apple's Endless Expanding App Universe
+A Wobbly Global Debut for Apple's iPad
+RSS Feed: Most Read Stories
+Potentially Lethal Airborne Fungus May Spread to California BusinessWeek
+Can GE Still Manage?
+
+POS tagged sentence: 
+[('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('Read', 'JJ'), ('Stories', 'NNS'), ('Potentially', 'RB'), ('Lethal', 'NNP'), ('Airborne', 'NNP'), ('Fungus', 'NNP'), ('May', 'NNP'), ('Spread', 'NNP'), ('to', 'TO'), ('California', 'NNP'), ('BusinessWeek', 'NNP'), ('Can', 'NNP'), ('GE', 'NNP'), ('Still', 'NNP'), ('Manage', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   Universe/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP)   RSS/NNP   Feed/NNP   :/:   Most/RBS   Read/JJ   Stories/NNS   Potentially/RB   (PERSON Lethal/NNP Airborne/NNP Fungus/NNP)   May/NNP   Spread/NNP   to/TO   (GPE California/NNP)   BusinessWeek/NNP   Can/NNP   GE/NNP   Still/NNP   Manage/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+Why Boulder Is America's Best Town for Startups BusinessWeek
+Apple's Endless Expanding App Universe BusinessWeek
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('Why', 'WRB'), ('Boulder', 'NNP'), ('Is', 'NNP'), ('America', 'NNP'), ("'s", 'POS'), ('Best', 'NNP'), ('Town', 'NNP'), ('for', 'IN'), ('Startups', 'NNP'), ('BusinessWeek', 'NNP'), ('Apple', 'NNP'), ("'s", 'POS'), ('Endless', 'NNP'), ('Expanding', 'NNP'), ('App', 'NNP'), ('Universe', 'NNP'), ('BusinessWeek', 'NNP'), ('After', 'NNP'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   BusinessWeek/NN   Why/WRB   (PERSON Boulder/NNP Is/NNP America/NNP)   's/POS   (PERSON Best/NNP Town/NNP)   for/IN   (PERSON Startups/NNP BusinessWeek/NNP Apple/NNP)   's/POS   (ORGANIZATION Endless/NNP)   Expanding/NNP   App/NNP   (PERSON Universe/NNP BusinessWeek/NNP)   After/NNP   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+BusinessWeek
+RSS Feed: Most E mailed Stories
+It's About Time: Adobe Divests from iPhone OS
+A Wobbly Global Debut for Apple's iPad
+Can Meg Whitman's CEO Savvy Save California?
+
+POS tagged sentence: 
+[('BusinessWeek', 'NN'), ('RSS', 'NNP'), ('Feed', 'NNP'), (':', ':'), ('Most', 'RBS'), ('E', 'NNP'), ('mailed', 'VBD'), ('Stories', 'NNP'), ('It', 'NNP'), ("'s", 'POS'), ('About', 'NNP'), ('Time', 'NNP'), (':', ':'), ('Adobe', 'NNP'), ('Divests', 'NNPS'), ('from', 'IN'), ('iPhone', 'NNP'), ('OS', 'NNP'), ('A', 'NNP'), ('Wobbly', 'NNP'), ('Global', 'NNP'), ('Debut', 'NNP'), ('for', 'IN'), ('Apple', 'NNP'), ("'s", 'POS'), ('iPad', 'NNP'), ('Can', 'NNP'), ('Meg', 'NNP'), ('Whitman', 'NNP'), ("'s", 'POS'), ('CEO', 'NNP'), ('Savvy', 'NNP'), ('Save', 'NNP'), ('California', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION BusinessWeek/NN)   (ORGANIZATION RSS/NNP)   Feed/NNP   :/:   Most/RBS   E/NNP   mailed/VBD   (PERSON Stories/NNP It/NNP)   's/POS   (PERSON About/NNP Time/NNP)   :/:   Adobe/NNP   Divests/NNPS   from/IN   (ORGANIZATION iPhone/NNP)   OS/NNP   A/NNP   Wobbly/NNP   Global/NNP   Debut/NNP   for/IN   (PERSON Apple/NNP)   's/POS   (ORGANIZATION iPad/NNP Can/NNP Meg/NNP Whitman/NNP)   's/POS   (ORGANIZATION CEO/NNP Savvy/NNP Save/NNP California/NNP)   ?/.)
+----------------------------------
+original sentence: 
+After 79% Jump, Are Stocks Still Cheap?
+
+POS tagged sentence: 
+[('After', 'IN'), ('79', 'CD'), ('%', 'NN'), ('Jump', 'NNP'), (',', ','), ('Are', 'NNP'), ('Stocks', 'NNP'), ('Still', 'NNP'), ('Cheap', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   79/CD   %/NN   (PERSON Jump/NNP)   ,/,   (PERSON Are/NNP Stocks/NNP)   Still/NNP   Cheap/NNP   ?/.)
+----------------------------------
+original sentence: 
+RSS Feed: Most Discussed Stories
+
+
+POS tagged sentence: 
+[('RSS', 'NN'), ('Feed', 'VBN'), (':', ':'), ('Most', 'RBS'), ('Discussed', 'JJ'), ('Stories', 'NNS')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION RSS/NN)   Feed/VBN   :/:   Most/RBS   Discussed/JJ   Stories/NNS)
+
+veryneg:0	neg:3	pos:0	verypos:0	total:2

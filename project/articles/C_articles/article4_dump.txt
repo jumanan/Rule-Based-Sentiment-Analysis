@@ -1,0 +1,46 @@
+
+----------------------------------
+original sentence: 
+ Earnings Preview : Citigroup Inc NYSE:C First Quarter 2010 | AlphaEarnings.com  Earnings Preview : Citigroup Inc NYSE:C First Quarter 2010
+Friday, April 09, 2010 9:12 AM
+Stay ahead of earnings.
+
+POS tagged sentence: 
+[('Earnings', 'NNS'), ('Preview', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('|', 'CD'), ('AlphaEarnings.com', 'JJ'), ('Earnings', 'NNS'), ('Preview', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('Inc', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('First', 'NNP'), ('Quarter', 'NNP'), ('2010', 'CD'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('09', 'CD'), (',', ','), ('2010', 'CD'), ('9', 'CD'), (':', ':'), ('12', 'CD'), ('AM', 'NNP'), ('Stay', 'NNP'), ('ahead', 'RB'), ('of', 'IN'), ('earnings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Earnings/NNS   Preview/NNP   :/:   (PERSON Citigroup/NNP Inc/NNP)   NYSE/NNP   :/:   C/NNP   First/NNP   Quarter/NNP   2010/CD   |/CD   AlphaEarnings.com/JJ   Earnings/NNS   Preview/NNP   :/:   (PERSON Citigroup/NNP Inc/NNP)   NYSE/NNP   :/:   C/NNP   First/NNP   Quarter/NNP   2010/CD   Friday/NNP   ,/,   April/NNP   09/CD   ,/,   2010/CD   9/CD   :/:   12/CD   AM/NNP   Stay/NNP   ahead/RB   of/IN   earnings/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Earnings/NNS Preview/NNP)
+	(NOUN Citigroup/NNP Inc/NNP NYSE/NNP)
+	(NOUN C/NNP First/NNP Quarter/NNP)
+	(NOUN |/CD AlphaEarnings.com/JJ Earnings/NNS Preview/NNP)
+	(NOUN Citigroup/NNP Inc/NNP NYSE/NNP)
+	(NOUN C/NNP First/NNP Quarter/NNP)
+	(NOUN 2010/CD Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 12/CD AM/NNP Stay/NNP)
+	(NOUN earnings/NNS)
+
+----------------------------------
+original sentence: 
+Signup for our FREE newsletter!!
+
+POS tagged sentence: 
+[('Signup', 'NNP'), ('for', 'IN'), ('our', 'PRP$'), ('FREE', 'NNP'), ('newsletter', 'NN'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Signup/NNP)   for/IN   our/PRP$   (ORGANIZATION FREE/NNP)   newsletter/NN   !/.   !/.)
+----------------------------------
+original sentence: 
+!
+
+
+POS tagged sentence: 
+[('!', 'NN')]
+
+
+ERTAGGED sentence: (S !/NN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

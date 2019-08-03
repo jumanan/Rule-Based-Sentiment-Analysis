@@ -1,0 +1,129 @@
+
+----------------------------------
+original sentence: 
+Fast Money Picks For March 23rd POT, BBY, ORCL, DD | Benzinga.com
+Fast Money Picks For March 23rd POT, BBY, ORCL, DD Recent Articles by Craig Jones
+Posted on 03/22/10 at 7:31pm by Joe Terranova said on CNBC's Fast Money that he thinks that Potash NYSE:  has reached a bottom, temporarily.
+
+POS tagged sentence: 
+[('Fast', 'NNP'), ('Money', 'NNP'), ('Picks', 'NNP'), ('For', 'NNP'), ('March', 'NNP'), ('23rd', 'CD'), ('POT', 'NNP'), (',', ','), ('BBY', 'NNP'), (',', ','), ('ORCL', 'NNP'), (',', ','), ('DD', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Fast', 'NNP'), ('Money', 'NNP'), ('Picks', 'NNP'), ('For', 'NNP'), ('March', 'NNP'), ('23rd', 'CD'), ('POT', 'NNP'), (',', ','), ('BBY', 'NNP'), (',', ','), ('ORCL', 'NNP'), (',', ','), ('DD', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Craig', 'NNP'), ('Jones', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/22/10', 'CD'), ('at', 'IN'), ('7', 'CD'), (':', ':'), ('31pm', 'CD'), ('by', 'IN'), ('Joe', 'NNP'), ('Terranova', 'NNP'), ('said', 'VBD'), ('on', 'IN'), ('CNBC', 'NNP'), ("'s", 'POS'), ('Fast', 'NNP'), ('Money', 'NNP'), ('that', 'IN'), ('he', 'PRP'), ('thinks', 'VBZ'), ('that', 'IN'), ('Potash', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('has', 'VBZ'), ('reached', 'VBN'), ('a', 'DT'), ('bottom', 'NN'), (',', ','), ('temporarily', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Fast/NNP)   (PERSON Money/NNP Picks/NNP For/NNP)   March/NNP   23rd/CD   POT/NNP   ,/,   (ORGANIZATION BBY/NNP)   ,/,   (ORGANIZATION ORCL/NNP)   ,/,   (ORGANIZATION DD/NNP)   |/NNP   Benzinga.com/NNP   Fast/NNP   Money/NNP   (PERSON Picks/NNP For/NNP)   March/NNP   23rd/CD   POT/NNP   ,/,   (ORGANIZATION BBY/NNP)   ,/,   (ORGANIZATION ORCL/NNP)   ,/,   (ORGANIZATION DD/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Craig/NNP Jones/NNP Posted/NNP)   on/IN   03/22/10/CD   at/IN   7/CD   :/:   31pm/CD   by/IN   (PERSON Joe/NNP Terranova/NNP)   said/VBD   on/IN   (ORGANIZATION CNBC/NNP)   's/POS   (PERSON Fast/NNP Money/NNP)   that/IN   he/PRP   thinks/VBZ   that/IN   (PERSON Potash/NNP NYSE/NNP)   :/:   has/VBZ   reached/VBN   a/DT   bottom/NN   ,/,   temporarily/RB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD on/IN CNBC/NNP)
+	(VERB thinks/VBZ that/IN Potash/NNP NYSE/NNP)
+	(VERB has/VBZ reached/VBN a/DT bottom/NN)
+noun phrases to consider:
+	(NOUN Fast/NNP Money/NNP Picks/NNP For/NNP)
+	(NOUN March/NNP)
+	(NOUN 23rd/CD POT/NNP)
+	(NOUN BBY/NNP)
+	(NOUN ORCL/NNP)
+	(NOUN DD/NNP |/NNP Benzinga.com/NNP Fast/NNP)
+	(NOUN Money/NNP Picks/NNP For/NNP March/NNP)
+	(NOUN 23rd/CD POT/NNP)
+	(NOUN BBY/NNP)
+	(NOUN ORCL/NNP)
+	(NOUN DD/NNP Recent/NNP Articles/NNP)
+	(NOUN Craig/NNP Jones/NNP Posted/NNP)
+	(NOUN Joe/NNP Terranova/NNP)
+	(NOUN Fast/NNP Money/NNP)
+
+----------------------------------
+original sentence: 
+Terranova recommends a long position in this stock.
+
+POS tagged sentence: 
+[('Terranova', 'NNP'), ('recommends', 'NNS'), ('a', 'DT'), ('long', 'JJ'), ('position', 'NN'), ('in', 'IN'), ('this', 'DT'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Terranova/NNP)   recommends/NNS   a/DT   long/JJ   position/NN   in/IN   this/DT   stock/NN   ./.)
+----------------------------------
+original sentence: 
+Potash  gained 1.49% today and closed at $122.96.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('gained', 'VBD'), ('1.49', 'CD'), ('%', 'NN'), ('today', 'NN'), ('and', 'CC'), ('closed', 'VBD'), ('at', 'IN'), ('$', '$'), ('122.96', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   gained/VBD   1.49/CD   %/NN   today/NN   and/CC   closed/VBD   at/IN   $/$   122.96/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gained/VBD 1.49/CD %/NN today/NN)
+
+tagged sentence:
+	 gained 1.49 % today	res:1
+	(VERB closed/VBD at/IN)
+noun phrases to consider:
+	(NOUN Potash/NNP)
+
+----------------------------------
+original sentence: 
+Guy Adami thinks that it would be wise to go long on Best Buy Co., Inc. NYSE:  tomorrow.
+
+POS tagged sentence: 
+[('Guy', 'NNP'), ('Adami', 'NNP'), ('thinks', 'VBZ'), ('that', 'IN'), ('it', 'PRP'), ('would', 'MD'), ('be', 'VB'), ('wise', 'RB'), ('to', 'TO'), ('go', 'VB'), ('long', 'RB'), ('on', 'IN'), ('Best', 'NNP'), ('Buy', 'NNP'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('tomorrow', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Guy/NNP)   (PERSON Adami/NNP)   thinks/VBZ   that/IN   it/PRP   would/MD   be/VB   wise/RB   to/TO   go/VB   long/RB   on/IN   (PERSON Best/NNP Buy/NNP)   Co./NNP   ,/,   Inc./NNP   NYSE/NNP   :/:   tomorrow/NN   ./.)
+----------------------------------
+original sentence: 
+Best Buy  added 0.51% today.
+
+POS tagged sentence: 
+[('Best', 'JJS'), ('Buy', 'NNP'), ('added', 'VBD'), ('0.51', 'CD'), ('%', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Best/JJS (PERSON Buy/NNP) added/VBD 0.51/CD %/NN today/NN ./.)
+----------------------------------
+original sentence: 
+Mike Khouw wants to buy June 28 calls in Oracle NASDAQ:  started a new week with 1.47% increase in price.
+
+POS tagged sentence: 
+[('Mike', 'NNP'), ('Khouw', 'NNP'), ('wants', 'VBZ'), ('to', 'TO'), ('buy', 'VB'), ('June', 'NNP'), ('28', 'CD'), ('calls', 'NNS'), ('in', 'IN'), ('Oracle', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('started', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('week', 'NN'), ('with', 'IN'), ('1.47', 'CD'), ('%', 'NN'), ('increase', 'NN'), ('in', 'IN'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mike/NNP)   (PERSON Khouw/NNP)   wants/VBZ   to/TO   buy/VB   June/NNP   28/CD   calls/NNS   in/IN   (GPE Oracle/NNP)   NASDAQ/NNP   :/:   started/VBD   a/DT   new/JJ   week/NN   with/IN   1.47/CD   %/NN   increase/NN   in/IN   price/NN   ./.)
+----------------------------------
+original sentence: 
+E.I.
+
+POS tagged sentence: 
+[('E.I', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S E.I/NN ./.)
+----------------------------------
+original sentence: 
+du Pont de Nemours & Company NYSE:  is Pete Najarian's pick for Tuesday.
+
+POS tagged sentence: 
+[('du', 'NN'), ('Pont', 'NNP'), ('de', 'IN'), ('Nemours', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('is', 'VBZ'), ('Pete', 'NNP'), ('Najarian', 'NNP'), ("'s", 'POS'), ('pick', 'NN'), ('for', 'IN'), ('Tuesday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   du/NN   (PERSON Pont/NNP)   de/IN   (ORGANIZATION Nemours/NNP)   &/CC   (ORGANIZATION Company/NNP)   NYSE/NNP   :/:   is/VBZ   (PERSON Pete/NNP Najarian/NNP)   's/POS   pick/NN   for/IN   Tuesday/NNP   ./.)
+----------------------------------
+original sentence: 
+Du Pont  spiked 2.52% today.
+
+POS tagged sentence: 
+[('Du', 'NNP'), ('Pont', 'NNP'), ('spiked', 'VBD'), ('2.52', 'CD'), ('%', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Du/NNP (PERSON Pont/NNP) spiked/VBD 2.52/CD %/NN today/NN ./.)
+----------------------------------
+original sentence: 
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Bookmark/Search', 'NN'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Bookmark/Search/NN   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)
+
+veryneg:0	neg:0	pos:1	verypos:0	total:0

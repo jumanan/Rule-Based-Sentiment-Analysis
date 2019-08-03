@@ -1,0 +1,534 @@
+
+----------------------------------
+original sentence: 
+Merck Ests Revised Downward Analyst Blog | Benzinga.com
+Merck Ests Revised Downward Analyst Blog
+Recent Articles by Zacks
+Posted on 03/11/10 at 2:44pm by Earnings estimates for  are on the lower side following the release of fourth quarter and full year 2009 results.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('Ests', 'NNPS'), ('Revised', 'NNP'), ('Downward', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('|', 'NNP'), ('Benzinga.com', 'NNP'), ('Merck', 'NNP'), ('Ests', 'NNP'), ('Revised', 'NNP'), ('Downward', 'NNP'), ('Analyst', 'NNP'), ('Blog', 'NNP'), ('Recent', 'NNP'), ('Articles', 'NNP'), ('by', 'IN'), ('Zacks', 'NNP'), ('Posted', 'NNP'), ('on', 'IN'), ('03/11/10', 'CD'), ('at', 'IN'), ('2', 'CD'), (':', ':'), ('44pm', 'CD'), ('by', 'IN'), ('Earnings', 'NNP'), ('estimates', 'NNS'), ('for', 'IN'), ('are', 'VBP'), ('on', 'IN'), ('the', 'DT'), ('lower', 'JJR'), ('side', 'NN'), ('following', 'VBG'), ('the', 'DT'), ('release', 'NN'), ('of', 'IN'), ('fourth', 'JJ'), ('quarter', 'NN'), ('and', 'CC'), ('full', 'JJ'), ('year', 'NN'), ('2009', 'CD'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   (ORGANIZATION     Ests/NNPS     Revised/NNP     Downward/NNP     Analyst/NNP     Blog/NNP)   |/NNP   Benzinga.com/NNP   Merck/NNP   Ests/NNP   Revised/NNP   (PERSON Downward/NNP Analyst/NNP Blog/NNP)   Recent/NNP   Articles/NNP   by/IN   (PERSON Zacks/NNP Posted/NNP)   on/IN   03/11/10/CD   at/IN   2/CD   :/:   44pm/CD   by/IN   (ORGANIZATION Earnings/NNP)   estimates/NNS   for/IN   are/VBP   on/IN   the/DT   lower/JJR   side/NN   following/VBG   the/DT   release/NN   of/IN   fourth/JJ   quarter/NN   and/CC   full/JJ   year/NN   2009/CD   results/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP on/IN the/DT lower/JJR side/NN)
+	(VERB following/VBG the/DT release/NN of/IN fourth/JJ quarter/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP Ests/NNPS Revised/NNP Downward/NNP)
+
+tagged sentence:
+	 Merck Ests Revised Downward	res:-1
+	(NOUN Analyst/NNP Blog/NNP |/NNP Benzinga.com/NNP)
+	(NOUN Merck/NNP Ests/NNP Revised/NNP Downward/NNP)
+
+tagged sentence:
+	 Merck Ests Revised Downward	res:-1
+	(NOUN Analyst/NNP Blog/NNP Recent/NNP Articles/NNP)
+	(NOUN Zacks/NNP Posted/NNP)
+	(NOUN Earnings/NNP estimates/NNS)
+	(NOUN full/JJ year/NN)
+	(NOUN 2009/CD results/NNS)
+
+----------------------------------
+original sentence: 
+The companyâ€™s earnings per share EPS came in at 79 cents excluding non recurring items , marginally beating the Zacks Consensus Estimate of 78 cents but lower than 87 cents reported in the year ago period.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('came', 'VBD'), ('in', 'IN'), ('at', 'IN'), ('79', 'CD'), ('cents', 'NNS'), ('excluding', 'VBG'), ('non', 'NN'), ('recurring', 'VBG'), ('items', 'NNS'), (',', ','), ('marginally', 'RB'), ('beating', 'VBG'), ('the', 'DT'), ('Zacks', 'NNP'), ('Consensus', 'NNP'), ('Estimate', 'NNP'), ('of', 'IN'), ('78', 'CD'), ('cents', 'NNS'), ('but', 'CC'), ('lower', 'JJR'), ('than', 'IN'), ('87', 'CD'), ('cents', 'NNS'), ('reported', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   â/:   €/:   ™/:   s/NNS   earnings/NNS   per/IN   share/NN   (ORGANIZATION EPS/NNS)   came/VBD   in/IN   at/IN   79/CD   cents/NNS   excluding/VBG   non/NN   recurring/VBG   items/NNS   ,/,   marginally/RB   beating/VBG   the/DT   (ORGANIZATION Zacks/NNP Consensus/NNP Estimate/NNP)   of/IN   78/CD   cents/NNS   but/CC   lower/JJR   than/IN   87/CD   cents/NNS   reported/VBD   in/IN   the/DT   year/NN   ago/IN   period/NN   ./.)
+----------------------------------
+original sentence: 
+Full year earnings declined 5% to $3.25.
+
+POS tagged sentence: 
+[('Full', 'NNP'), ('year', 'NN'), ('earnings', 'NNS'), ('declined', 'VBD'), ('5', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('3.25', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Full/NNP)   year/NN   earnings/NNS   declined/VBD   5/CD   %/NN   to/TO   $/$   3.25/CD   ./.)
+----------------------------------
+original sentence: 
+For the full year, Merck reported a 15% rise in revenues to $27.4 billion, which included Schering Plough operations since the merger closed on Nov 3, 2009.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('full', 'JJ'), ('year', 'NN'), (',', ','), ('Merck', 'NNP'), ('reported', 'VBD'), ('a', 'DT'), ('15', 'CD'), ('%', 'NN'), ('rise', 'NN'), ('in', 'IN'), ('revenues', 'NNS'), ('to', 'TO'), ('$', '$'), ('27.4', 'CD'), ('billion', 'CD'), (',', ','), ('which', 'WDT'), ('included', 'VBD'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('operations', 'NNS'), ('since', 'IN'), ('the', 'DT'), ('merger', 'NN'), ('closed', 'VBD'), ('on', 'IN'), ('Nov', 'NNP'), ('3', 'CD'), (',', ','), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   full/JJ   year/NN   ,/,   (PERSON Merck/NNP)   reported/VBD   a/DT   15/CD   %/NN   rise/NN   in/IN   revenues/NNS   to/TO   $/$   27.4/CD   billion/CD   ,/,   which/WDT   included/VBD   Schering/NNP   Plough/NNP   operations/NNS   since/IN   the/DT   merger/NN   closed/VBD   on/IN   Nov/NNP   3/CD   ,/,   2009/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD a/DT 15/CD %/NN rise/NN in/IN revenues/NNS)
+	(VERB   included/VBD   Schering/NNP   Plough/NNP   operations/NNS   since/IN   the/DT   merger/NN)
+
+tagged sentence:
+	 included Schering Plough operations since the merger	res:2
+	(VERB closed/VBD on/IN Nov/NNP 3/CD)
+noun phrases to consider:
+	(NOUN the/DT full/JJ year/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Revenues would have been higher but for the unfavorable foreign exchange movement, which affected global sales by 2%.
+
+POS tagged sentence: 
+[('Revenues', 'NNS'), ('would', 'MD'), ('have', 'VB'), ('been', 'VBN'), ('higher', 'JJR'), ('but', 'CC'), ('for', 'IN'), ('the', 'DT'), ('unfavorable', 'JJ'), ('foreign', 'JJ'), ('exchange', 'NN'), ('movement', 'NN'), (',', ','), ('which', 'WDT'), ('affected', 'VBN'), ('global', 'JJ'), ('sales', 'NNS'), ('by', 'IN'), ('2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Revenues/NNS   would/MD   have/VB   been/VBN   higher/JJR   but/CC   for/IN   the/DT   unfavorable/JJ   foreign/JJ   exchange/NN   movement/NN   ,/,   which/WDT   affected/VBN   global/JJ   sales/NNS   by/IN   2/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Merck will provide 2010 guidance in April along with its first quarter results.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('will', 'MD'), ('provide', 'VB'), ('2010', 'CD'), ('guidance', 'NN'), ('in', 'IN'), ('April', 'NNP'), ('along', 'IN'), ('with', 'IN'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('results', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   will/MD   provide/VB   2010/CD   guidance/NN   in/IN   April/NNP   along/IN   with/IN   its/PRP$   first/JJ   quarter/NN   results/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   provide/VB   2010/CD   guidance/NN   in/IN   April/NNP   along/IN   with/IN   its/PRP$   first/JJ   quarter/NN   results/NNS)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Estimate Revisions Trend
+Following the release of 2009 results, many analysts covering the stock have revised their estimates.
+
+POS tagged sentence: 
+[('Estimate', 'NNP'), ('Revisions', 'NNP'), ('Trend', 'NNP'), ('Following', 'NNP'), ('the', 'DT'), ('release', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('results', 'NNS'), (',', ','), ('many', 'JJ'), ('analysts', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('have', 'VBP'), ('revised', 'VBN'), ('their', 'PRP$'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Estimate/NNP)   (PERSON Revisions/NNP Trend/NNP)   Following/NNP   the/DT   release/NN   of/IN   2009/CD   results/NNS   ,/,   many/JJ   analysts/NNS   covering/VBG   the/DT   stock/NN   have/VBP   revised/VBN   their/PRP$   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+Over the past 30 days, 9 of the 18 analysts following the stock have lowered their earnings estimates for fiscal 2010, with only 1 moving in the opposite direction.
+
+POS tagged sentence: 
+[('Over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('30', 'CD'), ('days', 'NNS'), (',', ','), ('9', 'CD'), ('of', 'IN'), ('the', 'DT'), ('18', 'CD'), ('analysts', 'NNS'), ('following', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('have', 'VBP'), ('lowered', 'VBN'), ('their', 'PRP$'), ('earnings', 'NNS'), ('estimates', 'NNS'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (',', ','), ('with', 'IN'), ('only', 'RB'), ('1', 'CD'), ('moving', 'VBG'), ('in', 'IN'), ('the', 'DT'), ('opposite', 'JJ'), ('direction', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Over/IN   the/DT   past/JJ   30/CD   days/NNS   ,/,   9/CD   of/IN   the/DT   18/CD   analysts/NNS   following/VBG   the/DT   stock/NN   have/VBP   lowered/VBN   their/PRP$   earnings/NNS   estimates/NNS   for/IN   fiscal/JJ   2010/CD   ,/,   with/IN   only/RB   1/CD   moving/VBG   in/IN   the/DT   opposite/JJ   direction/NN   ./.)
+----------------------------------
+original sentence: 
+On balance, 2010 earnings estimates have gone down by 4 cents with the current Zacks Consensus Estimate being $3.43.
+
+POS tagged sentence: 
+[('On', 'IN'), ('balance', 'NN'), (',', ','), ('2010', 'CD'), ('earnings', 'NNS'), ('estimates', 'NNS'), ('have', 'VBP'), ('gone', 'VBN'), ('down', 'RP'), ('by', 'IN'), ('4', 'CD'), ('cents', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('Zacks', 'NNS'), ('Consensus', 'NNP'), ('Estimate', 'NNP'), ('being', 'VBG'), ('$', '$'), ('3.43', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   balance/NN   ,/,   2010/CD   earnings/NNS   estimates/NNS   have/VBP   gone/VBN   down/RP   by/IN   4/CD   cents/NNS   with/IN   the/DT   current/JJ   Zacks/NNS   (ORGANIZATION Consensus/NNP)   Estimate/NNP   being/VBG   $/$   3.43/CD   ./.)
+----------------------------------
+original sentence: 
+A negative bias, though not so prominent, can be witnessed for 2011 as well, with 5 of the 15 analysts covering the stock reducing their estimates in the past 30 days, with 4 analysts raising them.
+
+POS tagged sentence: 
+[('A', 'DT'), ('negative', 'JJ'), ('bias', 'NN'), (',', ','), ('though', 'IN'), ('not', 'RB'), ('so', 'RB'), ('prominent', 'JJ'), (',', ','), ('can', 'MD'), ('be', 'VB'), ('witnessed', 'VBN'), ('for', 'IN'), ('2011', 'CD'), ('as', 'IN'), ('well', 'RB'), (',', ','), ('with', 'IN'), ('5', 'CD'), ('of', 'IN'), ('the', 'DT'), ('15', 'CD'), ('analysts', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('reducing', 'VBG'), ('their', 'PRP$'), ('estimates', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('30', 'CD'), ('days', 'NNS'), (',', ','), ('with', 'IN'), ('4', 'CD'), ('analysts', 'NNS'), ('raising', 'VBG'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   negative/JJ   bias/NN   ,/,   though/IN   not/RB   so/RB   prominent/JJ   ,/,   can/MD   be/VB   witnessed/VBN   for/IN   2011/CD   as/IN   well/RB   ,/,   with/IN   5/CD   of/IN   the/DT   15/CD   analysts/NNS   covering/VBG   the/DT   stock/NN   reducing/VBG   their/PRP$   estimates/NNS   in/IN   the/DT   past/JJ   30/CD   days/NNS   ,/,   with/IN   4/CD   analysts/NNS   raising/VBG   them/PRP   ./.)
+----------------------------------
+original sentence: 
+In the last 7 days, 1 analyst has raised estimates.
+
+POS tagged sentence: 
+[('In', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('7', 'CD'), ('days', 'NNS'), (',', ','), ('1', 'CD'), ('analyst', 'NN'), ('has', 'VBZ'), ('raised', 'VBN'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   the/DT   last/JJ   7/CD   days/NNS   ,/,   1/CD   analyst/NN   has/VBZ   raised/VBN   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+On balance, 2011 earnings estimates have gone down by 2 cents with the current Zacks Consensus Estimate being $3.95.
+
+POS tagged sentence: 
+[('On', 'IN'), ('balance', 'NN'), (',', ','), ('2011', 'CD'), ('earnings', 'NNS'), ('estimates', 'NNS'), ('have', 'VBP'), ('gone', 'VBN'), ('down', 'RP'), ('by', 'IN'), ('2', 'CD'), ('cents', 'NNS'), ('with', 'IN'), ('the', 'DT'), ('current', 'JJ'), ('Zacks', 'NNS'), ('Consensus', 'NNP'), ('Estimate', 'NNP'), ('being', 'VBG'), ('$', '$'), ('3.95', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   balance/NN   ,/,   2011/CD   earnings/NNS   estimates/NNS   have/VBP   gone/VBN   down/RP   by/IN   2/CD   cents/NNS   with/IN   the/DT   current/JJ   Zacks/NNS   (ORGANIZATION Consensus/NNP)   Estimate/NNP   being/VBG   $/$   3.95/CD   ./.)
+----------------------------------
+original sentence: 
+Although many of Merckâ€™s drugs recorded robust growth during 2009, it is facing patent expiration of two of its key drugs, which has led analysts to lower their outlooks for the next few quarters.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('many', 'JJ'), ('of', 'IN'), ('Merck', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('drugs', 'NNS'), ('recorded', 'VBN'), ('robust', 'NN'), ('growth', 'NN'), ('during', 'IN'), ('2009', 'CD'), (',', ','), ('it', 'PRP'), ('is', 'VBZ'), ('facing', 'VBG'), ('patent', 'NN'), ('expiration', 'NN'), ('of', 'IN'), ('two', 'CD'), ('of', 'IN'), ('its', 'PRP$'), ('key', 'JJ'), ('drugs', 'NNS'), (',', ','), ('which', 'WDT'), ('has', 'VBZ'), ('led', 'VBN'), ('analysts', 'NNS'), ('to', 'TO'), ('lower', 'JJR'), ('their', 'PRP$'), ('outlooks', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('few', 'JJ'), ('quarters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   many/JJ   of/IN   (ORGANIZATION Merck/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   drugs/NNS   recorded/VBN   robust/NN   growth/NN   during/IN   2009/CD   ,/,   it/PRP   is/VBZ   facing/VBG   patent/NN   expiration/NN   of/IN   two/CD   of/IN   its/PRP$   key/JJ   drugs/NNS   ,/,   which/WDT   has/VBZ   led/VBN   analysts/NNS   to/TO   lower/JJR   their/PRP$   outlooks/NNS   for/IN   the/DT   next/JJ   few/JJ   quarters/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ drugs/NNS)
+	(VERB recorded/VBN robust/NN growth/NN during/IN 2009/CD)
+	(VERB   is/VBZ   facing/VBG   patent/NN   expiration/NN   of/IN   two/CD   of/IN   its/PRP$   key/JJ   drugs/NNS)
+	(VERB has/VBZ led/VBN analysts/NNS)
+noun phrases to consider:
+	(NOUN many/JJ)
+	(NOUN Merck/NNP â/NNP €/NNP ™/NNP)
+	(NOUN lower/JJR)
+
+tagged sentence:
+	 lower	res:-1
+	(NOUN outlooks/NNS)
+	(NOUN the/DT next/JJ few/JJ quarters/NNS)
+
+----------------------------------
+original sentence: 
+The companyâ€™s hypertension franchise products, Cozaar losartan potassium and Hyzaar Cozaar and hydrochlorothiazide , that generated sales of $3.6 billion in 2009 are slated to lose their patents in the U.S. and some of the major European markets in the first half of 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('hypertension', 'NN'), ('franchise', 'NN'), ('products', 'NNS'), (',', ','), ('Cozaar', 'NNP'), ('losartan', 'NN'), ('potassium', 'NN'), ('and', 'CC'), ('Hyzaar', 'NNP'), ('Cozaar', 'NNP'), ('and', 'CC'), ('hydrochlorothiazide', 'VB'), (',', ','), ('that', 'IN'), ('generated', 'VBN'), ('sales', 'NNS'), ('of', 'IN'), ('$', '$'), ('3.6', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2009', 'CD'), ('are', 'VBP'), ('slated', 'VBN'), ('to', 'TO'), ('lose', 'VB'), ('their', 'PRP$'), ('patents', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('and', 'CC'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('major', 'JJ'), ('European', 'JJ'), ('markets', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('half', 'DT'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   â/:   €/:   ™/:   s/NNS   hypertension/NN   franchise/NN   products/NNS   ,/,   (GPE Cozaar/NNP)   losartan/NN   potassium/NN   and/CC   (PERSON Hyzaar/NNP Cozaar/NNP)   and/CC   hydrochlorothiazide/VB   ,/,   that/IN   generated/VBN   sales/NNS   of/IN   $/$   3.6/CD   billion/CD   in/IN   2009/CD   are/VBP   slated/VBN   to/TO   lose/VB   their/PRP$   patents/NNS   in/IN   the/DT   (GPE U.S./NNP)   and/CC   some/DT   of/IN   the/DT   major/JJ   (GPE European/JJ)   markets/NNS   in/IN   the/DT   first/JJ   half/DT   of/IN   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB hydrochlorothiazide/VB)
+	(VERB generated/VBN sales/NNS of/IN)
+	(VERB are/VBP slated/VBN)
+	(VERB lose/VB their/PRP$ patents/NNS in/IN the/DT U.S./NNP)
+noun phrases to consider:
+	(NOUN company/NN)
+	(NOUN s/NNS hypertension/NN franchise/NN products/NNS)
+	(NOUN Cozaar/NNP losartan/NN potassium/NN)
+	(NOUN Hyzaar/NNP Cozaar/NNP)
+	(NOUN the/DT major/JJ European/JJ markets/NNS)
+	(NOUN the/DT first/JJ)
+
+----------------------------------
+original sentence: 
+Sales are expected to plunge with the entry of generics.
+
+POS tagged sentence: 
+[('Sales', 'NNS'), ('are', 'VBP'), ('expected', 'VBN'), ('to', 'TO'), ('plunge', 'VB'), ('with', 'IN'), ('the', 'DT'), ('entry', 'NN'), ('of', 'IN'), ('generics', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sales/NNS   are/VBP   expected/VBN   to/TO   plunge/VB   with/IN   the/DT   entry/NN   of/IN   generics/NNS   ./.)
+----------------------------------
+original sentence: 
+These drugs accounted for more than 13% of total revenues.
+
+POS tagged sentence: 
+[('These', 'DT'), ('drugs', 'NNS'), ('accounted', 'VBD'), ('for', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('13', 'CD'), ('%', 'NN'), ('of', 'IN'), ('total', 'JJ'), ('revenues', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   drugs/NNS   accounted/VBD   for/IN   more/JJR   than/IN   13/CD   %/NN   of/IN   total/JJ   revenues/NNS   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, Merck is witnessing a steady decline in sales of one of the most significant products in its portfolio, Gardasil the cervical cancer vaccine.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('Merck', 'NNP'), ('is', 'VBZ'), ('witnessing', 'VBG'), ('a', 'DT'), ('steady', 'JJ'), ('decline', 'NN'), ('in', 'IN'), ('sales', 'NNS'), ('of', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('significant', 'JJ'), ('products', 'NNS'), ('in', 'IN'), ('its', 'PRP$'), ('portfolio', 'NN'), (',', ','), ('Gardasil', 'NNP'), ('the', 'DT'), ('cervical', 'JJ'), ('cancer', 'NN'), ('vaccine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   (PERSON Merck/NNP)   is/VBZ   witnessing/VBG   a/DT   steady/JJ   decline/NN   in/IN   sales/NNS   of/IN   one/CD   of/IN   the/DT   most/RBS   significant/JJ   products/NNS   in/IN   its/PRP$   portfolio/NN   ,/,   Gardasil/NNP   the/DT   cervical/JJ   cancer/NN   vaccine/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   witnessing/VBG   a/DT   steady/JJ   decline/NN   in/IN   sales/NNS   of/IN   one/CD   of/IN   the/DT)
+
+tagged sentence:
+	 is witnessing a steady decline in sales of one of the	res:-1
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN significant/JJ products/NNS)
+	(NOUN portfolio/NN)
+	(NOUN Gardasil/NNP)
+	(NOUN the/DT cervical/JJ cancer/NN vaccine/NN)
+
+----------------------------------
+original sentence: 
+Although Gardasil approved for the age group of 9 26 years sales ramped very quickly following its launch, sales have struggled recently due to the difficulty in penetrating patients.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('Gardasil', 'NNP'), ('approved', 'VBD'), ('for', 'IN'), ('the', 'DT'), ('age', 'NN'), ('group', 'NN'), ('of', 'IN'), ('9', 'CD'), ('26', 'CD'), ('years', 'NNS'), ('sales', 'NNS'), ('ramped', 'VBD'), ('very', 'RB'), ('quickly', 'RB'), ('following', 'VBG'), ('its', 'PRP$'), ('launch', 'NN'), (',', ','), ('sales', 'NNS'), ('have', 'VBP'), ('struggled', 'VBN'), ('recently', 'RB'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('difficulty', 'NN'), ('in', 'IN'), ('penetrating', 'NN'), ('patients', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   (PERSON Gardasil/NNP)   approved/VBD   for/IN   the/DT   age/NN   group/NN   of/IN   9/CD   26/CD   years/NNS   sales/NNS   ramped/VBD   very/RB   quickly/RB   following/VBG   its/PRP$   launch/NN   ,/,   sales/NNS   have/VBP   struggled/VBN   recently/RB   due/JJ   to/TO   the/DT   difficulty/NN   in/IN   penetrating/NN   patients/NNS   ./.)
+----------------------------------
+original sentence: 
+Global sales of the vaccine in 2009 came in at $1.1 billion, a 20% decline from the previous year.
+
+POS tagged sentence: 
+[('Global', 'JJ'), ('sales', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('vaccine', 'NN'), ('in', 'IN'), ('2009', 'CD'), ('came', 'VBD'), ('in', 'IN'), ('at', 'IN'), ('$', '$'), ('1.1', 'CD'), ('billion', 'CD'), (',', ','), ('a', 'DT'), ('20', 'CD'), ('%', 'NN'), ('decline', 'NN'), ('from', 'IN'), ('the', 'DT'), ('previous', 'JJ'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Global/JJ)   sales/NNS   of/IN   the/DT   vaccine/NN   in/IN   2009/CD   came/VBD   in/IN   at/IN   $/$   1.1/CD   billion/CD   ,/,   a/DT   20/CD   %/NN   decline/NN   from/IN   the/DT   previous/JJ   year/NN   ./.)
+----------------------------------
+original sentence: 
+In addition, the vaccine is witnessing increased competition from  cervical cancer vaccine, Cervarix.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('the', 'DT'), ('vaccine', 'NN'), ('is', 'VBZ'), ('witnessing', 'VBG'), ('increased', 'VBN'), ('competition', 'NN'), ('from', 'IN'), ('cervical', 'JJ'), ('cancer', 'NN'), ('vaccine', 'NN'), (',', ','), ('Cervarix', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   the/DT   vaccine/NN   is/VBZ   witnessing/VBG   increased/VBN   competition/NN   from/IN   cervical/JJ   cancer/NN   vaccine/NN   ,/,   (GPE Cervarix/NNP)   ./.)
+----------------------------------
+original sentence: 
+However, in order to recoup some of the lost sales, Merck is aiming to get Gardasil approved for the age group of 26 45 years.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('recoup', 'VB'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('lost', 'JJS'), ('sales', 'NNS'), (',', ','), ('Merck', 'NNP'), ('is', 'VBZ'), ('aiming', 'VBG'), ('to', 'TO'), ('get', 'VB'), ('Gardasil', 'NNP'), ('approved', 'VBD'), ('for', 'IN'), ('the', 'DT'), ('age', 'NN'), ('group', 'NN'), ('of', 'IN'), ('26', 'CD'), ('45', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   in/IN   order/NN   to/TO   recoup/VB   some/DT   of/IN   the/DT   lost/JJS   sales/NNS   ,/,   (PERSON Merck/NNP)   is/VBZ   aiming/VBG   to/TO   get/VB   (PERSON Gardasil/NNP)   approved/VBD   for/IN   the/DT   age/NN   group/NN   of/IN   26/CD   45/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB recoup/VB some/DT of/IN the/DT lost/JJS sales/NNS)
+
+tagged sentence:
+	 recoup some of the lost sales	res:-1
+	(VERB is/VBZ aiming/VBG)
+	(VERB get/VB Gardasil/NNP)
+	(VERB   approved/VBD   for/IN   the/DT   age/NN   group/NN   of/IN   26/CD   45/CD   years/NNS)
+noun phrases to consider:
+	(NOUN order/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+The negative bias in estimate revisions can be witnessed for the first two quarters of 2010 as well.
+
+POS tagged sentence: 
+[('The', 'DT'), ('negative', 'JJ'), ('bias', 'NN'), ('in', 'IN'), ('estimate', 'NN'), ('revisions', 'NNS'), ('can', 'MD'), ('be', 'VB'), ('witnessed', 'VBN'), ('for', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('two', 'CD'), ('quarters', 'NNS'), ('of', 'IN'), ('2010', 'CD'), ('as', 'IN'), ('well', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   negative/JJ   bias/NN   in/IN   estimate/NN   revisions/NNS   can/MD   be/VB   witnessed/VBN   for/IN   the/DT   first/JJ   two/CD   quarters/NNS   of/IN   2010/CD   as/IN   well/RB   ./.)
+----------------------------------
+original sentence: 
+For the first quarter, 4 of the 15 analysts covering the stock have reduced their estimates in the past 30 days with 2 doing the reverse.
+
+POS tagged sentence: 
+[('For', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), (',', ','), ('4', 'CD'), ('of', 'IN'), ('the', 'DT'), ('15', 'CD'), ('analysts', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('have', 'VBP'), ('reduced', 'VBN'), ('their', 'PRP$'), ('estimates', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('30', 'CD'), ('days', 'NNS'), ('with', 'IN'), ('2', 'CD'), ('doing', 'VBG'), ('the', 'DT'), ('reverse', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   the/DT   first/JJ   quarter/NN   ,/,   4/CD   of/IN   the/DT   15/CD   analysts/NNS   covering/VBG   the/DT   stock/NN   have/VBP   reduced/VBN   their/PRP$   estimates/NNS   in/IN   the/DT   past/JJ   30/CD   days/NNS   with/IN   2/CD   doing/VBG   the/DT   reverse/NN   ./.)
+----------------------------------
+original sentence: 
+However, we witness a clear negative trend for the second quarter of 2010, with 6 of the 13 analysts covering the stock lowering their estimates.
+
+POS tagged sentence: 
+[('However', 'RB'), (',', ','), ('we', 'PRP'), ('witness', 'VBP'), ('a', 'DT'), ('clear', 'JJ'), ('negative', 'JJ'), ('trend', 'NN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (',', ','), ('with', 'IN'), ('6', 'CD'), ('of', 'IN'), ('the', 'DT'), ('13', 'CD'), ('analysts', 'NNS'), ('covering', 'VBG'), ('the', 'DT'), ('stock', 'NN'), ('lowering', 'VBG'), ('their', 'PRP$'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   However/RB   ,/,   we/PRP   witness/VBP   a/DT   clear/JJ   negative/JJ   trend/NN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ,/,   with/IN   6/CD   of/IN   the/DT   13/CD   analysts/NNS   covering/VBG   the/DT   stock/NN   lowering/VBG   their/PRP$   estimates/NNS   ./.)
+----------------------------------
+original sentence: 
+No upward revision happened during the same period.
+
+POS tagged sentence: 
+[('No', 'DT'), ('upward', 'NN'), ('revision', 'NN'), ('happened', 'VBD'), ('during', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   No/DT   upward/NN   revision/NN   happened/VBD   during/IN   the/DT   same/JJ   period/NN   ./.)
+----------------------------------
+original sentence: 
+Another issue which is of concern to investors is related to the rights to Remicade and Simponi.
+
+POS tagged sentence: 
+[('Another', 'DT'), ('issue', 'NN'), ('which', 'WDT'), ('is', 'VBZ'), ('of', 'IN'), ('concern', 'NN'), ('to', 'TO'), ('investors', 'NNS'), ('is', 'VBZ'), ('related', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('rights', 'NNS'), ('to', 'TO'), ('Remicade', 'NNP'), ('and', 'CC'), ('Simponi', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Another/DT   issue/NN   which/WDT   is/VBZ   of/IN   concern/NN   to/TO   investors/NNS   is/VBZ   related/VBN   to/TO   the/DT   rights/NNS   to/TO   (GPE Remicade/NNP)   and/CC   (GPE Simponi/NNP)   ./.)
+----------------------------------
+original sentence: 
+Johnson & Johnson
+ had licensed ex U.S. rights of the drugs to Schering Plough now a part of Merck .
+
+POS tagged sentence: 
+[('Johnson', 'NNP'), ('&', 'CC'), ('Johnson', 'NNP'), ('had', 'VBD'), ('licensed', 'VBN'), ('ex', 'NN'), ('U.S.', 'NNP'), ('rights', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('drugs', 'NNS'), ('to', 'TO'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('now', 'RB'), ('a', 'DT'), ('part', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Johnson/NNP)   &/CC   (PERSON Johnson/NNP)   had/VBD   licensed/VBN   ex/NN   (GPE U.S./NNP)   rights/NNS   of/IN   the/DT   drugs/NNS   to/TO   Schering/NNP   Plough/NNP   now/RB   a/DT   part/NN   of/IN   (GPE Merck/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   had/VBD   licensed/VBN   ex/NN   U.S./NNP   rights/NNS   of/IN   the/DT   drugs/NNS)
+noun phrases to consider:
+	(NOUN Johnson/NNP)
+	(NOUN Johnson/NNP)
+	(NOUN Schering/NNP Plough/NNP)
+	(NOUN part/NN)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+According to J&J, the merger has triggered a change of control provision in the agreement allowing J&J to reclaim full rights to both drugs.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('J&J', 'NNP'), (',', ','), ('the', 'DT'), ('merger', 'NN'), ('has', 'VBZ'), ('triggered', 'VBN'), ('a', 'DT'), ('change', 'NN'), ('of', 'IN'), ('control', 'NN'), ('provision', 'NN'), ('in', 'IN'), ('the', 'DT'), ('agreement', 'NN'), ('allowing', 'VBG'), ('J&J', 'NN'), ('to', 'TO'), ('reclaim', 'VB'), ('full', 'JJ'), ('rights', 'NNS'), ('to', 'TO'), ('both', 'DT'), ('drugs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   J&J/NNP   ,/,   the/DT   merger/NN   has/VBZ   triggered/VBN   a/DT   change/NN   of/IN   control/NN   provision/NN   in/IN   the/DT   agreement/NN   allowing/VBG   J&J/NN   to/TO   reclaim/VB   full/JJ   rights/NNS   to/TO   both/DT   drugs/NNS   ./.)
+----------------------------------
+original sentence: 
+An arbitration panel is likely to decide on the issue by Sept 2010.
+
+POS tagged sentence: 
+[('An', 'DT'), ('arbitration', 'NN'), ('panel', 'NN'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('decide', 'VB'), ('on', 'IN'), ('the', 'DT'), ('issue', 'NN'), ('by', 'IN'), ('Sept', 'NNP'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   An/DT   arbitration/NN   panel/NN   is/VBZ   likely/JJ   to/TO   decide/VB   on/IN   the/DT   issue/NN   by/IN   Sept/NNP   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Sales of Remicade were $431 million for the post merger portion of 2009.
+
+POS tagged sentence: 
+[('Sales', 'NNS'), ('of', 'IN'), ('Remicade', 'NNP'), ('were', 'VBD'), ('$', '$'), ('431', 'CD'), ('million', 'CD'), ('for', 'IN'), ('the', 'DT'), ('post', 'NN'), ('merger', 'NN'), ('portion', 'NN'), ('of', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Sales/NNS   of/IN   (PERSON Remicade/NNP)   were/VBD   $/$   431/CD   million/CD   for/IN   the/DT   post/NN   merger/NN   portion/NN   of/IN   2009/CD   ./.)
+----------------------------------
+original sentence: 
+Merck would suffer if it loses the ex U.S. rights to these drugs.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('would', 'MD'), ('suffer', 'VB'), ('if', 'IN'), ('it', 'PRP'), ('loses', 'VBZ'), ('the', 'DT'), ('ex', 'NN'), ('U.S.', 'NNP'), ('rights', 'NNS'), ('to', 'TO'), ('these', 'DT'), ('drugs', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   would/MD   suffer/VB   if/IN   it/PRP   loses/VBZ   the/DT   ex/NN   (GPE U.S./NNP)   rights/NNS   to/TO   these/DT   drugs/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB suffer/VB if/IN it/PRP)
+
+tagged sentence:
+	 suffer if it	res:-1
+	(VERB loses/VBZ the/DT ex/NN U.S./NNP rights/NNS)
+
+tagged sentence:
+	 loses the ex U.S. rights	res:-1
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN drugs/NNS)
+
+----------------------------------
+original sentence: 
+We currently have a Neutral recommendation on Merck, which is supported by the Zacks #3 Rank Hold .
+
+POS tagged sentence: 
+[('We', 'PRP'), ('currently', 'RB'), ('have', 'VBP'), ('a', 'DT'), ('Neutral', 'NNP'), ('recommendation', 'NN'), ('on', 'IN'), ('Merck', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('supported', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('Zacks', 'NNP'), ('#', '#'), ('3', 'CD'), ('Rank', 'NNP'), ('Hold', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   currently/RB   have/VBP   a/DT   Neutral/NNP   recommendation/NN   on/IN   (GPE Merck/NNP)   ,/,   which/WDT   is/VBZ   supported/VBN   by/IN   the/DT   (ORGANIZATION Zacks/NNP)   #/#   3/CD   (ORGANIZATION Rank/NNP Hold/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB have/VBP a/DT Neutral/NNP recommendation/NN on/IN Merck/NNP)
+	(VERB is/VBZ supported/VBN by/IN the/DT Zacks/NNP)
+noun phrases to consider:
+	(NOUN 3/CD Rank/NNP Hold/NNP)
+
+----------------------------------
+original sentence: 
+We believe Merckâ€™s merger with Schering Plough will help the company address certain impending patent cliffs and pipeline failures.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('believe', 'VBP'), ('Merck', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('merger', 'NN'), ('with', 'IN'), ('Schering', 'NNP'), ('Plough', 'NNP'), ('will', 'MD'), ('help', 'VB'), ('the', 'DT'), ('company', 'NN'), ('address', 'NN'), ('certain', 'NN'), ('impending', 'VBG'), ('patent', 'NN'), ('cliffs', 'NNS'), ('and', 'CC'), ('pipeline', 'NN'), ('failures', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   believe/VBP   (PERSON Merck/NNP)   â/NNP   €/NNP   ™/NNP   s/VBZ   merger/NN   with/IN   (PERSON Schering/NNP Plough/NNP)   will/MD   help/VB   the/DT   company/NN   address/NN   certain/NN   impending/VBG   patent/NN   cliffs/NNS   and/CC   pipeline/NN   failures/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VBP Merck/NNP â/NNP €/NNP ™/NNP)
+	(VERB s/VBZ merger/NN with/IN Schering/NNP Plough/NNP)
+
+tagged sentence:
+	 s merger with Schering Plough	res:2
+	(VERB help/VB the/DT company/NN address/NN certain/NN)
+	(VERB impending/VBG patent/NN cliffs/NNS)
+noun phrases to consider:
+	(NOUN pipeline/NN failures/NNS)
+
+----------------------------------
+original sentence: 
+In addition, the companyâ€™s pipeline must deliver to recoup some of the lost sales of Cozaar and Hyzaar.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('pipeline', 'VBP'), ('must', 'MD'), ('deliver', 'VB'), ('to', 'TO'), ('recoup', 'VB'), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('lost', 'JJS'), ('sales', 'NNS'), ('of', 'IN'), ('Cozaar', 'NNP'), ('and', 'CC'), ('Hyzaar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   the/DT   company/NN   â/:   €/:   ™/:   s/NNS   pipeline/VBP   must/MD   deliver/VB   to/TO   recoup/VB   some/DT   of/IN   the/DT   lost/JJS   sales/NNS   of/IN   (GPE Cozaar/NNP)   and/CC   (GPE Hyzaar/NNP)   ./.)
+----------------------------------
+original sentence: 
+Merckâ€™s pipeline consists of more than 20 candidates in phase III development or under regulatory review targeting areas of unmet medical need.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('pipeline', 'VBP'), ('consists', 'NNS'), ('of', 'IN'), ('more', 'JJR'), ('than', 'IN'), ('20', 'CD'), ('candidates', 'NNS'), ('in', 'IN'), ('phase', 'NN'), ('III', 'NNP'), ('development', 'NN'), ('or', 'CC'), ('under', 'IN'), ('regulatory', 'JJ'), ('review', 'NN'), ('targeting', 'VBG'), ('areas', 'NNS'), ('of', 'IN'), ('unmet', 'NN'), ('medical', 'JJ'), ('need', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   â/:   €/:   ™/:   s/NNS   pipeline/VBP   consists/NNS   of/IN   more/JJR   than/IN   20/CD   candidates/NNS   in/IN   phase/NN   (ORGANIZATION III/NNP)   development/NN   or/CC   under/IN   regulatory/JJ   review/NN   targeting/VBG   areas/NNS   of/IN   unmet/NN   medical/JJ   need/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   pipeline/VBP   consists/NNS   of/IN   more/JJR   than/IN   20/CD   candidates/NNS   in/IN   phase/NN   III/NNP   development/NN)
+	(VERB targeting/VBG areas/NNS of/IN unmet/NN medical/JJ need/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN s/NNS)
+	(NOUN regulatory/JJ review/NN)
+
+----------------------------------
+original sentence: 
+With a large number of candidates in the final stages of development, the companyâ€™s R&D budget is likely to increase in 2010.
+
+POS tagged sentence: 
+[('With', 'IN'), ('a', 'DT'), ('large', 'JJ'), ('number', 'NN'), ('of', 'IN'), ('candidates', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('final', 'JJ'), ('stages', 'NNS'), ('of', 'IN'), ('development', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('R&D', 'JJ'), ('budget', 'NN'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('increase', 'VB'), ('in', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   a/DT   large/JJ   number/NN   of/IN   candidates/NNS   in/IN   the/DT   final/JJ   stages/NNS   of/IN   development/NN   ,/,   the/DT   company/NN   â/:   €/:   ™/:   s/NNS   R&D/JJ   budget/NN   is/VBZ   likely/JJ   to/TO   increase/VB   in/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Some of the recent product approvals of Merck include Simponi golimumab , Saphris asenapine and Elonva, corifollitropin alfa injection .
+
+POS tagged sentence: 
+[('Some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('recent', 'JJ'), ('product', 'NN'), ('approvals', 'NNS'), ('of', 'IN'), ('Merck', 'NNP'), ('include', 'VBP'), ('Simponi', 'NNP'), ('golimumab', 'NN'), (',', ','), ('Saphris', 'NNP'), ('asenapine', 'NN'), ('and', 'CC'), ('Elonva', 'NNP'), (',', ','), ('corifollitropin', 'NN'), ('alfa', 'NN'), ('injection', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Some/DT   of/IN   the/DT   recent/JJ   product/NN   approvals/NNS   of/IN   (GPE Merck/NNP)   include/VBP   (PERSON Simponi/NNP)   golimumab/NN   ,/,   (GPE Saphris/NNP)   asenapine/NN   and/CC   (GPE Elonva/NNP)   ,/,   corifollitropin/NN   alfa/NN   injection/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VBP Simponi/NNP golimumab/NN)
+noun phrases to consider:
+	(NOUN the/DT recent/JJ product/NN approvals/NNS)
+
+tagged sentence:
+	 the recent product approvals	res:2
+	(NOUN Merck/NNP)
+	(NOUN Saphris/NNP asenapine/NN)
+	(NOUN Elonva/NNP)
+	(NOUN corifollitropin/NN alfa/NN injection/NN)
+
+----------------------------------
+original sentence: 
+These drugs should be able to contribute to the top line with time.
+
+POS tagged sentence: 
+[('These', 'DT'), ('drugs', 'NNS'), ('should', 'MD'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('contribute', 'VB'), ('to', 'TO'), ('the', 'DT'), ('top', 'JJ'), ('line', 'NN'), ('with', 'IN'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   drugs/NNS   should/MD   be/VB   able/JJ   to/TO   contribute/VB   to/TO   the/DT   top/JJ   line/NN   with/IN   time/NN   ./.)
+----------------------------------
+original sentence: 
+Read the full analyst report on "MRK"
+Read the full analyst report on "GSK"
+Read the full analyst report on "JNJ"
+Zacks Investment Research
+Bookmark/Search this post with: You are not watching this post, click to start watching
+Today&#039;s Trading Ideas
+Related News from the Stock Market
+There are 0 comments
+Receive Benzinga&#039;s Best 2010 Stock Idea!
+
+
+POS tagged sentence: 
+[('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('MRK', 'NNP'), ('"', 'NNP'), ('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('GSK', 'NNP'), ('"', 'NNP'), ('Read', 'NNP'), ('the', 'DT'), ('full', 'JJ'), ('analyst', 'NN'), ('report', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('JNJ', 'NNP'), ('"', 'NNP'), ('Zacks', 'NNP'), ('Investment', 'NNP'), ('Research', 'NNP'), ('Bookmark/Search', 'NNP'), ('this', 'DT'), ('post', 'NN'), ('with', 'IN'), (':', ':'), ('You', 'PRP'), ('are', 'VBP'), ('not', 'RB'), ('watching', 'VBG'), ('this', 'DT'), ('post', 'NN'), (',', ','), ('click', 'NN'), ('to', 'TO'), ('start', 'VB'), ('watching', 'NN'), ('Today&', '-NONE-'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Trading', 'NN'), ('Ideas', 'NNS'), ('Related', 'VBN'), ('News', 'NNP'), ('from', 'IN'), ('the', 'DT'), ('Stock', 'NNP'), ('Market', 'NNP'), ('There', 'NNP'), ('are', 'VBP'), ('0', '-NONE-'), ('comments', 'NNS'), ('Receive', 'NNP'), ('Benzinga&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Best', 'JJS'), ('2010', 'CD'), ('Stock', 'NNP'), ('Idea', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   MRK/NNP   "/NNP   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   GSK/NNP   "/NNP   Read/NNP   the/DT   full/JJ   analyst/NN   report/NN   on/IN   "/NNP   JNJ/NNP   "/NNP   (PERSON Zacks/NNP Investment/NNP Research/NNP)   Bookmark/Search/NNP   this/DT   post/NN   with/IN   :/:   You/PRP   are/VBP   not/RB   watching/VBG   this/DT   post/NN   ,/,   click/NN   to/TO   start/VB   watching/NN   Today&/-NONE-   #/#   039/CD   ;/:   s/NNS   Trading/NN   Ideas/NNS   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP   are/VBP   0/-NONE-   comments/NNS   (PERSON Receive/NNP)   Benzinga&/NNP   #/#   039/CD   ;/:   s/NNS   Best/JJS   2010/CD   Stock/NNP   Idea/NNP   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP not/RB watching/VBG this/DT post/NN)
+	(VERB start/VB watching/NN)
+	(VERB   Related/VBN   News/NNP   from/IN   the/DT   Stock/NNP   Market/NNP   There/NNP)
+	(VERB are/VBP)
+noun phrases to consider:
+	(NOUN Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP MRK/NNP "/NNP Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP GSK/NNP "/NNP Read/NNP)
+	(NOUN the/DT full/JJ analyst/NN report/NN)
+	(NOUN "/NNP JNJ/NNP "/NNP Zacks/NNP)
+	(NOUN Investment/NNP Research/NNP Bookmark/Search/NNP)
+	(NOUN post/NN)
+	(NOUN click/NN)
+	(NOUN s/NNS Trading/NN Ideas/NNS)
+	(NOUN comments/NNS Receive/NNP Benzinga&/NNP)
+	(NOUN s/NNS Best/JJS 2010/CD Stock/NNP Idea/NNP)
+
+
+veryneg:0	neg:7	pos:0	verypos:3	total:5

@@ -1,0 +1,300 @@
+
+----------------------------------
+original sentence: 
+Consumer Pull Back Leads to Pull Back on Wall Street; VZ, T, LVS
+ Consumer Pull Back Leads to Pull Back on Wall Street; VZ, T, LVS  Wednesday, 07 April 2010 14:47 The all mighty U.S. consumer sends cautionary message.
+
+POS tagged sentence: 
+[('Consumer', 'NN'), ('Pull', 'NNP'), ('Back', 'NNP'), ('Leads', 'NNP'), ('to', 'TO'), ('Pull', 'NNP'), ('Back', 'NNP'), ('on', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), (';', ':'), ('VZ', 'NNP'), (',', ','), ('T', 'NNP'), (',', ','), ('LVS', 'NNP'), ('Consumer', 'NNP'), ('Pull', 'NNP'), ('Back', 'NNP'), ('Leads', 'NNP'), ('to', 'TO'), ('Pull', 'NNP'), ('Back', 'NNP'), ('on', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), (';', ':'), ('VZ', 'NNP'), (',', ','), ('T', 'NNP'), (',', ','), ('LVS', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('07', 'CD'), ('April', 'NNP'), ('2010', 'CD'), ('14', 'CD'), (':', ':'), ('47', 'CD'), ('The', 'DT'), ('all', 'DT'), ('mighty', 'NN'), ('U.S.', 'NNP'), ('consumer', 'NN'), ('sends', 'NNS'), ('cautionary', 'JJ'), ('message', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Consumer/NN)   (PERSON Pull/NNP Back/NNP Leads/NNP)   to/TO   (PERSON Pull/NNP Back/NNP)   on/IN   (FACILITY Wall/NNP Street/NNP)   ;/:   VZ/NNP   ,/,   T/NNP   ,/,   (ORGANIZATION LVS/NNP Consumer/NNP Pull/NNP Back/NNP)   Leads/NNP   to/TO   (PERSON Pull/NNP Back/NNP)   on/IN   (FACILITY Wall/NNP Street/NNP)   ;/:   VZ/NNP   ,/,   T/NNP   ,/,   (ORGANIZATION LVS/NNP)   Wednesday/NNP   ,/,   07/CD   April/NNP   2010/CD   14/CD   :/:   47/CD   The/DT   all/DT   mighty/NN   (GPE U.S./NNP)   consumer/NN   sends/NNS   cautionary/JJ   message/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Consumer/NN Pull/NNP Back/NNP Leads/NNP)
+	(NOUN Pull/NNP Back/NNP)
+	(NOUN Wall/NNP Street/NNP)
+	(NOUN VZ/NNP)
+	(NOUN T/NNP)
+	(NOUN LVS/NNP Consumer/NNP Pull/NNP Back/NNP)
+	(NOUN Leads/NNP)
+	(NOUN Pull/NNP Back/NNP)
+	(NOUN Wall/NNP Street/NNP)
+	(NOUN VZ/NNP)
+	(NOUN T/NNP)
+	(NOUN LVS/NNP Wednesday/NNP)
+	(NOUN 07/CD April/NNP)
+	(NOUN mighty/NN U.S./NNP consumer/NN sends/NNS)
+	(NOUN cautionary/JJ message/NN)
+
+----------------------------------
+original sentence: 
+by S. Wade Hansen | " onclick="return fbs_click " target="_blank" class="fb_share_link">Share on Facebook
+Click here to join a Live Event!
+
+POS tagged sentence: 
+[('by', 'IN'), ('S.', 'NNP'), ('Wade', 'NNP'), ('Hansen', 'NNP'), ('|', 'NNP'), ('"', 'NNP'), ('onclick', 'NN'), ('=', ':'), ('"', ':'), ('return', 'NN'), ('fbs_click', 'NNP'), ('"', 'NNP'), ('target', 'NN'), ('=', ':'), ('"', ':'), ('_blank', 'NNP'), ('"', ':'), ('class', 'NN'), ('=', ':'), ('"', ':'), ('fb_share_link', 'NNP'), ('"', ':'), ('>', ':'), ('Share', 'NN'), ('on', 'IN'), ('Facebook', 'NNP'), ('Click', 'NNP'), ('here', 'RB'), ('to', 'TO'), ('join', 'VB'), ('a', 'DT'), ('Live', 'NNP'), ('Event', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   by/IN   S./NNP   (PERSON Wade/NNP Hansen/NNP)   |/NNP   "/NNP   onclick/NN   =/:   "/:   return/NN   fbs_click/NNP   "/NNP   target/NN   =/:   "/:   _blank/NNP   "/:   class/NN   =/:   "/:   fb_share_link/NNP   "/:   >/:   (PERSON Share/NN)   on/IN   (PERSON Facebook/NNP Click/NNP)   here/RB   to/TO   join/VB   a/DT   Live/NNP   Event/NNP   !/.)
+----------------------------------
+original sentence: 
+The Federal Reserve threw a wet blanket on the markets today when it announced that Consumer Credit contracted by $11.5 billion last month.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('threw', 'VBD'), ('a', 'DT'), ('wet', 'NN'), ('blanket', 'NN'), ('on', 'IN'), ('the', 'DT'), ('markets', 'NNS'), ('today', 'NN'), ('when', 'WRB'), ('it', 'PRP'), ('announced', 'VBD'), ('that', 'IN'), ('Consumer', 'NNP'), ('Credit', 'NNP'), ('contracted', 'VBD'), ('by', 'IN'), ('$', '$'), ('11.5', 'CD'), ('billion', 'CD'), ('last', 'JJ'), ('month', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   threw/VBD   a/DT   wet/NN   blanket/NN   on/IN   the/DT   markets/NNS   today/NN   when/WRB   it/PRP   announced/VBD   that/IN   (ORGANIZATION Consumer/NNP Credit/NNP)   contracted/VBD   by/IN   $/$   11.5/CD   billion/CD   last/JJ   month/NN   ./.)
+----------------------------------
+original sentence: 
+This number shows that consumers are being more more cautious in their purchases and are willing to finance fewer things which is bad news for an economy that relies so heavily on consumer spending.
+
+POS tagged sentence: 
+[('This', 'DT'), ('number', 'NN'), ('shows', 'VBZ'), ('that', 'IN'), ('consumers', 'NNS'), ('are', 'VBP'), ('being', 'VBG'), ('more', 'JJR'), ('more', 'JJR'), ('cautious', 'JJ'), ('in', 'IN'), ('their', 'PRP$'), ('purchases', 'NNS'), ('and', 'CC'), ('are', 'VBP'), ('willing', 'JJ'), ('to', 'TO'), ('finance', 'NN'), ('fewer', 'JJR'), ('things', 'NNS'), ('which', 'WDT'), ('is', 'VBZ'), ('bad', 'JJ'), ('news', 'NN'), ('for', 'IN'), ('an', 'DT'), ('economy', 'NN'), ('that', 'IN'), ('relies', 'NNS'), ('so', 'RB'), ('heavily', 'RB'), ('on', 'IN'), ('consumer', 'NN'), ('spending', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   number/NN   shows/VBZ   that/IN   consumers/NNS   are/VBP   being/VBG   more/JJR   more/JJR   cautious/JJ   in/IN   their/PRP$   purchases/NNS   and/CC   are/VBP   willing/JJ   to/TO   finance/NN   fewer/JJR   things/NNS   which/WDT   is/VBZ   bad/JJ   news/NN   for/IN   an/DT   economy/NN   that/IN   relies/NNS   so/RB   heavily/RB   on/IN   consumer/NN   spending/NN   ./.)
+----------------------------------
+original sentence: 
+Needless to say, Wall Street was not pleased with the news.
+
+POS tagged sentence: 
+[('Needless', 'NN'), ('to', 'TO'), ('say', 'VB'), (',', ','), ('Wall', 'NNP'), ('Street', 'NNP'), ('was', 'VBD'), ('not', 'RB'), ('pleased', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('news', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Needless/NN)   to/TO   say/VB   ,/,   (PERSON Wall/NNP Street/NNP)   was/VBD   not/RB   pleased/VBN   with/IN   the/DT   news/NN   ./.)
+----------------------------------
+original sentence: 
+5 Profitable Options Trades for 2010
+Review of today's action: Join Live!
+
+POS tagged sentence: 
+[('5', 'LS'), ('Profitable', 'JJ'), ('Options', 'NNS'), ('Trades', 'NNP'), ('for', 'IN'), ('2010', 'CD'), ('Review', 'NNP'), ('of', 'IN'), ('today', 'NN'), ("'s", 'POS'), ('action', 'NN'), (':', ':'), ('Join', 'NNP'), ('Live', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   5/LS   Profitable/JJ   Options/NNS   Trades/NNP   for/IN   2010/CD   Review/NNP   of/IN   today/NN   's/POS   action/NN   :/:   (PERSON Join/NNP Live/NNP)   !/.)
+----------------------------------
+original sentence: 
+Looking at the major stock indexes, the Dow Jones Industrial Average
+ fell 0.66 percent to  fell 0.59 percent to  fell 0.23 percent to  as we head into the opening bell.
+
+POS tagged sentence: 
+[('Looking', 'VBG'), ('at', 'IN'), ('the', 'DT'), ('major', 'JJ'), ('stock', 'NN'), ('indexes', 'NNS'), (',', ','), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('fell', 'VBD'), ('0.66', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('fell', 'VBD'), ('0.59', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('fell', 'VBD'), ('0.23', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('as', 'RB'), ('we', 'PRP'), ('head', 'VBP'), ('into', 'IN'), ('the', 'DT'), ('opening', 'VBG'), ('bell', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Looking/VBG   at/IN   the/DT   major/JJ   stock/NN   indexes/NNS   ,/,   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   fell/VBD   0.66/CD   percent/NN   to/TO   fell/VBD   0.59/CD   percent/NN   to/TO   fell/VBD   0.23/CD   percent/NN   to/TO   as/RB   we/PRP   head/VBP   into/IN   the/DT   opening/VBG   bell/NN   ./.)
+----------------------------------
+original sentence: 
+Out of the 30 stocks that comprise the Dow Jones Industrial Average, 6, or 20 percent, finished higher while 24, or 80 percent, finished lower.
+
+POS tagged sentence: 
+[('Out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('30', 'CD'), ('stocks', 'NNS'), ('that', 'WDT'), ('comprise', 'VB'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), (',', ','), ('6', 'CD'), (',', ','), ('or', 'CC'), ('20', 'CD'), ('percent', 'NN'), (',', ','), ('finished', 'VBD'), ('higher', 'JJR'), ('while', 'IN'), ('24', 'CD'), (',', ','), ('or', 'CC'), ('80', 'CD'), ('percent', 'NN'), (',', ','), ('finished', 'VBD'), ('lower', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Out/IN   of/IN   the/DT   30/CD   stocks/NNS   that/WDT   comprise/VB   the/DT   (ORGANIZATION Dow/NNP Jones/NNP Industrial/NNP Average/NNP)   ,/,   6/CD   ,/,   or/CC   20/CD   percent/NN   ,/,   finished/VBD   higher/JJR   while/IN   24/CD   ,/,   or/CC   80/CD   percent/NN   ,/,   finished/VBD   lower/JJR   ./.)
+----------------------------------
+original sentence: 
+Bank of America Corporation  were the best performers with gains of 0.70 percent and 0.65 percent, respectively.
+
+POS tagged sentence: 
+[('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corporation', 'NNP'), ('were', 'VBD'), ('the', 'DT'), ('best', 'JJS'), ('performers', 'NNS'), ('with', 'IN'), ('gains', 'NNS'), ('of', 'IN'), ('0.70', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('0.65', 'CD'), ('percent', 'NN'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corporation/NNP)   were/VBD   the/DT   best/JJS   performers/NNS   with/IN   gains/NNS   of/IN   0.70/CD   percent/NN   and/CC   0.65/CD   percent/NN   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Conversely, Verizon Communications Inc.  were the worst performers with losses of 3.08 percent and 2.51 percent, respectively.
+
+POS tagged sentence: 
+[('Conversely', 'RB'), (',', ','), ('Verizon', 'NNP'), ('Communications', 'NNPS'), ('Inc.', 'NNP'), ('were', 'VBD'), ('the', 'DT'), ('worst', 'JJS'), ('performers', 'NNS'), ('with', 'IN'), ('losses', 'NNS'), ('of', 'IN'), ('3.08', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('2.51', 'CD'), ('percent', 'NN'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Conversely/RB   ,/,   (ORGANIZATION Verizon/NNP Communications/NNPS)   Inc./NNP   were/VBD   the/DT   worst/JJS   performers/NNS   with/IN   losses/NNS   of/IN   3.08/CD   percent/NN   and/CC   2.51/CD   percent/NN   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Looking at the 500 stocks that comprise the S&P; 500, 123, or 25 percent, finished higher while 377, or 75 percent, finished lower.
+
+POS tagged sentence: 
+[('Looking', 'VBG'), ('at', 'IN'), ('the', 'DT'), ('500', 'CD'), ('stocks', 'NNS'), ('that', 'WDT'), ('comprise', 'VB'), ('the', 'DT'), ('S&P', 'NNP'), (';', ':'), ('500', 'CD'), (',', ','), ('123', 'CD'), (',', ','), ('or', 'CC'), ('25', 'CD'), ('percent', 'NN'), (',', ','), ('finished', 'VBD'), ('higher', 'JJR'), ('while', 'IN'), ('377', 'CD'), (',', ','), ('or', 'CC'), ('75', 'CD'), ('percent', 'NN'), (',', ','), ('finished', 'VBD'), ('lower', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Looking/VBG   at/IN   the/DT   500/CD   stocks/NNS   that/WDT   comprise/VB   the/DT   S&P/NNP   ;/:   500/CD   ,/,   123/CD   ,/,   or/CC   25/CD   percent/NN   ,/,   finished/VBD   higher/JJR   while/IN   377/CD   ,/,   or/CC   75/CD   percent/NN   ,/,   finished/VBD   lower/JJR   ./.)
+----------------------------------
+original sentence: 
+American International Group, Inc. EOG Resources, Inc.  were the best performers with gains of 10.53 percent and 6.53 percent, respectively.
+
+POS tagged sentence: 
+[('American', 'NNP'), ('International', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('EOG', 'NNP'), ('Resources', 'NNPS'), (',', ','), ('Inc.', 'NNP'), ('were', 'VBD'), ('the', 'DT'), ('best', 'JJS'), ('performers', 'NNS'), ('with', 'IN'), ('gains', 'NNS'), ('of', 'IN'), ('10.53', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('6.53', 'CD'), ('percent', 'NN'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE American/NNP)   (ORGANIZATION International/NNP Group/NNP)   ,/,   Inc./NNP   EOG/NNP   Resources/NNPS   ,/,   Inc./NNP   were/VBD   the/DT   best/JJS   performers/NNS   with/IN   gains/NNS   of/IN   10.53/CD   percent/NN   and/CC   6.53/CD   percent/NN   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Conversely,  were the worst performers with losses of 6.67 percent and 4.71 percent, respectively.
+
+POS tagged sentence: 
+[('Conversely', 'RB'), (',', ','), ('were', 'VBD'), ('the', 'DT'), ('worst', 'JJS'), ('performers', 'NNS'), ('with', 'IN'), ('losses', 'NNS'), ('of', 'IN'), ('6.67', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('4.71', 'CD'), ('percent', 'NN'), (',', ','), ('respectively', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Conversely/RB   ,/,   were/VBD   the/DT   worst/JJS   performers/NNS   with/IN   losses/NNS   of/IN   6.67/CD   percent/NN   and/CC   4.71/CD   percent/NN   ,/,   respectively/RB   ./.)
+----------------------------------
+original sentence: 
+Drilling down a little deeper into the market, you will see that none of the 9 sectors that comprise the stock market made gains today.
+
+POS tagged sentence: 
+[('Drilling', 'VBG'), ('down', 'IN'), ('a', 'DT'), ('little', 'RB'), ('deeper', 'NN'), ('into', 'IN'), ('the', 'DT'), ('market', 'NN'), (',', ','), ('you', 'PRP'), ('will', 'MD'), ('see', 'VB'), ('that', 'IN'), ('none', 'NN'), ('of', 'IN'), ('the', 'DT'), ('9', 'CD'), ('sectors', 'NNS'), ('that', 'WDT'), ('comprise', 'VBP'), ('the', 'DT'), ('stock', 'NN'), ('market', 'NN'), ('made', 'VBD'), ('gains', 'NNS'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Drilling/VBG   down/IN   a/DT   little/RB   deeper/NN   into/IN   the/DT   market/NN   ,/,   you/PRP   will/MD   see/VB   that/IN   none/NN   of/IN   the/DT   9/CD   sectors/NNS   that/WDT   comprise/VBP   the/DT   stock/NN   market/NN   made/VBD   gains/NNS   today/NN   ./.)
+----------------------------------
+original sentence: 
+The best performing sector was the , with losses of 0.38 percent.
+
+POS tagged sentence: 
+[('The', 'DT'), ('best', 'JJS'), ('performing', 'VBG'), ('sector', 'NN'), ('was', 'VBD'), ('the', 'DT'), (',', ','), ('with', 'IN'), ('losses', 'NNS'), ('of', 'IN'), ('0.38', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   best/JJS   performing/VBG   sector/NN   was/VBD   the/DT   ,/,   with/IN   losses/NNS   of/IN   0.38/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+On the flip side, the worst performing sector was the Basic Materials sector
+, with losses of 1.38 percent.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('flip', 'NN'), ('side', 'NN'), (',', ','), ('the', 'DT'), ('worst', 'JJS'), ('performing', 'VBG'), ('sector', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('Basic', 'NNP'), ('Materials', 'NNPS'), ('sector', 'NN'), (',', ','), ('with', 'IN'), ('losses', 'NNS'), ('of', 'IN'), ('1.38', 'CD'), ('percent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   flip/NN   side/NN   ,/,   the/DT   worst/JJS   performing/VBG   sector/NN   was/VBD   the/DT   (ORGANIZATION Basic/NNP Materials/NNPS)   sector/NN   ,/,   with/IN   losses/NNS   of/IN   1.38/CD   percent/NN   ./.)
+----------------------------------
+original sentence: 
+In corporate news, UBS upgraded  from a neutral to a buy.
+
+POS tagged sentence: 
+[('In', 'IN'), ('corporate', 'JJ'), ('news', 'NN'), (',', ','), ('UBS', 'NNP'), ('upgraded', 'VBD'), ('from', 'IN'), ('a', 'DT'), ('neutral', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('buy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   corporate/JJ   news/NN   ,/,   (ORGANIZATION UBS/NNP)   upgraded/VBD   from/IN   a/DT   neutral/JJ   to/TO   a/DT   buy/NN   ./.)
+----------------------------------
+original sentence: 
+NOK closed down 0.45 percent at $15.49.
+
+POS tagged sentence: 
+[('NOK', 'NN'), ('closed', 'VBD'), ('down', 'IN'), ('0.45', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('$', '$'), ('15.49', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NOK/NN)   closed/VBD   down/IN   0.45/CD   percent/NN   at/IN   $/$   15.49/CD   ./.)
+----------------------------------
+original sentence: 
+Las Vegas Sands Corp.  from a buy to a neutral.
+
+POS tagged sentence: 
+[('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp.', 'NNP'), ('from', 'IN'), ('a', 'DT'), ('buy', 'NN'), ('to', 'TO'), ('a', 'DT'), ('neutral', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Las/NNP)   (ORGANIZATION Vegas/NNP Sands/NNPS)   Corp./NNP   from/IN   a/DT   buy/NN   to/TO   a/DT   neutral/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Las/NNP Vegas/NNP Sands/NNPS Corp./NNP)
+	(NOUN buy/NN)
+	(NOUN a/DT neutral/JJ)
+
+----------------------------------
+original sentence: 
+UBS also revised its price target for LVS from $20 to $24.
+
+POS tagged sentence: 
+[('UBS', 'NNS'), ('also', 'RB'), ('revised', 'VBD'), ('its', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('for', 'IN'), ('LVS', 'NNP'), ('from', 'IN'), ('$', '$'), ('20', 'CD'), ('to', 'TO'), ('$', '$'), ('24', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   UBS/NNS   also/RB   revised/VBD   its/PRP$   price/NN   target/NN   for/IN   (ORGANIZATION LVS/NNP)   from/IN   $/$   20/CD   to/TO   $/$   24/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB revised/VBD its/PRP$ price/NN target/NN for/IN LVS/NNP from/IN)
+noun phrases to consider:
+	(NOUN UBS/NNS)
+
+----------------------------------
+original sentence: 
+LVS closed down 2.13 percent at $22.93.
+
+POS tagged sentence: 
+[('LVS', 'NNP'), ('closed', 'VBD'), ('down', 'RB'), ('2.13', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('$', '$'), ('22.93', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION LVS/NNP)   closed/VBD   down/RB   2.13/CD   percent/NN   at/IN   $/$   22.93/CD   ./.)Up/down number phrases to consider:
+	(UPDOWN down/RB 2.13/CD)
+'
+tagged sentence:
+	 down 2.13	res:-1
+verb phrases to consider:
+	(VERB closed/VBD)
+noun phrases to consider:
+	(NOUN LVS/NNP)
+	(NOUN percent/NN)
+
+----------------------------------
+original sentence: 
+Barclays Capital downgraded  from a overweight to a equal weight.
+
+POS tagged sentence: 
+[('Barclays', 'NNS'), ('Capital', 'NNP'), ('downgraded', 'VBD'), ('from', 'IN'), ('a', 'DT'), ('overweight', 'NN'), ('to', 'TO'), ('a', 'DT'), ('equal', 'JJ'), ('weight', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Barclays/NNS Capital/NNP)   downgraded/VBD   from/IN   a/DT   overweight/NN   to/TO   a/DT   equal/JJ   weight/NN   ./.)
+----------------------------------
+original sentence: 
+Barclays Capital also revised its price target for NFLX from $72 to $88.
+
+POS tagged sentence: 
+[('Barclays', 'NNS'), ('Capital', 'NNP'), ('also', 'RB'), ('revised', 'VBD'), ('its', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('for', 'IN'), ('NFLX', 'NNP'), ('from', 'IN'), ('$', '$'), ('72', 'CD'), ('to', 'TO'), ('$', '$'), ('88', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Barclays/NNS)   (ORGANIZATION Capital/NNP)   also/RB   revised/VBD   its/PRP$   price/NN   target/NN   for/IN   (ORGANIZATION NFLX/NNP)   from/IN   $/$   72/CD   to/TO   $/$   88/CD   ./.)
+----------------------------------
+original sentence: 
+NFLX closed down 4.37 percent at $79.73.
+
+POS tagged sentence: 
+[('NFLX', 'NNP'), ('closed', 'VBD'), ('down', 'RB'), ('4.37', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('$', '$'), ('79.73', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NFLX/NNP)   closed/VBD   down/RB   4.37/CD   percent/NN   at/IN   $/$   79.73/CD   ./.)
+----------------------------------
+original sentence: 
+reported earnings per share of $1.70 missing analyst expecations by 3 cents.
+
+POS tagged sentence: 
+[('reported', 'VBD'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('of', 'IN'), ('$', '$'), ('1.70', 'CD'), ('missing', 'VBG'), ('analyst', 'NN'), ('expecations', 'NNS'), ('by', 'IN'), ('3', 'CD'), ('cents', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   reported/VBD   earnings/NNS   per/IN   share/NN   of/IN   $/$   1.70/CD   missing/VBG   analyst/NN   expecations/NNS   by/IN   3/CD   cents/NNS   ./.)
+----------------------------------
+original sentence: 
+MON also issued earnings guidance for next quarter that is in line with current analyst expectations.. MON closed down 2.45 percent at $68.09.
+
+POS tagged sentence: 
+[('MON', 'NNP'), ('also', 'RB'), ('issued', 'VBD'), ('earnings', 'NNS'), ('guidance', 'NN'), ('for', 'IN'), ('next', 'JJ'), ('quarter', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('in', 'IN'), ('line', 'NN'), ('with', 'IN'), ('current', 'JJ'), ('analyst', 'NN'), ('expectations..', 'NNP'), ('MON', 'NNP'), ('closed', 'VBD'), ('down', 'RB'), ('2.45', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('$', '$'), ('68.09', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION MON/NNP)   also/RB   issued/VBD   earnings/NNS   guidance/NN   for/IN   next/JJ   quarter/NN   that/WDT   is/VBZ   in/IN   line/NN   with/IN   current/JJ   analyst/NN   expectations../NNP   MON/NNP   closed/VBD   down/RB   2.45/CD   percent/NN   at/IN   $/$   68.09/CD   ./.)
+----------------------------------
+original sentence: 
+Looking at commodity prices,  prices have down 1.37 percent to $85.65 per barrel.
+
+POS tagged sentence: 
+[('Looking', 'VBG'), ('at', 'IN'), ('commodity', 'NN'), ('prices', 'NNS'), (',', ','), ('prices', 'NNS'), ('have', 'VBP'), ('down', 'RB'), ('1.37', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('$', '$'), ('85.65', 'CD'), ('per', 'IN'), ('barrel', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Looking/VBG   at/IN   commodity/NN   prices/NNS   ,/,   prices/NNS   have/VBP   down/RB   1.37/CD   percent/NN   to/TO   $/$   85.65/CD   per/IN   barrel/NN   ./.)
+----------------------------------
+original sentence: 
+prices are up 1.21 percent at $1149.80 per ounce.
+
+
+POS tagged sentence: 
+[('prices', 'NNS'), ('are', 'VBP'), ('up', 'RB'), ('1.21', 'CD'), ('percent', 'NN'), ('at', 'IN'), ('$', '$'), ('1149.80', 'CD'), ('per', 'IN'), ('ounce', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   prices/NNS   are/VBP   up/RB   1.21/CD   percent/NN   at/IN   $/$   1149.80/CD   per/IN   ounce/NN   ./.)
+
+veryneg:0	neg:1	pos:0	verypos:0	total:1

@@ -1,0 +1,105 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+Citigroup Offers $2 Billion in Trust Preferred Securities C Tuesday, March 9, 2010 15:38
+Tue, 03/09/2010 15:38
+3/9/2010 Shares of Citigroup  are trading 6.7% higher to $3.80 Tuesday after the company announced it is offering around $2 billion in $25 par 30 year trust preferred securities, or TRUPs, as part of its agreement with regulators on repaying federal bailout funds, Dow Jones reported.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Citigroup', 'NNP'), ('Offers', 'NNP'), ('$', '$'), ('2', 'CD'), ('Billion', 'CD'), ('in', 'IN'), ('Trust', 'NNP'), ('Preferred', 'NNP'), ('Securities', 'NNP'), ('C', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), ('15', 'CD'), (':', ':'), ('38', 'CD'), ('Tue', 'NNP'), (',', ','), ('03/09/2010', 'CD'), ('15', 'CD'), (':', ':'), ('38', 'CD'), ('3/9/2010', 'CD'), ('Shares', 'NNS'), ('of', 'IN'), ('Citigroup', 'NNP'), ('are', 'VBP'), ('trading', 'VBG'), ('6.7', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('to', 'TO'), ('$', '$'), ('3.80', 'CD'), ('Tuesday', 'NNP'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('announced', 'VBD'), ('it', 'PRP'), ('is', 'VBZ'), ('offering', 'VBG'), ('around', 'IN'), ('$', '$'), ('2', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('$', '$'), ('25', 'CD'), ('par', 'NN'), ('30', 'CD'), ('year', 'NN'), ('trust', 'NN'), ('preferred', 'VBN'), ('securities', 'NNS'), (',', ','), ('or', 'CC'), ('TRUPs', 'NNP'), (',', ','), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('agreement', 'NN'), ('with', 'IN'), ('regulators', 'NNS'), ('on', 'IN'), ('repaying', 'VBG'), ('federal', 'JJ'), ('bailout', 'IN'), ('funds', 'NNS'), (',', ','), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION SmarTrend/NNP Alert/NNP Citigroup/NNP)   Offers/NNP   $/$   2/CD   Billion/CD   in/IN   (GPE Trust/NNP)   Preferred/NNP   Securities/NNP   C/NNP   Tuesday/NNP   ,/,   March/NNP   9/CD   ,/,   2010/CD   15/CD   :/:   38/CD   Tue/NNP   ,/,   03/09/2010/CD   15/CD   :/:   38/CD   3/9/2010/CD   Shares/NNS   of/IN   (GPE Citigroup/NNP)   are/VBP   trading/VBG   6.7/CD   %/NN   higher/JJR   to/TO   $/$   3.80/CD   Tuesday/NNP   after/IN   the/DT   company/NN   announced/VBD   it/PRP   is/VBZ   offering/VBG   around/IN   $/$   2/CD   billion/CD   in/IN   $/$   25/CD   par/NN   30/CD   year/NN   trust/NN   preferred/VBN   securities/NNS   ,/,   or/CC   (ORGANIZATION TRUPs/NNP)   ,/,   as/IN   part/NN   of/IN   its/PRP$   agreement/NN   with/IN   regulators/NNS   on/IN   repaying/VBG   federal/JJ   bailout/IN   funds/NNS   ,/,   (PERSON Dow/NNP Jones/NNP)   reported/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP trading/VBG 6.7/CD %/NN higher/JJR)
+	(VERB announced/VBD it/PRP)
+	(VERB is/VBZ offering/VBG around/IN)
+	(VERB preferred/VBN securities/NNS)
+	(VERB repaying/VBG federal/JJ bailout/IN funds/NNS)
+	(VERB reported/VBD)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Citigroup/NNP)
+
+tagged sentence:
+	 Comtex SmarTrend Alert Citigroup	res:-1
+	(NOUN Offers/NNP)
+	(NOUN Trust/NNP Preferred/NNP Securities/NNP C/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN March/NNP)
+	(NOUN 38/CD Tue/NNP)
+	(NOUN 3/9/2010/CD Shares/NNS)
+	(NOUN Citigroup/NNP)
+	(NOUN 3.80/CD Tuesday/NNP)
+	(NOUN company/NN)
+	(NOUN 25/CD par/NN)
+	(NOUN 30/CD year/NN trust/NN)
+	(NOUN TRUPs/NNP)
+	(NOUN part/NN)
+	(NOUN agreement/NN)
+	(NOUN regulators/NNS)
+	(NOUN Dow/NNP Jones/NNP)
+
+----------------------------------
+original sentence: 
+In December, Citigroup agreed to sell the securities to boost its capital ratios after it repaid $20 billion in trust preferred securities held by the U.S. Treasury.
+
+POS tagged sentence: 
+[('In', 'IN'), ('December', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('agreed', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('the', 'DT'), ('securities', 'NNS'), ('to', 'TO'), ('boost', 'VB'), ('its', 'PRP$'), ('capital', 'NN'), ('ratios', 'NNS'), ('after', 'IN'), ('it', 'PRP'), ('repaid', 'VBD'), ('$', '$'), ('20', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('trust', 'NN'), ('preferred', 'VBD'), ('securities', 'NNS'), ('held', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   December/NNP   ,/,   (PERSON Citigroup/NNP)   agreed/VBD   to/TO   sell/VB   the/DT   securities/NNS   to/TO   boost/VB   its/PRP$   capital/NN   ratios/NNS   after/IN   it/PRP   repaid/VBD   $/$   20/CD   billion/CD   in/IN   trust/NN   preferred/VBD   securities/NNS   held/VBN   by/IN   the/DT   (GPE U.S./NNP Treasury/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB agreed/VBD to/TO sell/VB the/DT securities/NNS)
+	(VERB boost/VB its/PRP$ capital/NN ratios/NNS after/IN it/PRP)
+
+tagged sentence:
+	 boost its capital ratios after it	res:1
+	(VERB repaid/VBD)
+	(VERB preferred/VBD securities/NNS)
+	(VERB held/VBN by/IN the/DT U.S./NNP Treasury/NNP)
+noun phrases to consider:
+	(NOUN December/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN trust/NN)
+
+----------------------------------
+original sentence: 
+The securities are seen yielding around 8.875%, with heavy demand from institutional and retail investors, according to a person familiar with the deal.
+
+POS tagged sentence: 
+[('The', 'DT'), ('securities', 'NNS'), ('are', 'VBP'), ('seen', 'VBN'), ('yielding', 'VBG'), ('around', 'IN'), ('8.875', 'CD'), ('%', 'NN'), (',', ','), ('with', 'IN'), ('heavy', 'JJ'), ('demand', 'NN'), ('from', 'IN'), ('institutional', 'JJ'), ('and', 'CC'), ('retail', 'JJ'), ('investors', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('person', 'NN'), ('familiar', 'NN'), ('with', 'IN'), ('the', 'DT'), ('deal', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   securities/NNS   are/VBP   seen/VBN   yielding/VBG   around/IN   8.875/CD   %/NN   ,/,   with/IN   heavy/JJ   demand/NN   from/IN   institutional/JJ   and/CC   retail/JJ   investors/NNS   ,/,   according/VBG   to/TO   a/DT   person/NN   familiar/NN   with/IN   the/DT   deal/NN   ./.)
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

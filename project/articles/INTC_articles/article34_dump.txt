@@ -1,0 +1,684 @@
+
+----------------------------------
+original sentence: 
+Business & Financial News, Breaking US & International News | Reuters.com
+ Intel Corporation INTC.O Price Change % chg Latest Key Developments
+ INTRA Groupe Selects Intel Corporation's Wind River for Radioactive Cleanup Robot
+Tuesday, 20 Apr 2010 09:00am EDT
+Intel Corporation announced that the France based Group of Robotic Intervention on Accidents INTRA has selected VxWorks for its new family of radioactive cleanup robots, called the ERASE, ERELT and EBENNE trucks.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('&', 'CC'), ('Financial', 'NNP'), ('News', 'NNP'), (',', ','), ('Breaking', 'NNP'), ('US', 'NNP'), ('&', 'CC'), ('International', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Reuters.com', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('INTC.O', 'NNP'), ('Price', 'NNP'), ('Change', 'NNP'), ('%', 'NN'), ('chg', 'NN'), ('Latest', 'NNP'), ('Key', 'NNP'), ('Developments', 'NNP'), ('INTRA', 'NNP'), ('Groupe', 'NNP'), ('Selects', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('Wind', 'NNP'), ('River', 'NNP'), ('for', 'IN'), ('Radioactive', 'NNP'), ('Cleanup', 'NNP'), ('Robot', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('20', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('00am', 'CD'), ('EDT', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('France', 'NNP'), ('based', 'VBD'), ('Group', 'NNP'), ('of', 'IN'), ('Robotic', 'NNP'), ('Intervention', 'NNP'), ('on', 'IN'), ('Accidents', 'NNP'), ('INTRA', 'NNP'), ('has', 'VBZ'), ('selected', 'VBN'), ('VxWorks', 'NNS'), ('for', 'IN'), ('its', 'PRP$'), ('new', 'JJ'), ('family', 'NN'), ('of', 'IN'), ('radioactive', 'JJ'), ('cleanup', 'NN'), ('robots', 'NNS'), (',', ','), ('called', 'VBN'), ('the', 'DT'), ('ERASE', 'NNP'), (',', ','), ('ERELT', 'NNP'), ('and', 'CC'), ('EBENNE', 'NNP'), ('trucks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   &/CC   (ORGANIZATION Financial/NNP News/NNP)   ,/,   (PERSON Breaking/NNP US/NNP)   &/CC   (ORGANIZATION International/NNP News/NNP)   |/NNP   Reuters.com/NNP   Intel/NNP   Corporation/NNP   INTC.O/NNP   Price/NNP   Change/NNP   %/NN   chg/NN   (PERSON Latest/NNP Key/NNP Developments/NNP)   (ORGANIZATION     INTRA/NNP     Groupe/NNP     Selects/NNP     Intel/NNP     Corporation/NNP)   's/POS   (ORGANIZATION Wind/NNP River/NNP)   for/IN   (ORGANIZATION Radioactive/NNP Cleanup/NNP Robot/NNP)   Tuesday/NNP   ,/,   20/CD   Apr/NNP   2010/CD   09/CD   :/:   00am/CD   (ORGANIZATION EDT/NNP Intel/NNP Corporation/NNP)   announced/VBD   that/IN   the/DT   (GPE France/NNP)   based/VBD   Group/NNP   of/IN   (PERSON Robotic/NNP Intervention/NNP)   on/IN   (PERSON Accidents/NNP)   (ORGANIZATION INTRA/NNP)   has/VBZ   selected/VBN   (ORGANIZATION VxWorks/NNS)   for/IN   its/PRP$   new/JJ   family/NN   of/IN   radioactive/JJ   cleanup/NN   robots/NNS   ,/,   called/VBN   the/DT   (ORGANIZATION ERASE/NNP)   ,/,   (ORGANIZATION ERELT/NNP)   and/CC   (ORGANIZATION EBENNE/NNP)   trucks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN the/DT France/NNP)
+	(VERB   based/VBD   Group/NNP   of/IN   Robotic/NNP   Intervention/NNP   on/IN   Accidents/NNP   INTRA/NNP)
+	(VERB   has/VBZ   selected/VBN   VxWorks/NNS   for/IN   its/PRP$   new/JJ   family/NN   of/IN   radioactive/JJ   cleanup/NN   robots/NNS)
+	(VERB called/VBN the/DT ERASE/NNP)
+noun phrases to consider:
+	(NOUN Business/NN)
+	(NOUN Financial/NNP News/NNP)
+	(NOUN Breaking/NNP US/NNP)
+	(NOUN International/NNP News/NNP |/NNP Reuters.com/NNP)
+	(NOUN Intel/NNP Corporation/NNP INTC.O/NNP Price/NNP)
+	(NOUN Change/NNP %/NN chg/NN Latest/NNP)
+	(NOUN Key/NNP Developments/NNP INTRA/NNP Groupe/NNP)
+	(NOUN Selects/NNP Intel/NNP Corporation/NNP)
+	(NOUN Wind/NNP River/NNP)
+	(NOUN Radioactive/NNP Cleanup/NNP Robot/NNP Tuesday/NNP)
+	(NOUN 20/CD Apr/NNP)
+	(NOUN 00am/CD EDT/NNP Intel/NNP Corporation/NNP)
+	(NOUN ERELT/NNP)
+	(NOUN EBENNE/NNP trucks/NNS)
+
+----------------------------------
+original sentence: 
+INTRA Groupe is part of a consortium comprised of Electricit√© de France EDF , Commissariat √† l'√ânergie Atomique CEA and AREVA.
+
+POS tagged sentence: 
+[('INTRA', 'NNP'), ('Groupe', 'NNP'), ('is', 'VBZ'), ('part', 'NN'), ('of', 'IN'), ('a', 'DT'), ('consortium', 'NN'), ('comprised', 'VBN'), ('of', 'IN'), ('Electricit', 'NNP'), ('\xc3', 'NNP'), ('\xa9', 'NNP'), ('de', 'IN'), ('France', 'NNP'), ('EDF', 'NNP'), (',', ','), ('Commissariat', 'NNP'), ('\xc3', 'NNP'), ('\xa0', 'NNP'), ('l', 'NN'), ("'", 'POS'), ('\xc3', 'NN'), ('\x89', ':'), ('nergie', 'NN'), ('Atomique', 'NNP'), ('CEA', 'NNP'), ('and', 'CC'), ('AREVA', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION INTRA/NNP Groupe/NNP)   is/VBZ   part/NN   of/IN   a/DT   consortium/NN   comprised/VBN   of/IN   (ORGANIZATION Electricit/NNP)   √/NNP   ©/NNP   de/IN   (GPE France/NNP EDF/NNP)   ,/,   (ORGANIZATION Commissariat/NNP)   √/NNP   †/NNP   l/NN   '/POS   √/NN   â/:   nergie/NN   (PERSON Atomique/NNP CEA/NNP)   and/CC   (ORGANIZATION AREVA/NNP)   ./.)
+----------------------------------
+original sentence: 
+Intel Corporation Issues Q2 2010 Revenue Guidance Above Analysts' Estimates
+Tuesday, 13 Apr 2010 04:15pm EDT
+Intel Corporation announced that for the second quarter of 2010, it expects revenue of $10.2 billion, plus or minus $400 million.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('Issues', 'NNPS'), ('Q2', 'NNP'), ('2010', 'CD'), ('Revenue', 'NNP'), ('Guidance', 'NNP'), ('Above', 'NNP'), ('Analysts', 'NNP'), ("'", 'POS'), ('Estimates', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('13', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('15pm', 'CD'), ('EDT', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (',', ','), ('it', 'PRP'), ('expects', 'VBZ'), ('revenue', 'NN'), ('of', 'IN'), ('$', '$'), ('10.2', 'CD'), ('billion', 'CD'), (',', ','), ('plus', 'CC'), ('or', 'CC'), ('minus', 'CC'), ('$', '$'), ('400', 'CD'), ('million', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP Issues/NNPS)   Q2/NNP   2010/CD   Revenue/NNP   Guidance/NNP   Above/NNP   Analysts/NNP   '/POS   (PERSON Estimates/NNP)   Tuesday/NNP   ,/,   13/CD   Apr/NNP   2010/CD   04/CD   :/:   15pm/CD   (ORGANIZATION EDT/NNP Intel/NNP Corporation/NNP)   announced/VBD   that/IN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ,/,   it/PRP   expects/VBZ   revenue/NN   of/IN   $/$   10.2/CD   billion/CD   ,/,   plus/CC   or/CC   minus/CC   $/$   400/CD   million/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   that/IN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD)
+	(VERB expects/VBZ revenue/NN of/IN)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP Issues/NNPS Q2/NNP)
+	(NOUN 2010/CD Revenue/NNP Guidance/NNP Above/NNP Analysts/NNP)
+
+tagged sentence:
+	 2010 Revenue Guidance Above Analysts	res:1
+	(NOUN Estimates/NNP Tuesday/NNP)
+	(NOUN 13/CD Apr/NNP)
+	(NOUN 15pm/CD EDT/NNP Intel/NNP Corporation/NNP)
+
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts are expecting the Company to report revenue of $9.7 billion for the second quarter of 2010.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('are', 'VBP'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('revenue', 'NN'), ('of', 'IN'), ('$', '$'), ('9.7', 'CD'), ('billion', 'CD'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   are/VBP   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   revenue/NN   of/IN   $/$   9.7/CD   billion/CD   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+U.S. Steps Up Probe Of Hiring In Some Of America's Companies Including Intel Corporation WSJ
+Thursday, 8 Apr 2010 08:00pm EDT
+The Wall Street Journal reported that the Justice Department is stepping up its investigation into hiring practices at some of America's companies, including Google Inc., Intel Corporation, IBM Corporation, Apple Inc. and IAC InterActiveCorp.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('Steps', 'NNP'), ('Up', 'NNP'), ('Probe', 'NNP'), ('Of', 'NNP'), ('Hiring', 'NNP'), ('In', 'NNP'), ('Some', 'NNP'), ('Of', 'NNP'), ('America', 'NNP'), ("'s", 'POS'), ('Companies', 'NNPS'), ('Including', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('WSJ', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('8', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('00pm', 'CD'), ('EDT', 'NNP'), ('The', 'NNP'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('Justice', 'NNP'), ('Department', 'NNP'), ('is', 'VBZ'), ('stepping', 'VBG'), ('up', 'RP'), ('its', 'PRP$'), ('investigation', 'NN'), ('into', 'IN'), ('hiring', 'NN'), ('practices', 'NNS'), ('at', 'IN'), ('some', 'DT'), ('of', 'IN'), ('America', 'NNP'), ("'s", 'POS'), ('companies', 'NNS'), (',', ','), ('including', 'VBG'), ('Google', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('Intel', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('IBM', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Apple', 'NNP'), ('Inc.', 'NNP'), ('and', 'CC'), ('IAC', 'NNP'), ('InterActiveCorp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   (PERSON Steps/NNP Up/NNP Probe/NNP Of/NNP Hiring/NNP)   In/NNP   Some/NNP   Of/NNP   (GPE America/NNP)   's/POS   (ORGANIZATION     Companies/NNPS     Including/NNP     Intel/NNP     Corporation/NNP)   WSJ/NNP   Thursday/NNP   ,/,   8/CD   Apr/NNP   2010/CD   08/CD   :/:   00pm/CD   EDT/NNP   The/NNP   (FACILITY Wall/NNP Street/NNP Journal/NNP)   reported/VBD   that/IN   the/DT   (ORGANIZATION Justice/NNP Department/NNP)   is/VBZ   stepping/VBG   up/RP   its/PRP$   investigation/NN   into/IN   hiring/NN   practices/NNS   at/IN   some/DT   of/IN   (GPE America/NNP)   's/POS   companies/NNS   ,/,   including/VBG   (ORGANIZATION Google/NNP Inc./NNP)   ,/,   (ORGANIZATION Intel/NNP Corporation/NNP)   ,/,   (ORGANIZATION IBM/NNP Corporation/NNP)   ,/,   (PERSON Apple/NNP Inc./NNP)   and/CC   (ORGANIZATION IAC/NNP)   InterActiveCorp/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN the/DT Justice/NNP Department/NNP)
+	(VERB is/VBZ stepping/VBG)
+	(VERB including/VBG Google/NNP Inc./NNP)
+noun phrases to consider:
+	(NOUN U.S./NNP Steps/NNP Up/NNP Probe/NNP)
+	(NOUN Of/NNP Hiring/NNP In/NNP Some/NNP)
+	(NOUN Of/NNP America/NNP)
+	(NOUN Companies/NNPS Including/NNP Intel/NNP Corporation/NNP)
+	(NOUN WSJ/NNP Thursday/NNP)
+	(NOUN 8/CD Apr/NNP)
+	(NOUN 00pm/CD EDT/NNP The/NNP Wall/NNP Street/NNP)
+	(NOUN Journal/NNP)
+	(NOUN investigation/NN)
+	(NOUN hiring/NN practices/NNS)
+	(NOUN America/NNP)
+	(NOUN companies/NNS)
+	(NOUN Intel/NNP Corporation/NNP)
+	(NOUN IBM/NNP Corporation/NNP)
+	(NOUN Apple/NNP Inc./NNP)
+	(NOUN IAC/NNP InterActiveCorp/NNP)
+
+----------------------------------
+original sentence: 
+The inquiry is focused on whether companies, particularly in the technology sector, have agreed not to recruit each others' employees in ways that violate antitrust law.
+
+POS tagged sentence: 
+[('The', 'DT'), ('inquiry', 'NN'), ('is', 'VBZ'), ('focused', 'VBN'), ('on', 'IN'), ('whether', 'IN'), ('companies', 'NNS'), (',', ','), ('particularly', 'RB'), ('in', 'IN'), ('the', 'DT'), ('technology', 'NN'), ('sector', 'NN'), (',', ','), ('have', 'VBP'), ('agreed', 'VBN'), ('not', 'RB'), ('to', 'TO'), ('recruit', 'VB'), ('each', 'DT'), ('others', 'NNS'), ("'", 'POS'), ('employees', 'NNS'), ('in', 'IN'), ('ways', 'NNS'), ('that', 'WDT'), ('violate', 'NN'), ('antitrust', 'MD'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   inquiry/NN   is/VBZ   focused/VBN   on/IN   whether/IN   companies/NNS   ,/,   particularly/RB   in/IN   the/DT   technology/NN   sector/NN   ,/,   have/VBP   agreed/VBN   not/RB   to/TO   recruit/VB   each/DT   others/NNS   '/POS   employees/NNS   in/IN   ways/NNS   that/WDT   violate/NN   antitrust/MD   law/NN   ./.)
+----------------------------------
+original sentence: 
+Specifically, the probe is looking into whether the companies' hiring practices are costing skilled computer engineers and other workers opportunities to change jobs for higher pay or better benefits.
+
+POS tagged sentence: 
+[('Specifically', 'RB'), (',', ','), ('the', 'DT'), ('probe', 'NN'), ('is', 'VBZ'), ('looking', 'VBG'), ('into', 'IN'), ('whether', 'IN'), ('the', 'DT'), ('companies', 'NNS'), ("'", 'POS'), ('hiring', 'NN'), ('practices', 'NNS'), ('are', 'VBP'), ('costing', 'VBG'), ('skilled', 'VBN'), ('computer', 'NN'), ('engineers', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('workers', 'NNS'), ('opportunities', 'NNS'), ('to', 'TO'), ('change', 'VB'), ('jobs', 'NNS'), ('for', 'IN'), ('higher', 'JJR'), ('pay', 'NN'), ('or', 'CC'), ('better', 'JJR'), ('benefits', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Specifically/RB   ,/,   the/DT   probe/NN   is/VBZ   looking/VBG   into/IN   whether/IN   the/DT   companies/NNS   '/POS   hiring/NN   practices/NNS   are/VBP   costing/VBG   skilled/VBN   computer/NN   engineers/NNS   and/CC   other/JJ   workers/NNS   opportunities/NNS   to/TO   change/VB   jobs/NNS   for/IN   higher/JJR   pay/NN   or/CC   better/JJR   benefits/NNS   ./.)
+----------------------------------
+original sentence: 
+After a probe that began more than a year ago, Justice Department investigators have concluded that such agreements do raise significant competitive concerns.
+
+POS tagged sentence: 
+[('After', 'IN'), ('a', 'DT'), ('probe', 'NN'), ('that', 'WDT'), ('began', 'VBD'), ('more', 'JJR'), ('than', 'IN'), ('a', 'DT'), ('year', 'NN'), ('ago', 'IN'), (',', ','), ('Justice', 'NNP'), ('Department', 'NNP'), ('investigators', 'NNS'), ('have', 'VBP'), ('concluded', 'VBN'), ('that', 'IN'), ('such', 'JJ'), ('agreements', 'NNS'), ('do', 'VBP'), ('raise', 'RB'), ('significant', 'JJ'), ('competitive', 'JJ'), ('concerns', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   a/DT   probe/NN   that/WDT   began/VBD   more/JJR   than/IN   a/DT   year/NN   ago/IN   ,/,   (ORGANIZATION Justice/NNP Department/NNP)   investigators/NNS   have/VBP   concluded/VBN   that/IN   such/JJ   agreements/NNS   do/VBP   raise/RB   significant/JJ   competitive/JJ   concerns/NNS   ./.)
+----------------------------------
+original sentence: 
+About a dozen companies are meeting with top antitrust officials at the Justice Department this week and next, some to defend their practices, others to provide information.
+
+POS tagged sentence: 
+[('About', 'IN'), ('a', 'DT'), ('dozen', 'NN'), ('companies', 'NNS'), ('are', 'VBP'), ('meeting', 'VBG'), ('with', 'IN'), ('top', 'JJ'), ('antitrust', 'JJ'), ('officials', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('Justice', 'NNP'), ('Department', 'NNP'), ('this', 'DT'), ('week', 'NN'), ('and', 'CC'), ('next', 'JJ'), (',', ','), ('some', 'DT'), ('to', 'TO'), ('defend', 'VB'), ('their', 'PRP$'), ('practices', 'NNS'), (',', ','), ('others', 'NNS'), ('to', 'TO'), ('provide', 'VB'), ('information', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   About/IN   a/DT   dozen/NN   companies/NNS   are/VBP   meeting/VBG   with/IN   top/JJ   antitrust/JJ   officials/NNS   at/IN   the/DT   (ORGANIZATION Justice/NNP Department/NNP)   this/DT   week/NN   and/CC   next/JJ   ,/,   some/DT   to/TO   defend/VB   their/PRP$   practices/NNS   ,/,   others/NNS   to/TO   provide/VB   information/NN   ./.)
+----------------------------------
+original sentence: 
+Antitrust experts say the Justice Department could argue that an agreement between competitors that holds down labor costs is as much a violation of antitrust laws as an agreement to fix prices.
+
+POS tagged sentence: 
+[('Antitrust', 'NNP'), ('experts', 'NNS'), ('say', 'VBP'), ('the', 'DT'), ('Justice', 'NNP'), ('Department', 'NNP'), ('could', 'MD'), ('argue', 'VB'), ('that', 'IN'), ('an', 'DT'), ('agreement', 'NN'), ('between', 'IN'), ('competitors', 'NNS'), ('that', 'WDT'), ('holds', 'VBZ'), ('down', 'RB'), ('labor', 'NN'), ('costs', 'NNS'), ('is', 'VBZ'), ('as', 'RB'), ('much', 'JJ'), ('a', 'DT'), ('violation', 'NN'), ('of', 'IN'), ('antitrust', 'JJ'), ('laws', 'NNS'), ('as', 'IN'), ('an', 'DT'), ('agreement', 'NN'), ('to', 'TO'), ('fix', 'VB'), ('prices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Antitrust/NNP   experts/NNS   say/VBP   the/DT   (ORGANIZATION Justice/NNP Department/NNP)   could/MD   argue/VB   that/IN   an/DT   agreement/NN   between/IN   competitors/NNS   that/WDT   holds/VBZ   down/RB   labor/NN   costs/NNS   is/VBZ   as/RB   much/JJ   a/DT   violation/NN   of/IN   antitrust/JJ   laws/NNS   as/IN   an/DT   agreement/NN   to/TO   fix/VB   prices/NNS   ./.)
+----------------------------------
+original sentence: 
+The Justice Department hasn't confirmed the existence of the investigation.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Justice', 'NNP'), ('Department', 'NNP'), ('has', 'VBZ'), ("n't", 'RB'), ('confirmed', 'VBN'), ('the', 'DT'), ('existence', 'NN'), ('of', 'IN'), ('the', 'DT'), ('investigation', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Justice/NNP Department/NNP)   has/VBZ   n't/RB   confirmed/VBN   the/DT   existence/NN   of/IN   the/DT   investigation/NN   ./.)
+----------------------------------
+original sentence: 
+Several companies said they have received requests for information on the way they hire employees.
+
+POS tagged sentence: 
+[('Several', 'JJ'), ('companies', 'NNS'), ('said', 'VBD'), ('they', 'PRP'), ('have', 'VBP'), ('received', 'VBN'), ('requests', 'NNS'), ('for', 'IN'), ('information', 'NN'), ('on', 'IN'), ('the', 'DT'), ('way', 'NN'), ('they', 'PRP'), ('hire', 'VBP'), ('employees', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Several/JJ   companies/NNS   said/VBD   they/PRP   have/VBP   received/VBN   requests/NNS   for/IN   information/NN   on/IN   the/DT   way/NN   they/PRP   hire/VBP   employees/NNS   ./.)
+----------------------------------
+original sentence: 
+Wi LAN Inc. Initiates Litigation Against Intel Corporation
+Thursday, 8 Apr 2010 07:46am EDT
+Wi LAN Inc. announced that it has commenced litigation in the U.S. District Court for the Eastern District of Texas, Marshall Division against Acer, Inc., Acer America Corporation, Apple, Inc., Atheros Communications, Inc., Belkin International, Inc., Broadcom Corporation, Dell, Inc., D Link Corporation, D Link Systems, Inc., Gateway, Inc., Hewlett Packard Company, Intel Corporation, Lenovo Group Ltd., Lenovo United States Inc., LG Electronics Mobilecomm U.S.A., Inc., LG Electronics, Inc., Marvell Semiconductor, Inc., Motorola, Inc., Personal Communications Devices, LLC, Sony Corporation, Sony Corporation of America, Sony Electronics, Inc., Sony Computer Entertainment America, Inc., Texas Instruments, Incorporated, Toshiba America, Inc., Toshiba America Information Systems, Inc., Toshiba Corporation, and UTStarcom, Inc.
+
+POS tagged sentence: 
+[('Wi', 'NNP'), ('LAN', 'NNP'), ('Inc.', 'NNP'), ('Initiates', 'NNP'), ('Litigation', 'NNP'), ('Against', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('8', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('46am', 'CD'), ('EDT', 'NNP'), ('Wi', 'NNP'), ('LAN', 'NNP'), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('commenced', 'VBN'), ('litigation', 'NN'), ('in', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('District', 'NNP'), ('Court', 'NNP'), ('for', 'IN'), ('the', 'DT'), ('Eastern', 'NNP'), ('District', 'NNP'), ('of', 'IN'), ('Texas', 'NNP'), (',', ','), ('Marshall', 'NNP'), ('Division', 'NNP'), ('against', 'IN'), ('Acer', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Acer', 'NNP'), ('America', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Apple', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Atheros', 'NNP'), ('Communications', 'NNPS'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Belkin', 'NNP'), ('International', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Broadcom', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Dell', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('D', 'NNP'), ('Link', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('D', 'NNP'), ('Link', 'NNP'), ('Systems', 'NNPS'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Gateway', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('Company', 'NNP'), (',', ','), ('Intel', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Lenovo', 'NNP'), ('Group', 'NNP'), ('Ltd.', 'NNP'), (',', ','), ('Lenovo', 'NNP'), ('United', 'NNP'), ('States', 'NNPS'), ('Inc.', 'NNP'), (',', ','), ('LG', 'NNP'), ('Electronics', 'NNP'), ('Mobilecomm', 'NNP'), ('U.S.A.', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('LG', 'NNP'), ('Electronics', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Marvell', 'NNP'), ('Semiconductor', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Motorola', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Personal', 'NNP'), ('Communications', 'NNPS'), ('Devices', 'NNP'), (',', ','), ('LLC', 'NNP'), (',', ','), ('Sony', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('Sony', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('America', 'NNP'), (',', ','), ('Sony', 'NNP'), ('Electronics', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Sony', 'NNP'), ('Computer', 'NNP'), ('Entertainment', 'NNP'), ('America', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Texas', 'NNP'), ('Instruments', 'NNP'), (',', ','), ('Incorporated', 'NNP'), (',', ','), ('Toshiba', 'NNP'), ('America', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Toshiba', 'NNP'), ('America', 'NNP'), ('Information', 'NNP'), ('Systems', 'NNPS'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('Toshiba', 'NNP'), ('Corporation', 'NNP'), (',', ','), ('and', 'CC'), ('UTStarcom', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Wi/NNP   (ORGANIZATION LAN/NNP Inc./NNP)   Initiates/NNP   Litigation/NNP   Against/NNP   Intel/NNP   Corporation/NNP   Thursday/NNP   ,/,   8/CD   Apr/NNP   2010/CD   07/CD   :/:   46am/CD   (ORGANIZATION EDT/NNP Wi/NNP)   (ORGANIZATION LAN/NNP Inc./NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   commenced/VBN   litigation/NN   in/IN   the/DT   (GPE U.S./NNP)   (ORGANIZATION District/NNP Court/NNP)   for/IN   the/DT   (LOCATION Eastern/NNP District/NNP)   of/IN   (GPE Texas/NNP)   ,/,   (PERSON Marshall/NNP Division/NNP)   against/IN   (GPE Acer/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Acer/NNP America/NNP Corporation/NNP)   ,/,   (PERSON Apple/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION Atheros/NNP Communications/NNPS)   ,/,   Inc./NNP   ,/,   (PERSON Belkin/NNP International/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Broadcom/NNP Corporation/NNP)   ,/,   (ORGANIZATION Dell/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION D/NNP Link/NNP Corporation/NNP)   ,/,   (ORGANIZATION D/NNP Link/NNP Systems/NNPS)   ,/,   Inc./NNP   ,/,   (PERSON Gateway/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Hewlett/NNP Packard/NNP Company/NNP)   ,/,   (ORGANIZATION Intel/NNP Corporation/NNP)   ,/,   (PERSON Lenovo/NNP Group/NNP)   Ltd./NNP   ,/,   (PERSON Lenovo/NNP United/NNP)   (PERSON States/NNPS Inc./NNP)   ,/,   (ORGANIZATION LG/NNP Electronics/NNP Mobilecomm/NNP U.S.A./NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION LG/NNP Electronics/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Marvell/NNP Semiconductor/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION Motorola/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION Personal/NNP Communications/NNPS Devices/NNP)   ,/,   (ORGANIZATION LLC/NNP)   ,/,   (PERSON Sony/NNP Corporation/NNP)   ,/,   (PERSON Sony/NNP Corporation/NNP)   of/IN   (GPE America/NNP)   ,/,   (PERSON Sony/NNP Electronics/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Sony/NNP Computer/NNP Entertainment/NNP America/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Texas/NNP Instruments/NNP)   ,/,   (GPE Incorporated/NNP)   ,/,   (PERSON Toshiba/NNP America/NNP)   ,/,   Inc./NNP   ,/,   (PERSON Toshiba/NNP America/NNP)   Information/NNP   Systems/NNPS   ,/,   Inc./NNP   ,/,   (PERSON Toshiba/NNP Corporation/NNP)   ,/,   and/CC   (ORGANIZATION UTStarcom/NNP)   ,/,   (PERSON Inc/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   has/VBZ   commenced/VBN   litigation/NN   in/IN   the/DT   U.S./NNP   District/NNP   Court/NNP   for/IN   the/DT   Eastern/NNP   District/NNP   of/IN   Texas/NNP)
+noun phrases to consider:
+	(NOUN Wi/NNP LAN/NNP Inc./NNP Initiates/NNP)
+	(NOUN Litigation/NNP Against/NNP Intel/NNP Corporation/NNP)
+
+tagged sentence:
+	 Litigation Against Intel Corporation	res:-1
+	(NOUN Thursday/NNP)
+	(NOUN 8/CD Apr/NNP)
+	(NOUN 46am/CD EDT/NNP Wi/NNP LAN/NNP Inc./NNP)
+	(NOUN Marshall/NNP Division/NNP)
+	(NOUN Acer/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Acer/NNP America/NNP Corporation/NNP)
+	(NOUN Apple/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Atheros/NNP Communications/NNPS)
+	(NOUN Inc./NNP)
+	(NOUN Belkin/NNP International/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Broadcom/NNP Corporation/NNP)
+	(NOUN Dell/NNP)
+	(NOUN Inc./NNP)
+	(NOUN D/NNP Link/NNP Corporation/NNP)
+	(NOUN D/NNP Link/NNP Systems/NNPS)
+	(NOUN Inc./NNP)
+	(NOUN Gateway/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Hewlett/NNP Packard/NNP Company/NNP)
+	(NOUN Intel/NNP Corporation/NNP)
+	(NOUN Lenovo/NNP Group/NNP Ltd./NNP)
+	(NOUN Lenovo/NNP United/NNP States/NNPS Inc./NNP)
+	(NOUN LG/NNP Electronics/NNP Mobilecomm/NNP U.S.A./NNP)
+	(NOUN Inc./NNP)
+	(NOUN LG/NNP Electronics/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Marvell/NNP Semiconductor/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Motorola/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Personal/NNP Communications/NNPS Devices/NNP)
+	(NOUN LLC/NNP)
+	(NOUN Sony/NNP Corporation/NNP)
+	(NOUN Sony/NNP Corporation/NNP)
+	(NOUN America/NNP)
+	(NOUN Sony/NNP Electronics/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Sony/NNP Computer/NNP Entertainment/NNP America/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Texas/NNP Instruments/NNP)
+	(NOUN Incorporated/NNP)
+	(NOUN Toshiba/NNP America/NNP)
+	(NOUN Inc./NNP)
+	(NOUN Toshiba/NNP America/NNP Information/NNP Systems/NNPS)
+	(NOUN Inc./NNP)
+	(NOUN Toshiba/NNP Corporation/NNP)
+	(NOUN UTStarcom/NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+In its filing, WiLAN claims that these companies have infringed and continue to infringe WiLAN's U.S. Patent No.
+
+POS tagged sentence: 
+[('In', 'IN'), ('its', 'PRP$'), ('filing', 'NN'), (',', ','), ('WiLAN', 'NNP'), ('claims', 'VBZ'), ('that', 'IN'), ('these', 'DT'), ('companies', 'NNS'), ('have', 'VBP'), ('infringed', 'VBN'), ('and', 'CC'), ('continue', 'VB'), ('to', 'TO'), ('infringe', 'VB'), ('WiLAN', 'NNP'), ("'s", 'POS'), ('U.S.', 'NNP'), ('Patent', 'NNP'), ('No', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   its/PRP$   filing/NN   ,/,   (ORGANIZATION WiLAN/NNP)   claims/VBZ   that/IN   these/DT   companies/NNS   have/VBP   infringed/VBN   and/CC   continue/VB   to/TO   infringe/VB   (ORGANIZATION WiLAN/NNP)   's/POS   (GPE U.S./NNP)   Patent/NNP   No/NNP   ./.)
+----------------------------------
+original sentence: 
+5,515,369 by making and/or selling various products enabled with Bluetooth technology including cellular handsets and personal notebook computers.
+
+POS tagged sentence: 
+[('5,515,369', 'CD'), ('by', 'IN'), ('making', 'NN'), ('and/or', 'JJ'), ('selling', 'NN'), ('various', 'JJ'), ('products', 'NNS'), ('enabled', 'VBN'), ('with', 'IN'), ('Bluetooth', 'NNP'), ('technology', 'NN'), ('including', 'VBG'), ('cellular', 'NN'), ('handsets', 'NNS'), ('and', 'CC'), ('personal', 'JJ'), ('notebook', 'NN'), ('computers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   5,515,369/CD   by/IN   making/NN   and/or/JJ   selling/NN   various/JJ   products/NNS   enabled/VBN   with/IN   (PERSON Bluetooth/NNP)   technology/NN   including/VBG   cellular/NN   handsets/NNS   and/CC   personal/JJ   notebook/NN   computers/NNS   ./.)
+----------------------------------
+original sentence: 
+WiLAN will be represented in this action by McKool Smith PC.
+
+POS tagged sentence: 
+[('WiLAN', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('represented', 'VBN'), ('in', 'IN'), ('this', 'DT'), ('action', 'NN'), ('by', 'IN'), ('McKool', 'NNP'), ('Smith', 'NNP'), ('PC', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON WiLAN/NNP)   will/MD   be/VB   represented/VBN   in/IN   this/DT   action/NN   by/IN   (ORGANIZATION McKool/NNP Smith/NNP)   PC/NNP   ./.)
+----------------------------------
+original sentence: 
+KT Corporation And Intel Corporation Sign Memorandum Of Understanding On WiMAX Technology DJ
+Thursday, 25 Mar 2010 09:40pm EDT
+Dow Jones reported that KT Corporation said it signed a memorandum of understanding with Intel Corporation on a long range wireless internet access technology called WiMAX.
+
+POS tagged sentence: 
+[('KT', 'NN'), ('Corporation', 'NN'), ('And', 'CC'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('Sign', 'NNP'), ('Memorandum', 'NNP'), ('Of', 'NNP'), ('Understanding', 'NNP'), ('On', 'NNP'), ('WiMAX', 'NNP'), ('Technology', 'NNP'), ('DJ', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('25', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('40pm', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('KT', 'NNP'), ('Corporation', 'NNP'), ('said', 'VBD'), ('it', 'PRP'), ('signed', 'VBD'), ('a', 'DT'), ('memorandum', 'NN'), ('of', 'IN'), ('understanding', 'NN'), ('with', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('on', 'IN'), ('a', 'DT'), ('long', 'JJ'), ('range', 'NN'), ('wireless', 'NN'), ('internet', 'NN'), ('access', 'NN'), ('technology', 'NN'), ('called', 'VBN'), ('WiMAX', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   KT/NN   Corporation/NN   And/CC   (ORGANIZATION     Intel/NNP     Corporation/NNP     Sign/NNP     Memorandum/NNP     Of/NNP     Understanding/NNP)   On/NNP   WiMAX/NNP   Technology/NNP   DJ/NNP   Thursday/NNP   ,/,   25/CD   Mar/NNP   2010/CD   09/CD   :/:   40pm/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (ORGANIZATION KT/NNP Corporation/NNP)   said/VBD   it/PRP   signed/VBD   a/DT   memorandum/NN   of/IN   understanding/NN   with/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   on/IN   a/DT   long/JJ   range/NN   wireless/NN   internet/NN   access/NN   technology/NN   called/VBN   (ORGANIZATION WiMAX/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN KT/NNP Corporation/NNP)
+	(VERB said/VBD it/PRP)
+	(VERB   signed/VBD   a/DT   memorandum/NN   of/IN   understanding/NN   with/IN   Intel/NNP   Corporation/NNP   on/IN   a/DT   long/JJ   range/NN   wireless/NN   internet/NN   access/NN   technology/NN)
+
+tagged sentence:
+	 signed a memorandum of understanding with Intel Corporation on a long range wireless internet access technology	res:2
+	(VERB called/VBN WiMAX/NNP)
+noun phrases to consider:
+	(NOUN KT/NN Corporation/NN)
+	(NOUN Intel/NNP Corporation/NNP Sign/NNP Memorandum/NNP)
+
+tagged sentence:
+	 Intel Corporation Sign Memorandum	res:2
+	(NOUN Of/NNP Understanding/NNP On/NNP WiMAX/NNP)
+	(NOUN Technology/NNP DJ/NNP Thursday/NNP)
+	(NOUN 25/CD Mar/NNP)
+	(NOUN 40pm/CD EDT/NNP Dow/NNP Jones/NNP)
+
+----------------------------------
+original sentence: 
+KT Corporation said it plans to establish a domestic network that will be compatible with Intel Corporation's chips with built in WiMAX support.
+
+POS tagged sentence: 
+[('KT', 'NN'), ('Corporation', 'NN'), ('said', 'VBD'), ('it', 'PRP'), ('plans', 'VBZ'), ('to', 'TO'), ('establish', 'VB'), ('a', 'DT'), ('domestic', 'JJ'), ('network', 'NN'), ('that', 'WDT'), ('will', 'MD'), ('be', 'VB'), ('compatible', 'JJ'), ('with', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('chips', 'NNS'), ('with', 'IN'), ('built', 'NN'), ('in', 'IN'), ('WiMAX', 'NNP'), ('support', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   KT/NN   (PERSON Corporation/NN)   said/VBD   it/PRP   plans/VBZ   to/TO   establish/VB   a/DT   domestic/JJ   network/NN   that/WDT   will/MD   be/VB   compatible/JJ   with/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   's/POS   chips/NNS   with/IN   built/NN   in/IN   (GPE WiMAX/NNP)   support/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD it/PRP)
+	(VERB plans/VBZ to/TO establish/VB a/DT domestic/JJ network/NN)
+	(VERB be/VB compatible/JJ with/IN Intel/NNP Corporation/NNP)
+noun phrases to consider:
+	(NOUN KT/NN Corporation/NN)
+	(NOUN chips/NNS)
+	(NOUN built/NN)
+	(NOUN WiMAX/NNP support/NN)
+
+----------------------------------
+original sentence: 
+Consumers using netbook or notebook computers with such chips would be able to access WiMAX networks without having to purchase a separate modem, which KT Corporation said will boost usage of WiMAX technology.
+
+POS tagged sentence: 
+[('Consumers', 'NNS'), ('using', 'VBG'), ('netbook', 'NN'), ('or', 'CC'), ('notebook', 'NN'), ('computers', 'NNS'), ('with', 'IN'), ('such', 'JJ'), ('chips', 'NNS'), ('would', 'MD'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('access', 'NN'), ('WiMAX', 'NNP'), ('networks', 'VBZ'), ('without', 'IN'), ('having', 'VBG'), ('to', 'TO'), ('purchase', 'VB'), ('a', 'DT'), ('separate', 'JJ'), ('modem', 'NN'), (',', ','), ('which', 'WDT'), ('KT', 'NNP'), ('Corporation', 'NNP'), ('said', 'VBD'), ('will', 'MD'), ('boost', 'VB'), ('usage', 'NN'), ('of', 'IN'), ('WiMAX', 'NNP'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Consumers/NNS   using/VBG   netbook/NN   or/CC   notebook/NN   computers/NNS   with/IN   such/JJ   chips/NNS   would/MD   be/VB   able/JJ   to/TO   access/NN   (ORGANIZATION WiMAX/NNP)   networks/VBZ   without/IN   having/VBG   to/TO   purchase/VB   a/DT   separate/JJ   modem/NN   ,/,   which/WDT   (ORGANIZATION KT/NNP Corporation/NNP)   said/VBD   will/MD   boost/VB   usage/NN   of/IN   (ORGANIZATION WiMAX/NNP)   technology/NN   ./.)
+----------------------------------
+original sentence: 
+KT Corporation also said that it is in talks with Intel Corporation to jointly enter markets abroad with aims to spread the usage of WiMAX technology.
+
+POS tagged sentence: 
+[('KT', 'NN'), ('Corporation', 'NN'), ('also', 'RB'), ('said', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('is', 'VBZ'), ('in', 'IN'), ('talks', 'NNS'), ('with', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('to', 'TO'), ('jointly', 'RB'), ('enter', 'JJR'), ('markets', 'NNS'), ('abroad', 'RB'), ('with', 'IN'), ('aims', 'NNS'), ('to', 'TO'), ('spread', 'VB'), ('the', 'DT'), ('usage', 'NN'), ('of', 'IN'), ('WiMAX', 'NNP'), ('technology', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   KT/NN   (ORGANIZATION Corporation/NN)   also/RB   said/VBD   that/IN   it/PRP   is/VBZ   in/IN   talks/NNS   with/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   to/TO   jointly/RB   enter/JJR   markets/NNS   abroad/RB   with/IN   aims/NNS   to/TO   spread/VB   the/DT   usage/NN   of/IN   (ORGANIZATION WiMAX/NNP)   technology/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN it/PRP)
+	(VERB is/VBZ in/IN talks/NNS with/IN Intel/NNP Corporation/NNP)
+	(VERB spread/VB the/DT usage/NN of/IN WiMAX/NNP technology/NN)
+noun phrases to consider:
+	(NOUN KT/NN Corporation/NN)
+	(NOUN jointly/RB enter/JJR markets/NNS)
+	(NOUN aims/NNS)
+
+----------------------------------
+original sentence: 
+Intel Corporation's Intel Capital Invests $23 Million In Three Firms DJ
+Thursday, 25 Mar 2010 03:28am EDT
+Dow Jones reported that Intel Capital, a unit of U.S. chip maker Intel Corp. has invested $23 million in three Indian firms.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ("'s", 'POS'), ('Intel', 'NNP'), ('Capital', 'NNP'), ('Invests', 'NNPS'), ('$', '$'), ('23', 'CD'), ('Million', 'CD'), ('In', 'IN'), ('Three', 'CD'), ('Firms', 'NNS'), ('DJ', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('25', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('03', 'CD'), (':', ':'), ('28am', 'CD'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Intel', 'NNP'), ('Capital', 'NNP'), (',', ','), ('a', 'DT'), ('unit', 'NN'), ('of', 'IN'), ('U.S.', 'NNP'), ('chip', 'NN'), ('maker', 'NN'), ('Intel', 'NNP'), ('Corp.', 'NNP'), ('has', 'VBZ'), ('invested', 'VBN'), ('$', '$'), ('23', 'CD'), ('million', 'CD'), ('in', 'IN'), ('three', 'CD'), ('Indian', 'JJ'), ('firms', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP)   's/POS   (ORGANIZATION Intel/NNP Capital/NNP)   Invests/NNPS   $/$   23/CD   Million/CD   In/IN   Three/CD   Firms/NNS   DJ/NNP   Thursday/NNP   ,/,   25/CD   Mar/NNP   2010/CD   03/CD   :/:   28am/CD   (ORGANIZATION EDT/NNP Dow/NNP Jones/NNP)   reported/VBD   that/IN   (ORGANIZATION Intel/NNP Capital/NNP)   ,/,   a/DT   unit/NN   of/IN   (GPE U.S./NNP)   chip/NN   maker/NN   (ORGANIZATION Intel/NNP Corp./NNP)   has/VBZ   invested/VBN   $/$   23/CD   million/CD   in/IN   three/CD   (GPE Indian/JJ)   firms/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Intel/NNP Capital/NNP)
+	(VERB has/VBZ invested/VBN)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP)
+	(NOUN Intel/NNP Capital/NNP Invests/NNPS)
+	(NOUN Three/CD Firms/NNS DJ/NNP Thursday/NNP)
+	(NOUN 25/CD Mar/NNP)
+	(NOUN 28am/CD EDT/NNP Dow/NNP Jones/NNP)
+	(NOUN unit/NN)
+	(NOUN U.S./NNP chip/NN maker/NN Intel/NNP)
+	(NOUN Corp./NNP)
+	(NOUN three/CD Indian/JJ firms/NNS)
+
+----------------------------------
+original sentence: 
+Intel Capital has invested in July Systems, KLG Systel and Multi Commodity Exchange.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Capital', 'NNP'), ('has', 'VBZ'), ('invested', 'VBN'), ('in', 'IN'), ('July', 'NNP'), ('Systems', 'NNPS'), (',', ','), ('KLG', 'NNP'), ('Systel', 'NNP'), ('and', 'CC'), ('Multi', 'NNP'), ('Commodity', 'NNP'), ('Exchange', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP)   (ORGANIZATION Capital/NNP)   has/VBZ   invested/VBN   in/IN   July/NNP   Systems/NNPS   ,/,   (ORGANIZATION KLG/NNP Systel/NNP)   and/CC   (PERSON Multi/NNP Commodity/NNP Exchange/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ invested/VBN in/IN July/NNP Systems/NNPS)
+noun phrases to consider:
+	(NOUN Intel/NNP Capital/NNP)
+	(NOUN KLG/NNP Systel/NNP)
+	(NOUN Multi/NNP Commodity/NNP Exchange/NNP)
+
+----------------------------------
+original sentence: 
+The Company will fund the investments through its $250 million Intel Capital India Technology Fund.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('will', 'MD'), ('fund', 'VB'), ('the', 'DT'), ('investments', 'NNS'), ('through', 'IN'), ('its', 'PRP$'), ('$', '$'), ('250', 'CD'), ('million', 'CD'), ('Intel', 'NNP'), ('Capital', 'NNP'), ('India', 'NNP'), ('Technology', 'NNP'), ('Fund', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   will/MD   fund/VB   the/DT   investments/NNS   through/IN   its/PRP$   $/$   250/CD   million/CD   (ORGANIZATION     Intel/NNP     Capital/NNP     India/NNP     Technology/NNP     Fund/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB fund/VB the/DT investments/NNS through/IN its/PRP$)
+noun phrases to consider:
+	(NOUN Company/NNP)
+	(NOUN million/CD Intel/NNP Capital/NNP India/NNP Technology/NNP)
+	(NOUN Fund/NNP)
+
+----------------------------------
+original sentence: 
+Intel Corporation Declares Quarterly Cash Dividend
+Friday, 19 Mar 2010 09:00am EDT
+Intel Corporation announced that it has declared a $0.1575 per share quarterly dividend on the Company's common stock.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('Declares', 'NNP'), ('Quarterly', 'NNP'), ('Cash', 'NNP'), ('Dividend', 'NNP'), ('Friday', 'NNP'), (',', ','), ('19', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('00am', 'CD'), ('EDT', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('declared', 'VBN'), ('a', 'DT'), ('$', '$'), ('0.1575', 'CD'), ('per', 'IN'), ('share', 'NN'), ('quarterly', 'RB'), ('dividend', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('common', 'JJ'), ('stock', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP Declares/NNP)   Quarterly/NNP   Cash/NNP   Dividend/NNP   Friday/NNP   ,/,   19/CD   Mar/NNP   2010/CD   09/CD   :/:   00am/CD   (ORGANIZATION EDT/NNP Intel/NNP Corporation/NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   declared/VBN   a/DT   $/$   0.1575/CD   per/IN   share/NN   quarterly/RB   dividend/NN   on/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   common/JJ   stock/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB has/VBZ declared/VBN a/DT)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP Declares/NNP Quarterly/NNP)
+	(NOUN Cash/NNP Dividend/NNP Friday/NNP)
+	(NOUN 19/CD Mar/NNP)
+	(NOUN 00am/CD EDT/NNP Intel/NNP Corporation/NNP)
+	(NOUN share/NN)
+	(NOUN dividend/NN)
+	(NOUN Company/NNP)
+	(NOUN common/JJ stock/NN)
+
+----------------------------------
+original sentence: 
+The dividend will be payable on June 1, 2010 to stockholders of record on May 7, 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('dividend', 'NN'), ('will', 'MD'), ('be', 'VB'), ('payable', 'JJ'), ('on', 'IN'), ('June', 'NNP'), ('1', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('stockholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('on', 'IN'), ('May', 'NNP'), ('7', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   dividend/NN   will/MD   be/VB   payable/JJ   on/IN   June/NNP   1/CD   ,/,   2010/CD   to/TO   stockholders/NNS   of/IN   record/NN   on/IN   May/NNP   7/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Google Inc. Working With Intel Corporation And Sony Corporation On TV Project Reuters
+Wednesday, 17 Mar 2010 09:13pm EDT
+Reuters reported that Google Inc. is working with Intel Corporation and Sony Corporation to develop a new class of Internet enabled televisions and set top boxes, according to a media report.
+
+POS tagged sentence: 
+[('Google', 'NNP'), ('Inc.', 'NNP'), ('Working', 'NNP'), ('With', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('And', 'CC'), ('Sony', 'NNP'), ('Corporation', 'NNP'), ('On', 'NNP'), ('TV', 'NNP'), ('Project', 'NNP'), ('Reuters', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('17', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('09', 'CD'), (':', ':'), ('13pm', 'CD'), ('EDT', 'NNP'), ('Reuters', 'NNP'), ('reported', 'VBD'), ('that', 'IN'), ('Google', 'NNP'), ('Inc.', 'NNP'), ('is', 'VBZ'), ('working', 'VBG'), ('with', 'IN'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('and', 'CC'), ('Sony', 'NNP'), ('Corporation', 'NNP'), ('to', 'TO'), ('develop', 'VB'), ('a', 'DT'), ('new', 'JJ'), ('class', 'NN'), ('of', 'IN'), ('Internet', 'NNP'), ('enabled', 'VBD'), ('televisions', 'NNS'), ('and', 'CC'), ('set', 'VB'), ('top', 'JJ'), ('boxes', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('media', 'NNS'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Google/NNP)   (ORGANIZATION Inc./NNP)   Working/NNP   With/NNP   (ORGANIZATION     Intel/NNP     Corporation/NNP     And/CC     Sony/NNP     Corporation/NNP)   On/NNP   TV/NNP   Project/NNP   Reuters/NNP   Wednesday/NNP   ,/,   17/CD   Mar/NNP   2010/CD   09/CD   :/:   13pm/CD   (ORGANIZATION EDT/NNP Reuters/NNP)   reported/VBD   that/IN   (PERSON Google/NNP Inc./NNP)   is/VBZ   working/VBG   with/IN   (ORGANIZATION Intel/NNP Corporation/NNP)   and/CC   (PERSON Sony/NNP Corporation/NNP)   to/TO   develop/VB   a/DT   new/JJ   class/NN   of/IN   Internet/NNP   enabled/VBD   televisions/NNS   and/CC   set/VB   top/JJ   boxes/NNS   ,/,   according/VBG   to/TO   a/DT   media/NNS   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB reported/VBD that/IN Google/NNP Inc./NNP)
+	(VERB is/VBZ working/VBG with/IN Intel/NNP Corporation/NNP)
+	(VERB develop/VB a/DT new/JJ class/NN of/IN Internet/NNP)
+	(VERB enabled/VBD televisions/NNS)
+	(VERB set/VB top/JJ boxes/NNS)
+	(VERB according/VBG to/TO a/DT media/NNS report/NN)
+noun phrases to consider:
+	(NOUN Google/NNP Inc./NNP Working/NNP With/NNP)
+	(NOUN Intel/NNP Corporation/NNP)
+	(NOUN Sony/NNP Corporation/NNP On/NNP TV/NNP)
+	(NOUN Project/NNP Reuters/NNP Wednesday/NNP)
+	(NOUN 17/CD Mar/NNP)
+	(NOUN 13pm/CD EDT/NNP Reuters/NNP)
+	(NOUN Sony/NNP Corporation/NNP)
+
+----------------------------------
+original sentence: 
+The effort, known as Google TV, has been under way for several months and is based on Google Inc.'s Android software which is currently available in certain smartphones, according to a report in the New York Times citing people with knowledge of the project.
+
+POS tagged sentence: 
+[('The', 'DT'), ('effort', 'NN'), (',', ','), ('known', 'VBN'), ('as', 'IN'), ('Google', 'NNP'), ('TV', 'NNP'), (',', ','), ('has', 'VBZ'), ('been', 'VBN'), ('under', 'IN'), ('way', 'NN'), ('for', 'IN'), ('several', 'JJ'), ('months', 'NNS'), ('and', 'CC'), ('is', 'VBZ'), ('based', 'VBN'), ('on', 'IN'), ('Google', 'NNP'), ('Inc.', 'NNP'), ("'s", 'POS'), ('Android', 'NNP'), ('software', 'NN'), ('which', 'WDT'), ('is', 'VBZ'), ('currently', 'RB'), ('available', 'JJ'), ('in', 'IN'), ('certain', 'JJ'), ('smartphones', 'NNS'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('a', 'DT'), ('report', 'NN'), ('in', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('York', 'NNP'), ('Times', 'NNP'), ('citing', 'NN'), ('people', 'NNS'), ('with', 'IN'), ('knowledge', 'NN'), ('of', 'IN'), ('the', 'DT'), ('project', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   effort/NN   ,/,   known/VBN   as/IN   (PERSON Google/NNP TV/NNP)   ,/,   has/VBZ   been/VBN   under/IN   way/NN   for/IN   several/JJ   months/NNS   and/CC   is/VBZ   based/VBN   on/IN   (ORGANIZATION Google/NNP Inc./NNP)   's/POS   (PERSON Android/NNP)   software/NN   which/WDT   is/VBZ   currently/RB   available/JJ   in/IN   certain/JJ   smartphones/NNS   ,/,   according/VBG   to/TO   a/DT   report/NN   in/IN   the/DT   (GPE New/NNP York/NNP Times/NNP)   citing/NN   people/NNS   with/IN   knowledge/NN   of/IN   the/DT   project/NN   ./.)
+----------------------------------
+original sentence: 
+Logitech International is also involved and is developing peripheral devices, such as a tiny keyboard.
+
+POS tagged sentence: 
+[('Logitech', 'NNP'), ('International', 'NNP'), ('is', 'VBZ'), ('also', 'RB'), ('involved', 'VBN'), ('and', 'CC'), ('is', 'VBZ'), ('developing', 'VBG'), ('peripheral', 'JJ'), ('devices', 'NNS'), (',', ','), ('such', 'JJ'), ('as', 'IN'), ('a', 'DT'), ('tiny', 'NN'), ('keyboard', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Logitech/NNP)   (ORGANIZATION International/NNP)   is/VBZ   also/RB   involved/VBN   and/CC   is/VBZ   developing/VBG   peripheral/JJ   devices/NNS   ,/,   such/JJ   as/IN   a/DT   tiny/NN   keyboard/NN   ./.)
+----------------------------------
+original sentence: 
+According to the report, the partners hope to make it easy for consumers to use Web applications like Twitter on their TVs and to entice software developers to create new applications to run on Google TV.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('report', 'NN'), (',', ','), ('the', 'DT'), ('partners', 'NNS'), ('hope', 'VBP'), ('to', 'TO'), ('make', 'VB'), ('it', 'PRP'), ('easy', 'JJ'), ('for', 'IN'), ('consumers', 'NNS'), ('to', 'TO'), ('use', 'VB'), ('Web', 'NNP'), ('applications', 'NNS'), ('like', 'IN'), ('Twitter', 'NNP'), ('on', 'IN'), ('their', 'PRP$'), ('TVs', 'NNP'), ('and', 'CC'), ('to', 'TO'), ('entice', 'VB'), ('software', 'NN'), ('developers', 'NNS'), ('to', 'TO'), ('create', 'VB'), ('new', 'JJ'), ('applications', 'NNS'), ('to', 'TO'), ('run', 'VB'), ('on', 'IN'), ('Google', 'NNP'), ('TV', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   the/DT   report/NN   ,/,   the/DT   partners/NNS   hope/VBP   to/TO   make/VB   it/PRP   easy/JJ   for/IN   consumers/NNS   to/TO   use/VB   Web/NNP   applications/NNS   like/IN   (PERSON Twitter/NNP)   on/IN   their/PRP$   (ORGANIZATION TVs/NNP)   and/CC   to/TO   entice/VB   software/NN   developers/NNS   to/TO   create/VB   new/JJ   applications/NNS   to/TO   run/VB   on/IN   (PERSON Google/NNP TV/NNP)   ./.)
+----------------------------------
+original sentence: 
+Intel Corporation Launches Most Secure Data Center Processor
+Tuesday, 16 Mar 2010 03:01am EDT
+Intel Corporation announced that it has launched the Intel Xeon Processor 5600 series.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('Launches', 'NNP'), ('Most', 'NNP'), ('Secure', 'NNP'), ('Data', 'NNP'), ('Center', 'NNP'), ('Processor', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('16', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('03', 'CD'), (':', ':'), ('01am', 'CD'), ('EDT', 'NNP'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('launched', 'VBN'), ('the', 'DT'), ('Intel', 'NNP'), ('Xeon', 'NNP'), ('Processor', 'NNP'), ('5600', 'CD'), ('series', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP Launches/NNP Most/NNP)   Secure/NNP   Data/NNP   Center/NNP   Processor/NNP   Tuesday/NNP   ,/,   16/CD   Mar/NNP   2010/CD   03/CD   :/:   01am/CD   (ORGANIZATION EDT/NNP Intel/NNP Corporation/NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   launched/VBN   the/DT   (ORGANIZATION Intel/NNP Xeon/NNP)   Processor/NNP   5600/CD   series/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   has/VBZ   launched/VBN   the/DT   Intel/NNP   Xeon/NNP   Processor/NNP   5600/CD   series/NNS)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP Launches/NNP Most/NNP)
+	(NOUN Secure/NNP Data/NNP Center/NNP Processor/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN 16/CD Mar/NNP)
+	(NOUN 01am/CD EDT/NNP Intel/NNP Corporation/NNP)
+
+----------------------------------
+original sentence: 
+The new processors deliver two new security features Intel Advanced Encryption Standard New Instructions Intel AES NI , and Intel Trusted Execution Technology Intel TXT that enable faster encryption and decryption performance for more secure transactions and virtualized environments, providing data centers with a stronger foundation for cloud security.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('processors', 'NNS'), ('deliver', 'VBP'), ('two', 'CD'), ('new', 'JJ'), ('security', 'NN'), ('features', 'NNS'), ('Intel', 'NNP'), ('Advanced', 'NNP'), ('Encryption', 'NNP'), ('Standard', 'NNP'), ('New', 'NNP'), ('Instructions', 'NNP'), ('Intel', 'NNP'), ('AES', 'NNP'), ('NI', 'NNP'), (',', ','), ('and', 'CC'), ('Intel', 'NNP'), ('Trusted', 'NNP'), ('Execution', 'NNP'), ('Technology', 'NNP'), ('Intel', 'NNP'), ('TXT', 'NNP'), ('that', 'IN'), ('enable', 'JJ'), ('faster', 'NN'), ('encryption', 'NN'), ('and', 'CC'), ('decryption', 'NN'), ('performance', 'NN'), ('for', 'IN'), ('more', 'JJR'), ('secure', 'NN'), ('transactions', 'NNS'), ('and', 'CC'), ('virtualized', 'VBD'), ('environments', 'NNS'), (',', ','), ('providing', 'VBG'), ('data', 'NNS'), ('centers', 'NNS'), ('with', 'IN'), ('a', 'DT'), ('stronger', 'JJR'), ('foundation', 'NN'), ('for', 'IN'), ('cloud', 'NN'), ('security', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   processors/NNS   deliver/VBP   two/CD   new/JJ   security/NN   features/NNS   (ORGANIZATION     Intel/NNP     Advanced/NNP     Encryption/NNP     Standard/NNP     New/NNP     Instructions/NNP     Intel/NNP)   AES/NNP   NI/NNP   ,/,   and/CC   (ORGANIZATION Intel/NNP Trusted/NNP)   Execution/NNP   Technology/NNP   Intel/NNP   TXT/NNP   that/IN   enable/JJ   faster/NN   encryption/NN   and/CC   decryption/NN   performance/NN   for/IN   more/JJR   secure/NN   transactions/NNS   and/CC   virtualized/VBD   environments/NNS   ,/,   providing/VBG   data/NNS   centers/NNS   with/IN   a/DT   stronger/JJR   foundation/NN   for/IN   cloud/NN   security/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   deliver/VBP   two/CD   new/JJ   security/NN   features/NNS   Intel/NNP   Advanced/NNP   Encryption/NNP   Standard/NNP   New/NNP   Instructions/NNP   Intel/NNP   AES/NNP   NI/NNP)
+
+tagged sentence:
+	 deliver two new security features Intel Advanced Encryption Standard New Instructions Intel AES NI	res:1
+	(VERB virtualized/VBD environments/NNS)
+	(VERB   providing/VBG   data/NNS   centers/NNS   with/IN   a/DT   stronger/JJR   foundation/NN   for/IN   cloud/NN   security/NN)
+
+tagged sentence:
+	 providing data centers with a stronger foundation for cloud security	res:1
+noun phrases to consider:
+	(NOUN The/DT new/JJ processors/NNS)
+	(NOUN Intel/NNP Trusted/NNP Execution/NNP Technology/NNP)
+	(NOUN Intel/NNP TXT/NNP)
+	(NOUN enable/JJ faster/NN encryption/NN)
+
+tagged sentence:
+	 enable faster encryption	res:1
+	(NOUN decryption/NN performance/NN)
+	(NOUN more/JJR secure/NN transactions/NNS)
+
+----------------------------------
+original sentence: 
+Intel Corporation Expands Intel Atom Processor Based Platform To Home, Small Office Storage Devices
+Thursday, 4 Mar 2010 06:00am EST
+Intel Corporation announced that it has launched its first Intel Atom processor based platform optimized for networked home and small office/home office SOHO storage devices.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('Expands', 'NNPS'), ('Intel', 'NNP'), ('Atom', 'NNP'), ('Processor', 'NNP'), ('Based', 'NNP'), ('Platform', 'NNP'), ('To', 'NNP'), ('Home', 'NNP'), (',', ','), ('Small', 'NNP'), ('Office', 'NNP'), ('Storage', 'NNP'), ('Devices', 'NNPS'), ('Thursday', 'NNP'), (',', ','), ('4', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('06', 'CD'), (':', ':'), ('00am', 'CD'), ('EST', 'JJS'), ('Intel', 'NNP'), ('Corporation', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('launched', 'VBN'), ('its', 'PRP$'), ('first', 'JJ'), ('Intel', 'NNP'), ('Atom', 'NNP'), ('processor', 'NN'), ('based', 'VBN'), ('platform', 'NN'), ('optimized', 'VBN'), ('for', 'IN'), ('networked', 'VBN'), ('home', 'NN'), ('and', 'CC'), ('small', 'JJ'), ('office/home', 'JJ'), ('office', 'NN'), ('SOHO', 'NNP'), ('storage', 'NN'), ('devices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP Expands/NNPS)   (ORGANIZATION Intel/NNP Atom/NNP)   Processor/NNP   Based/NNP   Platform/NNP   To/NNP   Home/NNP   ,/,   (PERSON Small/NNP Office/NNP Storage/NNP)   Devices/NNPS   Thursday/NNP   ,/,   4/CD   Mar/NNP   2010/CD   06/CD   :/:   00am/CD   EST/JJS   (ORGANIZATION Intel/NNP Corporation/NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   launched/VBN   its/PRP$   first/JJ   (ORGANIZATION Intel/NNP Atom/NNP)   processor/NN   based/VBN   platform/NN   optimized/VBN   for/IN   networked/VBN   home/NN   and/CC   small/JJ   office/home/JJ   office/NN   (ORGANIZATION SOHO/NNP)   storage/NN   devices/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   has/VBZ   launched/VBN   its/PRP$   first/JJ   Intel/NNP   Atom/NNP   processor/NN)
+	(VERB based/VBN platform/NN)
+	(VERB optimized/VBN for/IN)
+	(VERB networked/VBN home/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP Expands/NNPS Intel/NNP)
+	(NOUN Atom/NNP Processor/NNP Based/NNP Platform/NNP)
+	(NOUN To/NNP Home/NNP)
+	(NOUN Small/NNP Office/NNP Storage/NNP Devices/NNPS)
+	(NOUN Thursday/NNP)
+	(NOUN 4/CD Mar/NNP)
+	(NOUN 00am/CD EST/JJS Intel/NNP Corporation/NNP)
+	(NOUN   small/JJ   office/home/JJ   office/NN   SOHO/NNP   storage/NN   devices/NNS)
+
+----------------------------------
+original sentence: 
+The energy efficient platform consists of the Intel Atom processor D410 single core or D510 dual core and the Intel 82801IR I/O Controller and delivers the processing performance and input/output I/O connectivity required to meet the throughput demands of storage vendors such as LaCie, LG Electronics, QNAP, Synology and Thecus.
+
+POS tagged sentence: 
+[('The', 'DT'), ('energy', 'NN'), ('efficient', 'NN'), ('platform', 'NN'), ('consists', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('Intel', 'NNP'), ('Atom', 'NNP'), ('processor', 'NN'), ('D410', 'NNP'), ('single', 'JJ'), ('core', 'NN'), ('or', 'CC'), ('D510', 'NNP'), ('dual', 'JJ'), ('core', 'NN'), ('and', 'CC'), ('the', 'DT'), ('Intel', 'NNP'), ('82801IR', 'CD'), ('I/O', 'NNP'), ('Controller', 'NNP'), ('and', 'CC'), ('delivers', 'NNS'), ('the', 'DT'), ('processing', 'NN'), ('performance', 'NN'), ('and', 'CC'), ('input/output', 'JJ'), ('I/O', 'NN'), ('connectivity', 'NN'), ('required', 'VBN'), ('to', 'TO'), ('meet', 'VB'), ('the', 'DT'), ('throughput', 'NN'), ('demands', 'NNS'), ('of', 'IN'), ('storage', 'NN'), ('vendors', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('LaCie', 'NNP'), (',', ','), ('LG', 'NNP'), ('Electronics', 'NNP'), (',', ','), ('QNAP', 'NNP'), (',', ','), ('Synology', 'NNP'), ('and', 'CC'), ('Thecus', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   energy/NN   efficient/NN   platform/NN   consists/NNS   of/IN   the/DT   (ORGANIZATION Intel/NNP Atom/NNP)   processor/NN   (ORGANIZATION D410/NNP)   single/JJ   core/NN   or/CC   (ORGANIZATION D510/NNP)   dual/JJ   core/NN   and/CC   the/DT   (ORGANIZATION Intel/NNP)   82801IR/CD   I/O/NNP   Controller/NNP   and/CC   delivers/NNS   the/DT   processing/NN   performance/NN   and/CC   input/output/JJ   I/O/NN   connectivity/NN   required/VBN   to/TO   meet/VB   the/DT   throughput/NN   demands/NNS   of/IN   storage/NN   vendors/NNS   such/JJ   as/IN   (ORGANIZATION LaCie/NNP)   ,/,   (ORGANIZATION LG/NNP Electronics/NNP)   ,/,   (ORGANIZATION QNAP/NNP)   ,/,   (PERSON Synology/NNP)   and/CC   Thecus/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   required/VBN   to/TO   meet/VB   the/DT   throughput/NN   demands/NNS   of/IN   storage/NN   vendors/NNS   such/JJ   as/IN   LaCie/NNP)
+noun phrases to consider:
+	(NOUN energy/NN efficient/NN platform/NN consists/NNS)
+
+tagged sentence:
+	 energy efficient platform consists	res:1
+	(NOUN Intel/NNP Atom/NNP processor/NN D410/NNP)
+	(NOUN single/JJ core/NN)
+	(NOUN D510/NNP dual/JJ core/NN)
+	(NOUN Intel/NNP)
+	(NOUN 82801IR/CD I/O/NNP Controller/NNP)
+	(NOUN delivers/NNS)
+	(NOUN processing/NN performance/NN)
+	(NOUN input/output/JJ I/O/NN connectivity/NN)
+	(NOUN LG/NNP Electronics/NNP)
+	(NOUN QNAP/NNP)
+	(NOUN Synology/NNP)
+	(NOUN Thecus/NNP)
+
+----------------------------------
+original sentence: 
+Home server and SOHO network attached storage NAS devices based on the new Intel Atom processor based platform act as centralized hubs that organize, manage, protect and share documents, photos, videos and music throughout the home and small office.
+
+POS tagged sentence: 
+[('Home', 'NN'), ('server', 'NN'), ('and', 'CC'), ('SOHO', 'NNP'), ('network', 'NN'), ('attached', 'VBD'), ('storage', 'NN'), ('NAS', 'NNP'), ('devices', 'NNS'), ('based', 'VBN'), ('on', 'IN'), ('the', 'DT'), ('new', 'JJ'), ('Intel', 'NNP'), ('Atom', 'NNP'), ('processor', 'NN'), ('based', 'VBN'), ('platform', 'NN'), ('act', 'NN'), ('as', 'IN'), ('centralized', 'JJ'), ('hubs', 'NNS'), ('that', 'WDT'), ('organize', 'NN'), (',', ','), ('manage', 'NN'), (',', ','), ('protect', 'NN'), ('and', 'CC'), ('share', 'NN'), ('documents', 'NNS'), (',', ','), ('photos', 'NNS'), (',', ','), ('videos', 'NNS'), ('and', 'CC'), ('music', 'JJ'), ('throughout', 'IN'), ('the', 'DT'), ('home', 'NN'), ('and', 'CC'), ('small', 'JJ'), ('office', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Home/NN)   server/NN   and/CC   (ORGANIZATION SOHO/NNP)   network/NN   attached/VBD   storage/NN   (ORGANIZATION NAS/NNP)   devices/NNS   based/VBN   on/IN   the/DT   new/JJ   (ORGANIZATION Intel/NNP Atom/NNP)   processor/NN   based/VBN   platform/NN   act/NN   as/IN   centralized/JJ   hubs/NNS   that/WDT   organize/NN   ,/,   manage/NN   ,/,   protect/NN   and/CC   share/NN   documents/NNS   ,/,   photos/NNS   ,/,   videos/NNS   and/CC   music/JJ   throughout/IN   the/DT   home/NN   and/CC   small/JJ   office/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB attached/VBD storage/NN NAS/NNP devices/NNS)
+	(VERB based/VBN on/IN the/DT new/JJ Intel/NNP Atom/NNP processor/NN)
+	(VERB based/VBN platform/NN act/NN as/IN centralized/JJ hubs/NNS)
+noun phrases to consider:
+	(NOUN Home/NN server/NN)
+	(NOUN SOHO/NNP network/NN)
+	(NOUN organize/NN)
+	(NOUN manage/NN)
+	(NOUN protect/NN)
+	(NOUN share/NN documents/NNS)
+	(NOUN photos/NNS)
+	(NOUN videos/NNS)
+	(NOUN music/JJ)
+	(NOUN home/NN)
+	(NOUN small/JJ office/NN)
+
+----------------------------------
+original sentence: 
+Intel Corporation News
+FUNDVIEW Prudential Income Fund bullish on Microsoft, Intel
+ By Supantha Mukherjee BANGALORE, April 23 Reuters Microsoft Corp and
+Intel Corp are set to benefit from a corporate refresh
+cycle in terms of upgrading personal computer systems, making
+them good investments, a fund manager with Prudential said.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('Corporation', 'NNP'), ('News', 'NNP'), ('FUNDVIEW', 'NNP'), ('Prudential', 'NNP'), ('Income', 'NNP'), ('Fund', 'NNP'), ('bullish', 'NN'), ('on', 'IN'), ('Microsoft', 'NNP'), (',', ','), ('Intel', 'NNP'), ('By', 'NNP'), ('Supantha', 'NNP'), ('Mukherjee', 'NNP'), ('BANGALORE', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), ('Reuters', 'NNP'), ('Microsoft', 'NNP'), ('Corp', 'NNP'), ('and', 'CC'), ('Intel', 'NNP'), ('Corp', 'NNP'), ('are', 'VBP'), ('set', 'VBN'), ('to', 'TO'), ('benefit', 'VB'), ('from', 'IN'), ('a', 'DT'), ('corporate', 'JJ'), ('refresh', 'NN'), ('cycle', 'NN'), ('in', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('upgrading', 'VBG'), ('personal', 'JJ'), ('computer', 'NN'), ('systems', 'NNS'), (',', ','), ('making', 'VBG'), ('them', 'PRP'), ('good', 'JJ'), ('investments', 'NNS'), (',', ','), ('a', 'DT'), ('fund', 'NN'), ('manager', 'NN'), ('with', 'IN'), ('Prudential', 'JJ'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Intel/NNP Corporation/NNP News/NNP)   FUNDVIEW/NNP   Prudential/NNP   (PERSON Income/NNP Fund/NNP)   bullish/NN   on/IN   (ORGANIZATION Microsoft/NNP)   ,/,   (ORGANIZATION Intel/NNP)   By/NNP   (PERSON Supantha/NNP Mukherjee/NNP BANGALORE/NNP)   ,/,   April/NNP   23/CD   (ORGANIZATION Reuters/NNP Microsoft/NNP Corp/NNP)   and/CC   (ORGANIZATION Intel/NNP Corp/NNP)   are/VBP   set/VBN   to/TO   benefit/VB   from/IN   a/DT   corporate/JJ   refresh/NN   cycle/NN   in/IN   terms/NNS   of/IN   upgrading/VBG   personal/JJ   computer/NN   systems/NNS   ,/,   making/VBG   them/PRP   good/JJ   investments/NNS   ,/,   a/DT   fund/NN   manager/NN   with/IN   (PERSON Prudential/JJ)   said/VBD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP set/VBN)
+	(VERB   benefit/VB   from/IN   a/DT   corporate/JJ   refresh/NN   cycle/NN   in/IN   terms/NNS   of/IN)
+
+tagged sentence:
+	 benefit from a corporate refresh cycle in terms of	res:1
+	(VERB upgrading/VBG personal/JJ computer/NN systems/NNS)
+
+tagged sentence:
+	 upgrading personal computer systems	res:2
+	(VERB making/VBG them/PRP good/JJ investments/NNS)
+
+tagged sentence:
+	 making them good investments	res:1
+	(VERB said/VBD)
+noun phrases to consider:
+	(NOUN Intel/NNP Corporation/NNP News/NNP FUNDVIEW/NNP)
+	(NOUN Prudential/NNP Income/NNP Fund/NNP bullish/NN)
+	(NOUN Microsoft/NNP)
+	(NOUN Intel/NNP By/NNP Supantha/NNP Mukherjee/NNP)
+	(NOUN BANGALORE/NNP)
+	(NOUN April/NNP)
+	(NOUN 23/CD Reuters/NNP Microsoft/NNP Corp/NNP)
+	(NOUN Intel/NNP Corp/NNP)
+	(NOUN fund/NN manager/NN)
+	(NOUN Prudential/JJ)
+
+----------------------------------
+original sentence: 
+&#187; More INTC.O News
+&#187; More Financials
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('INTC.O', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Financials', 'NNPS')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP)   INTC.O/NNP   News/NNP   &/CC   #/#   187/CD   ;/:   (ORGANIZATION More/NNP Financials/NNPS))Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN More/NNP INTC.O/NNP News/NNP)
+	(NOUN More/NNP Financials/NNPS)
+
+
+veryneg:0	neg:1	pos:7	verypos:3	total:6

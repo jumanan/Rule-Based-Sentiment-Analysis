@@ -1,0 +1,138 @@
+
+----------------------------------
+original sentence: 
+Citibank NYSE: C Raises Price Target on Emdeon NYSE: EM , Maintains Hold Rating American Banking News
+Citibank NYSE: C Raises Price Target on Emdeon NYSE: EM , Maintains Hold Rating
+ March 18th, 2010 &bull;  &bull; by admin  Filed Under: Citibank NYS:E C analysts maintained its hold rating on Emdeon NYSE: C and raised their price target on the company to $20.00, up from $19.00 after the company announced their fourth quarter earnings per share and offered a positive outlook for 2010.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Raises', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('on', 'IN'), ('Emdeon', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('EM', 'NNP'), (',', ','), ('Maintains', 'NNP'), ('Hold', 'NNP'), ('Rating', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Raises', 'NNPS'), ('Price', 'NNP'), ('Target', 'NNP'), ('on', 'IN'), ('Emdeon', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('EM', 'NNP'), (',', ','), ('Maintains', 'NNP'), ('Hold', 'NNP'), ('Rating', 'NNP'), ('March', 'NNP'), ('18th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('NYS', 'NNP'), (':', ':'), ('E', 'NNP'), ('C', 'NNP'), ('analysts', 'NNS'), ('maintained', 'VBD'), ('its', 'PRP$'), ('hold', 'NN'), ('rating', 'NN'), ('on', 'IN'), ('Emdeon', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('and', 'CC'), ('raised', 'VBD'), ('their', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('on', 'IN'), ('the', 'DT'), ('company', 'NN'), ('to', 'TO'), ('$', '$'), ('20.00', 'CD'), (',', ','), ('up', 'RB'), ('from', 'IN'), ('$', '$'), ('19.00', 'CD'), ('after', 'IN'), ('the', 'DT'), ('company', 'NN'), ('announced', 'VBD'), ('their', 'PRP$'), ('fourth', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('and', 'CC'), ('offered', 'VBD'), ('a', 'DT'), ('positive', 'JJ'), ('outlook', 'NN'), ('for', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Raises/NNPS   Price/NNP   Target/NNP   on/IN   (PERSON Emdeon/NNP NYSE/NNP)   :/:   EM/NNP   ,/,   (PERSON     Maintains/NNP     Hold/NNP     Rating/NNP     American/NNP     Banking/NNP     News/NNP     Citibank/NNP)   NYSE/NNP   :/:   C/NNP   Raises/NNPS   Price/NNP   Target/NNP   on/IN   (PERSON Emdeon/NNP NYSE/NNP)   :/:   EM/NNP   ,/,   (PERSON Maintains/NNP Hold/NNP Rating/NNP)   March/NNP   18th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP NYS/NNP)   :/:   E/NNP   C/NNP   analysts/NNS   maintained/VBD   its/PRP$   hold/NN   rating/NN   on/IN   (PERSON Emdeon/NNP NYSE/NNP)   :/:   C/NNP   and/CC   raised/VBD   their/PRP$   price/NN   target/NN   on/IN   the/DT   company/NN   to/TO   $/$   20.00/CD   ,/,   up/RB   from/IN   $/$   19.00/CD   after/IN   the/DT   company/NN   announced/VBD   their/PRP$   fourth/JJ   quarter/NN   earnings/NNS   per/IN   share/NN   and/CC   offered/VBD   a/DT   positive/JJ   outlook/NN   for/IN   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   maintained/VBD   its/PRP$   hold/NN   rating/NN   on/IN   Emdeon/NNP   NYSE/NNP)
+	(VERB   raised/VBD   their/PRP$   price/NN   target/NN   on/IN   the/DT   company/NN)
+	(VERB   announced/VBD   their/PRP$   fourth/JJ   quarter/NN   earnings/NNS   per/IN   share/NN)
+	(VERB offered/VBD a/DT positive/JJ outlook/NN for/IN 2010/CD)
+
+tagged sentence:
+	 offered a positive outlook for 2010	res:1
+noun phrases to consider:
+	(NOUN Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Raises/NNPS Price/NNP Target/NNP)
+	(NOUN Emdeon/NNP NYSE/NNP)
+	(NOUN EM/NNP)
+	(NOUN Maintains/NNP Hold/NNP Rating/NNP American/NNP)
+	(NOUN Banking/NNP News/NNP Citibank/NNP NYSE/NNP)
+	(NOUN C/NNP Raises/NNPS Price/NNP Target/NNP)
+	(NOUN Emdeon/NNP NYSE/NNP)
+	(NOUN EM/NNP)
+	(NOUN Maintains/NNP Hold/NNP Rating/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP NYS/NNP)
+	(NOUN E/NNP C/NNP analysts/NNS)
+	(NOUN C/NNP)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+Analyst Charles Boorady said, &#8220;EM released 4Q09 earnings am on Tuesday, reporting 4Q09 Cash EPS of $0.20 v. our/consensus $0.18/$0.19 on total revenues of $238.6mn v. our/consensus $240.1mn/$239.7mn for the quarter, 9.5% y/y growth of which ~6% was organic, and $918.5mn for FY09.
+
+POS tagged sentence: 
+[('Analyst', 'NN'), ('Charles', 'NNP'), ('Boorady', 'NNP'), ('said', 'VBD'), (',', ','), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('EM', 'NNP'), ('released', 'VBD'), ('4Q09', 'CD'), ('earnings', 'NNS'), ('am', 'VBP'), ('on', 'IN'), ('Tuesday', 'NNP'), (',', ','), ('reporting', 'VBG'), ('4Q09', 'CD'), ('Cash', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('0.20', 'CD'), ('v.', 'NNP'), ('our/consensus', 'NNP'), ('$', '$'), ('0.18/', 'CD'), ('$', '$'), ('0.19', 'CD'), ('on', 'IN'), ('total', 'JJ'), ('revenues', 'NNS'), ('of', 'IN'), ('$', '$'), ('238.6mn', 'CD'), ('v.', 'NNP'), ('our/consensus', 'NNP'), ('$', '$'), ('240.1mn/', 'CD'), ('$', '$'), ('239.7mn', 'CD'), ('for', 'IN'), ('the', 'DT'), ('quarter', 'NN'), (',', ','), ('9.5', 'CD'), ('%', 'NN'), ('y/y', 'JJ'), ('growth', 'NN'), ('of', 'IN'), ('which', 'WDT'), ('~', '-NONE-'), ('6', 'CD'), ('%', 'NN'), ('was', 'VBD'), ('organic', 'JJ'), (',', ','), ('and', 'CC'), ('$', '$'), ('918.5mn', 'CD'), ('for', 'IN'), ('FY09', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Analyst/NN)   (PERSON Charles/NNP Boorady/NNP)   said/VBD   ,/,   &/CC   #/#   8220/CD   ;/:   EM/NNP   released/VBD   4Q09/CD   earnings/NNS   am/VBP   on/IN   Tuesday/NNP   ,/,   reporting/VBG   4Q09/CD   Cash/NNP   EPS/NNP   of/IN   $/$   0.20/CD   v./NNP   our/consensus/NNP   $/$   0.18//CD   $/$   0.19/CD   on/IN   total/JJ   revenues/NNS   of/IN   $/$   238.6mn/CD   v./NNP   our/consensus/NNP   $/$   240.1mn//CD   $/$   239.7mn/CD   for/IN   the/DT   quarter/NN   ,/,   9.5/CD   %/NN   y/y/JJ   growth/NN   of/IN   which/WDT   ~/-NONE-   6/CD   %/NN   was/VBD   organic/JJ   ,/,   and/CC   $/$   918.5mn/CD   for/IN   (ORGANIZATION FY09/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB released/VBD 4Q09/CD earnings/NNS)
+	(VERB am/VBP on/IN Tuesday/NNP)
+	(VERB reporting/VBG 4Q09/CD Cash/NNP EPS/NNP of/IN)
+	(VERB was/VBD organic/JJ)
+noun phrases to consider:
+	(NOUN Analyst/NN Charles/NNP Boorady/NNP)
+	(NOUN EM/NNP)
+	(NOUN 0.20/CD v./NNP our/consensus/NNP)
+	(NOUN total/JJ revenues/NNS)
+	(NOUN 238.6mn/CD v./NNP our/consensus/NNP)
+	(NOUN quarter/NN)
+	(NOUN 9.5/CD %/NN)
+	(NOUN y/y/JJ growth/NN)
+	(NOUN 6/CD %/NN)
+	(NOUN FY09/NNP)
+
+----------------------------------
+original sentence: 
+We update quarterly adjusted EPS in the table below, and FY10E FY13E to $0.93 +5c , $1.04 +6c , $1.15 +8c , and $1.27 +14c , respectively on positive initial 2010 guidance implying approximately 9 15% revenue growth in FY10, of which 4.5 4.7% would be organic, and 3.8 8.4% Cash EPS growth.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('update', 'VBP'), ('quarterly', 'RB'), ('adjusted', 'VBN'), ('EPS', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('table', 'NN'), ('below', 'IN'), (',', ','), ('and', 'CC'), ('FY10E', 'NNP'), ('FY13E', 'NNP'), ('to', 'TO'), ('$', '$'), ('0.93', 'CD'), ('+', 'CD'), ('5c', 'CD'), (',', ','), ('$', '$'), ('1.04', 'CD'), ('+', 'CD'), ('6c', 'CD'), (',', ','), ('$', '$'), ('1.15', 'CD'), ('+', 'CD'), ('8c', 'CD'), (',', ','), ('and', 'CC'), ('$', '$'), ('1.27', 'CD'), ('+', 'CD'), ('14c', 'CD'), (',', ','), ('respectively', 'RB'), ('on', 'IN'), ('positive', 'JJ'), ('initial', 'JJ'), ('2010', 'CD'), ('guidance', 'NN'), ('implying', 'VBG'), ('approximately', 'RB'), ('9', 'CD'), ('15', 'CD'), ('%', 'NN'), ('revenue', 'NN'), ('growth', 'NN'), ('in', 'IN'), ('FY10', 'NNP'), (',', ','), ('of', 'IN'), ('which', 'WDT'), ('4.5', 'CD'), ('4.7', 'CD'), ('%', 'NN'), ('would', 'MD'), ('be', 'VB'), ('organic', 'JJ'), (',', ','), ('and', 'CC'), ('3.8', 'CD'), ('8.4', 'CD'), ('%', 'NN'), ('Cash', 'NN'), ('EPS', 'NNP'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   update/VBP   quarterly/RB   adjusted/VBN   (ORGANIZATION EPS/NNP)   in/IN   the/DT   table/NN   below/IN   ,/,   and/CC   (ORGANIZATION FY10E/NNP)   FY13E/NNP   to/TO   $/$   0.93/CD   +/CD   5c/CD   ,/,   $/$   1.04/CD   +/CD   6c/CD   ,/,   $/$   1.15/CD   +/CD   8c/CD   ,/,   and/CC   $/$   1.27/CD   +/CD   14c/CD   ,/,   respectively/RB   on/IN   positive/JJ   initial/JJ   2010/CD   guidance/NN   implying/VBG   approximately/RB   9/CD   15/CD   %/NN   revenue/NN   growth/NN   in/IN   (GPE FY10/NNP)   ,/,   of/IN   which/WDT   4.5/CD   4.7/CD   %/NN   would/MD   be/VB   organic/JJ   ,/,   and/CC   3.8/CD   8.4/CD   %/NN   (PERSON Cash/NN EPS/NNP)   growth/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   update/VBP   quarterly/RB   adjusted/VBN   EPS/NNP   in/IN   the/DT   table/NN   below/IN)
+	(VERB implying/VBG)
+	(VERB be/VB organic/JJ)
+noun phrases to consider:
+	(NOUN FY10E/NNP FY13E/NNP)
+	(NOUN positive/JJ initial/JJ 2010/CD guidance/NN)
+
+tagged sentence:
+	 positive initial 2010 guidance	res:1
+	(NOUN 15/CD %/NN revenue/NN growth/NN)
+	(NOUN FY10/NNP)
+	(NOUN 4.7/CD %/NN)
+	(NOUN 8.4/CD %/NN Cash/NN EPS/NNP growth/NN)
+
+----------------------------------
+original sentence: 
+Adjusted EBITDA of $62.6mn was above our $58.8mn estimate and 17% greater than previous year with Adj EBITDA margin of 26.2%.
+
+POS tagged sentence: 
+[('Adjusted', 'NNP'), ('EBITDA', 'NNP'), ('of', 'IN'), ('$', '$'), ('62.6mn', 'CD'), ('was', 'VBD'), ('above', 'IN'), ('our', 'PRP$'), ('$', '$'), ('58.8mn', 'CD'), ('estimate', 'NN'), ('and', 'CC'), ('17', 'CD'), ('%', 'NN'), ('greater', 'JJR'), ('than', 'IN'), ('previous', 'JJ'), ('year', 'NN'), ('with', 'IN'), ('Adj', 'NNP'), ('EBITDA', 'NNP'), ('margin', 'NN'), ('of', 'IN'), ('26.2', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Adjusted/NNP)   (ORGANIZATION EBITDA/NNP)   of/IN   $/$   62.6mn/CD   was/VBD   above/IN   our/PRP$   $/$   58.8mn/CD   estimate/NN   and/CC   17/CD   %/NN   greater/JJR   than/IN   previous/JJ   year/NN   with/IN   (PERSON Adj/NNP EBITDA/NNP)   margin/NN   of/IN   26.2/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Payer services segment was up 8.9% y/y and improved its gross margin to 36.6% from 34.0%, a positive trend for the segment after a sequential decrease in Q3.
+
+POS tagged sentence: 
+[('Payer', 'NNP'), ('services', 'NNS'), ('segment', 'NN'), ('was', 'VBD'), ('up', 'RB'), ('8.9', 'CD'), ('%', 'NN'), ('y/y', 'JJ'), ('and', 'CC'), ('improved', 'VBN'), ('its', 'PRP$'), ('gross', 'NN'), ('margin', 'NN'), ('to', 'TO'), ('36.6', 'CD'), ('%', 'NN'), ('from', 'IN'), ('34.0', 'CD'), ('%', 'NN'), (',', ','), ('a', 'DT'), ('positive', 'JJ'), ('trend', 'NN'), ('for', 'IN'), ('the', 'DT'), ('segment', 'NN'), ('after', 'IN'), ('a', 'DT'), ('sequential', 'JJ'), ('decrease', 'NN'), ('in', 'IN'), ('Q3', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Payer/NNP)   services/NNS   segment/NN   was/VBD   up/RB   8.9/CD   %/NN   y/y/JJ   and/CC   improved/VBN   its/PRP$   gross/NN   margin/NN   to/TO   36.6/CD   %/NN   from/IN   34.0/CD   %/NN   ,/,   a/DT   positive/JJ   trend/NN   for/IN   the/DT   segment/NN   after/IN   a/DT   sequential/JJ   decrease/NN   in/IN   Q3/NNP   ./.)
+----------------------------------
+original sentence: 
+Pharmacy services continues to be a growth engine with 109% y/y, but note the segment received a large boost with the eRX acquisition in mid 2009 which largely aided the growth.
+
+POS tagged sentence: 
+[('Pharmacy', 'NN'), ('services', 'NNS'), ('continues', 'VBZ'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('growth', 'NN'), ('engine', 'NN'), ('with', 'IN'), ('109', 'CD'), ('%', 'NN'), ('y/y', 'JJ'), (',', ','), ('but', 'CC'), ('note', 'VB'), ('the', 'DT'), ('segment', 'NN'), ('received', 'VBD'), ('a', 'DT'), ('large', 'JJ'), ('boost', 'NN'), ('with', 'IN'), ('the', 'DT'), ('eRX', 'NNP'), ('acquisition', 'NN'), ('in', 'IN'), ('mid', 'JJ'), ('2009', 'CD'), ('which', 'WDT'), ('largely', 'RB'), ('aided', 'VBD'), ('the', 'DT'), ('growth', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Pharmacy/NN)   services/NNS   continues/VBZ   to/TO   be/VB   a/DT   growth/NN   engine/NN   with/IN   109/CD   %/NN   y/y/JJ   ,/,   but/CC   note/VB   the/DT   segment/NN   received/VBD   a/DT   large/JJ   boost/NN   with/IN   the/DT   (ORGANIZATION eRX/NNP)   acquisition/NN   in/IN   mid/JJ   2009/CD   which/WDT   largely/RB   aided/VBD   the/DT   growth/NN   ./.)
+----------------------------------
+original sentence: 
+Pharmacy is currently only 8.7% of total revenues, but it will continue to be a key segment of growth and ePrescribing is its most significant tool.&#8221;
+For 2010, the bank raised its earnings per share estimate from $0.88 to $0.93, versus consensus estimates of $0.92.
+
+POS tagged sentence: 
+[('Pharmacy', 'NN'), ('is', 'VBZ'), ('currently', 'RB'), ('only', 'RB'), ('8.7', 'CD'), ('%', 'NN'), ('of', 'IN'), ('total', 'JJ'), ('revenues', 'NNS'), (',', ','), ('but', 'CC'), ('it', 'PRP'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('be', 'VB'), ('a', 'DT'), ('key', 'JJ'), ('segment', 'NN'), ('of', 'IN'), ('growth', 'NN'), ('and', 'CC'), ('ePrescribing', 'NNP'), ('is', 'VBZ'), ('its', 'PRP$'), ('most', 'RBS'), ('significant', 'JJ'), ('tool.&', 'NN'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('For', 'NNP'), ('2010', 'CD'), (',', ','), ('the', 'DT'), ('bank', 'NN'), ('raised', 'VBD'), ('its', 'PRP$'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('estimate', 'NN'), ('from', 'IN'), ('$', '$'), ('0.88', 'CD'), ('to', 'TO'), ('$', '$'), ('0.93', 'CD'), (',', ','), ('versus', 'CC'), ('consensus', 'NN'), ('estimates', 'NNS'), ('of', 'IN'), ('$', '$'), ('0.92', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Pharmacy/NN)   is/VBZ   currently/RB   only/RB   8.7/CD   %/NN   of/IN   total/JJ   revenues/NNS   ,/,   but/CC   it/PRP   will/MD   continue/VB   to/TO   be/VB   a/DT   key/JJ   segment/NN   of/IN   growth/NN   and/CC   (ORGANIZATION ePrescribing/NNP)   is/VBZ   its/PRP$   most/RBS   significant/JJ   tool.&/NN   #/#   8221/CD   ;/:   For/NNP   2010/CD   ,/,   the/DT   bank/NN   raised/VBD   its/PRP$   earnings/NNS   per/IN   share/NN   estimate/NN   from/IN   $/$   0.88/CD   to/TO   $/$   0.93/CD   ,/,   versus/CC   consensus/NN   estimates/NNS   of/IN   $/$   0.92/CD   ./.)
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:1

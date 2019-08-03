@@ -1,0 +1,774 @@
+
+----------------------------------
+original sentence: 
+BedfordReport.com: Complimentary Analyst Research on Citigroup, Inc. NYSE: C , Sirius XM Radio, Inc. Nasdaq: SIRI , Motorola, Inc. NYSE: MOT , Microsoft Corp. Nasdaq: MSFT and Many More | SYS CON CANADA
+Jump to a SYS CON Magazine
+.NET Developer's Journal
+AjaxWorld Magazine AWM
+Cloud Computing Journal
+ColdFusion Developer's Journal
+Eclipse Developer's Journal
+Enterprise Open Source Magazine
+Flex Developer's Journal Flex
+Internet Video iTV
+iPhone Developer's Journal iPHONE
+Java Developer's Journal
+Open Web Developer's Journal
+PowerBuilder Developer's Journal
+SEO/SEM Search Journal
+Silverlight Developer's Journal
+SOAWorld Magazine SWM
+Symbian Developer's Journal
+Virtualization.SYS CON.com
+Wireless Business & Technology
+ The World's Leading Resource on Rich Internet Applications!
+
+POS tagged sentence: 
+[('BedfordReport.com', 'NN'), (':', ':'), ('Complimentary', 'NNP'), ('Analyst', 'NNP'), ('Research', 'NNP'), ('on', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Sirius', 'NNP'), ('XM', 'NNP'), ('Radio', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('SIRI', 'NNP'), (',', ','), ('Motorola', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MOT', 'NNP'), (',', ','), ('Microsoft', 'NNP'), ('Corp.', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('and', 'CC'), ('Many', 'NNP'), ('More', 'NNP'), ('|', 'NNP'), ('SYS', 'NNP'), ('CON', 'NNP'), ('CANADA', 'NNP'), ('Jump', 'NNP'), ('to', 'TO'), ('a', 'DT'), ('SYS', 'NNP'), ('CON', 'NNP'), ('Magazine', 'NNP'), ('.NET', 'JJ'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('AjaxWorld', 'NNP'), ('Magazine', 'NNP'), ('AWM', 'NNP'), ('Cloud', 'NNP'), ('Computing', 'NNP'), ('Journal', 'NNP'), ('ColdFusion', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('Eclipse', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('Enterprise', 'NNP'), ('Open', 'NNP'), ('Source', 'NNP'), ('Magazine', 'NNP'), ('Flex', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('Flex', 'NNP'), ('Internet', 'NNP'), ('Video', 'NNP'), ('iTV', 'NNP'), ('iPhone', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('iPHONE', 'NNP'), ('Java', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('Open', 'NNP'), ('Web', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('PowerBuilder', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('SEO/SEM', 'NNP'), ('Search', 'NNP'), ('Journal', 'NNP'), ('Silverlight', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('SOAWorld', 'NNP'), ('Magazine', 'NNP'), ('SWM', 'NNP'), ('Symbian', 'NNP'), ('Developer', 'NNP'), ("'s", 'POS'), ('Journal', 'NNP'), ('Virtualization.SYS', 'NNP'), ('CON.com', 'NNP'), ('Wireless', 'NNP'), ('Business', 'NNP'), ('&', 'CC'), ('Technology', 'NNP'), ('The', 'NNP'), ('World', 'NNP'), ("'s", 'POS'), ('Leading', 'NNP'), ('Resource', 'NNP'), ('on', 'IN'), ('Rich', 'NNP'), ('Internet', 'NNP'), ('Applications', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   BedfordReport.com/NN   :/:   Complimentary/NNP   Analyst/NNP   Research/NNP   on/IN   (GPE Citigroup/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   C/NNP   ,/,   (PERSON Sirius/NNP XM/NNP Radio/NNP)   ,/,   Inc./NNP   Nasdaq/NNP   :/:   SIRI/NNP   ,/,   (ORGANIZATION Motorola/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   MOT/NNP   ,/,   (ORGANIZATION Microsoft/NNP Corp./NNP)   Nasdaq/NNP   :/:   MSFT/NNP   and/CC   Many/NNP   More/NNP   |/NNP   SYS/NNP   CON/NNP   CANADA/NNP   Jump/NNP   to/TO   a/DT   (ORGANIZATION SYS/NNP)   (ORGANIZATION CON/NNP Magazine/NNP)   .NET/JJ   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   (ORGANIZATION AjaxWorld/NNP Magazine/NNP)   AWM/NNP   Cloud/NNP   Computing/NNP   Journal/NNP   ColdFusion/NNP   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP Eclipse/NNP Developer/NNP)   's/POS   (ORGANIZATION     Journal/NNP     Enterprise/NNP     Open/NNP     Source/NNP     Magazine/NNP     Flex/NNP     Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP Flex/NNP)   Internet/NNP   Video/NNP   iTV/NNP   iPhone/NNP   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   iPHONE/NNP   Java/NNP   (PERSON Developer/NNP)   's/POS   Journal/NNP   Open/NNP   Web/NNP   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   PowerBuilder/NNP   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   SEO/SEM/NNP   Search/NNP   Journal/NNP   Silverlight/NNP   (PERSON Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   (ORGANIZATION SOAWorld/NNP Magazine/NNP)   SWM/NNP   (PERSON Symbian/NNP Developer/NNP)   's/POS   (ORGANIZATION Journal/NNP)   Virtualization.SYS/NNP   CON.com/NNP   Wireless/NNP   Business/NNP   &/CC   Technology/NNP   The/NNP   World/NNP   's/POS   Leading/NNP   Resource/NNP   on/IN   (PERSON Rich/NNP Internet/NNP Applications/NNP)   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN BedfordReport.com/NN)
+	(NOUN Complimentary/NNP Analyst/NNP Research/NNP)
+
+tagged sentence:
+	 Complimentary Analyst Research	res:1
+	(NOUN Citigroup/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Sirius/NNP XM/NNP Radio/NNP)
+	(NOUN Inc./NNP Nasdaq/NNP)
+	(NOUN SIRI/NNP)
+	(NOUN Motorola/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MOT/NNP)
+	(NOUN Microsoft/NNP Corp./NNP Nasdaq/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN Many/NNP More/NNP |/NNP SYS/NNP)
+	(NOUN CON/NNP CANADA/NNP Jump/NNP)
+	(NOUN a/DT SYS/NNP CON/NNP Magazine/NNP .NET/JJ Developer/NNP)
+	(NOUN Journal/NNP AjaxWorld/NNP Magazine/NNP AWM/NNP)
+	(NOUN Cloud/NNP Computing/NNP Journal/NNP ColdFusion/NNP)
+	(NOUN Developer/NNP)
+	(NOUN Journal/NNP Eclipse/NNP Developer/NNP)
+	(NOUN Journal/NNP Enterprise/NNP Open/NNP Source/NNP)
+	(NOUN Magazine/NNP Flex/NNP Developer/NNP)
+	(NOUN Journal/NNP Flex/NNP Internet/NNP Video/NNP)
+	(NOUN iTV/NNP iPhone/NNP Developer/NNP)
+	(NOUN Journal/NNP iPHONE/NNP Java/NNP Developer/NNP)
+	(NOUN Journal/NNP Open/NNP Web/NNP Developer/NNP)
+	(NOUN Journal/NNP PowerBuilder/NNP Developer/NNP)
+	(NOUN Journal/NNP SEO/SEM/NNP Search/NNP Journal/NNP)
+	(NOUN Silverlight/NNP Developer/NNP)
+	(NOUN Journal/NNP SOAWorld/NNP Magazine/NNP SWM/NNP)
+	(NOUN Symbian/NNP Developer/NNP)
+	(NOUN Journal/NNP Virtualization.SYS/NNP CON.com/NNP Wireless/NNP)
+	(NOUN Business/NNP)
+	(NOUN Technology/NNP The/NNP World/NNP)
+	(NOUN Leading/NNP Resource/NNP)
+
+tagged sentence:
+	 Leading Resource	res:1
+	(NOUN Rich/NNP Internet/NNP Applications/NNP)
+
+----------------------------------
+original sentence: 
+&middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot;  &middot; How Might Entity Framework Affect Us?
+
+POS tagged sentence: 
+[('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('&middot', 'JJ'), (';', ':'), ('How', 'WRB'), ('Might', 'NNP'), ('Entity', 'NNP'), ('Framework', 'NNP'), ('Affect', 'NNP'), ('Us', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   &middot/JJ   ;/:   How/WRB   (PERSON Might/NNP Entity/NNP Framework/NNP Affect/NNP Us/NNP)   ?/.)
+----------------------------------
+original sentence: 
+kingsnake wrote: Hi, Great article!
+
+POS tagged sentence: 
+[('kingsnake', 'NN'), ('wrote', 'VBD'), (':', ':'), ('Hi', 'NNP'), (',', ','), ('Great', 'NNP'), ('article', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   kingsnake/NN   wrote/VBD   :/:   Hi/NNP   ,/,   (GPE Great/NNP)   article/NN   !/.)
+----------------------------------
+original sentence: 
+Datawindows that support classes as data sources, That's Datawindows with steroids!
+
+POS tagged sentence: 
+[('Datawindows', 'NNS'), ('that', 'IN'), ('support', 'NN'), ('classes', 'NNS'), ('as', 'IN'), ('data', 'NNS'), ('sources', 'NNS'), (',', ','), ('That', 'DT'), ("'s", 'VBZ'), ('Datawindows', 'NNP'), ('with', 'IN'), ('steroids', 'NNS'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Datawindows/NNS   that/IN   support/NN   classes/NNS   as/IN   data/NNS   sources/NNS   ,/,   That/DT   's/VBZ   Datawindows/NNP   with/IN   steroids/NNS   !/.)
+----------------------------------
+original sentence: 
+I surely use Entity Framework 4.0!
+
+POS tagged sentence: 
+[('I', 'PRP'), ('surely', 'RB'), ('use', 'VBP'), ('Entity', 'NNP'), ('Framework', 'NNP'), ('4.0', 'CD'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   surely/RB   use/VBP   (PERSON Entity/NNP Framework/NNP)   4.0/CD   !/.)
+----------------------------------
+original sentence: 
+Best Regards
+Apr.
+
+POS tagged sentence: 
+[('Best', 'JJS'), ('Regards', 'NNS'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Best/JJS Regards/NNS Apr/NNP ./.)
+----------------------------------
+original sentence: 
+22, 2010 11:02 AM EDT
+read more & respond &raquo;
+Cloud Expo on Google News
+Did you read today's SYS CON.TV: SOA Power Panel Live From Times Square
+SOA, WOA and Cloud Computing: The New Frontier for Data Services
+The Opening of Virtualization
+User Environment Management ‚Äì The Third Layer of the Desktop
+Cloud Computing for Business Agility CMIS: A Multi Vendor Proposal for a Service Based Content Management Interoperability Standard
+Practical SOA&rdquo; Max Yankelevich
+Architecting an Enterprise Service Router ESR ‚Äì A Cost Effective Way to Scale SOA Across the Enterprise
+Return on Assests: Bringing Visibility to your SOA Strategy
+Managing Hybrid Endpoint Environments
+Game Changing Technology for Enterprise Clouds and Applications
+Get ‚ÄòRich‚Äô Quick: Rapid Prototyping for RIA with ZERO Server Code
+Designing for and Managing Performance in the New Frontier of Rich Internet Applications
+How Can AJAX Improve Homeland Security?
+
+POS tagged sentence: 
+[('22', 'CD'), (',', ','), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('02', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('read', 'VBD'), ('more', 'JJR'), ('&', 'CC'), ('respond', 'NN'), ('&raquo', '-NONE-'), (';', ':'), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('on', 'IN'), ('Google', 'NNP'), ('News', 'NNP'), ('Did', 'NNP'), ('you', 'PRP'), ('read', 'VB'), ('today', 'NN'), ("'s", 'POS'), ('SYS', 'NNP'), ('CON.TV', 'NNP'), (':', ':'), ('SOA', 'NNP'), ('Power', 'NNP'), ('Panel', 'NNP'), ('Live', 'NNP'), ('From', 'NNP'), ('Times', 'NNP'), ('Square', 'NNP'), ('SOA', 'NNP'), (',', ','), ('WOA', 'NNP'), ('and', 'CC'), ('Cloud', 'NNP'), ('Computing', 'NNP'), (':', ':'), ('The', 'DT'), ('New', 'NNP'), ('Frontier', 'NNP'), ('for', 'IN'), ('Data', 'NNP'), ('Services', 'NNPS'), ('The', 'NNP'), ('Opening', 'NNP'), ('of', 'IN'), ('Virtualization', 'NNP'), ('User', 'NNP'), ('Environment', 'NNP'), ('Management', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x93', 'NNP'), ('The', 'NNP'), ('Third', 'NNP'), ('Layer', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('Desktop', 'NNP'), ('Cloud', 'NNP'), ('Computing', 'NNP'), ('for', 'IN'), ('Business', 'NNP'), ('Agility', 'NNP'), ('CMIS', 'NNP'), (':', ':'), ('A', 'DT'), ('Multi', 'NNP'), ('Vendor', 'NNP'), ('Proposal', 'NNP'), ('for', 'IN'), ('a', 'DT'), ('Service', 'NNP'), ('Based', 'NNP'), ('Content', 'NNP'), ('Management', 'NNP'), ('Interoperability', 'NNP'), ('Standard', 'NNP'), ('Practical', 'NNP'), ('SOA&rdquo', 'NNP'), (';', ':'), ('Max', 'NNP'), ('Yankelevich', 'NNP'), ('Architecting', 'NNP'), ('an', 'DT'), ('Enterprise', 'NNP'), ('Service', 'NNP'), ('Router', 'NNP'), ('ESR', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x93', 'NNP'), ('A', 'NNP'), ('Cost', 'NNP'), ('Effective', 'NNP'), ('Way', 'NNP'), ('to', 'TO'), ('Scale', 'NNP'), ('SOA', 'NNP'), ('Across', 'NNP'), ('the', 'DT'), ('Enterprise', 'NNP'), ('Return', 'NNP'), ('on', 'IN'), ('Assests', 'NNPS'), (':', ':'), ('Bringing', 'NNP'), ('Visibility', 'NNP'), ('to', 'TO'), ('your', 'PRP$'), ('SOA', 'NNP'), ('Strategy', 'NNP'), ('Managing', 'NNP'), ('Hybrid', 'NNP'), ('Endpoint', 'NNP'), ('Environments', 'NNP'), ('Game', 'NNP'), ('Changing', 'NNP'), ('Technology', 'NNP'), ('for', 'IN'), ('Enterprise', 'NNP'), ('Clouds', 'NNPS'), ('and', 'CC'), ('Applications', 'NNS'), ('Get', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x98', 'NNP'), ('Rich', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('Quick', 'NNP'), (':', ':'), ('Rapid', 'NNP'), ('Prototyping', 'NNP'), ('for', 'IN'), ('RIA', 'NNP'), ('with', 'IN'), ('ZERO', 'NNP'), ('Server', 'NNP'), ('Code', 'NNP'), ('Designing', 'NNP'), ('for', 'IN'), ('and', 'CC'), ('Managing', 'NNP'), ('Performance', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('New', 'NNP'), ('Frontier', 'NNP'), ('of', 'IN'), ('Rich', 'NNP'), ('Internet', 'NNP'), ('Applications', 'NNP'), ('How', 'NNP'), ('Can', 'NNP'), ('AJAX', 'NNP'), ('Improve', 'NNP'), ('Homeland', 'NNP'), ('Security', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   22/CD   ,/,   2010/CD   11/CD   :/:   02/CD   AM/NNP   EDT/NNP   read/VBD   more/JJR   &/CC   respond/NN   &raquo/-NONE-   ;/:   (PERSON Cloud/NNP Expo/NNP)   on/IN   (ORGANIZATION Google/NNP News/NNP)   Did/NNP   you/PRP   read/VB   today/NN   's/POS   (ORGANIZATION SYS/NNP)   CON.TV/NNP   :/:   SOA/NNP   Power/NNP   Panel/NNP   Live/NNP   From/NNP   (PERSON Times/NNP Square/NNP SOA/NNP)   ,/,   (ORGANIZATION WOA/NNP)   and/CC   (PERSON Cloud/NNP Computing/NNP)   :/:   The/DT   (ORGANIZATION New/NNP Frontier/NNP)   for/IN   (ORGANIZATION Data/NNP Services/NNPS)   The/NNP   Opening/NNP   of/IN   (ORGANIZATION     Virtualization/NNP     User/NNP     Environment/NNP     Management/NNP)   ‚/NNP   Ä/NNP   ì/NNP   The/NNP   Third/NNP   Layer/NNP   of/IN   the/DT   (ORGANIZATION Desktop/NNP Cloud/NNP)   Computing/NNP   for/IN   (ORGANIZATION Business/NNP Agility/NNP)   CMIS/NNP   :/:   A/DT   Multi/NNP   Vendor/NNP   Proposal/NNP   for/IN   a/DT   (ORGANIZATION Service/NNP Based/NNP)   Content/NNP   Management/NNP   Interoperability/NNP   (PERSON Standard/NNP Practical/NNP)   SOA&rdquo/NNP   ;/:   (PERSON Max/NNP Yankelevich/NNP)   Architecting/NNP   an/DT   (ORGANIZATION Enterprise/NNP Service/NNP)   Router/NNP   ESR/NNP   ‚/NNP   Ä/NNP   ì/NNP   A/NNP   Cost/NNP   Effective/NNP   Way/NNP   to/TO   (PERSON Scale/NNP SOA/NNP)   Across/NNP   the/DT   (ORGANIZATION Enterprise/NNP Return/NNP)   on/IN   Assests/NNPS   :/:   Bringing/NNP   Visibility/NNP   to/TO   your/PRP$   (ORGANIZATION SOA/NNP Strategy/NNP)   Managing/NNP   (PERSON Hybrid/NNP Endpoint/NNP Environments/NNP)   Game/NNP   Changing/NNP   Technology/NNP   for/IN   (ORGANIZATION Enterprise/NNP Clouds/NNPS)   and/CC   Applications/NNS   (PERSON Get/NNP)   ‚/NNP   Ä/NNP   ò/NNP   (PERSON Rich/NNP)   ‚/NNP   Ä/NNP   ô/NNP   Quick/NNP   :/:   (PERSON Rapid/NNP Prototyping/NNP)   for/IN   (ORGANIZATION RIA/NNP)   with/IN   (ORGANIZATION ZERO/NNP Server/NNP Code/NNP)   Designing/NNP   for/IN   and/CC   Managing/NNP   Performance/NNP   in/IN   the/DT   (ORGANIZATION New/NNP Frontier/NNP)   of/IN   (PERSON Rich/NNP Internet/NNP Applications/NNP How/NNP Can/NNP)   (ORGANIZATION AJAX/NNP Improve/NNP Homeland/NNP)   Security/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB read/VBD more/JJR)
+	(VERB read/VB today/NN)
+noun phrases to consider:
+	(NOUN 02/CD AM/NNP EDT/NNP)
+	(NOUN respond/NN)
+	(NOUN Cloud/NNP Expo/NNP)
+	(NOUN Google/NNP News/NNP Did/NNP)
+	(NOUN SYS/NNP CON.TV/NNP)
+	(NOUN SOA/NNP Power/NNP Panel/NNP Live/NNP)
+	(NOUN From/NNP Times/NNP Square/NNP SOA/NNP)
+	(NOUN WOA/NNP)
+	(NOUN Cloud/NNP Computing/NNP)
+	(NOUN New/NNP Frontier/NNP)
+	(NOUN Data/NNP Services/NNPS The/NNP Opening/NNP)
+	(NOUN Virtualization/NNP User/NNP Environment/NNP Management/NNP)
+	(NOUN ‚/NNP Ä/NNP ì/NNP The/NNP)
+	(NOUN Third/NNP Layer/NNP)
+	(NOUN Desktop/NNP Cloud/NNP Computing/NNP)
+	(NOUN Business/NNP Agility/NNP CMIS/NNP)
+	(NOUN Multi/NNP Vendor/NNP Proposal/NNP)
+	(NOUN Service/NNP Based/NNP Content/NNP Management/NNP)
+	(NOUN Interoperability/NNP Standard/NNP Practical/NNP SOA&rdquo/NNP)
+	(NOUN Max/NNP Yankelevich/NNP Architecting/NNP)
+	(NOUN Enterprise/NNP Service/NNP Router/NNP ESR/NNP)
+	(NOUN ‚/NNP Ä/NNP ì/NNP A/NNP)
+	(NOUN Cost/NNP Effective/NNP Way/NNP)
+	(NOUN Scale/NNP SOA/NNP Across/NNP)
+	(NOUN Enterprise/NNP Return/NNP)
+	(NOUN Assests/NNPS)
+	(NOUN Bringing/NNP Visibility/NNP)
+	(NOUN SOA/NNP Strategy/NNP Managing/NNP Hybrid/NNP)
+	(NOUN Endpoint/NNP Environments/NNP Game/NNP Changing/NNP)
+	(NOUN Technology/NNP)
+	(NOUN Enterprise/NNP Clouds/NNPS)
+	(NOUN Applications/NNS Get/NNP ‚/NNP Ä/NNP)
+	(NOUN ò/NNP Rich/NNP ‚/NNP Ä/NNP)
+	(NOUN ô/NNP Quick/NNP)
+	(NOUN Rapid/NNP Prototyping/NNP)
+	(NOUN RIA/NNP)
+	(NOUN ZERO/NNP Server/NNP Code/NNP Designing/NNP)
+	(NOUN Managing/NNP Performance/NNP)
+	(NOUN New/NNP Frontier/NNP)
+	(NOUN Rich/NNP Internet/NNP Applications/NNP How/NNP)
+	(NOUN Can/NNP AJAX/NNP Improve/NNP Homeland/NNP)
+	(NOUN Security/NNP)
+
+----------------------------------
+original sentence: 
+Beyond Widgets: What a RIA Platform Should Offer
+REAs: Rich Enterprise Applications
+Click For 2008 Event Webcasts
+View Current Issue Cover
+BedfordReport.com: Complimentary Analyst Research on Citigroup, Inc. NYSE: C , Sirius XM Radio, Inc. Nasdaq: SIRI , Motorola, Inc. NYSE: MOT , Microsoft Corp. Nasdaq: MSFT and Many More Note to Editors: The Following Is an Investment Opinion Being Issued by The Bedford Report
+Apr.
+
+POS tagged sentence: 
+[('Beyond', 'NNP'), ('Widgets', 'NNPS'), (':', ':'), ('What', 'WP'), ('a', 'DT'), ('RIA', 'NNP'), ('Platform', 'NNP'), ('Should', 'NNP'), ('Offer', 'NNP'), ('REAs', 'NNP'), (':', ':'), ('Rich', 'NNP'), ('Enterprise', 'NNP'), ('Applications', 'NNP'), ('Click', 'NNP'), ('For', 'NNP'), ('2008', 'CD'), ('Event', 'NNP'), ('Webcasts', 'NNP'), ('View', 'NNP'), ('Current', 'NNP'), ('Issue', 'NNP'), ('Cover', 'NNP'), ('BedfordReport.com', 'NNP'), (':', ':'), ('Complimentary', 'NNP'), ('Analyst', 'NNP'), ('Research', 'NNP'), ('on', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Sirius', 'NNP'), ('XM', 'NNP'), ('Radio', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('SIRI', 'NNP'), (',', ','), ('Motorola', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MOT', 'NNP'), (',', ','), ('Microsoft', 'NNP'), ('Corp.', 'NNP'), ('Nasdaq', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('and', 'CC'), ('Many', 'NNP'), ('More', 'NNP'), ('Note', 'NNP'), ('to', 'TO'), ('Editors', 'NNP'), (':', ':'), ('The', 'DT'), ('Following', 'NNP'), ('Is', 'NNP'), ('an', 'DT'), ('Investment', 'NNP'), ('Opinion', 'NNP'), ('Being', 'NNP'), ('Issued', 'NNP'), ('by', 'IN'), ('The', 'DT'), ('Bedford', 'NNP'), ('Report', 'NNP'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Beyond/NNP)   (ORGANIZATION Widgets/NNPS)   :/:   What/WP   a/DT   (ORGANIZATION RIA/NNP Platform/NNP Should/NNP)   Offer/NNP   REAs/NNP   :/:   (PERSON Rich/NNP Enterprise/NNP Applications/NNP)   (PERSON Click/NNP For/NNP)   2008/CD   Event/NNP   Webcasts/NNP   View/NNP   Current/NNP   Issue/NNP   Cover/NNP   BedfordReport.com/NNP   :/:   Complimentary/NNP   Analyst/NNP   Research/NNP   on/IN   (GPE Citigroup/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   C/NNP   ,/,   (PERSON Sirius/NNP XM/NNP Radio/NNP)   ,/,   Inc./NNP   Nasdaq/NNP   :/:   SIRI/NNP   ,/,   (ORGANIZATION Motorola/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   MOT/NNP   ,/,   (ORGANIZATION Microsoft/NNP Corp./NNP)   Nasdaq/NNP   :/:   MSFT/NNP   and/CC   Many/NNP   More/NNP   Note/NNP   to/TO   (GPE Editors/NNP)   :/:   The/DT   Following/NNP   Is/NNP   an/DT   Investment/NNP   Opinion/NNP   Being/NNP   Issued/NNP   by/IN   The/DT   (ORGANIZATION Bedford/NNP)   Report/NNP   Apr/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Beyond/NNP Widgets/NNPS)
+	(NOUN RIA/NNP Platform/NNP Should/NNP Offer/NNP)
+	(NOUN REAs/NNP)
+	(NOUN Rich/NNP Enterprise/NNP Applications/NNP Click/NNP)
+	(NOUN For/NNP)
+	(NOUN 2008/CD Event/NNP Webcasts/NNP View/NNP Current/NNP)
+	(NOUN Issue/NNP Cover/NNP BedfordReport.com/NNP)
+	(NOUN Complimentary/NNP Analyst/NNP Research/NNP)
+
+tagged sentence:
+	 Complimentary Analyst Research	res:1
+	(NOUN Citigroup/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Sirius/NNP XM/NNP Radio/NNP)
+	(NOUN Inc./NNP Nasdaq/NNP)
+	(NOUN SIRI/NNP)
+	(NOUN Motorola/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MOT/NNP)
+	(NOUN Microsoft/NNP Corp./NNP Nasdaq/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN Many/NNP More/NNP Note/NNP)
+	(NOUN Editors/NNP)
+	(NOUN Following/NNP Is/NNP)
+	(NOUN Investment/NNP Opinion/NNP Being/NNP Issued/NNP)
+	(NOUN Bedford/NNP Report/NNP Apr/NNP)
+
+----------------------------------
+original sentence: 
+5, 2010 12:00 PM
+TORONTO Marketwire 04/05/10 The Bedford Report is pleased to announce that its latest Market Update analyzing recent news and events on Citigroup, Inc. NYSE: C , Sirius XM Radio, Inc. NASDAQ: SIRI , Motorola, Inc. NYSE: MOT , and Microsoft Corp. NASDAQ: MSFT has been released.
+
+POS tagged sentence: 
+[('5', 'LS'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('00', 'CD'), ('PM', 'NNP'), ('TORONTO', 'NNP'), ('Marketwire', 'NNP'), ('04/05/10', 'CD'), ('The', 'NNP'), ('Bedford', 'NNP'), ('Report', 'NNP'), ('is', 'VBZ'), ('pleased', 'VBN'), ('to', 'TO'), ('announce', 'NN'), ('that', 'IN'), ('its', 'PRP$'), ('latest', 'JJS'), ('Market', 'NNP'), ('Update', 'NNP'), ('analyzing', 'VBG'), ('recent', 'JJ'), ('news', 'NN'), ('and', 'CC'), ('events', 'NNS'), ('on', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Sirius', 'NNP'), ('XM', 'NNP'), ('Radio', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('SIRI', 'NNP'), (',', ','), ('Motorola', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MOT', 'NNP'), (',', ','), ('and', 'CC'), ('Microsoft', 'NNP'), ('Corp.', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('MSFT', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('released', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   5/LS   ,/,   2010/CD   12/CD   :/:   00/CD   PM/NNP   (ORGANIZATION TORONTO/NNP)   Marketwire/NNP   04/05/10/CD   The/NNP   (ORGANIZATION Bedford/NNP Report/NNP)   is/VBZ   pleased/VBN   to/TO   announce/NN   that/IN   its/PRP$   latest/JJS   (PERSON Market/NNP Update/NNP)   analyzing/VBG   recent/JJ   news/NN   and/CC   events/NNS   on/IN   (GPE Citigroup/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   C/NNP   ,/,   (PERSON Sirius/NNP XM/NNP Radio/NNP)   ,/,   Inc./NNP   NASDAQ/NNP   :/:   SIRI/NNP   ,/,   (ORGANIZATION Motorola/NNP)   ,/,   Inc./NNP   NYSE/NNP   :/:   MOT/NNP   ,/,   and/CC   (ORGANIZATION Microsoft/NNP Corp./NNP)   NASDAQ/NNP   :/:   (ORGANIZATION MSFT/NNP)   has/VBZ   been/VBN   released/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ pleased/VBN)
+	(VERB analyzing/VBG recent/JJ news/NN)
+	(VERB has/VBZ been/VBN released/VBN)
+noun phrases to consider:
+	(NOUN 00/CD PM/NNP TORONTO/NNP Marketwire/NNP)
+	(NOUN 04/05/10/CD The/NNP Bedford/NNP Report/NNP)
+	(NOUN announce/NN)
+	(NOUN latest/JJS Market/NNP Update/NNP)
+	(NOUN events/NNS)
+	(NOUN Citigroup/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Sirius/NNP XM/NNP Radio/NNP)
+	(NOUN Inc./NNP NASDAQ/NNP)
+	(NOUN SIRI/NNP)
+	(NOUN Motorola/NNP)
+	(NOUN Inc./NNP NYSE/NNP)
+	(NOUN MOT/NNP)
+	(NOUN Microsoft/NNP Corp./NNP NASDAQ/NNP)
+	(NOUN MSFT/NNP)
+
+----------------------------------
+original sentence: 
+In this issue of The Bedford Report we weigh the pros and cons of a Sirius reverse stock split and discuss Motorola's growth strategies.
+
+POS tagged sentence: 
+[('In', 'IN'), ('this', 'DT'), ('issue', 'NN'), ('of', 'IN'), ('The', 'DT'), ('Bedford', 'NNP'), ('Report', 'NNP'), ('we', 'PRP'), ('weigh', 'VBP'), ('the', 'DT'), ('pros', 'NNS'), ('and', 'CC'), ('cons', 'NNS'), ('of', 'IN'), ('a', 'DT'), ('Sirius', 'NNP'), ('reverse', 'NN'), ('stock', 'NN'), ('split', 'NN'), ('and', 'CC'), ('discuss', 'NN'), ('Motorola', 'NNP'), ("'s", 'POS'), ('growth', 'NN'), ('strategies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   this/DT   issue/NN   of/IN   The/DT   (ORGANIZATION Bedford/NNP)   Report/NNP   we/PRP   weigh/VBP   the/DT   pros/NNS   and/CC   cons/NNS   of/IN   a/DT   (GPE Sirius/NNP)   reverse/NN   stock/NN   split/NN   and/CC   discuss/NN   (ORGANIZATION Motorola/NNP)   's/POS   growth/NN   strategies/NNS   ./.)
+----------------------------------
+original sentence: 
+We also analyze current trends with Microsoft and, following all the positive news from Citigroup, our analysts explain why they have raised their outlook for the money center bank.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('also', 'RB'), ('analyze', 'VBP'), ('current', 'JJ'), ('trends', 'NNS'), ('with', 'IN'), ('Microsoft', 'NNP'), ('and', 'CC'), (',', ','), ('following', 'VBG'), ('all', 'DT'), ('the', 'DT'), ('positive', 'JJ'), ('news', 'NN'), ('from', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('our', 'PRP$'), ('analysts', 'NNS'), ('explain', 'VB'), ('why', 'WRB'), ('they', 'PRP'), ('have', 'VBP'), ('raised', 'VBN'), ('their', 'PRP$'), ('outlook', 'NN'), ('for', 'IN'), ('the', 'DT'), ('money', 'NN'), ('center', 'NN'), ('bank', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   also/RB   analyze/VBP   current/JJ   trends/NNS   with/IN   (PERSON Microsoft/NNP)   and/CC   ,/,   following/VBG   all/DT   the/DT   positive/JJ   news/NN   from/IN   (GPE Citigroup/NNP)   ,/,   our/PRP$   analysts/NNS   explain/VB   why/WRB   they/PRP   have/VBP   raised/VBN   their/PRP$   outlook/NN   for/IN   the/DT   money/NN   center/NN   bank/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB analyze/VBP current/JJ trends/NNS with/IN Microsoft/NNP)
+	(VERB   following/VBG   all/DT   the/DT   positive/JJ   news/NN   from/IN   Citigroup/NNP)
+
+tagged sentence:
+	 following all the positive news from Citigroup	res:1
+	(VERB explain/VB)
+	(VERB   have/VBP   raised/VBN   their/PRP$   outlook/NN   for/IN   the/DT   money/NN   center/NN   bank/NN)
+noun phrases to consider:
+	(NOUN analysts/NNS)
+
+----------------------------------
+original sentence: 
+There is much more analysis regarding these companies and many more available at www.bedfordreport.com
+
+Our updated analyst reports on Citigroup, Sirius, Motorola and Microsoft include:
+
+
+ An unbiased view and rating of the company
+
+ Recent key developments
+
+ Solid analyst summary who's saying what and why?
+
+POS tagged sentence: 
+[('There', 'EX'), ('is', 'VBZ'), ('much', 'JJ'), ('more', 'RBR'), ('analysis', 'NN'), ('regarding', 'VBG'), ('these', 'DT'), ('companies', 'NNS'), ('and', 'CC'), ('many', 'JJ'), ('more', 'RBR'), ('available', 'JJ'), ('at', 'IN'), ('www.bedfordreport.com', 'JJ'), ('Our', 'NNP'), ('updated', 'VBD'), ('analyst', 'NN'), ('reports', 'NNS'), ('on', 'IN'), ('Citigroup', 'NNP'), (',', ','), ('Sirius', 'NNP'), (',', ','), ('Motorola', 'NNP'), ('and', 'CC'), ('Microsoft', 'NNP'), ('include', 'VBP'), (':', ':'), ('An', 'DT'), ('unbiased', 'VBN'), ('view', 'NN'), ('and', 'CC'), ('rating', 'NN'), ('of', 'IN'), ('the', 'DT'), ('company', 'NN'), ('Recent', 'NNP'), ('key', 'JJ'), ('developments', 'NNS'), ('Solid', 'NNP'), ('analyst', 'NN'), ('summary', 'NN'), ('who', 'WP'), ("'s", 'VBZ'), ('saying', 'VBG'), ('what', 'WP'), ('and', 'CC'), ('why', 'WRB'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   is/VBZ   much/JJ   more/RBR   analysis/NN   regarding/VBG   these/DT   companies/NNS   and/CC   many/JJ   more/RBR   available/JJ   at/IN   (ORGANIZATION www.bedfordreport.com/JJ Our/NNP)   updated/VBD   analyst/NN   reports/NNS   on/IN   (GPE Citigroup/NNP)   ,/,   (PERSON Sirius/NNP)   ,/,   (ORGANIZATION Motorola/NNP)   and/CC   (ORGANIZATION Microsoft/NNP)   include/VBP   :/:   An/DT   unbiased/VBN   view/NN   and/CC   rating/NN   of/IN   the/DT   company/NN   Recent/NNP   key/JJ   developments/NNS   (PERSON Solid/NNP)   analyst/NN   summary/NN   who/WP   's/VBZ   saying/VBG   what/WP   and/CC   why/WRB   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ much/JJ)
+	(VERB regarding/VBG these/DT companies/NNS)
+	(VERB updated/VBD analyst/NN reports/NNS on/IN Citigroup/NNP)
+	(VERB include/VBP)
+	(VERB unbiased/VBN view/NN)
+	(VERB 's/VBZ saying/VBG)
+noun phrases to consider:
+	(NOUN analysis/NN)
+	(NOUN many/JJ)
+	(NOUN available/JJ)
+	(NOUN www.bedfordreport.com/JJ Our/NNP)
+	(NOUN Sirius/NNP)
+	(NOUN Motorola/NNP)
+	(NOUN Microsoft/NNP)
+	(NOUN rating/NN)
+	(NOUN   the/DT   company/NN   Recent/NNP   key/JJ   developments/NNS   Solid/NNP   analyst/NN   summary/NN)
+
+----------------------------------
+original sentence: 
+In depth industry analysis and outlook
+
+ Major upcoming events to watch out for
+
+
+Take the few minutes to register with us at www.BedfordReport.com
+ and get access to numerous company reports and industry newsletters and stay abreast of market highlights so you can make the best investment decisions at the right time.
+
+POS tagged sentence: 
+[('In', 'IN'), ('depth', 'NN'), ('industry', 'NN'), ('analysis', 'NN'), ('and', 'CC'), ('outlook', 'NN'), ('Major', 'NNP'), ('upcoming', 'NN'), ('events', 'NNS'), ('to', 'TO'), ('watch', 'VB'), ('out', 'RP'), ('for', 'IN'), ('Take', 'NNP'), ('the', 'DT'), ('few', 'JJ'), ('minutes', 'NNS'), ('to', 'TO'), ('register', 'VB'), ('with', 'IN'), ('us', 'PRP'), ('at', 'IN'), ('www.BedfordReport.com', 'JJ'), ('and', 'CC'), ('get', 'VB'), ('access', 'NN'), ('to', 'TO'), ('numerous', 'JJ'), ('company', 'NN'), ('reports', 'NNS'), ('and', 'CC'), ('industry', 'NN'), ('newsletters', 'NNS'), ('and', 'CC'), ('stay', 'NN'), ('abreast', 'NN'), ('of', 'IN'), ('market', 'NN'), ('highlights', 'NNS'), ('so', 'RB'), ('you', 'PRP'), ('can', 'MD'), ('make', 'VB'), ('the', 'DT'), ('best', 'JJS'), ('investment', 'NN'), ('decisions', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('right', 'NN'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   depth/NN   industry/NN   analysis/NN   and/CC   outlook/NN   Major/NNP   upcoming/NN   events/NNS   to/TO   watch/VB   out/RP   for/IN   Take/NNP   the/DT   few/JJ   minutes/NNS   to/TO   register/VB   with/IN   us/PRP   at/IN   (ORGANIZATION www.BedfordReport.com/JJ)   and/CC   get/VB   access/NN   to/TO   numerous/JJ   company/NN   reports/NNS   and/CC   industry/NN   newsletters/NNS   and/CC   stay/NN   abreast/NN   of/IN   market/NN   highlights/NNS   so/RB   you/PRP   can/MD   make/VB   the/DT   best/JJS   investment/NN   decisions/NNS   at/IN   the/DT   right/NN   time/NN   ./.)
+----------------------------------
+original sentence: 
+Like you, we realize that timing is everything and so we only put out updates and analysis when the markets are ripe for immediate action.
+
+POS tagged sentence: 
+[('Like', 'IN'), ('you', 'PRP'), (',', ','), ('we', 'PRP'), ('realize', 'VBP'), ('that', 'IN'), ('timing', 'VBG'), ('is', 'VBZ'), ('everything', 'VBG'), ('and', 'CC'), ('so', 'RB'), ('we', 'PRP'), ('only', 'RB'), ('put', 'VBD'), ('out', 'RP'), ('updates', 'NNS'), ('and', 'CC'), ('analysis', 'NN'), ('when', 'WRB'), ('the', 'DT'), ('markets', 'NNS'), ('are', 'VBP'), ('ripe', 'NN'), ('for', 'IN'), ('immediate', 'JJ'), ('action', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Like/IN   you/PRP   ,/,   we/PRP   realize/VBP   that/IN   timing/VBG   is/VBZ   everything/VBG   and/CC   so/RB   we/PRP   only/RB   put/VBD   out/RP   updates/NNS   and/CC   analysis/NN   when/WRB   the/DT   markets/NNS   are/VBP   ripe/NN   for/IN   immediate/JJ   action/NN   ./.)
+----------------------------------
+original sentence: 
+BedfordReport.com has not been compensated by any of the above mentioned companies.
+
+POS tagged sentence: 
+[('BedfordReport.com', 'NN'), ('has', 'VBZ'), ('not', 'RB'), ('been', 'VBN'), ('compensated', 'VBN'), ('by', 'IN'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('above', 'JJ'), ('mentioned', 'VBN'), ('companies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   BedfordReport.com/NN   has/VBZ   not/RB   been/VBN   compensated/VBN   by/IN   any/DT   of/IN   the/DT   above/JJ   mentioned/VBN   companies/NNS   ./.)
+----------------------------------
+original sentence: 
+We act as an independent research portal and are aware that all investment entails inherent risks.
+
+POS tagged sentence: 
+[('We', 'PRP'), ('act', 'VBP'), ('as', 'IN'), ('an', 'DT'), ('independent', 'JJ'), ('research', 'NN'), ('portal', 'NN'), ('and', 'CC'), ('are', 'VBP'), ('aware', 'JJ'), ('that', 'IN'), ('all', 'DT'), ('investment', 'NN'), ('entails', 'NNS'), ('inherent', 'JJ'), ('risks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   We/PRP   act/VBP   as/IN   an/DT   independent/JJ   research/NN   portal/NN   and/CC   are/VBP   aware/JJ   that/IN   all/DT   investment/NN   entails/NNS   inherent/JJ   risks/NNS   ./.)
+----------------------------------
+original sentence: 
+Please view the full disclaimer: http://www.BedfordReport.com/disclaimer.php
+
+Published Apr.
+
+POS tagged sentence: 
+[('Please', 'NN'), ('view', 'VBD'), ('the', 'DT'), ('full', 'JJ'), ('disclaimer', 'NN'), (':', ':'), ('http', 'NN'), (':', ':'), ('//www.BedfordReport.com/disclaimer.php', 'JJ'), ('Published', 'NNP'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   view/VBD   the/DT   full/JJ   disclaimer/NN   :/:   http/NN   :/:   //www.BedfordReport.com/disclaimer.php/JJ   Published/NNP   Apr/NNP   ./.)
+----------------------------------
+original sentence: 
+5, 2010&mdash; Reads 881 Copyright &copy; 2010 SYS CON Media, Inc. &mdash; All Rights Reserved.
+
+POS tagged sentence: 
+[('5', 'LS'), (',', ','), ('2010&mdash', 'JJ'), (';', ':'), ('Reads', 'NNP'), ('881', 'CD'), ('Copyright', 'NNP'), ('&copy', 'NNP'), (';', ':'), ('2010', 'CD'), ('SYS', 'NNS'), ('CON', 'NNP'), ('Media', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('&mdash', 'JJ'), (';', ':'), ('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   5/LS   ,/,   2010&mdash/JJ   ;/:   Reads/NNP   881/CD   Copyright/NNP   &copy/NNP   ;/:   2010/CD   SYS/NNS   (ORGANIZATION CON/NNP Media/NNP)   ,/,   Inc./NNP   &mdash/JJ   ;/:   All/DT   Rights/NNS   Reserved/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Reserved/VBN)
+noun phrases to consider:
+	(NOUN 2010&mdash/JJ)
+	(NOUN Reads/NNP)
+	(NOUN 881/CD Copyright/NNP &copy/NNP)
+	(NOUN 2010/CD SYS/NNS CON/NNP Media/NNP)
+	(NOUN Inc./NNP &mdash/JJ)
+	(NOUN Rights/NNS)
+
+----------------------------------
+original sentence: 
+Syndicated stories and blog feeds, all rights reserved by the author.
+
+POS tagged sentence: 
+[('Syndicated', 'NNP'), ('stories', 'NNS'), ('and', 'CC'), ('blog', 'NN'), ('feeds', 'NNS'), (',', ','), ('all', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('author', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Syndicated/NNP)   stories/NNS   and/CC   blog/NN   feeds/NNS   ,/,   all/DT   rights/NNS   reserved/VBN   by/IN   the/DT   author/NN   ./.)
+----------------------------------
+original sentence: 
+Copyright ¬© 2009 Marketwire.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('\xc2', ':'), ('\xa9', ':'), ('2009', 'CD'), ('Marketwire', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Copyright/NNP) ¬/: ©/: 2009/CD Marketwire/NNP ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Copyright/NNP)
+	(NOUN 2009/CD Marketwire/NNP)
+
+----------------------------------
+original sentence: 
+All rights reserved.
+
+POS tagged sentence: 
+[('All', 'DT'), ('rights', 'NNS'), ('reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT rights/NNS reserved/VBN ./.)
+----------------------------------
+original sentence: 
+All the news releases provided by Market Wire are copyrighted.
+
+POS tagged sentence: 
+[('All', 'DT'), ('the', 'DT'), ('news', 'NN'), ('releases', 'NNS'), ('provided', 'VBN'), ('by', 'IN'), ('Market', 'NNP'), ('Wire', 'NNP'), ('are', 'VBP'), ('copyrighted', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   All/DT   the/DT   news/NN   releases/NNS   provided/VBN   by/IN   (PERSON Market/NNP Wire/NNP)   are/VBP   copyrighted/VBN   ./.)
+----------------------------------
+original sentence: 
+Any forms of copying other than an individual user's personal reference without express written permission is prohibited.
+
+POS tagged sentence: 
+[('Any', 'DT'), ('forms', 'NNS'), ('of', 'IN'), ('copying', 'VBG'), ('other', 'JJ'), ('than', 'IN'), ('an', 'DT'), ('individual', 'NN'), ('user', 'NN'), ("'s", 'POS'), ('personal', 'JJ'), ('reference', 'NN'), ('without', 'IN'), ('express', 'NN'), ('written', 'VBN'), ('permission', 'NN'), ('is', 'VBZ'), ('prohibited', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Any/DT   forms/NNS   of/IN   copying/VBG   other/JJ   than/IN   an/DT   individual/NN   user/NN   's/POS   personal/JJ   reference/NN   without/IN   express/NN   written/VBN   permission/NN   is/VBZ   prohibited/VBN   ./.)
+----------------------------------
+original sentence: 
+Further distribution of these materials is strictly forbidden, including but not limited to, posting, emailing, faxing, archiving in a public database, redistributing via a computer network or in a printed form.
+
+POS tagged sentence: 
+[('Further', 'RB'), ('distribution', 'NN'), ('of', 'IN'), ('these', 'DT'), ('materials', 'NNS'), ('is', 'VBZ'), ('strictly', 'RB'), ('forbidden', 'VBN'), (',', ','), ('including', 'VBG'), ('but', 'CC'), ('not', 'RB'), ('limited', 'VBN'), ('to', 'TO'), (',', ','), ('posting', 'VBG'), (',', ','), ('emailing', 'VBG'), (',', ','), ('faxing', 'VBG'), (',', ','), ('archiving', 'VBG'), ('in', 'IN'), ('a', 'DT'), ('public', 'JJ'), ('database', 'NN'), (',', ','), ('redistributing', 'VBG'), ('via', 'IN'), ('a', 'DT'), ('computer', 'NN'), ('network', 'NN'), ('or', 'CC'), ('in', 'IN'), ('a', 'DT'), ('printed', 'VBN'), ('form', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Further/RB   distribution/NN   of/IN   these/DT   materials/NNS   is/VBZ   strictly/RB   forbidden/VBN   ,/,   including/VBG   but/CC   not/RB   limited/VBN   to/TO   ,/,   posting/VBG   ,/,   emailing/VBG   ,/,   faxing/VBG   ,/,   archiving/VBG   in/IN   a/DT   public/JJ   database/NN   ,/,   redistributing/VBG   via/IN   a/DT   computer/NN   network/NN   or/CC   in/IN   a/DT   printed/VBN   form/NN   ./.)
+----------------------------------
+original sentence: 
+Latest AJAXWorld RIA Stories
+Apple Checkmates Adobe
+Adobe introduced its Creative Suite 5 CS5 Monday, the thing on which nearly 60% of its revenues depends, the thing that‚Äôs got to sell better than recession tossed CS4 did, in the middle of a hailstorm that drew more attention to it than it normally would have gotten.
+
+POS tagged sentence: 
+[('Latest', 'JJS'), ('AJAXWorld', 'NNP'), ('RIA', 'NNP'), ('Stories', 'NNP'), ('Apple', 'NNP'), ('Checkmates', 'NNP'), ('Adobe', 'NNP'), ('Adobe', 'NNP'), ('introduced', 'VBD'), ('its', 'PRP$'), ('Creative', 'NNP'), ('Suite', 'NNP'), ('5', 'CD'), ('CS5', 'NNP'), ('Monday', 'NNP'), (',', ','), ('the', 'DT'), ('thing', 'NN'), ('on', 'IN'), ('which', 'WDT'), ('nearly', 'RB'), ('60', 'CD'), ('%', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('revenues', 'NNS'), ('depends', 'NNS'), (',', ','), ('the', 'DT'), ('thing', 'NN'), ('that', 'WDT'), ('\xe2', '-NONE-'), ('\x80', 'VBP'), ('\x99', ':'), ('s', 'NNS'), ('got', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('better', 'JJR'), ('than', 'IN'), ('recession', 'NN'), ('tossed', 'VBN'), ('CS4', 'NNP'), ('did', 'VBD'), (',', ','), ('in', 'IN'), ('the', 'DT'), ('middle', 'NN'), ('of', 'IN'), ('a', 'DT'), ('hailstorm', 'NN'), ('that', 'WDT'), ('drew', 'VBD'), ('more', 'JJR'), ('attention', 'NN'), ('to', 'TO'), ('it', 'PRP'), ('than', 'IN'), ('it', 'PRP'), ('normally', 'RB'), ('would', 'MD'), ('have', 'VB'), ('gotten', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Latest/JJS   (ORGANIZATION AJAXWorld/NNP)   RIA/NNP   Stories/NNP   Apple/NNP   Checkmates/NNP   Adobe/NNP   (PERSON Adobe/NNP)   introduced/VBD   its/PRP$   Creative/NNP   Suite/NNP   5/CD   (ORGANIZATION CS5/NNP)   Monday/NNP   ,/,   the/DT   thing/NN   on/IN   which/WDT   nearly/RB   60/CD   %/NN   of/IN   its/PRP$   revenues/NNS   depends/NNS   ,/,   the/DT   thing/NN   that/WDT   ‚/-NONE-   Ä/VBP   ô/:   s/NNS   got/VBD   to/TO   sell/VB   better/JJR   than/IN   recession/NN   tossed/VBN   (ORGANIZATION CS4/NNP)   did/VBD   ,/,   in/IN   the/DT   middle/NN   of/IN   a/DT   hailstorm/NN   that/WDT   drew/VBD   more/JJR   attention/NN   to/TO   it/PRP   than/IN   it/PRP   normally/RB   would/MD   have/VB   gotten/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   introduced/VBD   its/PRP$   Creative/NNP   Suite/NNP   5/CD   CS5/NNP   Monday/NNP)
+	(VERB Ä/VBP)
+	(VERB got/VBD to/TO sell/VB better/JJR than/IN recession/NN)
+
+tagged sentence:
+	 got to sell better than recession	res:-1
+	(VERB tossed/VBN CS4/NNP)
+	(VERB did/VBD)
+	(VERB drew/VBD more/JJR attention/NN)
+	(VERB have/VB gotten/VBN)
+noun phrases to consider:
+	(NOUN Latest/JJS AJAXWorld/NNP RIA/NNP Stories/NNP Apple/NNP)
+	(NOUN Checkmates/NNP Adobe/NNP Adobe/NNP)
+	(NOUN thing/NN)
+	(NOUN %/NN)
+	(NOUN revenues/NNS depends/NNS)
+
+tagged sentence:
+	 revenues depends	res:1
+	(NOUN thing/NN)
+	(NOUN s/NNS)
+	(NOUN middle/NN)
+	(NOUN hailstorm/NN)
+
+----------------------------------
+original sentence: 
+Last Thu...
+Apr.
+
+POS tagged sentence: 
+[('Last', 'JJ'), ('Thu..', 'NNP'), ('.', '.'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Last/JJ Thu../NNP ./. Apr/NNP ./.)
+----------------------------------
+original sentence: 
+16, 2010 10:45 AM EDT
+Garbage Collection in IE7
+After my recent presentation at TSSJS ‚Äì Performance Anti Patterns in AJAX Applications I got interesting feedback from one of the attendees: ‚ÄúThe presentation was good but I thought you are talking more about actual problems with XHR/AJAX Requests‚Äù.
+
+POS tagged sentence: 
+[('16', 'CD'), (',', ','), ('2010', 'CD'), ('10', 'CD'), (':', ':'), ('45', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('Garbage', 'NNP'), ('Collection', 'NNP'), ('in', 'IN'), ('IE7', 'NNP'), ('After', 'NNP'), ('my', 'PRP$'), ('recent', 'JJ'), ('presentation', 'NN'), ('at', 'IN'), ('TSSJS', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x93', 'NNP'), ('Performance', 'NNP'), ('Anti', 'NNP'), ('Patterns', 'NNP'), ('in', 'IN'), ('AJAX', 'NNP'), ('Applications', 'NNPS'), ('I', 'PRP'), ('got', 'VBD'), ('interesting', 'JJ'), ('feedback', 'NN'), ('from', 'IN'), ('one', 'CD'), ('of', 'IN'), ('the', 'DT'), ('attendees', 'NNS'), (':', ':'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('The', 'DT'), ('presentation', 'NN'), ('was', 'VBD'), ('good', 'JJ'), ('but', 'CC'), ('I', 'PRP'), ('thought', 'VBD'), ('you', 'PRP'), ('are', 'VBP'), ('talking', 'VBG'), ('more', 'JJR'), ('about', 'IN'), ('actual', 'JJ'), ('problems', 'NNS'), ('with', 'IN'), ('XHR/AJAX', 'JJ'), ('Requests', 'NNS'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   16/CD   ,/,   2010/CD   10/CD   :/:   45/CD   AM/NNP   EDT/NNP   Garbage/NNP   Collection/NNP   in/IN   (ORGANIZATION IE7/NNP)   After/NNP   my/PRP$   recent/JJ   presentation/NN   at/IN   (ORGANIZATION TSSJS/NNP)   ‚/NNP   Ä/NNP   ì/NNP   Performance/NNP   Anti/NNP   Patterns/NNP   in/IN   (ORGANIZATION AJAX/NNP Applications/NNPS)   I/PRP   got/VBD   interesting/JJ   feedback/NN   from/IN   one/CD   of/IN   the/DT   attendees/NNS   :/:   ‚/:   Ä/:   ú/:   The/DT   presentation/NN   was/VBD   good/JJ   but/CC   I/PRP   thought/VBD   you/PRP   are/VBP   talking/VBG   more/JJR   about/IN   actual/JJ   problems/NNS   with/IN   XHR/AJAX/JJ   Requests/NNS   ‚/:   Ä/:   ù/:   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   got/VBD   interesting/JJ   feedback/NN   from/IN   one/CD   of/IN   the/DT   attendees/NNS)
+	(VERB was/VBD good/JJ)
+
+tagged sentence:
+	 was good	res:1
+	(VERB thought/VBD you/PRP)
+	(VERB   are/VBP   talking/VBG   more/JJR   about/IN   actual/JJ   problems/NNS   with/IN   XHR/AJAX/JJ   Requests/NNS)
+
+tagged sentence:
+	 are talking more about actual problems with XHR/AJAX Requests	res:-1
+noun phrases to consider:
+	(NOUN 45/CD AM/NNP EDT/NNP Garbage/NNP Collection/NNP)
+	(NOUN IE7/NNP After/NNP)
+	(NOUN recent/JJ presentation/NN)
+	(NOUN TSSJS/NNP ‚/NNP Ä/NNP ì/NNP)
+	(NOUN Performance/NNP Anti/NNP Patterns/NNP)
+	(NOUN AJAX/NNP Applications/NNPS)
+	(NOUN presentation/NN)
+
+----------------------------------
+original sentence: 
+I have to admit that I focus...
+Apr.
+
+POS tagged sentence: 
+[('I', 'PRP'), ('have', 'VBP'), ('to', 'TO'), ('admit', 'VB'), ('that', 'IN'), ('I', 'PRP'), ('focus..', 'NNP'), ('.', '.'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   I/PRP   have/VBP   to/TO   admit/VB   that/IN   I/PRP   focus../NNP   ./.   Apr/NNP   ./.)
+----------------------------------
+original sentence: 
+15, 2010 12:08 PM EDT
+Adobe Introduces Adobe Flash Catalyst CS5
+Adobe introduced on Monday Adobe Flash Catalyst CS5, the new professional interaction design tool that allows designers to rapidly create expressive Web application interfaces and design interaction without writing code.
+
+POS tagged sentence: 
+[('15', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('08', 'CD'), ('PM', 'NNP'), ('EDT', 'NNP'), ('Adobe', 'NNP'), ('Introduces', 'NNPS'), ('Adobe', 'NNP'), ('Flash', 'NNP'), ('Catalyst', 'NNP'), ('CS5', 'NNP'), ('Adobe', 'NNP'), ('introduced', 'VBD'), ('on', 'IN'), ('Monday', 'NNP'), ('Adobe', 'NNP'), ('Flash', 'NNP'), ('Catalyst', 'NNP'), ('CS5', 'NNP'), (',', ','), ('the', 'DT'), ('new', 'JJ'), ('professional', 'JJ'), ('interaction', 'NN'), ('design', 'NN'), ('tool', 'NN'), ('that', 'WDT'), ('allows', 'VBZ'), ('designers', 'NNS'), ('to', 'TO'), ('rapidly', 'RB'), ('create', 'VB'), ('expressive', 'JJ'), ('Web', 'NNP'), ('application', 'NN'), ('interfaces', 'NNS'), ('and', 'CC'), ('design', 'NN'), ('interaction', 'NN'), ('without', 'IN'), ('writing', 'NN'), ('code', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   15/CD   ,/,   2010/CD   12/CD   :/:   08/CD   PM/NNP   EDT/NNP   Adobe/NNP   Introduces/NNPS   (PERSON Adobe/NNP Flash/NNP Catalyst/NNP)   CS5/NNP   (PERSON Adobe/NNP)   introduced/VBD   on/IN   Monday/NNP   Adobe/NNP   Flash/NNP   Catalyst/NNP   CS5/NNP   ,/,   the/DT   new/JJ   professional/JJ   interaction/NN   design/NN   tool/NN   that/WDT   allows/VBZ   designers/NNS   to/TO   rapidly/RB   create/VB   expressive/JJ   Web/NNP   application/NN   interfaces/NNS   and/CC   design/NN   interaction/NN   without/IN   writing/NN   code/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   introduced/VBD   on/IN   Monday/NNP   Adobe/NNP   Flash/NNP   Catalyst/NNP   CS5/NNP)
+	(VERB allows/VBZ designers/NNS)
+	(VERB create/VB expressive/JJ Web/NNP application/NN interfaces/NNS)
+noun phrases to consider:
+	(NOUN 08/CD PM/NNP EDT/NNP Adobe/NNP Introduces/NNPS)
+	(NOUN Adobe/NNP Flash/NNP Catalyst/NNP CS5/NNP)
+	(NOUN Adobe/NNP)
+	(NOUN the/DT new/JJ professional/JJ interaction/NN design/NN tool/NN)
+	(NOUN design/NN interaction/NN)
+	(NOUN writing/NN code/NN)
+
+----------------------------------
+original sentence: 
+With Adobe Flash Catalyst CS5, Flash Professional CS5 an...
+Apr.
+
+POS tagged sentence: 
+[('With', 'IN'), ('Adobe', 'NNP'), ('Flash', 'NNP'), ('Catalyst', 'NNP'), ('CS5', 'NNP'), (',', ','), ('Flash', 'NNP'), ('Professional', 'NNP'), ('CS5', 'NNP'), ('an..', 'NNP'), ('.', '.'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   With/IN   (PERSON Adobe/NNP Flash/NNP Catalyst/NNP CS5/NNP)   ,/,   (PERSON Flash/NNP Professional/NNP)   CS5/NNP   an../NNP   ./.   Apr/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Adobe/NNP Flash/NNP Catalyst/NNP CS5/NNP)
+	(NOUN Flash/NNP Professional/NNP CS5/NNP an../NNP)
+	(NOUN Apr/NNP)
+
+----------------------------------
+original sentence: 
+12, 2010 08:05 AM EDT
+IBM Reads Orwell‚Äôs ‚Äú1984,‚Äù Tries Rewriting History
+Once the news got out that it had welched on its 2005 patent pledge to the open source community and had threatened TurboHercules TH with patent infringement, IBM had to come up with some cover story or another to contain the fallout.
+
+POS tagged sentence: 
+[('12', 'CD'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('05', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('IBM', 'NNP'), ('Reads', 'NNP'), ('Orwell', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('\xe2', ':'), ('\x80', ':'), ('\x9c', ':'), ('1984', 'CD'), (',', ','), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('Tries', 'NNPS'), ('Rewriting', 'NNP'), ('History', 'NNP'), ('Once', 'NNP'), ('the', 'DT'), ('news', 'NN'), ('got', 'VBD'), ('out', 'RP'), ('that', 'IN'), ('it', 'PRP'), ('had', 'VBD'), ('welched', 'VBN'), ('on', 'IN'), ('its', 'PRP$'), ('2005', 'CD'), ('patent', 'NN'), ('pledge', 'NN'), ('to', 'TO'), ('the', 'DT'), ('open', 'JJ'), ('source', 'NN'), ('community', 'NN'), ('and', 'CC'), ('had', 'VBD'), ('threatened', 'VBN'), ('TurboHercules', 'NNP'), ('TH', 'NNP'), ('with', 'IN'), ('patent', 'NN'), ('infringement', 'NN'), (',', ','), ('IBM', 'NNP'), ('had', 'VBD'), ('to', 'TO'), ('come', 'VB'), ('up', 'RP'), ('with', 'IN'), ('some', 'DT'), ('cover', 'NN'), ('story', 'NN'), ('or', 'CC'), ('another', 'DT'), ('to', 'TO'), ('contain', 'VB'), ('the', 'DT'), ('fallout', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   12/CD   ,/,   2010/CD   08/CD   :/:   05/CD   AM/NNP   EDT/NNP   IBM/NNP   Reads/NNP   (PERSON Orwell/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   ‚/:   Ä/:   ú/:   1984/CD   ,/,   ‚/:   Ä/:   ù/:   Tries/NNPS   Rewriting/NNP   History/NNP   Once/NNP   the/DT   news/NN   got/VBD   out/RP   that/IN   it/PRP   had/VBD   welched/VBN   on/IN   its/PRP$   2005/CD   patent/NN   pledge/NN   to/TO   the/DT   open/JJ   source/NN   community/NN   and/CC   had/VBD   threatened/VBN   (ORGANIZATION TurboHercules/NNP)   TH/NNP   with/IN   patent/NN   infringement/NN   ,/,   (ORGANIZATION IBM/NNP)   had/VBD   to/TO   come/VB   up/RP   with/IN   some/DT   cover/NN   story/NN   or/CC   another/DT   to/TO   contain/VB   the/DT   fallout/NN   ./.)
+----------------------------------
+original sentence: 
+So it switched places with many of its obse...
+Apr.
+
+POS tagged sentence: 
+[('So', 'IN'), ('it', 'PRP'), ('switched', 'VBD'), ('places', 'NNS'), ('with', 'IN'), ('many', 'JJ'), ('of', 'IN'), ('its', 'PRP$'), ('obse..', 'NNP'), ('.', '.'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   So/IN   it/PRP   switched/VBD   places/NNS   with/IN   many/JJ   of/IN   its/PRP$   obse../NNP   ./.   Apr/NNP   ./.)
+----------------------------------
+original sentence: 
+9, 2010 03:30 PM EDT
+Flash Player Will Be Packaged with Google Chrome
+Adobe has announced that they made a deal with Google: the new releases of Chrome Web browser will be packaged with the latest version of Flash Player.
+
+POS tagged sentence: 
+[('9', 'CD'), (',', ','), ('2010', 'CD'), ('03', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('EDT', 'NNP'), ('Flash', 'NNP'), ('Player', 'NNP'), ('Will', 'NNP'), ('Be', 'NNP'), ('Packaged', 'NNP'), ('with', 'IN'), ('Google', 'NNP'), ('Chrome', 'NNP'), ('Adobe', 'NNP'), ('has', 'VBZ'), ('announced', 'VBN'), ('that', 'IN'), ('they', 'PRP'), ('made', 'VBD'), ('a', 'DT'), ('deal', 'NN'), ('with', 'IN'), ('Google', 'NNP'), (':', ':'), ('the', 'DT'), ('new', 'JJ'), ('releases', 'NNS'), ('of', 'IN'), ('Chrome', 'NNP'), ('Web', 'NNP'), ('browser', 'NN'), ('will', 'MD'), ('be', 'VB'), ('packaged', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('latest', 'JJS'), ('version', 'NN'), ('of', 'IN'), ('Flash', 'NNP'), ('Player', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   9/CD   ,/,   2010/CD   03/CD   :/:   30/CD   PM/NNP   EDT/NNP   Flash/NNP   Player/NNP   (PERSON Will/NNP Be/NNP Packaged/NNP)   with/IN   (PERSON Google/NNP Chrome/NNP Adobe/NNP)   has/VBZ   announced/VBN   that/IN   they/PRP   made/VBD   a/DT   deal/NN   with/IN   (PERSON Google/NNP)   :/:   the/DT   new/JJ   releases/NNS   of/IN   (PERSON Chrome/NNP Web/NNP)   browser/NN   will/MD   be/VB   packaged/VBN   with/IN   the/DT   latest/JJS   version/NN   of/IN   (PERSON Flash/NNP Player/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ announced/VBN that/IN they/PRP)
+	(VERB made/VBD a/DT deal/NN with/IN Google/NNP)
+	(VERB   be/VB   packaged/VBN   with/IN   the/DT   latest/JJS   version/NN   of/IN   Flash/NNP   Player/NNP)
+noun phrases to consider:
+	(NOUN 30/CD PM/NNP EDT/NNP Flash/NNP Player/NNP)
+	(NOUN Will/NNP Be/NNP Packaged/NNP)
+	(NOUN Google/NNP Chrome/NNP Adobe/NNP)
+	(NOUN the/DT new/JJ releases/NNS)
+	(NOUN Chrome/NNP Web/NNP browser/NN)
+
+----------------------------------
+original sentence: 
+Even though the only person I know who uses Chrome is my younger son he just says it's cool , this is an important announcement...
+Apr.
+
+POS tagged sentence: 
+[('Even', 'RB'), ('though', 'IN'), ('the', 'DT'), ('only', 'JJ'), ('person', 'NN'), ('I', 'PRP'), ('know', 'VBP'), ('who', 'WP'), ('uses', 'NNS'), ('Chrome', 'VBP'), ('is', 'VBZ'), ('my', 'PRP$'), ('younger', 'NN'), ('son', 'NN'), ('he', 'PRP'), ('just', 'RB'), ('says', 'VBZ'), ('it', 'PRP'), ("'s", 'VBZ'), ('cool', 'JJ'), (',', ','), ('this', 'DT'), ('is', 'VBZ'), ('an', 'DT'), ('important', 'JJ'), ('announcement..', 'NNP'), ('.', '.'), ('Apr', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Even/RB   though/IN   the/DT   only/JJ   person/NN   I/PRP   know/VBP   who/WP   uses/NNS   Chrome/VBP   is/VBZ   my/PRP$   younger/NN   son/NN   he/PRP   just/RB   says/VBZ   it/PRP   's/VBZ   cool/JJ   ,/,   this/DT   is/VBZ   an/DT   important/JJ   announcement../NNP   ./.   Apr/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB know/VBP)
+	(VERB Chrome/VBP is/VBZ my/PRP$ younger/NN son/NN he/PRP just/RB)
+	(VERB says/VBZ it/PRP)
+	(VERB 's/VBZ cool/JJ)
+	(VERB is/VBZ an/DT important/JJ announcement../NNP)
+noun phrases to consider:
+	(NOUN the/DT only/JJ person/NN)
+	(NOUN uses/NNS)
+	(NOUN Apr/NNP)
+
+----------------------------------
+original sentence: 
+1, 2010 08:00 AM EDT
+ Subscribe to the World&#039;s Most Powerful Newsletters  Subscribe to Our Rss Feeds & Get Your SYS CON News Live!
+
+POS tagged sentence: 
+[('1', 'LS'), (',', ','), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('00', 'CD'), ('AM', 'NNP'), ('EDT', 'NNP'), ('Subscribe', 'NNP'), ('to', 'TO'), ('the', 'DT'), ('World&', 'NN'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Most', 'RBS'), ('Powerful', 'JJ'), ('Newsletters', 'NNS'), ('Subscribe', 'NNP'), ('to', 'TO'), ('Our', 'NNP'), ('Rss', 'NNP'), ('Feeds', 'NNP'), ('&', 'CC'), ('Get', 'NNP'), ('Your', 'NNP'), ('SYS', 'NNP'), ('CON', 'NNP'), ('News', 'NNP'), ('Live', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   1/LS   ,/,   2010/CD   08/CD   :/:   00/CD   AM/NNP   EDT/NNP   Subscribe/NNP   to/TO   the/DT   World&/NN   #/#   039/CD   ;/:   s/NNS   Most/RBS   Powerful/JJ   Newsletters/NNS   (PERSON Subscribe/NNP)   to/TO   Our/NNP   Rss/NNP   Feeds/NNP   &/CC   (PERSON Get/NNP Your/NNP)   SYS/NNP   (ORGANIZATION CON/NNP News/NNP Live/NNP)   !/.)
+----------------------------------
+original sentence: 
+Publish Your Article!
+
+POS tagged sentence: 
+[('Publish', 'JJ'), ('Your', 'PRP$'), ('Article', 'NNP'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (GPE Publish/JJ) Your/PRP$ Article/NNP !/.)
+----------------------------------
+original sentence: 
+Please send it to editorial at sys con.com!
+
+POS tagged sentence: 
+[('Please', 'NN'), ('send', 'VBP'), ('it', 'PRP'), ('to', 'TO'), ('editorial', 'JJ'), ('at', 'IN'), ('sys', 'NNS'), ('con.com', '-NONE-'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Please/NN)   send/VBP   it/PRP   to/TO   editorial/JJ   at/IN   sys/NNS   con.com/-NONE-   !/.)
+----------------------------------
+original sentence: 
+Advertise on this site!
+
+POS tagged sentence: 
+[('Advertise', 'NNP'), ('on', 'IN'), ('this', 'DT'), ('site', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (GPE Advertise/NNP) on/IN this/DT site/NN !/.)
+----------------------------------
+original sentence: 
+Contact advertising at sys con.com!
+
+POS tagged sentence: 
+[('Contact', 'NN'), ('advertising', 'NN'), ('at', 'IN'), ('sys', 'NNS'), ('con.com', '-NONE-'), ('!', '.')]
+
+
+ERTAGGED sentence: (S (GSP Contact/NN) advertising/NN at/IN sys/NNS con.com/-NONE- !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Contact/NN advertising/NN)
+	(NOUN sys/NNS)
+
+----------------------------------
+original sentence: 
+201 802 3021
+ SYS CON Featured Whitepapers French Government Bans Use of &quot;2.0&quot;
+An Exclusive Interview with Oracle, Cloud Expo 2010 Diamond Sponsor
+Exclusive Q&A with Adaptivity, Cloud Expo 2010 Platinum Plus Sponsor
+Exclusive Q&A with Abiquo CEO Pete Malcolm
+Cloud Computing Bootcamp Returns to Cloud Expo in New York April 20, 2010
+Cloud Expo to Offer Special Free Pass to Everyone Who Retweets @CloudExpo
+Gosling Out of Oracle
+Novell Named &#039;Bronze Sponsor&#039; of Largest Cloud Computing Event in the World
+Cloud Expo Announces CloudCamp @CloudExpo To Be Held April 20, 2010
+Cloud Expo, Inc. Names Carmen Gonzalez President & CEO
+NaviSite Named ‚ÄúGold Sponsor‚Äù of World&#039;s Largest Cloud Computing Event
+
+
+POS tagged sentence: 
+[('201', 'CD'), ('802', 'CD'), ('3021', 'CD'), ('SYS', 'NNS'), ('CON', 'NNP'), ('Featured', 'NNP'), ('Whitepapers', 'NNP'), ('French', 'NNP'), ('Government', 'NNP'), ('Bans', 'NNP'), ('Use', 'NNP'), ('of', 'IN'), ('&quot', 'JJ'), (';', ':'), ('2.0&quot', 'JJ'), (';', ':'), ('An', 'DT'), ('Exclusive', 'JJ'), ('Interview', 'NNP'), ('with', 'IN'), ('Oracle', 'NNP'), (',', ','), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('2010', 'CD'), ('Diamond', 'NNP'), ('Sponsor', 'NNP'), ('Exclusive', 'NNP'), ('Q&A', 'NNP'), ('with', 'IN'), ('Adaptivity', 'NNP'), (',', ','), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('2010', 'CD'), ('Platinum', 'NNP'), ('Plus', 'NNP'), ('Sponsor', 'NNP'), ('Exclusive', 'NNP'), ('Q&A', 'NNP'), ('with', 'IN'), ('Abiquo', 'NNP'), ('CEO', 'NNP'), ('Pete', 'NNP'), ('Malcolm', 'NNP'), ('Cloud', 'NNP'), ('Computing', 'NNP'), ('Bootcamp', 'NNP'), ('Returns', 'NNP'), ('to', 'TO'), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('April', 'NNP'), ('20', 'CD'), (',', ','), ('2010', 'CD'), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('to', 'TO'), ('Offer', 'NNP'), ('Special', 'NNP'), ('Free', 'NNP'), ('Pass', 'NNP'), ('to', 'TO'), ('Everyone', 'NNP'), ('Who', 'NNP'), ('Retweets', 'NNPS'), ('@', 'NNP'), ('CloudExpo', 'NNP'), ('Gosling', 'NNP'), ('Out', 'NNP'), ('of', 'IN'), ('Oracle', 'NNP'), ('Novell', 'NNP'), ('Named', 'NNP'), ('&', 'CC'), ('#', '#'), ('039', 'CD'), (';', ':'), ('Bronze', 'NNP'), ('Sponsor&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('of', 'IN'), ('Largest', 'NNP'), ('Cloud', 'NNP'), ('Computing', 'NNP'), ('Event', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('World', 'NNP'), ('Cloud', 'NNP'), ('Expo', 'NNP'), ('Announces', 'NNPS'), ('CloudCamp', 'NNP'), ('@', 'NNP'), ('CloudExpo', 'NNP'), ('To', 'NNP'), ('Be', 'NNP'), ('Held', 'NNP'), ('April', 'NNP'), ('20', 'CD'), (',', ','), ('2010', 'CD'), ('Cloud', 'NNP'), ('Expo', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('Names', 'NNP'), ('Carmen', 'NNP'), ('Gonzalez', 'NNP'), ('President', 'NNP'), ('&', 'CC'), ('CEO', 'NNP'), ('NaviSite', 'NNP'), ('Named', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('Gold', 'NNP'), ('Sponsor', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('of', 'IN'), ('World&', 'NNP'), ('#', '#'), ('039', 'CD'), (';', ':'), ('s', 'NNS'), ('Largest', 'JJS'), ('Cloud', 'NNP'), ('Computing', 'NNP'), ('Event', 'NNP')]
+
+
+ERTAGGED sentence: (S   201/CD   802/CD   3021/CD   SYS/NNS   (ORGANIZATION CON/NNP Featured/NNP Whitepapers/NNP French/NNP)   Government/NNP   Bans/NNP   Use/NNP   of/IN   &quot/JJ   ;/:   2.0&quot/JJ   ;/:   An/DT   Exclusive/JJ   Interview/NNP   with/IN   (PERSON Oracle/NNP)   ,/,   (PERSON Cloud/NNP Expo/NNP)   2010/CD   (ORGANIZATION Diamond/NNP Sponsor/NNP)   Exclusive/NNP   Q&A/NNP   with/IN   (ORGANIZATION Adaptivity/NNP)   ,/,   (PERSON Cloud/NNP Expo/NNP)   2010/CD   Platinum/NNP   Plus/NNP   Sponsor/NNP   Exclusive/NNP   Q&A/NNP   with/IN   (PERSON Abiquo/NNP CEO/NNP Pete/NNP Malcolm/NNP Cloud/NNP)   Computing/NNP   Bootcamp/NNP   Returns/NNP   to/TO   (PERSON Cloud/NNP Expo/NNP)   in/IN   (GPE New/NNP York/NNP)   April/NNP   20/CD   ,/,   2010/CD   Cloud/NNP   Expo/NNP   to/TO   (PERSON Offer/NNP Special/NNP Free/NNP Pass/NNP)   to/TO   Everyone/NNP   Who/NNP   Retweets/NNPS   @/NNP   CloudExpo/NNP   Gosling/NNP   Out/NNP   of/IN   (PERSON Oracle/NNP Novell/NNP Named/NNP)   &/CC   #/#   039/CD   ;/:   (PERSON Bronze/NNP)   Sponsor&/NNP   #/#   039/CD   ;/:   of/IN   (PERSON Largest/NNP Cloud/NNP)   Computing/NNP   Event/NNP   in/IN   the/DT   World/NNP   Cloud/NNP   Expo/NNP   Announces/NNPS   (ORGANIZATION CloudCamp/NNP)   @/NNP   CloudExpo/NNP   To/NNP   Be/NNP   Held/NNP   April/NNP   20/CD   ,/,   2010/CD   Cloud/NNP   Expo/NNP   ,/,   Inc./NNP   Names/NNP   (PERSON Carmen/NNP Gonzalez/NNP)   President/NNP   &/CC   (ORGANIZATION CEO/NNP)   (ORGANIZATION NaviSite/NNP Named/NNP)   ‚/NNP   Ä/NNP   ú/NNP   Gold/NNP   Sponsor/NNP   ‚/NNP   Ä/NNP   ù/NNP   of/IN   World&/NNP   #/#   039/CD   ;/:   s/NNS   Largest/JJS   (PERSON Cloud/NNP Computing/NNP)   Event/NNP)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN 3021/CD SYS/NNS CON/NNP Featured/NNP Whitepapers/NNP)
+	(NOUN French/NNP Government/NNP Bans/NNP Use/NNP)
+	(NOUN &quot/JJ)
+	(NOUN 2.0&quot/JJ)
+	(NOUN An/DT Exclusive/JJ Interview/NNP)
+	(NOUN Oracle/NNP)
+	(NOUN Cloud/NNP Expo/NNP)
+	(NOUN 2010/CD Diamond/NNP Sponsor/NNP Exclusive/NNP Q&A/NNP)
+
+tagged sentence:
+	 2010 Diamond Sponsor Exclusive Q&A	res:1
+	(NOUN Adaptivity/NNP)
+	(NOUN Cloud/NNP Expo/NNP)
+	(NOUN 2010/CD Platinum/NNP Plus/NNP Sponsor/NNP Exclusive/NNP)
+
+tagged sentence:
+	 2010 Platinum Plus Sponsor Exclusive	res:1
+	(NOUN Q&A/NNP)
+	(NOUN Abiquo/NNP CEO/NNP Pete/NNP Malcolm/NNP)
+	(NOUN Cloud/NNP Computing/NNP Bootcamp/NNP Returns/NNP)
+	(NOUN Cloud/NNP Expo/NNP)
+	(NOUN New/NNP York/NNP April/NNP)
+	(NOUN 2010/CD Cloud/NNP Expo/NNP)
+	(NOUN Offer/NNP Special/NNP Free/NNP Pass/NNP)
+	(NOUN Everyone/NNP Who/NNP Retweets/NNPS @/NNP)
+	(NOUN CloudExpo/NNP Gosling/NNP Out/NNP)
+	(NOUN Oracle/NNP Novell/NNP Named/NNP)
+	(NOUN Bronze/NNP Sponsor&/NNP)
+	(NOUN Largest/NNP Cloud/NNP Computing/NNP Event/NNP)
+	(NOUN World/NNP Cloud/NNP Expo/NNP Announces/NNPS)
+	(NOUN CloudCamp/NNP @/NNP CloudExpo/NNP To/NNP)
+	(NOUN Be/NNP Held/NNP April/NNP)
+	(NOUN 2010/CD Cloud/NNP Expo/NNP)
+	(NOUN Inc./NNP Names/NNP Carmen/NNP Gonzalez/NNP)
+	(NOUN President/NNP)
+	(NOUN CEO/NNP NaviSite/NNP Named/NNP ‚/NNP)
+	(NOUN Ä/NNP ú/NNP Gold/NNP Sponsor/NNP)
+	(NOUN ‚/NNP Ä/NNP ù/NNP)
+	(NOUN World&/NNP)
+	(NOUN s/NNS Largest/JJS Cloud/NNP Computing/NNP Event/NNP)
+
+tagged sentence:
+	 s Largest Cloud Computing Event	res:1
+
+
+veryneg:0	neg:2	pos:9	verypos:0	total:7

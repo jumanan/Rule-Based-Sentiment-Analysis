@@ -1,0 +1,377 @@
+
+----------------------------------
+original sentence: 
+Alcoa Wins Inaugural Environmental Award | Business Wire
+ March 24, 2010 12:15 PM Eastern Daylight Time Alcoa Wins Inaugural Environmental Award
+ Alcoa NYSE:AA announced today that its Warrick Indiana Operations has received the inaugural environmental award given during the annual Celebration of Leadership Awards sponsored by Leadership Evansville, an organization committed to community betterment.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('Wins', 'NNP'), ('Inaugural', 'NNP'), ('Environmental', 'NNP'), ('Award', 'NNP'), ('|', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('March', 'NNP'), ('24', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('15', 'CD'), ('PM', 'NNP'), ('Eastern', 'NNP'), ('Daylight', 'NNP'), ('Time', 'NNP'), ('Alcoa', 'NNP'), ('Wins', 'NNP'), ('Inaugural', 'NNP'), ('Environmental', 'NNP'), ('Award', 'NNP'), ('Alcoa', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AA', 'NNP'), ('announced', 'VBD'), ('today', 'NN'), ('that', 'IN'), ('its', 'PRP$'), ('Warrick', 'NNP'), ('Indiana', 'NNP'), ('Operations', 'NNPS'), ('has', 'VBZ'), ('received', 'VBN'), ('the', 'DT'), ('inaugural', 'JJ'), ('environmental', 'JJ'), ('award', 'NN'), ('given', 'VBN'), ('during', 'IN'), ('the', 'DT'), ('annual', 'JJ'), ('Celebration', 'NN'), ('of', 'IN'), ('Leadership', 'NNP'), ('Awards', 'NNP'), ('sponsored', 'VBD'), ('by', 'IN'), ('Leadership', 'NNP'), ('Evansville', 'NNP'), (',', ','), ('an', 'DT'), ('organization', 'NN'), ('committed', 'VBN'), ('to', 'TO'), ('community', 'NN'), ('betterment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Alcoa/NNP)   (ORGANIZATION Wins/NNP)   Inaugural/NNP   Environmental/NNP   (PERSON Award/NNP)   |/NNP   Business/NNP   Wire/NNP   March/NNP   24/CD   ,/,   2010/CD   12/CD   :/:   15/CD   PM/NNP   (PERSON Eastern/NNP Daylight/NNP)   Time/NNP   (PERSON     Alcoa/NNP     Wins/NNP     Inaugural/NNP     Environmental/NNP     Award/NNP     Alcoa/NNP)   NYSE/NNP   :/:   AA/NNP   announced/VBD   today/NN   that/IN   its/PRP$   (PERSON Warrick/NNP Indiana/NNP)   (ORGANIZATION Operations/NNPS)   has/VBZ   received/VBN   the/DT   inaugural/JJ   environmental/JJ   award/NN   given/VBN   during/IN   the/DT   annual/JJ   Celebration/NN   of/IN   (ORGANIZATION Leadership/NNP Awards/NNP)   sponsored/VBD   by/IN   (ORGANIZATION Leadership/NNP Evansville/NNP)   ,/,   an/DT   organization/NN   committed/VBN   to/TO   community/NN   betterment/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   today/NN   that/IN   its/PRP$   Warrick/NNP   Indiana/NNP   Operations/NNPS)
+	(VERB   has/VBZ   received/VBN   the/DT   inaugural/JJ   environmental/JJ   award/NN)
+	(VERB   given/VBN   during/IN   the/DT   annual/JJ   Celebration/NN   of/IN   Leadership/NNP   Awards/NNP)
+	(VERB sponsored/VBD by/IN Leadership/NNP Evansville/NNP)
+	(VERB committed/VBN to/TO community/NN betterment/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP Wins/NNP Inaugural/NNP Environmental/NNP)
+
+tagged sentence:
+	 Alcoa Wins Inaugural Environmental	res:1
+	(NOUN Award/NNP |/NNP Business/NNP Wire/NNP)
+
+tagged sentence:
+	 Award | Business Wire	res:1
+	(NOUN March/NNP)
+	(NOUN 15/CD PM/NNP Eastern/NNP Daylight/NNP Time/NNP)
+	(NOUN Alcoa/NNP Wins/NNP Inaugural/NNP Environmental/NNP)
+
+tagged sentence:
+	 Alcoa Wins Inaugural Environmental	res:1
+	(NOUN Award/NNP Alcoa/NNP NYSE/NNP)
+
+tagged sentence:
+	 Award Alcoa NYSE	res:1
+	(NOUN AA/NNP)
+	(NOUN organization/NN)
+
+----------------------------------
+original sentence: 
+The awards recognize businesses, individuals and institutions that have made significant collaborative contributions to the community.
+
+POS tagged sentence: 
+[('The', 'DT'), ('awards', 'NNS'), ('recognize', 'VBP'), ('businesses', 'NNS'), (',', ','), ('individuals', 'NNS'), ('and', 'CC'), ('institutions', 'NNS'), ('that', 'WDT'), ('have', 'VBP'), ('made', 'VBN'), ('significant', 'JJ'), ('collaborative', 'JJ'), ('contributions', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('community', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   awards/NNS   recognize/VBP   businesses/NNS   ,/,   individuals/NNS   and/CC   institutions/NNS   that/WDT   have/VBP   made/VBN   significant/JJ   collaborative/JJ   contributions/NNS   to/TO   the/DT   community/NN   ./.)
+----------------------------------
+original sentence: 
+&#8220;It has a commitment to go above and beyond&#8230;and our community is better because of all the things that Alcoa doesn&#8217;t have to do, but does.&#8221;
+ Nominations are made by the public, and a diverse group of local leaders decide on the winners.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('It', 'PRP'), ('has', 'VBZ'), ('a', 'DT'), ('commitment', 'NN'), ('to', 'TO'), ('go', 'VB'), ('above', 'IN'), ('and', 'CC'), ('beyond&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('and', 'CC'), ('our', 'PRP$'), ('community', 'NN'), ('is', 'VBZ'), ('better', 'RBR'), ('because', 'IN'), ('of', 'IN'), ('all', 'DT'), ('the', 'DT'), ('things', 'NNS'), ('that', 'IN'), ('Alcoa', 'NNP'), ('doesn&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('have', 'VBP'), ('to', 'TO'), ('do', 'VB'), (',', ','), ('but', 'CC'), ('does.&', 'NNP'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('Nominations', 'NNS'), ('are', 'VBP'), ('made', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('public', 'NN'), (',', ','), ('and', 'CC'), ('a', 'DT'), ('diverse', 'JJ'), ('group', 'NN'), ('of', 'IN'), ('local', 'JJ'), ('leaders', 'NNS'), ('decide', 'VBP'), ('on', 'IN'), ('the', 'DT'), ('winners', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   It/PRP   has/VBZ   a/DT   commitment/NN   to/TO   go/VB   above/IN   and/CC   beyond&/NNP   #/#   8230/CD   ;/:   and/CC   our/PRP$   community/NN   is/VBZ   better/RBR   because/IN   of/IN   all/DT   the/DT   things/NNS   that/IN   (PERSON Alcoa/NNP)   doesn&/NNP   #/#   8217/CD   ;/:   t/NN   have/VBP   to/TO   do/VB   ,/,   but/CC   does.&/NNP   #/#   8221/CD   ;/:   Nominations/NNS   are/VBP   made/VBN   by/IN   the/DT   public/NN   ,/,   and/CC   a/DT   diverse/JJ   group/NN   of/IN   local/JJ   leaders/NNS   decide/VBP   on/IN   the/DT   winners/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT commitment/NN)
+	(VERB go/VB above/IN)
+
+tagged sentence:
+	 go above	res:1
+	(VERB is/VBZ)
+	(VERB have/VBP to/TO do/VB)
+	(VERB are/VBP made/VBN by/IN the/DT public/NN)
+	(VERB decide/VBP on/IN the/DT winners/NNS)
+
+tagged sentence:
+	 decide on the winners	res:1
+noun phrases to consider:
+	(NOUN beyond&/NNP)
+	(NOUN community/NN)
+	(NOUN things/NNS)
+	(NOUN Alcoa/NNP doesn&/NNP)
+	(NOUN t/NN)
+	(NOUN does.&/NNP)
+	(NOUN Nominations/NNS)
+	(NOUN a/DT diverse/JJ group/NN)
+	(NOUN local/JJ leaders/NNS)
+
+tagged sentence:
+	 local leaders	res:1
+
+----------------------------------
+original sentence: 
+Alcoa&#8217;s Warrick plant was nominated by Dan Schenk, the chancellor of Ivy Tech Community College.
+
+POS tagged sentence: 
+[('Alcoa&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Warrick', 'NNP'), ('plant', 'NN'), ('was', 'VBD'), ('nominated', 'VBN'), ('by', 'IN'), ('Dan', 'NNP'), ('Schenk', 'NNP'), (',', ','), ('the', 'DT'), ('chancellor', 'NN'), ('of', 'IN'), ('Ivy', 'NNP'), ('Tech', 'NNP'), ('Community', 'NNP'), ('College', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Alcoa&/NN   #/#   8217/CD   ;/:   s/NNS   (PERSON Warrick/NNP)   plant/NN   was/VBD   nominated/VBN   by/IN   (PERSON Dan/NNP Schenk/NNP)   ,/,   the/DT   chancellor/NN   of/IN   (ORGANIZATION Ivy/NNP Tech/NNP)   Community/NNP   College/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD nominated/VBN by/IN Dan/NNP Schenk/NNP)
+noun phrases to consider:
+	(NOUN Alcoa&/NN)
+	(NOUN s/NNS Warrick/NNP plant/NN)
+	(NOUN chancellor/NN)
+	(NOUN Ivy/NNP Tech/NNP Community/NNP College/NNP)
+
+----------------------------------
+original sentence: 
+He cited Alcoa&#8217;s investments in environmental improvements at its business and in the community, including the annual Environmental Open House and its Household Hazardous Waste Recycling days, as well as the willingness of the plant&#8217;s management to actively engage with the community.
+
+POS tagged sentence: 
+[('He', 'PRP'), ('cited', 'VBD'), ('Alcoa&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('investments', 'NNS'), ('in', 'IN'), ('environmental', 'JJ'), ('improvements', 'NNS'), ('at', 'IN'), ('its', 'PRP$'), ('business', 'NN'), ('and', 'CC'), ('in', 'IN'), ('the', 'DT'), ('community', 'NN'), (',', ','), ('including', 'VBG'), ('the', 'DT'), ('annual', 'JJ'), ('Environmental', 'NNP'), ('Open', 'NNP'), ('House', 'NNP'), ('and', 'CC'), ('its', 'PRP$'), ('Household', 'NNP'), ('Hazardous', 'NNP'), ('Waste', 'NNP'), ('Recycling', 'NNP'), ('days', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('the', 'DT'), ('willingness', 'NN'), ('of', 'IN'), ('the', 'DT'), ('plant&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('management', 'NN'), ('to', 'TO'), ('actively', 'RB'), ('engage', 'NN'), ('with', 'IN'), ('the', 'DT'), ('community', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   He/PRP   cited/VBD   Alcoa&/-NONE-   #/#   8217/CD   ;/:   s/NNS   investments/NNS   in/IN   environmental/JJ   improvements/NNS   at/IN   its/PRP$   business/NN   and/CC   in/IN   the/DT   community/NN   ,/,   including/VBG   the/DT   annual/JJ   (ORGANIZATION Environmental/NNP Open/NNP House/NNP)   and/CC   its/PRP$   (ORGANIZATION Household/NNP Hazardous/NNP Waste/NNP)   Recycling/NNP   days/NNS   ,/,   as/IN   well/RB   as/IN   the/DT   willingness/NN   of/IN   the/DT   plant&/JJ   #/#   8217/CD   ;/:   s/NNS   management/NN   to/TO   actively/RB   engage/NN   with/IN   the/DT   community/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB cited/VBD)
+	(VERB   including/VBG   the/DT   annual/JJ   Environmental/NNP   Open/NNP   House/NNP)
+noun phrases to consider:
+	(NOUN s/NNS investments/NNS)
+	(NOUN environmental/JJ improvements/NNS)
+
+tagged sentence:
+	 environmental improvements	res:1
+	(NOUN business/NN)
+	(NOUN community/NN)
+	(NOUN Household/NNP Hazardous/NNP Waste/NNP Recycling/NNP)
+	(NOUN days/NNS)
+	(NOUN willingness/NN)
+	(NOUN the/DT plant&/JJ)
+	(NOUN s/NNS management/NN)
+	(NOUN engage/NN)
+	(NOUN community/NN)
+
+----------------------------------
+original sentence: 
+"Alcoa Warrick Operations is a regional leader in utilizing the public&#8217;s input in improving environmental performance," the application reads.
+
+POS tagged sentence: 
+[('"', 'NN'), ('Alcoa', 'NNP'), ('Warrick', 'NNP'), ('Operations', 'NNPS'), ('is', 'VBZ'), ('a', 'DT'), ('regional', 'JJ'), ('leader', 'NN'), ('in', 'IN'), ('utilizing', 'NN'), ('the', 'DT'), ('public&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('input', 'VBP'), ('in', 'IN'), ('improving', 'NN'), ('environmental', 'JJ'), ('performance', 'NN'), (',', ','), ('"', ':'), ('the', 'DT'), ('application', 'NN'), ('reads', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   (PERSON Alcoa/NNP Warrick/NNP)   (ORGANIZATION Operations/NNPS)   is/VBZ   a/DT   regional/JJ   leader/NN   in/IN   utilizing/NN   the/DT   public&/NN   #/#   8217/CD   ;/:   s/NNS   input/VBP   in/IN   improving/NN   environmental/JJ   performance/NN   ,/,   "/:   the/DT   application/NN   reads/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   a/DT   regional/JJ   leader/NN   in/IN   utilizing/NN   the/DT   public&/NN)
+	(VERB input/VBP in/IN improving/NN environmental/JJ performance/NN)
+noun phrases to consider:
+	(NOUN "/NN Alcoa/NNP Warrick/NNP Operations/NNPS)
+	(NOUN s/NNS)
+	(NOUN application/NN reads/NNS)
+
+----------------------------------
+original sentence: 
+"It has a commitment to go above and beyond&#8230;and our community is better because of all the things that Alcoa doesn&#8217;t have to do, but does.
+
+POS tagged sentence: 
+[('"', 'NN'), ('It', 'PRP'), ('has', 'VBZ'), ('a', 'DT'), ('commitment', 'NN'), ('to', 'TO'), ('go', 'VB'), ('above', 'IN'), ('and', 'CC'), ('beyond&', 'NNP'), ('#', '#'), ('8230', 'CD'), (';', ':'), ('and', 'CC'), ('our', 'PRP$'), ('community', 'NN'), ('is', 'VBZ'), ('better', 'RBR'), ('because', 'IN'), ('of', 'IN'), ('all', 'DT'), ('the', 'DT'), ('things', 'NNS'), ('that', 'IN'), ('Alcoa', 'NNP'), ('doesn&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('have', 'VBP'), ('to', 'TO'), ('do', 'VB'), (',', ','), ('but', 'CC'), ('does', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   It/PRP   has/VBZ   a/DT   commitment/NN   to/TO   go/VB   above/IN   and/CC   beyond&/NNP   #/#   8230/CD   ;/:   and/CC   our/PRP$   community/NN   is/VBZ   better/RBR   because/IN   of/IN   all/DT   the/DT   things/NNS   that/IN   (PERSON Alcoa/NNP)   doesn&/NNP   #/#   8217/CD   ;/:   t/NN   have/VBP   to/TO   do/VB   ,/,   but/CC   does/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ a/DT commitment/NN)
+	(VERB go/VB above/IN)
+
+tagged sentence:
+	 go above	res:1
+	(VERB is/VBZ)
+	(VERB have/VBP to/TO do/VB)
+	(VERB does/VBZ)
+noun phrases to consider:
+	(NOUN "/NN)
+	(NOUN beyond&/NNP)
+	(NOUN community/NN)
+	(NOUN things/NNS)
+	(NOUN Alcoa/NNP doesn&/NNP)
+	(NOUN t/NN)
+
+----------------------------------
+original sentence: 
+"  &#8220;This is a special recognition for us because it comes from our community,&#8221; said Ed Hemmersbach, Warrick Rigid Packaging Location Manager.
+
+POS tagged sentence: 
+[('"', 'NN'), ('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('This', 'DT'), ('is', 'VBZ'), ('a', 'DT'), ('special', 'JJ'), ('recognition', 'NN'), ('for', 'IN'), ('us', 'PRP'), ('because', 'IN'), ('it', 'PRP'), ('comes', 'VBZ'), ('from', 'IN'), ('our', 'PRP$'), ('community,&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('said', 'VBD'), ('Ed', 'NNP'), ('Hemmersbach', 'NNP'), (',', ','), ('Warrick', 'NNP'), ('Rigid', 'NNP'), ('Packaging', 'NNP'), ('Location', 'NNP'), ('Manager', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   "/NN   &/CC   #/#   8220/CD   ;/:   This/DT   is/VBZ   a/DT   special/JJ   recognition/NN   for/IN   us/PRP   because/IN   it/PRP   comes/VBZ   from/IN   our/PRP$   community,&/JJ   #/#   8221/CD   ;/:   said/VBD   (PERSON Ed/NNP Hemmersbach/NNP)   ,/,   (PERSON     Warrick/NNP     Rigid/NNP     Packaging/NNP     Location/NNP     Manager/NNP)   ./.)
+----------------------------------
+original sentence: 
+&#8220;At Alcoa, we recognize that the success of our business is directly connected to the strength of the communities in which we operate.
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('8220', 'CD'), (';', ':'), ('At', 'IN'), ('Alcoa', 'NNP'), (',', ','), ('we', 'PRP'), ('recognize', 'VBP'), ('that', 'IN'), ('the', 'DT'), ('success', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('business', 'NN'), ('is', 'VBZ'), ('directly', 'RB'), ('connected', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('strength', 'NN'), ('of', 'IN'), ('the', 'DT'), ('communities', 'NNS'), ('in', 'IN'), ('which', 'WDT'), ('we', 'PRP'), ('operate', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   8220/CD   ;/:   At/IN   (ORGANIZATION Alcoa/NNP)   ,/,   we/PRP   recognize/VBP   that/IN   the/DT   success/NN   of/IN   our/PRP$   business/NN   is/VBZ   directly/RB   connected/VBN   to/TO   the/DT   strength/NN   of/IN   the/DT   communities/NNS   in/IN   which/WDT   we/PRP   operate/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   recognize/VBP   that/IN   the/DT   success/NN   of/IN   our/PRP$   business/NN)
+
+tagged sentence:
+	 recognize that the success of our business	res:1
+	(VERB is/VBZ directly/RB connected/VBN)
+	(VERB operate/VBP)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN strength/NN)
+
+tagged sentence:
+	 strength	res:1
+	(NOUN communities/NNS)
+
+----------------------------------
+original sentence: 
+Good corporate citizenship and environmental stewardship are core values at Alcoa.&#8221;  About Alcoa  Alcoa is the world&#8217;s leading producer of primary aluminum, fabricated aluminum and alumina.
+
+POS tagged sentence: 
+[('Good', 'NNP'), ('corporate', 'JJ'), ('citizenship', 'NN'), ('and', 'CC'), ('environmental', 'JJ'), ('stewardship', 'NN'), ('are', 'VBP'), ('core', 'RB'), ('values', 'NNS'), ('at', 'IN'), ('Alcoa.&', 'JJ'), ('#', '#'), ('8221', 'CD'), (';', ':'), ('About', 'IN'), ('Alcoa', 'NNP'), ('Alcoa', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('world&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('producer', 'NN'), ('of', 'IN'), ('primary', 'JJ'), ('aluminum', 'NN'), (',', ','), ('fabricated', 'VBD'), ('aluminum', 'NN'), ('and', 'CC'), ('alumina', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Good/NNP)   corporate/JJ   citizenship/NN   and/CC   environmental/JJ   stewardship/NN   are/VBP   core/RB   values/NNS   at/IN   Alcoa.&/JJ   #/#   8221/CD   ;/:   About/IN   (PERSON Alcoa/NNP Alcoa/NNP)   is/VBZ   the/DT   world&/NN   #/#   8217/CD   ;/:   s/NNS   leading/VBG   producer/NN   of/IN   primary/JJ   aluminum/NN   ,/,   fabricated/VBD   aluminum/NN   and/CC   alumina/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP core/RB values/NNS at/IN Alcoa.&/JJ)
+	(VERB is/VBZ the/DT world&/NN)
+	(VERB leading/VBG producer/NN of/IN primary/JJ aluminum/NN)
+	(VERB fabricated/VBD aluminum/NN)
+noun phrases to consider:
+	(NOUN Good/NNP corporate/JJ citizenship/NN)
+	(NOUN environmental/JJ stewardship/NN)
+	(NOUN Alcoa/NNP Alcoa/NNP)
+	(NOUN s/NNS)
+	(NOUN alumina/NN)
+
+----------------------------------
+original sentence: 
+In addition to inventing the modern day aluminum industry, Alcoa innovation has been behind major milestones in the aerospace, automotive, packaging, building and construction, commercial transportation, consumer electronics and industrial markets over the past 120 years.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('inventing', 'VBG'), ('the', 'DT'), ('modern', 'JJ'), ('day', 'NN'), ('aluminum', 'NN'), ('industry', 'NN'), (',', ','), ('Alcoa', 'NNP'), ('innovation', 'NN'), ('has', 'VBZ'), ('been', 'VBN'), ('behind', 'IN'), ('major', 'JJ'), ('milestones', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('aerospace', 'NN'), (',', ','), ('automotive', 'JJ'), (',', ','), ('packaging', 'NN'), (',', ','), ('building', 'NN'), ('and', 'CC'), ('construction', 'NN'), (',', ','), ('commercial', 'JJ'), ('transportation', 'NN'), (',', ','), ('consumer', 'NN'), ('electronics', 'NNS'), ('and', 'CC'), ('industrial', 'JJ'), ('markets', 'NNS'), ('over', 'IN'), ('the', 'DT'), ('past', 'JJ'), ('120', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   to/TO   inventing/VBG   the/DT   modern/JJ   day/NN   aluminum/NN   industry/NN   ,/,   (GPE Alcoa/NNP)   innovation/NN   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN   ,/,   automotive/JJ   ,/,   packaging/NN   ,/,   building/NN   and/CC   construction/NN   ,/,   commercial/JJ   transportation/NN   ,/,   consumer/NN   electronics/NNS   and/CC   industrial/JJ   markets/NNS   over/IN   the/DT   past/JJ   120/CD   years/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB inventing/VBG the/DT modern/JJ day/NN aluminum/NN industry/NN)
+
+tagged sentence:
+	 inventing the modern day aluminum industry	res:1
+	(VERB   has/VBZ   been/VBN   behind/IN   major/JJ   milestones/NNS   in/IN   the/DT   aerospace/NN)
+noun phrases to consider:
+	(NOUN addition/NN)
+	(NOUN Alcoa/NNP innovation/NN)
+
+tagged sentence:
+	 Alcoa innovation	res:1
+	(NOUN automotive/JJ)
+	(NOUN packaging/NN)
+	(NOUN building/NN)
+	(NOUN construction/NN)
+
+tagged sentence:
+	 construction	res:1
+	(NOUN commercial/JJ transportation/NN)
+	(NOUN consumer/NN electronics/NNS)
+	(NOUN industrial/JJ markets/NNS)
+	(NOUN the/DT past/JJ 120/CD years/NNS)
+
+----------------------------------
+original sentence: 
+Among the solutions Alcoa markets are flat rolled products, hard alloy extrusions, and forgings, as well as Alcoa&#174; wheels, fastening systems, precision and investment castings, and building systems in addition to its expertise in other light metals such as titanium and nickel based super alloys.
+
+POS tagged sentence: 
+[('Among', 'IN'), ('the', 'DT'), ('solutions', 'NNS'), ('Alcoa', 'NNP'), ('markets', 'NNS'), ('are', 'VBP'), ('flat', 'JJ'), ('rolled', 'VBN'), ('products', 'NNS'), (',', ','), ('hard', 'RB'), ('alloy', 'JJ'), ('extrusions', 'NNS'), (',', ','), ('and', 'CC'), ('forgings', 'NNS'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('as', 'IN'), ('Alcoa&', 'JJ'), ('#', '#'), ('174', 'CD'), (';', ':'), ('wheels', 'NNS'), (',', ','), ('fastening', 'VBG'), ('systems', 'NNS'), (',', ','), ('precision', 'NN'), ('and', 'CC'), ('investment', 'NN'), ('castings', 'NNS'), (',', ','), ('and', 'CC'), ('building', 'NN'), ('systems', 'NNS'), ('in', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('its', 'PRP$'), ('expertise', 'NN'), ('in', 'IN'), ('other', 'JJ'), ('light', 'JJ'), ('metals', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('titanium', 'NN'), ('and', 'CC'), ('nickel', 'NN'), ('based', 'VBN'), ('super', 'NN'), ('alloys', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Among/IN   the/DT   solutions/NNS   Alcoa/NNP   markets/NNS   are/VBP   flat/JJ   rolled/VBN   products/NNS   ,/,   hard/RB   alloy/JJ   extrusions/NNS   ,/,   and/CC   forgings/NNS   ,/,   as/IN   well/RB   as/IN   Alcoa&/JJ   #/#   174/CD   ;/:   wheels/NNS   ,/,   fastening/VBG   systems/NNS   ,/,   precision/NN   and/CC   investment/NN   castings/NNS   ,/,   and/CC   building/NN   systems/NNS   in/IN   addition/NN   to/TO   its/PRP$   expertise/NN   in/IN   other/JJ   light/JJ   metals/NNS   such/JJ   as/IN   titanium/NN   and/CC   nickel/NN   based/VBN   super/NN   alloys/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP flat/JJ)
+	(VERB rolled/VBN products/NNS)
+	(VERB fastening/VBG systems/NNS)
+	(VERB based/VBN super/NN alloys/NNS)
+noun phrases to consider:
+	(NOUN solutions/NNS Alcoa/NNP markets/NNS)
+	(NOUN hard/RB alloy/JJ extrusions/NNS)
+	(NOUN forgings/NNS)
+	(NOUN Alcoa&/JJ)
+	(NOUN wheels/NNS)
+	(NOUN precision/NN)
+	(NOUN investment/NN castings/NNS)
+	(NOUN building/NN systems/NNS)
+	(NOUN addition/NN)
+	(NOUN expertise/NN)
+	(NOUN other/JJ light/JJ metals/NNS)
+	(NOUN such/JJ)
+	(NOUN titanium/NN)
+	(NOUN nickel/NN)
+
+----------------------------------
+original sentence: 
+Sustainability is an integral part of Alcoa&#8217;s operating practices and the product design and engineering it provides to customers.
+
+POS tagged sentence: 
+[('Sustainability', 'NN'), ('is', 'VBZ'), ('an', 'DT'), ('integral', 'JJ'), ('part', 'NN'), ('of', 'IN'), ('Alcoa&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('operating', 'VBG'), ('practices', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('product', 'NN'), ('design', 'NN'), ('and', 'CC'), ('engineering', 'NN'), ('it', 'PRP'), ('provides', 'VBZ'), ('to', 'TO'), ('customers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Sustainability/NN)   is/VBZ   an/DT   integral/JJ   part/NN   of/IN   Alcoa&/NNP   #/#   8217/CD   ;/:   s/NNS   operating/VBG   practices/NNS   and/CC   the/DT   product/NN   design/NN   and/CC   engineering/NN   it/PRP   provides/VBZ   to/TO   customers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ an/DT integral/JJ part/NN of/IN Alcoa&/NNP)
+
+tagged sentence:
+	 is an integral part of Alcoa&	res:1
+	(VERB operating/VBG practices/NNS)
+	(VERB provides/VBZ to/TO customers/NNS)
+noun phrases to consider:
+	(NOUN Sustainability/NN)
+	(NOUN s/NNS)
+	(NOUN product/NN design/NN)
+	(NOUN engineering/NN)
+
+----------------------------------
+original sentence: 
+Alcoa has been a member of the Dow Jones Sustainability Index for eight consecutive years and approximately 75 percent of all of the aluminum ever produced since 1888 is still in active use today.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('has', 'VBZ'), ('been', 'VBN'), ('a', 'DT'), ('member', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Sustainability', 'NNP'), ('Index', 'NNP'), ('for', 'IN'), ('eight', 'CD'), ('consecutive', 'JJ'), ('years', 'NNS'), ('and', 'CC'), ('approximately', 'RB'), ('75', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('all', 'DT'), ('of', 'IN'), ('the', 'DT'), ('aluminum', 'NN'), ('ever', 'RB'), ('produced', 'VBN'), ('since', 'IN'), ('1888', 'CD'), ('is', 'VBZ'), ('still', 'RB'), ('in', 'IN'), ('active', 'JJ'), ('use', 'NN'), ('today', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   (ORGANIZATION Dow/NNP Jones/NNP)   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS   and/CC   approximately/RB   75/CD   percent/NN   of/IN   all/DT   of/IN   the/DT   aluminum/NN   ever/RB   produced/VBN   since/IN   1888/CD   is/VBZ   still/RB   in/IN   active/JJ   use/NN   today/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   has/VBZ   been/VBN   a/DT   member/NN   of/IN   the/DT   Dow/NNP   Jones/NNP   Sustainability/NNP   Index/NNP   for/IN   eight/CD   consecutive/JJ   years/NNS)
+	(VERB produced/VBN since/IN 1888/CD)
+	(VERB is/VBZ still/RB in/IN active/JJ use/NN today/NN)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN percent/NN)
+	(NOUN aluminum/NN)
+
+----------------------------------
+original sentence: 
+Alcoa employs approximately 59,000 people in 31 countries across the world.
+
+POS tagged sentence: 
+[('Alcoa', 'NNP'), ('employs', 'VBZ'), ('approximately', 'RB'), ('59,000', 'CD'), ('people', 'NNS'), ('in', 'IN'), ('31', 'CD'), ('countries', 'NNS'), ('across', 'IN'), ('the', 'DT'), ('world', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Alcoa/NNP)   employs/VBZ   approximately/RB   59,000/CD   people/NNS   in/IN   31/CD   countries/NNS   across/IN   the/DT   world/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB employs/VBZ)
+noun phrases to consider:
+	(NOUN Alcoa/NNP)
+	(NOUN people/NNS)
+	(NOUN 31/CD countries/NNS)
+	(NOUN world/NN)
+
+----------------------------------
+original sentence: 
+More information can be found at  Contacts Mike Belwood, 812 604 0530
+Mike.belwood@alcoa.com
+ http://www.businesswire.com/news/home/20100324006378/en/Alcoa Wins Inaugural Environmental Award
+Company Information Center
+More Business Wire sites
+
+
+POS tagged sentence: 
+[('More', 'JJR'), ('information', 'NN'), ('can', 'MD'), ('be', 'VB'), ('found', 'VBN'), ('at', 'IN'), ('Contacts', 'NNPS'), ('Mike', 'NNP'), ('Belwood', 'NNP'), (',', ','), ('812', 'CD'), ('604', 'CD'), ('0530', 'CD'), ('Mike.belwood', 'JJ'), ('@', 'NN'), ('alcoa.com', 'NN'), ('http', 'NN'), (':', ':'), ('//www.businesswire.com/news/home/20100324006378/en/Alcoa', 'JJ'), ('Wins', 'NNS'), ('Inaugural', 'NNP'), ('Environmental', 'NNP'), ('Award', 'NNP'), ('Company', 'NNP'), ('Information', 'NNP'), ('Center', 'NNP'), ('More', 'NNP'), ('Business', 'NNP'), ('Wire', 'NNP'), ('sites', 'VBZ')]
+
+
+ERTAGGED sentence: (S   More/JJR   information/NN   can/MD   be/VB   found/VBN   at/IN   (ORGANIZATION Contacts/NNPS Mike/NNP Belwood/NNP)   ,/,   812/CD   604/CD   0530/CD   Mike.belwood/JJ   @/NN   alcoa.com/NN   http/NN   :/:   //www.businesswire.com/news/home/20100324006378/en/Alcoa/JJ   Wins/NNS   (ORGANIZATION     Inaugural/NNP     Environmental/NNP     Award/NNP     Company/NNP     Information/NNP     Center/NNP     More/NNP     Business/NNP     Wire/NNP)   sites/VBZ)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB found/VBN at/IN Contacts/NNPS Mike/NNP Belwood/NNP)
+	(VERB sites/VBZ)
+noun phrases to consider:
+	(NOUN More/JJR information/NN)
+	(NOUN 0530/CD Mike.belwood/JJ @/NN alcoa.com/NN http/NN)
+	(NOUN   //www.businesswire.com/news/home/20100324006378/en/Alcoa/JJ   Wins/NNS   Inaugural/NNP   Environmental/NNP   Award/NNP)
+
+tagged sentence:
+	 //www.businesswire.com/news/home/20100324006378/en/Alcoa Wins Inaugural Environmental Award	res:1
+	(NOUN Company/NNP Information/NNP Center/NNP More/NNP)
+	(NOUN Business/NNP Wire/NNP)
+
+
+veryneg:0	neg:0	pos:16	verypos:0	total:10

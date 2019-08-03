@@ -1,0 +1,192 @@
+
+----------------------------------
+original sentence: 
+U.S. Treasury May Make $8 Billion on Citigroup Investment NYSE: C American Banking News
+U.S. Treasury May Make $8 Billion on Citigroup Investment NYSE: C  March 26th, 2010 &bull;  &bull; by admin  Filed Under: The U.S. Treasury and the Obama administration is making final plans to sell its 27% ownership stake in Citigroup NYSE: C .
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('Treasury', 'NNP'), ('May', 'NNP'), ('Make', 'NNP'), ('$', '$'), ('8', 'CD'), ('Billion', 'CD'), ('on', 'IN'), ('Citigroup', 'NNP'), ('Investment', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('May', 'NNP'), ('Make', 'NNP'), ('$', '$'), ('8', 'CD'), ('Billion', 'CD'), ('on', 'IN'), ('Citigroup', 'NNP'), ('Investment', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('March', 'NNP'), ('26th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('The', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Obama', 'NNP'), ('administration', 'NN'), ('is', 'VBZ'), ('making', 'VBG'), ('final', 'JJ'), ('plans', 'NNS'), ('to', 'TO'), ('sell', 'VB'), ('its', 'PRP$'), ('27', 'CD'), ('%', 'NN'), ('ownership', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP)   May/NNP   Make/NNP   $/$   8/CD   Billion/CD   on/IN   (ORGANIZATION Citigroup/NNP Investment/NNP)   NYSE/NNP   :/:   C/NNP   (ORGANIZATION     American/NNP     Banking/NNP     News/NNP     U.S./NNP     Treasury/NNP)   May/NNP   Make/NNP   $/$   8/CD   Billion/CD   on/IN   (ORGANIZATION Citigroup/NNP Investment/NNP)   NYSE/NNP   :/:   C/NNP   March/NNP   26th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   The/DT   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP)   and/CC   the/DT   (ORGANIZATION Obama/NNP)   administration/NN   is/VBZ   making/VBG   final/JJ   plans/NNS   to/TO   sell/VB   its/PRP$   27/CD   %/NN   ownership/NN   stake/NN   in/IN   (GPE Citigroup/NNP)   NYSE/NNP   :/:   C/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ making/VBG final/JJ plans/NNS)
+	(VERB   sell/VB   its/PRP$   27/CD   %/NN   ownership/NN   stake/NN   in/IN   Citigroup/NNP   NYSE/NNP)
+noun phrases to consider:
+	(NOUN U.S./NNP Treasury/NNP May/NNP Make/NNP)
+	(NOUN Citigroup/NNP Investment/NNP NYSE/NNP)
+	(NOUN C/NNP American/NNP Banking/NNP News/NNP)
+	(NOUN U.S./NNP Treasury/NNP May/NNP Make/NNP)
+	(NOUN Citigroup/NNP Investment/NNP NYSE/NNP)
+	(NOUN C/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN U.S./NNP Treasury/NNP)
+	(NOUN Obama/NNP administration/NN)
+	(NOUN C/NNP)
+
+----------------------------------
+original sentence: 
+At Citigroup&#8217;s current stock price, the sale would net the federal government more than $8 billion in profit, which would be by far the most profit that the government made on any of the firms that accepted bailout funds and would be the second largest stock sale in history.
+
+POS tagged sentence: 
+[('At', 'IN'), ('Citigroup&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('current', 'VBP'), ('stock', 'NN'), ('price', 'NN'), (',', ','), ('the', 'DT'), ('sale', 'NN'), ('would', 'MD'), ('net', 'VB'), ('the', 'DT'), ('federal', 'JJ'), ('government', 'NN'), ('more', 'RBR'), ('than', 'IN'), ('$', '$'), ('8', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('profit', 'NN'), (',', ','), ('which', 'WDT'), ('would', 'MD'), ('be', 'VB'), ('by', 'IN'), ('far', 'RB'), ('the', 'DT'), ('most', 'RBS'), ('profit', 'NN'), ('that', 'IN'), ('the', 'DT'), ('government', 'NN'), ('made', 'VBD'), ('on', 'IN'), ('any', 'DT'), ('of', 'IN'), ('the', 'DT'), ('firms', 'NNS'), ('that', 'WDT'), ('accepted', 'VBN'), ('bailout', 'RP'), ('funds', 'NNS'), ('and', 'CC'), ('would', 'MD'), ('be', 'VB'), ('the', 'DT'), ('second', 'JJ'), ('largest', 'JJS'), ('stock', 'NN'), ('sale', 'NN'), ('in', 'IN'), ('history', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   At/IN   Citigroup&/JJ   #/#   8217/CD   ;/:   s/NNS   current/VBP   stock/NN   price/NN   ,/,   the/DT   sale/NN   would/MD   net/VB   the/DT   federal/JJ   government/NN   more/RBR   than/IN   $/$   8/CD   billion/CD   in/IN   profit/NN   ,/,   which/WDT   would/MD   be/VB   by/IN   far/RB   the/DT   most/RBS   profit/NN   that/IN   the/DT   government/NN   made/VBD   on/IN   any/DT   of/IN   the/DT   firms/NNS   that/WDT   accepted/VBN   bailout/RP   funds/NNS   and/CC   would/MD   be/VB   the/DT   second/JJ   largest/JJS   stock/NN   sale/NN   in/IN   history/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB current/VBP stock/NN price/NN)
+	(VERB net/VB the/DT federal/JJ government/NN)
+	(VERB be/VB by/IN far/RB the/DT)
+	(VERB made/VBD on/IN any/DT of/IN the/DT firms/NNS)
+	(VERB accepted/VBN)
+	(VERB   be/VB   the/DT   second/JJ   largest/JJS   stock/NN   sale/NN   in/IN   history/NN)
+
+tagged sentence:
+	 be the second largest stock sale in history	res:1
+noun phrases to consider:
+	(NOUN Citigroup&/JJ)
+	(NOUN s/NNS)
+	(NOUN sale/NN)
+	(NOUN profit/NN)
+
+tagged sentence:
+	 profit	res:1
+	(NOUN profit/NN)
+
+tagged sentence:
+	 profit	res:1
+	(NOUN government/NN)
+	(NOUN funds/NNS)
+
+----------------------------------
+original sentence: 
+The federal government invested $25 billion in Citigroup which has since converted into a 27% ownership stake in the company.
+
+POS tagged sentence: 
+[('The', 'DT'), ('federal', 'JJ'), ('government', 'NN'), ('invested', 'VBD'), ('$', '$'), ('25', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('Citigroup', 'NNP'), ('which', 'WDT'), ('has', 'VBZ'), ('since', 'IN'), ('converted', 'VBN'), ('into', 'IN'), ('a', 'DT'), ('27', 'CD'), ('%', 'NN'), ('ownership', 'NN'), ('stake', 'NN'), ('in', 'IN'), ('the', 'DT'), ('company', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   federal/JJ   government/NN   invested/VBD   $/$   25/CD   billion/CD   in/IN   (GPE Citigroup/NNP)   which/WDT   has/VBZ   since/IN   converted/VBN   into/IN   a/DT   27/CD   %/NN   ownership/NN   stake/NN   in/IN   the/DT   company/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB invested/VBD)
+	(VERB has/VBZ since/IN)
+	(VERB   converted/VBN   into/IN   a/DT   27/CD   %/NN   ownership/NN   stake/NN   in/IN   the/DT   company/NN)
+noun phrases to consider:
+	(NOUN The/DT federal/JJ government/NN)
+	(NOUN Citigroup/NNP)
+
+----------------------------------
+original sentence: 
+The investment is now worth $33 billion on paper.
+
+POS tagged sentence: 
+[('The', 'DT'), ('investment', 'NN'), ('is', 'VBZ'), ('now', 'RB'), ('worth', 'JJ'), ('$', '$'), ('33', 'CD'), ('billion', 'CD'), ('on', 'IN'), ('paper', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   investment/NN   is/VBZ   now/RB   worth/JJ   $/$   33/CD   billion/CD   on/IN   paper/NN   ./.)
+----------------------------------
+original sentence: 
+The potential sale of Citigroup shares would mark the second largest stock sale in history, only second to a 1987 stock offering by Japan&#8217;s Nippon Telegraph which raised $36.8 billion in 1987, according to Reuters.
+
+POS tagged sentence: 
+[('The', 'DT'), ('potential', 'JJ'), ('sale', 'NN'), ('of', 'IN'), ('Citigroup', 'NNP'), ('shares', 'NNS'), ('would', 'MD'), ('mark', 'VB'), ('the', 'DT'), ('second', 'JJ'), ('largest', 'JJS'), ('stock', 'NN'), ('sale', 'NN'), ('in', 'IN'), ('history', 'NN'), (',', ','), ('only', 'RB'), ('second', 'JJ'), ('to', 'TO'), ('a', 'DT'), ('1987', 'CD'), ('stock', 'NN'), ('offering', 'NN'), ('by', 'IN'), ('Japan&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Nippon', 'NNP'), ('Telegraph', 'NNP'), ('which', 'WDT'), ('raised', 'VBD'), ('$', '$'), ('36.8', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('1987', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   potential/JJ   sale/NN   of/IN   (ORGANIZATION Citigroup/NNP)   shares/NNS   would/MD   mark/VB   the/DT   second/JJ   largest/JJS   stock/NN   sale/NN   in/IN   history/NN   ,/,   only/RB   second/JJ   to/TO   a/DT   1987/CD   stock/NN   offering/NN   by/IN   Japan&/NNP   #/#   8217/CD   ;/:   s/NNS   (PERSON Nippon/NNP Telegraph/NNP)   which/WDT   raised/VBD   $/$   36.8/CD   billion/CD   in/IN   1987/CD   ,/,   according/VBG   to/TO   (GPE Reuters/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   mark/VB   the/DT   second/JJ   largest/JJS   stock/NN   sale/NN   in/IN   history/NN)
+
+tagged sentence:
+	 mark the second largest stock sale in history	res:1
+	(VERB raised/VBD)
+	(VERB according/VBG to/TO Reuters/NNP)
+noun phrases to consider:
+	(NOUN The/DT potential/JJ sale/NN)
+	(NOUN Citigroup/NNP shares/NNS)
+	(NOUN only/RB second/JJ)
+	(NOUN 1987/CD stock/NN offering/NN)
+	(NOUN Japan&/NNP)
+	(NOUN s/NNS Nippon/NNP Telegraph/NNP)
+
+----------------------------------
+original sentence: 
+Many of the country&#8217;s leading financial firms including JP Morgan, Morgan Stanley and Goldman Sachs are hoping to secure the position as the deal&#8217;s underwriters in hopes of collecting fees from investors that buy Citigroup shares and having the prestige of managing such a historic stock sale.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('country&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('financial', 'JJ'), ('firms', 'NNS'), ('including', 'VBG'), ('JP', 'NNP'), ('Morgan', 'NNP'), (',', ','), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('and', 'CC'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('are', 'VBP'), ('hoping', 'VBG'), ('to', 'TO'), ('secure', 'VB'), ('the', 'DT'), ('position', 'NN'), ('as', 'IN'), ('the', 'DT'), ('deal&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('underwriters', 'NNS'), ('in', 'IN'), ('hopes', 'NNS'), ('of', 'IN'), ('collecting', 'VBG'), ('fees', 'NNS'), ('from', 'IN'), ('investors', 'NNS'), ('that', 'WDT'), ('buy', 'VB'), ('Citigroup', 'NNP'), ('shares', 'NNS'), ('and', 'CC'), ('having', 'VBG'), ('the', 'DT'), ('prestige', 'NN'), ('of', 'IN'), ('managing', 'VBG'), ('such', 'JJ'), ('a', 'DT'), ('historic', 'JJ'), ('stock', 'NN'), ('sale', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   of/IN   the/DT   country&/JJ   #/#   8217/CD   ;/:   s/NNS   leading/VBG   financial/JJ   firms/NNS   including/VBG   (ORGANIZATION JP/NNP Morgan/NNP)   ,/,   (PERSON Morgan/NNP Stanley/NNP)   and/CC   (ORGANIZATION Goldman/NNP Sachs/NNP)   are/VBP   hoping/VBG   to/TO   secure/VB   the/DT   position/NN   as/IN   the/DT   deal&/NNP   #/#   8217/CD   ;/:   s/NNS   underwriters/NNS   in/IN   hopes/NNS   of/IN   collecting/VBG   fees/NNS   from/IN   investors/NNS   that/WDT   buy/VB   (ORGANIZATION Citigroup/NNP)   shares/NNS   and/CC   having/VBG   the/DT   prestige/NN   of/IN   managing/VBG   such/JJ   a/DT   historic/JJ   stock/NN   sale/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB leading/VBG financial/JJ firms/NNS)
+	(VERB including/VBG JP/NNP Morgan/NNP)
+	(VERB are/VBP hoping/VBG)
+	(VERB secure/VB the/DT position/NN as/IN the/DT deal&/NNP)
+	(VERB collecting/VBG fees/NNS from/IN investors/NNS)
+	(VERB buy/VB Citigroup/NNP shares/NNS)
+	(VERB having/VBG the/DT prestige/NN of/IN)
+
+tagged sentence:
+	 having the prestige of	res:1
+	(VERB managing/VBG such/JJ a/DT historic/JJ stock/NN sale/NN)
+noun phrases to consider:
+	(NOUN Many/JJ)
+	(NOUN the/DT country&/JJ)
+	(NOUN s/NNS)
+	(NOUN Morgan/NNP Stanley/NNP)
+	(NOUN Goldman/NNP Sachs/NNP)
+	(NOUN s/NNS underwriters/NNS)
+	(NOUN hopes/NNS)
+
+----------------------------------
+original sentence: 
+To improve their odds, some of the banks, including Goldman Sachs, are offering their services to the Treasury Department at almost no cost, according to the Washington Post citing anonymous sources.
+
+POS tagged sentence: 
+[('To', 'TO'), ('improve', 'VB'), ('their', 'PRP$'), ('odds', 'NNS'), (',', ','), ('some', 'DT'), ('of', 'IN'), ('the', 'DT'), ('banks', 'NNS'), (',', ','), ('including', 'VBG'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), (',', ','), ('are', 'VBP'), ('offering', 'VBG'), ('their', 'PRP$'), ('services', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('Treasury', 'NNP'), ('Department', 'NNP'), ('at', 'IN'), ('almost', 'RB'), ('no', 'DT'), ('cost', 'NN'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('the', 'DT'), ('Washington', 'NNP'), ('Post', 'NNP'), ('citing', 'VBG'), ('anonymous', 'JJ'), ('sources', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   improve/VB   their/PRP$   odds/NNS   ,/,   some/DT   of/IN   the/DT   banks/NNS   ,/,   including/VBG   (ORGANIZATION Goldman/NNP Sachs/NNP)   ,/,   are/VBP   offering/VBG   their/PRP$   services/NNS   to/TO   the/DT   (ORGANIZATION Treasury/NNP Department/NNP)   at/IN   almost/RB   no/DT   cost/NN   ,/,   according/VBG   to/TO   the/DT   (ORGANIZATION Washington/NNP)   Post/NNP   citing/VBG   anonymous/JJ   sources/NNS   ./.)
+----------------------------------
+original sentence: 
+If the U.S. Treasury&#8217;s sale proceeds as planned, Citigroup will be able to cut nearly all of its connection to the government&#8217;s Troubled Asset Relief Program.
+
+POS tagged sentence: 
+[('If', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('sale', 'NN'), ('proceeds', 'NNS'), ('as', 'IN'), ('planned', 'VBN'), (',', ','), ('Citigroup', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('able', 'JJ'), ('to', 'TO'), ('cut', 'VB'), ('nearly', 'RB'), ('all', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('connection', 'NN'), ('to', 'TO'), ('the', 'DT'), ('government&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('Troubled', 'NNP'), ('Asset', 'NNP'), ('Relief', 'NNP'), ('Program', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   If/IN   the/DT   (GPE U.S./NNP)   Treasury&/NNP   #/#   8217/CD   ;/:   s/NNS   sale/NN   proceeds/NNS   as/IN   planned/VBN   ,/,   (PERSON Citigroup/NNP)   will/MD   be/VB   able/JJ   to/TO   cut/VB   nearly/RB   all/DT   of/IN   its/PRP$   connection/NN   to/TO   the/DT   government&/NN   #/#   8217/CD   ;/:   s/NNS   (PERSON Troubled/NNP Asset/NNP Relief/NNP Program/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB planned/VBN)
+	(VERB be/VB able/JJ)
+
+tagged sentence:
+	 be able	res:1
+	(VERB cut/VB nearly/RB all/DT of/IN its/PRP$ connection/NN)
+
+tagged sentence:
+	 cut nearly all of its connection	res:-1
+noun phrases to consider:
+	(NOUN U.S./NNP Treasury&/NNP)
+	(NOUN s/NNS sale/NN proceeds/NNS)
+	(NOUN Citigroup/NNP)
+	(NOUN government&/NN)
+	(NOUN s/NNS Troubled/NNP Asset/NNP Relief/NNP)
+
+tagged sentence:
+	 s Troubled Asset Relief	res:-1
+	(NOUN Program/NNP)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:2	pos:6	verypos:0	total:3

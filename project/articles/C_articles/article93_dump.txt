@@ -1,0 +1,284 @@
+
+----------------------------------
+original sentence: 
+Market Updates: JPMorgan Chase NYSE:JPM , Citigroup NYSE:C , Potash Corp. of Saskatchewan NYSE:POT , Ann Taylor NYSE:ANN | Jutia Group
+Friday, April 23rd, 2010
+Market Updates: JPMorgan Chase NYSE:JPM , Citigroup NYSE:C , Potash Corp. of Saskatchewan NYSE:POT , Ann Taylor NYSE:ANN  March 12th, 2010 &bull;  Filed Under: Ann Taylor NYSE:ANN JPMorgan Chase NYSE:JPM Potash Corp. of Saskatchewan NYSE:POT A court appointed examiner said demands from  for collateral helped to drive Lehman Brothers into bankruptcy.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Updates', 'NNS'), (':', ':'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), (',', ','), ('Ann', 'NNP'), ('Taylor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ANN', 'NNP'), ('|', ':'), ('Jutia', 'NNP'), ('Group', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23rd', 'CD'), (',', ','), ('2010', 'CD'), ('Market', 'NNP'), ('Updates', 'NNP'), (':', ':'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), (',', ','), ('Ann', 'NNP'), ('Taylor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ANN', 'NNP'), ('March', 'NNP'), ('12th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Ann', 'NNP'), ('Taylor', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('ANN', 'NNP'), ('JPMorgan', 'NNP'), ('Chase', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('JPM', 'NNP'), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('POT', 'NNP'), ('A', 'DT'), ('court', 'NN'), ('appointed', 'VBN'), ('examiner', 'NN'), ('said', 'VBD'), ('demands', 'NNS'), ('from', 'IN'), ('for', 'IN'), ('collateral', 'JJ'), ('helped', 'VBN'), ('to', 'TO'), ('drive', 'VB'), ('Lehman', 'NNP'), ('Brothers', 'NNPS'), ('into', 'IN'), ('bankruptcy', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   (PERSON Updates/NNS)   :/:   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   NYSE/NNP   :/:   JPM/NNP   ,/,   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   NYSE/NNP   :/:   POT/NNP   ,/,   (PERSON Ann/NNP Taylor/NNP)   NYSE/NNP   :/:   ANN/NNP   |/:   (PERSON Jutia/NNP Group/NNP)   Friday/NNP   ,/,   April/NNP   23rd/CD   ,/,   2010/CD   (PERSON Market/NNP Updates/NNP)   :/:   (ORGANIZATION JPMorgan/NNP)   Chase/NNP   NYSE/NNP   :/:   JPM/NNP   ,/,   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   NYSE/NNP   :/:   POT/NNP   ,/,   (PERSON Ann/NNP Taylor/NNP)   NYSE/NNP   :/:   (ORGANIZATION ANN/NNP)   March/NNP   12th/CD   ,/,   2010/CD   &bull/JJ   ;/:   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Ann/NNP Taylor/NNP)   NYSE/NNP   :/:   (ORGANIZATION ANN/NNP)   JPMorgan/NNP   Chase/NNP   NYSE/NNP   :/:   (ORGANIZATION JPM/NNP Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   NYSE/NNP   :/:   POT/NNP   A/DT   court/NN   appointed/VBN   examiner/NN   said/VBD   demands/NNS   from/IN   for/IN   collateral/JJ   helped/VBN   to/TO   drive/VB   (ORGANIZATION Lehman/NNP Brothers/NNPS)   into/IN   bankruptcy/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB appointed/VBN examiner/NN)
+	(VERB said/VBD demands/NNS from/IN for/IN collateral/JJ)
+	(VERB   helped/VBN   to/TO   drive/VB   Lehman/NNP   Brothers/NNPS   into/IN   bankruptcy/NN)
+noun phrases to consider:
+	(NOUN Market/NN Updates/NNS)
+	(NOUN JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+	(NOUN Ann/NNP Taylor/NNP NYSE/NNP)
+	(NOUN ANN/NNP)
+	(NOUN Jutia/NNP Group/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Market/NNP Updates/NNP)
+	(NOUN JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+	(NOUN Ann/NNP Taylor/NNP NYSE/NNP)
+	(NOUN ANN/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN Filed/NNP Under/NNP)
+	(NOUN Ann/NNP Taylor/NNP NYSE/NNP)
+	(NOUN ANN/NNP JPMorgan/NNP Chase/NNP NYSE/NNP)
+	(NOUN JPM/NNP Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP NYSE/NNP)
+	(NOUN POT/NNP)
+	(NOUN court/NN)
+
+----------------------------------
+original sentence: 
+In other news, Potash Corp. of Saskatchewan
+ sharply raised its first quarter forecast on Thursday, citing a sharp rebound in demand for potash &#8212; a key crop nutrient.
+
+POS tagged sentence: 
+[('In', 'IN'), ('other', 'JJ'), ('news', 'NN'), (',', ','), ('Potash', 'NNP'), ('Corp.', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('sharply', 'RB'), ('raised', 'VBD'), ('its', 'PRP$'), ('first', 'JJ'), ('quarter', 'NN'), ('forecast', 'NN'), ('on', 'IN'), ('Thursday', 'NNP'), (',', ','), ('citing', 'VBG'), ('a', 'DT'), ('sharp', 'JJ'), ('rebound', 'NN'), ('in', 'IN'), ('demand', 'NN'), ('for', 'IN'), ('potash', 'NN'), ('&', 'CC'), ('#', '#'), ('8212', 'CD'), (';', ':'), ('a', 'DT'), ('key', 'JJ'), ('crop', 'NN'), ('nutrient', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   other/JJ   news/NN   ,/,   (ORGANIZATION Potash/NNP Corp./NNP)   of/IN   (GPE Saskatchewan/NNP)   sharply/RB   raised/VBD   its/PRP$   first/JJ   quarter/NN   forecast/NN   on/IN   Thursday/NNP   ,/,   citing/VBG   a/DT   sharp/JJ   rebound/NN   in/IN   demand/NN   for/IN   potash/NN   &/CC   #/#   8212/CD   ;/:   a/DT   key/JJ   crop/NN   nutrient/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   raised/VBD   its/PRP$   first/JJ   quarter/NN   forecast/NN   on/IN   Thursday/NNP)
+	(VERB   citing/VBG   a/DT   sharp/JJ   rebound/NN   in/IN   demand/NN   for/IN   potash/NN)
+noun phrases to consider:
+	(NOUN other/JJ news/NN)
+	(NOUN Potash/NNP Corp./NNP)
+	(NOUN Saskatchewan/NNP)
+	(NOUN a/DT key/JJ crop/NN nutrient/NN)
+
+----------------------------------
+original sentence: 
+Shares jumped over 7% before the bell.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('jumped', 'VBD'), ('over', 'IN'), ('7', 'CD'), ('%', 'NN'), ('before', 'IN'), ('the', 'DT'), ('bell', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Shares/NNS)   jumped/VBD   over/IN   7/CD   %/NN   before/IN   the/DT   bell/NN   ./.)
+----------------------------------
+original sentence: 
+Also,  on Friday swung to a fourth quarter profit even as sales fell 3% after it controlled inventory and revamped merchandise to help sell more products at full price.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('on', 'IN'), ('Friday', 'NNP'), ('swung', 'NN'), ('to', 'TO'), ('a', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('profit', 'NN'), ('even', 'RB'), ('as', 'IN'), ('sales', 'NNS'), ('fell', 'VBD'), ('3', 'CD'), ('%', 'NN'), ('after', 'IN'), ('it', 'PRP'), ('controlled', 'VBD'), ('inventory', 'NN'), ('and', 'CC'), ('revamped', 'VBD'), ('merchandise', 'NN'), ('to', 'TO'), ('help', 'VB'), ('sell', 'NN'), ('more', 'JJR'), ('products', 'NNS'), ('at', 'IN'), ('full', 'JJ'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   on/IN   Friday/NNP   swung/NN   to/TO   a/DT   fourth/JJ   quarter/NN   profit/NN   even/RB   as/IN   sales/NNS   fell/VBD   3/CD   %/NN   after/IN   it/PRP   controlled/VBD   inventory/NN   and/CC   revamped/VBD   merchandise/NN   to/TO   help/VB   sell/NN   more/JJR   products/NNS   at/IN   full/JJ   price/NN   ./.)
+----------------------------------
+original sentence: 
+Shares declined 1.8% even though the company forecast a strong quarter.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('declined', 'VBD'), ('1.8', 'CD'), ('%', 'NN'), ('even', 'RB'), ('though', 'IN'), ('the', 'DT'), ('company', 'NN'), ('forecast', 'VBD'), ('a', 'DT'), ('strong', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Shares/NNS)   declined/VBD   1.8/CD   %/NN   even/RB   though/IN   the/DT   company/NN   forecast/VBD   a/DT   strong/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+ European Union finance ministers will discuss next week whether any Greek bailout should be funded by EU bonds guaranteed by euro region governments, said three people briefed on preparations for March 15 16 meetings.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('European', 'JJ'), ('Union', 'NN'), ('finance', 'NN'), ('ministers', 'NNS'), ('will', 'MD'), ('discuss', 'VB'), ('next', 'JJ'), ('week', 'NN'), ('whether', 'IN'), ('any', 'DT'), ('Greek', 'NNP'), ('bailout', 'IN'), ('should', 'MD'), ('be', 'VB'), ('funded', 'VBN'), ('by', 'IN'), ('EU', 'NNP'), ('bonds', 'NNS'), ('guaranteed', 'VBD'), ('by', 'IN'), ('euro', 'NN'), ('region', 'NN'), ('governments', 'NNS'), (',', ','), ('said', 'VBD'), ('three', 'CD'), ('people', 'NNS'), ('briefed', 'VBN'), ('on', 'IN'), ('preparations', 'NNS'), ('for', 'IN'), ('March', 'NNP'), ('15', 'CD'), ('16', 'CD'), ('meetings', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   (GPE European/JJ)   (ORGANIZATION Union/NN)   finance/NN   ministers/NNS   will/MD   discuss/VB   next/JJ   week/NN   whether/IN   any/DT   (GPE Greek/NNP)   bailout/IN   should/MD   be/VB   funded/VBN   by/IN   (GPE EU/NNP)   bonds/NNS   guaranteed/VBD   by/IN   euro/NN   region/NN   governments/NNS   ,/,   said/VBD   three/CD   people/NNS   briefed/VBN   on/IN   preparations/NNS   for/IN   March/NNP   15/CD   16/CD   meetings/NNS   ./.)
+----------------------------------
+original sentence: 
+Another option would be for governments in the 16 nation bloc to give Greece loans to help the country finance its budget deficit, said the people, who spoke on condition of anonymity because the talks are private.
+
+POS tagged sentence: 
+[('Another', 'DT'), ('option', 'NN'), ('would', 'MD'), ('be', 'VB'), ('for', 'IN'), ('governments', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('16', 'CD'), ('nation', 'NN'), ('bloc', 'NN'), ('to', 'TO'), ('give', 'VB'), ('Greece', 'NNP'), ('loans', 'NNS'), ('to', 'TO'), ('help', 'VB'), ('the', 'DT'), ('country', 'NN'), ('finance', 'NN'), ('its', 'PRP$'), ('budget', 'NN'), ('deficit', 'NN'), (',', ','), ('said', 'VBD'), ('the', 'DT'), ('people', 'NNS'), (',', ','), ('who', 'WP'), ('spoke', 'NN'), ('on', 'IN'), ('condition', 'NN'), ('of', 'IN'), ('anonymity', 'NN'), ('because', 'IN'), ('the', 'DT'), ('talks', 'NNS'), ('are', 'VBP'), ('private', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Another/DT   option/NN   would/MD   be/VB   for/IN   governments/NNS   in/IN   the/DT   16/CD   nation/NN   bloc/NN   to/TO   give/VB   (GPE Greece/NNP)   loans/NNS   to/TO   help/VB   the/DT   country/NN   finance/NN   its/PRP$   budget/NN   deficit/NN   ,/,   said/VBD   the/DT   people/NNS   ,/,   who/WP   spoke/NN   on/IN   condition/NN   of/IN   anonymity/NN   because/IN   the/DT   talks/NNS   are/VBP   private/JJ   ./.)
+----------------------------------
+original sentence: 
+Any EU bond sale would have to be agreed upon by all 27 EU nations, they said.
+
+POS tagged sentence: 
+[('Any', 'DT'), ('EU', 'NNP'), ('bond', 'NN'), ('sale', 'NN'), ('would', 'MD'), ('have', 'VB'), ('to', 'TO'), ('be', 'VB'), ('agreed', 'VBN'), ('upon', 'IN'), ('by', 'IN'), ('all', 'DT'), ('27', 'CD'), ('EU', 'NNP'), ('nations', 'NNS'), (',', ','), ('they', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Any/DT   (GPE EU/NNP)   bond/NN   sale/NN   would/MD   have/VB   to/TO   be/VB   agreed/VBN   upon/IN   by/IN   all/DT   27/CD   EU/NNP   nations/NNS   ,/,   they/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+ The dollar gained ground against rivals after stronger U.S. economic data fueled bets that the Federal Reserve will tighten monetary policy sooner than expected.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('dollar', 'NN'), ('gained', 'VBD'), ('ground', 'NN'), ('against', 'IN'), ('rivals', 'NNS'), ('after', 'IN'), ('stronger', 'JJR'), ('U.S.', 'NNP'), ('economic', 'JJ'), ('data', 'NNS'), ('fueled', 'VBN'), ('bets', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('will', 'MD'), ('tighten', 'VB'), ('monetary', 'JJ'), ('policy', 'NN'), ('sooner', 'NN'), ('than', 'IN'), ('expected', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   The/DT   dollar/NN   gained/VBD   ground/NN   against/IN   rivals/NNS   after/IN   stronger/JJR   (GPE U.S./NNP)   economic/JJ   data/NNS   fueled/VBN   bets/NNS   that/IN   the/DT   (ORGANIZATION Federal/NNP Reserve/NNP)   will/MD   tighten/VB   monetary/JJ   policy/NN   sooner/NN   than/IN   expected/VBN   ./.)
+----------------------------------
+original sentence: 
+The greenback hit an intraday high against the yen, trading close to 91 yen, and pared overnight losses against the euro after U.S. retail sales in February unexpectedly rose.
+
+POS tagged sentence: 
+[('The', 'DT'), ('greenback', 'NN'), ('hit', 'VBD'), ('an', 'DT'), ('intraday', 'NN'), ('high', 'NN'), ('against', 'IN'), ('the', 'DT'), ('yen', 'NN'), (',', ','), ('trading', 'NN'), ('close', 'NN'), ('to', 'TO'), ('91', 'CD'), ('yen', 'NN'), (',', ','), ('and', 'CC'), ('pared', 'VBD'), ('overnight', 'JJ'), ('losses', 'NNS'), ('against', 'IN'), ('the', 'DT'), ('euro', 'NN'), ('after', 'IN'), ('U.S.', 'NNP'), ('retail', 'NN'), ('sales', 'NNS'), ('in', 'IN'), ('February', 'NNP'), ('unexpectedly', 'RB'), ('rose', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   greenback/NN   hit/VBD   an/DT   intraday/NN   high/NN   against/IN   the/DT   yen/NN   ,/,   trading/NN   close/NN   to/TO   91/CD   yen/NN   ,/,   and/CC   pared/VBD   overnight/JJ   losses/NNS   against/IN   the/DT   euro/NN   after/IN   (GPE U.S./NNP)   retail/NN   sales/NNS   in/IN   February/NNP   unexpectedly/RB   rose/VBD   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+The Wall Street Journal
+ China could allow its currency to begin appreciating against the U.S. dollar within the next month, as Beijing responds to growing pressure from Washington to allow its currency to trade more freely, according to analysts.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('China', 'NNP'), ('could', 'MD'), ('allow', 'VB'), ('its', 'PRP$'), ('currency', 'NN'), ('to', 'TO'), ('begin', 'VB'), ('appreciating', 'NN'), ('against', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('dollar', 'NN'), ('within', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('month', 'NN'), (',', ','), ('as', 'RB'), ('Beijing', 'NNP'), ('responds', 'NNS'), ('to', 'TO'), ('growing', 'VBG'), ('pressure', 'NN'), ('from', 'IN'), ('Washington', 'NNP'), ('to', 'TO'), ('allow', 'VB'), ('its', 'PRP$'), ('currency', 'NN'), ('to', 'TO'), ('trade', 'VB'), ('more', 'JJR'), ('freely', 'RB'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('analysts', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   The/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP China/NNP)   could/MD   allow/VB   its/PRP$   currency/NN   to/TO   begin/VB   appreciating/NN   against/IN   the/DT   (GPE U.S./NNP)   dollar/NN   within/IN   the/DT   next/JJ   month/NN   ,/,   as/RB   (GPE Beijing/NNP)   responds/NNS   to/TO   growing/VBG   pressure/NN   from/IN   (GPE Washington/NNP)   to/TO   allow/VB   its/PRP$   currency/NN   to/TO   trade/VB   more/JJR   freely/RB   ,/,   according/VBG   to/TO   analysts/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB allow/VB its/PRP$ currency/NN)
+	(VERB   begin/VB   appreciating/NN   against/IN   the/DT   U.S./NNP   dollar/NN   within/IN   the/DT   next/JJ   month/NN)
+	(VERB growing/VBG pressure/NN from/IN Washington/NNP)
+	(VERB allow/VB its/PRP$ currency/NN)
+	(VERB trade/VB more/JJR freely/RB)
+	(VERB according/VBG to/TO analysts/NNS)
+noun phrases to consider:
+	(NOUN &ndash/JJ)
+	(NOUN Wall/NNP Street/NNP Journal/NNP China/NNP)
+	(NOUN Beijing/NNP responds/NNS)
+
+----------------------------------
+original sentence: 
+Pressure to end the yuan&#8217;s de facto peg to the U.S. dollar for the last 20 months will increase in the weeks leading up to the U.S. Treasury Department&#8217;s currency report, due to be released April 15.
+
+POS tagged sentence: 
+[('Pressure', 'NN'), ('to', 'TO'), ('end', 'VB'), ('the', 'DT'), ('yuan&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('de', 'VBP'), ('facto', 'IN'), ('peg', 'NN'), ('to', 'TO'), ('the', 'DT'), ('U.S.', 'NNP'), ('dollar', 'NN'), ('for', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('20', 'CD'), ('months', 'NNS'), ('will', 'MD'), ('increase', 'VB'), ('in', 'IN'), ('the', 'DT'), ('weeks', 'NNS'), ('leading', 'VBG'), ('up', 'RP'), ('to', 'TO'), ('the', 'DT'), ('U.S.', 'NNP'), ('Treasury', 'NNP'), ('Department&', 'NNP'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('currency', 'NN'), ('report', 'NN'), (',', ','), ('due', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('released', 'VBN'), ('April', 'NNP'), ('15', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Pressure/NN   to/TO   end/VB   the/DT   yuan&/NNP   #/#   8217/CD   ;/:   s/NNS   de/VBP   facto/IN   peg/NN   to/TO   the/DT   (GPE U.S./NNP)   dollar/NN   for/IN   the/DT   last/JJ   20/CD   months/NNS   will/MD   increase/VB   in/IN   the/DT   weeks/NNS   leading/VBG   up/RP   to/TO   the/DT   (GPE U.S./NNP)   (ORGANIZATION Treasury/NNP)   Department&/NNP   #/#   8217/CD   ;/:   s/NNS   currency/NN   report/NN   ,/,   due/JJ   to/TO   be/VB   released/VBN   April/NNP   15/CD   ./.)
+----------------------------------
+original sentence: 
+&quot;If China does not make an obvious move away from its [U.S. dollar] peg in the next month, the U.S. is likely to impose trade sanctions,&quot; wrote Standard Chartered analysts Stephen Green and Mary Nicola in a research.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('If', 'NNP'), ('China', 'NNP'), ('does', 'VBZ'), ('not', 'RB'), ('make', 'VB'), ('an', 'DT'), ('obvious', 'JJ'), ('move', 'NN'), ('away', 'RB'), ('from', 'IN'), ('its', 'PRP$'), ('[', 'NN'), ('U.S.', 'NNP'), ('dollar', 'NN'), (']', ':'), ('peg', 'NN'), ('in', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('month', 'NN'), (',', ','), ('the', 'DT'), ('U.S.', 'NNP'), ('is', 'VBZ'), ('likely', 'JJ'), ('to', 'TO'), ('impose', 'VB'), ('trade', 'NN'), ('sanctions,&quot', '-NONE-'), (';', ':'), ('wrote', 'VB'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('analysts', 'NNS'), ('Stephen', 'NNP'), ('Green', 'NNP'), ('and', 'CC'), ('Mary', 'NNP'), ('Nicola', 'NNP'), ('in', 'IN'), ('a', 'DT'), ('research', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   If/NNP   (GPE China/NNP)   does/VBZ   not/RB   make/VB   an/DT   obvious/JJ   move/NN   away/RB   from/IN   its/PRP$   [/NN   (GPE U.S./NNP)   dollar/NN   ]/:   peg/NN   in/IN   the/DT   next/JJ   month/NN   ,/,   the/DT   (GPE U.S./NNP)   is/VBZ   likely/JJ   to/TO   impose/VB   trade/NN   sanctions,&quot/-NONE-   ;/:   wrote/VB   (PERSON Standard/NNP Chartered/NNP)   analysts/NNS   (PERSON Stephen/NNP Green/NNP)   and/CC   (PERSON Mary/NNP Nicola/NNP)   in/IN   a/DT   research/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   does/VBZ   not/RB   make/VB   an/DT   obvious/JJ   move/NN   away/RB   from/IN   its/PRP$   [/NN   U.S./NNP   dollar/NN)
+	(VERB is/VBZ likely/JJ)
+	(VERB impose/VB trade/NN)
+	(VERB   wrote/VB   Standard/NNP   Chartered/NNP   analysts/NNS   Stephen/NNP   Green/NNP)
+noun phrases to consider:
+	(NOUN &quot/JJ)
+	(NOUN If/NNP China/NNP)
+	(NOUN peg/NN)
+	(NOUN the/DT next/JJ month/NN)
+	(NOUN U.S./NNP)
+	(NOUN Mary/NNP Nicola/NNP)
+	(NOUN research/NN)
+
+----------------------------------
+original sentence: 
+JPMorgan gets paid to borrow $271 billion
+ naked capitalism, 4/16/10 Does Judge Rakoff Smackdown of Heinous JP Morgan Conduct Mark Beginning of a Sea Change?
+
+POS tagged sentence: 
+[('JPMorgan', 'NNP'), ('gets', 'VBZ'), ('paid', 'VBN'), ('to', 'TO'), ('borrow', 'VB'), ('$', '$'), ('271', 'CD'), ('billion', 'CD'), ('naked', 'VBN'), ('capitalism', 'NN'), (',', ','), ('4/16/10', 'CD'), ('Does', 'VBZ'), ('Judge', 'NNP'), ('Rakoff', 'NNP'), ('Smackdown', 'NNP'), ('of', 'IN'), ('Heinous', 'NNP'), ('JP', 'NNP'), ('Morgan', 'NNP'), ('Conduct', 'NNP'), ('Mark', 'NNP'), ('Beginning', 'NNP'), ('of', 'IN'), ('a', 'DT'), ('Sea', 'NNP'), ('Change', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION JPMorgan/NNP)   gets/VBZ   paid/VBN   to/TO   borrow/VB   $/$   271/CD   billion/CD   naked/VBN   capitalism/NN   ,/,   4/16/10/CD   Does/VBZ   Judge/NNP   (PERSON Rakoff/NNP Smackdown/NNP)   of/IN   (PERSON     Heinous/NNP     JP/NNP     Morgan/NNP     Conduct/NNP     Mark/NNP     Beginning/NNP)   of/IN   a/DT   (ORGANIZATION Sea/NNP)   Change/NNP   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gets/VBZ paid/VBN)
+	(VERB borrow/VB)
+	(VERB naked/VBN capitalism/NN)
+	(VERB   Does/VBZ   Judge/NNP   Rakoff/NNP   Smackdown/NNP   of/IN   Heinous/NNP   JP/NNP   Morgan/NNP   Conduct/NNP   Mark/NNP   Beginning/NNP   of/IN   a/DT   Sea/NNP   Change/NNP)
+noun phrases to consider:
+	(NOUN JPMorgan/NNP)
+
+----------------------------------
+original sentence: 
+naked capitalism, 2/20/10 THE UNSPOKEN MACRO OF THE CITIBANK SAGA
+ THE PRAGMATIC CAPITALIST, 4/2/10  Read more on Potash Corporation of Saskatchewan
+Sign Up for JutiaGroup Underground and Receive Handpicked Stories Delivered to Your Inbox!!
+
+POS tagged sentence: 
+[('naked', 'VBD'), ('capitalism', 'NN'), (',', ','), ('2/20/10', 'CD'), ('THE', 'DT'), ('UNSPOKEN', 'NNP'), ('MACRO', 'NNP'), ('OF', 'NNP'), ('THE', 'NNP'), ('CITIBANK', 'NNP'), ('SAGA', 'NNP'), ('THE', 'NNP'), ('PRAGMATIC', 'NNP'), ('CAPITALIST', 'NNP'), (',', ','), ('4/2/10', 'CD'), ('Read', 'NNP'), ('more', 'RBR'), ('on', 'IN'), ('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Sign', 'NNP'), ('Up', 'NNP'), ('for', 'IN'), ('JutiaGroup', 'NNP'), ('Underground', 'NNP'), ('and', 'CC'), ('Receive', 'NNP'), ('Handpicked', 'NNP'), ('Stories', 'NNP'), ('Delivered', 'NNP'), ('to', 'TO'), ('Your', 'NNP'), ('Inbox', 'NNP'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   naked/VBD   capitalism/NN   ,/,   2/20/10/CD   THE/DT   (ORGANIZATION UNSPOKEN/NNP)   MACRO/NNP   OF/NNP   THE/NNP   (ORGANIZATION CITIBANK/NNP)   SAGA/NNP   THE/NNP   (ORGANIZATION PRAGMATIC/NNP)   CAPITALIST/NNP   ,/,   4/2/10/CD   Read/NNP   more/RBR   on/IN   (PERSON Potash/NNP Corporation/NNP)   of/IN   (GPE Saskatchewan/NNP)   Sign/NNP   Up/NNP   for/IN   (ORGANIZATION JutiaGroup/NNP Underground/NNP)   and/CC   (PERSON Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)   to/TO   Your/NNP   Inbox/NNP   !/.   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB naked/VBD capitalism/NN)
+noun phrases to consider:
+	(NOUN UNSPOKEN/NNP MACRO/NNP OF/NNP THE/NNP)
+	(NOUN CITIBANK/NNP SAGA/NNP THE/NNP PRAGMATIC/NNP)
+	(NOUN CAPITALIST/NNP)
+	(NOUN 4/2/10/CD Read/NNP)
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Sign/NNP Up/NNP)
+	(NOUN JutiaGroup/NNP Underground/NNP)
+	(NOUN Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)
+	(NOUN Your/NNP Inbox/NNP)
+
+----------------------------------
+original sentence: 
+There Is 1 Response So Far.
+
+POS tagged sentence: 
+[('There', 'EX'), ('Is', 'VBZ'), ('1', 'CD'), ('Response', 'NNP'), ('So', 'NNP'), ('Far', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S There/EX Is/VBZ 1/CD Response/NNP So/NNP Far/NNP ./.)
+----------------------------------
+original sentence: 
+Buy Citi, especially now, the stock is still undervalued and is taking a nice pullback!
+
+POS tagged sentence: 
+[('Buy', 'NNP'), ('Citi', 'NNP'), (',', ','), ('especially', 'RB'), ('now', 'RB'), (',', ','), ('the', 'DT'), ('stock', 'NN'), ('is', 'VBZ'), ('still', 'RB'), ('undervalued', 'VBN'), ('and', 'CC'), ('is', 'VBZ'), ('taking', 'VBG'), ('a', 'DT'), ('nice', 'JJ'), ('pullback', 'NN'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Buy/NNP)   (GPE Citi/NNP)   ,/,   especially/RB   now/RB   ,/,   the/DT   stock/NN   is/VBZ   still/RB   undervalued/VBN   and/CC   is/VBZ   taking/VBG   a/DT   nice/JJ   pullback/NN   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ still/RB undervalued/VBN)
+	(VERB is/VBZ taking/VBG a/DT nice/JJ pullback/NN)
+noun phrases to consider:
+	(NOUN Buy/NNP Citi/NNP)
+	(NOUN stock/NN)
+
+----------------------------------
+original sentence: 
+Mail will not be published required Notify me of followup comments via e mail
+Where Will The Dow Jones Industrial Average Be At Year's End?
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Where', 'WRB'), ('Will', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('Be', 'NNP'), ('At', 'NNP'), ('Year', 'NNP'), ("'s", 'POS'), ('End', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   Notify/NNP   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   Where/WRB   (PERSON     Will/NNP     The/NNP     Dow/NNP     Jones/NNP     Industrial/NNP     Average/NNP     Be/NNP     At/NNP     Year/NNP)   's/POS   End/NNP   ?/.)
+----------------------------------
+original sentence: 
+Improve the web with 
+
+POS tagged sentence: 
+[('Improve', 'NNP'), ('the', 'DT'), ('web', 'NN'), ('with', 'IN')]
+
+
+ERTAGGED sentence: (S Improve/NNP the/DT web/NN with/IN)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

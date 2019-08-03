@@ -1,0 +1,524 @@
+
+----------------------------------
+original sentence: 
+EasyBourse Delving into Intel's results?
+
+POS tagged sentence: 
+[('EasyBourse', 'NNP'), ('Delving', 'NNP'), ('into', 'IN'), ('Intel', 'NNP'), ("'s", 'POS'), ('results', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION EasyBourse/NNP)   Delving/NNP   into/IN   (ORGANIZATION Intel/NNP)   's/POS   results/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN EasyBourse/NNP Delving/NNP)
+	(NOUN Intel/NNP)
+	(NOUN results/NNS)
+
+----------------------------------
+original sentence: 
+Try flying to China
+Delving into Intel's results?
+
+POS tagged sentence: 
+[('Try', 'NNP'), ('flying', 'NN'), ('to', 'TO'), ('China', 'NNP'), ('Delving', 'NNP'), ('into', 'IN'), ('Intel', 'NNP'), ("'s", 'POS'), ('results', 'NNS'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Try/NNP)   flying/NN   to/TO   (GPE China/NNP)   Delving/NNP   into/IN   (ORGANIZATION Intel/NNP)   's/POS   results/NNS   ?/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Try/NNP flying/NN)
+	(NOUN China/NNP Delving/NNP)
+	(NOUN Intel/NNP)
+	(NOUN results/NNS)
+
+----------------------------------
+original sentence: 
+Try flying to China
+ SAN FRANCISCO Reuters To get accurate projections for Intel Corp &lt;INTC.O&gt;, Wedbush Morgan analyst Patrick Wang often finds himself hopping on a plane to Asia.
+
+POS tagged sentence: 
+[('Try', 'NNP'), ('flying', 'NN'), ('to', 'TO'), ('China', 'NNP'), ('SAN', 'NNP'), ('FRANCISCO', 'NNP'), ('Reuters', 'NNP'), ('To', 'NNP'), ('get', 'VB'), ('accurate', 'JJ'), ('projections', 'NNS'), ('for', 'IN'), ('Intel', 'NNP'), ('Corp', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('INTC.O&gt', 'JJ'), (';', ':'), (',', ','), ('Wedbush', 'NNP'), ('Morgan', 'NNP'), ('analyst', 'NN'), ('Patrick', 'NNP'), ('Wang', 'NNP'), ('often', 'RB'), ('finds', 'VBZ'), ('himself', 'PRP'), ('hopping', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('plane', 'NN'), ('to', 'TO'), ('Asia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Try/NNP)   flying/NN   to/TO   (GPE China/NNP)   (ORGANIZATION SAN/NNP)   FRANCISCO/NNP   Reuters/NNP   To/NNP   get/VB   accurate/JJ   projections/NNS   for/IN   (ORGANIZATION Intel/NNP Corp/NNP)   &lt/NNP   ;/:   INTC.O&gt/JJ   ;/:   ,/,   (PERSON Wedbush/NNP Morgan/NNP)   analyst/NN   (PERSON Patrick/NNP Wang/NNP)   often/RB   finds/VBZ   himself/PRP   hopping/VBG   on/IN   a/DT   plane/NN   to/TO   (GPE Asia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   get/VB   accurate/JJ   projections/NNS   for/IN   Intel/NNP   Corp/NNP   &lt/NNP)
+	(VERB finds/VBZ himself/PRP)
+	(VERB hopping/VBG on/IN a/DT plane/NN)
+noun phrases to consider:
+	(NOUN Try/NNP flying/NN)
+	(NOUN China/NNP SAN/NNP FRANCISCO/NNP Reuters/NNP)
+	(NOUN To/NNP)
+	(NOUN INTC.O&gt/JJ)
+	(NOUN Wedbush/NNP Morgan/NNP analyst/NN Patrick/NNP)
+	(NOUN Wang/NNP)
+	(NOUN Asia/NNP)
+
+----------------------------------
+original sentence: 
+SAN FRANCISCO Reuters To get accurate projections for Intel Corp &lt;INTC.O&gt;, Wedbush Morgan analyst Patrick Wang often finds himself hopping on a plane to Asia.
+
+POS tagged sentence: 
+[('SAN', 'NNP'), ('FRANCISCO', 'NNP'), ('Reuters', 'NNP'), ('To', 'NNP'), ('get', 'VB'), ('accurate', 'JJ'), ('projections', 'NNS'), ('for', 'IN'), ('Intel', 'NNP'), ('Corp', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('INTC.O&gt', 'JJ'), (';', ':'), (',', ','), ('Wedbush', 'NNP'), ('Morgan', 'NNP'), ('analyst', 'NN'), ('Patrick', 'NNP'), ('Wang', 'NNP'), ('often', 'RB'), ('finds', 'VBZ'), ('himself', 'PRP'), ('hopping', 'VBG'), ('on', 'IN'), ('a', 'DT'), ('plane', 'NN'), ('to', 'TO'), ('Asia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SAN/NNP)   (ORGANIZATION FRANCISCO/NNP Reuters/NNP)   To/NNP   get/VB   accurate/JJ   projections/NNS   for/IN   (ORGANIZATION Intel/NNP Corp/NNP)   &lt/NNP   ;/:   INTC.O&gt/JJ   ;/:   ,/,   (PERSON Wedbush/NNP Morgan/NNP)   analyst/NN   (PERSON Patrick/NNP Wang/NNP)   often/RB   finds/VBZ   himself/PRP   hopping/VBG   on/IN   a/DT   plane/NN   to/TO   (GPE Asia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   get/VB   accurate/JJ   projections/NNS   for/IN   Intel/NNP   Corp/NNP   &lt/NNP)
+	(VERB finds/VBZ himself/PRP)
+	(VERB hopping/VBG on/IN a/DT plane/NN)
+noun phrases to consider:
+	(NOUN SAN/NNP FRANCISCO/NNP Reuters/NNP To/NNP)
+	(NOUN INTC.O&gt/JJ)
+	(NOUN Wedbush/NNP Morgan/NNP analyst/NN Patrick/NNP)
+	(NOUN Wang/NNP)
+	(NOUN Asia/NNP)
+
+----------------------------------
+original sentence: 
+Wang who normally crafts complex mathematical models and pores over financial statements finds, in Intel's case, it helps to use his fluent Chinese to gather information directly from its customers: top computer manufacturers in the Orient.
+
+POS tagged sentence: 
+[('Wang', 'NNP'), ('who', 'WP'), ('normally', 'RB'), ('crafts', 'VBZ'), ('complex', 'JJ'), ('mathematical', 'JJ'), ('models', 'NNS'), ('and', 'CC'), ('pores', 'NNS'), ('over', 'IN'), ('financial', 'JJ'), ('statements', 'NNS'), ('finds', 'NNS'), (',', ','), ('in', 'IN'), ('Intel', 'NNP'), ("'s", 'POS'), ('case', 'NN'), (',', ','), ('it', 'PRP'), ('helps', 'VBZ'), ('to', 'TO'), ('use', 'VB'), ('his', 'PRP$'), ('fluent', 'NN'), ('Chinese', 'NNP'), ('to', 'TO'), ('gather', 'VB'), ('information', 'NN'), ('directly', 'RB'), ('from', 'IN'), ('its', 'PRP$'), ('customers', 'NNS'), (':', ':'), ('top', 'JJ'), ('computer', 'NN'), ('manufacturers', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('Orient', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wang/NNP)   who/WP   normally/RB   crafts/VBZ   complex/JJ   mathematical/JJ   models/NNS   and/CC   pores/NNS   over/IN   financial/JJ   statements/NNS   finds/NNS   ,/,   in/IN   (GPE Intel/NNP)   's/POS   case/NN   ,/,   it/PRP   helps/VBZ   to/TO   use/VB   his/PRP$   fluent/NN   (GPE Chinese/NNP)   to/TO   gather/VB   information/NN   directly/RB   from/IN   its/PRP$   customers/NNS   :/:   top/JJ   computer/NN   manufacturers/NNS   in/IN   the/DT   (ORGANIZATION Orient/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB crafts/VBZ complex/JJ mathematical/JJ models/NNS)
+	(VERB helps/VBZ to/TO use/VB his/PRP$ fluent/NN Chinese/NNP)
+	(VERB   gather/VB   information/NN   directly/RB   from/IN   its/PRP$   customers/NNS)
+noun phrases to consider:
+	(NOUN Wang/NNP)
+	(NOUN pores/NNS)
+	(NOUN financial/JJ statements/NNS finds/NNS)
+	(NOUN Intel/NNP)
+	(NOUN case/NN)
+	(NOUN top/JJ computer/NN manufacturers/NNS)
+	(NOUN Orient/NNP)
+
+----------------------------------
+original sentence: 
+&quot;They're just such a large semiconductor company and to get color in terms of the overall scale, you need that,&quot; he said.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('They', 'PRP'), ("'re", 'VBP'), ('just', 'RB'), ('such', 'JJ'), ('a', 'DT'), ('large', 'JJ'), ('semiconductor', 'NN'), ('company', 'NN'), ('and', 'CC'), ('to', 'TO'), ('get', 'VB'), ('color', 'NN'), ('in', 'IN'), ('terms', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('overall', 'JJ'), ('scale', 'NN'), (',', ','), ('you', 'PRP'), ('need', 'VBP'), ('that,&quot', 'JJ'), (';', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   They/PRP   're/VBP   just/RB   such/JJ   a/DT   large/JJ   semiconductor/NN   company/NN   and/CC   to/TO   get/VB   color/NN   in/IN   terms/NNS   of/IN   the/DT   overall/JJ   scale/NN   ,/,   you/PRP   need/VBP   that,&quot/JJ   ;/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+Wang and many other analysts' predicament may underscore why the world's top chip maker has beaten expectations in six of the last eight quarters.
+
+POS tagged sentence: 
+[('Wang', 'NNP'), ('and', 'CC'), ('many', 'JJ'), ('other', 'JJ'), ('analysts', 'NNS'), ("'", 'POS'), ('predicament', 'NN'), ('may', 'MD'), ('underscore', 'VB'), ('why', 'WRB'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('top', 'JJ'), ('chip', 'NN'), ('maker', 'NN'), ('has', 'VBZ'), ('beaten', 'VBN'), ('expectations', 'NNS'), ('in', 'IN'), ('six', 'CD'), ('of', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('eight', 'NN'), ('quarters', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Wang/NNP)   and/CC   many/JJ   other/JJ   analysts/NNS   '/POS   predicament/NN   may/MD   underscore/VB   why/WRB   the/DT   world/NN   's/POS   top/JJ   chip/NN   maker/NN   has/VBZ   beaten/VBN   expectations/NNS   in/IN   six/CD   of/IN   the/DT   last/JJ   eight/NN   quarters/NNS   ./.)
+----------------------------------
+original sentence: 
+More than 80 percent of its sales are abroad.
+
+POS tagged sentence: 
+[('More', 'JJR'), ('than', 'IN'), ('80', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('sales', 'NNS'), ('are', 'VBP'), ('abroad', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   More/JJR   than/IN   80/CD   percent/NN   of/IN   its/PRP$   sales/NNS   are/VBP   abroad/RB   ./.)
+----------------------------------
+original sentence: 
+Analysts estimate over half its revenue comes from less transparent markets such as China, Africa and India.
+
+POS tagged sentence: 
+[('Analysts', 'NNS'), ('estimate', 'VBP'), ('over', 'IN'), ('half', 'DT'), ('its', 'PRP$'), ('revenue', 'NN'), ('comes', 'VBZ'), ('from', 'IN'), ('less', 'JJR'), ('transparent', 'NN'), ('markets', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('China', 'NNP'), (',', ','), ('Africa', 'NNP'), ('and', 'CC'), ('India', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Analysts/NNS   estimate/VBP   over/IN   half/DT   its/PRP$   revenue/NN   comes/VBZ   from/IN   less/JJR   transparent/NN   markets/NNS   such/JJ   as/IN   (GPE China/NNP)   ,/,   (PERSON Africa/NNP)   and/CC   (GPE India/NNP)   ./.)
+----------------------------------
+original sentence: 
+Many analysts rely on &quot;channel checks&quot; surveys of vendors and distributors to gauge supply and demand but Intel's case is further complicated by the preponderance of &quot;white box&quot; manufacturers in those emerging markets: local mass producers of unbranded computers.
+
+POS tagged sentence: 
+[('Many', 'JJ'), ('analysts', 'NNS'), ('rely', 'RB'), ('on', 'IN'), ('&quot', 'JJ'), (';', ':'), ('channel', 'NN'), ('checks&quot', 'NN'), (';', ':'), ('surveys', 'NNS'), ('of', 'IN'), ('vendors', 'NNS'), ('and', 'CC'), ('distributors', 'NNS'), ('to', 'TO'), ('gauge', 'VB'), ('supply', 'NN'), ('and', 'CC'), ('demand', 'NN'), ('but', 'CC'), ('Intel', 'NNP'), ("'s", 'POS'), ('case', 'NN'), ('is', 'VBZ'), ('further', 'RBR'), ('complicated', 'JJ'), ('by', 'IN'), ('the', 'DT'), ('preponderance', 'NN'), ('of', 'IN'), ('&quot', 'JJ'), (';', ':'), ('white', 'JJ'), ('box&quot', 'NN'), (';', ':'), ('manufacturers', 'NNS'), ('in', 'IN'), ('those', 'DT'), ('emerging', 'VBG'), ('markets', 'NNS'), (':', ':'), ('local', 'JJ'), ('mass', 'NN'), ('producers', 'NNS'), ('of', 'IN'), ('unbranded', 'VBN'), ('computers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Many/JJ   analysts/NNS   rely/RB   on/IN   &quot/JJ   ;/:   channel/NN   checks&quot/NN   ;/:   surveys/NNS   of/IN   vendors/NNS   and/CC   distributors/NNS   to/TO   gauge/VB   supply/NN   and/CC   demand/NN   but/CC   (ORGANIZATION Intel/NNP)   's/POS   case/NN   is/VBZ   further/RBR   complicated/JJ   by/IN   the/DT   preponderance/NN   of/IN   &quot/JJ   ;/:   white/JJ   box&quot/NN   ;/:   manufacturers/NNS   in/IN   those/DT   emerging/VBG   markets/NNS   :/:   local/JJ   mass/NN   producers/NNS   of/IN   unbranded/VBN   computers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB gauge/VB supply/NN)
+	(VERB is/VBZ)
+	(VERB emerging/VBG markets/NNS)
+	(VERB unbranded/VBN computers/NNS)
+noun phrases to consider:
+	(NOUN Many/JJ analysts/NNS)
+	(NOUN &quot/JJ)
+	(NOUN channel/NN checks&quot/NN)
+	(NOUN surveys/NNS)
+	(NOUN vendors/NNS)
+	(NOUN distributors/NNS)
+	(NOUN demand/NN)
+	(NOUN Intel/NNP)
+	(NOUN case/NN)
+	(NOUN complicated/JJ)
+
+tagged sentence:
+	 complicated	res:-1
+	(NOUN preponderance/NN)
+	(NOUN &quot/JJ)
+	(NOUN white/JJ box&quot/NN)
+	(NOUN manufacturers/NNS)
+	(NOUN local/JJ mass/NN producers/NNS)
+
+----------------------------------
+original sentence: 
+Unlike more developed markets such as North America and Europe, where large computer manufacturers release regular sales numbers, many Asian, African and South American countries are dominated by smaller local players.
+
+POS tagged sentence: 
+[('Unlike', 'IN'), ('more', 'JJR'), ('developed', 'JJ'), ('markets', 'NNS'), ('such', 'JJ'), ('as', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('and', 'CC'), ('Europe', 'NNP'), (',', ','), ('where', 'WRB'), ('large', 'JJ'), ('computer', 'NN'), ('manufacturers', 'NNS'), ('release', 'VBP'), ('regular', 'JJ'), ('sales', 'NNS'), ('numbers', 'NNS'), (',', ','), ('many', 'JJ'), ('Asian', 'JJ'), (',', ','), ('African', 'NNP'), ('and', 'CC'), ('South', 'NNP'), ('American', 'NNP'), ('countries', 'NNS'), ('are', 'VBP'), ('dominated', 'VBN'), ('by', 'IN'), ('smaller', 'JJR'), ('local', 'JJ'), ('players', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Unlike/IN   more/JJR   developed/JJ   markets/NNS   such/JJ   as/IN   (GPE North/NNP America/NNP)   and/CC   (GPE Europe/NNP)   ,/,   where/WRB   large/JJ   computer/NN   manufacturers/NNS   release/VBP   regular/JJ   sales/NNS   numbers/NNS   ,/,   many/JJ   (GPE Asian/JJ)   ,/,   (GPE African/NNP)   and/CC   (GPE South/NNP American/NNP)   countries/NNS   are/VBP   dominated/VBN   by/IN   smaller/JJR   local/JJ   players/NNS   ./.)
+----------------------------------
+original sentence: 
+Intel estimates white box outfits buy 25 percent to 30 percent of all the chips it sells each quarter.
+
+POS tagged sentence: 
+[('Intel', 'NNP'), ('estimates', 'VBZ'), ('white', 'JJ'), ('box', 'NN'), ('outfits', 'NNS'), ('buy', 'VB'), ('25', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('30', 'CD'), ('percent', 'NN'), ('of', 'IN'), ('all', 'DT'), ('the', 'DT'), ('chips', 'NNS'), ('it', 'PRP'), ('sells', 'VBZ'), ('each', 'DT'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Intel/NNP)   estimates/VBZ   white/JJ   box/NN   outfits/NNS   buy/VB   25/CD   percent/NN   to/TO   30/CD   percent/NN   of/IN   all/DT   the/DT   chips/NNS   it/PRP   sells/VBZ   each/DT   quarter/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB estimates/VBZ white/JJ box/NN outfits/NNS)
+	(VERB buy/VB 25/CD percent/NN)
+	(VERB sells/VBZ each/DT quarter/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN 30/CD percent/NN)
+	(NOUN chips/NNS)
+
+----------------------------------
+original sentence: 
+On April 13, Intel is expected to post $9.80 billion in revenue, and earnings of roughly 37 cents per share, excluding items, in the first quarter of 2010, according to Thomson Reuters I/B/E/S.
+
+POS tagged sentence: 
+[('On', 'IN'), ('April', 'NNP'), ('13', 'CD'), (',', ','), ('Intel', 'NNP'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('post', 'VB'), ('$', '$'), ('9.80', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('revenue', 'NN'), (',', ','), ('and', 'CC'), ('earnings', 'NNS'), ('of', 'IN'), ('roughly', 'RB'), ('37', 'CD'), ('cents', 'NNS'), ('per', 'IN'), ('share', 'NN'), (',', ','), ('excluding', 'VBG'), ('items', 'NNS'), (',', ','), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), (',', ','), ('according', 'VBG'), ('to', 'TO'), ('Thomson', 'NNP'), ('Reuters', 'NNP'), ('I/B/E/S', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   April/NNP   13/CD   ,/,   (ORGANIZATION Intel/NNP)   is/VBZ   expected/VBN   to/TO   post/VB   $/$   9.80/CD   billion/CD   in/IN   revenue/NN   ,/,   and/CC   earnings/NNS   of/IN   roughly/RB   37/CD   cents/NNS   per/IN   share/NN   ,/,   excluding/VBG   items/NNS   ,/,   in/IN   the/DT   first/JJ   quarter/NN   of/IN   2010/CD   ,/,   according/VBG   to/TO   (PERSON Thomson/NNP Reuters/NNP)   I/B/E/S/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ expected/VBN)
+	(VERB post/VB)
+	(VERB excluding/VBG items/NNS)
+	(VERB according/VBG to/TO Thomson/NNP Reuters/NNP I/B/E/S/NNP)
+noun phrases to consider:
+	(NOUN April/NNP)
+	(NOUN Intel/NNP)
+	(NOUN revenue/NN)
+	(NOUN earnings/NNS)
+	(NOUN cents/NNS)
+	(NOUN share/NN)
+	(NOUN the/DT first/JJ quarter/NN)
+
+----------------------------------
+original sentence: 
+&quot;There are countries that analysts tend to overlook because you only have a finite amount of time,&quot; said Real World Technologies analyst David Kanter.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('There', 'EX'), ('are', 'VBP'), ('countries', 'NNS'), ('that', 'IN'), ('analysts', 'NNS'), ('tend', 'VBP'), ('to', 'TO'), ('overlook', 'VB'), ('because', 'IN'), ('you', 'PRP'), ('only', 'RB'), ('have', 'VBP'), ('a', 'DT'), ('finite', 'JJ'), ('amount', 'NN'), ('of', 'IN'), ('time,&quot', 'JJ'), (';', ':'), ('said', 'VBD'), ('Real', 'NNP'), ('World', 'NNP'), ('Technologies', 'NNPS'), ('analyst', 'NN'), ('David', 'NNP'), ('Kanter', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   There/EX   are/VBP   countries/NNS   that/IN   analysts/NNS   tend/VBP   to/TO   overlook/VB   because/IN   you/PRP   only/RB   have/VBP   a/DT   finite/JJ   amount/NN   of/IN   time,&quot/JJ   ;/:   said/VBD   (PERSON Real/NNP World/NNP)   Technologies/NNPS   analyst/NN   (PERSON David/NNP Kanter/NNP)   ./.)
+----------------------------------
+original sentence: 
+&quot;It's hard to get information there because you're not going to go to Brazil to talk to a bunch of white box vendors.&quot;
+Yet that's exactly what many, like Wang, have to do.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('It', 'PRP'), ("'s", 'VBZ'), ('hard', 'JJ'), ('to', 'TO'), ('get', 'VB'), ('information', 'NN'), ('there', 'EX'), ('because', 'IN'), ('you', 'PRP'), ("'re", 'VBP'), ('not', 'RB'), ('going', 'VBG'), ('to', 'TO'), ('go', 'VB'), ('to', 'TO'), ('Brazil', 'NNP'), ('to', 'TO'), ('talk', 'VB'), ('to', 'TO'), ('a', 'DT'), ('bunch', 'NN'), ('of', 'IN'), ('white', 'JJ'), ('box', 'NN'), ('vendors.&quot', 'NN'), (';', ':'), ('Yet', 'NNP'), ('that', 'IN'), ("'s", 'POS'), ('exactly', 'RB'), ('what', 'WP'), ('many', 'JJ'), (',', ','), ('like', 'IN'), ('Wang', 'NNP'), (',', ','), ('have', 'VBP'), ('to', 'TO'), ('do', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   It/PRP   's/VBZ   hard/JJ   to/TO   get/VB   information/NN   there/EX   because/IN   you/PRP   're/VBP   not/RB   going/VBG   to/TO   go/VB   to/TO   (GPE Brazil/NNP)   to/TO   talk/VB   to/TO   a/DT   bunch/NN   of/IN   white/JJ   box/NN   vendors.&quot/NN   ;/:   Yet/NNP   that/IN   's/POS   exactly/RB   what/WP   many/JJ   ,/,   like/IN   (PERSON Wang/NNP)   ,/,   have/VBP   to/TO   do/VB   ./.)
+----------------------------------
+original sentence: 
+RISING DEMAND, LOWER CLARITY
+According to Thomson Reuters Starmine, an earnings surprise is likely in the first quarter.
+
+POS tagged sentence: 
+[('RISING', 'VBG'), ('DEMAND', 'NN'), (',', ','), ('LOWER', 'NNP'), ('CLARITY', 'NNP'), ('According', 'NNP'), ('to', 'TO'), ('Thomson', 'NNP'), ('Reuters', 'NNP'), ('Starmine', 'NNP'), (',', ','), ('an', 'DT'), ('earnings', 'NNS'), ('surprise', 'VBP'), ('is', 'VBZ'), ('likely', 'JJ'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   RISING/VBG   (ORGANIZATION DEMAND/NN)   ,/,   (ORGANIZATION LOWER/NNP)   CLARITY/NNP   According/NNP   to/TO   (PERSON Thomson/NNP Reuters/NNP Starmine/NNP)   ,/,   an/DT   earnings/NNS   surprise/VBP   is/VBZ   likely/JJ   in/IN   the/DT   first/JJ   quarter/NN   ./.)
+----------------------------------
+original sentence: 
+Starmine's SmartEstimate, which places more weight on recent forecasts by top rated analysts, predicts Intel will post earnings per share about 1 percent above the Street's average projection.
+
+POS tagged sentence: 
+[('Starmine', 'NNP'), ("'s", 'POS'), ('SmartEstimate', 'NNP'), (',', ','), ('which', 'WDT'), ('places', 'NNS'), ('more', 'RBR'), ('weight', 'JJ'), ('on', 'IN'), ('recent', 'JJ'), ('forecasts', 'NNS'), ('by', 'IN'), ('top', 'JJ'), ('rated', 'VBN'), ('analysts', 'NNS'), (',', ','), ('predicts', 'NNS'), ('Intel', 'NNP'), ('will', 'MD'), ('post', 'VB'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('about', 'IN'), ('1', 'CD'), ('percent', 'NN'), ('above', 'IN'), ('the', 'DT'), ('Street', 'NNP'), ("'s", 'POS'), ('average', 'JJ'), ('projection', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Starmine/NNP)   's/POS   (ORGANIZATION SmartEstimate/NNP)   ,/,   which/WDT   places/NNS   more/RBR   weight/JJ   on/IN   recent/JJ   forecasts/NNS   by/IN   top/JJ   rated/VBN   analysts/NNS   ,/,   predicts/NNS   (ORGANIZATION Intel/NNP)   will/MD   post/VB   earnings/NNS   per/IN   share/NN   about/IN   1/CD   percent/NN   above/IN   the/DT   (ORGANIZATION Street/NNP)   's/POS   average/JJ   projection/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rated/VBN analysts/NNS)
+	(VERB   post/VB   earnings/NNS   per/IN   share/NN   about/IN   1/CD   percent/NN   above/IN   the/DT   Street/NNP)
+
+tagged sentence:
+	 post earnings per share about 1 percent above the Street	res:1
+noun phrases to consider:
+	(NOUN Starmine/NNP)
+	(NOUN SmartEstimate/NNP)
+	(NOUN places/NNS)
+	(NOUN weight/JJ)
+	(NOUN recent/JJ forecasts/NNS)
+	(NOUN top/JJ)
+	(NOUN predicts/NNS Intel/NNP)
+	(NOUN average/JJ projection/NN)
+
+----------------------------------
+original sentence: 
+Demand is rising for computers as more of the world comes online.
+
+POS tagged sentence: 
+[('Demand', 'NN'), ('is', 'VBZ'), ('rising', 'VBG'), ('for', 'IN'), ('computers', 'NNS'), ('as', 'IN'), ('more', 'JJR'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ('comes', 'VBZ'), ('online', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Demand/NN)   is/VBZ   rising/VBG   for/IN   computers/NNS   as/IN   more/JJR   of/IN   the/DT   world/NN   comes/VBZ   online/NN   ./.)
+----------------------------------
+original sentence: 
+But many of the Internet's newest entrants are in locations remote enough that larger manufacturers haven't yet established a presence, so their market is instead flooded with small generic manufacturers the veritable black hole of sales into which analysts rarely see.
+
+POS tagged sentence: 
+[('But', 'CC'), ('many', 'JJ'), ('of', 'IN'), ('the', 'DT'), ('Internet', 'NNP'), ("'s", 'POS'), ('newest', 'JJS'), ('entrants', 'NNS'), ('are', 'VBP'), ('in', 'IN'), ('locations', 'NNS'), ('remote', 'VBP'), ('enough', 'RB'), ('that', 'IN'), ('larger', 'JJR'), ('manufacturers', 'NNS'), ('have', 'VBP'), ("n't", 'RB'), ('yet', 'RB'), ('established', 'VBN'), ('a', 'DT'), ('presence', 'NN'), (',', ','), ('so', 'RB'), ('their', 'PRP$'), ('market', 'NN'), ('is', 'VBZ'), ('instead', 'RB'), ('flooded', 'VBN'), ('with', 'IN'), ('small', 'JJ'), ('generic', 'JJ'), ('manufacturers', 'NNS'), ('the', 'DT'), ('veritable', 'JJ'), ('black', 'NN'), ('hole', 'NN'), ('of', 'IN'), ('sales', 'NNS'), ('into', 'IN'), ('which', 'WDT'), ('analysts', 'NNS'), ('rarely', 'RB'), ('see', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   many/JJ   of/IN   the/DT   Internet/NNP   's/POS   newest/JJS   entrants/NNS   are/VBP   in/IN   locations/NNS   remote/VBP   enough/RB   that/IN   larger/JJR   manufacturers/NNS   have/VBP   n't/RB   yet/RB   established/VBN   a/DT   presence/NN   ,/,   so/RB   their/PRP$   market/NN   is/VBZ   instead/RB   flooded/VBN   with/IN   small/JJ   generic/JJ   manufacturers/NNS   the/DT   veritable/JJ   black/NN   hole/NN   of/IN   sales/NNS   into/IN   which/WDT   analysts/NNS   rarely/RB   see/VB   ./.)
+----------------------------------
+original sentence: 
+&quot;It's so diverse and there are so many different channel players in all different segments in so many different countries, and that's what makes it complicated to put a sticker on,&quot; admitted Maurits Tichelman, Intel's director of channel sales.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('It', 'PRP'), ("'s", 'VBZ'), ('so', 'RB'), ('diverse', 'JJ'), ('and', 'CC'), ('there', 'EX'), ('are', 'VBP'), ('so', 'RB'), ('many', 'JJ'), ('different', 'JJ'), ('channel', 'NN'), ('players', 'NNS'), ('in', 'IN'), ('all', 'DT'), ('different', 'JJ'), ('segments', 'NNS'), ('in', 'IN'), ('so', 'RB'), ('many', 'JJ'), ('different', 'JJ'), ('countries', 'NNS'), (',', ','), ('and', 'CC'), ('that', 'IN'), ("'s", 'VBZ'), ('what', 'WP'), ('makes', 'VBZ'), ('it', 'PRP'), ('complicated', 'VBD'), ('to', 'TO'), ('put', 'VB'), ('a', 'DT'), ('sticker', 'NN'), ('on,&quot', 'NN'), (';', ':'), ('admitted', 'VBD'), ('Maurits', 'NNS'), ('Tichelman', 'NNP'), (',', ','), ('Intel', 'NNP'), ("'s", 'POS'), ('director', 'NN'), ('of', 'IN'), ('channel', 'NN'), ('sales', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   It/PRP   's/VBZ   so/RB   diverse/JJ   and/CC   there/EX   are/VBP   so/RB   many/JJ   different/JJ   channel/NN   players/NNS   in/IN   all/DT   different/JJ   segments/NNS   in/IN   so/RB   many/JJ   different/JJ   countries/NNS   ,/,   and/CC   that/IN   's/VBZ   what/WP   makes/VBZ   it/PRP   complicated/VBD   to/TO   put/VB   a/DT   sticker/NN   on,&quot/NN   ;/:   admitted/VBD   (PERSON Maurits/NNS Tichelman/NNP)   ,/,   (ORGANIZATION Intel/NNP)   's/POS   director/NN   of/IN   channel/NN   sales/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB 's/VBZ so/RB diverse/JJ)
+	(VERB   are/VBP   so/RB   many/JJ   different/JJ   channel/NN   players/NNS   in/IN   all/DT   different/JJ   segments/NNS   in/IN   so/RB   many/JJ   different/JJ   countries/NNS)
+	(VERB 's/VBZ)
+	(VERB makes/VBZ it/PRP)
+	(VERB complicated/VBD to/TO put/VB a/DT sticker/NN on,&quot/NN)
+	(VERB admitted/VBD Maurits/NNS Tichelman/NNP)
+noun phrases to consider:
+	(NOUN &quot/JJ)
+	(NOUN Intel/NNP)
+	(NOUN director/NN)
+	(NOUN channel/NN sales/NNS)
+
+----------------------------------
+original sentence: 
+Markets tend to become easier to read as the industry develops.
+
+POS tagged sentence: 
+[('Markets', 'NNS'), ('tend', 'VBP'), ('to', 'TO'), ('become', 'VB'), ('easier', 'JJR'), ('to', 'TO'), ('read', 'VB'), ('as', 'IN'), ('the', 'DT'), ('industry', 'NN'), ('develops', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Markets/NNS   tend/VBP   to/TO   become/VB   easier/JJR   to/TO   read/VB   as/IN   the/DT   industry/NN   develops/VBZ   ./.)
+----------------------------------
+original sentence: 
+Insiders at both Intel and Advanced Micro Devices Inc &lt;AMD.N&gt; say consumers in developing markets tend to prefer white box computers, but as their quality of life improves, so, too, does their hunger for portable devices.
+
+POS tagged sentence: 
+[('Insiders', 'NNS'), ('at', 'IN'), ('both', 'DT'), ('Intel', 'NNP'), ('and', 'CC'), ('Advanced', 'NNP'), ('Micro', 'NNP'), ('Devices', 'NNPS'), ('Inc', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('AMD.N&gt', 'JJ'), (';', ':'), ('say', 'VB'), ('consumers', 'NNS'), ('in', 'IN'), ('developing', 'VBG'), ('markets', 'NNS'), ('tend', 'VBP'), ('to', 'TO'), ('prefer', 'VB'), ('white', 'JJ'), ('box', 'NN'), ('computers', 'NNS'), (',', ','), ('but', 'CC'), ('as', 'IN'), ('their', 'PRP$'), ('quality', 'NN'), ('of', 'IN'), ('life', 'NN'), ('improves', 'NNS'), (',', ','), ('so', 'RB'), (',', ','), ('too', 'RB'), (',', ','), ('does', 'VBZ'), ('their', 'PRP$'), ('hunger', 'NN'), ('for', 'IN'), ('portable', 'JJ'), ('devices', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Insiders/NNS   at/IN   both/DT   (ORGANIZATION Intel/NNP)   and/CC   (PERSON Advanced/NNP Micro/NNP)   Devices/NNPS   (PERSON Inc/NNP &lt/NNP)   ;/:   AMD.N&gt/JJ   ;/:   say/VB   consumers/NNS   in/IN   developing/VBG   markets/NNS   tend/VBP   to/TO   prefer/VB   white/JJ   box/NN   computers/NNS   ,/,   but/CC   as/IN   their/PRP$   quality/NN   of/IN   life/NN   improves/NNS   ,/,   so/RB   ,/,   too/RB   ,/,   does/VBZ   their/PRP$   hunger/NN   for/IN   portable/JJ   devices/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB say/VB consumers/NNS in/IN)
+	(VERB developing/VBG markets/NNS)
+	(VERB tend/VBP to/TO prefer/VB white/JJ box/NN computers/NNS)
+	(VERB does/VBZ their/PRP$ hunger/NN for/IN portable/JJ devices/NNS)
+noun phrases to consider:
+	(NOUN Insiders/NNS)
+	(NOUN Intel/NNP)
+	(NOUN Advanced/NNP Micro/NNP Devices/NNPS Inc/NNP)
+	(NOUN &lt/NNP)
+	(NOUN AMD.N&gt/JJ)
+	(NOUN quality/NN)
+	(NOUN life/NN improves/NNS)
+
+----------------------------------
+original sentence: 
+Laptops tend to be the domain of major brands, so visibility into sales channels typically improve.
+
+POS tagged sentence: 
+[('Laptops', 'NNS'), ('tend', 'VBP'), ('to', 'TO'), ('be', 'VB'), ('the', 'DT'), ('domain', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('brands', 'NNS'), (',', ','), ('so', 'RB'), ('visibility', 'NN'), ('into', 'IN'), ('sales', 'NNS'), ('channels', 'NNS'), ('typically', 'RB'), ('improve', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Laptops/NNS   tend/VBP   to/TO   be/VB   the/DT   domain/NN   of/IN   major/JJ   brands/NNS   ,/,   so/RB   visibility/NN   into/IN   sales/NNS   channels/NNS   typically/RB   improve/VBP   ./.)
+----------------------------------
+original sentence: 
+Companies like Hewlett Packard Co &lt;HPQ.N&gt;, Acer Inc &lt;2353.TW&gt;, Toshiba Corp &lt;6104.T&gt;, Dell Inc &lt;DELL.O&gt; and Apple Inc &lt;AAPL.O&gt; all report data that help analysts peer into Intel's sales volumes.
+
+POS tagged sentence: 
+[('Companies', 'NNS'), ('like', 'IN'), ('Hewlett', 'NNP'), ('Packard', 'NNP'), ('Co', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('HPQ.N&gt', 'JJ'), (';', ':'), (',', ','), ('Acer', 'NNP'), ('Inc', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('2353.TW&gt', 'CD'), (';', ':'), (',', ','), ('Toshiba', 'NNP'), ('Corp', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('6104.T&gt', 'CD'), (';', ':'), (',', ','), ('Dell', 'NNP'), ('Inc', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('DELL.O&gt', 'JJ'), (';', ':'), ('and', 'CC'), ('Apple', 'NNP'), ('Inc', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('AAPL.O&gt', 'JJ'), (';', ':'), ('all', 'DT'), ('report', 'NN'), ('data', 'NNS'), ('that', 'WDT'), ('help', 'NN'), ('analysts', 'NNS'), ('peer', 'NN'), ('into', 'IN'), ('Intel', 'NNP'), ("'s", 'POS'), ('sales', 'NNS'), ('volumes', 'VBZ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Companies/NNS   like/IN   (PERSON Hewlett/NNP Packard/NNP Co/NNP)   &lt/NNP   ;/:   HPQ.N&gt/JJ   ;/:   ,/,   (PERSON Acer/NNP Inc/NNP)   &lt/NNP   ;/:   2353.TW&gt/CD   ;/:   ,/,   (PERSON Toshiba/NNP Corp/NNP)   &lt/NNP   ;/:   6104.T&gt/CD   ;/:   ,/,   (ORGANIZATION Dell/NNP Inc/NNP)   &lt/NNP   ;/:   DELL.O&gt/JJ   ;/:   and/CC   (PERSON Apple/NNP Inc/NNP)   &lt/NNP   ;/:   AAPL.O&gt/JJ   ;/:   all/DT   report/NN   data/NNS   that/WDT   help/NN   analysts/NNS   peer/NN   into/IN   (ORGANIZATION Intel/NNP)   's/POS   sales/NNS   volumes/VBZ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB volumes/VBZ)
+noun phrases to consider:
+	(NOUN Companies/NNS)
+	(NOUN Hewlett/NNP Packard/NNP Co/NNP &lt/NNP)
+	(NOUN HPQ.N&gt/JJ)
+	(NOUN Acer/NNP Inc/NNP &lt/NNP)
+	(NOUN Toshiba/NNP Corp/NNP &lt/NNP)
+	(NOUN Dell/NNP Inc/NNP &lt/NNP)
+	(NOUN DELL.O&gt/JJ)
+	(NOUN Apple/NNP Inc/NNP &lt/NNP)
+	(NOUN AAPL.O&gt/JJ)
+	(NOUN report/NN data/NNS)
+	(NOUN help/NN analysts/NNS peer/NN)
+	(NOUN Intel/NNP)
+	(NOUN sales/NNS)
+
+----------------------------------
+original sentence: 
+But if multinationals don't or can't immediately move in, dominant local players rise instead.
+
+POS tagged sentence: 
+[('But', 'CC'), ('if', 'IN'), ('multinationals', 'NNS'), ('do', 'VBP'), ("n't", 'RB'), ('or', 'CC'), ('ca', 'MD'), ("n't", 'RB'), ('immediately', 'RB'), ('move', 'VB'), ('in', 'IN'), (',', ','), ('dominant', 'JJ'), ('local', 'JJ'), ('players', 'NNS'), ('rise', 'VBP'), ('instead', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   if/IN   multinationals/NNS   do/VBP   n't/RB   or/CC   ca/MD   n't/RB   immediately/RB   move/VB   in/IN   ,/,   dominant/JJ   local/JJ   players/NNS   rise/VBP   instead/RB   ./.)
+----------------------------------
+original sentence: 
+After all, Intel's Tichelman said, Lenovo Group &lt;0992.HK&gt; started as a local Intel partner in China; now it's the world's No.
+
+POS tagged sentence: 
+[('After', 'IN'), ('all', 'DT'), (',', ','), ('Intel', 'NNP'), ("'s", 'POS'), ('Tichelman', 'NNP'), ('said', 'VBD'), (',', ','), ('Lenovo', 'NNP'), ('Group', 'NNP'), ('&lt', 'NNP'), (';', ':'), ('0992.HK&gt', 'CD'), (';', ':'), ('started', 'VBN'), ('as', 'IN'), ('a', 'DT'), ('local', 'JJ'), ('Intel', 'NNP'), ('partner', 'NN'), ('in', 'IN'), ('China', 'NNP'), (';', ':'), ('now', 'RB'), ('it', 'PRP'), ("'s", 'VBZ'), ('the', 'DT'), ('world', 'NN'), ("'s", 'POS'), ('No', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   After/IN   all/DT   ,/,   (ORGANIZATION Intel/NNP)   's/POS   (PERSON Tichelman/NNP)   said/VBD   ,/,   (PERSON Lenovo/NNP Group/NNP)   &lt/NNP   ;/:   0992.HK&gt/CD   ;/:   started/VBN   as/IN   a/DT   local/JJ   (ORGANIZATION Intel/NNP)   partner/NN   in/IN   (GPE China/NNP)   ;/:   now/RB   it/PRP   's/VBZ   the/DT   world/NN   's/POS   No/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD)
+	(VERB   started/VBN   as/IN   a/DT   local/JJ   Intel/NNP   partner/NN   in/IN   China/NNP)
+
+tagged sentence:
+	 started as a local Intel partner in China	res:2
+	(VERB 's/VBZ the/DT world/NN)
+noun phrases to consider:
+	(NOUN Intel/NNP)
+	(NOUN Tichelman/NNP)
+	(NOUN Lenovo/NNP Group/NNP &lt/NNP)
+	(NOUN No/NNP)
+
+----------------------------------
+original sentence: 
+4 computer maker.
+
+POS tagged sentence: 
+[('4', 'LS'), ('computer', 'NN'), ('maker', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S 4/LS computer/NN maker/NN ./.)
+----------------------------------
+original sentence: 
+IDC analyst Shane Rau said the sheer size of the Chinese market, and the country's own efforts to build as many computer parts as possible within its borders, is leaving another opportunity for surprise.
+
+POS tagged sentence: 
+[('IDC', 'NNP'), ('analyst', 'NN'), ('Shane', 'NNP'), ('Rau', 'NNP'), ('said', 'VBD'), ('the', 'DT'), ('sheer', 'NN'), ('size', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Chinese', 'NNP'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('the', 'DT'), ('country', 'NN'), ("'s", 'POS'), ('own', 'JJ'), ('efforts', 'NNS'), ('to', 'TO'), ('build', 'VB'), ('as', 'IN'), ('many', 'JJ'), ('computer', 'NN'), ('parts', 'NNS'), ('as', 'RB'), ('possible', 'JJ'), ('within', 'IN'), ('its', 'PRP$'), ('borders', 'NNS'), (',', ','), ('is', 'VBZ'), ('leaving', 'VBG'), ('another', 'DT'), ('opportunity', 'NN'), ('for', 'IN'), ('surprise', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   IDC/NNP   analyst/NN   (PERSON Shane/NNP Rau/NNP)   said/VBD   the/DT   sheer/NN   size/NN   of/IN   the/DT   (GPE Chinese/NNP)   market/NN   ,/,   and/CC   the/DT   country/NN   's/POS   own/JJ   efforts/NNS   to/TO   build/VB   as/IN   many/JJ   computer/NN   parts/NNS   as/RB   possible/JJ   within/IN   its/PRP$   borders/NNS   ,/,   is/VBZ   leaving/VBG   another/DT   opportunity/NN   for/IN   surprise/NN   ./.)
+----------------------------------
+original sentence: 
+IDC employs dozens of analysts on the ground, providing first hand knowledge of the market.
+
+POS tagged sentence: 
+[('IDC', 'NNP'), ('employs', 'VBZ'), ('dozens', 'NNS'), ('of', 'IN'), ('analysts', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('ground', 'NN'), (',', ','), ('providing', 'VBG'), ('first', 'RB'), ('hand', 'NN'), ('knowledge', 'NN'), ('of', 'IN'), ('the', 'DT'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION IDC/NNP)   employs/VBZ   dozens/NNS   of/IN   analysts/NNS   on/IN   the/DT   ground/NN   ,/,   providing/VBG   first/RB   hand/NN   knowledge/NN   of/IN   the/DT   market/NN   ./.)
+----------------------------------
+original sentence: 
+But if demand were to surge or drop abruptly, analysts could still miss it, he said.
+
+POS tagged sentence: 
+[('But', 'CC'), ('if', 'IN'), ('demand', 'NN'), ('were', 'VBD'), ('to', 'TO'), ('surge', 'VB'), ('or', 'CC'), ('drop', 'VB'), ('abruptly', 'RB'), (',', ','), ('analysts', 'NNS'), ('could', 'MD'), ('still', 'RB'), ('miss', 'VB'), ('it', 'PRP'), (',', ','), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   if/IN   demand/NN   were/VBD   to/TO   surge/VB   or/CC   drop/VB   abruptly/RB   ,/,   analysts/NNS   could/MD   still/RB   miss/VB   it/PRP   ,/,   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&quot;There are so many little channel players out there that it's not entirely clear where all the processors are going.&quot;
+Hence Wang's willingness to cross half the globe from his base in New York to Shanghai.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('There', 'EX'), ('are', 'VBP'), ('so', 'RB'), ('many', 'JJ'), ('little', 'JJ'), ('channel', 'NN'), ('players', 'NNS'), ('out', 'IN'), ('there', 'RB'), ('that', 'WDT'), ('it', 'PRP'), ("'s", 'VBZ'), ('not', 'RB'), ('entirely', 'RB'), ('clear', 'JJ'), ('where', 'WRB'), ('all', 'DT'), ('the', 'DT'), ('processors', 'NNS'), ('are', 'VBP'), ('going.&quot', 'JJ'), (';', ':'), ('Hence', 'NNP'), ('Wang', 'NNP'), ("'s", 'POS'), ('willingness', 'NN'), ('to', 'TO'), ('cross', 'NNS'), ('half', 'PDT'), ('the', 'DT'), ('globe', 'NN'), ('from', 'IN'), ('his', 'PRP$'), ('base', 'NN'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('to', 'TO'), ('Shanghai', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   There/EX   are/VBP   so/RB   many/JJ   little/JJ   channel/NN   players/NNS   out/IN   there/RB   that/WDT   it/PRP   's/VBZ   not/RB   entirely/RB   clear/JJ   where/WRB   all/DT   the/DT   processors/NNS   are/VBP   going.&quot/JJ   ;/:   (PERSON Hence/NNP Wang/NNP)   's/POS   willingness/NN   to/TO   cross/NNS   half/PDT   the/DT   globe/NN   from/IN   his/PRP$   base/NN   in/IN   (GPE New/NNP York/NNP)   to/TO   (GPE Shanghai/NNP)   ./.)
+----------------------------------
+original sentence: 
+On a chilly November day in 2009, the 29 year old sat in a taxi in bumper to bumper traffic, preparing for a meeting with product managers for several distributors and, of course, an appointment with Intel.
+
+POS tagged sentence: 
+[('On', 'IN'), ('a', 'DT'), ('chilly', 'RB'), ('November', 'NNP'), ('day', 'NN'), ('in', 'IN'), ('2009', 'CD'), (',', ','), ('the', 'DT'), ('29', 'CD'), ('year', 'NN'), ('old', 'JJ'), ('sat', 'NN'), ('in', 'IN'), ('a', 'DT'), ('taxi', 'NN'), ('in', 'IN'), ('bumper', 'NN'), ('to', 'TO'), ('bumper', 'VB'), ('traffic', 'JJ'), (',', ','), ('preparing', 'VBG'), ('for', 'IN'), ('a', 'DT'), ('meeting', 'NN'), ('with', 'IN'), ('product', 'NN'), ('managers', 'NNS'), ('for', 'IN'), ('several', 'JJ'), ('distributors', 'NNS'), ('and', 'CC'), (',', ','), ('of', 'IN'), ('course', 'NN'), (',', ','), ('an', 'DT'), ('appointment', 'NN'), ('with', 'IN'), ('Intel', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   a/DT   chilly/RB   November/NNP   day/NN   in/IN   2009/CD   ,/,   the/DT   29/CD   year/NN   old/JJ   sat/NN   in/IN   a/DT   taxi/NN   in/IN   bumper/NN   to/TO   bumper/VB   traffic/JJ   ,/,   preparing/VBG   for/IN   a/DT   meeting/NN   with/IN   product/NN   managers/NNS   for/IN   several/JJ   distributors/NNS   and/CC   ,/,   of/IN   course/NN   ,/,   an/DT   appointment/NN   with/IN   (ORGANIZATION Intel/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB bumper/VB traffic/JJ)
+	(VERB   preparing/VBG   for/IN   a/DT   meeting/NN   with/IN   product/NN   managers/NNS   for/IN   several/JJ   distributors/NNS)
+
+tagged sentence:
+	 preparing for a meeting with product managers for several distributors	res:-1
+noun phrases to consider:
+	(NOUN November/NNP day/NN)
+	(NOUN 29/CD year/NN)
+	(NOUN old/JJ sat/NN)
+	(NOUN taxi/NN)
+	(NOUN bumper/NN)
+	(NOUN course/NN)
+	(NOUN appointment/NN)
+	(NOUN Intel/NNP)
+
+----------------------------------
+original sentence: 
+But even that may not be enough.
+
+POS tagged sentence: 
+[('But', 'CC'), ('even', 'RB'), ('that', 'IN'), ('may', 'MD'), ('not', 'RB'), ('be', 'VB'), ('enough', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S But/CC even/RB that/IN may/MD not/RB be/VB enough/RB ./.)
+----------------------------------
+original sentence: 
+&quot;There's no way to get a good cross section of how those sales are doing,&quot; he said.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('There', 'EX'), ("'s", 'VBZ'), ('no', 'DT'), ('way', 'NN'), ('to', 'TO'), ('get', 'VB'), ('a', 'DT'), ('good', 'JJ'), ('cross', 'NN'), ('section', 'NN'), ('of', 'IN'), ('how', 'WRB'), ('those', 'DT'), ('sales', 'NNS'), ('are', 'VBP'), ('doing,&quot', 'JJ'), (';', ':'), ('he', 'PRP'), ('said', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   There/EX   's/VBZ   no/DT   way/NN   to/TO   get/VB   a/DT   good/JJ   cross/NN   section/NN   of/IN   how/WRB   those/DT   sales/NNS   are/VBP   doing,&quot/JJ   ;/:   he/PRP   said/VBD   ./.)
+----------------------------------
+original sentence: 
+&quot;You'll never get a full picture of things.&quot;
+ Editing by Edwin Chan and Richard Chang  Si√¢n Herbert Jones directrice financi√®re Sodexo
+&#171; C&rsquo;est surtout avec notre offre globale de services que nous ferons notre croissance future, fin 2010 et au del√†&hellip; &#187;
+Les compagnies a√©riennes mal assur√©es contre la poisse
+L'√©pisode du volcan islandais a montr√© √† quel point le secteur du transport...
+Tendance des march√©s La r√©union de la Banque Centrale am√©ricaine, la Fed, doit renseigner sur trois crit√®res : le niveau d'activit√© aux Etats Unis, la gestion des anticipations et les strat√©gies de sortie de la Fed
+Le point sur la valeur : SES Store Electronics System Acc√®s Membre | Client
+Vendredi 23 avr 2010 | 23:20:53
+Easybourse TV  11204  10914  85.40 $  parmi les actualit√©s
+ parmi les interviews
+ parmi les soci√©t√©s
+ parmi les warrants
+ parmi les certificats
+ parmi les trackers
+
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('You', 'PRP'), ("'ll", 'MD'), ('never', 'RB'), ('get', 'VB'), ('a', 'DT'), ('full', 'JJ'), ('picture', 'NN'), ('of', 'IN'), ('things.&quot', 'JJ'), (';', ':'), ('Editing', 'NNP'), ('by', 'IN'), ('Edwin', 'NNP'), ('Chan', 'NNP'), ('and', 'CC'), ('Richard', 'NNP'), ('Chang', 'NNP'), ('Si', 'NNP'), ('\xc3', 'NNP'), ('\xa2', 'NNP'), ('n', 'NN'), ('Herbert', 'NNP'), ('Jones', 'NNP'), ('directrice', 'NN'), ('financi', 'NN'), ('\xc3', ':'), ('\xa8', ':'), ('re', 'NN'), ('Sodexo', 'NNP'), ('&', 'CC'), ('#', '#'), ('171', 'CD'), (';', ':'), ('C&rsquo', 'NNP'), (';', ':'), ('est', 'JJS'), ('surtout', 'IN'), ('avec', 'NN'), ('notre', 'NN'), ('offre', 'NN'), ('globale', 'NN'), ('de', 'IN'), ('services', 'NNS'), ('que', 'VBP'), ('nous', 'JJ'), ('ferons', 'NNS'), ('notre', 'VBP'), ('croissance', 'NN'), ('future', 'NN'), (',', ','), ('fin', 'NN'), ('2010', 'CD'), ('et', 'NN'), ('au', 'NN'), ('del', 'NN'), ('\xc3', ':'), ('\xa0', ':'), ('&hellip', 'JJ'), (';', ':'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('Les', 'NNP'), ('compagnies', 'NNS'), ('a', 'DT'), ('\xc3', 'NN'), ('\xa9', ':'), ('riennes', 'NNS'), ('mal', 'JJ'), ('assur', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('es', 'NNS'), ('contre', 'VBP'), ('la', 'NN'), ('poisse', 'NN'), ('L', 'NNP'), ("'", "''"), ('\xc3', ':'), ('\xa9', ':'), ('pisode', 'NN'), ('du', 'NN'), ('volcan', 'NN'), ('islandais', 'VBZ'), ('a', 'DT'), ('montr', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('\xc3', ':'), ('\xa0', ':'), ('quel', 'NN'), ('point', 'NN'), ('le', 'NN'), ('secteur', 'NN'), ('du', 'NN'), ('transport..', 'NNP'), ('.', '.'), ('Tendance', 'NNP'), ('des', 'VBZ'), ('march', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('s', 'NNS'), ('La', 'NNP'), ('r', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('union', 'NN'), ('de', 'IN'), ('la', 'DT'), ('Banque', 'NNP'), ('Centrale', 'NNP'), ('am', 'VBP'), ('\xc3', ':'), ('\xa9', ':'), ('ricaine', 'NN'), (',', ','), ('la', 'NN'), ('Fed', 'NNP'), (',', ','), ('doit', 'NN'), ('renseigner', 'NN'), ('sur', 'NN'), ('trois', 'VBZ'), ('crit', 'NN'), ('\xc3', ':'), ('\xa8', ':'), ('res', 'NNS'), (':', ':'), ('le', 'JJ'), ('niveau', 'NN'), ("d'activit", 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('aux', 'NN'), ('Etats', 'NNS'), ('Unis', 'NNP'), (',', ','), ('la', 'DT'), ('gestion', 'NN'), ('des', 'VBZ'), ('anticipations', 'NNS'), ('et', 'VBP'), ('les', 'NNS'), ('strat', 'IN'), ('\xc3', 'CD'), ('\xa9', 'CD'), ('gies', 'NNS'), ('de', 'IN'), ('sortie', 'NN'), ('de', 'IN'), ('la', 'DT'), ('Fed', 'NNP'), ('Le', 'NNP'), ('point', 'NN'), ('sur', 'NN'), ('la', 'NN'), ('valeur', 'NN'), (':', ':'), ('SES', 'NNS'), ('Store', 'NNP'), ('Electronics', 'NNP'), ('System', 'NNP'), ('Acc', 'NNP'), ('\xc3', ':'), ('\xa8', ':'), ('s', 'NNS'), ('Membre', 'NNP'), ('|', 'NNP'), ('Client', 'NNP'), ('Vendredi', 'NNP'), ('23', 'CD'), ('avr', 'NN'), ('2010', 'CD'), ('|', 'CD'), ('23', 'CD'), (':', ':'), ('20', 'CD'), (':', ':'), ('53', 'CD'), ('Easybourse', 'NNP'), ('TV', 'NNP'), ('11204', 'CD'), ('10914', 'CD'), ('85.40', 'CD'), ('$', '$'), ('parmi', 'NN'), ('les', 'NNS'), ('actualit', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('s', 'NNS'), ('parmi', 'VBP'), ('les', 'NNS'), ('interviews', 'NNS'), ('parmi', 'VBP'), ('les', 'NNS'), ('soci', 'VBP'), ('\xc3', ':'), ('\xa9', ':'), ('t', 'NN'), ('\xc3', ':'), ('\xa9', ':'), ('s', 'NNS'), ('parmi', 'VBP'), ('les', 'NNS'), ('warrants', 'NNS'), ('parmi', 'VBP'), ('les', 'NNS'), ('certificats', 'NNS'), ('parmi', 'VBP'), ('les', 'NNS'), ('trackers', 'NNS')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   You/PRP   'll/MD   never/RB   get/VB   a/DT   full/JJ   picture/NN   of/IN   things.&quot/JJ   ;/:   Editing/NNP   by/IN   (PERSON Edwin/NNP Chan/NNP)   and/CC   (PERSON Richard/NNP Chang/NNP Si/NNP)   √/NNP   ¢/NNP   n/NN   (PERSON Herbert/NNP Jones/NNP)   directrice/NN   financi/NN   √/:   ®/:   re/NN   (PERSON Sodexo/NNP)   &/CC   #/#   171/CD   ;/:   C&rsquo/NNP   ;/:   est/JJS   surtout/IN   avec/NN   notre/NN   offre/NN   globale/NN   de/IN   services/NNS   que/VBP   nous/JJ   ferons/NNS   notre/VBP   croissance/NN   future/NN   ,/,   fin/NN   2010/CD   et/NN   au/NN   del/NN   √/:   †/:   &hellip/JJ   ;/:   &/CC   #/#   187/CD   ;/:   (PERSON Les/NNP)   compagnies/NNS   a/DT   √/NN   ©/:   riennes/NNS   mal/JJ   assur/NN   √/:   ©/:   es/NNS   contre/VBP   la/NN   poisse/NN   L/NNP   '/''   √/:   ©/:   pisode/NN   du/NN   volcan/NN   islandais/VBZ   a/DT   montr/NN   √/:   ©/:   √/:   †/:   quel/NN   point/NN   le/NN   secteur/NN   du/NN   transport../NNP   ./.   (PERSON Tendance/NNP)   des/VBZ   march/NN   √/:   ©/:   s/NNS   La/NNP   r/NN   √/:   ©/:   union/NN   de/IN   la/DT   Banque/NNP   Centrale/NNP   am/VBP   √/:   ©/:   ricaine/NN   ,/,   la/NN   Fed/NNP   ,/,   doit/NN   renseigner/NN   sur/NN   trois/VBZ   crit/NN   √/:   ®/:   res/NNS   :/:   le/JJ   niveau/NN   d'activit/NN   √/:   ©/:   aux/NN   Etats/NNS   (PERSON Unis/NNP)   ,/,   la/DT   gestion/NN   des/VBZ   anticipations/NNS   et/VBP   les/NNS   strat/IN   √/CD   ©/CD   gies/NNS   de/IN   sortie/NN   de/IN   la/DT   Fed/NNP   Le/NNP   point/NN   sur/NN   la/NN   valeur/NN   :/:   SES/NNS   (PERSON Store/NNP Electronics/NNP System/NNP Acc/NNP)   √/:   ®/:   s/NNS   (PERSON Membre/NNP)   |/NNP   (PERSON Client/NNP Vendredi/NNP)   23/CD   avr/NN   2010/CD   |/CD   23/CD   :/:   20/CD   :/:   53/CD   Easybourse/NNP   TV/NNP   11204/CD   10914/CD   85.40/CD   $/$   parmi/NN   les/NNS   actualit/NN   √/:   ©/:   s/NNS   parmi/VBP   les/NNS   interviews/NNS   parmi/VBP   les/NNS   soci/VBP   √/:   ©/:   t/NN   √/:   ©/:   s/NNS   parmi/VBP   les/NNS   warrants/NNS   parmi/VBP   les/NNS   certificats/NNS   parmi/VBP   les/NNS   trackers/NNS)
+
+veryneg:0	neg:2	pos:1	verypos:1	total:1

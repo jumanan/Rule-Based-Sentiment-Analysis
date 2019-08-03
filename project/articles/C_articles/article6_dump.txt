@@ -1,0 +1,287 @@
+
+----------------------------------
+original sentence: 
+Market Updates: Goldman Sachs NYSE:GS , Citigroup NYSE:C , Sony NYSE:SNE , Family Dollar NYSE:FDO , Monsanto NYSE:MON | Jutia Group
+Friday, April 23rd, 2010
+Market Updates: Goldman Sachs NYSE:GS , Citigroup NYSE:C , Sony NYSE:SNE , Family Dollar NYSE:FDO , Monsanto NYSE:MON  April 7th, 2010 &bull;  Filed Under: Family Dollar NYSE:FDO Goldman Sachs NYSE:GS  the most profitable firm in Wall Street history, denied it bet against clients in the mortgage derivatives market and said it was &ldquo;grateful&rdquo; for government assistance in the credit crisis.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Updates', 'NNS'), (':', ':'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Sony', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SNE', 'NNP'), (',', ','), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), (',', ','), ('Monsanto', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MON', 'NNP'), ('|', ':'), ('Jutia', 'NNP'), ('Group', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23rd', 'CD'), (',', ','), ('2010', 'CD'), ('Market', 'NNP'), ('Updates', 'NNP'), (':', ':'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), (',', ','), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('Sony', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('SNE', 'NNP'), (',', ','), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), (',', ','), ('Monsanto', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MON', 'NNP'), ('April', 'NNP'), ('7th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Family', 'NNP'), ('Dollar', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('FDO', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('GS', 'NNP'), ('the', 'DT'), ('most', 'RBS'), ('profitable', 'JJ'), ('firm', 'NN'), ('in', 'IN'), ('Wall', 'NNP'), ('Street', 'NNP'), ('history', 'NN'), (',', ','), ('denied', 'VBD'), ('it', 'PRP'), ('bet', 'VBD'), ('against', 'IN'), ('clients', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('mortgage', 'NN'), ('derivatives', 'NNS'), ('market', 'NN'), ('and', 'CC'), ('said', 'VBD'), ('it', 'PRP'), ('was', 'VBD'), ('&ldquo', '-NONE-'), (';', ':'), ('grateful&rdquo', 'NNP'), (';', ':'), ('for', 'IN'), ('government', 'NN'), ('assistance', 'NN'), ('in', 'IN'), ('the', 'DT'), ('credit', 'NN'), ('crisis', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   (PERSON Updates/NNS)   :/:   (PERSON Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (PERSON Sony/NNP NYSE/NNP)   :/:   SNE/NNP   ,/,   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   FDO/NNP   ,/,   (ORGANIZATION Monsanto/NNP)   NYSE/NNP   :/:   MON/NNP   |/:   (PERSON Jutia/NNP Group/NNP)   Friday/NNP   ,/,   April/NNP   23rd/CD   ,/,   2010/CD   (PERSON Market/NNP Updates/NNP)   :/:   (PERSON Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   ,/,   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (PERSON Sony/NNP NYSE/NNP)   :/:   SNE/NNP   ,/,   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   FDO/NNP   ,/,   (ORGANIZATION Monsanto/NNP)   NYSE/NNP   :/:   (ORGANIZATION MON/NNP)   April/NNP   7th/CD   ,/,   2010/CD   &bull/JJ   ;/:   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Family/NNP Dollar/NNP)   NYSE/NNP   :/:   (ORGANIZATION FDO/NNP)   (ORGANIZATION Goldman/NNP Sachs/NNP)   NYSE/NNP   :/:   GS/NNP   the/DT   most/RBS   profitable/JJ   firm/NN   in/IN   (FACILITY Wall/NNP Street/NNP)   history/NN   ,/,   denied/VBD   it/PRP   bet/VBD   against/IN   clients/NNS   in/IN   the/DT   mortgage/NN   derivatives/NNS   market/NN   and/CC   said/VBD   it/PRP   was/VBD   &ldquo/-NONE-   ;/:   grateful&rdquo/NNP   ;/:   for/IN   government/NN   assistance/NN   in/IN   the/DT   credit/NN   crisis/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB denied/VBD it/PRP)
+	(VERB   bet/VBD   against/IN   clients/NNS   in/IN   the/DT   mortgage/NN   derivatives/NNS   market/NN)
+	(VERB said/VBD it/PRP)
+	(VERB was/VBD)
+noun phrases to consider:
+	(NOUN Market/NN Updates/NNS)
+	(NOUN Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Sony/NNP NYSE/NNP)
+	(NOUN SNE/NNP)
+	(NOUN Family/NNP Dollar/NNP NYSE/NNP)
+	(NOUN FDO/NNP)
+	(NOUN Monsanto/NNP NYSE/NNP)
+	(NOUN MON/NNP)
+	(NOUN Jutia/NNP Group/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Market/NNP Updates/NNP)
+	(NOUN Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN Sony/NNP NYSE/NNP)
+	(NOUN SNE/NNP)
+	(NOUN Family/NNP Dollar/NNP NYSE/NNP)
+	(NOUN FDO/NNP)
+	(NOUN Monsanto/NNP NYSE/NNP)
+	(NOUN MON/NNP April/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN Filed/NNP Under/NNP)
+	(NOUN Family/NNP Dollar/NNP NYSE/NNP)
+	(NOUN FDO/NNP Goldman/NNP Sachs/NNP NYSE/NNP)
+	(NOUN GS/NNP)
+	(NOUN profitable/JJ firm/NN)
+	(NOUN Wall/NNP Street/NNP history/NN)
+	(NOUN grateful&rdquo/NNP)
+	(NOUN government/NN assistance/NN)
+	(NOUN credit/NN crisis/NN)
+
+tagged sentence:
+	 credit crisis	res:-1
+
+----------------------------------
+original sentence: 
+&ldquo;Although Goldman Sachs held various positions in residential mortgage related products in 2007, our short positions were not a &lsquo;bet against&rsquo; our clients,&rdquo; Chief Executive Officer Lloyd Blankfein and President Gary Cohn wrote in a letter introducing the firm&rsquo;s annual report.
+
+POS tagged sentence: 
+[('&ldquo', 'NN'), (';', ':'), ('Although', 'NNP'), ('Goldman', 'NNP'), ('Sachs', 'NNP'), ('held', 'VBD'), ('various', 'JJ'), ('positions', 'NNS'), ('in', 'IN'), ('residential', 'JJ'), ('mortgage', 'NN'), ('related', 'VBN'), ('products', 'NNS'), ('in', 'IN'), ('2007', 'CD'), (',', ','), ('our', 'PRP$'), ('short', 'JJ'), ('positions', 'NNS'), ('were', 'VBD'), ('not', 'RB'), ('a', 'DT'), ('&lsquo', 'JJ'), (';', ':'), ('bet', 'NN'), ('against&rsquo', '-NONE-'), (';', ':'), ('our', 'PRP$'), ('clients,&rdquo', 'NN'), (';', ':'), ('Chief', 'NNP'), ('Executive', 'NNP'), ('Officer', 'NNP'), ('Lloyd', 'NNP'), ('Blankfein', 'NNP'), ('and', 'CC'), ('President', 'NNP'), ('Gary', 'NNP'), ('Cohn', 'NNP'), ('wrote', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('letter', 'NN'), ('introducing', 'VBG'), ('the', 'DT'), ('firm&rsquo', 'NNP'), (';', ':'), ('s', 'NNS'), ('annual', 'JJ'), ('report', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE &ldquo/NN)   ;/:   Although/NNP   (ORGANIZATION Goldman/NNP Sachs/NNP)   held/VBD   various/JJ   positions/NNS   in/IN   residential/JJ   mortgage/NN   related/VBN   products/NNS   in/IN   2007/CD   ,/,   our/PRP$   short/JJ   positions/NNS   were/VBD   not/RB   a/DT   &lsquo/JJ   ;/:   bet/NN   against&rsquo/-NONE-   ;/:   our/PRP$   clients,&rdquo/NN   ;/:   Chief/NNP   Executive/NNP   Officer/NNP   (PERSON Lloyd/NNP Blankfein/NNP)   and/CC   President/NNP   (PERSON Gary/NNP Cohn/NNP)   wrote/VBD   in/IN   a/DT   letter/NN   introducing/VBG   the/DT   firm&rsquo/NNP   ;/:   s/NNS   annual/JJ   report/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   held/VBD   various/JJ   positions/NNS   in/IN   residential/JJ   mortgage/NN)
+	(VERB related/VBN products/NNS in/IN 2007/CD)
+	(VERB were/VBD not/RB a/DT &lsquo/JJ)
+	(VERB wrote/VBD in/IN a/DT letter/NN)
+	(VERB introducing/VBG the/DT firm&rsquo/NNP)
+noun phrases to consider:
+	(NOUN &ldquo/NN)
+	(NOUN Although/NNP Goldman/NNP Sachs/NNP)
+	(NOUN short/JJ positions/NNS)
+
+tagged sentence:
+	 short positions	res:1
+	(NOUN bet/NN)
+	(NOUN clients,&rdquo/NN)
+	(NOUN Chief/NNP Executive/NNP Officer/NNP Lloyd/NNP)
+	(NOUN Blankfein/NNP)
+	(NOUN President/NNP Gary/NNP Cohn/NNP)
+	(NOUN s/NNS annual/JJ report/NN)
+
+----------------------------------
+original sentence: 
+Goldman Sachs posted an $11.6 billion profit for fiscal 2007, a record at the time, after betting that the subprime mortgage market would decline even as clients continued to purchase the securities.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('posted', 'VBD'), ('an', 'DT'), ('$', '$'), ('11.6', 'CD'), ('billion', 'CD'), ('profit', 'NN'), ('for', 'IN'), ('fiscal', 'JJ'), ('2007', 'CD'), (',', ','), ('a', 'DT'), ('record', 'NN'), ('at', 'IN'), ('the', 'DT'), ('time', 'NN'), (',', ','), ('after', 'IN'), ('betting', 'VBG'), ('that', 'IN'), ('the', 'DT'), ('subprime', 'NN'), ('mortgage', 'NN'), ('market', 'NN'), ('would', 'MD'), ('decline', 'VB'), ('even', 'RB'), ('as', 'IN'), ('clients', 'NNS'), ('continued', 'VBD'), ('to', 'TO'), ('purchase', 'VB'), ('the', 'DT'), ('securities', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP)   posted/VBD   an/DT   $/$   11.6/CD   billion/CD   profit/NN   for/IN   fiscal/JJ   2007/CD   ,/,   a/DT   record/NN   at/IN   the/DT   time/NN   ,/,   after/IN   betting/VBG   that/IN   the/DT   subprime/NN   mortgage/NN   market/NN   would/MD   decline/VB   even/RB   as/IN   clients/NNS   continued/VBD   to/TO   purchase/VB   the/DT   securities/NNS   ./.)
+----------------------------------
+original sentence: 
+U.S. home prices have slumped 28 percent from their all time high in July 2006, spurring the worst recession since the 1930s.
+
+POS tagged sentence: 
+[('U.S.', 'NNP'), ('home', 'NN'), ('prices', 'NNS'), ('have', 'VBP'), ('slumped', 'VBN'), ('28', 'CD'), ('percent', 'NN'), ('from', 'IN'), ('their', 'PRP$'), ('all', 'DT'), ('time', 'NN'), ('high', 'JJ'), ('in', 'IN'), ('July', 'NNP'), ('2006', 'CD'), (',', ','), ('spurring', 'VBG'), ('the', 'DT'), ('worst', 'JJS'), ('recession', 'NN'), ('since', 'IN'), ('the', 'DT'), ('1930s', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE U.S./NNP)   home/NN   prices/NNS   have/VBP   slumped/VBN   28/CD   percent/NN   from/IN   their/PRP$   all/DT   time/NN   high/JJ   in/IN   July/NNP   2006/CD   ,/,   spurring/VBG   the/DT   worst/JJS   recession/NN   since/IN   the/DT   1930s/CD   ./.)
+----------------------------------
+original sentence: 
+from buy to hold.
+
+POS tagged sentence: 
+[('from', 'IN'), ('buy', 'NN'), ('to', 'TO'), ('hold', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S from/IN buy/NN to/TO hold/VB ./.)
+----------------------------------
+original sentence: 
+In other news,  reported fiscal second quarter net income rose 33% to $112.2 million, or 81 cents a share, on 4.9% higher sales of $2.09 billion.
+
+POS tagged sentence: 
+[('In', 'IN'), ('other', 'JJ'), ('news', 'NN'), (',', ','), ('reported', 'VBD'), ('fiscal', 'JJ'), ('second', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('income', 'NN'), ('rose', 'VBD'), ('33', 'CD'), ('%', 'NN'), ('to', 'TO'), ('$', '$'), ('112.2', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('81', 'CD'), ('cents', 'NNS'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('on', 'IN'), ('4.9', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('sales', 'NNS'), ('of', 'IN'), ('$', '$'), ('2.09', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   other/JJ   news/NN   ,/,   reported/VBD   fiscal/JJ   second/JJ   quarter/NN   net/NN   income/NN   rose/VBD   33/CD   %/NN   to/TO   $/$   112.2/CD   million/CD   ,/,   or/CC   81/CD   cents/NNS   a/DT   share/NN   ,/,   on/IN   4.9/CD   %/NN   higher/JJR   sales/NNS   of/IN   $/$   2.09/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+Results topped analyst estimates.
+
+POS tagged sentence: 
+[('Results', 'NNS'), ('topped', 'VBD'), ('analyst', 'NN'), ('estimates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S Results/NNS topped/VBD analyst/NN estimates/NNS ./.)
+----------------------------------
+original sentence: 
+Same store sales rose 3.6%.
+
+POS tagged sentence: 
+[('Same', 'NNP'), ('store', 'VBD'), ('sales', 'NNS'), ('rose', 'VBD'), ('3.6', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (PERSON Same/NNP) store/VBD sales/NNS rose/VBD 3.6/CD %/NN ./.)
+----------------------------------
+original sentence: 
+FDO gave slightly higher guidance than analyst expectations.
+
+POS tagged sentence: 
+[('FDO', 'NNP'), ('gave', 'VBD'), ('slightly', 'RB'), ('higher', 'JJR'), ('guidance', 'NN'), ('than', 'IN'), ('analyst', 'NN'), ('expectations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION FDO/NNP)   gave/VBD   slightly/RB   higher/JJR   guidance/NN   than/IN   analyst/NN   expectations/NNS   ./.)
+----------------------------------
+original sentence: 
+Shares traded 5.8% higher in premarket action.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('traded', 'VBN'), ('5.8', 'CD'), ('%', 'NN'), ('higher', 'JJR'), ('in', 'IN'), ('premarket', 'NN'), ('action', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   traded/VBN   5.8/CD   %/NN   higher/JJR   in/IN   premarket/NN   action/NN   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+ said its fiscal second quarter earnings fell to $887 million, or $1.60 a share, compared to $1.1 billion, or $1.97 a share, in the year ago period.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('said', 'VBD'), ('its', 'PRP$'), ('fiscal', 'JJ'), ('second', 'JJ'), ('quarter', 'NN'), ('earnings', 'NNS'), ('fell', 'VBD'), ('to', 'TO'), ('$', '$'), ('887', 'CD'), ('million', 'CD'), (',', ','), ('or', 'CC'), ('$', '$'), ('1.60', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('$', '$'), ('1.1', 'CD'), ('billion', 'CD'), (',', ','), ('or', 'CC'), ('$', '$'), ('1.97', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('in', 'IN'), ('the', 'DT'), ('year', 'NN'), ('ago', 'IN'), ('period', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   said/VBD   its/PRP$   fiscal/JJ   second/JJ   quarter/NN   earnings/NNS   fell/VBD   to/TO   $/$   887/CD   million/CD   ,/,   or/CC   $/$   1.60/CD   a/DT   share/NN   ,/,   compared/VBN   to/TO   $/$   1.1/CD   billion/CD   ,/,   or/CC   $/$   1.97/CD   a/DT   share/NN   ,/,   in/IN   the/DT   year/NN   ago/IN   period/NN   ./.)
+----------------------------------
+original sentence: 
+Sales fell to $3.9 billion from $4 billion.
+
+POS tagged sentence: 
+[('Sales', 'NNS'), ('fell', 'VBD'), ('to', 'TO'), ('$', '$'), ('3.9', 'CD'), ('billion', 'CD'), ('from', 'IN'), ('$', '$'), ('4', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Sales/NNS)   fell/VBD   to/TO   $/$   3.9/CD   billion/CD   from/IN   $/$   4/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+On an adjusted basis, the St. Louis agricultural company said it earned $1.70 a share, matching analysts&#8217; mean estimate as provided by FactSet Research.
+
+POS tagged sentence: 
+[('On', 'IN'), ('an', 'DT'), ('adjusted', 'VBN'), ('basis', 'NN'), (',', ','), ('the', 'DT'), ('St.', 'NNP'), ('Louis', 'NNP'), ('agricultural', 'JJ'), ('company', 'NN'), ('said', 'VBD'), ('it', 'PRP'), ('earned', 'VBD'), ('$', '$'), ('1.70', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('matching', 'VBG'), ('analysts&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('mean', 'JJ'), ('estimate', 'NN'), ('as', 'IN'), ('provided', 'VBN'), ('by', 'IN'), ('FactSet', 'NNP'), ('Research', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   an/DT   adjusted/VBN   basis/NN   ,/,   the/DT   (ORGANIZATION St./NNP Louis/NNP)   agricultural/JJ   company/NN   said/VBD   it/PRP   earned/VBD   $/$   1.70/CD   a/DT   share/NN   ,/,   matching/VBG   analysts&/NN   #/#   8217/CD   ;/:   mean/JJ   estimate/NN   as/IN   provided/VBN   by/IN   (ORGANIZATION FactSet/NNP Research/NNP)   ./.)
+----------------------------------
+original sentence: 
+For fiscal 2010, Monsanto projected earnings to come in at the low end of its $3.10 to $3.30 a share adjusted guidance.
+
+POS tagged sentence: 
+[('For', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (',', ','), ('Monsanto', 'NNP'), ('projected', 'VBD'), ('earnings', 'NNS'), ('to', 'TO'), ('come', 'VB'), ('in', 'IN'), ('at', 'IN'), ('the', 'DT'), ('low', 'JJ'), ('end', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('$', '$'), ('3.10', 'CD'), ('to', 'TO'), ('$', '$'), ('3.30', 'CD'), ('a', 'DT'), ('share', 'NN'), ('adjusted', 'VBN'), ('guidance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   fiscal/JJ   2010/CD   ,/,   (ORGANIZATION Monsanto/NNP)   projected/VBD   earnings/NNS   to/TO   come/VB   in/IN   at/IN   the/DT   low/JJ   end/NN   of/IN   its/PRP$   $/$   3.10/CD   to/TO   $/$   3.30/CD   a/DT   share/NN   adjusted/VBN   guidance/NN   ./.)
+----------------------------------
+original sentence: 
+Wall Street predicted 2010 earnings of $3.27 a share.
+
+POS tagged sentence: 
+[('Wall', 'NNP'), ('Street', 'NNP'), ('predicted', 'VBD'), ('2010', 'CD'), ('earnings', 'NNS'), ('of', 'IN'), ('$', '$'), ('3.27', 'CD'), ('a', 'DT'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (FACILITY Wall/NNP)   (PERSON Street/NNP)   predicted/VBD   2010/CD   earnings/NNS   of/IN   $/$   3.27/CD   a/DT   share/NN   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+ Former Federal Reserve Chairman Alan Greenspan urged U.S. policy makers on Wednesday to place significantly higher capital and collateral requirements on the financial services industry, warning of the likelihood of future financial crises if steps aren&#8217;t taken to address &quot;too big to fail&quot; firms and the inability of the private market and regulators to predict major risks.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('Former', 'NNP'), ('Federal', 'NNP'), ('Reserve', 'NNP'), ('Chairman', 'NNP'), ('Alan', 'NNP'), ('Greenspan', 'NNP'), ('urged', 'VBD'), ('U.S.', 'NNP'), ('policy', 'NN'), ('makers', 'NNS'), ('on', 'IN'), ('Wednesday', 'NNP'), ('to', 'TO'), ('place', 'VB'), ('significantly', 'RB'), ('higher', 'JJR'), ('capital', 'NN'), ('and', 'CC'), ('collateral', 'JJ'), ('requirements', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('financial', 'JJ'), ('services', 'NNS'), ('industry', 'NN'), (',', ','), ('warning', 'VBG'), ('of', 'IN'), ('the', 'DT'), ('likelihood', 'NN'), ('of', 'IN'), ('future', 'JJ'), ('financial', 'JJ'), ('crises', 'NNS'), ('if', 'IN'), ('steps', 'NNS'), ('aren&', '-NONE-'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('t', 'NN'), ('taken', 'VBN'), ('to', 'TO'), ('address', 'NN'), ('&quot', 'NN'), (';', ':'), ('too', 'RB'), ('big', 'JJ'), ('to', 'TO'), ('fail&quot', 'JJ'), (';', ':'), ('firms', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('inability', 'NN'), ('of', 'IN'), ('the', 'DT'), ('private', 'JJ'), ('market', 'NN'), ('and', 'CC'), ('regulators', 'NNS'), ('to', 'TO'), ('predict', 'VB'), ('major', 'JJ'), ('risks', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   (ORGANIZATION Former/NNP Federal/NNP Reserve/NNP)   Chairman/NNP   (PERSON Alan/NNP Greenspan/NNP)   urged/VBD   (GPE U.S./NNP)   policy/NN   makers/NNS   on/IN   Wednesday/NNP   to/TO   place/VB   significantly/RB   higher/JJR   capital/NN   and/CC   collateral/JJ   requirements/NNS   on/IN   the/DT   financial/JJ   services/NNS   industry/NN   ,/,   warning/VBG   of/IN   the/DT   likelihood/NN   of/IN   future/JJ   financial/JJ   crises/NNS   if/IN   steps/NNS   aren&/-NONE-   #/#   8217/CD   ;/:   t/NN   taken/VBN   to/TO   address/NN   &quot/NN   ;/:   too/RB   big/JJ   to/TO   fail&quot/JJ   ;/:   firms/NNS   and/CC   the/DT   inability/NN   of/IN   the/DT   private/JJ   market/NN   and/CC   regulators/NNS   to/TO   predict/VB   major/JJ   risks/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB urged/VBD U.S./NNP policy/NN makers/NNS on/IN Wednesday/NNP)
+	(VERB place/VB significantly/RB higher/JJR capital/NN)
+	(VERB   warning/VBG   of/IN   the/DT   likelihood/NN   of/IN   future/JJ   financial/JJ   crises/NNS   if/IN   steps/NNS)
+
+tagged sentence:
+	 warning of the likelihood of future financial crises if steps	res:1
+	(VERB taken/VBN to/TO address/NN &quot/NN)
+	(VERB predict/VB major/JJ risks/NNS)
+noun phrases to consider:
+	(NOUN &ndash/JJ)
+	(NOUN Former/NNP Federal/NNP Reserve/NNP Chairman/NNP)
+	(NOUN Alan/NNP Greenspan/NNP)
+	(NOUN collateral/JJ requirements/NNS)
+	(NOUN the/DT financial/JJ services/NNS industry/NN)
+	(NOUN t/NN)
+	(NOUN too/RB big/JJ)
+	(NOUN fail&quot/JJ)
+	(NOUN firms/NNS)
+	(NOUN inability/NN)
+
+tagged sentence:
+	 inability	res:-1
+	(NOUN the/DT private/JJ market/NN)
+	(NOUN regulators/NNS)
+
+----------------------------------
+original sentence: 
+Mr. Greenspan, appearing before the Financial Crisis Inquiry Commission on Capitol Hill, said in prepared remarks that the events of the last few years are likely to be viewed &quot;as the most virulent global financial crisis ever.&quot; &ndash;The Wall Street Journal
+Sign Up for JutiaGroup Underground and Receive Handpicked Stories Delivered to Your Inbox!!
+
+POS tagged sentence: 
+[('Mr.', 'NNP'), ('Greenspan', 'NNP'), (',', ','), ('appearing', 'VBG'), ('before', 'IN'), ('the', 'DT'), ('Financial', 'NNP'), ('Crisis', 'NNP'), ('Inquiry', 'NNP'), ('Commission', 'NNP'), ('on', 'IN'), ('Capitol', 'NNP'), ('Hill', 'NNP'), (',', ','), ('said', 'VBD'), ('in', 'IN'), ('prepared', 'VBN'), ('remarks', 'NNS'), ('that', 'IN'), ('the', 'DT'), ('events', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('last', 'JJ'), ('few', 'JJ'), ('years', 'NNS'), ('are', 'VBP'), ('likely', 'JJ'), ('to', 'TO'), ('be', 'VB'), ('viewed', 'VBN'), ('&quot', '-NONE-'), (';', ':'), ('as', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('virulent', 'JJ'), ('global', 'JJ'), ('financial', 'JJ'), ('crisis', 'NN'), ('ever.&quot', 'JJ'), (';', ':'), ('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('Sign', 'NNP'), ('Up', 'NNP'), ('for', 'IN'), ('JutiaGroup', 'NNP'), ('Underground', 'NNP'), ('and', 'CC'), ('Receive', 'NNP'), ('Handpicked', 'NNP'), ('Stories', 'NNP'), ('Delivered', 'NNP'), ('to', 'TO'), ('Your', 'NNP'), ('Inbox', 'NNP'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Mr./NNP Greenspan/NNP)   ,/,   appearing/VBG   before/IN   the/DT   (ORGANIZATION Financial/NNP Crisis/NNP Inquiry/NNP Commission/NNP)   on/IN   (PERSON Capitol/NNP Hill/NNP)   ,/,   said/VBD   in/IN   prepared/VBN   remarks/NNS   that/IN   the/DT   events/NNS   of/IN   the/DT   last/JJ   few/JJ   years/NNS   are/VBP   likely/JJ   to/TO   be/VB   viewed/VBN   &quot/-NONE-   ;/:   as/IN   the/DT   most/RBS   virulent/JJ   global/JJ   financial/JJ   crisis/NN   ever.&quot/JJ   ;/:   &ndash/JJ   ;/:   The/DT   (FACILITY Wall/NNP Street/NNP Journal/NNP Sign/NNP Up/NNP)   for/IN   (ORGANIZATION JutiaGroup/NNP Underground/NNP)   and/CC   (PERSON Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)   to/TO   Your/NNP   Inbox/NNP   !/.   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   appearing/VBG   before/IN   the/DT   Financial/NNP   Crisis/NNP   Inquiry/NNP   Commission/NNP   on/IN   Capitol/NNP   Hill/NNP)
+	(VERB said/VBD in/IN)
+	(VERB   prepared/VBN   remarks/NNS   that/IN   the/DT   events/NNS   of/IN   the/DT   last/JJ   few/JJ   years/NNS)
+	(VERB are/VBP likely/JJ)
+	(VERB be/VB viewed/VBN)
+noun phrases to consider:
+	(NOUN Mr./NNP Greenspan/NNP)
+	(NOUN virulent/JJ global/JJ financial/JJ crisis/NN)
+	(NOUN ever.&quot/JJ)
+	(NOUN &ndash/JJ)
+	(NOUN Wall/NNP Street/NNP Journal/NNP Sign/NNP)
+	(NOUN Up/NNP)
+	(NOUN JutiaGroup/NNP Underground/NNP)
+	(NOUN Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)
+	(NOUN Your/NNP Inbox/NNP)
+
+----------------------------------
+original sentence: 
+Mail will not be published required Notify me of followup comments via e mail
+Where Will The Dow Jones Industrial Average Be At Year's End?
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Where', 'WRB'), ('Will', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('Be', 'NNP'), ('At', 'NNP'), ('Year', 'NNP'), ("'s", 'POS'), ('End', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   Notify/NNP   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   Where/WRB   (PERSON     Will/NNP     The/NNP     Dow/NNP     Jones/NNP     Industrial/NNP     Average/NNP     Be/NNP     At/NNP     Year/NNP)   's/POS   End/NNP   ?/.)
+----------------------------------
+original sentence: 
+Improve the web with 
+
+POS tagged sentence: 
+[('Improve', 'NNP'), ('the', 'DT'), ('web', 'NN'), ('with', 'IN')]
+
+
+ERTAGGED sentence: (S Improve/NNP the/DT web/NN with/IN)
+
+veryneg:0	neg:2	pos:2	verypos:0	total:3

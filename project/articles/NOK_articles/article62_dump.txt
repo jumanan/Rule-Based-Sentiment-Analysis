@@ -1,0 +1,122 @@
+
+----------------------------------
+original sentence: 
+Comtex SmarTrend Alert
+Nokia Upward Momentum Looks to Continue NOK Tuesday, March 16, 2010 19:50
+Tue, 03/16/2010 19:50
+SmarTrend identified an Uptrend for Nokia  on January 28, 2010 at $13.99.
+
+POS tagged sentence: 
+[('Comtex', 'NNP'), ('SmarTrend', 'NNP'), ('Alert', 'NNP'), ('Nokia', 'NNP'), ('Upward', 'NNP'), ('Momentum', 'NNP'), ('Looks', 'NNP'), ('to', 'TO'), ('Continue', 'NNP'), ('NOK', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('16', 'CD'), (',', ','), ('2010', 'CD'), ('19', 'CD'), (':', ':'), ('50', 'CD'), ('Tue', 'NNP'), (',', ','), ('03/16/2010', 'CD'), ('19', 'CD'), (':', ':'), ('50', 'CD'), ('SmarTrend', 'NN'), ('identified', 'VBD'), ('an', 'DT'), ('Uptrend', 'NNP'), ('for', 'IN'), ('Nokia', 'NNP'), ('on', 'IN'), ('January', 'NNP'), ('28', 'CD'), (',', ','), ('2010', 'CD'), ('at', 'IN'), ('$', '$'), ('13.99', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION Comtex/NNP)   (ORGANIZATION     SmarTrend/NNP     Alert/NNP     Nokia/NNP     Upward/NNP     Momentum/NNP     Looks/NNP)   to/TO   (ORGANIZATION Continue/NNP)   NOK/NNP   Tuesday/NNP   ,/,   March/NNP   16/CD   ,/,   2010/CD   19/CD   :/:   50/CD   Tue/NNP   ,/,   03/16/2010/CD   19/CD   :/:   50/CD   (ORGANIZATION SmarTrend/NN)   identified/VBD   an/DT   Uptrend/NNP   for/IN   (PERSON Nokia/NNP)   on/IN   January/NNP   28/CD   ,/,   2010/CD   at/IN   $/$   13.99/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   identified/VBD   an/DT   Uptrend/NNP   for/IN   Nokia/NNP   on/IN   January/NNP   28/CD)
+noun phrases to consider:
+	(NOUN Comtex/NNP SmarTrend/NNP Alert/NNP Nokia/NNP)
+
+tagged sentence:
+	 Comtex SmarTrend Alert Nokia	res:-1
+	(NOUN Upward/NNP Momentum/NNP Looks/NNP)
+	(NOUN Continue/NNP NOK/NNP Tuesday/NNP)
+	(NOUN March/NNP)
+	(NOUN 50/CD Tue/NNP)
+	(NOUN 50/CD SmarTrend/NN)
+
+----------------------------------
+original sentence: 
+In approximately 2 months, Nokia has returned 8.3% as of today&apos;s recent price of $15.15.
+
+POS tagged sentence: 
+[('In', 'IN'), ('approximately', 'RB'), ('2', 'CD'), ('months', 'NNS'), (',', ','), ('Nokia', 'NNP'), ('has', 'VBZ'), ('returned', 'VBN'), ('8.3', 'CD'), ('%', 'NN'), ('as', 'IN'), ('of', 'IN'), ('today&apos', 'NNS'), (';', ':'), ('s', 'NNS'), ('recent', 'JJ'), ('price', 'NN'), ('of', 'IN'), ('$', '$'), ('15.15', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   approximately/RB   2/CD   months/NNS   ,/,   (PERSON Nokia/NNP)   has/VBZ   returned/VBN   8.3/CD   %/NN   as/IN   of/IN   today&apos/NNS   ;/:   s/NNS   recent/JJ   price/NN   of/IN   $/$   15.15/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ returned/VBN 8.3/CD %/NN as/IN of/IN today&apos/NNS)
+noun phrases to consider:
+	(NOUN months/NNS)
+	(NOUN Nokia/NNP)
+	(NOUN s/NNS recent/JJ price/NN)
+
+----------------------------------
+original sentence: 
+Nokia is currently above its 50 day moving average of $13.47 and above its 200 day moving average of $13.77.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('is', 'VBZ'), ('currently', 'RB'), ('above', 'RB'), ('its', 'PRP$'), ('50', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('of', 'IN'), ('$', '$'), ('13.47', 'CD'), ('and', 'CC'), ('above', 'IN'), ('its', 'PRP$'), ('200', 'CD'), ('day', 'NN'), ('moving', 'VBG'), ('average', 'NN'), ('of', 'IN'), ('$', '$'), ('13.77', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia/NNP)   is/VBZ   currently/RB   above/RB   its/PRP$   50/CD   day/NN   moving/VBG   average/NN   of/IN   $/$   13.47/CD   and/CC   above/IN   its/PRP$   200/CD   day/NN   moving/VBG   average/NN   of/IN   $/$   13.77/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ currently/RB above/RB its/PRP$ 50/CD day/NN)
+
+tagged sentence:
+	 is currently above its 50 day	res:1
+	(VERB moving/VBG average/NN of/IN)
+	(VERB moving/VBG average/NN of/IN)
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+	(NOUN 200/CD day/NN)
+
+----------------------------------
+original sentence: 
+Look for these moving averages to climb to confirm the company&apos;s upward momentum.
+
+POS tagged sentence: 
+[('Look', 'NNP'), ('for', 'IN'), ('these', 'DT'), ('moving', 'VBG'), ('averages', 'NNS'), ('to', 'TO'), ('climb', 'VB'), ('to', 'TO'), ('confirm', 'VB'), ('the', 'DT'), ('company&apos', 'NNP'), (';', ':'), ('s', 'NNS'), ('upward', 'VBP'), ('momentum', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Look/NNP)   for/IN   these/DT   moving/VBG   averages/NNS   to/TO   climb/VB   to/TO   confirm/VB   the/DT   company&apos/NNP   ;/:   s/NNS   upward/VBP   momentum/NN   ./.)
+----------------------------------
+original sentence: 
+SmarTrend will continue to scan these moving averages and a number of other proprietary indicators for any shifts in the trajectory of Nokia shares.
+
+POS tagged sentence: 
+[('SmarTrend', 'NN'), ('will', 'MD'), ('continue', 'VB'), ('to', 'TO'), ('scan', 'VB'), ('these', 'DT'), ('moving', 'VBG'), ('averages', 'NNS'), ('and', 'CC'), ('a', 'DT'), ('number', 'NN'), ('of', 'IN'), ('other', 'JJ'), ('proprietary', 'JJ'), ('indicators', 'NNS'), ('for', 'IN'), ('any', 'DT'), ('shifts', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('trajectory', 'NN'), ('of', 'IN'), ('Nokia', 'NNP'), ('shares', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION SmarTrend/NN)   will/MD   continue/VB   to/TO   scan/VB   these/DT   moving/VBG   averages/NNS   and/CC   a/DT   number/NN   of/IN   other/JJ   proprietary/JJ   indicators/NNS   for/IN   any/DT   shifts/NNS   in/IN   the/DT   trajectory/NN   of/IN   (GPE Nokia/NNP)   shares/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB continue/VB to/TO scan/VB these/DT)
+	(VERB moving/VBG averages/NNS)
+noun phrases to consider:
+	(NOUN SmarTrend/NN)
+	(NOUN number/NN)
+	(NOUN other/JJ proprietary/JJ indicators/NNS)
+	(NOUN shifts/NNS)
+	(NOUN trajectory/NN)
+	(NOUN Nokia/NNP shares/NNS)
+
+----------------------------------
+original sentence: 
+Smartrend analyzes over 5,000 securities simultaneously throughout the trading day and provides its subscribers with trend change alerts in real time.
+
+POS tagged sentence: 
+[('Smartrend', 'NN'), ('analyzes', 'VBZ'), ('over', 'IN'), ('5,000', 'CD'), ('securities', 'NNS'), ('simultaneously', 'RB'), ('throughout', 'IN'), ('the', 'DT'), ('trading', 'NN'), ('day', 'NN'), ('and', 'CC'), ('provides', 'VBZ'), ('its', 'PRP$'), ('subscribers', 'NNS'), ('with', 'IN'), ('trend', 'NN'), ('change', 'NN'), ('alerts', 'NNS'), ('in', 'IN'), ('real', 'JJ'), ('time', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Smartrend/NN)   analyzes/VBZ   over/IN   5,000/CD   securities/NNS   simultaneously/RB   throughout/IN   the/DT   trading/NN   day/NN   and/CC   provides/VBZ   its/PRP$   subscribers/NNS   with/IN   trend/NN   change/NN   alerts/NNS   in/IN   real/JJ   time/NN   ./.)
+----------------------------------
+original sentence: 
+To get a free trial of our trading calls and maximize your trading results, please visit http://www.TradeTheTrend.com
+Get exclusive, actionable insight into how the market is expected to trend prior to market open with our free morning newsletter.
+
+POS tagged sentence: 
+[('To', 'TO'), ('get', 'VB'), ('a', 'DT'), ('free', 'JJ'), ('trial', 'NN'), ('of', 'IN'), ('our', 'PRP$'), ('trading', 'NN'), ('calls', 'VBZ'), ('and', 'CC'), ('maximize', 'NN'), ('your', 'PRP$'), ('trading', 'NN'), ('results', 'NNS'), (',', ','), ('please', 'VB'), ('visit', 'NN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com', 'JJ'), ('Get', 'NN'), ('exclusive', 'JJ'), (',', ','), ('actionable', 'JJ'), ('insight', 'NN'), ('into', 'IN'), ('how', 'WRB'), ('the', 'DT'), ('market', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('trend', 'VB'), ('prior', 'RB'), ('to', 'TO'), ('market', 'NN'), ('open', 'JJ'), ('with', 'IN'), ('our', 'PRP$'), ('free', 'JJ'), ('morning', 'NN'), ('newsletter', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   To/TO   get/VB   a/DT   free/JJ   trial/NN   of/IN   our/PRP$   trading/NN   calls/VBZ   and/CC   maximize/NN   your/PRP$   trading/NN   results/NNS   ,/,   please/VB   visit/NN   http/NN   :/:   //www.TradeTheTrend.com/JJ   Get/NN   exclusive/JJ   ,/,   actionable/JJ   insight/NN   into/IN   how/WRB   the/DT   market/NN   is/VBZ   expected/VBN   to/TO   trend/VB   prior/RB   to/TO   market/NN   open/JJ   with/IN   our/PRP$   free/JJ   morning/NN   newsletter/NN   ./.)
+----------------------------------
+original sentence: 
+Sign up at http://www.TradeTheTrend.com/signup.html
+
+
+POS tagged sentence: 
+[('Sign', 'NNP'), ('up', 'IN'), ('at', 'IN'), ('http', 'NN'), (':', ':'), ('//www.TradeTheTrend.com/signup.html', 'JJ')]
+
+
+ERTAGGED sentence: (S   Sign/NNP   up/IN   at/IN   http/NN   :/:   //www.TradeTheTrend.com/signup.html/JJ)
+
+veryneg:0	neg:1	pos:1	verypos:0	total:1

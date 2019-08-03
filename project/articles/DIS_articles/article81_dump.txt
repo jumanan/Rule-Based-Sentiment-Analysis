@@ -1,0 +1,109 @@
+
+----------------------------------
+original sentence: 
+ Disney introduces Premier Passport ticket for bicoastal theme park access CoasterBuzz Get more out of CoasterBuzz... Register for free!
+
+POS tagged sentence: 
+[('Disney', 'NNP'), ('introduces', 'NNS'), ('Premier', 'NNP'), ('Passport', 'NNP'), ('ticket', 'NN'), ('for', 'IN'), ('bicoastal', 'JJ'), ('theme', 'NN'), ('park', 'NN'), ('access', 'NN'), ('CoasterBuzz', 'NNP'), ('Get', 'NNP'), ('more', 'JJR'), ('out', 'IN'), ('of', 'IN'), ('CoasterBuzz...', 'NNP'), ('Register', 'NNP'), ('for', 'IN'), ('free', 'JJ'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Disney/NNP)   introduces/NNS   Premier/NNP   Passport/NNP   ticket/NN   for/IN   bicoastal/JJ   theme/NN   park/NN   access/NN   (ORGANIZATION CoasterBuzz/NNP)   Get/NNP   more/JJR   out/IN   of/IN   CoasterBuzz.../NNP   Register/NNP   for/IN   free/JJ   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Disney/NNP introduces/NNS Premier/NNP Passport/NNP)
+
+tagged sentence:
+	 Disney introduces Premier Passport	res:1
+	(NOUN ticket/NN)
+	(NOUN bicoastal/JJ theme/NN park/NN access/NN CoasterBuzz/NNP)
+	(NOUN Get/NNP more/JJR)
+	(NOUN CoasterBuzz.../NNP Register/NNP)
+	(NOUN free/JJ)
+
+----------------------------------
+original sentence: 
+Search : CoasterBuzz Podcast #174 April 12, 2010
+Join CoasterBuzz Club
+Disney introduces Premier Passport ticket for bicoastal theme park access
+ Posted March 10, 2010, 9:14P | Contributed by Jeff Disney just announced during Disney‚Äôs annual shareholders meeting that a new premium annual pass for admission to the parks at both Disneyland Resort and the Walt Disney World Resort will be offered beginning Thursday.
+
+POS tagged sentence: 
+[('Search', 'NNP'), (':', ':'), ('CoasterBuzz', 'NNP'), ('Podcast', 'NNP'), ('#', '#'), ('174', 'CD'), ('April', 'NNP'), ('12', 'CD'), (',', ','), ('2010', 'CD'), ('Join', 'NNP'), ('CoasterBuzz', 'NNP'), ('Club', 'NNP'), ('Disney', 'NNP'), ('introduces', 'VBZ'), ('Premier', 'NNP'), ('Passport', 'NNP'), ('ticket', 'NN'), ('for', 'IN'), ('bicoastal', 'JJ'), ('theme', 'NN'), ('park', 'NN'), ('access', 'NN'), ('Posted', 'NNP'), ('March', 'NNP'), ('10', 'CD'), (',', ','), ('2010', 'CD'), (',', ','), ('9', 'CD'), (':', ':'), ('14P', 'CD'), ('|', 'CD'), ('Contributed', 'NNP'), ('by', 'IN'), ('Jeff', 'NNP'), ('Disney', 'NNP'), ('just', 'RB'), ('announced', 'VBD'), ('during', 'IN'), ('Disney', 'NNP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('annual', 'JJ'), ('shareholders', 'NNS'), ('meeting', 'VBG'), ('that', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('premium', 'NN'), ('annual', 'JJ'), ('pass', 'NN'), ('for', 'IN'), ('admission', 'NN'), ('to', 'TO'), ('the', 'DT'), ('parks', 'NNS'), ('at', 'IN'), ('both', 'DT'), ('Disneyland', 'NNP'), ('Resort', 'NNP'), ('and', 'CC'), ('the', 'DT'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('World', 'NNP'), ('Resort', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('offered', 'VBN'), ('beginning', 'NN'), ('Thursday', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Search/NNP)   :/:   CoasterBuzz/NNP   Podcast/NNP   #/#   174/CD   April/NNP   12/CD   ,/,   2010/CD   Join/NNP   CoasterBuzz/NNP   Club/NNP   Disney/NNP   introduces/VBZ   Premier/NNP   Passport/NNP   ticket/NN   for/IN   bicoastal/JJ   theme/NN   park/NN   access/NN   (PERSON Posted/NNP)   March/NNP   10/CD   ,/,   2010/CD   ,/,   9/CD   :/:   14P/CD   |/CD   Contributed/NNP   by/IN   (PERSON Jeff/NNP Disney/NNP)   just/RB   announced/VBD   during/IN   (GPE Disney/NNP)   ‚/:   Ä/:   ô/:   s/NNS   annual/JJ   shareholders/NNS   meeting/VBG   that/IN   a/DT   new/JJ   premium/NN   annual/JJ   pass/NN   for/IN   admission/NN   to/TO   the/DT   parks/NNS   at/IN   both/DT   (ORGANIZATION Disneyland/NNP Resort/NNP)   and/CC   the/DT   (ORGANIZATION Walt/NNP Disney/NNP)   World/NNP   Resort/NNP   will/MD   be/VB   offered/VBN   beginning/NN   Thursday/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   introduces/VBZ   Premier/NNP   Passport/NNP   ticket/NN   for/IN   bicoastal/JJ   theme/NN   park/NN   access/NN   Posted/NNP   March/NNP   10/CD)
+
+tagged sentence:
+	 introduces Premier Passport ticket for bicoastal theme park access Posted March 10	res:1
+	(VERB announced/VBD during/IN Disney/NNP)
+	(VERB   meeting/VBG   that/IN   a/DT   new/JJ   premium/NN   annual/JJ   pass/NN   for/IN   admission/NN)
+	(VERB be/VB offered/VBN beginning/NN Thursday/NNP)
+noun phrases to consider:
+	(NOUN Search/NNP)
+	(NOUN CoasterBuzz/NNP Podcast/NNP)
+	(NOUN 174/CD April/NNP)
+	(NOUN 2010/CD Join/NNP CoasterBuzz/NNP Club/NNP Disney/NNP)
+	(NOUN |/CD Contributed/NNP)
+	(NOUN Jeff/NNP Disney/NNP)
+	(NOUN s/NNS annual/JJ shareholders/NNS)
+	(NOUN parks/NNS)
+	(NOUN Disneyland/NNP Resort/NNP)
+	(NOUN Walt/NNP Disney/NNP World/NNP Resort/NNP)
+
+----------------------------------
+original sentence: 
+It‚Äôs called ‚ÄúDisney Premier Passport‚Äù and it‚Äôll feature the same benefits you get with the ‚Äúpremium‚Äù annual passes for Disneyland and Walt Disney World Resorts for $700, plus applicable sales tax.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('called', 'VBN'), ('\xe2', '-NONE-'), ('\x80', ':'), ('\x9c', ':'), ('Disney', 'NNP'), ('Premier', 'NNP'), ('Passport', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('and', 'CC'), ('it', 'PRP'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('ll', 'NN'), ('feature', 'NN'), ('the', 'DT'), ('same', 'JJ'), ('benefits', 'NNS'), ('you', 'PRP'), ('get', 'VBP'), ('with', 'IN'), ('the', 'DT'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9c', 'NNP'), ('premium', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x9d', ':'), ('annual', 'JJ'), ('passes', 'NNS'), ('for', 'IN'), ('Disneyland', 'NNP'), ('and', 'CC'), ('Walt', 'NNP'), ('Disney', 'NNP'), ('World', 'NNP'), ('Resorts', 'NNP'), ('for', 'IN'), ('$', '$'), ('700', 'CD'), (',', ','), ('plus', 'CC'), ('applicable', 'JJ'), ('sales', 'NNS'), ('tax', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   ‚/VBP   Ä/:   ô/:   s/NNS   called/VBN   ‚/-NONE-   Ä/:   ú/:   (PERSON Disney/NNP Premier/NNP Passport/NNP)   ‚/NNP   Ä/NNP   ù/NNP   and/CC   it/PRP   ‚/:   Ä/:   ô/:   ll/NN   feature/NN   the/DT   same/JJ   benefits/NNS   you/PRP   get/VBP   with/IN   the/DT   ‚/NNP   Ä/NNP   ú/NNP   premium/NN   ‚/:   Ä/:   ù/:   annual/JJ   passes/NNS   for/IN   (GPE Disneyland/NNP)   and/CC   (PERSON Walt/NNP Disney/NNP)   World/NNP   Resorts/NNP   for/IN   $/$   700/CD   ,/,   plus/CC   applicable/JJ   sales/NNS   tax/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB ‚/VBP)
+	(VERB called/VBN)
+	(VERB get/VBP with/IN the/DT ‚/NNP Ä/NNP ú/NNP premium/NN)
+noun phrases to consider:
+	(NOUN s/NNS)
+	(NOUN Disney/NNP Premier/NNP Passport/NNP ‚/NNP)
+
+tagged sentence:
+	 Disney Premier Passport ‚	res:1
+	(NOUN Ä/NNP ù/NNP)
+	(NOUN ll/NN feature/NN)
+	(NOUN the/DT same/JJ benefits/NNS)
+
+tagged sentence:
+	 the same benefits	res:1
+	(NOUN annual/JJ passes/NNS)
+	(NOUN Disneyland/NNP)
+	(NOUN Walt/NNP Disney/NNP World/NNP Resorts/NNP)
+	(NOUN applicable/JJ sales/NNS tax/NN)
+
+----------------------------------
+original sentence: 
+the official Disney parks blog
+ &copy;2010 POP World Media, LLC, All Rights Reserved
+Legal, privacy and copyright
+
+
+POS tagged sentence: 
+[('the', 'DT'), ('official', 'JJ'), ('Disney', 'NNP'), ('parks', 'NNS'), ('blog', 'VBP'), ('&copy', 'JJ'), (';', ':'), ('2010', 'CD'), ('POP', 'NNP'), ('World', 'NNP'), ('Media', 'NNP'), (',', ','), ('LLC', 'NNP'), (',', ','), ('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('Legal', 'NNP'), (',', ','), ('privacy', 'NN'), ('and', 'CC'), ('copyright', 'NN')]
+
+
+ERTAGGED sentence: (S   the/DT   official/JJ   (ORGANIZATION Disney/NNP)   parks/NNS   blog/VBP   &copy/JJ   ;/:   2010/CD   (ORGANIZATION POP/NNP)   World/NNP   Media/NNP   ,/,   (ORGANIZATION LLC/NNP)   ,/,   All/DT   Rights/NNS   Reserved/VBN   (PERSON Legal/NNP)   ,/,   privacy/NN   and/CC   copyright/NN)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB blog/VBP &copy/JJ)
+	(VERB Reserved/VBN Legal/NNP)
+noun phrases to consider:
+	(NOUN the/DT official/JJ Disney/NNP parks/NNS)
+	(NOUN 2010/CD POP/NNP World/NNP Media/NNP)
+	(NOUN LLC/NNP)
+	(NOUN Rights/NNS)
+	(NOUN privacy/NN)
+	(NOUN copyright/NN)
+
+
+veryneg:0	neg:0	pos:4	verypos:0	total:3

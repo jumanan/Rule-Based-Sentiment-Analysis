@@ -1,0 +1,229 @@
+
+----------------------------------
+original sentence: 
+Citibank CEO NYSE: C May Be Overly Optimistic about Growth Potential American Banking News
+Citibank CEO NYSE: C May Be Overly Optimistic about Growth Potential
+ March 14th, 2010 &bull;  &bull; by admin  Filed Under: Citibank CEO NYSE: C Vikram Pandit spoke optimistically about Citi‚Äôs future at a company sponsored financial services conference in New York on Thursday, but not all is well at the recovering megabank.
+
+POS tagged sentence: 
+[('Citibank', 'NNP'), ('CEO', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('May', 'NNP'), ('Be', 'NNP'), ('Overly', 'NNP'), ('Optimistic', 'NNP'), ('about', 'IN'), ('Growth', 'NNP'), ('Potential', 'NNP'), ('American', 'NNP'), ('Banking', 'NNP'), ('News', 'NNP'), ('Citibank', 'NNP'), ('CEO', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('May', 'NNP'), ('Be', 'NNP'), ('Overly', 'NNP'), ('Optimistic', 'NNP'), ('about', 'IN'), ('Growth', 'NNP'), ('Potential', 'NNP'), ('March', 'NNP'), ('14th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('&bull', 'JJ'), (';', ':'), ('by', 'IN'), ('admin', 'NN'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Citibank', 'NNP'), ('CEO', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), ('Vikram', 'NNP'), ('Pandit', 'NNP'), ('spoke', 'NN'), ('optimistically', 'RB'), ('about', 'IN'), ('Citi', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('future', 'JJ'), ('at', 'IN'), ('a', 'DT'), ('company', 'NN'), ('sponsored', 'VBN'), ('financial', 'JJ'), ('services', 'NNS'), ('conference', 'NN'), ('in', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('on', 'IN'), ('Thursday', 'NNP'), (',', ','), ('but', 'CC'), ('not', 'RB'), ('all', 'DT'), ('is', 'VBZ'), ('well', 'RB'), ('at', 'IN'), ('the', 'DT'), ('recovering', 'NN'), ('megabank', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citibank/NNP)   (ORGANIZATION CEO/NNP)   NYSE/NNP   :/:   C/NNP   May/NNP   Be/NNP   Overly/NNP   Optimistic/NNP   about/IN   (PERSON     Growth/NNP     Potential/NNP     American/NNP     Banking/NNP     News/NNP     Citibank/NNP)   CEO/NNP   NYSE/NNP   :/:   C/NNP   May/NNP   Be/NNP   Overly/NNP   Optimistic/NNP   about/IN   (PERSON Growth/NNP Potential/NNP)   March/NNP   14th/CD   ,/,   2010/CD   &bull/JJ   ;/:   &bull/JJ   ;/:   by/IN   admin/NN   (PERSON Filed/NNP Under/NNP)   :/:   (PERSON Citibank/NNP CEO/NNP)   NYSE/NNP   :/:   C/NNP   (PERSON Vikram/NNP Pandit/NNP)   spoke/NN   optimistically/RB   about/IN   (PERSON Citi/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   future/JJ   at/IN   a/DT   company/NN   sponsored/VBN   financial/JJ   services/NNS   conference/NN   in/IN   (GPE New/NNP York/NNP)   on/IN   Thursday/NNP   ,/,   but/CC   not/RB   all/DT   is/VBZ   well/RB   at/IN   the/DT   recovering/NN   megabank/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ future/JJ at/IN a/DT company/NN)
+	(VERB   sponsored/VBN   financial/JJ   services/NNS   conference/NN   in/IN   New/NNP   York/NNP   on/IN   Thursday/NNP)
+	(VERB is/VBZ well/RB at/IN the/DT recovering/NN megabank/NN)
+noun phrases to consider:
+	(NOUN Citibank/NNP CEO/NNP NYSE/NNP)
+	(NOUN C/NNP May/NNP Be/NNP Overly/NNP)
+	(NOUN Optimistic/NNP)
+
+tagged sentence:
+	 Optimistic	res:1
+	(NOUN Growth/NNP Potential/NNP American/NNP Banking/NNP)
+	(NOUN News/NNP Citibank/NNP CEO/NNP NYSE/NNP)
+	(NOUN C/NNP May/NNP Be/NNP Overly/NNP)
+	(NOUN Optimistic/NNP)
+
+tagged sentence:
+	 Optimistic	res:1
+	(NOUN Growth/NNP Potential/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN &bull/JJ)
+	(NOUN admin/NN Filed/NNP Under/NNP)
+	(NOUN Citibank/NNP CEO/NNP NYSE/NNP)
+	(NOUN C/NNP Vikram/NNP Pandit/NNP spoke/NN)
+	(NOUN Citi/NNP ‚/NNP Ä/NNP ô/NNP)
+
+----------------------------------
+original sentence: 
+During his presentation, Pandit said that the company‚Äôs return on assets will rise between 1.25% and 1.5% in the near future and that the company will make upwards of $20 billion over the course of the next three years.
+
+POS tagged sentence: 
+[('During', 'IN'), ('his', 'PRP$'), ('presentation', 'NN'), (',', ','), ('Pandit', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('return', 'VBP'), ('on', 'IN'), ('assets', 'NNS'), ('will', 'MD'), ('rise', 'VB'), ('between', 'IN'), ('1.25', 'CD'), ('%', 'NN'), ('and', 'CC'), ('1.5', 'CD'), ('%', 'NN'), ('in', 'IN'), ('the', 'DT'), ('near', 'NN'), ('future', 'NN'), ('and', 'CC'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('will', 'MD'), ('make', 'VB'), ('upwards', 'NNS'), ('of', 'IN'), ('$', '$'), ('20', 'CD'), ('billion', 'CD'), ('over', 'IN'), ('the', 'DT'), ('course', 'NN'), ('of', 'IN'), ('the', 'DT'), ('next', 'JJ'), ('three', 'CD'), ('years', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   his/PRP$   presentation/NN   ,/,   (PERSON Pandit/NNP)   said/VBD   that/IN   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   return/VBP   on/IN   assets/NNS   will/MD   rise/VB   between/IN   1.25/CD   %/NN   and/CC   1.5/CD   %/NN   in/IN   the/DT   near/NN   future/NN   and/CC   that/IN   the/DT   company/NN   will/MD   make/VB   upwards/NNS   of/IN   $/$   20/CD   billion/CD   over/IN   the/DT   course/NN   of/IN   the/DT   next/JJ   three/CD   years/NNS   ./.)
+----------------------------------
+original sentence: 
+Although Pandit‚Äôs remarks were optimistic, Citibank is still plagued by the group of unprofitable companies that it hopes to shed in its ‚ÄúCiti Holdings‚Äù division, which contains $547 billion or about 1/3
+ of Citibank‚Äôs total assets.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('Pandit', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('remarks', 'NNS'), ('were', 'VBD'), ('optimistic', 'JJ'), (',', ','), ('Citibank', 'NNP'), ('is', 'VBZ'), ('still', 'RB'), ('plagued', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('group', 'NN'), ('of', 'IN'), ('unprofitable', 'JJ'), ('companies', 'NNS'), ('that', 'WDT'), ('it', 'PRP'), ('hopes', 'VBZ'), ('to', 'TO'), ('shed', 'VBN'), ('in', 'IN'), ('its', 'PRP$'), ('\xe2', 'NN'), ('\x80', ':'), ('\x9c', ':'), ('Citi', 'NNP'), ('Holdings', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x9d', 'NNP'), ('division', 'NN'), (',', ','), ('which', 'WDT'), ('contains', 'VBZ'), ('$', '$'), ('547', 'CD'), ('billion', 'CD'), ('or', 'CC'), ('about', 'IN'), ('1/3', 'CD'), ('of', 'IN'), ('Citibank', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('total', 'JJ'), ('assets', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   (PERSON Pandit/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   remarks/NNS   were/VBD   optimistic/JJ   ,/,   (ORGANIZATION Citibank/NNP)   is/VBZ   still/RB   plagued/VBN   by/IN   the/DT   group/NN   of/IN   unprofitable/JJ   companies/NNS   that/WDT   it/PRP   hopes/VBZ   to/TO   shed/VBN   in/IN   its/PRP$   ‚/NN   Ä/:   ú/:   (PERSON Citi/NNP Holdings/NNP)   ‚/NNP   Ä/NNP   ù/NNP   division/NN   ,/,   which/WDT   contains/VBZ   $/$   547/CD   billion/CD   or/CC   about/IN   1/3/CD   of/IN   (ORGANIZATION Citibank/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   total/JJ   assets/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ remarks/NNS)
+	(VERB were/VBD optimistic/JJ)
+	(VERB   is/VBZ   still/RB   plagued/VBN   by/IN   the/DT   group/NN   of/IN   unprofitable/JJ   companies/NNS)
+	(VERB hopes/VBZ to/TO shed/VBN in/IN its/PRP$ ‚/NN)
+	(VERB contains/VBZ)
+	(VERB s/VBZ total/JJ assets/NNS)
+noun phrases to consider:
+	(NOUN Pandit/NNP ‚/NNP Ä/NNP ô/NNP)
+	(NOUN Citibank/NNP)
+	(NOUN Citi/NNP Holdings/NNP ‚/NNP Ä/NNP)
+	(NOUN ù/NNP division/NN)
+	(NOUN Citibank/NNP ‚/NNP Ä/NNP ô/NNP)
+
+----------------------------------
+original sentence: 
+Citi Holdings lost $8.2 billion in revenue in 2009 and $36 billion the year before that.
+
+POS tagged sentence: 
+[('Citi', 'NNP'), ('Holdings', 'NNP'), ('lost', 'VBD'), ('$', '$'), ('8.2', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('revenue', 'NN'), ('in', 'IN'), ('2009', 'CD'), ('and', 'CC'), ('$', '$'), ('36', 'CD'), ('billion', 'CD'), ('the', 'DT'), ('year', 'NN'), ('before', 'IN'), ('that', 'IN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Citi/NNP)   (PERSON Holdings/NNP)   lost/VBD   $/$   8.2/CD   billion/CD   in/IN   revenue/NN   in/IN   2009/CD   and/CC   $/$   36/CD   billion/CD   the/DT   year/NN   before/IN   that/IN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB lost/VBD)
+noun phrases to consider:
+	(NOUN Citi/NNP Holdings/NNP)
+	(NOUN revenue/NN)
+	(NOUN year/NN)
+
+----------------------------------
+original sentence: 
+Pandit‚Äôs predictions only include numbers from Citicorp which comprise Citibank‚Äôs core businesses that it has identified as part of its growth strategy and does not plan to sell.
+
+POS tagged sentence: 
+[('Pandit', 'NN'), ('\xe2', '``'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('predictions', 'NNS'), ('only', 'RB'), ('include', 'VBP'), ('numbers', 'NNS'), ('from', 'IN'), ('Citicorp', 'NNP'), ('which', 'WDT'), ('comprise', 'NN'), ('Citibank', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('core', 'JJR'), ('businesses', 'NNS'), ('that', 'WDT'), ('it', 'PRP'), ('has', 'VBZ'), ('identified', 'VBN'), ('as', 'IN'), ('part', 'NN'), ('of', 'IN'), ('its', 'PRP$'), ('growth', 'NN'), ('strategy', 'NN'), ('and', 'CC'), ('does', 'VBZ'), ('not', 'RB'), ('plan', 'VB'), ('to', 'TO'), ('sell', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Pandit/NN)   ‚/``   Ä/:   ô/:   s/NNS   predictions/NNS   only/RB   include/VBP   numbers/NNS   from/IN   (ORGANIZATION Citicorp/NNP)   which/WDT   comprise/NN   (ORGANIZATION Citibank/NNP)   ‚/NNP   Ä/NNP   ô/NNP   s/VBZ   core/JJR   businesses/NNS   that/WDT   it/PRP   has/VBZ   identified/VBN   as/IN   part/NN   of/IN   its/PRP$   growth/NN   strategy/NN   and/CC   does/VBZ   not/RB   plan/VB   to/TO   sell/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB include/VBP numbers/NNS from/IN Citicorp/NNP)
+	(VERB s/VBZ core/JJR businesses/NNS)
+	(VERB   has/VBZ   identified/VBN   as/IN   part/NN   of/IN   its/PRP$   growth/NN   strategy/NN)
+	(VERB does/VBZ not/RB plan/VB)
+	(VERB sell/VB)
+noun phrases to consider:
+	(NOUN Pandit/NN)
+	(NOUN s/NNS predictions/NNS)
+	(NOUN comprise/NN Citibank/NNP ‚/NNP Ä/NNP)
+	(NOUN ô/NNP)
+
+----------------------------------
+original sentence: 
+Although a $20 billion in profit sounds like solid profits for the unit, the company already made $14.8 billion in 2009.
+
+POS tagged sentence: 
+[('Although', 'IN'), ('a', 'DT'), ('$', '$'), ('20', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('profit', 'NN'), ('sounds', 'NNS'), ('like', 'IN'), ('solid', 'JJ'), ('profits', 'NNS'), ('for', 'IN'), ('the', 'DT'), ('unit', 'NN'), (',', ','), ('the', 'DT'), ('company', 'NN'), ('already', 'RB'), ('made', 'VBD'), ('$', '$'), ('14.8', 'CD'), ('billion', 'CD'), ('in', 'IN'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Although/IN   a/DT   $/$   20/CD   billion/CD   in/IN   profit/NN   sounds/NNS   like/IN   solid/JJ   profits/NNS   for/IN   the/DT   unit/NN   ,/,   the/DT   company/NN   already/RB   made/VBD   $/$   14.8/CD   billion/CD   in/IN   2009/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB made/VBD)
+noun phrases to consider:
+	(NOUN profit/NN sounds/NNS)
+	(NOUN solid/JJ profits/NNS)
+	(NOUN unit/NN)
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+The 2009 profits from Citicorp were drained by the losses from the company‚Äôs Citi Holdings division.
+
+POS tagged sentence: 
+[('The', 'DT'), ('2009', 'CD'), ('profits', 'NNS'), ('from', 'IN'), ('Citicorp', 'NNP'), ('were', 'VBD'), ('drained', 'VBN'), ('by', 'IN'), ('the', 'DT'), ('losses', 'NNS'), ('from', 'IN'), ('the', 'DT'), ('company', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('Citi', 'NNP'), ('Holdings', 'NNP'), ('division', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   2009/CD   profits/NNS   from/IN   (ORGANIZATION Citicorp/NNP)   were/VBD   drained/VBN   by/IN   the/DT   losses/NNS   from/IN   the/DT   company/NN   ‚/:   Ä/:   ô/:   s/NNS   (PERSON Citi/NNP Holdings/NNP)   division/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   were/VBD   drained/VBN   by/IN   the/DT   losses/NNS   from/IN   the/DT   company/NN)
+noun phrases to consider:
+	(NOUN 2009/CD profits/NNS)
+	(NOUN Citicorp/NNP)
+	(NOUN s/NNS Citi/NNP Holdings/NNP division/NN)
+
+----------------------------------
+original sentence: 
+During his speech, Pandit said that the company has enough capital to take losses from its Citi Holdings division, but as long as there are billions of dollars worth of non performing assets at Citi Holdings, the unit will serve as an albatross around the neck of Citigroup.
+
+POS tagged sentence: 
+[('During', 'IN'), ('his', 'PRP$'), ('speech', 'NN'), (',', ','), ('Pandit', 'NNP'), ('said', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('enough', 'RB'), ('capital', 'NN'), ('to', 'TO'), ('take', 'VB'), ('losses', 'NNS'), ('from', 'IN'), ('its', 'PRP$'), ('Citi', 'NNP'), ('Holdings', 'NNP'), ('division', 'NN'), (',', ','), ('but', 'CC'), ('as', 'IN'), ('long', 'RB'), ('as', 'IN'), ('there', 'EX'), ('are', 'VBP'), ('billions', 'NNS'), ('of', 'IN'), ('dollars', 'NNS'), ('worth', 'NN'), ('of', 'IN'), ('non', 'NN'), ('performing', 'VBG'), ('assets', 'NNS'), ('at', 'IN'), ('Citi', 'NNP'), ('Holdings', 'NNP'), (',', ','), ('the', 'DT'), ('unit', 'NN'), ('will', 'MD'), ('serve', 'VB'), ('as', 'IN'), ('an', 'DT'), ('albatross', 'NN'), ('around', 'IN'), ('the', 'DT'), ('neck', 'NN'), ('of', 'IN'), ('Citigroup', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   During/IN   his/PRP$   speech/NN   ,/,   (PERSON Pandit/NNP)   said/VBD   that/IN   the/DT   company/NN   has/VBZ   enough/RB   capital/NN   to/TO   take/VB   losses/NNS   from/IN   its/PRP$   (ORGANIZATION Citi/NNP Holdings/NNP)   division/NN   ,/,   but/CC   as/IN   long/RB   as/IN   there/EX   are/VBP   billions/NNS   of/IN   dollars/NNS   worth/NN   of/IN   non/NN   performing/VBG   assets/NNS   at/IN   (ORGANIZATION Citi/NNP Holdings/NNP)   ,/,   the/DT   unit/NN   will/MD   serve/VB   as/IN   an/DT   albatross/NN   around/IN   the/DT   neck/NN   of/IN   (GPE Citigroup/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB said/VBD that/IN the/DT company/NN)
+	(VERB has/VBZ enough/RB capital/NN)
+	(VERB   take/VB   losses/NNS   from/IN   its/PRP$   Citi/NNP   Holdings/NNP   division/NN)
+	(VERB are/VBP billions/NNS of/IN dollars/NNS worth/NN of/IN non/NN)
+	(VERB performing/VBG assets/NNS at/IN Citi/NNP Holdings/NNP)
+	(VERB   serve/VB   as/IN   an/DT   albatross/NN   around/IN   the/DT   neck/NN   of/IN   Citigroup/NNP)
+noun phrases to consider:
+	(NOUN speech/NN)
+	(NOUN Pandit/NNP)
+	(NOUN unit/NN)
+
+----------------------------------
+original sentence: 
+In essence, Citigroup has taken the businesses that are profitable and that it wants to keep and put them in one division and all of its businesses that are failing in another division.
+
+POS tagged sentence: 
+[('In', 'IN'), ('essence', 'NN'), (',', ','), ('Citigroup', 'NNP'), ('has', 'VBZ'), ('taken', 'VBN'), ('the', 'DT'), ('businesses', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('profitable', 'JJ'), ('and', 'CC'), ('that', 'IN'), ('it', 'PRP'), ('wants', 'VBZ'), ('to', 'TO'), ('keep', 'VB'), ('and', 'CC'), ('put', 'VB'), ('them', 'PRP'), ('in', 'IN'), ('one', 'CD'), ('division', 'NN'), ('and', 'CC'), ('all', 'DT'), ('of', 'IN'), ('its', 'PRP$'), ('businesses', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('failing', 'VBG'), ('in', 'IN'), ('another', 'DT'), ('division', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   essence/NN   ,/,   (PERSON Citigroup/NNP)   has/VBZ   taken/VBN   the/DT   businesses/NNS   that/WDT   are/VBP   profitable/JJ   and/CC   that/IN   it/PRP   wants/VBZ   to/TO   keep/VB   and/CC   put/VB   them/PRP   in/IN   one/CD   division/NN   and/CC   all/DT   of/IN   its/PRP$   businesses/NNS   that/WDT   are/VBP   failing/VBG   in/IN   another/DT   division/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ taken/VBN the/DT businesses/NNS)
+	(VERB are/VBP profitable/JJ)
+
+tagged sentence:
+	 are profitable	res:1
+	(VERB wants/VBZ to/TO keep/VB)
+	(VERB put/VB them/PRP in/IN one/CD division/NN)
+	(VERB are/VBP failing/VBG in/IN another/DT division/NN)
+
+tagged sentence:
+	 are failing in another division	res:-1
+noun phrases to consider:
+	(NOUN essence/NN)
+	(NOUN Citigroup/NNP)
+	(NOUN businesses/NNS)
+
+----------------------------------
+original sentence: 
+It‚Äôs easy for a company to point at the business units that are working well as a group and proclaim success, but until Pandit can turn around Citi Holdings by selling its assets or making them profitable again, Citigroup as a whole will have trouble with profitability.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('\xe2', 'VBP'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('easy', 'JJ'), ('for', 'IN'), ('a', 'DT'), ('company', 'NN'), ('to', 'TO'), ('point', 'VB'), ('at', 'IN'), ('the', 'DT'), ('business', 'NN'), ('units', 'NNS'), ('that', 'WDT'), ('are', 'VBP'), ('working', 'VBG'), ('well', 'RB'), ('as', 'IN'), ('a', 'DT'), ('group', 'NN'), ('and', 'CC'), ('proclaim', 'NN'), ('success', 'NN'), (',', ','), ('but', 'CC'), ('until', 'IN'), ('Pandit', 'NNP'), ('can', 'MD'), ('turn', 'VB'), ('around', 'IN'), ('Citi', 'NNP'), ('Holdings', 'NNP'), ('by', 'IN'), ('selling', 'NN'), ('its', 'PRP$'), ('assets', 'NNS'), ('or', 'CC'), ('making', 'VBG'), ('them', 'PRP'), ('profitable', 'JJ'), ('again', 'RB'), (',', ','), ('Citigroup', 'NNP'), ('as', 'IN'), ('a', 'DT'), ('whole', 'JJ'), ('will', 'MD'), ('have', 'VB'), ('trouble', 'NN'), ('with', 'IN'), ('profitability', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   ‚/VBP   Ä/:   ô/:   s/NNS   easy/JJ   for/IN   a/DT   company/NN   to/TO   point/VB   at/IN   the/DT   business/NN   units/NNS   that/WDT   are/VBP   working/VBG   well/RB   as/IN   a/DT   group/NN   and/CC   proclaim/NN   success/NN   ,/,   but/CC   until/IN   (PERSON Pandit/NNP)   can/MD   turn/VB   around/IN   (PERSON Citi/NNP Holdings/NNP)   by/IN   selling/NN   its/PRP$   assets/NNS   or/CC   making/VBG   them/PRP   profitable/JJ   again/RB   ,/,   (PERSON Citigroup/NNP)   as/IN   a/DT   whole/JJ   will/MD   have/VB   trouble/NN   with/IN   profitability/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB ‚/VBP)
+	(VERB point/VB at/IN the/DT business/NN units/NNS)
+	(VERB are/VBP working/VBG well/RB as/IN a/DT group/NN)
+	(VERB   turn/VB   around/IN   Citi/NNP   Holdings/NNP   by/IN   selling/NN   its/PRP$   assets/NNS)
+	(VERB making/VBG them/PRP profitable/JJ again/RB)
+
+tagged sentence:
+	 making them profitable again	res:1
+	(VERB have/VB trouble/NN with/IN profitability/NN)
+
+tagged sentence:
+	 have trouble with profitability	res:-1
+noun phrases to consider:
+	(NOUN s/NNS easy/JJ)
+	(NOUN company/NN)
+	(NOUN proclaim/NN success/NN)
+	(NOUN Pandit/NNP)
+	(NOUN Citigroup/NNP)
+	(NOUN a/DT whole/JJ)
+
+----------------------------------
+original sentence: 
+blog comments powered by 
+
+POS tagged sentence: 
+[('blog', 'NN'), ('comments', 'NNS'), ('powered', 'VBD'), ('by', 'IN')]
+
+
+ERTAGGED sentence: (S blog/NN comments/NNS powered/VBD by/IN)
+
+veryneg:0	neg:2	pos:4	verypos:0	total:2

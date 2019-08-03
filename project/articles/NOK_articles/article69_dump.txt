@@ -1,0 +1,85 @@
+
+----------------------------------
+original sentence: 
+Nokia Keeps Market Share Targets, Changes Volume Measurement WSJ.com
+Nokia Keeps Market Share Targets, Changes Volume Measurement
+
+ STOCKHOLM Dow Jones Finland&apos;s Nokia Corp.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('Keeps', 'NNP'), ('Market', 'NNP'), ('Share', 'NNP'), ('Targets', 'NNPS'), (',', ','), ('Changes', 'NNP'), ('Volume', 'NNP'), ('Measurement', 'NNP'), ('WSJ.com', 'NNP'), ('Nokia', 'NNP'), ('Keeps', 'NNP'), ('Market', 'NNP'), ('Share', 'NNP'), ('Targets', 'NNPS'), (',', ','), ('Changes', 'NNP'), ('Volume', 'NNP'), ('Measurement', 'NNP'), ('STOCKHOLM', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Finland&apos', 'NNP'), (';', ':'), ('s', 'NNS'), ('Nokia', 'NNP'), ('Corp', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Nokia/NNP)   (PERSON Keeps/NNP Market/NNP Share/NNP Targets/NNPS)   ,/,   (PERSON Changes/NNP Volume/NNP)   Measurement/NNP   WSJ.com/NNP   Nokia/NNP   Keeps/NNP   (PERSON Market/NNP Share/NNP Targets/NNPS)   ,/,   (PERSON Changes/NNP Volume/NNP)   Measurement/NNP   STOCKHOLM/NNP   Dow/NNP   (PERSON Jones/NNP)   Finland&apos/NNP   ;/:   s/NNS   (PERSON Nokia/NNP Corp/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Nokia/NNP Keeps/NNP Market/NNP Share/NNP)
+	(NOUN Targets/NNPS)
+	(NOUN Changes/NNP Volume/NNP Measurement/NNP WSJ.com/NNP)
+	(NOUN Nokia/NNP Keeps/NNP Market/NNP Share/NNP)
+	(NOUN Targets/NNPS)
+	(NOUN Changes/NNP Volume/NNP Measurement/NNP STOCKHOLM/NNP)
+	(NOUN Dow/NNP Jones/NNP Finland&apos/NNP)
+	(NOUN s/NNS Nokia/NNP Corp/NNP)
+
+----------------------------------
+original sentence: 
+NOK , the world&apos;s largest handset maker, Friday maintained its market share growth targets for 2010 but revised its industry volume definitions to also include new rival mobile device vendors.
+
+POS tagged sentence: 
+[('NOK', 'NN'), (',', ','), ('the', 'DT'), ('world&apos', 'NNP'), (';', ':'), ('s', 'NNS'), ('largest', 'JJS'), ('handset', 'NN'), ('maker', 'NN'), (',', ','), ('Friday', 'NNP'), ('maintained', 'VBD'), ('its', 'PRP$'), ('market', 'NN'), ('share', 'NN'), ('growth', 'NN'), ('targets', 'NNS'), ('for', 'IN'), ('2010', 'CD'), ('but', 'CC'), ('revised', 'VBN'), ('its', 'PRP$'), ('industry', 'NN'), ('volume', 'NN'), ('definitions', 'NNS'), ('to', 'TO'), ('also', 'RB'), ('include', 'VBP'), ('new', 'JJ'), ('rival', 'NN'), ('mobile', 'NN'), ('device', 'NN'), ('vendors', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION NOK/NN)   ,/,   the/DT   world&apos/NNP   ;/:   s/NNS   largest/JJS   handset/NN   maker/NN   ,/,   Friday/NNP   maintained/VBD   its/PRP$   market/NN   share/NN   growth/NN   targets/NNS   for/IN   2010/CD   but/CC   revised/VBN   its/PRP$   industry/NN   volume/NN   definitions/NNS   to/TO   also/RB   include/VBP   new/JJ   rival/NN   mobile/NN   device/NN   vendors/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   maintained/VBD   its/PRP$   market/NN   share/NN   growth/NN   targets/NNS   for/IN   2010/CD)
+	(VERB revised/VBN its/PRP$ industry/NN volume/NN definitions/NNS)
+	(VERB include/VBP new/JJ rival/NN mobile/NN device/NN vendors/NNS)
+noun phrases to consider:
+	(NOUN NOK/NN)
+	(NOUN world&apos/NNP)
+	(NOUN s/NNS largest/JJS handset/NN maker/NN)
+	(NOUN Friday/NNP)
+
+----------------------------------
+original sentence: 
+"These include ...
+
+POS tagged sentence: 
+[('"', 'NN'), ('These', 'DT'), ('include', 'NN'), ('..', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S "/NN These/DT include/NN ../: ./.)
+----------------------------------
+original sentence: 
+Copyright 2009 Dow Jones & Company, Inc. All Rights Reserved
+This copy is for your personal, non commercial use only.
+
+POS tagged sentence: 
+[('Copyright', 'NNP'), ('2009', 'CD'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('&', 'CC'), ('Company', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('All', 'NNP'), ('Rights', 'NNP'), ('Reserved', 'NNP'), ('This', 'NNP'), ('copy', 'NN'), ('is', 'VBZ'), ('for', 'IN'), ('your', 'PRP$'), ('personal', 'JJ'), (',', ','), ('non', 'NN'), ('commercial', 'JJ'), ('use', 'NN'), ('only', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Copyright/NNP   2009/CD   Dow/NNP   Jones/NNP   &/CC   (ORGANIZATION Company/NNP)   ,/,   Inc./NNP   All/NNP   Rights/NNP   Reserved/NNP   This/NNP   copy/NN   is/VBZ   for/IN   your/PRP$   personal/JJ   ,/,   non/NN   commercial/JJ   use/NN   only/RB   ./.)
+----------------------------------
+original sentence: 
+Distribution and use of this material are governed by our Subscriber Agreement
+ and by copyright law.
+
+POS tagged sentence: 
+[('Distribution', 'NN'), ('and', 'CC'), ('use', 'VBP'), ('of', 'IN'), ('this', 'DT'), ('material', 'NN'), ('are', 'VBP'), ('governed', 'VBN'), ('by', 'IN'), ('our', 'PRP$'), ('Subscriber', 'NNP'), ('Agreement', 'NNP'), ('and', 'CC'), ('by', 'IN'), ('copyright', 'NN'), ('law', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Distribution/NN)   and/CC   use/VBP   of/IN   this/DT   material/NN   are/VBP   governed/VBN   by/IN   our/PRP$   Subscriber/NNP   Agreement/NNP   and/CC   by/IN   copyright/NN   law/NN   ./.)
+----------------------------------
+original sentence: 
+For non personal use or to order multiple copies, please contact Dow Jones Reprints at 1 800 843 0008 or visit
+Most Popular In Europe
+
+
+POS tagged sentence: 
+[('For', 'IN'), ('non', 'NN'), ('personal', 'JJ'), ('use', 'NN'), ('or', 'CC'), ('to', 'TO'), ('order', 'NN'), ('multiple', 'NN'), ('copies', 'NNS'), (',', ','), ('please', 'VB'), ('contact', 'NN'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Reprints', 'NNP'), ('at', 'IN'), ('1', 'CD'), ('800', 'CD'), ('843', 'CD'), ('0008', 'CD'), ('or', 'CC'), ('visit', 'NN'), ('Most', 'RBS'), ('Popular', 'JJ'), ('In', 'NNP'), ('Europe', 'NNP')]
+
+
+ERTAGGED sentence: (S   For/IN   non/NN   personal/JJ   use/NN   or/CC   to/TO   order/NN   multiple/NN   copies/NNS   ,/,   please/VB   contact/NN   (PERSON Dow/NNP Jones/NNP Reprints/NNP)   at/IN   1/CD   800/CD   843/CD   0008/CD   or/CC   visit/NN   Most/RBS   Popular/JJ   In/NNP   (GPE Europe/NNP))
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

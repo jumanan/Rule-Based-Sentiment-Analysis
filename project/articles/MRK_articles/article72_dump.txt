@@ -1,0 +1,884 @@
+
+----------------------------------
+original sentence: 
+Business & Financial News, Breaking US & International News | Reuters.com
+ Merck & Co., Inc. MRK Pharmaceuticals Diversified
+MRK on New York Consolidated
+Price Change % chg Latest Key Developments
+ Merck & Co., Inc. Reaffirms FY 2009 2013 EPS Guidance
+Merck & Co., Inc. announced that it continues to target a high single digit non GAAP earnings per share EPS compound annual growth rate for the combined Company from fiscal 2009 to fiscal 2013 when compared to Merck fiscal 2009 non GAAP EPS.
+
+POS tagged sentence: 
+[('Business', 'NN'), ('&', 'CC'), ('Financial', 'NNP'), ('News', 'NNP'), (',', ','), ('Breaking', 'NNP'), ('US', 'NNP'), ('&', 'CC'), ('International', 'NNP'), ('News', 'NNP'), ('|', 'NNP'), ('Reuters.com', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('MRK', 'NNP'), ('Pharmaceuticals', 'NNP'), ('Diversified', 'NNP'), ('MRK', 'NNP'), ('on', 'IN'), ('New', 'NNP'), ('York', 'NNP'), ('Consolidated', 'NNP'), ('Price', 'NNP'), ('Change', 'NNP'), ('%', 'NN'), ('chg', 'NN'), ('Latest', 'NNP'), ('Key', 'NNP'), ('Developments', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('Reaffirms', 'NNP'), ('FY', 'NNP'), ('2009', 'CD'), ('2013', 'CD'), ('EPS', 'NNP'), ('Guidance', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('continues', 'VBZ'), ('to', 'TO'), ('target', 'VB'), ('a', 'DT'), ('high', 'JJ'), ('single', 'JJ'), ('digit', 'NN'), ('non', 'NN'), ('GAAP', 'NNP'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('compound', 'VBP'), ('annual', 'JJ'), ('growth', 'NN'), ('rate', 'NN'), ('for', 'IN'), ('the', 'DT'), ('combined', 'VBN'), ('Company', 'NNP'), ('from', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), ('to', 'TO'), ('fiscal', 'JJ'), ('2013', 'CD'), ('when', 'WRB'), ('compared', 'VBN'), ('to', 'TO'), ('Merck', 'NNP'), ('fiscal', 'JJ'), ('2009', 'CD'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Business/NN)   &/CC   (ORGANIZATION Financial/NNP News/NNP)   ,/,   (PERSON Breaking/NNP US/NNP)   &/CC   (ORGANIZATION International/NNP News/NNP)   |/NNP   Reuters.com/NNP   Merck/NNP   &/CC   Co./NNP   ,/,   Inc./NNP   MRK/NNP   Pharmaceuticals/NNP   Diversified/NNP   MRK/NNP   on/IN   (GPE New/NNP York/NNP)   Consolidated/NNP   Price/NNP   Change/NNP   %/NN   chg/NN   (PERSON Latest/NNP Key/NNP Developments/NNP Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   Reaffirms/NNP   FY/NNP   2009/CD   2013/CD   (ORGANIZATION EPS/NNP Guidance/NNP Merck/NNP)   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   it/PRP   continues/VBZ   to/TO   target/VB   a/DT   high/JJ   single/JJ   digit/NN   non/NN   (ORGANIZATION GAAP/NNP)   earnings/NNS   per/IN   share/NN   EPS/NNS   compound/VBP   annual/JJ   growth/NN   rate/NN   for/IN   the/DT   combined/VBN   Company/NNP   from/IN   fiscal/JJ   2009/CD   to/TO   fiscal/JJ   2013/CD   when/WRB   compared/VBN   to/TO   (GPE Merck/NNP)   fiscal/JJ   2009/CD   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB   continues/VBZ   to/TO   target/VB   a/DT   high/JJ   single/JJ   digit/NN   non/NN   GAAP/NNP   earnings/NNS   per/IN   share/NN   EPS/NNS)
+	(VERB compound/VBP annual/JJ growth/NN rate/NN for/IN the/DT)
+	(VERB combined/VBN Company/NNP from/IN fiscal/JJ 2009/CD)
+	(VERB   compared/VBN   to/TO   Merck/NNP   fiscal/JJ   2009/CD   non/NN   GAAP/NNP   EPS/NNP)
+noun phrases to consider:
+	(NOUN Business/NN)
+	(NOUN Financial/NNP News/NNP)
+	(NOUN Breaking/NNP US/NNP)
+	(NOUN International/NNP News/NNP |/NNP Reuters.com/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP MRK/NNP Pharmaceuticals/NNP Diversified/NNP)
+	(NOUN MRK/NNP)
+	(NOUN New/NNP York/NNP Consolidated/NNP Price/NNP)
+	(NOUN Change/NNP %/NN chg/NN Latest/NNP)
+	(NOUN Key/NNP Developments/NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP Reaffirms/NNP FY/NNP)
+	(NOUN 2013/CD EPS/NNP Guidance/NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN fiscal/JJ 2013/CD)
+
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts are expecting the Company to report EPS of $3.41 for fiscal 2010; EPS of $3.92 for fiscal 2011; EPS of $4.12 for fiscal 2011.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('are', 'VBP'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.41', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (';', ':'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.92', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2011', 'CD'), (';', ':'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('4.12', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2011', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   are/VBP   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   (ORGANIZATION EPS/NNP)   of/IN   $/$   3.41/CD   for/IN   fiscal/JJ   2010/CD   ;/:   (ORGANIZATION EPS/NNP)   of/IN   $/$   3.92/CD   for/IN   fiscal/JJ   2011/CD   ;/:   (ORGANIZATION EPS/NNP)   of/IN   $/$   4.12/CD   for/IN   fiscal/JJ   2011/CD   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) &/CC Co./NNP ,/, (PERSON Inc/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Obtains Exclusive Rights To Market And Distribute MassBiologics' Tetanus Diphtheria Td Vaccine In U.S.
+Wednesday, 21 Apr 2010 07:30am EDT
+Merck & Co., Inc. announced that Merck & Co., Inc. and MassBiologics of the University of Massachusetts Medical School have entered into an agreement that provides Merck with exclusive rights to market and distribute MassBiologics tetanus and diphtheria toxoids adsorbed Td vaccine in the United States, with the exception of Massachusetts, where MassBiologics will continue distributing the vaccine.
+
+POS tagged sentence: 
+[('Obtains', 'NNS'), ('Exclusive', 'VBP'), ('Rights', 'NNS'), ('To', 'TO'), ('Market', 'NNP'), ('And', 'CC'), ('Distribute', 'NNP'), ('MassBiologics', 'NNP'), ("'", 'POS'), ('Tetanus', 'NNP'), ('Diphtheria', 'NNP'), ('Td', 'NNP'), ('Vaccine', 'NNP'), ('In', 'NNP'), ('U.S', 'NNP'), ('.', '.'), ('Wednesday', 'NNP'), (',', ','), ('21', 'CD'), ('Apr', 'NNP'), ('2010', 'CD'), ('07', 'CD'), (':', ':'), ('30am', 'CD'), ('EDT', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('and', 'CC'), ('MassBiologics', 'NNP'), ('of', 'IN'), ('the', 'DT'), ('University', 'NNP'), ('of', 'IN'), ('Massachusetts', 'NNP'), ('Medical', 'NNP'), ('School', 'NNP'), ('have', 'VBP'), ('entered', 'VBN'), ('into', 'IN'), ('an', 'DT'), ('agreement', 'NN'), ('that', 'IN'), ('provides', 'VBZ'), ('Merck', 'NNP'), ('with', 'IN'), ('exclusive', 'JJ'), ('rights', 'NNS'), ('to', 'TO'), ('market', 'NN'), ('and', 'CC'), ('distribute', 'VB'), ('MassBiologics', 'NNP'), ('tetanus', 'NN'), ('and', 'CC'), ('diphtheria', 'NN'), ('toxoids', 'NNS'), ('adsorbed', 'VBD'), ('Td', 'NNP'), ('vaccine', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('with', 'IN'), ('the', 'DT'), ('exception', 'NN'), ('of', 'IN'), ('Massachusetts', 'NNP'), (',', ','), ('where', 'WRB'), ('MassBiologics', 'NNP'), ('will', 'MD'), ('continue', 'VB'), ('distributing', 'VBG'), ('the', 'DT'), ('vaccine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Obtains/NNS   Exclusive/VBP   Rights/NNS   To/TO   (PERSON Market/NNP)   And/CC   (ORGANIZATION Distribute/NNP)   MassBiologics/NNP   '/POS   (PERSON Tetanus/NNP Diphtheria/NNP Td/NNP Vaccine/NNP)   In/NNP   U.S/NNP   ./.   Wednesday/NNP   ,/,   21/CD   Apr/NNP   2010/CD   07/CD   :/:   30am/CD   (ORGANIZATION EDT/NNP Merck/NNP)   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   (PERSON Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   and/CC   (ORGANIZATION MassBiologics/NNP)   of/IN   the/DT   (ORGANIZATION University/NNP)   of/IN   (ORGANIZATION Massachusetts/NNP Medical/NNP School/NNP)   have/VBP   entered/VBN   into/IN   an/DT   agreement/NN   that/IN   provides/VBZ   (PERSON Merck/NNP)   with/IN   exclusive/JJ   rights/NNS   to/TO   market/NN   and/CC   distribute/VB   (ORGANIZATION MassBiologics/NNP)   tetanus/NN   and/CC   diphtheria/NN   toxoids/NNS   adsorbed/VBD   Td/NNP   vaccine/NN   in/IN   the/DT   (GPE United/NNP States/NNPS)   ,/,   with/IN   the/DT   exception/NN   of/IN   (GPE Massachusetts/NNP)   ,/,   where/WRB   (ORGANIZATION MassBiologics/NNP)   will/MD   continue/VB   distributing/VBG   the/DT   vaccine/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Exclusive/VBP Rights/NNS)
+	(VERB announced/VBD that/IN Merck/NNP)
+	(VERB have/VBP entered/VBN into/IN an/DT agreement/NN that/IN)
+	(VERB provides/VBZ Merck/NNP with/IN exclusive/JJ rights/NNS)
+
+tagged sentence:
+	 provides Merck with exclusive rights	res:1
+	(VERB distribute/VB MassBiologics/NNP tetanus/NN)
+	(VERB   adsorbed/VBD   Td/NNP   vaccine/NN   in/IN   the/DT   United/NNP   States/NNPS)
+	(VERB continue/VB distributing/VBG the/DT vaccine/NN)
+noun phrases to consider:
+	(NOUN Obtains/NNS)
+	(NOUN Market/NNP)
+	(NOUN Distribute/NNP MassBiologics/NNP)
+	(NOUN Tetanus/NNP Diphtheria/NNP Td/NNP Vaccine/NNP)
+	(NOUN In/NNP U.S/NNP)
+	(NOUN Wednesday/NNP)
+	(NOUN 21/CD Apr/NNP)
+	(NOUN 30am/CD EDT/NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN MassBiologics/NNP)
+	(NOUN University/NNP)
+	(NOUN Massachusetts/NNP Medical/NNP School/NNP)
+	(NOUN market/NN)
+	(NOUN diphtheria/NN toxoids/NNS)
+	(NOUN exception/NN)
+	(NOUN Massachusetts/NNP)
+	(NOUN MassBiologics/NNP)
+
+----------------------------------
+original sentence: 
+Merck plans to begin distributing the Td vaccine in June 2010.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('plans', 'VBP'), ('to', 'TO'), ('begin', 'VB'), ('distributing', 'NN'), ('the', 'DT'), ('Td', 'NNP'), ('vaccine', 'NN'), ('in', 'IN'), ('June', 'NNP'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   plans/VBP   to/TO   begin/VB   distributing/NN   the/DT   Td/NNP   vaccine/NN   in/IN   June/NNP   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   plans/VBP   to/TO   begin/VB   distributing/NN   the/DT   Td/NNP   vaccine/NN   in/IN   June/NNP   2010/CD)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+Specific financial details of the agreement were not disclosed.
+
+POS tagged sentence: 
+[('Specific', 'NNP'), ('financial', 'JJ'), ('details', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('agreement', 'NN'), ('were', 'VBD'), ('not', 'RB'), ('disclosed', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Specific/NNP)   financial/JJ   details/NNS   of/IN   the/DT   agreement/NN   were/VBD   not/RB   disclosed/VBN   ./.)
+----------------------------------
+original sentence: 
+The vaccine is indicated for active immunization for the prevention of tetanus and diphtheria and is approved for use in people seven years of age and older.
+
+POS tagged sentence: 
+[('The', 'DT'), ('vaccine', 'NN'), ('is', 'VBZ'), ('indicated', 'VBN'), ('for', 'IN'), ('active', 'JJ'), ('immunization', 'NN'), ('for', 'IN'), ('the', 'DT'), ('prevention', 'NN'), ('of', 'IN'), ('tetanus', 'NN'), ('and', 'CC'), ('diphtheria', 'NN'), ('and', 'CC'), ('is', 'VBZ'), ('approved', 'VBN'), ('for', 'IN'), ('use', 'NN'), ('in', 'IN'), ('people', 'NNS'), ('seven', 'CD'), ('years', 'NNS'), ('of', 'IN'), ('age', 'NN'), ('and', 'CC'), ('older', 'JJR'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   vaccine/NN   is/VBZ   indicated/VBN   for/IN   active/JJ   immunization/NN   for/IN   the/DT   prevention/NN   of/IN   tetanus/NN   and/CC   diphtheria/NN   and/CC   is/VBZ   approved/VBN   for/IN   use/NN   in/IN   people/NNS   seven/CD   years/NNS   of/IN   age/NN   and/CC   older/JJR   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc. And Portola Pharmaceuticals Announces Results Of EXPLORE Xa Phase II Study
+Monday, 15 Mar 2010 08:00am EDT
+Merck & Co., Inc. and Portola Pharmaceuticals announced the results of EXPLORE Xa, a Phase 2 exploratory, dose finding study of betrixaban, an investigational oral direct Factor Xa inhibitor.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('And', 'CC'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNPS'), ('Announces', 'NNP'), ('Results', 'NNP'), ('Of', 'NNP'), ('EXPLORE', 'NNP'), ('Xa', 'NNP'), ('Phase', 'NNP'), ('II', 'NNP'), ('Study', 'NNP'), ('Monday', 'NNP'), (',', ','), ('15', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('00am', 'CD'), ('EDT', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('and', 'CC'), ('Portola', 'NNP'), ('Pharmaceuticals', 'NNPS'), ('announced', 'VBD'), ('the', 'DT'), ('results', 'NNS'), ('of', 'IN'), ('EXPLORE', 'NNP'), ('Xa', 'NNP'), (',', ','), ('a', 'DT'), ('Phase', 'NNP'), ('2', 'CD'), ('exploratory', 'NN'), (',', ','), ('dose', 'NN'), ('finding', 'NN'), ('study', 'NN'), ('of', 'IN'), ('betrixaban', 'NN'), (',', ','), ('an', 'DT'), ('investigational', 'JJ'), ('oral', 'JJ'), ('direct', 'JJ'), ('Factor', 'NNP'), ('Xa', 'NNP'), ('inhibitor', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   And/CC   (ORGANIZATION     Portola/NNP     Pharmaceuticals/NNPS     Announces/NNP     Results/NNP     Of/NNP)   (ORGANIZATION EXPLORE/NNP Xa/NNP Phase/NNP)   II/NNP   Study/NNP   Monday/NNP   ,/,   15/CD   Mar/NNP   2010/CD   08/CD   :/:   00am/CD   (ORGANIZATION EDT/NNP Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   and/CC   (ORGANIZATION Portola/NNP Pharmaceuticals/NNPS)   announced/VBD   the/DT   results/NNS   of/IN   (ORGANIZATION EXPLORE/NNP Xa/NNP)   ,/,   a/DT   Phase/NNP   2/CD   exploratory/NN   ,/,   dose/NN   finding/NN   study/NN   of/IN   betrixaban/NN   ,/,   an/DT   investigational/JJ   oral/JJ   direct/JJ   Factor/NNP   Xa/NNP   inhibitor/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD the/DT results/NNS of/IN EXPLORE/NNP Xa/NNP)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Portola/NNP Pharmaceuticals/NNPS Announces/NNP Results/NNP)
+	(NOUN Of/NNP EXPLORE/NNP Xa/NNP Phase/NNP)
+	(NOUN II/NNP Study/NNP Monday/NNP)
+	(NOUN 15/CD Mar/NNP)
+	(NOUN 00am/CD EDT/NNP Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Portola/NNP Pharmaceuticals/NNPS)
+	(NOUN Phase/NNP)
+	(NOUN 2/CD exploratory/NN)
+	(NOUN dose/NN finding/NN study/NN)
+	(NOUN betrixaban/NN)
+	(NOUN   an/DT   investigational/JJ   oral/JJ   direct/JJ   Factor/NNP   Xa/NNP   inhibitor/NN)
+
+----------------------------------
+original sentence: 
+Results showed that a once daily dose of oral betrixaban, given to patients with non valvular atrial fibrillation or atrial flutter and at least one risk factor for stroke, reduced the incidence of major and clinically relevant non major CRNM bleeds compared to dose adjusted warfarin.
+
+POS tagged sentence: 
+[('Results', 'NNS'), ('showed', 'VBD'), ('that', 'IN'), ('a', 'DT'), ('once', 'RB'), ('daily', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('oral', 'JJ'), ('betrixaban', 'NN'), (',', ','), ('given', 'VBN'), ('to', 'TO'), ('patients', 'NNS'), ('with', 'IN'), ('non', 'NN'), ('valvular', 'NN'), ('atrial', 'NN'), ('fibrillation', 'NN'), ('or', 'CC'), ('atrial', 'JJ'), ('flutter', 'NN'), ('and', 'CC'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('risk', 'NN'), ('factor', 'NN'), ('for', 'IN'), ('stroke', 'NN'), (',', ','), ('reduced', 'VBD'), ('the', 'DT'), ('incidence', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('and', 'CC'), ('clinically', 'RB'), ('relevant', 'JJ'), ('non', 'NN'), ('major', 'JJ'), ('CRNM', 'NNP'), ('bleeds', 'NNS'), ('compared', 'VBN'), ('to', 'TO'), ('dose', 'VB'), ('adjusted', 'VBN'), ('warfarin', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Results/NNS   showed/VBD   that/IN   a/DT   once/RB   daily/JJ   dose/NN   of/IN   oral/JJ   betrixaban/NN   ,/,   given/VBN   to/TO   patients/NNS   with/IN   non/NN   valvular/NN   atrial/NN   fibrillation/NN   or/CC   atrial/JJ   flutter/NN   and/CC   at/IN   least/JJS   one/CD   risk/NN   factor/NN   for/IN   stroke/NN   ,/,   reduced/VBD   the/DT   incidence/NN   of/IN   major/JJ   and/CC   clinically/RB   relevant/JJ   non/NN   major/JJ   (ORGANIZATION CRNM/NNP)   bleeds/NNS   compared/VBN   to/TO   dose/VB   adjusted/VBN   warfarin/NN   ./.)
+----------------------------------
+original sentence: 
+In this multinational, dose finding study of 508 patients with non valvular atrial fibrillation or atrial flutter and at least one risk factor for stroke, a once daily dose of betrixaban 40 mg n=127 demonstrated significantly less major and CRNM bleeding than open label warfarin n=127, p=0.035 .
+
+POS tagged sentence: 
+[('In', 'IN'), ('this', 'DT'), ('multinational', 'JJ'), (',', ','), ('dose', 'JJ'), ('finding', 'NN'), ('study', 'NN'), ('of', 'IN'), ('508', 'CD'), ('patients', 'NNS'), ('with', 'IN'), ('non', 'NN'), ('valvular', 'NN'), ('atrial', 'NN'), ('fibrillation', 'NN'), ('or', 'CC'), ('atrial', 'JJ'), ('flutter', 'NN'), ('and', 'CC'), ('at', 'IN'), ('least', 'JJS'), ('one', 'CD'), ('risk', 'NN'), ('factor', 'NN'), ('for', 'IN'), ('stroke', 'NN'), (',', ','), ('a', 'DT'), ('once', 'RB'), ('daily', 'JJ'), ('dose', 'NN'), ('of', 'IN'), ('betrixaban', 'NN'), ('40', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('demonstrated', 'VBN'), ('significantly', 'RB'), ('less', 'JJR'), ('major', 'JJ'), ('and', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('than', 'IN'), ('open', 'JJ'), ('label', 'NN'), ('warfarin', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), (',', ','), ('p', 'NN'), ('=', ':'), ('0.035', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   this/DT   multinational/JJ   ,/,   dose/JJ   finding/NN   study/NN   of/IN   508/CD   patients/NNS   with/IN   non/NN   valvular/NN   atrial/NN   fibrillation/NN   or/CC   atrial/JJ   flutter/NN   and/CC   at/IN   least/JJS   one/CD   risk/NN   factor/NN   for/IN   stroke/NN   ,/,   a/DT   once/RB   daily/JJ   dose/NN   of/IN   betrixaban/NN   40/CD   mg/NN   n/NN   =/:   127/CD   demonstrated/VBN   significantly/RB   less/JJR   major/JJ   and/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   than/IN   open/JJ   label/NN   warfarin/NN   n/NN   =/:   127/CD   ,/,   p/NN   =/:   0.035/CD   ./.)
+----------------------------------
+original sentence: 
+The risk of major and CRNM bleeding for the 60 mg n=127 and 80 mg n=127 doses of betrixaban was similar to warfarin.
+
+POS tagged sentence: 
+[('The', 'DT'), ('risk', 'NN'), ('of', 'IN'), ('major', 'JJ'), ('and', 'CC'), ('CRNM', 'NNP'), ('bleeding', 'NN'), ('for', 'IN'), ('the', 'DT'), ('60', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('and', 'CC'), ('80', 'CD'), ('mg', 'NN'), ('n', 'NN'), ('=', ':'), ('127', 'CD'), ('doses', 'NNS'), ('of', 'IN'), ('betrixaban', 'NN'), ('was', 'VBD'), ('similar', 'JJ'), ('to', 'TO'), ('warfarin', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   risk/NN   of/IN   major/JJ   and/CC   (ORGANIZATION CRNM/NNP)   bleeding/NN   for/IN   the/DT   60/CD   mg/NN   n/NN   =/:   127/CD   and/CC   80/CD   mg/NN   n/NN   =/:   127/CD   doses/NNS   of/IN   betrixaban/NN   was/VBD   similar/JJ   to/TO   warfarin/VB   ./.)
+----------------------------------
+original sentence: 
+sanofi aventis And Merck & Co., Inc. To Create New Animal Health Business Joint Venture
+Tuesday, 9 Mar 2010 02:00am EST
+sanofi aventis and Merck & Co., Inc. announced that sanofi aventis has exercised its option to combine Merial with Intervet/Schering Plough, Merck`s Animal Health business.
+
+POS tagged sentence: 
+[('sanofi', 'NN'), ('aventis', 'NNS'), ('And', 'CC'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('To', 'TO'), ('Create', 'NNP'), ('New', 'NNP'), ('Animal', 'NNP'), ('Health', 'NNP'), ('Business', 'NNP'), ('Joint', 'NNP'), ('Venture', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('9', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('02', 'CD'), (':', ':'), ('00am', 'CD'), ('EST', 'JJS'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('and', 'CC'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('has', 'VBZ'), ('exercised', 'VBN'), ('its', 'PRP$'), ('option', 'NN'), ('to', 'TO'), ('combine', 'VB'), ('Merial', 'JJ'), ('with', 'IN'), ('Intervet/Schering', 'JJ'), ('Plough', 'NNP'), (',', ','), ('Merck', 'NNP'), ('`', '``'), ('s', 'VBZ'), ('Animal', 'NNP'), ('Health', 'NNP'), ('business', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   sanofi/NN   aventis/NNS   And/CC   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   To/TO   (ORGANIZATION     Create/NNP     New/NNP     Animal/NNP     Health/NNP     Business/NNP     Joint/NNP     Venture/NNP)   Tuesday/NNP   ,/,   9/CD   Mar/NNP   2010/CD   02/CD   :/:   00am/CD   EST/JJS   sanofi/NN   aventis/NNS   and/CC   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   sanofi/NN   aventis/NNS   has/VBZ   exercised/VBN   its/PRP$   option/NN   to/TO   combine/VB   (ORGANIZATION Merial/JJ)   with/IN   Intervet/Schering/JJ   Plough/NNP   ,/,   (PERSON Merck/NNP)   `/``   s/VBZ   (PERSON Animal/NNP Health/NNP)   business/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN sanofi/NN aventis/NNS)
+	(VERB has/VBZ exercised/VBN its/PRP$ option/NN)
+	(VERB combine/VB Merial/JJ with/IN Intervet/Schering/JJ Plough/NNP)
+	(VERB s/VBZ Animal/NNP Health/NNP business/NN)
+noun phrases to consider:
+	(NOUN sanofi/NN aventis/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Create/NNP New/NNP Animal/NNP Health/NNP)
+	(NOUN Business/NNP Joint/NNP Venture/NNP Tuesday/NNP)
+	(NOUN 9/CD Mar/NNP)
+	(NOUN 00am/CD EST/JJS sanofi/NN aventis/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Merck/NNP)
+
+----------------------------------
+original sentence: 
+The new joint venture will be equally owned by Merck and sanofi aventis.
+
+POS tagged sentence: 
+[('The', 'DT'), ('new', 'JJ'), ('joint', 'NN'), ('venture', 'NN'), ('will', 'MD'), ('be', 'VB'), ('equally', 'RB'), ('owned', 'VBN'), ('by', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('sanofi', 'NN'), ('aventis', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   new/JJ   joint/NN   venture/NN   will/MD   be/VB   equally/RB   owned/VBN   by/IN   (PERSON Merck/NNP)   and/CC   sanofi/NN   aventis/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB be/VB equally/RB owned/VBN by/IN Merck/NNP)
+noun phrases to consider:
+	(NOUN The/DT new/JJ joint/NN venture/NN)
+	(NOUN sanofi/NN aventis/NNS)
+
+----------------------------------
+original sentence: 
+The formation of this new animal health joint venture is subject to execution of final agreements, antitrust review in the United States, Europe and other countries and other customary closing conditions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('formation', 'NN'), ('of', 'IN'), ('this', 'DT'), ('new', 'JJ'), ('animal', 'NN'), ('health', 'NN'), ('joint', 'NN'), ('venture', 'NN'), ('is', 'VBZ'), ('subject', 'JJ'), ('to', 'TO'), ('execution', 'NN'), ('of', 'IN'), ('final', 'JJ'), ('agreements', 'NNS'), (',', ','), ('antitrust', 'JJ'), ('review', 'NN'), ('in', 'IN'), ('the', 'DT'), ('United', 'NNP'), ('States', 'NNPS'), (',', ','), ('Europe', 'NNP'), ('and', 'CC'), ('other', 'JJ'), ('countries', 'NNS'), ('and', 'CC'), ('other', 'JJ'), ('customary', 'JJ'), ('closing', 'NN'), ('conditions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   formation/NN   of/IN   this/DT   new/JJ   animal/NN   health/NN   joint/NN   venture/NN   is/VBZ   subject/JJ   to/TO   execution/NN   of/IN   final/JJ   agreements/NNS   ,/,   antitrust/JJ   review/NN   in/IN   the/DT   (GPE United/NNP States/NNPS)   ,/,   (GPE Europe/NNP)   and/CC   other/JJ   countries/NNS   and/CC   other/JJ   customary/JJ   closing/NN   conditions/NNS   ./.)
+----------------------------------
+original sentence: 
+The completion of the transaction is expected to occur in approximately the next 12 months.
+
+POS tagged sentence: 
+[('The', 'DT'), ('completion', 'NN'), ('of', 'IN'), ('the', 'DT'), ('transaction', 'NN'), ('is', 'VBZ'), ('expected', 'VBN'), ('to', 'TO'), ('occur', 'VB'), ('in', 'IN'), ('approximately', 'RB'), ('the', 'DT'), ('next', 'JJ'), ('12', 'CD'), ('months', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   completion/NN   of/IN   the/DT   transaction/NN   is/VBZ   expected/VBN   to/TO   occur/VB   in/IN   approximately/RB   the/DT   next/JJ   12/CD   months/NNS   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) &/CC Co./NNP ,/, (PERSON Inc/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Statement On Vioxx Judgment In Australia
+Thursday, 4 Mar 2010 08:28pm EST
+Merck & Co., Inc. announced that the Federal Court in Australia published its judgment in the Peterson case.
+
+POS tagged sentence: 
+[('Statement', 'NN'), ('On', 'IN'), ('Vioxx', 'NNP'), ('Judgment', 'NNP'), ('In', 'NNP'), ('Australia', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('4', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('28pm', 'CD'), ('EST', 'JJS'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('Federal', 'NNP'), ('Court', 'NNP'), ('in', 'IN'), ('Australia', 'NNP'), ('published', 'VBD'), ('its', 'PRP$'), ('judgment', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Peterson', 'NNP'), ('case', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Statement/NN   On/IN   (PERSON Vioxx/NNP Judgment/NNP)   In/NNP   (GPE Australia/NNP)   Thursday/NNP   ,/,   4/CD   Mar/NNP   2010/CD   08/CD   :/:   28pm/CD   EST/JJS   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   the/DT   (ORGANIZATION Federal/NNP Court/NNP)   in/IN   (GPE Australia/NNP)   published/VBD   its/PRP$   judgment/NN   in/IN   the/DT   (ORGANIZATION Peterson/NNP)   case/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   that/IN   the/DT   Federal/NNP   Court/NNP   in/IN   Australia/NNP)
+	(VERB   published/VBD   its/PRP$   judgment/NN   in/IN   the/DT   Peterson/NNP   case/NN)
+noun phrases to consider:
+	(NOUN Statement/NN)
+	(NOUN Vioxx/NNP Judgment/NNP In/NNP Australia/NNP)
+	(NOUN Thursday/NNP)
+	(NOUN 4/CD Mar/NNP)
+	(NOUN 28pm/CD EST/JJS Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+
+----------------------------------
+original sentence: 
+The Court found against MSD Australia on two claims under Australian statutory provisions.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Court', 'NNP'), ('found', 'VBD'), ('against', 'IN'), ('MSD', 'NNP'), ('Australia', 'NNP'), ('on', 'IN'), ('two', 'CD'), ('claims', 'NNS'), ('under', 'IN'), ('Australian', 'JJ'), ('statutory', 'NN'), ('provisions', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   Court/NNP   found/VBD   against/IN   (ORGANIZATION MSD/NNP Australia/NNP)   on/IN   two/CD   claims/NNS   under/IN   (GPE Australian/JJ)   statutory/NN   provisions/NNS   ./.)
+----------------------------------
+original sentence: 
+The Court dismissed all claims against Merck & Co., Inc. specifically finding that Merck was not negligent in its development, scientific study and sale of Vioxx.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Court', 'NNP'), ('dismissed', 'VBD'), ('all', 'DT'), ('claims', 'NNS'), ('against', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('specifically', 'RB'), ('finding', 'VBG'), ('that', 'IN'), ('Merck', 'NNP'), ('was', 'VBD'), ('not', 'RB'), ('negligent', 'JJ'), ('in', 'IN'), ('its', 'PRP$'), ('development', 'NN'), (',', ','), ('scientific', 'JJ'), ('study', 'NN'), ('and', 'CC'), ('sale', 'NN'), ('of', 'IN'), ('Vioxx', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   Court/NNP   dismissed/VBD   all/DT   claims/NNS   against/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   specifically/RB   finding/VBG   that/IN   (PERSON Merck/NNP)   was/VBD   not/RB   negligent/JJ   in/IN   its/PRP$   development/NN   ,/,   scientific/JJ   study/NN   and/CC   sale/NN   of/IN   (GPE Vioxx/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB dismissed/VBD all/DT claims/NNS against/IN Merck/NNP)
+
+tagged sentence:
+	 dismissed all claims against Merck	res:-1
+	(VERB finding/VBG that/IN Merck/NNP)
+	(VERB was/VBD not/RB negligent/JJ in/IN its/PRP$ development/NN)
+
+tagged sentence:
+	 was not negligent in its development	res:1
+noun phrases to consider:
+	(NOUN Court/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN scientific/JJ study/NN)
+	(NOUN sale/NN)
+	(NOUN Vioxx/NNP)
+
+----------------------------------
+original sentence: 
+Merck and MSD Australia disagree with the limited portions of the Court`s findings that were against MSD Australia and intend to appeal them.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('and', 'CC'), ('MSD', 'NNP'), ('Australia', 'NNP'), ('disagree', 'VBP'), ('with', 'IN'), ('the', 'DT'), ('limited', 'VBN'), ('portions', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('Court', 'NNP'), ('`', '``'), ('s', 'VBZ'), ('findings', 'NNS'), ('that', 'IN'), ('were', 'VBD'), ('against', 'IN'), ('MSD', 'NNP'), ('Australia', 'NNP'), ('and', 'CC'), ('intend', 'VB'), ('to', 'TO'), ('appeal', 'VB'), ('them', 'PRP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   and/CC   (ORGANIZATION MSD/NNP Australia/NNP)   disagree/VBP   with/IN   the/DT   limited/VBN   portions/NNS   of/IN   the/DT   Court/NNP   `/``   s/VBZ   findings/NNS   that/IN   were/VBD   against/IN   (ORGANIZATION MSD/NNP Australia/NNP)   and/CC   intend/VB   to/TO   appeal/VB   them/PRP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB disagree/VBP with/IN the/DT)
+	(VERB limited/VBN portions/NNS of/IN the/DT Court/NNP)
+	(VERB s/VBZ findings/NNS that/IN)
+	(VERB were/VBD against/IN MSD/NNP Australia/NNP)
+	(VERB intend/VB to/TO appeal/VB them/PRP)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN MSD/NNP Australia/NNP)
+
+----------------------------------
+original sentence: 
+The companies are in the process of reviewing the full judgment.
+
+POS tagged sentence: 
+[('The', 'DT'), ('companies', 'NNS'), ('are', 'VBP'), ('in', 'IN'), ('the', 'DT'), ('process', 'NN'), ('of', 'IN'), ('reviewing', 'VBG'), ('the', 'DT'), ('full', 'JJ'), ('judgment', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   companies/NNS   are/VBP   in/IN   the/DT   process/NN   of/IN   reviewing/VBG   the/DT   full/JJ   judgment/NN   ./.)
+----------------------------------
+original sentence: 
+The litigation in Australia remains at an early stage.
+
+POS tagged sentence: 
+[('The', 'DT'), ('litigation', 'NN'), ('in', 'IN'), ('Australia', 'NNP'), ('remains', 'VBZ'), ('at', 'IN'), ('an', 'DT'), ('early', 'JJ'), ('stage', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   litigation/NN   in/IN   (GPE Australia/NNP)   remains/VBZ   at/IN   an/DT   early/JJ   stage/NN   ./.)
+----------------------------------
+original sentence: 
+Merck and MSD Australia continue to believe that the evidence shows the companies acted responsibly with Vioxx, from the careful study in clinical trials involving about 10,000 patients before its approval by regulatory authorities around the world, through the careful safety monitoring while Vioxx was on the market, right up through the decision to voluntarily withdraw the medicine in September 2004.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('and', 'CC'), ('MSD', 'NNP'), ('Australia', 'NNP'), ('continue', 'NN'), ('to', 'TO'), ('believe', 'VB'), ('that', 'IN'), ('the', 'DT'), ('evidence', 'NN'), ('shows', 'VBZ'), ('the', 'DT'), ('companies', 'NNS'), ('acted', 'VBD'), ('responsibly', 'RB'), ('with', 'IN'), ('Vioxx', 'NNP'), (',', ','), ('from', 'IN'), ('the', 'DT'), ('careful', 'JJ'), ('study', 'NN'), ('in', 'IN'), ('clinical', 'JJ'), ('trials', 'NNS'), ('involving', 'VBG'), ('about', 'IN'), ('10,000', 'CD'), ('patients', 'NNS'), ('before', 'IN'), ('its', 'PRP$'), ('approval', 'NN'), ('by', 'IN'), ('regulatory', 'JJ'), ('authorities', 'NNS'), ('around', 'IN'), ('the', 'DT'), ('world', 'NN'), (',', ','), ('through', 'IN'), ('the', 'DT'), ('careful', 'JJ'), ('safety', 'NN'), ('monitoring', 'VBG'), ('while', 'IN'), ('Vioxx', 'NNP'), ('was', 'VBD'), ('on', 'IN'), ('the', 'DT'), ('market', 'NN'), (',', ','), ('right', 'RB'), ('up', 'IN'), ('through', 'IN'), ('the', 'DT'), ('decision', 'NN'), ('to', 'TO'), ('voluntarily', 'RB'), ('withdraw', 'VB'), ('the', 'DT'), ('medicine', 'NN'), ('in', 'IN'), ('September', 'NNP'), ('2004', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   and/CC   (ORGANIZATION MSD/NNP Australia/NNP)   continue/NN   to/TO   believe/VB   that/IN   the/DT   evidence/NN   shows/VBZ   the/DT   companies/NNS   acted/VBD   responsibly/RB   with/IN   (PERSON Vioxx/NNP)   ,/,   from/IN   the/DT   careful/JJ   study/NN   in/IN   clinical/JJ   trials/NNS   involving/VBG   about/IN   10,000/CD   patients/NNS   before/IN   its/PRP$   approval/NN   by/IN   regulatory/JJ   authorities/NNS   around/IN   the/DT   world/NN   ,/,   through/IN   the/DT   careful/JJ   safety/NN   monitoring/VBG   while/IN   (PERSON Vioxx/NNP)   was/VBD   on/IN   the/DT   market/NN   ,/,   right/RB   up/IN   through/IN   the/DT   decision/NN   to/TO   voluntarily/RB   withdraw/VB   the/DT   medicine/NN   in/IN   September/NNP   2004/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB believe/VB that/IN the/DT evidence/NN)
+	(VERB shows/VBZ the/DT companies/NNS)
+	(VERB acted/VBD responsibly/RB with/IN Vioxx/NNP)
+	(VERB   involving/VBG   about/IN   10,000/CD   patients/NNS   before/IN   its/PRP$   approval/NN   by/IN   regulatory/JJ   authorities/NNS   around/IN   the/DT   world/NN)
+	(VERB monitoring/VBG while/IN Vioxx/NNP)
+	(VERB was/VBD on/IN the/DT market/NN)
+	(VERB withdraw/VB the/DT medicine/NN in/IN September/NNP 2004/CD)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN MSD/NNP Australia/NNP continue/NN)
+	(NOUN the/DT careful/JJ study/NN)
+	(NOUN clinical/JJ trials/NNS)
+	(NOUN the/DT careful/JJ safety/NN)
+	(NOUN decision/NN)
+
+----------------------------------
+original sentence: 
+Merck & Co., Inc. Reports Results Of Phase III Study Of Investigational Oral Allergy Immunotherapy Tablet In Patients Ages 5 17 With Grass Pollen Allergy
+Tuesday, 2 Mar 2010 04:00pm EST
+Merck & Co., Inc. announced new data from a Phase III study in 345 children and adolescents ages 5 17 years , patients with grass pollen allergic rhinoconjunctivitis treated with Merck's investigational sublingual grass Phleum Pratense allergy immunotherapy tablet AIT showed a 26% greater improvement in total combined score, compared to patients receiving placebo p=0.001 .
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('Reports', 'NNP'), ('Results', 'NNP'), ('Of', 'NNP'), ('Phase', 'NNP'), ('III', 'NNP'), ('Study', 'NNP'), ('Of', 'NNP'), ('Investigational', 'NNP'), ('Oral', 'NNP'), ('Allergy', 'NNP'), ('Immunotherapy', 'NNP'), ('Tablet', 'NNP'), ('In', 'NNP'), ('Patients', 'NNP'), ('Ages', 'NNP'), ('5', 'CD'), ('17', 'CD'), ('With', 'NNP'), ('Grass', 'NNP'), ('Pollen', 'NNP'), ('Allergy', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('2', 'CD'), ('Mar', 'NNP'), ('2010', 'CD'), ('04', 'CD'), (':', ':'), ('00pm', 'CD'), ('EST', 'JJS'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('new', 'JJ'), ('data', 'NNS'), ('from', 'IN'), ('a', 'DT'), ('Phase', 'NNP'), ('III', 'NNP'), ('study', 'NN'), ('in', 'IN'), ('345', 'CD'), ('children', 'NNS'), ('and', 'CC'), ('adolescents', 'NNS'), ('ages', 'NNS'), ('5', 'CD'), ('17', 'CD'), ('years', 'NNS'), (',', ','), ('patients', 'NNS'), ('with', 'IN'), ('grass', 'NN'), ('pollen', 'NNS'), ('allergic', 'JJ'), ('rhinoconjunctivitis', 'NNS'), ('treated', 'VBN'), ('with', 'IN'), ('Merck', 'NNP'), ("'s", 'POS'), ('investigational', 'JJ'), ('sublingual', 'JJ'), ('grass', 'NN'), ('Phleum', 'NNP'), ('Pratense', 'NNP'), ('allergy', 'NN'), ('immunotherapy', 'NN'), ('tablet', 'NN'), ('AIT', 'NN'), ('showed', 'VBD'), ('a', 'DT'), ('26', 'CD'), ('%', 'NN'), ('greater', 'JJR'), ('improvement', 'NN'), ('in', 'IN'), ('total', 'JJ'), ('combined', 'VBN'), ('score', 'NN'), (',', ','), ('compared', 'VBN'), ('to', 'TO'), ('patients', 'NNS'), ('receiving', 'VBG'), ('placebo', 'NN'), ('p', 'NN'), ('=', ':'), ('0.001', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   Reports/NNP   Results/NNP   Of/NNP   Phase/NNP   III/NNP   Study/NNP   Of/NNP   Investigational/NNP   Oral/NNP   Allergy/NNP   Immunotherapy/NNP   Tablet/NNP   In/NNP   Patients/NNP   Ages/NNP   5/CD   17/CD   With/NNP   (PERSON Grass/NNP Pollen/NNP Allergy/NNP)   Tuesday/NNP   ,/,   2/CD   Mar/NNP   2010/CD   04/CD   :/:   00pm/CD   EST/JJS   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   new/JJ   data/NNS   from/IN   a/DT   Phase/NNP   III/NNP   study/NN   in/IN   345/CD   children/NNS   and/CC   adolescents/NNS   ages/NNS   5/CD   17/CD   years/NNS   ,/,   patients/NNS   with/IN   grass/NN   pollen/NNS   allergic/JJ   rhinoconjunctivitis/NNS   treated/VBN   with/IN   (PERSON Merck/NNP)   's/POS   investigational/JJ   sublingual/JJ   grass/NN   (PERSON Phleum/NNP Pratense/NNP)   allergy/NN   immunotherapy/NN   tablet/NN   (ORGANIZATION AIT/NN)   showed/VBD   a/DT   26/CD   %/NN   greater/JJR   improvement/NN   in/IN   total/JJ   combined/VBN   score/NN   ,/,   compared/VBN   to/TO   patients/NNS   receiving/VBG   placebo/NN   p/NN   =/:   0.001/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   new/JJ   data/NNS   from/IN   a/DT   Phase/NNP   III/NNP   study/NN   in/IN   345/CD   children/NNS)
+	(VERB treated/VBN with/IN Merck/NNP)
+	(VERB   showed/VBD   a/DT   26/CD   %/NN   greater/JJR   improvement/NN   in/IN   total/JJ)
+	(VERB combined/VBN score/NN)
+	(VERB compared/VBN to/TO patients/NNS)
+	(VERB receiving/VBG placebo/NN p/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP Reports/NNP Results/NNP Of/NNP)
+	(NOUN Phase/NNP III/NNP Study/NNP Of/NNP)
+	(NOUN Investigational/NNP Oral/NNP Allergy/NNP Immunotherapy/NNP)
+	(NOUN Tablet/NNP In/NNP Patients/NNP Ages/NNP)
+	(NOUN 17/CD With/NNP Grass/NNP Pollen/NNP Allergy/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN 2/CD Mar/NNP)
+	(NOUN 00pm/CD EST/JJS Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN adolescents/NNS ages/NNS)
+	(NOUN 17/CD years/NNS)
+	(NOUN patients/NNS)
+	(NOUN grass/NN pollen/NNS allergic/JJ rhinoconjunctivitis/NNS)
+	(NOUN   investigational/JJ   sublingual/JJ   grass/NN   Phleum/NNP   Pratense/NNP   allergy/NN)
+	(NOUN immunotherapy/NN tablet/NN AIT/NN)
+
+----------------------------------
+original sentence: 
+Allergic rhinoconjunctivitis, or runny nose and itchy, watery eyes due to allergies, is a common condition in children and adolescents.
+
+POS tagged sentence: 
+[('Allergic', 'NNP'), ('rhinoconjunctivitis', 'VBZ'), (',', ','), ('or', 'CC'), ('runny', 'JJ'), ('nose', 'NN'), ('and', 'CC'), ('itchy', 'JJ'), (',', ','), ('watery', 'NN'), ('eyes', 'NNS'), ('due', 'JJ'), ('to', 'TO'), ('allergies', 'NNS'), (',', ','), ('is', 'VBZ'), ('a', 'DT'), ('common', 'JJ'), ('condition', 'NN'), ('in', 'IN'), ('children', 'NNS'), ('and', 'CC'), ('adolescents', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Allergic/NNP)   rhinoconjunctivitis/VBZ   ,/,   or/CC   runny/JJ   nose/NN   and/CC   itchy/JJ   ,/,   watery/NN   eyes/NNS   due/JJ   to/TO   allergies/NNS   ,/,   is/VBZ   a/DT   common/JJ   condition/NN   in/IN   children/NNS   and/CC   adolescents/NNS   ./.)
+----------------------------------
+original sentence: 
+These data were presented at the American Academy of Allergy, Asthma & Immunology Annual Meeting in New Orleans.
+
+POS tagged sentence: 
+[('These', 'DT'), ('data', 'NNS'), ('were', 'VBD'), ('presented', 'VBN'), ('at', 'IN'), ('the', 'DT'), ('American', 'NNP'), ('Academy', 'NNP'), ('of', 'IN'), ('Allergy', 'NNP'), (',', ','), ('Asthma', 'NNP'), ('&', 'CC'), ('Immunology', 'NNP'), ('Annual', 'NNP'), ('Meeting', 'NNP'), ('in', 'IN'), ('New', 'NNP'), ('Orleans', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   These/DT   data/NNS   were/VBD   presented/VBN   at/IN   the/DT   (ORGANIZATION American/NNP Academy/NNP)   of/IN   (GPE Allergy/NNP)   ,/,   (PERSON Asthma/NNP)   &/CC   (ORGANIZATION Immunology/NNP Annual/NNP)   Meeting/NNP   in/IN   (GSP New/NNP Orleans/NNP)   ./.)
+----------------------------------
+original sentence: 
+The randomized, placebo controlled, Phase III study investigated the efficacy and safety of AIT versus placebo in treatment of allergic rhinoconjunctivitis caused by pollen from Timothy grass, a type of grass common in North America.
+
+POS tagged sentence: 
+[('The', 'DT'), ('randomized', 'VBN'), (',', ','), ('placebo', 'RB'), ('controlled', 'VBN'), (',', ','), ('Phase', 'NNP'), ('III', 'NNP'), ('study', 'NN'), ('investigated', 'VBD'), ('the', 'DT'), ('efficacy', 'NN'), ('and', 'CC'), ('safety', 'NN'), ('of', 'IN'), ('AIT', 'NNP'), ('versus', 'CC'), ('placebo', 'NN'), ('in', 'IN'), ('treatment', 'NN'), ('of', 'IN'), ('allergic', 'JJ'), ('rhinoconjunctivitis', 'NNS'), ('caused', 'VBN'), ('by', 'IN'), ('pollen', 'NN'), ('from', 'IN'), ('Timothy', 'NNP'), ('grass', 'NN'), (',', ','), ('a', 'DT'), ('type', 'NN'), ('of', 'IN'), ('grass', 'NN'), ('common', 'JJ'), ('in', 'IN'), ('North', 'NNP'), ('America', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   randomized/VBN   ,/,   placebo/RB   controlled/VBN   ,/,   (PERSON Phase/NNP III/NNP)   study/NN   investigated/VBD   the/DT   efficacy/NN   and/CC   safety/NN   of/IN   (ORGANIZATION AIT/NNP)   versus/CC   placebo/NN   in/IN   treatment/NN   of/IN   allergic/JJ   rhinoconjunctivitis/NNS   caused/VBN   by/IN   pollen/NN   from/IN   (GPE Timothy/NNP)   grass/NN   ,/,   a/DT   type/NN   of/IN   grass/NN   common/JJ   in/IN   (GPE North/NNP America/NNP)   ./.)
+----------------------------------
+original sentence: 
+A total of 345 patients, ages 5 17 years, were randomized to daily treatment with oral grass AIT or placebo at least eight weeks prior to and throughout the 2009 grass pollen season.
+
+POS tagged sentence: 
+[('A', 'DT'), ('total', 'NN'), ('of', 'IN'), ('345', 'CD'), ('patients', 'NNS'), (',', ','), ('ages', 'NNS'), ('5', 'CD'), ('17', 'CD'), ('years', 'NNS'), (',', ','), ('were', 'VBD'), ('randomized', 'VBN'), ('to', 'TO'), ('daily', 'JJ'), ('treatment', 'NN'), ('with', 'IN'), ('oral', 'JJ'), ('grass', 'NNS'), ('AIT', 'NNP'), ('or', 'CC'), ('placebo', 'VB'), ('at', 'IN'), ('least', 'JJS'), ('eight', 'CD'), ('weeks', 'NNS'), ('prior', 'RB'), ('to', 'TO'), ('and', 'CC'), ('throughout', 'IN'), ('the', 'DT'), ('2009', 'CD'), ('grass', 'NN'), ('pollen', 'NN'), ('season', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   A/DT   total/NN   of/IN   345/CD   patients/NNS   ,/,   ages/NNS   5/CD   17/CD   years/NNS   ,/,   were/VBD   randomized/VBN   to/TO   daily/JJ   treatment/NN   with/IN   oral/JJ   grass/NNS   (ORGANIZATION AIT/NNP)   or/CC   placebo/VB   at/IN   least/JJS   eight/CD   weeks/NNS   prior/RB   to/TO   and/CC   throughout/IN   the/DT   2009/CD   grass/NN   pollen/NN   season/NN   ./.)
+----------------------------------
+original sentence: 
+The primary efficacy endpoint was the total combined score, comprised of total daily symptom score and total daily medication score.
+
+POS tagged sentence: 
+[('The', 'DT'), ('primary', 'JJ'), ('efficacy', 'NN'), ('endpoint', 'NN'), ('was', 'VBD'), ('the', 'DT'), ('total', 'JJ'), ('combined', 'VBN'), ('score', 'NN'), (',', ','), ('comprised', 'VBD'), ('of', 'IN'), ('total', 'JJ'), ('daily', 'JJ'), ('symptom', 'NN'), ('score', 'NN'), ('and', 'CC'), ('total', 'JJ'), ('daily', 'JJ'), ('medication', 'NN'), ('score', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   primary/JJ   efficacy/NN   endpoint/NN   was/VBD   the/DT   total/JJ   combined/VBN   score/NN   ,/,   comprised/VBD   of/IN   total/JJ   daily/JJ   symptom/NN   score/NN   and/CC   total/JJ   daily/JJ   medication/NN   score/NN   ./.)
+----------------------------------
+original sentence: 
+Adverse events experienced by patients receiving AIT were generally local, application site reactions and included oral pruritus, throat irritation, stomatitis, ear pruritus, mouth edema, oropharyngeal pain, pharyngeal erythema, eye pruritus and lip swelling.
+
+POS tagged sentence: 
+[('Adverse', 'NNP'), ('events', 'NNS'), ('experienced', 'VBD'), ('by', 'IN'), ('patients', 'NNS'), ('receiving', 'VBG'), ('AIT', 'NN'), ('were', 'VBD'), ('generally', 'RB'), ('local', 'JJ'), (',', ','), ('application', 'NN'), ('site', 'NN'), ('reactions', 'NNS'), ('and', 'CC'), ('included', 'VBD'), ('oral', 'JJ'), ('pruritus', 'NN'), (',', ','), ('throat', 'JJ'), ('irritation', 'NN'), (',', ','), ('stomatitis', 'VBZ'), (',', ','), ('ear', 'JJ'), ('pruritus', 'NN'), (',', ','), ('mouth', 'NN'), ('edema', 'NN'), (',', ','), ('oropharyngeal', 'NN'), ('pain', 'NN'), (',', ','), ('pharyngeal', 'NN'), ('erythema', 'NN'), (',', ','), ('eye', 'NN'), ('pruritus', 'NN'), ('and', 'CC'), ('lip', 'NN'), ('swelling', 'VBG'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Adverse/NNP)   events/NNS   experienced/VBD   by/IN   patients/NNS   receiving/VBG   (ORGANIZATION AIT/NN)   were/VBD   generally/RB   local/JJ   ,/,   application/NN   site/NN   reactions/NNS   and/CC   included/VBD   oral/JJ   pruritus/NN   ,/,   throat/JJ   irritation/NN   ,/,   stomatitis/VBZ   ,/,   ear/JJ   pruritus/NN   ,/,   mouth/NN   edema/NN   ,/,   oropharyngeal/NN   pain/NN   ,/,   pharyngeal/NN   erythema/NN   ,/,   eye/NN   pruritus/NN   and/CC   lip/NN   swelling/VBG   ./.)
+----------------------------------
+original sentence: 
+There were no reports of anaphylactic shock in the study.
+
+POS tagged sentence: 
+[('There', 'EX'), ('were', 'VBD'), ('no', 'DT'), ('reports', 'NNS'), ('of', 'IN'), ('anaphylactic', 'JJ'), ('shock', 'NN'), ('in', 'IN'), ('the', 'DT'), ('study', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   There/EX   were/VBD   no/DT   reports/NNS   of/IN   anaphylactic/JJ   shock/NN   in/IN   the/DT   study/NN   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) &/CC Co./NNP ,/, (PERSON Inc/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Announces Q2 2010 Dividends
+Tuesday, 23 Feb 2010 01:50pm EST
+Merck & Co., Inc. announced that it has declared a quarterly dividend of $0.38 per share on the Company's common stock for the second quarter of 2010.
+
+POS tagged sentence: 
+[('Announces', 'NNS'), ('Q2', 'VBP'), ('2010', 'CD'), ('Dividends', 'NNS'), ('Tuesday', 'NNP'), (',', ','), ('23', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('01', 'CD'), (':', ':'), ('50pm', 'CD'), ('EST', 'JJS'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('has', 'VBZ'), ('declared', 'VBN'), ('a', 'DT'), ('quarterly', 'JJ'), ('dividend', 'NN'), ('of', 'IN'), ('$', '$'), ('0.38', 'CD'), ('per', 'IN'), ('share', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('common', 'JJ'), ('stock', 'NN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Announces/NNS   Q2/VBP   2010/CD   Dividends/NNS   Tuesday/NNP   ,/,   23/CD   Feb/NNP   2010/CD   01/CD   :/:   50pm/CD   EST/JJS   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   it/PRP   has/VBZ   declared/VBN   a/DT   quarterly/JJ   dividend/NN   of/IN   $/$   0.38/CD   per/IN   share/NN   on/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   common/JJ   stock/NN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB Q2/VBP 2010/CD Dividends/NNS Tuesday/NNP)
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB has/VBZ declared/VBN a/DT quarterly/JJ dividend/NN of/IN)
+noun phrases to consider:
+	(NOUN Announces/NNS)
+	(NOUN 23/CD Feb/NNP)
+	(NOUN 50pm/CD EST/JJS Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN share/NN)
+	(NOUN Company/NNP)
+	(NOUN common/JJ stock/NN)
+	(NOUN the/DT second/JJ quarter/NN)
+
+----------------------------------
+original sentence: 
+Payment will be made on April 7, 2010 to common stockholders of record at the close of business on March 15, 2010.
+
+POS tagged sentence: 
+[('Payment', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('on', 'IN'), ('April', 'NNP'), ('7', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('common', 'JJ'), ('stockholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('at', 'IN'), ('the', 'DT'), ('close', 'NN'), ('of', 'IN'), ('business', 'NN'), ('on', 'IN'), ('March', 'NNP'), ('15', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Payment/NNP)   will/MD   be/VB   made/VBN   on/IN   April/NNP   7/CD   ,/,   2010/CD   to/TO   common/JJ   stockholders/NNS   of/IN   record/NN   at/IN   the/DT   close/NN   of/IN   business/NN   on/IN   March/NNP   15/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+The Board also declared a quarterly dividend of $3.75 per share on the Company's mandatory convertible preferred stock for the second quarter of 2010.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Board', 'NNP'), ('also', 'RB'), ('declared', 'VBD'), ('a', 'DT'), ('quarterly', 'JJ'), ('dividend', 'NN'), ('of', 'IN'), ('$', '$'), ('3.75', 'CD'), ('per', 'IN'), ('share', 'NN'), ('on', 'IN'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('mandatory', 'NN'), ('convertible', 'JJ'), ('preferred', 'VBN'), ('stock', 'NN'), ('for', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('quarter', 'NN'), ('of', 'IN'), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Board/NNP)   also/RB   declared/VBD   a/DT   quarterly/JJ   dividend/NN   of/IN   $/$   3.75/CD   per/IN   share/NN   on/IN   the/DT   (ORGANIZATION Company/NNP)   's/POS   mandatory/NN   convertible/JJ   preferred/VBN   stock/NN   for/IN   the/DT   second/JJ   quarter/NN   of/IN   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Payment will be made on May 17, 2010 to preferred stockholders of record at the close of business on May 3, 2010.
+
+POS tagged sentence: 
+[('Payment', 'NNP'), ('will', 'MD'), ('be', 'VB'), ('made', 'VBN'), ('on', 'IN'), ('May', 'NNP'), ('17', 'CD'), (',', ','), ('2010', 'CD'), ('to', 'TO'), ('preferred', 'VBN'), ('stockholders', 'NNS'), ('of', 'IN'), ('record', 'NN'), ('at', 'IN'), ('the', 'DT'), ('close', 'NN'), ('of', 'IN'), ('business', 'NN'), ('on', 'IN'), ('May', 'NNP'), ('3', 'CD'), (',', ','), ('2010', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Payment/NNP)   will/MD   be/VB   made/VBN   on/IN   May/NNP   17/CD   ,/,   2010/CD   to/TO   preferred/VBN   stockholders/NNS   of/IN   record/NN   at/IN   the/DT   close/NN   of/IN   business/NN   on/IN   May/NNP   3/CD   ,/,   2010/CD   ./.)
+----------------------------------
+original sentence: 
+Eli Lilly and Company, Merck & Co., Inc. And Pfizer Establish Asian Cancer Research Group, Inc.
+Tuesday, 23 Feb 2010 02:00am EST
+Eli Lilly and Company, Merck & Co., Inc. and Pfizer announced that they have formed the Asian Cancer Research Group, Inc., ACRG , an independent, not for profit company established to accelerate research and ultimately improve treatment for patients affected with the most commonly diagnosed cancers in Asia.
+
+POS tagged sentence: 
+[('Eli', 'NNP'), ('Lilly', 'NNP'), ('and', 'CC'), ('Company', 'NNP'), (',', ','), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('And', 'CC'), ('Pfizer', 'NNP'), ('Establish', 'NNP'), ('Asian', 'NNP'), ('Cancer', 'NNP'), ('Research', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.'), ('Tuesday', 'NNP'), (',', ','), ('23', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('02', 'CD'), (':', ':'), ('00am', 'CD'), ('EST', 'JJS'), ('Eli', 'NNP'), ('Lilly', 'NNP'), ('and', 'CC'), ('Company', 'NNP'), (',', ','), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('and', 'CC'), ('Pfizer', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('they', 'PRP'), ('have', 'VBP'), ('formed', 'VBN'), ('the', 'DT'), ('Asian', 'JJ'), ('Cancer', 'NNP'), ('Research', 'NNP'), ('Group', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('ACRG', 'NNP'), (',', ','), ('an', 'DT'), ('independent', 'JJ'), (',', ','), ('not', 'RB'), ('for', 'IN'), ('profit', 'NN'), ('company', 'NN'), ('established', 'VBD'), ('to', 'TO'), ('accelerate', 'VB'), ('research', 'NN'), ('and', 'CC'), ('ultimately', 'RB'), ('improve', 'VB'), ('treatment', 'NN'), ('for', 'IN'), ('patients', 'NNS'), ('affected', 'VBN'), ('with', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('commonly', 'RB'), ('diagnosed', 'VBN'), ('cancers', 'NNS'), ('in', 'IN'), ('Asia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Eli/NNP)   (ORGANIZATION Lilly/NNP)   and/CC   (ORGANIZATION Company/NNP)   ,/,   (PERSON Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   And/CC   (PERSON     Pfizer/NNP     Establish/NNP     Asian/NNP     Cancer/NNP     Research/NNP     Group/NNP)   ,/,   (PERSON Inc/NNP)   ./.   Tuesday/NNP   ,/,   23/CD   Feb/NNP   2010/CD   02/CD   :/:   00am/CD   EST/JJS   (PERSON Eli/NNP Lilly/NNP)   and/CC   (ORGANIZATION Company/NNP)   ,/,   (PERSON Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   and/CC   (PERSON Pfizer/NNP)   announced/VBD   that/IN   they/PRP   have/VBP   formed/VBN   the/DT   (GPE Asian/JJ)   (ORGANIZATION Cancer/NNP Research/NNP Group/NNP)   ,/,   Inc./NNP   ,/,   (ORGANIZATION ACRG/NNP)   ,/,   an/DT   independent/JJ   ,/,   not/RB   for/IN   profit/NN   company/NN   established/VBD   to/TO   accelerate/VB   research/NN   and/CC   ultimately/RB   improve/VB   treatment/NN   for/IN   patients/NNS   affected/VBN   with/IN   the/DT   most/RBS   commonly/RB   diagnosed/VBN   cancers/NNS   in/IN   (GPE Asia/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN they/PRP)
+	(VERB   have/VBP   formed/VBN   the/DT   Asian/JJ   Cancer/NNP   Research/NNP   Group/NNP)
+	(VERB established/VBD to/TO accelerate/VB research/NN)
+	(VERB improve/VB treatment/NN for/IN patients/NNS)
+	(VERB affected/VBN with/IN the/DT)
+	(VERB diagnosed/VBN cancers/NNS in/IN Asia/NNP)
+noun phrases to consider:
+	(NOUN Eli/NNP Lilly/NNP)
+	(NOUN Company/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Pfizer/NNP Establish/NNP Asian/NNP Cancer/NNP)
+	(NOUN Research/NNP Group/NNP)
+	(NOUN Inc/NNP)
+	(NOUN Tuesday/NNP)
+	(NOUN 23/CD Feb/NNP)
+	(NOUN 00am/CD EST/JJS Eli/NNP Lilly/NNP)
+	(NOUN Company/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Pfizer/NNP)
+	(NOUN Inc./NNP)
+	(NOUN ACRG/NNP)
+	(NOUN an/DT independent/JJ)
+	(NOUN profit/NN company/NN)
+
+----------------------------------
+original sentence: 
+Initially, the ACRG will focus on lung and gastric cancers, two of the most common forms of cancer in Asia.
+
+POS tagged sentence: 
+[('Initially', 'RB'), (',', ','), ('the', 'DT'), ('ACRG', 'NNP'), ('will', 'MD'), ('focus', 'VB'), ('on', 'IN'), ('lung', 'JJ'), ('and', 'CC'), ('gastric', 'JJ'), ('cancers', 'NNS'), (',', ','), ('two', 'CD'), ('of', 'IN'), ('the', 'DT'), ('most', 'RBS'), ('common', 'JJ'), ('forms', 'NNS'), ('of', 'IN'), ('cancer', 'NN'), ('in', 'IN'), ('Asia', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Initially/RB   ,/,   the/DT   (ORGANIZATION ACRG/NNP)   will/MD   focus/VB   on/IN   lung/JJ   and/CC   gastric/JJ   cancers/NNS   ,/,   two/CD   of/IN   the/DT   most/RBS   common/JJ   forms/NNS   of/IN   cancer/NN   in/IN   (GPE Asia/NNP)   ./.)
+----------------------------------
+original sentence: 
+As many as 40% of patients with lung cancer in Asia demonstrate a mutation that is relatively rare in Western patients EGFR mutation .1 This mutation has resulted in differences in response to some types of agents, suggesting that a different research approach is needed for developing treatments for certain patient populations.
+
+POS tagged sentence: 
+[('As', 'IN'), ('many', 'JJ'), ('as', 'IN'), ('40', 'CD'), ('%', 'NN'), ('of', 'IN'), ('patients', 'NNS'), ('with', 'IN'), ('lung', 'JJ'), ('cancer', 'NN'), ('in', 'IN'), ('Asia', 'NNP'), ('demonstrate', 'NN'), ('a', 'DT'), ('mutation', 'NN'), ('that', 'WDT'), ('is', 'VBZ'), ('relatively', 'RB'), ('rare', 'JJ'), ('in', 'IN'), ('Western', 'JJ'), ('patients', 'NNS'), ('EGFR', 'NNP'), ('mutation', 'NN'), ('.1', 'CD'), ('This', 'DT'), ('mutation', 'NN'), ('has', 'VBZ'), ('resulted', 'VBN'), ('in', 'IN'), ('differences', 'NNS'), ('in', 'IN'), ('response', 'NN'), ('to', 'TO'), ('some', 'DT'), ('types', 'NNS'), ('of', 'IN'), ('agents', 'NNS'), (',', ','), ('suggesting', 'VBG'), ('that', 'IN'), ('a', 'DT'), ('different', 'JJ'), ('research', 'NN'), ('approach', 'NN'), ('is', 'VBZ'), ('needed', 'VBN'), ('for', 'IN'), ('developing', 'VBG'), ('treatments', 'NNS'), ('for', 'IN'), ('certain', 'JJ'), ('patient', 'NN'), ('populations', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   many/JJ   as/IN   40/CD   %/NN   of/IN   patients/NNS   with/IN   lung/JJ   cancer/NN   in/IN   (GPE Asia/NNP)   demonstrate/NN   a/DT   mutation/NN   that/WDT   is/VBZ   relatively/RB   rare/JJ   in/IN   (GPE Western/JJ)   patients/NNS   (ORGANIZATION EGFR/NNP)   mutation/NN   .1/CD   This/DT   mutation/NN   has/VBZ   resulted/VBN   in/IN   differences/NNS   in/IN   response/NN   to/TO   some/DT   types/NNS   of/IN   agents/NNS   ,/,   suggesting/VBG   that/IN   a/DT   different/JJ   research/NN   approach/NN   is/VBZ   needed/VBN   for/IN   developing/VBG   treatments/NNS   for/IN   certain/JJ   patient/NN   populations/NNS   ./.)
+----------------------------------
+original sentence: 
+Eli Lilly and Company has assumed responsibility for ultimately providing the data to the research public through an open source concept managed by Eli Lilly and Company's Singapore research site.
+
+POS tagged sentence: 
+[('Eli', 'NNP'), ('Lilly', 'NNP'), ('and', 'CC'), ('Company', 'NNP'), ('has', 'VBZ'), ('assumed', 'VBN'), ('responsibility', 'NN'), ('for', 'IN'), ('ultimately', 'RB'), ('providing', 'VBG'), ('the', 'DT'), ('data', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('research', 'NN'), ('public', 'NN'), ('through', 'IN'), ('an', 'DT'), ('open', 'JJ'), ('source', 'NN'), ('concept', 'NN'), ('managed', 'VBD'), ('by', 'IN'), ('Eli', 'NNP'), ('Lilly', 'NNP'), ('and', 'CC'), ('Company', 'NNP'), ("'s", 'POS'), ('Singapore', 'NNP'), ('research', 'NN'), ('site', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Eli/NNP)   (ORGANIZATION Lilly/NNP)   and/CC   (ORGANIZATION Company/NNP)   has/VBZ   assumed/VBN   responsibility/NN   for/IN   ultimately/RB   providing/VBG   the/DT   data/NNS   to/TO   the/DT   research/NN   public/NN   through/IN   an/DT   open/JJ   source/NN   concept/NN   managed/VBD   by/IN   (PERSON Eli/NNP Lilly/NNP)   and/CC   (ORGANIZATION Company/NNP)   's/POS   (ORGANIZATION Singapore/NNP)   research/NN   site/VB   ./.)
+----------------------------------
+original sentence: 
+Moreover, Lilly, Merck and Pfizer will each provide technical and intellectual expertise.
+
+POS tagged sentence: 
+[('Moreover', 'RB'), (',', ','), ('Lilly', 'NNP'), (',', ','), ('Merck', 'NNP'), ('and', 'CC'), ('Pfizer', 'NNP'), ('will', 'MD'), ('each', 'VB'), ('provide', 'VB'), ('technical', 'JJ'), ('and', 'CC'), ('intellectual', 'JJ'), ('expertise', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Moreover/RB   ,/,   (PERSON Lilly/NNP)   ,/,   (PERSON Merck/NNP)   and/CC   (PERSON Pfizer/NNP)   will/MD   each/VB   provide/VB   technical/JJ   and/CC   intellectual/JJ   expertise/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB each/VB provide/VB technical/JJ)
+noun phrases to consider:
+	(NOUN Lilly/NNP)
+	(NOUN Merck/NNP)
+	(NOUN Pfizer/NNP)
+	(NOUN intellectual/JJ expertise/NN)
+
+----------------------------------
+original sentence: 
+Roche Holding Ltd.'s Roche Molecular Systems, Inc. Collaborates With Merck & Co., Inc.'s Merck Sharp & Dohme Corp. On Developmental Test For Cancer Related Gene Mutation
+Wednesday, 17 Feb 2010 12:00pm EST
+Roche Holding Ltd.'s Roche Molecular Systems, Inc. announced a research collaboration with Merck Sharp & Dohme Corp., a subsidiary of Merck & Co., Inc., providing Merck access to Roche's developmental microarray based AmpliChip p53 Test, which is designed to detect mutations in the tumor suppressor gene p53.
+
+POS tagged sentence: 
+[('Roche', 'NNP'), ('Holding', 'NNP'), ('Ltd.', 'NNP'), ("'s", 'POS'), ('Roche', 'NNP'), ('Molecular', 'NNP'), ('Systems', 'NNPS'), (',', ','), ('Inc.', 'NNP'), ('Collaborates', 'NNP'), ('With', 'NNP'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ("'s", 'POS'), ('Merck', 'NNP'), ('Sharp', 'NNP'), ('&', 'CC'), ('Dohme', 'NNP'), ('Corp.', 'NNP'), ('On', 'NNP'), ('Developmental', 'NNP'), ('Test', 'NNP'), ('For', 'NNP'), ('Cancer', 'NNP'), ('Related', 'NNP'), ('Gene', 'NNP'), ('Mutation', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('17', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('00pm', 'CD'), ('EST', 'JJS'), ('Roche', 'NNP'), ('Holding', 'NNP'), ('Ltd.', 'NNP'), ("'s", 'POS'), ('Roche', 'NNP'), ('Molecular', 'NNP'), ('Systems', 'NNPS'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('a', 'DT'), ('research', 'NN'), ('collaboration', 'NN'), ('with', 'IN'), ('Merck', 'NNP'), ('Sharp', 'NNP'), ('&', 'CC'), ('Dohme', 'NNP'), ('Corp.', 'NNP'), (',', ','), ('a', 'DT'), ('subsidiary', 'NN'), ('of', 'IN'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), (',', ','), ('providing', 'VBG'), ('Merck', 'NNP'), ('access', 'NN'), ('to', 'TO'), ('Roche', 'NNP'), ("'s", 'POS'), ('developmental', 'JJ'), ('microarray', 'NN'), ('based', 'VBN'), ('AmpliChip', 'NNP'), ('p53', 'NNP'), ('Test', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('detect', 'VB'), ('mutations', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('tumor', 'NN'), ('suppressor', 'NN'), ('gene', 'NN'), ('p53', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Roche/NNP)   Holding/NNP   Ltd./NNP   's/POS   (PERSON Roche/NNP Molecular/NNP Systems/NNPS)   ,/,   Inc./NNP   Collaborates/NNP   With/NNP   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   's/POS   (ORGANIZATION Merck/NNP Sharp/NNP)   &/CC   (PERSON Dohme/NNP)   Corp./NNP   On/NNP   Developmental/NNP   Test/NNP   For/NNP   Cancer/NNP   Related/NNP   Gene/NNP   Mutation/NNP   Wednesday/NNP   ,/,   17/CD   Feb/NNP   2010/CD   12/CD   :/:   00pm/CD   EST/JJS   (PERSON Roche/NNP Holding/NNP)   Ltd./NNP   's/POS   (PERSON Roche/NNP Molecular/NNP Systems/NNPS)   ,/,   (PERSON Inc./NNP)   announced/VBD   a/DT   research/NN   collaboration/NN   with/IN   (PERSON Merck/NNP Sharp/NNP)   &/CC   (PERSON Dohme/NNP Corp./NNP)   ,/,   a/DT   subsidiary/NN   of/IN   (ORGANIZATION Merck/NNP)   &/CC   Co./NNP   ,/,   Inc./NNP   ,/,   providing/VBG   (PERSON Merck/NNP)   access/NN   to/TO   (PERSON Roche/NNP)   's/POS   developmental/JJ   microarray/NN   based/VBN   (ORGANIZATION AmpliChip/NNP)   p53/NNP   Test/NNP   ,/,   which/WDT   is/VBZ   designed/VBN   to/TO   detect/VB   mutations/NNS   in/IN   the/DT   tumor/NN   suppressor/NN   gene/NN   (ORGANIZATION p53/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   announced/VBD   a/DT   research/NN   collaboration/NN   with/IN   Merck/NNP   Sharp/NNP)
+
+tagged sentence:
+	 announced a research collaboration with Merck Sharp	res:1
+	(VERB providing/VBG Merck/NNP access/NN)
+	(VERB based/VBN AmpliChip/NNP p53/NNP Test/NNP)
+	(VERB is/VBZ designed/VBN)
+	(VERB   detect/VB   mutations/NNS   in/IN   the/DT   tumor/NN   suppressor/NN   gene/NN   p53/NNP)
+noun phrases to consider:
+	(NOUN Roche/NNP Holding/NNP Ltd./NNP)
+	(NOUN Roche/NNP Molecular/NNP Systems/NNPS)
+	(NOUN Inc./NNP Collaborates/NNP With/NNP Merck/NNP)
+
+tagged sentence:
+	 Inc. Collaborates With Merck	res:1
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Merck/NNP Sharp/NNP)
+	(NOUN Dohme/NNP Corp./NNP On/NNP Developmental/NNP)
+	(NOUN Test/NNP For/NNP Cancer/NNP Related/NNP)
+	(NOUN Gene/NNP Mutation/NNP Wednesday/NNP)
+	(NOUN 17/CD Feb/NNP)
+	(NOUN 00pm/CD EST/JJS Roche/NNP Holding/NNP Ltd./NNP)
+	(NOUN Roche/NNP Molecular/NNP Systems/NNPS)
+	(NOUN Inc./NNP)
+	(NOUN Dohme/NNP Corp./NNP)
+	(NOUN subsidiary/NN)
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN Roche/NNP)
+	(NOUN developmental/JJ microarray/NN)
+
+----------------------------------
+original sentence: 
+By identifying cancers that harbor a dysfunctional p53 gene, the companies aim to achieve better treatment outcomes in cancer patients by determining which patients are most likely to respond to certain investigational therapeutic candidates.
+
+POS tagged sentence: 
+[('By', 'IN'), ('identifying', 'NN'), ('cancers', 'NNS'), ('that', 'WDT'), ('harbor', 'NN'), ('a', 'DT'), ('dysfunctional', 'JJ'), ('p53', 'NNP'), ('gene', 'NN'), (',', ','), ('the', 'DT'), ('companies', 'NNS'), ('aim', 'VBP'), ('to', 'TO'), ('achieve', 'VB'), ('better', 'JJR'), ('treatment', 'NN'), ('outcomes', 'NNS'), ('in', 'IN'), ('cancer', 'NN'), ('patients', 'NNS'), ('by', 'IN'), ('determining', 'VBG'), ('which', 'WDT'), ('patients', 'NNS'), ('are', 'VBP'), ('most', 'JJS'), ('likely', 'JJ'), ('to', 'TO'), ('respond', 'VB'), ('to', 'TO'), ('certain', 'JJ'), ('investigational', 'JJ'), ('therapeutic', 'JJ'), ('candidates', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   By/IN   identifying/NN   cancers/NNS   that/WDT   harbor/NN   a/DT   dysfunctional/JJ   (ORGANIZATION p53/NNP)   gene/NN   ,/,   the/DT   companies/NNS   aim/VBP   to/TO   achieve/VB   better/JJR   treatment/NN   outcomes/NNS   in/IN   cancer/NN   patients/NNS   by/IN   determining/VBG   which/WDT   patients/NNS   are/VBP   most/JJS   likely/JJ   to/TO   respond/VB   to/TO   certain/JJ   investigational/JJ   therapeutic/JJ   candidates/NNS   ./.)
+----------------------------------
+original sentence: 
+The p53 protein is a critical component of normal cell response to various stress types including damaged genetic material or DNA deoxyribonucleic acid .
+
+POS tagged sentence: 
+[('The', 'DT'), ('p53', 'NNP'), ('protein', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('critical', 'JJ'), ('component', 'NN'), ('of', 'IN'), ('normal', 'JJ'), ('cell', 'NN'), ('response', 'NN'), ('to', 'TO'), ('various', 'JJ'), ('stress', 'NN'), ('types', 'NNS'), ('including', 'VBG'), ('damaged', 'VBN'), ('genetic', 'JJ'), ('material', 'NN'), ('or', 'CC'), ('DNA', 'NNP'), ('deoxyribonucleic', 'JJ'), ('acid', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION p53/NNP)   protein/NN   is/VBZ   a/DT   critical/JJ   component/NN   of/IN   normal/JJ   cell/NN   response/NN   to/TO   various/JJ   stress/NN   types/NNS   including/VBG   damaged/VBN   genetic/JJ   material/NN   or/CC   (ORGANIZATION DNA/NNP)   deoxyribonucleic/JJ   acid/NN   ./.)
+----------------------------------
+original sentence: 
+The p53 protein functions by activating DNA repair proteins, inducing growth arrest for repair of DNA damage, and by initiating apoptosis programmed cell death in the case of irreparable DNA damage.
+
+POS tagged sentence: 
+[('The', 'DT'), ('p53', 'NNP'), ('protein', 'NN'), ('functions', 'NNS'), ('by', 'IN'), ('activating', 'VBG'), ('DNA', 'NNP'), ('repair', 'NN'), ('proteins', 'NNS'), (',', ','), ('inducing', 'VBG'), ('growth', 'NN'), ('arrest', 'JJS'), ('for', 'IN'), ('repair', 'NN'), ('of', 'IN'), ('DNA', 'NNP'), ('damage', 'NN'), (',', ','), ('and', 'CC'), ('by', 'IN'), ('initiating', 'NN'), ('apoptosis', 'NN'), ('programmed', 'VBD'), ('cell', 'NN'), ('death', 'NN'), ('in', 'IN'), ('the', 'DT'), ('case', 'NN'), ('of', 'IN'), ('irreparable', 'JJ'), ('DNA', 'NNP'), ('damage', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION p53/NNP)   protein/NN   functions/NNS   by/IN   activating/VBG   (ORGANIZATION DNA/NNP)   repair/NN   proteins/NNS   ,/,   inducing/VBG   growth/NN   arrest/JJS   for/IN   repair/NN   of/IN   (ORGANIZATION DNA/NNP)   damage/NN   ,/,   and/CC   by/IN   initiating/NN   apoptosis/NN   programmed/VBD   cell/NN   death/NN   in/IN   the/DT   case/NN   of/IN   irreparable/JJ   (ORGANIZATION DNA/NNP)   damage/NN   ./.)
+----------------------------------
+original sentence: 
+When p53 function is deficient, a cell's response to DNA damage is severely impaired, contributing to tumor growth and increasing tumor cells' resistance to chemotherapy.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('p53', 'NNP'), ('function', 'NN'), ('is', 'VBZ'), ('deficient', 'NN'), (',', ','), ('a', 'DT'), ('cell', 'NN'), ("'s", 'POS'), ('response', 'NN'), ('to', 'TO'), ('DNA', 'NNP'), ('damage', 'NN'), ('is', 'VBZ'), ('severely', 'RB'), ('impaired', 'VBN'), (',', ','), ('contributing', 'VBG'), ('to', 'TO'), ('tumor', 'VB'), ('growth', 'NN'), ('and', 'CC'), ('increasing', 'VBG'), ('tumor', 'NN'), ('cells', 'NNS'), ("'", 'POS'), ('resistance', 'NN'), ('to', 'TO'), ('chemotherapy', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   (ORGANIZATION p53/NNP)   function/NN   is/VBZ   deficient/NN   ,/,   a/DT   cell/NN   's/POS   response/NN   to/TO   (ORGANIZATION DNA/NNP)   damage/NN   is/VBZ   severely/RB   impaired/VBN   ,/,   contributing/VBG   to/TO   tumor/VB   growth/NN   and/CC   increasing/VBG   tumor/NN   cells/NNS   '/POS   resistance/NN   to/TO   chemotherapy/VB   ./.)
+----------------------------------
+original sentence: 
+Roche's investigational AmpliChip p53 Test is designed to detect damage to p53 DNA in tumor cells in order to identify which cells carry dysfunctional p53 proteins that can lead to treatment resistance.
+
+POS tagged sentence: 
+[('Roche', 'NNP'), ("'s", 'POS'), ('investigational', 'JJ'), ('AmpliChip', 'NN'), ('p53', 'NNP'), ('Test', 'NN'), ('is', 'VBZ'), ('designed', 'VBN'), ('to', 'TO'), ('detect', 'VB'), ('damage', 'NN'), ('to', 'TO'), ('p53', 'NNP'), ('DNA', 'NNP'), ('in', 'IN'), ('tumor', 'NN'), ('cells', 'NNS'), ('in', 'IN'), ('order', 'NN'), ('to', 'TO'), ('identify', 'VB'), ('which', 'WDT'), ('cells', 'NNS'), ('carry', 'VBP'), ('dysfunctional', 'JJ'), ('p53', 'NNP'), ('proteins', 'NNS'), ('that', 'WDT'), ('can', 'MD'), ('lead', 'VB'), ('to', 'TO'), ('treatment', 'VB'), ('resistance', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Roche/NNP)   's/POS   investigational/JJ   (ORGANIZATION AmpliChip/NN)   (ORGANIZATION p53/NNP Test/NN)   is/VBZ   designed/VBN   to/TO   detect/VB   damage/NN   to/TO   (ORGANIZATION p53/NNP)   DNA/NNP   in/IN   tumor/NN   cells/NNS   in/IN   order/NN   to/TO   identify/VB   which/WDT   cells/NNS   carry/VBP   dysfunctional/JJ   (ORGANIZATION p53/NNP)   proteins/NNS   that/WDT   can/MD   lead/VB   to/TO   treatment/VB   resistance/NN   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S (GPE Merck/NNP) &/CC Co./NNP ,/, (PERSON Inc/NNP) ./.)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc/NNP)
+
+----------------------------------
+original sentence: 
+Comments On H2 2010, Long Term Earnings Guidance Conference Call
+Wednesday, 17 Feb 2010 08:00am EST
+Merck & Co., Inc. announced that it continues to target a high single digit, non GAAP earnings per share EPS compound annual growth rate from 2009 2013 for the combined Company when compared to the Company's fiscal 2009 non GAAP EPS.
+
+POS tagged sentence: 
+[('Comments', 'NNS'), ('On', 'IN'), ('H2', 'NNP'), ('2010', 'CD'), (',', ','), ('Long', 'NNP'), ('Term', 'NNP'), ('Earnings', 'NNP'), ('Guidance', 'NNP'), ('Conference', 'NNP'), ('Call', 'NNP'), ('Wednesday', 'NNP'), (',', ','), ('17', 'CD'), ('Feb', 'NNP'), ('2010', 'CD'), ('08', 'CD'), (':', ':'), ('00am', 'CD'), ('EST', 'JJS'), ('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('continues', 'VBZ'), ('to', 'TO'), ('target', 'VB'), ('a', 'DT'), ('high', 'JJ'), ('single', 'JJ'), ('digit', 'NN'), (',', ','), ('non', 'NN'), ('GAAP', 'NNP'), ('earnings', 'NNS'), ('per', 'IN'), ('share', 'NN'), ('EPS', 'NNS'), ('compound', 'VBP'), ('annual', 'JJ'), ('growth', 'NN'), ('rate', 'NN'), ('from', 'IN'), ('2009', 'CD'), ('2013', 'CD'), ('for', 'IN'), ('the', 'DT'), ('combined', 'VBN'), ('Company', 'NNP'), ('when', 'WRB'), ('compared', 'VBN'), ('to', 'TO'), ('the', 'DT'), ('Company', 'NNP'), ("'s", 'POS'), ('fiscal', 'JJ'), ('2009', 'CD'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Comments/NNS   On/IN   H2/NNP   2010/CD   ,/,   (GPE Long/NNP)   Term/NNP   Earnings/NNP   Guidance/NNP   Conference/NNP   Call/NNP   Wednesday/NNP   ,/,   17/CD   Feb/NNP   2010/CD   08/CD   :/:   00am/CD   EST/JJS   Merck/NNP   &/CC   Co./NNP   ,/,   (PERSON Inc./NNP)   announced/VBD   that/IN   it/PRP   continues/VBZ   to/TO   target/VB   a/DT   high/JJ   single/JJ   digit/NN   ,/,   non/NN   (ORGANIZATION GAAP/NNP)   earnings/NNS   per/IN   share/NN   EPS/NNS   compound/VBP   annual/JJ   growth/NN   rate/NN   from/IN   2009/CD   2013/CD   for/IN   the/DT   combined/VBN   Company/NNP   when/WRB   compared/VBN   to/TO   the/DT   (ORGANIZATION Company/NNP)   's/POS   fiscal/JJ   2009/CD   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB announced/VBD that/IN it/PRP)
+	(VERB continues/VBZ to/TO target/VB a/DT high/JJ single/JJ digit/NN)
+	(VERB   compound/VBP   annual/JJ   growth/NN   rate/NN   from/IN   2009/CD   2013/CD   for/IN   the/DT)
+	(VERB combined/VBN Company/NNP)
+	(VERB compared/VBN to/TO the/DT Company/NNP)
+noun phrases to consider:
+	(NOUN Comments/NNS)
+	(NOUN H2/NNP)
+	(NOUN Long/NNP Term/NNP Earnings/NNP Guidance/NNP)
+	(NOUN Conference/NNP Call/NNP Wednesday/NNP)
+	(NOUN 17/CD Feb/NNP)
+	(NOUN 00am/CD EST/JJS Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP)
+	(NOUN non/NN GAAP/NNP earnings/NNS)
+	(NOUN share/NN EPS/NNS)
+	(NOUN fiscal/JJ 2009/CD non/NN GAAP/NNP EPS/NNP)
+
+----------------------------------
+original sentence: 
+Looking ahead over this next four year period, the Company do anticipate some years will be stronger than others.
+
+POS tagged sentence: 
+[('Looking', 'VBG'), ('ahead', 'RB'), ('over', 'IN'), ('this', 'DT'), ('next', 'JJ'), ('four', 'CD'), ('year', 'NN'), ('period', 'NN'), (',', ','), ('the', 'DT'), ('Company', 'NNP'), ('do', 'VBP'), ('anticipate', 'JJ'), ('some', 'DT'), ('years', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('stronger', 'JJR'), ('than', 'IN'), ('others', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Looking/VBG   ahead/RB   over/IN   this/DT   next/JJ   four/CD   year/NN   period/NN   ,/,   the/DT   (ORGANIZATION Company/NNP)   do/VBP   anticipate/JJ   some/DT   years/NNS   will/MD   be/VB   stronger/JJR   than/IN   others/NNS   ./.)
+----------------------------------
+original sentence: 
+The Company announced that it expects non GAAP earnings in the second half of 2010 will be considerably higher than non GAAP earnings in the first half of 2010 due to the phasing in of synergies.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('announced', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('expects', 'VBZ'), ('non', 'NN'), ('GAAP', 'NNP'), ('earnings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('second', 'JJ'), ('half', 'DT'), ('of', 'IN'), ('2010', 'CD'), ('will', 'MD'), ('be', 'VB'), ('considerably', 'RB'), ('higher', 'JJR'), ('than', 'IN'), ('non', 'NN'), ('GAAP', 'NNP'), ('earnings', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('half', 'DT'), ('of', 'IN'), ('2010', 'CD'), ('due', 'JJ'), ('to', 'TO'), ('the', 'DT'), ('phasing', 'NN'), ('in', 'IN'), ('of', 'IN'), ('synergies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   announced/VBD   that/IN   it/PRP   expects/VBZ   non/NN   (ORGANIZATION GAAP/NNP)   earnings/NNS   in/IN   the/DT   second/JJ   half/DT   of/IN   2010/CD   will/MD   be/VB   considerably/RB   higher/JJR   than/IN   non/NN   (ORGANIZATION GAAP/NNP)   earnings/NNS   in/IN   the/DT   first/JJ   half/DT   of/IN   2010/CD   due/JJ   to/TO   the/DT   phasing/NN   in/IN   of/IN   synergies/NNS   ./.)
+----------------------------------
+original sentence: 
+The Company reported non GAAP EPS of $3.26 for fiscal 2009.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Company', 'NNP'), ('reported', 'VBD'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.26', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2009', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Company/NNP)   reported/VBD   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   3.26/CD   for/IN   fiscal/JJ   2009/CD   ./.)
+----------------------------------
+original sentence: 
+According to Reuters Estimates, analysts were expecting the Company to report non GAAP EPS of $3.43 for fiscal 2010; non GAAP EPS of $3.95 for fiscal 2011; non GAAP EPS of $4.18 for fiscal 2012; non GAAP EPS of $4.18 for fiscal 2013 and non GAAP EPS of $4.49 for fiscal 2014.
+
+POS tagged sentence: 
+[('According', 'VBG'), ('to', 'TO'), ('Reuters', 'NNP'), ('Estimates', 'NNP'), (',', ','), ('analysts', 'NNS'), ('were', 'VBD'), ('expecting', 'VBG'), ('the', 'DT'), ('Company', 'NNP'), ('to', 'TO'), ('report', 'VB'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.43', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2010', 'CD'), (';', ':'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('3.95', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2011', 'CD'), (';', ':'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('4.18', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2012', 'CD'), (';', ':'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('4.18', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2013', 'CD'), ('and', 'CC'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('of', 'IN'), ('$', '$'), ('4.49', 'CD'), ('for', 'IN'), ('fiscal', 'JJ'), ('2014', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   According/VBG   to/TO   (ORGANIZATION Reuters/NNP Estimates/NNP)   ,/,   analysts/NNS   were/VBD   expecting/VBG   the/DT   (ORGANIZATION Company/NNP)   to/TO   report/VB   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   3.43/CD   for/IN   fiscal/JJ   2010/CD   ;/:   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   3.95/CD   for/IN   fiscal/JJ   2011/CD   ;/:   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   4.18/CD   for/IN   fiscal/JJ   2012/CD   ;/:   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   4.18/CD   for/IN   fiscal/JJ   2013/CD   and/CC   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   of/IN   $/$   4.49/CD   for/IN   fiscal/JJ   2014/CD   ./.)
+----------------------------------
+original sentence: 
+And Q3 2010 non GAAP EPS $0.87;Q4 2010 non GAAP EPS $0.79.
+
+POS tagged sentence: 
+[('And', 'CC'), ('Q3', 'NNP'), ('2010', 'CD'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('$', '$'), ('0.87', 'CD'), (';', ':'), ('Q4', 'NNP'), ('2010', 'CD'), ('non', 'NN'), ('GAAP', 'NNP'), ('EPS', 'NNP'), ('$', '$'), ('0.79', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   And/CC   Q3/NNP   2010/CD   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   $/$   0.87/CD   ;/:   Q4/NNP   2010/CD   non/NN   (ORGANIZATION GAAP/NNP)   EPS/NNP   $/$   0.79/CD   ./.)
+----------------------------------
+original sentence: 
+Merck & Co., Inc. News
+Wall Street hits 19 month high on healthcare, energy
+NEW YORK Reuters U.S. stocks rose to a 19 month high on Friday as Merck eased concerns about the impact of healthcare reform, saying its costs will be relatively low.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('&', 'CC'), ('Co.', 'NNP'), (',', ','), ('Inc.', 'NNP'), ('News', 'NNP'), ('Wall', 'NNP'), ('Street', 'NNP'), ('hits', 'NNS'), ('19', 'CD'), ('month', 'NN'), ('high', 'JJ'), ('on', 'IN'), ('healthcare', 'NN'), (',', ','), ('energy', 'NN'), ('NEW', 'NNP'), ('YORK', 'NNP'), ('Reuters', 'NNP'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('rose', 'VBD'), ('to', 'TO'), ('a', 'DT'), ('19', 'CD'), ('month', 'NN'), ('high', 'JJ'), ('on', 'IN'), ('Friday', 'NNP'), ('as', 'IN'), ('Merck', 'NNP'), ('eased', 'VBD'), ('concerns', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('impact', 'NN'), ('of', 'IN'), ('healthcare', 'NN'), ('reform', 'NN'), (',', ','), ('saying', 'VBG'), ('its', 'PRP$'), ('costs', 'NNS'), ('will', 'MD'), ('be', 'VB'), ('relatively', 'RB'), ('low', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   &/CC   Co./NNP   ,/,   (ORGANIZATION Inc./NNP News/NNP Wall/NNP)   Street/NNP   hits/NNS   19/CD   month/NN   high/JJ   on/IN   healthcare/NN   ,/,   energy/NN   (ORGANIZATION NEW/NNP)   YORK/NNP   Reuters/NNP   (GPE U.S./NNP)   stocks/NNS   rose/VBD   to/TO   a/DT   19/CD   month/NN   high/JJ   on/IN   Friday/NNP   as/IN   (PERSON Merck/NNP)   eased/VBD   concerns/NNS   about/IN   the/DT   impact/NN   of/IN   healthcare/NN   reform/NN   ,/,   saying/VBG   its/PRP$   costs/NNS   will/MD   be/VB   relatively/RB   low/JJ   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   rose/VBD   to/TO   a/DT   19/CD   month/NN   high/JJ   on/IN   Friday/NNP   as/IN   Merck/NNP)
+
+tagged sentence:
+	 rose to a 19 month high on Friday as Merck	res:1
+	(VERB   eased/VBD   concerns/NNS   about/IN   the/DT   impact/NN   of/IN   healthcare/NN   reform/NN)
+
+tagged sentence:
+	 eased concerns about the impact of healthcare reform	res:1
+	(VERB saying/VBG its/PRP$ costs/NNS)
+
+tagged sentence:
+	 saying its costs	res:-1
+	(VERB be/VB relatively/RB low/JJ)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN Co./NNP)
+	(NOUN Inc./NNP News/NNP Wall/NNP Street/NNP)
+	(NOUN hits/NNS)
+	(NOUN 19/CD month/NN)
+	(NOUN high/JJ)
+	(NOUN healthcare/NN)
+	(NOUN energy/NN NEW/NNP YORK/NNP Reuters/NNP)
+	(NOUN U.S./NNP stocks/NNS)
+
+----------------------------------
+original sentence: 
+&#187; More MRK News
+&#187; More Financials
+
+
+POS tagged sentence: 
+[('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('MRK', 'NNP'), ('News', 'NNP'), ('&', 'CC'), ('#', '#'), ('187', 'CD'), (';', ':'), ('More', 'NNP'), ('Financials', 'NNPS')]
+
+
+ERTAGGED sentence: (S   &/CC   #/#   187/CD   ;/:   (PERSON More/NNP)   (ORGANIZATION MRK/NNP News/NNP)   &/CC   #/#   187/CD   ;/:   (ORGANIZATION More/NNP Financials/NNPS))Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN More/NNP MRK/NNP News/NNP)
+	(NOUN More/NNP Financials/NNPS)
+
+
+veryneg:0	neg:2	pos:6	verypos:0	total:1

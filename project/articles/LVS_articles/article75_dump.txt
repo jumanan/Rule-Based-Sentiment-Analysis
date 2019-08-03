@@ -1,0 +1,67 @@
+
+----------------------------------
+original sentence: 
+Market Report In Play LVS : Briefing.com Business News MSN Money
+Make msn.com your home page
+Market Report In Play LVS March 22, 2010 11:26 AM ET
+Stocks mentioned in this article
+Las Vegas Sands Corp All Briefing.com news
+Las Vegas Sands moves to session highs on very strong intraday/5 min.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('Report', 'NN'), ('In', 'IN'), ('Play', 'NNP'), ('LVS', 'NNP'), (':', ':'), ('Briefing.com', 'JJ'), ('Business', 'NN'), ('News', 'NN'), ('MSN', 'NNP'), ('Money', 'NNP'), ('Make', 'NNP'), ('msn.com', 'NNP'), ('your', 'PRP$'), ('home', 'NN'), ('page', 'NN'), ('Market', 'NN'), ('Report', 'NN'), ('In', 'IN'), ('Play', 'NNP'), ('LVS', 'NNP'), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), ('11', 'CD'), (':', ':'), ('26', 'CD'), ('AM', 'NNP'), ('ET', 'NNP'), ('Stocks', 'NNP'), ('mentioned', 'VBD'), ('in', 'IN'), ('this', 'DT'), ('article', 'NN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('Corp', 'NNP'), ('All', 'NNP'), ('Briefing.com', 'NNP'), ('news', 'NN'), ('Las', 'NNP'), ('Vegas', 'NNP'), ('Sands', 'NNPS'), ('moves', 'VBZ'), ('to', 'TO'), ('session', 'NN'), ('highs', 'NNS'), ('on', 'IN'), ('very', 'RB'), ('strong', 'JJ'), ('intraday/5', '-NONE-'), ('min', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   (ORGANIZATION Report/NN In/IN Play/NNP)   LVS/NNP   :/:   Briefing.com/JJ   (ORGANIZATION Business/NN News/NN)   (ORGANIZATION MSN/NNP Money/NNP Make/NNP)   msn.com/NNP   your/PRP$   home/NN   page/NN   (PERSON Market/NN Report/NN)   In/IN   (GPE Play/NNP)   LVS/NNP   March/NNP   22/CD   ,/,   2010/CD   11/CD   :/:   26/CD   AM/NNP   ET/NNP   (PERSON Stocks/NNP)   mentioned/VBD   in/IN   this/DT   article/NN   (PERSON Las/NNP Vegas/NNP)   (PERSON Sands/NNPS Corp/NNP All/NNP)   Briefing.com/NNP   news/NN   (PERSON Las/NNP Vegas/NNP Sands/NNPS)   moves/VBZ   to/TO   session/NN   highs/NNS   on/IN   very/RB   strong/JJ   intraday/5/-NONE-   min/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   mentioned/VBD   in/IN   this/DT   article/NN   Las/NNP   Vegas/NNP   Sands/NNPS   Corp/NNP   All/NNP   Briefing.com/NNP   news/NN   Las/NNP   Vegas/NNP   Sands/NNPS)
+	(VERB moves/VBZ to/TO session/NN highs/NNS on/IN very/RB strong/JJ)
+noun phrases to consider:
+	(NOUN Market/NN Report/NN)
+	(NOUN Play/NNP LVS/NNP)
+	(NOUN Briefing.com/JJ Business/NN News/NN MSN/NNP Money/NNP)
+	(NOUN Make/NNP msn.com/NNP)
+	(NOUN home/NN page/NN Market/NN Report/NN)
+	(NOUN Play/NNP LVS/NNP March/NNP)
+	(NOUN 26/CD AM/NNP ET/NNP Stocks/NNP)
+	(NOUN min/NN)
+
+----------------------------------
+original sentence: 
+volume all morning as price nears a retest of the Mar.
+
+POS tagged sentence: 
+[('volume', 'NN'), ('all', 'DT'), ('morning', 'NN'), ('as', 'IN'), ('price', 'NN'), ('nears', 'NNS'), ('a', 'DT'), ('retest', 'NN'), ('of', 'IN'), ('the', 'DT'), ('Mar', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   volume/NN   all/DT   morning/NN   as/IN   price/NN   nears/NNS   a/DT   retest/NN   of/IN   the/DT   (ORGANIZATION Mar/NNP)   ./.)
+----------------------------------
+original sentence: 
+resistance highs near 20.55 LVS is the leader amongst the casino space BJK ETF proxy with WYNN, BYD, & MGM also outperforming the S&P 500 this morning.
+
+POS tagged sentence: 
+[('resistance', 'NN'), ('highs', 'NNS'), ('near', 'IN'), ('20.55', 'CD'), ('LVS', 'NNP'), ('is', 'VBZ'), ('the', 'DT'), ('leader', 'NN'), ('amongst', 'NN'), ('the', 'DT'), ('casino', 'NN'), ('space', 'NN'), ('BJK', 'NNP'), ('ETF', 'NNP'), ('proxy', 'NN'), ('with', 'IN'), ('WYNN', 'NNP'), (',', ','), ('BYD', 'NNP'), (',', ','), ('&', 'CC'), ('MGM', 'NNP'), ('also', 'RB'), ('outperforming', 'VBG'), ('the', 'DT'), ('S&P', 'NNP'), ('500', 'CD'), ('this', 'DT'), ('morning', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   resistance/NN   highs/NNS   near/IN   20.55/CD   (ORGANIZATION LVS/NNP)   is/VBZ   the/DT   leader/NN   amongst/NN   the/DT   casino/NN   space/NN   (ORGANIZATION BJK/NNP)   ETF/NNP   proxy/NN   with/IN   (ORGANIZATION WYNN/NNP)   ,/,   (ORGANIZATION BYD/NNP)   ,/,   &/CC   (ORGANIZATION MGM/NNP)   also/RB   outperforming/VBG   the/DT   S&P/NNP   500/CD   this/DT   morning/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   is/VBZ   the/DT   leader/NN   amongst/NN   the/DT   casino/NN   space/NN   BJK/NNP   ETF/NNP   proxy/NN   with/IN   WYNN/NNP)
+	(VERB outperforming/VBG the/DT S&P/NNP 500/CD this/DT morning/NN)
+noun phrases to consider:
+	(NOUN resistance/NN highs/NNS)
+	(NOUN 20.55/CD LVS/NNP)
+	(NOUN BYD/NNP)
+	(NOUN MGM/NNP)
+
+----------------------------------
+original sentence: 
+is the leading Internet provider of live market analysis for U.S. Stock, U.S. Bond, and world FX market participants.
+
+
+POS tagged sentence: 
+[('is', 'VBZ'), ('the', 'DT'), ('leading', 'VBG'), ('Internet', 'NNP'), ('provider', 'NN'), ('of', 'IN'), ('live', 'JJ'), ('market', 'NN'), ('analysis', 'NN'), ('for', 'IN'), ('U.S.', 'NNP'), ('Stock', 'NNP'), (',', ','), ('U.S.', 'NNP'), ('Bond', 'NNP'), (',', ','), ('and', 'CC'), ('world', 'NN'), ('FX', 'NNP'), ('market', 'NN'), ('participants', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   is/VBZ   the/DT   leading/VBG   Internet/NNP   provider/NN   of/IN   live/JJ   market/NN   analysis/NN   for/IN   (GPE U.S./NNP Stock/NNP)   ,/,   (GPE U.S./NNP Bond/NNP)   ,/,   and/CC   world/NN   FX/NNP   market/NN   participants/NNS   ./.)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

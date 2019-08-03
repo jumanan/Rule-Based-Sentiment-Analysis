@@ -1,0 +1,128 @@
+
+----------------------------------
+original sentence: 
+ PotashCorp makes donation to Chile CHBC News &ndash; Kelowna
+Victoria Times Colonist
+The Province Vancouver Saskatoon StarPhoenix
+The Gazette Montreal Vancouver Island Newspapers
+PotashCorp makes donation to Chile
+Tuesday, March 9, 2010
+PotashCorp donated $300,000 to the earthquake relief efforts in Haiti.
+
+POS tagged sentence: 
+[('PotashCorp', 'NNP'), ('makes', 'VBZ'), ('donation', 'NN'), ('to', 'TO'), ('Chile', 'NNP'), ('CHBC', 'NNP'), ('News', 'NNP'), ('&ndash', 'NNP'), (';', ':'), ('Kelowna', 'NNP'), ('Victoria', 'NNP'), ('Times', 'NNP'), ('Colonist', 'NNP'), ('The', 'NNP'), ('Province', 'NNP'), ('Vancouver', 'NNP'), ('Saskatoon', 'NNP'), ('StarPhoenix', 'NNP'), ('The', 'NNP'), ('Gazette', 'NNP'), ('Montreal', 'NNP'), ('Vancouver', 'NNP'), ('Island', 'NNP'), ('Newspapers', 'NNP'), ('PotashCorp', 'NNP'), ('makes', 'VBZ'), ('donation', 'NN'), ('to', 'TO'), ('Chile', 'NNP'), ('Tuesday', 'NNP'), (',', ','), ('March', 'NNP'), ('9', 'CD'), (',', ','), ('2010', 'CD'), ('PotashCorp', 'NNP'), ('donated', 'VBD'), ('$', '$'), ('300,000', 'CD'), ('to', 'TO'), ('the', 'DT'), ('earthquake', 'NN'), ('relief', 'NN'), ('efforts', 'NNS'), ('in', 'IN'), ('Haiti', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION PotashCorp/NNP)   makes/VBZ   donation/NN   to/TO   (GPE Chile/NNP)   (ORGANIZATION CHBC/NNP News/NNP)   &ndash/NNP   ;/:   (PERSON     Kelowna/NNP     Victoria/NNP     Times/NNP     Colonist/NNP     The/NNP     Province/NNP     Vancouver/NNP     Saskatoon/NNP)   StarPhoenix/NNP   The/NNP   (PERSON     Gazette/NNP     Montreal/NNP     Vancouver/NNP     Island/NNP     Newspapers/NNP)   (ORGANIZATION PotashCorp/NNP)   makes/VBZ   donation/NN   to/TO   (GPE Chile/NNP)   Tuesday/NNP   ,/,   March/NNP   9/CD   ,/,   2010/CD   (ORGANIZATION PotashCorp/NNP)   donated/VBD   $/$   300,000/CD   to/TO   the/DT   earthquake/NN   relief/NN   efforts/NNS   in/IN   (GPE Haiti/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB makes/VBZ donation/NN)
+	(VERB makes/VBZ donation/NN)
+	(VERB donated/VBD)
+noun phrases to consider:
+	(NOUN PotashCorp/NNP)
+	(NOUN Chile/NNP CHBC/NNP News/NNP &ndash/NNP)
+	(NOUN Kelowna/NNP Victoria/NNP Times/NNP Colonist/NNP)
+	(NOUN The/NNP Province/NNP Vancouver/NNP Saskatoon/NNP)
+	(NOUN StarPhoenix/NNP The/NNP Gazette/NNP Montreal/NNP)
+	(NOUN Vancouver/NNP Island/NNP Newspapers/NNP PotashCorp/NNP)
+	(NOUN Chile/NNP Tuesday/NNP)
+	(NOUN March/NNP)
+	(NOUN 2010/CD PotashCorp/NNP)
+	(NOUN earthquake/NN relief/NN efforts/NNS)
+	(NOUN Haiti/NNP)
+
+----------------------------------
+original sentence: 
+Potash Corporation of Saskatchewan Inc. is making a large donation to help with the relief efforts in Chile.
+
+POS tagged sentence: 
+[('Potash', 'NNP'), ('Corporation', 'NNP'), ('of', 'IN'), ('Saskatchewan', 'NNP'), ('Inc.', 'NNP'), ('is', 'VBZ'), ('making', 'VBG'), ('a', 'DT'), ('large', 'JJ'), ('donation', 'NN'), ('to', 'TO'), ('help', 'VB'), ('with', 'IN'), ('the', 'DT'), ('relief', 'NN'), ('efforts', 'NNS'), ('in', 'IN'), ('Chile', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Potash/NNP)   (ORGANIZATION Corporation/NNP)   of/IN   (ORGANIZATION Saskatchewan/NNP Inc./NNP)   is/VBZ   making/VBG   a/DT   large/JJ   donation/NN   to/TO   help/VB   with/IN   the/DT   relief/NN   efforts/NNS   in/IN   (GPE Chile/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ making/VBG a/DT large/JJ donation/NN)
+	(VERB help/VB with/IN the/DT relief/NN efforts/NNS in/IN Chile/NNP)
+noun phrases to consider:
+	(NOUN Potash/NNP Corporation/NNP)
+	(NOUN Saskatchewan/NNP Inc./NNP)
+
+----------------------------------
+original sentence: 
+The global Potash company donated $300,000 to the Red Cross for its Chile Earthquake Fund.
+
+POS tagged sentence: 
+[('The', 'DT'), ('global', 'JJ'), ('Potash', 'NNP'), ('company', 'NN'), ('donated', 'VBD'), ('$', '$'), ('300,000', 'CD'), ('to', 'TO'), ('the', 'DT'), ('Red', 'NNP'), ('Cross', 'NNP'), ('for', 'IN'), ('its', 'PRP$'), ('Chile', 'NNP'), ('Earthquake', 'NNP'), ('Fund', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   global/JJ   (GPE Potash/NNP)   company/NN   donated/VBD   $/$   300,000/CD   to/TO   the/DT   (ORGANIZATION Red/NNP Cross/NNP)   for/IN   its/PRP$   Chile/NNP   Earthquake/NNP   Fund/NNP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB donated/VBD)
+noun phrases to consider:
+	(NOUN The/DT global/JJ Potash/NNP company/NN)
+	(NOUN Red/NNP Cross/NNP)
+	(NOUN Chile/NNP Earthquake/NNP Fund/NNP)
+
+----------------------------------
+original sentence: 
+The South American country was struck by an 8.8 magnitude earthquake on February 27 that left two million people injured and homeless.
+
+POS tagged sentence: 
+[('The', 'DT'), ('South', 'NNP'), ('American', 'NNP'), ('country', 'NN'), ('was', 'VBD'), ('struck', 'NN'), ('by', 'IN'), ('an', 'DT'), ('8.8', 'CD'), ('magnitude', 'NN'), ('earthquake', 'NN'), ('on', 'IN'), ('February', 'NNP'), ('27', 'CD'), ('that', 'WDT'), ('left', 'VBN'), ('two', 'CD'), ('million', 'CD'), ('people', 'NNS'), ('injured', 'VBN'), ('and', 'CC'), ('homeless', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (LOCATION South/NNP American/NNP)   country/NN   was/VBD   struck/NN   by/IN   an/DT   8.8/CD   magnitude/NN   earthquake/NN   on/IN   February/NNP   27/CD   that/WDT   left/VBN   two/CD   million/CD   people/NNS   injured/VBN   and/CC   homeless/JJ   ./.)
+----------------------------------
+original sentence: 
+PotashCorp made donations to the earthquake in Haiti in January and in China in 2008.
+
+POS tagged sentence: 
+[('PotashCorp', 'NNP'), ('made', 'VBD'), ('donations', 'NNS'), ('to', 'TO'), ('the', 'DT'), ('earthquake', 'NN'), ('in', 'IN'), ('Haiti', 'NNP'), ('in', 'IN'), ('January', 'NNP'), ('and', 'CC'), ('in', 'IN'), ('China', 'NNP'), ('in', 'IN'), ('2008', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION PotashCorp/NNP)   made/VBD   donations/NNS   to/TO   the/DT   earthquake/NN   in/IN   (GPE Haiti/NNP)   in/IN   January/NNP   and/CC   in/IN   (GPE China/NNP)   in/IN   2008/CD   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB made/VBD donations/NNS)
+noun phrases to consider:
+	(NOUN PotashCorp/NNP)
+	(NOUN earthquake/NN)
+	(NOUN Haiti/NNP)
+	(NOUN January/NNP)
+	(NOUN China/NNP)
+
+----------------------------------
+original sentence: 
+The company has commercial interest in Chile.
+
+POS tagged sentence: 
+[('The', 'DT'), ('company', 'NN'), ('has', 'VBZ'), ('commercial', 'JJ'), ('interest', 'NN'), ('in', 'IN'), ('Chile', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   company/NN   has/VBZ   commercial/JJ   interest/NN   in/IN   (GPE Chile/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB has/VBZ commercial/JJ interest/NN in/IN Chile/NNP)
+noun phrases to consider:
+	(NOUN company/NN)
+
+----------------------------------
+original sentence: 
+It owns 32 per cent of SQM, which is the worldâ€™s leading producer of specialty plant nutrition products, lithium and iodine.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('owns', 'VBZ'), ('32', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('of', 'IN'), ('SQM', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('the', 'DT'), ('world', 'NN'), ('\xe2', ':'), ('\x80', ':'), ('\x99', ':'), ('s', 'NNS'), ('leading', 'VBG'), ('producer', 'NN'), ('of', 'IN'), ('specialty', 'NN'), ('plant', 'NN'), ('nutrition', 'NN'), ('products', 'NNS'), (',', ','), ('lithium', 'NN'), ('and', 'CC'), ('iodine', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   owns/VBZ   32/CD   per/IN   cent/NN   of/IN   (ORGANIZATION SQM/NNP)   ,/,   which/WDT   is/VBZ   the/DT   world/NN   â/:   €/:   ™/:   s/NNS   leading/VBG   producer/NN   of/IN   specialty/NN   plant/NN   nutrition/NN   products/NNS   ,/,   lithium/NN   and/CC   iodine/NN   ./.)
+----------------------------------
+original sentence: 
+Â© Copyright c CW Media Inc.
+xml version='1.0' encoding='%SOUP ENCODING%'
+
+
+POS tagged sentence: 
+[('\xc2', 'NN'), ('\xa9', '``'), ('Copyright', 'NNP'), ('c', 'NN'), ('CW', 'NNP'), ('Media', 'NNP'), ('Inc', 'NNP'), ('.', '.'), ('xml', 'NN'), ('version', 'NN'), ('=', ':'), ("'1.0", '-NONE-'), ("'", "''"), ('encoding', 'VBG'), ('=', ':'), ("'", 'POS'), ('%', 'NN'), ('SOUP', 'NN'), ('ENCODING', 'NNP'), ('%', 'NN'), ("'", 'POS')]
+
+
+ERTAGGED sentence: (S   Â/NN   ©/``   Copyright/NNP   c/NN   (ORGANIZATION CW/NNP Media/NNP Inc/NNP)   ./.   xml/NN   version/NN   =/:   '1.0/-NONE-   '/''   encoding/VBG   =/:   '/POS   %/NN   (ORGANIZATION SOUP/NN)   ENCODING/NNP   %/NN   '/POS)
+
+veryneg:0	neg:0	pos:0	verypos:0	total:0

@@ -1,0 +1,250 @@
+
+----------------------------------
+original sentence: 
+Market News: Citigroup NYSE:C , CIT Group NYSE:CIT , Google NASDAQ:GOOG , Apple NASDAQ:AAPL , Bank of America NYSE:BAC | Jutia Group
+Friday, April 23rd, 2010
+Market News: Citigroup NYSE:C , CIT Group NYSE:CIT , Google NASDAQ:GOOG , Apple NASDAQ:AAPL , Bank of America NYSE:BAC  March 17th, 2010 &bull;  Filed Under: Bank of America NYSE:BAC CIT Group NYSE:CIT Google NASDAQ:GOOG Primerica Inc., the insurance unit owned by , will sell 18 million shares in an initial public offering in addition to the $230 million in stock a private equity firm plans to purchase.
+
+POS tagged sentence: 
+[('Market', 'NN'), ('News', 'NNS'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('CIT', 'NNP'), ('Group', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('CIT', 'NN'), (',', ','), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), (',', ','), ('Apple', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), (',', ','), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), ('|', ':'), ('Jutia', 'NNP'), ('Group', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23rd', 'CD'), (',', ','), ('2010', 'CD'), ('Market', 'NNP'), ('News', 'NNP'), (':', ':'), ('Citigroup', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('C', 'NNP'), (',', ','), ('CIT', 'NNP'), ('Group', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('CIT', 'NN'), (',', ','), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), (',', ','), ('Apple', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('AAPL', 'NNP'), (',', ','), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), ('March', 'NNP'), ('17th', 'CD'), (',', ','), ('2010', 'CD'), ('&bull', 'JJ'), (';', ':'), ('Filed', 'NNP'), ('Under', 'NNP'), (':', ':'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), ('CIT', 'NNP'), ('Group', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('CIT', 'NN'), ('Google', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('GOOG', 'NNP'), ('Primerica', 'NNP'), ('Inc.', 'NNP'), (',', ','), ('the', 'DT'), ('insurance', 'NN'), ('unit', 'NN'), ('owned', 'VBN'), ('by', 'IN'), (',', ','), ('will', 'MD'), ('sell', 'VB'), ('18', 'CD'), ('million', 'CD'), ('shares', 'NNS'), ('in', 'IN'), ('an', 'DT'), ('initial', 'JJ'), ('public', 'JJ'), ('offering', 'NN'), ('in', 'IN'), ('addition', 'NN'), ('to', 'TO'), ('the', 'DT'), ('$', '$'), ('230', 'CD'), ('million', 'CD'), ('in', 'IN'), ('stock', 'NN'), ('a', 'DT'), ('private', 'JJ'), ('equity', 'NN'), ('firm', 'NN'), ('plans', 'NNS'), ('to', 'TO'), ('purchase', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Market/NN)   News/NNS   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (ORGANIZATION CIT/NNP Group/NNP)   NYSE/NNP   :/:   CIT/NN   ,/,   (PERSON Google/NNP NASDAQ/NNP)   :/:   GOOG/NNP   ,/,   (PERSON Apple/NNP NASDAQ/NNP)   :/:   AAPL/NNP   ,/,   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   NYSE/NNP   :/:   BAC/NNP   |/:   (PERSON Jutia/NNP Group/NNP)   Friday/NNP   ,/,   April/NNP   23rd/CD   ,/,   2010/CD   (PERSON Market/NNP News/NNP)   :/:   (PERSON Citigroup/NNP NYSE/NNP)   :/:   C/NNP   ,/,   (ORGANIZATION CIT/NNP Group/NNP)   NYSE/NNP   :/:   CIT/NN   ,/,   (PERSON Google/NNP NASDAQ/NNP)   :/:   GOOG/NNP   ,/,   (PERSON Apple/NNP NASDAQ/NNP)   :/:   AAPL/NNP   ,/,   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   NYSE/NNP   :/:   BAC/NNP   March/NNP   17th/CD   ,/,   2010/CD   &bull/JJ   ;/:   (PERSON Filed/NNP Under/NNP)   :/:   (ORGANIZATION Bank/NNP)   of/IN   (GPE America/NNP)   NYSE/NNP   :/:   BAC/NNP   (ORGANIZATION CIT/NNP Group/NNP)   NYSE/NNP   :/:   (ORGANIZATION CIT/NN Google/NNP)   NASDAQ/NNP   :/:   (ORGANIZATION GOOG/NNP Primerica/NNP Inc./NNP)   ,/,   the/DT   insurance/NN   unit/NN   owned/VBN   by/IN   ,/,   will/MD   sell/VB   18/CD   million/CD   shares/NNS   in/IN   an/DT   initial/JJ   public/JJ   offering/NN   in/IN   addition/NN   to/TO   the/DT   $/$   230/CD   million/CD   in/IN   stock/NN   a/DT   private/JJ   equity/NN   firm/NN   plans/NNS   to/TO   purchase/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB owned/VBN by/IN)
+	(VERB   sell/VB   18/CD   million/CD   shares/NNS   in/IN   an/DT   initial/JJ   public/JJ   offering/NN   in/IN   addition/NN)
+	(VERB purchase/VB)
+
+tagged sentence:
+	 purchase	res:2
+noun phrases to consider:
+	(NOUN Market/NN News/NNS)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN CIT/NNP Group/NNP NYSE/NNP)
+	(NOUN CIT/NN)
+	(NOUN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP)
+	(NOUN Apple/NNP NASDAQ/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP NYSE/NNP)
+	(NOUN BAC/NNP)
+	(NOUN Jutia/NNP Group/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 2010/CD Market/NNP News/NNP)
+	(NOUN Citigroup/NNP NYSE/NNP)
+	(NOUN C/NNP)
+	(NOUN CIT/NNP Group/NNP NYSE/NNP)
+	(NOUN CIT/NN)
+	(NOUN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP)
+	(NOUN Apple/NNP NASDAQ/NNP)
+	(NOUN AAPL/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP NYSE/NNP)
+	(NOUN BAC/NNP March/NNP)
+	(NOUN 2010/CD &bull/JJ)
+	(NOUN Filed/NNP Under/NNP)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP NYSE/NNP)
+	(NOUN BAC/NNP CIT/NNP Group/NNP NYSE/NNP)
+	(NOUN CIT/NN Google/NNP NASDAQ/NNP)
+	(NOUN GOOG/NNP Primerica/NNP Inc./NNP)
+	(NOUN insurance/NN unit/NN)
+	(NOUN stock/NN)
+	(NOUN a/DT private/JJ equity/NN firm/NN plans/NNS)
+
+----------------------------------
+original sentence: 
+The stock will be sold at a range of $12 to $14 a share, the Duluth, Georgia based company said today in a regulatory filing.
+
+POS tagged sentence: 
+[('The', 'DT'), ('stock', 'NN'), ('will', 'MD'), ('be', 'VB'), ('sold', 'VBN'), ('at', 'IN'), ('a', 'DT'), ('range', 'NN'), ('of', 'IN'), ('$', '$'), ('12', 'CD'), ('to', 'TO'), ('$', '$'), ('14', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('the', 'DT'), ('Duluth', 'NNP'), (',', ','), ('Georgia', 'NNP'), ('based', 'VBN'), ('company', 'NN'), ('said', 'VBD'), ('today', 'NN'), ('in', 'IN'), ('a', 'DT'), ('regulatory', 'JJ'), ('filing', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   stock/NN   will/MD   be/VB   sold/VBN   at/IN   a/DT   range/NN   of/IN   $/$   12/CD   to/TO   $/$   14/CD   a/DT   share/NN   ,/,   the/DT   (GPE Duluth/NNP)   ,/,   (PERSON Georgia/NNP)   based/VBN   company/NN   said/VBD   today/NN   in/IN   a/DT   regulatory/JJ   filing/NN   ./.)
+----------------------------------
+original sentence: 
+Underwriters have the option to purchase as many as 2.7 million additional shares, the filing said, which would bring the total to $290 million at the higher price.
+
+POS tagged sentence: 
+[('Underwriters', 'NNS'), ('have', 'VBP'), ('the', 'DT'), ('option', 'NN'), ('to', 'TO'), ('purchase', 'VB'), ('as', 'IN'), ('many', 'JJ'), ('as', 'IN'), ('2.7', 'CD'), ('million', 'CD'), ('additional', 'JJ'), ('shares', 'NNS'), (',', ','), ('the', 'DT'), ('filing', 'NN'), ('said', 'VBD'), (',', ','), ('which', 'WDT'), ('would', 'MD'), ('bring', 'VB'), ('the', 'DT'), ('total', 'JJ'), ('to', 'TO'), ('$', '$'), ('290', 'CD'), ('million', 'CD'), ('at', 'IN'), ('the', 'DT'), ('higher', 'JJR'), ('price', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Underwriters/NNS   have/VBP   the/DT   option/NN   to/TO   purchase/VB   as/IN   many/JJ   as/IN   2.7/CD   million/CD   additional/JJ   shares/NNS   ,/,   the/DT   filing/NN   said/VBD   ,/,   which/WDT   would/MD   bring/VB   the/DT   total/JJ   to/TO   $/$   290/CD   million/CD   at/IN   the/DT   higher/JJR   price/NN   ./.)
+----------------------------------
+original sentence: 
+reported fourth quarter net income of $3.2 billion.
+
+POS tagged sentence: 
+[('reported', 'VBD'), ('fourth', 'JJ'), ('quarter', 'NN'), ('net', 'NN'), ('income', 'NN'), ('of', 'IN'), ('$', '$'), ('3.2', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   reported/VBD   fourth/JJ   quarter/NN   net/NN   income/NN   of/IN   $/$   3.2/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+Excluding items, CIT reported a fourth quarter pre tax loss of $1 billion.
+
+POS tagged sentence: 
+[('Excluding', 'VBG'), ('items', 'NNS'), (',', ','), ('CIT', 'NNP'), ('reported', 'VBD'), ('a', 'DT'), ('fourth', 'JJ'), ('quarter', 'NN'), ('pre', 'NN'), ('tax', 'NN'), ('loss', 'NN'), ('of', 'IN'), ('$', '$'), ('1', 'CD'), ('billion', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Excluding/VBG   items/NNS   ,/,   (ORGANIZATION CIT/NNP)   reported/VBD   a/DT   fourth/JJ   quarter/NN   pre/NN   tax/NN   loss/NN   of/IN   $/$   1/CD   billion/CD   ./.)
+----------------------------------
+original sentence: 
+CIT said that it had common equity of $8.4 billion, or $41.99 a share, as of Dec. 31.
+
+POS tagged sentence: 
+[('CIT', 'NN'), ('said', 'VBD'), ('that', 'IN'), ('it', 'PRP'), ('had', 'VBD'), ('common', 'JJ'), ('equity', 'NN'), ('of', 'IN'), ('$', '$'), ('8.4', 'CD'), ('billion', 'CD'), (',', ','), ('or', 'CC'), ('$', '$'), ('41.99', 'CD'), ('a', 'DT'), ('share', 'NN'), (',', ','), ('as', 'IN'), ('of', 'IN'), ('Dec.', 'NNP'), ('31', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (ORGANIZATION CIT/NN)   said/VBD   that/IN   it/PRP   had/VBD   common/JJ   equity/NN   of/IN   $/$   8.4/CD   billion/CD   ,/,   or/CC   $/$   41.99/CD   a/DT   share/NN   ,/,   as/IN   of/IN   Dec./NNP   31/CD   ./.)
+----------------------------------
+original sentence: 
+Also,  has upgraded its Nexus One phone so it works on the same high speed wireless network as  iPhone.
+
+POS tagged sentence: 
+[('Also', 'RB'), (',', ','), ('has', 'VBZ'), ('upgraded', 'VBN'), ('its', 'PRP$'), ('Nexus', 'NNP'), ('One', 'NNP'), ('phone', 'NN'), ('so', 'RB'), ('it', 'PRP'), ('works', 'VBZ'), ('on', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('high', 'NN'), ('speed', 'NN'), ('wireless', 'NN'), ('network', 'NN'), ('as', 'IN'), ('iPhone', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Also/RB   ,/,   has/VBZ   upgraded/VBN   its/PRP$   Nexus/NNP   One/NNP   phone/NN   so/RB   it/PRP   works/VBZ   on/IN   the/DT   same/JJ   high/NN   speed/NN   wireless/NN   network/NN   as/IN   (ORGANIZATION iPhone/NNP)   ./.)
+----------------------------------
+original sentence: 
+Meanwhile, Chinese firms placing ads on Google wanted the search company to clarify its position.
+
+POS tagged sentence: 
+[('Meanwhile', 'RB'), (',', ','), ('Chinese', 'JJ'), ('firms', 'NNS'), ('placing', 'VBG'), ('ads', 'NNS'), ('on', 'IN'), ('Google', 'NNP'), ('wanted', 'VBD'), ('the', 'DT'), ('search', 'NN'), ('company', 'NN'), ('to', 'TO'), ('clarify', 'VB'), ('its', 'PRP$'), ('position', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Meanwhile/RB   ,/,   (GPE Chinese/JJ)   firms/NNS   placing/VBG   ads/NNS   on/IN   (PERSON Google/NNP)   wanted/VBD   the/DT   search/NN   company/NN   to/TO   clarify/VB   its/PRP$   position/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB placing/VBG ads/NNS on/IN Google/NNP)
+	(VERB wanted/VBD the/DT search/NN company/NN)
+	(VERB clarify/VB its/PRP$ position/NN)
+noun phrases to consider:
+	(NOUN Chinese/JJ firms/NNS)
+
+----------------------------------
+original sentence: 
+&ndash;
+ Sterling gained on some unexpectedly robust U.K. jobs data, while the U.S. dollar was fractionally higher against other currencies.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('Sterling', 'NNP'), ('gained', 'VBD'), ('on', 'IN'), ('some', 'DT'), ('unexpectedly', 'RB'), ('robust', 'JJ'), ('U.K.', 'NNP'), ('jobs', 'NNS'), ('data', 'NNS'), (',', ','), ('while', 'IN'), ('the', 'DT'), ('U.S.', 'NNP'), ('dollar', 'NN'), ('was', 'VBD'), ('fractionally', 'RB'), ('higher', 'JJR'), ('against', 'IN'), ('other', 'JJ'), ('currencies', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   (PERSON Sterling/NNP)   gained/VBD   on/IN   some/DT   unexpectedly/RB   robust/JJ   U.K./NNP   jobs/NNS   data/NNS   ,/,   while/IN   the/DT   (GPE U.S./NNP)   dollar/NN   was/VBD   fractionally/RB   higher/JJR   against/IN   other/JJ   currencies/NNS   ./.)
+----------------------------------
+original sentence: 
+The pound was propelled higher after the U.K. government reported that the number of people claiming unemployment benefits fell 32,200 last month, the largest drop since November 1997.
+
+POS tagged sentence: 
+[('The', 'DT'), ('pound', 'NN'), ('was', 'VBD'), ('propelled', 'VBN'), ('higher', 'JJR'), ('after', 'IN'), ('the', 'DT'), ('U.K.', 'NNP'), ('government', 'NN'), ('reported', 'VBD'), ('that', 'IN'), ('the', 'DT'), ('number', 'NN'), ('of', 'IN'), ('people', 'NNS'), ('claiming', 'VBG'), ('unemployment', 'NN'), ('benefits', 'NNS'), ('fell', 'VBD'), ('32,200', 'CD'), ('last', 'JJ'), ('month', 'NN'), (',', ','), ('the', 'DT'), ('largest', 'JJS'), ('drop', 'NN'), ('since', 'IN'), ('November', 'NNP'), ('1997', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   pound/NN   was/VBD   propelled/VBN   higher/JJR   after/IN   the/DT   U.K./NNP   government/NN   reported/VBD   that/IN   the/DT   number/NN   of/IN   people/NNS   claiming/VBG   unemployment/NN   benefits/NNS   fell/VBD   32,200/CD   last/JJ   month/NN   ,/,   the/DT   largest/JJS   drop/NN   since/IN   November/NNP   1997/CD   ./.)
+----------------------------------
+original sentence: 
+&quot;That&#8217;s really the big move for the day, I suppose,&quot; said Adam Cole, chief currency strategist at RBC Capital Markets in London.
+
+POS tagged sentence: 
+[('&quot', 'JJ'), (';', ':'), ('That&', 'JJ'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('really', 'RB'), ('the', 'DT'), ('big', 'JJ'), ('move', 'NN'), ('for', 'IN'), ('the', 'DT'), ('day', 'NN'), (',', ','), ('I', 'PRP'), ('suppose,&quot', 'VBP'), (';', ':'), ('said', 'VBD'), ('Adam', 'NNP'), ('Cole', 'NNP'), (',', ','), ('chief', 'NN'), ('currency', 'NN'), ('strategist', 'NN'), ('at', 'IN'), ('RBC', 'NNP'), ('Capital', 'NNP'), ('Markets', 'NNPS'), ('in', 'IN'), ('London', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &quot/JJ   ;/:   That&/JJ   #/#   8217/CD   ;/:   s/NNS   really/RB   the/DT   big/JJ   move/NN   for/IN   the/DT   day/NN   ,/,   I/PRP   suppose,&quot/VBP   ;/:   said/VBD   (PERSON Adam/NNP Cole/NNP)   ,/,   chief/NN   currency/NN   strategist/NN   at/IN   (ORGANIZATION RBC/NNP Capital/NNP Markets/NNPS)   in/IN   (GPE London/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB suppose,&quot/VBP)
+	(VERB said/VBD Adam/NNP Cole/NNP)
+noun phrases to consider:
+	(NOUN &quot/JJ)
+	(NOUN That&/JJ)
+	(NOUN s/NNS)
+	(NOUN the/DT big/JJ move/NN)
+	(NOUN day/NN)
+	(NOUN chief/NN currency/NN strategist/NN)
+	(NOUN RBC/NNP Capital/NNP Markets/NNPS)
+	(NOUN London/NNP)
+
+----------------------------------
+original sentence: 
+&ndash;
+The Wall Street Journal
+ A 46 year old Pittsburgh woman is suing  for mistakenly repossessing her home and confiscating her prized pet parrot.
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('The', 'DT'), ('Wall', 'NNP'), ('Street', 'NNP'), ('Journal', 'NNP'), ('A', 'NNP'), ('46', 'CD'), ('year', 'NN'), ('old', 'JJ'), ('Pittsburgh', 'NNP'), ('woman', 'NN'), ('is', 'VBZ'), ('suing', 'VBG'), ('for', 'IN'), ('mistakenly', 'RB'), ('repossessing', 'VBG'), ('her', 'PRP'), ('home', 'NN'), ('and', 'CC'), ('confiscating', 'VBG'), ('her', 'PRP$'), ('prized', 'JJ'), ('pet', 'NN'), ('parrot', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   The/DT   (FACILITY Wall/NNP Street/NNP)   Journal/NNP   A/NNP   46/CD   year/NN   old/JJ   Pittsburgh/NNP   woman/NN   is/VBZ   suing/VBG   for/IN   mistakenly/RB   repossessing/VBG   her/PRP   home/NN   and/CC   confiscating/VBG   her/PRP$   prized/JJ   pet/NN   parrot/NN   ./.)
+----------------------------------
+original sentence: 
+The woman&#8217;s mortgage was up to date, but she says it took her a week to recover her beloved bird and six weeks to get BofA to clean up the mess it left.
+
+POS tagged sentence: 
+[('The', 'DT'), ('woman&', 'NN'), ('#', '#'), ('8217', 'CD'), (';', ':'), ('s', 'NNS'), ('mortgage', 'VBP'), ('was', 'VBD'), ('up', 'RB'), ('to', 'TO'), ('date', 'NN'), (',', ','), ('but', 'CC'), ('she', 'PRP'), ('says', 'VBZ'), ('it', 'PRP'), ('took', 'VBD'), ('her', 'PRP'), ('a', 'DT'), ('week', 'NN'), ('to', 'TO'), ('recover', 'VB'), ('her', 'PRP$'), ('beloved', 'VBN'), ('bird', 'NN'), ('and', 'CC'), ('six', 'CD'), ('weeks', 'NNS'), ('to', 'TO'), ('get', 'VB'), ('BofA', 'NNP'), ('to', 'TO'), ('clean', 'VB'), ('up', 'RP'), ('the', 'DT'), ('mess', 'NN'), ('it', 'PRP'), ('left', 'VBD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   woman&/NN   #/#   8217/CD   ;/:   s/NNS   mortgage/VBP   was/VBD   up/RB   to/TO   date/NN   ,/,   but/CC   she/PRP   says/VBZ   it/PRP   took/VBD   her/PRP   a/DT   week/NN   to/TO   recover/VB   her/PRP$   beloved/VBN   bird/NN   and/CC   six/CD   weeks/NNS   to/TO   get/VB   (ORGANIZATION BofA/NNP)   to/TO   clean/VB   up/RP   the/DT   mess/NN   it/PRP   left/VBD   ./.)
+----------------------------------
+original sentence: 
+As foreclosures rise, mistakes like this become more frequent, experts say.
+
+POS tagged sentence: 
+[('As', 'IN'), ('foreclosures', 'NNS'), ('rise', 'VBP'), (',', ','), ('mistakes', 'NNS'), ('like', 'IN'), ('this', 'DT'), ('become', 'NN'), ('more', 'RBR'), ('frequent', 'JJ'), (',', ','), ('experts', 'NNS'), ('say', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   As/IN   foreclosures/NNS   rise/VBP   ,/,   mistakes/NNS   like/IN   this/DT   become/NN   more/RBR   frequent/JJ   ,/,   experts/NNS   say/VBP   ./.)
+----------------------------------
+original sentence: 
+&ndash;
+Bank of America Corp. NYSE: BAC : Q1 Earnings Preview 2010
+ Stock Wizard, 4/4/10 Citigroupâ€™s Chuck Prince confirms that risky behavior drives out prudent when risk is rewarded
+ naked capitalism, 4/9/10  All Allan, 4/8/10  Read more on Sign Up for JutiaGroup Underground and Receive Handpicked Stories Delivered to Your Inbox!!
+
+POS tagged sentence: 
+[('&ndash', 'JJ'), (';', ':'), ('Bank', 'NNP'), ('of', 'IN'), ('America', 'NNP'), ('Corp.', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BAC', 'NNP'), (':', ':'), ('Q1', 'NNP'), ('Earnings', 'NNP'), ('Preview', 'NNP'), ('2010', 'CD'), ('Stock', 'NNP'), ('Wizard', 'NNP'), (',', ','), ('4/4/10', 'CD'), ('Citigroup', 'NNP'), ('\xe2', 'NNP'), ('\x80', 'NNP'), ('\x99', 'NNP'), ('s', 'VBZ'), ('Chuck', 'NNP'), ('Prince', 'NNP'), ('confirms', 'VBZ'), ('that', 'IN'), ('risky', 'JJ'), ('behavior', 'NN'), ('drives', 'NNS'), ('out', 'IN'), ('prudent', 'NN'), ('when', 'WRB'), ('risk', 'NN'), ('is', 'VBZ'), ('rewarded', 'VBN'), ('naked', 'VBN'), ('capitalism', 'NN'), (',', ','), ('4/9/10', 'CD'), ('All', 'DT'), ('Allan', 'NNP'), (',', ','), ('4/8/10', 'CD'), ('Read', 'NNP'), ('more', 'RBR'), ('on', 'IN'), ('Sign', 'NNP'), ('Up', 'NNP'), ('for', 'IN'), ('JutiaGroup', 'NNP'), ('Underground', 'NNP'), ('and', 'CC'), ('Receive', 'NNP'), ('Handpicked', 'NNP'), ('Stories', 'NNP'), ('Delivered', 'NNP'), ('to', 'TO'), ('Your', 'NNP'), ('Inbox', 'NNP'), ('!', '.'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   &ndash/JJ   ;/:   (ORGANIZATION Bank/NNP)   of/IN   (ORGANIZATION America/NNP Corp./NNP)   NYSE/NNP   :/:   BAC/NNP   :/:   Q1/NNP   Earnings/NNP   Preview/NNP   2010/CD   Stock/NNP   (PERSON Wizard/NNP)   ,/,   4/4/10/CD   Citigroup/NNP   â/NNP   €/NNP   ™/NNP   s/VBZ   (PERSON Chuck/NNP Prince/NNP)   confirms/VBZ   that/IN   risky/JJ   behavior/NN   drives/NNS   out/IN   prudent/NN   when/WRB   risk/NN   is/VBZ   rewarded/VBN   naked/VBN   capitalism/NN   ,/,   4/9/10/CD   All/DT   Allan/NNP   ,/,   4/8/10/CD   Read/NNP   more/RBR   on/IN   (ORGANIZATION Sign/NNP Up/NNP)   for/IN   (ORGANIZATION JutiaGroup/NNP Underground/NNP)   and/CC   (PERSON Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)   to/TO   Your/NNP   Inbox/NNP   !/.   !/.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB s/VBZ Chuck/NNP Prince/NNP)
+	(VERB   confirms/VBZ   that/IN   risky/JJ   behavior/NN   drives/NNS   out/IN   prudent/NN)
+	(VERB is/VBZ rewarded/VBN naked/VBN capitalism/NN)
+noun phrases to consider:
+	(NOUN &ndash/JJ)
+	(NOUN Bank/NNP)
+	(NOUN America/NNP Corp./NNP NYSE/NNP)
+	(NOUN BAC/NNP)
+	(NOUN Q1/NNP Earnings/NNP Preview/NNP)
+	(NOUN 2010/CD Stock/NNP Wizard/NNP)
+	(NOUN 4/4/10/CD Citigroup/NNP â/NNP €/NNP ™/NNP)
+	(NOUN risk/NN)
+	(NOUN Allan/NNP)
+	(NOUN 4/8/10/CD Read/NNP)
+	(NOUN Sign/NNP Up/NNP)
+	(NOUN JutiaGroup/NNP Underground/NNP)
+	(NOUN Receive/NNP Handpicked/NNP Stories/NNP Delivered/NNP)
+	(NOUN Your/NNP Inbox/NNP)
+
+----------------------------------
+original sentence: 
+Mail will not be published required Notify me of followup comments via e mail
+Where Will The Dow Jones Industrial Average Be At Year's End?
+
+POS tagged sentence: 
+[('Mail', 'NNP'), ('will', 'MD'), ('not', 'RB'), ('be', 'VB'), ('published', 'VBN'), ('required', 'VBN'), ('Notify', 'NNP'), ('me', 'PRP'), ('of', 'IN'), ('followup', 'NN'), ('comments', 'NNS'), ('via', 'IN'), ('e', 'NN'), ('mail', 'NN'), ('Where', 'WRB'), ('Will', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('Be', 'NNP'), ('At', 'NNP'), ('Year', 'NNP'), ("'s", 'POS'), ('End', 'NNP'), ('?', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Mail/NNP)   will/MD   not/RB   be/VB   published/VBN   required/VBN   Notify/NNP   me/PRP   of/IN   followup/NN   comments/NNS   via/IN   e/NN   mail/NN   Where/WRB   (PERSON     Will/NNP     The/NNP     Dow/NNP     Jones/NNP     Industrial/NNP     Average/NNP     Be/NNP     At/NNP     Year/NNP)   's/POS   End/NNP   ?/.)
+----------------------------------
+original sentence: 
+Improve the web with 
+
+POS tagged sentence: 
+[('Improve', 'NNP'), ('the', 'DT'), ('web', 'NN'), ('with', 'IN')]
+
+
+ERTAGGED sentence: (S Improve/NNP the/DT web/NN with/IN)
+
+veryneg:0	neg:0	pos:0	verypos:1	total:0

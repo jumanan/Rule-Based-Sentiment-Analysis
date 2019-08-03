@@ -1,0 +1,214 @@
+
+----------------------------------
+original sentence: 
+Nokia stretches lead in UK market Mobile News
+Latest printed issue
+<= 0 || document.form_subscribe.Address.value == '*email address' {alert 'Please enter an e mail address.
+
+POS tagged sentence: 
+[('Nokia', 'NNP'), ('stretches', 'VBZ'), ('lead', 'NN'), ('in', 'IN'), ('UK', 'NNP'), ('market', 'NN'), ('Mobile', 'NNP'), ('News', 'NNP'), ('Latest', 'NNP'), ('printed', 'VBD'), ('issue', 'NN'), ('<', ':'), ('=', ':'), ('0', '-NONE-'), ('|', ':'), ('|', ':'), ('document.form_subscribe.Address.value', 'JJ'), ('=', 'NN'), ('=', ':'), ("'", "''"), ('*', '-NONE-'), ('email', 'VB'), ('address', 'NN'), ("'", "''"), ('{', ':'), ('alert', 'NN'), ("'Please", 'NN'), ('enter', 'NN'), ('an', 'DT'), ('e', 'NN'), ('mail', 'NN'), ('address', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Nokia/NNP)   stretches/VBZ   lead/NN   in/IN   (GPE UK/NNP)   market/NN   (PERSON Mobile/NNP News/NNP Latest/NNP)   printed/VBD   issue/NN   </:   =/:   0/-NONE-   |/:   |/:   document.form_subscribe.Address.value/JJ   =/NN   =/:   '/''   */-NONE-   email/VB   address/NN   '/''   {/:   alert/NN   'Please/NN   enter/NN   an/DT   e/NN   mail/NN   address/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB   stretches/VBZ   lead/NN   in/IN   UK/NNP   market/NN   Mobile/NNP   News/NNP   Latest/NNP)
+
+tagged sentence:
+	 stretches lead in UK market Mobile News Latest	res:1
+	(VERB printed/VBD issue/NN)
+	(VERB email/VB address/NN)
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+	(NOUN document.form_subscribe.Address.value/JJ =/NN)
+	(NOUN alert/NN 'Please/NN enter/NN)
+	(NOUN e/NN mail/NN address/NN)
+
+----------------------------------
+original sentence: 
+' ;return false;}else{return true;}">
+
+Sign up for the FREE 
+Clark White also publishes
+Consumer news, features and reviews
+
+Nokia stretches lead in UK market
+By James Blackman contact jamesb@mobilenewscwp.co.uk Nokia regains and stretches its lead over Samsung in the UK, as BlackBerry also grows share and leapfrogs LG into fourth
+Nokia has regained its lead in the UK market, and stretched it to around nine percentage points in recent weeks over second placed Samsung.
+
+POS tagged sentence: 
+[("'", 'POS'), (';', ':'), ('return', 'NN'), ('false', 'NN'), (';', ':'), ('}', ':'), ('else', 'RB'), ('{', ':'), ('return', 'NN'), ('true', 'NN'), (';', ':'), ('}', ':'), ('"', ':'), ('>', ':'), ('Sign', 'NNP'), ('up', 'IN'), ('for', 'IN'), ('the', 'DT'), ('FREE', 'NNP'), ('Clark', 'NNP'), ('White', 'NNP'), ('also', 'RB'), ('publishes', 'VBZ'), ('Consumer', 'NNP'), ('news', 'NN'), (',', ','), ('features', 'NNS'), ('and', 'CC'), ('reviews', 'NNS'), ('Nokia', 'NNP'), ('stretches', 'NNS'), ('lead', 'VBP'), ('in', 'IN'), ('UK', 'NNP'), ('market', 'NN'), ('By', 'IN'), ('James', 'NNP'), ('Blackman', 'NNP'), ('contact', 'NN'), ('jamesb', 'NN'), ('@', ':'), ('mobilenewscwp.co.uk', 'JJ'), ('Nokia', 'NNP'), ('regains', 'VBZ'), ('and', 'CC'), ('stretches', 'NNS'), ('its', 'PRP$'), ('lead', 'NN'), ('over', 'IN'), ('Samsung', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('UK', 'NNP'), (',', ','), ('as', 'IN'), ('BlackBerry', 'NNP'), ('also', 'RB'), ('grows', 'VBZ'), ('share', 'NN'), ('and', 'CC'), ('leapfrogs', 'NNS'), ('LG', 'NNP'), ('into', 'IN'), ('fourth', 'JJ'), ('Nokia', 'NNP'), ('has', 'VBZ'), ('regained', 'VBN'), ('its', 'PRP$'), ('lead', 'NN'), ('in', 'IN'), ('the', 'DT'), ('UK', 'NNP'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('stretched', 'VBD'), ('it', 'PRP'), ('to', 'TO'), ('around', 'IN'), ('nine', 'CD'), ('percentage', 'NN'), ('points', 'NNS'), ('in', 'IN'), ('recent', 'JJ'), ('weeks', 'NNS'), ('over', 'IN'), ('second', 'JJ'), ('placed', 'VBN'), ('Samsung', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   '/POS   ;/:   return/NN   false/NN   ;/:   }/:   else/RB   {/:   return/NN   true/NN   ;/:   }/:   "/:   >/:   Sign/NNP   up/IN   for/IN   the/DT   (ORGANIZATION FREE/NNP Clark/NNP White/NNP)   also/RB   publishes/VBZ   (ORGANIZATION Consumer/NNP)   news/NN   ,/,   features/NNS   and/CC   reviews/NNS   Nokia/NNP   stretches/NNS   lead/VBP   in/IN   (GPE UK/NNP)   market/NN   By/IN   (PERSON James/NNP Blackman/NNP)   contact/NN   jamesb/NN   @/:   mobilenewscwp.co.uk/JJ   Nokia/NNP   regains/VBZ   and/CC   stretches/NNS   its/PRP$   lead/NN   over/IN   (ORGANIZATION Samsung/NNP)   in/IN   the/DT   (ORGANIZATION UK/NNP)   ,/,   as/IN   (ORGANIZATION BlackBerry/NNP)   also/RB   grows/VBZ   share/NN   and/CC   leapfrogs/NNS   LG/NNP   into/IN   fourth/JJ   (PERSON Nokia/NNP)   has/VBZ   regained/VBN   its/PRP$   lead/NN   in/IN   the/DT   (ORGANIZATION UK/NNP)   market/NN   ,/,   and/CC   stretched/VBD   it/PRP   to/TO   around/IN   nine/CD   percentage/NN   points/NNS   in/IN   recent/JJ   weeks/NNS   over/IN   second/JJ   placed/VBN   (PERSON Samsung/NNP)   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB publishes/VBZ Consumer/NNP news/NN)
+	(VERB   lead/VBP   in/IN   UK/NNP   market/NN   By/IN   James/NNP   Blackman/NNP   contact/NN   jamesb/NN)
+	(VERB regains/VBZ)
+
+tagged sentence:
+	 regains	res:1
+	(VERB grows/VBZ share/NN)
+	(VERB   has/VBZ   regained/VBN   its/PRP$   lead/NN   in/IN   the/DT   UK/NNP   market/NN)
+
+tagged sentence:
+	 has regained its lead in the UK market	res:1
+	(VERB stretched/VBD it/PRP)
+	(VERB placed/VBN Samsung/NNP)
+noun phrases to consider:
+	(NOUN return/NN false/NN)
+	(NOUN return/NN true/NN)
+	(NOUN Sign/NNP)
+	(NOUN FREE/NNP Clark/NNP White/NNP)
+	(NOUN features/NNS)
+	(NOUN reviews/NNS Nokia/NNP stretches/NNS)
+	(NOUN mobilenewscwp.co.uk/JJ Nokia/NNP)
+	(NOUN stretches/NNS)
+	(NOUN lead/NN)
+
+tagged sentence:
+	 lead	res:1
+	(NOUN Samsung/NNP)
+	(NOUN UK/NNP)
+	(NOUN BlackBerry/NNP)
+	(NOUN leapfrogs/NNS LG/NNP)
+	(NOUN fourth/JJ Nokia/NNP)
+	(NOUN nine/CD percentage/NN points/NNS)
+	(NOUN recent/JJ weeks/NNS)
+	(NOUN second/JJ)
+
+----------------------------------
+original sentence: 
+Samsung was number one in the UK by market share in the two months before Christmas, topping the sales chart with around 33 per cent during Christmas week.
+
+POS tagged sentence: 
+[('Samsung', 'NNP'), ('was', 'VBD'), ('number', 'NN'), ('one', 'CD'), ('in', 'IN'), ('the', 'DT'), ('UK', 'NNP'), ('by', 'IN'), ('market', 'NN'), ('share', 'NN'), ('in', 'IN'), ('the', 'DT'), ('two', 'CD'), ('months', 'NNS'), ('before', 'IN'), ('Christmas', 'NNP'), (',', ','), ('topping', 'VBG'), ('the', 'DT'), ('sales', 'NNS'), ('chart', 'NN'), ('with', 'IN'), ('around', 'IN'), ('33', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('during', 'IN'), ('Christmas', 'NNP'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Samsung/NNP)   was/VBD   number/NN   one/CD   in/IN   the/DT   UK/NNP   by/IN   market/NN   share/NN   in/IN   the/DT   two/CD   months/NNS   before/IN   (PERSON Christmas/NNP)   ,/,   topping/VBG   the/DT   sales/NNS   chart/NN   with/IN   around/IN   33/CD   per/IN   cent/NN   during/IN   Christmas/NNP   week/NN   ./.)
+----------------------------------
+original sentence: 
+But Nokia recaptured the lead by early January, and has increased its share by around three per cent in the intervening period with the release of the X3 and X6 handsets in the consumer market and the E72 in the business sector.
+
+POS tagged sentence: 
+[('But', 'CC'), ('Nokia', 'NNP'), ('recaptured', 'VBD'), ('the', 'DT'), ('lead', 'NN'), ('by', 'IN'), ('early', 'JJ'), ('January', 'NNP'), (',', ','), ('and', 'CC'), ('has', 'VBZ'), ('increased', 'VBN'), ('its', 'PRP$'), ('share', 'NN'), ('by', 'IN'), ('around', 'IN'), ('three', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('in', 'IN'), ('the', 'DT'), ('intervening', 'NN'), ('period', 'NN'), ('with', 'IN'), ('the', 'DT'), ('release', 'NN'), ('of', 'IN'), ('the', 'DT'), ('X3', 'NNP'), ('and', 'CC'), ('X6', 'NNP'), ('handsets', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('consumer', 'NN'), ('market', 'NN'), ('and', 'CC'), ('the', 'DT'), ('E72', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('business', 'NN'), ('sector', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (PERSON Nokia/NNP)   recaptured/VBD   the/DT   lead/NN   by/IN   early/JJ   January/NNP   ,/,   and/CC   has/VBZ   increased/VBN   its/PRP$   share/NN   by/IN   around/IN   three/CD   per/IN   cent/NN   in/IN   the/DT   intervening/NN   period/NN   with/IN   the/DT   release/NN   of/IN   the/DT   (ORGANIZATION X3/NNP)   and/CC   (ORGANIZATION X6/NNP)   handsets/NNS   in/IN   the/DT   consumer/NN   market/NN   and/CC   the/DT   (ORGANIZATION E72/NNP)   in/IN   the/DT   business/NN   sector/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB recaptured/VBD the/DT lead/NN by/IN early/JJ January/NNP)
+
+tagged sentence:
+	 recaptured the lead by early January	res:1
+	(VERB   has/VBZ   increased/VBN   its/PRP$   share/NN   by/IN   around/IN   three/CD   per/IN   cent/NN   in/IN   the/DT   intervening/NN   period/NN   with/IN   the/DT   release/NN   of/IN   the/DT   X3/NNP)
+
+tagged sentence:
+	 has increased its share by around three per cent in the intervening period with the release of the X3	res:1
+noun phrases to consider:
+	(NOUN Nokia/NNP)
+	(NOUN X6/NNP handsets/NNS)
+	(NOUN consumer/NN market/NN)
+	(NOUN E72/NNP)
+	(NOUN business/NN sector/NN)
+
+----------------------------------
+original sentence: 
+It now stands at a little over 30 per cent.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('now', 'RB'), ('stands', 'VBZ'), ('at', 'IN'), ('a', 'DT'), ('little', 'RB'), ('over', 'IN'), ('30', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   now/RB   stands/VBZ   at/IN   a/DT   little/RB   over/IN   30/CD   per/IN   cent/NN   ./.)
+----------------------------------
+original sentence: 
+Samsung's share has at the same time dropped by 11 percentage points since its Christmas high, with around 21 per cent at the start of March.
+
+POS tagged sentence: 
+[('Samsung', 'NNP'), ("'s", 'POS'), ('share', 'NN'), ('has', 'VBZ'), ('at', 'IN'), ('the', 'DT'), ('same', 'JJ'), ('time', 'NN'), ('dropped', 'VBD'), ('by', 'IN'), ('11', 'CD'), ('percentage', 'NN'), ('points', 'NNS'), ('since', 'IN'), ('its', 'PRP$'), ('Christmas', 'NNP'), ('high', 'JJ'), (',', ','), ('with', 'IN'), ('around', 'IN'), ('21', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('at', 'IN'), ('the', 'DT'), ('start', 'NN'), ('of', 'IN'), ('March', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Samsung/NNP)   's/POS   share/NN   has/VBZ   at/IN   the/DT   same/JJ   time/NN   dropped/VBD   by/IN   11/CD   percentage/NN   points/NNS   since/IN   its/PRP$   Christmas/NNP   high/JJ   ,/,   with/IN   around/IN   21/CD   per/IN   cent/NN   at/IN   the/DT   start/NN   of/IN   March/NNP   ./.)
+----------------------------------
+original sentence: 
+It has brought new QWERTY and slider Genio variants this year, as well the Google Android based Galaxy Portal.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('brought', 'VBN'), ('new', 'JJ'), ('QWERTY', 'NNP'), ('and', 'CC'), ('slider', 'NN'), ('Genio', 'NNP'), ('variants', 'NNS'), ('this', 'DT'), ('year', 'NN'), (',', ','), ('as', 'IN'), ('well', 'RB'), ('the', 'DT'), ('Google', 'NNP'), ('Android', 'NNP'), ('based', 'VBD'), ('Galaxy', 'NNP'), ('Portal', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   brought/VBN   new/JJ   (ORGANIZATION QWERTY/NNP)   and/CC   slider/NN   Genio/NNP   variants/NNS   this/DT   year/NN   ,/,   as/IN   well/RB   the/DT   (ORGANIZATION Google/NNP Android/NNP)   based/VBD   (PERSON Galaxy/NNP Portal/NNP)   ./.)
+----------------------------------
+original sentence: 
+It has put heavy marketing behind its Omnia II device also.
+
+POS tagged sentence: 
+[('It', 'PRP'), ('has', 'VBZ'), ('put', 'VBN'), ('heavy', 'JJ'), ('marketing', 'NN'), ('behind', 'IN'), ('its', 'PRP$'), ('Omnia', 'NNP'), ('II', 'NNP'), ('device', 'NN'), ('also', 'RB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   has/VBZ   put/VBN   heavy/JJ   marketing/NN   behind/IN   its/PRP$   Omnia/NNP   II/NNP   device/NN   also/RB   ./.)
+----------------------------------
+original sentence: 
+Weekly sales measures by market researcher GfK show Sony Ericsson's share has dropped by almost three percentage points since the start of the year, although it retains third.
+
+POS tagged sentence: 
+[('Weekly', 'RB'), ('sales', 'NNS'), ('measures', 'NNS'), ('by', 'IN'), ('market', 'NN'), ('researcher', 'NN'), ('GfK', 'NNP'), ('show', 'NN'), ('Sony', 'NNP'), ('Ericsson', 'NNP'), ("'s", 'POS'), ('share', 'NN'), ('has', 'VBZ'), ('dropped', 'VBN'), ('by', 'IN'), ('almost', 'RB'), ('three', 'CD'), ('percentage', 'NN'), ('points', 'NNS'), ('since', 'IN'), ('the', 'DT'), ('start', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), (',', ','), ('although', 'IN'), ('it', 'PRP'), ('retains', 'VBZ'), ('third', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Weekly/RB   sales/NNS   measures/NNS   by/IN   market/NN   researcher/NN   (ORGANIZATION GfK/NNP)   show/NN   (PERSON Sony/NNP Ericsson/NNP)   's/POS   share/NN   has/VBZ   dropped/VBN   by/IN   almost/RB   three/CD   percentage/NN   points/NNS   since/IN   the/DT   start/NN   of/IN   the/DT   year/NN   ,/,   although/IN   it/PRP   retains/VBZ   third/JJ   ./.)
+----------------------------------
+original sentence: 
+Its flagship Aino and Satio, after early software troubles, have led its portfolio.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('flagship', 'NN'), ('Aino', 'NNP'), ('and', 'CC'), ('Satio', 'NNP'), (',', ','), ('after', 'IN'), ('early', 'JJ'), ('software', 'NN'), ('troubles', 'NNS'), (',', ','), ('have', 'VBP'), ('led', 'VBN'), ('its', 'PRP$'), ('portfolio', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   flagship/NN   (PERSON Aino/NNP)   and/CC   (PERSON Satio/NNP)   ,/,   after/IN   early/JJ   software/NN   troubles/NNS   ,/,   have/VBP   led/VBN   its/PRP$   portfolio/NN   ./.)
+----------------------------------
+original sentence: 
+Its new Vivaz launched on O2, Vodafone, Orange and T Mobile last week.
+
+POS tagged sentence: 
+[('Its', 'PRP$'), ('new', 'JJ'), ('Vivaz', 'NNP'), ('launched', 'VBD'), ('on', 'IN'), ('O2', 'NNP'), (',', ','), ('Vodafone', 'NNP'), (',', ','), ('Orange', 'NNP'), ('and', 'CC'), ('T', 'NNP'), ('Mobile', 'NNP'), ('last', 'JJ'), ('week', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Its/PRP$   new/JJ   (PERSON Vivaz/NNP)   launched/VBD   on/IN   O2/NNP   ,/,   (GPE Vodafone/NNP)   ,/,   (PERSON Orange/NNP)   and/CC   (ORGANIZATION T/NNP)   Mobile/NNP   last/JJ   week/NN   ./.)
+----------------------------------
+original sentence: 
+LG has remained broadly steady with between eight and nine per cent of the UK market.
+
+POS tagged sentence: 
+[('LG', 'NNP'), ('has', 'VBZ'), ('remained', 'VBN'), ('broadly', 'RB'), ('steady', 'JJ'), ('with', 'IN'), ('between', 'IN'), ('eight', 'CD'), ('and', 'CC'), ('nine', 'CD'), ('per', 'IN'), ('cent', 'NN'), ('of', 'IN'), ('the', 'DT'), ('UK', 'NNP'), ('market', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   LG/NNP   has/VBZ   remained/VBN   broadly/RB   steady/JJ   with/IN   between/IN   eight/CD   and/CC   nine/CD   per/IN   cent/NN   of/IN   the/DT   (ORGANIZATION UK/NNP)   market/NN   ./.)
+----------------------------------
+original sentence: 
+LG's first Android handset, the InTouch Max, launched on T Mobile and Virgin at the start of the year.
+
+POS tagged sentence: 
+[('LG', 'NNP'), ("'s", 'POS'), ('first', 'JJ'), ('Android', 'NNP'), ('handset', 'NN'), (',', ','), ('the', 'DT'), ('InTouch', 'NNP'), ('Max', 'NNP'), (',', ','), ('launched', 'VBD'), ('on', 'IN'), ('T', 'NNP'), ('Mobile', 'NNP'), ('and', 'CC'), ('Virgin', 'NNP'), ('at', 'IN'), ('the', 'DT'), ('start', 'NN'), ('of', 'IN'), ('the', 'DT'), ('year', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   LG/NNP   's/POS   first/JJ   Android/NNP   handset/NN   ,/,   the/DT   (ORGANIZATION InTouch/NNP Max/NNP)   ,/,   launched/VBD   on/IN   T/NNP   Mobile/NNP   and/CC   (PERSON Virgin/NNP)   at/IN   the/DT   start/NN   of/IN   the/DT   year/NN   ./.)
+----------------------------------
+original sentence: 
+But BlackBerry maker Research in Motion has jumped more than four points in the first quarter to around 11 per cent, and into fourth place ahead of LG in UK market share terms.
+
+POS tagged sentence: 
+[('But', 'CC'), ('BlackBerry', 'NNP'), ('maker', 'NN'), ('Research', 'NNP'), ('in', 'IN'), ('Motion', 'NNP'), ('has', 'VBZ'), ('jumped', 'VBN'), ('more', 'JJR'), ('than', 'IN'), ('four', 'CD'), ('points', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('first', 'JJ'), ('quarter', 'NN'), ('to', 'TO'), ('around', 'IN'), ('11', 'CD'), ('per', 'IN'), ('cent', 'NN'), (',', ','), ('and', 'CC'), ('into', 'IN'), ('fourth', 'JJ'), ('place', 'NN'), ('ahead', 'RB'), ('of', 'IN'), ('LG', 'NNP'), ('in', 'IN'), ('UK', 'NNP'), ('market', 'NN'), ('share', 'NN'), ('terms', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   But/CC   (ORGANIZATION BlackBerry/NNP)   maker/NN   Research/NNP   in/IN   (GPE Motion/NNP)   has/VBZ   jumped/VBN   more/JJR   than/IN   four/CD   points/NNS   in/IN   the/DT   first/JJ   quarter/NN   to/TO   around/IN   11/CD   per/IN   cent/NN   ,/,   and/CC   into/IN   fourth/JJ   place/NN   ahead/RB   of/IN   LG/NNP   in/IN   (GPE UK/NNP)   market/NN   share/NN   terms/NNS   ./.)
+----------------------------------
+original sentence: 
+It is pushing into the prepay market, and increasingly into the consumer mass market with the Curve 8520 in particular.
+
+
+POS tagged sentence: 
+[('It', 'PRP'), ('is', 'VBZ'), ('pushing', 'VBG'), ('into', 'IN'), ('the', 'DT'), ('prepay', 'NN'), ('market', 'NN'), (',', ','), ('and', 'CC'), ('increasingly', 'RB'), ('into', 'IN'), ('the', 'DT'), ('consumer', 'NN'), ('mass', 'NN'), ('market', 'NN'), ('with', 'IN'), ('the', 'DT'), ('Curve', 'NNP'), ('8520', 'CD'), ('in', 'IN'), ('particular', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   It/PRP   is/VBZ   pushing/VBG   into/IN   the/DT   prepay/NN   market/NN   ,/,   and/CC   increasingly/RB   into/IN   the/DT   consumer/NN   mass/NN   market/NN   with/IN   the/DT   Curve/NNP   8520/CD   in/IN   particular/JJ   ./.)
+
+veryneg:0	neg:0	pos:6	verypos:0	total:1

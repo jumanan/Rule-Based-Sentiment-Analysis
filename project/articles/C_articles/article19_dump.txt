@@ -1,0 +1,258 @@
+
+----------------------------------
+original sentence: 
+Downgrades: DWA, BLK, RIMM | Market News Video
+Sign up to receive FREE email alerts when new videos are released about your favorite stocks!
+
+POS tagged sentence: 
+[('Downgrades', 'NNP'), (':', ':'), ('DWA', 'NNP'), (',', ','), ('BLK', 'NNP'), (',', ','), ('RIMM', 'NNP'), ('|', 'NNP'), ('Market', 'NNP'), ('News', 'NNP'), ('Video', 'NNP'), ('Sign', 'NNP'), ('up', 'IN'), ('to', 'TO'), ('receive', 'VB'), ('FREE', 'NNP'), ('email', 'NN'), ('alerts', 'NNS'), ('when', 'WRB'), ('new', 'JJ'), ('videos', 'NNS'), ('are', 'VBP'), ('released', 'VBN'), ('about', 'IN'), ('your', 'PRP$'), ('favorite', 'JJ'), ('stocks', 'NNS'), ('!', '.')]
+
+
+ERTAGGED sentence: (S   Downgrades/NNP   :/:   DWA/NNP   ,/,   (ORGANIZATION BLK/NNP)   ,/,   (ORGANIZATION RIMM/NNP)   |/NNP   (PERSON Market/NNP News/NNP Video/NNP Sign/NNP)   up/IN   to/TO   receive/VB   (ORGANIZATION FREE/NNP)   email/NN   alerts/NNS   when/WRB   new/JJ   videos/NNS   are/VBP   released/VBN   about/IN   your/PRP$   favorite/JJ   stocks/NNS   !/.)
+----------------------------------
+original sentence: 
+This morning, Morgan Stanley NYSE:
+ downgraded shares of DreamWorks Animation NASDAQ:
+ to underweight from equalweight and set a $35 price target.
+
+POS tagged sentence: 
+[('This', 'DT'), ('morning', 'NN'), (',', ','), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('downgraded', 'VBD'), ('shares', 'NNS'), ('of', 'IN'), ('DreamWorks', 'NNP'), ('Animation', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('to', 'TO'), ('underweight', 'VB'), ('from', 'IN'), ('equalweight', 'NN'), ('and', 'CC'), ('set', 'VBD'), ('a', 'DT'), ('$', '$'), ('35', 'CD'), ('price', 'NN'), ('target', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   This/DT   morning/NN   ,/,   (PERSON Morgan/NNP Stanley/NNP)   NYSE/NNP   :/:   downgraded/VBD   shares/NNS   of/IN   (ORGANIZATION DreamWorks/NNP Animation/NNP)   NASDAQ/NNP   :/:   to/TO   underweight/VB   from/IN   equalweight/NN   and/CC   set/VBD   a/DT   $/$   35/CD   price/NN   target/NN   ./.)
+----------------------------------
+original sentence: 
+On the downgrade DreamWorks is trading lower by about 1.35%.
+
+POS tagged sentence: 
+[('On', 'IN'), ('the', 'DT'), ('downgrade', 'NN'), ('DreamWorks', 'VBZ'), ('is', 'VBZ'), ('trading', 'VBG'), ('lower', 'JJR'), ('by', 'IN'), ('about', 'RB'), ('1.35', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   On/IN   the/DT   downgrade/NN   DreamWorks/VBZ   is/VBZ   trading/VBG   lower/JJR   by/IN   about/RB   1.35/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+and Deutsche Bank NYSE:
+ both downgraded Blackrock NYSE:
+ .
+
+POS tagged sentence: 
+[('and', 'CC'), ('Deutsche', 'NNP'), ('Bank', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('both', 'DT'), ('downgraded', 'VBD'), ('Blackrock', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   and/CC   (ORGANIZATION Deutsche/NNP Bank/NNP)   NYSE/NNP   :/:   both/DT   downgraded/VBD   (PERSON Blackrock/NNP NYSE/NNP)   :/:   ./.)
+----------------------------------
+original sentence: 
+Citigroup's downgrade was to sell from buy and Deutsche Bank's downgrade was from buy to hold.
+
+POS tagged sentence: 
+[('Citigroup', 'NNP'), ("'s", 'POS'), ('downgrade', 'NN'), ('was', 'VBD'), ('to', 'TO'), ('sell', 'VB'), ('from', 'IN'), ('buy', 'NN'), ('and', 'CC'), ('Deutsche', 'NNP'), ('Bank', 'NNP'), ("'s", 'POS'), ('downgrade', 'NN'), ('was', 'VBD'), ('from', 'IN'), ('buy', 'NN'), ('to', 'TO'), ('hold', 'VB'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Citigroup/NNP)   's/POS   downgrade/NN   was/VBD   to/TO   sell/VB   from/IN   buy/NN   and/CC   (ORGANIZATION Deutsche/NNP Bank/NNP)   's/POS   downgrade/NN   was/VBD   from/IN   buy/NN   to/TO   hold/VB   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB was/VBD to/TO sell/VB from/IN buy/NN)
+	(VERB was/VBD from/IN buy/NN)
+	(VERB hold/VB)
+noun phrases to consider:
+	(NOUN Citigroup/NNP)
+	(NOUN downgrade/NN)
+	(NOUN Deutsche/NNP Bank/NNP)
+	(NOUN downgrade/NN)
+
+----------------------------------
+original sentence: 
+Deutsche Bank cited valuation and Citigroup believes EPS expectations are inflated.
+
+POS tagged sentence: 
+[('Deutsche', 'NNP'), ('Bank', 'NNP'), ('cited', 'VBD'), ('valuation', 'NN'), ('and', 'CC'), ('Citigroup', 'NNP'), ('believes', 'NNS'), ('EPS', 'NNP'), ('expectations', 'NNS'), ('are', 'VBP'), ('inflated', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Deutsche/NNP)   (PERSON Bank/NNP)   cited/VBD   valuation/NN   and/CC   (ORGANIZATION Citigroup/NNP)   believes/NNS   (ORGANIZATION EPS/NNP)   expectations/NNS   are/VBP   inflated/VBN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB cited/VBD valuation/NN)
+	(VERB are/VBP inflated/VBN)
+noun phrases to consider:
+	(NOUN Deutsche/NNP Bank/NNP)
+	(NOUN Citigroup/NNP believes/NNS EPS/NNP expectations/NNS)
+
+----------------------------------
+original sentence: 
+Shares of Blackrock are down about 3.3%.
+
+POS tagged sentence: 
+[('Shares', 'NNS'), ('of', 'IN'), ('Blackrock', 'NNP'), ('are', 'VBP'), ('down', 'RB'), ('about', 'IN'), ('3.3', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Shares/NNS   of/IN   (GPE Blackrock/NNP)   are/VBP   down/RB   about/IN   3.3/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+Goldman Sachs NYSE:
+ downgraded Research In Motion NASDAQ:
+ to sell from neutral and lowered their price target to $65 per share.
+
+POS tagged sentence: 
+[('Goldman', 'NNP'), ('Sachs', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('downgraded', 'VBD'), ('Research', 'NNP'), ('In', 'NNP'), ('Motion', 'NNP'), ('NASDAQ', 'NNP'), (':', ':'), ('to', 'TO'), ('sell', 'VB'), ('from', 'IN'), ('neutral', 'JJ'), ('and', 'CC'), ('lowered', 'VBN'), ('their', 'PRP$'), ('price', 'NN'), ('target', 'NN'), ('to', 'TO'), ('$', '$'), ('65', 'CD'), ('per', 'IN'), ('share', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Goldman/NNP)   (PERSON Sachs/NNP NYSE/NNP)   :/:   downgraded/VBD   (PERSON Research/NNP In/NNP)   Motion/NNP   NASDAQ/NNP   :/:   to/TO   sell/VB   from/IN   neutral/JJ   and/CC   lowered/VBN   their/PRP$   price/NN   target/NN   to/TO   $/$   65/CD   per/IN   share/NN   ./.)
+----------------------------------
+original sentence: 
+Research In Motion shares are lower by about 4.65%.
+
+POS tagged sentence: 
+[('Research', 'NN'), ('In', 'IN'), ('Motion', 'NNP'), ('shares', 'NNS'), ('are', 'VBP'), ('lower', 'JJR'), ('by', 'IN'), ('about', 'RB'), ('4.65', 'CD'), ('%', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Research/NN)   In/IN   (GPE Motion/NNP)   shares/NNS   are/VBP   lower/JJR   by/IN   about/RB   4.65/CD   %/NN   ./.)
+----------------------------------
+original sentence: 
+For MarketNewsVideo.com, I'm Sayoko Murase.
+
+POS tagged sentence: 
+[('For', 'IN'), ('MarketNewsVideo.com', 'JJ'), (',', ','), ('I', 'PRP'), ("'m", 'VBP'), ('Sayoko', 'NNP'), ('Murase', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   For/IN   MarketNewsVideo.com/JJ   ,/,   I/PRP   'm/VBP   (PERSON Sayoko/NNP Murase/NNP)   ./.)
+----------------------------------
+original sentence: 
+Friday Sector Laggards: Drug Delivery, Education & Training Services
+Friday, April 23, 4:58 PM ET
+Friday Sector Leaders: Residential REIT, Residential Construction Stocks
+Friday, April 23, 4:51 PM ET
+Friday's ETF Movers: XLFS, HHH
+Friday, April 23, 4:47 PM ET
+Today's Big Gainers: CMG, URI, TCB, TXT, STR
+Friday, April 23, 4:14 PM ET
+Daily Dividend Report: SJM, BHI, AA, SII, COST
+Friday, April 23, 4:06 PM ET
+Daily Dividend Report: TRV, KO, SLB, K, CNP
+Friday, April 23, 4:03 PM ET
+Upgrades: BLK, CHRW, HTZ
+Friday, April 23, 3:53 PM ET
+Downgrades: BZH, EMC, QCOM
+Friday, April 23, 3:50 PM ET
+Travelers Q1 Earnings Miss Estimates
+Friday, April 23, 2:15 PM ET
+Notable Earnings: Xerox, T. Rowe
+Friday, April 23, 2:09 PM ET
+Schlumberger Earnings Drop 28%
+Friday, April 23, 1:59 PM ET
+Eastman Chemical Mulls Sale of PET Business Friday, April 23, 1:36 PM ET
+Earnings After the Bell: MSFT, AMZN
+Friday, April 23, 11:52 AM ET
+Diversified Manufacturers: Honeywell, Johnson Controls
+Friday, April 23, 11:28 AM ET
+American Express, Capital One Post Earnings
+Friday, April 23, 10:42 AM ET
+Daily Dividend Report: QCOM, PFE, LMT, AON, RS
+Thursday, April 22, 5:25 PM ET
+
+
+POS tagged sentence: 
+[('Friday', 'NNP'), ('Sector', 'NNP'), ('Laggards', 'NNP'), (':', ':'), ('Drug', 'NNP'), ('Delivery', 'NNP'), (',', ','), ('Education', 'NNP'), ('&', 'CC'), ('Training', 'NNP'), ('Services', 'NNPS'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('58', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Friday', 'NNP'), ('Sector', 'NNP'), ('Leaders', 'NNP'), (':', ':'), ('Residential', 'JJ'), ('REIT', 'NN'), (',', ','), ('Residential', 'NNP'), ('Construction', 'NNP'), ('Stocks', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('51', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Friday', 'NNP'), ("'s", 'POS'), ('ETF', 'NNP'), ('Movers', 'NNP'), (':', ':'), ('XLFS', 'NNP'), (',', ','), ('HHH', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('47', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Today', 'NNP'), ("'s", 'POS'), ('Big', 'NNP'), ('Gainers', 'NNP'), (':', ':'), ('CMG', 'NNP'), (',', ','), ('URI', 'NNP'), (',', ','), ('TCB', 'NNP'), (',', ','), ('TXT', 'NNP'), (',', ','), ('STR', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('14', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Daily', 'NNP'), ('Dividend', 'NNP'), ('Report', 'NNP'), (':', ':'), ('SJM', 'NNP'), (',', ','), ('BHI', 'NNP'), (',', ','), ('AA', 'NNP'), (',', ','), ('SII', 'NNP'), (',', ','), ('COST', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('06', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Daily', 'NNP'), ('Dividend', 'NNP'), ('Report', 'NNP'), (':', ':'), ('TRV', 'NNP'), (',', ','), ('KO', 'NNP'), (',', ','), ('SLB', 'NNP'), (',', ','), ('K', 'NNP'), (',', ','), ('CNP', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('4', 'CD'), (':', ':'), ('03', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Upgrades', 'NNP'), (':', ':'), ('BLK', 'NNP'), (',', ','), ('CHRW', 'NNP'), (',', ','), ('HTZ', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('3', 'CD'), (':', ':'), ('53', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Downgrades', 'NNP'), (':', ':'), ('BZH', 'NNP'), (',', ','), ('EMC', 'NNP'), (',', ','), ('QCOM', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('3', 'CD'), (':', ':'), ('50', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Travelers', 'NNPS'), ('Q1', 'NNP'), ('Earnings', 'NNP'), ('Miss', 'NNP'), ('Estimates', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2', 'CD'), (':', ':'), ('15', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Notable', 'NNP'), ('Earnings', 'NNP'), (':', ':'), ('Xerox', 'NNP'), (',', ','), ('T.', 'NNP'), ('Rowe', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('2', 'CD'), (':', ':'), ('09', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Schlumberger', 'NNP'), ('Earnings', 'NNP'), ('Drop', 'NNP'), ('28', 'CD'), ('%', 'NN'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('1', 'CD'), (':', ':'), ('59', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Eastman', 'NNP'), ('Chemical', 'NNP'), ('Mulls', 'NNP'), ('Sale', 'NNP'), ('of', 'IN'), ('PET', 'NNP'), ('Business', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('1', 'CD'), (':', ':'), ('36', 'CD'), ('PM', 'NNP'), ('ET', 'NNP'), ('Earnings', 'NNP'), ('After', 'NNP'), ('the', 'DT'), ('Bell', 'NNP'), (':', ':'), ('MSFT', 'NNP'), (',', ','), ('AMZN', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('11', 'CD'), (':', ':'), ('52', 'CD'), ('AM', 'NNP'), ('ET', 'NNP'), ('Diversified', 'NNP'), ('Manufacturers', 'NNP'), (':', ':'), ('Honeywell', 'NNP'), (',', ','), ('Johnson', 'NNP'), ('Controls', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('11', 'CD'), (':', ':'), ('28', 'CD'), ('AM', 'NNP'), ('ET', 'NNP'), ('American', 'NNP'), ('Express', 'NNP'), (',', ','), ('Capital', 'NNP'), ('One', 'CD'), ('Post', 'NNP'), ('Earnings', 'NNP'), ('Friday', 'NNP'), (',', ','), ('April', 'NNP'), ('23', 'CD'), (',', ','), ('10', 'CD'), (':', ':'), ('42', 'CD'), ('AM', 'NNP'), ('ET', 'NNP'), ('Daily', 'NNP'), ('Dividend', 'NNP'), ('Report', 'NNP'), (':', ':'), ('QCOM', 'NNP'), (',', ','), ('PFE', 'NNP'), (',', ','), ('LMT', 'NNP'), (',', ','), ('AON', 'NNP'), (',', ','), ('RS', 'NNP'), ('Thursday', 'NNP'), (',', ','), ('April', 'NNP'), ('22', 'CD'), (',', ','), ('5', 'CD'), (':', ':'), ('25', 'CD'), ('PM', 'NNP'), ('ET', 'NNP')]
+
+
+ERTAGGED sentence: (S   Friday/NNP   Sector/NNP   Laggards/NNP   :/:   (PERSON Drug/NNP Delivery/NNP)   ,/,   (ORGANIZATION Education/NNP)   &/CC   (ORGANIZATION Training/NNP Services/NNPS)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   58/CD   PM/NNP   ET/NNP   Friday/NNP   Sector/NNP   Leaders/NNP   :/:   Residential/JJ   REIT/NN   ,/,   (PERSON Residential/NNP Construction/NNP Stocks/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   51/CD   PM/NNP   ET/NNP   Friday/NNP   's/POS   (ORGANIZATION ETF/NNP)   Movers/NNP   :/:   XLFS/NNP   ,/,   (ORGANIZATION HHH/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   47/CD   PM/NNP   ET/NNP   Today/NNP   's/POS   Big/NNP   Gainers/NNP   :/:   CMG/NNP   ,/,   (ORGANIZATION URI/NNP)   ,/,   (ORGANIZATION TCB/NNP)   ,/,   (ORGANIZATION TXT/NNP)   ,/,   (ORGANIZATION STR/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   14/CD   PM/NNP   ET/NNP   (PERSON Daily/NNP Dividend/NNP Report/NNP)   :/:   SJM/NNP   ,/,   (ORGANIZATION BHI/NNP)   ,/,   (ORGANIZATION AA/NNP)   ,/,   (ORGANIZATION SII/NNP)   ,/,   (ORGANIZATION COST/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   06/CD   PM/NNP   ET/NNP   (PERSON Daily/NNP Dividend/NNP Report/NNP)   :/:   TRV/NNP   ,/,   (ORGANIZATION KO/NNP)   ,/,   (ORGANIZATION SLB/NNP)   ,/,   K/NNP   ,/,   (ORGANIZATION CNP/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   4/CD   :/:   03/CD   PM/NNP   ET/NNP   Upgrades/NNP   :/:   BLK/NNP   ,/,   (ORGANIZATION CHRW/NNP)   ,/,   (ORGANIZATION HTZ/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   3/CD   :/:   53/CD   PM/NNP   ET/NNP   Downgrades/NNP   :/:   BZH/NNP   ,/,   (ORGANIZATION EMC/NNP)   ,/,   (ORGANIZATION QCOM/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   3/CD   :/:   50/CD   PM/NNP   ET/NNP   Travelers/NNPS   Q1/NNP   Earnings/NNP   Miss/NNP   Estimates/NNP   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   2/CD   :/:   15/CD   PM/NNP   ET/NNP   Notable/NNP   Earnings/NNP   :/:   (PERSON Xerox/NNP)   ,/,   T./NNP   Rowe/NNP   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   2/CD   :/:   09/CD   PM/NNP   ET/NNP   Schlumberger/NNP   Earnings/NNP   Drop/NNP   28/CD   %/NN   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   1/CD   :/:   59/CD   PM/NNP   ET/NNP   (PERSON Eastman/NNP Chemical/NNP Mulls/NNP Sale/NNP)   of/IN   (ORGANIZATION PET/NNP Business/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   1/CD   :/:   36/CD   PM/NNP   ET/NNP   Earnings/NNP   After/NNP   the/DT   (ORGANIZATION Bell/NNP)   :/:   MSFT/NNP   ,/,   (ORGANIZATION AMZN/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   11/CD   :/:   52/CD   AM/NNP   ET/NNP   Diversified/NNP   Manufacturers/NNP   :/:   (PERSON Honeywell/NNP)   ,/,   (PERSON Johnson/NNP Controls/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   11/CD   :/:   28/CD   AM/NNP   ET/NNP   (ORGANIZATION American/NNP Express/NNP)   ,/,   (ORGANIZATION Capital/NNP One/CD Post/NNP Earnings/NNP)   Friday/NNP   ,/,   April/NNP   23/CD   ,/,   10/CD   :/:   42/CD   AM/NNP   ET/NNP   (PERSON Daily/NNP Dividend/NNP Report/NNP)   :/:   (ORGANIZATION QCOM/NNP)   ,/,   (ORGANIZATION PFE/NNP)   ,/,   (ORGANIZATION LMT/NNP)   ,/,   (ORGANIZATION AON/NNP)   ,/,   (ORGANIZATION RS/NNP)   Thursday/NNP   ,/,   April/NNP   22/CD   ,/,   5/CD   :/:   25/CD   PM/NNP   ET/NNP)Up/down number phrases to consider:
+verb phrases to consider:
+noun phrases to consider:
+	(NOUN Friday/NNP Sector/NNP Laggards/NNP)
+	(NOUN Drug/NNP Delivery/NNP)
+	(NOUN Education/NNP)
+	(NOUN Training/NNP Services/NNPS Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 58/CD PM/NNP ET/NNP Friday/NNP Sector/NNP)
+	(NOUN Leaders/NNP)
+
+tagged sentence:
+	 Leaders	res:1
+	(NOUN Residential/JJ REIT/NN)
+	(NOUN Residential/NNP Construction/NNP Stocks/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 51/CD PM/NNP ET/NNP Friday/NNP)
+	(NOUN ETF/NNP Movers/NNP)
+	(NOUN XLFS/NNP)
+	(NOUN HHH/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 47/CD PM/NNP ET/NNP Today/NNP)
+	(NOUN Big/NNP Gainers/NNP)
+	(NOUN CMG/NNP)
+	(NOUN URI/NNP)
+	(NOUN TCB/NNP)
+	(NOUN TXT/NNP)
+	(NOUN STR/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 14/CD PM/NNP ET/NNP Daily/NNP Dividend/NNP)
+	(NOUN Report/NNP)
+	(NOUN SJM/NNP)
+	(NOUN BHI/NNP)
+	(NOUN AA/NNP)
+	(NOUN SII/NNP)
+	(NOUN COST/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 06/CD PM/NNP ET/NNP Daily/NNP Dividend/NNP)
+	(NOUN Report/NNP)
+	(NOUN TRV/NNP)
+	(NOUN KO/NNP)
+	(NOUN SLB/NNP)
+	(NOUN K/NNP)
+	(NOUN CNP/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 03/CD PM/NNP ET/NNP Upgrades/NNP)
+
+tagged sentence:
+	 03 PM ET Upgrades	res:2
+	(NOUN BLK/NNP)
+	(NOUN CHRW/NNP)
+	(NOUN HTZ/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 53/CD PM/NNP ET/NNP Downgrades/NNP)
+
+tagged sentence:
+	 53 PM ET Downgrades	res:-2
+	(NOUN BZH/NNP)
+	(NOUN EMC/NNP)
+	(NOUN QCOM/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 50/CD PM/NNP ET/NNP Travelers/NNPS Q1/NNP)
+	(NOUN Earnings/NNP Miss/NNP Estimates/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 15/CD PM/NNP ET/NNP Notable/NNP Earnings/NNP)
+	(NOUN Xerox/NNP)
+	(NOUN T./NNP Rowe/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 09/CD PM/NNP ET/NNP Schlumberger/NNP Earnings/NNP)
+	(NOUN Drop/NNP)
+
+tagged sentence:
+	 Drop	res:-1
+	(NOUN 28/CD %/NN Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 59/CD PM/NNP ET/NNP Eastman/NNP Chemical/NNP)
+	(NOUN Mulls/NNP Sale/NNP)
+	(NOUN PET/NNP Business/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 36/CD PM/NNP ET/NNP Earnings/NNP After/NNP)
+	(NOUN Bell/NNP)
+	(NOUN MSFT/NNP)
+	(NOUN AMZN/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 52/CD AM/NNP ET/NNP Diversified/NNP Manufacturers/NNP)
+	(NOUN Honeywell/NNP)
+	(NOUN Johnson/NNP Controls/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 28/CD AM/NNP ET/NNP American/NNP Express/NNP)
+	(NOUN Capital/NNP)
+	(NOUN One/CD Post/NNP Earnings/NNP Friday/NNP)
+	(NOUN April/NNP)
+	(NOUN 42/CD AM/NNP ET/NNP Daily/NNP Dividend/NNP)
+	(NOUN Report/NNP)
+	(NOUN QCOM/NNP)
+	(NOUN PFE/NNP)
+	(NOUN LMT/NNP)
+	(NOUN AON/NNP)
+	(NOUN RS/NNP Thursday/NNP)
+	(NOUN April/NNP)
+	(NOUN 25/CD PM/NNP ET/NNP)
+
+
+veryneg:1	neg:1	pos:1	verypos:1	total:6

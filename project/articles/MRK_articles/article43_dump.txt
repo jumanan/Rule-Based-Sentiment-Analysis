@@ -1,0 +1,259 @@
+
+----------------------------------
+original sentence: 
+Dow rises on Merck and Pfizer International Business Times
+Your feedback is important to help us continuously improve the service we offer.
+
+POS tagged sentence: 
+[('Dow', 'NNP'), ('rises', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Pfizer', 'NNP'), ('International', 'NNP'), ('Business', 'NNP'), ('Times', 'NNP'), ('Your', 'NNP'), ('feedback', 'NN'), ('is', 'VBZ'), ('important', 'JJ'), ('to', 'TO'), ('help', 'VB'), ('us', 'PRP'), ('continuously', 'RB'), ('improve', 'VB'), ('the', 'DT'), ('service', 'NN'), ('we', 'PRP'), ('offer', 'VBP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Dow/NNP)   rises/NNS   on/IN   (ORGANIZATION Merck/NNP)   and/CC   (ORGANIZATION Pfizer/NNP International/NNP Business/NNP Times/NNP)   Your/NNP   feedback/NN   is/VBZ   important/JJ   to/TO   help/VB   us/PRP   continuously/RB   improve/VB   the/DT   service/NN   we/PRP   offer/VBP   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB is/VBZ important/JJ)
+	(VERB help/VB us/PRP continuously/RB)
+	(VERB improve/VB the/DT service/NN we/PRP)
+	(VERB offer/VBP)
+noun phrases to consider:
+	(NOUN Dow/NNP rises/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Pfizer/NNP International/NNP Business/NNP Times/NNP)
+	(NOUN Your/NNP feedback/NN)
+
+----------------------------------
+original sentence: 
+Submit your feedback
+By Hao Li | March 22, 2010 12:30 PM EDT
+Dow rises on Merck and Pfizer
+Latest News in Global Markets
+Dow rises on Merck and Pfizer
+The Dow Jones Industrial Average recovered from a lower opening to trade positive for the day.
+
+POS tagged sentence: 
+[('Submit', 'NN'), ('your', 'PRP$'), ('feedback', 'NN'), ('By', 'IN'), ('Hao', 'NNP'), ('Li', 'NNP'), ('|', 'NNP'), ('March', 'NNP'), ('22', 'CD'), (',', ','), ('2010', 'CD'), ('12', 'CD'), (':', ':'), ('30', 'CD'), ('PM', 'NNP'), ('EDT', 'NNP'), ('Dow', 'NNP'), ('rises', 'VBZ'), ('on', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Pfizer', 'NNP'), ('Latest', 'NNP'), ('News', 'NNP'), ('in', 'IN'), ('Global', 'NNP'), ('Markets', 'NNPS'), ('Dow', 'NNP'), ('rises', 'NNS'), ('on', 'IN'), ('Merck', 'NNP'), ('and', 'CC'), ('Pfizer', 'NNP'), ('The', 'NNP'), ('Dow', 'NNP'), ('Jones', 'NNP'), ('Industrial', 'NNP'), ('Average', 'NNP'), ('recovered', 'VBD'), ('from', 'IN'), ('a', 'DT'), ('lower', 'JJR'), ('opening', 'VBG'), ('to', 'TO'), ('trade', 'VB'), ('positive', 'JJ'), ('for', 'IN'), ('the', 'DT'), ('day', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Submit/NN)   your/PRP$   feedback/NN   By/IN   (PERSON Hao/NNP Li/NNP)   |/NNP   March/NNP   22/CD   ,/,   2010/CD   12/CD   :/:   30/CD   PM/NNP   EDT/NNP   Dow/NNP   rises/VBZ   on/IN   (ORGANIZATION Merck/NNP)   and/CC   (PERSON Pfizer/NNP Latest/NNP News/NNP)   in/IN   (GPE Global/NNP)   (PERSON Markets/NNPS Dow/NNP)   rises/NNS   on/IN   (ORGANIZATION Merck/NNP)   and/CC   (PERSON     Pfizer/NNP     The/NNP     Dow/NNP     Jones/NNP     Industrial/NNP     Average/NNP)   recovered/VBD   from/IN   a/DT   lower/JJR   opening/VBG   to/TO   trade/VB   positive/JJ   for/IN   the/DT   day/NN   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB rises/VBZ on/IN Merck/NNP)
+	(VERB recovered/VBD from/IN a/DT lower/JJR)
+	(VERB opening/VBG to/TO trade/VB positive/JJ for/IN the/DT day/NN)
+noun phrases to consider:
+	(NOUN Submit/NN)
+	(NOUN feedback/NN)
+	(NOUN Hao/NNP Li/NNP |/NNP March/NNP)
+	(NOUN 30/CD PM/NNP EDT/NNP Dow/NNP)
+	(NOUN Pfizer/NNP Latest/NNP News/NNP)
+	(NOUN Global/NNP Markets/NNPS Dow/NNP rises/NNS)
+	(NOUN Merck/NNP)
+	(NOUN Pfizer/NNP The/NNP Dow/NNP Jones/NNP)
+	(NOUN Industrial/NNP Average/NNP)
+
+----------------------------------
+original sentence: 
+Pharmaceutical giants Merck NYSE:MRK and  NYSE:PFE are among its steepest gainers.
+
+POS tagged sentence: 
+[('Pharmaceutical', 'JJ'), ('giants', 'NNS'), ('Merck', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('MRK', 'NNP'), ('and', 'CC'), ('NYSE', 'NNP'), (':', ':'), ('PFE', 'NNP'), ('are', 'VBP'), ('among', 'IN'), ('its', 'PRP$'), ('steepest', 'NN'), ('gainers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Pharmaceutical/JJ   giants/NNS   (PERSON Merck/NNP NYSE/NNP)   :/:   MRK/NNP   and/CC   (ORGANIZATION NYSE/NNP)   :/:   PFE/NNP   are/VBP   among/IN   its/PRP$   steepest/NN   gainers/NNS   ./.)Up/down number phrases to consider:
+verb phrases to consider:
+	(VERB are/VBP among/IN its/PRP$ steepest/NN gainers/NNS)
+noun phrases to consider:
+	(NOUN Pharmaceutical/JJ giants/NNS Merck/NNP NYSE/NNP)
+	(NOUN MRK/NNP)
+	(NOUN NYSE/NNP)
+	(NOUN PFE/NNP)
+
+----------------------------------
+original sentence: 
+The Dow is up 28.19 points, or 0.26 percent, to trade at 10,770.17 at 12:21 p.m. EST.
+
+POS tagged sentence: 
+[('The', 'DT'), ('Dow', 'NNP'), ('is', 'VBZ'), ('up', 'IN'), ('28.19', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.26', 'CD'), ('percent', 'NN'), (',', ','), ('to', 'TO'), ('trade', 'VB'), ('at', 'IN'), ('10,770.17', 'CD'), ('at', 'IN'), ('12', 'CD'), (':', ':'), ('21', 'CD'), ('p.m.', 'NN'), ('EST', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION Dow/NNP)   is/VBZ   up/IN   28.19/CD   points/NNS   ,/,   or/CC   0.26/CD   percent/NN   ,/,   to/TO   trade/VB   at/IN   10,770.17/CD   at/IN   12/CD   :/:   21/CD   p.m./NN   (ORGANIZATION EST/NNP)   ./.)
+----------------------------------
+original sentence: 
+The S&P; 500 Index gained 2.91 points, or 0.25 percent, to trade at 1,162.81.
+
+POS tagged sentence: 
+[('The', 'DT'), ('S&P', 'NNP'), (';', ':'), ('500', 'CD'), ('Index', 'NN'), ('gained', 'VBD'), ('2.91', 'CD'), ('points', 'NNS'), (',', ','), ('or', 'CC'), ('0.25', 'CD'), ('percent', 'NN'), (',', ','), ('to', 'TO'), ('trade', 'VB'), ('at', 'IN'), ('1,162.81', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   S&P/NNP   ;/:   500/CD   Index/NN   gained/VBD   2.91/CD   points/NNS   ,/,   or/CC   0.25/CD   percent/NN   ,/,   to/TO   trade/VB   at/IN   1,162.81/CD   ./.)
+----------------------------------
+original sentence: 
+Merck is currently trading up 1.55 percent and Other top performing components of the Dow include American Express NYSE:AXP , up 1.77 percent, and Boeing NYSE:BA , which is up 2.15 percent to trade at $72.24 after Oppenheimer upgraded the firm to "outperform" with a price target of $80.
+
+POS tagged sentence: 
+[('Merck', 'NNP'), ('is', 'VBZ'), ('currently', 'RB'), ('trading', 'VBG'), ('up', 'RP'), ('1.55', 'CD'), ('percent', 'NN'), ('and', 'CC'), ('Other', 'JJ'), ('top', 'JJ'), ('performing', 'NN'), ('components', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('Dow', 'NNP'), ('include', 'VBP'), ('American', 'NNP'), ('Express', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('AXP', 'NNP'), (',', ','), ('up', 'RB'), ('1.77', 'CD'), ('percent', 'NN'), (',', ','), ('and', 'CC'), ('Boeing', 'NNP'), ('NYSE', 'NNP'), (':', ':'), ('BA', 'NNP'), (',', ','), ('which', 'WDT'), ('is', 'VBZ'), ('up', 'RP'), ('2.15', 'CD'), ('percent', 'NN'), ('to', 'TO'), ('trade', 'VB'), ('at', 'IN'), ('$', '$'), ('72.24', 'CD'), ('after', 'IN'), ('Oppenheimer', 'NNP'), ('upgraded', 'VBD'), ('the', 'DT'), ('firm', 'NN'), ('to', 'TO'), ('"', 'VB'), ('outperform', 'NN'), ('"', ':'), ('with', 'IN'), ('a', 'DT'), ('price', 'NN'), ('target', 'NN'), ('of', 'IN'), ('$', '$'), ('80', 'CD'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (GPE Merck/NNP)   is/VBZ   currently/RB   trading/VBG   up/RP   1.55/CD   percent/NN   and/CC   Other/JJ   top/JJ   performing/NN   components/NNS   of/IN   the/DT   Dow/NNP   include/VBP   (ORGANIZATION American/NNP Express/NNP)   NYSE/NNP   :/:   AXP/NNP   ,/,   up/RB   1.77/CD   percent/NN   ,/,   and/CC   (ORGANIZATION Boeing/NNP)   NYSE/NNP   :/:   BA/NNP   ,/,   which/WDT   is/VBZ   up/RP   2.15/CD   percent/NN   to/TO   trade/VB   at/IN   $/$   72.24/CD   after/IN   (PERSON Oppenheimer/NNP)   upgraded/VBD   the/DT   firm/NN   to/TO   "/VB   outperform/NN   "/:   with/IN   a/DT   price/NN   target/NN   of/IN   $/$   80/CD   ./.)Up/down number phrases to consider:
+	(UPDOWN up/RB 1.77/CD)
+
+tagged sentence:
+	 up 1.77	res:+1
+verb phrases to consider:
+	(VERB is/VBZ currently/RB trading/VBG)
+	(VERB include/VBP American/NNP Express/NNP NYSE/NNP)
+	(VERB is/VBZ)
+	(VERB trade/VB at/IN)
+	(VERB upgraded/VBD the/DT firm/NN)
+	(VERB "/VB outperform/NN)
+noun phrases to consider:
+	(NOUN Merck/NNP)
+	(NOUN 1.55/CD percent/NN)
+	(NOUN Other/JJ top/JJ performing/NN components/NNS)
+
+tagged sentence:
+	 Other top performing components	res:1
+	(NOUN Dow/NNP)
+	(NOUN AXP/NNP)
+	(NOUN percent/NN)
+	(NOUN Boeing/NNP NYSE/NNP)
+	(NOUN BA/NNP)
+	(NOUN 2.15/CD percent/NN)
+	(NOUN Oppenheimer/NNP)
+	(NOUN price/NN target/NN)
+
+----------------------------------
+original sentence: 
+The House of Representatives passed the Senate version of the health care reform bill on Sunday with a 219 212 vote.
+
+POS tagged sentence: 
+[('The', 'DT'), ('House', 'NNP'), ('of', 'IN'), ('Representatives', 'NNPS'), ('passed', 'VBD'), ('the', 'DT'), ('Senate', 'NNP'), ('version', 'NN'), ('of', 'IN'), ('the', 'DT'), ('health', 'NN'), ('care', 'NN'), ('reform', 'NN'), ('bill', 'NN'), ('on', 'IN'), ('Sunday', 'NNP'), ('with', 'IN'), ('a', 'DT'), ('219', 'CD'), ('212', 'CD'), ('vote', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   (ORGANIZATION House/NNP)   of/IN   (ORGANIZATION Representatives/NNPS)   passed/VBD   the/DT   (ORGANIZATION Senate/NNP)   version/NN   of/IN   the/DT   health/NN   care/NN   reform/NN   bill/NN   on/IN   Sunday/NNP   with/IN   a/DT   219/CD   212/CD   vote/NN   ./.)
+----------------------------------
+original sentence: 
+The depressed shares of the health care industry generally rallied as the bill largely removes the regulatory uncertainty in this industry.
+
+POS tagged sentence: 
+[('The', 'DT'), ('depressed', 'VBN'), ('shares', 'NNS'), ('of', 'IN'), ('the', 'DT'), ('health', 'NN'), ('care', 'NN'), ('industry', 'NN'), ('generally', 'RB'), ('rallied', 'VBN'), ('as', 'IN'), ('the', 'DT'), ('bill', 'NN'), ('largely', 'RB'), ('removes', 'VBZ'), ('the', 'DT'), ('regulatory', 'JJ'), ('uncertainty', 'NN'), ('in', 'IN'), ('this', 'DT'), ('industry', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   depressed/VBN   shares/NNS   of/IN   the/DT   health/NN   care/NN   industry/NN   generally/RB   rallied/VBN   as/IN   the/DT   bill/NN   largely/RB   removes/VBZ   the/DT   regulatory/JJ   uncertainty/NN   in/IN   this/DT   industry/NN   ./.)
+----------------------------------
+original sentence: 
+In addition, the bill may also contain benefits for pharmaceuticals.
+
+POS tagged sentence: 
+[('In', 'IN'), ('addition', 'NN'), (',', ','), ('the', 'DT'), ('bill', 'NN'), ('may', 'MD'), ('also', 'RB'), ('contain', 'VB'), ('benefits', 'NNS'), ('for', 'IN'), ('pharmaceuticals', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   In/IN   addition/NN   ,/,   the/DT   bill/NN   may/MD   also/RB   contain/VB   benefits/NNS   for/IN   pharmaceuticals/NNS   ./.)
+----------------------------------
+original sentence: 
+The bill would expand coverage to approximately 32 million Americans, increasing the market for drug makers.
+
+POS tagged sentence: 
+[('The', 'DT'), ('bill', 'NN'), ('would', 'MD'), ('expand', 'VB'), ('coverage', 'NN'), ('to', 'TO'), ('approximately', 'RB'), ('32', 'CD'), ('million', 'CD'), ('Americans', 'NNS'), (',', ','), ('increasing', 'VBG'), ('the', 'DT'), ('market', 'NN'), ('for', 'IN'), ('drug', 'NN'), ('makers', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   The/DT   bill/NN   would/MD   expand/VB   coverage/NN   to/TO   approximately/RB   32/CD   million/CD   Americans/NNS   ,/,   increasing/VBG   the/DT   market/NN   for/IN   drug/NN   makers/NNS   ./.)
+----------------------------------
+original sentence: 
+Legislation addressing the "doughnut hole," or the gap in Medicare coverage between the initial limit and the catastrophic threshold, is not overly punitive.
+
+POS tagged sentence: 
+[('Legislation', 'NN'), ('addressing', 'VBG'), ('the', 'DT'), ('"', 'NN'), ('doughnut', 'NN'), ('hole', 'NN'), (',', ','), ('"', ':'), ('or', 'CC'), ('the', 'DT'), ('gap', 'NN'), ('in', 'IN'), ('Medicare', 'NNP'), ('coverage', 'NN'), ('between', 'IN'), ('the', 'DT'), ('initial', 'JJ'), ('limit', 'NN'), ('and', 'CC'), ('the', 'DT'), ('catastrophic', 'JJ'), ('threshold', 'NN'), (',', ','), ('is', 'VBZ'), ('not', 'RB'), ('overly', 'RB'), ('punitive', 'JJ'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Legislation/NN   addressing/VBG   the/DT   "/NN   doughnut/NN   hole/NN   ,/,   "/:   or/CC   the/DT   gap/NN   in/IN   (GPE Medicare/NNP)   coverage/NN   between/IN   the/DT   initial/JJ   limit/NN   and/CC   the/DT   catastrophic/JJ   threshold/NN   ,/,   is/VBZ   not/RB   overly/RB   punitive/JJ   ./.)
+----------------------------------
+original sentence: 
+When seniors hit the doughnut hole, pharmaceuticals will only be required to give a 50 percent discount.
+
+POS tagged sentence: 
+[('When', 'WRB'), ('seniors', 'NNS'), ('hit', 'VBP'), ('the', 'DT'), ('doughnut', 'NN'), ('hole', 'NN'), (',', ','), ('pharmaceuticals', 'NNS'), ('will', 'MD'), ('only', 'RB'), ('be', 'VB'), ('required', 'VBN'), ('to', 'TO'), ('give', 'VB'), ('a', 'DT'), ('50', 'CD'), ('percent', 'NN'), ('discount', 'NN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   When/WRB   seniors/NNS   hit/VBP   the/DT   doughnut/NN   hole/NN   ,/,   pharmaceuticals/NNS   will/MD   only/RB   be/VB   required/VBN   to/TO   give/VB   a/DT   50/CD   percent/NN   discount/NN   ./.)
+----------------------------------
+original sentence: 
+Lastly it was reported last Thursday that the bill would not include a ban on "pay for delay" settlements, in which pharmaceuticals pay generic drug makers to delay entering the market with cheap substitutes.
+
+POS tagged sentence: 
+[('Lastly', 'RB'), ('it', 'PRP'), ('was', 'VBD'), ('reported', 'VBN'), ('last', 'JJ'), ('Thursday', 'NNP'), ('that', 'IN'), ('the', 'DT'), ('bill', 'NN'), ('would', 'MD'), ('not', 'RB'), ('include', 'VB'), ('a', 'DT'), ('ban', 'NN'), ('on', 'IN'), ('"', 'NNP'), ('pay', 'NN'), ('for', 'IN'), ('delay', 'NN'), ('"', ':'), ('settlements', 'NNS'), (',', ','), ('in', 'IN'), ('which', 'WDT'), ('pharmaceuticals', 'NNS'), ('pay', 'VBP'), ('generic', 'JJ'), ('drug', 'NN'), ('makers', 'NNS'), ('to', 'TO'), ('delay', 'VB'), ('entering', 'NN'), ('the', 'DT'), ('market', 'NN'), ('with', 'IN'), ('cheap', 'NN'), ('substitutes', 'NNS'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   Lastly/RB   it/PRP   was/VBD   reported/VBN   last/JJ   Thursday/NNP   that/IN   the/DT   bill/NN   would/MD   not/RB   include/VB   a/DT   ban/NN   on/IN   "/NNP   pay/NN   for/IN   delay/NN   "/:   settlements/NNS   ,/,   in/IN   which/WDT   pharmaceuticals/NNS   pay/VBP   generic/JJ   drug/NN   makers/NNS   to/TO   delay/VB   entering/NN   the/DT   market/NN   with/IN   cheap/NN   substitutes/NNS   ./.)
+----------------------------------
+original sentence: 
+Shannon Stapleton / Reuters
+ This article is copyrighted by International Business Times.
+
+POS tagged sentence: 
+[('Shannon', 'NNP'), ('Stapleton', 'NNP'), ('/', 'NNP'), ('Reuters', 'NNP'), ('This', 'NNP'), ('article', 'NN'), ('is', 'VBZ'), ('copyrighted', 'VBN'), ('by', 'IN'), ('International', 'NNP'), ('Business', 'NNP'), ('Times', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   (PERSON Shannon/NNP)   (PERSON Stapleton/NNP)   //NNP   Reuters/NNP   This/NNP   article/NN   is/VBZ   copyrighted/VBN   by/IN   (ORGANIZATION International/NNP Business/NNP Times/NNP)   ./.)
+----------------------------------
+original sentence: 
+People who viewed this also read IMF proclaims Australia as economic leader
+Greece deficit worse than feared, markets tumble
+ANZ to beat HSBC and Standard Chartered in Asia
+Stocks close lower on Hoenig speech and econ data
+FOREX Euro falls on Greece concerns; yen, dollar rise
+BHP faces $2.7M graft scandal
+U.S. stocks positive despite Greece concerns
+ANZ to beat HSBC and Standard Chartered in Asia
+BHP faces $2.7M graft scandal
+Greece deficit worse than feared, markets tumble
+Stocks close lower on Hoenig speech and econ data
+China shares slump, biggest percentage loss in 8 mths
+Stocks close up on retail sales, Greece problems cap gains
+IMF proclaims Australia as economic leader
+ANZ to beat HSBC and Standard Chartered in Asia
+BHP faces $2.7M graft scandal
+Greece deficit worse than feared, markets tumble
+Stocks close lower on Hoenig speech and econ data
+China shares slump, biggest percentage loss in 8 mths
+Stocks close up on retail sales, Greece problems cap gains
+IMF proclaims Australia as economic leader
+Most Popular in IBTimes
+Iluka Resources touts increased mineral demands for 2010
+&quot;South Park&quot; airs censored episode after threat
+Morgan Stanley reports first quarter profit
+Greece faces tight timeline before May debt crunch
+Rio Tinto employees convicted on bribery charges
+Visa to buy online processor CyberSource
+Apple results smash Street view, outlook strong
+Stocks rocked by GS fraud charges
+Rio Tinto employees convicted on bribery charges
+Already 63.000 flights cancelled and disruption continues for next days
+Citigroup profit $4.4 billion, tops Street view
+Volcanic ash cloud reaches North American coast
+ANZ to beat HSBC and Standard Chartered in Asia
+&quot;South Park&quot; airs censored episode after threat
+Puma ditches shoe boxes in eco initiative
+The Truth Behind The Recent Unrest in Kyrgyzstan
+Pimco shuns Greek debt despite rescue package
+Drug violence scares off tourists to Mexico
+More M & A expected in cable manufacturing
+Morgan Stanley fund may lose $5.4 billion: report
+Gold Reserves: Tough for China to beat US
+&copy; Copyright 2010 International Business Times.
+
+POS tagged sentence: 
+[('People', 'NNS'), ('who', 'WP'), ('viewed', 'VBN'), ('this', 'DT'), ('also', 'RB'), ('read', 'VBD'), ('IMF', 'NNP'), ('proclaims', 'NNS'), ('Australia', 'NNP'), ('as', 'IN'), ('economic', 'JJ'), ('leader', 'NN'), ('Greece', 'NNP'), ('deficit', 'NN'), ('worse', 'NN'), ('than', 'IN'), ('feared', 'VBN'), (',', ','), ('markets', 'NNS'), ('tumble', 'JJ'), ('ANZ', 'NNP'), ('to', 'TO'), ('beat', 'VB'), ('HSBC', 'NNP'), ('and', 'CC'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('Stocks', 'NNP'), ('close', 'NN'), ('lower', 'JJR'), ('on', 'IN'), ('Hoenig', 'NNP'), ('speech', 'NN'), ('and', 'CC'), ('econ', 'NN'), ('data', 'NNS'), ('FOREX', 'NNP'), ('Euro', 'NNP'), ('falls', 'VBZ'), ('on', 'IN'), ('Greece', 'NNP'), ('concerns', 'NNS'), (';', ':'), ('yen', 'NN'), (',', ','), ('dollar', 'NN'), ('rise', 'NN'), ('BHP', 'NNP'), ('faces', 'NNS'), ('$', '$'), ('2.7M', 'CD'), ('graft', 'NN'), ('scandal', 'NN'), ('U.S.', 'NNP'), ('stocks', 'NNS'), ('positive', 'JJ'), ('despite', 'IN'), ('Greece', 'NNP'), ('concerns', 'NNS'), ('ANZ', 'NNP'), ('to', 'TO'), ('beat', 'VB'), ('HSBC', 'NNP'), ('and', 'CC'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('BHP', 'NNP'), ('faces', 'NNS'), ('$', '$'), ('2.7M', 'CD'), ('graft', 'NN'), ('scandal', 'NN'), ('Greece', 'NNP'), ('deficit', 'NN'), ('worse', 'NN'), ('than', 'IN'), ('feared', 'VBN'), (',', ','), ('markets', 'NNS'), ('tumble', 'JJ'), ('Stocks', 'NNS'), ('close', 'JJ'), ('lower', 'JJR'), ('on', 'IN'), ('Hoenig', 'NNP'), ('speech', 'NN'), ('and', 'CC'), ('econ', 'NN'), ('data', 'NNS'), ('China', 'NNP'), ('shares', 'NNS'), ('slump', 'VB'), (',', ','), ('biggest', 'JJS'), ('percentage', 'NN'), ('loss', 'NN'), ('in', 'IN'), ('8', 'CD'), ('mths', 'NNS'), ('Stocks', 'NNS'), ('close', 'JJ'), ('up', 'IN'), ('on', 'IN'), ('retail', 'JJ'), ('sales', 'NNS'), (',', ','), ('Greece', 'NNP'), ('problems', 'NNS'), ('cap', 'VBP'), ('gains', 'NNS'), ('IMF', 'NNP'), ('proclaims', 'NNS'), ('Australia', 'NNP'), ('as', 'IN'), ('economic', 'JJ'), ('leader', 'NN'), ('ANZ', 'NNP'), ('to', 'TO'), ('beat', 'VB'), ('HSBC', 'NNP'), ('and', 'CC'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('BHP', 'NNP'), ('faces', 'NNS'), ('$', '$'), ('2.7M', 'CD'), ('graft', 'NN'), ('scandal', 'NN'), ('Greece', 'NNP'), ('deficit', 'NN'), ('worse', 'NN'), ('than', 'IN'), ('feared', 'VBN'), (',', ','), ('markets', 'NNS'), ('tumble', 'JJ'), ('Stocks', 'NNS'), ('close', 'JJ'), ('lower', 'JJR'), ('on', 'IN'), ('Hoenig', 'NNP'), ('speech', 'NN'), ('and', 'CC'), ('econ', 'NN'), ('data', 'NNS'), ('China', 'NNP'), ('shares', 'NNS'), ('slump', 'VB'), (',', ','), ('biggest', 'JJS'), ('percentage', 'NN'), ('loss', 'NN'), ('in', 'IN'), ('8', 'CD'), ('mths', 'NNS'), ('Stocks', 'NNS'), ('close', 'JJ'), ('up', 'IN'), ('on', 'IN'), ('retail', 'JJ'), ('sales', 'NNS'), (',', ','), ('Greece', 'NNP'), ('problems', 'NNS'), ('cap', 'VBP'), ('gains', 'NNS'), ('IMF', 'NNP'), ('proclaims', 'NNS'), ('Australia', 'NNP'), ('as', 'IN'), ('economic', 'JJ'), ('leader', 'NN'), ('Most', 'JJS'), ('Popular', 'JJ'), ('in', 'IN'), ('IBTimes', 'NNP'), ('Iluka', 'NNP'), ('Resources', 'NNPS'), ('touts', 'NNS'), ('increased', 'VBD'), ('mineral', 'JJ'), ('demands', 'NNS'), ('for', 'IN'), ('2010', 'CD'), ('&quot', 'JJ'), (';', ':'), ('South', 'NNP'), ('Park&quot', 'NN'), (';', ':'), ('airs', 'NNS'), ('censored', 'VBD'), ('episode', 'NN'), ('after', 'IN'), ('threat', 'NN'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('reports', 'VBZ'), ('first', 'JJ'), ('quarter', 'NN'), ('profit', 'NN'), ('Greece', 'NNP'), ('faces', 'NNS'), ('tight', 'VBD'), ('timeline', 'NN'), ('before', 'IN'), ('May', 'NNP'), ('debt', 'NN'), ('crunch', 'NN'), ('Rio', 'NNP'), ('Tinto', 'NNP'), ('employees', 'NNS'), ('convicted', 'VBD'), ('on', 'IN'), ('bribery', 'NN'), ('charges', 'NNS'), ('Visa', 'NNP'), ('to', 'TO'), ('buy', 'VB'), ('online', 'NN'), ('processor', 'NN'), ('CyberSource', 'NN'), ('Apple', 'NNP'), ('results', 'NNS'), ('smash', 'VBP'), ('Street', 'NNP'), ('view', 'NN'), (',', ','), ('outlook', 'NN'), ('strong', 'JJ'), ('Stocks', 'NNS'), ('rocked', 'VBD'), ('by', 'IN'), ('GS', 'NNP'), ('fraud', 'NN'), ('charges', 'VBZ'), ('Rio', 'NNP'), ('Tinto', 'NNP'), ('employees', 'NNS'), ('convicted', 'VBD'), ('on', 'IN'), ('bribery', 'NN'), ('charges', 'NNS'), ('Already', 'NNP'), ('63.000', 'CD'), ('flights', 'NNS'), ('cancelled', 'VBD'), ('and', 'CC'), ('disruption', 'NN'), ('continues', 'VBZ'), ('for', 'IN'), ('next', 'JJ'), ('days', 'NNS'), ('Citigroup', 'NNP'), ('profit', 'NN'), ('$', '$'), ('4.4', 'CD'), ('billion', 'CD'), (',', ','), ('tops', 'NNS'), ('Street', 'NNP'), ('view', 'NN'), ('Volcanic', 'NNP'), ('ash', 'NN'), ('cloud', 'VBD'), ('reaches', 'NNS'), ('North', 'NNP'), ('American', 'NNP'), ('coast', 'NN'), ('ANZ', 'NNP'), ('to', 'TO'), ('beat', 'VB'), ('HSBC', 'NNP'), ('and', 'CC'), ('Standard', 'NNP'), ('Chartered', 'NNP'), ('in', 'IN'), ('Asia', 'NNP'), ('&quot', 'NNP'), (';', ':'), ('South', 'NNP'), ('Park&quot', 'NN'), (';', ':'), ('airs', 'NNS'), ('censored', 'VBD'), ('episode', 'NN'), ('after', 'IN'), ('threat', 'NN'), ('Puma', 'NNP'), ('ditches', 'VBZ'), ('shoe', 'NN'), ('boxes', 'NNS'), ('in', 'IN'), ('eco', 'NN'), ('initiative', 'NN'), ('The', 'DT'), ('Truth', 'NNP'), ('Behind', 'NNP'), ('The', 'NNP'), ('Recent', 'NNP'), ('Unrest', 'NNP'), ('in', 'IN'), ('Kyrgyzstan', 'NNP'), ('Pimco', 'NNP'), ('shuns', 'VBZ'), ('Greek', 'NNP'), ('debt', 'NN'), ('despite', 'IN'), ('rescue', 'JJ'), ('package', 'NN'), ('Drug', 'NN'), ('violence', 'NN'), ('scares', 'NNS'), ('off', 'IN'), ('tourists', 'NNS'), ('to', 'TO'), ('Mexico', 'NNP'), ('More', 'NNP'), ('M', 'NNP'), ('&', 'CC'), ('A', 'DT'), ('expected', 'VBN'), ('in', 'IN'), ('cable', 'JJ'), ('manufacturing', 'NN'), ('Morgan', 'NNP'), ('Stanley', 'NNP'), ('fund', 'NN'), ('may', 'MD'), ('lose', 'VB'), ('$', '$'), ('5.4', 'CD'), ('billion', 'CD'), (':', ':'), ('report', 'NN'), ('Gold', 'NNP'), ('Reserves', 'NNP'), (':', ':'), ('Tough', 'NNP'), ('for', 'IN'), ('China', 'NNP'), ('to', 'TO'), ('beat', 'VB'), ('US', 'PRP'), ('&copy', 'JJ'), (';', ':'), ('Copyright', 'NNP'), ('2010', 'CD'), ('International', 'NNP'), ('Business', 'NNP'), ('Times', 'NNP'), ('.', '.')]
+
+
+ERTAGGED sentence: (S   People/NNS   who/WP   viewed/VBN   this/DT   also/RB   read/VBD   (ORGANIZATION IMF/NNP)   proclaims/NNS   (GPE Australia/NNP)   as/IN   economic/JJ   leader/NN   (GPE Greece/NNP)   deficit/NN   worse/NN   than/IN   feared/VBN   ,/,   markets/NNS   tumble/JJ   (ORGANIZATION ANZ/NNP)   to/TO   beat/VB   (ORGANIZATION HSBC/NNP)   and/CC   (PERSON Standard/NNP Chartered/NNP)   in/IN   (GPE Asia/NNP)   Stocks/NNP   close/NN   lower/JJR   on/IN   (GPE Hoenig/NNP)   speech/NN   and/CC   econ/NN   data/NNS   (ORGANIZATION FOREX/NNP Euro/NNP)   falls/VBZ   on/IN   (GPE Greece/NNP)   concerns/NNS   ;/:   yen/NN   ,/,   dollar/NN   rise/NN   (ORGANIZATION BHP/NNP)   faces/NNS   $/$   2.7M/CD   graft/NN   scandal/NN   (GPE U.S./NNP)   stocks/NNS   positive/JJ   despite/IN   (GPE Greece/NNP)   concerns/NNS   (ORGANIZATION ANZ/NNP)   to/TO   beat/VB   (ORGANIZATION HSBC/NNP)   and/CC   (PERSON Standard/NNP Chartered/NNP)   in/IN   (GPE Asia/NNP)   BHP/NNP   faces/NNS   $/$   2.7M/CD   graft/NN   scandal/NN   (GPE Greece/NNP)   deficit/NN   worse/NN   than/IN   feared/VBN   ,/,   markets/NNS   tumble/JJ   Stocks/NNS   close/JJ   lower/JJR   on/IN   (GPE Hoenig/NNP)   speech/NN   and/CC   econ/NN   data/NNS   (GPE China/NNP)   shares/NNS   slump/VB   ,/,   biggest/JJS   percentage/NN   loss/NN   in/IN   8/CD   mths/NNS   Stocks/NNS   close/JJ   up/IN   on/IN   retail/JJ   sales/NNS   ,/,   (GPE Greece/NNP)   problems/NNS   cap/VBP   gains/NNS   (ORGANIZATION IMF/NNP)   proclaims/NNS   (GPE Australia/NNP)   as/IN   economic/JJ   leader/NN   (ORGANIZATION ANZ/NNP)   to/TO   beat/VB   (ORGANIZATION HSBC/NNP)   and/CC   (PERSON Standard/NNP Chartered/NNP)   in/IN   (GPE Asia/NNP)   BHP/NNP   faces/NNS   $/$   2.7M/CD   graft/NN   scandal/NN   (GPE Greece/NNP)   deficit/NN   worse/NN   than/IN   feared/VBN   ,/,   markets/NNS   tumble/JJ   Stocks/NNS   close/JJ   lower/JJR   on/IN   (GPE Hoenig/NNP)   speech/NN   and/CC   econ/NN   data/NNS   (GPE China/NNP)   shares/NNS   slump/VB   ,/,   biggest/JJS   percentage/NN   loss/NN   in/IN   8/CD   mths/NNS   Stocks/NNS   close/JJ   up/IN   on/IN   retail/JJ   sales/NNS   ,/,   (GPE Greece/NNP)   problems/NNS   cap/VBP   gains/NNS   (ORGANIZATION IMF/NNP)   proclaims/NNS   (GPE Australia/NNP)   as/IN   economic/JJ   leader/NN   Most/JJS   Popular/JJ   in/IN   (ORGANIZATION IBTimes/NNP Iluka/NNP Resources/NNPS)   touts/NNS   increased/VBD   mineral/JJ   demands/NNS   for/IN   2010/CD   &quot/JJ   ;/:   (GPE South/NNP)   Park&quot/NN   ;/:   airs/NNS   censored/VBD   episode/NN   after/IN   threat/NN   (PERSON Morgan/NNP Stanley/NNP)   reports/VBZ   first/JJ   quarter/NN   profit/NN   (GPE Greece/NNP)   faces/NNS   tight/VBD   timeline/NN   before/IN   May/NNP   debt/NN   crunch/NN   (PERSON Rio/NNP Tinto/NNP)   employees/NNS   convicted/VBD   on/IN   bribery/NN   charges/NNS   (PERSON Visa/NNP)   to/TO   buy/VB   online/NN   processor/NN   (ORGANIZATION CyberSource/NN Apple/NNP)   results/NNS   smash/VBP   (PERSON Street/NNP)   view/NN   ,/,   outlook/NN   strong/JJ   Stocks/NNS   rocked/VBD   by/IN   (ORGANIZATION GS/NNP)   fraud/NN   charges/VBZ   (PERSON Rio/NNP Tinto/NNP)   employees/NNS   convicted/VBD   on/IN   bribery/NN   charges/NNS   Already/NNP   63.000/CD   flights/NNS   cancelled/VBD   and/CC   disruption/NN   continues/VBZ   for/IN   next/JJ   days/NNS   (PERSON Citigroup/NNP)   profit/NN   $/$   4.4/CD   billion/CD   ,/,   tops/NNS   (PERSON Street/NNP)   view/NN   Volcanic/NNP   ash/NN   cloud/VBD   reaches/NNS   (PERSON North/NNP American/NNP)   coast/NN   (ORGANIZATION ANZ/NNP)   to/TO   beat/VB   (ORGANIZATION HSBC/NNP)   and/CC   (PERSON Standard/NNP Chartered/NNP)   in/IN   (GPE Asia/NNP)   &quot/NNP   ;/:   (GPE South/NNP)   Park&quot/NN   ;/:   airs/NNS   censored/VBD   episode/NN   after/IN   threat/NN   (PERSON Puma/NNP)   ditches/VBZ   shoe/NN   boxes/NNS   in/IN   eco/NN   initiative/NN   The/DT   (ORGANIZATION Truth/NNP Behind/NNP)   The/NNP   Recent/NNP   Unrest/NNP   in/IN   (GPE Kyrgyzstan/NNP)   Pimco/NNP   shuns/VBZ   (GPE Greek/NNP)   debt/NN   despite/IN   rescue/JJ   package/NN   Drug/NN   violence/NN   scares/NNS   off/IN   tourists/NNS   to/TO   (GPE Mexico/NNP)   More/NNP   M/NNP   &/CC   A/DT   expected/VBN   in/IN   cable/JJ   manufacturing/NN   (PERSON Morgan/NNP Stanley/NNP)   fund/NN   may/MD   lose/VB   $/$   5.4/CD   billion/CD   :/:   report/NN   (ORGANIZATION Gold/NNP)   Reserves/NNP   :/:   Tough/NNP   for/IN   (GPE China/NNP)   to/TO   beat/VB   US/PRP   &copy/JJ   ;/:   Copyright/NNP   2010/CD   (ORGANIZATION International/NNP Business/NNP Times/NNP)   ./.)
+----------------------------------
+original sentence: 
+All Rights Reserved.
+
+
+POS tagged sentence: 
+[('All', 'DT'), ('Rights', 'NNS'), ('Reserved', 'VBN'), ('.', '.')]
+
+
+ERTAGGED sentence: (S All/DT Rights/NNS Reserved/VBN ./.)
+
+veryneg:0	neg:0	pos:2	verypos:0	total:2
