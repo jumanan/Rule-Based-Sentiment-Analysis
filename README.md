@@ -1,3 +1,5 @@
+This project was submitted as a final project in an elective course, Text Minning 2009. The project was done in a group. I mainly worked on the sentiment analyzer and on the accompying report.
+
 The project performs sentiment analysis on financial news articles. The input is a company ticker, and the result is a score from the range [-1, 1]. The score reflects what kind of sentiment the articles have for the company. 
 The program, once it receives a specific ticker, will search for articles of that ticker in top financial news sites, such as Google Finance, Yahoo! Finance, and download articles of the past 30 days from the current date.
 The downloaded articles will be cleaned and converted from HTML format to a text format, eliminating all advertisements, links, and information that are not directly related to the article itself.
